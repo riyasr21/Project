@@ -1,0 +1,25 @@
+Known 0 5 0 5 O
+sensitivity 6 17 6 17 O
+to 18 20 18 20 O
+riboflavin 21 31 21 31 B-allergy_name
+, 31 32 31 32 O
+sunlight 33 41 33 41 B-allergy_name
+
+patients 0 8 42 50 O
+identified 9 19 51 61 O
+as 20 22 62 64 O
+having 23 29 65 71 O
+keratoconus 30 41 72 83 B-chronic_disease
+or 42 44 84 86 O
+post 45 49 87 91 O
+refractive 50 60 92 102 O
+cornea 61 67 103 109 B-chronic_disease
+ectasia 68 75 110 117 I-chronic_disease
+with 76 80 118 122 O
+astigmatism 81 92 123 134 O
+of 93 95 135 137 O
+1.5 96 99 138 141 B-lower_bound
+Diopters 100 108 142 150 I-lower_bound
+or 109 111 151 153 O
+greater 112 119 154 161 O
+

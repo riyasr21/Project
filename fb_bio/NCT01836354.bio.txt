@@ -1,0 +1,133 @@
+( 0 1 0 1 O
+> 1 2 1 2 O
+130/85 2 8 2 8 B-lower_bound
+mmHg 9 13 9 13 I-lower_bound
+) 13 14 13 14 O
+at 15 17 15 17 O
+the 18 21 18 21 O
+time 22 26 22 26 O
+of 27 29 27 29 O
+discharge 30 39 30 39 O
+
+( 0 1 40 41 O
+NIHSS 1 6 41 46 B-clinical_variable
+< 7 8 47 48 O
+5 9 10 49 50 B-upper_bound
+) 10 11 50 51 O
+
+A 0 1 52 53 O
+Modified 2 10 54 62 B-clinical_variable
+Rankin 11 17 63 69 I-clinical_variable
+score 18 23 70 75 I-clinical_variable
+> 24 25 76 77 O
+2 26 27 78 79 B-lower_bound
+at 28 30 80 82 O
+baseline 31 39 83 91 O
+
+Aged 0 4 92 96 B-age
+greater 5 12 97 104 O
+than 13 17 105 109 O
+18 18 20 110 112 B-lower_bound
+years 21 26 113 118 I-lower_bound
+at 27 29 119 121 O
+onset 30 35 122 127 O
+of 36 38 128 130 O
+event 39 44 131 136 O
+
+Diagnosed 0 9 137 146 O
+with 10 14 147 151 O
+mild 15 19 152 156 O
+ischemic 20 28 157 165 O
+cerebral 29 37 166 174 B-chronic_disease
+infarction 38 48 175 185 I-chronic_disease
+or 49 51 186 188 O
+mild 52 56 189 193 O
+intracerebral 57 70 194 207 B-chronic_disease
+hemorrhage 71 81 208 218 I-chronic_disease
+
+English 0 7 219 226 B-language_fluency
+or 8 10 227 229 I-language_fluency
+Spanish 11 18 230 237 I-language_fluency
+Speaker 19 26 238 245 I-language_fluency
+
+Patient 0 7 246 253 O
+does 8 12 254 258 O
+not 13 16 259 262 B-language_fluency
+speak 17 22 263 268 I-language_fluency
+English 23 30 269 276 I-language_fluency
+or 31 33 277 279 I-language_fluency
+Spanish 34 41 280 287 I-language_fluency
+
+Patients 0 8 288 296 O
+with 9 13 297 301 O
+end 14 17 302 305 O
+stage 18 23 306 311 O
+cancer 24 30 312 318 B-cancer
+, 30 31 318 319 O
+or 32 34 320 322 O
+other 35 40 323 328 O
+medical 41 48 329 336 O
+conditions 49 59 337 347 O
+resulting 60 69 348 357 O
+in 70 72 358 360 O
+mortality 73 82 361 370 O
+less 83 87 371 375 O
+than 88 92 376 380 O
+1 93 94 381 382 B-upper_bound
+year 95 99 383 387 I-upper_bound
+
+Pre 0 3 388 391 O
+- 3 4 391 392 O
+stroke 4 10 392 398 B-chronic_disease
+dementia 11 19 399 407 B-chronic_disease
+history 20 27 408 415 O
+
+Resident 0 8 416 424 O
+of 9 11 425 427 O
+NY 12 14 428 430 O
+Metropolitan 15 27 431 443 O
+community 28 37 444 453 O
+in 38 40 454 456 O
+home 41 45 457 461 O
+with 46 50 462 466 O
+land 51 55 467 471 O
+or 56 58 472 474 O
+cell 59 63 475 479 B-technology_access
+phone 64 69 480 485 I-technology_access
+
+TIA 0 3 486 489 B-chronic_disease
+based 4 9 490 495 O
+on 10 12 496 498 O
+a 13 14 499 500 O
+clinical 15 23 501 509 O
+definition 24 34 510 520 O
+of 35 37 521 523 O
+focal 38 43 524 529 O
+neurologic 44 54 530 540 O
+deficits 55 63 541 549 O
+consistent 64 74 550 560 O
+with 75 79 561 565 O
+a 80 81 566 567 O
+single 82 88 568 574 O
+vascular 89 97 575 583 O
+territory 98 107 584 593 O
+of 108 110 594 596 O
+the 111 114 597 600 O
+brain 115 120 601 606 O
+
+Vascular 0 8 607 615 O
+risk 9 13 616 620 O
+factors 14 21 621 628 O
+including 22 31 629 638 O
+HTN 32 35 639 642 B-chronic_disease
+history 36 43 643 650 O
+or 44 46 651 653 O
+elevated 47 55 654 662 O
+blood 56 61 663 668 O
+pressure 62 70 669 677 O
+
+diabetes 0 8 678 686 B-chronic_disease
+or 9 11 687 689 O
+metabolic 12 21 690 699 B-chronic_disease
+syndrome 22 30 700 708 I-chronic_disease
+

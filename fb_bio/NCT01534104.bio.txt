@@ -1,0 +1,73 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+old 15 18 15 18 O
+
+Planned 0 7 19 26 O
+resection 8 17 27 36 B-treatment
+of 18 20 37 39 I-treatment
+the 21 24 40 43 I-treatment
+tumor 25 30 44 49 I-treatment
+
+Pregnant 0 8 50 58 B-pregnancy
+
+Primary 0 7 59 66 B-cancer
+or 8 10 67 69 I-cancer
+secondary 11 20 70 79 I-cancer
+brain 21 26 80 85 I-cancer
+tumor 27 32 86 91 I-cancer
+( 33 34 92 93 O
+enhancing 34 43 93 102 O
+mass 44 48 103 107 O
+lesion 49 55 108 114 O
+± 56 57 115 116 O
+nonenhancing 58 70 117 129 O
+abnormality 71 82 130 141 O
+) 82 83 141 142 O
+, 83 84 142 143 O
+known 85 90 144 149 O
+or 91 93 150 152 O
+suspected 94 103 153 162 O
+, 103 104 162 163 O
+located 105 112 164 171 O
+near 113 117 172 176 O
+( 118 119 177 178 O
+< 119 120 178 179 O
+2 121 122 180 181 B-upper_bound
+cm 123 125 182 184 I-upper_bound
+) 125 126 184 185 O
+any 127 130 186 189 O
+portion 131 138 190 197 O
+of 139 141 198 200 O
+the 142 145 201 204 O
+motor 146 151 205 210 O
+cortex 152 158 211 217 O
+
+Unable 0 6 218 224 O
+to 7 9 225 227 O
+tolerate 10 18 228 236 O
+MRI 19 22 237 240 O
+and/or 23 29 241 247 O
+perform 30 37 248 255 O
+fMRI 38 42 256 260 O
+tasks 43 48 261 266 O
+( 49 50 267 268 O
+e.g. 50 54 268 272 O
+, 54 55 272 273 O
+severe 56 62 274 280 O
+claustrophobia 63 77 281 295 B-chronic_disease
+or 78 80 296 298 O
+pacemaker 81 90 299 308 O
+or 91 93 309 311 O
+aneurysm 94 102 312 320 B-chronic_disease
+clip 103 107 321 325 O
+that 108 112 326 330 O
+precludes 113 122 331 340 O
+MRI 123 126 341 344 O
+scan 127 131 345 349 O
+) 131 132 349 350 O
+
+nursing 0 7 351 358 O
+female 8 14 359 365 B-gender
+

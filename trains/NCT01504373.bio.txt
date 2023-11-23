@@ -1,0 +1,134 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+1 5 6 5 6 B-lower_bound
+month 7 12 7 12 I-lower_bound
+to 13 15 13 15 O
+18 16 18 16 18 B-upper_bound
+years 19 24 19 24 I-upper_bound
+
+Cervical 0 8 25 33 B-chronic_disease
+- 8 9 33 34 I-chronic_disease
+spine 9 14 34 39 I-chronic_disease
+injury 15 21 40 46 I-chronic_disease
+that 22 26 47 51 O
+prohibits 27 36 52 61 O
+rolling 37 44 62 69 O
+the 45 48 70 73 O
+patient 49 56 74 81 O
+for 57 60 82 85 O
+electrical 61 71 86 96 B-treatment
+impedance 72 81 97 106 I-treatment
+tomography 82 92 107 117 I-treatment
+( 93 94 118 119 I-treatment
+EIT 94 97 119 122 I-treatment
+) 97 98 122 123 I-treatment
+band 99 103 124 128 I-treatment
+placement 104 113 129 138 I-treatment
+
+Congenital 0 10 139 149 B-chronic_disease
+cyanotic 11 19 150 158 I-chronic_disease
+heart 20 25 159 164 I-chronic_disease
+defects 26 33 165 172 I-chronic_disease
+
+Currently 0 9 173 182 O
+in 10 12 183 185 O
+the 13 16 186 189 O
+pressure 17 25 190 198 B-treatment
+support 26 33 199 206 I-treatment
+ventilation 34 45 207 218 I-treatment
+( 46 47 219 220 I-treatment
+PSV 47 50 220 223 I-treatment
+) 50 51 223 224 I-treatment
+or 52 54 225 227 O
+neurally 55 63 228 236 B-treatment
+adjusted 64 72 237 245 I-treatment
+ventilatory 73 84 246 257 I-treatment
+assist 85 91 258 264 I-treatment
+( 92 93 265 266 I-treatment
+NAVA 93 97 266 270 I-treatment
+) 97 98 270 271 I-treatment
+mode 99 103 272 276 O
+of 104 106 277 279 O
+ventilation 107 118 280 291 O
+
+Fractional 0 10 292 302 B-clinical_variable
+inspired 11 19 303 311 I-clinical_variable
+oxygen 20 26 312 318 I-clinical_variable
+concentration 27 40 319 332 I-clinical_variable
+( 41 42 333 334 I-clinical_variable
+FIO2 42 46 334 338 I-clinical_variable
+) 46 47 338 339 I-clinical_variable
+> 48 49 340 341 O
+0.8 50 53 342 345 B-lower_bound
+
+History 0 7 346 353 O
+of 8 10 354 356 O
+prematurity 11 22 357 368 O
+( 23 24 369 370 O
+birth 24 29 370 375 O
+at 30 32 376 378 O
+post 33 37 379 383 B-clinical_variable
+- 37 38 383 384 I-clinical_variable
+conceptual 38 48 384 394 I-clinical_variable
+age 49 52 395 398 I-clinical_variable
+< 53 54 399 400 O
+37 54 56 400 402 B-upper_bound
+weeks 57 62 403 408 I-upper_bound
+) 62 63 408 409 O
+
+Mechanically 0 12 410 422 O
+ventilated 13 23 423 433 O
+for 24 27 434 437 O
+longer 28 34 438 444 O
+than 35 39 445 449 O
+6 40 41 450 451 B-lower_bound
+hours 42 47 452 457 I-lower_bound
+
+Patients 0 8 458 466 O
+in 9 11 467 469 O
+which 12 17 470 475 O
+a 18 19 476 477 O
+nasal 20 25 478 483 B-treatment
+gastric 26 33 484 491 I-treatment
+or 34 36 492 494 O
+oral 37 41 495 499 B-treatment
+gastric 42 49 500 507 I-treatment
+tube 50 54 508 512 I-treatment
+is 55 57 513 515 O
+contraindicated 58 73 516 531 O
+
+Patients 0 8 532 540 O
+who 9 12 541 544 O
+are 13 16 545 548 O
+receiving 17 26 549 558 O
+chemical 27 35 559 567 O
+paralysis 36 45 568 577 B-chronic_disease
+
+Peak 0 4 578 582 B-clinical_variable
+inspiratory 5 16 583 594 I-clinical_variable
+pressure 17 25 595 603 I-clinical_variable
+( 26 27 604 605 I-clinical_variable
+PIP 27 30 605 608 I-clinical_variable
+) 30 31 608 609 I-clinical_variable
+> 32 33 610 611 O
+30 34 36 612 614 B-lower_bound
+cmH2O 37 42 615 620 I-lower_bound
+
+Positive 0 8 621 629 B-clinical_variable
+end 9 12 630 633 I-clinical_variable
+expiratory 13 23 634 644 I-clinical_variable
+pressure 24 32 645 653 I-clinical_variable
+( 33 34 654 655 I-clinical_variable
+PEEP 34 38 655 659 I-clinical_variable
+) 38 39 659 660 I-clinical_variable
+> 40 41 661 662 O
+15 42 44 663 665 B-lower_bound
+cmH2O 45 50 666 671 I-lower_bound
+
+Uncuffed 0 8 672 680 B-treatment
+endotracheal 9 21 681 693 I-treatment
+tube 22 26 694 698 I-treatment
+( 27 28 699 700 I-treatment
+ETT 28 31 700 703 I-treatment
+) 31 32 703 704 I-treatment
+

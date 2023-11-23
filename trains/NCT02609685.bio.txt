@@ -1,0 +1,56 @@
+2.0 0 3 0 3 B-upper_bound
+cm 4 6 4 6 I-upper_bound
+or 7 9 7 9 O
+smaller 10 17 10 17 O
+nodules 18 25 18 25 O
+by 26 28 26 28 O
+ultrasonographic 29 45 29 45 O
+criteria 46 54 46 54 O
+
+Central 0 7 55 62 B-cancer
+or 8 10 63 65 I-cancer
+lateral 11 18 66 73 I-cancer
+neck 19 23 74 78 I-cancer
+lymphadenopathy 24 39 79 94 I-cancer
+suspicious 40 50 95 105 O
+for 51 54 106 109 O
+PTC 55 58 110 113 B-treatment
+
+History 0 7 114 121 O
+of 8 10 122 124 O
+radiation 11 20 125 134 B-treatment
+to 21 23 135 137 O
+neck 24 28 138 142 O
+
+Must 0 4 143 147 O
+be 5 7 148 150 O
+able 8 12 151 155 B-language_fluency
+to 13 15 156 158 I-language_fluency
+read 16 20 159 163 I-language_fluency
+and 21 24 164 167 I-language_fluency
+write 25 30 168 173 I-language_fluency
+English 31 38 174 181 I-language_fluency
+fluently 39 47 182 190 I-language_fluency
+to 48 50 191 193 O
+participate 51 62 194 205 O
+in 63 65 206 208 O
+the 66 69 209 212 O
+questionnaire 70 83 213 226 O
+portion 84 91 227 234 O
+of 92 94 235 237 O
+the 95 98 238 241 O
+study 99 104 242 247 O
+
+Pathologically 0 14 248 262 O
+confirmed 15 24 263 272 O
+Bethesda 25 33 273 281 O
+V 34 35 282 283 O
+or 36 38 284 286 O
+VI 39 41 287 289 O
+thyroid 42 49 290 297 O
+nodules 50 57 298 305 O
+with 58 62 306 310 O
+papillary 63 72 311 320 B-cancer
+thyroid 73 80 321 328 I-cancer
+carcinoma 81 90 329 338 I-cancer
+

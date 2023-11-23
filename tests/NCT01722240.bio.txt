@@ -1,0 +1,157 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+75 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+BMI 0 3 16 19 B-bmi
+20 4 6 20 22 B-lower_bound
+- 6 7 22 23 O
+40 7 9 23 25 B-upper_bound
+kg 10 12 26 28 I-upper_bound
+/ 12 13 28 29 I-upper_bound
+m2 13 15 29 31 I-upper_bound
+
+Coronary 0 8 32 40 O
+event 9 14 41 46 O
+or 15 17 47 49 O
+procedure 18 27 50 59 O
+( 28 29 60 61 O
+myocardial 29 39 61 71 B-chronic_disease
+infarction 40 50 72 82 I-chronic_disease
+, 50 51 82 83 O
+unstable 52 60 84 92 B-chronic_disease
+angina 61 67 93 99 I-chronic_disease
+, 67 68 99 100 O
+coronary 69 77 101 109 B-treatment
+artery 78 84 110 116 I-treatment
+bypass 85 91 117 123 I-treatment
+, 91 92 123 124 O
+surgery 93 100 125 132 B-treatment
+or 101 103 133 135 O
+coronary 104 112 136 144 B-treatment
+angioplasty 113 124 145 156 I-treatment
+) 124 125 156 157 O
+in 126 128 158 160 O
+the 129 132 161 164 O
+previous 133 141 165 173 B-upper_bound
+four 142 146 174 178 I-upper_bound
+weeks 147 152 179 184 I-upper_bound
+
+HIV 0 3 185 188 B-chronic_disease
+or 4 6 189 191 O
+Hepatitis 7 16 192 201 B-chronic_disease
+B 17 18 202 203 I-chronic_disease
+or 19 21 204 206 I-chronic_disease
+C 22 23 207 208 I-chronic_disease
+positive 24 32 209 217 O
+status 33 39 218 224 O
+
+HbA1c 0 5 225 230 B-clinical_variable
+of 6 8 231 233 O
+less 9 13 234 238 O
+than 14 18 239 243 O
+8.5 19 22 244 247 B-upper_bound
+% 22 23 247 248 I-upper_bound
+
+Hepatic 0 7 249 256 B-chronic_disease
+disease 8 15 257 264 I-chronic_disease
+( 16 17 265 266 O
+transaminase 17 29 266 278 B-clinical_variable
+> 30 31 279 280 O
+3 32 33 281 282 B-lower_bound
+times 34 39 283 288 I-lower_bound
+normal 40 46 289 295 I-lower_bound
+) 46 47 295 296 O
+or 48 50 297 299 O
+cirrhosis 51 60 300 309 B-chronic_disease
+
+Renal 0 5 310 315 B-chronic_disease
+impairment 6 16 316 326 I-chronic_disease
+( 17 18 327 328 O
+serum 18 23 328 333 B-clinical_variable
+eGFR 24 28 334 338 I-clinical_variable
+< 29 30 339 340 O
+30ml 31 35 341 345 B-upper_bound
+/ 35 36 345 346 I-upper_bound
+min/1.73m2 36 46 346 356 I-upper_bound
+) 46 47 356 357 O
+
+Type 0 4 358 362 B-chronic_disease
+1 5 6 363 364 I-chronic_disease
+Diabetes 7 15 365 373 I-chronic_disease
+on 16 18 374 376 O
+continuous 19 29 377 387 O
+subcutaneous 30 42 388 400 O
+insulin 43 50 401 408 B-treatment
+infusion 51 59 409 417 I-treatment
+( 60 61 418 419 O
+CSII 61 65 419 423 O
+; 65 66 423 424 O
+also 67 71 425 429 O
+known 72 77 430 435 O
+as 78 80 436 438 O
+insulin 81 88 439 446 B-treatment
+pump 89 93 447 451 I-treatment
+) 93 94 451 452 O
+
+Type 0 4 453 457 B-chronic_disease
+1 5 6 458 459 I-chronic_disease
+diabetes 7 15 460 468 I-chronic_disease
+for 16 19 469 472 O
+less 20 24 473 477 O
+than 25 29 478 482 O
+6 30 31 483 484 B-upper_bound
+months 32 38 485 491 I-upper_bound
+
+Use 0 3 492 495 O
+of 4 6 496 498 O
+an 7 9 499 501 O
+investigational 10 25 502 517 O
+agent 26 31 518 523 O
+or 32 34 524 526 O
+therapeutic 35 46 527 538 O
+regimen 47 54 539 546 O
+within 55 61 547 553 O
+30 62 64 554 556 B-upper_bound
+days 65 69 557 561 I-upper_bound
+of 70 72 562 564 O
+study 73 78 565 570 O
+
+history 0 7 571 578 O
+of 8 10 579 581 O
+gastroparesis 11 24 582 595 B-chronic_disease
+
+history 0 7 596 603 O
+of 8 10 604 606 O
+medullary 11 20 607 616 B-chronic_disease
+thyroid 21 28 617 624 I-chronic_disease
+carcinoma 29 38 625 634 I-chronic_disease
+or 39 41 635 637 O
+MEN 42 45 638 641 B-chronic_disease
+2 46 47 642 643 I-chronic_disease
+syndrome 48 56 644 652 I-chronic_disease
+
+history 0 7 653 660 O
+of 8 10 661 663 O
+pancreatitis 11 23 664 676 B-chronic_disease
+
+multiple 0 8 677 685 O
+( 9 10 686 687 O
+four 10 14 687 691 O
+or 15 17 692 694 O
+more 18 22 695 699 O
+) 22 23 699 700 O
+injections 24 34 701 711 O
+of 35 37 712 714 O
+insulin 38 45 715 722 B-treatment
+per 46 49 723 726 O
+day 50 53 727 730 O
+
+non 0 3 731 734 B-chronic_disease
+- 3 4 734 735 I-chronic_disease
+cardiac 4 11 735 742 I-chronic_disease
+disease 12 19 743 750 I-chronic_disease
+
+pregnancy 0 9 751 760 B-pregnancy
+

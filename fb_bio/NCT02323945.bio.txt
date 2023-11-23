@@ -1,0 +1,91 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+and 7 10 7 10 O
+75 11 13 11 13 B-upper_bound
+years 14 19 14 19 I-upper_bound
+( 20 21 20 21 O
+the 21 24 21 24 O
+latter 25 31 25 31 O
+to 32 34 32 34 O
+reduce 35 41 35 41 O
+likelihood 42 52 42 52 O
+of 53 55 53 55 O
+heart 56 61 56 61 B-chronic_disease
+disease 62 69 62 69 I-chronic_disease
+) 69 70 69 70 O
+
+Caffeine 0 8 71 79 B-allergy_name
+and/or 9 15 80 86 O
+NSAID 16 21 87 92 B-allergy_name
+allergies 22 31 93 102 O
+or 32 34 103 105 O
+intolerances 35 47 106 118 O
+
+Cirrhosis 0 9 119 128 B-chronic_disease
+
+Concurrent 0 10 129 139 O
+severe 11 17 140 146 O
+medical 18 25 147 154 O
+illness 26 33 155 162 O
+( 34 35 163 164 O
+i.e. 35 39 164 168 O
+, 39 40 168 169 O
+infection 41 50 170 179 B-chronic_disease
+, 50 51 179 180 O
+cardiovascular 52 66 181 195 B-chronic_disease
+disease 67 74 196 203 I-chronic_disease
+, 74 75 203 204 O
+ossification 76 88 205 217 O
+, 88 89 217 218 O
+recurrent 90 99 219 228 O
+autonomic 100 109 229 238 B-chronic_disease
+dysreflexia 110 121 239 250 I-chronic_disease
+, 121 122 250 251 O
+unhealed 123 131 252 260 O
+decubiti 132 140 261 269 B-chronic_disease
+, 140 141 269 270 O
+and 142 145 271 274 O
+history 146 153 275 282 O
+of 154 156 283 285 O
+pulmonary 157 166 286 295 B-chronic_disease
+complications 167 180 296 309 I-chronic_disease
+) 180 181 309 310 O
+
+Diabetes 0 8 311 319 B-chronic_disease
+
+History 0 7 320 327 O
+of 8 10 328 330 O
+seizures 11 19 331 339 B-chronic_disease
+, 19 20 339 340 O
+brain 21 26 341 346 B-chronic_disease
+injury 27 33 347 353 I-chronic_disease
+, 33 34 353 354 O
+and/or 35 41 355 361 O
+epilepsy 42 50 362 370 B-chronic_disease
+
+Injury 0 6 371 377 O
+greater 7 14 378 385 O
+than 15 19 386 390 O
+1 20 21 391 392 B-lower_bound
+year 22 26 393 397 I-lower_bound
+
+Pregnant 0 8 398 406 B-pregnancy
+women 9 14 407 412 B-gender
+because 15 22 413 420 O
+of 23 25 421 423 O
+the 26 29 424 427 O
+unknown 30 37 428 435 O
+affects 38 45 436 443 O
+of 46 48 444 446 O
+AIH 49 52 447 450 B-chronic_disease
+on 53 55 451 453 O
+pregnant 56 64 454 462 B-pregnancy
+women 65 70 463 468 O
+and 71 74 469 472 O
+fetus 75 80 473 478 O
+
+Undergoing 0 10 479 489 O
+concurrent 11 21 490 500 O
+physical 22 30 501 509 B-treatment
+therapy 31 38 510 517 I-treatment
+

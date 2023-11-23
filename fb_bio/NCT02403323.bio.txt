@@ -1,0 +1,25 @@
+Patients 0 8 0 8 O
+previously 9 19 9 19 O
+enrolled 20 28 20 28 O
+in 29 31 29 31 O
+etrolizumab 32 43 32 43 B-treatment
+Phase 44 49 44 49 I-treatment
+III 50 53 50 53 I-treatment
+study 54 59 54 59 I-treatment
+GA29144 60 67 60 67 I-treatment
+who 68 71 68 71 O
+meet 72 76 72 76 O
+the 77 80 77 80 O
+eligibility 81 92 81 92 O
+criteria 93 101 93 101 O
+for 102 105 102 105 O
+open 106 110 106 110 O
+- 110 111 110 111 O
+label 111 116 111 116 O
+etrolizumab 117 128 117 128 O
+as 129 131 129 131 O
+described 132 141 132 141 O
+in 142 144 142 144 O
+the 145 148 145 148 O
+protocol 149 157 149 157 O
+

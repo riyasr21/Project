@@ -1,0 +1,34 @@
+Any 0 3 0 3 O
+patient 4 11 4 11 O
+that 12 16 12 16 O
+is 17 19 17 19 O
+not 20 23 20 23 O
+a 24 25 24 25 O
+suitable 26 34 26 34 O
+candidate 35 44 35 44 O
+for 45 48 45 48 O
+LASIK 49 54 49 54 B-treatment
+will 55 59 55 59 O
+not 60 63 60 63 O
+be 64 66 64 66 O
+included 67 75 67 75 O
+
+Subjects 0 8 76 84 O
+who 9 12 85 88 O
+are 13 16 89 92 O
+deemed 17 23 93 99 O
+suitable 24 32 100 108 O
+candidates 33 43 109 119 O
+for 44 47 120 123 O
+bilateral 48 57 124 133 B-treatment
+LASIK 58 63 134 139 I-treatment
+will 64 68 140 144 O
+be 69 71 145 147 O
+considered 72 82 148 158 O
+eligible 83 91 159 167 O
+for 92 95 168 171 O
+participation 96 109 172 185 O
+in 110 112 186 188 O
+this 113 117 189 193 O
+study 118 123 194 199 O
+

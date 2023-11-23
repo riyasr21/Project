@@ -1,0 +1,108 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+6 5 6 5 6 B-lower_bound
+months- 7 14 7 14 I-lower_bound
+25 15 17 15 17 B-upper_bound
+years 18 23 18 23 I-upper_bound
+
+Bone 0 4 24 28 B-chronic_disease
+marrow 5 11 29 35 I-chronic_disease
+failure 12 19 36 43 I-chronic_disease
+
+Cardiac 0 7 44 51 O
+: 7 8 51 52 O
+Echocardiogram 9 23 53 67 B-clinical_variable
+shortening 24 34 68 78 I-clinical_variable
+fraction 35 43 79 87 I-clinical_variable
+> 44 45 88 89 O
+27 45 47 89 91 B-lower_bound
+% 47 48 91 92 I-lower_bound
+
+Hemophagocytic 0 14 93 107 B-chronic_disease
+lymphohistiocytosis 15 34 108 127 I-chronic_disease
+other 35 40 128 133 O
+macrophage 41 51 134 144 B-chronic_disease
+activation 52 62 145 155 I-chronic_disease
+syndromes 63 72 156 165 I-chronic_disease
+
+Hepatic 0 7 166 173 O
+: 7 8 173 174 O
+liver 9 14 175 180 O
+function 15 23 181 189 O
+tests 24 29 190 195 O
+must 30 34 196 200 O
+be 35 37 201 203 O
+less 38 42 204 208 O
+than 43 47 209 213 O
+5 48 49 214 215 B-upper_bound
+times 50 55 216 221 O
+the 56 59 222 225 O
+upper 60 65 226 231 O
+limit 66 71 232 237 O
+of 72 74 238 240 O
+normal 75 81 241 247 O
+
+Immunodysregulation 0 19 248 267 B-chronic_disease
+polyendocrinopathy 20 38 268 286 I-chronic_disease
+enteropathy 39 50 287 298 I-chronic_disease
+X 51 52 299 300 I-chronic_disease
+- 52 53 300 301 I-chronic_disease
+linked 53 59 301 307 I-chronic_disease
+( 60 61 308 309 I-chronic_disease
+IPEX 61 65 309 313 I-chronic_disease
+) 65 66 313 314 I-chronic_disease
+syndrome 67 75 315 323 I-chronic_disease
+
+Renal 0 5 324 329 O
+: 5 6 329 330 O
+Serum 7 12 331 336 B-clinical_variable
+creatinine 13 23 337 347 I-clinical_variable
+less 24 28 348 352 O
+than 29 33 353 357 O
+1.5 34 37 358 361 B-upper_bound
+times 38 43 362 367 I-upper_bound
+the 44 47 368 371 I-upper_bound
+upper 48 53 372 377 I-upper_bound
+limit 54 59 378 383 I-upper_bound
+of 60 62 384 386 I-upper_bound
+normal 63 69 387 393 I-upper_bound
+for 70 73 394 397 O
+age 74 77 398 401 B-age
+
+Severe 0 6 402 408 B-chronic_disease
+combined 7 15 409 417 I-chronic_disease
+immune 16 22 418 424 I-chronic_disease
+deficiency 23 33 425 435 I-chronic_disease
+
+Sickle 0 6 436 442 B-chronic_disease
+cell 7 11 443 447 I-chronic_disease
+disease 12 19 448 455 I-chronic_disease
+
+Thalassemia 0 11 456 467 B-chronic_disease
+major 12 17 468 473 I-chronic_disease
+
+Uncontrolled 0 12 474 486 O
+bacterial 13 22 487 496 B-chronic_disease
+, 22 23 496 497 O
+fungal 24 30 498 504 B-chronic_disease
+or 31 33 505 507 O
+viral 34 39 508 513 O
+infections 40 50 514 524 B-chronic_disease
+
+Wiskott 0 7 525 532 B-chronic_disease
+- 7 8 532 533 I-chronic_disease
+Aldrich 8 15 533 540 I-chronic_disease
+syndrome 16 24 541 549 I-chronic_disease
+
+adenosine 0 9 550 559 B-chronic_disease
+deaminase 10 19 560 569 I-chronic_disease
+deficiency 20 30 570 580 I-chronic_disease
+
+common 0 6 581 587 B-chronic_disease
+variable 7 15 588 596 I-chronic_disease
+immunodeficiency 16 32 597 613 I-chronic_disease
+
+severe 0 6 614 620 O
+Langerhans 7 17 621 631 B-cancer
+histiocytosis 18 31 632 645 I-cancer
+

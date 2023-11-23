@@ -1,0 +1,9 @@
+history 0 7 0 7 O
+of 8 10 8 10 O
+severe 11 17 11 17 B-chronic_disease
+psychiatric 18 29 18 29 I-chronic_disease
+illness 30 37 30 37 I-chronic_disease
+unrelated 38 47 38 47 O
+to 48 50 48 50 O
+PTSD 51 55 51 55 B-chronic_disease
+

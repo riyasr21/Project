@@ -1,0 +1,39 @@
+Histologically 0 14 0 14 O
+confirmed 15 24 15 24 O
+lymphoma 25 33 25 33 B-cancer
+( 34 35 34 35 O
+WHO 35 38 35 38 O
+classification 39 53 39 53 O
+) 53 54 53 54 O
+, 54 55 54 55 O
+or 56 58 56 58 O
+confirmed 59 68 59 68 O
+MM 69 71 69 71 B-cancer
+( 72 73 72 73 I-cancer
+IMWG 73 77 73 77 I-cancer
+) 77 78 77 78 I-cancer
+, 78 79 78 79 O
+that 80 84 80 84 O
+is 85 87 85 87 O
+relapsed 88 96 88 96 O
+and/or 97 103 97 103 O
+refractory 104 114 104 114 O
+
+History 0 7 115 122 O
+of 8 10 123 125 O
+chronic 11 18 126 133 B-chronic_disease
+pancreatitis 19 31 134 146 I-chronic_disease
+
+Known 0 5 147 152 O
+history 6 13 153 160 O
+of 14 16 161 163 O
+chronic 17 24 164 171 B-chronic_disease
+liver 25 30 172 177 I-chronic_disease
+disease 31 38 178 185 I-chronic_disease
+
+Prior 0 5 186 191 B-treatment
+treatment 6 15 192 201 I-treatment
+with 16 20 202 206 I-treatment
+Mcl-1 21 26 207 212 I-treatment
+inhibitor 27 36 213 222 I-treatment
+

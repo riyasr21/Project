@@ -1,0 +1,77 @@
+Admission 0 9 0 9 O
+to 10 12 10 12 O
+Labor 13 18 13 18 O
+and 19 22 19 22 O
+Delivery 23 31 23 31 O
+with 32 36 32 36 O
+a 37 38 37 38 O
+plan 39 43 39 43 O
+for 44 47 44 47 O
+delivery 48 56 48 56 O
+( 57 58 57 58 O
+women 58 63 58 63 B-gender
+in 64 66 64 66 O
+both 67 71 67 71 O
+latent 72 78 72 78 O
+and 79 82 79 82 O
+active 83 89 83 89 O
+labor 90 95 90 95 O
+will 96 100 96 100 O
+be 101 103 101 103 O
+eligible 104 112 104 112 O
+) 112 113 112 113 O
+
+Allergy 0 7 114 121 O
+or 8 10 122 124 O
+Contraindication 11 27 125 141 O
+to 28 30 142 144 O
+contraceptive 31 44 145 158 B-allergy_name
+implant 45 52 159 166 I-allergy_name
+
+Diabetes 0 8 167 175 B-chronic_disease
+( 9 10 176 177 O
+gestational 10 21 177 188 O
+or 22 24 189 191 O
+pre 25 28 192 195 O
+- 28 29 195 196 O
+gestational 29 40 196 207 O
+) 40 41 207 208 O
+
+Expected 0 8 209 217 O
+delivery 9 17 218 226 O
+prior 18 23 227 232 O
+to 24 26 233 235 O
+34 27 29 236 238 B-upper_bound
+weeks 30 35 239 244 I-upper_bound
+
+Intention 0 9 245 254 O
+to 10 12 255 257 O
+use 13 16 258 261 B-contraception_consent
+a 17 18 262 263 I-contraception_consent
+contraceptive 19 32 264 277 I-contraception_consent
+implant 33 40 278 285 I-contraception_consent
+postpartum 41 51 286 296 I-contraception_consent
+
+Live 0 4 297 301 O
+pregnancy 5 14 302 311 B-pregnancy
+of 15 17 312 314 O
+at 18 20 315 317 O
+least 21 26 318 323 O
+24 27 29 324 326 B-lower_bound
+weeks 30 35 327 332 I-lower_bound
+gestation 36 45 333 342 O
+
+Obesity 0 7 343 350 B-chronic_disease
+( 8 9 351 352 O
+pre 9 12 352 355 O
+- 12 13 355 356 O
+pregnancy 13 22 356 365 O
+BMI 23 26 366 369 B-bmi
+> 27 28 370 371 O
+35 28 30 371 373 B-lower_bound
+) 30 31 373 374 O
+
+Polycystic 0 10 375 385 B-chronic_disease
+Ovarian 11 18 386 393 I-chronic_disease
+Syndrome 19 27 394 402 I-chronic_disease
+

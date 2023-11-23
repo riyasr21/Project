@@ -1,0 +1,7 @@
+Not 0 3 0 3 O
+currently 4 13 4 13 O
+receiving 14 23 14 23 O
+substance 24 33 24 33 B-treatment
+abuse 34 39 34 39 I-treatment
+treatment 40 49 40 49 I-treatment
+

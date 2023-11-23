@@ -1,0 +1,84 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Baseline 0 8 22 30 B-clinical_variable
+DAS28 9 14 31 36 I-clinical_variable
+/ 14 15 36 37 O
+Erythrocyte 15 26 37 48 B-clinical_variable
+Sedimentation 27 40 49 62 I-clinical_variable
+Rate 41 45 63 67 I-clinical_variable
+( 46 47 68 69 I-clinical_variable
+ESR 47 50 69 72 I-clinical_variable
+) 50 51 72 73 I-clinical_variable
+> 52 53 74 75 O
+= 53 54 75 76 O
+3.2 54 57 76 79 B-lower_bound
+
+Power 0 5 80 85 B-clinical_variable
+Doppler 6 13 86 93 I-clinical_variable
+score 14 19 94 99 I-clinical_variable
+of 20 22 100 102 O
+> 23 24 103 104 O
+= 24 25 104 105 O
+10 25 27 105 107 B-lower_bound
+
+Prior 0 5 108 113 O
+treatment 6 15 114 123 O
+with 16 20 124 128 O
+Acthar 21 27 129 135 B-treatment
+in 28 30 136 138 O
+the 31 34 139 142 O
+past 35 39 143 147 B-upper_bound
+2mos 40 44 148 152 I-upper_bound
+
+Stable 0 6 153 159 O
+concomitant 7 18 160 171 O
+Disease 19 26 172 179 B-treatment
+Modifying 27 36 180 189 I-treatment
+Anti 37 41 190 194 I-treatment
+- 41 42 194 195 I-treatment
+Rheumatic 42 51 195 204 I-treatment
+Drugs 52 57 205 210 I-treatment
+( 58 59 211 212 I-treatment
+DMARDs 59 65 212 218 I-treatment
+) 65 66 218 219 I-treatment
+
+Stable 0 6 220 226 O
+prednisone 7 17 227 237 B-clinical_variable
+< 18 19 238 239 O
+10 19 21 239 241 B-upper_bound
+mg 21 23 241 243 I-upper_bound
+or 24 26 244 246 O
+equivalent 27 37 247 257 O
+
+Subjects 0 8 258 266 O
+who 9 12 267 270 O
+have 13 17 271 275 O
+received 18 26 276 284 O
+live 27 31 285 289 O
+or 32 34 290 292 O
+live 35 39 293 297 B-treatment
+attenuated 40 50 298 308 I-treatment
+vaccines 51 59 309 317 I-treatment
+within 60 66 318 324 O
+6 67 68 325 326 B-upper_bound
+weeks 69 74 327 332 I-upper_bound
+prior 75 80 333 338 I-upper_bound
+to 81 83 339 341 O
+the 84 87 342 345 O
+first 88 93 346 351 O
+dose 94 98 352 356 O
+of 99 101 357 359 O
+study 102 107 360 365 B-treatment
+drug 108 112 366 370 I-treatment
+( 113 114 371 372 O
+or 114 116 372 374 O
+the 117 120 375 378 O
+zoster 121 127 379 385 B-treatment
+vaccine 128 135 386 393 I-treatment
+) 135 136 393 394 O
+

@@ -1,0 +1,31 @@
+Known 0 5 0 5 O
+spinal 6 12 6 12 B-chronic_disease
+deformities 13 24 13 24 I-chronic_disease
+
+Preterm 0 7 25 32 O
+( 8 9 33 34 O
+< 9 10 34 35 O
+37 11 13 36 38 B-upper_bound
+weeks 14 19 39 44 I-upper_bound
+gestation 20 29 45 54 B-clinical_variable
+) 29 30 54 55 O
+
+Previous 0 8 56 64 O
+spinal 9 15 65 71 B-treatment
+surgeries 16 25 72 81 I-treatment
+
+Request 0 7 82 89 O
+for 8 11 90 93 O
+analgesia 12 21 94 103 B-treatment
+for 22 25 104 107 O
+labor 26 31 108 113 O
+pain 32 36 114 118 O
+
+Term 0 4 119 123 O
+( 5 6 124 125 O
+> 6 7 125 126 O
+37 7 9 126 128 B-lower_bound
+weeks 10 15 129 134 I-lower_bound
+gestation 16 25 135 144 B-clinical_variable
+) 25 26 144 145 O
+

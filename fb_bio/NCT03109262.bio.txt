@@ -1,0 +1,12 @@
+pregnant 0 8 0 8 B-pregnancy
+
+referred 0 8 9 17 O
+for 9 12 18 21 O
+90Y 13 16 22 25 O
+SIRT 17 21 26 30 B-treatment
+radioembolization 22 39 31 48 I-treatment
+of 40 42 49 51 O
+liver 43 48 52 57 B-cancer
+tumor(s 49 56 58 65 I-cancer
+) 56 57 65 66 I-cancer
+

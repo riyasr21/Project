@@ -1,0 +1,68 @@
+Back 0 4 0 4 B-clinical_variable
+- 4 5 4 5 I-clinical_variable
+pain 5 9 5 9 I-clinical_variable
+- 9 10 9 10 I-clinical_variable
+related 10 17 10 17 I-clinical_variable
+International 18 31 18 31 I-clinical_variable
+Classification 32 46 32 46 I-clinical_variable
+of 47 49 47 49 I-clinical_variable
+Diseases 50 58 50 58 I-clinical_variable
+( 59 60 59 60 I-clinical_variable
+ICD)-9 60 66 60 66 I-clinical_variable
+diagnosis 67 76 67 76 O
+
+Diagnosis 0 9 77 86 O
+of 10 12 87 89 O
+cancer 13 19 90 96 B-cancer
+
+Pain 0 4 97 101 B-clinical_variable
+intensity 5 14 102 111 I-clinical_variable
+rating 15 21 112 118 I-clinical_variable
+of 22 24 119 121 O
+≥4 25 27 122 124 O
+( 28 29 125 126 O
+indicating 29 39 126 136 O
+moderate 40 48 137 145 O
+pain 49 53 146 150 O
+) 53 54 150 151 O
+on 55 57 152 154 O
+the 58 61 155 158 O
+0 62 63 159 160 B-lower_bound
+- 63 64 160 161 O
+10 64 66 161 163 B-upper_bound
+Numerical 67 76 164 173 O
+Rating 77 83 174 180 O
+Scale 84 89 181 186 O
+on 90 92 187 189 O
+at 93 95 190 192 O
+least 96 101 193 198 O
+two 102 105 199 202 O
+separate 106 114 203 211 O
+outpatient 115 125 212 222 O
+encounters 126 136 223 233 O
+at 137 139 234 236 O
+a 140 141 237 238 O
+CBOC 142 146 239 243 O
+in 147 149 244 246 O
+the 150 153 247 250 O
+prior 154 159 251 256 O
+year 160 164 257 261 O
+
+Patients 0 8 262 270 O
+who 9 12 271 274 O
+are 13 16 275 278 O
+designated 17 27 279 289 O
+as 28 30 290 292 O
+fall 31 35 293 297 O
+risks 36 41 298 303 O
+and/or 42 48 304 310 O
+have 49 53 311 315 O
+active 54 60 316 322 O
+diabetic 61 69 323 331 B-chronic_disease
+foot 70 74 332 336 I-chronic_disease
+ulcers 75 81 337 343 I-chronic_disease
+
+dementia 0 8 344 352 B-chronic_disease
+
+schizophrenia 0 13 353 366 B-chronic_disease
+

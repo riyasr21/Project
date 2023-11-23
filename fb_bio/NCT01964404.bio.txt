@@ -1,0 +1,160 @@
+Ages 0 4 0 4 B-age
+18 5 7 5 7 B-lower_bound
+- 8 9 8 9 O
+55 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+Any 0 3 19 22 O
+condition 4 13 23 32 O
+that 14 18 33 37 O
+would 19 24 38 43 O
+contraindicate 25 39 44 58 O
+use 40 43 59 62 O
+of 44 46 63 65 O
+cannabis 47 55 66 74 B-treatment
+or 56 58 75 77 O
+dronabinol 59 69 78 88 B-treatment
+
+Axis 0 4 89 93 B-chronic_disease
+I 5 6 94 95 I-chronic_disease
+psychiatric 7 18 96 107 I-chronic_disease
+diagnosis 19 28 108 117 O
+other 29 34 118 123 O
+than 35 39 124 128 O
+a 40 41 129 130 O
+cannabis 42 50 131 139 B-chronic_disease
+use 51 54 140 143 I-chronic_disease
+disorder 55 63 144 152 I-chronic_disease
+
+Diagnosis 0 9 153 162 O
+of 10 12 163 165 O
+schizophrenia 13 26 166 179 B-chronic_disease
+
+History 0 7 180 187 O
+of 8 10 188 190 O
+a 11 12 191 192 O
+seizure 13 20 193 200 B-chronic_disease
+disorder 21 29 201 209 I-chronic_disease
+
+History 0 7 210 217 O
+of 8 10 218 220 O
+head 11 15 221 225 B-chronic_disease
+injury 16 22 226 232 I-chronic_disease
+
+Mental 0 6 233 239 B-chronic_disease
+retardation 7 18 240 251 I-chronic_disease
+
+Metal 0 5 252 257 B-allergy_name
+objects 6 13 258 265 I-allergy_name
+within 14 20 266 272 O
+the 21 24 273 276 O
+body 25 29 277 281 O
+that 30 34 282 286 O
+would 35 40 287 292 O
+contraindicate 41 55 293 307 O
+and 56 59 308 311 O
+MRI 60 63 312 315 B-treatment
+
+Not 0 3 316 319 O
+seeking 4 11 320 327 O
+treatment 12 21 328 337 B-treatment
+for 22 25 338 341 O
+their 26 31 342 347 O
+cannabis 32 40 348 356 B-treatment
+use 41 44 357 360 O
+disorder 45 53 361 369 O
+
+Pharmacological 0 15 370 385 B-treatment
+treatment 16 25 386 395 I-treatment
+for 26 29 396 399 I-treatment
+addiction 30 39 400 409 I-treatment
+
+Positive 0 8 410 418 O
+symptoms 9 17 419 427 O
+of 18 20 428 430 O
+psychosis 21 30 431 440 B-chronic_disease
+( 31 32 441 442 O
+> 32 33 442 443 O
+4 34 35 444 445 B-lower_bound
+[ 36 37 446 447 O
+moderate 37 45 447 455 O
+] 45 46 455 456 O
+) 46 47 456 457 O
+on 48 50 458 460 O
+any 51 54 461 464 O
+item 55 59 465 469 O
+of 60 62 470 472 O
+the 63 66 473 476 O
+Positive 67 75 477 485 B-clinical_variable
+and 76 79 486 489 I-clinical_variable
+Negative 80 88 490 498 I-clinical_variable
+Syndrome 89 97 499 507 I-clinical_variable
+Scale 98 103 508 513 I-clinical_variable
+psychosis 104 113 514 523 O
+subscale 114 122 524 532 O
+( 123 124 533 534 O
+once 124 128 534 538 O
+abstinent 129 138 539 548 O
+) 138 139 548 549 O
+except 140 146 550 556 O
+for 147 150 557 560 O
+the 151 154 561 564 O
+hallucination 155 168 565 578 O
+item 169 173 579 583 O
+
+Pregnancy 0 9 584 593 B-pregnancy
+
+Taking 0 6 594 600 O
+any 7 10 601 604 O
+psychotropic 11 23 605 617 B-treatment
+medication 24 34 618 628 I-treatment
+
+Taking 0 6 629 635 O
+clozapine 7 16 636 645 B-treatment
+
+Treated 0 7 646 653 O
+with 8 12 654 658 O
+a 13 14 659 660 O
+stable 15 21 661 667 O
+dose 22 26 668 672 O
+of 27 29 673 675 O
+an 30 32 676 678 O
+antipsychotic 33 46 679 692 B-treatment
+medication 47 57 693 703 I-treatment
+( 58 59 704 705 O
+except 59 65 705 711 O
+clozapine 66 75 712 721 B-treatment
+) 75 76 721 722 O
+for 77 80 723 726 O
+the 81 84 727 730 O
+past 85 89 731 735 B-upper_bound
+month 90 95 736 741 I-upper_bound
+
+Use 0 3 742 745 O
+of 4 6 746 748 O
+cannabis 7 15 749 757 B-treatment
+within 16 22 758 764 O
+the 23 26 765 768 O
+month 27 32 769 774 B-upper_bound
+prior 33 38 775 780 I-upper_bound
+to 39 41 781 783 O
+screening 42 51 784 793 O
+
+Willing 0 7 794 801 O
+to 8 10 802 804 O
+remain 11 17 805 811 O
+abstinent 18 27 812 821 O
+for 28 31 822 825 O
+the 32 35 826 829 O
+14 36 38 830 832 B-upper_bound
+days 39 43 833 837 I-upper_bound
+before 44 50 838 844 O
+the 51 54 845 848 O
+baseline 55 63 849 857 O
+assessments 64 75 858 869 O
+and 76 79 870 873 O
+throughout 80 90 874 884 O
+the 91 94 885 888 O
+two 95 98 889 892 O
+scans 99 104 893 898 O
+

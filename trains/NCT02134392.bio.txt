@@ -1,0 +1,274 @@
+< 0 1 0 1 O
+18 1 3 1 3 B-upper_bound
+years 4 9 4 9 I-upper_bound
+old 10 13 10 13 O
+
+< 0 1 14 15 O
+21 1 3 15 17 B-upper_bound
+years 4 9 18 23 I-upper_bound
+old 10 13 24 27 O
+
+Abdominal 0 9 28 37 B-chronic_disease
+complaints 10 20 38 48 I-chronic_disease
+
+Anemia 0 6 49 55 B-chronic_disease
+on 7 9 56 58 O
+complete 10 18 59 67 O
+blood 19 24 68 73 B-clinical_variable
+count 25 30 74 79 I-clinical_variable
+
+Children 0 8 80 88 O
+≥2 9 11 89 91 O
+years 12 17 92 97 I-lower_bound
+old 18 21 98 101 O
+
+Considerations 0 14 102 116 O
+for 15 18 117 120 O
+Increased 19 28 121 130 O
+Risk 29 33 131 135 O
+of 34 36 136 138 O
+Adverse 37 44 139 146 O
+Events 45 51 147 153 O
+Should 52 58 154 160 O
+Be 59 61 161 163 O
+Given 62 67 164 169 O
+to 68 70 170 172 O
+patients 71 79 173 181 O
+with 80 84 182 186 O
+decompensated 85 98 187 200 O
+liver 99 104 201 206 B-chronic_disease
+cirrhosis 105 114 207 216 I-chronic_disease
+, 114 115 216 217 O
+advanced 116 124 218 226 B-chronic_disease
+HIV 125 128 227 230 I-chronic_disease
+/ 128 129 230 231 O
+acquired 129 137 231 239 B-chronic_disease
+immune 138 144 240 246 I-chronic_disease
+deficiency 145 155 247 257 I-chronic_disease
+syndrome 156 164 258 266 I-chronic_disease
+, 164 165 266 267 O
+recent 166 172 268 274 B-treatment
+bone 173 177 275 279 I-treatment
+marrow 178 184 280 286 I-treatment
+transplant 185 195 287 297 I-treatment
+, 195 196 297 298 O
+or 197 199 299 301 O
+other 200 205 302 307 O
+cause 206 211 308 313 O
+of 212 214 314 316 O
+severe 215 221 317 323 O
+immunodeficiency 222 238 324 340 B-chronic_disease
+
+Documentation 0 13 341 354 O
+of 14 16 355 357 O
+ongoing 17 24 358 365 O
+diarrhea 25 33 366 374 B-chronic_disease
+at 34 36 375 377 O
+time 37 41 378 382 O
+of 42 44 383 385 O
+recruitment 45 56 386 397 O
+
+Documented 0 10 398 408 O
+laboratory 11 21 409 419 O
+- 21 22 419 420 O
+confirmed 22 31 420 429 O
+clostridium 32 43 430 441 B-chronic_disease
+difficile 44 53 442 451 I-chronic_disease
+infection 54 63 452 461 I-chronic_disease
+
+Has 0 3 462 465 O
+consumed 4 12 466 474 O
+any 13 16 475 478 O
+foods 17 22 479 484 B-allergy_name
+/ 22 23 484 485 O
+medications 23 34 485 496 B-allergy_name
+to 35 37 497 499 O
+which 38 43 500 505 O
+the 44 47 506 509 O
+recipient 48 57 510 519 O
+is 58 60 520 522 O
+allergic 61 69 523 531 O
+within 70 76 532 538 O
+the 77 80 539 542 O
+designated 81 91 543 553 O
+period 92 98 554 560 O
+of 99 101 561 563 O
+time 102 106 564 568 O
+
+History 0 7 569 576 O
+of 8 10 577 579 O
+inflammatory 11 23 580 592 B-chronic_disease
+bowel 24 29 593 598 I-chronic_disease
+disease 30 37 599 606 I-chronic_disease
+
+History 0 7 607 614 O
+of 8 10 615 617 O
+malignancy 11 21 618 628 B-cancer
+
+History 0 7 629 636 O
+of 8 10 637 639 O
+severe 11 17 640 646 O
+anaphylactic 18 30 647 659 B-allergy_name
+shock 31 36 660 665 I-allergy_name
+
+History 0 7 666 673 O
+of 8 10 674 676 O
+systemic 11 19 677 685 O
+autoimmunity 20 32 686 698 O
+( 33 34 699 700 O
+e.g. 34 38 700 704 O
+multiple 39 47 705 713 B-chronic_disease
+sclerosis 48 57 714 723 I-chronic_disease
+, 57 58 723 724 O
+connective 59 69 725 735 B-chronic_disease
+tissue 70 76 736 742 I-chronic_disease
+disease 77 84 743 750 I-chronic_disease
+) 84 85 750 751 O
+
+Neurologic 0 10 752 762 B-chronic_disease
+, 10 11 762 763 O
+neurodevelopmental 12 30 764 782 B-chronic_disease
+or 31 33 783 785 O
+neurodegenerative 34 51 786 803 B-chronic_disease
+disorders 52 61 804 813 I-chronic_disease
+
+No 0 2 814 816 O
+antibiotic 3 13 817 827 B-treatment
+use 14 17 828 831 O
+within 18 24 832 838 O
+the 25 28 839 842 O
+last 29 33 843 847 B-upper_bound
+90 34 36 848 850 I-upper_bound
+days 37 41 851 855 I-upper_bound
+
+On 0 2 856 858 O
+immunosuppressive 3 20 859 876 B-treatment
+medications 21 32 877 888 I-treatment
+( 33 34 889 890 O
+high 34 38 890 894 O
+dose 39 43 895 899 O
+steroids 44 52 900 908 B-treatment
+30 53 55 909 911 O
+mg 56 58 912 914 O
+/ 58 59 914 915 O
+kg 59 61 915 917 O
+of 62 64 918 920 O
+methylprednisolone 65 83 921 939 B-treatment
+) 83 84 939 940 O
+
+Recent 0 6 941 947 O
+ingestion 7 16 948 957 O
+of 17 19 958 960 O
+a 20 21 961 962 O
+potential 22 31 963 972 O
+allergen 32 40 973 981 O
+( 41 42 982 983 O
+e.g. 42 46 983 987 O
+nuts 47 51 988 992 B-allergy_name
+) 51 52 992 993 O
+where 53 58 994 999 O
+recipient 59 68 1000 1009 O
+has 69 72 1010 1013 O
+a 73 74 1014 1015 O
+known 75 80 1016 1021 O
+allergy 81 88 1022 1029 O
+to 89 91 1030 1032 O
+this 92 96 1033 1037 O
+( 97 98 1038 1039 O
+these 98 103 1039 1044 O
+) 103 104 1044 1045 O
+agent(s 105 112 1046 1053 O
+) 112 113 1053 1054 O
+
+Recent 0 6 1055 1061 O
+use 7 10 1062 1065 O
+of 11 13 1066 1068 O
+potent 14 20 1069 1075 B-treatment
+immunosuppressive 21 38 1076 1093 I-treatment
+medications 39 50 1094 1105 I-treatment
+( 51 52 1106 1107 O
+calcineurin 52 63 1107 1118 B-treatment
+inhibitors 64 74 1119 1129 I-treatment
+, 74 75 1129 1130 O
+exogenous 76 85 1131 1140 B-treatment
+glucocorticoids 86 101 1141 1156 I-treatment
+, 101 102 1156 1157 O
+biological 103 113 1158 1168 B-treatment
+agents 114 120 1169 1175 I-treatment
+, 120 121 1175 1176 O
+etc 122 125 1177 1180 O
+.. 125 127 1180 1182 O
+) 127 128 1182 1183 O
+
+Recurrent 0 9 1184 1193 O
+c 10 11 1194 1195 B-chronic_disease
+- 11 12 1195 1196 I-chronic_disease
+diff 12 16 1196 1200 I-chronic_disease
+infection 17 26 1201 1210 I-chronic_disease
+( 27 28 1211 1212 O
+three 28 33 1212 1217 B-lower_bound
+or 34 36 1218 1220 O
+more 37 41 1221 1225 O
+occurrences 42 53 1226 1237 O
+) 53 54 1237 1238 O
+
+Severe 0 6 1239 1245 O
+or 7 9 1246 1248 O
+fulminant 10 19 1249 1258 B-chronic_disease
+C. 20 22 1259 1261 I-chronic_disease
+difficile 23 32 1262 1271 I-chronic_disease
+colitis 33 40 1272 1279 I-chronic_disease
+
+Signs 0 5 1280 1285 O
+of 6 8 1286 1288 O
+hemodynamic 9 20 1289 1300 B-chronic_disease
+instability 21 32 1301 1312 I-chronic_disease
+
+Symptoms 0 8 1313 1321 O
+indicative 9 19 1322 1332 O
+of 20 22 1333 1335 O
+irritable 23 32 1336 1345 B-chronic_disease
+bowel 33 38 1346 1351 I-chronic_disease
+syndrome 39 47 1352 1360 I-chronic_disease
+
+Undergoing 0 10 1361 1371 O
+clinically 11 21 1372 1382 O
+- 21 22 1382 1383 O
+indicated 22 31 1383 1392 O
+colonoscopy 32 43 1393 1404 B-treatment
+
+electrolyte 0 11 1405 1416 B-chronic_disease
+imbalances 12 22 1417 1427 I-chronic_disease
+on 23 25 1428 1430 O
+basic 26 31 1431 1436 O
+metabolic 32 41 1437 1446 O
+panel 42 47 1447 1452 O
+
+gastrointestinal 0 16 1453 1469 B-cancer
+malignancy 17 27 1470 1480 I-cancer
+
+other 0 5 1481 1486 O
+chronic 6 13 1487 1494 B-chronic_disease
+pain 14 18 1495 1499 I-chronic_disease
+syndromes 19 28 1500 1509 I-chronic_disease
+( 29 30 1510 1511 O
+e.g. 30 34 1511 1515 O
+chronic 35 42 1516 1523 B-chronic_disease
+fatigue 43 50 1524 1531 I-chronic_disease
+syndrome 51 59 1532 1540 I-chronic_disease
+, 59 60 1540 1541 O
+fibromyalgia 61 73 1542 1554 B-chronic_disease
+) 73 74 1554 1555 O
+
+young 0 5 1556 1561 O
+adults 6 12 1562 1568 O
+> 13 14 1569 1570 O
+18 14 16 1570 1572 B-lower_bound
+years 17 22 1573 1578 I-lower_bound
+old 23 26 1579 1582 O
+
+≥ 0 1 1583 1584 O
+18 2 4 1585 1587 B-lower_bound
+years 5 10 1588 1593 I-lower_bound
+old 11 14 1594 1597 O
+

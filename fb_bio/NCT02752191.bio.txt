@@ -1,0 +1,64 @@
+< 0 1 0 1 O
+40 2 4 2 4 B-upper_bound
+mL 5 7 5 7 I-upper_bound
+/ 7 8 7 8 I-upper_bound
+min/1.73m2 8 18 8 18 I-upper_bound
+
+Male 0 4 19 23 B-gender
+
+Subjects 0 8 24 32 O
+who 9 12 33 36 O
+are 13 16 37 40 O
+critically 17 27 41 51 O
+ill 28 31 52 55 O
+at 32 34 56 58 O
+the 35 38 59 62 O
+time 39 43 63 67 O
+of 44 46 68 70 O
+MRI 47 50 71 74 B-treatment
+and 51 54 75 78 O
+for 55 58 79 82 O
+whom 59 63 83 87 O
+the 64 67 88 91 O
+period 68 74 92 98 O
+of 75 77 99 101 O
+general 78 85 102 109 B-treatment
+anesthesia 86 96 110 120 I-treatment
+
+age 0 3 121 124 B-age
+newborn 4 11 125 132 O
+to 12 14 133 135 O
+6 15 16 136 137 B-upper_bound
+years 17 22 138 143 I-upper_bound
+
+including 0 9 144 153 O
+subjects 10 18 154 162 O
+with 19 23 163 167 O
+cochlear 24 32 168 176 B-treatment
+implants 33 41 177 185 I-treatment
+and 42 45 186 189 O
+implanted 46 55 190 199 B-treatment
+cardiac 56 63 200 207 I-treatment
+devices 64 71 208 215 I-treatment
+
+other 0 5 216 221 O
+causes 6 12 222 228 O
+( 13 14 229 230 O
+for 14 17 230 233 O
+subjects 18 26 234 242 O
+receiving 27 36 243 252 O
+Feraheme 37 45 253 261 B-treatment
+injection 46 55 262 271 I-treatment
+only 56 60 272 276 O
+) 60 61 276 277 O
+
+with 0 4 278 282 O
+known 5 10 283 288 O
+or 11 13 289 291 O
+suspected 14 23 292 301 O
+CHD 24 27 302 305 B-chronic_disease
+with 28 32 306 310 O
+inconclusive 33 45 311 323 O
+echocardiographic 46 63 324 341 O
+exams 64 69 342 347 O
+

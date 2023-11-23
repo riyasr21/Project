@@ -1,0 +1,51 @@
+Current 0 7 0 7 B-pregnancy
+pregnancy 8 17 8 17 I-pregnancy
+
+Currently 0 9 18 27 O
+on 10 12 28 30 O
+pioglitazone 13 25 31 43 B-treatment
+treatment 26 35 44 53 I-treatment
+for 36 39 54 57 O
+another 40 47 58 65 O
+reason 48 54 66 72 O
+
+HIV 0 3 73 76 B-chronic_disease
+- 3 4 76 77 O
+positive 4 12 77 85 O
+
+History 0 7 86 93 O
+of 8 10 94 96 O
+bladder 11 18 97 104 B-cancer
+cancer 19 25 105 111 I-cancer
+
+History 0 7 112 119 O
+of 8 10 120 122 O
+cirrhosis 11 20 123 132 B-chronic_disease
+of 21 23 133 135 I-chronic_disease
+the 24 27 136 139 I-chronic_disease
+liver 28 33 140 145 I-chronic_disease
+
+History 0 7 146 153 O
+of 8 10 154 156 O
+diabetes 11 19 157 165 B-chronic_disease
+
+History 0 7 166 173 O
+of 8 10 174 176 O
+heart 11 16 177 182 B-chronic_disease
+failure 17 24 183 190 I-chronic_disease
+
+Non 0 3 191 194 B-language_fluency
+- 3 4 194 195 I-language_fluency
+English 4 11 195 202 I-language_fluency
+speaking 12 20 203 211 I-language_fluency
+
+planning 0 8 212 220 B-pregnancy
+to 9 11 221 223 I-pregnancy
+become 12 18 224 230 I-pregnancy
+pregnant 19 27 231 239 I-pregnancy
+in 28 30 240 242 O
+the 31 34 243 246 O
+next 35 39 247 251 B-upper_bound
+6 40 41 252 253 I-upper_bound
+months 42 48 254 260 I-upper_bound
+

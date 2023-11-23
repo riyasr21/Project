@@ -1,0 +1,125 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+18 5 7 5 7 B-lower_bound
+years 8 13 8 13 I-lower_bound
+or 14 16 14 16 O
+older 17 22 17 22 O
+
+Baseline 0 8 23 31 B-clinical_variable
+weak 9 13 32 36 I-clinical_variable
+radial 14 20 37 43 I-clinical_variable
+pulse 21 26 44 49 I-clinical_variable
+( 27 28 50 51 O
+0 28 29 51 52 B-lower_bound
+or 30 32 53 55 O
+1 33 34 56 57 B-upper_bound
++ 34 35 57 58 I-upper_bound
+) 35 36 58 59 O
+
+Hypersensitivity 0 16 60 76 O
+or 17 19 77 79 O
+contraindication 20 36 80 96 O
+to 37 39 97 99 O
+lidocaine 40 49 100 109 B-allergy_name
+
+Likely 0 6 110 116 O
+need 7 11 117 121 O
+for 12 15 122 125 O
+use 16 19 126 129 O
+of 20 22 130 132 O
+nitroglycerine 23 37 133 147 B-treatment
+for 38 41 148 151 O
+non 42 45 152 155 O
+- 45 46 155 156 O
+study 46 51 156 161 O
+indication 52 62 162 172 O
+
+More 0 4 173 177 O
+than 5 9 178 182 O
+2 10 11 183 184 B-lower_bound
+episodes 12 20 185 193 O
+of 21 23 194 196 O
+chest 24 29 197 202 O
+pain 30 34 203 207 O
+within 35 41 208 214 O
+24 42 44 215 217 B-upper_bound
+hours 45 50 218 223 I-upper_bound
+prior 51 56 224 229 I-upper_bound
+to 57 59 230 232 O
+IP 60 62 233 235 O
+administration 63 77 236 250 O
+
+Narcotic 0 8 251 259 O
+or 9 11 260 262 O
+sedative 12 20 263 271 O
+within 21 27 272 278 O
+4 28 29 279 280 B-upper_bound
+hours 30 35 281 286 I-upper_bound
+of 36 38 287 289 O
+enrollment 39 49 290 300 O
+
+Previous 0 8 301 309 O
+unknown 9 16 310 317 O
+bypass 17 23 318 324 B-treatment
+grafts 24 30 325 331 I-treatment
+
+Radial 0 6 332 338 B-treatment
+artery 7 13 339 345 I-treatment
+catheterization 14 29 346 361 I-treatment
+
+Recent 0 6 362 368 O
+use 7 10 369 372 O
+of 11 13 373 375 O
+PDE5 14 18 376 380 B-treatment
+inhibitors 19 29 381 391 I-treatment
+( 30 31 392 393 O
+< 31 32 393 394 O
+24 32 34 394 396 B-upper_bound
+hours 35 40 397 402 I-upper_bound
+after 41 46 403 408 O
+sildenafil 47 57 409 419 B-treatment
+or 58 60 420 422 O
+vardenafil 61 71 423 433 B-treatment
+; 71 72 433 434 O
+< 73 74 435 436 O
+48 74 76 436 438 B-upper_bound
+hours 77 82 439 444 I-upper_bound
+after 83 88 445 450 O
+tadalafil 89 98 451 460 B-treatment
+) 98 99 460 461 O
+
+Severe 0 6 462 468 O
+Aortic 7 13 469 475 B-chronic_disease
+Stenosis 14 22 476 484 I-chronic_disease
+
+Use 0 3 485 488 O
+of 4 6 489 491 O
+sublingual 7 17 492 502 B-treatment
+, 17 18 502 503 O
+transdermal 19 30 504 515 B-treatment
+, 30 31 515 516 O
+or 32 34 517 519 O
+intravenous 35 46 520 531 B-treatment
+nitroglycerine 47 61 532 546 I-treatment
+within 62 68 547 553 O
+6 69 70 554 555 B-upper_bound
+hours 71 76 556 561 I-upper_bound
+prior 77 82 562 567 I-upper_bound
+to 83 85 568 570 O
+IP 86 88 571 573 O
+administration 89 103 574 588 O
+
+Women 0 5 589 594 B-gender
+who 6 9 595 598 O
+are 10 13 599 602 O
+suspected 14 23 603 612 O
+or 24 26 613 615 O
+known 27 32 616 621 O
+to 33 35 622 624 O
+be 36 38 625 627 O
+pregnant 39 47 628 636 B-pregnancy
+
+known 0 5 637 642 O
+LIMA 6 10 643 647 B-treatment
+graft 11 16 648 653 I-treatment
+

@@ -1,0 +1,87 @@
+Acquired 0 8 0 8 O
+resistance 9 19 9 19 O
+to 20 22 20 22 O
+EGFR 23 27 23 27 B-treatment
+TKI 28 31 28 31 I-treatment
+( 32 33 32 33 O
+1st 33 36 33 36 O
+or 37 39 37 39 O
+2nd 40 43 40 43 O
+génération 44 54 44 54 O
+) 54 55 54 55 O
+
+Concomitant 0 11 56 67 B-treatment
+EGFR 12 16 68 72 I-treatment
+TKI 17 20 73 76 I-treatment
+and 21 24 77 80 O
+platinum 25 33 81 89 B-treatment
+based 34 39 90 95 I-treatment
+chemotherapy 40 52 96 108 I-treatment
+as 53 55 109 111 O
+first 56 61 112 117 O
+line 62 66 118 122 O
+regimen 67 74 123 130 O
+
+Crizotinib 0 10 131 141 B-treatment
+, 10 11 141 142 O
+or 12 14 143 145 O
+any 15 18 146 149 O
+other 19 24 150 155 O
+cMET 25 29 156 160 B-treatment
+inhibitor 30 39 161 170 I-treatment
+or 40 42 171 173 O
+HGF 43 46 174 177 B-treatment
+- 46 47 177 178 I-treatment
+targeting 47 56 178 187 I-treatment
+inhibitor 57 66 188 197 I-treatment
+
+ECOG 0 4 198 202 B-clinical_variable
+performance 5 16 203 214 I-clinical_variable
+status 17 23 215 221 I-clinical_variable
+( 24 25 222 223 I-clinical_variable
+PS 25 27 223 225 I-clinical_variable
+) 27 28 225 226 I-clinical_variable
+≤ 29 30 227 228 O
+1 31 32 229 230 B-upper_bound
+
+EGFR 0 4 231 235 B-clinical_variable
+mutation 5 13 236 244 I-clinical_variable
+( 14 15 245 246 O
+L858R 15 20 246 251 B-clinical_variable
+and 21 24 252 255 O
+/or 25 28 256 259 O
+ex19del 29 36 260 267 B-clinical_variable
+) 36 37 267 268 O
+
+Locally 0 7 269 276 O
+advanced 8 16 277 285 O
+or 17 19 286 288 O
+metastatic 20 30 289 299 B-cancer
+NSCLC 31 36 300 305 I-cancer
+
+Platinum 0 8 306 314 B-treatment
+- 8 9 314 315 I-treatment
+based 9 14 315 320 I-treatment
+chemotherapy 15 27 321 333 I-treatment
+as 28 30 334 336 O
+first 31 36 337 342 O
+line 37 41 343 347 O
+treatment 42 51 348 357 B-treatment
+
+Prior 0 5 358 363 B-treatment
+treatment 6 15 364 373 I-treatment
+with 16 20 374 378 O
+3rd 21 24 379 382 O
+generation 25 35 383 393 O
+TKI 36 39 394 397 B-treatment
+
+cMET 0 4 398 402 O
+amplification 5 18 403 416 O
+by 19 21 417 419 O
+FISH 22 26 420 424 O
+( 27 28 425 426 O
+GCN 28 31 426 429 B-clinical_variable
+≥ 32 33 430 431 O
+6 34 35 432 433 B-lower_bound
+) 35 36 433 434 O
+

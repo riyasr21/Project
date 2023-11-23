@@ -1,0 +1,25 @@
+ED 0 2 0 2 O
+patients 3 11 3 11 O
+with 12 16 12 16 O
+OUD 17 20 17 20 B-chronic_disease
+
+Patients 0 8 21 29 O
+who 9 12 30 33 O
+test 13 17 34 38 O
+positive 18 26 39 47 O
+for 27 30 48 51 O
+fentanyl 31 39 52 60 B-treatment
+only 40 44 61 65 O
+are 45 48 66 69 O
+not 49 52 70 73 O
+eligible 53 61 74 82 O
+due 62 65 83 86 O
+to 66 68 87 89 O
+lack 69 73 90 94 O
+of 74 76 95 97 O
+uniformly 77 86 98 107 O
+available 87 96 108 117 O
+rapid 97 102 118 123 O
+urine 103 108 124 129 O
+tests 109 114 130 135 O
+

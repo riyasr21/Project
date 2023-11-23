@@ -1,0 +1,46 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+18 9 11 9 11 B-lower_bound
+years 12 17 12 17 I-lower_bound
+of 18 20 18 20 O
+age 21 24 21 24 B-age
+
+History 0 7 25 32 O
+of 8 10 33 35 O
+clinically 11 21 36 46 O
+diagnosed 22 31 47 56 O
+retinal 32 39 57 64 B-chronic_disease
+diseases 40 48 65 73 I-chronic_disease
+, 48 49 73 74 O
+including 50 59 75 84 O
+but 60 63 85 88 O
+not 64 67 89 92 O
+limited 68 75 93 100 O
+to 76 78 101 103 O
+age 79 82 104 107 B-age
+- 82 83 107 108 O
+related 83 90 108 115 O
+macular 91 98 116 123 B-chronic_disease
+degeneration 99 111 124 136 I-chronic_disease
+, 111 112 136 137 O
+diabetic 113 121 138 146 B-chronic_disease
+retinopathy 122 133 147 158 I-chronic_disease
+, 133 134 158 159 O
+retinal 135 142 160 167 B-chronic_disease
+vein 143 147 168 172 I-chronic_disease
+occlusion 148 157 173 182 I-chronic_disease
+, 157 158 182 183 O
+macular 159 166 184 191 B-chronic_disease
+telangiectasias 167 182 192 207 I-chronic_disease
+, 182 183 207 208 O
+and 184 187 209 212 O
+diabetic 188 196 213 221 B-chronic_disease
+macular 197 204 222 229 I-chronic_disease
+edema 205 210 230 235 I-chronic_disease
+
+Under 0 5 236 241 O
+18 6 8 242 244 B-upper_bound
+years 9 14 245 250 I-upper_bound
+of 15 17 251 253 O
+age 18 21 254 257 B-age
+

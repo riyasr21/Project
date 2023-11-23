@@ -1,0 +1,155 @@
+Have 0 4 0 4 O
+a 5 6 5 6 O
+mass 7 11 7 11 B-chronic_disease
+lesion 12 18 12 18 I-chronic_disease
+, 18 19 18 19 O
+cerebral 20 28 20 28 B-chronic_disease
+infarct 29 36 29 36 I-chronic_disease
+or 37 39 37 39 O
+other 40 45 40 45 O
+active 46 52 46 52 B-chronic_disease
+central 53 60 53 60 I-chronic_disease
+nervous 61 68 61 68 I-chronic_disease
+system 69 75 69 75 I-chronic_disease
+disease 76 83 76 83 I-chronic_disease
+, 83 84 83 84 O
+or 85 87 85 87 O
+history 88 95 88 95 O
+of 96 98 96 98 O
+traumatic 99 108 99 108 B-chronic_disease
+brain 109 114 109 114 I-chronic_disease
+injury 115 121 115 121 I-chronic_disease
+
+History 0 7 122 129 O
+of 8 10 130 132 O
+loss 11 15 133 137 B-chronic_disease
+of 16 18 138 140 I-chronic_disease
+consciousness 19 32 141 154 I-chronic_disease
+greater 33 40 155 162 O
+than 41 45 163 167 O
+15 46 48 168 170 B-lower_bound
+minutes 49 56 171 178 I-lower_bound
+due 57 60 179 182 O
+to 61 63 183 185 O
+head 64 68 186 190 O
+injury 69 75 191 197 O
+
+History 0 7 198 205 O
+of 8 10 206 208 O
+prior 11 16 209 214 O
+adverse 17 24 215 222 O
+reaction 25 33 223 231 O
+to 34 36 232 234 O
+TMS 37 40 235 238 B-allergy_name
+
+History 0 7 239 246 O
+of 8 10 247 249 O
+seizures 11 19 250 258 B-chronic_disease
+or 20 22 259 261 O
+conditions 23 33 262 272 O
+known 34 39 273 278 O
+to 40 42 279 281 O
+substantially 43 56 282 295 O
+increase 57 65 296 304 O
+risk 66 70 305 309 O
+for 71 74 310 313 O
+seizures 75 83 314 322 O
+
+IQ 0 2 323 325 B-clinical_variable
+> 3 4 326 327 O
+80 5 7 328 330 B-lower_bound
+( 8 9 331 332 O
+WASI 9 13 332 336 O
+full 14 18 337 341 O
+scale 19 24 342 347 O
+score 25 30 348 353 O
+) 30 31 353 354 O
+
+Patients 0 8 355 363 O
+with 9 13 364 368 O
+prior 14 19 369 374 O
+exposure 20 28 375 383 O
+to 29 31 384 386 O
+rTMS 32 36 387 391 B-treatment
+
+Pregnant 0 8 392 400 B-pregnancy
+
+SCID 0 4 401 405 O
+confirmed 5 14 406 415 O
+diagnosis 15 24 416 425 O
+of 25 27 426 428 O
+Schizophrenia 28 41 429 442 B-chronic_disease
+or 42 44 443 445 O
+Schizoaffective 45 60 446 461 B-chronic_disease
+Disorder 61 69 462 470 I-chronic_disease
+
+Stable 0 6 471 477 O
+medication 7 17 478 488 O
+regimen 18 25 489 496 O
+( 26 27 497 498 O
+no 27 29 498 500 O
+change 30 36 501 507 O
+in 37 39 508 510 O
+dose 40 44 511 515 O
+or 45 47 516 518 O
+agents 48 54 519 525 O
+within 55 61 526 532 O
+the 62 65 533 536 O
+2 66 67 537 538 B-upper_bound
+weeks 68 73 539 544 I-upper_bound
+prior 74 79 545 550 I-upper_bound
+to 80 82 551 553 O
+study 83 88 554 559 O
+entry 89 94 560 565 O
+and 95 98 566 569 O
+throughout 99 109 570 580 O
+the 110 113 581 584 O
+duration 114 122 585 593 O
+of 123 125 594 596 O
+the 126 129 597 600 O
+study 130 135 601 606 O
+) 135 136 606 607 O
+
+Substance 0 9 608 617 O
+abuse 10 15 618 623 O
+/ 15 16 623 624 O
+dependence 16 26 624 634 O
+( 27 28 635 636 O
+not 28 31 636 639 O
+including 32 41 640 649 O
+caffeine 42 50 650 658 O
+or 51 53 659 661 O
+nicotine 54 62 662 670 O
+) 62 63 670 671 O
+within 64 70 672 678 O
+one 71 74 679 682 B-upper_bound
+- 74 75 682 683 I-upper_bound
+month 75 80 683 688 I-upper_bound
+period 81 87 689 695 I-upper_bound
+prior 88 93 696 701 I-upper_bound
+to 94 96 702 704 O
+study 97 102 705 710 O
+entry 103 108 711 716 O
+or 109 111 717 719 O
+during 112 118 720 726 O
+study 119 124 727 732 O
+participation 125 138 733 746 O
+
+active 0 6 747 753 O
+current 7 14 754 761 O
+suicidal 15 23 762 770 B-chronic_disease
+intent 24 30 771 777 I-chronic_disease
+or 31 33 778 780 I-chronic_disease
+plan 34 38 781 785 I-chronic_disease
+
+clomipramine 0 12 786 798 B-treatment
+
+lactating 0 9 799 808 O
+female 10 16 809 815 B-gender
+
+severe 0 6 816 822 B-chronic_disease
+psychosis 7 16 823 832 I-chronic_disease
+
+unstable 0 8 833 841 B-chronic_disease
+angina 9 15 842 848 I-chronic_disease
+

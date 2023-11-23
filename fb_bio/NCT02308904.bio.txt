@@ -1,0 +1,101 @@
+12 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+45 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+History 0 7 22 29 O
+of 8 10 30 32 O
+at 11 13 33 35 O
+least 14 19 36 41 O
+5 20 21 42 43 B-lower_bound
+years 22 27 44 49 I-lower_bound
+of 28 30 50 52 O
+chronic 31 38 53 60 B-treatment
+transfusion 39 50 61 72 I-treatment
+( 51 52 73 74 O
+defined 52 59 74 81 O
+as 60 62 82 84 O
+≥ 63 64 85 86 O
+8 65 66 87 88 B-lower_bound
+transfusions 67 79 89 101 I-lower_bound
+/ 79 80 101 102 I-lower_bound
+year 80 84 102 106 I-lower_bound
+) 84 85 106 107 O
+
+Liver 0 5 108 113 O
+iron 6 10 114 118 O
+evaluated 11 20 119 128 O
+by 21 23 129 131 O
+SQUID 24 29 132 137 B-treatment
+, 29 30 137 138 O
+MRI 31 34 139 142 B-treatment
+or 35 37 143 145 O
+liver 38 43 146 151 B-treatment
+biopsy 44 50 152 158 I-treatment
+within 51 57 159 165 O
+12 58 60 166 168 B-upper_bound
+months 61 67 169 175 I-upper_bound
+prior 68 73 176 181 I-upper_bound
+to 74 76 182 184 O
+enrollment 77 87 185 195 O
+in 88 90 196 198 O
+the 91 94 199 202 O
+study 95 100 203 208 O
+
+Need 0 4 209 213 O
+to 5 7 214 216 O
+be 8 10 217 219 O
+able 11 15 220 224 O
+to 16 18 225 227 O
+stop 19 23 228 232 O
+hormonal 24 32 233 241 B-treatment
+therapy 33 40 242 249 I-treatment
+for 41 44 250 253 O
+3 45 46 254 255 B-upper_bound
+weeks 47 52 256 261 I-upper_bound
+( 53 54 262 263 O
+males 54 59 263 268 B-gender
+) 59 60 268 269 O
+and 61 64 270 273 O
+one 65 68 274 277 B-upper_bound
+month 69 74 278 283 I-upper_bound
+( 75 76 284 285 O
+females 76 83 285 292 B-gender
+) 83 84 292 293 O
+prior 85 90 294 299 O
+to 91 93 300 302 O
+study 94 99 303 308 O
+enrollment 100 110 309 319 O
+
+Pregnant 0 8 320 328 B-pregnancy
+
+Unable 0 6 329 335 O
+to 7 9 336 338 O
+obtain 10 16 339 345 O
+liver 17 22 346 351 B-clinical_variable
+iron 23 27 352 356 I-clinical_variable
+concentration 28 41 357 370 I-clinical_variable
+within 42 48 371 377 O
+12 49 51 378 380 B-upper_bound
+months 52 58 381 387 I-upper_bound
+prior 59 64 388 393 I-upper_bound
+or 65 67 394 396 O
+6 68 69 397 398 O
+months 70 76 399 405 O
+after 77 82 406 411 O
+study 83 88 412 417 O
+entry 89 94 418 423 O
+
+females 0 7 424 431 B-gender
+
+males 0 5 432 437 B-gender
+
+with 0 4 438 442 O
+thalassemia 5 16 443 454 B-chronic_disease
+( 17 18 455 456 O
+any 18 21 456 459 O
+genotype 22 30 460 468 O
+) 30 31 468 469 O
+

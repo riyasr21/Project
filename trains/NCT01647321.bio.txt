@@ -1,0 +1,112 @@
+Expanded 0 8 0 8 B-clinical_variable
+disability 9 19 9 19 I-clinical_variable
+status 20 26 20 26 I-clinical_variable
+scale 27 32 27 32 I-clinical_variable
+score 33 38 33 38 I-clinical_variable
+between 39 46 39 46 O
+5.0 47 50 47 50 B-lower_bound
+and 51 54 51 54 O
+7.0 55 58 55 58 B-upper_bound
+
+History 0 7 59 66 O
+of 8 10 67 69 O
+epileptic 11 20 70 79 B-chronic_disease
+seizures 21 29 80 88 I-chronic_disease
+
+No 0 2 89 91 O
+functional 3 13 92 102 B-treatment
+electrical 14 24 103 113 I-treatment
+stimulation 25 36 114 125 I-treatment
+use 37 40 126 129 O
+within 41 47 130 136 O
+4 48 49 137 138 B-upper_bound
+weeks 50 55 139 144 I-upper_bound
+
+Participants 0 12 145 157 O
+must 13 17 158 162 O
+be 18 20 163 165 O
+medically 21 30 166 175 O
+stable 31 37 176 182 O
+with 38 42 183 187 O
+no 43 45 188 190 O
+recent 46 52 191 197 O
+( 53 54 198 199 O
+1 54 55 199 200 B-upper_bound
+month 56 61 201 206 I-upper_bound
+or 62 64 207 209 O
+less 65 69 210 214 O
+) 69 70 214 215 O
+inpatient 71 80 216 225 O
+admission 81 90 226 235 O
+for 91 94 236 239 O
+acute 95 100 240 245 O
+medical 101 108 246 253 O
+or 109 111 254 256 O
+surgical 112 120 257 265 O
+issues 121 127 266 272 O
+
+Pregnancy 0 9 273 282 B-pregnancy
+
+Relapse 0 7 283 290 O
+within 8 14 291 297 O
+thirty 15 21 298 304 B-upper_bound
+days 22 26 305 309 I-upper_bound
+prior 27 32 310 315 I-upper_bound
+to 33 35 316 318 O
+screening 36 45 319 328 O
+visit 46 51 329 334 O
+
+Subjects 0 8 335 343 O
+having 9 15 344 350 O
+a 16 17 351 352 O
+Stage 18 23 353 358 B-chronic_disease
+2 24 25 359 360 I-chronic_disease
+or 26 28 361 363 I-chronic_disease
+greater 29 36 364 371 I-chronic_disease
+sacral 37 43 372 378 I-chronic_disease
+decubitus 44 53 379 388 I-chronic_disease
+ulcer 54 59 389 394 I-chronic_disease
+
+Uncontrolled 0 12 395 407 O
+hypertension 13 25 408 420 B-chronic_disease
+or 26 28 421 423 O
+other 29 34 424 429 O
+significant 35 46 430 441 O
+cardiovascular 47 61 442 456 B-chronic_disease
+disease 62 69 457 464 I-chronic_disease
+as 70 72 465 467 O
+determined 73 83 468 478 O
+by 84 86 479 481 O
+investigator 87 99 482 494 O
+
+between 0 7 495 502 O
+the 8 11 503 506 O
+ages 12 16 507 511 B-age
+of 17 19 512 514 O
+18 20 22 515 517 B-lower_bound
+and 23 26 518 521 O
+65 27 29 522 524 B-upper_bound
+years 30 35 525 530 I-upper_bound
+
+clinical 0 8 531 539 O
+diagnosis 9 18 540 549 O
+of 19 21 550 552 O
+secondary 22 31 553 562 B-chronic_disease
+progressive 32 43 563 574 I-chronic_disease
+multiple 44 52 575 583 I-chronic_disease
+sclerosis 53 62 584 593 I-chronic_disease
+
+females 0 7 594 601 B-gender
+
+males 0 5 602 607 B-gender
+
+willing 0 7 608 615 O
+to 8 10 616 618 O
+undergo 11 18 619 626 O
+a 19 20 627 628 O
+lumbar 21 27 629 635 B-treatment
+puncture 28 36 636 644 I-treatment
+and 37 40 645 648 O
+blood 41 46 649 654 B-treatment
+draws 47 52 655 660 I-treatment
+

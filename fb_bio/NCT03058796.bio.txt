@@ -1,0 +1,98 @@
+> 0 1 0 1 O
+6 2 3 2 3 B-lower_bound
+months 4 10 4 10 I-lower_bound
+since 11 16 11 16 O
+a 17 18 17 18 O
+first 19 24 19 24 B-chronic_disease
+clinical 25 33 25 33 I-chronic_disease
+cortical 34 42 34 42 I-chronic_disease
+or 43 45 43 45 I-chronic_disease
+subcortical 46 57 46 57 I-chronic_disease
+, 57 58 57 58 I-chronic_disease
+hemorrhagic 59 70 59 70 I-chronic_disease
+or 71 73 71 73 I-chronic_disease
+nonhemorrhagic 74 88 74 88 I-chronic_disease
+stroke 89 95 89 95 I-chronic_disease
+
+Montreal 0 8 96 104 B-clinical_variable
+Cognitive 9 18 105 114 I-clinical_variable
+Assessment 19 29 115 125 I-clinical_variable
+score 30 35 126 131 I-clinical_variable
+> 36 37 132 133 O
+= 37 38 133 134 O
+22 38 40 134 136 B-lower_bound
+( 41 42 137 138 O
+cutoff 42 48 138 144 O
+set 49 52 145 148 O
+to 53 55 149 151 O
+allow 56 61 152 157 O
+some 62 66 158 162 O
+mild 67 71 163 167 O
+cognitive 72 81 168 177 O
+impairment 82 92 178 188 O
+) 92 93 188 189 O
+
+Parkinson 0 9 190 199 B-chronic_disease
+'s 9 11 199 201 I-chronic_disease
+disease 12 19 202 209 I-chronic_disease
+
+botulinum 0 9 210 219 B-treatment
+toxin 10 15 220 225 I-treatment
+injections 16 26 226 236 I-treatment
+to 27 29 237 239 O
+any 30 33 240 243 O
+upper 34 39 244 249 O
+extremity 40 49 250 259 O
+muscle 50 56 260 266 O
+within 57 63 267 273 O
+3 64 65 274 275 B-upper_bound
+months 66 72 276 282 I-upper_bound
+of 73 75 283 285 O
+enrolling 76 85 286 295 O
+
+multiple 0 8 296 304 B-chronic_disease
+sclerosis 9 18 305 314 I-chronic_disease
+
+participating 0 13 315 328 O
+in 14 16 329 331 O
+occupational 17 29 332 344 B-treatment
+therapy 30 37 345 352 I-treatment
+or 38 40 353 355 O
+other 41 46 356 361 O
+rehabilitation 47 61 362 376 B-treatment
+therapies 62 71 377 386 I-treatment
+to 72 74 387 389 O
+the 75 78 390 393 O
+upper 79 84 394 399 O
+extremity 85 94 400 409 O
+
+pregnant 0 8 410 418 B-pregnancy
+women 9 14 419 424 B-gender
+due 15 18 425 428 O
+to 19 21 429 431 O
+unknown 22 29 432 439 O
+risks 30 35 440 445 O
+of 36 38 446 448 O
+surface 39 46 449 456 O
+NMES 47 51 457 461 O
+during 52 58 462 468 O
+pregnancy 59 68 469 478 B-pregnancy
+
+severely 0 8 479 487 B-chronic_disease
+impaired 9 17 488 496 I-chronic_disease
+cognition 18 27 497 506 I-chronic_disease
+and 28 31 507 510 I-chronic_disease
+communication 32 45 511 524 I-chronic_disease
+
+spinal 0 6 525 531 B-chronic_disease
+cord 7 11 532 536 I-chronic_disease
+injury 12 18 537 543 I-chronic_disease
+
+traumatic 0 9 544 553 B-chronic_disease
+brain 10 15 554 559 I-chronic_disease
+injury 16 22 560 566 I-chronic_disease
+
+uncontrolled 0 12 567 579 B-chronic_disease
+seizure 13 20 580 587 I-chronic_disease
+disorder 21 29 588 596 I-chronic_disease
+

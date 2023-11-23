@@ -1,0 +1,180 @@
+Anabolic 0 8 0 8 B-treatment
+or 9 11 9 11 I-treatment
+Steroid 12 19 12 19 I-treatment
+hormonal 20 28 20 28 I-treatment
+therapy 29 36 29 36 I-treatment
+; 36 37 36 37 O
+within 38 44 38 44 O
+the 45 48 45 48 O
+past 49 53 49 53 O
+year 54 58 54 58 O
+and 59 62 59 62 O
+longer 63 69 63 69 O
+than 70 74 70 74 O
+six 75 78 75 78 B-lower_bound
+months 79 85 79 85 I-lower_bound
+
+Any 0 3 86 89 O
+patient 4 11 90 97 O
+receiving 12 21 98 107 O
+moderate 22 30 108 116 O
+or 31 33 117 119 O
+high 34 38 120 124 O
+dose 39 43 125 129 O
+corticosteroids 44 59 130 145 B-treatment
+( 60 61 146 147 O
+> 61 62 147 148 O
+40 62 64 148 150 B-lower_bound
+mg 65 67 151 153 I-lower_bound
+/ 67 68 153 154 I-lower_bound
+d 68 69 154 155 I-lower_bound
+prednisone 70 80 156 166 B-treatment
+or 81 83 167 169 O
+an 84 86 170 172 O
+equivalent 87 97 173 183 O
+dose 98 102 184 188 O
+of 103 105 189 191 O
+other 106 111 192 197 O
+corticosteroid 112 126 198 212 O
+) 126 127 212 213 O
+for 128 131 214 217 O
+longer 132 138 218 224 O
+than 139 143 225 229 O
+one 144 147 230 233 B-lower_bound
+week 148 152 234 238 I-lower_bound
+, 152 153 238 239 O
+not 154 157 240 243 O
+including 158 167 244 253 O
+drug 168 172 254 258 O
+administered 173 185 259 271 O
+in 186 188 272 274 O
+an 189 191 275 277 O
+attempt 192 199 278 285 O
+to 200 202 286 288 O
+preserve 203 211 289 297 O
+neurological 212 224 298 310 O
+function 225 233 311 319 O
+at 234 236 320 322 O
+the 237 240 323 326 O
+time 241 245 327 331 O
+of 246 248 332 334 O
+acute 249 254 335 340 B-chronic_disease
+SCI 255 258 341 344 I-chronic_disease
+
+Any 0 3 345 348 O
+patient 4 11 349 356 O
+taking 12 18 357 363 O
+a 19 20 364 365 O
+bisphosphonate 21 35 366 380 B-treatment
+for 36 39 381 384 O
+heterotopic 40 51 385 396 B-chronic_disease
+ossification 52 64 397 409 I-chronic_disease
+( 65 66 410 411 I-chronic_disease
+HO 66 68 411 413 I-chronic_disease
+) 68 69 413 414 I-chronic_disease
+
+Current 0 7 415 422 O
+diagnosis 8 17 423 432 O
+of 18 20 433 435 O
+cancer 21 27 436 442 B-cancer
+
+Cushing 0 7 443 450 B-chronic_disease
+'s 7 9 450 452 I-chronic_disease
+disease 10 17 453 460 I-chronic_disease
+or 18 20 461 463 I-chronic_disease
+syndrome 21 29 464 472 I-chronic_disease
+
+Diagnosis 0 9 473 482 O
+of 10 12 483 485 O
+Hypocalcemia 13 25 486 498 B-chronic_disease
+
+Duration 0 8 499 507 O
+of 9 11 508 510 O
+injury 12 18 511 517 O
+< 19 20 518 519 O
+12 20 22 519 521 B-upper_bound
+weeks 23 28 522 527 I-upper_bound
+
+Extensive 0 9 528 537 O
+life 10 14 538 542 O
+- 14 15 542 543 O
+threatening 15 26 543 554 O
+injuries 27 35 555 563 O
+in 36 38 564 566 O
+addition 39 47 567 575 O
+to 48 50 576 578 O
+SCI 51 54 579 582 B-chronic_disease
+
+Heterotopic 0 11 583 594 B-chronic_disease
+ossification 12 24 595 607 I-chronic_disease
+of 25 27 608 610 O
+the 28 31 611 614 O
+knee 32 36 615 619 O
+region 37 43 620 626 O
+
+History 0 7 627 634 O
+of 8 10 635 637 O
+chronic 11 18 638 645 B-chronic_disease
+alcohol 19 26 646 653 I-chronic_disease
+abuse 27 32 654 659 I-chronic_disease
+
+History 0 7 660 667 O
+of 8 10 668 670 O
+prior 11 16 671 676 O
+bone 17 21 677 681 B-chronic_disease
+disease 22 29 682 689 I-chronic_disease
+( 30 31 690 691 O
+Paget 31 36 691 696 B-chronic_disease
+'s 36 38 696 698 I-chronic_disease
+hyperparathyroidism 39 58 699 718 I-chronic_disease
+, 58 59 718 719 O
+osteoporosis 60 72 720 732 B-chronic_disease
+, 72 73 732 733 O
+etc 74 77 734 737 O
+. 77 78 737 738 O
+) 78 79 738 739 O
+
+Hyperthyroidism 0 15 740 755 B-chronic_disease
+
+Males 0 5 756 761 B-gender
+
+Men 0 3 762 765 B-gender
+with 4 8 766 770 O
+known 9 14 771 776 O
+hypogonadism 15 27 777 789 B-chronic_disease
+prior 28 33 790 795 O
+to 34 36 796 798 O
+SCI 37 40 799 802 O
+
+Post 0 4 803 807 O
+menopausal 5 15 808 818 O
+women 16 21 819 824 B-gender
+
+Pregnancy 0 9 825 834 B-pregnancy
+
+between 0 7 835 842 O
+the 8 11 843 846 O
+ages 12 16 847 851 B-age
+of 17 19 852 854 O
+18 20 22 855 857 B-lower_bound
+and 23 26 858 861 O
+50 27 29 862 864 B-upper_bound
+years 30 35 865 870 I-upper_bound
+old 36 39 871 874 I-upper_bound
+
+between 0 7 875 882 O
+the 8 11 883 886 O
+ages 12 16 887 891 B-age
+of 17 19 892 894 O
+18 20 22 895 897 B-lower_bound
+and 23 26 898 901 O
+65 27 29 902 904 B-upper_bound
+years 30 35 905 910 I-upper_bound
+old 36 39 911 914 O
+
+females 0 7 915 922 B-gender
+
+history 0 7 923 930 O
+of 8 10 931 933 O
+cancer 11 17 934 940 B-cancer
+

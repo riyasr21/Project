@@ -1,0 +1,43 @@
+Appendix 0 8 0 8 O
+removed 9 16 9 16 O
+at 17 19 17 19 O
+time 20 24 20 24 O
+of 25 27 25 27 O
+laparoscopy 28 39 28 39 B-treatment
+for 40 43 40 43 O
+treatment 44 53 44 53 O
+of 54 56 54 56 O
+endometriosis 57 70 57 70 B-chronic_disease
+and/or 71 77 71 77 O
+pelvic 78 84 78 84 O
+pain 85 89 85 89 O
+
+Chronic 0 7 90 97 B-chronic_disease
+pelvic 8 14 98 104 I-chronic_disease
+pain 15 19 105 109 I-chronic_disease
+and/or 20 26 110 116 O
+diagnosis 27 36 117 126 O
+of 37 39 127 129 O
+endometriosis 40 53 130 143 B-chronic_disease
+
+English 0 7 144 151 B-language_fluency
+Speaking 8 16 152 160 I-language_fluency
+
+Non 0 3 161 164 B-language_fluency
+- 3 4 164 165 I-language_fluency
+English 4 11 165 172 I-language_fluency
+speaking 12 20 173 181 I-language_fluency
+
+Previous 0 8 182 190 B-treatment
+appendectomy 9 21 191 203 I-treatment
+
+Women 0 5 204 209 B-gender
+
+age 0 3 210 213 B-age
+18 4 6 214 216 B-lower_bound
+- 6 7 216 217 O
+51 7 9 217 219 B-upper_bound
+years 10 15 220 225 I-upper_bound
+of 16 18 226 228 O
+age 19 22 229 232 O
+

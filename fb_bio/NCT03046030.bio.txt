@@ -1,0 +1,26 @@
+Current 0 7 0 7 O
+or 8 10 8 10 O
+past 11 15 11 15 O
+history 16 23 16 23 O
+of 24 26 24 26 O
+major 27 32 27 32 B-chronic_disease
+medical 33 40 33 40 I-chronic_disease
+, 40 41 40 41 I-chronic_disease
+neurological 42 54 42 54 I-chronic_disease
+, 54 55 54 55 I-chronic_disease
+or 56 58 56 58 I-chronic_disease
+psychiatric 59 70 59 70 I-chronic_disease
+illness 71 78 71 78 I-chronic_disease
+
+Non 0 3 79 82 B-language_fluency
+- 3 4 82 83 I-language_fluency
+fluent 4 10 83 89 I-language_fluency
+speaker 11 18 90 97 I-language_fluency
+of 19 21 98 100 I-language_fluency
+English 22 29 101 108 I-language_fluency
+
+aged 0 4 109 113 B-age
+18 5 7 114 116 B-lower_bound
+- 7 8 116 117 O
+60 8 10 117 119 B-upper_bound
+

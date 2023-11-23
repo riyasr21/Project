@@ -1,0 +1,30 @@
+Any 0 3 0 3 O
+age 4 7 4 7 B-age
+
+New 0 3 8 11 O
+diagnosis 4 13 12 21 O
+of 14 16 22 24 O
+Acute 17 22 25 30 B-cancer
+Lymphoblastic 23 36 31 44 I-cancer
+Leukemia 37 45 45 53 I-cancer
+
+No 0 2 54 56 O
+previous 3 11 57 65 B-treatment
+therapy 12 19 66 73 I-treatment
+
+Not 0 3 74 77 O
+willing 4 11 78 85 O
+to 12 14 86 88 O
+obtain 15 21 89 95 O
+cancer 22 28 96 102 B-cancer
+care 29 33 103 107 O
+at 34 36 108 110 O
+the 37 40 111 114 O
+University 41 51 115 125 O
+of 52 54 126 128 O
+New 55 58 129 132 O
+Mexico 59 65 133 139 O
+
+Previous 0 8 140 148 B-treatment
+therapy 9 16 149 156 I-treatment
+

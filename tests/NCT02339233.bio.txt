@@ -1,0 +1,117 @@
+HIV 0 3 0 3 B-chronic_disease
+or 4 6 4 6 O
+AIDS 7 11 7 11 B-chronic_disease
+related 12 19 12 19 O
+illness 20 27 20 27 B-chronic_disease
+
+at 0 2 28 30 O
+least 3 8 31 36 O
+one 9 12 37 40 B-lower_bound
+- 12 13 40 41 I-lower_bound
+year 13 17 41 45 I-lower_bound
+post 18 22 46 50 O
+injury 23 29 51 57 O
+
+cardiovascular 0 14 58 72 B-chronic_disease
+, 14 15 72 73 O
+respiratory 16 27 74 85 B-chronic_disease
+, 27 28 85 86 O
+bladder 29 36 87 94 B-chronic_disease
+or 37 39 95 97 O
+renal 40 45 98 103 B-chronic_disease
+disease 46 53 104 111 I-chronic_disease
+unrelated 54 63 112 121 O
+to 64 66 122 124 O
+SCI 67 70 125 128 O
+
+dysautonomia 0 12 129 141 B-chronic_disease
+that 13 17 142 146 O
+would 18 23 147 152 O
+contraindicate 24 38 153 167 O
+standing 39 47 168 176 O
+
+hypovolemia 0 11 177 188 B-chronic_disease
+
+must 0 4 189 193 O
+be 5 7 194 196 O
+at 8 10 197 199 O
+least 11 16 200 205 O
+18 17 19 206 208 B-lower_bound
+years 20 25 209 214 I-lower_bound
+of 26 28 215 217 O
+age 29 32 218 221 B-age
+
+must 0 4 222 226 O
+not 5 8 227 230 O
+have 9 13 231 235 O
+received 14 22 236 244 O
+botox 23 28 245 250 O
+injections 29 39 251 261 O
+in 40 42 262 264 O
+the 43 46 265 268 O
+prior 47 52 269 274 B-upper_bound
+six 53 56 275 278 I-upper_bound
+months 57 63 279 285 I-upper_bound
+
+no 0 2 286 288 O
+clinically 3 13 289 299 O
+significant 14 25 300 311 O
+depression 26 36 312 322 B-chronic_disease
+
+no 0 2 323 325 O
+current 3 10 326 333 O
+anti 11 15 334 338 B-treatment
+- 15 16 338 339 I-treatment
+spasticity 16 26 339 349 I-treatment
+medication 27 37 350 360 I-treatment
+regimen 38 45 361 368 I-treatment
+
+no 0 2 369 371 O
+painful 3 10 372 379 O
+musculoskeletal 11 26 380 395 B-chronic_disease
+dysfunction 27 38 396 407 I-chronic_disease
+, 38 39 407 408 O
+unhealed 40 48 409 417 O
+fracture 49 57 418 426 O
+, 57 58 426 427 O
+contracture 59 70 428 439 O
+, 70 71 439 440 O
+pressure 72 80 441 449 O
+sore 81 85 450 454 O
+
+pressure 0 8 455 463 B-chronic_disease
+sore 9 13 464 468 I-chronic_disease
+that 14 18 469 473 O
+might 19 24 474 479 O
+interfere 25 34 480 489 O
+with 35 39 490 494 O
+training 40 48 495 503 O
+
+severe 0 6 504 510 B-chronic_disease
+anemia 7 13 511 517 I-chronic_disease
+( 14 15 518 519 O
+Hgb<8 15 20 519 524 B-clinical_variable
+g 21 22 525 526 I-upper_bound
+/ 22 23 526 527 I-upper_bound
+dL 23 25 527 529 I-upper_bound
+) 25 26 529 530 O
+
+stable 0 6 531 537 O
+medical 7 14 538 545 O
+condition 15 24 546 555 O
+without 25 32 556 563 O
+cardiopulmonary 33 48 564 579 B-chronic_disease
+disease 49 56 580 587 I-chronic_disease
+
+urinary 0 7 588 595 B-chronic_disease
+tract 8 13 596 601 I-chronic_disease
+infection 14 23 602 611 I-chronic_disease
+that 24 28 612 616 O
+might 29 34 617 622 O
+interfere 35 44 623 632 O
+with 45 49 633 637 O
+stand 50 55 638 643 O
+or 56 58 644 646 O
+step 59 63 647 651 O
+training 64 72 652 660 O
+

@@ -1,0 +1,67 @@
+Any 0 3 0 3 O
+sensorimotor 4 16 4 16 B-chronic_disease
+deficit 17 24 17 24 I-chronic_disease
+, 24 25 24 25 O
+whether 26 33 26 33 O
+acute 34 39 34 39 O
+or 40 42 40 42 O
+chronic 43 50 43 50 O
+, 50 51 50 51 O
+as 52 54 52 54 O
+determined 55 65 55 65 O
+by 66 68 66 68 O
+the 69 72 69 72 O
+PI 73 75 73 75 O
+
+Chronic 0 7 76 83 O
+use 8 11 84 87 O
+of 12 14 88 90 O
+opioid 15 21 91 97 B-treatment
+medication 22 32 98 108 I-treatment
+
+Overweight 0 10 109 119 O
+and 11 14 120 123 O
+obese 15 20 124 129 O
+individuals 21 32 130 141 O
+( 33 34 142 143 O
+defined 34 41 143 150 O
+as 42 44 151 153 O
+a 45 46 154 155 O
+body 47 51 156 160 B-bmi
+mass 52 56 161 165 I-bmi
+index 57 62 166 171 I-bmi
+of 63 65 172 174 O
+≥ 66 67 175 176 O
+25 68 70 177 179 B-lower_bound
+and 71 74 180 183 O
+30 75 77 184 186 B-lower_bound
+kg 78 80 187 189 I-lower_bound
+/ 80 81 189 190 I-lower_bound
+m2 81 83 190 192 I-lower_bound
+, 83 84 192 193 O
+respectively 85 97 194 206 O
+) 97 98 206 207 O
+
+Patients 0 8 208 216 O
+≥ 9 10 217 218 O
+18 11 13 219 221 B-lower_bound
+years 14 19 222 227 I-lower_bound
+of 20 22 228 230 O
+age 23 26 231 234 B-age
+undergoing 27 37 235 245 O
+umbilical 38 47 246 255 B-treatment
+hernia 48 54 256 262 I-treatment
+repair 55 61 263 269 I-treatment
+
+Severe 0 6 270 276 B-chronic_disease
+hepatic 7 14 277 284 I-chronic_disease
+impairment 15 25 285 295 I-chronic_disease
+
+True 0 4 296 300 O
+allergy 5 12 301 308 O
+, 12 13 308 309 O
+not 14 17 310 313 O
+sensitivity 18 29 314 325 O
+, 29 30 325 326 O
+Propofol 31 39 327 335 B-allergy_name
+

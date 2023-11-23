@@ -1,0 +1,155 @@
+Acute 0 5 0 5 B-chronic_disease
+hepatitis 6 15 6 15 I-chronic_disease
+
+Acute 0 5 16 21 B-chronic_disease
+liver 6 11 22 27 I-chronic_disease
+failure 12 19 28 35 I-chronic_disease
+
+Acute 0 5 36 41 B-chronic_disease
+myocardial 6 16 42 52 I-chronic_disease
+infarction 17 27 53 63 I-chronic_disease
+
+Acute 0 5 64 69 O
+seizures 6 14 70 78 B-chronic_disease
+
+Acute 0 5 79 84 B-chronic_disease
+stroke 6 12 85 91 I-chronic_disease
+
+Burn 0 4 92 96 B-clinical_variable
+injury 5 11 97 103 I-clinical_variable
+experienced 12 23 104 115 I-clinical_variable
+< 24 25 116 117 O
+48 25 27 117 119 B-upper_bound
+hours 28 33 120 125 I-upper_bound
+prior 34 39 126 131 I-upper_bound
+to 40 42 132 134 O
+admission 43 52 135 144 O
+to 53 55 145 147 O
+the 56 59 148 151 O
+Burn 60 64 152 156 O
+Center 65 71 157 163 O
+for 72 75 164 167 O
+care 76 80 168 172 O
+
+Chemical 0 8 173 181 B-chronic_disease
+or 9 11 182 184 O
+electrical 12 22 185 195 B-chronic_disease
+burn 23 27 196 200 I-chronic_disease
+injury 28 34 201 207 I-chronic_disease
+
+Expected 0 8 208 216 O
+stay 9 13 217 221 O
+on 14 16 222 224 O
+the 17 20 225 228 O
+Burn 21 25 229 233 O
+Center 26 32 234 240 O
+for 33 36 241 244 O
+3 37 38 245 246 B-lower_bound
+or 39 41 247 249 I-lower_bound
+more 42 46 250 254 I-lower_bound
+days 47 51 255 259 I-lower_bound
+
+Patients 0 8 260 268 O
+age 9 12 269 272 B-age
+18- 13 16 273 276 B-lower_bound
+89 17 19 277 279 B-upper_bound
+
+Patients 0 8 280 288 O
+who 9 12 289 292 O
+are 13 16 293 296 B-pregnancy
+pregnant 17 25 297 305 I-pregnancy
+
+Patients 0 8 306 314 O
+with 9 13 315 319 O
+current 14 21 320 327 O
+hemodynamic 22 33 328 339 B-chronic_disease
+instability 34 45 340 351 I-chronic_disease
+( 46 47 352 353 O
+current 47 54 353 360 O
+hypotension 55 66 361 372 B-clinical_variable
+systolic 67 75 373 381 I-clinical_variable
+blood 76 81 382 387 I-clinical_variable
+pressure 82 90 388 396 I-clinical_variable
+< 91 92 397 398 O
+100 92 95 398 401 B-upper_bound
+mmHg 96 100 402 406 I-upper_bound
+, 100 101 406 407 O
+sustained 102 111 408 417 B-clinical_variable
+heart 112 117 418 423 I-clinical_variable
+rate 118 122 424 428 I-clinical_variable
+< 123 124 429 430 O
+60 125 127 431 433 B-upper_bound
+beats 128 133 434 439 I-upper_bound
+/ 133 134 439 440 I-upper_bound
+min 134 137 440 443 I-upper_bound
+without 138 145 444 451 O
+a 146 147 452 453 O
+pacemaker 148 157 454 463 O
+, 157 158 463 464 O
+symptomatic 159 170 465 476 B-chronic_disease
+bradycardia 171 182 477 488 I-chronic_disease
+, 182 183 488 489 O
+or 184 186 490 492 O
+second 187 193 493 499 B-chronic_disease
+or 194 196 500 502 I-chronic_disease
+third 197 202 503 508 I-chronic_disease
+degree 203 209 509 515 I-chronic_disease
+heart 210 215 516 521 I-chronic_disease
+block 216 221 522 527 I-chronic_disease
+) 221 222 527 528 O
+
+Read 0 4 529 533 B-language_fluency
+, 4 5 533 534 I-language_fluency
+write 6 11 535 540 I-language_fluency
+and 12 15 541 544 I-language_fluency
+speak 16 21 545 550 I-language_fluency
+English 22 29 551 558 I-language_fluency
+
+Severe 0 6 559 565 O
+cognition 7 16 566 575 O
+or 17 19 576 578 O
+communication 20 33 579 592 O
+difficulties 34 46 593 605 O
+( 47 48 606 607 O
+e.g. 48 52 607 611 O
+, 52 53 611 612 O
+coma 54 58 613 617 B-chronic_disease
+, 58 59 617 618 O
+deafness 60 68 619 627 O
+without 69 76 628 635 O
+signing 77 84 636 643 O
+literacy 85 93 644 652 O
+, 93 94 652 653 O
+dementia 95 103 654 662 B-chronic_disease
+, 103 104 662 663 O
+non 105 108 664 667 B-language_fluency
+- 108 109 667 668 I-language_fluency
+English 109 116 668 675 I-language_fluency
+speaking 117 125 676 684 I-language_fluency
+) 125 126 684 685 O
+
+admitted 0 8 686 694 O
+for 9 12 695 698 O
+initial 13 20 699 706 O
+management 21 31 707 717 O
+of 32 34 718 720 O
+a 35 36 721 722 O
+thermal 37 44 723 730 O
+burn 45 49 731 735 O
+injury 50 56 736 742 O
+( 57 58 743 744 O
+flame 58 63 744 749 O
+, 63 64 749 750 O
+scald 65 70 751 756 O
+, 70 71 756 757 O
+contact 72 79 758 765 O
+) 79 80 765 766 O
+with 81 85 767 771 O
+> 86 87 772 773 O
+1 87 88 773 774 B-lower_bound
+% 88 89 774 775 I-lower_bound
+total 90 95 776 781 B-clinical_variable
+body 96 100 782 786 I-clinical_variable
+surface 101 108 787 794 I-clinical_variable
+area 109 113 795 799 I-clinical_variable
+

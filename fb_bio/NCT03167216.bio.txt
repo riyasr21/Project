@@ -1,0 +1,81 @@
+CP 0 2 0 2 B-chronic_disease
+/ 2 3 2 3 I-chronic_disease
+CPPS 3 7 3 7 I-chronic_disease
+symptoms 8 16 8 16 O
+must 17 21 17 21 O
+have 22 26 22 26 O
+been 27 31 27 31 O
+present 32 39 32 39 O
+for 40 43 40 43 O
+the 44 47 44 47 O
+majority 48 56 48 56 O
+of 57 59 57 59 O
+the 60 63 60 63 O
+time 64 68 64 68 O
+during 69 75 69 75 O
+any 76 79 76 79 O
+3 80 81 80 81 B-upper_bound
+months 82 88 82 88 I-upper_bound
+in 89 91 89 91 O
+the 92 95 92 95 O
+previous 96 104 96 104 B-upper_bound
+6 105 106 105 106 I-upper_bound
+months 107 113 107 113 I-upper_bound
+
+Diagnosed 0 9 114 123 O
+with 10 14 124 128 O
+Category 15 23 129 137 B-chronic_disease
+III 24 27 138 141 I-chronic_disease
+Chronic 28 35 142 149 I-chronic_disease
+Pelvic 36 42 150 156 I-chronic_disease
+Pain 43 47 157 161 I-chronic_disease
+Syndrome 48 56 162 170 I-chronic_disease
+
+Females 0 7 171 178 B-gender
+
+Male 0 4 179 183 B-gender
+
+Males 0 5 184 189 B-gender
+
+Mast 0 4 190 194 O
+cell 5 9 195 199 O
+tryptase 10 18 200 208 O
+levels 19 25 209 215 O
+in 26 28 216 218 O
+EPS 29 32 219 222 B-clinical_variable
+equal 33 38 223 228 O
+to 39 41 229 231 O
+or 42 44 232 234 O
+below 45 50 235 240 O
+a 51 52 241 242 O
+control 53 60 243 250 O
+threshold 61 70 251 260 O
+of 71 73 261 263 O
+25ng 74 78 264 268 B-upper_bound
+/ 78 79 268 269 I-upper_bound
+ml 79 81 269 271 I-upper_bound
+based 82 87 272 277 O
+on 88 90 278 280 O
+healthy 91 98 281 288 O
+men 99 102 289 292 B-gender
+
+Patients 0 8 293 301 O
+with 9 13 302 306 O
+a 14 15 307 308 O
+known 16 21 309 314 O
+hypersensitivity 22 38 315 331 O
+to 39 41 332 334 O
+cromolyn 42 50 335 343 B-allergy_name
+sodium 51 57 344 350 I-allergy_name
+or 58 60 351 353 O
+cetirizine 61 71 354 364 B-allergy_name
+hydrochloride 72 85 365 378 I-allergy_name
+
+Patients 0 8 379 387 O
+with 9 13 388 392 O
+impaired 14 22 393 401 B-chronic_disease
+renal 23 28 402 407 I-chronic_disease
+or 29 31 408 410 O
+hepatic 32 39 411 418 B-chronic_disease
+function 40 48 419 427 I-chronic_disease
+

@@ -1,0 +1,27 @@
+BMI 0 3 0 3 B-bmi
+less 4 8 4 8 O
+than 9 13 9 13 O
+35 14 16 14 16 B-upper_bound
+
+Be 0 2 17 19 O
+scheduled 3 12 20 29 O
+to 13 15 30 32 O
+have 16 20 33 37 O
+posterior 21 30 38 47 B-treatment
+spine 31 36 48 53 I-treatment
+surgery 37 44 54 61 I-treatment
+
+Have 0 4 62 66 O
+a 5 6 67 68 O
+BMI 7 10 69 72 B-bmi
+greater 11 18 73 80 O
+than 19 23 81 85 O
+or 24 26 86 88 O
+equal 27 32 89 94 O
+to 33 35 95 97 O
+35 36 38 98 100 B-lower_bound
+
+Previous 0 8 101 109 O
+spine 9 14 110 115 B-chronic_disease
+infection 15 24 116 125 I-chronic_disease
+

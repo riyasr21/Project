@@ -1,0 +1,28 @@
+The 0 3 0 3 O
+patient 4 11 4 11 O
+has 12 15 12 15 O
+a 16 17 16 17 O
+family 18 24 18 24 O
+member 25 31 25 31 O
+diagnosed 32 41 32 41 O
+with 42 46 42 46 O
+Dent 47 51 47 51 B-chronic_disease
+Disease 52 59 52 59 I-chronic_disease
+
+The 0 3 60 63 O
+patient 4 11 64 71 O
+has 12 15 72 75 O
+been 16 20 76 80 O
+diagnosed 21 30 81 90 O
+, 30 31 90 91 O
+or 32 34 92 94 O
+in 35 37 95 97 O
+the 38 41 98 101 O
+process 42 49 102 109 O
+of 50 52 110 112 O
+being 53 58 113 118 O
+diagnosed 59 68 119 128 O
+with 69 73 129 133 O
+Dent 74 78 134 138 B-chronic_disease
+Disease 79 86 139 146 I-chronic_disease
+

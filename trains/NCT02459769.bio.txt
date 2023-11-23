@@ -1,0 +1,60 @@
+Be 0 2 0 2 O
+21 3 5 3 5 B-lower_bound
+years 6 11 6 11 I-lower_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+or 19 21 19 21 O
+older 22 27 22 27 O
+
+Be 0 2 28 30 O
+able 3 7 31 35 O
+to 8 10 36 38 O
+read 11 15 39 43 B-language_fluency
+English 16 23 44 51 I-language_fluency
+
+For 0 3 52 55 O
+caregivers 4 14 56 66 O
+, 14 15 66 67 O
+be 16 18 68 70 O
+currently 19 28 71 80 O
+undergoing 29 39 81 91 O
+active 40 46 92 98 O
+treatment 47 56 99 108 O
+for 57 60 109 112 O
+cancer 61 67 113 119 B-cancer
+
+Have 0 4 120 124 O
+had 5 8 125 128 O
+a 9 10 129 130 O
+diagnosis 11 20 131 140 O
+of 21 23 141 143 O
+cancer 24 30 144 150 B-cancer
+
+cancer 0 6 151 157 B-cancer
+survivors 7 16 158 167 O
+
+continued 0 9 168 177 O
+adjuvant 10 18 178 186 B-treatment
+treatment 19 28 187 196 I-treatment
+
+have 0 4 197 201 O
+completed 5 14 202 211 O
+primary 15 22 212 219 B-treatment
+surgery 23 30 220 227 I-treatment
+, 30 31 227 228 O
+chemotherapy 32 44 229 241 B-treatment
+, 44 45 241 242 O
+and/or 46 52 243 249 O
+radiation 53 62 250 259 B-treatment
+
+squamous 0 8 260 268 B-cancer
+and 9 12 269 272 O
+basal 13 18 273 278 B-cancer
+cell 19 23 279 283 I-cancer
+[ 24 25 284 285 I-cancer
+skin 25 29 285 289 I-cancer
+cancers 30 37 290 297 I-cancer
+] 37 38 297 298 I-cancer
+
+transgender 0 11 299 310 B-gender
+

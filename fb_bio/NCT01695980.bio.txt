@@ -1,0 +1,43 @@
+children 0 8 0 8 O
+under 9 14 9 14 O
+2 15 16 15 16 B-lower_bound
+or 17 19 17 19 O
+over 20 24 20 24 O
+16 25 27 25 27 B-upper_bound
+
+children 0 8 28 36 O
+with 9 13 37 41 O
+BMI 14 17 42 45 B-bmi
+> 18 19 46 47 O
+35 19 21 47 49 B-lower_bound
+
+children 0 8 50 58 O
+with 9 13 59 63 O
+craniofacial 14 26 64 76 B-chronic_disease
+anomalies 27 36 77 86 I-chronic_disease
+/ 36 37 86 87 I-chronic_disease
+abnormalities 37 50 87 100 I-chronic_disease
+which 51 56 101 106 O
+will 57 61 107 111 O
+interfere 62 71 112 121 O
+with 72 76 122 126 O
+mask 77 81 127 131 O
+placement 82 91 132 141 O
+
+requiring 0 9 142 151 O
+adenotonsillectomy 10 28 152 170 B-treatment
+for 29 32 171 174 O
+Obstructive 33 44 175 186 B-chronic_disease
+sleep 45 50 187 192 I-chronic_disease
+apnea 51 56 193 198 I-chronic_disease
+or 57 59 199 201 O
+chronic 60 67 202 209 B-chronic_disease
+tonsillitis 68 79 210 221 I-chronic_disease
+between 80 87 222 229 O
+the 88 91 230 233 O
+ages 92 96 234 238 B-age
+of 97 99 239 241 O
+2 100 101 242 243 B-lower_bound
+- 101 102 243 244 O
+16 102 104 244 246 B-upper_bound
+

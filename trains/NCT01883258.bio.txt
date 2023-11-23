@@ -1,0 +1,154 @@
+> 0 1 0 1 O
+5 1 2 1 2 B-lower_bound
+% 3 4 3 4 I-lower_bound
+weight 5 11 5 11 B-clinical_variable
+change 12 18 12 18 I-clinical_variable
+in 19 21 19 21 O
+the 22 25 22 25 O
+prior 26 31 26 31 B-upper_bound
+6 32 33 32 33 I-upper_bound
+months 34 40 34 40 I-upper_bound
+
+Diagnosis 0 9 41 50 O
+of 10 12 51 53 O
+type 13 17 54 58 B-chronic_disease
+2 18 19 59 60 I-chronic_disease
+diabetes 20 28 61 69 I-chronic_disease
+
+History 0 7 70 77 O
+of 8 10 78 80 O
+any 11 14 81 84 O
+relevant 15 23 85 93 O
+cardiovascular 24 38 94 108 B-chronic_disease
+diseases 39 47 109 117 I-chronic_disease
+( 48 49 118 119 O
+myocardial 49 59 119 129 B-chronic_disease
+infarction 60 70 130 140 I-chronic_disease
+, 70 71 140 141 O
+angina 72 78 142 148 B-chronic_disease
+pectoris 79 87 149 157 I-chronic_disease
+, 87 88 157 158 O
+history 89 96 159 166 O
+of 97 99 167 169 O
+coronary 100 108 170 178 B-treatment
+artery 109 115 179 185 I-treatment
+bypass 116 122 186 192 I-treatment
+surgery 123 130 193 200 I-treatment
+or 131 133 201 203 O
+angioplasty 134 145 204 215 B-treatment
+, 145 146 215 216 O
+congestive 147 157 217 227 B-chronic_disease
+heart 158 163 228 233 I-chronic_disease
+failure 164 171 234 241 I-chronic_disease
+, 171 172 241 242 O
+or 173 175 243 245 O
+arrhythmia 176 186 246 256 B-chronic_disease
+) 186 187 256 257 O
+
+History 0 7 258 265 O
+of 8 10 266 268 O
+diabetic 11 19 269 277 B-chronic_disease
+proliferative 20 33 278 291 I-chronic_disease
+retinopathy 34 45 292 303 I-chronic_disease
+, 45 46 303 304 O
+autonomic 47 56 305 314 B-chronic_disease
+or 57 59 315 317 I-chronic_disease
+peripheral 60 70 318 328 I-chronic_disease
+neuropathy 71 81 329 339 I-chronic_disease
+
+History 0 7 340 347 O
+of 8 10 348 350 O
+gout 11 15 351 355 B-chronic_disease
+or 16 18 356 358 O
+hyperuricemia 19 32 359 372 B-chronic_disease
+
+History 0 7 373 380 O
+of 8 10 381 383 O
+hepatic 11 18 384 391 B-chronic_disease
+disease 19 26 392 399 I-chronic_disease
+or 27 29 400 402 O
+infection 30 39 403 412 O
+with 40 44 413 417 O
+hepatitis 45 54 418 427 B-chronic_disease
+B 55 56 428 429 I-chronic_disease
+, 56 57 429 430 I-chronic_disease
+C 58 59 431 432 I-chronic_disease
+
+History 0 7 433 440 O
+of 8 10 441 443 O
+renal 11 16 444 449 B-chronic_disease
+impairment 17 27 450 460 I-chronic_disease
+
+History 0 7 461 468 O
+of 8 10 469 471 O
+seizures 11 19 472 480 B-chronic_disease
+, 19 20 480 481 O
+or 21 23 482 484 O
+other 24 29 485 490 O
+relevant 30 38 491 499 O
+on 39 41 500 502 O
+- 41 42 502 503 O
+going 42 47 503 508 O
+or 48 50 509 511 O
+recurrent 51 60 512 521 O
+illness 61 68 522 529 O
+
+Hypertension 0 12 530 542 B-clinical_variable
+( 13 14 543 544 O
+≥160 14 18 544 548 O
+mmHg 19 23 549 553 I-lower_bound
+systolic 24 32 554 562 O
+or 33 35 563 565 O
+≥100 36 40 566 570 O
+mmHg 41 45 571 575 I-lower_bound
+diastolic 46 55 576 585 O
+) 55 56 585 586 O
+
+Pregnancy 0 9 587 596 B-pregnancy
+( 10 11 597 598 O
+positive 11 19 598 606 O
+urine 20 25 607 612 O
+pregnancy 26 35 613 622 B-pregnancy
+test 36 40 623 627 O
+) 40 41 627 628 O
+
+Premenopausal 0 13 629 642 O
+women 14 19 643 648 B-gender
+taking 20 26 649 655 O
+oral 27 31 656 660 O
+contraceptives 32 46 661 675 O
+
+Recent 0 6 676 682 O
+( 7 8 683 684 O
+within 8 14 684 690 O
+3 15 16 691 692 B-upper_bound
+months 17 23 693 699 I-upper_bound
+) 23 24 699 700 O
+or 25 27 701 703 O
+recurrent 28 37 704 713 O
+hospitalizations 38 54 714 730 O
+
+Sedentary 0 9 731 740 O
+or 10 12 741 743 O
+minimally 13 22 744 753 O
+physically 23 33 754 764 O
+active 34 40 765 771 O
+for 41 44 772 775 O
+at 45 47 776 778 O
+least 48 53 779 784 O
+the 54 57 785 788 O
+prior 58 63 789 794 B-lower_bound
+1 64 65 795 796 I-lower_bound
+year 66 70 797 801 I-lower_bound
+
+history 0 7 802 809 O
+of 8 10 810 812 O
+diabetes 11 19 813 821 B-chronic_disease
+
+postmenopausal 0 14 822 836 O
+women 15 20 837 842 B-gender
+taking 21 27 843 849 O
+hormone 28 35 850 857 B-treatment
+replacement 36 47 858 869 I-treatment
+therapy 48 55 870 877 I-treatment
+

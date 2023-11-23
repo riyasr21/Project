@@ -1,0 +1,241 @@
+20 0 2 0 2 B-lower_bound
+% 2 3 2 3 I-lower_bound
+minimum 4 11 4 11 O
+on 12 14 12 14 O
+Oswestry 15 23 15 23 B-clinical_variable
+Disability 24 34 24 34 I-clinical_variable
+Index 35 40 35 40 I-clinical_variable
+
+3 0 1 41 42 B-lower_bound
+or 2 4 43 45 O
+more 5 9 46 50 O
+of 10 12 51 53 O
+the 13 16 54 57 O
+following 17 26 58 67 O
+6 27 28 68 69 O
+pain 29 33 70 74 O
+provocation 34 45 75 86 O
+tests 46 51 87 92 O
+( 52 53 93 94 O
+Laslett 53 60 94 101 O
+et 61 63 102 104 O
+al 64 66 105 107 O
+, 66 67 107 108 O
+2003 68 72 109 113 O
+, 72 73 113 114 O
+2005 74 78 115 119 O
+) 78 79 119 120 O
+
+A 0 1 121 122 O
+minimum 2 9 123 130 O
+ODI 10 13 131 134 B-clinical_variable
+score 14 19 135 140 I-clinical_variable
+of 20 22 141 143 O
+10/50 23 28 144 149 B-lower_bound
+
+A 0 1 150 151 O
+minimum 2 9 152 159 O
+of 10 12 160 162 O
+3 13 14 163 164 B-lower_bound
+positive 15 23 165 173 O
+pain 24 28 174 178 B-treatment
+provocation 29 40 179 190 I-treatment
+tests 41 46 191 196 I-treatment
+using 47 52 197 202 O
+either 53 59 203 209 O
+the 60 63 210 213 O
+Laslett 64 71 214 221 B-treatment
+et 72 74 222 224 I-treatment
+al 75 77 225 227 I-treatment
+. 77 78 227 228 I-treatment
+( 79 80 229 230 I-treatment
+2003 80 84 230 234 I-treatment
+, 84 85 234 235 I-treatment
+2005 86 90 236 240 I-treatment
+) 90 91 240 241 I-treatment
+or 92 94 242 244 O
+van 95 98 245 248 B-treatment
+der 99 102 249 252 I-treatment
+Wurff 103 108 253 258 I-treatment
+et 109 111 259 261 I-treatment
+al 112 114 262 264 I-treatment
+( 115 116 265 266 I-treatment
+2006 116 120 266 270 I-treatment
+) 120 121 270 271 I-treatment
+multi 122 127 272 277 I-treatment
+- 127 128 277 278 I-treatment
+test 128 132 278 282 I-treatment
+regiments 133 142 283 292 I-treatment
+
+A 0 1 293 294 O
+minimum 2 9 295 302 O
+pain 10 14 303 307 O
+rating 15 21 308 314 O
+of 22 24 315 317 O
+2/10 25 29 318 322 B-lower_bound
+using 30 35 323 328 O
+the 36 39 329 332 O
+NPRS 40 44 333 337 B-clinical_variable
+
+ASIS 0 4 338 342 B-treatment
+compression 5 16 343 354 I-treatment
+
+ASIS 0 4 355 359 B-treatment
+distraction 5 16 360 371 I-treatment
+
+Any 0 3 372 375 O
+indication 4 14 376 386 O
+that 15 19 387 391 O
+might 20 25 392 397 O
+contraindicate 26 40 398 412 O
+spinal 41 47 413 419 B-treatment
+manipulative 48 60 420 432 I-treatment
+therapy 61 68 433 440 I-treatment
+
+Cauda 0 5 441 446 B-chronic_disease
+Equina 6 12 447 453 I-chronic_disease
+Syndrome 13 21 454 462 I-chronic_disease
+
+Currently 0 9 463 472 B-pregnancy
+pregnant 10 18 473 481 I-pregnancy
+
+Gaenslen 0 8 482 490 B-treatment
+'s 8 10 490 492 I-treatment
+test 11 15 493 497 I-treatment
+( 16 17 498 499 O
+left 17 21 499 503 O
+) 21 22 503 504 O
+
+Gaenslen 0 8 505 513 B-treatment
+'s 8 10 513 515 I-treatment
+test 11 15 516 520 I-treatment
+( 16 17 521 522 O
+right 17 22 522 527 O
+) 22 23 527 528 O
+
+Neurologic 0 10 529 539 O
+presentation 11 23 540 552 O
+consistent 24 34 553 563 O
+with 35 39 564 568 O
+upper 40 45 569 574 B-chronic_disease
+or 46 48 575 577 I-chronic_disease
+lower 49 54 578 583 I-chronic_disease
+motor 55 60 584 589 I-chronic_disease
+neuron 61 67 590 596 I-chronic_disease
+dysfunction 68 79 597 608 I-chronic_disease
+due 80 83 609 612 O
+to 84 86 613 615 O
+spinal 87 93 616 622 O
+involvement 94 105 623 634 O
+( 106 107 635 636 O
+ie 107 109 636 638 O
+myelopathy 110 120 639 649 B-chronic_disease
+or 121 123 650 652 O
+nerve 124 129 653 658 B-chronic_disease
+compression 130 141 659 670 I-chronic_disease
+, 141 142 670 671 O
+hyperreflexia 143 156 672 685 B-chronic_disease
+, 156 157 685 686 O
+pathologic 158 168 687 697 B-chronic_disease
+reflexes 169 177 698 706 I-chronic_disease
+, 177 178 706 707 O
+depressed 179 188 708 717 B-chronic_disease
+or 189 191 718 720 O
+absent 192 198 721 727 O
+reflexes 199 207 728 736 O
+in 208 210 737 739 O
+the 211 214 740 743 O
+lower 215 220 744 749 O
+extremities 221 232 750 761 O
+, 232 233 761 762 O
+motor 234 239 763 768 O
+weakness 240 248 769 777 O
+involving 249 258 778 787 O
+major 259 264 788 793 O
+muscle 265 271 794 800 O
+groups 272 278 801 807 O
+of 279 281 808 810 O
+lower 282 287 811 816 O
+extremity 288 297 817 826 O
+, 297 298 826 827 O
+unsteady 299 307 828 836 B-chronic_disease
+gait 308 312 837 841 I-chronic_disease
+, 312 313 841 842 O
+diminished 314 324 843 853 O
+or 325 327 854 856 O
+absent 328 334 857 863 O
+pin 335 338 864 867 O
+prick 339 344 868 873 O
+sensation 345 354 874 883 O
+in 355 357 884 886 O
+the 358 361 887 890 O
+legs 362 366 891 895 O
+and/or 367 373 896 902 O
+feet 374 378 903 907 O
+) 378 379 907 908 O
+
+Numeric 0 7 909 916 B-clinical_variable
+Pain 8 12 917 921 I-clinical_variable
+Rating 13 19 922 928 I-clinical_variable
+Scale 20 25 929 934 I-clinical_variable
+0 26 27 935 936 B-lower_bound
+- 27 28 936 937 O
+-‐10 28 32 937 941 O
+
+Patient 0 7 942 949 O
+must 8 12 950 954 O
+report 13 19 955 961 O
+sacroiliac 20 30 962 972 B-chronic_disease
+dysfunction 31 42 973 984 I-chronic_disease
+
+Physical 0 8 985 993 B-treatment
+therapy 9 16 994 1001 I-treatment
+or 17 19 1002 1004 O
+chiropractic 20 32 1005 1017 B-treatment
+treatment 33 42 1018 1027 I-treatment
+for 43 46 1028 1031 O
+low 47 50 1032 1035 O
+back 51 55 1036 1040 O
+pain 56 60 1041 1045 O
+in 61 63 1046 1048 O
+the 64 67 1049 1052 O
+3 68 69 1053 1054 B-upper_bound
+months 70 76 1055 1061 I-upper_bound
+before 77 83 1062 1068 I-upper_bound
+initial 84 91 1069 1076 O
+examination 92 103 1077 1088 O
+
+RA 0 2 1089 1091 B-chronic_disease
+
+Recent 0 6 1092 1098 B-treatment
+surgery 7 14 1099 1106 I-treatment
+to 15 17 1107 1109 I-treatment
+the 18 21 1110 1113 I-treatment
+lumbar 22 28 1114 1120 I-treatment
+or 29 31 1121 1123 O
+thoracic 32 40 1124 1132 B-treatment
+spine 41 46 1133 1138 I-treatment
+
+Sacral 0 6 1139 1145 B-treatment
+compression 7 18 1146 1157 I-treatment
+
+Spinal 0 6 1158 1164 B-chronic_disease
+fractures 7 16 1165 1174 I-chronic_disease
+
+angina 0 6 1175 1181 B-chronic_disease
+
+diabetes 0 8 1182 1190 B-chronic_disease
+
+inflammatory 0 12 1191 1203 B-chronic_disease
+or 13 15 1204 1206 O
+infectious 16 26 1207 1217 B-chronic_disease
+conditions 27 37 1218 1228 I-chronic_disease
+
+severe 0 6 1229 1235 B-chronic_disease
+hypertension 7 19 1236 1248 I-chronic_disease
+
+severe 0 6 1249 1255 O
+osteoporosis 7 19 1256 1268 B-chronic_disease
+
+tumors 0 6 1269 1275 B-cancer
+

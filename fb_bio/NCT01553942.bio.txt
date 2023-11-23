@@ -1,0 +1,156 @@
+Active 0 6 0 6 O
+hepatitis 7 16 7 16 B-chronic_disease
+B 17 18 17 18 I-chronic_disease
+, 18 19 18 19 I-chronic_disease
+C 20 21 20 21 I-chronic_disease
+
+Any 0 3 22 25 O
+other 4 9 26 31 O
+concomitant 10 21 32 43 B-chronic_disease
+serious 22 29 44 51 I-chronic_disease
+illness 30 37 52 59 I-chronic_disease
+or 38 40 60 62 O
+organ 41 46 63 68 B-chronic_disease
+system 47 53 69 75 I-chronic_disease
+dysfunction 54 65 76 87 I-chronic_disease
+
+Concomitant 0 11 88 99 B-treatment
+treatment 12 21 100 109 I-treatment
+with 22 26 110 114 O
+strong 27 33 115 121 O
+inhibitor 34 43 122 131 O
+of 44 46 132 134 O
+P 47 48 135 136 B-treatment
+- 48 49 136 137 I-treatment
+gp 49 51 137 139 I-treatment
+
+Have 0 4 140 144 O
+lung 5 9 145 149 B-cancer
+cancer 10 16 150 156 I-cancer
+harboring 17 26 157 166 I-cancer
+an 27 29 167 169 I-cancer
+EGFR 30 34 170 174 I-cancer
+mutation 35 43 175 183 I-cancer
+
+Histologically 0 14 184 198 O
+confirmed 15 24 199 208 O
+stage 25 30 209 214 B-cancer
+IIIA 31 35 215 219 I-cancer
+NSCLC 36 41 220 225 I-cancer
+
+History 0 7 226 233 O
+of 8 10 234 236 O
+an 11 13 237 239 O
+active 14 20 240 246 B-cancer
+malignancy 21 31 247 257 I-cancer
+within 32 38 258 264 O
+the 39 42 265 268 O
+last 43 47 269 273 B-upper_bound
+3 48 49 274 275 I-upper_bound
+years 50 55 276 281 I-upper_bound
+
+History 0 7 282 289 O
+or 8 10 290 292 O
+presence 11 19 293 301 O
+of 20 22 302 304 O
+relevant 23 31 305 313 O
+cardiovascular 32 46 314 328 B-chronic_disease
+abnormalities 47 60 329 342 I-chronic_disease
+
+Known 0 5 343 348 O
+hypersensitivity 6 22 349 365 O
+to 23 25 366 368 O
+afatinib 26 34 369 377 B-allergy_name
+, 34 35 377 378 O
+cisplatin 36 45 379 388 B-allergy_name
+, 45 46 388 389 O
+or 47 49 390 392 O
+pemetrexed 50 60 393 403 B-allergy_name
+
+Known 0 5 404 409 O
+pre 6 9 410 413 O
+- 9 10 413 414 O
+existing 10 18 414 422 O
+interstitial 19 31 423 435 B-chronic_disease
+lung 32 36 436 440 I-chronic_disease
+disease 37 44 441 448 I-chronic_disease
+
+Pregnant 0 8 449 457 B-pregnancy
+
+Prior 0 5 458 463 O
+EGFR 6 10 464 468 B-treatment
+TKI 11 14 469 472 I-treatment
+therapy 15 22 473 480 I-treatment
+
+Prior 0 5 481 486 B-treatment
+treatment 6 15 487 496 I-treatment
+with 16 20 497 501 I-treatment
+radiation 21 30 502 511 I-treatment
+to 31 33 512 514 I-treatment
+the 34 37 515 518 I-treatment
+thoracic 38 46 519 527 I-treatment
+region 47 53 528 534 I-treatment
+( 54 55 535 536 O
+including 55 64 536 545 O
+breast 65 71 546 552 B-treatment
+irradiation 72 83 553 564 I-treatment
+) 83 84 564 565 O
+
+Significant 0 11 566 577 O
+or 12 14 578 580 O
+recent 15 21 581 587 O
+gastrointestinal 22 38 588 604 B-chronic_disease
+disorders 39 48 605 614 I-chronic_disease
+with 49 53 615 619 O
+diarrhea 54 62 620 628 B-chronic_disease
+as 63 65 629 631 O
+a 66 67 632 633 O
+major 68 73 634 639 O
+symptom 74 81 640 647 O
+
+evaluated 0 9 648 657 O
+by 10 12 658 660 O
+a 13 14 661 662 O
+medical 15 22 663 670 O
+oncologist 23 33 671 681 O
+, 33 34 681 682 O
+radiation 35 44 683 692 O
+oncologist 45 55 693 703 O
+and 56 59 704 707 O
+thoracic 60 68 708 716 O
+surgeon 69 76 717 724 O
+within 77 83 725 731 O
+4 84 85 732 733 B-upper_bound
+weeks 86 91 734 739 I-upper_bound
+of 92 94 740 742 O
+enrollment 95 105 743 753 O
+into 106 110 754 758 O
+study 111 116 759 764 O
+to 117 119 765 767 O
+document 120 128 768 776 O
+that 129 133 777 781 O
+they 134 138 782 786 O
+are 139 142 787 790 O
+a 143 144 791 792 O
+candidate 145 154 793 802 O
+for 155 158 803 806 O
+chemoradiation 159 173 807 821 B-treatment
+and 174 177 822 825 O
+for 178 181 826 829 O
+consideration 182 195 830 843 O
+of 196 198 844 846 O
+surgical 199 207 847 855 B-treatment
+resection 208 217 856 865 I-treatment
+( 218 219 866 867 O
+not 219 222 867 870 O
+required 223 231 871 879 O
+to 232 234 880 882 O
+be 235 237 883 885 O
+a 238 239 886 887 O
+surgical 240 248 888 896 O
+candidate 249 258 897 906 O
+
+known 0 5 907 912 O
+HIV 6 9 913 916 B-chronic_disease
+carrier 10 17 917 924 O
+

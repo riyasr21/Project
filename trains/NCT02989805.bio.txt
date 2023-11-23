@@ -1,0 +1,9 @@
+Cognitive 0 9 0 9 B-chronic_disease
+impairment 10 20 10 20 I-chronic_disease
+
+Not 0 3 21 24 B-language_fluency
+able 4 8 25 29 I-language_fluency
+to 9 11 30 32 I-language_fluency
+speak 12 17 33 38 I-language_fluency
+English 18 25 39 46 I-language_fluency
+

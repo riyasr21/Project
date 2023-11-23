@@ -1,0 +1,45 @@
+21 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+55 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Caucasian 0 9 19 28 B-ethnicity
+
+History 0 7 29 36 O
+of 8 10 37 39 O
+sleep 11 16 40 45 B-chronic_disease
+disorder 17 25 46 54 I-chronic_disease
+or 26 28 55 57 O
+regular 29 36 58 65 O
+use 37 40 66 69 O
+of 41 43 70 72 O
+sleep 44 49 73 78 O
+- 49 50 78 79 O
+promoting 50 59 79 88 O
+medication 60 70 89 99 O
+
+Traveling 0 9 100 109 O
+across 10 16 110 116 O
+2 17 18 117 118 O
+or 19 21 119 121 O
+more 22 26 122 126 O
+time 27 31 127 131 O
+zones 32 37 132 137 O
+within 38 44 138 144 O
+past 45 49 145 149 B-upper_bound
+3 50 51 150 151 I-upper_bound
+months 52 58 152 158 I-upper_bound
+
+Worked 0 6 159 165 O
+night 7 12 166 171 O
+or 13 15 172 174 O
+rotating 16 24 175 183 O
+shift 25 30 184 189 O
+work 31 35 190 194 O
+within 36 42 195 201 O
+past 43 47 202 206 B-upper_bound
+1 48 49 207 208 I-upper_bound
+year 50 54 209 213 I-upper_bound
+

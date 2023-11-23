@@ -1,0 +1,48 @@
+Patient 0 7 0 7 O
+with 8 12 8 12 O
+angina 13 19 13 19 B-chronic_disease
+not 20 23 20 23 O
+well 24 28 24 28 O
+- 28 29 28 29 O
+controlled 29 39 29 39 O
+by 40 42 40 42 O
+medication 43 53 43 53 O
+
+Patients 0 8 54 62 O
+must 9 13 63 67 O
+be 14 16 68 70 O
+≥18 17 20 71 74 O
+years 21 26 75 80 I-lower_bound
+of 27 29 81 83 O
+age 30 33 84 87 B-age
+
+Patients 0 8 88 96 O
+receiving 9 18 97 106 O
+cancer 19 25 107 113 B-treatment
+therapy 26 33 114 121 I-treatment
+within 34 40 122 128 O
+3 41 42 129 130 B-upper_bound
+weeks 43 48 131 136 I-upper_bound
+prior 49 54 137 142 I-upper_bound
+to 55 57 143 145 O
+Cycle1 58 64 146 152 O
+Day1 65 69 153 157 O
+( 70 71 158 159 O
+C1D1 71 75 159 163 O
+) 75 76 163 164 O
+
+Patients 0 8 165 173 O
+who 9 12 174 177 O
+received 13 21 178 186 O
+Allo 22 26 187 191 B-treatment
+- 26 27 191 192 I-treatment
+Stem 27 31 192 196 I-treatment
+cell 32 36 197 201 I-treatment
+Transplantation(Allo 37 57 202 222 I-treatment
+- 57 58 222 223 I-treatment
+SCT 58 61 223 226 I-treatment
+) 61 62 226 227 I-treatment
+within 63 69 228 234 O
+12 70 72 235 237 B-upper_bound
+months 73 79 238 244 I-upper_bound
+

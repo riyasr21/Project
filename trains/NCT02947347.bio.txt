@@ -1,0 +1,71 @@
+Central 0 7 0 7 B-cancer
+nervous 8 15 8 15 I-cancer
+system 16 22 16 22 I-cancer
+lymphoma 23 31 23 31 I-cancer
+
+ECOG 0 4 32 36 B-clinical_variable
+performance 5 16 37 48 I-clinical_variable
+status 17 23 49 55 I-clinical_variable
+score 24 29 56 61 I-clinical_variable
+of 30 32 62 64 O
+0 33 34 65 66 B-lower_bound
+- 34 35 66 67 O
+2 35 36 67 68 B-upper_bound
+
+Histologically 0 14 69 83 O
+confirmed 15 24 84 93 O
+diagnosis 25 34 94 103 O
+of 35 37 104 106 O
+follicular 38 48 107 117 B-cancer
+lymphoma 49 57 118 126 I-cancer
+CD20 58 62 127 131 I-cancer
++ 62 63 131 132 I-cancer
+( 64 65 133 134 I-cancer
+Grade 65 70 134 139 I-cancer
+1 71 72 140 141 I-cancer
+, 72 73 141 142 I-cancer
+2 74 75 143 144 I-cancer
+or 76 78 145 147 I-cancer
+3a 79 81 148 150 I-cancer
+) 81 82 150 151 I-cancer
+Ann 83 86 152 155 B-cancer
+Arbor 87 92 156 161 I-cancer
+Stage 93 98 162 167 I-cancer
+II 99 101 168 170 I-cancer
+, 101 102 170 171 I-cancer
+III 103 106 172 175 I-cancer
+or 107 109 176 178 I-cancer
+IV 110 112 179 181 I-cancer
+disease 113 120 182 189 I-cancer
+
+Measurable 0 10 190 200 B-chronic_disease
+disease 11 18 201 208 I-chronic_disease
+
+Prior 0 5 209 214 O
+treatment 6 15 215 224 O
+for 16 19 225 228 O
+follicular 20 30 229 239 B-cancer
+lymphoma 31 39 240 248 I-cancer
+
+Subjects 0 8 249 257 O
+70 9 11 258 260 B-lower_bound
+years 12 17 261 266 I-lower_bound
+of 18 20 267 269 O
+age 21 24 270 273 B-age
+or 25 27 274 276 O
+older 28 33 277 282 O
+
+subjects 0 8 283 291 O
+60 9 11 292 294 B-lower_bound
+- 11 12 294 295 O
+69 12 14 295 297 B-upper_bound
+years 15 20 298 303 I-upper_bound
+of 21 23 304 306 O
+age 24 27 307 310 B-age
+who 28 31 311 314 O
+have 32 36 315 319 O
+one 37 40 320 323 O
+or 41 43 324 326 O
+more 44 48 327 331 O
+comorbidities 49 62 332 345 O
+

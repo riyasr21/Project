@@ -1,0 +1,62 @@
+Inability 0 9 0 9 B-language_fluency
+to 10 12 10 12 I-language_fluency
+speak 13 18 13 18 I-language_fluency
+and 19 22 19 22 I-language_fluency
+understand 23 33 23 33 I-language_fluency
+either 34 40 34 40 I-language_fluency
+English 41 48 41 48 I-language_fluency
+or 49 51 49 51 I-language_fluency
+Spanish 52 59 52 59 I-language_fluency
+
+Participation 0 13 60 73 O
+in 14 16 74 76 O
+another 17 24 77 84 O
+asthma 25 31 85 91 B-chronic_disease
+study 32 37 92 97 O
+at 38 40 98 100 O
+the 41 44 101 104 O
+time 45 49 105 109 O
+of 50 52 110 112 O
+enrollment 53 63 113 123 O
+
+Persistent 0 10 124 134 O
+or 11 13 135 137 O
+poor 14 18 138 142 O
+control 19 26 143 150 O
+of 27 29 151 153 O
+asthma 30 36 154 160 B-chronic_disease
+, 36 37 160 161 O
+defined 38 45 162 169 O
+by 46 48 170 172 O
+NHLBI 49 54 173 178 O
+guidelines 55 65 179 189 O
+
+Prior 0 5 190 195 O
+physician 6 15 196 205 O
+diagnosis 16 25 206 215 O
+of 26 28 216 218 O
+asthma 29 35 219 225 B-chronic_disease
+
+a 0 1 226 227 O
+sibling 2 9 228 235 O
+participating 10 23 236 249 O
+in 24 26 250 252 O
+this 27 31 253 257 O
+or 32 34 258 260 O
+another 35 42 261 268 O
+study 43 48 269 274 O
+Other 49 54 275 280 O
+significant 55 66 281 292 O
+medical 67 74 293 300 O
+conditions 75 85 301 311 O
+that 86 90 312 316 O
+could 91 96 317 322 O
+interfere 97 106 323 332 O
+with 107 111 333 337 O
+assessment 112 122 338 348 O
+of 123 125 349 351 O
+asthma 126 132 352 358 B-chronic_disease
+- 132 133 358 359 O
+related 133 140 359 366 O
+measures 141 149 367 375 O
+

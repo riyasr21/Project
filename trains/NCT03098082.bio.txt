@@ -1,0 +1,36 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+Age 12 15 12 15 B-age
+
+Acute 0 5 16 21 B-clinical_variable
+pancreatitis 6 18 22 34 I-clinical_variable
+on 19 21 35 37 O
+presentation 22 34 38 50 O
+or 35 37 51 53 O
+within 38 44 54 60 O
+1 45 46 61 62 B-lower_bound
+month 47 52 63 68 I-lower_bound
+
+Recent 0 6 69 75 O
+ERCP 7 11 76 80 B-treatment
+( 12 13 81 82 O
+i.e. 13 17 82 86 O
+within 18 24 87 93 O
+1 25 26 94 95 B-upper_bound
+month 27 32 96 101 I-upper_bound
+) 32 33 101 102 O
+
+Stage 0 5 103 108 B-chronic_disease
+3 6 7 109 110 I-chronic_disease
+or 8 10 111 113 I-chronic_disease
+4 11 12 114 115 I-chronic_disease
+renal 13 18 116 121 I-chronic_disease
+disease 19 26 122 129 I-chronic_disease
+and/or 27 33 130 136 O
+oliguria 34 42 137 145 O
+
+Undergoing 0 10 146 156 O
+Outpatient 11 21 157 167 O
+ERCP 22 26 168 172 B-treatment
+

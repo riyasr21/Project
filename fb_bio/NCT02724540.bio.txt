@@ -1,0 +1,314 @@
+Active 0 6 0 6 B-chronic_disease
+infection 7 16 7 16 I-chronic_disease
+( 17 18 17 18 O
+Symptomatic 18 29 18 29 O
+bacterial 30 39 30 39 B-chronic_disease
+and 40 43 40 43 O
+fungal 44 50 44 50 B-chronic_disease
+infection 51 60 51 60 I-chronic_disease
+- 61 62 61 62 O
+newly 63 68 63 68 O
+diagnosed 69 78 69 78 O
+and/or 79 85 79 85 O
+requiring 86 95 86 95 O
+treatment 96 105 96 105 O
+) 105 106 105 106 O
+
+Biopsy 0 6 107 113 B-treatment
+- 6 7 113 114 O
+proven 7 13 114 120 O
+neuroendocrine 14 28 121 135 B-cancer
+tumor 29 34 136 141 I-cancer
+
+Contraindications 0 17 142 159 O
+to 18 20 160 162 O
+arteriography 21 34 163 176 B-allergy_name
+and 35 38 177 180 O
+selective 39 48 181 190 O
+visceral 49 57 191 199 O
+catheterization 58 73 200 215 B-allergy_name
+
+Contraindications 0 17 216 233 O
+to 18 20 234 236 O
+hepatic 21 28 237 244 B-treatment
+artery 29 35 245 251 I-treatment
+embolization 36 48 252 264 I-treatment
+
+INR 0 3 265 268 B-clinical_variable
+≤ 4 5 269 270 O
+1.5 6 9 271 274 B-upper_bound
+
+Measurable 0 10 275 285 O
+metastasis 11 21 286 296 B-cancer
+to 22 24 297 299 I-cancer
+liver 25 30 300 305 I-cancer
+with 31 35 306 310 O
+at 36 38 311 313 O
+least 39 44 314 319 O
+one 45 48 320 323 B-lower_bound
+dimension 49 58 324 333 I-lower_bound
+≥ 59 60 334 335 O
+1.0 61 64 336 339 B-lower_bound
+cm 65 67 340 342 I-lower_bound
+
+Participants 0 12 343 355 O
+18 13 15 356 358 B-lower_bound
+years 16 21 359 364 I-lower_bound
+and 22 25 365 368 O
+older 26 31 369 374 O
+
+Patients 0 8 375 383 O
+must 9 13 384 388 O
+be 14 16 389 391 O
+at 17 19 392 394 O
+least 20 25 395 400 O
+one 26 29 401 404 B-lower_bound
+month 30 35 405 410 I-lower_bound
+beyond 36 42 411 417 O
+prior 43 48 418 423 B-treatment
+chemotherapy 49 61 424 436 I-treatment
+, 61 62 436 437 O
+PRRT 63 67 438 442 B-treatment
+, 67 68 442 443 O
+ablation 69 77 444 452 B-treatment
+or 78 80 453 455 O
+surgery 81 88 456 463 B-treatment
+, 88 89 463 464 O
+and 90 93 465 468 O
+have 94 98 469 473 O
+recovered 99 108 474 483 O
+from 109 113 484 488 O
+all 114 117 489 492 O
+therapy 118 125 493 500 B-treatment
+- 125 126 500 501 I-treatment
+associated 126 136 501 511 I-treatment
+toxicities 137 147 512 522 I-treatment
+
+Performance 0 11 523 534 B-clinical_variable
+status 12 18 535 541 I-clinical_variable
+0 19 20 542 543 B-lower_bound
+- 20 21 543 544 O
+2 21 22 544 545 B-upper_bound
+on 23 25 546 548 O
+Zubrod 26 32 549 555 B-clinical_variable
+/ 32 33 555 556 I-clinical_variable
+ECOG 33 37 556 560 I-clinical_variable
+Performance 38 49 561 572 I-clinical_variable
+Scale 50 55 573 578 I-clinical_variable
+
+Platelet 0 8 579 587 B-clinical_variable
+count 9 14 588 593 I-clinical_variable
+> 15 16 594 595 O
+50 17 19 596 598 B-lower_bound
+thousands 20 29 599 608 I-lower_bound
+/ 29 30 608 609 I-lower_bound
+uL 30 32 609 611 I-lower_bound
+
+Pregnant 0 8 612 620 B-pregnancy
+
+Prior 0 5 621 626 O
+hepatic 6 13 627 634 B-treatment
+arterial 14 22 635 643 I-treatment
+therapy 23 30 644 651 I-treatment
+
+Prior 0 5 652 657 B-treatment
+surgical 6 14 658 666 I-treatment
+resection 15 24 667 676 I-treatment
+or 25 27 677 679 O
+ablation 28 36 680 688 B-treatment
+of 37 39 689 691 O
+liver 40 45 692 697 B-cancer
+metastases 46 56 698 708 I-cancer
+is 57 59 709 711 O
+acceptable 60 70 712 722 O
+
+Serum 0 5 723 728 B-clinical_variable
+Bilirubin 6 15 729 738 I-clinical_variable
+≤ 16 17 739 740 O
+2.0 18 21 741 744 B-upper_bound
+mg 22 24 745 747 I-upper_bound
+/ 24 25 747 748 I-upper_bound
+dL 25 27 748 750 I-upper_bound
+
+Serum 0 5 751 756 B-clinical_variable
+albumin 6 13 757 764 I-clinical_variable
+≥ 14 15 765 766 O
+3.0 16 19 767 770 B-lower_bound
+g 20 21 771 772 I-lower_bound
+/ 21 22 772 773 I-lower_bound
+dL 22 24 773 775 I-lower_bound
+
+Serum 0 5 776 781 B-clinical_variable
+creatinine 6 16 782 792 I-clinical_variable
+< 17 18 793 794 O
+2.0 19 22 795 798 B-upper_bound
+mg 23 25 799 801 I-upper_bound
+/ 25 26 801 802 I-upper_bound
+dL 26 28 802 804 I-upper_bound
+
+There 0 5 805 810 O
+must 6 10 811 815 O
+be 11 13 816 818 O
+no 14 16 819 821 O
+plans 17 22 822 827 O
+for 23 26 828 831 O
+the 27 30 832 835 O
+patient 31 38 836 843 O
+to 39 41 844 846 O
+receive 42 49 847 854 O
+other 50 55 855 860 O
+concomitant 56 67 861 872 B-treatment
+therapy 68 75 873 880 I-treatment
+while 76 81 881 886 O
+on 82 84 887 889 O
+this 85 89 890 894 O
+protocol 90 98 895 903 B-treatment
+treatment 99 108 904 913 I-treatment
+( 109 110 914 915 O
+other 110 115 915 920 O
+than 116 120 921 925 O
+somatostatin 121 133 926 938 O
+analogs 134 141 939 946 O
+or 142 144 947 949 O
+bone 145 149 950 954 O
+- 149 150 954 955 O
+strengthening 150 163 955 968 O
+agents 164 170 969 975 O
+) 170 171 975 976 O
+
+Tumor 0 5 977 982 B-cancer
+burden 6 12 983 989 O
+dominant 13 21 990 998 O
+in 22 24 999 1001 O
+the 25 28 1002 1005 O
+liver 29 34 1006 1011 O
+
+Women 0 5 1012 1017 B-gender
+/ 5 6 1017 1018 I-gender
+men 6 9 1018 1021 I-gender
+of 10 12 1022 1024 O
+reproductive 13 25 1025 1037 O
+potential 26 35 1038 1047 O
+may 36 39 1048 1051 O
+not 40 43 1052 1055 O
+participate 44 55 1056 1067 O
+unless 56 62 1068 1074 O
+they 63 67 1075 1079 O
+have 68 72 1080 1084 O
+agreed 73 79 1085 1091 B-contraception_consent
+to 80 82 1092 1094 I-contraception_consent
+use 83 86 1095 1098 I-contraception_consent
+an 87 89 1099 1101 I-contraception_consent
+effective 90 99 1102 1111 I-contraception_consent
+contraceptive 100 113 1112 1125 I-contraception_consent
+method 114 120 1126 1132 I-contraception_consent
+
+bleeding 0 8 1133 1141 B-chronic_disease
+diathesis 9 18 1142 1151 I-chronic_disease
+not 19 22 1152 1155 O
+correctable 23 34 1156 1167 O
+by 35 37 1168 1170 O
+usual 38 43 1171 1176 O
+forms 44 49 1177 1182 O
+of 50 52 1183 1185 O
+therapy 53 60 1186 1193 B-treatment
+
+criteria 0 8 1194 1202 O
+in 9 11 1203 1205 O
+the 12 15 1206 1209 O
+liver 16 21 1210 1215 O
+OR 22 24 1216 1218 O
+baseline 25 33 1219 1227 B-clinical_variable
+tumor 34 39 1228 1233 I-clinical_variable
+burden 40 46 1234 1240 I-clinical_variable
+> 47 48 1241 1242 O
+25 48 50 1242 1244 B-lower_bound
+% 50 51 1244 1245 I-lower_bound
+of 52 54 1246 1248 O
+the 55 58 1249 1252 O
+liver 59 64 1253 1258 O
+volume 65 71 1259 1265 O
+
+hepatic 0 7 1266 1273 B-chronic_disease
+encephalopathy 8 22 1274 1288 I-chronic_disease
+
+hepatic 0 7 1289 1296 B-treatment
+radiation 8 17 1297 1306 I-treatment
+therapy 18 25 1307 1314 I-treatment
+
+intolerance 0 11 1315 1326 O
+to 12 14 1327 1329 O
+contrast 15 23 1330 1338 B-allergy_name
+media 24 29 1339 1344 I-allergy_name
+
+lactating 0 9 1345 1354 O
+women 10 15 1355 1360 B-gender
+may 16 19 1361 1364 O
+not 20 23 1365 1368 O
+participate 24 35 1369 1380 O
+due 36 39 1381 1384 O
+to 40 42 1385 1387 O
+the 43 46 1388 1391 O
+embryotoxic 47 58 1392 1403 O
+effects 59 66 1404 1411 O
+of 67 69 1412 1414 O
+protocol 70 78 1415 1423 B-treatment
+treatment 79 88 1424 1433 I-treatment
+
+liver 0 5 1434 1439 B-cancer
+tumor 6 11 1440 1445 I-cancer
+burden 12 18 1446 1452 O
+less 19 23 1453 1457 O
+than 24 28 1458 1462 O
+or 29 31 1463 1465 O
+equal 32 37 1466 1471 O
+to 38 40 1472 1474 O
+70 41 43 1475 1477 B-upper_bound
+% 43 44 1477 1478 I-upper_bound
+of 45 47 1479 1481 O
+the 48 51 1482 1485 O
+total 52 57 1486 1491 B-clinical_variable
+liver 58 63 1492 1497 I-clinical_variable
+volume 64 70 1498 1504 I-clinical_variable
+by 71 73 1505 1507 O
+visual 74 80 1508 1514 O
+estimate 81 89 1515 1523 O
+
+morphologically 0 15 1524 1539 B-cancer
+progressive 16 27 1540 1551 I-cancer
+tumor 28 33 1552 1557 I-cancer
+by 34 36 1558 1560 O
+RECIST 37 43 1561 1567 O
+
+narcotics 0 9 1568 1577 B-treatment
+
+portal 0 6 1578 1584 B-chronic_disease
+hypertension 7 19 1585 1597 I-chronic_disease
+with 20 24 1598 1602 O
+hepatofugal 25 36 1603 1614 O
+flow 37 41 1615 1619 O
+
+portal 0 6 1620 1626 B-chronic_disease
+vein 7 11 1627 1631 I-chronic_disease
+occlusion 12 21 1632 1641 I-chronic_disease
+without 22 29 1642 1649 O
+hepatopedal 30 41 1650 1661 O
+collateral 42 52 1662 1672 O
+flow 53 57 1673 1677 O
+demonstrated 58 70 1678 1690 O
+by 71 73 1691 1693 O
+angiography 74 85 1694 1705 B-treatment
+
+sedatives 0 9 1706 1715 B-treatment
+
+severe 0 6 1716 1722 B-chronic_disease
+peripheral 7 17 1723 1733 I-chronic_disease
+vascular 18 26 1734 1742 I-chronic_disease
+disease 27 34 1743 1750 I-chronic_disease
+precluding 35 45 1751 1761 O
+catheterization 46 61 1762 1777 B-treatment
+
+transpapillary 0 14 1778 1792 B-treatment
+biliary 15 22 1793 1800 I-treatment
+stent 23 28 1801 1806 I-treatment
+

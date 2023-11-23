@@ -1,0 +1,205 @@
+Axillary 0 8 0 8 O
+lymph 9 14 9 14 O
+node 15 19 15 19 O
+positive 20 28 20 28 O
+breast 29 35 29 35 B-cancer
+cancer 36 42 36 42 I-cancer
+
+EIC 0 3 43 46 B-clinical_variable
+> 4 5 47 48 O
+= 5 6 48 49 O
+25 7 9 50 52 B-lower_bound
+% 9 10 52 53 I-lower_bound
+of 11 13 54 56 O
+the 14 17 57 60 O
+lumpectomy 18 28 61 71 B-treatment
+specimen 29 37 72 80 O
+involved 38 46 81 89 O
+with 47 51 90 94 O
+ductal 52 58 95 101 B-cancer
+carcinoma 59 68 102 111 I-cancer
+in 69 71 112 114 I-cancer
+situ 72 76 115 119 I-cancer
+
+Extensive 0 9 120 129 B-clinical_variable
+intraductal 10 21 130 141 I-clinical_variable
+component 22 31 142 151 I-clinical_variable
+
+HER2 0 4 152 156 B-cancer
+positive 5 13 157 165 O
+( 14 15 166 167 O
+as 15 17 167 169 O
+defined 18 25 170 177 O
+in 26 28 178 180 O
+Treatment 29 38 181 190 O
+Policy 39 45 191 197 O
+under 46 51 198 203 O
+HER2 52 56 204 208 O
+) 56 57 208 209 O
+
+High 0 4 210 214 B-cancer
+grade 5 10 215 220 I-cancer
+
+Invasive 0 8 221 229 B-cancer
+lobular 9 16 230 237 I-cancer
+cancer 17 23 238 244 I-cancer
+
+Ipsilateral 0 11 245 256 B-cancer
+breast 12 18 257 263 I-cancer
+had 19 22 264 267 O
+a 23 24 268 269 O
+previous 25 33 270 278 O
+cancer 34 40 279 285 B-cancer
+
+Lymphovascular 0 14 286 300 B-cancer
+invasion 15 23 301 309 I-cancer
+
+Multicentric 0 12 310 322 B-cancer
+cancer 13 19 323 329 I-cancer
+in 20 22 330 332 O
+the 23 26 333 336 O
+same 27 31 337 341 O
+breast 32 38 342 348 O
+as 39 41 349 351 O
+diagnosed 42 51 352 361 O
+by 52 54 362 364 O
+clinical 55 63 365 373 O
+examination 64 75 374 385 O
+
+Node 0 4 386 390 B-cancer
+positive 5 13 391 399 I-cancer
+patients 14 22 400 408 O
+
+Patients 0 8 409 417 O
+known 9 14 418 423 O
+to 15 17 424 426 O
+have 18 22 427 431 O
+BRCA1/2 23 30 432 439 B-treatment
+gene 31 35 440 444 I-treatment
+mutations 36 45 445 454 I-treatment
+( 46 47 455 456 O
+testing 47 54 456 463 O
+for 55 58 464 467 O
+gene 59 63 468 472 O
+mutations 64 73 473 482 O
+is 74 76 483 485 O
+not 77 80 486 489 O
+required 81 89 490 498 O
+) 89 90 498 499 O
+
+Patients 0 8 500 508 O
+under 9 14 509 514 O
+the 15 18 515 518 O
+age 19 22 519 522 B-age
+of 23 25 523 525 O
+50 26 28 526 528 B-upper_bound
+
+Patients 0 8 529 537 O
+undergoing 9 19 538 548 O
+primary 20 27 549 556 B-treatment
+systemic 28 36 557 565 I-treatment
+treatment 37 46 566 575 I-treatment
+( 47 48 576 577 O
+hormones 48 56 577 585 B-treatment
+or 57 59 586 588 O
+chemotherapy 60 72 589 601 B-treatment
+) 72 73 601 602 O
+as 74 76 603 605 O
+initial 77 84 606 613 O
+treatment 85 94 614 623 O
+with 95 99 624 628 O
+neoadjuvant 100 111 629 640 O
+reducing 112 120 641 649 O
+tumor 121 126 650 655 B-cancer
+size 127 131 656 660 O
+
+Previous 0 8 661 669 O
+history 9 16 670 677 O
+of 17 19 678 680 O
+malignant 20 29 681 690 B-cancer
+disease 30 37 691 698 I-cancer
+does 38 42 699 703 O
+not 43 46 704 707 O
+preclude 47 55 708 716 O
+entry 56 61 717 722 O
+if 62 64 723 725 O
+the 65 68 726 729 O
+expectation 69 80 730 741 O
+of 81 83 742 744 O
+relapse 84 91 745 752 O
+- 91 92 752 753 O
+free 92 96 753 757 O
+survival 97 105 758 766 O
+at 106 108 767 769 O
+10 109 111 770 772 B-lower_bound
+years 112 117 773 778 I-lower_bound
+or 118 120 779 781 O
+greater 121 128 782 789 O
+
+Prior 0 5 790 795 B-treatment
+chemotherapy 6 18 796 808 I-treatment
+
+Suitable 0 8 809 817 O
+for 9 12 818 821 O
+breast 13 19 822 828 B-treatment
+conserving 20 30 829 839 I-treatment
+surgery 31 38 840 847 I-treatment
+
+Synchronous 0 11 848 859 B-cancer
+bilateral 12 21 860 869 I-cancer
+breast 22 28 870 876 I-cancer
+cancer 29 35 877 883 I-cancer
+at 36 38 884 886 O
+the 39 42 887 890 O
+time 43 47 891 895 O
+of 48 50 896 898 O
+diagnosis 51 60 899 908 O
+
+T1 0 2 909 911 B-clinical_variable
+and 3 6 912 915 O
+T2 7 9 916 918 B-clinical_variable
+( 10 11 919 920 O
+< 11 12 920 921 O
+3.5 13 16 922 925 B-upper_bound
+cm 17 19 926 928 I-upper_bound
+) 19 20 928 929 O
+
+Tumor 0 5 930 935 B-clinical_variable
+size 6 10 936 940 I-clinical_variable
+> 11 12 941 942 O
+3.5 13 16 943 946 B-lower_bound
+cm 17 19 947 949 I-lower_bound
+
+Tumors 0 6 950 956 B-cancer
+> 7 8 957 958 O
+3 9 10 959 960 B-lower_bound
+cm 11 13 961 963 I-lower_bound
+
+assessed 0 8 964 972 O
+on 9 11 973 975 O
+surgical 12 20 976 984 O
+pathologic 21 31 985 995 O
+lumpectomy 32 42 996 1006 B-treatment
+specimen 43 51 1007 1015 O
+
+hormone 0 7 1016 1023 B-treatment
+therapy 8 15 1024 1031 I-treatment
+
+not 0 3 1032 1035 O
+amenable 4 12 1036 1044 O
+to 13 15 1045 1047 O
+excision 16 24 1048 1056 O
+with 25 29 1057 1061 O
+negative 30 38 1062 1070 O
+margins 39 46 1071 1078 O
+with 47 51 1079 1083 O
+a 52 53 1084 1085 O
+single 54 60 1086 1092 O
+lumpectomy 61 71 1093 1103 B-treatment
+
+prior 0 5 1104 1109 B-treatment
+in 6 8 1110 1112 I-treatment
+- 8 9 1112 1113 I-treatment
+field 9 14 1113 1118 I-treatment
+radiation 15 24 1119 1128 I-treatment
+

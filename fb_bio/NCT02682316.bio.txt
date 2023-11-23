@@ -1,0 +1,46 @@
+Women 0 5 0 5 B-gender
+undergoing 6 16 6 16 O
+panniculectomy 17 31 17 31 B-treatment
+at 32 34 32 34 O
+the 35 38 35 38 O
+time 39 43 39 43 O
+of 44 46 44 46 O
+laparotomy 47 57 47 57 B-treatment
+
+Women 0 5 58 63 B-gender
+with 6 10 64 68 O
+laparotomy 11 21 69 79 B-treatment
+incisions 22 31 80 89 I-treatment
+left 32 36 90 94 O
+open 37 41 95 99 O
+due 42 45 100 103 O
+to 46 48 104 106 O
+case 49 53 107 111 O
+classification 54 68 112 126 O
+as 69 71 127 129 O
+contaminated 72 84 130 142 O
+or 85 87 143 145 O
+dirty 88 93 146 151 O
+
+Women 0 5 152 157 B-gender
+with 6 10 158 162 O
+laparotomy 11 21 163 173 B-treatment
+incisions 22 31 174 183 I-treatment
+unable 32 38 184 190 O
+to 39 41 191 193 O
+be 42 44 194 196 O
+closed 45 51 197 203 O
+primarily 52 61 204 213 O
+due 62 65 214 217 O
+to 66 68 218 220 O
+tissue 69 75 221 227 O
+or 76 78 228 230 O
+fascial 79 86 231 238 O
+damage 87 93 239 245 O
+
+Women 0 5 246 251 B-gender
+with 6 10 252 256 O
+sensitivity 11 22 257 268 O
+to 23 25 269 271 O
+silver 26 32 272 278 B-allergy_name
+

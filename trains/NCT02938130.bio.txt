@@ -1,0 +1,20 @@
+between 0 7 0 7 O
+the 8 11 8 11 O
+age 12 15 12 15 B-age
+of 16 18 16 18 O
+55 19 21 19 21 B-lower_bound
+- 21 22 21 22 O
+64 22 24 22 24 B-upper_bound
+
+under 0 5 25 30 O
+the 6 9 31 34 O
+age 10 13 35 38 B-age
+of 14 16 39 41 O
+55 17 19 42 44 B-upper_bound
+or 20 22 45 47 O
+older 23 28 48 53 O
+than 29 33 54 58 O
+64 34 36 59 61 B-lower_bound
+years 37 42 62 67 I-lower_bound
+old 43 46 68 71 O
+

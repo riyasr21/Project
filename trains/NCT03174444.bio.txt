@@ -1,0 +1,31 @@
+Not 0 3 0 3 O
+eligible 4 12 4 12 O
+for 13 16 13 16 O
+colorectal 17 27 17 27 B-cancer
+cancer 28 34 28 34 I-cancer
+screening 35 44 35 44 O
+for 45 48 45 48 O
+any 49 52 49 52 O
+reason 53 59 53 59 O
+
+self 0 4 60 64 O
+- 4 5 64 65 O
+identified 5 15 65 75 O
+as 16 18 76 78 O
+Chinese 19 26 79 86 B-ethnicity
+or 27 29 87 89 O
+Chinese 30 37 90 97 B-ethnicity
+American 38 46 98 106 I-ethnicity
+, 46 47 106 107 O
+or 48 50 108 110 O
+Asian 51 56 111 116 B-ethnicity
+who 57 60 117 120 O
+speak 61 66 121 126 B-language_fluency
+Chinese 67 74 127 134 I-language_fluency
+, 74 75 134 135 O
+or 76 78 136 138 O
+Asian 79 84 139 144 O
+born 85 89 145 149 O
+in 90 92 150 152 O
+China 93 98 153 158 O
+

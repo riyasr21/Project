@@ -1,0 +1,61 @@
+A 0 1 0 1 O
+previous 2 10 2 10 O
+concussion 11 21 11 21 B-chronic_disease
+within 22 28 22 28 O
+the 29 32 29 32 O
+last 33 37 33 37 B-upper_bound
+12 38 40 38 40 I-upper_bound
+months 41 47 41 47 I-upper_bound
+
+Greater 0 7 48 55 O
+than 8 12 56 60 O
+24 13 15 61 63 B-lower_bound
+hours 16 21 64 69 I-lower_bound
+have 22 26 70 74 O
+elapsed 27 34 75 82 O
+since 35 40 83 88 O
+the 41 44 89 92 O
+concussion 45 55 93 103 O
+occurred 56 64 104 112 O
+
+Less 0 4 113 117 O
+than 5 9 118 122 O
+18 10 12 123 125 B-upper_bound
+years 13 18 126 131 I-upper_bound
+old 19 22 132 135 O
+
+The 0 3 136 139 O
+student 4 11 140 147 O
+- 11 12 147 148 O
+athlete 12 19 148 155 O
+has 20 23 156 159 O
+already 24 31 160 167 O
+participated 32 44 168 180 O
+in 45 47 181 183 O
+the 48 51 184 187 O
+study 52 57 188 193 O
+during 58 64 194 200 O
+which 65 70 201 206 O
+he 71 73 207 209 O
+/ 73 74 209 210 O
+she 74 77 210 213 O
+took 78 82 214 218 O
+Riboflavin 83 93 219 229 B-treatment
+
+over 0 4 230 234 O
+the 5 8 235 238 O
+age 9 12 239 242 B-age
+of 13 15 243 245 O
+18 16 18 246 248 B-lower_bound
+years 19 24 249 254 I-lower_bound
+old 25 28 255 258 O
+
+who 0 3 259 262 O
+are 4 7 263 266 O
+diagnosed 8 17 267 276 O
+with 18 22 277 281 O
+a 23 24 282 283 O
+sports 25 31 284 290 B-chronic_disease
+related 32 39 291 298 I-chronic_disease
+concussion 40 50 299 309 I-chronic_disease
+

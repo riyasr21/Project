@@ -1,0 +1,70 @@
+History 0 7 0 7 O
+and 8 11 8 11 O
+Physical 12 20 12 20 O
+done 21 25 21 25 O
+within 26 32 26 32 O
+4 33 34 33 34 B-upper_bound
+weeks 35 40 35 40 I-upper_bound
+of 41 43 41 43 O
+enrollment 44 54 44 54 O
+
+History 0 7 55 62 O
+of 8 10 63 65 O
+hypersensitivity 11 27 66 82 O
+to 28 30 83 85 O
+the 31 34 86 89 O
+contrast 35 43 90 98 O
+agent 44 49 99 104 O
+perflutren 50 60 105 115 B-allergy_name
+
+History 0 7 116 123 O
+of 8 10 124 126 O
+pulmonary 11 20 127 136 B-chronic_disease
+hypertension 21 33 137 149 I-chronic_disease
+
+Patient 0 7 150 157 O
+is 8 10 158 160 O
+at 11 13 161 163 O
+least 14 19 164 169 O
+18 20 22 170 172 B-lower_bound
+years 23 28 173 178 I-lower_bound
+of 29 31 179 181 O
+age 32 35 182 185 B-age
+
+Patient 0 7 186 193 O
+with 8 12 194 198 O
+primary 13 20 199 206 O
+liver 21 26 207 212 B-cancer
+tumor 27 32 213 218 I-cancer
+or 33 35 219 221 O
+metastasis 36 46 222 232 B-cancer
+scheduled 47 56 233 242 O
+for 57 60 243 246 O
+Stereotactic 61 73 247 259 B-treatment
+Ablative 74 82 260 268 I-treatment
+Radiotherapy 83 95 269 281 I-treatment
+( 96 97 282 283 I-treatment
+SABR 97 101 283 287 I-treatment
+) 101 102 287 288 I-treatment
+
+Patients 0 8 289 297 O
+who 9 12 298 301 O
+are 13 16 302 305 B-pregnancy
+pregnant 17 25 306 314 I-pregnancy
+or 26 28 315 317 O
+are 29 32 318 321 O
+trying 33 39 322 328 O
+to 40 42 329 331 O
+become 43 49 332 338 B-pregnancy
+pregnant 50 58 339 347 I-pregnancy
+
+Performance 0 11 348 359 B-clinical_variable
+status 12 18 360 366 I-clinical_variable
+( 19 20 367 368 I-clinical_variable
+ECOG 20 24 368 372 I-clinical_variable
+) 24 25 372 373 I-clinical_variable
+between 26 33 374 381 O
+0 34 35 382 383 B-lower_bound
+- 35 36 383 384 O
+3 36 37 384 385 B-upper_bound
+

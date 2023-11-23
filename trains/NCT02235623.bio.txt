@@ -1,0 +1,91 @@
+Age 0 3 0 3 B-age
+< 4 5 4 5 O
+4 6 7 6 7 B-upper_bound
+months 8 14 8 14 I-upper_bound
+
+Age 0 3 15 18 B-age
+> 4 5 19 20 O
+36 6 8 21 23 B-lower_bound
+months 9 15 24 30 I-lower_bound
+
+Assessment 0 10 31 41 O
+of 11 13 42 44 O
+whether 14 21 45 52 O
+a 22 23 53 54 O
+single 24 30 55 61 O
+stage 31 36 62 67 O
+primary 37 44 68 75 O
+orchidopexy 45 56 76 87 B-treatment
+will 57 61 88 92 O
+be 62 64 93 95 O
+performed 65 74 96 105 O
+, 74 75 105 106 O
+is 76 78 107 109 O
+entirely 79 87 110 118 O
+at 88 90 119 121 O
+the 91 94 122 125 O
+discretion 95 105 126 136 O
+of 106 108 137 139 O
+the 109 112 140 143 O
+attending 113 122 144 153 O
+surgeon 123 130 154 161 O
+
+Bilateral 0 9 162 171 B-chronic_disease
+cryptorchidism 10 24 172 186 I-chronic_disease
+
+Boys 0 4 187 191 B-gender
+
+Findings 0 8 192 200 O
+at 9 11 201 203 O
+laparoscopy 12 23 204 215 B-treatment
+for 24 27 216 219 O
+which 28 33 220 225 O
+Fowler 34 40 226 232 B-treatment
+- 40 41 232 233 I-treatment
+Stephens 41 49 233 241 I-treatment
+Orchiopexy 50 60 242 252 I-treatment
+would 61 66 253 258 O
+not 67 70 259 262 O
+be 71 73 263 265 O
+indicated 74 83 266 275 O
+
+Undergoing 0 10 276 286 O
+diagnostic 11 21 287 297 B-treatment
+laparoscopy 22 33 298 309 I-treatment
+for 34 37 310 313 O
+unilateral 38 48 314 324 O
+non 49 52 325 328 O
+- 52 53 328 329 O
+palpable 53 61 329 337 O
+testis 62 68 338 344 O
+, 68 69 344 345 O
+who 70 73 346 349 O
+are 74 77 350 353 O
+found 78 83 354 359 O
+at 84 86 360 362 O
+laparoscopy 87 98 363 374 O
+to 99 101 375 377 O
+have 102 106 378 382 O
+an 107 109 383 385 O
+abdominal 110 119 386 395 O
+undescended 120 131 396 407 O
+testis 132 138 408 414 O
+, 138 139 414 415 O
+in 140 142 416 418 O
+whom 143 147 419 423 O
+a 148 149 424 425 O
+Fowler 150 156 426 432 O
+- 156 157 432 433 O
+Stephens 157 165 433 441 O
+Orchiopexy 166 176 442 452 O
+would 177 182 453 458 O
+be 183 185 459 461 O
+appropriate 186 197 462 473 O
+
+age 0 3 474 477 B-age
+4 4 5 478 479 B-lower_bound
+months 6 12 480 486 I-lower_bound
+to 13 15 487 489 O
+36 16 18 490 492 B-upper_bound
+months 19 25 493 499 I-upper_bound
+

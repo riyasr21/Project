@@ -1,0 +1,82 @@
+Comorbidity 0 11 0 11 O
+such 12 16 12 16 O
+as 17 19 17 19 O
+carpal 20 26 20 26 B-chronic_disease
+tunnel 27 33 27 33 I-chronic_disease
+syndrome 34 42 34 42 I-chronic_disease
+( 43 44 43 44 I-chronic_disease
+CTS 44 47 44 47 I-chronic_disease
+) 47 48 47 48 I-chronic_disease
+
+History 0 7 49 56 O
+of 8 10 57 59 O
+cortical 11 19 60 68 B-treatment
+steroid 20 27 69 76 I-treatment
+injection 28 37 77 86 I-treatment
+to 38 40 87 89 O
+affected 41 49 90 98 O
+wrist 50 55 99 104 O
+and/or 56 62 105 111 O
+thumb 63 68 112 117 O
+
+Persistent 0 10 118 128 O
+symptoms 11 19 129 137 O
+for 20 23 138 141 O
+> 24 25 142 143 O
+3 25 26 143 144 B-lower_bound
+wks 27 30 145 148 I-lower_bound
+which 31 36 149 154 O
+have 37 41 155 159 O
+not 42 45 160 163 O
+resolved 46 54 164 172 O
+after 55 60 173 178 O
+an 61 63 179 181 O
+additional 64 74 182 192 O
+3 75 76 193 194 O
+weeks 77 82 195 200 O
+of 83 85 201 203 O
+splinting 86 95 204 213 O
+
+Positive 0 8 214 222 O
+Cozen 9 14 223 228 B-treatment
+'s 14 16 228 230 I-treatment
+sign 17 21 231 235 O
+which 22 27 236 241 O
+would 28 33 242 247 O
+indicate 34 42 248 256 O
+intersection 43 55 257 269 B-chronic_disease
+syndrome 56 64 270 278 I-chronic_disease
+
+Post 0 4 279 283 B-clinical_variable
+- 4 5 283 284 I-clinical_variable
+partum 5 11 284 290 I-clinical_variable
+mothers 12 19 291 298 I-clinical_variable
+< 20 21 299 300 O
+6 21 22 300 301 B-upper_bound
+months 23 29 302 308 I-upper_bound
+
+auto 0 4 309 313 B-chronic_disease
+- 4 5 313 314 I-chronic_disease
+immune 5 11 314 320 I-chronic_disease
+disease 12 19 321 328 I-chronic_disease
+or 20 22 329 331 O
+inflammatory 23 35 332 344 B-chronic_disease
+conditions 36 46 345 355 I-chronic_disease
+
+lateral 0 7 356 363 B-chronic_disease
+epicondylitis 8 21 364 377 I-chronic_disease
+or 22 24 378 380 O
+tendinopathies 25 39 381 395 B-chronic_disease
+
+osteoarthritis 0 14 396 410 B-chronic_disease
+
+pregnant 0 8 411 419 B-pregnancy
+women 9 14 420 425 B-gender
+
+radial 0 6 426 432 B-chronic_disease
+tunnel 7 13 433 439 I-chronic_disease
+syndrome 14 22 440 448 I-chronic_disease
+
+rheumatoid 0 10 449 459 B-chronic_disease
+arthritis 11 20 460 469 I-chronic_disease
+

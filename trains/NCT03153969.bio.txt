@@ -1,0 +1,117 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+At 0 2 18 20 O
+least 3 8 21 26 O
+50 9 11 27 29 B-lower_bound
+% 11 12 29 30 I-lower_bound
+of 13 15 31 33 O
+lesion 16 22 34 40 O
+must 23 27 41 45 O
+be 28 30 46 48 O
+in 31 33 49 51 O
+dentin 34 40 52 58 O
+
+Cervical 0 8 59 67 B-chronic_disease
+lesions 9 16 68 75 I-chronic_disease
+must 17 21 76 80 O
+provide 22 29 81 88 O
+for 30 33 89 92 O
+a 34 35 93 94 O
+minimum 36 43 95 102 O
+of 44 46 103 105 O
+1 47 48 106 107 B-lower_bound
+mm 48 50 107 109 I-lower_bound
+thickness 51 60 110 119 O
+of 61 63 120 122 O
+restorative 64 75 123 134 O
+material 76 84 135 143 O
+while 85 90 144 149 O
+maintaining 91 102 150 161 O
+natural 103 110 162 169 O
+tooth 111 116 170 175 O
+contour 117 124 176 183 O
+
+Condition 0 9 184 193 O
+affecting 10 19 194 203 O
+salivary 20 28 204 212 O
+flow 29 33 213 217 O
+( 34 35 218 219 O
+e.g. 35 39 219 223 O
+, 39 40 223 224 O
+salivary 41 49 225 233 B-chronic_disease
+gland 50 55 234 239 I-chronic_disease
+disorder 56 64 240 248 I-chronic_disease
+, 64 65 248 249 O
+Sjögren 66 73 250 257 B-chronic_disease
+'s 73 75 257 259 I-chronic_disease
+Syndrome 76 84 260 268 I-chronic_disease
+) 84 85 268 269 O
+
+Evidence 0 8 270 278 O
+of 9 11 279 281 O
+severe 12 18 282 288 O
+bruxing 19 26 289 296 O
+or 27 29 297 299 O
+clenching 30 39 300 309 O
+or 40 42 310 312 O
+in 43 45 313 315 O
+need 46 50 316 320 O
+of 51 53 321 323 O
+TMJ 54 57 324 327 B-treatment
+related 58 65 328 335 I-treatment
+therapy 66 73 336 343 I-treatment
+
+Evidence 0 8 344 352 O
+of 9 11 353 355 O
+xerostomia 12 22 356 366 B-chronic_disease
+
+Known 0 5 367 372 O
+allergy 6 13 373 380 O
+to 14 16 381 383 O
+resin 17 22 384 389 B-allergy_name
+composites 23 33 390 400 I-allergy_name
+or 34 36 401 403 O
+local 37 42 404 409 B-allergy_name
+anesthetics 43 54 410 421 I-allergy_name
+
+Teeth 0 5 422 427 O
+that 6 10 428 432 O
+are 11 14 433 436 O
+non 15 18 437 440 O
+- 18 19 440 441 O
+vital 19 24 441 446 O
+or 25 27 447 449 O
+have 28 32 450 454 O
+had 33 36 455 458 O
+root 37 41 459 463 B-treatment
+canal 42 47 464 469 I-treatment
+therapy 48 55 470 477 I-treatment
+
+Teeth 0 5 478 483 O
+with 6 10 484 488 O
+a 11 12 489 490 O
+periodontal 13 24 491 502 B-clinical_variable
+pocket 25 31 503 509 I-clinical_variable
+of 32 34 510 512 O
+more 35 39 513 517 O
+than 40 44 518 522 O
+4 45 46 523 524 B-lower_bound
+mm 46 48 524 526 I-lower_bound
+with 49 53 527 531 O
+bleeding 54 62 532 540 O
+on 63 65 541 543 O
+probing 66 73 544 551 O
+
+Teeth 0 5 552 557 O
+with 6 10 558 562 O
+periapical 11 21 563 573 B-chronic_disease
+pathology 22 31 574 583 I-chronic_disease
+
+Women 0 5 584 589 B-gender
+who 6 9 590 593 O
+are 10 13 594 597 O
+pregnant 14 22 598 606 B-pregnancy
+

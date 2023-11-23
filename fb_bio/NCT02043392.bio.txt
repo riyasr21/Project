@@ -1,0 +1,67 @@
+ASA 0 3 0 3 B-clinical_variable
+( 4 5 4 5 I-clinical_variable
+American 5 13 5 13 I-clinical_variable
+Society 14 21 14 21 I-clinical_variable
+of 22 24 22 24 I-clinical_variable
+Anesthesiology 25 39 25 39 I-clinical_variable
+) 39 40 39 40 I-clinical_variable
+score 41 46 41 46 I-clinical_variable
+4 47 48 47 48 B-lower_bound
+or 49 51 49 51 O
+5 52 53 52 53 B-upper_bound
+
+Able 0 4 54 58 B-language_fluency
+to 5 7 59 61 I-language_fluency
+read 8 12 62 66 I-language_fluency
+, 12 13 66 67 I-language_fluency
+speak 14 19 68 73 I-language_fluency
+and 20 23 74 77 I-language_fluency
+understand 24 34 78 88 I-language_fluency
+English 35 42 89 96 I-language_fluency
+
+Between 0 7 97 104 O
+18 8 10 105 107 B-lower_bound
+and 11 14 108 111 O
+≤ 15 16 112 113 O
+60 17 19 114 116 B-upper_bound
+years 20 25 117 122 I-upper_bound
+of 26 28 123 125 O
+age 29 32 126 129 B-age
+
+Requires 0 8 130 138 O
+non 9 12 139 142 O
+- 12 13 142 143 O
+emergent 13 21 143 151 O
+operation 22 31 152 161 O
+to 32 34 162 164 O
+create 35 41 165 171 O
+an 42 44 172 174 O
+intestinal 45 55 175 185 B-treatment
+anastomosis 56 67 186 197 I-treatment
+for 68 71 198 201 O
+maintenance 72 83 202 213 O
+of 84 86 214 216 O
+intestinal 87 97 217 227 O
+continuity 98 108 228 238 O
+in 109 111 239 241 O
+which 112 117 242 247 O
+the 118 121 248 251 O
+Magnamosis 122 132 252 262 O
+device 133 139 263 269 O
+can 140 143 270 273 O
+be 144 146 274 276 O
+used 147 151 277 281 O
+instead 152 159 282 289 O
+of 160 162 290 292 O
+sutures 163 170 293 300 O
+or 171 173 301 303 O
+staples 174 181 304 311 O
+
+Women 0 5 312 317 B-gender
+possibly 6 14 318 326 O
+or 15 17 327 329 O
+known 18 23 330 335 B-pregnancy
+to 24 26 336 338 I-pregnancy
+be 27 29 339 341 I-pregnancy
+pregnant 30 38 342 350 I-pregnancy
+

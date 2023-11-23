@@ -1,0 +1,8 @@
+age 0 3 0 3 B-age
+- 3 4 3 4 O
+related 4 11 4 11 O
+memory 12 18 12 18 B-chronic_disease
+disorder 19 27 19 27 I-chronic_disease
+
+diabetes 0 8 28 36 B-chronic_disease
+

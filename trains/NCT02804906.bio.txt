@@ -1,0 +1,28 @@
+Clinical 0 8 0 8 O
+diagnosis 9 18 9 18 O
+of 19 21 19 21 O
+acute 22 27 22 27 B-chronic_disease
+myocardial 28 38 28 38 I-chronic_disease
+infarction 39 49 39 49 I-chronic_disease
+( 50 51 50 51 I-chronic_disease
+AMI 51 54 51 54 I-chronic_disease
+) 54 55 54 55 I-chronic_disease
+
+non 0 3 56 59 B-language_fluency
+- 3 4 59 60 I-language_fluency
+English 4 11 60 67 I-language_fluency
+/ 11 12 67 68 I-language_fluency
+non 12 15 68 71 I-language_fluency
+- 15 16 71 72 I-language_fluency
+Spanish 16 23 72 79 I-language_fluency
+speaking 24 32 80 88 I-language_fluency
+
+severe 0 6 89 95 B-chronic_disease
+heart 7 12 96 101 I-chronic_disease
+failure 13 20 102 109 I-chronic_disease
+( 21 22 110 111 O
+NYHA 22 26 111 115 O
+Class 27 32 116 121 O
+IV 33 35 122 124 O
+) 35 36 124 125 O
+

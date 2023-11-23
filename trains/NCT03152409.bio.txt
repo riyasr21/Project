@@ -1,0 +1,171 @@
+Active 0 6 0 6 O
+or 7 9 7 9 O
+recent 10 16 10 16 O
+( 17 18 17 18 O
+within 18 24 18 24 O
+the 25 28 25 28 O
+past 29 33 29 33 O
+month 34 39 34 39 O
+) 39 40 39 40 O
+infection 41 50 41 50 B-chronic_disease
+( 51 52 51 52 O
+such 52 56 52 56 O
+as 57 59 57 59 O
+otitis 60 66 60 66 B-chronic_disease
+, 66 67 66 67 O
+pneumonia 68 77 68 77 B-chronic_disease
+, 77 78 77 78 O
+urinary 79 86 79 86 B-chronic_disease
+tract 87 92 87 92 I-chronic_disease
+infection 93 102 93 102 I-chronic_disease
+) 102 103 102 103 O
+
+Alcohol 0 7 104 111 O
+or 8 10 112 114 O
+substance 11 20 115 124 O
+use 21 24 125 128 O
+disorder 25 33 129 137 O
+up 34 36 138 140 O
+to 37 39 141 143 O
+one 40 43 144 147 B-upper_bound
+month 44 49 148 153 I-upper_bound
+prior 50 55 154 159 I-upper_bound
+to 56 58 160 162 O
+first 59 64 163 168 O
+testing 65 72 169 176 O
+session 73 80 177 184 O
+
+Comorbid 0 8 185 193 O
+autoimmune 9 19 194 204 B-chronic_disease
+condition 20 29 205 214 I-chronic_disease
+
+Current 0 7 215 222 O
+diagnosis 8 17 223 232 O
+of 18 20 233 235 O
+major 21 26 236 241 B-chronic_disease
+depressive 27 37 242 252 I-chronic_disease
+disorder 38 46 253 261 I-chronic_disease
+
+Current 0 7 262 269 O
+use 8 11 270 273 O
+of 12 14 274 276 O
+oral 15 19 277 281 B-treatment
+steroids 20 28 282 290 I-treatment
+or 29 31 291 293 O
+other 32 37 294 299 O
+immunomodulating 38 54 300 316 B-treatment
+medications 55 66 317 328 I-treatment
+
+History 0 7 329 336 O
+of 8 10 337 339 O
+GI 11 13 340 342 B-chronic_disease
+bleed 14 19 343 348 I-chronic_disease
+
+History 0 7 349 356 O
+of 8 10 357 359 O
+a 11 12 360 361 O
+bleeding 13 21 362 370 B-chronic_disease
+disorder 22 30 371 379 I-chronic_disease
+
+History 0 7 380 387 O
+of 8 10 388 390 O
+manic 11 16 391 396 B-chronic_disease
+episodes 17 25 397 405 I-chronic_disease
+or 26 28 406 408 O
+psychosis 29 38 409 418 B-chronic_disease
+
+History 0 7 419 426 O
+of 8 10 427 429 O
+stroke 11 17 430 436 B-chronic_disease
+
+Platelet 0 8 437 445 B-clinical_variable
+count 9 14 446 451 I-clinical_variable
+< 15 16 452 453 O
+150,000 17 24 454 461 B-upper_bound
+/ 24 25 461 462 I-upper_bound
+mm3 25 28 462 465 I-upper_bound
+on 29 31 466 468 O
+initial 32 39 469 476 O
+screening 40 49 477 486 O
+
+Pregnancy 0 9 487 496 B-pregnancy
+or 10 12 497 499 O
+breastfeeding 13 26 500 513 O
+
+Salicylate 0 10 514 524 B-allergy_name
+sensitivity 11 22 525 536 O
+
+Stable 0 6 537 543 O
+treatment 7 16 544 553 O
+regimen 17 24 554 561 O
+( 25 26 562 563 O
+no 26 28 563 565 O
+medication 29 39 566 576 O
+changes 40 47 577 584 O
+or 48 50 585 587 O
+changes 51 58 588 595 O
+in 59 61 596 598 O
+psychotherapy 62 75 599 612 B-treatment
+treatment 76 85 613 622 I-treatment
+in 86 88 623 625 O
+past 89 93 626 630 B-upper_bound
+8 94 95 631 632 I-upper_bound
+weeks 96 101 633 638 I-upper_bound
+, 101 102 638 639 O
+and 103 106 640 643 O
+no 107 109 644 646 O
+participation 110 123 647 660 O
+in 124 126 661 663 O
+stepped 127 134 664 671 B-treatment
+treatments 135 145 672 682 I-treatment
+, 145 146 682 683 O
+such 147 151 684 688 O
+as 152 154 689 691 O
+completion 155 165 692 702 O
+of 166 168 703 705 O
+a 169 170 706 707 O
+course 171 177 708 714 O
+of 178 180 715 717 O
+cognitive 181 190 718 727 B-treatment
+behavioral 191 201 728 738 I-treatment
+therapy 202 209 739 746 I-treatment
+, 209 210 746 747 O
+during 211 217 748 754 O
+the 218 221 755 758 O
+trial 222 227 759 764 O
+) 227 228 764 765 O
+
+Uncorrected 0 11 766 777 B-chronic_disease
+thyroid 12 19 778 785 I-chronic_disease
+disease 20 27 786 793 I-chronic_disease
+
+Women 0 5 794 799 B-gender
+of 6 8 800 802 O
+childbearing 9 21 803 815 O
+age 22 25 816 819 B-age
+must 26 30 820 824 O
+agree 31 36 825 830 B-contraception_consent
+to 37 39 831 833 I-contraception_consent
+use 40 43 834 837 I-contraception_consent
+an 44 46 838 840 I-contraception_consent
+approved 47 55 841 849 I-contraception_consent
+method 56 62 850 856 I-contraception_consent
+of 63 65 857 859 I-contraception_consent
+contraception 66 79 860 873 I-contraception_consent
+for 80 83 874 877 O
+the 84 87 878 881 O
+duration 88 96 882 890 O
+of 97 99 891 893 O
+the 100 103 894 897 O
+study 104 109 898 903 O
+
+current 0 7 904 911 O
+abnormal 8 16 912 920 O
+thyroid 17 24 921 928 B-clinical_variable
+- 24 25 928 929 I-clinical_variable
+stimulating 25 36 929 940 I-clinical_variable
+hormone 37 44 941 948 I-clinical_variable
+( 45 46 949 950 I-clinical_variable
+TSH 46 49 950 953 I-clinical_variable
+) 49 50 953 954 I-clinical_variable
+

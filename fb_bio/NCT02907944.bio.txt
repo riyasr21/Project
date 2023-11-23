@@ -1,0 +1,48 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+18 5 7 5 7 B-lower_bound
+years 8 13 8 13 I-lower_bound
+old 14 17 14 17 O
+
+Employed 0 8 18 26 O
+at 9 11 27 29 O
+participating 12 25 30 43 O
+HIV 26 29 44 47 B-chronic_disease
+clinic 30 36 48 54 O
+for 37 40 55 58 O
+at 41 43 59 61 O
+least 44 49 62 67 O
+6 50 51 68 69 B-lower_bound
+months 52 58 70 76 I-lower_bound
+
+HIV 0 3 77 80 B-chronic_disease
+- 3 4 80 81 O
+infected 4 12 81 89 O
+
+Meets 0 5 90 95 O
+criteria 6 14 96 104 O
+for 15 18 105 108 O
+lifetime 19 27 109 117 O
+or 28 30 118 120 O
+current 31 38 121 128 O
+tobacco 39 46 129 136 O
+, 46 47 136 137 O
+alcohol 48 55 138 145 O
+and/or 56 62 146 152 O
+opioid 63 69 153 159 O
+use 70 73 160 163 O
+disorder 74 82 164 172 O
+regardless 83 93 173 183 O
+of 94 96 184 186 O
+addiction 97 106 187 196 O
+treatment 107 116 197 206 B-treatment
+status 117 123 207 213 O
+
+Receiving 0 9 214 223 O
+HIV 10 13 224 227 B-chronic_disease
+care 14 18 228 232 O
+in 19 21 233 235 O
+the 22 25 236 239 O
+index 26 31 240 245 O
+clinic 32 38 246 252 O
+

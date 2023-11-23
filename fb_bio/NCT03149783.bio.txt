@@ -1,0 +1,72 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+= 5 6 5 6 O
+50 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Patients 0 8 15 23 O
+who 9 12 24 27 O
+do 13 15 28 30 B-language_fluency
+not 16 19 31 34 I-language_fluency
+speak 20 25 35 40 I-language_fluency
+English 26 33 41 48 I-language_fluency
+so 34 36 49 51 O
+that 37 41 52 56 O
+a 42 43 57 58 O
+language 44 52 59 67 O
+barrier 53 60 68 75 O
+is 61 63 76 78 O
+not 64 67 79 82 O
+confused 68 76 83 91 O
+with 77 81 92 96 O
+VAS 82 85 97 100 O
+scoring 86 93 101 108 O
+or 94 96 109 111 O
+confusion 97 106 112 121 O
+
+Patients 0 8 122 130 O
+with 9 13 131 135 O
+a 14 15 136 137 O
+documented 16 26 138 148 O
+allergy 27 34 149 156 O
+to 35 37 157 159 O
+ropivacaine 38 49 160 171 B-allergy_name
+
+Subjects 0 8 172 180 O
+will 9 13 181 185 O
+be 14 16 186 188 O
+undergoing 17 27 189 199 O
+an 28 30 200 202 O
+elective 31 39 203 211 O
+intra 40 45 212 217 O
+- 45 46 217 218 O
+abdominal 46 55 218 227 O
+or 56 58 228 230 O
+abdominal 59 68 231 240 B-treatment
+wall 69 73 241 245 I-treatment
+operation 74 83 246 255 I-treatment
+, 83 84 255 256 O
+including 85 94 257 266 O
+pelvic 95 101 267 273 B-treatment
+operations 102 112 274 284 I-treatment
+
+other 0 5 285 290 O
+sodium 6 12 291 297 B-treatment
+channel 13 20 298 305 I-treatment
+blockers 21 29 306 314 I-treatment
+
+plastic 0 7 315 322 B-treatment
+surgery 8 15 323 330 I-treatment
+
+psychosis 0 9 331 340 O
+in 10 12 341 343 O
+Alzheimer 13 22 344 353 B-chronic_disease
+'s 22 24 353 355 I-chronic_disease
+disease 25 32 356 363 I-chronic_disease
+
+psychotic 0 9 364 373 B-chronic_disease
+major 10 15 374 379 I-chronic_disease
+depression 16 26 380 390 I-chronic_disease
+
+schizophrenia 0 13 391 404 B-chronic_disease
+

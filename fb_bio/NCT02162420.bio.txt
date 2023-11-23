@@ -1,0 +1,269 @@
+Acute 0 5 0 5 B-chronic_disease
+hepatitis 6 15 6 15 I-chronic_disease
+
+Aged 0 4 16 20 B-age
+0 5 6 21 22 B-lower_bound
+- 7 8 23 24 O
+70 9 11 25 27 B-upper_bound
+years 12 17 28 33 I-upper_bound
+
+DKC1 0 4 34 38 B-clinical_variable
+
+DLCO 0 4 39 43 B-clinical_variable
+≥30 5 8 44 47 O
+% 8 9 47 48 I-lower_bound
+predicted 10 19 49 58 O
+
+Diagnosis 0 9 59 68 O
+of 10 12 69 71 O
+DC 13 15 72 74 B-chronic_disease
+
+Diagnosis 0 9 75 84 O
+of 10 12 85 87 O
+DC 13 15 88 90 B-chronic_disease
+with 16 20 91 95 I-chronic_disease
+a 21 22 96 97 I-chronic_disease
+triad 23 28 98 103 I-chronic_disease
+of 29 31 104 106 I-chronic_disease
+mucocutaneous 32 45 107 120 I-chronic_disease
+features 46 54 121 129 I-chronic_disease
+
+Diagnosis 0 9 130 139 O
+of 10 12 140 142 O
+Fanconi 13 20 143 150 B-chronic_disease
+anemia 21 27 151 157 I-chronic_disease
+based 28 33 158 163 O
+on 34 36 164 166 O
+DEB 37 40 167 170 O
+
+Diagnosis 0 9 171 180 O
+of 10 12 181 183 O
+SAA 13 16 184 187 B-chronic_disease
+with 17 21 188 192 O
+refractory 22 32 193 203 B-chronic_disease
+cytopenias 33 43 204 214 I-chronic_disease
+
+Diagnosis 0 9 215 224 O
+of 10 12 225 227 O
+dyskeratosis 13 25 228 240 B-chronic_disease
+congenita 26 35 241 250 I-chronic_disease
+with 36 40 251 255 O
+advanced 41 49 256 264 B-chronic_disease
+MDS 50 53 265 268 I-chronic_disease
+
+Dyskeratosis 0 12 269 281 B-chronic_disease
+Congenita 13 22 282 291 I-chronic_disease
+( 23 24 292 293 I-chronic_disease
+DC 24 26 293 295 I-chronic_disease
+) 26 27 295 296 I-chronic_disease
+with 28 32 297 301 I-chronic_disease
+evidence 33 41 302 310 I-chronic_disease
+of 42 44 311 313 I-chronic_disease
+BM 45 47 314 316 I-chronic_disease
+failure 48 55 317 324 I-chronic_disease
+
+Early 0 5 325 330 O
+myelodysplastic 6 21 331 346 B-chronic_disease
+features 22 30 347 355 O
+
+Glomerular 0 10 356 366 B-clinical_variable
+filtration 11 21 367 377 I-clinical_variable
+rate 22 26 378 382 I-clinical_variable
+( 27 28 383 384 I-clinical_variable
+GFR 28 31 384 387 I-clinical_variable
+) 31 32 387 388 I-clinical_variable
+≥30 33 36 389 392 O
+% 36 37 392 393 I-lower_bound
+predicted 38 47 394 403 O
+
+Graft 0 5 404 409 B-chronic_disease
+failure 6 13 410 417 I-chronic_disease
+as 14 16 418 420 O
+defined 17 24 421 428 O
+by 25 27 429 431 O
+blood 28 33 432 437 B-clinical_variable
+/ 33 34 437 438 I-clinical_variable
+marrow 34 40 438 444 I-clinical_variable
+chimerism 41 50 445 454 I-clinical_variable
+of 51 53 455 457 O
+< 54 55 458 459 O
+5 56 57 460 461 B-upper_bound
+% 57 58 461 462 I-upper_bound
+
+Pregnant 0 8 463 471 B-pregnancy
+
+Prior 0 5 472 477 B-treatment
+radiation 6 15 478 487 I-treatment
+therapy 16 23 488 495 I-treatment
+( 24 25 496 497 O
+applies 25 32 497 504 O
+to 33 35 505 507 O
+SAA 36 39 508 511 B-chronic_disease
+patients 40 48 512 520 O
+only 49 53 521 525 O
+) 53 54 525 526 O
+
+Refractory 0 10 527 537 B-cancer
+cytopenia 11 20 538 547 I-cancer
+defined 21 28 548 555 O
+by 29 31 556 558 O
+bone 32 36 559 563 B-clinical_variable
+marrow 37 43 564 570 I-clinical_variable
+cellularity 44 55 571 582 I-clinical_variable
+< 56 57 583 584 O
+50 57 59 584 586 B-upper_bound
+% 59 60 586 587 I-upper_bound
+( 61 62 588 589 O
+with 62 66 589 593 O
+< 67 68 594 595 O
+30 69 71 596 598 B-upper_bound
+% 71 72 598 599 I-upper_bound
+residual 73 81 600 608 B-clinical_variable
+hematopoietic 82 95 609 622 I-clinical_variable
+cells 96 101 623 628 I-clinical_variable
+) 101 102 628 629 O
+
+Severe 0 6 630 636 B-treatment
+Aplastic 7 15 637 645 I-treatment
+Anemia 16 22 646 652 I-treatment
+( 23 24 653 654 I-treatment
+SAA 24 27 654 657 I-treatment
+) 27 28 657 658 I-treatment
+primary 29 36 659 666 I-treatment
+transplant 37 47 667 677 I-treatment
+with 48 52 678 682 O
+evidence 53 61 683 691 O
+of 62 64 692 694 O
+BM 65 67 695 697 B-chronic_disease
+failure 68 75 698 705 I-chronic_disease
+
+Severe 0 6 706 712 B-chronic_disease
+Aplastic 7 15 713 721 I-chronic_disease
+Anemia 16 22 722 728 I-chronic_disease
+( 23 24 729 730 I-chronic_disease
+SAA 24 27 730 733 I-chronic_disease
+) 27 28 733 734 I-chronic_disease
+requiring 29 38 735 744 O
+a 39 40 745 746 O
+2nd 41 44 747 750 B-treatment
+transplant 45 55 751 761 I-treatment
+
+Uncontrolled 0 12 762 774 B-chronic_disease
+infection 13 22 775 784 I-chronic_disease
+
+With 0 4 785 789 O
+or 5 7 790 792 O
+without 8 15 793 800 O
+clonal 16 22 801 807 B-chronic_disease
+cytogenetic 23 34 808 819 I-chronic_disease
+abnormalities 35 48 820 833 I-chronic_disease
+
+abnormal 0 8 834 842 O
+reticular 9 18 843 852 B-chronic_disease
+skin 19 23 853 857 I-chronic_disease
+hyperpigmentation 24 41 858 875 I-chronic_disease
+
+absolute 0 8 876 884 B-clinical_variable
+neutrophil 9 19 885 895 I-clinical_variable
+count 20 25 896 901 I-clinical_variable
+< 26 27 902 903 O
+500 27 30 903 906 B-upper_bound
+/ 30 31 906 907 I-upper_bound
+uL 31 33 907 909 I-upper_bound
+without 34 41 910 917 O
+hematopoietic 42 55 918 931 O
+growth 56 62 932 938 O
+factor 63 69 939 945 O
+support 70 77 946 953 O
+
+absolute 0 8 954 962 B-clinical_variable
+reticulocyte 9 21 963 975 I-clinical_variable
+count 22 27 976 981 I-clinical_variable
+< 28 29 982 983 O
+20,000 29 35 983 989 B-upper_bound
+/ 35 36 989 990 I-upper_bound
+uL 36 38 990 992 I-upper_bound
+
+acute 0 5 993 998 B-cancer
+myeloid 6 13 999 1006 I-cancer
+leukemia 14 22 1007 1015 I-cancer
+with 23 27 1016 1020 O
+> 28 29 1021 1022 O
+30 29 31 1022 1024 B-lower_bound
+% 31 32 1024 1025 I-lower_bound
+blasts 33 39 1026 1032 O
+
+cirrhosis 0 9 1033 1042 B-chronic_disease
+on 10 12 1043 1045 O
+biopsy 13 19 1046 1052 B-treatment
+
+hemoglobin 0 10 1053 1063 B-clinical_variable
+< 11 12 1064 1065 O
+9g 12 14 1065 1067 B-upper_bound
+/ 14 15 1067 1068 I-upper_bound
+uL 15 17 1068 1070 I-upper_bound
+
+left 0 4 1071 1075 B-clinical_variable
+ventricular 5 16 1076 1087 I-clinical_variable
+ejection 17 25 1088 1096 I-clinical_variable
+fraction 26 34 1097 1105 I-clinical_variable
+≥ 35 36 1106 1107 O
+35 37 39 1108 1110 B-lower_bound
+% 39 40 1110 1111 I-lower_bound
+with 41 45 1112 1116 O
+no 46 48 1117 1119 O
+evidence 49 57 1120 1128 O
+of 58 60 1129 1131 O
+decompensated 61 74 1132 1145 B-chronic_disease
+heart 75 80 1146 1151 I-chronic_disease
+failure 81 88 1152 1159 I-chronic_disease
+
+nail 0 4 1160 1164 B-chronic_disease
+dystrophy 5 14 1165 1174 I-chronic_disease
+
+oral 0 4 1175 1179 B-cancer
+leukoplakia 5 16 1180 1191 I-cancer
+
+platelets 0 9 1192 1201 B-clinical_variable
+< 10 11 1202 1203 O
+20,000 11 17 1203 1209 B-upper_bound
+/ 17 18 1209 1210 I-upper_bound
+uL 18 20 1210 1212 I-upper_bound
+
+platelets 0 9 1213 1222 B-clinical_variable
+< 10 11 1223 1224 O
+50,000 11 17 1224 1230 B-upper_bound
+/ 17 18 1230 1231 I-upper_bound
+uL 18 20 1231 1233 I-upper_bound
+
+refractory 0 10 1234 1244 B-chronic_disease
+cytopenias 11 21 1245 1255 I-chronic_disease
+
+requirement 0 11 1256 1267 O
+for 12 15 1268 1271 O
+G 16 17 1272 1273 B-treatment
+- 17 18 1273 1274 I-treatment
+CSF 18 21 1274 1277 I-treatment
+or 22 24 1278 1280 O
+GM 25 27 1281 1283 B-treatment
+- 27 28 1283 1284 I-treatment
+CSF 28 31 1284 1287 I-treatment
+or 32 34 1288 1290 O
+erythropoietin 35 49 1291 1305 B-treatment
+
+requirement 0 11 1306 1317 O
+for 12 15 1318 1321 O
+red 16 19 1322 1325 B-treatment
+blood 20 25 1326 1331 I-treatment
+cell 26 30 1332 1336 I-treatment
+and/or 31 37 1337 1343 I-treatment
+platelet 38 46 1344 1352 I-treatment
+transfusions 47 59 1353 1365 I-treatment
+
+severe 0 6 1366 1372 B-chronic_disease
+portal 7 13 1373 1379 I-chronic_disease
+fibrosis 14 22 1380 1388 I-chronic_disease
+
+transfusion 0 11 1389 1400 B-treatment
+dependent 12 21 1401 1410 I-treatment
+

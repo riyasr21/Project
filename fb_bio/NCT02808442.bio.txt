@@ -1,0 +1,70 @@
+Active 0 6 0 6 B-cancer
+Central 7 14 7 14 I-cancer
+Nervous 15 22 15 22 I-cancer
+System 23 29 23 29 I-cancer
+( 30 31 30 31 I-cancer
+CNS 31 34 31 34 I-cancer
+) 34 35 34 35 I-cancer
+leukemia 36 44 36 44 I-cancer
+
+Burkitt 0 7 45 52 B-cancer
+leukemia 8 16 53 61 I-cancer
+
+CD19 0 4 62 66 B-cancer
+- 4 5 66 67 I-cancer
+negative 5 13 67 75 I-cancer
+B 14 15 76 77 I-cancer
+- 15 16 77 78 I-cancer
+cell 16 20 78 82 I-cancer
+leukemia 21 29 83 91 I-cancer
+
+Estimated 0 9 92 101 O
+life 10 14 102 106 B-clinical_variable
+expectancy 15 25 107 117 I-clinical_variable
+≥ 26 27 118 119 O
+12 28 30 120 122 B-lower_bound
+weeks 31 36 123 128 I-lower_bound
+
+Patient 0 7 129 136 O
+with 8 12 137 141 O
+relapsed 13 21 142 150 O
+or 22 24 151 153 O
+refractory 25 35 154 164 O
+CD19 36 40 165 169 O
+- 40 41 169 170 O
+positive 41 49 170 178 O
+B 50 51 179 180 B-cancer
+- 51 52 180 181 I-cancer
+acute 52 57 181 186 I-cancer
+lymphoblastic 58 71 187 200 I-cancer
+leukaemia 72 81 201 210 I-cancer
+( 82 83 211 212 I-cancer
+B 83 84 212 213 I-cancer
+- 84 85 213 214 I-cancer
+ALL 85 88 214 217 I-cancer
+) 88 89 217 218 I-cancer
+who 90 93 219 222 O
+have 94 98 223 227 O
+exhausted 99 108 228 237 O
+alternative 109 120 238 249 O
+treatment 121 130 250 259 O
+options 131 138 260 267 O
+
+ctive 0 5 268 273 O
+acute 6 11 274 279 B-chronic_disease
+or 12 14 280 282 I-chronic_disease
+chronic 15 22 283 290 I-chronic_disease
+Graft 23 28 291 296 I-chronic_disease
+- 28 29 296 297 I-chronic_disease
+versus 29 35 297 303 I-chronic_disease
+- 35 36 303 304 I-chronic_disease
+Host 36 40 304 308 I-chronic_disease
+Disease 41 48 309 316 I-chronic_disease
+( 49 50 317 318 I-chronic_disease
+GvHD 50 54 318 322 I-chronic_disease
+) 54 55 322 323 I-chronic_disease
+requiring 56 65 324 333 O
+systemic 66 74 334 342 B-treatment
+use 75 78 343 346 I-treatment
+therapy 79 86 347 354 I-treatment
+

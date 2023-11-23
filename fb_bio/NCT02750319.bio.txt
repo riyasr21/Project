@@ -1,0 +1,59 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+prior 11 16 11 16 O
+AF 17 19 17 19 B-chronic_disease
+
+Known 0 5 20 25 O
+pregnancy 6 15 26 35 B-pregnancy
+
+Male- 0 5 36 41 B-gender
+age 6 9 42 45 B-age
+≥75 10 13 46 49 O
+( 14 15 50 51 O
+No 15 17 51 53 O
+BNP 18 21 54 57 O
+limit 22 27 58 63 O
+) 27 28 63 64 O
+
+Patients 0 8 65 73 O
+in 9 11 74 76 O
+sinus 12 17 77 82 B-chronic_disease
+rhythm 18 24 83 89 I-chronic_disease
+
+Patients 0 8 90 98 O
+scheduled 9 18 99 108 O
+for 19 22 109 112 O
+extrapleural 23 35 113 125 B-treatment
+pneumonectomy 36 49 126 139 I-treatment
+
+Patients 0 8 140 148 O
+with 9 13 149 153 O
+stable 14 20 154 160 O
+respiratory 21 32 161 172 O
+status 33 39 173 179 O
+( 40 41 180 181 O
+no 41 43 181 183 O
+respiratory 44 55 184 195 B-chronic_disease
+distress 56 64 196 204 I-chronic_disease
+) 64 65 204 205 O
+
+Patients 0 8 206 214 O
+≥18 9 12 215 218 O
+years 13 18 219 224 I-lower_bound
+old 19 22 225 228 O
+scheduled 23 32 229 238 O
+for 33 36 239 242 O
+elective 37 45 243 251 B-treatment
+thoracic 46 54 252 260 I-treatment
+surgery 55 62 261 268 I-treatment
+
+having 0 6 269 275 O
+an 7 9 276 278 O
+acute 10 15 279 284 B-chronic_disease
+MI 16 18 285 287 I-chronic_disease
+
+not 0 3 288 291 O
+in 4 6 292 294 O
+cardiogenic 7 18 295 306 B-chronic_disease
+shock 19 24 307 312 I-chronic_disease
+

@@ -1,0 +1,108 @@
+Estimated 0 9 0 9 O
+glomerular 10 20 10 20 B-clinical_variable
+filtration 21 31 21 31 I-clinical_variable
+rate 32 36 32 36 I-clinical_variable
+( 37 38 37 38 I-clinical_variable
+eGFR 38 42 38 42 I-clinical_variable
+) 42 43 42 43 I-clinical_variable
+> 44 45 44 45 O
+30 46 48 46 48 B-lower_bound
+ml 49 51 49 51 I-lower_bound
+/ 51 52 51 52 I-lower_bound
+min 52 55 52 55 I-lower_bound
+
+History 0 7 56 63 O
+of 8 10 64 66 O
+multiple 11 19 67 75 B-cancer
+myeloma 20 27 76 83 I-cancer
+
+History 0 7 84 91 O
+or 8 10 92 94 O
+renal 11 16 95 100 B-treatment
+transplantation 17 32 101 116 I-treatment
+
+Hypertension 0 12 117 129 B-chronic_disease
+
+Known 0 5 130 135 O
+history 6 13 136 143 O
+of 14 16 144 146 O
+hypersensitivity 17 33 147 163 O
+reaction 34 42 164 172 O
+or 43 45 173 175 O
+intolerability 46 60 176 190 O
+to 61 63 191 193 O
+Ace 64 67 194 197 B-allergy_name
+Inh 68 71 198 201 I-allergy_name
+or 72 74 202 204 O
+ARB 75 78 205 208 B-allergy_name
+
+Nephrotic 0 9 209 218 B-clinical_variable
+range 10 15 219 224 I-clinical_variable
+proteinuria 16 27 225 236 I-clinical_variable
+( 28 29 237 238 O
+urinary 29 36 238 245 B-clinical_variable
+protein 37 44 246 253 I-clinical_variable
+> 45 46 254 255 O
+3.5 47 50 256 259 B-lower_bound
+gm 51 53 260 262 I-lower_bound
+/ 53 54 262 263 I-lower_bound
+day 54 57 263 266 I-lower_bound
+) 57 58 266 267 O
+
+Patients 0 8 268 276 O
+with 9 13 277 281 O
+chronic 14 21 282 289 B-chronic_disease
+kidney 22 28 290 296 I-chronic_disease
+disease 29 36 297 304 I-chronic_disease
+stage 37 42 305 310 O
+with 43 47 311 315 O
+eGFR 48 52 316 320 B-clinical_variable
+< 53 54 321 322 O
+30 55 57 323 325 B-upper_bound
+ml 58 60 326 328 I-upper_bound
+/ 60 61 328 329 I-upper_bound
+min 61 64 329 332 I-upper_bound
+( 65 66 333 334 O
+CKD 66 69 334 337 B-chronic_disease
+stage 70 75 338 343 I-chronic_disease
+IV 76 78 344 346 I-chronic_disease
+and 79 82 347 350 I-chronic_disease
+V 83 84 351 352 I-chronic_disease
+) 84 85 352 353 O
+
+Pregnancy 0 9 354 363 B-pregnancy
+
+Type 0 4 364 368 B-chronic_disease
+2 5 6 369 370 I-chronic_disease
+Diabetes 7 15 371 379 I-chronic_disease
+
+Use 0 3 380 383 O
+of 4 6 384 386 O
+Ace 7 10 387 390 B-treatment
+Inh 11 14 391 394 I-treatment
+and 15 18 395 398 O
+ARB 19 22 399 402 B-treatment
+for 23 26 403 406 O
+control 27 34 407 414 O
+of 35 37 415 417 O
+blood 38 43 418 423 O
+pressure 44 52 424 432 O
+who 53 56 433 436 O
+are 57 60 437 440 O
+willing 61 68 441 448 O
+to 69 71 449 451 O
+be 72 74 452 454 O
+placed 75 81 455 461 O
+on 82 84 462 464 O
+alternate 85 94 465 474 O
+drug(s 95 101 475 481 O
+) 101 102 481 482 O
+in 103 105 483 485 O
+the 106 109 486 489 O
+washout 110 117 490 497 O
+period 118 124 498 504 O
+for 125 128 505 508 O
+blood 129 134 509 514 O
+pressure 135 143 515 523 O
+control 144 151 524 531 O
+

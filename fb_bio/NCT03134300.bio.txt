@@ -1,0 +1,4 @@
+OSA 0 3 0 3 B-chronic_disease
+for 4 7 4 7 O
+adenotonsillectomy 8 26 8 26 B-treatment
+

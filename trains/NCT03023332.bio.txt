@@ -1,0 +1,30 @@
+Does 0 4 0 4 O
+not 5 8 5 8 O
+have 9 13 9 13 O
+family 14 20 14 20 O
+member 21 27 21 27 O
+with 28 32 28 32 O
+bipolar 33 40 33 40 B-chronic_disease
+disorder 41 49 41 49 I-chronic_disease
+
+English 0 7 50 57 B-language_fluency
+- 7 8 57 58 I-language_fluency
+speaking 8 16 58 66 I-language_fluency
+
+Have 0 4 67 71 O
+cared 5 10 72 77 O
+/ 10 11 77 78 O
+supported 11 20 78 87 O
+them 21 25 88 92 O
+for 26 29 93 96 O
+at 30 32 97 99 O
+least 33 38 100 105 O
+the 39 42 106 109 O
+last 43 47 110 114 B-upper_bound
+6 48 49 115 116 I-upper_bound
+months 50 56 117 123 I-upper_bound
+in 57 59 124 126 O
+the 60 63 127 130 O
+last 64 68 131 135 O
+year 69 73 136 140 O
+

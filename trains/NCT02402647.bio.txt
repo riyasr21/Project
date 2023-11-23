@@ -1,0 +1,87 @@
+Active 0 6 0 6 B-chronic_disease
+suicidal 7 15 7 15 I-chronic_disease
+ideation 16 24 16 24 I-chronic_disease
+
+Concurrent 0 10 25 35 O
+participation 11 24 36 49 O
+in 25 27 50 52 O
+psychotherapy 28 41 53 66 B-treatment
+or 42 44 67 69 O
+ET 45 47 70 72 B-cancer
+for 48 51 73 76 O
+HD 52 54 77 79 B-chronic_disease
+
+Current 0 7 80 87 O
+or 8 10 88 90 O
+history 11 18 91 98 O
+of 19 21 99 101 O
+any 22 25 102 105 O
+neurodegenerative 26 43 106 123 B-chronic_disease
+disease 44 51 124 131 I-chronic_disease
+
+Hoarding 0 8 132 140 B-chronic_disease
+Disorder 9 17 141 149 I-chronic_disease
+diagnosis 18 27 150 159 O
+outlined 28 36 160 168 O
+by 37 39 169 171 O
+the 40 43 172 175 O
+Diagnostic 44 54 176 186 O
+and 55 58 187 190 O
+Statistical 59 70 191 202 O
+Manual 71 77 203 209 O
+of 78 80 210 212 O
+Mental 81 87 213 219 O
+Disorders 88 97 220 229 O
+
+Stable 0 6 230 236 O
+on 7 9 237 239 O
+medications 10 21 240 251 O
+for 22 25 252 255 O
+at 26 28 256 258 O
+least 29 34 259 264 O
+12 35 37 265 267 B-lower_bound
+weeks 38 43 268 273 I-lower_bound
+
+Veterans 0 8 274 282 O
+age 9 12 283 286 B-age
+18 13 15 287 289 B-lower_bound
+- 15 16 289 290 O
+85 16 18 290 292 B-upper_bound
+
+prior 0 5 293 298 O
+history 6 13 299 306 O
+of 14 16 307 309 O
+CREST 17 22 310 315 O
+for 23 26 316 319 O
+HD 27 29 320 322 B-chronic_disease
+
+psychotic 0 9 323 332 B-chronic_disease
+disorder 10 18 333 341 I-chronic_disease
+
+substance 0 9 342 351 B-chronic_disease
+abuse 10 15 352 357 I-chronic_disease
+disorder 16 24 358 366 I-chronic_disease
+as 25 27 367 369 O
+measured 28 36 370 378 O
+by 37 39 379 381 O
+the 40 43 382 385 O
+Mini 44 48 386 390 O
+- 48 49 390 391 O
+International 49 62 391 404 O
+Neuropsychiatric 63 79 405 421 O
+Interview 80 89 422 431 O
+
+with 0 4 432 436 O
+no 5 7 437 439 O
+pharmacologic 8 21 440 453 O
+changes 22 29 454 461 O
+expected 30 38 462 470 O
+or 39 41 471 473 O
+made 42 46 474 478 O
+during 47 53 479 485 O
+the 54 57 486 489 O
+12 58 60 490 492 B-upper_bound
+- 60 61 492 493 I-upper_bound
+month 61 66 493 498 I-upper_bound
+study 67 72 499 504 O
+

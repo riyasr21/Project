@@ -1,0 +1,103 @@
+Age 0 3 0 3 B-age
+, 3 4 3 4 O
+age 5 8 5 8 B-age
+< 9 10 9 10 O
+50 11 13 11 13 B-upper_bound
+
+BMI 0 3 14 17 B-bmi
+= 4 5 18 19 O
+27 6 8 20 22 B-upper_bound
+≥ 9 10 23 24 O
+kg 11 13 25 27 O
+/ 13 14 27 28 O
+m2 14 16 28 30 O
+
+Knee 0 4 31 35 O
+Pain 5 9 36 40 O
+plus 10 14 41 45 O
+ACR 15 18 46 49 O
+Criteria 19 27 50 58 O
+for 28 31 59 62 O
+Knee 32 36 63 67 B-chronic_disease
+Osteoarthritis 37 51 68 82 I-chronic_disease
+
+Not 0 3 83 86 O
+having 4 10 87 93 O
+knee 11 15 94 98 B-chronic_disease
+pain 16 20 99 103 I-chronic_disease
+
+Not 0 3 104 107 O
+sufficiently 4 16 108 120 O
+overweight 17 27 121 131 O
+or 28 30 132 134 O
+obese 31 36 135 140 B-chronic_disease
+, 36 37 140 141 O
+BMI 38 41 142 145 B-bmi
+< 42 43 146 147 O
+27 44 46 148 150 B-upper_bound
+kg 47 49 151 153 I-upper_bound
+/ 49 50 153 154 I-upper_bound
+m2 50 52 154 156 I-upper_bound
+
+Planning 0 8 157 165 O
+to 9 11 166 168 O
+leave 12 17 169 174 O
+area 18 22 175 179 O
+> 23 24 180 181 O
+2 25 26 182 183 B-lower_bound
+month 27 32 184 189 I-lower_bound
+during 33 39 190 196 O
+the 40 43 197 200 O
+next 44 48 201 205 B-upper_bound
+18 49 51 206 208 I-upper_bound
+months 52 58 209 215 I-upper_bound
+
+Significant 0 11 216 227 O
+co 12 14 228 230 O
+- 14 15 230 231 O
+morbid 15 21 231 237 O
+disease 22 29 238 245 O
+that 30 34 246 250 O
+would 35 40 251 256 O
+threaten 41 49 257 265 O
+safety 50 56 266 272 O
+or 57 59 273 275 O
+impair 60 66 276 282 O
+ability 67 74 283 290 O
+to 75 77 291 293 O
+participate 78 89 294 305 O
+in 90 92 306 308 O
+interventions 93 106 309 322 O
+or 107 109 323 325 O
+testing 110 117 326 333 O
+( 118 119 334 335 O
+Blindness 119 128 335 344 B-chronic_disease
+; 128 129 344 345 O
+Type 130 134 346 350 B-chronic_disease
+1 135 136 351 352 I-chronic_disease
+diabetes 137 145 353 361 I-chronic_disease
+; 145 146 361 362 O
+Severe 147 153 363 369 O
+coronary 154 162 370 378 B-chronic_disease
+artery 163 169 379 385 I-chronic_disease
+disease 170 177 386 393 I-chronic_disease
+) 177 178 393 394 O
+
+Unwilling 0 9 395 404 O
+to 10 12 405 407 O
+discontinue 13 24 408 419 O
+pain 25 29 420 424 B-treatment
+medication 30 40 425 435 I-treatment
+use 41 44 436 439 O
+for 45 48 440 443 O
+3 49 50 444 445 B-upper_bound
+days 51 55 446 450 I-upper_bound
+prior 56 61 451 456 I-upper_bound
+to 62 64 457 459 O
+testing 65 72 460 467 O
+visit 73 78 468 473 O
+
+age 0 3 474 477 B-age
+≥ 4 5 478 479 O
+50 6 8 480 482 B-lower_bound
+

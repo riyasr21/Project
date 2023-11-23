@@ -1,0 +1,14 @@
+Diagnosed 0 9 0 9 O
+with 10 14 10 14 O
+PKU 15 18 15 18 B-chronic_disease
+or 19 21 19 21 O
+other 22 27 22 27 O
+aminoacidopathy 28 43 28 43 B-chronic_disease
+
+age 0 3 44 47 B-age
+11 4 6 48 50 B-lower_bound
+or 7 9 51 53 O
+older 10 15 54 59 O
+
+female 0 6 60 66 B-gender
+

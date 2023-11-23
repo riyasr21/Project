@@ -1,0 +1,6 @@
+contraindication 0 16 0 16 O
+to 17 19 17 19 O
+magnetic 20 28 20 28 B-treatment
+resonance 29 38 29 38 I-treatment
+imaging 39 46 39 46 I-treatment
+

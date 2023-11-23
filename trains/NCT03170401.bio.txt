@@ -1,0 +1,33 @@
+Significant 0 11 0 11 O
+chronic 12 19 12 19 B-chronic_disease
+organ 20 25 20 25 I-chronic_disease
+failure 26 33 26 33 I-chronic_disease
+
+bowel 0 5 34 39 B-chronic_disease
+obstruction 6 17 40 51 I-chronic_disease
+
+enterocutaneous 0 15 52 67 B-chronic_disease
+fistula 16 23 68 75 I-chronic_disease
+
+expected 0 8 76 84 O
+to 9 11 85 87 O
+require 12 19 88 95 O
+nutritional 20 31 96 107 O
+support 32 39 108 115 O
+for 40 43 116 119 O
+at 44 46 120 122 O
+least 47 52 123 128 O
+1 53 54 129 130 B-lower_bound
+week 55 59 131 135 I-lower_bound
+
+intestinal 0 10 136 146 B-chronic_disease
+ischemia 11 19 147 155 I-chronic_disease
+
+massive 0 7 156 163 O
+gastrointestinal 8 24 164 180 B-chronic_disease
+hemorrhage 25 35 181 191 I-chronic_disease
+
+short 0 5 192 197 B-chronic_disease
+bowel 6 11 198 203 I-chronic_disease
+syndrome 12 20 204 212 I-chronic_disease
+

@@ -1,0 +1,11 @@
+Age 0 3 0 3 B-age
+< 4 5 4 5 O
+18 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+old 15 18 15 18 O
+
+Age 0 3 19 22 B-age
+≥18 4 7 23 26 O
+years 8 13 27 32 I-lower_bound
+old 14 17 33 36 O
+

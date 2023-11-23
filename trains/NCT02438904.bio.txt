@@ -1,0 +1,13 @@
+Patients 0 8 0 8 O
+who 9 12 9 12 O
+have 13 17 13 17 O
+poor 18 22 18 22 O
+or 23 25 23 25 O
+no 26 28 26 28 O
+graft 29 34 29 34 O
+function 35 43 35 43 O
+post 44 48 44 48 O
+stem 49 53 49 53 B-treatment
+cell 54 58 54 58 I-treatment
+transplantation 59 74 59 74 I-treatment
+

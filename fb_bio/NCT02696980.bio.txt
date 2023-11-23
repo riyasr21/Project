@@ -1,0 +1,43 @@
+Asthma 0 6 0 6 B-chronic_disease
+diagnosis 7 16 7 16 O
+when 17 21 17 21 O
+≥ 22 23 22 23 O
+18 24 26 24 26 B-lower_bound
+years 27 32 27 32 I-lower_bound
+of 33 35 33 35 O
+age 36 39 36 39 B-age
+
+BMI 0 3 40 43 B-bmi
+≥ 4 5 44 45 O
+30 6 8 46 48 B-lower_bound
+kg 9 11 49 51 I-lower_bound
+/ 11 12 51 52 I-lower_bound
+m2 12 14 52 54 I-lower_bound
+
+PC20 0 4 55 59 B-clinical_variable
+to 5 7 60 62 I-clinical_variable
+methacholine 8 20 63 75 I-clinical_variable
+< 21 22 76 77 O
+16 23 25 78 80 B-upper_bound
+mg 26 28 81 83 I-upper_bound
+/ 28 29 83 84 I-upper_bound
+ml 29 31 84 86 I-upper_bound
+
+Pregnancy 0 9 87 96 B-pregnancy
+
+Serum 0 5 97 102 B-clinical_variable
+Immunoglobulin 6 20 103 117 I-clinical_variable
+E 21 22 118 119 I-clinical_variable
+< 23 24 120 121 O
+100 25 28 122 125 B-upper_bound
+IU 29 31 126 128 I-upper_bound
+/ 31 32 128 129 I-upper_bound
+ml 32 34 129 131 I-upper_bound
+
+≥ 0 1 132 133 O
+20 2 4 134 136 B-lower_bound
+pack 5 9 137 141 O
+year 10 14 142 146 O
+smoking 15 22 147 154 O
+history 23 30 155 162 O
+

@@ -1,0 +1,84 @@
+Anticipated 0 11 0 11 O
+need 12 16 12 16 O
+for 17 20 17 20 O
+additional 21 31 21 31 O
+planned 32 39 32 39 O
+coronary 40 48 40 48 B-treatment
+revascularization 49 66 49 66 I-treatment
+procedure(s 67 78 67 78 O
+) 78 79 78 79 O
+
+Diagnosis 0 9 80 89 O
+of 10 12 90 92 O
+non 13 16 93 96 B-chronic_disease
+- 16 17 96 97 I-chronic_disease
+ST 17 19 97 99 I-chronic_disease
+elevation 20 29 100 109 I-chronic_disease
+myocardial 30 40 110 120 I-chronic_disease
+infarction 41 51 121 131 I-chronic_disease
+( 52 53 132 133 I-chronic_disease
+NSTEMI 53 59 133 139 I-chronic_disease
+) 59 60 139 140 I-chronic_disease
+
+Left 0 4 141 145 B-clinical_variable
+Ventricular 5 16 146 157 I-clinical_variable
+Ejection 17 25 158 166 I-clinical_variable
+Fraction 26 34 167 175 I-clinical_variable
+( 35 36 176 177 I-clinical_variable
+LVEF 36 40 177 181 I-clinical_variable
+) 40 41 181 182 I-clinical_variable
+between 42 49 183 190 O
+≥ 50 51 191 192 O
+25 52 54 193 195 B-lower_bound
+and 55 58 196 199 O
+≤ 59 60 200 201 O
+45 61 63 202 204 B-upper_bound
+% 63 64 204 205 O
+
+Mechanical 0 10 206 216 O
+complications 11 24 217 230 O
+of 25 27 231 233 O
+the 28 31 234 237 O
+index 32 37 238 243 O
+acute 38 43 244 249 B-chronic_disease
+myocardial 44 54 250 260 I-chronic_disease
+infarction 55 65 261 271 I-chronic_disease
+
+Previous 0 8 272 280 O
+Coronary 9 17 281 289 B-treatment
+Artery 18 24 290 296 I-treatment
+Bypass 25 31 297 303 I-treatment
+Graft 32 37 304 309 I-treatment
+( 38 39 310 311 I-treatment
+CABG 39 43 311 315 I-treatment
+) 43 44 315 316 O
+
+Previous 0 8 317 325 O
+autologous 9 19 326 336 O
+, 19 20 336 337 O
+allogeneic 21 31 338 348 B-treatment
+bone 32 36 349 353 I-treatment
+marrow 37 43 354 360 I-treatment
+or 44 46 361 363 I-treatment
+peripheral 47 57 364 374 I-treatment
+stem 58 62 375 379 I-treatment
+cell 63 67 380 384 I-treatment
+transplant 68 78 385 395 I-treatment
+
+Previous 0 8 396 404 O
+solid 9 14 405 410 B-treatment
+organ 15 20 411 416 I-treatment
+transplant 21 31 417 427 I-treatment
+
+Subjects 0 8 428 436 O
+of 9 11 437 439 O
+either 12 18 440 446 O
+gender 19 25 447 453 O
+, 25 26 453 454 O
+18 27 29 455 457 B-lower_bound
+- 29 30 457 458 O
+85 30 32 458 460 B-upper_bound
+years 33 38 461 466 I-upper_bound
+of 39 41 467 469 O
+age 42 45 470 473 B-age
+

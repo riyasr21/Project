@@ -1,0 +1,59 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+12 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+16 8 10 8 10 B-upper_bound
+
+Diagnosed 0 9 11 20 O
+depression 10 20 21 31 B-chronic_disease
+or 21 23 32 34 O
+other 24 29 35 40 O
+condition 30 39 41 50 O
+that 40 44 51 55 O
+may 45 48 56 59 O
+impact 49 55 60 66 O
+QoL 56 59 67 70 O
+
+Latino 0 6 71 77 B-ethnicity
+: 6 7 77 78 O
+self 8 12 79 83 O
+- 12 13 83 84 O
+report 13 19 84 90 O
+
+Obese 0 5 91 96 O
+: 5 6 96 97 O
+BMI 7 10 98 101 B-bmi
+percentile 11 21 102 112 O
+≥95th 22 27 113 118 O
+percentile 28 38 119 129 I-lower_bound
+for 39 42 130 133 O
+age 43 46 134 137 B-age
+and 47 50 138 141 O
+gender 51 57 142 148 O
+or 58 60 149 151 O
+BMI 61 64 152 155 O
+≥30 65 68 156 159 O
+kg 69 71 160 162 I-lower_bound
+/ 71 72 162 163 I-lower_bound
+m22 72 75 163 166 I-lower_bound
+
+Type 0 4 167 171 B-chronic_disease
+2 5 6 172 173 I-chronic_disease
+diabetes 7 15 174 182 I-chronic_disease
+: 15 16 182 183 O
+Fasting 17 24 184 191 B-clinical_variable
+glucose 25 32 192 199 I-clinical_variable
+≥126 33 37 200 204 O
+mg 38 40 205 207 I-lower_bound
+/ 40 41 207 208 I-lower_bound
+dl 41 43 208 210 I-lower_bound
+or 44 46 211 213 I-lower_bound
+2 47 48 214 215 I-lower_bound
+- 48 49 215 216 I-lower_bound
+hour 49 53 216 220 I-lower_bound
+glucose 54 61 221 228 I-lower_bound
+≥200 62 66 229 233 O
+mg 67 69 234 236 I-lower_bound
+/ 69 70 236 237 I-lower_bound
+dl 70 72 237 239 I-lower_bound
+

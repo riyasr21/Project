@@ -1,0 +1,46 @@
+Hypertrophic 0 12 0 12 B-chronic_disease
+cardiomyopathy 13 27 13 27 I-chronic_disease
+( 28 29 28 29 I-chronic_disease
+group 29 34 29 34 I-chronic_disease
+2 35 36 35 36 I-chronic_disease
+) 36 37 36 37 I-chronic_disease
+
+Myocardial 0 10 38 48 B-chronic_disease
+ischemia 11 19 49 57 I-chronic_disease
+or 20 22 58 60 I-chronic_disease
+infarction 23 33 61 71 I-chronic_disease
+( 34 35 72 73 O
+group 35 40 73 78 O
+1 41 42 79 80 O
+) 42 43 80 81 O
+
+Subject 0 7 82 89 O
+has 8 11 90 93 O
+an 12 14 94 96 O
+acute 15 20 97 102 B-chronic_disease
+psychiatric 21 32 103 114 I-chronic_disease
+disorder 33 41 115 123 I-chronic_disease
+or 42 44 124 126 O
+is 45 47 127 129 O
+cognitively 48 59 130 141 B-chronic_disease
+impaired 60 68 142 150 I-chronic_disease
+
+Subject 0 7 151 158 O
+has 8 11 159 162 O
+an 12 14 163 165 O
+allergy 15 22 166 173 O
+against 23 30 174 181 O
+MRI 31 34 182 185 B-allergy_name
+contrast 35 43 186 194 I-allergy_name
+agents 44 50 195 201 I-allergy_name
+
+Subject 0 7 202 209 O
+must 8 12 210 214 O
+be 13 15 215 217 O
+18 16 18 218 220 B-lower_bound
+- 18 19 220 221 O
+90 19 21 221 223 B-upper_bound
+years 22 27 224 229 I-upper_bound
+of 28 30 230 232 O
+age 31 34 233 236 B-age
+

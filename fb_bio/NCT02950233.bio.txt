@@ -1,0 +1,76 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+75 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Current 0 7 19 26 O
+diagnosis 8 17 27 36 O
+of 18 20 37 39 O
+Cushing 21 28 40 47 B-chronic_disease
+'s 28 30 47 49 I-chronic_disease
+syndrome 31 39 50 58 I-chronic_disease
+
+History 0 7 59 66 O
+of 8 10 67 69 O
+schizophrenia 11 24 70 83 B-chronic_disease
+or 25 27 84 86 O
+bipolar 28 35 87 94 B-chronic_disease
+disorder 36 44 95 103 I-chronic_disease
+
+Known 0 5 104 109 O
+intracranial 6 18 110 122 B-cancer
+mass 19 23 123 127 I-cancer
+or 24 26 128 130 O
+cerebral 27 35 131 139 B-chronic_disease
+aneurysm 36 44 140 148 I-chronic_disease
+or 45 47 149 151 O
+raised 48 54 152 158 O
+intraocular 55 66 159 170 O
+pressure 67 75 171 179 O
+
+Planned 0 7 180 187 O
+elective 8 16 188 196 O
+VATS 17 21 197 201 B-treatment
+pulmonary 22 31 202 211 I-treatment
+lobectomy 32 41 212 221 I-treatment
+
+Pregnancy 0 9 222 231 B-pregnancy
+
+Severe 0 6 232 238 B-chronic_disease
+renal 7 12 239 244 I-chronic_disease
+impairment 13 23 245 255 I-chronic_disease
+( 24 25 256 257 O
+creatinine 25 35 257 267 B-clinical_variable
+clearance 36 45 268 277 I-clinical_variable
+based 46 51 278 283 I-clinical_variable
+GFR 52 55 284 287 I-clinical_variable
+of 56 58 288 290 O
+< 59 60 291 292 O
+30ml 60 64 292 296 B-upper_bound
+/ 64 65 296 297 I-upper_bound
+min 65 68 297 300 I-upper_bound
+) 68 69 300 301 O
+
+Steroid 0 7 302 309 B-treatment
+treatment 8 17 310 319 I-treatment
+> 18 19 320 321 O
+10mg 20 24 322 326 B-lower_bound
+/ 24 25 326 327 I-lower_bound
+day 25 28 327 330 I-lower_bound
+of 29 31 331 333 O
+Prednisolone 32 44 334 346 B-treatment
+or 45 47 347 349 O
+its 48 51 350 353 O
+equivalent 52 62 354 364 O
+for 63 66 365 368 O
+> 67 68 369 370 O
+3 69 70 371 372 B-lower_bound
+weeks 71 76 373 378 I-lower_bound
+within 77 83 379 385 O
+the 84 87 386 389 O
+last 88 92 390 394 B-upper_bound
+3 93 94 395 396 I-upper_bound
+months 95 101 397 403 I-upper_bound
+

@@ -1,0 +1,19 @@
+Hemosiderosis 0 13 0 13 B-chronic_disease
+/ 13 14 13 14 O
+hemochromatosis 14 29 14 29 B-chronic_disease
+( 30 31 30 31 O
+patients 32 40 32 40 O
+can 41 44 41 44 O
+still 45 50 45 50 O
+be 51 53 51 53 O
+included 54 62 54 62 O
+in 63 65 63 65 O
+the 66 69 66 69 O
+non 70 73 70 73 O
+- 73 74 73 74 O
+ferumoxytol 74 85 74 85 O
+arm 86 89 86 89 O
+) 89 90 89 90 O
+
+Osteonecrosis 0 13 91 104 B-chronic_disease
+

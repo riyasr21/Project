@@ -1,0 +1,41 @@
+Children 0 8 0 8 O
+with 9 13 9 13 O
+systemic 14 22 14 22 B-chronic_disease
+illness 23 30 23 30 I-chronic_disease
+that 31 35 31 35 O
+contraindicated 36 51 36 51 O
+vital 52 57 52 57 B-treatment
+pulp 58 62 58 62 I-treatment
+treatment 63 72 63 72 I-treatment
+such 73 77 73 77 O
+a 78 79 78 79 O
+sickle 80 86 80 86 B-chronic_disease
+cell 87 91 87 91 I-chronic_disease
+disease 92 99 92 99 I-chronic_disease
+
+Pediatric 0 9 100 109 O
+patients 10 18 110 118 O
+with 19 23 119 123 O
+deep 24 28 124 128 O
+dental 29 35 129 135 B-chronic_disease
+decay 36 41 136 141 I-chronic_disease
+in 42 44 142 144 O
+primary 45 52 145 152 O
+molars 53 59 153 159 O
+
+Teeth 0 5 160 165 O
+with 6 10 166 170 O
+signs 11 16 171 176 O
+and 17 20 177 180 O
+symptoms 21 29 181 189 O
+of 30 32 190 192 O
+reversible 33 43 193 203 B-chronic_disease
+pulpitis 44 52 204 212 I-chronic_disease
+
+acute 0 5 213 218 B-chronic_disease
+dental 6 12 219 225 I-chronic_disease
+infection 13 22 226 235 I-chronic_disease
+
+pulp 0 4 236 240 B-chronic_disease
+necrosis 5 13 241 249 I-chronic_disease
+

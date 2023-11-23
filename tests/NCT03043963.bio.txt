@@ -1,0 +1,67 @@
+current 0 7 0 7 B-pregnancy
+pregnancy 8 17 8 17 I-pregnancy
+
+current 0 7 18 25 O
+use 8 11 26 29 O
+of 12 14 30 32 O
+hypnotics 15 24 33 42 B-treatment
+or 25 27 43 45 O
+clonidine 28 37 46 55 B-treatment
+
+diabetic 0 8 56 64 B-chronic_disease
+patients 9 17 65 73 O
+who 18 21 74 77 O
+are 22 25 78 81 O
+insulin 26 33 82 89 O
+dependent 34 43 90 99 O
+( 44 45 100 101 O
+or 45 47 101 103 O
+have 48 52 104 108 O
+HbA1c>9.0 53 62 109 118 B-clinical_variable
+% 62 63 118 119 I-lower_bound
+) 63 64 119 120 O
+
+pre 0 3 121 124 O
+- 3 4 124 125 O
+hypertension 4 16 125 137 B-chronic_disease
+or 17 19 138 140 O
+stage 20 25 141 146 O
+one 26 29 147 150 O
+hypertension 30 42 151 163 O
+( 43 44 164 165 O
+BP 44 46 165 167 B-clinical_variable
+≥120/80 47 54 168 175 O
+and 55 58 176 179 O
+< 59 60 180 181 O
+160/100 60 67 181 188 B-upper_bound
+) 67 68 188 189 O
+
+renal 0 5 190 195 B-chronic_disease
+/ 5 6 195 196 I-chronic_disease
+electrolyte 6 17 196 207 I-chronic_disease
+disorders 18 27 208 217 I-chronic_disease
+and 28 31 218 221 O
+any 32 35 222 225 O
+other 36 41 226 231 O
+condition 42 51 232 241 O
+that 52 56 242 246 O
+the 57 60 247 250 O
+study 61 66 251 256 O
+screening 67 76 257 266 O
+physician 77 86 267 276 O
+considers 87 96 277 286 O
+would 97 102 287 292 O
+significantly 103 116 293 306 O
+impede 117 123 307 313 O
+participation 124 137 314 327 O
+in 138 140 328 330 O
+the 141 144 331 334 O
+study 145 150 335 340 O
+
+significant 0 11 341 352 O
+active 12 18 353 359 O
+or 19 21 360 362 O
+uncontrolled 22 34 363 375 O
+sleep 35 40 376 381 B-chronic_disease
+disorders 41 50 382 391 I-chronic_disease
+

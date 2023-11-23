@@ -1,0 +1,49 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+at 25 27 25 27 O
+the 28 31 28 31 O
+time 32 36 32 36 O
+of 37 39 37 39 O
+the 40 43 40 43 O
+intake 44 50 44 50 O
+
+acute 0 5 51 56 B-chronic_disease
+or 6 8 57 59 I-chronic_disease
+apparent 9 17 60 68 I-chronic_disease
+psychosis 18 27 69 78 I-chronic_disease
+
+age 0 3 79 82 B-age
+of 4 6 83 85 O
+17 7 9 86 88 B-upper_bound
+or 10 12 89 91 O
+younger 13 20 92 99 O
+
+be 0 2 100 102 O
+able 3 7 103 107 B-language_fluency
+to 8 10 108 110 I-language_fluency
+read 11 15 111 115 I-language_fluency
+and 16 19 116 119 I-language_fluency
+speak 20 25 120 125 I-language_fluency
+English 26 33 126 133 I-language_fluency
+
+recent 0 6 134 140 O
+parasuicidal 7 19 141 153 B-chronic_disease
+behaviors 20 29 154 163 I-chronic_disease
+
+unmedicated 0 11 164 175 O
+bipolar 12 19 176 183 B-chronic_disease
+disorder 20 28 184 192 I-chronic_disease
+
+untreated 0 9 193 202 O
+substance 10 19 203 212 O
+use 20 23 213 216 O
+disorder 24 32 217 225 O
+in 33 35 226 228 O
+past 36 40 229 233 B-upper_bound
+6 41 42 234 235 I-upper_bound
+months 43 49 236 242 I-upper_bound
+

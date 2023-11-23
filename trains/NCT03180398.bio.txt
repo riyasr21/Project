@@ -1,0 +1,5 @@
+Histologically 0 14 0 14 O
+confirmed 15 24 15 24 O
+prostate 25 33 25 33 B-cancer
+adenocarcinoma 34 48 34 48 I-cancer
+

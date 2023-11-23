@@ -1,0 +1,25 @@
+Chalazia 0 8 0 8 B-chronic_disease
+present 9 16 9 16 O
+for 17 20 17 20 O
+less 21 25 21 25 O
+than 26 30 26 30 O
+one 31 34 31 34 B-upper_bound
+month 35 40 35 40 I-upper_bound
+and 41 44 41 44 O
+no 45 47 45 47 O
+previous 48 56 48 56 O
+injection 57 66 57 66 B-treatment
+or 67 69 67 69 O
+incision 70 78 70 78 B-treatment
+and 79 82 79 82 O
+curettage 83 92 83 92 B-treatment
+
+Single 0 6 93 99 O
+or 7 9 100 102 O
+multiple 10 18 103 111 O
+chalazia 19 27 112 120 B-chronic_disease
+in 28 30 121 123 O
+a 31 32 124 125 O
+single 33 39 126 132 O
+eyelid 40 46 133 139 O
+

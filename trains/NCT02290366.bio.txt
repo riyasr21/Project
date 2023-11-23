@@ -1,0 +1,47 @@
+< 0 1 0 1 O
+= 1 2 1 2 O
+2 3 4 3 4 B-upper_bound
+cores 5 10 5 10 I-upper_bound
+positive 11 19 11 19 O
+out 20 23 20 23 O
+of 24 26 24 26 O
+a 27 28 27 28 O
+minimum 29 36 29 36 O
+of 37 39 37 39 O
+12 40 42 40 42 O
+cores 43 48 43 48 O
+sampled 49 56 49 56 O
+
+Clinical 0 8 57 65 O
+stage 9 14 66 71 O
+T1c 15 18 72 75 B-cancer
+- 18 19 75 76 O
+T2aN0M0 19 26 76 83 B-cancer
+
+Gleason 0 7 84 91 B-clinical_variable
+score 8 13 92 97 I-clinical_variable
+< 14 15 98 99 O
+= 15 16 99 100 O
+3 17 18 101 102 B-upper_bound
++ 18 19 102 103 I-upper_bound
+3=6 19 22 103 106 I-upper_bound
+
+Histologically 0 14 107 121 O
+confirmed 15 24 122 131 O
+adenocarcinoma 25 39 132 146 B-cancer
+of 40 42 147 149 I-cancer
+the 43 46 150 153 I-cancer
+prostate 47 55 154 162 I-cancer
+
+prostate 0 8 163 171 B-clinical_variable
+specific 9 17 172 180 I-clinical_variable
+antigen 18 25 181 188 I-clinical_variable
+( 26 27 189 190 I-clinical_variable
+PSA 27 30 190 193 I-clinical_variable
+) 30 31 193 194 I-clinical_variable
+< 32 33 195 196 O
+10 33 35 196 198 B-upper_bound
+ng 36 38 199 201 I-upper_bound
+/ 38 39 201 202 I-upper_bound
+ml 39 41 202 204 I-upper_bound
+

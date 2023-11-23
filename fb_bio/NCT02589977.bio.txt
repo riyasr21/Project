@@ -1,0 +1,155 @@
+BP 0 2 0 2 B-clinical_variable
+< 3 4 3 4 O
+140/90 5 11 5 11 B-upper_bound
+
+LVEF 0 4 12 16 B-clinical_variable
+at 5 7 17 19 O
+least 8 13 20 25 O
+50 14 16 26 28 B-lower_bound
+% 16 17 28 29 I-lower_bound
+
+acute 0 5 30 35 O
+decompensated 6 19 36 49 O
+HF 20 22 50 52 B-chronic_disease
+
+anemia 0 6 53 59 B-chronic_disease
+
+congenital 0 10 60 70 B-chronic_disease
+heart 11 16 71 76 I-chronic_disease
+disease 17 24 77 84 I-chronic_disease
+
+contraindications 0 17 85 102 O
+to 18 20 103 105 O
+cardiac 21 28 106 113 B-treatment
+magnetic 29 37 114 122 I-treatment
+resonance 38 47 123 132 I-treatment
+imaging 48 55 133 140 I-treatment
+( 56 57 141 142 I-treatment
+CMR 57 60 142 145 I-treatment
+) 60 61 145 146 I-treatment
+
+contraindications 0 17 147 164 O
+to 18 20 165 167 O
+regadenoson 21 32 168 179 B-treatment
+or 33 35 180 182 O
+aminophylline 36 49 183 196 B-treatment
+
+coronary 0 8 197 205 B-chronic_disease
+artery 9 15 206 212 I-chronic_disease
+disease 16 23 213 220 I-chronic_disease
+
+current 0 7 221 228 O
+BP 8 10 229 231 B-clinical_variable
+< 11 12 232 233 O
+160/90 13 19 234 240 B-upper_bound
+
+diabetes 0 8 241 249 B-chronic_disease
+mellitus 9 17 250 258 I-chronic_disease
+
+elevated 0 8 259 267 O
+LV 9 11 268 270 O
+filling 12 19 271 278 O
+pressure 20 28 279 287 O
+by 29 31 288 290 O
+catheterization 32 47 291 306 B-treatment
+, 47 48 306 307 O
+echocardiographic 49 66 308 325 B-clinical_variable
+criteria 67 75 326 334 I-clinical_variable
+or 76 78 335 337 O
+B 79 80 338 339 B-clinical_variable
+- 80 81 339 340 I-clinical_variable
+type 81 85 340 344 I-clinical_variable
+- 85 86 344 345 I-clinical_variable
+natriuretic 86 97 345 356 I-clinical_variable
+peptide 98 105 357 364 I-clinical_variable
+> 106 107 365 366 O
+100 108 111 367 370 B-lower_bound
+
+estimated 0 9 371 380 B-clinical_variable
+glomerular 10 20 381 391 I-clinical_variable
+filtration 21 31 392 402 I-clinical_variable
+rate 32 36 403 407 I-clinical_variable
+( 37 38 408 409 I-clinical_variable
+eGFR 38 42 409 413 I-clinical_variable
+) 42 43 413 414 I-clinical_variable
+> 44 45 415 416 O
+60 46 48 417 419 B-lower_bound
+ml 49 51 420 422 I-lower_bound
+/ 51 52 422 423 I-lower_bound
+min 52 55 423 426 I-lower_bound
+
+known 0 5 427 432 O
+cardiovascular 6 20 433 447 B-chronic_disease
+disease 21 28 448 455 I-chronic_disease
+, 28 29 455 456 O
+cardiac 30 37 457 464 B-chronic_disease
+risk 38 42 465 469 I-chronic_disease
+factors 43 50 470 477 I-chronic_disease
+or 51 53 478 480 O
+use 54 57 481 484 O
+of 58 60 485 487 O
+cardiac 61 68 488 495 B-treatment
+medications 69 80 496 507 I-treatment
+
+moderate 0 8 508 516 O
+or 9 11 517 519 O
+greater 12 19 520 527 O
+valvular 20 28 528 536 B-chronic_disease
+disease 29 36 537 544 I-chronic_disease
+
+normal 0 6 545 551 O
+cardiac 7 14 552 559 O
+structure 15 24 560 569 O
+and 25 28 570 573 O
+function 29 37 574 582 O
+on 38 40 583 585 O
+echocardiography 41 57 586 602 B-treatment
+
+pericardial 0 11 603 614 B-chronic_disease
+disease 12 19 615 622 I-chronic_disease
+
+physician 0 9 623 632 O
+- 9 10 632 633 O
+confirmed 10 19 633 642 O
+diagnosis 20 29 643 652 O
+of 30 32 653 655 O
+HF 33 35 656 658 B-chronic_disease
+
+preserved 0 9 659 668 O
+left 10 14 669 673 B-clinical_variable
+ventricular 15 26 674 685 I-clinical_variable
+ejection 27 35 686 694 I-clinical_variable
+fraction 36 44 695 703 I-clinical_variable
+( 45 46 704 705 O
+> 46 47 705 706 O
+= 47 48 706 707 O
+50 49 51 708 710 B-lower_bound
+% 51 52 710 711 I-lower_bound
+) 52 53 711 712 O
+on 54 56 713 715 O
+echocardiography 57 73 716 732 B-treatment
+
+primary 0 7 733 740 B-chronic_disease
+pulmonary 8 17 741 750 I-chronic_disease
+hypertension 18 30 751 763 I-chronic_disease
+
+prior 0 5 764 769 O
+history 6 13 770 777 O
+of 14 16 778 780 O
+LVEF 17 21 781 785 B-clinical_variable
+below 22 27 786 791 O
+50 28 30 792 794 B-lower_bound
+% 30 31 794 795 I-lower_bound
+
+significant 0 11 796 807 O
+cardiac 12 19 808 815 O
+arrhythmias 20 31 816 827 B-chronic_disease
+
+symptomatic 0 11 828 839 B-chronic_disease
+HF 12 14 840 842 I-chronic_disease
+
+weight 0 6 843 849 B-clinical_variable
+> 7 8 850 851 O
+350 8 11 851 854 B-lower_bound
+lbs 12 15 855 858 I-lower_bound
+

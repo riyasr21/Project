@@ -1,0 +1,14 @@
+No 0 2 0 2 O
+plans 3 8 3 8 O
+to 9 11 9 11 O
+move 12 16 12 16 O
+from 17 21 17 21 O
+the 22 25 22 25 O
+area 26 30 26 30 O
+over 31 35 31 35 O
+the 36 39 36 39 O
+2 40 41 40 41 B-lower_bound
+- 41 42 41 42 I-lower_bound
+year 42 46 42 46 I-lower_bound
+period 47 53 47 53 O
+

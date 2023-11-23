@@ -1,0 +1,142 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+75 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+at 16 18 16 18 O
+the 19 22 19 22 O
+time 23 27 23 27 O
+of 28 30 28 30 O
+transplantation 31 46 31 46 O
+
+Donors 0 6 47 53 O
+with 7 11 54 58 O
+Grade 12 17 59 64 B-lower_bound
+2 18 19 65 66 I-lower_bound
+- 19 20 66 67 O
+3 20 21 67 68 B-upper_bound
+traumatic 22 31 69 78 O
+liver 32 37 79 84 B-chronic_disease
+laceration 38 48 85 95 I-chronic_disease
+
+For 0 3 96 99 O
+patients 4 12 100 108 O
+with 13 17 109 113 O
+hepatocellular 18 32 114 128 B-cancer
+carcinoma 33 42 129 138 I-cancer
+as 43 45 139 141 O
+indication 46 56 142 152 O
+for 57 60 153 156 O
+Orthoptic 61 70 157 166 B-clinical_variable
+Liver 71 76 167 172 I-clinical_variable
+Transplantation 77 92 173 188 I-clinical_variable
+( 93 94 189 190 I-clinical_variable
+OLT 94 97 190 193 I-clinical_variable
+) 97 98 193 194 I-clinical_variable
+, 98 99 194 195 O
+tumor 100 105 196 201 B-cancer
+must 106 110 202 206 O
+be 111 113 207 209 O
+within 114 120 210 216 O
+Milan 121 126 217 222 O
+Criteria 127 135 223 231 O
+or 136 138 232 234 O
+down 139 143 235 239 O
+- 143 144 239 240 O
+staged 144 150 240 246 O
+to 151 153 247 249 O
+Milan 154 159 250 255 O
+Criteria 160 168 256 264 O
+
+HIV 0 3 265 268 B-chronic_disease
+positive 4 12 269 277 O
+patient 13 20 278 285 O
+
+History 0 7 286 293 O
+of 8 10 294 296 O
+prior 11 16 297 302 B-treatment
+solid 17 22 303 308 I-treatment
+organ 23 28 309 314 I-treatment
+transplantation 29 44 315 330 I-treatment
+
+Inability 0 9 331 340 O
+to 10 12 341 343 O
+NMP 13 16 344 347 B-clinical_variable
+perfuse 17 24 348 355 I-clinical_variable
+the 25 28 356 359 I-clinical_variable
+liver 29 34 360 365 I-clinical_variable
+within 35 41 366 372 O
+4 42 43 373 374 B-upper_bound
+hours 44 49 375 380 I-upper_bound
+after 50 55 381 386 O
+cross 56 61 387 392 O
+clamp 62 67 393 398 O
+
+Liver 0 5 399 404 O
+in 6 8 405 407 O
+which 9 14 408 413 O
+the 15 18 414 417 O
+investigator 19 31 418 430 O
+is 32 34 431 433 O
+unwilling 35 44 434 443 O
+or 45 47 444 446 O
+unable 48 54 447 453 O
+( 55 56 454 455 O
+for 56 59 455 458 O
+logistical 60 70 459 469 O
+reasons 71 78 470 477 O
+) 78 79 477 478 O
+to 80 82 479 481 O
+perform 83 90 482 489 O
+normothermic 91 103 490 502 B-treatment
+machine 104 111 503 510 I-treatment
+perfusion 112 121 511 520 I-treatment
+( 122 123 521 522 I-treatment
+NMP 123 126 522 525 I-treatment
+) 126 127 525 526 I-treatment
+preservation 128 140 527 539 O
+
+Liver 0 5 540 545 B-clinical_variable
+steatosis 6 15 546 555 I-clinical_variable
+( 16 17 556 557 O
+on 17 19 557 559 O
+visual 20 26 560 566 O
+estimate 27 35 567 575 O
+or 36 38 576 578 O
+on 39 41 579 581 O
+liver 42 47 582 587 B-treatment
+biopsy 48 54 588 594 I-treatment
+) 54 55 594 595 O
+> 56 57 596 597 O
+30 58 60 598 600 B-lower_bound
+% 60 61 600 601 I-lower_bound
+
+MELD 0 4 602 606 B-clinical_variable
+score 5 10 607 612 I-clinical_variable
+> 11 12 613 614 O
+35 12 14 614 616 B-lower_bound
+
+Multiorgan 0 10 617 627 B-treatment
+transplant 11 21 628 638 I-treatment
+
+Patient 0 7 639 646 O
+with 8 12 647 651 O
+current 13 20 652 659 O
+severe 21 27 660 666 O
+systemic 28 36 667 675 B-chronic_disease
+infection 37 46 676 685 I-chronic_disease
+
+Patients 0 8 686 694 O
+undergoing 9 19 695 705 O
+primary 20 27 706 713 B-treatment
+liver 28 33 714 719 I-treatment
+transplantation 34 49 720 735 I-treatment
+
+age 0 3 736 739 B-age
+< 4 5 740 741 O
+14 5 7 741 743 B-upper_bound
+or 8 10 744 746 O
+> 11 12 747 748 O
+70 12 14 748 750 B-lower_bound
+years 15 20 751 756 I-lower_bound
+

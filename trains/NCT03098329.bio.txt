@@ -1,0 +1,35 @@
+15 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+24 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Had 0 3 19 22 O
+vaginal 4 11 23 30 O
+sex 12 15 31 34 O
+with 16 20 35 39 O
+at 21 23 40 42 O
+least 24 29 43 48 O
+one 30 33 49 52 B-lower_bound
+woman 34 39 53 58 B-gender
+in 40 42 59 61 O
+the 43 46 62 65 O
+past 47 51 66 70 B-upper_bound
+2 52 53 71 72 I-upper_bound
+months 54 60 73 79 I-upper_bound
+
+Identifies 0 10 80 90 O
+as 11 13 91 93 O
+African 14 21 94 101 B-ethnicity
+American 22 30 102 110 I-ethnicity
+or 31 33 111 113 I-ethnicity
+Black 34 39 114 119 I-ethnicity
+
+Unable 0 6 120 126 B-language_fluency
+to 7 9 127 129 I-language_fluency
+speak 10 15 130 135 I-language_fluency
+or 16 18 136 138 I-language_fluency
+understand 19 29 139 149 I-language_fluency
+English 30 37 150 157 I-language_fluency
+

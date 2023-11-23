@@ -1,0 +1,45 @@
+Positive 0 8 0 8 O
+hepatitis 9 18 9 18 B-chronic_disease
+B 19 20 19 20 I-chronic_disease
+, 20 21 20 21 O
+hepatitis 22 31 22 31 B-chronic_disease
+C 32 33 32 33 I-chronic_disease
+, 33 34 33 34 O
+HIV 35 38 35 38 B-chronic_disease
+or 39 41 39 41 O
+tuberculosis 42 54 42 54 B-chronic_disease
+test 55 59 55 59 O
+results 60 67 60 67 O
+at 68 70 68 70 O
+screening 71 80 71 80 O
+
+Screening 0 9 81 90 B-clinical_variable
+ESSDAI 10 16 91 97 I-clinical_variable
+value 17 22 98 103 I-clinical_variable
+> 23 24 104 105 O
+= 24 25 105 106 O
+6 25 26 106 107 B-lower_bound
+scored 27 33 108 114 O
+from 34 38 115 119 O
+7 39 40 120 121 O
+domains 41 48 122 129 O
+: 48 49 129 130 O
+articular 50 59 131 140 O
+, 59 60 140 141 O
+cutaneous 61 70 142 151 O
+, 70 71 151 152 O
+glandular 72 81 153 162 O
+, 81 82 162 163 O
+lymphoadenopathy 83 99 164 180 O
+, 99 100 180 181 O
+constitutional 101 115 182 196 O
+, 115 116 196 197 O
+biologic 117 125 198 206 O
+and 126 129 207 210 O
+hematologic 130 141 211 222 O
+
+Secondary 0 9 223 232 B-chronic_disease
+Sjogren 10 17 233 240 I-chronic_disease
+'s 17 19 240 242 I-chronic_disease
+syndrome 20 28 243 251 I-chronic_disease
+

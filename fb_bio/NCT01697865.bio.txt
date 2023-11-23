@@ -1,0 +1,61 @@
+Active 0 6 0 6 O
+forward 7 14 7 14 O
+elevation 15 24 15 24 O
+of 25 27 25 27 O
+less 28 32 28 32 O
+than 33 37 33 37 O
+90 38 40 38 40 B-upper_bound
+degrees 41 48 41 48 I-upper_bound
+
+Advanced 0 8 49 57 B-chronic_disease
+dementia 9 17 58 66 I-chronic_disease
+
+Chronic 0 7 67 74 B-chronic_disease
+rotator 8 15 75 82 I-chronic_disease
+cuff 16 20 83 87 I-chronic_disease
+tear 21 25 88 92 O
+with 26 30 93 97 O
+severe 31 37 98 104 O
+retraction 38 48 105 115 O
+, 48 49 115 116 O
+atrophy 50 57 117 124 B-treatment
+, 57 58 124 125 O
+fatty 59 64 126 131 B-chronic_disease
+infiltration 65 77 132 144 I-chronic_disease
+
+Neuro 0 5 145 150 B-chronic_disease
+- 5 6 150 151 I-chronic_disease
+muscular 6 14 151 159 I-chronic_disease
+disorder 15 23 160 168 I-chronic_disease
+( 24 25 169 170 O
+ie 25 27 170 172 O
+: 27 28 172 173 O
+Parkinson 29 38 174 183 B-chronic_disease
+'s 38 40 183 185 I-chronic_disease
+) 40 41 185 186 O
+
+Previous 0 8 187 195 O
+shoulder 9 17 196 204 B-chronic_disease
+infection 18 27 205 214 I-chronic_disease
+
+Revision 0 8 215 223 B-treatment
+arthroplasty 9 21 224 236 I-treatment
+
+Shoulder 0 8 237 245 B-chronic_disease
+pseudoparalysis 9 24 246 261 I-chronic_disease
+due 25 28 262 265 O
+to 29 31 266 268 O
+chronic 32 39 269 276 B-chronic_disease
+rotator 40 47 277 284 I-chronic_disease
+cuff 48 52 285 289 I-chronic_disease
+dysfunction 53 64 290 301 I-chronic_disease
+with 65 69 302 306 O
+or 70 72 307 309 O
+without 73 80 310 317 O
+glenohumeral 81 93 318 330 B-chronic_disease
+arthritis 94 103 331 340 I-chronic_disease
+
+Teres 0 5 341 346 B-chronic_disease
+minor 6 11 347 352 I-chronic_disease
+dysfunction 12 23 353 364 I-chronic_disease
+

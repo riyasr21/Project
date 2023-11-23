@@ -1,0 +1,40 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+90 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Cancer 0 6 16 22 B-cancer
+diagnosis 7 16 23 32 O
+
+Meeting 0 7 33 40 O
+medium 8 14 41 47 O
+to 15 17 48 50 O
+high 18 22 51 55 O
+risk 23 27 56 60 O
+for 28 31 61 64 O
+death 32 37 65 70 O
+at 38 40 71 73 O
+1 41 42 74 75 O
+year 43 47 76 80 O
+using 48 53 81 86 O
+the 54 57 87 90 O
+CARING 58 64 91 97 O
+criteria 65 73 98 106 O
+( 74 75 107 108 O
+although 75 83 108 116 O
+excluding 84 93 117 126 O
+patients 94 102 127 135 O
+with 103 107 136 140 O
+cancer 108 114 141 147 B-cancer
+diagnosis 115 124 148 157 O
+) 124 125 157 158 O
+
+Pregnant 0 8 159 167 B-pregnancy
+
+Self 0 4 168 172 O
+- 4 5 172 173 O
+identify 5 13 173 181 O
+as 14 16 182 184 O
+Latino 17 23 185 191 B-ethnicity
+

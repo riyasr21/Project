@@ -1,0 +1,39 @@
+Bradycardia 0 11 0 11 B-clinical_variable
+of 12 14 12 14 O
+less 15 19 15 19 O
+than 20 24 20 24 O
+40 25 27 25 27 B-upper_bound
+beats 28 33 28 33 I-upper_bound
+/ 33 34 33 34 I-upper_bound
+min 34 37 34 37 I-upper_bound
+
+Creatinine 0 10 38 48 B-clinical_variable
+clearance 11 20 49 58 I-clinical_variable
+less 21 25 59 63 O
+than 26 30 64 68 O
+30 31 33 69 71 B-upper_bound
+ml 34 36 72 74 I-upper_bound
+/ 36 37 74 75 I-upper_bound
+min 37 40 75 78 I-upper_bound
+
+Microlaryngoscopy 0 17 79 96 B-treatment
+
+Patients 0 8 97 105 O
+with 9 13 106 110 O
+contraindications 14 31 111 128 O
+towards 32 39 129 136 O
+sugammadex 40 50 137 147 B-allergy_name
+
+breast 0 6 148 154 O
+feeding 7 14 155 162 O
+women 15 20 163 168 B-gender
+
+rigid 0 5 169 174 B-treatment
+bronchoscopy 6 18 175 187 I-treatment
+for 19 22 188 191 O
+vocal 23 28 192 197 O
+cord 29 33 198 202 O
+and 34 37 203 206 O
+tracheal 38 46 207 215 O
+procedures 47 57 216 226 O
+

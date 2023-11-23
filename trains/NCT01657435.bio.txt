@@ -1,0 +1,23 @@
+Individuals 0 11 0 11 O
+who 12 15 12 15 O
+are 16 19 16 19 O
+willing 20 27 20 27 O
+and 28 31 28 31 O
+able 32 36 32 36 O
+to 37 39 37 39 O
+complete 40 48 40 48 O
+the 49 52 49 52 O
+Hip 53 56 53 56 B-clinical_variable
+Outcomes 57 65 57 65 I-clinical_variable
+questionnaire 66 79 66 79 I-clinical_variable
+and 80 83 80 83 O
+SF-12 84 89 84 89 B-clinical_variable
+Health 90 96 90 96 I-clinical_variable
+Survey 97 103 97 103 I-clinical_variable
+as 104 106 104 106 O
+specified 107 116 107 116 O
+by 117 119 117 119 O
+the 120 123 120 123 O
+study 124 129 124 129 O
+protocol 130 138 130 138 O
+

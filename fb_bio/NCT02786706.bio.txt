@@ -1,0 +1,24 @@
+Admitted 0 8 0 8 O
+to 9 11 9 11 O
+an 12 14 12 14 O
+ICU 15 18 15 18 O
+in 19 21 19 21 O
+the 22 25 22 25 O
+University 26 36 26 36 O
+of 37 39 37 39 O
+Michigan 40 48 40 48 O
+with 49 53 49 53 O
+Acute 54 59 54 59 B-chronic_disease
+Brain 60 65 60 65 I-chronic_disease
+Injury 66 72 66 72 I-chronic_disease
+
+Pre 0 3 73 76 B-chronic_disease
+- 3 4 76 77 I-chronic_disease
+existing 4 12 77 85 I-chronic_disease
+ocular 13 19 86 92 I-chronic_disease
+pathology 20 29 93 102 I-chronic_disease
+other 30 35 103 108 O
+than 36 40 109 113 O
+refractive 41 51 114 124 B-chronic_disease
+error 52 57 125 130 I-chronic_disease
+

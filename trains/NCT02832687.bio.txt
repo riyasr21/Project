@@ -1,0 +1,20 @@
+Chronic 0 7 0 7 B-treatment
+steroid 8 15 8 15 I-treatment
+or 16 18 16 18 O
+opioid 19 25 19 25 B-treatment
+user 26 30 26 30 O
+( 31 32 31 32 O
+as 32 34 32 34 O
+prescribed 35 45 35 45 O
+for 46 49 46 49 O
+a 50 51 50 51 O
+chronic 52 59 52 59 B-chronic_disease
+systemic 60 68 60 68 I-chronic_disease
+illness 69 76 69 76 I-chronic_disease
+) 76 77 76 77 O
+
+Undergoing 0 10 78 88 O
+ambulatory 11 21 89 99 B-treatment
+laparoscopic 22 34 100 112 I-treatment
+cholecystectomy 35 50 113 128 I-treatment
+

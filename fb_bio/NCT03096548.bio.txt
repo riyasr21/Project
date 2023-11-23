@@ -1,0 +1,15 @@
+Must 0 4 0 4 O
+be 5 7 5 7 O
+18 8 10 8 10 B-lower_bound
+years 11 16 11 16 I-lower_bound
+of 17 19 17 19 O
+age 20 23 20 23 B-age
+or 24 26 24 26 O
+older 27 32 27 32 O
+
+Under 0 5 33 38 O
+18 6 8 39 41 B-upper_bound
+years 9 14 42 47 I-upper_bound
+of 15 17 48 50 O
+age 18 21 51 54 B-age
+

@@ -1,0 +1,98 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+All 0 3 15 18 O
+histology 4 13 19 28 O
+of 14 16 29 31 O
+renal 17 22 32 37 B-cancer
+cancers 23 30 38 45 I-cancer
+are 31 34 46 49 O
+included 35 43 50 58 O
+including 44 53 59 68 O
+oncocytoma 54 64 69 79 B-cancer
+
+Biopsy 0 6 80 86 O
+proven 7 13 87 93 O
+Renal 14 19 94 99 B-cancer
+neoplasm 20 28 100 108 I-cancer
+
+Growth 0 6 109 115 O
+of 7 9 116 118 O
+renal 10 15 119 124 B-clinical_variable
+mass 16 20 125 129 I-clinical_variable
+> 21 22 130 131 O
+4 22 23 131 132 B-lower_bound
+mm 23 25 132 134 I-lower_bound
+in 26 28 135 137 O
+radiographic 29 41 138 150 B-clinical_variable
+scans 42 47 151 156 I-clinical_variable
+or 48 50 157 159 O
+> 51 52 160 161 O
+2 52 53 161 162 B-lower_bound
+mm 53 55 162 164 I-lower_bound
+in 56 58 165 167 O
+two 59 62 168 171 O
+different 63 72 172 181 O
+scans 73 78 182 187 O
+must 79 83 188 192 O
+be 84 86 193 195 O
+demonstrated 87 99 196 208 O
+within 100 106 209 215 O
+a 107 108 216 217 O
+one 109 112 218 221 B-upper_bound
+year 113 117 222 226 I-upper_bound
+period 118 124 227 233 O
+
+No 0 2 234 236 O
+clinical 3 11 237 245 O
+evidence 12 20 246 254 O
+of 21 23 255 257 O
+metastatic 24 34 258 268 B-cancer
+disease 35 42 269 276 I-cancer
+
+Renal 0 5 277 282 B-clinical_variable
+mass 6 10 283 287 I-clinical_variable
+≤ 11 12 288 289 O
+3 13 14 290 291 B-upper_bound
+cm 14 16 291 293 I-upper_bound
+
+Subjects 0 8 294 302 O
+may 9 12 303 306 O
+not 13 16 307 310 O
+have 17 21 311 315 O
+received 22 30 316 324 O
+any 31 34 325 328 O
+treatment 35 44 329 338 B-treatment
+for 45 48 339 342 I-treatment
+the 49 52 343 346 I-treatment
+renal 53 58 347 352 I-treatment
+mass 59 63 353 357 I-treatment
+before 64 70 358 364 O
+such 71 75 365 369 O
+as 76 78 370 372 O
+RFA 79 82 373 376 B-treatment
+or 83 85 377 379 O
+cryoablation 86 98 380 392 B-treatment
+
+Subjects 0 8 393 401 O
+must 9 13 402 406 B-pregnancy
+not 14 17 407 410 I-pregnancy
+be 18 20 411 413 I-pregnancy
+pregnant 21 29 414 422 I-pregnancy
+during 30 36 423 429 O
+the 37 40 430 433 O
+course 41 47 434 440 O
+of 48 50 441 443 O
+SABR 51 55 444 448 O
+
+Subjects 0 8 449 457 O
+must 9 13 458 462 O
+not 14 17 463 466 O
+have 18 22 467 471 O
+received 23 31 472 480 O
+previous 32 40 481 489 O
+abdominal 41 50 490 499 B-treatment
+radiation 51 60 500 509 I-treatment
+

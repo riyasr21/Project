@@ -1,0 +1,70 @@
+< 0 1 0 1 O
+5 1 2 1 2 B-upper_bound
+degrees 3 10 3 10 I-upper_bound
+varus 11 16 11 16 O
+or 17 19 17 19 O
+valgus 20 26 20 26 O
+
+Ages 0 4 27 31 B-age
+younger 5 12 32 39 O
+than 13 17 40 44 O
+18 18 20 45 47 B-lower_bound
+years 21 26 48 53 I-lower_bound
+and 27 30 54 57 O
+older 31 36 58 63 O
+than 37 41 64 68 O
+50 42 44 69 71 B-upper_bound
+years 45 50 72 77 I-upper_bound
+
+If 0 2 78 80 O
+they 3 7 81 85 O
+have 8 12 86 90 O
+a 13 14 91 92 O
+BMI 15 18 93 96 B-bmi
+> 19 20 97 98 O
+30 20 22 98 100 B-lower_bound
+
+If 0 2 101 103 O
+they 3 7 104 108 O
+have 8 12 109 113 O
+pre 13 16 114 117 O
+- 16 17 117 118 O
+existing 17 25 118 126 O
+osteoarthritis 26 40 127 141 B-chronic_disease
+( 41 42 142 143 O
+Kellegren 42 51 143 152 B-clinical_variable
+- 51 52 152 153 I-clinical_variable
+Lawrence 52 60 153 161 I-clinical_variable
+Grade 61 66 162 167 I-clinical_variable
+≥2 67 69 168 170 O
+) 69 70 170 171 O
+
+Must 0 4 172 176 O
+be 5 7 177 179 O
+between 8 15 180 187 O
+ages 16 20 188 192 B-age
+18 21 23 193 195 B-lower_bound
+and 24 27 196 199 O
+50 28 30 200 202 B-upper_bound
+years 31 36 203 208 I-upper_bound
+
+Must 0 4 209 213 O
+have 5 9 214 218 O
+a 10 11 219 220 O
+discrete 12 20 221 229 O
+, 20 21 229 230 O
+contained 22 31 231 240 O
+chondral 32 40 241 249 B-clinical_variable
+defect 41 47 250 256 I-clinical_variable
+less 48 52 257 261 O
+than 53 57 262 266 O
+400mm^2 58 65 267 274 B-upper_bound
+located 66 73 275 282 O
+on 74 76 283 285 O
+the 77 80 286 289 O
+medial 81 87 290 296 O
+or 88 90 297 299 O
+lateral 91 98 300 307 O
+femoral 99 106 308 315 O
+condyle 107 114 316 323 O
+

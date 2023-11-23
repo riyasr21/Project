@@ -1,0 +1,41 @@
+Annual 0 6 0 6 O
+salary 7 13 7 13 O
+must 14 18 14 18 O
+be 19 21 19 21 O
+less 22 26 22 26 O
+than 27 31 27 31 O
+200 32 35 32 35 B-upper_bound
+% 35 36 35 36 I-upper_bound
+of 37 39 37 39 O
+the 40 43 40 43 O
+Federal 44 51 44 51 O
+Poverty 52 59 52 59 O
+Guideline 60 69 60 69 O
+
+Supporting 0 10 70 80 O
+at 11 13 81 83 O
+least 14 19 84 89 O
+one 20 23 90 93 B-lower_bound
+child 24 29 94 99 O
+at 30 32 100 102 O
+home 33 37 103 107 O
+
+ble 0 3 108 111 B-language_fluency
+to 4 6 112 114 I-language_fluency
+read 7 11 115 119 I-language_fluency
+and 12 15 120 123 I-language_fluency
+speak 16 21 124 129 I-language_fluency
+either 22 28 130 136 I-language_fluency
+English 29 36 137 144 I-language_fluency
+or 37 39 145 147 I-language_fluency
+Spanish 40 47 148 155 I-language_fluency
+
+planning 0 8 156 164 B-pregnancy
+to 9 11 165 167 I-pregnancy
+become 12 18 168 174 I-pregnancy
+pregnant 19 27 175 183 I-pregnancy
+in 28 30 184 186 O
+the 31 34 187 190 O
+next 35 39 191 195 O
+year 40 44 196 200 O
+

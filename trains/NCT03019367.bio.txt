@@ -1,0 +1,29 @@
+23 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+32 6 8 6 8 B-upper_bound
++6 9 11 9 11 O
+Gestational 12 23 12 23 B-clinical_variable
+age 24 27 24 27 I-clinical_variable
+
+Bleeding 0 8 28 36 B-chronic_disease
+Accreta 9 16 37 44 I-chronic_disease
+
+Congenital 0 10 45 55 B-chronic_disease
+anomalies 11 20 56 65 I-chronic_disease
+
+Cord 0 4 66 70 B-chronic_disease
+prolapse 5 13 71 79 I-chronic_disease
+
+Hydrops 0 7 80 87 B-chronic_disease
+
+Major 0 5 88 93 B-chronic_disease
+cardiac 6 13 94 101 I-chronic_disease
+defects 14 21 102 109 I-chronic_disease
+
+Placental 0 9 110 119 B-chronic_disease
+abruption 10 19 120 129 I-chronic_disease
+or 20 22 130 132 I-chronic_disease
+previa 23 29 133 139 I-chronic_disease
+with 30 34 140 144 O
+hemorrhage 35 45 145 155 B-chronic_disease
+

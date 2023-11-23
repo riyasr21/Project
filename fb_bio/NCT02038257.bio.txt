@@ -1,0 +1,41 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+Acral 11 16 11 16 B-chronic_disease
+Vitiligo 17 25 17 25 I-chronic_disease
+
+History 0 7 26 33 O
+of 8 10 34 36 O
+koebnerization 11 25 37 51 B-chronic_disease
+( 26 27 52 53 O
+new 27 30 53 56 O
+patches 31 38 57 64 O
+of 39 41 65 67 O
+vitiligo 42 50 68 76 O
+at 51 53 77 79 O
+sites 54 59 80 85 O
+of 60 62 86 88 O
+injury 63 69 89 95 O
+or 70 72 96 98 O
+trauma 73 79 99 105 O
+) 79 80 105 106 O
+
+Unstable 0 8 107 115 B-chronic_disease
+Vitiligo 9 17 116 124 I-chronic_disease
+, 17 18 124 125 O
+defined 19 26 126 133 O
+as 27 29 134 136 O
+new 30 33 137 140 O
+areas 34 39 141 146 O
+of 40 42 147 149 O
+depigmentation 43 57 150 164 O
+or 58 60 165 167 O
+enlarging 61 70 168 177 O
+areas 71 76 178 183 O
+of 77 79 184 186 O
+depigmentation 80 94 187 201 O
+within 95 101 202 208 O
+the 102 105 209 212 O
+last 106 110 213 217 O
+6 111 112 218 219 B-upper_bound
+months 113 119 220 226 I-upper_bound
+

@@ -1,0 +1,169 @@
+Active 0 6 0 6 B-chronic_disease
+tuberculosis 7 19 7 19 I-chronic_disease
+
+Arthritis 0 9 20 29 B-chronic_disease
+
+Autoimmune 0 10 30 40 B-chronic_disease
+Diseases 11 19 41 49 I-chronic_disease
+
+Bone 0 4 50 54 B-chronic_disease
+or 5 7 55 57 I-chronic_disease
+Endocrine 8 17 58 67 I-chronic_disease
+Diseases 18 26 68 76 I-chronic_disease
+
+Cancer 0 6 77 83 B-cancer
+within 7 13 84 90 O
+5 14 15 91 92 B-upper_bound
+years 16 21 93 98 I-upper_bound
+
+Chronic 0 7 99 106 B-treatment
+Glucocorticoid 8 22 107 121 I-treatment
+or 23 25 122 124 O
+non 26 29 125 128 B-treatment
+- 29 30 128 129 I-treatment
+steroidal 30 39 129 138 I-treatment
+anti 40 44 139 143 I-treatment
+- 44 45 143 144 I-treatment
+inflammatory 45 57 144 156 I-treatment
+drug 58 62 157 161 I-treatment
+therapy 63 70 162 169 I-treatment
+
+Cirrhosis 0 9 170 179 B-chronic_disease
+
+Congestive 0 10 180 190 B-chronic_disease
+heart 11 16 191 196 I-chronic_disease
+failure 17 24 197 204 I-chronic_disease
+
+Gastrointestinal 0 16 205 221 B-chronic_disease
+disorders 17 26 222 231 I-chronic_disease
+which 27 32 232 237 O
+impair 33 39 238 244 O
+absorption 40 50 245 255 O
+
+Hepatic 0 7 256 263 B-chronic_disease
+disease 8 15 264 271 I-chronic_disease
+
+Hyperlipidemia 0 14 272 286 B-chronic_disease
+
+Known 0 5 287 292 O
+coronary 6 14 293 301 B-chronic_disease
+artery 15 21 302 308 I-chronic_disease
+disease 22 29 309 316 I-chronic_disease
+
+Known 0 5 317 322 O
+history 6 13 323 330 O
+of 14 16 331 333 O
+AIDS 17 21 334 338 B-chronic_disease
+, 21 22 338 339 O
+AIDS 23 27 340 344 B-chronic_disease
+Related 28 35 345 352 I-chronic_disease
+Complex 36 43 353 360 I-chronic_disease
+, 43 44 360 361 O
+HIV 45 48 362 365 B-chronic_disease
+
+Malignant 0 9 366 375 B-chronic_disease
+neuroleptic 10 21 376 387 I-chronic_disease
+hyperthermia 22 34 388 400 O
+
+Mental 0 6 401 407 B-chronic_disease
+retardation 7 18 408 419 I-chronic_disease
+or 19 21 420 422 O
+autism 22 28 423 429 B-chronic_disease
+or 29 31 430 432 O
+any 32 35 433 436 O
+other 36 41 437 442 O
+mental 42 48 443 449 B-chronic_disease
+disorder 49 57 450 458 I-chronic_disease
+, 57 58 458 459 O
+which 59 64 460 465 O
+makes 65 70 466 471 O
+it 71 73 472 474 O
+impossible 74 84 475 485 O
+to 85 87 486 488 O
+participate 88 99 489 500 O
+in 100 102 501 503 O
+an 103 105 504 506 O
+exercise 106 114 507 515 O
+program 115 122 516 523 O
+
+Patient 0 7 524 531 O
+is 8 10 532 534 O
+> 11 12 535 536 O
+18 12 14 536 538 B-lower_bound
+≤ 15 16 539 540 O
+60 17 19 541 543 B-upper_bound
+years 20 25 544 549 I-upper_bound
+of 26 28 550 552 O
+age 29 32 553 556 B-age
+
+Pregnancy 0 9 557 566 B-pregnancy
+if 10 12 567 569 O
+applicable 13 23 570 580 O
+
+Renal 0 5 581 586 B-chronic_disease
+insufficiency 6 19 587 600 I-chronic_disease
+
+Uncontrolled 0 12 601 613 O
+asthma 13 19 614 620 B-chronic_disease
+or 20 22 621 623 O
+pulmonary 23 32 624 633 B-chronic_disease
+disease 33 40 634 641 I-chronic_disease
+( 41 42 642 643 O
+e.g. 42 46 643 647 O
+emphysema 47 56 648 657 B-chronic_disease
+, 56 57 657 658 O
+COPD 58 62 659 663 B-chronic_disease
+) 62 63 663 664 O
+
+creatinine 0 10 665 675 B-clinical_variable
+> 11 12 676 677 O
+3.0 12 15 677 680 B-lower_bound
+mg 16 18 681 683 I-lower_bound
+/ 18 19 683 684 I-lower_bound
+dl 19 21 684 686 I-lower_bound
+
+elevated 0 8 687 695 O
+liver 9 14 696 701 B-clinical_variable
+enzymes 15 22 702 709 I-clinical_variable
+or 23 25 710 712 O
+bilirubin 26 35 713 722 B-clinical_variable
+> 36 37 723 724 O
+3.0 37 40 724 727 B-lower_bound
+mg 41 43 728 730 I-lower_bound
+/ 43 44 730 731 I-lower_bound
+dl 44 46 731 733 I-lower_bound
+
+patient 0 7 734 741 O
+agrees 8 14 742 748 O
+to 15 17 749 751 O
+study 18 23 752 757 O
+; 23 24 757 758 O
+30 25 27 759 761 B-lower_bound
+% 27 28 761 762 I-lower_bound
+Total 29 34 763 768 B-clinical_variable
+Body 35 39 769 773 I-clinical_variable
+Surface 40 47 774 781 I-clinical_variable
+Area 48 52 782 786 I-clinical_variable
+( 53 54 787 788 I-clinical_variable
+TBSA 54 58 788 792 I-clinical_variable
+) 58 59 792 793 I-clinical_variable
+burn 60 64 794 798 O
+or 65 67 799 801 O
+greater 68 75 802 809 O
+; 75 76 809 810 O
+AND 77 80 811 814 O
+has 81 84 815 818 O
+been 85 89 819 823 O
+medically 90 99 824 833 O
+cleared 100 107 834 841 O
+for 108 111 842 845 O
+discharge 112 121 846 855 O
+and 122 125 856 859 O
+exercise 126 134 860 868 O
+participation 135 148 869 882 O
+by 149 151 883 885 O
+the 152 155 886 889 O
+treating 156 164 890 898 O
+burn 165 169 899 903 O
+surgeon 170 177 904 911 O
+

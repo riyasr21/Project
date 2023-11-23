@@ -1,0 +1,87 @@
+Current 0 7 0 7 O
+symptoms 8 16 8 16 O
+of 17 19 17 19 O
+mania 20 25 20 25 B-chronic_disease
+or 26 28 26 28 O
+psychosis 29 38 29 38 B-chronic_disease
+or 39 41 39 41 O
+who 42 45 42 45 O
+have 46 50 46 50 O
+more 51 55 51 55 O
+pressing 56 64 56 64 O
+concerns 65 73 65 73 O
+that 74 78 74 78 O
+need 79 83 79 83 O
+to 84 86 84 86 O
+be 87 89 87 89 O
+addressed 90 99 90 99 O
+first 100 105 100 105 O
+
+Patients 0 8 106 114 O
+with 9 13 115 119 O
+recent 14 20 120 126 O
+suicide 21 28 127 134 B-chronic_disease
+attempts 29 37 135 143 I-chronic_disease
+
+Started 0 7 144 151 O
+or 8 10 152 154 O
+changed 11 18 155 162 O
+the 19 22 163 166 O
+dose 23 27 167 171 O
+of 28 30 172 174 O
+a 31 32 175 176 O
+psychotropic 33 45 177 189 B-treatment
+medication 46 56 190 200 I-treatment
+for 57 60 201 204 O
+PTSD 61 65 205 209 B-chronic_disease
+in 66 68 210 212 O
+the 69 72 213 216 O
+last 73 77 217 221 B-upper_bound
+two 78 81 222 225 I-upper_bound
+months 82 88 226 232 I-upper_bound
+that 89 93 233 237 O
+was 94 97 238 241 O
+prescribed 98 108 242 252 O
+outside 109 116 253 260 O
+of 117 119 261 263 O
+VA 120 122 264 266 O
+PC 123 125 267 269 O
+
+The 0 3 270 273 O
+investigators 4 17 274 287 O
+will 18 22 288 292 O
+also 23 27 293 297 O
+exclude 28 35 298 305 O
+patients 36 44 306 314 O
+that 45 49 315 319 O
+are 50 53 320 323 O
+already 54 61 324 331 O
+receiving 62 71 332 341 O
+psychotherapy 72 85 342 355 B-treatment
+or 86 88 356 358 O
+MH 89 91 359 361 B-treatment
+counseling 92 102 362 372 I-treatment
+for 103 106 373 376 O
+PTSD 107 111 377 381 B-chronic_disease
+outside 112 119 382 389 O
+of 120 122 390 392 O
+PC 123 125 393 395 O
+
+current 0 7 396 403 O
+intent 8 14 404 410 O
+to 15 17 411 413 O
+commit 18 24 414 420 O
+suicide 25 32 421 428 B-chronic_disease
+
+gross 0 5 429 434 O
+cognitive 6 15 435 444 B-chronic_disease
+impairment 16 26 445 455 I-chronic_disease
+
+suicide 0 7 456 463 B-chronic_disease
+attempt 8 15 464 471 I-chronic_disease
+in 16 18 472 474 O
+the 19 22 475 478 O
+last 23 27 479 483 B-upper_bound
+two 28 31 484 487 I-upper_bound
+months 32 38 488 494 I-upper_bound
+

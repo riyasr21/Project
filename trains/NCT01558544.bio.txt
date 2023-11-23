@@ -1,0 +1,97 @@
+0 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+45 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+who 18 21 18 21 O
+are 22 25 22 25 O
+premenopausal 26 39 26 39 O
+
+Cancer 0 6 40 46 B-treatment
+treatment 7 16 47 56 I-treatment
+with 17 21 57 61 I-treatment
+abdominal 22 31 62 71 I-treatment
+pelvic 32 38 72 78 I-treatment
+irradiation 39 50 79 90 I-treatment
+and/or 51 57 91 97 O
+high 58 62 98 102 O
+dose 63 67 103 107 O
+chemotherapy 68 80 108 120 B-treatment
+
+Females 0 7 121 128 B-gender
+
+Patient 0 7 129 136 O
+is 8 10 137 139 O
+medically 11 20 140 149 O
+stable 21 27 150 156 O
+enough 28 34 157 163 O
+to 35 37 164 166 O
+undergo 38 45 167 174 O
+surgery 46 53 175 182 B-treatment
+( 54 55 183 184 O
+cleared 55 62 184 191 O
+for 63 66 192 195 O
+anesthesia 67 77 196 206 B-treatment
+) 77 78 206 207 O
+
+Patients 0 8 208 216 O
+who 9 12 217 220 O
+have 13 17 221 225 O
+not 18 21 226 229 O
+received 22 30 230 238 O
+medical 31 38 239 246 O
+clearance 39 48 247 256 O
+from 49 53 257 261 O
+their 54 59 262 267 O
+physicians 60 70 268 278 O
+to 71 73 279 281 O
+undergo 74 81 282 289 O
+surgery 82 89 290 297 B-treatment
+
+Previous 0 8 298 306 O
+treatment 9 18 307 316 B-treatment
+for 19 22 317 320 O
+cancer 23 29 321 327 B-cancer
+is 30 32 328 330 O
+acceptable 33 43 331 341 O
+if 44 46 342 344 O
+patient 47 54 345 352 O
+still 55 60 353 358 O
+has 61 64 359 362 O
+ovarian 65 72 363 370 O
+function 73 81 371 379 O
+
+Surgery 0 7 380 387 B-treatment
+that 8 12 388 392 O
+requires 13 21 393 401 O
+removal 22 29 402 409 O
+of 30 32 410 412 O
+ovaries 33 40 413 420 O
+for 41 44 421 424 O
+medical 45 52 425 432 O
+condition 53 62 433 442 O
+or 63 65 443 445 O
+disease 66 73 446 453 O
+, 73 74 453 454 O
+e.g. 75 79 455 459 O
+Prophylactic 80 92 460 472 B-treatment
+oophorectomy 93 105 473 485 I-treatment
+in 106 108 486 488 O
+BRCA 109 113 489 493 B-cancer
+patients 114 122 494 502 O
+
+Treatment 0 9 503 512 B-treatment
+plan 10 14 513 517 O
+that 15 19 518 522 O
+will 20 24 523 527 O
+likely 25 31 528 534 O
+result 32 38 535 541 O
+in 39 41 542 544 O
+premature 42 51 545 554 O
+menopause 52 61 555 564 O
+or 62 64 565 567 O
+premature 65 74 568 577 B-chronic_disease
+ovarian 75 82 578 585 I-chronic_disease
+failure 83 90 586 593 I-chronic_disease
+

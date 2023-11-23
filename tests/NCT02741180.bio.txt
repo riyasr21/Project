@@ -1,0 +1,57 @@
+Contraindications 0 17 0 17 O
+for 18 21 18 21 O
+MRI 22 25 22 25 O
+examinations 26 38 26 38 O
+( 39 40 39 40 O
+e.g. 40 44 40 44 O
+, 44 45 44 45 O
+pacemakers 46 56 46 56 B-treatment
+or 57 59 57 59 O
+ferromagnetic 60 73 60 73 B-treatment
+vascular 74 82 74 82 I-treatment
+clips 83 88 83 88 I-treatment
+) 88 89 88 89 O
+
+Diabetes 0 8 90 98 B-chronic_disease
+, 8 9 98 99 O
+hypertension 10 22 100 112 B-chronic_disease
+, 22 23 112 113 O
+smoking 24 31 114 121 O
+, 31 32 121 122 O
+and 33 36 123 126 O
+hyperlipidemia 37 51 127 141 B-chronic_disease
+, 51 52 141 142 O
+etc 53 56 143 146 O
+
+Hemodynamic 0 11 147 158 B-chronic_disease
+instability 12 23 159 170 I-chronic_disease
+
+History 0 7 171 178 O
+of 8 10 179 181 O
+prior 11 16 182 187 O
+cardiovascular 17 31 188 202 B-chronic_disease
+disease 32 39 203 210 I-chronic_disease
+or 40 42 211 213 O
+significant 43 54 214 225 O
+risk 55 59 226 230 O
+factors 60 67 231 238 O
+
+No 0 2 239 241 O
+history 3 10 242 249 O
+of 11 13 250 252 O
+heart 14 19 253 258 B-chronic_disease
+arrhythmia 20 30 259 269 I-chronic_disease
+
+Patients 0 8 270 278 O
+diagnosed 9 18 279 288 O
+with 19 23 289 293 O
+heart 24 29 294 299 B-chronic_disease
+arrhythmia 30 40 300 310 I-chronic_disease
+scheduled 41 50 311 320 O
+for 51 54 321 324 O
+routine 55 62 325 332 O
+clinical 63 71 333 341 O
+MRI 72 75 342 345 B-clinical_variable
+examinations 76 88 346 358 O
+) 88 89 358 359 O
+

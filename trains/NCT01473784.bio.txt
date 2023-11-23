@@ -1,0 +1,53 @@
+Patient 0 7 0 7 O
+pregnancy 8 17 8 17 B-pregnancy
+
+Patients 0 8 18 26 O
+must 9 13 27 31 O
+have 14 18 32 36 O
+adequate 19 27 37 45 O
+transoral 28 37 46 55 O
+exposure 38 46 56 64 O
+of 47 49 65 67 O
+the 50 53 68 71 O
+oral 54 58 72 76 O
+cavity 59 65 77 83 O
+and 66 69 84 87 O
+laryngopharynx 70 84 88 102 O
+for 85 88 103 106 O
+TORS 89 93 107 111 B-treatment
+instrumentation 94 109 112 127 I-treatment
+
+Previous 0 8 128 136 B-treatment
+head 9 13 137 141 I-treatment
+and 14 17 142 145 I-treatment
+neck 18 22 146 150 I-treatment
+surgery 23 30 151 158 I-treatment
+that 31 35 159 163 O
+would 36 41 164 169 O
+preclude 42 50 170 178 O
+transoral 51 60 179 188 B-treatment
+/ 60 61 188 189 I-treatment
+robotic 61 68 189 196 I-treatment
+procedures 69 79 197 207 I-treatment
+
+The 0 3 208 211 O
+presence 4 12 212 220 O
+of 13 15 221 223 O
+medical 16 23 224 231 O
+conditions 24 34 232 242 O
+contraindicating 35 51 243 259 O
+general 52 59 260 267 B-treatment
+anesthesia 60 70 268 278 I-treatment
+or 71 73 279 281 O
+transoral 74 83 282 291 B-treatment
+surgical 84 92 292 300 I-treatment
+approaches 93 103 301 311 O
+
+Unexplained 0 11 312 323 O
+fever 12 17 324 329 B-chronic_disease
+and/or 18 24 330 336 O
+untreated 25 34 337 346 O
+, 34 35 346 347 O
+active 36 42 348 354 B-chronic_disease
+infection 43 52 355 364 I-chronic_disease
+

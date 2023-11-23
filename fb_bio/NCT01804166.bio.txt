@@ -1,0 +1,28 @@
+Be 0 2 0 2 O
+willing 3 10 3 10 O
+to 11 13 11 13 O
+provide 14 21 14 21 O
+a 22 23 22 23 O
+tumor 24 29 24 29 B-treatment
+biopsy 30 36 30 36 I-treatment
+sample 37 43 37 43 O
+for 44 47 44 47 O
+the 48 51 48 51 O
+study 52 57 52 57 O
+
+Patients 0 8 58 66 O
+with 9 13 67 71 O
+Inflammatory 14 26 72 84 B-chronic_disease
+Bowel 27 32 85 90 I-chronic_disease
+Disease 33 40 91 98 I-chronic_disease
+with 41 45 99 103 O
+a 46 47 104 105 O
+confirmed 48 57 106 115 O
+diagnosis 58 67 116 125 O
+of 68 70 126 128 O
+Hepatosplenic 71 84 129 142 B-cancer
+T 85 86 143 144 I-cancer
+- 86 87 144 145 I-cancer
+cell 87 91 145 149 I-cancer
+Lymphoma 92 100 150 158 I-cancer
+

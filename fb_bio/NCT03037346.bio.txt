@@ -1,0 +1,19 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+speak 8 13 8 13 I-language_fluency
+and 14 17 14 17 I-language_fluency
+understand 18 28 18 28 I-language_fluency
+English 29 36 29 36 I-language_fluency
+and/or 37 43 37 43 I-language_fluency
+Spanish 44 51 44 51 I-language_fluency
+
+Diagnosis 0 9 52 61 O
+of 10 12 62 64 O
+invasive 13 21 65 73 O
+gynecologic 22 33 74 85 B-cancer
+malignancy 34 44 86 96 I-cancer
+stages 45 51 97 103 O
+1 52 53 104 105 B-lower_bound
+- 53 54 105 106 O
+4 54 55 106 107 B-upper_bound
+

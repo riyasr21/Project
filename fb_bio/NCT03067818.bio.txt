@@ -1,0 +1,15 @@
+Brainstem 0 9 0 9 B-chronic_disease
+or 10 12 10 12 I-chronic_disease
+cerebellar 13 23 13 23 I-chronic_disease
+stroke 24 30 24 30 I-chronic_disease
+
+Central 0 7 31 38 B-chronic_disease
+nervous 8 15 39 46 I-chronic_disease
+system 16 22 47 53 I-chronic_disease
+disease 23 30 54 61 I-chronic_disease
+or 31 33 62 64 O
+disorder 34 42 65 73 O
+other 43 48 74 79 O
+than 49 53 80 84 O
+stroke 54 60 85 91 B-chronic_disease
+

@@ -1,0 +1,61 @@
+3 0 1 0 1 B-lower_bound
+- 2 3 2 3 O
+4 4 5 4 5 B-upper_bound
+weeks 6 11 6 11 I-upper_bound
+prior 12 17 12 17 B-treatment
+to 18 20 18 20 I-treatment
+surgery 21 28 21 28 I-treatment
+
+Patient 0 7 29 36 O
+is 8 10 37 39 O
+at 11 13 40 42 O
+least 14 19 43 48 O
+18 20 22 49 51 B-lower_bound
+years 23 28 52 57 I-lower_bound
+of 29 31 58 60 O
+age 32 35 61 64 B-age
+
+Patients 0 8 65 73 O
+in 9 11 74 76 O
+whom 12 16 77 81 O
+a 17 18 82 83 O
+two 19 22 84 87 O
+- 22 23 87 88 O
+stage 23 28 88 93 O
+surgery 29 36 94 101 B-treatment
+is 37 39 102 104 O
+planned 40 47 105 112 O
+without 48 55 113 120 O
+any 56 59 121 124 O
+resection 60 69 125 134 B-treatment
+of 70 72 135 137 I-treatment
+brain 73 78 138 143 I-treatment
+tissue 79 85 144 150 I-treatment
+during 86 92 151 157 O
+the 93 96 158 161 O
+initial 97 104 162 169 O
+craniotomy 105 115 170 180 B-treatment
+
+Patients 0 8 181 189 O
+under 9 14 190 195 O
+the 15 18 196 199 O
+age 19 22 200 203 B-age
+of 23 25 204 206 O
+18 26 28 207 209 B-upper_bound
+
+Patients 0 8 210 218 O
+unwilling 9 18 219 228 O
+to 19 21 229 231 O
+comply 22 28 232 238 O
+with 29 33 239 243 O
+modified 34 42 244 252 B-treatment
+Atkins 43 49 253 259 I-treatment
+
+diet 0 4 260 264 B-clinical_variable
+3 5 6 265 266 B-lower_bound
+-4 7 9 267 269 O
+weeks 10 15 270 275 I-upper_bound
+prior 16 21 276 281 B-treatment
+to 22 24 282 284 I-treatment
+surgery 25 32 285 292 I-treatment
+

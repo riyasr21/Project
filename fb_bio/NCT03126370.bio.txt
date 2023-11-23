@@ -1,0 +1,57 @@
+Between 0 7 0 7 O
+18 8 10 8 10 B-lower_bound
+- 10 11 10 11 O
+70 11 13 11 13 B-upper_bound
+years 14 19 14 19 I-upper_bound
+of 20 22 20 22 O
+age 23 26 23 26 B-age
+
+Have 0 4 27 31 O
+been 5 9 32 36 O
+taking 10 16 37 43 O
+TDF 17 20 44 47 B-treatment
+and 21 24 48 51 O
+a 25 26 52 53 O
+ritonavir- 27 37 54 64 B-treatment
+or 38 40 65 67 O
+cobicistat 41 51 68 78 B-treatment
+- 51 52 78 79 I-treatment
+boosted 52 59 79 86 I-treatment
+protease 60 68 87 95 I-treatment
+inhibitor 69 78 96 105 I-treatment
+as 79 81 106 108 O
+part 82 86 109 113 O
+of 87 89 114 116 O
+standard 90 98 117 125 O
+care 99 103 126 130 O
+for 104 107 131 134 O
+treatment 108 117 135 144 B-treatment
+of 118 120 145 147 O
+HIV 121 124 148 151 B-chronic_disease
+
+Hepatitis 0 9 152 161 B-chronic_disease
+B 10 11 162 163 I-chronic_disease
+infection 12 21 164 173 O
+
+Medications 0 11 174 185 O
+that 12 16 186 190 O
+may 17 20 191 194 O
+cause 21 26 195 200 O
+unwanted 27 35 201 209 O
+drug 36 40 210 214 O
+interactions 41 53 215 227 O
+with 54 58 228 232 O
+ledipasvir 59 69 233 243 B-allergy_name
+/ 69 70 243 244 O
+sofosbuvir 70 80 244 254 B-allergy_name
+or 81 83 255 257 O
+emtricitabine 84 97 258 271 B-allergy_name
+/ 97 98 271 272 O
+tenofovir 98 107 272 281 B-allergy_name
+alafenamide 108 119 282 293 I-allergy_name
+
+Pregnant 0 8 294 302 B-pregnancy
+or 9 11 303 305 O
+planning 12 20 306 314 B-pregnancy
+pregnancy 21 30 315 324 I-pregnancy
+

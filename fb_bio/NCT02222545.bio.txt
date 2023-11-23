@@ -1,0 +1,82 @@
+Are 0 3 0 3 O
+at 4 6 4 6 O
+least 7 12 7 12 O
+age 13 16 13 16 B-age
+18 17 19 17 19 B-lower_bound
+at 20 22 20 22 O
+screening 23 32 23 32 O
+( 33 34 33 34 O
+Visit 34 39 34 39 O
+1 40 41 40 41 O
+) 41 42 41 42 O
+
+Had 0 3 43 46 O
+eculizumab 4 14 47 57 B-treatment
+therapy 15 22 58 65 I-treatment
+within 23 29 66 72 O
+three 30 35 73 78 B-upper_bound
+months 36 42 79 85 I-upper_bound
+prior 43 48 86 91 I-upper_bound
+to 49 51 92 94 O
+screening 52 61 95 104 O
+
+Have 0 4 105 109 O
+STEC 5 9 110 114 B-chronic_disease
+- 9 10 114 115 I-chronic_disease
+HUS 10 13 115 118 I-chronic_disease
+
+Have 0 4 119 123 O
+a 5 6 124 125 O
+diagnosis 7 16 126 135 O
+of 17 19 136 138 O
+primary 20 27 139 146 O
+aHUS 28 32 147 151 B-chronic_disease
+, 32 33 151 152 O
+persistent 34 44 153 163 O
+HSCT 45 49 164 168 B-treatment
+- 49 50 168 169 O
+associated 50 60 169 179 O
+TMA 61 64 180 183 B-chronic_disease
+or 65 67 184 186 O
+TTP 68 71 187 190 B-chronic_disease
+
+Have 0 4 191 195 O
+a 5 6 196 197 O
+positive 7 15 198 206 O
+direct 16 22 207 213 O
+Coombs 23 29 214 220 B-treatment
+test 30 34 221 225 I-treatment
+
+Have 0 4 226 230 O
+an 5 7 231 233 O
+active 8 14 234 240 B-chronic_disease
+systemic 15 23 241 249 I-chronic_disease
+bacterial 24 33 250 259 I-chronic_disease
+or 34 36 260 262 I-chronic_disease
+fungal 37 43 263 269 I-chronic_disease
+infection 44 53 270 279 I-chronic_disease
+requiring 54 63 280 289 O
+antimicrobial 64 77 290 303 B-treatment
+therapy 78 85 304 311 I-treatment
+
+No 0 2 312 314 O
+clinically 3 13 315 325 O
+apparent 14 22 326 334 O
+alternative 23 34 335 346 O
+explanation 35 46 347 358 O
+for 47 50 359 362 O
+thrombocytopenia 51 67 363 379 B-chronic_disease
+and 68 71 380 383 O
+anemia 72 78 384 390 B-chronic_disease
+
+prophylactic 0 12 391 403 B-treatment
+antimicrobial 13 26 404 417 I-treatment
+therapy 27 34 418 425 I-treatment
+administered 35 47 426 438 O
+as 48 50 439 441 O
+standard 51 59 442 450 O
+of 60 62 451 453 O
+care 63 67 454 458 O
+is 68 70 459 461 O
+allowed 71 78 462 469 O
+

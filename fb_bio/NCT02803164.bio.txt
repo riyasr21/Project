@@ -1,0 +1,64 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+acrylic 11 18 11 18 B-allergy_name
+products 19 27 19 27 I-allergy_name
+
+Dependency 0 10 28 38 O
+on 11 13 39 41 O
+anticoagulants 14 28 42 56 B-treatment
+or 29 31 57 59 O
+antiplatelet 32 44 60 72 B-treatment
+medication 45 55 73 83 I-treatment
+due 56 59 84 87 O
+to 60 62 88 90 O
+high 63 67 91 95 O
+risk 68 72 96 100 O
+for 73 76 101 104 O
+adverse 77 84 105 112 O
+events 85 91 113 119 O
+if 92 94 120 122 O
+these 95 100 123 128 O
+medications 101 112 129 140 O
+are 113 116 141 144 O
+stopped 117 124 145 152 O
+for 125 128 153 156 O
+a 129 130 157 158 O
+prolonged 131 140 159 168 O
+period 141 147 169 175 O
+of 148 150 176 178 O
+time 151 155 179 183 O
+
+Patent 0 6 184 190 O
+bronchopleural 7 21 191 205 B-chronic_disease
+fistulas 22 30 206 214 I-chronic_disease
+
+Proven 0 6 215 221 O
+or 7 9 222 224 O
+suspected 10 19 225 234 O
+malignancy 20 30 235 245 B-cancer
+in 31 33 246 248 O
+the 34 37 249 252 O
+wound 38 43 253 258 O
+
+Subject 0 7 259 266 O
+is 8 10 267 269 O
+scheduled 11 20 270 279 O
+to 21 23 280 282 O
+undergo 24 31 283 290 O
+surgical 32 40 291 299 O
+intervention(s 41 55 300 314 O
+) 55 56 314 315 O
+as 57 59 316 318 O
+part 60 64 319 323 O
+of 65 67 324 326 O
+the 68 71 327 330 O
+standard 72 80 331 339 O
+care 81 85 340 344 O
+for 86 89 345 348 O
+management 90 100 349 359 O
+of 101 103 360 362 O
+intra 104 109 363 368 B-chronic_disease
+- 109 110 368 369 I-chronic_disease
+thoracic 110 118 369 377 I-chronic_disease
+infection 119 128 378 387 I-chronic_disease
+

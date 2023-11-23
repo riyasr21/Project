@@ -1,0 +1,39 @@
+Age 0 3 0 3 B-age
+greater 4 11 4 11 O
+than 12 16 12 16 O
+or 17 19 17 19 O
+equal 20 25 20 25 O
+to 26 28 26 28 O
+18 29 31 29 31 B-lower_bound
+years 32 37 32 37 I-lower_bound
+
+Individuals 0 11 38 49 O
+without 12 19 50 57 O
+a 20 21 58 59 O
+history 22 29 60 67 O
+of 30 32 68 70 O
+rosacea 33 40 71 78 B-chronic_disease
+
+Use 0 3 79 82 O
+of 4 6 83 85 O
+topical 7 14 86 93 B-treatment
+prescription 15 27 94 106 I-treatment
+medications 28 39 107 118 I-treatment
+or 40 42 119 121 I-treatment
+procedures 43 53 122 132 I-treatment
+to 54 56 133 135 I-treatment
+the 57 60 136 139 I-treatment
+face 61 65 140 144 I-treatment
+within 66 72 145 151 O
+one 73 76 152 155 B-upper_bound
+month 77 82 156 161 I-upper_bound
+of 83 85 162 164 O
+enrollment 86 96 165 175 O
+
+Women 0 5 176 181 B-gender
+who 6 9 182 185 O
+are 10 13 186 189 B-pregnancy
+pregnant 14 22 190 198 I-pregnancy
+or 23 25 199 201 O
+lactating 26 35 202 211 O
+

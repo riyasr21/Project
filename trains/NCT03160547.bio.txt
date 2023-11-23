@@ -1,0 +1,82 @@
+> 0 1 0 1 O
+96 1 3 1 3 B-lower_bound
+continuous 4 14 4 14 I-lower_bound
+hours 15 20 15 20 I-lower_bound
+of 21 23 21 23 O
+mechanical 24 34 24 34 B-clinical_variable
+ventilation 35 46 35 46 I-clinical_variable
+before 47 53 47 53 O
+screening 54 63 54 63 O
+
+Expected 0 8 64 72 O
+death 9 14 73 78 O
+or 15 17 79 81 O
+withdrawal 18 28 82 92 O
+of 29 31 93 95 O
+life 32 36 96 100 O
+- 36 37 100 101 O
+sustaining 37 47 101 111 O
+treatments 48 58 112 122 B-treatment
+within 59 65 123 129 O
+7 66 67 130 131 B-upper_bound
+days 68 72 132 136 I-upper_bound
+from 73 77 137 141 O
+screening 78 87 142 151 O
+
+Frailty 0 7 152 159 O
+( 8 9 160 161 O
+Clinical 9 17 161 169 B-clinical_variable
+Frailty 18 25 170 177 I-clinical_variable
+Scale 26 31 178 183 I-clinical_variable
+5 32 33 184 185 B-lower_bound
+or 34 36 186 188 O
+more 37 41 189 193 O
+from 42 46 194 198 O
+proxy 47 52 199 204 O
+) 52 53 204 205 O
+
+From 0 4 206 210 O
+point 5 10 211 216 O
+of 11 13 217 219 O
+screening 14 23 220 229 O
+, 23 24 229 230 O
+projected 25 34 231 240 B-clinical_variable
+duration 35 43 241 249 I-clinical_variable
+of 44 46 250 252 I-clinical_variable
+mechanical 47 57 253 263 I-clinical_variable
+ventilation 58 69 264 275 I-clinical_variable
+> 70 71 276 277 O
+4 71 72 277 278 B-lower_bound
+days 73 77 279 283 I-lower_bound
+
+Low 0 3 284 287 O
+( 4 5 288 289 O
+≤25 5 8 289 292 O
+) 8 9 292 293 O
+or 10 12 294 296 O
+High 13 17 297 301 O
+BMI 18 21 302 305 B-bmi
+( 22 23 306 307 O
+≥35 23 26 307 310 O
+) 26 27 310 311 O
+
+Pregnant 0 8 312 320 B-pregnancy
+
+Requiring 0 9 321 330 O
+mechanical 10 20 331 341 B-treatment
+ventilation 21 32 342 353 I-treatment
+with 33 37 354 358 O
+actual 38 44 359 365 O
+or 45 47 366 368 O
+expected 48 56 369 377 O
+total 57 62 378 383 O
+duration 63 71 384 392 O
+of 72 74 393 395 O
+mechanical 75 85 396 406 O
+ventilation 86 97 407 418 O
+> 98 99 419 420 O
+48 99 101 420 422 B-lower_bound
+hours 102 107 423 428 I-lower_bound
+
+Sarcopenia 0 10 429 439 B-chronic_disease
+

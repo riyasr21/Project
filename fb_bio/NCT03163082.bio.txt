@@ -1,0 +1,11 @@
+Both 0 4 0 4 O
+partners 5 13 5 13 O
+must 14 18 14 18 O
+be 19 21 19 21 O
+18 22 24 22 24 B-lower_bound
+years 25 30 25 30 I-lower_bound
+of 31 33 31 33 O
+age 34 37 34 37 B-age
+or 38 40 38 40 O
+older 41 46 41 46 O
+

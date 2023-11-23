@@ -1,0 +1,86 @@
+Current 0 7 0 7 O
+use 8 11 8 11 O
+of 12 14 12 14 O
+lithium 15 22 15 22 B-treatment
+
+Must 0 4 23 27 O
+be 5 7 28 30 O
+60 8 10 31 33 B-lower_bound
+- 10 11 33 34 O
+90 11 13 34 36 B-upper_bound
+years 14 19 37 42 I-upper_bound
+old 20 23 43 46 O
+
+Must 0 4 47 51 O
+be 5 7 52 54 O
+fluent 8 14 55 61 B-language_fluency
+in 15 17 62 64 I-language_fluency
+English 18 25 65 72 I-language_fluency
+and/or 26 32 73 79 I-language_fluency
+Spanish 33 40 80 87 I-language_fluency
+( 41 42 88 89 I-language_fluency
+includes 42 50 89 97 I-language_fluency
+reading 51 58 98 105 I-language_fluency
+, 58 59 105 106 I-language_fluency
+writing 60 67 107 114 I-language_fluency
+, 67 68 114 115 I-language_fluency
+and 69 72 116 119 I-language_fluency
+speech 73 79 120 126 I-language_fluency
+) 79 80 126 127 I-language_fluency
+
+Must 0 4 128 132 O
+begin 5 10 133 138 O
+enrollment 11 21 139 149 O
+in 22 24 150 152 O
+study 25 30 153 158 O
+within 31 37 159 165 O
+one 38 41 166 169 B-upper_bound
+week 42 46 170 174 I-upper_bound
+of 47 49 175 177 O
+being 50 55 178 183 O
+determined 56 66 184 194 O
+eligible 67 75 195 203 O
+
+Presence 0 8 204 212 O
+of 9 11 213 215 O
+Agit 12 16 216 220 B-chronic_disease
+- 16 17 220 221 I-chronic_disease
+AD 17 19 221 223 I-chronic_disease
+as 20 22 224 226 O
+defined 23 30 227 234 O
+by 31 33 235 237 O
+the 34 37 238 241 O
+provisional 38 49 242 253 O
+criteria 50 58 254 262 O
+from 59 63 263 267 O
+the 64 67 268 271 O
+International 68 81 272 285 O
+Psychogeriatric 82 97 286 301 O
+Association 98 109 302 313 O
+( 110 111 314 315 O
+IPA 111 114 315 318 O
+) 114 115 318 319 O
+
+Seizure 0 7 320 327 B-chronic_disease
+disorder 8 16 328 336 I-chronic_disease
+
+hematologic 0 11 337 348 B-chronic_disease
+disease 12 19 349 356 I-chronic_disease
+
+notes 0 5 357 362 O
+that 6 10 363 367 O
+the 11 14 368 371 O
+behaviors 15 24 372 381 O
+can 25 28 382 385 O
+not 28 31 385 388 O
+be 32 34 389 391 O
+solely 35 41 392 398 O
+attributable 42 54 399 411 O
+to 55 57 412 414 O
+another 58 65 415 422 O
+disorder 66 74 423 431 O
+such 75 79 432 436 O
+as 80 82 437 439 O
+psychiatric 83 94 440 451 B-chronic_disease
+illness 95 102 452 459 I-chronic_disease
+

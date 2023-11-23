@@ -1,0 +1,39 @@
+BMI 0 3 0 3 B-bmi
+less 4 8 4 8 O
+than 9 13 9 13 O
+or 14 16 14 16 O
+equal 17 22 17 22 O
+to 23 25 23 25 O
+40 26 28 26 28 B-upper_bound
+
+Neurological 0 12 29 41 B-chronic_disease
+or 13 15 42 44 O
+pulmonary 16 25 45 54 B-chronic_disease
+problems 26 34 55 63 I-chronic_disease
+that 35 39 64 68 O
+severely 40 48 69 77 O
+limit 49 54 78 83 O
+function 55 63 84 92 O
+
+Other 0 5 93 98 O
+unstable 6 14 99 107 B-chronic_disease
+orthopaedic 15 26 108 119 I-chronic_disease
+conditions 27 37 120 130 I-chronic_disease
+that 38 42 131 135 O
+limit 43 48 136 141 O
+function 49 57 142 150 O
+
+Severe 0 6 151 157 B-clinical_variable
+contralateral 7 20 158 171 I-clinical_variable
+leg 21 24 172 175 I-clinical_variable
+OA 25 27 176 178 I-clinical_variable
+( 28 29 179 180 O
+> 29 30 180 181 O
+= 30 31 181 182 O
+5/10 32 36 183 187 B-lower_bound
+pain 37 41 188 192 O
+with 42 46 193 197 O
+stair 47 52 198 203 O
+climbing 53 61 204 212 O
+) 61 62 212 213 O
+

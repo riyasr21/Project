@@ -1,0 +1,71 @@
+Current 0 7 0 7 O
+Major 8 13 8 13 B-chronic_disease
+Depressive 14 24 14 24 I-chronic_disease
+Disorder 25 33 25 33 I-chronic_disease
+( 34 35 34 35 I-chronic_disease
+MDD 35 38 35 38 I-chronic_disease
+) 38 39 38 39 I-chronic_disease
+
+Failure 0 7 40 47 O
+to 8 10 48 50 O
+respond 11 18 51 58 O
+adequately 19 29 59 69 O
+to 30 32 70 72 O
+two 33 36 73 76 B-lower_bound
+or 37 39 77 79 O
+more 40 44 80 84 O
+antidepressant 45 59 85 99 B-treatment
+treatment 60 69 100 109 O
+trials 70 76 110 116 O
+of 77 79 117 119 O
+recommended 80 91 120 131 O
+dose 92 96 132 136 O
+and 97 100 137 140 O
+length 101 107 141 147 O
+
+Lifetime 0 8 148 156 O
+diagnosis 9 18 157 166 O
+of 19 21 167 169 O
+bipolar 22 29 170 177 B-chronic_disease
+I 30 31 178 179 I-chronic_disease
+or 32 34 180 182 I-chronic_disease
+II 35 37 183 185 I-chronic_disease
+disorder 38 46 186 194 I-chronic_disease
+, 46 47 194 195 O
+schizophrenia 48 61 196 209 B-chronic_disease
+, 61 62 209 210 O
+schizoaffective 63 78 211 226 B-chronic_disease
+disorder 79 87 227 235 I-chronic_disease
+, 87 88 235 236 O
+schizophreniform 89 105 237 253 B-chronic_disease
+disorder 106 114 254 262 I-chronic_disease
+, 114 115 262 263 O
+delusional 116 126 264 274 B-chronic_disease
+disorder 127 135 275 283 I-chronic_disease
+, 135 136 283 284 O
+or 137 139 285 287 O
+current 140 147 288 295 O
+psychotic 148 157 296 305 O
+symptoms 158 166 306 314 O
+
+Men 0 3 315 318 B-gender
+and 4 7 319 322 I-gender
+women 8 13 323 328 I-gender
+
+Patient 0 7 329 336 B-clinical_variable
+Health 8 14 337 343 I-clinical_variable
+Questionnaire-9 15 30 344 359 I-clinical_variable
+( 31 32 360 361 I-clinical_variable
+PHQ-9 32 37 361 366 I-clinical_variable
+) 37 38 366 367 I-clinical_variable
+score 39 44 368 373 I-clinical_variable
+of 45 47 374 376 O
+10 48 50 377 379 B-lower_bound
+or 51 53 380 382 O
+higher 54 60 383 389 O
+
+aged 0 4 390 394 B-age
+60 5 7 395 397 B-lower_bound
+and 8 11 398 401 O
+older 12 17 402 407 O
+

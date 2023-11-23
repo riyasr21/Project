@@ -1,0 +1,47 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+90 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+Males 0 5 19 24 B-gender
+
+Speaker 0 7 25 32 B-language_fluency
+of 8 10 33 35 I-language_fluency
+English 11 18 36 43 I-language_fluency
+since 19 24 44 49 O
+childhood 25 34 50 59 O
+
+Stroke 0 6 60 66 B-chronic_disease
+survivor 7 15 67 75 O
+who 16 19 76 79 O
+is 20 22 80 82 O
+at 23 25 83 85 O
+least 26 31 86 91 O
+6 32 33 92 93 B-lower_bound
+months 34 40 94 100 I-lower_bound
+post 41 45 101 105 B-chronic_disease
+- 45 46 105 106 I-chronic_disease
+stroke 46 52 106 112 I-chronic_disease
+
+females 0 7 113 120 B-gender
+
+history 0 7 121 128 O
+of 8 10 129 131 O
+speech 11 17 132 138 B-chronic_disease
+/ 17 18 138 139 I-chronic_disease
+language 18 26 139 147 I-chronic_disease
+problems 27 35 148 156 I-chronic_disease
+prior 36 41 157 162 O
+to 42 44 163 165 O
+stroke 45 51 166 172 B-chronic_disease
+
+neurological 0 12 173 185 B-chronic_disease
+condition 13 22 186 195 I-chronic_disease
+other 23 28 196 201 O
+than 29 33 202 206 O
+stroke 34 40 207 213 B-chronic_disease
+
+untreated 0 9 214 223 B-chronic_disease
+psychopathology 10 25 224 239 I-chronic_disease
+

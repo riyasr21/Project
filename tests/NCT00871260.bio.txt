@@ -1,0 +1,69 @@
+Acute 0 5 0 5 B-chronic_disease
+ST 6 8 6 8 I-chronic_disease
+- 8 9 8 9 I-chronic_disease
+elevation 9 18 9 18 I-chronic_disease
+myocardial 19 29 19 29 I-chronic_disease
+infarction 30 40 30 40 I-chronic_disease
+
+Age 0 3 41 44 B-age
+< 4 5 45 46 O
+18 5 7 46 48 B-upper_bound
+years 8 13 49 54 I-upper_bound
+
+Contra 0 6 55 61 B-treatment
+- 6 7 61 62 I-treatment
+indications 7 18 62 73 I-treatment
+to 19 21 74 76 O
+MRI 22 25 77 80 O
+( 26 27 81 82 O
+i.e. 27 31 82 86 O
+ICD 32 35 87 90 B-treatment
+, 35 36 90 91 O
+pacemaker 37 46 92 101 B-treatment
+, 46 47 101 102 O
+aneurysm 48 56 103 111 B-treatment
+clip 57 61 112 116 I-treatment
+, 61 62 116 117 O
+etc 63 66 118 121 O
+) 66 67 121 122 O
+
+Hemodynamic 0 11 123 134 B-chronic_disease
+instability 12 23 135 146 I-chronic_disease
+
+Pregnancy 0 9 147 156 B-pregnancy
+
+Second 0 6 157 163 B-chronic_disease
+or 7 9 164 166 I-chronic_disease
+third 10 15 167 172 I-chronic_disease
+degree 16 22 173 179 I-chronic_disease
+AV 23 25 180 182 I-chronic_disease
+block 26 31 183 188 I-chronic_disease
+
+Severe 0 6 189 195 B-chronic_disease
+Renal 7 12 196 201 I-chronic_disease
+Disease 13 20 202 209 I-chronic_disease
+( 21 22 210 211 O
+GFR 22 25 211 214 B-clinical_variable
+< 26 27 215 216 O
+30cc 27 31 216 220 B-upper_bound
+/ 31 32 220 221 I-upper_bound
+min 32 35 221 224 I-upper_bound
+or 36 38 225 227 O
+hemodialysis 39 51 228 240 B-treatment
+) 51 52 240 241 O
+
+Severe 0 6 242 248 O
+claustrophobia 7 21 249 263 B-chronic_disease
+
+Suspected 0 9 264 273 O
+coronary 10 18 274 282 B-chronic_disease
+artery 19 25 283 289 I-chronic_disease
+disease 26 33 290 297 I-chronic_disease
+
+Symptoms 0 8 298 306 O
+of 9 11 307 309 O
+possible 12 20 310 318 O
+coronary 21 29 319 327 B-chronic_disease
+artery 30 36 328 334 I-chronic_disease
+disease 37 44 335 342 I-chronic_disease
+

@@ -1,0 +1,22 @@
+Veteran 0 7 0 7 O
+with 8 12 8 12 O
+a 13 14 13 14 O
+> 15 16 15 16 O
+or 17 19 17 19 O
+= 20 21 20 21 O
+5.0 22 25 22 25 B-lower_bound
+cm 26 28 26 28 I-lower_bound
+AAA 29 32 29 32 I-lower_bound
+
+Veterans 0 8 33 41 B-clinical_variable
+who 9 12 42 45 O
+are 13 16 46 49 O
+not 17 20 50 53 O
+candidates 21 31 54 64 O
+for 32 35 65 68 O
+both 36 40 69 73 O
+open 41 45 74 78 B-treatment
+and 46 49 79 82 I-treatment
+endovascular 50 62 83 95 I-treatment
+repair 63 69 96 102 I-treatment
+

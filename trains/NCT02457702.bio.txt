@@ -1,0 +1,59 @@
+Anemia 0 6 0 6 B-chronic_disease
+( 7 8 7 8 O
+hematocrit 8 18 8 18 B-clinical_variable
+< 19 20 19 20 O
+32 21 23 21 23 B-upper_bound
+% 23 24 23 24 I-upper_bound
+) 24 25 24 25 O
+
+Portal 0 6 26 32 B-chronic_disease
+systemic 7 15 33 41 I-chronic_disease
+encephalopathy 16 30 42 56 I-chronic_disease
+
+Pregnancy 0 9 57 66 B-pregnancy
+or 10 12 67 69 O
+breastfeeding 13 26 70 83 O
+
+Severe 0 6 84 90 O
+liver 7 12 91 96 B-chronic_disease
+disease 13 20 97 104 I-chronic_disease
+defined 21 28 105 112 O
+as 29 31 113 115 O
+known 32 37 116 121 O
+liver 38 43 122 127 O
+disease 44 51 128 135 O
+plus 52 56 136 140 O
+at 57 59 141 143 O
+least 60 65 144 149 O
+one 66 69 150 153 B-lower_bound
+of 70 72 154 156 O
+the 73 76 157 160 O
+following 77 86 161 170 O
+
+Significant 0 11 171 182 O
+weight 12 18 183 189 O
+loss 19 23 190 194 O
+or 24 26 195 197 O
+use 27 30 198 201 O
+of 31 33 202 204 O
+diet 34 38 205 209 B-treatment
+pills 39 44 210 215 I-treatment
+within 45 51 216 222 O
+previous 52 60 223 231 B-upper_bound
+6 61 62 232 233 I-upper_bound
+months 63 69 234 240 I-upper_bound
+
+serum 0 5 241 246 B-clinical_variable
+albumin 6 13 247 254 I-clinical_variable
+less 14 18 255 259 O
+than 19 23 260 264 O
+3.0 24 27 265 268 B-upper_bound
+g 28 29 269 270 I-upper_bound
+/ 29 30 270 271 I-upper_bound
+dL 30 32 271 273 I-upper_bound
+or 33 35 274 276 O
+INR 36 39 277 280 B-clinical_variable
+more 40 44 281 285 O
+than 45 49 286 290 O
+2.0 50 53 291 294 B-lower_bound
+

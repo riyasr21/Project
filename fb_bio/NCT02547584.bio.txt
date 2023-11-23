@@ -1,0 +1,38 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+≥ 5 6 5 6 O
+18 7 9 7 9 B-lower_bound
+years 10 15 10 15 I-lower_bound
+
+On 0 2 16 18 O
+long 3 7 19 23 O
+- 7 8 23 24 O
+term 8 12 24 28 O
+steroid 13 20 29 36 B-treatment
+or 21 23 37 39 O
+anti 24 28 40 44 B-treatment
+- 28 29 44 45 I-treatment
+inflammatory 29 41 45 57 I-treatment
+drugs 42 47 58 63 I-treatment
+
+Receiving 0 9 64 73 O
+behavioral 10 20 74 84 B-treatment
+therapy 21 28 85 92 I-treatment
+or 29 31 93 95 O
+medications 32 43 96 107 O
+for 44 47 108 111 O
+the 48 51 112 115 O
+anxiety 52 59 116 123 B-chronic_disease
+disorder 60 68 124 132 I-chronic_disease
+
+Undergoing 0 10 133 143 O
+catheter 11 19 144 152 B-treatment
+ablation 20 28 153 161 I-treatment
+for 29 32 162 165 O
+paroxysmal 33 43 166 176 B-chronic_disease
+or 44 46 177 179 O
+persistent 47 57 180 190 B-chronic_disease
+AF 58 60 191 193 I-chronic_disease
+
+female 0 6 194 200 B-gender
+

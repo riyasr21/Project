@@ -1,0 +1,44 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Age 0 3 16 19 B-age
+less 4 8 20 24 O
+than 9 13 25 29 O
+18 14 16 30 32 B-upper_bound
+yrs 17 20 33 36 I-upper_bound
+
+Allergy 0 7 37 44 O
+to 8 10 45 47 O
+local 11 16 48 53 B-allergy_name
+anesthetics 17 28 54 65 I-allergy_name
+
+Conversion 0 10 66 76 O
+from 11 15 77 81 O
+laparoscopic 16 28 82 94 B-treatment
+to 29 31 95 97 O
+open 32 36 98 102 B-treatment
+surgery 37 44 103 110 I-treatment
+
+History 0 7 111 118 O
+of 8 10 119 121 O
+Chronic 11 18 122 129 O
+pain 19 23 130 134 O
+or 24 26 135 137 O
+ongoing 27 34 138 145 O
+treatment 35 44 146 155 B-treatment
+for 45 48 156 159 O
+chronic 49 56 160 167 O
+pain 57 61 168 172 O
+
+with 0 4 173 177 O
+unilateral 5 15 178 188 O
+or 16 18 189 191 O
+bilateral 19 28 192 201 B-chronic_disease
+inguinal 29 37 202 210 I-chronic_disease
+herna 38 43 211 216 I-chronic_disease
+for 44 47 217 220 O
+laparoscopic 48 60 221 233 O
+repair 61 67 234 240 O
+

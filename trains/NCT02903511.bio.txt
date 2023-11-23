@@ -1,0 +1,46 @@
+An 0 2 0 2 O
+estimated 3 12 3 12 O
+glomerular 13 23 13 23 B-clinical_variable
+filtration 24 34 24 34 I-clinical_variable
+( 35 36 35 36 I-clinical_variable
+GFR 36 39 36 39 I-clinical_variable
+) 39 40 39 40 I-clinical_variable
+rate 41 45 41 45 I-clinical_variable
+of 46 48 46 48 O
+50 49 51 49 51 B-lower_bound
+- 51 52 51 52 O
+80 52 54 52 54 B-upper_bound
+ml 55 57 55 57 I-upper_bound
+/ 57 58 57 58 I-upper_bound
+min/1.73 58 66 58 66 I-upper_bound
+m2 67 69 67 69 I-upper_bound
+
+Are 0 3 70 73 O
+unwilling 4 13 74 83 B-contraception_consent
+to 14 16 84 86 I-contraception_consent
+use 17 20 87 90 I-contraception_consent
+contraception 21 34 91 104 I-contraception_consent
+
+Cigarette 0 9 105 114 O
+smoking 10 17 115 122 O
+within 18 24 123 129 O
+the 25 28 130 133 O
+last 29 33 134 138 B-upper_bound
+12 34 36 139 141 I-upper_bound
+months 37 43 142 148 I-upper_bound
+
+Diabetes 0 8 149 157 B-chronic_disease
+mellitus 9 17 158 166 I-chronic_disease
+
+Have 0 4 167 171 O
+a 5 6 172 173 O
+contraindication 7 23 174 190 O
+to 24 26 191 193 O
+the 27 30 194 197 O
+use 31 34 198 201 O
+of 35 37 202 204 O
+metformin 38 47 205 214 B-allergy_name
+
+Liver 0 5 215 220 B-chronic_disease
+disease 6 13 221 228 I-chronic_disease
+

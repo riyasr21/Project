@@ -1,0 +1,90 @@
+Active 0 6 0 6 O
+bleeding 7 15 7 15 O
+or 16 18 16 18 O
+high 19 23 19 23 O
+risk 24 28 24 28 O
+for 29 32 29 32 O
+bleeding 33 41 33 41 O
+contraindicating 42 58 42 58 O
+antiplatelet 59 71 59 71 B-treatment
+or 72 74 72 74 I-treatment
+anticoagulant 75 88 75 88 I-treatment
+therapy 89 96 89 96 I-treatment
+
+History 0 7 97 104 O
+of 8 10 105 107 O
+or 11 13 108 110 O
+signs 14 19 111 116 O
+/ 19 20 116 117 O
+symptoms 20 28 117 125 O
+suggestive 29 39 126 136 O
+of 40 42 137 139 O
+protein 43 50 140 147 B-chronic_disease
+- 50 51 147 148 I-chronic_disease
+losing 51 57 148 154 I-chronic_disease
+enteropathy 58 69 155 166 I-chronic_disease
+
+Known 0 5 167 172 O
+clinically 6 16 173 183 O
+significant 17 28 184 195 O
+liver 29 34 196 201 B-chronic_disease
+disease 35 42 202 209 I-chronic_disease
+
+Platelet 0 8 210 218 B-clinical_variable
+count 9 14 219 224 I-clinical_variable
+less 15 19 225 229 O
+than 20 24 230 234 O
+( 25 26 235 236 O
+< 26 27 236 237 O
+) 27 28 237 238 O
+50 28 30 238 240 B-upper_bound
+* 30 31 240 241 I-upper_bound
+10 31 33 241 243 I-upper_bound
+^ 33 34 243 244 I-upper_bound
+9 34 35 244 245 I-upper_bound
+/ 35 36 245 246 I-upper_bound
+Liters 36 42 246 252 I-upper_bound
+( 43 44 253 254 I-upper_bound
+L 44 45 254 255 I-upper_bound
+) 45 46 255 256 I-upper_bound
+
+Satisfactory 0 12 257 269 O
+initial 13 20 270 277 O
+post 21 25 278 282 O
+- 25 26 282 283 O
+Fontan 26 32 283 289 O
+transthoracic 33 46 290 303 B-treatment
+echocardiographic 47 64 304 321 I-treatment
+Screening 65 74 322 331 O
+
+history 0 7 332 339 O
+of 8 10 340 342 O
+intracranial 11 23 343 355 B-chronic_disease
+bleeding 24 32 356 364 I-chronic_disease
+
+surgery 0 7 365 372 B-treatment
+associated 8 18 373 383 O
+with 19 23 384 388 O
+clinically 24 34 389 399 O
+relevant 35 43 400 408 O
+impaired 44 52 409 417 B-chronic_disease
+absorption 53 63 418 428 I-chronic_disease
+
+those 0 5 429 434 O
+that 6 10 435 439 O
+are 11 14 440 443 O
+asymptomatic 15 27 444 456 B-chronic_disease
+confirmed 28 37 457 466 O
+by 38 40 467 469 O
+post 41 45 470 474 B-treatment
+- 45 46 474 475 I-treatment
+Fontan 46 52 475 481 I-treatment
+procedure 53 62 482 491 I-treatment
+transthoracic 63 76 492 505 I-treatment
+echocardiogram 77 91 506 520 I-treatment
+, 91 92 520 521 O
+or 93 95 522 524 O
+other 96 101 525 530 O
+imaging 102 109 531 538 O
+techniques 110 120 539 549 O
+

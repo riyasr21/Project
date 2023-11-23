@@ -1,0 +1,154 @@
+( 0 1 0 1 O
+except 1 7 1 7 O
+for 8 11 8 11 O
+hydroxyurea 12 23 12 23 B-treatment
+) 23 24 23 24 O
+
+Acute 0 5 25 30 B-cancer
+lymphocytic 6 17 31 42 I-cancer
+leukemia 18 26 43 51 I-cancer
+or 27 29 52 54 O
+lymphoblastic 30 43 55 68 B-cancer
+lymphoma 44 52 69 77 I-cancer
+( 53 54 78 79 O
+ALL 54 57 79 82 O
+
+Acute 0 5 83 88 B-cancer
+myelogenous 6 17 89 100 I-cancer
+leukemia 18 26 101 109 I-cancer
+( 27 28 110 111 I-cancer
+AML 28 31 111 114 I-cancer
+) 31 32 114 115 I-cancer
+
+Ages 0 4 116 120 B-age
+16 5 7 121 123 B-lower_bound
+years 8 13 124 129 I-lower_bound
+old 14 17 130 133 O
+and 18 21 134 137 O
+up 22 24 138 140 O
+
+Hepatitis 0 9 141 150 B-chronic_disease
+C 10 11 151 152 I-chronic_disease
+
+If 0 2 153 155 O
+the 3 6 156 159 O
+donor 7 12 160 165 O
+- 12 13 165 166 O
+specific 13 21 166 174 O
+HLA 22 25 175 178 B-treatment
+antibodies 26 36 179 189 I-treatment
+( 37 38 190 191 I-treatment
+DSA 38 41 191 194 I-treatment
+) 41 42 194 195 I-treatment
+are 43 46 196 199 O
+positive 47 55 200 208 O
+, 55 56 208 209 O
+the 57 60 210 213 O
+patient 61 68 214 221 O
+must 69 73 222 226 O
+undergo 74 81 227 234 O
+a 82 83 235 236 O
+desensitization 84 99 237 252 B-treatment
+protocol 100 108 253 261 O
+resulting 109 118 262 271 O
+in 119 121 272 274 O
+undetectable 122 134 275 287 O
+DSA 135 138 288 291 B-treatment
+prior 139 144 292 297 I-treatment
+to 145 147 298 300 I-treatment
+day 148 151 301 304 I-treatment
+of 152 154 305 307 I-treatment
+transplant 155 165 308 318 I-treatment
+
+Less 0 4 319 323 O
+than 5 9 324 328 O
+twenty 10 16 329 335 B-upper_bound
+- 16 17 335 336 I-upper_bound
+one 17 20 336 339 I-upper_bound
+days 21 25 340 344 I-upper_bound
+have 26 30 345 349 O
+elapsed 31 38 350 357 O
+since 39 44 358 363 O
+the 45 48 364 367 O
+subject 49 56 368 375 O
+'s 56 58 375 377 O
+last 59 63 378 382 O
+radiation 64 73 383 392 O
+or 74 76 393 395 O
+chemotherapy 77 89 396 408 B-treatment
+prior 90 95 409 414 O
+to 96 98 415 417 O
+conditioning 99 111 418 430 O
+
+Non 0 3 431 434 B-cancer
+- 3 4 434 435 I-cancer
+Hodgkin 4 11 435 442 I-cancer
+'s 11 13 442 444 I-cancer
+Lymphoma 14 22 445 453 I-cancer
+( 23 24 454 455 I-cancer
+NHL 24 27 455 458 I-cancer
+) 27 28 458 459 I-cancer
+
+Performance 0 11 460 471 B-clinical_variable
+Status 12 18 472 478 I-clinical_variable
+70 19 21 479 481 B-lower_bound
+percent 22 29 482 489 I-lower_bound
+or 30 32 490 492 O
+above 33 38 493 498 O
+
+Positive 0 8 499 507 O
+for 9 12 508 511 O
+HIV 13 16 512 515 B-chronic_disease
+
+Subjects 0 8 516 524 O
+with 9 13 525 529 O
+signs 14 19 530 535 O
+/ 19 20 535 536 O
+symptoms 20 28 536 544 O
+of 29 31 545 547 O
+active 32 38 548 554 B-chronic_disease
+central 39 46 555 562 I-chronic_disease
+nervous 47 54 563 570 I-chronic_disease
+system 55 61 571 577 I-chronic_disease
+( 62 63 578 579 I-chronic_disease
+CNS 63 66 579 582 I-chronic_disease
+) 66 67 582 583 I-chronic_disease
+disease 68 75 584 591 I-chronic_disease
+
+Transfusion 0 11 592 603 O
+dependent 12 21 604 613 O
+myelodysplastic 22 37 614 629 B-chronic_disease
+syndrome 38 46 630 638 I-chronic_disease
+( 47 48 639 640 I-chronic_disease
+MDS 48 51 640 643 I-chronic_disease
+) 51 52 643 644 I-chronic_disease
+
+corrected 0 9 645 654 O
+diffusing 10 19 655 664 O
+capacity 20 28 665 673 B-clinical_variable
+of 29 31 674 676 I-clinical_variable
+lung 32 36 677 681 I-clinical_variable
+for 37 40 682 685 I-clinical_variable
+carbon 41 47 686 692 I-clinical_variable
+monoxide 48 56 693 701 I-clinical_variable
+( 57 58 702 703 I-clinical_variable
+DLCO 58 62 703 707 I-clinical_variable
+) 62 63 707 708 I-clinical_variable
+at 64 66 709 711 O
+60 67 69 712 714 B-lower_bound
+percent 70 77 715 722 I-lower_bound
+of 78 80 723 725 O
+predicted 81 90 726 735 O
+or 91 93 736 738 O
+above 94 99 739 744 O
+
+human 0 5 745 750 B-cancer
+T 6 7 751 752 I-cancer
+- 7 8 752 753 I-cancer
+cell 8 12 753 757 I-cancer
+leukemia 13 21 758 766 I-cancer
+virus 22 27 767 772 I-cancer
+( 28 29 773 774 I-cancer
+HTLV-1 29 35 774 780 I-cancer
+) 35 36 780 781 I-cancer
+

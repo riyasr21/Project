@@ -1,0 +1,45 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+and 13 16 13 16 O
+older 17 22 17 22 O
+
+Allergy 0 7 23 30 O
+to 8 10 31 33 O
+study 11 16 34 39 B-allergy_name
+drugs 17 22 40 45 I-allergy_name
+
+Ascites 0 7 46 53 B-chronic_disease
+
+GFR 0 3 54 57 B-clinical_variable
+< 4 5 58 59 O
+30 5 7 59 61 B-upper_bound
+
+Gastrointestinal 0 16 62 78 B-chronic_disease
+obstruction 17 28 79 90 I-chronic_disease
+
+Ileus 0 5 91 96 B-chronic_disease
+
+Inpatient 0 9 97 106 B-treatment
+colonoscopy 10 21 107 118 I-treatment
+
+Pregnant 0 8 119 127 B-pregnancy
+
+Renal 0 5 128 133 B-chronic_disease
+impairment 6 16 134 144 I-chronic_disease
+
+Risk 0 4 145 149 O
+of 5 7 150 152 O
+severe 8 14 153 159 O
+cardiac 15 22 160 167 B-chronic_disease
+arrhythmias 23 34 168 179 I-chronic_disease
+
+Toxic 0 5 180 185 B-chronic_disease
+colitis 6 13 186 193 I-chronic_disease
+
+Toxic 0 5 194 199 B-chronic_disease
+megacolon 6 15 200 209 I-chronic_disease
+
+lactating 0 9 210 219 O
+women 10 15 220 225 B-gender
+

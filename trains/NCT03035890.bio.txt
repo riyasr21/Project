@@ -1,0 +1,163 @@
+For 0 3 0 3 O
+those 4 9 4 9 O
+patients 10 18 10 18 O
+actively 19 27 19 27 O
+receiving 28 37 28 37 O
+checkpoint 38 48 38 48 B-treatment
+inhibitor 49 58 49 58 I-treatment
+immune 59 65 59 65 I-treatment
+therapy 66 73 66 73 I-treatment
+the 74 77 74 77 O
+duration 78 86 78 86 O
+of 87 89 87 89 O
+immune 90 96 90 96 O
+therapy 97 104 97 104 O
+at 105 107 105 107 O
+the 108 111 108 111 O
+time 112 116 112 116 O
+of 117 119 117 119 O
+enrollment 120 130 120 130 O
+must 131 135 131 135 O
+be 136 138 136 138 O
+4 139 140 139 140 B-upper_bound
+months 141 147 141 147 I-upper_bound
+or 148 150 148 150 O
+less 151 155 151 155 O
+
+HIV 0 3 156 159 B-chronic_disease
+/ 3 4 159 160 O
+AIDS 4 8 160 164 B-chronic_disease
+
+History 0 7 165 172 O
+of 8 10 173 175 O
+prior 11 16 176 181 B-treatment
+cytotoxic 17 26 182 191 I-treatment
+chemotherapy 27 39 192 204 I-treatment
+( 40 41 205 206 O
+with 41 45 206 210 O
+or 46 48 211 213 O
+without 49 56 214 221 O
+concomitant 57 68 222 233 O
+radiation 69 78 234 243 B-treatment
+therapy 79 86 244 251 I-treatment
+) 86 87 251 252 O
+with 88 92 253 257 O
+subsequent 93 103 258 268 O
+distant 104 111 269 276 O
+( 112 113 277 278 O
+metastatic 113 123 278 288 B-cancer
+) 123 124 288 289 O
+disease 125 132 290 297 O
+relapse 133 140 298 305 O
+, 140 141 305 306 O
+or 142 144 307 309 O
+progression 145 156 310 321 O
+of 157 159 322 324 O
+disease 160 167 325 332 O
+while 168 173 333 338 O
+on 174 176 339 341 O
+chemotherapy 177 189 342 354 O
+
+Measurable 0 10 355 365 O
+disease 11 18 366 373 O
+of 19 21 374 376 O
+at 22 24 377 379 O
+least 25 30 380 385 O
+1.5 31 34 386 389 B-lower_bound
+cm 35 37 390 392 I-lower_bound
+in 38 40 393 395 O
+greatest 41 49 396 404 O
+dimension 50 59 405 414 O
+at 60 62 415 417 O
+least 63 68 418 423 O
+2 69 70 424 425 B-lower_bound
+non 71 74 426 429 O
+- 74 75 429 430 O
+irradiated 75 85 430 440 O
+sites 86 91 441 446 O
+
+Participant 0 11 447 458 O
+must 12 16 459 463 O
+be 17 19 464 466 O
+planned 20 27 467 474 O
+to 28 30 475 477 O
+receive 31 38 478 485 O
+( 39 40 486 487 O
+or 40 42 487 489 O
+actively 43 51 490 498 O
+receiving 52 61 499 508 O
+) 61 62 508 509 O
+standard 63 71 510 518 O
+of 72 74 519 521 O
+care 75 79 522 526 O
+checkpoint 80 90 527 537 O
+inhibitor 91 100 538 547 O
+immune 101 107 548 554 B-treatment
+therapy 108 115 555 562 I-treatment
+
+Stage 0 5 563 568 B-cancer
+IV 6 8 569 571 I-cancer
+metastatic 9 19 572 582 I-cancer
+Non 20 23 583 586 I-cancer
+Small 24 29 587 592 I-cancer
+Cell 30 34 593 597 I-cancer
+Lung 35 39 598 602 I-cancer
+Cancer 40 46 603 609 I-cancer
+
+Uncontrolled 0 12 610 622 O
+intercurrent 13 25 623 635 B-chronic_disease
+illness 26 33 636 643 I-chronic_disease
+
+Uncontrolled 0 12 644 656 O
+or 13 15 657 659 O
+untreated 16 25 660 669 O
+active 26 32 670 676 O
+brain 33 38 677 682 B-cancer
+metastases 39 49 683 693 I-cancer
+/ 49 50 693 694 B-chronic_disease
+CNS 50 53 694 697 O
+disease 54 61 698 705 I-chronic_disease
+
+cardiac 0 7 706 713 B-chronic_disease
+arrhythmia 8 18 714 724 I-chronic_disease
+
+hepatitis 0 9 725 734 B-chronic_disease
+B 10 11 735 736 I-chronic_disease
+or 12 14 737 739 I-chronic_disease
+C 15 16 740 741 I-chronic_disease
+
+lymph 0 5 742 747 O
+nodes 6 11 748 753 O
+, 11 12 753 754 O
+in 13 15 755 757 O
+which 16 21 758 763 O
+the 22 25 764 767 O
+short 26 31 768 773 O
+- 31 32 773 774 O
+axis 32 36 774 778 O
+dimension 37 46 779 788 O
+must 47 51 789 793 O
+be 52 54 794 796 O
+at 55 57 797 799 O
+least 58 63 800 805 O
+1.5 64 67 806 809 B-lower_bound
+cm 67 69 809 811 I-lower_bound
+
+ongoing 0 7 812 819 O
+or 8 10 820 822 O
+active 11 17 823 829 B-chronic_disease
+infection 18 27 830 839 I-chronic_disease
+
+primary 0 7 840 847 B-chronic_disease
+immunodeficiency 8 24 848 864 I-chronic_disease
+syndrome 25 33 865 873 I-chronic_disease
+
+symptomatic 0 11 874 885 O
+congestive 12 22 886 896 B-chronic_disease
+heart 23 28 897 902 I-chronic_disease
+failure 29 36 903 910 I-chronic_disease
+
+unstable 0 8 911 919 B-chronic_disease
+angina 9 15 920 926 I-chronic_disease
+pectoris 16 24 927 935 I-chronic_disease
+

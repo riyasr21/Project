@@ -1,0 +1,57 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Antiemetic 0 10 15 25 B-treatment
+drug 11 15 26 30 O
+use 16 19 31 34 O
+in 20 22 35 37 O
+the 23 26 38 41 O
+24 27 29 42 44 B-upper_bound
+hours 30 35 45 50 I-upper_bound
+prior 36 41 51 56 I-upper_bound
+to 42 44 57 59 O
+cesarean 45 53 60 68 O
+delivery 54 62 69 77 O
+
+Any 0 3 78 81 O
+other 4 9 82 87 O
+physical 10 18 88 96 O
+or 19 21 97 99 O
+psychiatric 22 33 100 111 B-chronic_disease
+condition 34 43 112 121 I-chronic_disease
+that 44 48 122 126 O
+may 49 52 127 130 O
+impair 53 59 131 137 O
+their 60 65 138 143 O
+ability 66 73 144 151 O
+to 74 76 152 154 O
+cooperate 77 86 155 164 O
+with 87 91 165 169 O
+study 92 97 170 175 O
+data 98 102 176 180 O
+collection 103 113 181 191 O
+
+BMI 0 3 192 195 B-bmi
+> 4 5 196 197 O
+40 5 7 197 199 B-lower_bound
+Kg/ 8 11 200 203 I-lower_bound
+mm 12 14 204 206 I-lower_bound
+
+Chronic 0 7 207 214 B-chronic_disease
+hypertension 8 20 215 227 I-chronic_disease
+receiving 21 30 228 237 O
+antihypertensive 31 47 238 254 B-treatment
+treatment 48 57 255 264 I-treatment
+
+Height 0 6 265 271 B-clinical_variable
+< 7 8 272 273 O
+4 9 10 274 275 B-upper_bound
+' 10 11 275 276 I-upper_bound
+11 12 14 277 279 I-upper_bound
+
+Non- 0 4 280 284 B-language_fluency
+English 5 12 285 292 I-language_fluency
+speakers 13 21 293 301 I-language_fluency
+

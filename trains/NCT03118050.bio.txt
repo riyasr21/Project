@@ -1,0 +1,118 @@
+> 0 1 0 1 O
+2 1 2 1 2 B-lower_bound
+falls 3 8 3 8 O
+/ 8 9 8 9 O
+year 9 13 9 13 O
+
+Active 0 6 14 20 O
+cancer 7 13 21 27 B-cancer
+or 14 16 28 30 O
+infection 17 26 31 40 B-chronic_disease
+
+Body 0 4 41 45 B-bmi
+mass 5 9 46 50 I-bmi
+index 10 15 51 56 I-bmi
+: 15 16 56 57 O
+< 17 18 58 59 O
+40 18 20 59 61 B-upper_bound
+kg 21 23 62 64 I-upper_bound
+/ 23 24 64 65 I-upper_bound
+sq 24 26 65 67 I-upper_bound
+meter 27 32 68 73 I-upper_bound
+
+Exercise 0 8 74 82 B-clinical_variable
+training 9 17 83 91 I-clinical_variable
+( 18 19 92 93 O
+≥2 19 21 93 95 O
+sessions 22 30 96 104 I-lower_bound
+/ 30 31 104 105 I-lower_bound
+week 31 35 105 109 I-lower_bound
+) 35 36 109 110 O
+or 37 39 111 113 O
+≥10,000 40 47 114 121 O
+steps 48 53 122 127 I-lower_bound
+/ 53 54 127 128 I-lower_bound
+day 54 57 128 131 I-lower_bound
+
+Insulin 0 7 132 139 B-treatment
+therapy 8 15 140 147 I-treatment
+, 15 16 147 148 O
+significant 17 28 149 160 O
+diabetic 29 37 161 169 B-chronic_disease
+complications 38 51 170 183 I-chronic_disease
+, 51 52 183 184 O
+or 53 55 185 187 O
+A1c>8 56 61 188 193 B-clinical_variable
+% 61 62 193 194 I-lower_bound
+
+Non 0 3 195 198 O
+- 3 4 198 199 O
+diabetic 4 12 199 207 O
+or 13 15 208 210 O
+with 16 20 211 215 O
+Type 21 25 216 220 B-chronic_disease
+2 26 27 221 222 I-chronic_disease
+Diabetes 28 36 223 231 I-chronic_disease
+Mellitus 37 45 232 240 I-chronic_disease
+
+Pre 0 3 241 244 B-chronic_disease
+- 3 4 244 245 I-chronic_disease
+diabetes 4 12 245 253 I-chronic_disease
+per 13 16 254 257 O
+American 17 25 258 266 O
+Diabetes 26 34 267 275 O
+Association 35 46 276 287 O
+criteria 47 55 288 296 O
+
+Recent 0 6 297 303 O
+( 7 8 304 305 O
+within 8 14 305 311 O
+3 15 16 312 313 B-upper_bound
+months 17 23 314 320 I-upper_bound
+) 23 24 320 321 O
+treatment 25 34 322 331 B-treatment
+with 35 39 332 336 I-treatment
+anabolic 40 48 337 345 I-treatment
+steroids 49 57 346 354 I-treatment
+, 57 58 354 355 O
+systemic 59 67 356 364 B-treatment
+corticosteroids 68 83 365 380 I-treatment
+or 84 86 381 383 O
+estrogen 87 95 384 392 B-treatment
+
+Score 0 5 393 398 O
+≥26 6 9 399 402 O
+on 10 12 403 405 O
+the 13 16 406 409 O
+30 17 19 410 412 B-clinical_variable
+- 19 20 412 413 I-clinical_variable
+item 20 24 413 417 I-clinical_variable
+Mini 25 29 418 422 I-clinical_variable
+Mental 30 36 423 429 I-clinical_variable
+State 37 42 430 435 I-clinical_variable
+Examination 43 54 436 447 I-clinical_variable
+
+Significant 0 11 448 459 O
+cardiovascular 12 26 460 474 B-chronic_disease
+, 26 27 474 475 O
+liver 28 33 476 481 B-chronic_disease
+, 33 34 481 482 O
+renal 35 40 483 488 B-chronic_disease
+, 40 41 488 489 O
+blood 42 47 490 495 B-chronic_disease
+, 47 48 495 496 O
+or 49 51 497 499 O
+respiratory 52 63 500 511 B-chronic_disease
+disease 64 71 512 519 I-chronic_disease
+
+weight 0 6 520 526 B-clinical_variable
+loss 7 11 527 531 I-clinical_variable
+> 12 13 532 533 O
+5 13 14 533 534 B-lower_bound
+% 14 15 534 535 I-lower_bound
+in 16 18 536 538 O
+the 19 22 539 542 O
+past 23 27 543 547 B-upper_bound
+6 28 29 548 549 I-upper_bound
+months 30 36 550 556 I-upper_bound
+

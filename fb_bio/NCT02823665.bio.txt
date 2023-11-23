@@ -1,0 +1,87 @@
+Active 0 6 0 6 O
+heart 7 12 7 12 B-chronic_disease
+, 12 13 12 13 O
+lung 14 18 14 18 B-chronic_disease
+, 18 19 18 19 O
+liver 20 25 20 25 B-chronic_disease
+, 25 26 25 26 O
+gastrointestinal 27 43 27 43 B-chronic_disease
+or 44 46 44 46 O
+kidney 47 53 47 53 B-chronic_disease
+disease 54 61 54 61 I-chronic_disease
+
+Asymptomatic 0 12 62 74 O
+individuals 13 24 75 86 O
+with 25 29 87 91 O
+bariatric 30 39 92 101 B-treatment
+surgery 40 47 102 109 I-treatment
+
+Healthy 0 7 110 117 O
+non 8 11 118 121 O
+- 11 12 121 122 O
+surgical 12 20 122 130 O
+patients 21 29 131 139 O
+with 30 34 140 144 O
+no 35 37 145 147 O
+personal 38 46 148 156 O
+history 47 54 157 164 O
+of 55 57 165 167 O
+diabetes 58 66 168 176 B-chronic_disease
+
+Healthy 0 7 177 184 O
+non 8 11 185 188 O
+- 11 12 188 189 O
+surgical 12 20 189 197 O
+patients 21 29 198 206 O
+with 30 34 207 211 O
+personal 35 43 212 220 O
+history 44 51 221 228 O
+of 52 54 229 231 O
+diabetes 55 63 232 240 B-chronic_disease
+
+History 0 7 241 248 O
+of 8 10 249 251 O
+glaucoma 11 19 252 260 B-chronic_disease
+
+Hypoglycemic 0 12 261 273 B-chronic_disease
+RYGB 13 17 274 278 I-chronic_disease
+patients 18 26 279 287 O
+with 27 31 288 292 O
+documented 32 42 293 303 O
+blood 43 48 304 309 B-clinical_variable
+glucose 49 56 310 317 I-clinical_variable
+level 57 62 318 323 I-clinical_variable
+< 63 64 324 325 O
+50 64 66 325 327 B-upper_bound
+mg 67 69 328 330 I-upper_bound
+/ 69 70 330 331 I-upper_bound
+dl 70 72 331 333 I-upper_bound
+
+Myasthenia 0 10 334 344 B-chronic_disease
+gravis 11 17 345 351 I-chronic_disease
+
+history 0 7 352 359 O
+of 8 10 360 362 O
+dyslipidemia 11 23 363 375 B-chronic_disease
+
+pregnancy 0 9 376 385 B-pregnancy
+
+significant 0 11 386 397 O
+anemia 12 18 398 404 B-chronic_disease
+( 19 20 405 406 O
+hemoglobin 20 30 406 416 B-clinical_variable
+< 31 32 417 418 O
+11g 32 35 418 421 B-upper_bound
+/ 35 36 421 422 I-upper_bound
+dL 36 38 422 424 I-upper_bound
+) 38 39 424 425 O
+
+subjects 0 8 426 434 O
+with 9 13 435 439 O
+BP>140/90 14 23 440 449 B-clinical_variable
+
+type 0 4 450 454 B-chronic_disease
+2 5 6 455 456 I-chronic_disease
+diabetes 7 15 457 465 I-chronic_disease
+mellitis 16 24 466 474 I-chronic_disease
+

@@ -1,0 +1,61 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+51 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Currently 0 9 16 25 O
+has 10 13 26 29 O
+a 14 15 30 31 O
+copper 16 22 32 38 O
+IUD 23 26 39 42 B-contraception_consent
+in 27 29 43 45 O
+place 30 35 46 51 O
+
+Etiology 0 8 52 60 O
+of 9 11 61 63 O
+heavy 12 17 64 69 O
+menstrual 18 27 70 79 O
+bleeding 28 36 80 88 O
+from 37 41 89 93 O
+either 42 48 94 100 O
+ovulatory 49 58 101 110 B-chronic_disease
+disorders 59 68 111 120 I-chronic_disease
+( 69 70 121 122 I-chronic_disease
+AUB 70 73 122 125 I-chronic_disease
+- 73 74 125 126 I-chronic_disease
+O 74 75 126 127 I-chronic_disease
+) 75 76 127 128 I-chronic_disease
+or 77 79 129 131 O
+endometrial 80 91 132 143 B-chronic_disease
+hemostatic 92 102 144 154 I-chronic_disease
+disorders 103 112 155 164 I-chronic_disease
+( 113 114 165 166 I-chronic_disease
+AUB 114 117 166 169 I-chronic_disease
+- 117 118 169 170 I-chronic_disease
+E 118 119 170 171 I-chronic_disease
+) 119 120 171 172 I-chronic_disease
+
+History 0 7 173 180 O
+of 8 10 181 183 O
+ablation 11 19 184 192 B-treatment
+or 20 22 193 195 O
+hysterectomy 23 35 196 208 B-treatment
+or 36 38 209 211 O
+have 39 43 212 216 O
+any 44 47 217 220 O
+contraindications 48 65 221 238 O
+to 66 68 239 241 O
+COCs 69 73 242 246 B-treatment
+or 74 76 247 249 O
+LNG 77 80 250 253 B-treatment
+- 80 81 253 254 I-treatment
+IUS 81 84 254 257 I-treatment
+
+Plan 0 4 258 262 O
+pregnancy 5 14 263 272 B-pregnancy
+in 15 17 273 275 O
+the 18 21 276 279 O
+next 22 26 280 284 O
+year 27 31 285 289 O
+

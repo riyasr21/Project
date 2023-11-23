@@ -1,0 +1,37 @@
+Does 0 4 0 4 O
+not 5 8 5 8 O
+self 9 13 9 13 O
+- 13 14 13 14 O
+identify 14 22 14 22 O
+as 23 25 23 25 O
+African 26 33 26 33 B-ethnicity
+American 34 42 34 42 I-ethnicity
+or 43 45 43 45 I-ethnicity
+Black 46 51 46 51 I-ethnicity
+
+Identify 0 8 52 60 O
+as 9 11 61 63 O
+African 12 19 64 71 B-ethnicity
+American 20 28 72 80 I-ethnicity
+or 29 31 81 83 I-ethnicity
+Black 32 37 84 89 I-ethnicity
+
+Is 0 2 90 92 O
+severely 3 11 93 101 O
+depressed 12 21 102 111 B-chronic_disease
+or 22 24 112 114 O
+anxious 25 32 115 122 B-chronic_disease
+as 33 35 123 125 O
+determined 36 46 126 136 O
+by 47 49 137 139 O
+the 50 53 140 143 O
+PHQ-4 54 59 144 149 B-treatment
+
+Reports 0 7 150 157 O
+suicidal 8 16 158 166 B-chronic_disease
+ideation 17 25 167 175 I-chronic_disease
+within 26 32 176 182 O
+the 33 36 183 186 O
+past 37 41 187 191 B-upper_bound
+month 42 47 192 197 I-upper_bound
+

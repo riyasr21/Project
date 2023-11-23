@@ -1,0 +1,26 @@
+Capable 0 7 0 7 O
+and 8 11 8 11 O
+willing 12 19 12 19 O
+to 20 22 20 22 O
+record 23 29 23 29 O
+symptom 30 37 30 37 O
+data 38 42 38 42 O
+and 43 46 43 46 O
+wood 47 51 47 51 O
+stove 52 57 52 57 O
+usage 58 63 58 63 O
+data 64 68 64 68 O
+, 68 69 68 69 O
+as 70 72 70 72 O
+well 73 77 73 77 O
+as 78 80 78 80 O
+complete 81 89 81 89 O
+pulmonary 90 99 90 99 O
+function 100 108 100 108 O
+testing 109 116 109 116 O
+( 117 118 117 118 O
+i.e. 118 122 118 122 O
+, 122 123 122 123 O
+spirometry 124 134 124 134 B-treatment
+) 134 135 134 135 O
+

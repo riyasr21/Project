@@ -1,0 +1,18 @@
+Recently 0 8 0 8 O
+prescribed 9 19 9 19 O
+varenicline 20 31 20 31 B-treatment
+( 32 33 32 33 I-treatment
+Chantix 33 40 33 40 I-treatment
+) 40 41 40 41 I-treatment
+with 42 46 42 46 O
+the 47 50 47 50 O
+intention 51 60 51 60 O
+to 61 63 61 63 O
+quit 64 68 64 68 O
+smoking 69 76 69 76 O
+in 77 79 77 79 O
+the 80 83 80 83 O
+next 84 88 84 88 O
+3 89 90 89 90 O
+months 91 97 91 97 O
+

@@ -1,0 +1,89 @@
+Lower 0 5 0 5 B-treatment
+Limb 6 10 6 10 I-treatment
+Amputees 11 19 11 19 I-treatment
+
+Over 0 4 20 24 O
+250lbs 5 11 25 31 B-lower_bound
+body 12 16 32 36 B-clinical_variable
+weight 17 23 37 43 I-clinical_variable
+
+Pregnant 0 8 44 52 B-pregnancy
+women 9 14 53 58 B-gender
+
+Pregnant 0 8 59 67 B-pregnancy
+women 9 14 68 73 B-gender
+( 15 16 74 75 O
+status 16 22 75 81 O
+determined 23 33 82 92 O
+by 34 36 93 95 O
+self 37 41 96 100 O
+- 41 42 100 101 O
+reporting 42 51 101 110 O
+) 51 52 110 111 O
+
+cognitive 0 9 112 121 O
+deficits 10 18 122 130 O
+or 19 21 131 133 O
+visual 22 28 134 140 B-chronic_disease
+impairment 29 39 141 151 I-chronic_disease
+that 40 44 152 156 O
+would 45 50 157 162 O
+impair 51 57 163 169 O
+their 58 63 170 175 O
+ability 64 71 176 183 O
+to 72 74 184 186 O
+give 75 79 187 191 O
+informed 80 88 192 200 O
+consent 89 96 201 208 O
+or 97 99 209 211 O
+impair 100 106 212 218 O
+their 107 112 219 224 O
+ability 113 120 225 232 O
+to 121 123 233 235 O
+follow 124 130 236 242 O
+simple 131 137 243 249 O
+instructions 138 150 250 262 O
+during 151 157 263 269 O
+the 158 161 270 273 O
+experiments 162 173 274 285 O
+
+cognitive 0 9 286 295 B-chronic_disease
+deficits 10 18 296 304 I-chronic_disease
+or 19 21 305 307 O
+visual 22 28 308 314 B-chronic_disease
+impairment 29 39 315 325 I-chronic_disease
+that 40 44 326 330 O
+would 45 50 331 336 O
+impair 51 57 337 343 O
+their 58 63 344 349 O
+ability 64 71 350 357 O
+to 72 74 358 360 O
+give 75 79 361 365 O
+informed 80 88 366 374 O
+consent 89 96 375 382 O
+or 97 99 383 385 O
+to 100 102 386 388 O
+follow 103 109 389 395 O
+simple 110 116 396 402 O
+instructions 117 129 403 415 O
+during 130 136 416 422 O
+the 137 140 423 426 O
+experiments 141 152 427 438 O
+
+over 0 4 439 443 O
+250 5 8 444 447 B-lower_bound
+lbs 9 12 448 451 I-lower_bound
+body 13 17 452 456 B-clinical_variable
+weight 18 24 457 463 I-clinical_variable
+
+pace 0 4 464 468 B-treatment
+maker 5 10 469 474 I-treatment
+placement 11 20 475 484 I-treatment
+
+severe 0 6 485 491 O
+ischemia 7 15 492 500 B-chronic_disease
+cardiac 16 23 501 508 I-chronic_disease
+disease 24 31 509 516 I-chronic_disease
+
+stroke 0 6 517 523 B-chronic_disease
+

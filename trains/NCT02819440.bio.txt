@@ -1,0 +1,181 @@
+Adults 0 6 0 6 O
+( 7 8 7 8 O
+ages 8 12 8 12 B-age
+21 13 15 13 15 B-lower_bound
+- 15 16 15 16 O
+50 16 18 16 18 B-upper_bound
+) 18 19 18 19 O
+
+BMI 0 3 20 23 B-bmi
+< 4 5 24 25 O
+30 6 8 26 28 B-upper_bound
+kg 9 11 29 31 I-upper_bound
+/ 11 12 31 32 I-upper_bound
+m2 12 14 32 34 I-upper_bound
+
+Current 0 7 35 42 O
+anti 8 12 43 47 B-treatment
+- 12 13 47 48 I-treatment
+hypertensive 13 25 48 60 I-treatment
+medication 26 36 61 71 I-treatment
+use 37 40 72 75 O
+, 40 41 75 76 O
+including 42 51 77 86 O
+diuretics 52 61 87 96 B-treatment
+
+Current 0 7 97 104 O
+use 8 11 105 108 O
+of 12 14 109 111 O
+PDE-5 15 20 112 117 B-treatment
+inhibitors 21 31 118 128 I-treatment
+( 32 33 129 130 O
+sildenafil 33 43 130 140 B-treatment
+, 43 44 140 141 O
+tadalafil 45 54 142 151 B-treatment
+, 54 55 151 152 O
+vardenafil 56 66 153 163 B-treatment
+) 66 67 163 164 O
+
+Current 0 7 165 172 O
+use 8 11 173 176 O
+of 12 14 177 179 O
+organic 15 22 180 187 B-treatment
+nitrates 23 31 188 196 I-treatment
+
+Estimated 0 9 197 206 B-clinical_variable
+glomerular 10 20 207 217 I-clinical_variable
+filtration 21 31 218 228 I-clinical_variable
+rate 32 36 229 233 I-clinical_variable
+( 37 38 234 235 I-clinical_variable
+eGFR 38 42 235 239 I-clinical_variable
+) 42 43 239 240 I-clinical_variable
+< 44 45 241 242 O
+60 46 48 243 245 B-upper_bound
+ml 49 51 246 248 I-upper_bound
+/ 51 52 248 249 I-upper_bound
+min/1.73 52 60 249 257 I-upper_bound
+m2 61 63 258 260 I-upper_bound
+by 64 66 261 263 O
+the 67 70 264 267 O
+modified 71 79 268 276 O
+diet 80 84 277 281 O
+in 85 87 282 284 O
+renal 88 93 285 290 B-chronic_disease
+disease 94 101 291 298 I-chronic_disease
+( 102 103 299 300 O
+MDRD 103 107 300 304 O
+) 107 108 304 305 O
+equation 109 117 306 314 O
+
+Hepatic 0 7 315 322 B-clinical_variable
+transaminase 8 20 323 335 I-clinical_variable
+( 21 22 336 337 I-clinical_variable
+AST 22 25 337 340 I-clinical_variable
+and 26 29 341 344 I-clinical_variable
+ALT 30 33 345 348 I-clinical_variable
+) 33 34 348 349 I-clinical_variable
+levels 35 41 350 356 I-clinical_variable
+greater 42 49 357 364 O
+than 50 54 365 369 O
+three 55 60 370 375 B-lower_bound
+times 61 66 376 381 I-lower_bound
+the 67 70 382 385 I-lower_bound
+upper 71 76 386 391 I-lower_bound
+limit 77 82 392 397 I-lower_bound
+of 83 85 398 400 I-lower_bound
+normal 86 92 401 407 I-lower_bound
+
+History 0 7 408 415 O
+of 8 10 416 418 O
+hearing 11 18 419 426 B-chronic_disease
+loss 19 23 427 431 I-chronic_disease
+
+History 0 7 432 439 O
+of 8 10 440 442 O
+myocardial 11 21 443 453 B-chronic_disease
+infarction 22 32 454 464 I-chronic_disease
+, 32 33 464 465 O
+angina 34 40 466 472 B-chronic_disease
+, 40 41 472 473 O
+uncontrolled 42 54 474 486 O
+cardiac 55 62 487 494 B-chronic_disease
+arrhythmia 63 73 495 505 I-chronic_disease
+, 73 74 505 506 O
+stroke 75 81 507 513 B-chronic_disease
+, 81 82 513 514 O
+transient 83 92 515 524 B-chronic_disease
+ischemic 93 101 525 533 I-chronic_disease
+attack 102 108 534 540 I-chronic_disease
+, 108 109 540 541 O
+or 110 112 542 544 O
+seizure 113 120 545 552 B-chronic_disease
+
+History 0 7 553 560 O
+of 8 10 561 563 O
+priapism 11 19 564 572 B-chronic_disease
+
+Known 0 5 573 578 O
+HIV 6 9 579 582 B-chronic_disease
+infection 10 19 583 592 I-chronic_disease
+
+Known 0 5 593 598 O
+pregnancy 6 15 599 608 B-pregnancy
+or 16 18 609 611 O
+breastfeeding 19 32 612 625 O
+or 33 35 626 628 O
+those 36 41 629 634 O
+unwilling 42 51 635 644 O
+to 52 54 645 647 O
+avoid 55 60 648 653 O
+pregnancy 61 70 654 663 O
+during 71 77 664 670 O
+the 78 81 671 674 O
+course 82 88 675 681 O
+of 89 91 682 684 O
+the 92 95 685 688 O
+study 96 101 689 694 O
+
+Obesity 0 7 695 702 B-chronic_disease
+( 8 9 703 704 O
+BMI 9 12 704 707 B-bmi
+≥ 13 14 708 709 O
+30 15 17 710 712 B-lower_bound
+kg 18 20 713 715 I-lower_bound
+/ 20 21 715 716 I-lower_bound
+m2 21 23 716 718 I-lower_bound
+) 23 24 718 719 O
+
+Prediabetes 0 11 720 731 B-chronic_disease
+on 12 14 732 734 O
+oral 15 19 735 739 B-treatment
+glucose 20 27 740 747 I-treatment
+tolerance 28 37 748 757 I-treatment
+test 38 42 758 762 O
+
+Systolic 0 8 763 771 B-clinical_variable
+blood 9 14 772 777 I-clinical_variable
+pressure 15 23 778 786 I-clinical_variable
+( 24 25 787 788 I-clinical_variable
+SBP 25 28 788 791 I-clinical_variable
+) 28 29 791 792 I-clinical_variable
+< 30 31 793 794 O
+100 32 35 795 798 B-upper_bound
+, 35 36 798 799 O
+> 37 38 800 801 O
+150 39 42 802 805 B-lower_bound
+mmHg 43 47 806 810 I-lower_bound
+
+Use 0 3 811 814 O
+of 4 6 815 817 O
+medications 7 18 818 829 B-treatment
+that 19 23 830 834 O
+strongly 24 32 835 843 O
+alter 33 38 844 849 O
+CYP3A4 39 45 850 856 B-clinical_variable
+activity 46 54 857 865 O
+
+Weight 0 6 866 872 B-clinical_variable
+> 7 8 873 874 O
+300 9 12 875 878 B-lower_bound
+pounds 13 19 879 885 I-lower_bound
+

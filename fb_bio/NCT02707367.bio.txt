@@ -1,0 +1,16 @@
+Have 0 4 0 4 B-language_fluency
+access 5 11 5 11 I-language_fluency
+to 12 14 12 14 I-language_fluency
+and 15 18 15 18 I-language_fluency
+basic 19 24 19 24 I-language_fluency
+navigation 25 35 25 35 I-language_fluency
+skills 36 42 36 42 I-language_fluency
+for 43 46 43 46 I-language_fluency
+using 47 52 47 52 I-language_fluency
+the 53 56 53 56 I-language_fluency
+Internet 57 65 57 65 I-language_fluency
+( 66 67 66 67 O
+for 67 70 67 70 O
+online 71 77 71 77 O
+coaching 78 86 78 86 O
+

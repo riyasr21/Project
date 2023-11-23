@@ -1,0 +1,299 @@
+Although 0 8 0 8 O
+not 9 12 9 12 O
+mandatory 13 22 13 22 O
+, 22 23 22 23 O
+patients 24 32 24 32 O
+with 33 37 33 37 O
+evidence 38 46 38 46 O
+of 47 49 47 49 O
+current 50 57 50 57 O
+or 58 60 58 60 O
+previous 61 69 61 69 O
+active 70 76 70 76 O
+myositis 77 85 77 85 B-chronic_disease
+
+Hypersensitivity 0 16 86 102 O
+to 17 19 103 105 O
+H.P. 20 24 106 110 B-allergy_name
+Acthar 25 31 111 117 I-allergy_name
+, 31 32 117 118 O
+any 33 36 119 122 O
+of 37 39 123 125 O
+its 40 43 126 129 O
+components 44 54 130 140 O
+( 55 56 141 142 O
+allergy 56 63 142 149 O
+to 64 66 150 152 O
+pig 67 70 153 156 B-treatment
+- 70 71 156 157 I-treatment
+derived 71 78 157 164 I-treatment
+proteins 79 87 165 173 I-treatment
+) 87 88 173 174 O
+
+IVIG 0 4 175 179 B-treatment
+
+Must 0 4 180 184 O
+be 5 7 185 187 O
+18 8 10 188 190 B-lower_bound
+years 11 16 191 196 I-lower_bound
+of 17 19 197 199 O
+age 20 23 200 203 B-age
+or 24 26 204 206 O
+older 27 32 207 212 O
+
+Must 0 4 213 217 O
+have 5 9 218 222 O
+had 10 13 223 226 O
+a 14 15 227 228 O
+skin 16 20 229 233 B-treatment
+biopsy 21 27 234 240 I-treatment
+with 28 32 241 245 O
+histologic 33 43 246 256 O
+features 44 52 257 265 O
+consistent 53 63 266 276 O
+with 64 68 277 281 O
+dermatomyositis 69 84 282 297 B-chronic_disease
+and 85 88 298 301 O
+current 89 96 302 309 O
+cutaneous 97 106 310 319 O
+manifestations 107 121 320 334 O
+consistent 122 132 335 345 O
+with 133 137 346 350 O
+dermatomyositis 138 153 351 366 O
+
+Patients 0 8 367 375 O
+taking 9 15 376 382 O
+daily 16 21 383 388 O
+doses 22 27 389 394 O
+of 28 30 395 397 O
+systemic 31 39 398 406 B-treatment
+corticosteroids 40 55 407 422 I-treatment
+greater 56 63 423 430 O
+than 64 68 431 435 O
+the 69 72 436 439 O
+equivalent 73 83 440 450 O
+of 84 86 451 453 O
+40 87 89 454 456 B-lower_bound
+mg 89 91 456 458 I-lower_bound
+prednisone 92 102 459 469 B-treatment
+
+Patients 0 8 470 478 O
+who 9 12 479 482 O
+have 13 17 483 487 O
+had 18 21 488 491 O
+surgery 22 29 492 499 B-treatment
+within 30 36 500 506 O
+8 37 38 507 508 B-upper_bound
+weeks 39 44 509 514 I-upper_bound
+of 45 47 515 517 O
+screening 48 57 518 527 O
+
+Patients 0 8 528 536 O
+with 9 13 537 541 O
+a 14 15 542 543 O
+history 16 23 544 551 O
+of 24 26 552 554 O
+or 27 29 555 557 O
+current 30 37 558 565 O
+gastric 38 45 566 573 B-chronic_disease
+ulcers 46 52 574 580 I-chronic_disease
+
+Patients 0 8 581 589 O
+with 9 13 590 594 O
+acutely 14 21 595 602 O
+active 22 28 603 609 O
+or 29 31 610 612 O
+chronic 32 39 613 620 O
+infections 40 50 621 631 B-chronic_disease
+
+Patients 0 8 632 640 O
+with 9 13 641 645 O
+any 14 17 646 649 O
+medical 18 25 650 657 O
+condition 26 35 658 667 O
+that 36 40 668 672 O
+is 41 43 673 675 O
+felt 44 48 676 680 O
+by 49 51 681 683 O
+the 52 55 684 687 O
+primary 56 63 688 695 O
+investigator 64 76 696 708 O
+to 77 79 709 711 O
+place 80 85 712 717 O
+the 86 89 718 721 O
+patient 90 97 722 729 O
+at 98 100 730 732 O
+unreasonable 101 113 733 745 O
+risk 114 118 746 750 O
+for 119 122 751 754 O
+adverse 123 130 755 762 O
+effects 131 138 763 770 O
+during 139 145 771 777 O
+treatment 146 155 778 787 B-treatment
+with 156 160 788 792 O
+H.P. 161 165 793 797 B-treatment
+Acthar 166 172 798 804 I-treatment
+
+Patients 0 8 805 813 O
+with 9 13 814 818 O
+clear 14 19 819 824 O
+features 20 28 825 833 O
+of 29 31 834 836 O
+an 32 34 837 839 O
+overlap 35 42 840 847 O
+myositis 43 51 848 856 B-chronic_disease
+
+Patients 0 8 857 865 O
+with 9 13 866 870 O
+dermatomyositis 14 29 871 886 B-chronic_disease
+who 30 33 887 890 O
+have 34 38 891 895 O
+minimal 39 46 896 903 O
+- 46 47 903 904 O
+to 47 49 904 906 O
+- 49 50 906 907 O
+no 50 52 907 909 O
+active 53 59 910 916 O
+cutaneous 60 69 917 926 O
+features 70 78 927 935 O
+( 79 80 936 937 O
+focal 80 85 937 942 O
+involvement 86 97 943 954 O
+with 98 102 955 959 O
+less 103 107 960 964 O
+than 108 112 965 969 O
+1 113 114 970 971 B-upper_bound
+% 114 115 971 972 I-upper_bound
+total 116 121 973 978 O
+body 122 126 979 983 O
+surface 127 134 984 991 O
+area 135 139 992 996 O
+involved 140 148 997 1005 O
+or 149 151 1006 1008 O
+minimal 152 159 1009 1016 O
+modified 160 168 1017 1025 O
+CDASI 169 174 1026 1031 B-clinical_variable
+activity 175 183 1032 1040 I-clinical_variable
+score 184 189 1041 1046 I-clinical_variable
+) 189 190 1046 1047 O
+
+Patients 0 8 1048 1056 O
+with 9 13 1057 1061 O
+inflammatory 14 26 1062 1074 B-chronic_disease
+myositis 27 35 1075 1083 I-chronic_disease
+
+Patients 0 8 1084 1092 O
+with 9 13 1093 1097 O
+malignancy 14 24 1098 1108 B-cancer
+- 24 25 1108 1109 I-cancer
+associated 25 35 1109 1119 I-cancer
+dermatomyositis 36 51 1120 1135 I-cancer
+
+Patients 0 8 1136 1144 O
+with 9 13 1145 1149 O
+osteoporosis 14 26 1150 1162 B-chronic_disease
+
+Patients 0 8 1163 1171 O
+with 9 13 1172 1176 O
+uncontrolled 14 26 1177 1189 O
+diabetes 27 35 1190 1198 B-chronic_disease
+
+Patients 0 8 1199 1207 O
+younger 9 16 1208 1215 O
+than 17 21 1216 1220 O
+18 22 24 1221 1223 B-upper_bound
+years 25 30 1224 1229 I-upper_bound
+old 31 34 1230 1233 O
+
+Pregnant 0 8 1234 1242 B-pregnancy
+
+Sontheimer 0 10 1243 1253 O
+'s 10 12 1253 1255 O
+criteria 13 21 1256 1264 O
+( 22 23 1265 1266 O
+AD 23 25 1266 1268 B-chronic_disease
+) 25 26 1268 1269 O
+
+Use 0 3 1270 1273 O
+of 4 6 1274 1276 O
+topical 7 14 1277 1284 B-treatment
+medications 15 26 1285 1296 I-treatment
+and 27 30 1297 1300 O
+sunscreen 31 40 1301 1310 B-treatment
+currently 41 50 1311 1320 O
+and 51 54 1321 1324 O
+in 55 57 1325 1327 O
+past 58 62 1328 1332 O
+will 63 67 1333 1337 O
+be 68 70 1338 1340 O
+noted 71 76 1341 1346 O
+but 77 80 1347 1350 O
+not 81 84 1351 1354 O
+weighed 85 92 1355 1362 O
+for 93 96 1363 1366 O
+assessment 97 107 1367 1377 O
+of 108 110 1378 1380 O
+refractory 111 121 1381 1391 O
+cutaneous 122 131 1392 1401 B-chronic_disease
+disease 132 139 1402 1409 I-chronic_disease
+
+adalimumab 0 10 1410 1420 B-treatment
+
+amyopathic 0 10 1421 1431 B-chronic_disease
+dermatomyositis(AD 11 29 1432 1450 I-chronic_disease
+) 29 30 1450 1451 I-chronic_disease
+
+azathioprine 0 12 1452 1464 B-treatment
+
+chlorambucil 0 12 1465 1477 B-treatment
+
+cyclophosphamide 0 16 1478 1494 B-treatment
+
+cyclosporine 0 12 1495 1507 B-treatment
+
+dermatomyositis 0 15 1508 1523 B-chronic_disease
+
+hypertension 0 12 1524 1536 B-chronic_disease
+
+infliximab 0 10 1537 1547 B-treatment
+and 11 14 1548 1551 O
+rituximab 15 24 1552 1561 B-treatment
+
+juvenile 0 8 1562 1570 B-chronic_disease
+dermatomyositis 9 24 1571 1586 I-chronic_disease
+( 25 26 1587 1588 I-chronic_disease
+JD 26 28 1588 1590 I-chronic_disease
+) 28 29 1590 1591 I-chronic_disease
+
+lactating 0 9 1592 1601 O
+females 10 17 1602 1609 B-gender
+
+methotrexate 0 12 1610 1622 B-treatment
+
+mycophenolate 0 13 1623 1636 B-treatment
+mofetil 14 21 1637 1644 I-treatment
+
+polymyositis 0 12 1645 1657 B-chronic_disease
+or 13 15 1658 1660 O
+inclusion 16 25 1661 1670 B-chronic_disease
+body 26 30 1671 1675 I-chronic_disease
+myositis 31 39 1676 1684 I-chronic_disease
+
+renal 0 5 1685 1690 B-chronic_disease
+disease 6 13 1691 1698 I-chronic_disease
+
+sirolimus 0 9 1699 1708 B-treatment
+
+with 0 4 1709 1713 O
+refractory 5 15 1714 1724 O
+cutaneous 16 25 1725 1734 O
+symptoms 26 34 1735 1743 O
+related 35 42 1744 1751 O
+to 43 45 1752 1754 O
+either 46 52 1755 1761 O
+classic 53 60 1762 1769 B-chronic_disease
+dermatomyositis 61 76 1770 1785 I-chronic_disease
+( 77 78 1786 1787 I-chronic_disease
+CD 78 80 1787 1789 I-chronic_disease
+) 80 81 1789 1790 I-chronic_disease
+

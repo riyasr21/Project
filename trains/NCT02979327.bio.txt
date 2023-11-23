@@ -1,0 +1,70 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+and 16 19 16 19 O
+older 20 25 20 25 O
+
+Known 0 5 26 31 O
+lactose 6 13 32 39 B-chronic_disease
+intolerance 14 25 40 51 I-chronic_disease
+( 26 27 52 53 O
+due 27 30 53 56 O
+to 31 33 57 59 O
+presence 34 42 60 68 O
+of 43 45 69 71 O
+lactose 46 53 72 79 O
+in 54 56 80 82 O
+the 57 60 83 86 O
+prepared 61 69 87 95 O
+medication 70 80 96 106 O
+) 80 81 106 107 O
+
+Pregnant 0 8 108 116 B-pregnancy
+subjects 9 17 117 125 O
+
+Prior 0 5 126 131 O
+history 6 13 132 139 O
+of 14 16 140 142 O
+regular 17 24 143 150 O
+amphetamine 25 36 151 162 B-treatment
+use 37 40 163 166 O
+
+Subjects 0 8 167 175 O
+with 9 13 176 180 O
+history 14 21 181 188 O
+of 22 24 189 191 O
+psychotic 25 34 192 201 B-chronic_disease
+disorders 35 44 202 211 I-chronic_disease
+/ 44 45 211 212 O
+mental 45 51 212 218 B-chronic_disease
+health 52 58 219 225 I-chronic_disease
+illness 59 66 226 233 I-chronic_disease
+
+Subjects 0 8 234 242 O
+with 9 13 243 247 O
+known 14 19 248 253 O
+cardiovascular 20 34 254 268 B-chronic_disease
+disease 35 42 269 276 I-chronic_disease
+, 42 43 276 277 O
+thyroid 44 51 278 285 B-chronic_disease
+disease 52 59 286 293 I-chronic_disease
+
+Subjects 0 8 294 302 O
+with 9 13 303 307 O
+no 14 16 308 310 O
+prior 17 22 311 316 O
+history 23 30 317 324 O
+of 31 33 325 327 O
+regular 34 41 328 335 O
+amphetamine 42 53 336 347 B-treatment
+use 54 57 348 351 O
+, 57 58 351 352 O
+and 59 62 353 356 O
+non 63 66 357 360 B-treatment
+- 66 67 360 361 I-treatment
+prescription 67 79 361 373 I-treatment
+stimulants 80 90 374 384 I-treatment
+
+depression 0 10 385 395 B-chronic_disease
+

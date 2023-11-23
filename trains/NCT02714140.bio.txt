@@ -1,0 +1,30 @@
+Females 0 7 0 7 B-gender
+who 8 11 8 11 O
+regularly 12 21 12 21 O
+work 22 26 22 26 O
+at 27 29 27 29 O
+a 30 31 30 31 O
+bar 32 35 32 35 O
+, 35 36 35 36 O
+hotel 37 42 37 42 O
+or 43 45 43 45 O
+restaurant 46 56 46 56 O
+establishment 57 70 57 70 O
+and 71 74 71 74 O
+serve 75 80 75 80 O
+alcohol 81 88 81 88 O
+to 89 91 89 91 O
+patrons 92 99 92 99 O
+
+Males 0 5 100 105 B-gender
+who 6 9 106 109 O
+work 10 14 110 114 O
+as 15 17 115 117 O
+Kilimanjaro 18 29 118 129 O
+mountain 30 38 130 138 O
+porters 39 46 139 146 O
+
+ages 0 4 147 151 B-age
+18 5 7 152 154 B-lower_bound
++ 7 8 154 155 O
+

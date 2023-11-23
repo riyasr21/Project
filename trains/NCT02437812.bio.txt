@@ -1,0 +1,97 @@
+Advanced 0 8 0 8 O
+stage 9 14 9 14 O
+epithelial 15 25 15 25 B-cancer
+ovarian 26 33 26 33 I-cancer
+, 33 34 33 34 O
+fallopian 35 44 35 44 B-cancer
+tube 45 49 45 49 I-cancer
+, 49 50 49 50 O
+or 51 53 51 53 O
+primary 54 61 54 61 B-cancer
+peritoneal 62 72 62 72 I-cancer
+cancer 73 79 73 79 I-cancer
+
+Age 0 3 80 83 B-age
+greater 4 11 84 91 O
+than 12 16 92 96 O
+18 17 19 97 99 B-lower_bound
+years 20 25 100 105 I-lower_bound
+
+ECOG 0 4 106 110 B-clinical_variable
+performance 5 16 111 122 I-clinical_variable
+score 17 22 123 128 I-clinical_variable
+of 23 25 129 131 O
+2 26 27 132 133 B-lower_bound
+or 28 30 134 136 O
+greater 31 38 137 144 O
+
+Female 0 6 145 151 B-gender
+Gender 7 13 152 158 O
+
+Patients 0 8 159 167 O
+must 9 13 168 172 O
+be 14 16 173 175 O
+able 17 21 176 180 O
+to 22 24 181 183 O
+swallow 25 32 184 191 O
+oral 33 37 192 196 B-treatment
+medication 38 48 197 207 I-treatment
+
+Subjects 0 8 208 216 O
+must 9 13 217 221 O
+NOT 14 17 222 225 O
+be 18 20 226 228 O
+taking 21 27 229 235 O
+metformin 28 37 236 245 B-treatment
+or 38 40 246 248 O
+have 41 45 249 253 O
+been 46 50 254 258 O
+on 51 53 259 261 O
+metformin 54 63 262 271 O
+in 64 66 272 274 O
+the 67 70 275 278 O
+past 71 75 279 283 B-upper_bound
+6 76 77 284 285 I-upper_bound
+months 78 84 286 292 I-upper_bound
+
+Subjects 0 8 293 301 O
+with 9 13 302 306 O
+a 14 15 307 308 O
+diagnosis 16 25 309 318 O
+of 26 28 319 321 O
+epithelial 29 39 322 332 B-cancer
+ovarian 40 47 333 340 I-cancer
+, 47 48 340 341 O
+fallopian 49 58 342 351 B-cancer
+tube 59 63 352 356 I-cancer
+or 64 66 357 359 O
+peritoneal 67 77 360 370 B-cancer
+cancers 78 85 371 378 I-cancer
+of 86 88 379 381 O
+low 89 92 382 385 O
+malignant 93 102 386 395 O
+potential 103 112 396 405 O
+( 113 114 406 407 O
+borderline 114 124 407 417 O
+carcinomas 125 135 418 428 B-cancer
+) 135 136 428 429 O
+
+Subjects 0 8 430 438 O
+with 9 13 439 443 O
+concomitant 14 25 444 455 O
+malignancy 26 36 456 466 B-cancer
+or 37 39 467 469 O
+a 40 41 470 471 O
+previous 42 50 472 480 O
+malignancy 51 61 481 491 O
+within 62 68 492 498 O
+the 69 72 499 502 O
+past 73 77 503 507 B-upper_bound
+three 78 83 508 513 I-upper_bound
+years 84 89 514 519 I-upper_bound
+
+melanoma 0 8 520 528 B-cancer
+skin 9 13 529 533 I-cancer
+cancer 14 20 534 540 I-cancer
+excepted 21 29 541 549 O
+

@@ -1,0 +1,32 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+Diagnosis 0 9 18 27 O
+of 10 12 28 30 O
+mild 13 17 31 35 B-chronic_disease
+to 18 20 36 38 I-chronic_disease
+moderate 21 29 39 47 I-chronic_disease
+traumatic 30 39 48 57 I-chronic_disease
+brain 40 45 58 63 I-chronic_disease
+injury 46 52 64 70 I-chronic_disease
+
+Head 0 4 71 75 O
+, 4 5 75 76 O
+neck 6 10 77 81 O
+or 11 13 82 84 O
+back 14 18 85 89 O
+wounds 19 25 90 96 O
+that 26 30 97 101 O
+would 31 36 102 107 O
+prevent 37 44 108 115 O
+OMT 45 48 116 119 B-treatment
+treatment 49 58 120 129 I-treatment
+
+Minors 0 6 130 136 O
+below 7 12 137 142 O
+age 13 16 143 146 B-age
+of 17 19 147 149 O
+18 20 22 150 152 B-lower_bound
+

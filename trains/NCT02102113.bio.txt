@@ -1,0 +1,63 @@
+Current 0 7 0 7 O
+or 8 10 8 10 O
+lifetime 11 19 11 19 O
+major 20 25 20 25 O
+DSM 26 29 26 29 B-chronic_disease
+- 29 30 29 30 I-chronic_disease
+IV 30 32 30 32 I-chronic_disease
+Axis 33 37 33 37 I-chronic_disease
+I 38 39 38 39 I-chronic_disease
+disorder 40 48 40 48 I-chronic_disease
+
+Current 0 7 49 56 O
+or 8 10 57 59 O
+lifetime 11 19 60 68 O
+treatment 20 29 69 78 B-treatment
+
+Having 0 6 79 85 O
+a 7 8 86 87 O
+family 9 15 88 94 O
+member 16 22 95 101 O
+with 23 27 102 106 O
+psychosis 28 37 107 116 B-chronic_disease
+
+Having 0 6 117 123 O
+one 7 10 124 127 O
+relative 11 19 128 136 O
+with 20 24 137 141 O
+a 25 26 142 143 O
+confirmed 27 36 144 153 O
+psychotic 37 46 154 163 B-chronic_disease
+disorder 47 55 164 172 I-chronic_disease
+
+IQ 0 2 173 175 B-clinical_variable
+less 3 7 176 180 O
+than 8 12 181 185 O
+85 13 15 186 188 B-upper_bound
+
+Major 0 5 189 194 O
+current 6 13 195 202 O
+or 14 16 203 205 O
+recent 17 23 206 212 O
+( 24 25 213 214 O
+< 25 26 214 215 O
+6 26 27 215 216 B-upper_bound
+weeks 28 33 217 222 I-upper_bound
+) 33 34 222 223 O
+psychosocial 35 47 224 236 B-clinical_variable
+stressors 48 57 237 246 I-clinical_variable
+
+Pregnancy 0 9 247 256 B-pregnancy
+or 10 12 257 259 O
+lactation 13 22 260 269 O
+
+with 0 4 270 274 O
+psychotropic 5 17 275 287 B-treatment
+medications 18 29 288 299 I-treatment
+for 30 33 300 303 O
+major 34 39 304 309 O
+psychiatric 40 51 310 321 B-chronic_disease
+or 52 54 322 324 O
+neurological 55 67 325 337 B-chronic_disease
+illness 68 75 338 345 I-chronic_disease
+

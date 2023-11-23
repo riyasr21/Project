@@ -1,0 +1,86 @@
+Any 0 3 0 3 O
+evidence 4 12 4 12 O
+of 13 15 13 15 O
+cardiopulmonary 16 31 16 31 B-chronic_disease
+disease 32 39 32 39 I-chronic_disease
+, 39 40 39 40 O
+left 41 45 41 45 B-chronic_disease
+ventricular 46 57 46 57 I-chronic_disease
+hypertrophy 58 69 58 69 I-chronic_disease
+or 70 72 70 72 O
+systolic 73 81 73 81 B-chronic_disease
+dysfunction 82 93 82 93 I-chronic_disease
+by 94 96 94 96 O
+echocardiography 97 113 97 113 B-treatment
+
+Any 0 3 114 117 O
+history 4 11 118 125 O
+of 12 14 126 128 O
+psychiatric 15 26 129 140 B-chronic_disease
+illness 27 34 141 148 I-chronic_disease
+
+Blood 0 5 149 154 B-clinical_variable
+pressure 6 14 155 163 I-clinical_variable
+averaging 15 24 164 173 I-clinical_variable
+≥160/100 25 33 174 182 O
+mmHg 34 38 183 187 I-lower_bound
+
+Diabetes 0 8 188 196 B-chronic_disease
+mellitus 9 17 197 205 I-chronic_disease
+
+Estimated 0 9 206 215 B-clinical_variable
+glomerular 10 20 216 226 I-clinical_variable
+filtration 21 31 227 237 I-clinical_variable
+rate 32 36 238 242 I-clinical_variable
+( 37 38 243 244 I-clinical_variable
+eGFR 38 42 244 248 I-clinical_variable
+) 42 43 248 249 I-clinical_variable
+< 44 45 250 251 O
+90 46 48 252 254 B-upper_bound
+mL 49 51 255 257 I-upper_bound
+/ 51 52 257 258 I-upper_bound
+min/1.73m2 52 62 258 268 I-upper_bound
+
+History 0 7 269 276 O
+of 8 10 277 279 O
+malignancy 11 21 280 290 B-cancer
+
+Hypersensitivity 0 16 291 307 O
+to 17 19 308 310 O
+nitroprusside 20 33 311 324 B-allergy_name
+
+Pregnancy 0 9 325 334 B-pregnancy
+
+amlodipine 0 10 335 345 B-treatment
+or 11 13 346 348 O
+eplerenone 14 24 349 359 B-treatment
+
+other 0 5 360 365 O
+systemic 6 14 366 374 B-chronic_disease
+illness 15 22 375 382 I-chronic_disease
+
+phenylephrine 0 13 383 396 B-treatment
+
+stage 0 5 397 402 O
+I 6 7 403 404 O
+( 8 9 405 406 O
+140 9 12 406 409 B-lower_bound
+- 12 13 409 410 O
+159/90 13 19 410 416 B-upper_bound
+- 19 20 416 417 I-upper_bound
+99 20 22 417 419 I-upper_bound
+mmHg 23 27 420 424 I-upper_bound
+) 27 28 424 425 O
+subjects 29 37 426 434 O
+with 38 42 435 439 O
+essential 43 52 440 449 B-chronic_disease
+hypertension 53 65 450 462 I-chronic_disease
+
+stage 0 5 463 468 B-chronic_disease
+I 6 7 469 470 I-chronic_disease
+hypertensive 8 20 471 483 I-chronic_disease
+subjects 21 29 484 492 O
+with 30 34 493 497 O
+primary 35 42 498 505 B-chronic_disease
+aldosteronism 43 56 506 519 I-chronic_disease
+

@@ -1,0 +1,56 @@
+Exposure 0 8 0 8 O
+to 9 11 9 11 O
+any 12 15 12 15 O
+investigational 16 31 16 31 B-treatment
+drug 32 36 32 36 I-treatment
+or 37 39 37 39 O
+procedure 40 49 40 49 O
+with 50 54 50 54 O
+1 55 56 55 56 B-upper_bound
+month 57 62 57 62 I-upper_bound
+prior 63 68 63 68 I-upper_bound
+to 69 71 69 71 O
+study 72 77 72 77 O
+entry 78 83 78 83 O
+or 84 86 84 86 O
+enrollment 87 97 87 97 O
+in 98 100 98 100 O
+concurrent 101 111 101 111 O
+study 112 117 112 117 O
+which 118 123 118 123 O
+may 124 127 124 127 O
+interfere 128 137 128 137 O
+with 138 142 138 142 O
+interpretation 143 157 143 157 O
+of 158 160 158 160 O
+study 161 166 161 166 O
+results 167 174 167 174 O
+
+Hepatitis 0 9 175 184 B-chronic_disease
+A 10 11 185 186 I-chronic_disease
+history 12 19 187 194 O
+
+Lactating 0 9 195 204 O
+Females 10 17 205 212 B-gender
+
+Patients 0 8 213 221 O
+positive 9 17 222 230 O
+for 18 21 231 234 O
+Hepatitis 22 31 235 244 B-chronic_disease
+
+Prior 0 5 245 250 O
+Diagnosis 6 15 251 260 O
+of 16 18 261 263 O
+moderate 19 27 264 272 B-chronic_disease
+to 28 30 273 275 I-chronic_disease
+severe 31 37 276 282 I-chronic_disease
+COPD 38 42 283 287 I-chronic_disease
+
+Subjects 0 8 288 296 O
+on 9 11 297 299 O
+chronic 12 19 300 307 B-treatment
+immunosuppressive 20 37 308 325 I-treatment
+or 38 40 326 328 O
+chemotherapeutic 41 57 329 345 B-treatment
+medications 58 69 346 357 I-treatment
+

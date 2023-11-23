@@ -1,0 +1,73 @@
+Blunt 0 5 0 5 B-chronic_disease
+or 6 8 6 8 O
+penetrating 9 20 9 20 B-chronic_disease
+trauma 21 27 21 27 I-chronic_disease
+
+Children 0 8 28 36 O
+ages 9 13 37 41 B-age
+5 14 15 42 43 B-lower_bound
+to 16 18 44 46 O
+18 19 21 47 49 B-upper_bound
+with 22 26 50 54 O
+clinical 27 35 55 63 O
+diagnosis 36 45 64 73 O
+of 46 48 74 76 O
+primary 49 56 77 84 O
+spontaneous 57 68 85 96 O
+pneumothorax 69 81 97 109 B-chronic_disease
+( 82 83 110 111 O
+symptoms 83 91 111 119 O
+of 92 94 120 122 O
+chest 95 100 123 128 O
+pain 101 105 129 133 O
+and/or 106 112 134 140 O
+shortness 113 122 141 150 O
+of 123 125 151 153 O
+breath 126 132 154 160 O
+and 133 136 161 164 O
+pneumothorax 137 149 165 177 O
+demonstrated 150 162 178 190 O
+on 163 165 191 193 O
+chest 166 171 194 199 O
+radiograph 172 182 200 210 O
+) 182 183 210 211 O
+and 184 187 212 215 O
+no 188 190 216 218 O
+prior 191 196 219 224 O
+history 197 204 225 232 O
+of 205 207 233 235 O
+pneumothorax 208 220 236 248 O
+
+Congenital 0 10 249 259 B-chronic_disease
+cystic 11 17 260 266 I-chronic_disease
+adenomatoid 18 29 267 278 I-chronic_disease
+malformation 30 42 279 291 I-chronic_disease
+or 43 45 292 294 O
+congenital 46 56 295 305 B-chronic_disease
+lobar 57 62 306 311 I-chronic_disease
+emphysema 63 72 312 321 I-chronic_disease
+
+Cystic 0 6 322 328 B-chronic_disease
+fibrosis 7 15 329 337 I-chronic_disease
+
+History 0 7 338 345 O
+of 8 10 346 348 O
+previous 11 19 349 357 B-treatment
+cardiac 20 27 358 365 I-treatment
+or 28 30 366 368 O
+pulmonary 31 40 369 378 B-treatment
+surgery 41 48 379 386 I-treatment
+
+Pneumonia 0 9 387 396 B-chronic_disease
+
+Uncontrolled 0 12 397 409 O
+asthma 13 19 410 416 B-chronic_disease
+with 20 24 417 421 O
+hospitalization 25 40 422 437 B-treatment
+for 41 44 438 441 O
+exacerbation 45 57 442 454 O
+within 58 64 455 461 O
+previous 65 73 462 470 B-upper_bound
+30 74 76 471 473 I-upper_bound
+days 77 81 474 478 I-upper_bound
+

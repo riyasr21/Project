@@ -1,0 +1,100 @@
+AST 0 3 0 3 B-clinical_variable
+and 4 7 4 7 O
+ALT 8 11 8 11 B-clinical_variable
+above 12 17 12 17 O
+upper 18 23 18 23 O
+limit 24 29 24 29 O
+of 30 32 30 32 O
+normal 33 39 33 39 O
+( 40 41 40 41 O
+ULN 41 44 41 44 O
+) 44 45 44 45 O
+
+ages 0 4 46 50 B-age
+20 5 7 51 53 B-lower_bound
+- 7 8 53 54 O
+65 8 10 54 56 B-upper_bound
+years 11 16 57 62 I-upper_bound
+
+change 0 6 63 69 O
+in 7 9 70 72 O
+body 10 14 73 77 B-clinical_variable
+weight 15 21 78 84 I-clinical_variable
+> 22 23 85 86 O
+5 23 24 86 87 B-lower_bound
+% 24 25 87 88 I-lower_bound
+within 26 32 89 95 O
+preceding 33 42 96 105 O
+6 43 44 106 107 B-upper_bound
+months 45 51 108 114 I-upper_bound
+( 52 53 115 116 O
+self 53 57 116 120 O
+report 58 64 121 127 O
+) 64 65 127 128 O
+
+claustrophobia 0 14 129 143 B-chronic_disease
+, 14 15 143 144 O
+presence 16 24 145 153 O
+of 25 27 154 156 O
+metal 28 33 157 162 O
+implants 34 42 163 171 O
+
+fasting 0 7 172 179 B-clinical_variable
+triglyceride 8 20 180 192 I-clinical_variable
+or 21 23 193 195 I-clinical_variable
+total 24 29 196 201 I-clinical_variable
+cholesterol 30 41 202 213 I-clinical_variable
+levels 42 48 214 220 I-clinical_variable
+> 49 50 221 222 O
+ULN 50 53 222 225 O
+
+history 0 7 226 233 O
+of 8 10 234 236 O
+surgery 11 18 237 244 B-treatment
+for 19 22 245 248 O
+obesity 23 30 249 256 O
+
+men 0 3 257 260 B-gender
+
+positive 0 8 261 269 O
+HIV 9 12 270 273 B-chronic_disease
+antibody 13 21 274 282 O
+test 22 26 283 287 O
+or 27 29 288 290 O
+hepatitis 30 39 291 300 O
+serologies 40 50 301 311 O
+
+pregnancy 0 9 312 321 B-pregnancy
+or 10 12 322 324 O
+lactation 13 22 325 334 O
+within 23 29 335 341 O
+the 30 33 342 345 O
+past 34 38 346 350 B-upper_bound
+six 39 42 351 354 I-upper_bound
+months 43 49 355 361 I-upper_bound
+
+type 0 4 362 366 B-chronic_disease
+1 5 6 367 368 I-chronic_disease
+or 7 9 369 371 I-chronic_disease
+2 10 11 372 373 I-chronic_disease
+diabetes 12 20 374 382 I-chronic_disease
+mellitus 21 29 383 391 I-chronic_disease
+
+use 0 3 392 395 O
+of 4 6 396 398 O
+any 7 10 399 402 O
+antidiabetic 11 23 403 415 B-treatment
+medications 24 35 416 427 I-treatment
+or 36 38 428 430 O
+lipid 39 44 431 436 B-treatment
+- 44 45 436 437 I-treatment
+lowering 45 53 437 445 I-treatment
+drugs 54 59 446 451 I-treatment
+
+weight 0 6 452 458 B-clinical_variable
+over 7 11 459 463 O
+350 12 15 464 467 B-lower_bound
+lbs 16 19 468 471 I-lower_bound
+
+women 0 5 472 477 B-gender
+

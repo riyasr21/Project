@@ -1,0 +1,196 @@
+Histology 0 9 0 9 O
+showing 10 17 10 17 O
+evidence 18 26 18 26 O
+of 27 29 27 29 O
+intestinal 30 40 30 40 B-chronic_disease
+metaplasia 41 51 41 51 I-chronic_disease
+with 52 56 52 56 O
+or 57 59 57 59 O
+without 60 67 60 67 O
+presence 68 76 68 76 O
+of 77 79 77 79 O
+dysplasia 80 89 80 89 B-chronic_disease
+
+Patient 0 7 90 97 O
+between 8 15 98 105 O
+the 16 19 106 109 O
+ages 20 24 110 114 B-age
+18 25 27 115 117 B-lower_bound
+- 28 29 118 119 O
+85 30 32 120 122 B-upper_bound
+
+Patients 0 8 123 131 O
+on 9 11 132 134 O
+antiplatelet 12 24 135 147 B-treatment
+agents 25 31 148 154 I-treatment
+including 32 41 155 164 O
+Clopidogrel 42 53 165 176 B-treatment
+, 53 54 176 177 O
+unless 55 61 178 184 O
+discontinued 62 74 185 197 O
+for 75 78 198 201 O
+5 79 80 202 203 O
+days 81 85 204 208 O
+prior 86 91 209 214 O
+to 92 94 215 217 O
+the 95 98 218 221 O
+sponge 99 105 222 228 O
+procedure 106 115 229 238 O
+
+Patients 0 8 239 247 O
+on 9 11 248 250 O
+oral 12 16 251 255 B-treatment
+anticoagulation 17 32 256 271 I-treatment
+including 33 42 272 281 O
+Coumadin 43 51 282 290 B-treatment
+, 51 52 290 291 O
+Warfarin 53 61 292 300 B-treatment
+
+Patients 0 8 301 309 O
+on 9 11 310 312 O
+oral 12 16 313 317 B-treatment
+thrombin 17 25 318 326 I-treatment
+inhibitors 26 36 327 337 I-treatment
+including 37 46 338 347 O
+Dabigatran 47 57 348 358 B-treatment
+and 58 61 359 362 O
+oral 62 66 363 367 B-treatment
+factor 67 73 368 374 I-treatment
+X 74 75 375 376 I-treatment
+a 76 77 377 378 I-treatment
+inhibitors 78 88 379 389 I-treatment
+such 89 93 390 394 O
+as 94 96 395 397 O
+rivaroxaban 97 108 398 409 B-treatment
+, 108 109 409 410 O
+apixaban 110 118 411 419 B-treatment
+and 119 122 420 423 O
+edoxaban 123 131 424 432 B-treatment
+, 131 132 432 433 O
+unless 133 139 434 440 O
+discontinued 140 152 441 453 O
+for 153 156 454 457 O
+5 157 158 458 459 B-upper_bound
+days 159 163 460 464 I-upper_bound
+prior 164 169 465 470 I-upper_bound
+to 170 172 471 473 O
+the 173 176 474 477 O
+sponge 177 183 478 484 O
+procedure 184 193 485 494 O
+
+Patients 0 8 495 503 O
+with 9 13 504 508 O
+a 14 15 509 510 O
+BE 16 18 511 513 B-clinical_variable
+segment 19 26 514 521 I-clinical_variable
+≥ 27 28 522 523 O
+1 29 30 524 525 B-lower_bound
+cm 30 32 525 527 I-lower_bound
+in 33 35 528 530 O
+maximal 36 43 531 538 O
+extent 44 50 539 545 O
+endoscopically 51 65 546 560 O
+
+Patients 0 8 561 569 O
+with 9 13 570 574 O
+a 14 15 575 576 O
+history 16 23 577 584 O
+of 24 26 585 587 O
+esophageal 27 37 588 598 B-cancer
+squamous 38 46 599 607 I-cancer
+dysplasia 47 56 608 617 I-cancer
+
+Patients 0 8 618 626 O
+with 9 13 627 631 O
+congenital 14 24 632 642 O
+or 25 27 643 645 O
+acquired 28 36 646 654 O
+bleeding 37 45 655 663 B-chronic_disease
+diatheses 46 55 664 673 I-chronic_disease
+
+Patients 0 8 674 682 O
+with 9 13 683 687 O
+current 14 21 688 695 O
+history 22 29 696 703 O
+of 30 32 704 706 O
+eosinophilic 33 45 707 719 B-chronic_disease
+esophagitis 46 57 720 731 I-chronic_disease
+, 57 58 731 732 O
+achalasia 59 68 733 742 B-chronic_disease
+or 69 71 743 745 O
+uninvestigated 72 86 746 760 B-chronic_disease
+dysphagia 87 96 761 770 I-chronic_disease
+
+Patients 0 8 771 779 O
+with 9 13 780 784 O
+history 14 21 785 792 O
+of 22 24 793 795 O
+endoscopic 25 35 796 806 B-chronic_disease
+mucosal 36 43 807 814 I-chronic_disease
+resection 44 53 815 824 I-chronic_disease
+alone 54 59 825 830 O
+
+Patients 0 8 831 839 O
+with 9 13 840 844 O
+history 14 21 845 852 O
+of 22 24 853 855 O
+esophageal 25 35 856 866 B-treatment
+or 36 38 867 869 O
+gastric 39 46 870 877 B-treatment
+resection 47 56 878 887 I-treatment
+
+Patients 0 8 888 896 O
+with 9 13 897 901 O
+history 14 21 902 909 O
+of 22 24 910 912 O
+known 25 30 913 918 O
+varices 31 38 919 926 B-chronic_disease
+or 39 41 927 929 O
+cirrhosis 42 51 930 939 B-chronic_disease
+
+Patients 0 8 940 948 O
+with 9 13 949 953 O
+prior 14 19 954 959 O
+history 20 27 960 967 O
+of 28 30 968 970 O
+ablation 31 39 971 979 B-treatment
+( 40 41 980 981 O
+photodynamic 41 53 981 993 B-treatment
+therapy 54 61 994 1001 I-treatment
+, 61 62 1001 1002 O
+radiofrequency 63 77 1003 1017 B-treatment
+ablation 78 86 1018 1026 I-treatment
+, 86 87 1026 1027 O
+cryotherapy 88 99 1028 1039 B-treatment
+, 99 100 1039 1040 O
+argon 101 106 1041 1046 B-treatment
+plasma 107 113 1047 1053 I-treatment
+coagulation 114 125 1054 1065 I-treatment
+) 125 126 1065 1066 O
+
+Pregnant 0 8 1067 1075 B-pregnancy
+
+Subjects 0 8 1076 1084 O
+with 9 13 1085 1089 O
+known 14 19 1090 1095 O
+Barrett 20 27 1096 1103 B-chronic_disease
+'s 27 29 1103 1105 I-chronic_disease
+Esophagus 30 39 1106 1115 I-chronic_disease
+( 40 41 1116 1117 I-chronic_disease
+BE 41 43 1117 1119 I-chronic_disease
+) 43 44 1119 1120 I-chronic_disease
+
+Undergoing 0 10 1121 1131 O
+clinically 11 21 1132 1142 O
+indicated 22 31 1143 1152 O
+diagnostic 32 42 1153 1163 B-treatment
+endoscopy 43 52 1164 1173 I-treatment
+
+Undergoing 0 10 1174 1184 O
+clinically 11 21 1185 1195 O
+indicated 22 31 1196 1205 O
+endoscopy 32 41 1206 1215 B-treatment
+
+lactating 0 9 1216 1225 O
+females 10 17 1226 1233 B-gender
+

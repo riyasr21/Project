@@ -1,0 +1,116 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+45 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Diagnosed 0 9 16 25 O
+with 10 14 26 30 O
+at 15 17 31 33 O
+least 18 23 34 39 O
+6 24 25 40 41 B-lower_bound
+regular 26 33 42 49 O
+uterine 34 41 50 57 B-chronic_disease
+contractions 42 54 58 70 I-chronic_disease
+in 55 57 71 73 O
+an 58 60 74 76 O
+observation 61 72 77 88 O
+period 73 79 89 95 O
+of 80 82 96 98 O
+no 83 85 99 101 O
+more 86 90 102 106 O
+than 91 95 107 111 O
+60 96 98 112 114 B-upper_bound
+minutes 99 106 115 122 I-upper_bound
+
+History 0 7 123 130 O
+of 8 10 131 133 O
+prior 11 16 134 139 B-treatment
+cesarean 17 25 140 148 I-treatment
+section 26 33 149 156 I-treatment
+or 34 36 157 159 I-treatment
+uterine 37 44 160 167 I-treatment
+surgery 45 52 168 175 I-treatment
+
+Non 0 3 176 179 B-language_fluency
+- 3 4 179 180 I-language_fluency
+English 4 11 180 187 I-language_fluency
+speaking 12 20 188 196 I-language_fluency
+
+Participant 0 11 197 208 O
+is 12 14 209 211 O
+undergoing 15 25 212 222 B-treatment
+labor 26 31 223 228 I-treatment
+induction 32 41 229 238 I-treatment
+( 42 43 239 240 O
+i.e. 43 47 240 244 O
+cervical 48 56 245 253 B-treatment
+ripening 57 65 254 262 I-treatment
+) 65 66 262 263 O
+
+Pregnant 0 8 264 272 B-pregnancy
+with 9 13 273 277 O
+a 14 15 278 279 O
+singleton 16 25 280 289 O
+gestation 26 35 290 299 B-clinical_variable
+that 36 40 300 304 O
+is 41 43 305 307 O
+equal 44 49 308 313 O
+to 50 52 314 316 O
+or 53 55 317 319 O
+greater 56 63 320 327 O
+than 64 68 328 332 O
+36 69 71 333 335 B-lower_bound
+weeks 72 77 336 341 I-lower_bound
+
+The 0 3 342 345 O
+participant 4 15 346 357 O
+'s 15 17 357 359 O
+attending 18 27 360 369 O
+obstetric 28 37 370 379 O
+physician 38 47 380 389 O
+or 48 50 390 392 O
+midwife 51 58 393 400 O
+has 59 62 401 404 O
+determined 63 73 405 415 O
+that 74 78 416 420 O
+the 79 82 421 424 O
+participant 83 94 425 436 O
+needs 95 100 437 442 O
+administration 101 115 443 457 O
+of 116 118 458 460 O
+oxytocin 119 127 461 469 B-treatment
+infusion 128 136 470 478 I-treatment
+for 137 140 479 482 O
+labor 141 146 483 488 O
+augmentation 147 159 489 501 O
+
+Women 0 5 502 507 B-gender
+not 6 9 508 511 O
+meeting 10 17 512 519 O
+the 18 21 520 523 O
+above 22 27 524 529 O
+criteria 28 36 530 538 O
+
+cervix 0 6 539 545 B-clinical_variable
+greater 7 14 546 553 O
+than 15 19 554 558 O
+or 20 22 559 561 O
+equal 23 28 562 567 O
+to 29 31 568 570 O
+3 32 33 571 572 B-lower_bound
+centimeters 34 45 573 584 I-lower_bound
+dilated 46 53 585 592 O
+OR 54 56 593 595 O
+cervix 57 63 596 602 O
+at 64 66 603 605 O
+least 67 72 606 611 O
+80 73 75 612 614 B-lower_bound
+% 75 76 614 615 I-lower_bound
+effaced 77 84 616 623 O
+
+spontaneous 0 11 624 635 B-chronic_disease
+rupture 12 19 636 643 I-chronic_disease
+of 20 22 644 646 I-chronic_disease
+membranes 23 32 647 656 I-chronic_disease
+

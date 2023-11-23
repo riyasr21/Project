@@ -1,0 +1,32 @@
+Participants 0 12 0 12 O
+at 13 15 13 15 O
+Northwestern 16 28 16 28 O
+University 29 39 29 39 O
+must 40 44 40 44 O
+speak 45 50 45 50 B-language_fluency
+English 51 58 51 58 I-language_fluency
+or 59 61 59 61 I-language_fluency
+Spanish 62 69 62 69 I-language_fluency
+
+Those 0 5 70 75 O
+with 6 10 76 80 O
+a 11 12 81 82 O
+previous 13 21 83 91 O
+kidney 22 28 92 98 B-treatment
+transplant 29 39 99 109 I-treatment
+
+aged≥18 0 7 110 117 B-age
+added 8 13 118 123 O
+to 14 16 124 126 O
+the 17 20 127 130 O
+waitlist 21 29 131 139 O
+in 30 32 140 142 O
+the 33 36 143 146 O
+last 37 41 147 151 O
+year 42 46 152 156 O
+with 47 51 157 161 O
+no 52 54 162 164 O
+potential 55 64 165 174 O
+live 65 69 175 179 O
+donors 70 76 180 186 O
+

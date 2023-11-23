@@ -1,0 +1,278 @@
+8 0 1 0 1 B-lower_bound
+years 2 7 2 7 I-lower_bound
+of 8 10 8 10 O
+age 11 14 11 14 B-age
+or 15 17 15 17 O
+older 18 23 18 23 O
+
+Allergies 0 9 24 33 O
+to 10 12 34 36 O
+Lidocaine 13 22 37 46 B-allergy_name
+or 23 25 47 49 O
+Novocain 26 34 50 58 B-allergy_name
+
+Allergies 0 9 59 68 O
+to 10 12 69 71 O
+imaging 13 20 72 79 B-allergy_name
+dyes 21 25 80 84 I-allergy_name
+
+Bilirubin 0 9 85 94 B-clinical_variable
+≤ 10 11 95 96 O
+2 12 13 97 98 B-upper_bound
+times 14 19 99 104 I-upper_bound
+upper 20 25 105 110 I-upper_bound
+limit 26 31 111 116 I-upper_bound
+of 32 34 117 119 I-upper_bound
+normal 35 41 120 126 I-upper_bound
+
+Concurrent 0 10 127 137 B-treatment
+treatment 11 20 138 147 I-treatment
+with 21 25 148 152 I-treatment
+another 26 33 153 160 I-treatment
+anti 34 38 161 165 I-treatment
+- 38 39 165 166 I-treatment
+estrogen 39 47 166 174 I-treatment
+
+Creatinine 0 10 175 185 B-clinical_variable
+≤ 11 12 186 187 O
+2 13 14 188 189 B-upper_bound
+times 15 20 190 195 I-upper_bound
+upper 21 26 196 201 I-upper_bound
+limit 27 32 202 207 I-upper_bound
+of 33 35 208 210 I-upper_bound
+normal 36 42 211 217 I-upper_bound
+
+Depressed 0 9 218 227 B-chronic_disease
+bone 10 14 228 232 I-chronic_disease
+marrow 15 21 233 239 I-chronic_disease
+
+Diagnosis 0 9 240 249 O
+of 10 12 250 252 O
+inflammatory 13 25 253 265 B-cancer
+breast 26 32 266 272 I-cancer
+carcinoma 33 42 273 282 I-cancer
+
+Diagnosis 0 9 283 292 O
+of 10 12 293 295 O
+triple 13 19 296 302 B-cancer
+- 19 20 302 303 I-cancer
+negative 20 28 303 311 I-cancer
+or 29 31 312 314 O
+ER 32 34 315 317 O
+- 34 35 317 318 O
+negative 35 43 318 326 O
+breast 44 50 327 333 B-cancer
+cancer 51 57 334 340 I-cancer
+
+Female 0 6 341 347 B-gender
+
+Hemoglobin 0 10 348 358 B-clinical_variable
+≥ 11 12 359 360 O
+9.0 13 16 361 364 B-lower_bound
+g 17 18 365 366 I-lower_bound
+/ 18 19 366 367 I-lower_bound
+dl 19 21 367 369 I-lower_bound
+
+Impaired 0 8 370 378 B-chronic_disease
+cardiac 9 16 379 386 I-chronic_disease
+function 17 25 387 395 I-chronic_disease
+or 26 28 396 398 O
+history 29 36 399 406 O
+of 37 39 407 409 O
+cardiac 40 47 410 417 B-chronic_disease
+problems 48 56 418 426 I-chronic_disease
+
+Impaired 0 8 427 435 B-chronic_disease
+renal 9 14 436 441 I-chronic_disease
+function 15 23 442 450 I-chronic_disease
+
+Non 0 3 451 454 B-cancer
+- 3 4 454 455 I-cancer
+Ductal 4 10 455 461 I-cancer
+Pathology 11 20 462 471 O
+: 20 21 471 472 O
+Lobular 22 29 473 480 O
+or 30 32 481 483 O
+Colloid 33 40 484 491 O
+type 41 45 492 496 O
+presence 46 54 497 505 O
+
+Pathological 0 12 506 518 O
+diagnosis 13 22 519 528 O
+of 23 25 529 531 O
+Invasive 26 34 532 540 B-cancer
+Ductal 35 41 541 547 I-cancer
+Breast 42 48 548 554 I-cancer
+Cancer 49 55 555 561 I-cancer
+or 56 58 562 564 O
+Ductal 59 65 565 571 B-cancer
+Carcinoma 66 75 572 581 I-cancer
+in 76 78 582 584 I-cancer
+Situ 79 83 585 589 I-cancer
+requiring 84 93 590 599 O
+mastectomy 94 104 600 610 B-treatment
+
+Pregnant 0 8 611 619 B-pregnancy
+or 9 11 620 622 O
+lactating 12 21 623 632 O
+
+Presence 0 8 633 641 O
+of 9 11 642 644 O
+an 12 14 645 647 O
+infection 15 24 648 657 B-chronic_disease
+including 25 34 658 667 O
+ulcerations 35 46 668 679 B-chronic_disease
+and 47 50 680 683 O
+fungal 51 57 684 690 B-chronic_disease
+infections 58 68 691 701 I-chronic_disease
+in 69 71 702 704 O
+the 72 75 705 708 O
+breast 76 82 709 715 O
+to 83 85 716 718 O
+be 86 88 719 721 O
+studied 89 96 722 729 O
+
+Presence 0 8 730 738 O
+of 9 11 739 741 O
+ascites 12 19 742 749 B-chronic_disease
+( 20 21 750 751 O
+as 21 23 751 753 O
+determined 24 34 754 764 O
+by 35 37 765 767 O
+clinician 38 47 768 777 O
+) 47 48 777 778 O
+
+Presence 0 8 779 787 O
+of 9 11 788 790 O
+pleural 12 19 791 798 B-chronic_disease
+effusion 20 28 799 807 I-chronic_disease
+
+Presence 0 8 808 816 O
+of 9 11 817 819 O
+serious 12 19 820 827 O
+infection 20 29 828 837 B-chronic_disease
+
+Prior 0 5 838 843 B-treatment
+radiation 6 15 844 853 I-treatment
+to 16 18 854 856 O
+the 19 22 857 860 O
+breast 23 29 861 867 O
+or 30 32 868 870 O
+chest 33 38 871 876 O
+wall 39 43 877 881 O
+
+Scheduled 0 9 882 891 O
+to 10 12 892 894 O
+undergo 13 20 895 902 O
+non 21 24 903 906 B-treatment
+- 24 25 906 907 I-treatment
+nipple 25 31 907 913 I-treatment
+sparing 32 39 914 921 I-treatment
+mastectomy 40 50 922 932 I-treatment
+for 51 54 933 936 O
+Invasive 55 63 937 945 O
+Breast 64 70 946 952 B-cancer
+Cancer 71 77 953 959 I-cancer
+or 78 80 960 962 O
+DCIS 81 85 963 967 B-cancer
+
+Several 0 7 968 975 O
+hepatic 8 15 976 983 B-chronic_disease
+impairments 16 27 984 995 I-chronic_disease
+, 27 28 995 996 O
+define 29 35 997 1003 O
+as 36 38 1004 1006 O
+Child 39 44 1007 1012 B-clinical_variable
+- 44 45 1012 1013 I-clinical_variable
+Pugh 45 49 1013 1017 I-clinical_variable
+Class 50 55 1018 1023 I-clinical_variable
+C 56 57 1024 1025 I-clinical_variable
+or 58 60 1026 1028 O
+worse 61 66 1029 1034 O
+
+Transaminases 0 13 1035 1048 O
+( 14 15 1049 1050 O
+AST 15 18 1050 1053 B-clinical_variable
+/ 18 19 1053 1054 I-clinical_variable
+SGOT 19 23 1054 1058 I-clinical_variable
+and 24 27 1059 1062 O
+ALT 28 31 1063 1066 B-clinical_variable
+/ 31 32 1066 1067 I-clinical_variable
+SGPT 32 36 1067 1071 I-clinical_variable
+) 36 37 1071 1072 O
+≤ 38 39 1073 1074 O
+2.5 40 43 1075 1078 B-upper_bound
+times 44 49 1079 1084 I-upper_bound
+upper 50 55 1085 1090 I-upper_bound
+limit 56 61 1091 1096 I-upper_bound
+of 62 64 1097 1099 I-upper_bound
+normal 65 71 1100 1106 I-upper_bound
+
+Willing 0 7 1107 1114 B-contraception_consent
+to 8 10 1115 1117 I-contraception_consent
+use 11 14 1118 1121 I-contraception_consent
+effective 15 24 1122 1131 I-contraception_consent
+contraception 25 38 1132 1145 I-contraception_consent
+for 39 42 1146 1149 O
+at 43 45 1150 1152 O
+least 46 51 1153 1158 O
+28 52 54 1159 1161 B-lower_bound
+- 54 55 1161 1162 I-lower_bound
+days 55 59 1162 1166 I-lower_bound
+post 60 64 1167 1171 O
+study 65 70 1172 1177 O
+drug 71 75 1178 1182 O
+administration 76 90 1183 1197 O
+
+bleeding 0 8 1198 1206 B-chronic_disease
+diatheses 9 18 1207 1216 I-chronic_disease
+, 18 19 1216 1217 O
+thrombocytopenia 20 36 1218 1234 B-chronic_disease
+or 37 39 1235 1237 O
+current 40 47 1238 1245 O
+anticoagulant 48 61 1246 1259 B-treatment
+use 62 65 1260 1263 O
+
+breast 0 6 1264 1270 B-treatment
+surgery 7 14 1271 1278 I-treatment
+which 15 20 1279 1284 O
+interrupts 21 31 1285 1295 O
+communication 32 45 1296 1309 O
+of 46 48 1310 1312 O
+the 49 52 1313 1316 O
+ductal 53 59 1317 1323 O
+systems 60 67 1324 1331 O
+with 68 72 1332 1336 O
+the 73 76 1337 1340 O
+nipple 77 83 1341 1347 O
+
+known 0 5 1348 1353 O
+hypersensitivity 6 22 1354 1370 O
+to 23 25 1371 1373 O
+fulvestrant 26 37 1374 1385 B-allergy_name
+or 38 40 1386 1388 O
+any 41 44 1389 1392 O
+of 45 47 1393 1395 O
+its 48 51 1396 1399 O
+formulation 52 63 1400 1411 O
+components 64 74 1412 1422 O
+including 75 84 1423 1432 O
+castor 85 91 1433 1439 B-allergy_name
+oil 92 95 1440 1443 I-allergy_name
+, 95 96 1443 1444 O
+alcohol 97 104 1445 1452 B-allergy_name
+, 104 105 1452 1453 O
+benzyl 106 112 1454 1460 B-allergy_name
+alcohol 113 120 1461 1468 I-allergy_name
+, 120 121 1468 1469 O
+and 122 125 1470 1473 O
+benzyl 126 132 1474 1480 B-allergy_name
+benzoate 133 141 1481 1489 I-allergy_name
+
+scheduled 0 9 1490 1499 O
+to 10 12 1500 1502 O
+undergo 13 20 1503 1510 O
+nipple 21 27 1511 1517 B-treatment
+sparing 28 35 1518 1525 I-treatment
+mastectomy 36 46 1526 1536 I-treatment
+

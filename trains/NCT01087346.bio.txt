@@ -1,0 +1,104 @@
+adult 0 5 0 5 O
+women 6 11 6 11 B-gender
+
+between 0 7 12 19 O
+the 8 11 20 23 O
+ages 12 16 24 28 B-age
+of 17 19 29 31 O
+4 20 21 32 33 B-lower_bound
+and 22 25 34 37 O
+5 26 27 38 39 B-upper_bound
+
+having 0 6 40 46 O
+a 7 8 47 48 O
+self 9 13 49 53 O
+- 13 14 53 54 O
+reported 14 22 54 62 O
+body 23 27 63 67 B-bmi
+mass 28 32 68 72 I-bmi
+index 33 38 73 78 I-bmi
+of 39 41 79 81 O
+greater 42 49 82 89 O
+than 50 54 90 94 O
+or 55 57 95 97 O
+equal 58 63 98 103 O
+to 64 66 104 106 O
+25 67 69 107 109 B-lower_bound
+
+having 0 6 110 116 O
+a 7 8 117 118 O
+vestibular 9 19 119 129 B-chronic_disease
+or 20 22 130 132 O
+seizure 23 30 133 140 B-chronic_disease
+disorder 31 39 141 149 I-chronic_disease
+
+having 0 6 150 156 O
+the 7 10 157 160 O
+ability 11 18 161 168 O
+to 19 21 169 171 O
+read 22 26 172 176 B-language_fluency
+and 27 30 177 180 I-language_fluency
+write 31 36 181 186 I-language_fluency
+in 37 39 187 189 I-language_fluency
+English 40 47 190 197 I-language_fluency
+
+known 0 5 198 203 O
+pregnancy 6 15 204 213 B-pregnancy
+
+lives 0 5 214 219 O
+in 6 8 220 222 O
+the 9 12 223 226 O
+same 13 17 227 231 O
+household 18 27 232 241 O
+at 28 30 242 244 O
+least 31 36 245 250 O
+1 37 38 251 252 B-lower_bound
+day 39 42 253 256 I-lower_bound
+out 43 46 257 260 O
+of 47 49 261 263 O
+the 50 53 264 267 O
+past 54 58 268 272 B-upper_bound
+30 59 61 273 275 I-upper_bound
+days 62 66 276 280 I-upper_bound
+
+over 0 4 281 285 O
+the 5 8 286 289 O
+age 9 12 290 293 B-age
+of 13 15 294 296 O
+18 16 18 297 299 B-lower_bound
+
+past 0 4 300 304 O
+or 5 7 305 307 O
+current 8 15 308 315 O
+history 16 23 316 323 O
+of 24 26 324 326 O
+eating 27 33 327 333 B-chronic_disease
+disorder 34 42 334 342 I-chronic_disease
+
+though 0 6 343 349 O
+in 7 9 350 352 O
+practice 10 18 353 361 O
+the 19 22 362 365 O
+age 23 26 366 369 B-age
+range 27 32 370 375 O
+is 33 35 376 378 O
+likely 36 42 379 385 O
+to 43 45 386 388 O
+be 46 48 389 391 O
+constrained 49 60 392 403 O
+naturally 61 70 404 413 O
+by 71 73 414 416 O
+the 74 77 417 420 O
+required 78 86 421 429 O
+age 87 90 430 433 O
+of 91 93 434 436 O
+the 94 97 437 440 O
+index 98 103 441 446 O
+child 104 109 447 452 O
+
+women 0 5 453 458 B-gender
+who 6 9 459 462 O
+report 10 16 463 469 O
+being 17 22 470 475 O
+pregnant 23 31 476 484 B-pregnancy
+

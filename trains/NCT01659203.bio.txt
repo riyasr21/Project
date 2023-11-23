@@ -1,0 +1,82 @@
+Chemotherapy 0 12 0 12 B-treatment
+within 13 19 13 19 O
+4 20 21 20 21 B-upper_bound
+weeks 22 27 22 27 I-upper_bound
+prior 28 33 28 33 I-upper_bound
+to 34 36 34 36 O
+entering 37 45 37 45 O
+study 46 51 46 51 O
+
+HIV 0 3 52 55 B-chronic_disease
+positive 4 12 56 64 O
+on 13 15 65 67 O
+combination 16 27 68 79 O
+anti 28 32 80 84 B-treatment
+- 32 33 84 85 I-treatment
+retroviral 33 43 85 95 I-treatment
+therapy 44 51 96 103 I-treatment
+
+Histologically 0 14 104 118 O
+proven 15 21 119 125 O
+primary 22 29 126 133 B-cancer
+soft 30 34 134 138 I-cancer
+tissue 35 41 139 145 I-cancer
+sarcoma 42 49 146 153 I-cancer
+of 50 52 154 156 I-cancer
+the 53 56 157 160 I-cancer
+retroperitoneum 57 72 161 176 I-cancer
+
+History 0 7 177 184 O
+of 8 10 185 187 O
+a 11 12 188 189 O
+different 13 22 190 199 O
+invasive 23 31 200 208 B-cancer
+malignancy 32 42 209 219 I-cancer
+within 43 49 220 226 O
+the 50 53 227 230 O
+past 54 58 231 235 B-upper_bound
+3 59 60 236 237 I-upper_bound
+years 61 66 238 243 I-upper_bound
+
+History 0 7 244 251 O
+of 8 10 252 254 O
+sensitivity 11 22 255 266 O
+to 23 25 267 269 O
+radiation 26 35 270 279 B-allergy_name
+therapy 36 43 280 287 I-allergy_name
+
+Life 0 4 288 292 B-chronic_disease
+expectancy 5 15 293 303 I-chronic_disease
+of 16 18 304 306 O
+greater 19 26 307 314 O
+than 27 31 315 319 O
+2 32 33 320 321 B-lower_bound
+years 34 39 322 327 I-lower_bound
+
+Multifocal 0 10 328 338 B-cancer
+disease 11 18 339 346 I-cancer
+, 18 19 346 347 O
+lymph 20 25 348 353 B-cancer
+node 26 30 354 358 I-cancer
+or 31 33 359 361 O
+distant 34 41 362 369 B-cancer
+metastases 42 52 370 380 I-cancer
+
+Other 0 5 381 386 O
+types 6 11 387 392 O
+of 12 14 393 395 O
+sarcomas 15 23 396 404 B-cancer
+
+Pregnant 0 8 405 413 B-pregnancy
+
+Prior 0 5 414 419 B-treatment
+radiation 6 15 420 429 I-treatment
+therapy 16 23 430 437 I-treatment
+for 24 27 438 441 O
+retroperitoneal 28 43 442 457 B-cancer
+sarcoma 44 51 458 465 I-cancer
+
+Uncontrolled 0 12 466 478 B-chronic_disease
+intercurrent 13 25 479 491 I-chronic_disease
+illness 26 33 492 499 I-chronic_disease
+

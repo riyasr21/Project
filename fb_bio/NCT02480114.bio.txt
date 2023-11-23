@@ -1,0 +1,36 @@
+Currently 0 9 0 9 O
+on 10 12 10 12 O
+gabapentin 13 23 13 23 B-treatment
+
+English 0 7 24 31 B-language_fluency
+speaking 8 16 32 40 I-language_fluency
+
+Histologically 0 14 41 55 O
+proven 15 21 56 62 O
+cancer 22 28 63 69 B-cancer
+of 29 31 70 72 O
+the 32 35 73 76 O
+head 36 40 77 81 B-cancer
+and 41 44 82 85 I-cancer
+neck 45 49 86 90 I-cancer
+cancer 50 56 91 97 I-cancer
+
+History 0 7 98 105 O
+of 8 10 106 108 O
+seizure 11 18 109 116 B-chronic_disease
+disorder 19 27 117 125 O
+
+Planned 0 7 126 133 O
+primary 8 15 134 141 O
+or 16 18 142 144 O
+adjuvant 19 27 145 153 B-treatment
+chemoradiation 28 42 154 168 I-treatment
+therapy 43 50 169 176 I-treatment
+
+Prior 0 5 177 182 O
+non 6 9 183 186 O
+- 9 10 186 187 O
+tolerance 10 19 187 196 O
+of 20 22 197 199 O
+gabapentin 23 33 200 210 B-treatment
+

@@ -1,0 +1,136 @@
+Absence 0 7 0 7 O
+of 8 10 8 10 O
+acute 11 16 11 16 O
+or 17 19 17 19 O
+chronic 20 27 20 27 B-chronic_disease
+psychological 28 41 28 41 I-chronic_disease
+problems 42 50 42 50 I-chronic_disease
+or 51 53 51 53 O
+chemical 54 62 54 62 O
+dependency 63 73 63 73 O
+
+Acute 0 5 74 79 O
+medical 6 13 80 87 O
+complication 14 26 88 100 O
+: 26 27 100 101 O
+cardiac 28 35 102 109 B-chronic_disease
+abnormalities 36 49 110 123 I-chronic_disease
+, 49 50 123 124 O
+skin 51 55 125 129 B-chronic_disease
+breakdowns 56 66 130 140 I-chronic_disease
+, 66 67 140 141 O
+uncontrolled 68 80 142 154 B-chronic_disease
+seizures 81 89 155 163 I-chronic_disease
+, 89 90 163 164 O
+or 91 93 165 167 O
+immunological 94 107 168 181 B-chronic_disease
+, 107 108 181 182 O
+pulmonary/ 109 119 183 193 B-chronic_disease
+renal/ 120 126 194 200 I-chronic_disease
+circulatory 127 138 201 212 I-chronic_disease
+compromise 139 149 213 223 I-chronic_disease
+, 149 150 223 224 O
+auto 151 155 225 229 B-chronic_disease
+- 155 156 229 230 I-chronic_disease
+immune 156 162 230 236 I-chronic_disease
+deficiencies 163 175 237 249 I-chronic_disease
+, 175 176 249 250 O
+sepsis 177 183 251 257 B-chronic_disease
+, 183 184 257 258 O
+active 185 191 259 265 B-chronic_disease
+infection 192 201 266 275 I-chronic_disease
+, 201 202 275 276 O
+dental 203 209 277 283 B-chronic_disease
+caries 210 216 284 290 I-chronic_disease
+
+Acute 0 5 291 296 O
+orthopaedic 6 17 297 308 B-chronic_disease
+problems 18 26 309 317 I-chronic_disease
+: 26 27 317 318 O
+severe 28 34 319 325 O
+scoliosis 35 44 326 335 B-chronic_disease
+or 45 47 336 338 O
+joint 48 53 339 344 B-chronic_disease
+dislocation 54 65 345 356 I-chronic_disease
+, 65 66 356 357 O
+severe 67 73 358 364 O
+osteoporosis 74 86 365 377 B-chronic_disease
+
+BMI 0 3 378 381 B-bmi
+within 4 10 382 388 O
+normal 11 17 389 395 O
+range 18 23 396 401 O
+
+Controlled 0 10 402 412 O
+spasticity 11 21 413 423 B-chronic_disease
+and 22 25 424 427 O
+absence 26 33 428 435 O
+of 34 36 436 438 O
+hip 37 40 439 442 O
+flexion 41 48 443 450 O
+and 49 52 451 454 O
+adduction 53 62 455 464 O
+spasms 63 69 465 471 O
+
+Diabetes 0 8 472 480 B-chronic_disease
+
+History 0 7 481 488 O
+of 8 10 489 491 O
+vestibular 11 21 492 502 B-chronic_disease
+dysfunction 22 33 503 514 I-chronic_disease
+, 33 34 514 515 O
+balance 35 42 516 523 O
+problems 43 51 524 532 O
+or 52 54 533 535 O
+spontaneous 55 66 536 547 O
+falls 67 72 548 553 O
+
+Non 0 3 554 557 B-language_fluency
+- 3 4 557 558 I-language_fluency
+English 4 11 558 565 I-language_fluency
+speaking 12 20 566 574 I-language_fluency
+subjects 21 29 575 583 O
+
+Paralysis 0 9 584 593 B-chronic_disease
+resulting 10 19 594 603 O
+from 20 24 604 608 O
+neurological 25 37 609 621 B-chronic_disease
+disorder 38 46 622 630 I-chronic_disease
+such 47 51 631 635 O
+as 52 54 636 638 O
+low 55 58 639 642 O
+cervical 59 67 643 651 B-chronic_disease
+/ 67 68 651 652 O
+thoracic 68 76 652 660 B-chronic_disease
+spinal 77 83 661 667 I-chronic_disease
+cord 84 88 668 672 I-chronic_disease
+injuries 89 97 673 681 I-chronic_disease
+( 98 99 682 683 O
+C6 99 101 683 685 O
+- 101 102 685 686 O
+T12 102 105 686 689 O
+
+Pregnancy 0 9 690 699 B-pregnancy
+
+Skeletal 0 8 700 708 B-clinical_variable
+maturity 9 17 709 717 I-clinical_variable
+
+Time 0 4 718 722 O
+post 5 9 723 727 O
+injury 10 16 728 734 O
+greater 17 24 735 742 O
+than 25 29 743 747 O
+six 30 33 748 751 B-lower_bound
+months 34 40 752 758 I-lower_bound
+to 41 43 759 761 O
+assure 44 50 762 768 O
+neurological 51 63 769 781 B-chronic_disease
+and 64 67 782 785 O
+emotional 68 77 786 795 O
+stability 78 87 796 805 O
+
+age 0 3 806 809 B-age
+21 4 6 810 812 B-lower_bound
+and 7 10 813 816 O
+above 11 16 817 822 O
+

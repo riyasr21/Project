@@ -1,0 +1,38 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+allergy 11 18 11 18 O
+to 19 21 19 21 O
+midazolam 22 31 22 31 B-allergy_name
+or 32 34 32 34 O
+xylocaine 35 44 35 44 B-allergy_name
+
+Presence 0 8 45 53 O
+of 9 11 54 56 O
+acute 12 17 57 62 B-chronic_disease
+respiratory 18 29 63 74 I-chronic_disease
+infection 30 39 75 84 I-chronic_disease
+at 40 42 85 87 O
+time 43 47 88 92 O
+of 48 50 93 95 O
+surgery 51 58 96 103 B-treatment
+
+aged 0 4 104 108 B-age
+18 5 7 109 111 B-lower_bound
+months-7 8 16 112 120 I-lower_bound
+years 17 22 121 126 I-upper_bound
+
+scheduled 0 9 127 136 O
+for 10 13 137 140 O
+a 14 15 141 142 O
+minor 16 21 143 148 O
+Ear 22 25 149 152 B-treatment
+/ 25 26 152 153 I-treatment
+Nose 26 30 153 157 I-treatment
+/ 30 31 157 158 I-treatment
+Throat 31 37 158 164 I-treatment
+surgical 38 46 165 173 I-treatment
+procedure 47 56 174 183 O
+requiring 57 66 184 193 O
+mask 67 71 194 198 O
+anesthesia 72 82 199 209 O
+

@@ -1,0 +1,43 @@
+Ages 0 4 0 4 B-age
+7 5 6 5 6 B-lower_bound
+- 6 7 6 7 O
+18 7 9 7 9 B-upper_bound
+
+Autism 0 6 10 16 B-chronic_disease
+/ 6 7 16 17 O
+Schizophrenia 7 20 17 30 B-chronic_disease
+
+Exposure 0 8 31 39 O
+to 9 11 40 42 O
+at 12 14 43 45 O
+least 15 20 46 51 O
+one 21 24 52 55 B-lower_bound
+traumatic 25 34 56 65 O
+event 35 40 66 71 O
+and 41 44 72 75 O
+endorsement 45 56 76 87 O
+of 57 59 88 90 O
+any 60 63 91 94 O
+trauma 64 70 95 101 O
+symptoms 71 79 102 110 O
+on 80 82 111 113 O
+the 83 86 114 117 O
+UCLA 87 91 118 122 O
+PTSD 92 96 123 127 O
+Reaction 97 105 128 136 O
+Index 106 111 137 142 O
+for 112 115 143 146 O
+DSM 116 119 147 150 O
+- 119 120 150 151 O
+V 120 121 151 152 O
+
+Low 0 3 153 156 O
+cognitive 4 13 157 166 O
+functioning 14 25 167 178 O
+( 26 27 179 180 O
+IQ 27 29 180 182 B-clinical_variable
+less 30 34 183 187 O
+than 35 39 188 192 O
+70 40 42 193 195 B-upper_bound
+) 42 43 195 196 O
+

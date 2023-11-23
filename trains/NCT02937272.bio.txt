@@ -1,0 +1,41 @@
+Have 0 4 0 4 O
+Eastern 5 12 5 12 B-clinical_variable
+Cooperative 13 24 13 24 I-clinical_variable
+Oncology 25 33 25 33 I-clinical_variable
+Group 34 39 34 39 I-clinical_variable
+( 40 41 40 41 I-clinical_variable
+ECOG 41 45 41 45 I-clinical_variable
+) 45 46 45 46 I-clinical_variable
+scale 47 52 47 52 I-clinical_variable
+performance 53 64 53 64 I-clinical_variable
+status 65 71 65 71 I-clinical_variable
+of 72 74 72 74 O
+0 75 76 75 76 B-lower_bound
+or 77 79 77 79 O
+1 80 81 80 81 B-upper_bound
+
+Have 0 4 82 86 O
+a 5 6 87 88 O
+serious 7 14 89 96 O
+concomitant 15 26 97 108 B-chronic_disease
+systemic 27 35 109 117 I-chronic_disease
+disorder 36 44 118 126 I-chronic_disease
+
+Have 0 4 127 131 O
+moderate 5 13 132 140 O
+or 14 16 141 143 O
+severe 17 23 144 150 O
+cardiovascular 24 38 151 165 B-chronic_disease
+disease 39 46 166 173 I-chronic_disease
+
+The 0 3 174 177 O
+participant 4 15 178 189 O
+must 16 20 190 194 O
+have 21 25 195 199 O
+histological 26 38 200 212 O
+or 39 41 213 215 O
+cytological 42 53 216 227 O
+evidence 54 62 228 236 O
+of 63 65 237 239 O
+cancer 66 72 240 246 B-cancer
+

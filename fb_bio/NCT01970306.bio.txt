@@ -1,0 +1,102 @@
+Intraoperative 0 14 0 14 O
+evidence 15 23 15 23 O
+of 24 26 24 26 O
+metastatic 27 37 27 37 B-cancer
+or 38 40 38 40 O
+locally 41 48 41 48 B-chronic_disease
+- 48 49 48 49 I-chronic_disease
+unresectable 49 61 49 61 I-chronic_disease
+disease 62 69 62 69 I-chronic_disease
+
+Pathologically 0 14 70 84 O
+confirmed 15 24 85 94 O
+Gastric 25 32 95 102 B-chronic_disease
+
+Patient 0 7 103 110 O
+18 8 10 111 113 B-lower_bound
+years 11 16 114 119 I-lower_bound
+of 17 19 120 122 O
+age 20 23 123 126 B-age
+or 24 26 127 129 O
+older 27 32 130 135 O
+
+Patient 0 7 136 143 O
+undergoing 8 18 144 154 O
+any 19 22 155 158 O
+resection 23 32 159 168 O
+requiring 33 42 169 178 O
+an 43 45 179 181 O
+anastomosis 46 57 182 193 B-treatment
+to 58 60 194 196 I-treatment
+the 61 64 197 200 I-treatment
+esophagus 65 74 201 210 I-treatment
+for 75 78 211 214 O
+curative 79 87 215 223 O
+intent 88 94 224 230 O
+
+Patients 0 8 231 239 O
+undergoing 9 19 240 250 O
+any 20 23 251 254 O
+resection 24 33 255 264 B-treatment
+requiring 34 43 265 274 I-treatment
+an 44 46 275 277 I-treatment
+anastomosis 47 58 278 289 I-treatment
+to 59 61 290 292 I-treatment
+the 62 65 293 296 I-treatment
+esophagus 66 75 297 306 I-treatment
+for 76 79 307 310 I-treatment
+palliative 80 90 311 321 I-treatment
+intent 91 97 322 328 I-treatment
+
+Patients 0 8 329 337 O
+with 9 13 338 342 O
+known 14 19 343 348 O
+sensitivity 20 31 349 360 O
+or 32 34 361 363 O
+allergy 35 42 364 371 O
+to 43 45 372 374 O
+porcine 46 53 375 382 B-allergy_name
+materials 54 63 383 392 I-allergy_name
+
+Pregnant 0 8 393 401 B-pregnancy
+
+adenocarcinoma 0 14 402 416 B-cancer
+at 15 17 417 419 O
+either 18 24 420 426 O
+MSKCC 25 30 427 432 O
+or 31 33 433 435 O
+a 34 35 436 437 O
+participating 36 49 438 451 O
+site 50 54 452 456 O
+( 55 56 457 458 O
+biopsy 56 62 458 464 O
+may 63 66 465 468 O
+be 67 69 469 471 O
+performed 70 79 472 481 O
+at 80 82 482 484 O
+other 83 88 485 490 O
+institutions 89 101 491 503 O
+but 102 105 504 507 O
+slides 106 112 508 514 O
+must 113 117 515 519 O
+be 118 120 520 522 O
+confirmed 121 130 523 532 O
+at 131 133 533 535 O
+MSKCC 134 139 536 541 O
+or 140 142 542 544 O
+a 143 144 545 546 O
+participating 145 158 547 560 O
+site 159 163 561 565 O
+, 163 164 565 566 O
+as 165 167 567 569 O
+is 168 170 570 572 O
+routine 171 178 573 580 O
+care 179 183 581 585 O
+at 184 186 586 588 O
+our 187 190 589 592 O
+institution 191 202 593 604 O
+) 202 203 604 605 O
+
+lactating 0 9 606 615 O
+women 10 15 616 621 B-gender
+

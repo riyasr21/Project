@@ -1,0 +1,31 @@
+19 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+60 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+SCI 0 3 16 19 B-clinical_variable
+≥ 4 5 20 21 O
+1 6 7 22 23 B-lower_bound
+year 8 12 24 28 I-lower_bound
+post 13 17 29 33 O
+injury 18 24 34 40 O
+
+have 0 4 41 45 B-language_fluency
+the 5 8 46 49 I-language_fluency
+ability 9 16 50 57 I-language_fluency
+to 17 19 58 60 I-language_fluency
+converse 20 28 61 69 I-language_fluency
+in 29 31 70 72 I-language_fluency
+English 32 39 73 80 I-language_fluency
+
+heart 0 5 81 86 B-chronic_disease
+disease 6 13 87 94 I-chronic_disease
+
+reliable 0 8 95 103 O
+access 9 15 104 110 B-technology_access
+to 16 18 111 113 I-technology_access
+internet 19 27 114 122 I-technology_access
+and 28 31 123 126 I-technology_access
+smartphone 32 42 127 137 I-technology_access
+

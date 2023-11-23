@@ -1,0 +1,69 @@
+Body 0 4 0 4 B-bmi
+Mass 5 9 5 9 I-bmi
+Index 10 15 10 15 I-bmi
+≥ 16 17 16 17 O
+18 18 20 18 20 B-lower_bound
+kg 21 23 21 23 I-lower_bound
+/ 23 24 23 24 I-lower_bound
+m2 24 26 24 26 I-lower_bound
+
+Heavy 0 5 27 32 O
+menstrual 6 15 33 42 O
+blood 16 21 43 48 O
+loss 22 26 49 53 O
+for 27 30 54 57 O
+each 31 35 58 62 O
+of 36 38 63 65 O
+the 39 42 66 69 O
+2 43 44 70 71 O
+menstrual 45 54 72 81 O
+periods 55 62 82 89 O
+assessed 63 71 90 98 O
+at 72 74 99 101 O
+screening 75 84 102 111 O
+using 85 90 112 117 O
+the 91 94 118 121 O
+alkaline 95 103 122 130 B-treatment
+hematin 104 111 131 138 I-treatment
+method 112 118 139 145 I-treatment
+
+History 0 7 146 153 O
+of 8 10 154 156 O
+uterus 11 17 157 163 B-treatment
+surgery 18 25 164 171 I-treatment
+that 26 30 172 176 O
+would 31 36 177 182 O
+interfere 37 46 183 192 O
+with 47 51 193 197 O
+the 52 55 198 201 O
+study 56 61 202 207 O
+
+Premenopausal 0 13 208 221 O
+woman 14 19 222 227 B-gender
+at 20 22 228 230 O
+screening 23 32 231 240 O
+
+The 0 3 241 244 O
+subject 4 11 245 252 O
+is 12 14 253 255 O
+pregnant 15 23 256 264 B-pregnancy
+
+Undiagnosed 0 11 265 276 O
+abnormal 12 20 277 285 B-chronic_disease
+uterine 21 28 286 293 I-chronic_disease
+bleeding 29 37 294 302 I-chronic_disease
+
+planning 0 8 303 311 B-pregnancy
+a 9 10 312 313 I-pregnancy
+pregnancy 11 20 314 323 I-pregnancy
+within 21 27 324 330 O
+the 28 31 331 334 O
+duration 32 40 335 343 O
+of 41 43 344 346 O
+the 44 47 347 350 O
+treatment 48 57 351 360 B-treatment
+period 58 64 361 367 O
+of 65 67 368 370 O
+the 68 71 371 374 O
+study 72 77 375 380 O
+

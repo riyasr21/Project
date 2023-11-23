@@ -1,0 +1,137 @@
+Blunt 0 5 0 5 O
+and/or 6 12 6 12 O
+penetrating 13 24 13 24 B-chronic_disease
+trauma 25 31 25 31 I-chronic_disease
+patient 32 39 32 39 O
+
+Injury 0 6 40 46 B-clinical_variable
+Severity 7 15 47 55 I-clinical_variable
+Score 16 21 56 61 I-clinical_variable
+( 22 23 62 63 I-clinical_variable
+ISS 23 26 63 66 I-clinical_variable
+) 26 27 66 67 I-clinical_variable
+greater 28 35 68 75 O
+than 36 40 76 80 O
+or 41 43 81 83 O
+equal 44 49 84 89 O
+to 50 52 90 92 O
+15 53 55 93 95 B-lower_bound
+
+Lactate 0 7 96 103 B-clinical_variable
+≥ 8 9 104 105 O
+2 10 11 106 107 B-lower_bound
+
+Patient 0 7 108 115 O
+undergoing 8 18 116 126 O
+elective 19 27 127 135 B-treatment
+hip 28 31 136 139 I-treatment
+repair 32 38 140 146 I-treatment
+for 39 42 147 150 O
+non 43 46 151 154 O
+- 46 47 154 155 O
+infectious 47 57 155 165 O
+reasons 58 65 166 173 O
+
+Patients 0 8 174 182 O
+not 9 12 183 186 O
+expected 13 21 187 195 O
+to 22 24 196 198 O
+survive 25 32 199 206 O
+greater 33 40 207 214 O
+than 41 45 215 219 O
+48 46 48 220 222 B-lower_bound
+hours 49 54 223 228 I-lower_bound
+
+Patients 0 8 229 237 O
+receiving 9 18 238 247 O
+chronic 19 26 248 255 O
+corticosteroids 27 42 256 271 B-treatment
+or 43 45 272 274 O
+immunosuppression 46 63 275 292 B-treatment
+therapies 64 73 293 302 I-treatment
+
+Patients 0 8 303 311 O
+with 9 13 312 316 O
+End 14 17 317 320 B-chronic_disease
+Stage 18 23 321 326 I-chronic_disease
+Renal 24 29 327 332 I-chronic_disease
+Disease 30 37 333 340 I-chronic_disease
+
+Patients 0 8 341 349 O
+with 9 13 350 354 O
+any 14 17 355 358 O
+pre 18 21 359 362 O
+- 21 22 362 363 O
+existing 22 30 363 371 O
+hematological 31 44 372 385 B-chronic_disease
+disease 45 52 386 393 I-chronic_disease
+
+Pre 0 3 394 397 O
+- 3 4 397 398 O
+existing 4 12 398 406 O
+conditions 13 23 407 417 O
+such 24 28 418 422 O
+as 29 31 423 425 O
+pathological 32 44 426 438 B-chronic_disease
+fractures 45 54 439 448 I-chronic_disease
+, 54 55 448 449 O
+cancer 56 62 450 456 B-cancer
+, 62 63 456 457 O
+history 64 71 458 465 O
+of 72 74 466 468 O
+HIV 75 78 469 472 B-chronic_disease
+, 78 79 472 473 O
+or 80 82 474 476 O
+history 83 90 477 484 O
+of 91 93 485 487 O
+connective 94 104 488 498 B-chronic_disease
+tissue 105 111 499 505 I-chronic_disease
+disease 112 119 506 513 I-chronic_disease
+
+Pregnancy 0 9 514 523 B-pregnancy
+
+Previous 0 8 524 532 B-treatment
+Chemotherapy 9 21 533 545 I-treatment
+or 22 24 546 548 O
+Radiation 25 34 549 558 B-treatment
+
+Previous 0 8 559 567 O
+bone 9 13 568 572 B-treatment
+marrow 14 20 573 579 I-treatment
+transplantation 21 36 580 595 I-treatment
+
+age 0 3 596 599 B-age
+≥18 4 7 600 603 O
+
+age 0 3 604 607 B-age
+≥18 4 7 608 611 O
+to 8 10 612 614 O
+54 11 13 615 617 B-upper_bound
+
+base 0 4 618 622 B-clinical_variable
+deficit 5 12 623 630 I-clinical_variable
+( 13 14 631 632 I-clinical_variable
+BD 14 16 632 634 I-clinical_variable
+) 16 17 634 635 I-clinical_variable
+≥ 18 19 636 637 O
+5 20 21 638 639 B-lower_bound
+meq 22 25 640 643 I-lower_bound
+
+hemorrhagic 0 11 644 655 B-chronic_disease
+shock 12 17 656 661 I-chronic_disease
+
+mean 0 4 662 666 B-clinical_variable
+arterial 5 13 667 675 I-clinical_variable
+pressure≤ 14 23 676 685 I-clinical_variable
+65 24 26 686 688 B-upper_bound
+mmHg 27 31 689 693 I-upper_bound
+
+systolic 0 8 694 702 B-clinical_variable
+BP 9 11 703 705 I-clinical_variable
+( 12 13 706 707 I-clinical_variable
+SBP 13 16 707 710 I-clinical_variable
+) 16 17 710 711 I-clinical_variable
+≤ 18 19 712 713 O
+90 20 22 714 716 B-upper_bound
+mmHg 23 27 717 721 I-upper_bound
+

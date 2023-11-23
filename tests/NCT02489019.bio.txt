@@ -1,0 +1,77 @@
+60 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+and 9 12 9 12 O
+older 13 18 13 18 O
+
+Age 0 3 19 22 B-age
+less 4 8 23 27 O
+than 9 13 28 32 O
+60 14 16 33 35 B-upper_bound
+
+Patients 0 8 36 44 O
+having 9 15 45 51 O
+combined 16 24 52 60 O
+general 25 32 61 68 B-treatment
+anesthesia 33 43 69 79 I-treatment
+and 44 47 80 83 O
+epidural 48 56 84 92 B-treatment
+anesthesia 57 67 93 103 I-treatment
+
+Patients 0 8 104 112 O
+scheduled 9 18 113 122 O
+for 19 22 123 126 O
+cardiovascular 23 37 127 141 B-treatment
+surgery 38 45 142 149 I-treatment
+
+Patients 0 8 150 158 O
+who 9 12 159 162 O
+will 13 17 163 167 O
+receive 18 25 168 175 O
+rapid 26 31 176 181 O
+sequence 32 40 182 190 O
+induction 41 50 191 200 O
+with 51 55 201 205 O
+succinylcholine 56 71 206 221 B-treatment
+
+Patients 0 8 222 230 O
+with 9 13 231 235 O
+a 14 15 236 237 O
+pre 16 19 238 241 O
+- 19 20 241 242 O
+induction 20 29 242 251 O
+mean 30 34 252 256 B-clinical_variable
+arterial 35 43 257 265 I-clinical_variable
+blood 44 49 266 271 I-clinical_variable
+pressure 50 58 272 280 I-clinical_variable
+( 59 60 281 282 I-clinical_variable
+MAP 60 63 282 285 I-clinical_variable
+) 63 64 285 286 I-clinical_variable
+less 65 69 287 291 O
+than 70 74 292 296 O
+50 75 77 297 299 B-upper_bound
+or 78 80 300 302 O
+greater 81 88 303 310 O
+than 89 93 311 315 O
+150 94 97 316 319 B-lower_bound
+
+Patients 0 8 320 328 O
+with 9 13 329 333 O
+weight 14 20 334 340 B-clinical_variable
+greater 21 28 341 348 O
+than 29 33 349 353 O
+125 34 37 354 357 B-lower_bound
+kg 38 40 358 360 I-lower_bound
+
+Surgeries 0 9 361 370 O
+with 10 14 371 375 O
+general 15 22 376 383 B-treatment
+anesthesia 23 33 384 394 I-treatment
+alone 34 39 395 400 O
+or 40 42 401 403 O
+if 43 45 404 406 O
+combined 46 54 407 415 O
+with 55 59 416 420 O
+peripheral 60 70 421 431 B-treatment
+nerve 71 76 432 437 I-treatment
+blocks 77 83 438 444 I-treatment
+

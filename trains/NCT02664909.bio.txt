@@ -1,0 +1,83 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+hemophilia 11 21 11 21 B-chronic_disease
+
+Patients 0 8 22 30 O
+undergoing 9 19 31 41 O
+hip 20 23 42 45 B-treatment
+hemiarthroplasty 24 40 46 62 I-treatment
+surgery 41 48 63 70 I-treatment
+for 49 52 71 74 O
+a 53 54 75 76 O
+displaced 55 64 77 86 O
+femoral 65 72 87 94 O
+neck 73 77 95 99 O
+fracture 78 86 100 108 O
+
+acquired 0 8 109 117 O
+defective 9 18 118 127 B-chronic_disease
+color 19 24 128 133 I-chronic_disease
+vision 25 31 134 140 I-chronic_disease
+
+history 0 7 141 148 O
+of 8 10 149 151 O
+chronic 11 18 152 159 B-chronic_disease
+renal 19 24 160 165 I-chronic_disease
+failure 25 32 166 173 I-chronic_disease
+
+history 0 7 174 181 O
+of 8 10 182 184 O
+deep 11 15 185 189 B-chronic_disease
+vein 16 20 190 194 I-chronic_disease
+thrombosis 21 31 195 205 I-chronic_disease
+
+history 0 7 206 213 O
+of 8 10 214 216 O
+pulmonary 11 20 217 226 B-chronic_disease
+embolism 21 29 227 235 I-chronic_disease
+
+patients 0 8 236 244 O
+who 9 12 245 248 O
+are 13 16 249 252 O
+pregnant 17 25 253 261 B-pregnancy
+
+patients 0 8 262 270 O
+who 9 12 271 274 O
+have 13 17 275 279 O
+suffered 18 26 280 288 O
+a 27 28 289 290 O
+myocardial 29 39 291 301 B-chronic_disease
+infarction 40 50 302 312 I-chronic_disease
+
+taking 0 6 313 319 O
+Warfarin 7 15 320 328 B-treatment
+, 15 16 328 329 O
+Dabigatran 17 27 330 340 B-treatment
+, 27 28 340 341 O
+Rivaroxaban 29 40 342 353 B-treatment
+, 40 41 353 354 O
+Apixaban 42 50 355 363 B-treatment
+, 50 51 363 364 O
+and 52 55 365 368 O
+Fresh 56 61 369 374 B-treatment
+Frozen 62 68 375 381 I-treatment
+Plasma 69 75 382 388 I-treatment
+
+undergone 0 9 389 398 O
+coronary 10 18 399 407 B-treatment
+artery 19 25 408 414 I-treatment
+bypass 26 32 415 421 I-treatment
+grafting 33 41 422 430 I-treatment
+
+with 0 4 431 435 O
+a 5 6 436 437 O
+known 7 12 438 443 O
+allergy 13 20 444 451 O
+to 21 23 452 454 O
+tranexamic 24 34 455 465 B-allergy_name
+acid 35 39 466 470 I-allergy_name
+
+with 0 4 471 475 O
+coronary 5 13 476 484 B-chronic_disease
+ischemia 14 22 485 493 I-chronic_disease
+

@@ -1,0 +1,47 @@
+Disorders 0 9 0 9 B-chronic_disease
+of 10 12 10 12 I-chronic_disease
+Cellular 13 21 13 21 I-chronic_disease
+Migration 22 31 22 31 I-chronic_disease
+and 32 35 32 35 I-chronic_disease
+Proliferation 36 49 36 49 I-chronic_disease
+
+Metabolic 0 9 50 59 B-chronic_disease
+Disorders 10 19 60 69 I-chronic_disease
+
+Neoplasm 0 8 70 78 B-cancer
+
+Other 0 5 79 84 O
+neurologic 6 16 85 95 B-chronic_disease
+disorders 17 26 96 105 I-chronic_disease
+unrelated 27 36 106 115 O
+to 37 39 116 118 O
+stroke 40 46 119 125 B-chronic_disease
+
+Small 0 5 126 131 B-clinical_variable
+for 6 9 132 135 I-clinical_variable
+gestational 10 21 136 147 I-clinical_variable
+age 22 25 148 151 I-clinical_variable
+( 26 27 152 153 I-clinical_variable
+SGA 27 30 153 156 I-clinical_variable
+): 30 32 156 158 I-clinical_variable
+Infants 33 40 159 166 O
+are 41 44 167 170 O
+smaller 45 52 171 178 O
+in 53 55 179 181 O
+size 56 60 182 186 O
+than 61 65 187 191 O
+normal 66 72 192 198 O
+for 73 76 199 202 O
+the 77 80 203 206 O
+gestational 81 92 207 218 O
+age 93 96 219 222 O
+
+age 0 3 223 226 B-age
+between 4 11 227 234 O
+3 12 13 235 236 B-lower_bound
+and 14 17 237 240 O
+12 18 20 241 243 B-upper_bound
+months 21 27 244 250 I-upper_bound
+of 28 30 251 253 O
+age 31 34 254 257 O
+

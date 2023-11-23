@@ -1,0 +1,99 @@
+> 0 1 0 1 O
+6 1 2 1 2 B-lower_bound
+oz 2 4 2 4 I-lower_bound
+alcohol 5 12 5 12 O
+/ 12 13 12 13 O
+week 13 17 13 17 O
+
+Age 0 3 18 21 B-age
+25 4 6 22 24 B-lower_bound
+- 6 7 24 25 O
+45 7 9 25 27 B-upper_bound
+years 10 15 28 33 I-upper_bound
+
+BMI 0 3 34 37 B-bmi
+< 4 5 38 39 O
+25 5 7 39 41 B-upper_bound
+kg 8 10 42 44 I-upper_bound
+/ 10 11 44 45 I-upper_bound
+m2 11 13 45 47 I-upper_bound
+
+Caucasian 0 9 48 57 B-ethnicity
+or 10 12 58 60 O
+African 13 20 61 68 B-ethnicity
+American 21 29 69 77 I-ethnicity
+
+Chronic 0 7 78 85 O
+NSAID 8 13 86 91 B-treatment
+use 14 17 92 95 O
+
+Decongestant 0 12 96 108 B-treatment
+use 13 16 109 112 O
+in 17 19 113 115 O
+the 20 23 116 119 O
+past 24 28 120 124 B-upper_bound
+2 29 30 125 126 I-upper_bound
+weeks 31 36 127 132 I-upper_bound
+
+No 0 2 133 135 O
+gender 3 9 136 142 O
+preference 10 20 143 153 O
+( 21 22 154 155 O
+anticipate 22 32 155 165 O
+50 33 35 166 168 O
+% 35 36 168 169 O
+female 37 43 170 176 B-gender
+) 43 44 176 177 O
+
+No 0 2 178 180 O
+history 3 10 181 188 O
+of 11 13 189 191 O
+hypertension 14 26 192 204 B-chronic_disease
+, 26 27 204 205 O
+diabetes 28 36 206 214 B-chronic_disease
+, 36 37 214 215 O
+stroke 38 44 216 222 B-chronic_disease
+, 44 45 222 223 O
+coronary 46 54 224 232 B-chronic_disease
+artery 55 61 233 239 I-chronic_disease
+disease 62 69 240 247 I-chronic_disease
+, 69 70 247 248 O
+kidney 71 77 249 255 B-chronic_disease
+disease 78 85 256 263 I-chronic_disease
+, 85 86 263 264 O
+cancer 87 93 265 271 B-cancer
+, 93 94 271 272 O
+thyroid 95 102 273 280 B-chronic_disease
+disease 103 110 281 288 I-chronic_disease
+, 110 111 288 289 O
+preeclampsia 112 124 290 302 B-chronic_disease
+, 124 125 302 303 O
+or 126 128 304 306 O
+hospitalizations 129 145 307 323 B-treatment
+in 146 148 324 326 O
+6 149 150 327 328 B-upper_bound
+months 151 157 329 335 I-upper_bound
+
+Normotensive 0 12 336 348 O
+( 13 14 349 350 O
+screening 14 23 350 359 O
+blood 24 29 360 365 B-clinical_variable
+pressure 30 38 366 374 I-clinical_variable
+< 39 40 375 376 O
+140/90 40 46 376 382 B-upper_bound
+mmHg 47 51 383 387 I-upper_bound
+) 51 52 387 388 O
+
+Pregnancy 0 9 389 398 B-pregnancy
+
+Recent 0 6 399 405 O
+steroid 7 14 406 413 B-treatment
+use 15 18 414 417 O
+( 19 20 418 419 O
+injected 20 28 419 427 O
+, 28 29 427 428 O
+inhaled 30 37 429 436 O
+, 37 38 436 437 O
+oral 39 43 438 442 O
+) 43 44 442 443 O
+

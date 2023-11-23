@@ -1,0 +1,58 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+lactose 11 18 11 18 B-allergy_name
+
+History 0 7 19 26 O
+of 8 10 27 29 O
+orthostatic 11 22 30 41 B-chronic_disease
+hypotension 23 34 42 53 I-chronic_disease
+or 35 37 54 56 O
+current 38 45 57 64 O
+orthostatic 46 57 65 76 O
+hypotension 58 69 77 88 O
+
+History 0 7 89 96 O
+of 8 10 97 99 O
+spinal 11 17 100 106 B-chronic_disease
+trauma 18 24 107 113 I-chronic_disease
+, 24 25 113 114 O
+spinal 26 32 115 121 B-chronic_disease
+infection 33 42 122 131 I-chronic_disease
+or 43 45 132 134 O
+spinal 46 52 135 141 B-cancer
+cord 53 57 142 146 I-cancer
+tumor 58 63 147 152 I-cancer
+
+Male 0 4 153 157 B-gender
+patient 5 12 158 165 I-gender
+
+Renal 0 5 166 171 B-chronic_disease
+failure 6 13 172 179 I-chronic_disease
+
+Serious 0 7 180 187 O
+or 8 10 188 190 O
+life 11 15 191 195 O
+- 15 16 195 196 O
+threatening 16 27 196 207 O
+allergy 28 35 208 215 O
+to 36 38 216 218 O
+sulfa 39 44 219 224 B-allergy_name
+drugs 45 50 225 230 I-allergy_name
+
+Undergoing 0 10 231 241 O
+elective 11 19 242 250 B-treatment
+spine 20 25 251 256 I-treatment
+surgery 26 33 257 264 I-treatment
+at 34 36 265 267 O
+least 37 42 268 273 O
+5 43 44 274 275 B-lower_bound
+days 45 49 276 280 I-lower_bound
+after 50 55 281 286 O
+enrollment 56 66 287 297 O
+
+age 0 3 298 301 B-age
+50 4 6 302 304 B-lower_bound
+- 7 8 305 306 O
+85 9 11 307 309 B-upper_bound
+years 12 17 310 315 I-upper_bound
+

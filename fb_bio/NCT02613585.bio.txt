@@ -1,0 +1,53 @@
+non 0 3 0 3 B-language_fluency
+- 3 4 3 4 I-language_fluency
+English 4 11 4 11 I-language_fluency
+speakers 12 20 12 20 I-language_fluency
+
+over 0 4 21 25 O
+18 5 7 26 28 B-lower_bound
+years 8 13 29 34 I-lower_bound
+of 14 16 35 37 O
+age 17 20 38 41 B-age
+
+planned 0 7 42 49 B-pregnancy
+pregnancy 8 17 50 59 I-pregnancy
+during 18 24 60 66 O
+the 25 28 67 70 O
+follow 29 35 71 77 O
+- 35 36 77 78 O
+up 36 38 78 80 O
+period 39 45 81 87 O
+( 46 47 88 89 O
+since 47 52 89 94 O
+exposure 53 61 95 103 O
+to 62 64 104 106 O
+an 65 67 107 109 O
+insecticide 68 79 110 121 O
+is 80 82 122 124 O
+involved 83 91 125 133 O
+) 91 92 133 134 O
+
+pregnancy 0 9 135 144 B-pregnancy
+
+sensitivity 0 11 145 156 O
+to 12 14 157 159 O
+insecticides 15 27 160 172 B-allergy_name
+
+spending 0 8 173 181 O
+an 9 11 182 184 O
+average 12 19 185 192 O
+of 20 22 193 195 O
+10 23 25 196 198 B-lower_bound
+or 26 28 199 201 O
+more 29 33 202 206 O
+hours 34 39 207 212 O
+of 40 42 213 215 O
+outdoor 43 50 216 223 O
+work 51 55 224 228 O
+per 56 59 229 232 O
+week 60 64 233 237 O
+during 65 71 238 244 O
+peak 72 76 245 249 O
+tick 77 81 250 254 O
+season 82 88 255 261 O
+

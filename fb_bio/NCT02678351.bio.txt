@@ -1,0 +1,37 @@
+Biopsy 0 6 0 6 B-treatment
+proven 7 13 7 13 O
+prostate 14 22 14 22 B-cancer
+adenocarcinoma 23 37 23 37 I-cancer
+
+Patients 0 8 38 46 O
+not 9 12 47 50 O
+capable 13 20 51 58 O
+of 21 23 59 61 O
+getting 24 31 62 69 O
+PET 32 35 70 73 O
+study 36 41 74 79 O
+due 42 45 80 83 O
+to 46 48 84 86 O
+weight 49 55 87 93 O
+, 55 56 93 94 O
+claustrophobia 57 71 95 109 B-chronic_disease
+, 71 72 109 110 O
+or 73 75 111 113 O
+inability 76 85 114 123 O
+to 86 88 124 126 O
+lay 89 92 127 130 O
+still 93 98 131 136 O
+for 99 102 137 140 O
+the 103 106 141 144 O
+duration 107 115 145 153 O
+of 116 118 154 156 O
+the 119 122 157 160 O
+exam 123 127 161 165 O
+
+Planned 0 7 166 173 O
+prostatectomy 8 21 174 187 B-treatment
+with 22 26 188 192 I-treatment
+lymph 27 32 193 198 I-treatment
+node 33 37 199 203 I-treatment
+dissection 38 48 204 214 I-treatment
+

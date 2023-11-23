@@ -1,0 +1,138 @@
+Current 0 7 0 7 O
+and/or 8 14 8 14 O
+former 15 21 15 21 O
+malignancy 22 32 22 32 O
+including 33 42 33 42 O
+basal 43 48 43 48 B-cancer
+cell 49 53 49 53 I-cancer
+carcinomas 54 64 54 64 I-cancer
+and 65 68 65 68 O
+squamous 69 77 69 77 B-cancer
+cell 78 82 78 82 I-cancer
+carcinomas 83 93 83 93 I-cancer
+
+Enrolment 0 9 94 103 O
+in 10 12 104 106 O
+any 13 16 107 110 O
+interventional 17 31 111 125 O
+study 32 37 126 131 O
+or 38 40 132 134 O
+treated 41 48 135 142 O
+with 49 53 143 147 O
+any 54 57 148 151 O
+investigational 58 73 152 167 O
+drug 74 78 168 172 O
+for 79 82 173 176 O
+any 83 86 177 180 O
+disease 87 94 181 188 O
+within 95 101 189 195 O
+4 102 103 196 197 B-upper_bound
+weeks 104 109 198 203 I-upper_bound
+prior 110 115 204 209 I-upper_bound
+to 116 118 210 212 O
+study 119 124 213 218 O
+entry 125 130 219 224 O
+
+Immunosuppressive 0 17 225 242 B-treatment
+therapy 18 25 243 250 I-treatment
+or 26 28 251 253 O
+cytotoxic 29 38 254 263 B-treatment
+chemotherapy 39 51 264 276 I-treatment
+within 52 58 277 283 O
+60 59 61 284 286 B-upper_bound
+days 62 66 287 291 I-upper_bound
+prior 67 72 292 297 I-upper_bound
+to 73 75 298 300 O
+enrolment 76 85 301 310 O
+
+Kindler 0 7 311 318 B-chronic_disease
+syndrome 8 16 319 327 I-chronic_disease
+aged 17 21 328 332 B-age
+≥21 22 25 333 336 O
+days 26 30 337 341 I-lower_bound
+
+Male 0 4 342 346 B-gender
+
+Patient 0 7 347 354 O
+has 8 11 355 358 O
+EB 12 14 359 361 B-chronic_disease
+simplex 15 22 362 369 I-chronic_disease
+
+Patient 0 7 370 377 O
+has 8 11 378 381 O
+undergone 12 21 382 391 O
+stem 22 26 392 396 B-treatment
+cell 27 31 397 401 I-treatment
+transplant 32 42 402 412 I-treatment
+or 43 45 413 415 O
+gene 46 50 416 420 B-treatment
+therapy 51 58 421 428 I-treatment
+for 59 62 429 432 O
+the 63 66 433 436 O
+treatment 67 76 437 446 O
+of 77 79 447 449 O
+inherited 80 89 450 459 O
+EB 90 92 460 462 I-chronic_disease
+
+Patients 0 8 463 471 O
+with 9 13 472 476 O
+an 14 16 477 479 O
+EB 17 19 480 482 O
+target 20 26 483 489 O
+wound 27 32 490 495 O
+( 33 34 496 497 O
+i.e. 34 38 497 501 O
+, 38 39 501 502 O
+EB 40 42 503 505 B-clinical_variable
+partial 43 50 506 513 I-clinical_variable
+thickness 51 60 514 523 I-clinical_variable
+wound 61 66 524 529 I-clinical_variable
+of 67 69 530 532 O
+10 70 72 533 535 B-lower_bound
+cm² 73 76 536 539 I-lower_bound
+to 77 79 540 542 O
+50 80 82 543 545 B-upper_bound
+cm² 83 86 546 549 I-upper_bound
+in 87 89 550 552 O
+size 90 94 553 557 O
+aged 95 99 558 562 B-age
+≥21 100 103 563 566 O
+days 104 108 567 571 I-lower_bound
+and 109 112 572 575 O
+< 113 114 576 577 O
+9 114 115 577 578 B-upper_bound
+months 116 122 579 585 I-upper_bound
+) 122 123 585 586 O
+
+Pregnant 0 8 587 595 B-pregnancy
+
+Use 0 3 596 599 O
+of 4 6 600 602 O
+systemic 7 15 603 611 B-treatment
+antibiotics 16 27 612 623 I-treatment
+for 28 31 624 627 O
+wound 32 37 628 633 O
+- 37 38 633 634 O
+related 38 45 634 641 O
+infections 46 56 642 652 O
+within 57 63 653 659 O
+7 64 65 660 661 B-upper_bound
+days 66 70 662 666 I-upper_bound
+prior 71 76 667 672 I-upper_bound
+to 77 79 673 675 O
+enrolment 80 89 676 685 O
+
+dystrophic 0 10 686 696 B-chronic_disease
+EB 11 13 697 699 I-chronic_disease
+( 14 15 700 701 I-chronic_disease
+DEB 15 18 701 704 I-chronic_disease
+) 18 19 704 705 I-chronic_disease
+
+female 0 6 706 712 B-gender
+
+junctional 0 10 713 723 B-chronic_disease
+EB 11 13 724 726 I-chronic_disease
+( 14 15 727 728 I-chronic_disease
+JEB 15 18 728 731 I-chronic_disease
+) 18 19 731 732 I-chronic_disease
+

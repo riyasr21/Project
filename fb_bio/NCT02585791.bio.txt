@@ -1,0 +1,60 @@
+Other 0 5 0 5 O
+concomitant 6 17 6 17 O
+inflammatory 18 30 18 30 B-chronic_disease
+pulmonary 31 40 31 40 I-chronic_disease
+disorders 41 50 41 50 I-chronic_disease
+
+Presence 0 8 51 59 O
+of 9 11 60 62 O
+airflow 12 19 63 70 O
+obstruction 20 31 71 82 O
+( 32 33 83 84 O
+COPD 33 37 84 88 B-chronic_disease
+, 37 38 88 89 O
+asthma 39 45 90 96 B-chronic_disease
+, 45 46 96 97 O
+bronchiectasis 47 61 98 112 B-chronic_disease
+) 61 62 112 113 O
+
+Subjects 0 8 114 122 O
+will 9 13 123 127 O
+be 14 16 128 130 O
+over 17 21 131 135 O
+18 22 24 136 138 B-lower_bound
+years 25 30 139 144 I-lower_bound
+of 31 33 145 147 O
+age 34 37 148 151 B-age
+
+Subjects 0 8 152 160 O
+with 9 13 161 165 O
+known 14 19 166 171 O
+pulmonary 20 29 172 181 B-cancer
+malignancies 30 42 182 194 I-cancer
+within 43 49 195 201 O
+5 50 51 202 203 B-upper_bound
+years 52 57 204 209 I-upper_bound
+
+Subjects 0 8 210 218 O
+with 9 13 219 223 O
+prior 14 19 224 229 B-treatment
+thoracic 20 28 230 238 I-treatment
+surgery 29 36 239 246 I-treatment
+
+Subjects 0 8 247 255 O
+with 9 13 256 260 O
+respiratory 14 25 261 272 B-chronic_disease
+infection 26 35 273 282 I-chronic_disease
+that 36 40 283 287 O
+required 41 49 288 296 O
+use 50 53 297 300 O
+of 54 56 301 303 O
+oral 57 61 304 308 B-treatment
+corticosteroids 62 77 309 324 I-treatment
+and/or 78 84 325 331 O
+antibiotics 85 96 332 343 B-treatment
+within 97 103 344 350 O
+the 104 107 351 354 O
+prior 108 113 355 360 B-upper_bound
+3 114 115 361 362 I-upper_bound
+months 116 122 363 369 I-upper_bound
+

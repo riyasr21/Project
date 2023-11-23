@@ -1,0 +1,42 @@
+Congenital 0 10 0 10 B-chronic_disease
+thrombotic 11 21 11 21 I-chronic_disease
+disease 22 29 22 29 I-chronic_disease
+
+EEG- 0 4 30 34 B-treatment
+confirmed 5 14 35 44 O
+seizures 15 23 45 53 B-chronic_disease
+
+Family 0 6 54 60 O
+will 7 11 61 65 O
+NOT 12 15 66 69 O
+be 16 18 70 72 O
+available 19 28 73 82 O
+for 29 32 83 86 O
+follow 33 39 87 93 O
+- 39 40 93 94 O
+up 40 42 94 96 O
+at 43 45 97 99 O
+22 46 48 100 102 B-lower_bound
+- 48 49 102 103 O
+26 49 51 103 105 B-upper_bound
+months 52 58 106 112 I-upper_bound
+
+Hematocrit 0 10 113 123 B-clinical_variable
+> 11 12 124 125 O
+60 13 15 126 128 B-lower_bound
+% 15 16 128 129 I-lower_bound
+
+Hemorrhagic 0 11 130 141 B-chronic_disease
+or 12 14 142 144 I-chronic_disease
+hemolytic 15 24 145 154 I-chronic_disease
+disease 25 32 155 162 I-chronic_disease
+
+including 0 9 163 172 O
+congenital 10 20 173 183 B-chronic_disease
+heart 21 26 184 189 I-chronic_disease
+disease 27 34 190 197 I-chronic_disease
+and 35 38 198 201 O
+known 39 44 202 207 O
+brain 45 50 208 213 B-chronic_disease
+anomalies 51 60 214 223 I-chronic_disease
+

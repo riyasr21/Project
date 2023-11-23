@@ -1,0 +1,14 @@
+Exclusion 0 9 0 9 O
+criteria 10 18 10 18 O
+include 19 26 19 26 O
+children 27 35 27 35 O
+with 36 40 36 40 O
+clinically 41 51 41 51 O
+- 51 52 51 52 O
+diagnosed 52 61 52 61 O
+dementia 62 70 62 70 B-chronic_disease
+
+major 0 5 71 76 B-chronic_disease
+psychiatric 6 17 77 88 I-chronic_disease
+illness 18 25 89 96 I-chronic_disease
+

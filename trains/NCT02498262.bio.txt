@@ -1,0 +1,66 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+60 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Participants 0 12 19 31 O
+must 13 17 32 36 O
+be 18 20 37 39 O
+deemed 21 27 40 46 O
+Rancho 28 34 47 53 B-clinical_variable
+Los 35 38 54 57 I-clinical_variable
+Amigos 39 45 58 64 I-clinical_variable
+score 46 51 65 70 I-clinical_variable
+of 52 54 71 73 O
+7 55 56 74 75 B-lower_bound
+or 57 59 76 78 O
+higher 60 66 79 85 O
+
+Participants 0 12 86 98 O
+will 13 17 99 103 O
+include 18 25 104 111 O
+individuals 26 37 112 123 O
+that 38 42 124 128 O
+have 43 47 129 133 O
+suffered 48 56 134 142 O
+a 57 58 143 144 O
+moderate 59 67 145 153 O
+to 68 70 154 156 O
+severe 71 77 157 163 O
+traumatic 78 87 164 173 B-chronic_disease
+brain 88 93 174 179 I-chronic_disease
+
+Persons 0 7 180 187 O
+with 8 12 188 192 O
+spinal 13 19 193 199 B-chronic_disease
+cord 20 24 200 204 I-chronic_disease
+injury 25 31 205 211 I-chronic_disease
+, 31 32 211 212 O
+muscle 33 39 213 219 B-chronic_disease
+dystrophy 40 49 220 229 I-chronic_disease
+, 49 50 229 230 O
+multiple 51 59 231 239 B-chronic_disease
+sclerosis 60 69 240 249 I-chronic_disease
+or 70 72 250 252 O
+cerebral 73 81 253 261 B-chronic_disease
+palsy 82 87 262 267 I-chronic_disease
+
+Pregnant 0 8 268 276 B-pregnancy
+women 9 14 277 282 B-gender
+
+less 0 4 283 287 O
+than 5 9 288 292 O
+18 10 12 293 295 B-upper_bound
+years 13 18 296 301 I-upper_bound
+of 19 21 302 304 O
+age 22 25 305 308 B-age
+
+older 0 5 309 314 O
+than 6 10 315 319 O
+60 11 13 320 322 B-lower_bound
+years 14 19 323 328 I-lower_bound
+of 20 22 329 331 O
+age 23 26 332 335 B-age
+

@@ -1,0 +1,60 @@
+50 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+79 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Allergies 0 9 16 25 O
+to 10 12 26 28 O
+antibiotics 13 24 29 40 B-allergy_name
+or 25 27 41 43 O
+xylocaine 28 37 44 53 B-allergy_name
+
+Allergies 0 9 54 63 O
+to 10 12 64 66 O
+milk 13 17 67 71 B-allergy_name
+consumption 18 29 72 83 O
+
+Autoimmune 0 10 84 94 B-chronic_disease
+disease 11 18 95 102 I-chronic_disease
+
+BMI 0 3 103 106 B-bmi
+< 4 5 107 108 O
+30 5 7 108 110 B-upper_bound
+kg 8 10 111 113 I-upper_bound
+/ 10 11 113 114 I-upper_bound
+m2 11 13 114 116 I-upper_bound
+
+BMI 0 3 117 120 B-bmi
+≥30 4 7 121 124 O
+
+Heart 0 5 125 130 B-chronic_disease
+disease 6 13 131 138 I-chronic_disease
+
+Liver 0 5 139 144 B-chronic_disease
+, 5 6 144 145 O
+kidney 7 13 146 152 B-chronic_disease
+, 13 14 152 153 O
+or 15 17 154 156 O
+urinary 18 25 157 164 B-chronic_disease
+disease 26 33 165 172 I-chronic_disease
+
+Neurological 0 12 173 185 B-chronic_disease
+disease 13 20 186 193 I-chronic_disease
+
+Phenylketonuria 0 15 194 209 B-chronic_disease
+( 16 17 210 211 I-chronic_disease
+PKU 17 20 211 214 I-chronic_disease
+) 20 21 214 215 I-chronic_disease
+
+Pregnancy 0 9 216 225 B-pregnancy
+
+corticosteroids 0 15 226 241 B-treatment
+
+non 0 3 242 245 B-treatment
+- 3 4 245 246 I-treatment
+steroidal 4 13 246 255 I-treatment
+anti 14 18 256 260 I-treatment
+- 18 19 260 261 I-treatment
+inflammatories 19 33 261 275 I-treatment
+

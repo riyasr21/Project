@@ -1,0 +1,237 @@
+> 0 1 0 1 O
+18 2 4 2 4 B-lower_bound
+years 5 10 5 10 I-lower_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+Adequate 0 8 18 26 O
+hematologic 9 20 27 38 O
+, 20 21 38 39 O
+renal 22 27 40 45 O
+, 27 28 45 46 O
+and 29 32 47 50 O
+liver 33 38 51 56 O
+function 39 47 57 65 O
+as 48 50 66 68 O
+defined 51 58 69 76 O
+by 59 61 77 79 O
+laboratory 62 72 80 90 O
+values 73 79 91 97 O
+performed 80 89 98 107 O
+within 90 96 108 114 O
+42 97 99 115 117 B-upper_bound
+days 100 104 118 122 I-upper_bound
+prior 105 110 123 128 I-upper_bound
+to 111 113 129 131 O
+initiation 114 124 132 142 O
+of 125 127 143 145 O
+dosing 128 134 146 152 O
+
+At 0 2 153 155 O
+least 3 8 156 161 O
+1 9 10 162 163 B-lower_bound
+site 11 15 164 168 O
+of 16 18 169 171 O
+radiographically 19 35 172 188 O
+measurable 36 46 189 199 O
+disease 47 54 200 207 O
+by 55 57 208 210 O
+RECIST 58 64 211 217 O
+
+Eastern 0 7 218 225 B-clinical_variable
+Cooperative 8 19 226 237 I-clinical_variable
+Oncology 20 28 238 246 I-clinical_variable
+Group 29 34 247 252 I-clinical_variable
+Performance 35 46 253 264 I-clinical_variable
+Status 47 53 265 271 I-clinical_variable
+of 54 56 272 274 O
+0 57 58 275 276 B-lower_bound
+to 59 61 277 279 O
+2 62 63 280 281 B-upper_bound
+
+Fertile 0 7 282 289 O
+males 8 13 290 295 B-gender
+should 14 20 296 302 O
+use 21 24 303 306 B-contraception_consent
+an 25 27 307 309 I-contraception_consent
+effective 28 37 310 319 I-contraception_consent
+method 38 44 320 326 I-contraception_consent
+of 45 47 327 329 I-contraception_consent
+contraception 48 61 330 343 I-contraception_consent
+during 62 68 344 350 O
+treatment 69 78 351 360 B-treatment
+and 79 82 361 364 O
+for 83 86 365 368 O
+at 87 89 369 371 O
+least 90 95 372 377 O
+3 96 97 378 379 B-lower_bound
+months 98 104 380 386 I-lower_bound
+after 105 110 387 392 I-lower_bound
+completion 111 121 393 403 O
+of 122 124 404 406 O
+treatment 125 134 407 416 O
+, 134 135 416 417 O
+as 136 138 418 420 O
+directed 139 147 421 429 O
+by 148 150 430 432 O
+their 151 156 433 438 O
+physician 157 166 439 448 O
+
+Have 0 4 449 453 O
+any 5 8 454 457 O
+other 9 14 458 463 O
+uncontrolled 15 27 464 476 B-chronic_disease
+infection 28 37 477 486 I-chronic_disease
+
+Hemoglobin 0 10 487 497 B-clinical_variable
+> 11 12 498 499 O
+8 13 14 500 501 B-lower_bound
+g 15 16 502 503 I-lower_bound
+/ 16 17 503 504 I-lower_bound
+dL 17 19 504 506 I-lower_bound
+
+Known 0 5 507 512 O
+hypersensitivity 6 22 513 529 O
+to 23 25 530 532 O
+Metformin 26 35 533 542 B-allergy_name
+or 36 38 543 545 O
+any 39 42 546 549 O
+of 43 45 550 552 O
+its 46 49 553 556 O
+components 50 60 557 567 O
+
+Life 0 4 568 572 B-clinical_variable
+expectancy 5 15 573 583 I-clinical_variable
+> 16 17 584 585 O
+3 18 19 586 587 B-lower_bound
+months 20 26 588 594 I-lower_bound
+
+Male 0 4 595 599 B-gender
+
+Patients 0 8 600 608 O
+with 9 13 609 613 O
+histologically 14 28 614 628 O
+confirmed 29 38 629 638 O
+BRAFV600E 39 48 639 648 B-cancer
+melanoma 49 57 649 657 I-cancer
+
+Pre 0 3 658 661 O
+- 3 4 661 662 O
+menopausal 4 14 662 672 O
+females 15 22 673 680 B-gender
+and 23 26 681 684 O
+females 27 34 685 692 O
+< 35 36 693 694 O
+2 37 38 695 696 B-upper_bound
+years 39 44 697 702 I-upper_bound
+after 45 50 703 708 O
+the 51 54 709 712 O
+onset 55 60 713 718 O
+of 61 63 719 721 O
+menopause 64 73 722 731 O
+should 74 80 732 738 O
+have 81 85 739 743 O
+a 86 87 744 745 O
+negative 88 96 746 754 B-pregnancy
+pregnancy 97 106 755 764 I-pregnancy
+test 107 111 765 769 O
+at 112 114 770 772 O
+Screening 115 124 773 782 O
+
+Pre 0 3 783 786 O
+- 3 4 786 787 O
+menopausal 4 14 787 797 O
+females 15 22 798 805 B-gender
+must 23 27 806 810 O
+agree 28 33 811 816 B-contraception_consent
+to 34 36 817 819 I-contraception_consent
+use 37 40 820 823 I-contraception_consent
+an 41 43 824 826 I-contraception_consent
+acceptable 44 54 827 837 I-contraception_consent
+method 55 61 838 844 I-contraception_consent
+of 62 64 845 847 I-contraception_consent
+birth 65 70 848 853 I-contraception_consent
+control 71 78 854 861 I-contraception_consent
+from 79 83 862 866 O
+the 84 87 867 870 O
+time 88 92 871 875 O
+of 93 95 876 878 O
+the 96 99 879 882 O
+negative 100 108 883 891 B-pregnancy
+pregnancy 109 118 892 901 I-pregnancy
+test 119 123 902 906 O
+up 124 126 907 909 O
+to 127 129 910 912 O
+90 130 132 913 915 B-upper_bound
+days 133 137 916 920 I-upper_bound
+after 138 143 921 926 O
+the 144 147 927 930 O
+last 148 152 931 935 O
+dose 153 157 936 940 O
+of 158 160 941 943 O
+the 161 164 944 947 O
+study 165 170 948 953 O
+drug 171 175 954 958 O
+
+Pregnant 0 8 959 967 B-pregnancy
+
+Prior 0 5 968 973 B-treatment
+treatment 6 15 974 983 I-treatment
+with 16 20 984 988 O
+Vemurafenib 21 32 989 1000 B-treatment
+or 33 35 1001 1003 O
+Dabrafenib 36 46 1004 1014 B-treatment
+
+Received 0 8 1015 1023 O
+radiotherapy 9 21 1024 1036 B-treatment
+for 22 25 1037 1040 O
+non 26 29 1041 1044 B-chronic_disease
+CNS 30 33 1045 1048 I-chronic_disease
+disease 34 41 1049 1056 I-chronic_disease
+within 42 48 1057 1063 O
+the 49 52 1064 1067 O
+2 53 54 1068 1069 B-upper_bound
+weeks 55 60 1070 1075 I-upper_bound
+prior 61 66 1076 1081 I-upper_bound
+to 67 69 1082 1084 O
+commencing 70 80 1085 1095 O
+study 81 86 1096 1101 O
+treatment 87 96 1102 1111 B-treatment
+
+Stage 0 5 1112 1117 B-cancer
+IIIC 6 10 1118 1122 I-cancer
+
+alopecia 0 8 1123 1131 B-chronic_disease
+
+avoidance 0 9 1132 1141 O
+of 10 12 1142 1144 O
+pregnancy 13 22 1145 1154 B-pregnancy
+measures 23 31 1155 1163 O
+
+female 0 6 1164 1170 B-gender
+patients 7 15 1171 1179 I-gender
+
+have 0 4 1180 1184 O
+not 5 8 1185 1188 O
+recovered 9 18 1189 1198 O
+from 19 23 1199 1203 O
+side 24 28 1204 1208 O
+effects 29 36 1209 1216 O
+of 37 39 1217 1219 O
+all 40 43 1220 1223 O
+radiation 44 53 1224 1233 B-treatment
+related 54 61 1234 1241 O
+toxicities 62 72 1242 1252 B-clinical_variable
+to 73 75 1253 1255 O
+Grade 76 81 1256 1261 O
+< 82 83 1262 1263 O
+1 84 85 1264 1265 B-upper_bound
+
+oral 0 4 1266 1270 B-contraception_consent
+contraceptives 5 19 1271 1285 I-contraception_consent
+
+refusing 0 8 1286 1294 B-contraception_consent
+double 9 15 1295 1301 I-contraception_consent
+barrier 16 23 1302 1309 I-contraception_consent
+contraception 24 37 1310 1323 I-contraception_consent
+

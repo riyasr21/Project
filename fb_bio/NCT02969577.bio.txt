@@ -1,0 +1,87 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+speak 8 13 8 13 I-language_fluency
+and 14 17 14 17 I-language_fluency
+read 18 22 18 22 I-language_fluency
+in 23 25 23 25 I-language_fluency
+English 26 33 26 33 I-language_fluency
+or 34 36 34 36 I-language_fluency
+Spanish 37 44 37 44 I-language_fluency
+
+Diagnosed 0 9 45 54 O
+with 10 14 55 59 O
+prostate 15 23 60 68 B-cancer
+cancer 24 30 69 75 I-cancer
+
+Initiating 0 10 76 86 O
+ADT 11 14 87 90 O
+for 15 18 91 94 O
+prostate 19 27 95 103 B-cancer
+cancer 28 34 104 110 I-cancer
+prior 35 40 111 116 O
+to 41 43 117 119 O
+the 44 47 120 123 O
+previous 48 56 124 132 B-upper_bound
+3 57 58 133 134 I-upper_bound
+months 59 65 135 141 I-upper_bound
+or 66 68 142 144 O
+are 69 72 145 148 O
+not 73 76 149 152 O
+on 77 79 153 155 O
+ADT 80 83 156 159 O
+holiday 84 91 160 167 O
+
+Not 0 3 168 171 B-language_fluency
+able 4 8 172 176 I-language_fluency
+to 9 11 177 179 I-language_fluency
+speak 12 17 180 185 I-language_fluency
+and 18 21 186 189 I-language_fluency
+read 22 26 190 194 I-language_fluency
+in 27 29 195 197 I-language_fluency
+English 30 37 198 205 I-language_fluency
+or 38 40 206 208 I-language_fluency
+Spanish 41 48 209 216 I-language_fluency
+
+Not 0 3 217 220 B-technology_access
+reachable 4 13 221 230 I-technology_access
+consistently 14 26 231 243 I-technology_access
+by 27 29 244 246 I-technology_access
+telephone 30 39 247 256 I-technology_access
+
+Not 0 3 257 260 O
+receiving 4 13 261 270 O
+or 14 16 271 273 O
+planning 17 25 274 282 O
+to 26 28 283 285 O
+receive 29 36 286 293 O
+ADT 37 40 294 297 B-treatment
+for 41 44 298 301 O
+prostate 45 53 302 310 B-treatment
+cancer 54 60 311 317 I-treatment
+treatment 61 70 318 327 I-treatment
+within 71 77 328 334 O
+the 78 81 335 338 O
+last 82 86 339 343 B-upper_bound
+three 87 92 344 349 I-upper_bound
+months 93 99 350 356 I-upper_bound
+
+Re 0 2 357 359 O
+- 2 3 359 360 O
+initiating 3 13 360 370 O
+ADT 14 17 371 374 B-treatment
+after 18 23 375 380 O
+being 24 29 381 386 O
+on 30 32 387 389 O
+holiday 33 40 390 397 O
+for 41 44 398 401 O
+longer 45 51 402 408 O
+than 52 56 409 413 O
+their 57 62 414 419 O
+ADT 63 66 420 423 O
+dosage 67 73 424 430 O
+
+Reachable 0 9 431 440 B-technology_access
+consistently 10 22 441 453 I-technology_access
+by 23 25 454 456 I-technology_access
+telephone 26 35 457 466 I-technology_access
+

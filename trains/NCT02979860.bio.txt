@@ -1,0 +1,52 @@
+BMI 0 3 0 3 B-bmi
+for 4 7 4 7 O
+age 8 11 8 11 B-age
+and 12 15 12 15 O
+gender 16 22 16 22 O
+> 23 24 23 24 O
+85th 25 29 25 29 B-lower_bound
+percentile 30 40 30 40 I-lower_bound
+( 41 42 41 42 O
+but 42 45 42 45 O
+no 46 48 46 48 O
+greater 49 56 49 56 O
+than 57 61 57 61 O
+100 62 65 62 65 B-upper_bound
+% 65 66 65 66 I-upper_bound
+overweight 67 77 67 77 O
+) 77 78 77 78 O
+
+Diagnosable 0 11 79 90 O
+Sleep 12 17 91 96 B-chronic_disease
+Disorder 18 26 97 105 I-chronic_disease
+
+Parent 0 6 106 112 O
+- 6 7 112 113 O
+reported 7 15 113 121 O
+child 16 21 122 127 O
+age 22 25 128 131 B-age
+of 26 28 132 134 O
+8 29 30 135 136 B-lower_bound
+- 30 31 136 137 O
+11 31 33 137 139 B-upper_bound
+years 34 39 140 145 I-upper_bound
+
+Self 0 4 146 150 O
+- 4 5 150 151 O
+reported 5 13 151 159 O
+parent 14 20 160 166 O
+age 21 24 167 170 B-age
+of 25 27 171 173 O
+18 28 30 174 176 B-lower_bound
+years 31 36 177 182 I-lower_bound
+
+psychiatric 0 11 183 194 B-chronic_disease
+condition 12 21 195 204 I-chronic_disease
+that 22 26 205 209 O
+may 27 30 210 213 O
+impact 31 37 214 220 O
+sleep 38 43 221 226 O
+/ 43 44 226 227 O
+weight 44 50 227 233 O
+status 51 57 234 240 O
+

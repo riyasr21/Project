@@ -1,0 +1,47 @@
+Clinic 0 6 0 6 O
+diagnosis 7 16 7 16 O
+of 17 19 17 19 O
+diabetic 20 28 20 28 B-chronic_disease
+retinopathy 29 40 29 40 I-chronic_disease
+
+Distinguished 0 13 41 54 O
+Spanish 14 21 55 62 B-language_fluency
+language 22 30 63 71 I-language_fluency
+fluency 31 38 72 79 I-language_fluency
+by 39 41 80 82 O
+Oral 42 46 83 87 O
+Proficiency 47 58 88 99 O
+testing 59 66 100 107 O
+Received 67 75 108 116 O
+professional 76 88 117 129 O
+training 89 97 130 138 O
+for 98 101 139 142 O
+a 102 103 143 144 O
+health 104 110 145 151 O
+- 110 111 151 152 O
+related 111 118 152 159 O
+profession 119 129 160 170 O
+in 130 132 171 173 O
+a 133 134 174 175 O
+Spanish 135 142 176 183 B-language_fluency
+- 142 143 183 184 I-language_fluency
+speaking 143 151 184 192 I-language_fluency
+country 152 159 193 200 O
+
+diabetic 0 8 201 209 B-chronic_disease
+nephropathy 9 20 210 221 I-chronic_disease
+Clinical 21 29 222 230 O
+diagnosis 30 39 231 240 O
+of 40 42 241 243 O
+major 43 48 244 249 B-chronic_disease
+depression 49 59 250 260 I-chronic_disease
+Clinical 60 68 261 269 O
+diagnosis 69 78 270 279 O
+of 79 81 280 282 O
+other 82 87 283 288 O
+psychiatric 88 99 289 300 B-chronic_disease
+disorder 100 108 301 309 I-chronic_disease
+
+diabetic 0 8 310 318 B-chronic_disease
+neuropathy 9 19 319 329 I-chronic_disease
+

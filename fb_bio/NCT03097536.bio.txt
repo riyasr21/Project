@@ -1,0 +1,32 @@
+Chronic 0 7 0 7 B-chronic_disease
+migraine 8 16 8 16 I-chronic_disease
+
+age 0 3 17 20 B-age
+18 4 6 21 23 B-lower_bound
+- 6 7 23 24 O
+65 7 9 24 26 B-upper_bound
+with 10 14 27 31 O
+episodic 15 23 32 40 B-chronic_disease
+migraine 24 32 41 49 I-chronic_disease
+with 33 37 50 54 I-chronic_disease
+or 38 40 55 57 I-chronic_disease
+without 41 48 58 65 I-chronic_disease
+aura 49 53 66 70 I-chronic_disease
+( 54 55 71 72 I-chronic_disease
+ICHD 55 59 72 76 I-chronic_disease
+- 59 60 76 77 I-chronic_disease
+II 60 62 77 79 I-chronic_disease
+) 62 63 79 80 I-chronic_disease
+and/or 64 70 81 87 O
+morning 71 78 88 95 B-chronic_disease
+onset 79 84 96 101 I-chronic_disease
+
+comorbid 0 8 102 110 O
+eating 9 15 111 117 B-chronic_disease
+disorders 16 25 118 127 I-chronic_disease
+
+female 0 6 128 134 B-gender
+participants 7 19 135 147 I-gender
+
+pregnancy 0 9 148 157 B-pregnancy
+

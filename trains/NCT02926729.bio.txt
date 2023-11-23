@@ -1,0 +1,62 @@
+Eligible 0 8 0 8 O
+for 9 12 9 12 O
+breast 13 19 13 19 B-treatment
+conserving 20 30 20 30 I-treatment
+surgery 31 38 31 38 I-treatment
+, 38 39 38 39 O
+lumpectomy 40 50 40 50 B-treatment
+and 51 54 51 54 O
+radiation 55 64 55 64 B-treatment
+
+Female 0 6 65 71 B-gender
+
+Involvement 0 11 72 83 O
+in 12 14 84 86 O
+another 15 22 87 94 O
+therapeutic 23 34 95 106 O
+trial 35 40 107 112 O
+for 41 44 113 116 O
+breast 45 51 117 123 B-cancer
+cancer 52 58 124 130 I-cancer
+
+Minimum 0 7 131 138 O
+age 8 11 139 142 B-age
+of 12 14 143 145 O
+21 15 17 146 148 B-lower_bound
+years 18 23 149 154 I-lower_bound
+
+Oncotype 0 8 155 163 B-treatment
+DX 9 11 164 166 I-treatment
+or 12 14 167 169 O
+other 15 20 170 175 O
+genetic 21 28 176 183 O
+assay 29 34 184 189 O
+performed 35 44 190 199 O
+on 45 47 200 202 O
+core 48 52 203 207 B-treatment
+biopsy 53 59 208 214 I-treatment
+or 60 62 215 217 O
+not 63 66 218 221 O
+requested 67 76 222 231 O
+
+Patients 0 8 232 240 O
+that 9 13 241 245 O
+have 14 18 246 250 O
+complex 19 26 251 258 B-cancer
+DCIS 27 31 259 263 I-cancer
+
+Pregnancy 0 9 264 273 B-pregnancy
+
+Risk 0 4 274 278 O
+of 5 7 279 281 O
+poor 8 12 282 286 O
+cosmetic 13 21 287 295 O
+outcome 22 29 296 303 O
+after 30 35 304 309 O
+initial 36 43 310 317 O
+lumpectomy 44 54 318 328 B-treatment
+and 55 58 329 332 O
+possible 59 67 333 341 O
+additional 68 78 342 352 O
+excision 79 87 353 361 O
+

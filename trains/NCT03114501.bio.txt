@@ -1,0 +1,47 @@
+Diagnosed 0 9 0 9 O
+with 10 14 10 14 O
+a 15 16 15 16 O
+primary 17 24 17 24 O
+HNC 25 28 25 28 B-cancer
+
+ECOG 0 4 29 33 B-clinical_variable
+performance 5 16 34 45 I-clinical_variable
+status 17 23 46 52 I-clinical_variable
+of 24 26 53 55 O
+2 27 28 56 57 B-upper_bound
+or 29 31 58 60 O
+lower 32 37 61 66 O
+
+able 0 4 67 71 B-language_fluency
+to 5 7 72 74 I-language_fluency
+read 8 12 75 79 I-language_fluency
+and 13 16 80 83 I-language_fluency
+speak 17 22 84 89 I-language_fluency
+English 23 30 90 97 I-language_fluency
+
+going 0 5 98 103 O
+to 6 8 104 106 O
+receive 9 16 107 114 O
+at 17 19 115 117 O
+least 20 25 118 123 O
+4 26 27 124 125 B-lower_bound
+weeks 28 33 126 131 I-lower_bound
+of 34 36 132 134 O
+RT 37 39 135 137 B-treatment
+with 40 44 138 142 O
+at 45 47 143 145 O
+least 48 53 146 151 O
+20 54 56 152 154 B-lower_bound
+fractions 57 66 155 164 O
+
+must 0 4 165 169 O
+be 5 7 170 172 O
+( 8 9 173 174 O
+1 9 10 174 175 O
+) 10 11 175 176 O
+at 12 14 177 179 O
+least 15 20 180 185 O
+18 21 23 186 188 B-lower_bound
+years 24 29 189 194 I-lower_bound
+old 30 33 195 198 O
+

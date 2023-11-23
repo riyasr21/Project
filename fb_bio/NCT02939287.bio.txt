@@ -1,0 +1,52 @@
+Any 0 3 0 3 O
+anti 4 8 4 8 B-treatment
+- 8 9 8 9 I-treatment
+emetic 9 15 9 15 I-treatment
+treatment 16 25 16 25 I-treatment
+within 26 32 26 32 O
+24 33 35 33 35 B-upper_bound
+hours 36 41 36 41 I-upper_bound
+before 42 48 42 48 O
+planned 49 56 49 56 O
+high 57 61 57 61 B-treatment
+dose 62 66 62 66 I-treatment
+conditioning 67 79 67 79 I-treatment
+chemotherapy 80 92 80 92 I-treatment
+
+Autologous 0 10 93 103 B-treatment
+transplant 11 21 104 114 I-treatment
+containing 22 32 115 125 O
+high 33 37 126 130 O
+dose 38 42 131 135 O
+melphalan 43 52 136 145 B-treatment
+as 53 55 146 148 O
+part 56 60 149 153 O
+of 61 63 154 156 O
+the 64 67 157 160 O
+conditioning 68 80 161 173 O
+regimen 81 88 174 181 O
+
+Baseline 0 8 182 190 B-clinical_variable
+corrected 9 18 191 200 I-clinical_variable
+QT 19 21 201 203 I-clinical_variable
+interval 22 30 204 212 I-clinical_variable
+( 31 32 213 214 I-clinical_variable
+QTc 32 35 214 217 I-clinical_variable
+) 35 36 217 218 I-clinical_variable
+> 37 38 219 220 O
+500 39 42 221 224 B-lower_bound
+ms 43 45 225 227 I-lower_bound
+
+History 0 7 228 235 O
+of 8 10 236 238 O
+seizures 11 19 239 247 B-chronic_disease
+
+Human 0 5 248 253 B-chronic_disease
+immunodeficiency 6 22 254 270 I-chronic_disease
+virus 23 28 271 276 I-chronic_disease
+( 29 30 277 278 I-chronic_disease
+HIV 30 33 278 281 I-chronic_disease
+) 33 34 281 282 I-chronic_disease
+
+Pregnancy 0 9 283 292 B-pregnancy
+

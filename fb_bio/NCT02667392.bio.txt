@@ -1,0 +1,79 @@
+> 0 1 0 1 O
+6 2 3 2 3 B-lower_bound
+months 4 10 4 10 I-lower_bound
+< 11 12 11 12 O
+5 13 14 13 14 B-upper_bound
+years 15 20 15 20 I-upper_bound
+post 21 25 21 25 B-chronic_disease
+- 25 26 25 26 I-chronic_disease
+stroke 26 32 26 32 I-chronic_disease
+onset 33 38 33 38 I-chronic_disease
+
+Diagnosis 0 9 39 48 O
+of 10 12 49 51 O
+stroke 13 19 52 58 B-chronic_disease
+
+Impaired 0 8 59 67 O
+lower 9 14 68 73 O
+extremity 15 24 74 83 O
+sensation 25 34 84 93 O
+confirmed 35 44 94 103 O
+by 45 47 104 106 O
+a 48 49 107 108 O
+score 50 55 109 114 O
+of 56 58 115 117 O
+< 59 60 118 119 O
+12 61 63 120 122 B-upper_bound
+on 64 66 123 125 O
+the 67 70 126 129 O
+Fugl 71 75 130 134 B-clinical_variable
+- 75 76 134 135 I-clinical_variable
+Meyer 76 81 135 140 I-clinical_variable
+Sensory 82 89 141 148 I-clinical_variable
+Assessment 90 100 149 159 I-clinical_variable
+
+Receiving 0 9 160 169 O
+physical 10 18 170 178 B-treatment
+therapy 19 26 179 186 I-treatment
+services 27 35 187 195 O
+for 36 39 196 199 O
+mobility 40 48 200 208 O
+and/or 49 55 209 215 O
+gait 56 60 216 220 O
+
+Unilateral 0 10 221 231 O
+lower 11 16 232 237 O
+extremity 17 26 238 247 O
+paresis 27 34 248 255 O
+confirmed 35 44 256 265 O
+by 45 47 266 268 O
+a 48 49 269 270 O
+score 50 55 271 276 O
+of 56 58 277 279 O
+< 59 60 280 281 O
+32 61 63 282 284 B-upper_bound
+on 64 66 285 287 O
+the 67 70 288 291 O
+Fugl 71 75 292 296 B-clinical_variable
+- 75 76 296 297 I-clinical_variable
+Meyer 76 81 297 302 I-clinical_variable
+Motor 82 87 303 308 I-clinical_variable
+Assessment 88 98 309 319 I-clinical_variable
+
+knee 0 4 320 324 B-clinical_variable
+flexion 5 12 325 332 I-clinical_variable
+contracture 13 24 333 344 I-clinical_variable
+of 25 27 345 347 O
+-10 28 31 348 351 B-lower_bound
+
+knee 0 4 352 356 B-clinical_variable
+flexion 5 12 357 364 I-clinical_variable
+range 13 18 365 370 I-clinical_variable
+of 19 21 371 373 I-clinical_variable
+motion 22 28 374 380 I-clinical_variable
+( 29 30 381 382 I-clinical_variable
+ROM 30 33 382 385 I-clinical_variable
+) 33 34 385 386 I-clinical_variable
+< 35 36 387 388 O
+90 37 39 389 391 B-upper_bound
+

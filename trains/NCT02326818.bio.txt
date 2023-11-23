@@ -1,0 +1,89 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+and 7 10 7 10 O
+above 11 16 11 16 O
+
+Cognitive 0 9 17 26 B-chronic_disease
+impairment 10 20 27 37 I-chronic_disease
+and/or 21 27 38 44 O
+capacity 28 36 45 53 B-chronic_disease
+impairment 37 47 54 64 I-chronic_disease
+preventing 48 58 65 75 O
+reliable 59 67 76 84 O
+outcome 68 75 85 92 O
+measures 76 84 93 101 O
+self 85 89 102 106 O
+- 89 90 106 107 O
+report 90 96 107 113 O
+
+Confirmed 0 9 114 123 O
+diagnosis 10 19 124 133 O
+of 20 22 134 136 O
+focal 23 28 137 142 B-chronic_disease
+hand 29 33 143 147 I-chronic_disease
+dystonia 34 42 148 156 I-chronic_disease
+( 43 44 157 158 I-chronic_disease
+FHD 44 47 158 161 I-chronic_disease
+) 47 48 161 162 I-chronic_disease
+or 49 51 163 165 O
+upper 52 57 166 171 B-chronic_disease
+limb 58 62 172 176 I-chronic_disease
+spasticity 63 73 177 187 I-chronic_disease
+
+Pregnancy 0 9 188 197 B-pregnancy
+
+Receiving 0 9 198 207 O
+botulinum 10 19 208 217 B-treatment
+toxin 20 25 218 223 I-treatment
+injections 26 36 224 234 I-treatment
+under 37 42 235 240 O
+85 43 45 241 243 O
+- 45 46 243 244 O
+N-0195 46 52 244 250 O
+
+Stable 0 6 251 257 O
+onabotulinumtoxinA 7 25 258 276 B-treatment
+regimen 26 33 277 284 O
+and 34 37 285 288 O
+response 38 46 289 297 O
+for 47 50 298 301 O
+at 51 53 302 304 O
+least 54 59 305 310 O
+2 60 61 311 312 B-lower_bound
+treatment 62 71 313 322 B-treatment
+sessions 72 80 323 331 O
+, 80 81 331 332 O
+defined 82 89 333 340 O
+as 90 92 341 343 O
+no 93 95 344 346 O
+more 96 100 347 351 O
+than 101 105 352 356 O
+15 106 108 357 359 B-upper_bound
+% 108 109 359 360 I-upper_bound
+difference 110 120 361 371 O
+in 121 123 372 374 O
+response 124 132 375 383 O
+on 133 135 384 386 O
+a 136 137 387 388 O
+visual 138 144 389 395 B-clinical_variable
+analogue 145 153 396 404 I-clinical_variable
+scale 154 159 405 410 I-clinical_variable
+, 159 160 410 411 O
+with 161 165 412 416 O
+identical 166 175 417 426 O
+muscles 176 183 427 434 O
+targeted 184 192 435 443 O
+and 193 196 444 447 O
+dose 197 201 448 452 O
+at 202 204 453 455 O
+each 205 209 456 460 O
+session 210 217 461 468 O
+
+concomitant 0 11 469 480 O
+neuromuscular 12 25 481 494 B-chronic_disease
+disorder 26 34 495 503 I-chronic_disease
+
+neuromuscular 0 13 504 517 B-chronic_disease
+junction 14 22 518 526 I-chronic_disease
+disorder 23 31 527 535 I-chronic_disease
+

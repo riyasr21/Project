@@ -1,0 +1,108 @@
+Acute 0 5 0 5 O
+severe 6 12 6 12 O
+UC 13 15 13 15 B-chronic_disease
+in 16 18 16 18 O
+the 19 22 19 22 O
+previous 23 31 23 31 B-upper_bound
+12 32 34 32 34 I-upper_bound
+months 35 41 35 41 I-upper_bound
+
+Age 0 3 42 45 B-age
+: 3 4 45 46 O
+8 5 6 47 48 B-lower_bound
+- 6 7 48 49 O
+19 7 9 49 51 B-upper_bound
+
+Antibiotic 0 10 52 62 B-treatment
+or 11 13 63 65 O
+corticosteroid 14 28 66 80 B-treatment
+use 29 32 81 84 O
+in 33 35 85 87 O
+the 36 39 88 91 O
+past 40 44 92 96 B-upper_bound
+2 45 46 97 98 I-upper_bound
+weeks 47 52 99 104 I-upper_bound
+
+Any 0 3 105 108 O
+proven 4 10 109 115 O
+current 11 18 116 123 O
+infection 19 28 124 133 O
+such 29 33 134 138 O
+as 34 36 139 141 O
+positive 37 45 142 150 O
+stool 46 51 151 156 O
+culture 52 59 157 164 O
+, 59 60 164 165 O
+parasite 61 69 166 174 O
+or 70 72 175 177 O
+C. 73 75 178 180 O
+difficile 76 85 181 190 O
+within 86 92 191 197 O
+the 93 96 198 201 O
+past 97 101 202 206 B-upper_bound
+4 102 103 207 208 I-upper_bound
+weeks 104 109 209 214 I-upper_bound
+
+Current 0 7 215 222 O
+extra 8 13 223 228 O
+intestinal 14 24 229 239 O
+manifestation 25 38 240 253 O
+of 39 41 254 256 O
+UC 42 44 257 259 B-chronic_disease
+
+Established 0 11 260 271 O
+diagnosis 12 21 272 281 O
+of 22 24 282 284 O
+UC 25 27 285 287 B-chronic_disease
+
+PUCAI>45 0 8 288 296 B-clinical_variable
+
+Participant 0 11 297 308 O
+has 12 15 309 312 O
+agreed 16 22 313 319 O
+to 23 25 320 322 O
+follow 26 32 323 329 O
+the 33 36 330 333 O
+UCD 37 40 334 337 O
+for 41 44 338 341 O
+12 45 47 342 344 B-upper_bound
+weeks 48 53 345 350 I-upper_bound
+
+Pregnancy 0 9 351 360 B-pregnancy
+
+Primary 0 7 361 368 B-chronic_disease
+Sclerosing 8 18 369 379 I-chronic_disease
+Cholangitis 19 30 380 391 I-chronic_disease
+( 31 32 392 393 I-chronic_disease
+PSC 32 35 393 396 I-chronic_disease
+) 35 36 396 397 I-chronic_disease
+or 37 39 398 400 O
+liver 40 45 401 406 B-chronic_disease
+disease 46 53 407 414 I-chronic_disease
+
+Stable 0 6 415 421 B-treatment
+medication 7 17 422 432 I-treatment
+( 18 19 433 434 O
+IMM/5ASA 19 27 434 442 B-treatment
+) 27 28 442 443 O
+use 29 32 444 447 O
+or 33 35 448 450 O
+no 36 38 451 453 O
+medication 39 49 454 464 O
+use 50 53 465 468 O
+for 54 57 469 472 O
+the 58 61 473 476 O
+past 62 66 477 481 B-upper_bound
+6 67 68 482 483 I-upper_bound
+weeks 69 74 484 489 I-upper_bound
+
+Use 0 3 490 493 O
+of 4 6 494 496 O
+biologics 7 16 497 506 B-treatment
+in 17 19 507 509 O
+present 20 27 510 517 O
+or 28 30 518 520 O
+in 31 33 521 523 O
+the 34 37 524 527 O
+past 38 42 528 532 O
+

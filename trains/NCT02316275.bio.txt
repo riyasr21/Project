@@ -1,0 +1,49 @@
+< 0 1 0 1 O
+12 1 3 1 3 B-upper_bound
+months 4 10 4 10 I-upper_bound
+post 11 15 11 15 O
+- 15 16 15 16 O
+partum 16 22 16 22 O
+
+Age 0 3 23 26 B-age
+< 4 5 27 28 O
+18 5 7 28 30 B-upper_bound
+years 8 13 31 36 I-upper_bound
+at 14 16 37 39 O
+time 17 21 40 44 O
+of 22 24 45 47 O
+enrollment 25 35 48 58 O
+
+Concomitant 0 11 59 70 B-treatment
+prolapse 12 20 71 79 I-treatment
+surgery 21 28 80 87 I-treatment
+other 29 34 88 93 O
+than 35 39 94 98 O
+anterior 40 48 99 107 B-treatment
+colporrhaphy 49 61 108 120 I-treatment
+
+Currently 0 9 121 130 O
+pregnant 10 18 131 139 B-pregnancy
+
+Non 0 3 140 143 B-pregnancy
+- 3 4 143 144 I-pregnancy
+pregnant 4 12 144 152 I-pregnancy
+female 13 19 153 159 B-gender
+
+Planned 0 7 160 167 O
+mid 8 11 168 171 B-treatment
+- 11 12 171 172 I-treatment
+urethral 12 20 172 180 I-treatment
+sling 21 26 181 186 I-treatment
+surgery 27 34 187 194 I-treatment
+
+Unable 0 6 195 201 B-language_fluency
+to 7 9 202 204 I-language_fluency
+read 10 14 205 209 I-language_fluency
+, 14 15 209 210 I-language_fluency
+write 16 21 211 216 I-language_fluency
+, 21 22 216 217 I-language_fluency
+or 23 25 218 220 I-language_fluency
+comprehend 26 36 221 231 I-language_fluency
+English 37 44 232 239 I-language_fluency
+

@@ -1,0 +1,106 @@
+Access 0 6 0 6 B-technology_access
+to 7 9 7 9 I-technology_access
+internet 10 18 10 18 I-technology_access
+
+Aged 0 4 19 23 B-age
+14 5 7 24 26 B-upper_bound
+years 8 13 27 32 I-upper_bound
+or 14 16 33 35 O
+younger 17 24 36 43 O
+or 25 27 44 46 O
+25 28 30 47 49 B-lower_bound
+years 31 36 50 55 I-lower_bound
+or 37 39 56 58 O
+older 40 45 59 64 O
+at 46 48 65 67 O
+time 49 53 68 72 O
+of 54 56 73 75 O
+screening 57 66 76 85 O
+
+Aged 0 4 86 90 B-age
+15 5 7 91 93 B-lower_bound
+to 8 10 94 96 O
+24 11 13 97 99 B-upper_bound
+years 14 19 100 105 I-upper_bound
+( 20 21 106 107 O
+inclusive 21 30 107 116 O
+) 30 31 116 117 O
+at 32 34 118 120 O
+time 35 39 121 125 O
+of 40 42 126 128 O
+screening 43 52 129 138 O
+
+Assigned 0 8 139 147 O
+male 9 13 148 152 B-gender
+sex 14 17 153 156 O
+at 18 20 157 159 O
+birth 21 26 160 165 O
+and 27 30 166 169 O
+currently 31 40 170 179 O
+identifies 41 51 180 190 O
+as 52 54 191 193 O
+male 55 59 194 198 O
+
+Assigned 0 8 199 207 O
+male 9 13 208 212 B-gender
+sex 14 17 213 216 O
+at 18 20 217 219 O
+birth 21 26 220 225 O
+but 27 30 226 229 O
+identifies 31 41 230 240 O
+as 42 44 241 243 O
+transgender 45 56 244 255 O
+or 57 59 256 258 O
+gender 60 66 259 265 O
+non 67 70 266 269 O
+- 70 71 269 270 O
+conforming 71 81 270 280 O
+
+Does 0 4 281 285 B-language_fluency
+not 5 8 286 289 I-language_fluency
+speak 9 14 290 295 I-language_fluency
+or 15 17 296 298 I-language_fluency
+read 18 22 299 303 I-language_fluency
+English 23 30 304 311 I-language_fluency
+
+HIV 0 3 312 315 B-chronic_disease
+- 3 4 315 316 O
+positive 4 12 316 324 O
+
+Not 0 3 325 328 O
+be 4 6 329 331 O
+on 7 9 332 334 O
+PrEP 10 14 335 339 B-chronic_disease
+at 15 17 340 342 O
+time 18 22 343 347 O
+of 23 25 348 350 O
+enrollment 26 36 351 361 O
+
+Report 0 6 362 368 O
+having 7 13 369 375 O
+consensual 14 24 376 386 O
+anal 25 29 387 391 O
+sex 30 33 392 395 O
+with 34 38 396 400 O
+a 39 40 401 402 O
+male 41 45 403 407 B-gender
+partner 46 53 408 415 O
+in 54 56 416 418 O
+the 57 60 419 422 O
+prior 61 66 423 428 B-upper_bound
+6 67 68 429 430 I-upper_bound
+months 69 75 431 437 I-upper_bound
+
+Self 0 4 438 442 O
+- 4 5 442 443 O
+report 5 11 443 449 O
+as 12 14 450 452 O
+HIV 15 18 453 456 B-chronic_disease
+- 18 19 456 457 O
+negative 19 27 457 465 O
+or 28 30 466 468 O
+sero 31 35 469 473 O
+- 35 36 473 474 O
+status 36 42 474 480 O
+unaware 43 50 481 488 O
+

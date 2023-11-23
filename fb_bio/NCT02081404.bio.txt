@@ -1,0 +1,160 @@
+18 0 2 0 2 O
+years 3 8 3 8 O
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+
+A 0 1 16 17 O
+negative 2 10 18 26 O
+esophageal 11 21 27 37 B-treatment
+pH 22 24 38 40 I-treatment
+result 25 31 41 47 O
+and 32 35 48 51 O
+absence 36 43 52 59 O
+of 44 46 60 62 O
+erosions 47 55 63 71 O
+will 56 60 72 76 O
+be 61 63 77 79 O
+inclusion 64 73 80 89 O
+criteria 74 82 90 98 O
+for 83 86 99 102 O
+these 87 92 103 108 O
+patients 93 101 109 117 O
+
+Allergic 0 8 118 126 O
+to 9 11 127 129 O
+PPIs 12 16 130 134 B-allergy_name
+
+Chronic 0 7 135 142 B-treatment
+anticoagulation 8 23 143 158 I-treatment
+
+Control 0 7 159 166 O
+subjects 8 16 167 175 O
+will 17 21 176 180 O
+include 22 29 181 188 O
+patients 30 38 189 197 O
+referred 39 47 198 206 O
+for 48 51 207 210 O
+an 52 54 211 213 O
+upper 55 60 214 219 B-treatment
+endoscopy 61 70 220 229 I-treatment
+for 71 74 230 233 O
+evaluation 75 85 234 244 O
+of 86 88 245 247 O
+non 89 92 248 251 O
+- 92 93 251 252 O
+reflux 93 99 252 258 O
+symptoms 100 108 259 267 O
+such 109 113 268 272 O
+as 114 116 273 275 O
+iron 117 121 276 280 B-chronic_disease
+deficiency 122 132 281 291 I-chronic_disease
+anemia 133 139 292 298 I-chronic_disease
+
+Eosinophilic 0 12 299 311 B-chronic_disease
+esophagitis 13 24 312 323 I-chronic_disease
+
+Helicobacter 0 12 324 336 B-chronic_disease
+pylori 13 19 337 343 I-chronic_disease
+infection 20 29 344 353 I-chronic_disease
+
+History 0 7 354 361 O
+of 8 10 362 364 O
+Barrett 11 18 365 372 B-chronic_disease
+'s 18 20 372 374 I-chronic_disease
+esophagus 21 30 375 384 I-chronic_disease
+
+NYHA 0 4 385 389 B-clinical_variable
+class 5 10 390 395 I-clinical_variable
+III 11 14 396 399 B-lower_bound
+or 15 17 400 402 O
+IV 18 20 403 405 B-upper_bound
+congestive 21 31 406 416 B-chronic_disease
+heart 32 37 417 422 I-chronic_disease
+failure 38 45 423 430 I-chronic_disease
+
+Patients 0 8 431 439 O
+on 9 11 440 442 O
+drugs 12 17 443 448 O
+known 18 23 449 454 O
+to 24 26 455 457 O
+cause 27 32 458 463 O
+pill 33 37 464 468 B-chronic_disease
+- 37 38 468 469 I-chronic_disease
+related 38 45 469 476 I-chronic_disease
+esophagitis 46 57 477 488 I-chronic_disease
+
+Patients 0 8 489 497 O
+with 9 13 498 502 O
+HIV 14 17 503 506 B-chronic_disease
+
+Peptic 0 6 507 513 B-chronic_disease
+ulcer 7 12 514 519 I-chronic_disease
+disease 13 20 520 527 I-chronic_disease
+
+Pregnancy 0 9 528 537 B-pregnancy
+
+Presence 0 8 538 546 O
+of 9 11 547 549 O
+cancer 12 18 550 556 B-cancer
+or 19 21 557 559 O
+mass 22 26 560 564 O
+lesion 27 33 565 571 O
+in 34 36 572 574 O
+the 37 40 575 578 O
+esophagus 41 50 579 588 O
+or 51 53 589 591 O
+stomach 54 61 592 599 O
+
+Presence 0 8 600 608 O
+of 9 11 609 611 O
+columnar 12 20 612 620 B-chronic_disease
+lined 21 26 621 626 I-chronic_disease
+distal 27 33 627 633 I-chronic_disease
+esophagus 34 43 634 643 I-chronic_disease
+on 44 46 644 646 O
+endoscopy 47 56 647 656 B-treatment
+with 57 61 657 661 O
+intestinal 62 72 662 672 B-cancer
+metaplasia 73 83 673 683 I-cancer
+
+Presence 0 8 684 692 O
+of 9 11 693 695 O
+macroscopic 12 23 696 707 B-chronic_disease
+erosive 24 31 708 715 I-chronic_disease
+esophagitis 32 43 716 727 I-chronic_disease
+
+Prior 0 5 728 733 O
+history 6 13 734 741 O
+of 14 16 742 744 O
+esophageal 17 27 745 755 B-treatment
+surgery 28 35 756 763 I-treatment
+
+other 0 5 764 769 O
+immunocompromised 6 23 770 787 B-chronic_disease
+conditions 24 34 788 798 O
+who 35 38 799 802 O
+may 39 42 803 806 O
+have 43 47 807 811 O
+infectious 48 58 812 822 B-chronic_disease
+esophagitis 59 70 823 834 I-chronic_disease
+
+oxygen 0 6 835 841 O
+dependent 7 16 842 851 O
+chronic 17 24 852 859 B-chronic_disease
+obstructive 25 36 860 871 I-chronic_disease
+pulmonary 37 46 872 881 I-chronic_disease
+disease 47 54 882 889 I-chronic_disease
+
+recent 0 6 890 896 O
+diagnosis 7 16 897 906 O
+of 17 19 907 909 O
+cancer 20 26 910 916 B-cancer
+with 27 31 917 921 O
+a 32 33 922 923 O
+life 34 38 924 928 B-clinical_variable
+- 38 39 928 929 I-clinical_variable
+expectancy 39 49 929 939 I-clinical_variable
+< 50 51 940 941 O
+5 52 53 942 943 B-upper_bound
+years 54 59 944 949 I-upper_bound
+

@@ -1,0 +1,35 @@
+Active 0 6 0 6 O
+pressure 7 15 7 15 B-chronic_disease
+ulcers 16 22 16 22 I-chronic_disease
+
+Current 0 7 23 30 O
+use 8 11 31 34 O
+of 12 14 35 37 O
+medications 15 26 38 49 O
+for 27 30 50 53 O
+psychosis 31 40 54 63 B-chronic_disease
+
+Diagnosed 0 9 64 73 O
+with 10 14 74 78 O
+stroke 15 21 79 85 B-chronic_disease
+
+Recent 0 6 86 92 O
+weight 7 13 93 99 B-clinical_variable
+change 14 20 100 106 I-clinical_variable
+( 21 22 107 108 O
++ 22 23 108 109 O
+/- 23 25 109 111 O
+25 26 28 112 114 B-upper_bound
+pounds 29 35 115 121 I-upper_bound
+in 36 38 122 124 O
+1 39 40 125 126 B-upper_bound
+year 41 45 127 131 I-upper_bound
+) 45 46 131 132 O
+
+Renal 0 5 133 138 B-chronic_disease
+failure 6 13 139 146 I-chronic_disease
+
+Severe 0 6 147 153 B-chronic_disease
+pulmonary 7 16 154 163 I-chronic_disease
+disease 17 24 164 171 I-chronic_disease
+

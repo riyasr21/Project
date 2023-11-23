@@ -1,0 +1,143 @@
+> 0 1 0 1 O
+2 2 3 2 3 B-lower_bound
+weeks 4 9 4 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+and 17 20 17 20 O
+< 21 22 21 22 O
+18 23 25 23 25 B-upper_bound
+years 26 31 26 31 I-upper_bound
+of 32 34 32 34 O
+age 35 38 35 38 O
+
+> 0 1 39 40 O
+60 2 4 41 43 B-lower_bound
+% 4 5 43 44 I-lower_bound
+calories 6 14 45 53 O
+from 15 19 54 58 O
+parenteral 20 30 59 69 O
+nutrition 31 40 70 79 O
+
+Acquired 0 8 80 88 O
+or 9 11 89 91 O
+congenital 12 22 92 102 B-chronic_disease
+gastrointestinal 23 39 103 119 I-chronic_disease
+disease 40 47 120 127 I-chronic_disease
+
+Anticoagulant 0 13 128 141 B-treatment
+therapy 14 21 142 149 I-treatment
+
+Diabetes 0 8 150 158 B-chronic_disease
+
+Direct 0 6 159 165 B-clinical_variable
+bilirubin 7 16 166 175 I-clinical_variable
+greater 17 24 176 183 O
+or 25 27 184 186 O
+equal 28 33 187 192 O
+to 34 36 193 195 O
+2 37 38 196 197 B-lower_bound
+mg 39 41 198 200 I-lower_bound
+/ 41 42 200 201 I-lower_bound
+dL 42 44 201 203 I-lower_bound
+on 45 47 204 206 O
+2 48 49 207 208 O
+consecutive 50 61 209 220 O
+measurements 62 74 221 233 O
+
+Documented 0 10 234 244 O
+case 11 15 245 249 O
+of 16 18 250 252 O
+liver 19 24 253 258 B-chronic_disease
+disease 25 32 259 266 I-chronic_disease
+other 33 38 267 272 O
+than 39 43 273 277 O
+Parenteral 44 54 278 288 O
+Nutrition 55 64 289 298 O
+Associated 65 75 299 309 O
+Cholestasis 76 87 310 321 O
+
+Expected 0 8 322 330 O
+parenteral 9 19 331 341 B-clinical_variable
+nutrition 20 29 342 351 I-clinical_variable
+course 30 36 352 358 I-clinical_variable
+greater 37 44 359 366 O
+than 45 49 367 371 O
+30 50 52 372 374 B-lower_bound
+days 53 57 375 379 I-lower_bound
+
+Extracorporeal 0 14 380 394 B-treatment
+Membrane 15 23 395 403 I-treatment
+Oxygenation 24 35 404 415 I-treatment
+
+Failed 0 6 416 422 O
+standard 7 15 423 431 B-treatment
+therapies 16 25 432 441 I-treatment
+to 26 28 442 444 O
+prevent 29 36 445 452 O
+progression 37 48 453 464 O
+of 49 51 465 467 O
+liver 52 57 468 473 B-chronic_disease
+disease 58 65 474 481 I-chronic_disease
+( 66 67 482 483 O
+Actigal 67 74 483 490 O
+, 74 75 490 491 O
+cyclic 76 82 492 498 O
+parenteral 83 93 499 509 O
+nutrition 94 103 510 519 O
+, 103 104 519 520 O
+avoidance 105 114 521 530 O
+of 115 117 531 533 O
+overfeeding 118 129 534 545 O
+, 129 130 545 546 O
+reduction 131 140 547 556 O
+/ 140 141 556 557 O
+removal 141 148 557 564 O
+of 149 151 565 567 O
+copper 152 158 568 574 O
+from 159 163 575 579 O
+parenteral 164 174 580 590 O
+nutrition 175 184 591 600 O
+if 185 187 601 603 O
+elevated 188 196 604 612 O
+my 197 199 613 615 O
+laboratory 200 210 616 626 O
+analysis 211 219 627 635 O
+, 219 220 635 636 O
+advancement 221 232 637 648 O
+of 233 235 649 651 O
+enteral 236 243 652 659 O
+feeds 244 249 660 665 O
+) 249 250 665 666 O
+
+Fatal 0 5 667 672 B-chronic_disease
+chromosomal 6 17 673 684 I-chronic_disease
+disorder 18 26 685 693 I-chronic_disease
+
+Patient 0 7 694 701 O
+expected 8 16 702 710 O
+to 17 19 711 713 O
+weaned 20 26 714 720 O
+from 27 31 721 725 O
+parenteral 32 42 726 736 B-treatment
+nutrition 43 52 737 746 I-treatment
+in 53 55 747 749 O
+30 56 58 750 752 B-upper_bound
+days 59 63 753 757 I-upper_bound
+
+Seafood 0 7 758 765 B-allergy_name
+, 7 8 765 766 O
+egg 9 12 767 770 B-allergy_name
+, 12 13 770 771 O
+or 14 16 772 774 O
+Omegaven 17 25 775 783 B-allergy_name
+allergy 26 33 784 791 O
+
+Stroke 0 6 792 798 B-chronic_disease
+
+pulmonary 0 9 799 808 B-chronic_disease
+embolism 10 18 809 817 I-chronic_disease
+
+recent 0 6 818 824 O
+myocardial 7 17 825 835 B-chronic_disease
+infarction 18 28 836 846 I-chronic_disease
+

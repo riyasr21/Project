@@ -1,0 +1,22 @@
+pregnant 0 8 0 8 B-pregnancy
+females 9 16 9 16 B-gender
+
+requiring 0 9 17 26 O
+mechanical 10 20 27 37 B-treatment
+ventilation 21 32 38 49 I-treatment
+for 33 36 50 53 O
+more 37 41 54 58 O
+than 42 46 59 63 O
+24 47 49 64 66 B-lower_bound
+hours 50 55 67 72 I-lower_bound
+in 56 58 73 75 O
+one 59 62 76 79 O
+of 63 65 80 82 O
+the 66 69 83 86 O
+University 70 80 87 97 O
+of 81 83 98 100 O
+Kentucky 84 92 101 109 O
+adult 93 98 110 115 O
+ICU 99 102 116 119 O
+'s 102 104 119 121 O
+

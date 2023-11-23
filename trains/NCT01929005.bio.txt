@@ -1,0 +1,14 @@
+Medicare 0 8 0 8 O
+recipients 9 19 9 19 O
+and 20 23 20 23 O
+were 24 28 24 28 O
+hospitalized 29 41 29 41 O
+at 42 44 42 44 O
+least 45 50 45 50 O
+one 51 54 51 54 B-lower_bound
+time 55 59 55 59 O
+in 60 62 60 62 O
+the 63 66 63 66 O
+past 67 71 67 71 O
+year 72 76 72 76 O
+

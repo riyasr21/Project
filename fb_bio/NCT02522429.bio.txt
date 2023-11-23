@@ -1,0 +1,30 @@
+a 0 1 0 1 O
+Glasgow 2 9 2 9 B-clinical_variable
+Coma 10 14 10 14 I-clinical_variable
+Score 15 20 15 20 I-clinical_variable
+< 21 22 21 22 O
+9 23 24 23 24 B-upper_bound
+( 25 26 25 26 O
+at 26 28 26 28 O
+the 29 32 29 32 O
+time 33 37 33 37 O
+of 38 40 38 40 O
+injury 41 47 41 47 O
+) 47 48 47 48 O
+
+an 0 2 49 51 O
+abnormal 3 11 52 60 O
+CT 12 14 61 63 B-treatment
+
+deep 0 4 64 68 B-treatment
+sedation 5 13 69 77 I-treatment
+
+prolonged 0 9 78 87 B-clinical_variable
+loss 10 14 88 92 I-clinical_variable
+of 15 17 93 95 I-clinical_variable
+consciousness 18 31 96 109 I-clinical_variable
+( 32 33 110 111 O
+> 33 34 111 112 O
+24h 34 37 112 115 B-lower_bound
+) 37 38 115 116 O
+

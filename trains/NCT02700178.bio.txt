@@ -1,0 +1,41 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+60 7 9 7 9 B-upper_bound
+at 10 12 10 12 O
+time 13 17 13 17 O
+of 18 20 18 20 O
+enrollment 21 31 21 31 O
+
+Allergy 0 7 32 39 O
+to 8 10 40 42 O
+medical 11 18 43 50 B-allergy_name
+grade 19 24 51 56 I-allergy_name
+adhesive 25 33 57 65 I-allergy_name
+tape 34 38 66 70 I-allergy_name
+( 39 40 71 72 O
+used 40 44 72 76 O
+to 45 47 77 79 O
+secure 48 54 80 86 O
+sensors 55 62 87 94 O
+to 63 65 95 97 O
+skin 66 70 98 102 O
+) 70 71 102 103 O
+
+Peripheral 0 10 104 114 B-chronic_disease
+nerve 11 16 115 120 I-chronic_disease
+impairment 17 27 121 131 I-chronic_disease
+of 28 30 132 134 O
+the 31 34 135 138 O
+upper 35 40 139 144 O
+extremity 41 50 145 154 O
+being 51 56 155 160 O
+tested 57 63 161 167 O
+
+Surgery 0 7 168 175 B-treatment
+
+disease 0 7 176 183 O
+leading 8 15 184 191 O
+to 16 18 192 194 O
+paraplegia 19 29 195 205 B-chronic_disease
+

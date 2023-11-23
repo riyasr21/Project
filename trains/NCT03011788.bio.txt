@@ -1,0 +1,4 @@
+prior 0 5 0 5 B-treatment
+colon 6 11 6 11 I-treatment
+resection 12 21 12 21 I-treatment
+

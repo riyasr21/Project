@@ -1,0 +1,232 @@
+Diabetes 0 8 0 8 B-chronic_disease
+
+amyloidosis 0 11 9 20 B-chronic_disease
+
+between 0 7 21 28 O
+the 8 11 29 32 O
+ages 12 16 33 37 B-age
+of 17 19 38 40 O
+21 20 22 41 43 B-lower_bound
+and 23 26 44 47 O
+80 27 29 48 50 B-upper_bound
+
+cervical 0 8 51 59 B-chronic_disease
+radiculopathy 9 22 60 73 I-chronic_disease
+
+major 0 5 74 79 O
+trauma 6 12 80 86 B-chronic_disease
+( 13 14 87 88 O
+fractures 14 23 88 97 O
+or 24 26 98 100 O
+complete 27 35 101 109 O
+ligamentous 36 47 110 121 O
+tears 48 53 122 127 O
+) 53 54 127 128 O
+to 55 57 129 131 O
+the 58 61 132 135 O
+study 62 67 136 141 O
+hand 68 72 142 146 O
+or 73 75 147 149 O
+wrist 76 81 150 155 O
+
+morbid 0 6 156 162 B-chronic_disease
+obesity 7 14 163 170 I-chronic_disease
+( 15 16 171 172 O
+body 16 20 172 176 B-bmi
+mass 21 25 177 181 I-bmi
+index 26 31 182 187 I-bmi
+> 32 33 188 189 O
+40 33 35 189 191 B-lower_bound
+) 35 36 191 192 O
+
+osteoarthritis 0 14 193 207 B-chronic_disease
+in 15 17 208 210 O
+the 18 21 211 214 O
+wrist 22 27 215 220 O
+
+patient 0 7 221 228 O
+able 8 12 229 233 B-language_fluency
+to 13 15 234 236 I-language_fluency
+understand 16 26 237 247 I-language_fluency
+and 27 30 248 251 I-language_fluency
+complete 31 39 252 260 I-language_fluency
+the 40 43 261 264 I-language_fluency
+study 44 49 265 270 I-language_fluency
+questionnaires 50 64 271 285 I-language_fluency
+and 65 68 286 289 I-language_fluency
+medical 69 76 290 297 I-language_fluency
+assessments 77 88 298 309 I-language_fluency
+in 89 91 310 312 I-language_fluency
+English 92 99 313 320 I-language_fluency
+
+patient 0 7 321 328 O
+clinically 8 18 329 339 O
+indicated 19 28 340 349 O
+for 29 32 350 353 O
+treatment 33 42 354 363 B-treatment
+with 43 47 364 368 I-treatment
+either 48 54 369 375 I-treatment
+a 55 56 376 377 I-treatment
+steroid 57 64 378 385 I-treatment
+injection 65 74 386 395 I-treatment
+or 75 77 396 398 O
+surgery 78 85 399 406 B-treatment
+as 86 88 407 409 O
+treatment 89 98 410 419 O
+for 99 102 420 423 O
+their 103 108 424 429 O
+CTS 109 112 430 433 B-chronic_disease
+
+patient 0 7 434 441 O
+had 8 11 442 445 O
+previous 12 20 446 454 O
+carpal 21 27 455 461 B-treatment
+tunnel 28 34 462 468 I-treatment
+release 35 42 469 476 I-treatment
+( 43 44 477 478 I-treatment
+CTR 44 47 478 481 I-treatment
+) 47 48 481 482 I-treatment
+or 49 51 483 485 O
+other 52 57 486 491 O
+volar 58 63 492 497 B-treatment
+wrist 64 69 498 503 I-treatment
+surgery 70 77 504 511 I-treatment
+on 78 80 512 514 O
+the 81 84 515 518 O
+hand 85 89 519 523 O
+
+patient 0 7 524 531 O
+had 8 11 532 535 O
+symptoms 12 20 536 544 O
+of 21 23 545 547 O
+numbness 24 32 548 556 O
+or 33 35 557 559 O
+tingling 36 44 560 568 O
+for 45 48 569 572 O
+at 49 51 573 575 O
+least 52 57 576 581 O
+4 58 59 582 583 B-lower_bound
+weeks 60 65 584 589 I-lower_bound
+in 66 68 590 592 O
+at 69 71 593 595 O
+least 72 77 596 601 O
+two 78 81 602 605 B-lower_bound
+digits 82 88 606 612 O
+on 89 91 613 615 O
+one 92 95 616 619 O
+hand 96 100 620 624 O
+that 101 105 625 629 O
+include 106 113 630 637 O
+thumb 114 119 638 643 O
+, 119 120 643 644 O
+index 121 126 645 650 O
+, 126 127 650 651 O
+long 128 132 652 656 O
+or 133 135 657 659 O
+radial 136 142 660 666 O
+border 143 149 667 673 O
+of 150 152 674 676 O
+ring 153 157 677 681 O
+finger 158 164 682 688 O
+
+patient 0 7 689 696 O
+have 8 12 697 701 O
+a 13 14 702 703 O
+clinical 15 23 704 712 O
+diagnosis 24 33 713 722 O
+of 34 36 723 725 O
+carpal 37 43 726 732 B-chronic_disease
+tunnel 44 50 733 739 I-chronic_disease
+syndrome 51 59 740 748 I-chronic_disease
+
+patient 0 7 749 756 O
+have 8 12 757 761 O
+a 13 14 762 763 O
+clinical 15 23 764 772 O
+symptoms 24 32 773 781 O
+of 33 35 782 784 O
+Carpal 36 42 785 791 B-chronic_disease
+Tunnel 43 49 792 798 I-chronic_disease
+Syndrome 50 58 799 807 I-chronic_disease
+( 59 60 808 809 I-chronic_disease
+CTS 60 63 809 812 I-chronic_disease
+) 63 64 812 813 I-chronic_disease
+
+patient 0 7 814 821 O
+have 8 12 822 826 O
+a 13 14 827 828 O
+known 15 20 829 834 O
+tumor 21 26 835 840 B-cancer
+, 26 27 840 841 O
+mass 28 32 842 846 O
+or 33 35 847 849 O
+deformity 36 45 850 859 O
+of 46 48 860 862 O
+the 49 52 863 866 O
+study 53 58 867 872 O
+hand 59 63 873 877 O
+or 64 66 878 880 O
+wrist 67 72 881 886 O
+
+patient 0 7 887 894 O
+have 8 12 895 899 O
+a 13 14 900 901 O
+previous 15 23 902 910 O
+history 24 31 911 918 O
+of 32 34 919 921 O
+steroid 35 42 922 929 B-treatment
+injection 43 52 930 939 I-treatment
+into 53 57 940 944 O
+the 58 61 945 948 O
+carpal 62 68 949 955 O
+tunnel 69 75 956 962 O
+( 76 77 963 964 O
+injection 77 86 964 973 O
+group 87 92 974 979 O
+only 93 97 980 984 O
+) 97 98 984 985 O
+
+peripheral 0 10 986 996 B-chronic_disease
+nerve 11 16 997 1002 I-chronic_disease
+disease 17 24 1003 1010 I-chronic_disease
+
+pregnancy 0 9 1011 1020 B-pregnancy
+
+renal 0 5 1021 1026 B-chronic_disease
+failure 6 13 1027 1034 I-chronic_disease
+
+rheumatoid 0 10 1035 1045 B-chronic_disease
+arthritis 11 20 1046 1055 I-chronic_disease
+or 21 23 1056 1058 O
+other 24 29 1059 1064 O
+inflammatory 30 42 1065 1077 B-chronic_disease
+arthritis 43 52 1078 1087 I-chronic_disease
+, 52 53 1087 1088 O
+including 54 63 1089 1098 O
+gout 64 68 1099 1103 B-chronic_disease
+
+sarcoidosis 0 11 1104 1115 B-chronic_disease
+
+someone 0 7 1116 1123 O
+who 8 11 1124 1127 O
+could 12 17 1128 1133 O
+be 18 20 1134 1136 O
+considered 21 31 1137 1147 O
+a 32 33 1148 1149 O
+vulnerable 34 44 1150 1160 O
+person 45 51 1161 1167 O
+, 51 52 1167 1168 O
+such 53 57 1169 1173 O
+as 58 60 1174 1176 O
+an 61 63 1177 1179 O
+individual 64 74 1180 1190 O
+with 75 79 1191 1195 O
+dementia 80 88 1196 1204 B-chronic_disease
+
+thyroid 0 7 1205 1212 B-chronic_disease
+disease 8 15 1213 1220 I-chronic_disease
+or 16 18 1221 1223 O
+other 19 24 1224 1229 O
+metabolic 25 34 1230 1239 B-chronic_disease
+disorder 35 43 1240 1248 I-chronic_disease
+

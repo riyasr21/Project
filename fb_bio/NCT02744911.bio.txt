@@ -1,0 +1,33 @@
+Bilateral 0 9 0 9 B-treatment
+hearing 10 17 10 17 I-treatment
+aids 18 22 18 22 I-treatment
+( 23 24 23 24 O
+since 24 29 24 29 O
+one 30 33 30 33 O
+free 34 38 34 38 O
+ear 39 42 39 42 O
+is 43 45 43 45 O
+required 46 54 46 54 O
+for 55 58 55 58 O
+use 59 62 59 62 O
+of 63 65 63 65 O
+the 66 69 66 69 O
+SpeechVive 70 80 70 80 O
+device 81 87 81 87 O
+) 87 88 87 88 O
+
+Diagnosis 0 9 89 98 O
+of 10 12 99 101 O
+Parkinson 13 22 102 111 B-chronic_disease
+'s 22 24 111 113 I-chronic_disease
+disease 25 32 114 121 I-chronic_disease
+
+Neurological 0 12 122 134 B-chronic_disease
+diagnoses 13 22 135 144 I-chronic_disease
+( 23 24 145 146 O
+except 24 30 146 152 O
+Parkinson 31 40 153 162 B-chronic_disease
+'s 40 42 162 164 I-chronic_disease
+disease 43 50 165 172 I-chronic_disease
+) 50 51 172 173 O
+

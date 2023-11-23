@@ -1,0 +1,285 @@
+AST 0 3 0 3 B-clinical_variable
+< 4 5 4 5 O
+5 6 7 6 7 B-upper_bound
+times 8 13 8 13 I-upper_bound
+the 14 17 14 17 I-upper_bound
+upper 18 23 18 23 I-upper_bound
+limit 24 29 24 29 I-upper_bound
+of 30 32 30 32 I-upper_bound
+normal 33 39 33 39 I-upper_bound
+
+Age 0 3 40 43 B-age
+> 4 5 44 45 O
+18 6 8 46 48 B-lower_bound
+years 9 14 49 54 I-lower_bound
+
+Any 0 3 55 58 O
+celiac 4 10 59 65 B-treatment
+abutment 11 19 66 74 I-treatment
+
+Distant 0 7 75 82 B-cancer
+metastatic 8 18 83 93 I-cancer
+disease 19 26 94 101 I-cancer
+
+ECOG 0 4 102 106 B-clinical_variable
+performance 5 16 107 118 I-clinical_variable
+status 17 23 119 125 I-clinical_variable
+of 24 26 126 128 O
+< 27 28 129 130 O
+1 29 30 131 132 B-upper_bound
+
+In 0 2 133 135 B-cancer
+- 2 3 135 136 I-cancer
+situ 3 7 136 140 I-cancer
+carcinoma 8 17 141 150 I-cancer
+is 18 20 151 153 O
+allowed 21 28 154 161 O
+
+Nodal 0 5 162 167 B-cancer
+metastases 6 16 168 178 I-cancer
+beyond 17 23 179 185 O
+the 24 27 186 189 O
+field 28 33 190 195 O
+of 34 36 196 198 O
+resection 37 46 199 208 O
+Borderline 47 57 209 219 O
+resectable 58 68 220 230 O
+
+Pathologically 0 14 231 245 O
+confirmed 15 24 246 255 O
+adenocarcinoma 25 39 256 270 B-cancer
+of 40 42 271 273 I-cancer
+the 43 46 274 277 I-cancer
+pancreas 47 55 278 286 I-cancer
+
+Patients 0 8 287 295 O
+of 9 11 296 298 O
+reproductive 12 24 299 311 O
+potential 25 34 312 321 O
+must 35 39 322 326 O
+agree 40 45 327 332 B-contraception_consent
+to 46 48 333 335 I-contraception_consent
+use 49 52 336 339 I-contraception_consent
+an 53 55 340 342 I-contraception_consent
+effective 56 65 343 352 I-contraception_consent
+contraceptive 66 79 353 366 I-contraception_consent
+method 80 86 367 373 I-contraception_consent
+during 87 93 374 380 O
+participation 94 107 381 394 O
+in 108 110 395 397 O
+this 111 115 398 402 O
+trial 116 121 403 408 O
+and 122 125 409 412 O
+for 126 129 413 416 O
+6 130 131 417 418 B-upper_bound
+months 132 138 419 425 I-upper_bound
+after 139 144 426 431 I-upper_bound
+the 145 148 432 435 O
+trial 149 154 436 441 O
+
+Patients 0 8 442 450 O
+who 9 12 451 454 O
+are 13 16 455 458 O
+unable 17 23 459 465 O
+to 24 26 466 468 O
+perform 27 34 469 476 O
+the 35 38 477 480 O
+breath 39 45 481 487 B-treatment
+hold 46 50 488 492 I-treatment
+scan 51 55 493 497 I-treatment
+for 56 59 498 501 O
+planning 60 68 502 510 O
+purposes 69 77 511 519 O
+
+Pregnant 0 8 520 528 B-pregnancy
+women 9 14 529 534 B-gender
+
+Prior 0 5 535 540 O
+history 6 13 541 548 O
+of 14 16 549 551 O
+abdominal 17 26 552 561 B-treatment
+radiation 27 36 562 571 I-treatment
+therapy 37 44 572 579 I-treatment
+
+Prior 0 5 580 585 O
+or 6 8 586 588 O
+simultaneous 9 21 589 601 O
+malignancy 22 32 602 612 B-cancer
+within 33 39 613 619 O
+the 40 43 620 623 O
+past 44 48 624 628 B-upper_bound
+2 49 50 629 630 I-upper_bound
+years 51 56 631 636 I-upper_bound
+( 57 58 637 638 O
+other 58 63 638 643 O
+than 64 68 644 648 O
+cutaneous 69 78 649 658 B-cancer
+squamous 79 87 659 667 I-cancer
+or 88 90 668 670 O
+basal 91 96 671 676 B-cancer
+cell 97 101 677 681 I-cancer
+carcinoma 102 111 682 691 I-cancer
+
+Prior 0 5 692 697 B-treatment
+systemic 6 14 698 706 I-treatment
+therapy 15 22 707 714 I-treatment
+for 23 26 715 718 O
+pancreatic 27 37 719 729 B-cancer
+cancer 38 44 730 736 I-cancer
+
+Serious 0 7 737 744 O
+uncontrolled 8 20 745 757 O
+concomitant 21 32 758 769 O
+systemic 33 41 770 778 B-chronic_disease
+disorders 42 51 779 788 I-chronic_disease
+or 52 54 789 791 O
+psychiatric 55 66 792 803 B-chronic_disease
+condition 67 76 804 813 I-chronic_disease
+that 77 81 814 818 O
+would 82 87 819 824 O
+interfere 88 97 825 834 O
+with 98 102 835 839 O
+the 103 106 840 843 O
+safe 107 111 844 848 O
+delivery 112 120 849 857 O
+of 121 123 858 860 O
+protocol 124 132 861 869 O
+therapy 133 140 870 877 B-treatment
+
+Short 0 5 878 883 O
+- 5 6 883 884 O
+segment 6 13 884 891 O
+venous 14 20 892 898 B-chronic_disease
+occlusion 21 30 899 908 I-chronic_disease
+resulting 31 40 909 918 O
+from 41 45 919 923 O
+either 46 52 924 930 O
+tumor 53 58 931 936 B-cancer
+thrombus 59 67 937 945 I-cancer
+or 68 70 946 948 O
+encasement 71 81 949 959 O
+with 82 86 960 964 O
+suitable 87 95 965 973 O
+proximal 96 104 974 982 O
+and 105 108 983 986 O
+distal 109 115 987 993 O
+vessel 116 122 994 1000 O
+for 123 126 1001 1004 O
+reconstruction 127 141 1005 1019 B-treatment
+/ 141 142 1019 1020 O
+grafting 142 150 1020 1028 B-treatment
+
+Treatment 0 9 1029 1038 B-treatment
+with 10 14 1039 1043 I-treatment
+an 15 17 1044 1046 I-treatment
+investigational 18 33 1047 1062 I-treatment
+anti 34 38 1063 1067 I-treatment
+- 38 39 1067 1068 I-treatment
+cancer 39 45 1068 1074 I-treatment
+agent 46 51 1075 1080 I-treatment
+within 52 58 1081 1087 O
+4 59 60 1088 1089 B-upper_bound
+weeks 61 66 1090 1095 I-upper_bound
+prior 67 72 1096 1101 I-upper_bound
+to 73 75 1102 1104 O
+enrollment 76 86 1105 1115 O
+into 87 91 1116 1120 O
+the 92 95 1121 1124 O
+study 96 101 1125 1130 O
+
+Tumor 0 5 1131 1136 B-cancer
+abutment 6 14 1137 1145 O
+to 15 17 1146 1148 O
+SMA 18 21 1149 1152 O
+but 22 25 1153 1156 O
+not 26 29 1157 1160 O
+to 30 32 1161 1163 O
+exceed 33 39 1164 1170 O
+greater 40 47 1171 1178 O
+than 48 52 1179 1183 O
+180 53 56 1184 1187 B-lower_bound
+degrees 57 64 1188 1195 I-lower_bound
+of 65 67 1196 1198 O
+circumferential 68 83 1199 1214 O
+vessel 84 90 1215 1221 O
+wall 91 95 1222 1226 O
+
+Unreconstructible 0 17 1227 1244 O
+SMV 18 21 1245 1248 B-chronic_disease
+/ 21 22 1248 1249 I-chronic_disease
+portal 22 28 1249 1255 I-chronic_disease
+occlusion 29 38 1256 1265 I-chronic_disease
+
+Venous 0 6 1266 1272 O
+involvement 7 18 1273 1284 O
+of 19 21 1285 1287 O
+the 22 25 1288 1291 O
+SMV 26 29 1292 1295 O
+/ 29 30 1295 1296 O
+portal 30 36 1296 1302 O
+vein 37 41 1303 1307 O
+demonstrating 42 55 1308 1321 O
+tumor 56 61 1322 1327 B-cancer
+abutment 62 70 1328 1336 O
+with 71 75 1337 1341 O
+impingement 76 87 1342 1353 O
+and 88 91 1354 1357 O
+narrowing 92 101 1358 1367 O
+of 102 104 1368 1370 O
+the 105 108 1371 1374 O
+lumen 109 114 1375 1380 O
+
+absolute 0 8 1381 1389 B-clinical_variable
+neutrophil 9 19 1390 1400 I-clinical_variable
+count 20 25 1401 1406 I-clinical_variable
+of 26 28 1407 1409 O
+≥ 29 30 1410 1411 O
+1500 31 35 1412 1416 B-lower_bound
+/ 35 36 1416 1417 I-lower_bound
+mm3 36 39 1417 1420 I-lower_bound
+
+melanoma 0 8 1421 1429 B-cancer
+in 9 11 1430 1432 I-cancer
+situ 12 16 1433 1437 I-cancer
+
+platelets 0 9 1438 1447 B-clinical_variable
+≥ 10 11 1448 1449 O
+100,000 12 19 1450 1457 B-lower_bound
+/ 19 20 1457 1458 I-lower_bound
+mm3 20 23 1458 1461 I-lower_bound
+
+reater 0 6 1462 1468 O
+than 7 11 1469 1473 O
+180 12 15 1474 1477 B-lower_bound
+degrees 16 23 1478 1485 I-lower_bound
+of 24 26 1486 1488 O
+SMA 27 30 1489 1492 B-clinical_variable
+encasement 31 41 1493 1503 I-clinical_variable
+
+serum 0 5 1504 1509 B-clinical_variable
+creatinine 6 16 1510 1520 I-clinical_variable
+≤ 17 18 1521 1522 O
+2 19 20 1523 1524 B-upper_bound
+mg 21 23 1525 1527 I-upper_bound
+/ 23 24 1527 1528 I-upper_bound
+dl 24 26 1528 1530 I-upper_bound
+, 26 27 1530 1531 O
+total 28 33 1532 1537 B-clinical_variable
+bilirubin 34 43 1538 1547 I-clinical_variable
+≤ 44 45 1548 1549 O
+3 46 47 1550 1551 B-upper_bound
+
+thyroid 0 7 1552 1559 B-cancer
+carcinoma 8 17 1560 1569 I-cancer
+
+women 0 5 1570 1575 B-gender
+planning 6 14 1576 1584 B-pregnancy
+to 15 17 1585 1587 I-pregnancy
+become 18 24 1588 1594 I-pregnancy
+pregnant 25 33 1595 1603 I-pregnancy
+and 34 37 1604 1607 O
+women 38 43 1608 1613 O
+that 44 48 1614 1618 O
+are 49 52 1619 1622 O
+nursing 53 60 1623 1630 O
+

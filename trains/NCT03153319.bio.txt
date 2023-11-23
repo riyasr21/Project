@@ -1,0 +1,184 @@
+> 0 1 0 1 O
+1 2 3 2 3 B-lower_bound
+SD 4 6 4 6 O
+more 7 11 7 11 O
+severe 12 18 12 18 O
+[ 19 20 19 20 O
+below 20 25 20 25 O
+] 25 26 25 26 O
+than 27 31 27 31 O
+the 32 35 32 35 O
+general 36 43 36 43 O
+population 44 54 44 54 O
+mean 55 59 55 59 O
+
+Active 0 6 60 66 O
+graft 7 12 67 72 B-chronic_disease
+versus 13 19 73 79 I-chronic_disease
+host 20 24 80 84 I-chronic_disease
+disease 25 32 85 92 I-chronic_disease
+
+Current 0 7 93 100 O
+diagnosis 8 17 101 110 O
+or 18 20 111 113 O
+history 21 28 114 121 O
+of 29 31 122 124 O
+lymphoma 32 40 125 133 B-cancer
+or 41 43 134 136 O
+other 44 49 137 142 O
+malignancy 50 60 143 153 B-cancer
+
+Demyelinating 0 13 154 167 B-chronic_disease
+disorders 14 23 168 177 I-chronic_disease
+( 24 25 178 179 O
+e.g. 25 29 179 183 O
+, 29 30 183 184 O
+central 31 38 185 192 B-chronic_disease
+nervous 39 46 193 200 I-chronic_disease
+system 47 53 201 207 I-chronic_disease
+[ 54 55 208 209 I-chronic_disease
+CNS 55 58 209 212 I-chronic_disease
+] 58 59 212 213 I-chronic_disease
+disorders 60 69 214 223 I-chronic_disease
+including 70 79 224 233 O
+multiple 80 88 234 242 B-chronic_disease
+sclerosis 89 98 243 252 I-chronic_disease
+and 99 102 253 256 O
+optic 103 108 257 262 B-chronic_disease
+neuritis 109 117 263 271 I-chronic_disease
+and 118 121 272 275 O
+peripheral 122 132 276 286 B-chronic_disease
+nervous 133 140 287 294 I-chronic_disease
+system 141 147 295 301 I-chronic_disease
+disorders 148 157 302 311 I-chronic_disease
+including 158 167 312 321 O
+Guillain 168 176 322 330 B-chronic_disease
+- 176 177 330 331 I-chronic_disease
+Barre 177 182 331 336 I-chronic_disease
+syndrome 183 191 337 345 I-chronic_disease
+) 191 192 345 346 O
+
+Diagnosis 0 9 347 356 O
+of 10 12 357 359 O
+MPS 13 16 360 363 B-chronic_disease
+I 17 18 364 365 I-chronic_disease
+or 19 21 366 368 I-chronic_disease
+II 22 24 369 371 I-chronic_disease
+
+Hematologic 0 11 372 383 B-chronic_disease
+abnormalities 12 25 384 397 I-chronic_disease
+( 26 27 398 399 O
+e.g. 27 31 399 403 O
+, 31 32 403 404 O
+pancytopenia 33 45 405 417 B-chronic_disease
+, 45 46 417 418 O
+aplastic 47 55 419 427 B-chronic_disease
+anemia 56 62 428 434 I-chronic_disease
+) 62 63 434 435 O
+
+Hepatitis 0 9 436 445 B-chronic_disease
+B 10 11 446 447 I-chronic_disease
+infection 12 21 448 457 I-chronic_disease
+( 22 23 458 459 O
+active 23 29 459 465 O
+or 30 32 466 468 O
+chronic 33 40 469 476 O
+carrier 41 48 477 484 O
+) 48 49 484 485 O
+
+History 0 7 486 493 O
+of 8 10 494 496 O
+HCT 11 14 497 500 B-chronic_disease
+less 15 19 501 505 O
+than 20 24 506 510 O
+2 25 26 511 512 B-upper_bound
+years 27 32 513 518 I-upper_bound
+prior 33 38 519 524 I-upper_bound
+to 39 41 525 527 O
+enrollment 42 52 528 538 O
+
+Immune 0 6 539 545 B-treatment
+suppression 7 18 546 557 I-treatment
+therapy 19 26 558 565 I-treatment
+less 27 31 566 570 O
+than 32 36 571 575 O
+1 37 38 576 577 B-upper_bound
+year 39 43 578 582 I-upper_bound
+prior 44 49 583 588 I-upper_bound
+to 50 52 589 591 O
+enrollment 53 63 592 602 O
+
+Known 0 5 603 608 O
+or 6 8 609 611 O
+suspected 9 18 612 621 O
+allergy 19 26 622 629 O
+to 27 29 630 632 O
+adalimumab 30 40 633 643 B-allergy_name
+or 41 43 644 646 O
+related 44 51 647 654 O
+products 52 60 655 663 O
+
+Male 0 4 664 668 B-gender
+
+Participation 0 13 669 682 O
+in 14 16 683 685 O
+simultaneous 17 29 686 698 O
+therapeutic 30 41 699 710 O
+study 42 47 711 716 O
+that 48 52 717 721 O
+involves 53 61 722 730 O
+an 62 64 731 733 O
+investigational 65 80 734 749 O
+study 81 86 750 755 O
+drug 87 91 756 760 O
+or 92 94 761 763 O
+agent 95 100 764 769 O
+within 101 107 770 776 O
+4 108 109 777 778 B-upper_bound
+weeks 110 115 779 784 I-upper_bound
+of 116 118 785 787 O
+study 119 124 788 793 O
+enrollment 125 135 794 804 O
+
+Pregnancy 0 9 805 814 B-pregnancy
+
+Requirement 0 11 815 826 O
+for 12 15 827 830 O
+live 16 20 831 835 O
+vaccine 21 28 836 843 B-treatment
+exposure 29 37 844 852 O
+that 38 42 853 857 O
+would 43 48 858 863 O
+be 49 51 864 866 O
+expected 52 60 867 875 O
+to 61 63 876 878 O
+occur 64 69 879 884 O
+during 70 76 885 891 O
+the 77 80 892 895 O
+time 81 85 896 900 O
+frame 86 91 901 906 O
+of 92 94 907 909 O
+the 95 98 910 913 O
+study 99 104 914 919 O
+
+Treatment 0 9 920 929 O
+with 10 14 930 934 O
+ERT 15 18 935 938 B-treatment
+for 19 22 939 942 O
+≥1 23 25 943 945 O
+year 26 30 946 950 I-lower_bound
+
+Weight 0 6 951 957 B-clinical_variable
+≥15 7 10 958 961 O
+kg 11 13 962 964 I-lower_bound
+
+female 0 6 965 971 B-gender
+
+no 0 2 972 974 O
+treatment 3 12 975 984 B-treatment
+with 13 17 985 989 I-treatment
+ERT 18 21 990 993 I-treatment
+for 22 25 994 997 O
+≥1 26 28 998 1000 O
+year 29 33 1001 1005 I-lower_bound
+

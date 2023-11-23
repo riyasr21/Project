@@ -1,0 +1,55 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+undergo 8 15 8 15 O
+patch 16 21 16 21 B-treatment
+testing 22 29 22 29 I-treatment
+
+Age 0 3 30 33 B-age
+≥18 4 7 34 37 O
+years 8 13 38 43 I-lower_bound
+
+Patients 0 8 44 52 O
+on 9 11 53 55 O
+oral 12 16 56 60 O
+immunosuppressant 17 34 61 78 B-treatment
+medications 35 46 79 90 I-treatment
+within 47 53 91 97 O
+4 54 55 98 99 B-upper_bound
+weeks 56 61 100 105 I-upper_bound
+of 62 64 106 108 O
+patch 65 70 109 114 B-treatment
+testing 71 78 115 122 I-treatment
+or 79 81 123 125 O
+topical 82 89 126 133 B-treatment
+corticosteroids 90 105 134 149 I-treatment
+to 106 108 150 152 O
+the 109 112 153 156 O
+back 113 117 157 161 O
+within 118 124 162 168 O
+1 125 126 169 170 B-upper_bound
+week 127 131 171 175 I-upper_bound
+of 132 134 176 178 O
+patch 135 140 179 184 O
+testing 141 148 185 192 O
+
+Patients 0 8 193 201 O
+who 9 12 202 205 O
+are 13 16 206 209 B-pregnancy
+pregnant 17 25 210 218 I-pregnancy
+
+history 0 7 219 226 O
+of 8 10 227 229 O
+metal 11 16 230 235 B-allergy_name
+allergy 17 24 236 243 O
+who 25 28 244 247 O
+require 29 36 248 255 O
+joint 37 42 256 261 O
+repair 43 49 262 268 O
+( 50 51 269 270 O
+hip 51 54 270 273 O
+, 54 55 273 274 O
+knee 56 60 275 279 O
+and/or 61 67 280 286 O
+shoulder 68 76 287 295 O
+) 76 77 295 296 O
+

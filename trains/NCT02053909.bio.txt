@@ -1,0 +1,131 @@
+Active 0 6 0 6 B-chronic_disease
+pathological 7 19 7 19 I-chronic_disease
+bleeding 20 28 20 28 I-chronic_disease
+
+Anticipated 0 11 29 40 O
+need 12 16 41 45 O
+for 17 20 46 49 O
+postoperative 21 34 50 63 B-treatment
+anticoagulation 35 50 64 79 I-treatment
+with 51 55 80 84 O
+coumadin 56 64 85 93 B-treatment
+, 64 65 93 94 O
+dabigatran 66 76 95 105 B-treatment
+or 77 79 106 108 O
+rivaroxaban 80 91 109 120 B-treatment
+( 92 93 121 122 O
+mechanical 93 103 122 132 B-treatment
+valve 104 109 133 138 I-treatment
+, 109 110 138 139 O
+chronic 111 118 140 147 B-chronic_disease
+atrial 119 125 148 154 I-chronic_disease
+fibrillation 126 138 155 167 I-chronic_disease
+, 138 139 167 168 O
+DVT 140 143 169 172 B-chronic_disease
+/ 143 144 172 173 O
+PE 144 146 173 175 B-chronic_disease
+) 146 147 175 176 O
+
+Current 0 7 177 184 O
+or 8 10 185 187 O
+anticipated 11 22 188 199 O
+use 23 26 200 203 O
+of 27 29 204 206 O
+strong 30 36 207 213 O
+CYP3A4 37 43 214 220 B-treatment
+inhibitors 44 54 221 231 I-treatment
+( 55 56 232 233 O
+e.g. 56 60 233 237 O
+ketoconazole 61 73 238 250 B-treatment
+, 73 74 250 251 O
+clarithromycin 75 89 252 266 B-treatment
+, 89 90 266 267 O
+nefazadone 91 101 268 278 B-treatment
+, 101 102 278 279 O
+ritonavir 103 112 280 289 B-treatment
+, 112 113 289 290 O
+and 114 117 291 294 O
+atazanavir 118 128 295 305 B-treatment
+) 128 129 305 306 O
+
+Female 0 6 307 313 B-gender
+
+History 0 7 314 321 O
+of 8 10 322 324 O
+gastrointestinal 11 27 325 341 B-chronic_disease
+hemorrhage 28 38 342 352 I-chronic_disease
+
+History 0 7 353 360 O
+of 8 10 361 363 O
+intracranial 11 23 364 376 B-chronic_disease
+hemorrhage 24 34 377 387 I-chronic_disease
+
+Hypersensitivity 0 16 388 404 O
+or 17 19 405 407 O
+allergy 20 27 408 415 O
+to 28 30 416 418 O
+aspirin 31 38 419 426 B-allergy_name
+or 39 41 427 429 O
+ticagrelor 42 52 430 440 B-allergy_name
+
+Patients 0 8 441 449 O
+undergoing 9 19 450 460 O
+first 20 25 461 466 O
+- 25 26 466 467 O
+time 26 30 467 471 O
+CABG 31 35 472 476 B-treatment
+with 36 40 477 481 O
+at 41 43 482 484 O
+least 44 49 485 490 O
+1 50 51 491 492 O
+saphenous 52 61 493 502 O
+vein 62 66 503 507 O
+graft 67 72 508 513 O
+, 72 73 513 514 O
+irrespective 74 86 515 527 O
+of 87 89 528 530 O
+concurrent 90 100 531 541 O
+valve 101 106 542 547 B-treatment
+surgery 107 114 548 555 I-treatment
+
+Patients 0 8 556 564 O
+undergoing 9 19 565 575 O
+redo 20 24 576 580 B-treatment
+- 24 25 580 581 I-treatment
+CABG 25 29 581 585 I-treatment
+
+Pregnancy 0 9 586 595 B-pregnancy
+
+Serum 0 5 596 601 B-clinical_variable
+creatinine 6 16 602 612 I-clinical_variable
+> 17 18 613 614 O
+1.8 18 21 614 617 B-lower_bound
+mg 22 24 618 620 I-lower_bound
+/ 24 25 620 621 I-lower_bound
+dL 25 27 621 623 I-lower_bound
+( 28 29 624 625 O
+need 29 33 625 629 O
+for 34 37 630 633 O
+contrast 38 46 634 642 O
+with 47 51 643 647 O
+CT 52 54 648 650 B-treatment
+coronary 55 63 651 659 I-treatment
+angiogram 64 73 660 669 I-treatment
+) 73 74 669 670 O
+
+Severe 0 6 671 677 O
+hepatic 7 14 678 685 B-chronic_disease
+impairment 15 25 686 696 I-chronic_disease
+
+aged 0 4 697 701 B-age
+18 5 7 702 704 B-lower_bound
+- 7 8 704 705 O
+90 8 10 705 707 B-upper_bound
+years 11 16 708 713 I-upper_bound
+
+male 0 4 714 718 B-gender
+patients 5 13 719 727 I-gender
+
+seeking 0 7 728 735 B-pregnancy
+pregnancy 8 17 736 745 I-pregnancy
+

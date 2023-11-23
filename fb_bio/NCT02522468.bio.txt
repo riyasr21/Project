@@ -1,0 +1,111 @@
+20 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+99 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Biopsy 0 6 22 28 B-treatment
+- 6 7 28 29 O
+proven 7 13 29 35 O
+malignant 14 23 36 45 B-cancer
+breast 24 30 46 52 I-cancer
+lesion 31 37 53 59 I-cancer
+including 38 47 60 69 O
+by 48 50 70 72 O
+not 51 54 73 76 O
+limited 55 62 77 84 O
+to 63 65 85 87 O
+invasive 66 74 88 96 B-cancer
+ductal 75 81 97 103 I-cancer
+carcinoma 82 91 104 113 I-cancer
+, 91 92 113 114 O
+invasive 93 101 115 123 B-cancer
+lobular 102 109 124 131 I-cancer
+carcinoma 110 119 132 141 I-cancer
+, 119 120 141 142 O
+and 121 124 143 146 O
+ductal 125 131 147 153 B-cancer
+carcinoma 132 141 154 163 I-cancer
+in 142 144 164 166 I-cancer
+situ 145 149 167 171 I-cancer
+
+Breast 0 6 172 178 O
+conservation 7 19 179 191 O
+contraindication 20 36 192 208 O
+such 37 41 209 213 O
+as 42 44 214 216 O
+inability 45 54 217 226 O
+to 55 57 227 229 O
+receive 58 65 230 237 O
+whole 66 71 238 243 B-treatment
+breast 72 78 244 250 I-treatment
+radiation 79 88 251 260 I-treatment
+therapy 89 96 261 268 I-treatment
+, 96 97 268 269 O
+inability 98 107 270 279 O
+to 108 110 280 282 O
+tolerate 111 119 283 291 O
+localization 120 132 292 304 O
+procedure 133 142 305 314 O
+, 142 143 314 315 O
+inability 144 153 316 325 O
+to 154 156 326 328 O
+lay 157 160 329 332 O
+flat 161 165 333 337 O
+or 166 168 338 340 O
+prone 169 174 341 346 O
+for 175 178 347 350 O
+radiation 179 188 351 360 O
+, 188 189 360 361 O
+and 190 193 362 365 O
+undesirable 194 205 366 377 O
+tumor 206 211 378 383 B-cancer
+to 212 214 384 386 I-cancer
+breast 215 221 387 393 I-cancer
+ratio 222 227 394 399 O
+
+Breast 0 6 400 406 B-cancer
+lesion 7 13 407 413 I-cancer
+necessitating 14 27 414 427 O
+image 28 33 428 433 B-treatment
+- 33 34 433 434 I-treatment
+guided 34 40 434 440 I-treatment
+excision 41 49 441 449 I-treatment
+
+Breast 0 6 450 456 B-treatment
+- 6 7 456 457 I-treatment
+conservation 7 19 457 469 I-treatment
+candidate 20 29 470 479 O
+
+Female 0 6 480 486 B-gender
+
+Locally 0 7 487 494 B-cancer
+advanced 8 16 495 503 I-cancer
+disease 17 24 504 511 I-cancer
+
+Male 0 4 512 516 B-gender
+
+Multifocal 0 10 517 527 B-chronic_disease
+or 11 13 528 530 I-chronic_disease
+multicentric 14 26 531 543 I-chronic_disease
+disease 27 34 544 551 I-chronic_disease
+
+Pregnant 0 8 552 560 B-pregnancy
+or 9 11 561 563 O
+breastfeeding 12 25 564 577 O
+
+Prior 0 5 578 583 O
+breast 6 12 584 590 B-cancer
+cancer 13 19 591 597 I-cancer
+on 20 22 598 600 O
+ipsilateral 23 34 601 612 O
+side 35 39 613 617 O
+
+Receiving 0 9 618 627 O
+neoadjuvant 10 21 628 639 B-treatment
+chemotherapy 22 34 640 652 I-treatment
+
+Unifocal 0 8 653 661 B-chronic_disease
+disease 9 16 662 669 I-chronic_disease
+

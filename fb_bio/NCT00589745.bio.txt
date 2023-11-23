@@ -1,0 +1,34 @@
+All 0 3 0 3 B-ethnicity
+ethnic 4 10 4 10 I-ethnicity
+groups 11 17 11 17 I-ethnicity
+accepted 18 26 18 26 I-ethnicity
+
+Children 0 8 27 35 O
+less 9 13 36 40 O
+than 14 18 41 45 O
+6 19 20 46 47 B-lower_bound
+- 20 21 47 48 O
+8 21 22 48 49 B-upper_bound
+years 23 28 50 55 I-upper_bound
+of 29 31 56 58 O
+age 32 35 59 62 B-age
+may 36 39 63 66 O
+be 40 42 67 69 O
+unable 43 49 70 76 O
+to 50 52 77 79 O
+cooperate 53 62 80 89 O
+( 63 64 90 91 O
+hold 64 68 91 95 O
+still 69 74 96 101 O
+) 74 75 101 102 O
+for 76 79 103 106 O
+the 80 83 107 110 O
+procedure 84 93 111 120 O
+, 93 94 120 121 O
+or 95 97 122 124 O
+be 98 100 125 127 O
+frightened 101 111 128 138 O
+by 112 114 139 141 O
+the 115 118 142 145 O
+procedure 119 128 146 155 O
+

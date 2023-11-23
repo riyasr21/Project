@@ -1,0 +1,124 @@
+Any 0 3 0 3 O
+biopsy 4 10 4 10 O
+or 11 13 11 13 O
+treatment 14 23 14 23 O
+for 24 27 24 27 O
+the 28 31 28 31 O
+BI 32 34 32 34 B-cancer
+- 34 35 34 35 I-cancer
+RADS 35 39 35 39 I-cancer
+category 40 48 40 48 O
+4 49 50 49 50 O
+or 51 53 51 53 O
+5 54 55 54 55 O
+abnormality 56 67 56 67 O
+
+Any 0 3 68 71 O
+breast 4 10 72 78 B-treatment
+surgery 11 18 79 86 I-treatment
+or 19 21 87 89 O
+biopsy 22 28 90 96 B-treatment
+within 29 35 97 103 O
+the 36 39 104 107 O
+last 40 44 108 112 B-upper_bound
+90 45 47 113 115 I-upper_bound
+days 48 52 116 120 I-upper_bound
+
+Any 0 3 121 124 O
+trauma 4 10 125 131 B-chronic_disease
+to 11 13 132 134 I-chronic_disease
+the 14 17 135 138 I-chronic_disease
+breast 18 24 139 145 I-chronic_disease
+within 25 31 146 152 O
+the 32 35 153 156 O
+last 36 40 157 161 B-upper_bound
+90 41 43 162 164 I-upper_bound
+days 44 48 165 169 I-upper_bound
+
+Less 0 4 170 174 O
+than 5 9 175 179 O
+21 10 12 180 182 B-upper_bound
+years 13 18 183 188 I-upper_bound
+of 19 21 189 191 O
+age 22 25 192 195 B-age
+
+Physically 0 10 196 206 O
+unable 11 17 207 213 O
+to 18 20 214 216 O
+wear 21 25 217 221 O
+the 26 29 222 225 O
+Cyrcadia 30 38 226 234 B-treatment
+CBR 39 42 235 238 I-treatment
+™ 42 43 238 239 O
+for 44 47 240 243 O
+6 48 49 244 245 B-upper_bound
+hours 50 55 246 251 I-upper_bound
+
+Pregnant 0 8 252 260 B-pregnancy
+
+Previous 0 8 261 269 O
+mastectomy 9 19 270 280 B-treatment
+
+Women 0 5 281 286 B-gender
+who 6 9 287 290 O
+are 10 13 291 294 O
+willing 14 21 295 302 O
+to 22 24 303 305 O
+undergo 25 32 306 313 O
+a 33 34 314 315 O
+complete 35 43 316 324 O
+evaluation 44 54 325 335 O
+and/or 55 61 336 342 O
+biopsy 62 68 343 349 B-treatment
+procedure 69 78 350 359 O
+if 79 81 360 362 O
+recommended 82 93 363 374 O
+by 94 96 375 377 O
+the 97 100 378 381 O
+treating 101 109 382 390 O
+physician 110 119 391 400 O
+
+Women 0 5 401 406 B-gender
+with 6 10 407 411 O
+a 11 12 412 413 O
+BI 13 15 414 416 B-clinical_variable
+- 15 16 416 417 I-clinical_variable
+RADS 16 20 417 421 I-clinical_variable
+category 21 29 422 430 O
+4 30 31 431 432 B-lower_bound
+or 32 34 433 435 O
+5 35 36 436 437 B-upper_bound
+designation 37 48 438 449 O
+on 49 51 450 452 O
+breast 52 58 453 459 O
+MRI 59 62 460 463 B-clinical_variable
+
+Women 0 5 464 469 B-gender
+with 6 10 470 474 O
+a 11 12 475 476 O
+BI 13 15 477 479 B-clinical_variable
+- 15 16 479 480 I-clinical_variable
+RADS 16 20 480 484 I-clinical_variable
+category 21 29 485 493 I-clinical_variable
+4 30 31 494 495 I-clinical_variable
+or 32 34 496 498 I-clinical_variable
+5 35 36 499 500 I-clinical_variable
+designation 37 48 501 512 O
+on 49 51 513 515 O
+breast 52 58 516 522 O
+ultrasound 59 69 523 533 O
+
+Women 0 5 534 539 B-gender
+with 6 10 540 544 O
+a 11 12 545 546 O
+BI 13 15 547 549 B-treatment
+- 15 16 549 550 I-treatment
+RADS 16 20 550 554 I-treatment
+category 21 29 555 563 O
+4 30 31 564 565 O
+or 32 34 566 568 O
+5 35 36 569 570 O
+designation 37 48 571 582 O
+on 49 51 583 585 O
+mammogram 52 61 586 595 B-treatment
+

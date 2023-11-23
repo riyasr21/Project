@@ -1,0 +1,11 @@
+BMI 0 3 0 3 B-bmi
+equal 4 9 4 9 O
+or 10 12 10 12 O
+greater 13 20 13 20 O
+than 21 25 21 25 O
+40 26 28 26 28 B-lower_bound
+
+pre 0 3 29 32 B-pregnancy
+- 3 4 32 33 I-pregnancy
+pregnancy 4 13 33 42 I-pregnancy
+

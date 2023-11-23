@@ -1,0 +1,97 @@
+All 0 3 0 3 O
+infants 4 11 4 11 O
+must 12 16 12 16 O
+have 17 21 17 21 O
+signs 22 27 22 27 O
+of 28 30 28 30 O
+encephalopathy 31 45 31 45 B-chronic_disease
+within 46 52 46 52 O
+6 53 54 53 54 B-upper_bound
+hours 55 60 55 60 I-upper_bound
+of 61 63 61 63 O
+age 64 67 64 67 B-age
+using 68 73 68 73 O
+the 74 77 74 77 O
+modified 78 86 78 86 O
+Sarnat 87 93 87 93 B-clinical_variable
+scoring 94 101 94 101 I-clinical_variable
+system 102 108 102 108 I-clinical_variable
+
+Eligible 0 8 109 117 O
+infants 9 16 118 125 O
+are 17 20 126 129 O
+> 21 22 130 131 O
+36 22 24 131 133 B-lower_bound
+0/7th 25 30 134 139 I-lower_bound
+weeks 31 36 140 145 I-lower_bound
+gestation 37 46 146 155 O
+
+a 0 1 156 157 O
+cord 2 6 158 162 O
+blood 7 12 163 168 O
+/ 12 13 168 169 O
+first 13 18 169 174 O
+hour 19 23 175 179 O
+of 24 26 180 182 O
+life 27 31 183 187 O
+blood 32 37 188 193 B-treatment
+gas 38 41 194 197 I-treatment
+with 42 46 198 202 O
+pH 47 49 203 205 B-clinical_variable
+> 50 51 206 207 O
+7.0 52 55 208 211 B-lower_bound
+and 56 59 212 215 O
+< 60 61 216 217 O
+7.15 62 66 218 222 B-upper_bound
+
+base 0 4 223 227 B-clinical_variable
+deficit 5 12 228 235 I-clinical_variable
+> 13 14 236 237 O
+16 14 16 237 239 B-lower_bound
+mEq 17 20 240 243 I-lower_bound
+/ 20 21 243 244 I-lower_bound
+L 21 22 244 245 I-lower_bound
+
+clinical 0 8 246 254 O
+signs 9 14 255 260 O
+and 15 18 261 264 O
+symptoms 19 27 265 273 O
+consistent 28 38 274 284 O
+with 39 43 285 289 O
+meningitis 44 54 290 300 B-chronic_disease
+detected 55 63 301 309 O
+upon 64 68 310 314 O
+sepsis 69 75 315 321 O
+evaluation 76 86 322 332 O
+
+infants 0 7 333 340 O
+must 8 12 341 345 O
+have 13 17 346 350 O
+a 18 19 351 352 O
+history 20 27 353 360 O
+of 28 30 361 363 O
+an 31 33 364 366 O
+acute 34 39 367 372 B-chronic_disease
+perinatal 40 49 373 382 I-chronic_disease
+event 50 55 383 388 I-chronic_disease
+
+neonates 0 8 389 397 O
+cooled 9 15 398 404 O
+within 16 22 405 411 O
+6 23 24 412 413 B-upper_bound
+hours 25 30 414 419 I-upper_bound
+of 31 33 420 422 O
+birth 34 39 423 428 O
+
+suspected 0 9 429 438 O
+inborn 10 16 439 445 B-chronic_disease
+errors 17 23 446 452 I-chronic_disease
+of 24 26 453 455 I-chronic_disease
+metabolism 27 37 456 466 I-chronic_disease
+( 38 39 467 468 O
+elevated 39 47 468 476 B-chronic_disease
+ammonia 48 55 477 484 I-chronic_disease
+) 55 56 484 485 O
+and 57 60 486 489 O
+hypoglycemia 61 73 490 502 B-chronic_disease
+

@@ -1,0 +1,108 @@
+age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+65 7 9 7 9 B-upper_bound
+
+anticoagulant 0 13 10 23 B-treatment
+or 14 16 24 26 O
+immunosuppressive 17 34 27 44 B-treatment
+therapy 35 42 45 52 I-treatment
+within 43 49 53 59 O
+the 50 53 60 63 O
+prior 54 59 64 69 O
+month 60 65 70 75 O
+
+chronic 0 7 76 83 O
+( 8 9 84 85 O
+> 9 10 85 86 O
+3months 10 17 86 93 B-lower_bound
+) 17 18 93 94 O
+unilateral 19 29 95 105 O
+or 30 32 106 108 O
+bilateral 33 42 109 118 O
+common 43 49 119 125 O
+extensor 50 58 126 134 O
+tendon 59 65 135 141 O
+pain 66 70 142 146 O
+
+concurrent 0 10 147 157 O
+opioid 11 17 158 164 B-treatment
+use 18 21 165 168 O
+for 22 25 169 172 O
+pain 26 30 173 177 O
+
+currently 0 9 178 187 O
+using 10 15 188 193 O
+anticoagulation 16 31 194 209 B-treatment
+or 32 34 210 212 I-treatment
+immunosuppressive 35 52 213 230 I-treatment
+therapy 53 60 231 238 I-treatment
+
+elbow 0 5 239 244 O
+pain 6 10 245 249 O
+with 11 15 250 254 O
+other 16 21 255 260 O
+possible 22 30 261 269 O
+etiologies 31 41 270 280 O
+( 42 43 281 282 O
+e.g. 43 47 282 286 O
+, 47 48 286 287 O
+degenerative 49 61 288 300 B-chronic_disease
+joint 62 67 301 306 I-chronic_disease
+disease 68 75 307 314 I-chronic_disease
+) 75 76 314 315 O
+
+history 0 7 316 323 O
+of 8 10 324 326 O
+bleeding 11 19 327 335 B-chronic_disease
+disorders 20 29 336 345 I-chronic_disease
+, 29 30 345 346 O
+low 31 34 347 350 B-chronic_disease
+- 34 35 350 351 I-chronic_disease
+platelet 35 43 351 359 I-chronic_disease
+counts 44 50 360 366 I-chronic_disease
+, 50 51 366 367 O
+other 52 57 368 373 O
+hematologic 58 69 374 385 B-chronic_disease
+conditions 70 80 386 396 I-chronic_disease
+
+known 0 5 397 402 O
+allergy 6 13 403 410 O
+to 14 16 411 413 O
+Lidocaine 17 26 414 423 B-allergy_name
+
+self 0 4 424 428 O
+- 4 5 428 429 O
+reported 5 13 429 437 O
+failure 14 21 438 445 O
+of 22 24 446 448 O
+at 25 27 449 451 O
+least 28 33 452 457 O
+2 34 35 458 459 O
+of 36 38 460 462 O
+the 39 42 463 466 O
+most 43 47 467 471 O
+common 48 54 472 478 O
+treatments 55 65 479 489 O
+( 66 67 490 491 O
+NSAIDs 67 73 491 497 B-treatment
+, 73 74 497 498 O
+relative 75 83 499 507 O
+rest 84 88 508 512 O
+, 88 89 512 513 O
+ice 90 93 514 517 O
+, 93 94 517 518 O
+bracing 95 102 519 526 O
+) 102 103 526 527 O
+for 104 107 528 531 O
+CLE 108 111 532 535 O
+
+self 0 4 536 540 O
+- 4 5 540 541 O
+reported 5 13 541 549 O
+failure 14 21 550 557 O
+of 22 24 558 560 O
+supervised 25 35 561 571 O
+physical 36 44 572 580 B-treatment
+therapy 45 52 581 588 I-treatment
+

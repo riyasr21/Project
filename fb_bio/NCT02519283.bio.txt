@@ -1,0 +1,74 @@
+Age 0 3 0 3 B-age
+≥21 4 7 4 7 O
+years 8 13 8 13 I-lower_bound
+old 14 17 14 17 O
+
+Evidence 0 8 18 26 O
+of 9 11 27 29 O
+ACS 12 15 30 33 B-chronic_disease
+based 16 21 34 39 O
+on 22 24 40 42 O
+ischemia 25 33 43 51 O
+on 34 36 52 54 O
+ECG 37 40 55 58 O
+or 41 43 59 61 O
+Troponin 44 52 62 70 O
+elevation 53 62 71 80 O
+
+Patients 0 8 81 89 O
+deemed 9 15 90 96 O
+by 16 18 97 99 O
+emergency 19 28 100 109 O
+physician 29 38 110 119 O
+to 39 41 120 122 O
+have 42 46 123 127 O
+AHF 47 50 128 131 B-chronic_disease
+, 50 51 131 132 O
+who 52 55 133 136 O
+they 56 60 137 141 O
+plan 61 65 142 146 O
+to 66 68 147 149 O
+discharge 69 78 150 159 O
+or 79 81 160 162 O
+hold 82 86 163 167 O
+for 87 90 168 171 O
+brief 91 96 172 177 O
+ED 97 99 178 180 O
+- 99 100 180 181 O
+based 100 105 181 186 O
+observation 106 117 187 198 O
+
+Prior 0 5 199 204 O
+history 6 13 205 212 O
+of 14 16 213 215 O
+HF 17 19 216 218 B-chronic_disease
+
+Systolic 0 8 219 227 B-clinical_variable
+BP 9 11 228 230 I-clinical_variable
+< 12 13 231 232 O
+100 13 16 232 235 B-upper_bound
+mmHg 17 21 236 240 I-upper_bound
+
+Unable 0 6 241 247 O
+to 7 9 248 250 O
+comply 10 16 251 257 O
+with 17 21 258 262 O
+protocol- 22 31 263 272 O
+due 32 35 273 276 O
+to 36 38 277 279 O
+psychiatric 39 50 280 291 B-chronic_disease
+disease 51 58 292 299 I-chronic_disease
+or 59 61 300 302 O
+distance 62 70 303 311 O
+from 71 75 312 316 O
+the 76 79 317 320 O
+hospital 80 88 321 329 O
+
+less 0 4 330 334 O
+than 5 9 335 339 O
+23 10 12 340 342 B-upper_bound
+hours 13 18 343 348 I-upper_bound
+of 19 21 349 351 O
+AHF 22 25 352 355 B-clinical_variable
+care 26 30 356 360 I-clinical_variable
+

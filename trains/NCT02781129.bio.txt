@@ -1,0 +1,22 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Diagnosis 0 9 25 34 O
+of 10 12 35 37 O
+epilepsy 13 21 38 46 B-chronic_disease
+
+RNS 0 3 47 50 O
+® 3 4 50 51 O
+Neurostimulator 5 20 52 67 O
+implanted 21 30 68 77 O
+within 31 37 78 84 O
+3 38 39 85 86 B-upper_bound
+months 40 46 87 93 I-upper_bound
+of 47 49 94 96 O
+experimental 50 62 97 109 O
+tasks 63 68 110 115 O
+

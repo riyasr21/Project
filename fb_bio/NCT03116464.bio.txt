@@ -1,0 +1,62 @@
+Be 0 2 0 2 O
+involved 3 11 3 11 O
+in 12 14 12 14 O
+the 15 18 15 18 O
+care 19 23 19 23 O
+of 24 26 24 26 O
+the 27 30 27 30 O
+person 31 37 31 37 O
+with 38 42 38 42 O
+dementia 43 51 43 51 B-chronic_disease
+( 52 53 52 53 O
+at 53 55 53 55 O
+least 56 61 56 61 O
+4 62 63 62 63 B-lower_bound
+hours 64 69 64 69 I-lower_bound
+of 70 72 70 72 O
+care 73 77 73 77 O
+per 78 81 78 81 O
+day 82 85 82 85 O
+) 85 86 85 86 O
+
+Be 0 2 87 89 O
+the 3 6 90 93 O
+primary 7 14 94 101 O
+unpaid 15 21 102 108 O
+family 22 28 109 115 O
+or 29 31 116 118 O
+friend 32 38 119 125 O
+who 39 42 126 129 O
+helps 43 48 130 135 O
+or 49 51 136 138 O
+supports 52 60 139 147 O
+an 61 63 148 150 O
+individual 64 74 151 161 O
+with 75 79 162 166 O
+dementia 80 88 167 175 B-chronic_disease
+
+Caregiver 0 9 176 185 B-chronic_disease
+psychosis 10 19 186 195 I-chronic_disease
+
+Caregiver 0 9 196 205 O
+severe 10 16 206 212 B-chronic_disease
+cognitive 17 26 213 222 I-chronic_disease
+impairment 27 37 223 233 I-chronic_disease
+
+Have 0 4 234 238 O
+cognitive 5 14 239 248 B-chronic_disease
+impairment 15 25 249 259 I-chronic_disease
+( 26 27 260 261 O
+MMSE<23 27 34 261 268 B-clinical_variable
+or 35 37 269 271 O
+SLUMS<20 38 46 272 280 B-clinical_variable
+or 47 49 281 283 O
+diagnosis 50 59 284 293 O
+of 60 62 294 296 O
+dementia 63 71 297 305 B-chronic_disease
+based 72 77 306 311 O
+on 78 80 312 314 O
+chart 81 86 315 320 O
+review 87 93 321 327 O
+) 93 94 327 328 O
+

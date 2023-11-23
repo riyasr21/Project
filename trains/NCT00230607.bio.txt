@@ -1,0 +1,44 @@
+agree 0 5 0 5 O
+to 6 8 6 8 O
+adhere 9 15 9 15 O
+to 16 18 16 18 O
+the 19 22 19 22 O
+Fabry 23 28 23 28 B-treatment
+Registry 29 37 29 37 I-treatment
+recommended 38 49 38 49 O
+schedule 50 58 50 58 O
+of 59 61 59 61 O
+assessments 62 73 62 73 O
+for 74 77 74 77 O
+medical 78 85 78 85 O
+history 86 93 86 93 O
+
+be 0 2 94 96 O
+born 3 7 97 101 O
+to 8 10 102 104 O
+a 11 12 105 106 O
+mother 13 19 107 113 O
+who 20 23 114 117 O
+is 24 26 118 120 O
+receiving 27 36 121 130 O
+Fabrazyme 37 46 131 140 B-treatment
+during 47 53 141 147 O
+lactation 54 63 148 157 O
+
+be 0 2 158 160 O
+enrolled 3 11 161 169 O
+in 12 14 170 172 O
+the 15 18 173 176 O
+Fabry 19 24 177 182 O
+Registry 25 33 183 191 O
+and 34 37 192 195 O
+receiving 38 47 196 205 O
+Fabrazyme 48 57 206 215 B-treatment
+while 58 63 216 221 O
+lactating 64 73 222 231 O
+
+genotyping 0 10 232 242 B-treatment
+
+pregnancy 0 9 243 252 B-pregnancy
+outcome 10 17 253 260 O
+

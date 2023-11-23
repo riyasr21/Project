@@ -1,0 +1,172 @@
+Clinically 0 10 0 10 O
+active 11 17 11 17 B-cancer
+prolactinoma 18 30 18 30 I-cancer
+
+Current 0 7 31 38 O
+use 8 11 39 42 O
+of 12 14 43 45 O
+antihypertensive 15 31 46 62 B-treatment
+medication 32 42 63 73 I-treatment
+
+Diabetes 0 8 74 82 B-chronic_disease
+Mellitus 9 17 83 91 I-chronic_disease
+
+Hepatic 0 7 92 99 B-chronic_disease
+disease 8 15 100 107 I-chronic_disease
+
+History 0 7 108 115 O
+of 8 10 116 118 O
+QTc 11 14 119 122 B-clinical_variable
+> 15 16 123 124 O
+450ms 17 22 125 130 B-lower_bound
+or 23 25 131 133 O
+torsades 26 34 134 142 O
+de 35 37 143 145 O
+pointes 38 45 146 153 O
+
+History 0 7 154 161 O
+of 8 10 162 164 O
+allergy 11 18 165 172 O
+to 19 21 173 175 O
+olanzapine 22 32 176 186 B-allergy_name
+
+History 0 7 187 194 O
+of 8 10 195 197 O
+serious 11 18 198 205 O
+ventricular 19 30 206 217 B-chronic_disease
+arrhythmia 31 41 218 228 I-chronic_disease
+( 42 43 229 230 O
+i.e. 43 47 230 234 O
+: 47 48 234 235 O
+ventricular 49 60 236 247 B-chronic_disease
+tachycardia 61 72 248 259 I-chronic_disease
+or 73 75 260 262 O
+ventricular 76 87 263 274 B-chronic_disease
+fibrillation 88 100 275 287 I-chronic_disease
+) 100 101 287 288 O
+or 102 104 289 291 O
+cardiac 105 112 292 299 B-chronic_disease
+arrhythmias 113 124 300 311 I-chronic_disease
+requiring 125 134 312 321 O
+anti 135 139 322 326 B-treatment
+- 139 140 326 327 I-treatment
+arrhythmic 140 150 327 337 I-treatment
+medications 151 162 338 349 I-treatment
+
+Hypotension 0 11 350 361 B-chronic_disease
+on 12 14 362 364 O
+day 15 18 365 368 O
+of 19 21 369 371 O
+surgery 22 29 372 379 B-treatment
+, 29 30 379 380 O
+defined 31 38 381 388 O
+as 39 41 389 391 O
+a 42 43 392 393 O
+systolic 44 52 394 402 B-clinical_variable
+blood 53 58 403 408 I-clinical_variable
+pressure 59 67 409 417 I-clinical_variable
+< 68 69 418 419 O
+90 70 72 420 422 B-upper_bound
+mm 72 74 422 424 I-upper_bound
+Hg 75 77 425 427 I-upper_bound
+or 78 80 428 430 O
+a 81 82 431 432 O
+diastolic 83 92 433 442 B-upper_bound
+pressure 93 101 443 451 I-upper_bound
+< 102 103 452 453 O
+60 104 106 454 456 B-upper_bound
+mm 106 108 456 458 I-upper_bound
+Hg 109 111 459 461 I-upper_bound
+
+Lewy 0 4 462 466 B-chronic_disease
+body 5 9 467 471 I-chronic_disease
+dementia 10 18 472 480 I-chronic_disease
+
+Myocardial 0 10 481 491 B-chronic_disease
+infarction 11 21 492 502 I-chronic_disease
+
+Narrow 0 6 503 509 B-chronic_disease
+angle 7 12 510 515 I-chronic_disease
+glaucoma 13 21 516 524 I-chronic_disease
+
+New 0 3 525 528 O
+York 4 8 529 533 O
+Heart 9 14 534 539 O
+Association 15 26 540 551 O
+( 27 28 552 553 O
+NYHA 28 32 553 557 O
+) 32 33 557 558 O
+Class 34 39 559 564 O
+II 40 42 565 567 O
+or 43 45 568 570 O
+higher 46 52 571 577 O
+congestive 53 63 578 588 B-chronic_disease
+heart 64 69 589 594 I-chronic_disease
+failure 70 77 595 602 I-chronic_disease
+
+Patient 0 7 603 610 O
+scheduled 8 17 611 620 O
+to 18 20 621 623 O
+undergo 21 28 624 631 O
+ambulatory 29 39 632 642 B-treatment
+surgery 40 47 643 650 I-treatment
+under 48 53 651 656 O
+general 54 61 657 664 O
+anesthesia 62 72 665 675 O
+
+Pre 0 3 676 679 B-clinical_variable
+- 3 4 679 680 I-clinical_variable
+operative 4 13 680 689 I-clinical_variable
+blood 14 19 690 695 I-clinical_variable
+glucose 20 27 696 703 I-clinical_variable
+> 28 29 704 705 O
+250 30 33 706 709 B-lower_bound
+mg 34 36 710 712 I-lower_bound
+/ 36 37 712 713 I-lower_bound
+dL 37 39 713 715 I-lower_bound
+
+Pregnancy 0 9 716 725 B-pregnancy
+
+Seizure 0 7 726 733 B-chronic_disease
+disorder 8 16 734 742 I-chronic_disease
+
+age 0 3 743 746 B-age
+≥ 4 5 747 748 O
+18 6 8 749 751 B-lower_bound
+and 9 12 752 755 O
+≤ 13 14 756 757 O
+50 15 17 758 760 B-upper_bound
+years 18 23 761 766 I-upper_bound
+old 24 27 767 770 O
+
+subjects 0 8 771 779 O
+of 9 11 780 782 O
+child 12 17 783 788 O
+- 17 18 788 789 O
+bearing 18 25 789 796 O
+potential 26 35 797 806 O
+will 36 40 807 811 O
+have 41 45 812 816 O
+a 46 47 817 818 O
+urine 48 53 819 824 O
+pregnancy 54 63 825 834 B-pregnancy
+test 64 68 835 839 O
+performed 69 78 840 849 O
+the 79 82 850 853 O
+day 83 86 854 857 O
+of 87 89 858 860 O
+surgery 90 97 861 868 B-treatment
+
+unstable 0 8 869 877 B-chronic_disease
+angina 9 15 878 884 I-chronic_disease
+within 16 22 885 891 O
+6 23 24 892 893 B-upper_bound
+months 25 31 894 900 I-upper_bound
+prior 32 37 901 906 I-upper_bound
+to 38 40 907 909 O
+the 41 44 910 913 O
+day 45 48 914 917 O
+of 49 51 918 920 O
+planned 52 59 921 928 O
+surgery 60 67 929 936 B-treatment
+

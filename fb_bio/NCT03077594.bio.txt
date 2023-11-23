@@ -1,0 +1,29 @@
+Adults 0 6 0 6 O
+( 7 8 7 8 O
+age 8 11 8 11 B-age
+18 12 14 12 14 B-lower_bound
+- 14 15 14 15 O
+90 15 17 15 17 B-upper_bound
+) 17 18 17 18 O
+who 19 22 19 22 O
+underwent 23 32 23 32 O
+an 33 35 33 35 O
+ablative 36 44 36 44 O
+program 45 52 45 52 O
+for 53 56 53 56 O
+BE 57 59 57 59 O
+
+Patients 0 8 60 68 O
+that 9 13 69 73 O
+have 14 18 74 78 O
+not 19 22 79 82 O
+achieved 23 31 83 91 O
+complete 32 40 92 100 O
+remission 41 50 101 110 B-treatment
+of 51 53 111 113 O
+intestinal 54 64 114 124 B-chronic_disease
+metaplasia 65 75 125 135 I-chronic_disease
+
+Pregnant 0 8 136 144 B-pregnancy
+women 9 14 145 150 B-gender
+

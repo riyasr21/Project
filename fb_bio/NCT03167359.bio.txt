@@ -1,0 +1,77 @@
+Less 0 4 0 4 O
+than 5 9 5 9 O
+or 10 12 10 12 O
+equal 13 18 13 18 O
+to 19 21 19 21 O
+50 22 24 22 24 B-upper_bound
+years 25 30 25 30 I-upper_bound
+of 31 33 31 33 O
+age 34 37 34 37 B-age
+
+Males 0 5 38 43 B-gender
+will 6 10 44 48 O
+be 11 13 49 51 O
+excluded 14 22 52 60 O
+
+Non 0 3 61 64 B-ethnicity
+- 3 4 64 65 I-ethnicity
+Caucasian 4 13 65 74 I-ethnicity
+Race 14 18 75 79 I-ethnicity
+
+Participants 0 12 80 92 O
+must 13 17 93 97 O
+have 18 22 98 102 O
+one 23 26 103 106 O
+or 27 29 107 109 O
+more 30 34 110 114 O
+of 35 37 115 117 O
+the 38 41 118 121 O
+following 42 51 122 131 O
+characteristics 52 67 132 147 O
+and 68 71 148 151 O
+be 72 74 152 154 O
+eligible 75 83 155 163 O
+for 84 87 164 167 O
+breast 88 94 168 174 O
+or 95 97 175 177 O
+chest 98 103 178 183 O
+wall 104 108 184 188 O
+with 109 113 189 193 O
+or 114 116 194 196 O
+without 117 124 197 204 O
+regional 125 133 205 213 B-treatment
+nodal 134 139 214 219 I-treatment
+radiotherapy 140 152 220 232 I-treatment
+
+Prior 0 5 233 238 B-treatment
+Chemotherapy 6 18 239 251 I-treatment
+for 19 22 252 255 O
+Breast 23 29 256 262 B-cancer
+Cancer 30 36 263 269 I-cancer
+
+Requiring 0 9 270 279 O
+regional 10 18 280 288 O
+nodal 19 24 289 294 B-treatment
+irradiation 25 36 295 306 I-treatment
+without 37 44 307 314 O
+evidence 45 53 315 323 O
+of 54 56 324 326 O
+N3 57 59 327 329 B-chronic_disease
+disease 60 67 330 337 I-chronic_disease
+
+Women 0 5 338 343 B-gender
+who 6 9 344 347 O
+are 10 13 348 351 B-pregnancy
+pregnant 14 22 352 360 I-pregnancy
+or 23 25 361 363 O
+nursing 26 33 364 371 O
+a 34 35 372 373 O
+child 36 41 374 379 O
+may 42 45 380 383 O
+not 46 49 384 387 O
+take 50 54 388 392 O
+part 55 59 393 397 O
+in 60 62 398 400 O
+this 63 67 401 405 O
+study 68 73 406 411 O
+

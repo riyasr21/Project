@@ -1,0 +1,73 @@
+Acute 0 5 0 5 B-chronic_disease
+, 5 6 5 6 O
+fulminant 7 16 7 16 B-chronic_disease
+liver 17 22 17 22 I-chronic_disease
+failure 23 30 23 30 I-chronic_disease
+
+Age 0 3 31 34 B-age
+≥18 4 7 35 38 O
+years 8 13 39 44 I-lower_bound
+old 14 17 45 48 O
+
+Chronic 0 7 49 56 O
+use 8 11 57 60 O
+of 12 14 61 63 O
+hemodialysis 15 27 64 76 B-treatment
+
+Dependent 0 9 77 86 O
+on 10 12 87 89 O
+> 13 14 90 91 O
+1 15 16 92 93 B-lower_bound
+IV 17 19 94 96 I-lower_bound
+inotrope 20 28 97 105 I-lower_bound
+to 29 31 106 108 O
+maintain 32 40 109 117 O
+hemodynamics 41 53 118 130 O
+
+Multi 0 5 131 136 B-treatment
+- 5 6 136 137 I-treatment
+organ 6 11 137 142 I-treatment
+transplant 12 22 143 153 I-treatment
+
+Prior 0 5 154 159 B-treatment
+solid 6 11 160 165 I-treatment
+organ 12 17 166 171 I-treatment
+or 18 20 172 174 I-treatment
+bone 21 25 175 179 I-treatment
+marrow 26 32 180 186 I-treatment
+transplant 33 43 187 197 I-treatment
+
+Registered 0 10 198 208 O
+male 11 15 209 213 B-gender
+or 16 18 214 216 O
+female 19 25 217 223 B-gender
+primary 26 33 224 231 O
+Liver 34 39 232 237 B-treatment
+transplant 40 50 238 248 I-treatment
+candidate 51 60 249 258 O
+
+diagnosis 0 9 259 268 O
+of 10 12 269 271 O
+chronic 13 20 272 279 B-chronic_disease
+renal 21 26 280 285 I-chronic_disease
+failure 27 34 286 293 I-chronic_disease
+, 34 35 293 294 O
+defined 36 43 295 302 O
+as 44 46 303 305 O
+chronic 47 54 306 313 B-clinical_variable
+serum 55 60 314 319 I-clinical_variable
+creatinine 61 71 320 330 I-clinical_variable
+of 72 74 331 333 O
+> 75 76 334 335 O
+3 76 77 335 336 B-lower_bound
+mg 78 80 337 339 I-lower_bound
+/ 80 81 339 340 I-lower_bound
+dl 81 83 340 342 I-lower_bound
+for 84 87 343 346 O
+> 88 89 347 348 O
+2 89 90 348 349 B-lower_bound
+weeks 91 96 350 355 I-lower_bound
+and/or 97 103 356 362 O
+requiring 104 113 363 372 O
+hemodialysis 114 126 373 385 B-treatment
+

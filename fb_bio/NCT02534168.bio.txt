@@ -1,0 +1,73 @@
+0 0 1 0 1 B-lower_bound
+- 2 3 2 3 O
+3 4 5 4 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+inclusive 19 28 19 28 O
+
+> 0 1 29 30 O
+3 2 3 31 32 B-lower_bound
+years 4 9 33 38 I-lower_bound
+of 10 12 39 41 O
+age 13 16 42 45 B-age
+
+Allergies 0 9 46 55 O
+to 10 12 56 58 O
+any 13 16 59 62 O
+anesthetics 17 28 63 74 B-allergy_name
+or 29 31 75 77 O
+analgesia 32 41 78 87 B-allergy_name
+products 42 50 88 96 I-allergy_name
+
+American 0 8 97 105 B-clinical_variable
+Society 9 16 106 113 I-clinical_variable
+of 17 19 114 116 I-clinical_variable
+Anesthesiologists 20 37 117 134 I-clinical_variable
+( 38 39 135 136 I-clinical_variable
+ASA 39 42 136 139 I-clinical_variable
+) 42 43 139 140 I-clinical_variable
+physical 44 52 141 149 I-clinical_variable
+status 53 59 150 156 I-clinical_variable
+of 60 62 157 159 O
+1 63 64 160 161 B-lower_bound
+or 65 67 162 164 O
+2 68 69 165 166 B-upper_bound
+
+American 0 8 167 175 B-clinical_variable
+Society 9 16 176 183 I-clinical_variable
+of 17 19 184 186 I-clinical_variable
+Anesthesiologists 20 37 187 204 I-clinical_variable
+( 38 39 205 206 I-clinical_variable
+ASA 39 42 206 209 I-clinical_variable
+) 42 43 209 210 I-clinical_variable
+physical 44 52 211 219 I-clinical_variable
+status 53 59 220 226 I-clinical_variable
+≥ 60 61 227 228 O
+3 62 63 229 230 B-lower_bound
+
+Diagnosis 0 9 231 240 O
+of 10 12 241 243 O
+Cystic 13 19 244 250 B-chronic_disease
+fibrosis 20 28 251 259 I-chronic_disease
+
+Known 0 5 260 265 O
+obstructive 6 17 266 277 B-chronic_disease
+sleep 18 23 278 283 I-chronic_disease
+apnea 24 29 284 289 I-chronic_disease
+
+Pre 0 3 290 293 O
+- 3 4 293 294 O
+operative 4 13 294 303 O
+use 14 17 304 307 O
+of 18 20 308 310 O
+analgesics 21 31 311 321 B-treatment
+
+Presenting 0 10 322 332 O
+for 11 14 333 336 O
+palatal 15 22 337 344 B-treatment
+repair 23 29 345 351 I-treatment
+( 30 31 352 353 O
+palatoplasty 31 43 353 365 B-treatment
+) 43 44 365 366 O
+

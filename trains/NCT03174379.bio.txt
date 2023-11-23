@@ -1,0 +1,22 @@
+ability 0 7 0 7 O
+to 8 10 8 10 O
+walk 11 15 11 15 O
+unaided 16 23 16 23 O
+for 24 27 24 27 O
+6 28 29 28 29 B-upper_bound
+minutes 30 37 30 37 I-upper_bound
+with 38 42 38 42 O
+or 43 45 43 45 O
+without 46 53 46 53 O
+assistive 54 63 54 63 O
+device 64 70 64 70 O
+
+active 0 6 71 77 O
+cancer 7 13 78 84 B-cancer
+
+diagnosis 0 9 85 94 O
+of 10 12 95 97 O
+MS 13 15 98 100 B-chronic_disease
+
+trypanophobia 0 13 101 114 B-chronic_disease
+

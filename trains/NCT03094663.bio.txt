@@ -1,0 +1,81 @@
+ASA 0 3 0 3 B-chronic_disease
+of 4 6 4 6 I-chronic_disease
+IV 7 9 7 9 I-chronic_disease
+
+Age 0 3 10 13 B-age
+18 4 6 14 16 B-lower_bound
+to 7 9 17 19 O
+80 10 12 20 22 B-upper_bound
+years 13 18 23 28 I-upper_bound
+
+BMI 0 3 29 32 B-bmi
+> 4 5 33 34 O
+40 6 8 35 37 B-lower_bound
+
+Chronic 0 7 38 45 B-treatment
+opioid 8 14 46 52 I-treatment
+use 15 18 53 56 O
+
+English 0 7 57 64 B-language_fluency
+speaking 8 16 65 73 I-language_fluency
+( 17 18 74 75 O
+secondary 18 27 75 84 O
+outcomes 28 36 85 93 O
+include 37 44 94 101 O
+questionnaires 45 59 102 116 O
+validated 60 69 117 126 O
+in 70 72 127 129 O
+English 73 80 130 137 O
+only 81 85 138 142 O
+) 85 86 142 143 O
+
+Patients 0 8 144 152 O
+with 9 13 153 157 O
+osteoarthritis 14 28 158 172 B-chronic_disease
+scheduled 29 38 173 182 O
+for 39 42 183 186 O
+a 43 44 187 188 O
+primary 45 52 189 196 O
+either 53 59 197 203 O
+partial 60 67 204 211 B-treatment
+or 68 70 212 214 I-treatment
+total 71 76 215 220 I-treatment
+knee 77 81 221 225 I-treatment
+arthroplasty 82 94 226 238 I-treatment
+with 95 99 239 243 O
+a 100 101 244 245 O
+participating 102 115 246 259 O
+surgeon 116 123 260 267 O
+
+Planned 0 7 268 275 O
+use 8 11 276 279 O
+of 12 14 280 282 O
+regional 15 23 283 291 B-treatment
+anesthesia 24 34 292 302 I-treatment
+
+older 0 5 303 308 O
+than 6 10 309 313 O
+80 11 13 314 316 B-lower_bound
+
+taking 0 6 317 323 O
+opioids 7 14 324 331 B-treatment
+for 15 18 332 335 O
+longer 19 25 336 342 O
+than 26 30 343 347 O
+3 31 32 348 349 B-upper_bound
+months 33 39 350 356 I-upper_bound
+, 39 40 356 357 O
+or 41 43 358 360 O
+daily 44 49 361 366 B-clinical_variable
+oral 50 54 367 371 I-clinical_variable
+morphine 55 63 372 380 I-clinical_variable
+equivalent 64 74 381 391 I-clinical_variable
+of 75 77 392 394 O
+> 78 79 395 396 O
+5mg 79 82 396 399 B-lower_bound
+/ 82 83 399 400 I-lower_bound
+day 83 86 400 403 I-lower_bound
+for 87 90 404 407 O
+one 91 94 408 411 B-upper_bound
+month 95 100 412 417 I-upper_bound
+

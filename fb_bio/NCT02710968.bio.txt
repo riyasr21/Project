@@ -1,0 +1,96 @@
+Diaphragmatic 0 13 0 13 B-chronic_disease
+hernia 14 20 14 20 I-chronic_disease
+: 20 21 20 21 O
+right 22 27 22 27 O
+- 27 28 27 28 O
+sided 28 33 28 33 O
+or 34 36 34 36 O
+bilateral 37 46 37 46 O
+, 46 47 46 47 O
+major 48 53 48 53 O
+associated 54 64 54 64 O
+anomalies 65 74 65 74 O
+, 74 75 74 75 O
+isolated 76 84 76 84 O
+left 85 89 85 89 O
+- 89 90 89 90 O
+sided 90 95 90 95 O
+with 96 100 96 100 O
+the 101 104 101 104 O
+O 105 106 105 106 B-clinical_variable
+/ 106 107 106 107 I-clinical_variable
+E 107 108 107 108 I-clinical_variable
+LHR 109 112 109 112 I-clinical_variable
+≥ 113 114 113 114 O
+30 115 117 115 117 B-lower_bound
+% 117 118 117 118 I-lower_bound
+
+History 0 7 119 126 O
+of 8 10 127 129 O
+natural 11 18 130 137 B-allergy_name
+rubber 19 25 138 144 I-allergy_name
+latex 26 31 145 150 I-allergy_name
+allergy 32 39 151 158 O
+
+Left 0 4 159 163 O
+sided 5 10 164 169 O
+diaphragmatic 11 24 170 183 B-chronic_disease
+hernia 25 31 184 190 I-chronic_disease
+with 32 36 191 195 O
+liver 37 42 196 201 O
+up 43 45 202 204 O
+
+Maternal 0 8 205 213 O
+contraindication 9 25 214 230 O
+to 26 28 231 233 O
+fetoscopic 29 39 234 244 B-allergy_name
+surgery 40 47 245 252 I-allergy_name
+or 48 50 253 255 O
+severe 51 57 256 262 B-allergy_name
+maternal 58 66 263 271 I-allergy_name
+medical 67 74 272 279 I-allergy_name
+condition 75 84 280 289 I-allergy_name
+in 85 87 290 292 O
+pregnancy 88 97 293 302 B-pregnancy
+
+Maternal 0 8 303 311 B-chronic_disease
+depression 9 19 312 322 I-chronic_disease
+as 20 22 323 325 O
+assessed 23 31 326 334 O
+by 32 34 335 337 O
+a 35 36 338 339 O
+Beck 37 41 340 344 B-clinical_variable
+Depression 42 52 345 355 I-clinical_variable
+Inventory 53 62 356 365 I-clinical_variable
+score 63 68 366 371 I-clinical_variable
+equal 69 74 372 377 O
+to 75 77 378 380 O
+or 78 80 381 383 O
+greater 81 88 384 391 O
+than 89 93 392 396 O
+17 94 96 397 399 B-lower_bound
+
+Pregnant 0 8 400 408 B-pregnancy
+women 9 14 409 414 B-gender
+
+Singleton 0 9 415 424 O
+pregnancy 10 19 425 434 B-pregnancy
+
+Technical 0 9 435 444 O
+limitations 10 21 445 456 O
+precluding 22 32 457 467 O
+fetoscopic 33 43 468 478 B-treatment
+surgery 44 51 479 486 I-treatment
+
+Women 0 5 487 492 B-gender
+with 6 10 493 497 O
+allergy 11 18 498 505 O
+to 19 21 506 508 O
+Latex 22 27 509 514 B-allergy_name
+
+age 0 3 515 518 B-age
+18 4 6 519 521 B-lower_bound
+years 7 12 522 527 I-lower_bound
+and 13 16 528 531 O
+older 17 22 532 537 O
+

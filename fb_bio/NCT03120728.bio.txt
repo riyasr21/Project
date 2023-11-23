@@ -1,0 +1,232 @@
+Completion 0 10 0 10 O
+of 11 13 11 13 O
+screening 14 23 14 23 O
+visit 24 29 24 29 O
+where 30 35 30 35 O
+ovulation 36 45 36 45 O
+will 46 50 46 50 O
+be 51 53 51 53 O
+assessed 54 62 54 62 O
+with 63 67 63 67 O
+blood 68 73 68 73 O
+draw 74 78 74 78 O
+for 79 82 79 82 O
+progesterone 83 95 83 95 B-clinical_variable
+level 96 101 96 101 I-clinical_variable
+( 102 103 102 103 O
+must 103 107 103 107 O
+be 108 110 108 110 O
+5ng 111 114 111 114 B-lower_bound
+/ 114 115 114 115 I-lower_bound
+mL 115 117 115 117 I-lower_bound
+or 118 120 118 120 O
+greater 121 128 121 128 O
+) 128 129 128 129 O
+
+Healthy 0 7 130 137 O
+, 7 8 137 138 O
+women 9 14 139 144 B-gender
+
+Must 0 4 145 149 O
+speak 5 10 150 155 B-language_fluency
+English 11 18 156 163 I-language_fluency
+or 19 21 164 166 I-language_fluency
+Spanish 22 29 167 174 I-language_fluency
+
+Not 0 3 175 178 O
+seeking 4 11 179 186 O
+pregnancy 12 21 187 196 B-pregnancy
+during 22 28 197 203 O
+the 29 32 204 207 O
+study 33 38 208 213 O
+period 39 45 214 220 O
+
+Regular 0 7 221 228 O
+menstrual 8 17 229 238 O
+cycles 18 24 239 245 O
+with 25 29 246 250 O
+duration 30 38 251 259 O
+between 39 46 260 267 O
+24 47 49 268 270 B-lower_bound
+- 49 50 270 271 O
+35 50 52 271 273 B-upper_bound
+days 53 57 274 278 I-upper_bound
+
+Use 0 3 279 282 B-contraception_consent
+of 4 6 283 285 I-contraception_consent
+a 7 8 286 287 I-contraception_consent
+non 9 12 288 291 I-contraception_consent
+- 12 13 291 292 I-contraception_consent
+hormonal 13 21 292 300 I-contraception_consent
+form 22 26 301 305 I-contraception_consent
+of 27 29 306 308 I-contraception_consent
+contraception 30 43 309 322 I-contraception_consent
+, 43 44 322 323 O
+such 45 49 324 328 O
+as 50 52 329 331 O
+: 52 53 331 332 O
+sterilization 54 67 333 346 B-treatment
+( 68 69 347 348 O
+tubal 69 74 348 353 B-contraception_consent
+ligation 75 83 354 362 I-contraception_consent
+, 83 84 362 363 O
+Essure 85 91 364 370 B-contraception_consent
+) 91 92 370 371 O
+, 92 93 371 372 O
+copper 94 100 373 379 B-contraception_consent
+IUD 101 104 380 383 I-contraception_consent
+( 105 106 384 385 O
+intrauterine 106 118 385 397 B-contraception_consent
+device 119 125 398 404 I-contraception_consent
+) 125 126 404 405 O
+, 126 127 405 406 O
+barrier 128 135 407 414 B-contraception_consent
+methods 136 143 415 422 I-contraception_consent
+or 144 146 423 425 O
+abstinence 147 157 426 436 B-contraception_consent
+
+Use 0 3 437 440 O
+of 4 6 441 443 O
+depo 7 11 444 448 B-treatment
+medroxyprogesterone 12 31 449 468 I-treatment
+within 32 38 469 475 O
+6 39 40 476 477 B-upper_bound
+months 41 47 478 484 I-upper_bound
+of 48 50 485 487 O
+screening 51 60 488 497 O
+
+Use 0 3 498 501 O
+of 4 6 502 504 O
+medications 7 18 505 516 O
+that 19 23 517 521 O
+interact 24 32 522 530 O
+with 33 37 531 535 O
+contraceptive 38 51 536 549 O
+steroid 52 59 550 557 O
+hormones 60 68 558 566 O
+: 68 69 566 567 O
+anti 70 74 568 572 B-treatment
+- 74 75 572 573 I-treatment
+epileptic 75 84 573 582 I-treatment
+medications 85 96 583 594 I-treatment
+, 96 97 594 595 O
+rifampin 98 106 596 604 B-treatment
+, 106 107 604 605 O
+rifabutin 108 117 606 615 B-treatment
+, 117 118 615 616 O
+fosamprenavir 119 132 617 630 B-treatment
+, 132 133 630 631 O
+etc 134 137 632 635 O
+
+ages 0 4 636 640 B-age
+18 5 7 641 643 B-lower_bound
+to 8 10 644 646 O
+39yo 11 15 647 651 B-upper_bound
+with 16 20 652 656 O
+BMI 21 24 657 660 B-bmi
+< 25 26 661 662 O
+30 26 28 662 664 B-upper_bound
+
+cigarette 0 9 665 674 O
+smoking 10 17 675 682 O
+and 18 21 683 686 O
+≥35yo 22 27 687 692 O
+
+current 0 7 693 700 O
+or 8 10 701 703 O
+past 11 15 704 708 O
+history 16 23 709 716 O
+of 24 26 717 719 O
+breast 27 33 720 726 B-cancer
+cancer 34 40 727 733 I-cancer
+
+current 0 7 734 741 O
+symptomatic 8 19 742 753 O
+gallbladder 20 31 754 765 B-chronic_disease
+disease 32 39 766 773 I-chronic_disease
+
+diabetes 0 8 774 782 B-chronic_disease
+with 9 13 783 787 O
+nephropathy 14 25 788 799 B-chronic_disease
+/ 25 26 799 800 O
+retinopathy 26 37 800 811 B-chronic_disease
+/ 37 38 811 812 O
+neuropathy 38 48 812 822 B-chronic_disease
+or 49 51 823 825 O
+other 52 57 826 831 O
+vascular 58 66 832 840 B-chronic_disease
+disease 67 74 841 848 I-chronic_disease
+diagnosed 75 84 849 858 O
+more 85 89 859 863 O
+than 90 94 864 868 O
+20 95 97 869 871 B-lower_bound
+years 98 103 872 877 I-lower_bound
+ago 104 107 878 881 O
+
+hepatocellular 0 14 882 896 B-cancer
+adenoma 15 22 897 904 I-cancer
+
+history 0 7 905 912 O
+of 8 10 913 915 O
+complicated 11 22 916 927 O
+solid 23 28 928 933 B-treatment
+organ 29 34 934 939 I-treatment
+transplant 35 45 940 950 I-treatment
+
+history 0 7 951 958 O
+of 8 10 959 961 O
+deep 11 15 962 966 B-chronic_disease
+vein 16 20 967 971 I-chronic_disease
+thrombosis 21 31 972 982 I-chronic_disease
+or 32 34 983 985 O
+pulmonary 35 44 986 995 B-chronic_disease
+embolus 45 52 996 1003 I-chronic_disease
+
+history 0 7 1004 1011 O
+of 8 10 1012 1014 O
+peripartum 11 21 1015 1025 B-chronic_disease
+cardiomyopathy 22 36 1026 1040 I-chronic_disease
+
+history 0 7 1041 1048 O
+of 8 10 1049 1051 O
+stroke 11 17 1052 1058 B-chronic_disease
+
+history 0 7 1059 1066 O
+of 8 10 1067 1069 O
+superficial 11 22 1070 1081 B-chronic_disease
+venous 23 29 1082 1088 I-chronic_disease
+thrombosis 30 40 1089 1099 I-chronic_disease
+not 41 44 1100 1103 O
+associated 45 55 1104 1114 O
+with 56 60 1115 1119 O
+catheter 61 69 1120 1128 O
+
+malignant 0 9 1129 1138 B-cancer
+hepatoma 10 18 1139 1147 I-cancer
+
+multiple 0 8 1148 1156 O
+risk 9 13 1157 1161 O
+factors 14 21 1162 1169 O
+for 22 25 1170 1173 O
+atherosclerotic 26 41 1174 1189 B-chronic_disease
+cardiovascular 42 56 1190 1204 I-chronic_disease
+disease 57 64 1205 1212 I-chronic_disease
+
+multiple 0 8 1213 1221 B-chronic_disease
+sclerosis 9 18 1222 1231 I-chronic_disease
+with 19 23 1232 1236 O
+prolonged 24 33 1237 1246 B-chronic_disease
+immobility 34 44 1247 1257 I-chronic_disease
+
+severe 0 6 1258 1264 O
+decompensated 7 20 1265 1278 B-chronic_disease
+cirrhosis 21 30 1279 1288 I-chronic_disease
+
+systemic 0 8 1289 1297 B-chronic_disease
+lupus 9 14 1298 1303 I-chronic_disease
+erythematosus 15 28 1304 1317 I-chronic_disease
+with 29 33 1318 1322 O
+positive 34 42 1323 1331 O
+antiphospholipid 43 59 1332 1348 O
+antibodies 60 70 1349 1359 O
+

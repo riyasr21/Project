@@ -1,0 +1,111 @@
+< 0 1 0 1 O
+24 2 4 2 4 B-upper_bound
+mL 5 7 5 7 I-upper_bound
+/ 7 8 7 8 I-upper_bound
+kg 8 10 8 10 I-upper_bound
+/ 10 11 10 11 I-upper_bound
+min 11 14 11 14 I-upper_bound
+in 15 17 15 17 O
+men 18 21 18 21 B-gender
+
+< 0 1 22 23 O
+21 1 3 23 25 B-upper_bound
+mL 4 6 26 28 I-upper_bound
+/ 6 7 28 29 I-upper_bound
+kg 7 9 29 31 I-upper_bound
+/ 9 10 31 32 I-upper_bound
+min 10 13 32 35 I-upper_bound
+in 14 16 36 38 O
+women 17 22 39 44 B-gender
+
+Any 0 3 45 48 O
+patient 4 11 49 56 O
+recently 12 20 57 65 O
+hospitalized 21 33 66 78 O
+for 34 37 79 82 O
+heart 38 43 83 88 B-chronic_disease
+failure 44 51 89 96 I-chronic_disease
+will 52 56 97 101 O
+have 57 61 102 106 O
+to 62 64 107 109 O
+wait 65 69 110 114 O
+at 70 72 115 117 O
+least 73 78 118 123 O
+2 79 80 124 125 B-lower_bound
+weeks 81 86 126 131 I-lower_bound
+before 87 93 132 138 O
+starting 94 102 139 147 O
+CR 103 105 148 150 O
+
+Atrial 0 6 151 157 B-chronic_disease
+fibrillation 7 19 158 170 I-chronic_disease
+
+NYHA 0 4 171 175 B-clinical_variable
+class 5 10 176 181 I-clinical_variable
+II 11 13 182 184 B-lower_bound
+or 14 16 185 187 O
+III 17 20 188 191 B-upper_bound
+symptoms 21 29 192 200 O
+
+Patients 0 8 201 209 O
+with 9 13 210 214 O
+exercise 14 22 215 223 O
+induced 23 30 224 231 O
+angina 31 37 232 238 B-chronic_disease
+during 38 44 239 245 O
+CR 45 47 246 248 O
+
+Pregnant 0 8 249 257 B-pregnancy
+
+Referred 0 8 258 266 O
+by 9 11 267 269 O
+physician 12 21 270 279 O
+to 22 24 280 282 O
+CR 25 27 283 285 O
+with 28 32 286 290 O
+echocardiographic 33 50 291 308 B-treatment
+evidence 51 59 309 317 O
+of 60 62 318 320 O
+HFpEF 63 68 321 326 O
+defined 69 76 327 334 O
+as 77 79 335 337 O
+an 80 82 338 340 O
+ejection 83 91 341 349 B-clinical_variable
+fraction 92 100 350 358 I-clinical_variable
+≥ 101 102 359 360 O
+50 103 105 361 363 B-lower_bound
+% 106 107 364 365 I-lower_bound
+
+moderate 0 8 366 374 B-chronic_disease
+to 9 11 375 377 I-chronic_disease
+severe 12 18 378 384 I-chronic_disease
+( 19 20 385 386 I-chronic_disease
+grade 20 25 386 391 I-chronic_disease
+II 26 28 392 394 I-chronic_disease
+- 28 29 394 395 I-chronic_disease
+III 29 32 395 398 I-chronic_disease
+) 32 33 398 399 I-chronic_disease
+diastolic 34 43 400 409 I-chronic_disease
+dysfunction 44 55 410 421 I-chronic_disease
+
+planning 0 8 422 430 B-pregnancy
+to 9 11 431 433 I-pregnancy
+become 12 18 434 440 I-pregnancy
+pregnant 19 27 441 449 I-pregnancy
+
+those 0 5 450 455 O
+with 6 10 456 460 O
+mild 11 15 461 465 O
+( 16 17 466 467 O
+grade 17 22 467 472 O
+I 23 24 473 474 O
+) 24 25 474 475 O
+diastolic 26 35 476 485 B-chronic_disease
+dysfunction 36 47 486 497 I-chronic_disease
+
+≥ 0 1 498 499 O
+50 2 4 500 502 B-lower_bound
+years 5 10 503 508 I-lower_bound
+of 11 13 509 511 O
+age 14 17 512 515 B-age
+

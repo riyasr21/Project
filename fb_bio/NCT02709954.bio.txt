@@ -1,0 +1,35 @@
+21 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+55 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+( 22 23 22 23 O
+extremes 23 31 23 31 O
+included 32 40 32 40 O
+) 40 41 40 41 O
+
+Experience 0 10 42 52 O
+with 11 15 53 57 O
+drinking 16 24 58 66 O
+2 25 26 67 68 B-lower_bound
+or 27 29 69 71 O
+more 30 34 72 76 O
+standard 35 43 77 85 O
+drinks 44 50 86 92 O
+of 51 53 93 95 O
+alcohol 54 61 96 103 O
+at 62 64 104 106 O
+least 65 70 107 112 O
+once 71 75 113 117 O
+in 76 78 118 120 O
+lifetime 79 87 121 129 O
+
+Males 0 5 130 135 B-gender
+
+Positive 0 8 136 144 O
+pregnancy 9 18 145 154 B-pregnancy
+screen 19 25 155 161 O
+
+females 0 7 162 169 B-gender
+

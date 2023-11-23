@@ -1,0 +1,163 @@
+Exclude 0 7 0 7 O
+subjects 8 16 8 16 O
+with 17 21 17 21 O
+liver 22 27 22 27 B-chronic_disease
+dysfunction 28 39 28 39 I-chronic_disease
+, 39 40 39 40 O
+kidney 41 47 41 47 B-chronic_disease
+dysfunction 48 59 48 59 I-chronic_disease
+and 60 63 60 63 O
+glaucoma 64 72 64 72 B-chronic_disease
+( 73 74 73 74 O
+per 74 77 74 77 O
+the 78 81 78 81 O
+risks 82 87 82 87 O
+associated 88 98 88 98 O
+with 99 103 99 103 O
+topiramate 104 114 104 114 B-treatment
+) 114 115 114 115 O
+
+Men 0 3 116 119 B-gender
+
+Nortriptyline 0 13 120 133 B-treatment
+: 13 14 133 134 O
+monoamine 15 24 135 144 B-treatment
+oxidase 25 32 145 152 I-treatment
+inhibitors 33 43 153 163 I-treatment
+( 44 45 164 165 I-treatment
+MAO 45 48 165 168 I-treatment
+) 48 49 168 169 I-treatment
+such 50 54 170 174 O
+as 55 57 175 177 O
+phenelzine 58 68 178 188 B-treatment
+
+Patient 0 7 189 196 O
+has 8 11 197 200 O
+a 12 13 201 202 O
+history 14 21 203 210 O
+of 22 24 211 213 O
+immunodeficiency 25 41 214 230 B-chronic_disease
+
+Patient 0 7 231 238 O
+has 8 11 239 242 O
+a 12 13 243 244 O
+history 14 21 245 252 O
+of 22 24 253 255 O
+substance 25 34 256 265 O
+abuse 35 40 266 271 O
+within 41 47 272 278 O
+the 48 51 279 282 O
+preceding 52 61 283 292 B-upper_bound
+6 62 63 293 294 I-upper_bound
+months 64 70 295 301 I-upper_bound
+prior 71 76 302 307 I-upper_bound
+to 77 79 308 310 O
+screening 80 89 311 320 O
+
+Patient 0 7 321 328 O
+has 8 11 329 332 O
+used 12 16 333 337 O
+an 17 19 338 340 O
+investigational 20 35 341 356 B-treatment
+drug 36 40 357 361 I-treatment
+or 41 43 362 364 I-treatment
+device 44 50 365 371 I-treatment
+in 51 53 372 374 O
+the 54 57 375 378 O
+the 58 61 379 382 O
+3 62 63 383 384 B-upper_bound
+months 64 70 385 391 I-upper_bound
+prior 71 76 392 397 I-upper_bound
+to 77 79 398 400 O
+screening 80 89 401 410 O
+
+Patient 0 7 411 418 O
+is 8 10 419 421 O
+using 11 16 422 427 O
+marijuana 17 26 428 437 B-treatment
+for 27 30 438 441 O
+medical 31 38 442 449 O
+or 39 41 450 452 O
+other 42 47 453 458 O
+uses 48 52 459 463 O
+
+Patient 0 7 464 471 O
+with 8 12 472 476 O
+traumatic 13 22 477 486 B-chronic_disease
+brain 23 28 487 492 I-chronic_disease
+injury 29 35 493 499 I-chronic_disease
+
+Patients 0 8 500 508 O
+taking 9 15 509 515 O
+Nortriptyline 16 29 516 529 B-treatment
+, 29 30 529 530 O
+MAOIs 31 36 531 536 B-treatment
+
+Patients 0 8 537 545 O
+who 9 12 546 549 O
+are 13 16 550 553 B-pregnancy
+pregnant 17 25 554 562 I-pregnancy
+or 26 28 563 565 O
+trying 29 35 566 572 B-pregnancy
+to 36 38 573 575 I-pregnancy
+become 39 45 576 582 I-pregnancy
+pregnant 46 54 583 591 I-pregnancy
+
+Patients 0 8 592 600 O
+with 9 13 601 605 O
+allergies 14 23 606 615 O
+to 24 26 616 618 O
+nortriptyline 27 40 619 632 B-allergy_name
+or 41 43 633 635 O
+topiramate 44 54 636 646 B-allergy_name
+and 55 58 647 650 O
+their 59 64 651 656 O
+analogs 65 72 657 664 O
+or 73 75 665 667 O
+medication 76 86 668 678 O
+interactions 87 99 679 691 O
+that 100 104 692 696 O
+preclude 105 113 697 705 O
+their 114 119 706 711 O
+use 120 123 712 715 O
+
+Patients 0 8 716 724 O
+with 9 13 725 729 O
+cancer 14 20 730 736 B-cancer
+
+Patients 0 8 737 745 O
+with 9 13 746 750 O
+liver 14 19 751 756 B-chronic_disease
+or 20 22 757 759 I-chronic_disease
+kidney 23 29 760 766 I-chronic_disease
+dysfunction 30 41 767 778 I-chronic_disease
+or 42 44 779 781 O
+glaucoma 45 53 782 790 B-chronic_disease
+
+Topiramate 0 10 791 801 B-treatment
+: 10 11 801 802 O
+acetazolamide 12 25 803 816 B-treatment
+( 26 27 817 818 I-treatment
+kidney 27 33 818 824 I-treatment
+stones 34 40 825 831 I-treatment
+) 40 41 831 832 I-treatment
+, 41 42 832 833 O
+digoxin 43 50 834 841 B-treatment
+
+aged 0 4 842 846 B-age
+18 5 7 847 849 B-lower_bound
+to 8 10 850 852 O
+70 11 13 853 855 B-upper_bound
+
+with 0 4 856 860 O
+untreated 5 14 861 870 O
+vestibular 15 25 871 881 B-chronic_disease
+migraine 26 34 882 890 I-chronic_disease
+variant 35 42 891 898 O
+as 43 45 899 901 O
+diagnosed 46 55 902 911 O
+by 56 58 912 914 O
+history 59 66 915 922 O
+
+women 0 5 923 928 B-gender
+

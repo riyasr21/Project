@@ -1,0 +1,56 @@
+Currently 0 9 0 9 O
+pregnant 10 18 10 18 B-pregnancy
+
+Dyads 0 5 19 24 O
+experiencing 6 18 25 37 O
+low 19 22 38 41 O
+levels 23 29 42 48 O
+of 30 32 49 51 O
+distress 33 41 52 60 B-chronic_disease
+
+Experiencing 0 12 61 73 O
+severe 13 19 74 80 O
+cognitive 20 29 81 90 B-chronic_disease
+impairment 30 40 91 101 I-chronic_disease
+that 41 45 102 106 O
+would 46 51 107 112 O
+impair 52 58 113 119 O
+their 59 64 120 125 O
+ability 65 72 126 133 O
+to 73 75 134 136 O
+communicate 76 87 137 148 O
+during 88 94 149 155 O
+an 95 97 156 158 O
+interview 98 107 159 168 O
+
+Must 0 4 169 173 O
+be 5 7 174 176 O
+age 8 11 177 180 B-age
+19 12 14 181 183 B-upper_bound
+or 15 17 184 186 O
+older 18 23 187 192 O
+
+Must 0 4 193 197 B-technology_access
+have 5 9 198 202 I-technology_access
+reliable 10 18 203 211 I-technology_access
+access 19 25 212 218 I-technology_access
+to 26 28 219 221 I-technology_access
+a 29 30 222 223 I-technology_access
+telephone 31 40 224 233 I-technology_access
+
+Must 0 4 234 238 O
+self 5 9 239 243 O
+- 9 10 243 244 O
+identify 10 18 244 252 O
+as 19 21 253 255 O
+assisting 22 31 256 265 O
+with 32 36 266 270 O
+care 37 41 271 275 O
+for 42 45 276 279 O
+at 46 48 280 282 O
+least 49 54 283 288 O
+8 55 56 289 290 B-lower_bound
+hours 57 62 291 296 I-lower_bound
+/ 62 63 296 297 I-lower_bound
+week 63 67 297 301 I-lower_bound
+

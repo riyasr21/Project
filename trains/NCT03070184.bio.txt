@@ -1,0 +1,97 @@
+18 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+40 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+
+BMI 0 3 15 18 B-bmi
+18 4 6 19 21 B-lower_bound
+- 6 7 21 22 O
+25 7 9 22 24 B-upper_bound
+kg 10 12 25 27 I-upper_bound
+/ 12 13 27 28 I-upper_bound
+m2 13 15 28 30 I-upper_bound
+
+Blood 0 5 31 36 B-clinical_variable
+pressure 6 14 37 45 I-clinical_variable
+less 15 19 46 50 O
+than 20 24 51 55 O
+100/60 25 31 56 62 B-upper_bound
+mm 32 34 63 65 I-upper_bound
+Hg 35 37 66 68 I-upper_bound
+
+Blood 0 5 69 74 B-clinical_variable
+pressure 6 14 75 83 I-clinical_variable
+less 15 19 84 88 O
+than 20 24 89 93 O
+140/90 25 31 94 100 B-upper_bound
+mm 32 34 101 103 I-upper_bound
+Hg 35 37 104 106 I-upper_bound
+
+Diabetes 0 8 107 115 B-chronic_disease
+or 9 11 116 118 O
+use 12 15 119 122 O
+of 16 18 123 125 O
+anti 19 23 126 130 B-treatment
+- 23 24 130 131 I-treatment
+diabetic 24 32 131 139 I-treatment
+medications 33 44 140 151 I-treatment
+
+Heart 0 5 152 157 B-clinical_variable
+rate 6 10 158 162 I-clinical_variable
+less 11 15 163 167 O
+than 16 20 168 172 O
+60 21 23 173 175 B-upper_bound
+beats 24 29 176 181 I-upper_bound
+/ 29 30 181 182 I-upper_bound
+min 30 33 182 185 I-upper_bound
+
+History 0 7 186 193 O
+of 8 10 194 196 O
+cardiovascular 11 25 197 211 B-chronic_disease
+disease 26 33 212 219 I-chronic_disease
+or 34 36 220 222 O
+use 37 40 223 226 O
+of 41 43 227 229 O
+medications 44 55 230 241 O
+for 56 59 242 245 O
+CVD 60 63 246 249 B-chronic_disease
+
+History 0 7 250 257 O
+of 8 10 258 260 O
+hypertension 11 23 261 273 B-chronic_disease
+or 24 26 274 276 O
+use 27 30 277 280 O
+of 31 33 281 283 O
+BP 34 36 284 286 B-treatment
+lowering 37 45 287 295 I-treatment
+medications 46 57 296 307 I-treatment
+
+Pregnant 0 8 308 316 B-pregnancy
+
+Renal 0 5 317 322 B-chronic_disease
+disease 6 13 323 330 I-chronic_disease
+( 14 15 331 332 O
+eGFR 15 19 332 336 B-clinical_variable
+< 20 21 337 338 O
+60ml 22 26 339 343 B-upper_bound
+/ 26 27 343 344 I-upper_bound
+min/1.73m2 27 37 344 354 I-upper_bound
+) 37 38 354 355 O
+
+use 0 3 356 359 O
+of 4 6 360 362 O
+Hormone 7 14 363 370 B-treatment
+Replacement 15 26 371 382 I-treatment
+Therapy 27 34 383 390 I-treatment
+( 35 36 391 392 I-treatment
+HRT 36 39 392 395 I-treatment
+) 39 40 395 396 I-treatment
+or 41 43 397 399 O
+oral 44 48 400 404 B-treatment
+contraceptives 49 63 405 419 I-treatment
+( 64 65 420 421 I-treatment
+OCP 65 68 421 424 I-treatment
+) 68 69 424 425 I-treatment
+or 70 72 426 428 O
+steroids 73 81 429 437 B-treatment
+

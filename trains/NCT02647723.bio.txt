@@ -1,0 +1,42 @@
+Age 0 3 0 3 B-age
+between 4 11 4 11 O
+18 12 14 12 14 B-lower_bound
+and 15 18 15 18 O
+34 19 21 19 21 B-upper_bound
+
+Allergy 0 7 22 29 O
+to 8 10 30 32 O
+iodine 11 17 33 39 B-allergy_name
+and/or 18 24 40 46 O
+soy 25 28 47 50 B-allergy_name
+
+Low 0 3 51 54 O
+levels 4 10 55 61 O
+of 11 13 62 64 O
+DHA 14 17 65 68 O
+consumption 18 29 69 80 O
+as 30 32 81 83 O
+defined 33 40 84 91 O
+as 41 43 92 94 O
+less 44 48 95 99 O
+than 49 53 100 104 O
+two 54 57 105 108 B-upper_bound
+fish 58 62 109 113 O
+servings 63 71 114 122 O
+per 72 75 123 126 O
+week 76 80 127 131 O
+
+Use 0 3 132 135 O
+of 4 6 136 138 O
+blood 7 12 139 144 B-treatment
+thinners 13 21 145 153 I-treatment
+or 22 24 154 156 O
+anti 25 29 157 161 B-treatment
+- 29 30 161 162 I-treatment
+coagulants 30 40 162 172 I-treatment
+
+Use 0 3 173 176 O
+of 4 6 177 179 O
+psychotropic 7 19 180 192 B-treatment
+medications 20 31 193 204 I-treatment
+

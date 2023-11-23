@@ -1,0 +1,352 @@
+Acute 0 5 0 5 B-chronic_disease
+MI 6 8 6 8 I-chronic_disease
+
+Acute 0 5 9 14 B-chronic_disease
+coronary 6 14 15 23 I-chronic_disease
+syndrome 15 23 24 32 I-chronic_disease
+( 24 25 33 34 O
+defined 25 32 34 41 O
+by 33 35 42 44 O
+the 36 39 45 48 O
+ACC 40 43 49 52 O
+/ 43 44 52 53 O
+AHA 44 47 53 56 O
+criteria 48 56 57 65 O
+, 56 57 65 66 O
+Braunwald 58 67 67 76 O
+2000 68 72 77 81 O
+) 72 73 81 82 O
+
+Age 0 3 83 86 B-age
+( 4 5 87 88 O
+35 5 7 88 90 B-lower_bound
+- 7 8 90 91 O
+65 8 10 91 93 B-upper_bound
+) 10 11 93 94 O
+matched 12 19 95 102 O
+to 20 22 103 105 O
+the 23 26 106 109 O
+WISE 27 31 110 114 O
+MCD 32 35 115 118 O
+population 36 46 119 129 O
+
+Age 0 3 130 133 B-age
+> 4 5 134 135 O
+18 6 8 136 138 B-lower_bound
+yrs 9 12 139 142 I-lower_bound
+old 13 16 143 146 O
+
+Any 0 3 147 150 O
+renal 4 9 151 156 B-chronic_disease
+disease 10 17 157 164 I-chronic_disease
+
+Chest 0 5 165 170 B-chronic_disease
+pain 6 10 171 175 I-chronic_disease
+with 11 15 176 180 O
+a 16 17 181 182 O
+non 18 21 183 186 B-chronic_disease
+- 21 22 186 187 I-chronic_disease
+ischemic 22 30 187 195 I-chronic_disease
+etiology 31 39 196 204 I-chronic_disease
+
+Contraindication 0 16 205 221 O
+to 17 19 222 224 O
+Adenosine 20 29 225 234 B-treatment
+including 30 39 235 244 O
+asthma 40 46 245 251 B-chronic_disease
+, 46 47 251 252 O
+heart 48 53 253 258 B-chronic_disease
+block 54 59 259 264 I-chronic_disease
+( 60 61 265 266 O
+second 61 67 266 272 O
+and 68 71 273 276 O
+third 72 77 277 282 O
+degree 78 84 283 289 O
+) 84 85 289 290 O
+and 86 89 291 294 O
+sinus 90 95 295 300 B-chronic_disease
+node 96 100 301 305 I-chronic_disease
+disease 101 108 306 313 I-chronic_disease
+, 108 109 313 314 O
+significant 110 121 315 326 O
+COPD 122 126 327 331 B-chronic_disease
+/ 126 127 331 332 O
+asthma 127 133 332 338 O
+, 133 134 338 339 O
+or 135 137 340 342 O
+systemic 138 146 343 351 O
+hypotension 147 158 352 363 B-clinical_variable
+( 159 160 364 365 O
+< 160 161 365 366 O
+90mmHg 161 167 366 372 B-upper_bound
+) 167 168 372 373 O
+
+Contraindication 0 16 374 390 O
+to 17 19 391 393 O
+Dobutamine 20 30 394 404 B-treatment
+
+Contraindication 0 16 405 421 O
+to 17 19 422 424 O
+Gadolinium 20 30 425 435 B-allergy_name
+( 31 32 436 437 O
+renal 32 37 437 442 B-chronic_disease
+impairment 38 48 443 453 I-chronic_disease
+) 48 49 453 454 O
+
+Males 0 5 455 460 B-gender
+
+No 0 2 461 463 O
+obstructive 3 14 464 475 B-chronic_disease
+CAD 15 18 476 479 I-chronic_disease
+at 19 21 480 482 O
+coronary 22 30 483 491 B-treatment
+angiography 31 42 492 503 I-treatment
+( 43 44 504 505 O
+performed 44 53 505 514 O
+within 54 60 515 521 O
+the 61 64 522 525 O
+previous 65 73 526 534 B-upper_bound
+24 74 76 535 537 I-upper_bound
+months 77 83 538 544 I-upper_bound
+) 83 84 544 545 O
+
+Obstructive 0 11 546 557 B-clinical_variable
+CAD 12 15 558 561 I-clinical_variable
+greater 16 23 562 569 O
+than 24 28 570 574 O
+or 29 31 575 577 O
+equal 32 37 578 583 O
+to 38 40 584 586 O
+50 41 43 587 589 B-lower_bound
+% 43 44 589 590 I-lower_bound
+luminal 45 52 591 598 I-lower_bound
+diameter 53 61 599 607 I-lower_bound
+stenosis 62 70 608 616 O
+in 71 73 617 619 O
+greater 74 81 620 627 O
+than 82 86 628 632 O
+or 87 89 633 635 O
+equal 90 95 636 641 O
+to 96 98 642 644 O
+1 99 100 645 646 B-lower_bound
+epicardial 101 111 647 657 O
+coronary 112 120 658 666 O
+artery 121 127 667 673 O
+
+Patients 0 8 674 682 O
+with 9 13 683 687 O
+concurrent 14 24 688 698 O
+cardiogenic 25 36 699 710 B-chronic_disease
+shock 37 42 711 716 I-chronic_disease
+or 43 45 717 719 O
+requiring 46 55 720 729 O
+inotropic 56 65 730 739 B-treatment
+or 66 68 740 742 I-treatment
+intra 69 74 743 748 I-treatment
+- 74 75 748 749 I-treatment
+aortic 75 81 749 755 I-treatment
+balloon 82 89 756 763 I-treatment
+support 90 97 764 771 I-treatment
+
+Pregnant 0 8 772 780 B-pregnancy
+
+Primary 0 7 781 788 O
+valvular 8 16 789 797 B-chronic_disease
+heart 17 22 798 803 I-chronic_disease
+disease 23 30 804 811 I-chronic_disease
+clearly 31 38 812 819 O
+indicating 39 49 820 830 O
+the 50 53 831 834 O
+need 54 58 835 839 O
+for 59 62 840 843 O
+valve 63 68 844 849 B-treatment
+repair 69 75 850 856 I-treatment
+or 76 78 857 859 I-treatment
+replacement 79 90 860 871 I-treatment
+
+Prior 0 5 872 877 O
+non 6 9 878 881 B-chronic_disease
+- 9 10 881 882 I-chronic_disease
+cardiac 10 17 882 889 I-chronic_disease
+illness 18 25 890 897 I-chronic_disease
+with 26 30 898 902 O
+an 31 33 903 905 O
+estimated 34 43 906 915 O
+life 44 48 916 920 B-clinical_variable
+expectancy 49 59 921 931 I-clinical_variable
+< 60 61 932 933 O
+4 62 63 934 935 B-upper_bound
+years 64 69 936 941 I-upper_bound
+
+Prior 0 5 942 947 B-treatment
+or 6 8 948 950 I-treatment
+planned 9 16 951 958 I-treatment
+percutaneous 17 29 959 971 I-treatment
+coronary 30 38 972 980 I-treatment
+intervention 39 51 981 993 I-treatment
+or 52 54 994 996 O
+CABG 55 59 997 1001 O
+
+Those 0 5 1002 1007 O
+determined 6 16 1008 1018 O
+to 17 19 1019 1021 O
+have 20 24 1022 1026 O
+flow 25 29 1027 1031 O
+- 29 30 1031 1032 O
+obstructing 30 41 1032 1043 O
+stenosis 42 50 1044 1052 B-chronic_disease
+
+Women 0 5 1053 1058 B-gender
+
+Women 0 5 1059 1064 B-gender
+who 6 9 1065 1068 O
+are 10 13 1069 1072 B-pregnancy
+pregnant 14 22 1073 1081 I-pregnancy
+
+Women 0 5 1082 1087 B-gender
+with 6 10 1088 1092 O
+coronary 11 19 1093 1101 B-clinical_variable
+stenosis 20 28 1102 1110 I-clinical_variable
+≥50 29 32 1111 1114 O
+% 32 33 1114 1115 I-lower_bound
+in 34 36 1116 1118 O
+any 37 40 1119 1122 O
+epicardial 41 51 1123 1133 O
+coronary 52 60 1134 1142 O
+artery 61 67 1143 1149 O
+, 67 68 1149 1150 O
+assessed 69 77 1151 1159 O
+visually 78 86 1160 1168 O
+at 87 89 1169 1171 O
+the 90 93 1172 1175 O
+time 94 98 1176 1180 O
+of 99 101 1181 1183 O
+angiography 102 113 1184 1195 O
+
+Women 0 5 1196 1201 B-gender
+with 6 10 1202 1206 O
+intermediate 11 23 1207 1219 O
+coronary 24 32 1220 1228 B-clinical_variable
+stenoses 33 41 1229 1237 I-clinical_variable
+( 42 43 1238 1239 O
+> 43 44 1239 1240 O
+20 45 47 1241 1243 B-lower_bound
+% 47 48 1243 1244 I-lower_bound
+but 49 52 1245 1248 O
+< 53 54 1249 1250 O
+50 55 57 1251 1253 B-upper_bound
+% 57 58 1253 1254 I-upper_bound
+luminal 59 66 1255 1262 B-clinical_variable
+diameter 67 75 1263 1271 I-clinical_variable
+stenosis 76 84 1272 1280 I-clinical_variable
+assessed 85 93 1281 1289 O
+visually 94 102 1290 1298 O
+at 103 105 1299 1301 O
+the 106 109 1302 1305 O
+time 110 114 1306 1310 O
+of 115 117 1311 1313 O
+angiography 118 129 1314 1325 O
+) 129 130 1325 1326 O
+will 131 135 1327 1331 O
+undergo 136 143 1332 1339 O
+clinically 144 154 1340 1350 O
+indicated 155 164 1351 1360 O
+IVUS 165 169 1361 1365 O
+testing 170 177 1366 1373 O
+based 178 183 1374 1379 O
+on 184 186 1380 1382 O
+the 187 190 1383 1386 O
+judgement 191 200 1387 1396 O
+of 201 203 1397 1399 O
+the 204 207 1400 1403 O
+operator 208 216 1404 1412 O
+
+Women 0 5 1413 1418 B-gender
+without 6 13 1419 1426 O
+signs 14 19 1427 1432 O
+and 20 23 1433 1436 O
+symptoms 24 32 1437 1445 O
+of 33 35 1446 1448 O
+myocardial 36 46 1449 1459 B-chronic_disease
+ischemia 47 55 1460 1468 I-chronic_disease
+( 56 57 1469 1470 O
+chest 57 62 1470 1475 O
+pain 63 67 1476 1480 O
+, 67 68 1480 1481 O
+abnormal 69 77 1482 1490 O
+stress 78 84 1491 1497 O
+testing 85 92 1498 1505 O
+, 92 93 1505 1506 O
+abnormal 94 102 1507 1515 O
+noninvasive 103 114 1516 1527 O
+testing 115 122 1528 1535 O
+) 122 123 1535 1536 O
+
+claustrophobia 0 14 1537 1551 B-chronic_disease
+
+complex 0 7 1552 1559 B-chronic_disease
+cardiac 8 15 1560 1567 I-chronic_disease
+arrhythmia 16 26 1568 1578 I-chronic_disease
+including 27 36 1579 1588 O
+uncontrolled 37 49 1589 1601 O
+atrial 50 56 1602 1608 B-chronic_disease
+fibrillation 57 69 1609 1621 I-chronic_disease
+
+endocarditis 0 12 1622 1634 B-chronic_disease
+
+esophageal 0 10 1635 1645 B-chronic_disease
+spasm 11 16 1646 1651 I-chronic_disease
+
+hypertrophic 0 12 1652 1664 B-chronic_disease
+obstructive 13 24 1665 1676 I-chronic_disease
+cardiomyopathy 25 39 1677 1691 I-chronic_disease
+
+known 0 5 1692 1697 O
+angio 6 11 1698 1703 B-allergy_name
+- 11 12 1703 1704 I-allergy_name
+edema 12 17 1704 1709 I-allergy_name
+
+known 0 5 1710 1715 O
+angioedema 6 16 1716 1726 B-chronic_disease
+
+lactating 0 9 1727 1736 O
+women 10 15 1737 1742 B-gender
+
+myocarditis 0 11 1743 1754 B-chronic_disease
+
+pericarditis 0 12 1755 1767 B-chronic_disease
+
+pneumonia 0 9 1768 1777 B-chronic_disease
+
+severe 0 6 1778 1784 O
+systemic 7 15 1785 1793 B-clinical_variable
+hypertension 16 28 1794 1806 I-clinical_variable
+( 29 30 1807 1808 O
+≥ 30 31 1808 1809 O
+220/120 32 39 1810 1817 B-lower_bound
+mmHg 40 44 1818 1822 I-lower_bound
+) 44 45 1822 1823 O
+
+significant 0 11 1824 1835 O
+aortic 12 18 1836 1842 B-chronic_disease
+valve 19 24 1843 1848 I-chronic_disease
+stenosis 25 33 1849 1857 I-chronic_disease
+
+uncontrolled 0 12 1858 1870 O
+congestive 13 23 1871 1881 B-chronic_disease
+heart 24 29 1882 1887 I-chronic_disease
+failure 30 37 1888 1895 I-chronic_disease
+
+unstable 0 8 1896 1904 B-chronic_disease
+angina 9 15 1905 1911 I-chronic_disease
+
+untreatable 0 11 1912 1923 O
+claustrophobia 12 26 1924 1938 B-chronic_disease
+
+with 0 4 1939 1943 O
+symptomatic 5 16 1944 1955 B-chronic_disease
+angina 17 23 1956 1962 I-chronic_disease
+or 24 26 1963 1965 O
+angina 27 33 1966 1972 B-chronic_disease
+equivalent 34 44 1973 1983 I-chronic_disease
+

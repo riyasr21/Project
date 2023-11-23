@@ -1,0 +1,96 @@
+Acute 0 5 0 5 B-chronic_disease
+or 6 8 6 8 I-chronic_disease
+chronic 9 16 9 16 I-chronic_disease
+acidosis 17 25 17 25 I-chronic_disease
+( 26 27 26 27 O
+lactic 27 33 27 33 O
+or 34 36 34 36 O
+any 37 40 37 40 O
+other 41 46 41 46 O
+metabolic 47 56 47 56 O
+type 57 61 57 61 O
+) 61 62 61 62 O
+
+Allergies 0 9 63 72 O
+to 10 12 73 75 O
+Metformin 13 22 76 85 B-allergy_name
+
+Known 0 5 86 91 O
+history 6 13 92 99 O
+of 14 16 100 102 O
+AIDS 17 21 103 107 B-chronic_disease
+, 21 22 107 108 O
+ARC 23 26 109 112 B-chronic_disease
+, 26 27 112 113 O
+HIV 28 31 114 117 B-chronic_disease
+
+Patient 0 7 118 125 O
+age 8 11 126 129 B-age
+10 12 14 130 132 B-lower_bound
+- 14 15 132 133 O
+19 15 17 133 135 B-upper_bound
+
+Pre 0 3 136 139 O
+Existing 4 12 140 148 O
+type 13 17 149 153 B-chronic_disease
+2 18 19 154 155 I-chronic_disease
+diabetes 20 28 156 164 I-chronic_disease
+mellitus 29 37 165 173 I-chronic_disease
+and 38 41 174 177 O
+receiving 42 51 178 187 O
+treatment 52 61 188 197 O
+
+Pre 0 3 198 201 O
+- 3 4 201 202 O
+existing 4 12 202 210 O
+type 13 17 211 215 B-chronic_disease
+1 18 19 216 217 I-chronic_disease
+diabetes 20 28 218 226 I-chronic_disease
+mellitus 29 37 227 235 I-chronic_disease
+
+Pregnancy 0 9 236 245 B-pregnancy
+
+Previous 0 8 246 254 O
+diagnosis 9 18 255 264 O
+( 19 20 265 266 O
+pre 20 23 266 269 O
+-burn 24 29 270 275 O
+) 29 30 275 276 O
+of 31 33 277 279 O
+renal 34 39 280 285 B-chronic_disease
+failure 40 47 286 293 I-chronic_disease
+
+Primary 0 7 294 301 O
+diagnosis 8 17 302 311 O
+of 18 20 312 314 O
+≥ 21 22 315 316 O
+20 23 25 317 319 B-lower_bound
+Total 26 31 320 325 B-clinical_variable
+Burn 32 36 326 330 I-clinical_variable
+Surface 37 44 331 338 I-clinical_variable
+Area 45 49 339 343 I-clinical_variable
+Burn 50 54 344 348 I-clinical_variable
+( 55 56 349 350 I-clinical_variable
+TBSAB 56 61 350 355 I-clinical_variable
+) 62 63 356 357 I-clinical_variable
+
+after 0 5 358 363 O
+fluid 6 11 364 369 B-treatment
+resuscitation 12 25 370 383 I-treatment
+( 26 27 384 385 O
+Clinical 27 35 385 393 O
+definition 36 46 394 404 O
+of 47 49 405 407 O
+kidney 50 56 408 414 B-chronic_disease
+damage 57 63 415 421 I-chronic_disease
+) 63 64 421 422 O
+
+hepatic 0 7 423 430 B-chronic_disease
+dysfunction 8 19 431 442 I-chronic_disease
+
+liver 0 5 443 448 B-chronic_disease
+disease 6 13 449 456 I-chronic_disease
+
+renal 0 5 457 462 B-chronic_disease
+failure 6 13 463 470 I-chronic_disease
+

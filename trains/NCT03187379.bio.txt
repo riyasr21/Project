@@ -1,0 +1,47 @@
+age 0 3 0 3 B-age
+< 4 5 4 5 O
+18 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+
+bariatric 0 9 14 23 B-treatment
+surgery 10 17 24 31 I-treatment
+patients 18 26 32 40 O
+
+laparoscopic 0 12 41 53 B-treatment
+roux 13 17 54 58 I-treatment
+- 17 18 58 59 I-treatment
+en 18 20 59 61 I-treatment
+- 20 21 61 62 I-treatment
+y 21 22 62 63 I-treatment
+gastric 23 30 64 71 I-treatment
+bypass 31 37 72 78 I-treatment
+
+patients 0 8 79 87 O
+undergoing 9 19 88 98 O
+other 20 25 99 104 O
+bariatric 26 35 105 114 B-treatment
+procedures 36 46 115 125 I-treatment
+
+pre 0 3 126 129 B-treatment
+- 3 4 129 130 I-treatment
+operative 4 13 130 139 I-treatment
+opioid 14 20 140 146 I-treatment
+analgesics 21 31 147 157 I-treatment
+
+previous 0 8 158 166 O
+history 9 16 167 174 O
+of 17 19 175 177 O
+roux 20 24 178 182 B-treatment
+- 24 25 182 183 I-treatment
+en 25 27 183 185 I-treatment
+- 27 28 185 186 I-treatment
+y 28 29 186 187 I-treatment
+gastric 30 37 188 195 I-treatment
+bypass 38 44 196 202 I-treatment
+
+use 0 3 203 206 O
+of 4 6 207 209 O
+EEA 7 10 210 213 B-treatment
+stapler 11 18 214 221 I-treatment
+anastomosis 19 30 222 233 I-treatment
+

@@ -1,0 +1,42 @@
+> 0 1 0 1 O
+3 1 2 1 2 B-lower_bound
+hours 3 8 3 8 I-lower_bound
+a 9 10 9 10 I-lower_bound
+week 11 15 11 15 I-lower_bound
+of 16 18 16 18 O
+moderate 19 27 19 27 O
+exercise 28 36 28 36 O
+
+Anemia 0 6 37 43 B-chronic_disease
+
+BMI 0 3 44 47 B-bmi
+percentile 4 14 48 58 O
+> 15 16 59 60 O
+90 16 18 60 62 B-lower_bound
+% 18 19 62 63 I-lower_bound
+
+Cause 0 5 64 69 O
+of 6 8 70 72 O
+oligomenorrhea 9 23 73 87 B-chronic_disease
+or 24 26 88 90 O
+hirsutism 27 36 91 100 B-chronic_disease
+other 37 42 101 106 O
+than 43 47 107 111 O
+PCOS 48 52 112 116 B-chronic_disease
+
+Females 0 7 117 124 B-gender
+
+Liver 0 5 125 130 B-chronic_disease
+disease 6 13 131 138 I-chronic_disease
+
+Medications 0 11 139 150 B-treatment
+known 12 17 151 156 O
+to 18 20 157 159 O
+effect 21 27 160 166 O
+insulin 28 35 167 174 B-allergy_name
+sensitivity 36 47 175 186 O
+
+Type 0 4 187 191 B-chronic_disease
+2 5 6 192 193 I-chronic_disease
+diabetes 7 15 194 202 I-chronic_disease
+

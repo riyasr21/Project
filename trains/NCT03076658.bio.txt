@@ -1,0 +1,96 @@
+BMI 0 3 0 3 B-bmi
+> 4 5 4 5 O
+37 5 7 5 7 B-lower_bound
+
+Connective 0 10 8 18 B-chronic_disease
+tissue 11 17 19 25 I-chronic_disease
+, 17 18 25 26 O
+rheumatologic 19 32 27 40 B-chronic_disease
+( 33 34 41 42 O
+or 34 36 42 44 O
+other 37 42 45 50 O
+inflammatory 43 55 51 63 B-chronic_disease
+arthropathies 56 69 64 77 I-chronic_disease
+) 69 70 77 78 O
+, 70 71 78 79 O
+or 72 74 80 82 O
+neurologic 75 85 83 93 B-chronic_disease
+disorders 86 95 94 103 I-chronic_disease
+
+History 0 7 104 111 O
+of 8 10 112 114 O
+cancer 11 17 115 121 B-cancer
+with 18 22 122 126 O
+or 23 25 127 129 O
+without 26 33 130 137 O
+metastatic 34 44 138 148 B-cancer
+disease 45 52 149 156 I-cancer
+
+History 0 7 157 164 O
+of 8 10 165 167 O
+knee 11 15 168 172 B-treatment
+replacement 16 27 173 184 I-treatment
+surgery 28 35 185 192 I-treatment
+, 35 36 192 193 O
+as 37 39 194 196 O
+these 40 45 197 202 O
+may 46 49 203 206 O
+have 50 54 207 211 O
+contractures 55 67 212 224 O
+causing 68 75 225 232 O
+unexpected 76 86 233 243 O
+changes 87 94 244 251 O
+in 95 97 252 254 O
+alignment 98 107 255 264 O
+
+Males 0 5 265 270 B-gender
+and 6 9 271 274 I-gender
+females 10 17 275 282 I-gender
+
+Previous 0 8 283 291 O
+trauma 9 15 292 298 B-chronic_disease
+or 16 18 299 301 O
+fractures 19 28 302 311 B-chronic_disease
+of 29 31 312 314 O
+the 32 35 315 318 O
+lower 36 41 319 324 O
+extremities 42 53 325 336 O
+requiring 54 63 337 346 O
+surgery 64 71 347 354 B-treatment
+
+Previous 0 8 355 363 O
+trauma 9 15 364 370 O
+/ 15 16 370 371 O
+fractures 16 25 371 380 O
+of 26 28 381 383 O
+the 29 32 384 387 O
+pelvis 33 39 388 394 O
+whether 40 47 395 402 O
+or 48 50 403 405 O
+not 51 54 406 409 O
+surgery 55 62 410 417 B-treatment
+was 63 66 418 421 O
+required 67 75 422 430 O
+
+Severe 0 6 431 437 B-chronic_disease
+osteoarthritis 7 21 438 452 I-chronic_disease
+of 22 24 453 455 O
+the 25 28 456 459 O
+hips 29 33 460 464 O
+/ 33 34 464 465 O
+knees 34 39 465 470 O
+/ 39 40 470 471 O
+ankles 40 46 471 477 O
+
+age 0 3 478 481 B-age
+21 4 6 482 484 B-lower_bound
+- 6 7 484 485 O
+85 7 9 485 487 B-upper_bound
+
+without 0 7 488 495 O
+a 8 9 496 497 O
+history 10 17 498 505 O
+of 18 20 506 508 O
+spine 21 26 509 514 B-treatment
+surgery 27 34 515 522 I-treatment
+

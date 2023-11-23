@@ -1,0 +1,43 @@
+Caregivers 0 10 0 10 O
+must 11 15 11 15 O
+also 16 20 16 20 O
+be 21 23 21 23 O
+proficient 24 34 24 34 B-language_fluency
+in 35 37 35 37 I-language_fluency
+English 38 45 38 45 I-language_fluency
+to 46 48 46 48 O
+complete 49 57 49 57 O
+standard 58 66 58 66 O
+questionnaires 67 81 67 81 O
+
+Inability 0 9 82 91 O
+to 10 12 92 94 O
+tolerate 13 21 95 103 O
+CPAP 22 26 104 108 B-treatment
+attributed 27 37 109 119 O
+to 38 40 120 122 O
+poor 41 45 123 127 O
+fit 46 49 128 131 O
+by 50 52 132 134 O
+a 53 54 135 136 O
+sleep 55 60 137 142 O
+clinician 61 70 143 152 O
+
+On 0 2 153 155 O
+- 2 3 155 156 O
+going 3 8 156 161 O
+need 9 13 162 166 O
+for 14 17 167 170 O
+CPAP 18 22 171 175 B-treatment
+therapy 23 30 176 183 I-treatment
+based 31 36 184 189 O
+on 37 39 190 192 O
+polysomnography 40 55 193 208 O
+
+Subjects 0 8 209 217 O
+no 9 11 218 220 O
+longer 12 18 221 227 O
+needing 19 26 228 235 O
+CPAP 27 31 236 240 B-treatment
+therapy 32 39 241 248 I-treatment
+

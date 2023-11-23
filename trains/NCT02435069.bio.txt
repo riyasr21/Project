@@ -1,0 +1,85 @@
+Children 0 8 0 8 O
+will 9 13 9 13 O
+be 14 16 14 16 O
+selected 17 25 17 25 O
+by 26 28 26 28 O
+purposive 29 38 29 38 O
+sampling 39 47 39 47 O
+and 48 51 48 51 O
+will 52 56 52 56 O
+include 57 64 57 64 O
+those 65 70 65 70 O
+who 71 74 71 74 O
+are 75 78 75 78 O
+scheduled 79 88 79 88 O
+to 89 91 89 91 O
+have 92 96 92 96 O
+an 97 99 97 99 O
+ACE 100 103 100 103 B-treatment
+stoma 104 109 104 109 I-treatment
+and 110 113 110 113 O
+will 114 118 114 118 O
+require 119 126 119 126 O
+regular 127 134 127 134 O
+antegrade 135 144 135 144 B-treatment
+enema 145 150 145 150 I-treatment
+administration 151 165 151 165 I-treatment
+to 166 168 166 168 O
+maintain 169 177 169 177 O
+continence 178 188 178 188 O
+
+Parents 0 7 189 196 O
+must 8 12 197 201 O
+have 13 17 202 206 O
+English 18 25 207 214 B-language_fluency
+language 26 34 215 223 I-language_fluency
+competency 35 45 224 234 I-language_fluency
+and 46 49 235 238 O
+be 50 52 239 241 O
+willing 53 60 242 249 O
+and 61 64 250 253 O
+able 65 69 254 258 O
+to 70 72 259 261 O
+participate 73 84 262 273 O
+in 85 87 274 276 O
+administration 88 102 277 291 O
+
+ages 0 4 292 296 B-age
+3 5 6 297 298 B-lower_bound
+to 7 9 299 301 O
+12 10 12 302 304 B-upper_bound
+years 13 18 305 310 I-upper_bound
+
+cardiac 0 7 311 318 B-chronic_disease
+disease 8 15 319 326 I-chronic_disease
+
+children 0 8 327 335 O
+with 9 13 336 340 O
+preexisting 14 25 341 352 O
+electrolyte 26 37 353 364 B-chronic_disease
+imbalance 38 47 365 374 I-chronic_disease
+
+oversight 0 9 375 384 O
+of 10 12 385 387 O
+the 13 16 388 391 O
+flushing 17 25 392 400 O
+regimen 26 33 401 408 O
+and 34 37 409 412 O
+data 38 42 413 417 O
+collection 43 53 418 428 O
+for 54 57 429 432 O
+a 58 59 433 434 O
+minimum 60 67 435 442 O
+of 68 70 443 445 O
+20 71 73 446 448 B-lower_bound
+consecutive 74 85 449 460 I-lower_bound
+weeks 86 91 461 466 I-lower_bound
+
+quadriplegia 0 12 467 479 B-chronic_disease
+
+those 0 5 480 485 O
+who 6 9 486 489 O
+require 10 17 490 497 O
+prophylactic 18 30 498 510 B-treatment
+antibiotics 31 42 511 522 I-treatment
+

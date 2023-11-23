@@ -1,0 +1,32 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+= 5 6 5 6 O
+18 7 9 7 9 B-lower_bound
+years 10 15 10 15 I-lower_bound
+
+Participation 0 13 16 29 O
+in 14 16 30 32 O
+a 17 18 33 34 O
+clinical 19 27 35 43 O
+study 28 33 44 49 O
+( 34 35 50 51 O
+ocular 35 41 51 57 O
+or 42 44 58 60 O
+non 45 48 61 64 O
+- 48 49 64 65 O
+ocular 49 55 65 71 O
+) 55 56 71 72 O
+with 57 61 73 77 O
+an 62 64 78 80 O
+investigational 65 80 81 96 O
+drug 81 85 97 101 O
+, 85 86 101 102 O
+agent 87 92 103 108 O
+or 93 95 109 111 O
+therapy 96 103 112 119 O
+in 104 106 120 122 O
+the 107 110 123 126 O
+past 111 115 127 131 B-upper_bound
+six 116 119 132 135 I-upper_bound
+months 120 126 136 142 I-upper_bound
+

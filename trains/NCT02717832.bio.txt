@@ -1,0 +1,38 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+18 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+45 8 10 8 10 B-upper_bound
+years 11 16 11 16 I-upper_bound
+
+All 0 3 17 20 O
+women 4 9 21 26 B-gender
+must 10 14 27 31 O
+be 15 17 32 34 O
+pre 18 21 35 38 O
+- 21 22 38 39 O
+menopausal 22 32 39 49 O
+
+Body 0 4 50 54 B-bmi
+mass 5 9 55 59 I-bmi
+index 10 15 60 65 I-bmi
+[ 16 17 66 67 I-bmi
+BMI 17 20 67 70 I-bmi
+] 20 21 70 71 I-bmi
+: 21 22 71 72 O
+30 23 25 73 75 B-lower_bound
+- 25 26 75 76 O
+40 26 28 76 78 B-upper_bound
+kg 29 31 79 81 I-upper_bound
+/ 31 32 81 82 I-upper_bound
+m2 32 34 82 84 I-upper_bound
+
+Weight 0 6 85 91 B-clinical_variable
+instability 7 18 92 103 I-clinical_variable
+≥ 19 20 104 105 O
+±3 21 23 106 108 O
+kg 23 25 108 110 I-lower_bound
+≥ 26 27 111 112 O
+6 28 29 113 114 B-lower_bound
+months 30 36 115 121 I-lower_bound
+

@@ -1,0 +1,108 @@
+Adult 0 5 0 5 O
+≥ 6 7 6 7 O
+18 8 10 8 10 B-lower_bound
+years 11 16 11 16 I-lower_bound
+of 17 19 17 19 O
+age 20 23 20 23 B-age
+
+BK 0 2 24 26 B-chronic_disease
+nephropathy 3 14 27 38 I-chronic_disease
+at 15 17 39 41 O
+3 18 19 42 43 B-upper_bound
+months 20 26 44 50 I-upper_bound
+post 27 31 51 55 B-treatment
+- 31 32 55 56 I-treatment
+transplant 32 42 56 66 I-treatment
+screening 43 52 67 76 I-treatment
+biopsy 53 59 77 83 I-treatment
+
+EBV 0 3 84 87 B-chronic_disease
+seropositive 4 16 88 100 O
+
+History 0 7 101 108 O
+of 8 10 109 111 O
+acute 11 16 112 117 B-chronic_disease
+rejection 17 26 118 127 I-chronic_disease
+( 27 28 128 129 I-chronic_disease
+AR 28 30 129 131 I-chronic_disease
+) 30 31 131 132 I-chronic_disease
+within 32 38 133 139 O
+3 39 40 140 141 B-upper_bound
+months 41 47 142 148 I-upper_bound
+prior 48 53 149 154 I-upper_bound
+to 54 56 155 157 O
+randomization 57 70 158 171 O
+
+History 0 7 172 179 O
+of 8 10 180 182 O
+antibody 11 19 183 191 B-chronic_disease
+mediated 20 28 192 200 I-chronic_disease
+rejection 29 38 201 210 I-chronic_disease
+
+History 0 7 211 218 O
+of 8 10 219 221 O
+previous 11 19 222 230 B-treatment
+transplant 20 30 231 241 I-treatment
+
+Male 0 4 242 246 B-gender
+or 5 7 247 249 I-gender
+Female 8 14 250 256 I-gender
+
+Positive 0 8 257 265 B-pregnancy
+pregnancy 9 18 266 275 I-pregnancy
+test 19 23 276 280 O
+at 24 26 281 283 O
+the 27 30 284 287 O
+time 31 35 288 292 O
+of 36 38 293 295 O
+randomization 39 52 296 309 O
+in 53 55 310 312 O
+female 56 62 313 319 B-gender
+of 63 65 320 322 O
+child 66 71 323 328 O
+bearing 72 79 329 336 O
+potential 80 89 337 346 O
+
+Proteinuria 0 11 347 358 B-clinical_variable
+> 12 13 359 360 O
+1 13 14 360 361 B-lower_bound
+g 15 16 362 363 I-lower_bound
+/ 16 17 363 364 I-lower_bound
+day 17 20 364 367 I-lower_bound
+or 21 23 368 370 O
+> 24 25 371 372 O
+0.5 26 29 373 376 B-lower_bound
+g 30 31 377 378 I-lower_bound
+/ 31 32 378 379 I-lower_bound
+day 32 35 379 382 I-lower_bound
+if 36 38 383 385 O
+diabetic 39 47 386 394 B-chronic_disease
+
+Recipient 0 9 395 404 O
+of 10 12 405 407 O
+renal 13 18 408 413 B-treatment
+transplant 19 29 414 424 I-treatment
+from 30 34 425 429 O
+living 35 41 430 436 O
+or 42 44 437 439 O
+deceased 45 53 440 448 O
+donor 54 59 449 454 O
+
+Recipients 0 10 455 465 O
+with 11 15 466 470 O
+EBV 16 19 471 474 B-chronic_disease
+serostatus 20 30 475 485 I-chronic_disease
+negative 31 39 486 494 O
+or 40 42 495 497 O
+unknown 43 50 498 505 O
+
+Rejection 0 9 506 515 O
+on 10 12 516 518 O
+3 13 14 519 520 O
+month 15 20 521 526 O
+post 21 25 527 531 O
+- 25 26 531 532 O
+transplant 26 36 532 542 B-treatment
+screening 37 46 543 552 O
+biopsy 47 53 553 559 B-treatment
+

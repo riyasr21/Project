@@ -1,0 +1,90 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+70 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+Contraindication 0 16 19 35 O
+to 17 19 36 38 O
+Acthar 20 26 39 45 B-allergy_name
+per 27 30 46 49 O
+Prescribing 31 42 50 61 O
+Information 43 54 62 73 O
+
+Free 0 4 74 78 O
+of 5 7 79 81 O
+immunosuppression 8 25 82 99 B-treatment
+for 26 29 100 103 O
+at 30 32 104 106 O
+least 33 38 107 112 O
+3 39 40 113 114 B-lower_bound
+months 41 47 115 121 I-lower_bound
+
+History 0 7 122 129 O
+of 8 10 130 132 O
+cancer 11 17 133 139 B-cancer
+, 17 18 139 140 O
+except 19 25 141 147 O
+carcinoma 26 35 148 157 B-cancer
+in 36 38 158 160 I-cancer
+situ 39 43 161 165 I-cancer
+and 44 47 166 169 O
+treated 48 55 170 177 B-cancer
+basal 56 61 178 183 I-cancer
+and 62 65 184 187 O
+squamous 66 74 188 196 B-cancer
+cell 75 79 197 201 I-cancer
+carcinomas 80 90 202 212 I-cancer
+
+History 0 7 213 220 O
+of 8 10 221 223 O
+previous 11 19 224 232 O
+use 20 23 233 236 O
+of 24 26 237 239 O
+Acthar 27 33 240 246 B-treatment
+for 34 37 247 250 O
+treatment 38 47 251 260 O
+of 48 50 261 263 O
+nephrotic 51 60 264 273 B-chronic_disease
+syndrome 61 69 274 282 I-chronic_disease
+
+More 0 4 283 287 O
+than 5 9 288 292 O
+three 10 15 293 298 B-lower_bound
+previous 16 24 299 307 I-lower_bound
+treatment 25 34 308 317 B-treatment
+regiments 35 44 318 327 O
+
+Participation 0 13 328 341 O
+to 14 16 342 344 O
+other 17 22 345 350 B-treatment
+clinical 23 31 351 359 I-treatment
+trials 32 38 360 366 I-treatment
+over 39 43 367 371 O
+the 44 47 372 375 O
+previous 48 56 376 384 B-lower_bound
+12 57 59 385 387 I-lower_bound
+months 60 66 388 394 I-lower_bound
+
+Prior 0 5 395 400 O
+sensitivity 6 17 401 412 O
+to 18 20 413 415 O
+Acthar 21 27 416 422 B-allergy_name
+or 28 30 423 425 O
+other 31 36 426 431 O
+porcine 37 44 432 439 O
+protein 45 52 440 447 O
+products 53 61 448 456 O
+
+epidermal 0 9 457 466 B-clinical_variable
+growth 10 16 467 473 I-clinical_variable
+factor 17 23 474 480 I-clinical_variable
+receptor 24 32 481 489 I-clinical_variable
+( 33 34 490 491 I-clinical_variable
+eGFR 34 38 491 495 I-clinical_variable
+) 38 39 495 496 I-clinical_variable
+< 40 41 497 498 O
+30ml 42 46 499 503 B-upper_bound
+/ 46 47 503 504 I-upper_bound
+min/1.73m2 47 57 504 514 I-upper_bound
+

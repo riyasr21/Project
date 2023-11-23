@@ -1,0 +1,78 @@
+AV 0 2 0 2 B-clinical_variable
+block>240 3 12 3 12 I-clinical_variable
+msec 13 17 13 17 I-lower_bound
+
+American 0 8 18 26 B-clinical_variable
+Society 9 16 27 34 I-clinical_variable
+of 17 19 35 37 I-clinical_variable
+Anesthesiologists 20 37 38 55 I-clinical_variable
+( 38 39 56 57 I-clinical_variable
+ASA 39 42 57 60 I-clinical_variable
+) 42 43 60 61 I-clinical_variable
+classification 44 58 62 76 I-clinical_variable
+of 59 61 77 79 O
+> 62 63 80 81 O
+3 63 64 81 82 B-lower_bound
+
+HR<60 0 5 83 88 B-clinical_variable
+bpm 6 9 89 92 I-upper_bound
+
+Subjects 0 8 93 101 O
+between 9 16 102 109 O
+age 17 20 110 113 B-age
+> 21 22 114 115 O
+30 22 24 115 117 B-lower_bound
+years 25 30 118 123 I-lower_bound
+and 31 34 124 127 O
+< 35 36 128 129 O
+80 37 39 130 132 B-upper_bound
+years 40 45 133 138 I-upper_bound
+
+Subjects 0 8 139 147 O
+have 9 13 148 152 O
+diagnosis 14 23 153 162 O
+of 24 26 163 165 O
+uncontrolled 27 39 166 178 B-chronic_disease
+essential 40 49 179 188 I-chronic_disease
+hypertension 50 62 189 201 I-chronic_disease
+
+active 0 6 202 208 B-chronic_disease
+reactive 7 15 209 217 I-chronic_disease
+airway 16 22 218 224 I-chronic_disease
+disease 23 30 225 232 I-chronic_disease
+
+end 0 3 233 236 B-chronic_disease
+stage 4 9 237 242 I-chronic_disease
+liver 10 15 243 248 I-chronic_disease
+disease 16 23 249 256 I-chronic_disease
+
+end 0 3 257 260 B-chronic_disease
+stage 4 9 261 266 I-chronic_disease
+renal 10 15 267 272 I-chronic_disease
+disease 16 23 273 280 I-chronic_disease
+
+hypersensitivity 0 16 281 297 O
+to 17 19 298 300 O
+metoprolol 20 30 301 311 B-allergy_name
+or 31 33 312 314 O
+its 34 37 315 318 O
+derivatives 38 49 319 330 O
+
+illicit 0 7 331 338 O
+drug 8 12 339 343 O
+abuse 13 18 344 349 O
+in 19 21 350 352 O
+the 22 25 353 356 O
+preceding 26 35 357 366 O
+30 36 38 367 369 B-upper_bound
+days 39 43 370 374 I-upper_bound
+
+pregnant 0 8 375 383 B-pregnancy
+females 9 16 384 391 B-gender
+
+severe 0 6 392 398 B-chronic_disease
+peripheral 7 17 399 409 I-chronic_disease
+arterial 18 26 410 418 I-chronic_disease
+circulatory 27 38 419 430 I-chronic_disease
+disorders 39 48 431 440 I-chronic_disease
+

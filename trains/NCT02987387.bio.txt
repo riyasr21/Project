@@ -1,0 +1,13 @@
+Active 0 6 0 6 B-chronic_disease
+bacterial 7 16 7 16 I-chronic_disease
+endocarditis 17 29 17 29 I-chronic_disease
+
+Inability 0 9 30 39 O
+to 10 12 40 42 O
+tolerate 13 21 43 51 O
+an 22 24 52 54 O
+anticoagulation 25 40 55 70 B-treatment
+/ 40 41 70 71 O
+antiplatelet 41 53 71 83 B-treatment
+regimen 54 61 84 91 I-treatment
+

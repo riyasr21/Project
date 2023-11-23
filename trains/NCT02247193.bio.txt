@@ -1,0 +1,18 @@
+Bilateral 0 9 0 9 B-chronic_disease
+cleft 10 15 10 15 I-chronic_disease
+lip 16 19 16 19 I-chronic_disease
+
+less 0 4 20 24 O
+than 5 9 25 29 O
+6 10 11 30 31 B-upper_bound
+months 12 18 32 38 I-upper_bound
+of 19 21 39 41 O
+age 22 25 42 45 B-age
+
+older 0 5 46 51 O
+than 6 10 52 56 O
+6 11 12 57 58 B-lower_bound
+months 13 19 59 65 I-lower_bound
+of 20 22 66 68 O
+age 23 26 69 72 B-age
+

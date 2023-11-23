@@ -1,0 +1,129 @@
+MRI 0 3 0 3 B-clinical_variable
+is 4 6 4 6 O
+contraindicated 7 22 7 22 O
+based 23 28 23 28 O
+on 29 31 29 31 O
+responses 32 41 32 41 O
+to 42 44 42 44 O
+MRI 45 48 45 48 O
+screening 49 58 49 58 O
+questionaire 59 71 59 71 O
+
+No 0 2 72 74 O
+acute 3 8 75 80 O
+worsening 9 18 81 90 O
+of 19 21 91 93 O
+pulmonary 22 31 94 103 O
+function 32 40 104 112 O
+in 41 43 113 115 O
+the 44 47 116 119 O
+past 48 52 120 124 B-upper_bound
+30 53 55 125 127 I-upper_bound
+days 56 60 128 132 I-upper_bound
+
+Respiratory 0 11 133 144 B-chronic_disease
+illness 12 19 145 152 I-chronic_disease
+of 20 22 153 155 O
+a 23 24 156 157 O
+bacterial 25 34 158 167 B-chronic_disease
+or 35 37 168 170 O
+viral 38 43 171 176 B-chronic_disease
+etiology 44 52 177 185 I-chronic_disease
+within 53 59 186 192 O
+30 60 62 193 195 B-upper_bound
+days 63 67 196 200 I-upper_bound
+of 68 70 201 203 O
+MRI 71 74 204 207 B-treatment
+
+Subject 0 7 208 215 O
+can 8 11 216 219 O
+not 11 14 219 222 O
+hold 15 19 223 227 O
+his 20 23 228 231 O
+/ 23 24 231 232 O
+her 24 27 232 235 O
+breath 28 34 236 242 O
+for 35 38 243 246 O
+15 39 41 247 249 B-upper_bound
+seconds 42 49 250 257 I-upper_bound
+
+Subject 0 7 258 265 O
+does 8 12 266 270 O
+not 13 16 271 274 O
+fit 17 20 275 278 O
+into 21 25 279 283 O
+129Xe 26 31 284 289 O
+vest 32 36 290 294 O
+coil 37 41 295 299 O
+used 42 46 300 304 O
+for 47 50 305 308 O
+MRI 51 54 309 312 B-treatment
+
+Subject 0 7 313 320 O
+has 8 11 321 324 O
+a 12 13 325 326 O
+diagnosis 14 23 327 336 O
+of 24 26 337 339 O
+pulmonary 27 36 340 349 B-chronic_disease
+dysfunction 37 48 350 361 I-chronic_disease
+made 49 53 362 366 O
+by 54 56 367 369 O
+a 57 58 370 371 O
+physician 59 68 372 381 O
+
+Subject 0 7 382 389 O
+has 8 11 390 393 O
+any 12 15 394 397 O
+form 16 20 398 402 O
+of 21 23 403 405 O
+known 24 29 406 411 O
+cardiac 30 37 412 419 B-chronic_disease
+arrhythmia 38 48 420 430 I-chronic_disease
+
+Subject 0 7 431 438 O
+has 8 11 439 442 O
+no 12 14 443 445 O
+diagnosed 15 24 446 455 O
+pulmonary 25 34 456 465 B-chronic_disease
+conditions 35 45 466 476 I-chronic_disease
+
+Subject 0 7 477 484 O
+has 8 11 485 488 O
+not 12 15 489 492 O
+smoked 16 22 493 499 O
+in 23 25 500 502 O
+the 26 29 503 506 O
+previous 30 38 507 515 B-upper_bound
+5 39 40 516 517 I-upper_bound
+years 41 46 518 523 I-upper_bound
+
+Subject 0 7 524 531 O
+has 8 11 532 535 O
+received 12 20 536 544 O
+an 21 23 545 547 O
+investigational 24 39 548 563 B-treatment
+medicinal 40 49 564 573 I-treatment
+product 50 57 574 581 I-treatment
+( 58 59 582 583 O
+not 59 62 583 586 O
+including 63 72 587 596 O
+129Xe 73 78 597 602 B-treatment
+) 78 79 602 603 O
+within 80 86 604 610 O
+30 87 89 611 613 B-upper_bound
+days 90 94 614 618 I-upper_bound
+of 95 97 619 621 O
+MRI 98 101 622 625 B-treatment
+
+Subject 0 7 626 633 O
+is 8 10 634 636 O
+less 11 15 637 641 O
+than 16 20 642 646 O
+18 21 23 647 649 B-upper_bound
+years 24 29 650 655 I-upper_bound
+old 30 33 656 659 O
+
+Subject 0 7 660 667 O
+is 8 10 668 670 O
+pregnant 11 19 671 679 B-pregnancy
+

@@ -1,0 +1,37 @@
+All 0 3 0 3 O
+patients 4 12 4 12 O
+undergoing 13 23 13 23 O
+pelvic 24 30 24 30 B-treatment
+reconstructive 31 45 31 45 I-treatment
+surgery 46 53 46 53 I-treatment
+/ 53 54 53 54 O
+anti 54 58 54 58 B-treatment
+- 58 59 58 59 I-treatment
+incontinence 59 71 59 71 I-treatment
+procedures 72 82 72 82 I-treatment
+who 83 86 83 86 O
+are 87 90 87 90 O
+planned 91 98 91 98 O
+to 99 101 99 101 O
+be 102 104 102 104 O
+discharged 105 115 105 115 O
+home 116 120 116 120 O
+with 121 125 121 125 O
+a 126 127 126 127 O
+catheter 128 136 128 136 O
+
+Dementia 0 8 137 145 B-chronic_disease
+/ 9 10 146 147 O
+altered 11 18 148 155 B-chronic_disease
+cognitive 19 28 156 165 I-chronic_disease
+function 29 37 166 174 I-chronic_disease
+
+Intra 0 5 175 180 B-chronic_disease
+- 5 6 180 181 I-chronic_disease
+operative 6 15 181 190 I-chronic_disease
+bladder 16 23 191 198 I-chronic_disease
+injury 24 30 199 205 I-chronic_disease
+during 31 37 206 212 O
+index 38 43 213 218 B-treatment
+surgery 44 51 219 226 I-treatment
+

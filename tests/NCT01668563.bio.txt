@@ -1,0 +1,55 @@
+Aneurysm 0 8 0 8 B-chronic_disease
+located 9 16 9 16 O
+at 17 19 17 19 O
+basilar 20 27 20 27 O
+apex 28 32 28 32 O
+
+At 0 2 33 35 O
+least 3 8 36 41 O
+one 9 12 42 45 B-lower_bound
+documented 13 23 46 56 O
+, 23 24 56 57 O
+intradural 25 35 58 68 B-cancer
+, 35 36 68 69 O
+intracranial 37 49 70 82 B-chronic_disease
+aneurysm 50 58 83 91 I-chronic_disease
+, 58 59 91 92 O
+ruptured 60 68 93 101 B-chronic_disease
+within 69 75 102 108 O
+last 76 80 109 113 B-upper_bound
+30 81 83 114 116 I-upper_bound
+days 84 88 117 121 I-upper_bound
+
+Patients 0 8 122 130 O
+at 9 11 131 133 O
+least 12 17 134 139 O
+18 18 20 140 142 B-lower_bound
+years 21 26 143 148 I-lower_bound
+of 27 29 149 151 O
+age 30 33 152 155 B-age
+
+Patients 0 8 156 164 O
+with 9 13 165 169 O
+AVM 14 17 170 173 B-chronic_disease
+- 17 18 173 174 I-chronic_disease
+associated 18 28 174 184 I-chronic_disease
+aneurysms 29 38 185 194 I-chronic_disease
+
+The 0 3 195 198 O
+patient 4 11 199 206 O
+and 12 15 207 210 O
+aneurysm 16 24 211 219 B-chronic_disease
+are 25 28 220 223 O
+considered 29 39 224 234 O
+appropriate 40 51 235 246 O
+for 52 55 247 250 O
+either 56 62 251 257 O
+surgical 63 71 258 266 B-treatment
+or 72 74 267 269 O
+endovascular 75 87 270 282 B-treatment
+treatment 88 97 283 292 I-treatment
+by 98 100 293 295 O
+the 101 104 296 299 O
+treating 105 113 300 308 O
+team 114 118 309 313 O
+

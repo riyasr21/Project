@@ -1,0 +1,107 @@
+Alcohol 0 7 0 7 B-clinical_variable
+consumption 8 19 8 19 I-clinical_variable
+greater 20 27 20 27 O
+than 28 32 28 32 O
+12 33 35 33 35 B-lower_bound
+drinks 36 42 36 42 I-lower_bound
+per 43 46 43 46 O
+week 47 51 47 51 O
+or 52 54 52 54 O
+more 55 59 55 59 O
+than 60 64 60 64 O
+4 65 66 65 66 B-lower_bound
+drinks 67 73 67 73 I-lower_bound
+on 74 76 74 76 O
+any 77 80 77 80 O
+single 81 87 81 87 O
+day 88 91 88 91 O
+
+Any 0 3 92 95 O
+physical 4 12 96 104 O
+signs 13 18 105 110 O
+that 19 23 111 115 O
+would 24 29 116 121 O
+suggest 30 37 122 129 O
+a 38 39 130 131 O
+difficult 40 49 132 141 O
+airway 50 56 142 148 O
+( 57 58 149 150 O
+e.g. 58 62 150 154 O
+mouth 63 68 155 160 O
+opening 69 76 161 168 O
+<3 77 79 169 171 O
+cm 79 81 171 173 I-upper_bound
+, 81 82 173 174 O
+short 83 88 175 180 O
+distance 89 97 181 189 O
+between 98 105 190 197 O
+the 106 109 198 201 O
+chin 110 114 202 206 O
+and 115 118 207 210 O
+neck 119 123 211 215 O
+, 123 124 215 216 O
+poor 125 129 217 221 O
+mandibular 130 140 222 232 O
+subluxation 141 152 233 244 O
+, 152 153 244 245 O
+thick 154 159 246 251 O
+neck 160 164 252 256 O
+) 164 165 256 257 O
+
+Current 0 7 258 265 O
+or 8 10 266 268 O
+history 11 18 269 276 O
+of 19 21 277 279 O
+chronic 22 29 280 287 B-chronic_disease
+sleep 30 35 288 293 I-chronic_disease
+disorders 36 45 294 303 I-chronic_disease
+
+Current 0 7 304 311 O
+or 8 10 312 314 O
+history 11 18 315 322 O
+of 19 21 323 325 O
+neuropsychiatric 22 38 326 342 B-chronic_disease
+disorders 39 48 343 352 I-chronic_disease
+
+Current 0 7 353 360 B-pregnancy
+pregnancy 8 17 361 370 I-pregnancy
+
+Family 0 6 371 377 O
+history 7 14 378 385 O
+of 15 17 386 388 O
+problems 18 26 389 397 O
+with 27 31 398 402 O
+anesthesia 32 42 403 413 B-treatment
+( 43 44 414 415 O
+including 44 53 415 424 O
+but 54 57 425 428 O
+not 58 61 429 432 O
+limited 62 69 433 440 O
+to 70 72 441 443 O
+malignant 73 82 444 453 B-chronic_disease
+hyperthermia 83 95 454 466 I-chronic_disease
+) 95 96 466 467 O
+
+History 0 7 468 475 O
+of 8 10 476 478 O
+seizure 11 18 479 486 B-chronic_disease
+disorder 19 27 487 495 I-chronic_disease
+
+History 0 7 496 503 O
+or 8 10 504 506 O
+current 11 18 507 514 O
+use 19 22 515 518 O
+of 23 25 519 521 O
+psychotropic 26 38 522 534 B-treatment
+medications 39 50 535 546 I-treatment
+
+ages 0 4 547 551 B-age
+20 5 7 552 554 B-lower_bound
+- 7 8 554 555 O
+40 8 10 555 557 B-upper_bound
+years 11 16 558 563 I-upper_bound
+old 17 20 564 567 O
+
+brain 0 5 568 573 B-cancer
+tumor 6 11 574 579 I-cancer
+

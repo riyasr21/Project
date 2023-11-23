@@ -1,0 +1,43 @@
+Pregnancy 0 9 0 9 B-pregnancy
+
+Serious 0 7 10 17 O
+illness 8 15 18 25 O
+likely 16 22 26 32 O
+to 23 25 33 35 O
+cause 26 31 36 41 O
+death 32 37 42 47 O
+within 38 44 48 54 O
+the 45 48 55 58 O
+next 49 53 59 63 B-upper_bound
+5 54 55 64 65 I-upper_bound
+years 56 61 66 71 I-upper_bound
+, 61 62 71 72 O
+so 63 65 73 75 O
+as 66 68 76 78 O
+to 69 71 79 81 O
+exclude 72 79 82 89 O
+significant 80 91 90 101 O
+metabolic 92 101 102 111 O
+derangements 102 114 112 124 O
+that 115 119 125 129 O
+might 120 125 130 135 O
+lead 126 130 136 140 O
+to 131 133 141 143 O
+adverse 134 141 144 151 O
+surgical 142 150 152 160 O
+outcome 151 158 161 168 O
+
+Stones 0 6 169 175 O
+with 7 11 176 180 O
+measured 12 20 181 189 O
+size 21 25 190 194 O
+larger 26 32 195 201 O
+than 33 37 202 206 O
+2 38 39 207 208 B-lower_bound
+cm 40 42 209 211 I-lower_bound
+or 43 45 212 214 O
+smaller 46 53 215 222 O
+than 54 58 223 227 O
+1 59 60 228 229 B-upper_bound
+cm 61 63 230 232 I-upper_bound
+

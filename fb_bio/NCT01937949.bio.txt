@@ -1,0 +1,64 @@
+Aneurysm 0 8 0 8 B-chronic_disease
+with 9 13 9 13 O
+a 14 15 14 15 O
+history 16 23 16 23 O
+of 24 26 24 26 O
+growth 27 33 27 33 B-clinical_variable
+≥ 34 35 34 35 O
+0.5 36 39 36 39 B-lower_bound
+cm 40 42 40 42 I-lower_bound
+per 43 46 43 46 O
+year 47 51 47 51 O
+
+Juxtarenal 0 10 52 62 B-chronic_disease
+, 10 11 62 63 O
+suprarenal 12 22 64 74 B-chronic_disease
+or 23 25 75 77 O
+type 26 30 78 82 B-chronic_disease
+IV 31 33 83 85 I-chronic_disease
+thoracoabdominal 34 50 86 102 I-chronic_disease
+aortic 51 57 103 109 I-chronic_disease
+aneurysm 58 66 110 118 I-chronic_disease
+with 67 71 119 123 O
+a 72 73 124 125 O
+diameter 74 82 126 134 O
+≥ 83 84 135 136 O
+5.0 85 88 137 140 B-lower_bound
+cm 89 91 141 143 I-lower_bound
+or 92 94 144 146 O
+2 95 96 147 148 O
+times 97 102 149 154 O
+the 103 106 155 158 O
+normal 107 113 159 165 O
+aortic 114 120 166 172 O
+diameter 121 129 173 181 O
+
+Less 0 4 182 186 O
+than 5 9 187 191 O
+18 10 12 192 194 B-upper_bound
+years 13 18 195 200 I-upper_bound
+of 19 21 201 203 O
+age 22 25 204 207 B-age
+
+Life 0 4 208 212 B-clinical_variable
+expectancy 5 15 213 223 I-clinical_variable
+< 16 17 224 225 O
+2 18 19 226 227 B-upper_bound
+- 19 20 227 228 I-upper_bound
+years 20 25 228 233 I-upper_bound
+
+Pregnant 0 8 234 242 B-pregnancy
+
+Saccular 0 8 243 251 B-chronic_disease
+aneurysms 9 18 252 261 I-chronic_disease
+deemed 19 25 262 268 O
+at 26 28 269 271 O
+significant 29 40 272 283 O
+risk 41 45 284 288 O
+for 46 49 289 292 O
+rupture 50 57 293 300 O
+based 58 63 301 306 O
+upon 64 68 307 311 O
+physician 69 78 312 321 O
+interpretation 79 93 322 336 O
+

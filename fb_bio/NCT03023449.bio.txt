@@ -1,0 +1,82 @@
+Acute 0 5 0 5 B-chronic_disease
+ischemic 6 14 6 14 I-chronic_disease
+stroke 15 21 15 21 I-chronic_disease
+in 22 24 22 24 O
+the 25 28 25 28 O
+territory 29 38 29 38 O
+of 39 41 39 41 O
+the 42 45 42 45 O
+anterior 46 54 46 54 O
+, 54 55 54 55 O
+middle 56 62 56 62 O
+, 62 63 62 63 O
+or 64 66 64 66 O
+posterior 67 76 67 76 O
+cerebral 77 85 77 85 O
+artery 86 92 86 92 O
+, 92 93 92 93 O
+on 94 96 94 96 O
+either 97 103 97 103 O
+side 104 108 104 108 O
+of 109 111 109 111 O
+the 112 115 112 115 O
+brain 116 121 116 121 O
+
+Cognitive 0 9 122 131 B-chronic_disease
+impairment 10 20 132 142 I-chronic_disease
+
+History 0 7 143 150 O
+of 8 10 151 153 O
+any 11 14 154 157 O
+neurological 15 27 158 170 B-chronic_disease
+disease 28 35 171 178 I-chronic_disease
+
+History 0 7 179 186 O
+of 8 10 187 189 O
+chronic 11 18 190 197 B-chronic_disease
+pulmonary 19 28 198 207 I-chronic_disease
+disease 29 36 208 215 I-chronic_disease
+such 37 41 216 220 O
+as 42 44 221 223 O
+asthma 45 51 224 230 B-chronic_disease
+or 52 54 231 233 O
+chronic 55 62 234 241 B-chronic_disease
+obstructive 63 74 242 253 I-chronic_disease
+pulmonary 75 84 254 263 I-chronic_disease
+disease 85 92 264 271 I-chronic_disease
+
+History 0 7 272 279 O
+of 8 10 280 282 O
+prior 11 16 283 288 O
+stroke 17 23 289 295 B-chronic_disease
+or 24 26 296 298 O
+transient 27 36 299 308 B-chronic_disease
+ischemic 37 45 309 317 I-chronic_disease
+attack 46 52 318 324 I-chronic_disease
+
+Pregnancy 0 9 325 334 B-pregnancy
+
+Pregnancy 0 9 335 344 B-pregnancy
+( 10 11 345 346 O
+urine 11 16 346 351 O
+or 17 19 352 354 O
+blood 20 25 355 360 O
+tests 26 31 361 366 O
+will 32 36 367 371 O
+not 37 40 372 375 O
+be 41 43 376 378 O
+performed 44 53 379 388 O
+) 53 54 388 389 O
+
+Study 0 5 390 395 O
+can 6 9 396 399 O
+be 10 12 400 402 O
+initiated 13 22 403 412 O
+within 23 29 413 419 O
+72 30 32 420 422 B-upper_bound
+hours 33 38 423 428 I-upper_bound
+of 39 41 429 431 O
+stroke 42 48 432 438 B-chronic_disease
+symptom 49 56 439 446 O
+onset 57 62 447 452 O
+

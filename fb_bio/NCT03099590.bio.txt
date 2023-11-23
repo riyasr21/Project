@@ -1,0 +1,137 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+60 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Body 0 4 16 20 B-bmi
+Mass 5 9 21 25 I-bmi
+Index 10 15 26 31 I-bmi
+between 16 23 32 39 O
+18 24 26 40 42 B-lower_bound
+- 26 27 42 43 O
+30 27 29 43 45 B-upper_bound
+, 29 30 45 46 O
+inclusive 31 40 47 56 O
+
+Concurrent 0 10 57 67 O
+diagnosis 11 20 68 77 O
+of 21 23 78 80 O
+any 24 27 81 84 O
+other 28 33 85 90 O
+Axis 34 38 91 95 B-chronic_disease
+I 39 40 96 97 I-chronic_disease
+disorder 41 49 98 106 I-chronic_disease
+, 49 50 106 107 O
+including 51 60 108 117 O
+any 61 64 118 121 O
+substance 65 74 122 131 O
+use 75 78 132 135 O
+disorder 79 87 136 144 O
+besides 88 95 145 152 O
+alcohol 96 103 153 160 O
+use 104 107 161 164 O
+disorder 108 116 165 173 O
+Maintained 117 127 174 184 O
+on 128 130 185 187 O
+an 131 133 188 190 O
+antipsychotic 134 147 191 204 B-treatment
+or 148 150 205 207 O
+anti 151 155 208 212 B-treatment
+- 155 156 212 213 I-treatment
+seizure 156 163 213 220 I-treatment
+medication 164 174 221 231 I-treatment
+
+Currently 0 9 232 241 O
+abstaining 10 20 242 252 O
+from 21 25 253 257 O
+consuming 26 35 258 267 O
+alcoholic 36 45 268 277 O
+beverages 46 55 278 287 O
+longer 56 62 288 294 O
+than 63 67 295 299 O
+10 68 70 300 302 B-upper_bound
+days 71 75 303 307 I-upper_bound
+
+Heavy 0 5 308 313 O
+caffeine 6 14 314 322 O
+use 15 18 323 326 O
+( 19 20 327 328 O
+greater 20 27 328 335 O
+than 28 32 336 340 O
+500 33 36 341 344 B-lower_bound
+mg 37 39 345 347 I-lower_bound
+on 40 42 348 350 O
+a 43 44 351 352 O
+regular 45 52 353 360 O
+, 52 53 360 361 O
+daily 54 59 362 367 O
+basis 60 65 368 373 O
+) 65 66 373 374 O
+
+Presence 0 8 375 383 O
+of 9 11 384 386 O
+neurological 12 24 387 399 B-chronic_disease
+, 24 25 399 400 O
+infectious 26 36 401 411 B-chronic_disease
+, 36 37 411 412 O
+or 38 40 413 415 O
+neoplastic 41 51 416 426 B-chronic_disease
+disease 52 59 427 434 I-chronic_disease
+
+Report 0 6 435 441 O
+drinking 7 15 442 450 O
+on 16 18 451 453 O
+80 19 21 454 456 O
+% 21 22 456 457 O
+of 23 25 458 460 O
+days 26 30 461 465 O
+in 31 33 466 468 O
+the 34 37 469 472 O
+past 38 42 473 477 B-upper_bound
+90 43 45 478 480 I-upper_bound
+days 46 50 481 485 I-upper_bound
+
+Subject 0 7 486 493 O
+has 8 11 494 497 O
+active 12 18 498 504 O
+hepatitis 19 28 505 514 B-chronic_disease
+
+Subject 0 7 515 522 O
+meets 8 13 523 528 O
+DSM-5 14 19 529 534 O
+criteria 20 28 535 543 O
+for 29 32 544 547 O
+major 33 38 548 553 B-chronic_disease
+depression 39 49 554 564 I-chronic_disease
+and/or 50 56 565 571 O
+bipolar 57 64 572 579 B-chronic_disease
+disorder 65 73 580 588 I-chronic_disease
+
+Tobacco 0 7 589 596 O
+use 8 11 597 600 O
+greater 12 19 601 608 O
+than 20 24 609 613 O
+10 25 27 614 616 B-lower_bound
+cigarettes 28 38 617 627 O
+per 39 42 628 631 O
+day 43 46 632 635 O
+
+alanine 0 7 636 643 B-clinical_variable
+aminotransferase 8 24 644 660 I-clinical_variable
+( 25 26 661 662 I-clinical_variable
+ALT 26 29 662 665 I-clinical_variable
+) 29 30 665 666 I-clinical_variable
+> 31 32 667 668 O
+3x 33 35 669 671 B-lower_bound
+the 36 39 672 675 I-lower_bound
+upper 40 45 676 681 I-lower_bound
+limit 46 51 682 687 I-lower_bound
+of 52 54 688 690 I-lower_bound
+normal 55 61 691 697 I-lower_bound
+
+laboratory 0 10 698 708 O
+evidence 11 19 709 717 O
+of 20 22 718 720 O
+diabetes 23 31 721 729 B-chronic_disease
+

@@ -1,0 +1,84 @@
+autoimmune 0 10 0 10 B-chronic_disease
+, 10 11 10 11 O
+vascular 12 20 12 20 B-chronic_disease
+or 21 23 21 23 O
+neuromuscular 24 37 24 37 B-chronic_disease
+disease 38 45 38 45 I-chronic_disease
+that 46 50 46 50 O
+could 51 56 51 56 O
+alter 57 62 57 62 O
+skeletal 63 71 63 71 O
+muscle 72 78 72 78 O
+
+contraindications 0 17 79 96 O
+for 18 21 97 100 O
+use 22 25 101 104 O
+of 26 28 105 107 O
+neuromuscular 29 42 108 121 B-allergy_name
+electrical 43 53 122 132 I-allergy_name
+stimulation 54 65 133 144 I-allergy_name
+, 65 66 144 145 O
+including 67 76 146 155 O
+an 77 79 156 158 O
+implanted 80 89 159 168 B-allergy_name
+cardiac 90 97 169 176 I-allergy_name
+defibrillator 98 111 177 190 I-allergy_name
+or 112 114 191 193 O
+pacemaker 115 124 194 203 B-allergy_name
+, 124 125 203 204 O
+lower 126 131 205 210 B-allergy_name
+extremity 132 141 211 220 I-allergy_name
+blood 142 147 221 226 I-allergy_name
+clot 148 152 227 231 I-allergy_name
+or 153 155 232 234 O
+coagulopathy 156 168 235 247 B-allergy_name
+
+metastatic 0 10 248 258 B-cancer
+disease 11 18 259 266 I-cancer
+, 18 19 266 267 O
+a 20 21 268 269 O
+prior 22 27 270 275 O
+history 28 35 276 283 O
+of 36 38 284 286 O
+cancer 39 45 287 293 B-cancer
+, 45 46 293 294 O
+excluding 47 56 295 304 O
+non 57 60 305 308 B-cancer
+- 60 61 308 309 I-cancer
+melanoma 61 69 309 317 I-cancer
+skin 70 74 318 322 I-cancer
+cancer 75 81 323 329 I-cancer
+, 81 82 329 330 O
+or 83 85 331 333 O
+prior 86 91 334 339 O
+receipt 92 99 340 347 O
+of 100 102 348 350 O
+chemotherapy 103 115 351 363 B-treatment
+
+pregnancy 0 9 364 373 B-pregnancy
+
+prior 0 5 374 379 B-treatment
+knee 6 10 380 384 I-treatment
+or 11 13 385 387 I-treatment
+hip 14 17 388 391 I-treatment
+replacement 18 29 392 403 I-treatment
+
+receiving 0 9 404 413 O
+neoadjuvant 10 21 414 425 B-treatment
+or 22 24 426 428 O
+adjuvant 25 33 429 437 B-treatment
+chemotherapy 34 46 438 450 I-treatment
+with 47 51 451 455 O
+or 52 54 456 458 O
+without 55 62 459 466 O
+radiation 63 72 467 476 B-treatment
+
+stage 0 5 477 482 B-cancer
+I 6 7 483 484 I-cancer
+, 7 8 484 485 I-cancer
+II 9 11 486 488 I-cancer
+or 12 14 489 491 I-cancer
+III 15 18 492 495 I-cancer
+breast 19 25 496 502 I-cancer
+cancer 26 32 503 509 I-cancer
+

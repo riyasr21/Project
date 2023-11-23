@@ -1,0 +1,60 @@
+Breast 0 6 0 6 B-clinical_variable
+size 7 11 7 11 I-clinical_variable
+less 12 16 12 16 O
+than 17 21 17 21 O
+22 22 24 22 24 B-upper_bound
+cm 25 27 25 27 I-upper_bound
+diameter 28 36 28 36 B-clinical_variable
+( 37 38 37 38 O
+ring 38 42 38 42 B-clinical_variable
+diameter 43 51 43 51 I-clinical_variable
+is 52 54 52 54 O
+22 55 57 55 57 B-upper_bound
+cm 57 59 57 59 I-upper_bound
+) 59 60 59 60 O
+
+No 0 2 61 63 O
+active 3 9 64 70 O
+skin 10 14 71 75 B-chronic_disease
+infection 15 24 76 85 I-chronic_disease
+
+No 0 2 86 88 O
+serious 3 10 89 96 O
+medical 11 18 97 104 B-chronic_disease
+or 19 21 105 107 I-chronic_disease
+psychiatric 22 33 108 119 I-chronic_disease
+illnesses 34 43 120 129 I-chronic_disease
+that 44 48 130 134 O
+would 49 54 135 140 O
+prevent 55 62 141 148 O
+informed 63 71 149 157 O
+consent 72 79 158 165 O
+
+Non 0 3 166 169 B-pregnancy
+- 3 4 169 170 I-pregnancy
+pregnant 4 12 170 178 I-pregnancy
+and 13 16 179 182 O
+non 17 20 183 186 O
+- 20 21 186 187 O
+lactating 21 30 187 196 O
+
+Scheduled 0 9 197 206 O
+for 10 13 207 210 O
+mammogram 14 23 211 220 B-treatment
+, 23 24 220 221 O
+breast 25 31 222 228 B-treatment
+ultrasound 32 42 229 239 I-treatment
+and/or 43 49 240 246 O
+breast 50 56 247 253 B-treatment
+MRI 57 60 254 257 I-treatment
+
+Weight 0 6 258 264 B-clinical_variable
+< 7 8 265 266 O
+350lbs 9 15 267 273 B-upper_bound
+( 16 17 274 275 O
+patient 17 24 275 282 O
+bed 25 28 283 286 O
+max 29 32 287 290 O
+weight 33 39 291 297 B-clinical_variable
+) 39 40 297 298 O
+

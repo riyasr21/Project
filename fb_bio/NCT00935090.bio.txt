@@ -1,0 +1,17 @@
+Histologically 0 14 0 14 O
+confirmed 15 24 15 24 O
+solid 25 30 25 30 B-cancer
+tumor 31 36 31 36 I-cancer
+or 37 39 37 39 O
+hematologic 40 51 40 51 B-cancer
+malignancy 52 62 52 62 I-cancer
+
+Negative 0 8 63 71 B-pregnancy
+pregnancy 9 18 72 81 I-pregnancy
+test 19 23 82 86 O
+
+Not 0 3 87 90 B-pregnancy
+pregnant 4 12 91 99 I-pregnancy
+or 13 15 100 102 O
+nursing 16 23 103 110 O
+

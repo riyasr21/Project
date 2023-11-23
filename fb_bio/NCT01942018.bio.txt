@@ -1,0 +1,153 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+70 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Active 0 6 19 25 B-chronic_disease
+Esophagitis 7 18 26 37 I-chronic_disease
+
+Acute 0 5 38 43 B-chronic_disease
+gastrointestinal 6 22 44 60 I-chronic_disease
+bleeding 23 31 61 69 I-chronic_disease
+
+Barrett 0 7 70 77 B-chronic_disease
+'s 7 9 77 79 I-chronic_disease
+esophagus 10 19 80 89 I-chronic_disease
+
+Cirrhosis 0 9 90 99 B-chronic_disease
+with 10 14 100 104 O
+portal 15 21 105 111 B-chronic_disease
+hypertension 22 34 112 124 I-chronic_disease
+, 34 35 124 125 O
+varices 36 43 126 133 O
+, 43 44 133 134 O
+and/or 45 51 135 141 O
+ascites 52 59 142 149 O
+
+Coagulopathy 0 12 150 162 B-chronic_disease
+defined 13 20 163 170 O
+by 21 23 171 173 O
+prothrombin 24 35 174 185 B-clinical_variable
+time 36 40 186 190 I-clinical_variable
+< 41 42 191 192 O
+50 43 45 193 195 B-upper_bound
+% 45 46 195 196 I-upper_bound
+of 47 49 197 199 O
+control 50 57 200 207 O
+; 57 58 207 208 O
+partial 59 66 209 216 B-clinical_variable
+thromboplastin 67 81 217 231 I-clinical_variable
+time 82 86 232 236 I-clinical_variable
+( 87 88 237 238 I-clinical_variable
+PTT 88 91 238 241 I-clinical_variable
+) 91 92 241 242 I-clinical_variable
+> 93 94 243 244 O
+50 95 97 245 247 B-lower_bound
+sec 98 101 248 251 I-lower_bound
+, 101 102 251 252 O
+or 103 105 253 255 O
+international 106 119 256 269 B-clinical_variable
+normalized 120 130 270 280 I-clinical_variable
+ratio 131 136 281 286 I-clinical_variable
+( 137 138 287 288 I-clinical_variable
+INR 138 141 288 291 I-clinical_variable
+) 141 142 291 292 I-clinical_variable
+> 143 144 293 294 O
+1.5 145 148 295 298 B-lower_bound
+) 148 149 298 299 O
+, 149 150 299 300 O
+on 151 153 301 303 O
+chronic 154 161 304 311 B-treatment
+anticoagulation 162 177 312 327 I-treatment
+, 177 178 327 328 O
+or 179 181 329 331 O
+platelet 182 190 332 340 B-clinical_variable
+count 191 196 341 346 I-clinical_variable
+< 197 198 347 348 O
+75,000 198 204 348 354 B-upper_bound
+
+Eosinophilic 0 12 355 367 B-chronic_disease
+esophagitis 13 24 368 379 I-chronic_disease
+
+Esophageal 0 10 380 390 B-cancer
+malignancy 11 21 391 401 I-cancer
+
+Esophageal 0 10 402 412 B-chronic_disease
+stricture 11 20 413 422 I-chronic_disease
+
+Hiatal 0 6 423 429 B-chronic_disease
+hernia 7 13 430 436 I-chronic_disease
+larger 14 20 437 443 O
+than 21 25 444 448 O
+2 26 27 449 450 B-lower_bound
+cm 27 29 450 452 I-lower_bound
+
+Inability 0 9 453 462 O
+to 10 12 463 465 O
+tolerate 13 21 466 474 O
+sedated 22 29 475 482 B-treatment
+upper 30 35 483 488 I-treatment
+endoscopy 36 45 489 498 I-treatment
+due 46 49 499 502 O
+to 50 52 503 505 O
+cardio 53 59 506 512 O
+- 59 60 512 513 O
+pulmonary 60 69 513 522 O
+instability 70 81 523 534 O
+or 82 84 535 537 O
+other 85 90 538 543 O
+contraindication 91 107 544 560 O
+to 108 110 561 563 O
+endoscopy 111 120 564 573 O
+
+Large 0 5 574 579 O
+esophageal 6 16 580 590 B-chronic_disease
+diverticulum 17 29 591 603 I-chronic_disease
+
+Mechanical 0 10 604 614 O
+obstruction 11 22 615 626 O
+to 23 25 627 629 O
+esophageal 26 36 630 640 O
+outflow 37 44 641 648 O
+or 45 47 649 651 O
+infiltrative 48 60 652 664 O
+esophageal 61 71 665 675 O
+or 72 74 676 678 O
+gastric 75 82 679 686 B-chronic_disease
+disorders 83 92 687 696 I-chronic_disease
+
+Pregnant 0 8 697 705 B-pregnancy
+
+Prior 0 5 706 711 B-treatment
+esophageal 6 16 712 722 I-treatment
+Botox 17 22 723 728 I-treatment
+injection 23 32 729 738 I-treatment
+
+Prior 0 5 739 744 B-treatment
+esophageal 6 16 745 755 I-treatment
+or 17 19 756 758 I-treatment
+gastric 20 27 759 766 I-treatment
+surgeries 28 37 767 776 I-treatment
+
+breastfeeding 0 13 777 790 O
+women 14 19 791 796 B-gender
+
+with 0 4 797 801 O
+symptomatic 5 16 802 813 B-chronic_disease
+dysphagia 17 26 814 823 I-chronic_disease
+( 27 28 824 825 O
+dysphagia 28 37 825 834 B-clinical_variable
+score 38 43 835 840 I-clinical_variable
+≥2 44 46 841 843 O
+) 46 47 843 844 O
+EGOO 48 52 845 849 B-clinical_variable
+that 53 57 850 854 O
+is 58 60 855 857 O
+diagnosed 61 70 858 867 O
+by 71 73 868 870 O
+high 74 78 871 875 O
+resolution 79 89 876 886 O
+manometry 90 99 887 896 O
+

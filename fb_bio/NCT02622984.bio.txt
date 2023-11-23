@@ -1,0 +1,38 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+old 9 12 9 12 O
+or 13 15 13 15 O
+older 16 21 16 21 O
+
+Altered 0 7 22 29 B-clinical_variable
+mental 8 14 30 36 I-clinical_variable
+status 15 21 37 43 I-clinical_variable
+( 22 23 44 45 O
+not 23 26 45 48 O
+alert 27 32 49 54 O
+, 32 33 54 55 O
+not 34 37 56 59 O
+oriented 38 46 60 68 O
+, 46 47 68 69 O
+psychotic 48 57 70 79 O
+, 57 58 79 80 O
+persistent 59 69 81 91 O
+intoxication 70 82 92 104 O
+) 82 83 104 105 O
+
+Currently 0 9 106 115 O
+in 10 12 116 118 O
+alcohol 13 20 119 126 B-treatment
+treatment 21 30 127 136 I-treatment
+
+DAST-10 0 7 137 144 B-clinical_variable
+score 8 13 145 150 I-clinical_variable
+greater 14 21 151 158 O
+than 22 26 159 163 O
+3 27 28 164 165 B-lower_bound
+
+No 0 2 166 168 B-technology_access
+reliable 3 11 169 177 I-technology_access
+telephone 12 21 178 187 I-technology_access
+access 22 28 188 194 I-technology_access
+

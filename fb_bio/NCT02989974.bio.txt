@@ -1,0 +1,41 @@
+Ability 0 7 0 7 B-language_fluency
+to 8 10 8 10 I-language_fluency
+read 11 15 11 15 I-language_fluency
+and 16 19 16 19 I-language_fluency
+write 20 25 20 25 I-language_fluency
+in 26 28 26 28 I-language_fluency
+English 29 36 29 36 I-language_fluency
+
+Caregiver 0 9 37 46 O
+of 10 12 47 49 O
+a 13 14 50 51 O
+participating 15 28 52 65 O
+lung 29 33 66 70 B-cancer
+cancer 34 40 71 77 I-cancer
+survivor 41 49 78 86 O
+
+Individuals 0 11 87 98 O
+who 12 15 99 102 O
+have 16 20 103 107 O
+been 21 25 108 112 O
+diagnosed 26 35 113 122 O
+with 36 40 123 127 O
+lung 41 45 128 132 B-cancer
+cancer 46 52 133 139 I-cancer
+( 53 54 140 141 O
+survivor 54 62 141 149 O
+) 62 63 149 150 O
+
+Individuals 0 11 151 162 O
+with 12 16 163 167 O
+significant 17 28 168 179 O
+psychiatric 29 40 180 191 B-chronic_disease
+disturbance 41 52 192 203 I-chronic_disease
+that 53 57 204 208 O
+requires 58 66 209 217 O
+a 67 68 218 219 O
+higher 69 75 220 226 O
+level 76 81 227 232 O
+of 82 84 233 235 O
+care 85 89 236 240 O
+

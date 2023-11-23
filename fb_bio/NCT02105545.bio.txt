@@ -1,0 +1,62 @@
+Any 0 3 0 3 O
+age 4 7 4 7 B-age
+( 8 9 8 9 O
+minimum 9 16 9 16 O
+0 17 18 17 18 B-lower_bound
+days 19 23 19 23 I-lower_bound
+old 24 27 24 27 O
+) 27 28 27 28 O
+
+Any 0 3 29 32 O
+patient 4 11 33 40 O
+with 12 16 41 45 O
+a 17 18 46 47 O
+malignant 19 28 48 57 B-cancer
+diagnosis 29 38 58 67 O
+at 39 41 68 70 O
+the 42 45 71 74 O
+time 46 50 75 79 O
+of 51 53 80 82 O
+diagnosis 54 63 83 92 O
+or 64 66 93 95 O
+relapse 67 74 96 103 O
+
+Cognitively 0 11 104 115 B-chronic_disease
+impaired 12 20 116 124 I-chronic_disease
+adults 21 27 125 131 O
+
+Female 0 6 132 138 B-gender
+
+Male 0 4 139 143 B-gender
+
+Patients 0 8 144 152 O
+may 9 12 153 156 O
+have 13 17 157 161 O
+existing 18 26 162 170 O
+, 26 27 170 171 O
+non 28 31 172 175 B-chronic_disease
+- 31 32 175 176 I-chronic_disease
+oncological 32 43 176 187 I-chronic_disease
+genetic 44 51 188 195 I-chronic_disease
+disorders 52 61 196 205 I-chronic_disease
+
+Pregnant 0 8 206 214 B-pregnancy
+women 9 14 215 220 B-gender
+
+Subjects 0 8 221 229 O
+for 9 12 230 233 O
+whom 13 17 234 238 O
+sufficient 18 28 239 249 O
+cancer 29 35 250 256 B-cancer
+tissues 36 43 257 264 I-cancer
+are 44 47 265 268 O
+not 48 51 269 272 O
+available 52 61 273 282 O
+to 62 64 283 285 O
+meet 65 69 286 290 O
+the 70 73 291 294 O
+objectives 74 84 295 305 O
+of 85 87 306 308 O
+the 88 91 309 312 O
+study 92 97 313 318 O
+

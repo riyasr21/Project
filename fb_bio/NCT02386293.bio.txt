@@ -1,0 +1,18 @@
+between 0 7 0 7 O
+the 8 11 8 11 O
+ages 12 16 12 16 B-age
+of 17 19 17 19 O
+18 20 22 20 22 B-lower_bound
+and 23 26 23 26 O
+50 27 29 27 29 B-upper_bound
+
+not 0 3 30 33 B-ethnicity
+African 4 11 34 41 I-ethnicity
+- 11 12 41 42 I-ethnicity
+American 12 20 42 50 I-ethnicity
+
+not 0 3 51 54 B-pregnancy
+pregnant 4 12 55 63 I-pregnancy
+
+pregnant 0 8 64 72 B-pregnancy
+

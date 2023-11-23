@@ -1,0 +1,119 @@
+Active 0 6 0 6 O
+or 7 9 7 9 O
+suspected 10 19 10 19 O
+neoplasia 20 29 20 29 B-chronic_disease
+
+Cardiomegaly 0 12 30 42 B-chronic_disease
+/ 12 13 42 43 O
+valvulopathy 13 25 43 55 B-chronic_disease
+
+Hepatic 0 7 56 63 B-chronic_disease
+insufficiency 8 21 64 77 I-chronic_disease
+
+History 0 7 78 85 O
+of 8 10 86 88 O
+allergy 11 18 89 96 O
+to 19 21 97 99 O
+IGF-1 22 27 100 105 B-allergy_name
+
+Intracranial 0 12 106 118 B-chronic_disease
+hypertension 13 25 119 131 I-chronic_disease
+
+Language 0 8 132 140 B-language_fluency
+delay 9 14 141 146 I-language_fluency
+( 15 16 147 148 I-language_fluency
+lack 16 20 148 152 I-language_fluency
+of 21 23 153 155 I-language_fluency
+fluent 24 30 156 162 I-language_fluency
+phrase 31 37 163 169 I-language_fluency
+speech 38 44 170 176 I-language_fluency
+) 44 45 176 177 I-language_fluency
+reflected 46 55 178 187 O
+by 56 58 188 190 O
+use 59 62 191 194 O
+of 63 65 195 197 O
+ADOS 66 70 198 202 O
+Module 71 77 203 209 O
+1 78 79 210 211 O
+or 80 82 212 214 O
+2 83 84 215 216 O
+
+Meet 0 4 217 221 O
+DSM-5 5 10 222 227 O
+criteria 11 19 228 236 O
+for 20 23 237 240 O
+Autism 24 30 241 247 B-chronic_disease
+Spectrum 31 39 248 256 I-chronic_disease
+Disorder 40 48 257 265 I-chronic_disease
+confirmed 49 58 266 275 O
+by 59 61 276 278 O
+the 62 65 279 282 O
+Autism 66 72 283 289 O
+Diagnostic 73 83 290 300 O
+Interview 84 93 301 310 O
+- 93 94 310 311 O
+Revised 94 101 311 318 O
+( 102 103 319 320 O
+ADI 103 106 320 323 O
+- 106 107 323 324 O
+R 107 108 324 325 O
+) 108 109 325 326 O
+
+Must 0 4 327 331 O
+be 5 7 332 334 O
+on 8 10 335 337 O
+stable 11 17 338 344 O
+medication 18 28 345 355 B-treatment
+regimens 29 37 356 364 I-treatment
+for 38 41 365 368 O
+at 42 44 369 371 O
+least 45 50 372 377 O
+three 51 56 378 383 B-lower_bound
+months 57 63 384 390 I-lower_bound
+prior 64 69 391 396 I-lower_bound
+to 70 72 397 399 O
+enrollment 73 83 400 410 O
+, 83 84 410 411 O
+assuming 85 93 412 420 O
+the 94 97 421 424 O
+concomitant 98 109 425 436 O
+medication 110 120 437 447 O
+is 121 123 448 450 O
+safe 124 128 451 455 O
+for 129 132 456 459 O
+use 133 136 460 463 O
+with 137 141 464 468 O
+IGF-1 142 147 469 474 B-treatment
+
+Patients 0 8 475 483 O
+with 9 13 484 488 O
+comorbid 14 22 489 497 O
+conditions 23 33 498 508 O
+deemed 34 40 509 515 O
+too 41 44 516 519 O
+medically 45 54 520 529 O
+compromised 55 66 530 541 O
+to 67 69 542 544 O
+tolerate 70 78 545 553 O
+the 79 82 554 557 O
+risk 83 87 558 562 O
+of 88 90 563 565 O
+experimental 91 103 566 578 O
+treatment 104 113 579 588 B-treatment
+with 114 118 589 593 I-treatment
+IGF-1 119 124 594 599 I-treatment
+
+Renal 0 5 600 605 B-chronic_disease
+insufficiency 6 19 606 619 I-chronic_disease
+
+between 0 7 620 627 O
+the 8 11 628 631 O
+ages 12 16 632 636 B-age
+of 17 19 637 639 O
+5 20 21 640 641 B-lower_bound
+- 21 22 641 642 O
+12 22 24 642 644 B-upper_bound
+years 25 30 645 650 I-upper_bound
+of 31 33 651 653 O
+age 34 37 654 657 O
+

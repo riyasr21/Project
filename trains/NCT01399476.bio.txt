@@ -1,0 +1,41 @@
+Ability 0 7 0 7 O
+to 8 10 8 10 O
+undergo 11 18 11 18 O
+general 19 26 19 26 B-treatment
+anesthesia 27 37 27 37 I-treatment
+
+Age 0 3 38 41 B-age
+> 4 5 42 43 O
+18 6 8 44 46 B-lower_bound
+yrs 9 12 47 50 I-lower_bound
+. 12 13 50 51 O
+of 14 16 52 54 O
+age 17 20 55 58 B-age
+and 21 24 59 62 O
+< 25 26 63 64 O
+85 27 29 65 67 B-upper_bound
+yrs 30 33 68 71 I-upper_bound
+. 33 34 71 72 O
+of 35 37 73 75 O
+age 38 41 76 79 O
+
+BMI 0 3 80 83 B-bmi
+> 4 5 84 85 O
+45 6 8 86 88 B-lower_bound
+
+Candidate 0 9 89 98 O
+for 10 13 99 102 O
+elective 14 22 103 111 O
+Heller 23 29 112 118 B-treatment
+myotomy 30 37 119 126 I-treatment
+
+Contraindications 0 17 127 144 O
+for 18 21 145 148 O
+esophagogastroduodenoscopy 22 48 149 175 B-allergy_name
+
+Previous 0 8 176 184 B-treatment
+mediastinal 9 20 185 196 I-treatment
+or 21 23 197 199 I-treatment
+esophageal 24 34 200 210 I-treatment
+surgery 35 42 211 218 I-treatment
+

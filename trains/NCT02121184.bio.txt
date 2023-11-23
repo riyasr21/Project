@@ -1,0 +1,66 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+and 7 10 7 10 O
+over 11 15 11 15 O
+
+Contraindication 0 16 16 32 O
+to 17 19 33 35 O
+neuraxial 20 29 36 45 B-allergy_name
+analgesia 30 39 46 55 I-allergy_name
+
+Presence 0 8 56 64 O
+of 9 11 65 67 O
+any 12 15 68 71 O
+systemic 16 24 72 80 B-chronic_disease
+disease 25 32 81 88 I-chronic_disease
+( 33 34 89 90 O
+ex 34 36 90 92 O
+: 36 37 92 93 O
+diabetes 38 46 94 102 B-chronic_disease
+mellitus 47 55 103 111 I-chronic_disease
+, 55 56 111 112 O
+hypertension 57 69 113 125 B-chronic_disease
+, 69 70 125 126 O
+preeclampsia 71 83 127 139 B-chronic_disease
+
+Prior 0 5 140 145 O
+administration 6 20 146 160 O
+of 21 23 161 163 O
+system 24 30 164 170 B-treatment
+opioid 31 37 171 177 I-treatment
+labor 38 43 178 183 I-treatment
+analgesia 44 53 184 193 I-treatment
+
+Receive 0 7 194 201 O
+oxytocin 8 16 202 210 B-treatment
+
+Singleton 0 9 211 220 B-pregnancy
+pregnancy 10 19 221 230 I-pregnancy
+
+Term 0 4 231 235 O
+( 5 6 236 237 O
+> 6 7 237 238 O
+36 7 9 238 240 B-lower_bound
+week 10 14 241 245 I-lower_bound
+gestation 15 24 246 255 B-clinical_variable
+) 24 25 255 256 O
+
+Under 0 5 257 262 O
+18 6 8 263 265 B-upper_bound
+years 9 14 266 271 I-upper_bound
+old 15 18 272 275 O
+
+Use 0 3 276 279 O
+of 4 6 280 282 O
+chronic 7 14 283 290 O
+analgesic 15 24 291 300 B-treatment
+medications 25 36 301 312 I-treatment
+
+multiparous 0 11 313 324 O
+women 12 17 325 330 B-gender
+
+spontaneous 0 11 331 342 B-chronic_disease
+rupture 12 19 343 350 I-chronic_disease
+of 20 22 351 353 I-chronic_disease
+membranes 23 32 354 363 I-chronic_disease
+

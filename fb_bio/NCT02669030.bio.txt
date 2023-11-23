@@ -1,0 +1,46 @@
+Currently 0 9 0 9 O
+on 10 12 10 12 O
+antidepressant 13 27 13 27 B-treatment
+
+Diagnosis 0 9 28 37 O
+of 10 12 38 40 O
+depression 13 23 41 51 B-chronic_disease
+( 24 25 52 53 I-chronic_disease
+MDD 25 28 53 56 I-chronic_disease
+) 28 29 56 57 I-chronic_disease
+
+at 0 2 58 60 O
+risk 3 7 61 65 O
+of 8 10 66 68 O
+self 11 15 69 73 O
+harm 16 20 74 78 O
+or 21 23 79 81 O
+a 24 25 82 83 O
+suicide 26 33 84 91 O
+attempt 34 41 92 99 O
+within 42 48 100 106 O
+the 49 52 107 110 O
+past 53 57 111 115 B-upper_bound
+12 58 60 116 118 I-upper_bound
+months 61 67 119 125 I-upper_bound
+
+currently 0 9 126 135 O
+using 10 15 136 141 O
+other 16 21 142 147 O
+psychotropics 22 35 148 161 B-treatment
+other 36 41 162 167 O
+than 42 46 168 172 O
+antidepressants 47 62 173 188 B-treatment
+
+history 0 7 189 196 O
+or 8 10 197 199 O
+presence 11 19 200 208 O
+of 20 22 209 211 O
+psychotic 23 32 212 221 B-chronic_disease
+disorders 33 42 222 231 I-chronic_disease
+
+known 0 5 232 237 O
+hypersensitivity 6 22 238 254 O
+to 23 25 255 257 O
+suvorexant 26 36 258 268 B-allergy_name
+

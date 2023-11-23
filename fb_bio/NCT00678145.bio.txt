@@ -1,0 +1,98 @@
+1st 0 3 0 3 O
+degree 4 10 4 10 O
+relatives 11 20 11 20 O
+with 21 25 21 25 O
+diabetes 26 34 26 34 B-chronic_disease
+
+BMI 0 3 35 38 B-bmi
+< 4 5 39 40 O
+28 5 7 40 42 B-upper_bound
+
+Breast 0 6 43 49 O
+- 6 7 49 50 O
+feeding 7 14 50 57 O
+women 15 20 58 63 B-gender
+
+Cancer 0 6 64 70 B-cancer
+
+HIV 0 3 71 74 B-chronic_disease
+/ 3 4 74 75 O
+AIDS 4 8 75 79 B-chronic_disease
+
+Heart 0 5 80 85 B-chronic_disease
+attack 6 12 86 92 I-chronic_disease
+
+Hepatitis 0 9 93 102 B-chronic_disease
+
+Liver 0 5 103 108 B-chronic_disease
+Problems 6 14 109 117 I-chronic_disease
+
+No 0 2 118 120 O
+1st 3 6 121 124 O
+degree 7 13 125 131 O
+relatives 14 23 132 141 O
+with 24 28 142 146 O
+diabetes 29 37 147 155 B-chronic_disease
+
+Non 0 3 156 159 O
+- 3 4 159 160 O
+diabetic 4 12 160 168 B-chronic_disease
+individuals 13 24 169 180 O
+
+Not 0 3 181 184 O
+enrolled 4 12 185 193 O
+in 13 15 194 196 O
+any 16 19 197 200 O
+other 20 25 201 206 O
+study 26 31 207 212 O
+for 32 35 213 216 O
+at 36 38 217 219 O
+least 39 44 220 225 O
+1 45 46 226 227 B-lower_bound
+month 47 52 228 233 I-lower_bound
+
+Patients 0 8 234 242 O
+with 9 13 243 247 O
+type 14 18 248 252 B-chronic_disease
+1 19 20 253 254 I-chronic_disease
+diabetes 21 29 255 263 I-chronic_disease
+mellitus 30 38 264 272 I-chronic_disease
+
+Pregnant 0 8 273 281 B-pregnancy
+or 9 11 282 284 O
+planning 12 20 285 293 B-pregnancy
+to 21 23 294 296 I-pregnancy
+get 24 27 297 300 I-pregnancy
+pregnant 28 36 301 309 I-pregnancy
+women 37 42 310 315 B-gender
+
+Smoking 0 7 316 323 O
+( 8 9 324 325 O
+Greater 9 16 325 332 O
+than 17 21 333 337 O
+5 22 23 338 339 B-lower_bound
+- 23 24 339 340 O
+6 24 25 340 341 B-upper_bound
+cigarettes 26 36 342 352 O
+per 37 40 353 356 O
+day 41 44 357 360 O
+) 44 45 360 361 O
+
+Surgeries 0 9 362 371 B-treatment
+that 10 14 372 376 I-treatment
+include 15 22 377 384 I-treatment
+removal 23 30 385 392 I-treatment
+of 31 33 393 395 I-treatment
+endocrine 34 43 396 405 I-treatment
+glands 44 50 406 412 I-treatment
+or 51 53 413 415 I-treatment
+abnormal 54 62 416 424 I-treatment
+thyroid 63 70 425 432 I-treatment
+
+Uncontrolled 0 12 433 445 O
+hyperlipidemia 13 27 446 460 B-chronic_disease
+or 28 30 461 463 O
+hypertension 31 43 464 476 B-chronic_disease
+
+stroke 0 6 477 483 B-chronic_disease
+

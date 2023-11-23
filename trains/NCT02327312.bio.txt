@@ -1,0 +1,15 @@
+Active 0 6 0 6 B-chronic_disease
+corneal 7 14 7 14 I-chronic_disease
+inflammation 15 27 15 27 I-chronic_disease
+
+Choroidal 0 9 28 37 B-chronic_disease
+detachment 10 20 38 48 I-chronic_disease
+
+Open 0 4 49 53 B-chronic_disease
+angle 5 10 54 59 I-chronic_disease
+Glaucoma 11 19 60 68 I-chronic_disease
+
+choroiditis 0 11 69 80 B-chronic_disease
+
+edema 0 5 81 86 B-chronic_disease
+

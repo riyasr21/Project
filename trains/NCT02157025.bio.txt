@@ -1,0 +1,52 @@
+Ages 0 4 0 4 B-age
+5 5 6 5 6 B-lower_bound
+- 6 7 6 7 O
+8 7 8 7 8 B-upper_bound
+
+Inability 0 9 9 18 O
+to 10 12 19 21 O
+understand 13 23 22 32 O
+study 24 29 33 38 O
+or 30 32 39 41 O
+communicate 33 44 42 53 O
+responses 45 54 54 63 O
+( 55 56 64 65 O
+cognitive 56 65 65 74 B-chronic_disease
+impairment 66 76 75 85 I-chronic_disease
+) 76 77 85 86 O
+
+Seen 0 4 87 91 O
+previously 5 15 92 102 O
+in 16 18 103 105 O
+the 19 22 106 109 O
+clinics 23 30 110 117 O
+at 31 33 118 120 O
+Nova 34 38 121 125 O
+Southeastern 39 51 126 138 O
+University 52 62 139 149 O
+'s 62 64 149 151 O
+The 65 68 152 155 O
+Eye 69 72 156 159 O
+Care 73 77 160 164 O
+Institute 78 87 165 174 O
+with 88 92 175 179 O
+a 93 94 180 181 O
+diagnosis 95 104 182 191 O
+for 105 108 192 195 O
+glaucoma 109 117 196 204 B-chronic_disease
+suspect 118 125 205 212 O
+or 126 128 213 215 O
+optic 129 134 216 221 B-chronic_disease
+nerve 135 140 222 227 I-chronic_disease
+abnormalities 141 154 228 241 I-chronic_disease
+
+Unable 0 6 242 248 B-language_fluency
+to 7 9 249 251 I-language_fluency
+understand 10 20 252 262 I-language_fluency
+, 20 21 262 263 I-language_fluency
+read 22 26 264 268 I-language_fluency
+and 27 30 269 272 I-language_fluency
+speak 31 36 273 278 I-language_fluency
+English 37 44 279 286 I-language_fluency
+fluently 45 53 287 295 I-language_fluency
+

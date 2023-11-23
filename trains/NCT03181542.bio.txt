@@ -1,0 +1,30 @@
+ASA 0 3 0 3 B-clinical_variable
+physical 4 12 4 12 I-clinical_variable
+status 13 19 13 19 I-clinical_variable
+1,2 20 23 20 23 B-lower_bound
+or 24 26 24 26 O
+3 27 28 27 28 B-upper_bound
+
+Emergency 0 9 29 38 O
+procedures 10 20 39 49 O
+requiring 21 30 50 59 O
+anesthesia 31 41 60 70 B-treatment
+
+undergoing 0 10 71 81 O
+anesthesia 11 21 82 92 B-treatment
+procedures 22 32 93 103 I-treatment
+at 33 35 104 106 O
+Penn 36 40 107 111 O
+State 41 46 112 117 O
+Health 47 53 118 124 O
+, 53 54 124 125 O
+Hershey 55 62 126 133 O
+Medical 63 70 134 141 O
+Center 71 77 142 148 O
+and 78 81 149 152 O
+Penn 82 86 153 157 O
+State 87 92 158 163 O
+Children 93 101 164 172 O
+'s 101 103 172 174 O
+Hospital 104 112 175 183 O
+

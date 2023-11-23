@@ -1,0 +1,46 @@
+Anti 0 4 0 4 B-treatment
+- 4 5 4 5 I-treatment
+osteoporosis 5 17 5 17 I-treatment
+medications 18 29 18 29 I-treatment
+
+Any 0 3 30 33 O
+comorbid 4 12 34 42 O
+disease 13 20 43 50 O
+known 21 26 51 56 O
+to 27 29 57 59 O
+affect 30 36 60 66 O
+bone 37 41 67 71 O
+metabolism 42 52 72 82 O
+( 53 54 83 84 O
+such 54 58 84 88 O
+as 59 61 89 91 O
+parathyroid 62 73 92 103 B-chronic_disease
+dysfunction 74 85 104 115 I-chronic_disease
+) 85 86 115 116 O
+
+Bleeding 0 8 117 125 B-chronic_disease
+disorder 9 17 126 134 I-chronic_disease
+
+Chronic 0 7 135 142 B-chronic_disease
+infection 8 17 143 152 I-chronic_disease
+
+Deep 0 4 153 157 B-chronic_disease
+vein 5 9 158 162 I-chronic_disease
+thrombosis 10 20 163 173 I-chronic_disease
+
+Metformin 0 9 174 183 B-treatment
+or 10 12 184 186 O
+other 13 18 187 192 O
+medications 19 30 193 204 O
+for 31 34 205 208 O
+diabetes 35 43 209 217 B-chronic_disease
+
+Pregnancy 0 9 218 227 B-pregnancy
+
+Pressure 0 8 228 236 B-chronic_disease
+ulcers 9 15 237 243 I-chronic_disease
+
+Vitamin 0 7 244 251 B-treatment
+D 8 9 252 253 I-treatment
+supplements 10 21 254 265 I-treatment
+

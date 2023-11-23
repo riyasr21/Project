@@ -1,0 +1,141 @@
+Diaphragmatic 0 13 0 13 B-chronic_disease
+hernia 14 20 14 20 I-chronic_disease
+: 20 21 20 21 O
+right 22 27 22 27 O
+- 27 28 27 28 O
+sided 28 33 28 33 O
+or 34 36 34 36 O
+bilateral 37 46 37 46 O
+, 46 47 46 47 O
+major 48 53 48 53 O
+associated 54 64 54 64 O
+anomalies 65 74 65 74 O
+, 74 75 74 75 O
+isolated 76 84 76 84 O
+left 85 89 85 89 O
+- 89 90 89 90 O
+sided 90 95 90 95 O
+with 96 100 96 100 O
+the 101 104 101 104 O
+O 105 106 105 106 O
+/ 106 107 106 107 O
+E 107 108 107 108 O
+LHR 109 112 109 112 B-clinical_variable
+≥ 113 114 113 114 O
+25 115 117 115 117 B-lower_bound
+% 117 118 117 118 I-lower_bound
+
+Fetal 0 5 119 124 O
+Diagnosis 6 15 125 134 O
+of 16 18 135 137 O
+Isolated 19 27 138 146 B-chronic_disease
+Left 28 32 147 151 I-chronic_disease
+CDH 33 36 152 155 I-chronic_disease
+with 37 41 156 160 I-chronic_disease
+liver 42 47 161 166 I-chronic_disease
+up 48 50 167 169 I-chronic_disease
+
+Gestation 0 9 170 179 O
+at 10 12 180 182 O
+enrollment 13 23 183 193 O
+prior 24 29 194 199 O
+to 30 32 200 202 O
+29 33 35 203 205 B-upper_bound
+wks 36 39 206 209 I-upper_bound
+plus 40 44 210 214 I-upper_bound
+6 45 46 215 216 I-upper_bound
+days 47 51 217 221 I-upper_bound
+
+Maternal 0 8 222 230 O
+contraindication 9 25 231 247 O
+to 26 28 248 250 O
+fetoscopic 29 39 251 261 B-treatment
+surgery 40 47 262 269 I-treatment
+or 48 50 270 272 O
+severe 51 57 273 279 B-treatment
+maternal 58 66 280 288 I-treatment
+medical 67 74 289 296 I-treatment
+condition 75 84 297 306 I-treatment
+in 85 87 307 309 O
+pregnancy 88 97 310 319 B-pregnancy
+
+Normal 0 6 320 326 O
+Karyotype 7 16 327 336 B-treatment
+
+Pregnant 0 8 337 345 B-pregnancy
+women 9 14 346 351 B-gender
+
+Pregnant 0 8 352 360 B-pregnancy
+women 9 14 361 366 B-gender
+< 15 16 367 368 O
+18 16 18 368 370 B-upper_bound
+years 19 24 371 376 I-upper_bound
+of 25 27 377 379 O
+age 28 31 380 383 B-age
+
+Preterm 0 7 384 391 O
+labor 8 13 392 397 O
+, 13 14 397 398 O
+cervix 15 21 399 405 O
+shortened 22 31 406 415 O
+( 32 33 416 417 O
+< 33 34 417 418 O
+15 34 36 418 420 B-upper_bound
+mm 37 39 421 423 I-upper_bound
+at 40 42 424 426 O
+enrollment 43 53 427 437 O
+or 54 56 438 440 O
+within 57 63 441 447 O
+24 64 66 448 450 B-upper_bound
+hours 67 72 451 456 I-upper_bound
+of 73 75 457 459 O
+FETO 76 80 460 464 B-treatment
+balloon 81 88 465 472 I-treatment
+insertion 89 98 473 482 I-treatment
+procedure 99 108 483 492 I-treatment
+) 108 109 492 493 O
+or 110 112 494 496 O
+uterine 113 120 497 504 O
+anomaly 121 128 505 512 O
+strongly 129 137 513 521 O
+predisposing 138 150 522 534 O
+to 151 153 535 537 O
+preterm 154 161 538 545 O
+labor 162 167 546 551 O
+, 167 168 551 552 O
+placenta 169 177 553 561 O
+previa 178 184 562 568 O
+
+Rubber 0 6 569 575 B-allergy_name
+latex 7 12 576 581 I-allergy_name
+allergy 13 20 582 589 O
+
+SEVERE 0 6 590 596 O
+pulmonary 7 16 597 606 B-chronic_disease
+hypoplasia 17 27 607 617 I-chronic_disease
+with 28 32 618 622 O
+Ultra 33 38 623 628 B-clinical_variable
+Sound 39 44 629 634 I-clinical_variable
+O 45 46 635 636 I-clinical_variable
+/ 46 47 636 637 I-clinical_variable
+E 47 48 637 638 I-clinical_variable
+LHR 49 52 639 642 I-clinical_variable
+< 53 54 643 644 O
+25 55 57 645 647 B-upper_bound
+% 57 58 647 648 I-upper_bound
+
+Singleton 0 9 649 658 O
+pregnancy 10 19 659 668 B-pregnancy
+
+Technical 0 9 669 678 O
+limitations 10 21 679 690 O
+precluding 22 32 691 701 O
+fetoscopic 33 43 702 712 B-treatment
+surgery 44 51 713 720 I-treatment
+
+age 0 3 721 724 B-age
+18 4 6 725 727 B-lower_bound
+years 7 12 728 733 I-lower_bound
+and 13 16 734 737 O
+older 17 22 738 743 O
+

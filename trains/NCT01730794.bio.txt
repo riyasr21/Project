@@ -1,0 +1,193 @@
+Acute 0 5 0 5 B-clinical_variable
+brain 6 11 6 11 I-clinical_variable
+injury 12 18 12 18 I-clinical_variable
+or 19 21 19 21 O
+elevated 22 30 22 30 B-clinical_variable
+intracranial 31 43 31 43 I-clinical_variable
+pressure 44 52 44 52 I-clinical_variable
+( 53 54 53 54 O
+> 54 55 54 55 O
+18 56 58 56 58 B-lower_bound
+mmHg 59 63 59 63 I-lower_bound
+) 63 64 63 64 O
+
+Acute 0 5 65 70 B-chronic_disease
+respiratory 6 17 71 82 I-chronic_disease
+distress 18 26 83 91 I-chronic_disease
+syndrome 27 35 92 100 I-chronic_disease
+
+Age 0 3 101 104 B-age
+< 4 5 105 106 O
+18 6 8 107 109 B-upper_bound
+years 9 14 110 115 I-upper_bound
+
+Age 0 3 116 119 B-age
+greater 4 11 120 127 O
+than 12 16 128 132 O
+or 17 19 133 135 O
+equal 20 25 136 141 O
+to 26 28 142 144 O
+18 29 31 145 147 B-lower_bound
+years 32 37 148 153 I-lower_bound
+
+Anticipated 0 11 154 165 O
+mechanical 12 22 166 176 B-treatment
+ventilation 23 34 177 188 I-treatment
+longer 35 41 189 195 O
+than 42 46 196 200 O
+72 47 49 201 203 O
+hrs 50 53 204 207 O
+
+Body 0 4 208 212 B-bmi
+mass 5 9 213 217 I-bmi
+index 10 15 218 223 I-bmi
+> 16 17 224 225 O
+50 18 20 226 228 B-lower_bound
+
+Equal 0 5 229 234 O
+to 6 8 235 237 O
+or 9 11 238 240 O
+greater 12 19 241 248 O
+than 20 24 249 253 O
+3 25 26 254 255 B-lower_bound
+total 27 32 256 261 O
+organ 33 38 262 267 B-chronic_disease
+failures 39 47 268 276 I-chronic_disease
+
+Hypoxemic 0 9 277 286 B-chronic_disease
+or 10 12 287 289 O
+hypercapnic 13 24 290 301 O
+acute 25 30 302 307 O
+respiratory 31 42 308 319 O
+failure 43 50 320 327 O
+
+Immunosuppressed 0 16 328 344 O
+patients 17 25 345 353 O
+receiving 26 35 354 363 O
+chemotherapy 36 48 364 376 B-treatment
+
+Intubation 0 10 377 387 B-treatment
+and 11 14 388 391 O
+mechanical 15 25 392 402 B-treatment
+ventilation 26 37 403 414 I-treatment
+
+Mechanically 0 12 415 427 B-clinical_variable
+ventilated 13 23 428 438 I-clinical_variable
+< 24 25 439 440 O
+48 26 28 441 443 B-upper_bound
+hours 29 34 444 449 I-upper_bound
+
+Need 0 4 450 454 O
+to 5 7 455 457 O
+provide 8 15 458 465 O
+controlled 16 26 466 476 B-treatment
+ventilation 27 38 477 488 I-treatment
+
+Neuromuscular 0 13 489 502 B-chronic_disease
+or 14 16 503 505 O
+neurologic 17 27 506 516 B-chronic_disease
+disease 28 35 517 524 I-chronic_disease
+
+Patients 0 8 525 533 O
+with 9 13 534 538 O
+major 14 19 539 544 B-treatment
+esophageal 20 30 545 555 I-treatment
+, 30 31 555 556 O
+gastric 32 39 557 564 B-treatment
+and 40 43 565 568 O
+oral 44 48 569 573 B-treatment
+surgery 49 56 574 581 I-treatment
+
+Poor 0 4 582 586 O
+short 5 10 587 592 O
+term 11 15 593 597 O
+prognosis 16 25 598 607 O
+( 26 27 608 609 O
+defined 27 34 609 616 O
+as 35 37 617 619 O
+a 38 39 620 621 O
+high 40 44 622 626 O
+risk 45 49 627 631 O
+of 50 52 632 634 O
+death 53 58 635 640 O
+in 59 61 641 643 O
+the 62 65 644 647 O
+next 66 70 648 652 B-upper_bound
+3 71 72 653 654 I-upper_bound
+months 73 79 655 661 I-upper_bound
+) 79 80 661 662 O
+
+Post 0 4 663 667 O
+- 4 5 667 668 O
+operative 5 14 668 677 O
+patient 15 22 678 685 O
+'s 22 24 685 687 O
+normally 25 33 688 696 O
+requiring 34 43 697 706 O
+a 44 45 707 708 O
+short 46 51 709 714 O
+course 52 58 715 721 O
+of 59 61 722 724 O
+mechanical 62 72 725 735 B-treatment
+ventilation 73 84 736 747 I-treatment
+( 85 86 748 749 O
+for 86 89 749 752 O
+example 90 97 753 760 O
+most 98 102 761 765 O
+cardiac 103 110 766 773 O
+surgical 111 119 774 782 O
+patients 120 128 783 791 O
+) 128 129 791 792 O
+
+Pregnancy 0 9 793 802 B-pregnancy
+
+Severe 0 6 803 809 O
+cardiac 7 14 810 817 B-chronic_disease
+disease 15 22 818 825 I-chronic_disease
+: 22 23 825 826 O
+New 24 27 827 830 B-clinical_variable
+York 28 32 831 835 I-clinical_variable
+Heart 33 38 836 841 I-clinical_variable
+Association 39 50 842 853 I-clinical_variable
+class 51 56 854 859 B-lower_bound
+3 57 58 860 861 I-lower_bound
+or 59 61 862 864 O
+4 62 63 865 866 B-upper_bound
+or 64 66 867 869 O
+acute 67 72 870 875 B-chronic_disease
+coronary 73 81 876 884 I-chronic_disease
+syndrome 82 90 885 893 I-chronic_disease
+or 91 93 894 896 O
+persistent 94 104 897 907 O
+ventricular 105 116 908 919 B-chronic_disease
+tachyarrhythmias 117 133 920 936 I-chronic_disease
+
+Sickle 0 6 937 943 B-chronic_disease
+cell 7 11 944 948 I-chronic_disease
+disease 12 19 949 956 I-chronic_disease
+
+Weight 0 6 957 963 B-clinical_variable
+< 7 8 964 965 O
+35 9 11 966 968 B-upper_bound
+kg 12 14 969 971 I-upper_bound
+predicted 15 24 972 981 B-clinical_variable
+body 25 29 982 986 I-clinical_variable
+weight 30 36 987 993 I-clinical_variable
+( 37 38 994 995 I-clinical_variable
+PBW 38 41 995 998 I-clinical_variable
+) 41 42 998 999 I-clinical_variable
+
+radiation 0 9 1000 1009 B-treatment
+therapy 10 17 1010 1017 I-treatment
+( 18 19 1018 1019 O
+less 19 23 1019 1023 O
+than 24 28 1024 1028 O
+2 29 30 1029 1030 B-upper_bound
+month 31 36 1031 1036 I-upper_bound
+after 37 42 1037 1042 I-upper_bound
+chemotherapy 43 55 1043 1055 B-treatment
+or 56 58 1056 1058 O
+radiation 59 68 1059 1068 O
+therapy 69 76 1069 1076 O
+) 76 77 1076 1077 O
+

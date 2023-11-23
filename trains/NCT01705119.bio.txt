@@ -1,0 +1,81 @@
+Active 0 6 0 6 O
+gastrointestinal 7 23 7 23 B-chronic_disease
+blood 24 29 24 29 I-chronic_disease
+loss 30 34 30 34 O
+
+Active 0 6 35 41 O
+myocardial 7 17 42 52 B-chronic_disease
+ischemia 18 26 53 61 I-chronic_disease
+
+An 0 2 62 64 O
+oxygen 3 9 65 71 B-clinical_variable
+saturation 10 20 72 82 I-clinical_variable
+of 21 23 83 85 O
+88 24 26 86 88 B-lower_bound
+- 26 27 88 89 O
+94 27 29 89 91 B-upper_bound
+% 29 30 91 92 I-upper_bound
+or 31 33 93 95 O
+an 34 36 96 98 O
+arterial 37 45 99 107 O
+line 46 50 108 112 O
+
+Evidence 0 8 113 121 O
+of 9 11 122 124 O
+elevated 12 20 125 133 O
+intracranial 21 33 134 146 B-chronic_disease
+pressure 34 42 147 155 I-chronic_disease
+
+Heart 0 5 156 161 B-clinical_variable
+rate 6 10 162 166 I-clinical_variable
+< 11 12 167 168 O
+40 13 15 169 171 B-upper_bound
+or 16 18 172 174 O
+> 19 20 175 176 O
+130 21 24 177 180 B-lower_bound
+beats 25 30 181 186 I-lower_bound
+/ 30 31 186 187 I-lower_bound
+min 31 34 187 190 I-lower_bound
+
+Mean 0 4 191 195 B-clinical_variable
+arterial 5 13 196 204 I-clinical_variable
+pressure 14 22 205 213 I-clinical_variable
+< 23 24 214 215 O
+65 24 26 215 217 B-upper_bound
+
+Pregnancy 0 9 218 227 B-pregnancy
+
+Pulse 0 5 228 233 B-clinical_variable
+oximetry 6 14 234 242 I-clinical_variable
+< 15 16 243 244 O
+88 17 19 245 247 B-upper_bound
+% 19 20 247 248 I-upper_bound
+
+Respiratory 0 11 249 260 B-clinical_variable
+rate 12 16 261 265 I-clinical_variable
+< 17 18 266 267 O
+5 19 20 268 269 B-upper_bound
+or 21 23 270 272 O
+> 24 25 273 274 O
+40 26 28 275 277 B-lower_bound
+breaths 29 36 278 285 I-lower_bound
+/ 36 37 285 286 I-lower_bound
+min 37 40 286 289 I-lower_bound
+
+aged 0 4 290 294 B-age
+≥18 5 8 295 298 O
+years 9 14 299 304 I-lower_bound
+
+patient 0 7 305 312 O
+was 8 11 313 316 O
+not 12 15 317 320 O
+ambulatory 16 26 321 331 O
+prior 27 32 332 337 O
+to 33 35 338 340 O
+hospitalization 36 51 341 356 B-treatment
+
+who 0 3 357 360 O
+are 4 7 361 364 O
+mechanically 8 20 365 377 B-treatment
+ventilated 21 31 378 388 I-treatment
+

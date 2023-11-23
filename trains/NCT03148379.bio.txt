@@ -1,0 +1,61 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+75 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+BMI 0 3 19 22 B-bmi
+≤35 4 7 23 26 O
+
+Pregnant 0 8 27 35 B-pregnancy
+women 9 14 36 41 B-gender
+
+Undergoing 0 10 42 52 O
+unilateral 11 21 53 63 B-treatment
+total 22 27 64 69 I-treatment
+knee 28 32 70 74 I-treatment
+arthroplasty 33 45 75 87 I-treatment
+due 46 49 88 91 O
+to 50 52 92 94 O
+osteoarthritis 53 67 95 109 B-chronic_disease
+( 68 69 110 111 I-chronic_disease
+primary 69 76 111 118 I-chronic_disease
+or 77 79 119 121 I-chronic_disease
+post 80 84 122 126 I-chronic_disease
+- 84 85 126 127 I-chronic_disease
+traumatic 85 94 127 136 I-chronic_disease
+OA 95 97 137 139 I-chronic_disease
+) 97 98 139 140 I-chronic_disease
+
+inflammatory 0 12 141 153 B-chronic_disease
+arthritis 13 22 154 163 I-chronic_disease
+
+knee 0 4 164 168 B-chronic_disease
+avascular 5 14 169 178 I-chronic_disease
+necrosis 15 23 179 187 I-chronic_disease
+
+retained 0 8 188 196 O
+hardware 9 17 197 205 O
+in 18 20 206 208 O
+the 21 24 209 212 O
+knee 25 29 213 217 O
+that 30 34 218 222 O
+requires 35 43 223 231 O
+removal 44 51 232 239 O
+or 52 54 240 242 O
+interferes 55 65 243 253 O
+with 66 70 254 258 O
+Total 71 76 259 264 B-treatment
+Knee 77 81 265 269 I-treatment
+Arthroplasty 82 94 270 282 I-treatment
+( 95 96 283 284 I-treatment
+TKA 96 99 284 287 I-treatment
+) 99 100 287 288 I-treatment
+procedure 101 110 289 298 O
+
+those 0 5 299 304 O
+seeking 6 13 305 312 B-pregnancy
+to 14 16 313 315 I-pregnancy
+become 17 23 316 322 I-pregnancy
+pregnant 24 32 323 331 I-pregnancy
+

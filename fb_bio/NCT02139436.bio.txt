@@ -1,0 +1,87 @@
+ASIA 0 4 0 4 O
+scale 5 10 5 10 O
+A 11 12 11 12 O
+, 12 13 12 13 O
+B 14 15 14 15 O
+or 16 18 16 18 O
+C 19 20 19 20 O
+at 21 23 21 23 O
+neurological 24 36 24 36 B-clinical_variable
+level 37 42 37 42 I-clinical_variable
+C5 43 45 43 45 B-lower_bound
+- 45 46 45 46 O
+T12 46 49 46 49 B-upper_bound
+
+Spinal 0 6 50 56 O
+cord 7 11 57 61 O
+injured 12 19 62 69 O
+outpatients 20 31 70 81 O
+aged 32 36 82 86 B-age
+18 37 39 87 89 B-lower_bound
+- 39 40 89 90 O
+40 40 42 90 92 B-upper_bound
+
+cancer 0 6 93 99 B-cancer
+
+coronary 0 8 100 108 B-chronic_disease
+artery 9 15 109 115 I-chronic_disease
+disease 16 23 116 123 I-chronic_disease
+
+current 0 7 124 131 O
+grade 8 13 132 137 B-lower_bound
+2 14 15 138 139 I-lower_bound
+or 16 18 140 142 O
+greater 19 26 143 150 O
+pressure 27 35 151 159 B-chronic_disease
+ulcers 36 42 160 166 I-chronic_disease
+at 43 45 167 169 O
+relevant 46 54 170 178 O
+contact 55 62 179 186 O
+sites 63 68 187 192 O
+
+current 0 7 193 200 O
+use 8 11 201 204 O
+of 12 14 205 207 O
+cardioactive 15 27 208 220 B-treatment
+medications 28 39 221 232 I-treatment
+
+diabetes 0 8 233 241 B-chronic_disease
+
+epilepsy 0 8 242 250 B-chronic_disease
+
+history 0 7 251 258 O
+of 8 10 259 261 O
+bleeding 11 19 262 270 B-chronic_disease
+disorder 20 28 271 279 I-chronic_disease
+
+hypertension 0 12 280 292 B-chronic_disease
+
+leg 0 3 293 296 O
+muscles 4 11 297 304 O
+responsive 12 22 305 315 O
+to 23 25 316 318 O
+FES 26 29 319 322 B-treatment
+
+other 0 5 323 328 O
+neurological 6 18 329 341 B-chronic_disease
+disease 19 26 342 349 I-chronic_disease
+
+peripheral 0 10 350 360 B-chronic_disease
+nerve 11 16 361 366 I-chronic_disease
+compressions 17 29 367 379 I-chronic_disease
+or 30 32 380 382 O
+rotator 33 40 383 390 O
+cuff 41 45 391 395 O
+tears 46 51 396 401 O
+that 52 56 402 406 O
+limit 57 62 407 412 O
+ability 63 70 413 420 O
+to 71 73 421 423 O
+row 74 77 424 427 O
+
+renal 0 5 428 433 B-chronic_disease
+disease 6 13 434 441 I-chronic_disease
+
+significant 0 11 442 453 O
+arrhythmias 12 23 454 465 B-chronic_disease
+

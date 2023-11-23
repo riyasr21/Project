@@ -1,0 +1,48 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+lidocaine 11 20 11 20 B-allergy_name
+or 21 23 21 23 O
+oxymetazoline 24 37 24 37 B-allergy_name
+hydroclhoride 38 51 38 51 I-allergy_name
+
+Any 0 3 52 55 O
+unstable 4 12 56 64 O
+cardiac 13 20 65 72 B-chronic_disease
+condition 21 30 73 82 I-chronic_disease
+( 31 32 83 84 O
+other 32 37 84 89 O
+than 38 42 90 94 O
+well 43 47 95 99 O
+controlled 48 58 100 110 O
+hypertension 59 71 111 123 B-chronic_disease
+) 71 72 123 124 O
+or 73 75 125 127 O
+pulmonary 76 85 128 137 B-chronic_disease
+problems 86 94 138 146 I-chronic_disease
+
+Claustrophobia 0 14 147 161 B-chronic_disease
+
+Concurrent 0 10 162 172 O
+sleep 11 16 173 178 O
+disorders 17 26 179 188 O
+( 27 28 189 190 O
+insomnia 28 36 190 198 B-chronic_disease
+, 36 37 198 199 O
+narcolepsy 38 48 200 210 B-chronic_disease
+, 48 49 210 211 O
+central 50 57 212 219 B-chronic_disease
+sleep 58 63 220 225 I-chronic_disease
+apnea 64 69 226 231 I-chronic_disease
+or 70 72 232 234 O
+parasomnia 73 83 235 245 B-chronic_disease
+) 83 84 245 246 O
+
+Normal 0 6 247 253 O
+subjects 7 15 254 262 O
+or 16 18 263 265 O
+patients 19 27 266 274 O
+with 28 32 275 279 O
+OSA 33 36 280 283 B-chronic_disease
+
+Pregnancy 0 9 284 293 B-pregnancy
+

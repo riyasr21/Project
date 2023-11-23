@@ -1,0 +1,50 @@
+fall 0 4 0 4 O
+from 5 9 5 9 O
+height 10 16 10 16 B-clinical_variable
+greater 17 24 17 24 O
+than 25 29 25 29 O
+10 30 32 30 32 B-lower_bound
+feet 33 37 33 37 I-lower_bound
+
+falls 0 5 38 43 O
+from 6 10 44 48 O
+less 11 15 49 53 O
+than 16 20 54 58 O
+10 21 23 59 61 B-upper_bound
+feet 24 28 62 66 I-upper_bound
+
+open 0 4 67 71 O
+fracture 5 13 72 80 O
+that 14 18 81 85 O
+would 19 24 86 91 O
+typically 25 34 92 101 O
+require 35 42 102 109 O
+operative 43 52 110 119 B-treatment
+reduction 53 62 120 129 I-treatment
+and 63 66 130 133 I-treatment
+fixation 67 75 134 142 I-treatment
+
+wound 0 5 143 148 O
+greater 6 13 149 156 O
+than 14 18 157 161 O
+1 19 20 162 163 B-lower_bound
+cm 20 22 163 165 I-lower_bound
+in 23 25 166 168 O
+length 26 32 169 175 O
+
+wound 0 5 176 181 O
+less 6 10 182 186 O
+than 11 15 187 191 O
+1 16 17 192 193 B-upper_bound
+cm 17 19 193 195 I-upper_bound
+in 20 22 196 198 O
+length 23 29 199 205 O
+and 30 33 206 209 O
+the 34 37 210 213 O
+bone 38 42 214 218 O
+not 43 46 219 222 O
+visualized 47 57 223 233 O
+through 58 65 234 241 O
+the 66 69 242 245 O
+skin 70 74 246 250 O
+

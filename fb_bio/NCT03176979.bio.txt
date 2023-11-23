@@ -1,0 +1,48 @@
+Newly 0 5 0 5 O
+diagnosed 6 15 6 15 O
+breast 16 22 16 22 B-cancer
+cancer 23 29 23 29 I-cancer
+patients 30 38 30 38 O
+
+Women 0 5 39 44 B-gender
+who 6 9 45 48 O
+are 10 13 49 52 B-pregnancy
+pregnant 14 22 53 61 I-pregnancy
+
+Women 0 5 62 67 B-gender
+with 6 10 68 72 O
+gadolinium 11 21 73 83 B-allergy_name
+contrast 22 30 84 92 O
+allergy 31 38 93 100 O
+
+Women 0 5 101 106 B-gender
+with 6 10 107 111 O
+history 11 18 112 119 O
+of 19 21 120 122 O
+surgical 22 30 123 131 B-treatment
+, 30 31 131 132 O
+medical 32 39 133 140 B-treatment
+, 39 40 140 141 O
+or 41 43 142 144 O
+radiation 44 53 145 154 B-treatment
+therapy 54 61 155 162 I-treatment
+for 62 65 163 166 O
+breast 66 72 167 173 B-cancer
+cancer 73 79 174 180 I-cancer
+
+Women 0 5 181 186 B-gender
+with 6 10 187 191 O
+iodine 11 17 192 198 B-allergy_name
+contrast 18 26 199 207 I-allergy_name
+allergy 27 34 208 215 O
+
+Women 0 5 216 221 B-gender
+with 6 10 222 226 O
+renal 11 16 227 232 B-chronic_disease
+failure 17 24 233 240 I-chronic_disease
+or 25 27 241 243 I-chronic_disease
+insufficiency 28 41 244 257 I-chronic_disease
+
+possibly 0 8 258 266 B-pregnancy
+pregnant 9 17 267 275 I-pregnancy
+

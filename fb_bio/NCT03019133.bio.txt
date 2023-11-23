@@ -1,0 +1,65 @@
+Subjects 0 8 0 8 O
+aged 9 13 9 13 B-age
+18 14 16 14 16 B-lower_bound
+- 16 17 16 17 O
+99 17 19 17 19 B-upper_bound
+years 20 25 20 25 I-upper_bound
+
+Subjects 0 8 26 34 O
+with 9 13 35 39 O
+a 14 15 40 41 O
+pacemaker 16 25 42 51 B-treatment
+or 26 28 52 54 O
+who 29 32 55 58 O
+have 33 37 59 63 O
+received 38 46 64 72 O
+cardiac 47 54 73 80 B-treatment
+transplant 55 65 81 91 I-treatment
+
+Subjects 0 8 92 100 O
+with 9 13 101 105 O
+known 14 19 106 111 O
+Dementia 20 28 112 120 B-chronic_disease
+, 28 29 120 121 O
+Parkinson 30 39 122 131 B-chronic_disease
+'s 39 41 131 133 I-chronic_disease
+disease 42 49 134 141 I-chronic_disease
+, 49 50 141 142 O
+or 51 53 143 145 O
+other 54 59 146 151 O
+neurodegenerative 60 77 152 169 B-chronic_disease
+disorder 78 86 170 178 I-chronic_disease
+
+Untreated 0 9 179 188 O
+sleep 10 15 189 194 B-chronic_disease
+apnea 16 21 195 200 I-chronic_disease
+disorder 22 30 201 209 I-chronic_disease
+, 30 31 209 210 O
+narcolepsy 32 42 211 221 B-chronic_disease
+, 42 43 221 222 O
+REM 44 47 223 226 B-chronic_disease
+sleep 48 53 227 232 I-chronic_disease
+behavior 54 62 233 241 I-chronic_disease
+disorder 63 71 242 250 I-chronic_disease
+, 71 72 250 251 O
+parasomnia 73 83 252 262 B-chronic_disease
+, 83 84 262 263 O
+restless 85 93 264 272 B-chronic_disease
+leg 94 97 273 276 I-chronic_disease
+syndrome 98 106 277 285 I-chronic_disease
+or 107 109 286 288 O
+other 110 115 289 294 O
+sleep 116 121 295 300 B-chronic_disease
+disorder 122 130 301 309 I-chronic_disease
+
+Use 0 3 310 313 O
+of 4 6 314 316 O
+vasopressors 7 19 317 329 B-treatment
+
+Ventilator 0 10 330 340 B-treatment
+support 11 18 341 348 I-treatment
+via 19 22 349 352 I-treatment
+an 23 25 353 355 I-treatment
+endotracheal 26 38 356 368 I-treatment
+tube 39 43 369 373 I-treatment
+

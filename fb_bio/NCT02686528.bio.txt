@@ -1,0 +1,25 @@
+Index 0 5 0 5 O
+diagnosis 6 15 6 15 O
+of 16 18 16 18 O
+noninflammatory 19 34 19 34 B-chronic_disease
+arthritis 35 44 35 44 I-chronic_disease
+
+Patients 0 8 45 53 O
+undergoing 9 19 54 64 O
+a 20 21 65 66 O
+primary 22 29 67 74 O
+total 30 35 75 80 B-treatment
+hip 36 39 81 84 I-treatment
+arthroplasty 40 52 85 97 I-treatment
+via 53 56 98 101 O
+the 57 60 102 105 O
+posterior 61 70 106 115 O
+approach 71 79 116 124 O
+by 80 82 125 127 O
+participating 83 96 128 141 O
+attending 97 106 142 151 O
+surgeons 107 115 152 160 O
+at 116 118 161 163 O
+this 119 123 164 168 O
+institution 124 135 169 180 O
+

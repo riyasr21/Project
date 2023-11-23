@@ -1,0 +1,166 @@
+Absolute 0 8 0 8 B-clinical_variable
+neutrophil 9 19 9 19 I-clinical_variable
+count 20 25 20 25 I-clinical_variable
+< 26 27 26 27 O
+1000 27 31 27 31 B-upper_bound
+/ 31 32 31 32 I-upper_bound
+mL 32 34 32 34 I-upper_bound
+
+Central 0 7 35 42 B-cancer
+nervous 8 15 43 50 I-cancer
+system 16 22 51 57 I-cancer
+metastases 23 33 58 68 I-cancer
+
+Child 0 5 69 74 B-clinical_variable
+- 5 6 74 75 I-clinical_variable
+Pugh 6 10 75 79 I-clinical_variable
+class 11 16 80 85 I-clinical_variable
+A 17 18 86 87 I-clinical_variable
+with 19 23 88 92 O
+no 24 26 93 95 O
+clinically 27 37 96 106 O
+apparent 38 46 107 115 O
+ascites 47 54 116 123 O
+
+Confirmed 0 9 124 133 O
+diagnosis 10 19 134 143 O
+of 20 22 144 146 O
+HCC 23 26 147 150 B-cancer
+by 27 29 151 153 O
+histological 30 42 154 166 O
+examination 43 54 167 178 O
+
+Eastern 0 7 179 186 B-clinical_variable
+Cooperative 8 19 187 198 I-clinical_variable
+Oncology 20 28 199 207 I-clinical_variable
+Group 29 34 208 213 I-clinical_variable
+( 35 36 214 215 I-clinical_variable
+ECOG 36 40 215 219 I-clinical_variable
+) 40 41 219 220 I-clinical_variable
+performance 42 53 221 232 I-clinical_variable
+status 54 60 233 239 I-clinical_variable
+of 61 63 240 242 O
+0 64 65 243 244 B-lower_bound
+- 65 66 244 245 O
+1 66 67 245 246 B-upper_bound
+
+For 0 3 247 250 O
+Part 4 8 251 255 O
+1 9 10 256 257 O
+and 11 14 258 261 O
+2 15 16 262 263 O
+, 16 17 263 264 O
+the 18 21 265 268 O
+patient 22 29 269 276 O
+has 30 33 277 280 O
+unresectable 34 46 281 293 B-chronic_disease
+disease 47 54 294 301 I-chronic_disease
+and 55 58 302 305 O
+has 59 62 306 309 O
+been 63 67 310 314 O
+previously 68 78 315 325 O
+treated 79 86 326 333 O
+with 87 91 334 338 O
+sorafenib 92 101 339 348 B-treatment
+
+For 0 3 349 352 O
+Part 4 8 353 357 O
+3 9 10 358 359 O
+, 10 11 359 360 O
+the 12 15 361 364 O
+patient 16 23 365 372 O
+has 24 27 373 376 O
+not 28 31 377 380 O
+received 32 40 381 389 O
+prior 41 46 390 395 O
+treatment 47 56 396 405 O
+with 57 61 406 410 O
+a 62 63 411 412 O
+TKI 64 67 413 416 B-treatment
+
+Hemoglobin 0 10 417 427 B-clinical_variable
+< 11 12 428 429 O
+8 12 13 429 430 B-upper_bound
+g 14 15 431 432 I-upper_bound
+/ 15 16 432 433 I-upper_bound
+dL 16 18 433 435 I-upper_bound
+
+International 0 13 436 449 B-clinical_variable
+normalized 14 24 450 460 I-clinical_variable
+ratio 25 30 461 466 I-clinical_variable
+( 31 32 467 468 I-clinical_variable
+INR 32 35 468 471 I-clinical_variable
+) 35 36 471 472 I-clinical_variable
+> 37 38 473 474 O
+2.3 38 41 474 477 B-lower_bound
+
+Platelet 0 8 478 486 B-clinical_variable
+count 9 14 487 492 I-clinical_variable
+< 15 16 493 494 O
+75,000 16 22 494 500 B-upper_bound
+/ 22 23 500 501 I-upper_bound
+mL 23 25 501 503 I-upper_bound
+
+Total 0 5 504 509 O
+bilirubin 6 15 510 519 B-clinical_variable
+> 16 17 520 521 O
+2.5 17 20 521 524 B-lower_bound
+mg 21 23 525 527 I-lower_bound
+/ 23 24 527 528 I-lower_bound
+dL 24 26 528 530 I-lower_bound
+
+alanine 0 7 531 538 B-clinical_variable
+aminotransferase 8 24 539 555 I-clinical_variable
+( 25 26 556 557 I-clinical_variable
+ALT 26 29 557 560 I-clinical_variable
+) 29 30 560 561 I-clinical_variable
+> 31 32 562 563 O
+5x 32 34 563 565 B-lower_bound
+the 35 38 566 569 I-lower_bound
+upper 39 44 570 575 I-lower_bound
+limit 45 50 576 581 I-lower_bound
+of 51 53 582 584 I-lower_bound
+normal 54 60 585 591 I-lower_bound
+( 61 62 592 593 I-lower_bound
+ULN 62 65 593 596 I-lower_bound
+) 65 66 596 597 I-lower_bound
+
+does 0 4 598 602 O
+not 5 8 603 606 O
+have 9 13 607 611 O
+access 14 20 612 618 O
+to 21 23 619 621 O
+sorafenib 24 33 622 631 B-treatment
+
+has 0 3 632 635 O
+declined 4 12 636 644 O
+treatment 13 22 645 654 B-treatment
+with 23 27 655 659 I-treatment
+sorafenib 28 37 660 669 I-treatment
+
+measured 0 8 670 678 O
+creatinine 9 19 679 689 B-clinical_variable
+clearance 20 29 690 699 I-clinical_variable
+< 30 31 700 701 O
+40 31 33 701 703 B-upper_bound
+mL 34 36 704 706 I-upper_bound
+/ 36 37 706 707 I-upper_bound
+min 37 40 707 710 I-upper_bound
+
+prothrombin 0 11 711 722 B-clinical_variable
+time 12 16 723 727 I-clinical_variable
+( 17 18 728 729 I-clinical_variable
+PT 18 20 729 731 I-clinical_variable
+) 20 21 731 732 I-clinical_variable
+> 22 23 733 734 O
+6 23 24 734 735 B-lower_bound
+seconds 25 32 736 743 I-lower_bound
+above 33 38 744 749 O
+control 39 46 750 757 O
+
+spartate 0 8 758 766 B-clinical_variable
+aminotransferase 9 25 767 783 I-clinical_variable
+( 26 27 784 785 I-clinical_variable
+AST 27 30 785 788 I-clinical_variable
+) 30 31 788 789 I-clinical_variable
+

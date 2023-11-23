@@ -1,0 +1,62 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+complete 8 16 8 16 O
+a 17 18 17 18 O
+home 19 23 19 23 O
+- 23 24 23 24 O
+based 24 29 24 29 O
+RMT 30 33 30 33 B-treatment
+regimen 34 41 34 41 I-treatment
+
+Age 0 3 42 45 B-age
+≥ 4 5 46 47 O
+18 6 8 48 50 B-lower_bound
+years 9 14 51 56 I-lower_bound
+
+Inability 0 9 57 66 B-language_fluency
+to 10 12 67 69 I-language_fluency
+read 13 17 70 74 I-language_fluency
+and 18 21 75 78 I-language_fluency
+understand 22 32 79 89 I-language_fluency
+English 33 40 90 97 I-language_fluency
+
+Neurodegenerative 0 17 98 115 B-chronic_disease
+conditions 18 28 116 126 I-chronic_disease
+( 29 30 127 128 O
+e.g. 30 34 128 132 O
+stroke 35 41 133 139 B-chronic_disease
+, 41 42 139 140 O
+dementia 43 51 141 149 B-chronic_disease
+) 51 52 149 150 O
+or 53 55 151 153 O
+other 56 61 154 159 O
+serious 62 69 160 167 B-chronic_disease
+neurologic 70 80 168 178 I-chronic_disease
+condition 81 90 179 188 I-chronic_disease
+that 91 95 189 193 O
+would 96 101 194 199 O
+prevent 102 109 200 207 O
+meaningful 110 120 208 218 O
+study 121 126 219 224 O
+participation 127 140 225 238 O
+as 141 143 239 241 O
+determined 144 154 242 252 O
+at 155 157 253 255 O
+the 158 161 256 259 O
+discretion 162 172 260 270 O
+of 173 175 271 273 O
+the 176 179 274 277 O
+principle 180 189 278 287 O
+investigator 190 202 288 300 O
+
+On 0 2 301 303 O
+enzyme 3 9 304 310 B-treatment
+replacement 10 21 311 322 I-treatment
+therapy 22 29 323 330 I-treatment
+for 30 33 331 334 O
+≥ 34 35 335 336 O
+26 36 38 337 339 B-lower_bound
+weeks 39 44 340 345 I-lower_bound
+at 45 47 346 348 O
+pretest 48 55 349 356 O
+

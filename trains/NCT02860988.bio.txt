@@ -1,0 +1,9 @@
+Male 0 4 0 4 B-gender
+inmates 5 12 5 12 O
+at 13 15 13 15 O
+specific 16 24 16 24 O
+eastern 25 32 25 32 O
+Kentucky 33 41 33 41 O
+jail 42 46 42 46 O
+sites 47 52 47 52 O
+

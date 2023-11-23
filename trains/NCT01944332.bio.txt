@@ -1,0 +1,17 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+complete 14 22 14 22 O
+fertilization 23 36 23 36 O
+failure 37 44 37 44 O
+with 45 49 45 49 O
+standard 50 58 50 58 O
+IVF 59 62 59 62 O
+or 63 65 63 65 O
+failure 66 73 66 73 O
+with 74 78 74 78 O
+one 79 82 79 82 O
+prior 83 88 83 88 O
+ICSI 89 93 89 93 B-treatment
+treatment 94 103 94 103 I-treatment
+cycle 104 109 104 109 O
+

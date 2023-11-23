@@ -1,0 +1,53 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+Parkinson 13 22 13 22 B-chronic_disease
+'s 22 24 22 24 I-chronic_disease
+Disease 25 32 25 32 I-chronic_disease
+using 33 38 33 38 O
+the 39 42 39 42 O
+UK 43 45 43 45 O
+Brain 46 51 46 51 O
+Bank 52 56 52 56 O
+Criteria 57 65 57 65 O
+
+Features 0 8 66 74 O
+suggestive 9 19 75 85 O
+of 20 22 86 88 O
+other 23 28 89 94 O
+causes 29 35 95 101 O
+of 36 38 102 104 O
+parkinsonism 39 51 105 117 B-chronic_disease
+, 51 52 117 118 O
+including 53 62 119 128 O
+cerebrovascular 63 78 129 144 B-chronic_disease
+disease 79 86 145 152 I-chronic_disease
+or 87 89 153 155 O
+history 90 97 156 163 O
+of 98 100 164 166 O
+major 101 106 167 172 O
+head 107 111 173 177 O
+trauma 112 118 178 184 O
+
+Medication 0 10 185 195 O
+stable 11 17 196 202 O
+for 18 21 203 206 O
+at 22 24 207 209 O
+least 25 30 210 215 O
+30 31 33 216 218 B-lower_bound
+days 34 38 219 223 I-lower_bound
+
+Participants 0 12 224 236 O
+whose 13 18 237 242 O
+insurance 19 28 243 252 O
+does 29 33 253 257 O
+not 34 37 258 261 O
+cover 38 43 262 267 O
+Occupational 44 56 268 280 B-treatment
+Therapy 57 64 281 288 I-treatment
+costs 65 70 289 294 O
+or 71 73 295 297 O
+who 74 77 298 301 O
+have 78 82 302 306 O
+no 83 85 307 309 O
+insurance 86 95 310 319 O
+

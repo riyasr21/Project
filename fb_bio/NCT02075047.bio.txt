@@ -1,0 +1,41 @@
+DSM 0 3 0 3 O
+V 4 5 4 5 O
+criteria 6 14 6 14 O
+for 15 18 15 18 O
+Bipolar 19 26 19 26 B-chronic_disease
+I 27 28 27 28 I-chronic_disease
+disorder 29 37 29 37 I-chronic_disease
+( 38 39 38 39 O
+manic 39 44 39 44 O
+or 45 47 45 47 O
+mixed 48 53 48 53 O
+) 53 54 53 54 O
+
+Imminent 0 8 55 63 O
+risk 9 13 64 68 O
+of 14 16 69 71 O
+suicide 17 24 72 79 B-chronic_disease
+or 25 27 80 82 O
+homicide 28 36 83 91 O
+
+age 0 3 92 95 B-age
+10 4 6 96 98 B-lower_bound
+- 7 8 99 100 O
+17 9 11 101 103 B-upper_bound
+years 12 17 104 109 I-upper_bound
+
+any 0 3 110 113 O
+history 4 11 114 121 O
+of 12 14 122 124 O
+serious 15 22 125 132 O
+or 23 25 133 135 O
+unstable 26 34 136 144 O
+medical 35 42 145 152 O
+illness 43 50 153 160 O
+, 50 51 160 161 O
+including 52 61 162 171 O
+risk 62 66 172 176 O
+for 67 70 177 180 O
+QT 71 73 181 183 B-chronic_disease
+prolongation 74 86 184 196 I-chronic_disease
+

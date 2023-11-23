@@ -1,0 +1,5 @@
+Liver 0 5 0 5 B-treatment
+and/or 6 12 6 12 I-treatment
+heart 13 18 13 18 I-treatment
+transplant 19 29 19 29 I-treatment
+

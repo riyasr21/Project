@@ -1,0 +1,207 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+65 3 5 3 5 B-upper_bound
+year 6 10 6 10 I-upper_bound
+old 11 14 11 14 O
+male 15 19 15 19 B-gender
+and 20 23 20 23 I-gender
+female 24 30 24 30 I-gender
+patients 31 39 31 39 I-gender
+with 40 44 40 44 O
+primary 45 52 45 52 B-chronic_disease
+cervical 53 61 53 61 I-chronic_disease
+dystonia 62 70 62 70 I-chronic_disease
+
+ALT 0 3 71 74 B-clinical_variable
+or 4 6 75 77 O
+AST 7 10 78 81 B-clinical_variable
+greater 11 18 82 89 O
+than 19 23 90 94 O
+twice 24 29 95 100 B-lower_bound
+normal 30 36 101 107 I-lower_bound
+value 37 42 108 113 I-lower_bound
+
+Active 0 6 114 120 O
+depression 7 17 121 131 B-chronic_disease
+
+Active 0 6 132 138 B-chronic_disease
+infection 7 16 139 148 I-chronic_disease
+
+Active 0 6 149 155 O
+psychosis 7 16 156 165 B-chronic_disease
+
+Cognitive 0 9 166 175 B-treatment
+impairment 10 20 176 186 I-treatment
+
+Creatinine 0 10 187 197 B-clinical_variable
+clearance 11 20 198 207 I-clinical_variable
+< 21 22 208 209 O
+50ml 23 27 210 214 B-upper_bound
+/ 27 28 214 215 I-upper_bound
+min 28 31 215 218 I-upper_bound
+
+Galactose 0 9 219 228 B-chronic_disease
+intolerance 10 21 229 240 I-chronic_disease
+, 21 22 240 241 O
+the 23 26 242 245 O
+Lapp 27 31 246 250 B-chronic_disease
+lactase 32 39 251 258 I-chronic_disease
+deficiency 40 50 259 269 I-chronic_disease
+or 51 53 270 272 O
+glucose 54 61 273 280 B-chronic_disease
+- 61 62 280 281 I-chronic_disease
+galactose 62 71 281 290 I-chronic_disease
+malabsorption 72 85 291 304 I-chronic_disease
+
+Hamilton 0 8 305 313 B-clinical_variable
+Depression 9 19 314 324 I-clinical_variable
+Rating 20 26 325 331 I-clinical_variable
+Scale 27 32 332 337 I-clinical_variable
+( 33 34 338 339 I-clinical_variable
+HDRS 34 38 339 343 I-clinical_variable
+) 38 39 343 344 I-clinical_variable
+score 40 45 345 350 I-clinical_variable
+≥ 46 47 351 352 O
+12 48 50 353 355 B-lower_bound
+
+Hypersensitivity 0 16 356 372 O
+to 17 19 373 375 O
+perampanel 20 30 376 386 B-allergy_name
+
+Montreal 0 8 387 395 B-clinical_variable
+Cognitive 9 18 396 405 I-clinical_variable
+assessment 19 29 406 416 I-clinical_variable
+( 30 31 417 418 I-clinical_variable
+MOCA 31 35 418 422 I-clinical_variable
+) 35 36 422 423 I-clinical_variable
+< 37 38 424 425 O
+26 39 41 426 428 B-upper_bound
+
+Secondary 0 9 429 438 B-chronic_disease
+cervical 10 18 439 447 I-chronic_disease
+dystonia 19 27 448 456 I-chronic_disease
+
+Significant 0 11 457 468 O
+renal 12 17 469 474 B-chronic_disease
+dysfunction 18 29 475 486 I-chronic_disease
+
+Subject 0 7 487 494 O
+may 8 11 495 498 O
+be 12 14 499 501 O
+untreated 15 24 502 511 O
+with 25 29 512 516 O
+botulinum 30 39 517 526 B-treatment
+toxin 40 45 527 532 I-treatment
+
+Subjects 0 8 533 541 O
+may 9 12 542 545 O
+be 13 15 546 548 O
+on 16 18 549 551 O
+stable 19 25 552 558 O
+anti 26 30 559 563 B-treatment
+- 30 31 563 564 I-treatment
+dystonia 31 39 564 572 I-treatment
+treatment 40 49 573 582 I-treatment
+( 50 51 583 584 O
+for 51 54 584 587 O
+at 55 57 588 590 O
+least 58 63 591 596 O
+one 64 67 597 600 B-lower_bound
+month 68 73 601 606 I-lower_bound
+) 73 74 606 607 O
+including 75 84 608 617 O
+anticholinergics 85 101 618 634 B-treatment
+, 101 102 634 635 O
+baclofen 103 111 636 644 B-treatment
+, 111 112 644 645 O
+and 113 116 646 649 O
+anxiolytics 117 128 650 661 B-treatment
+including 129 138 662 671 O
+benzodiazepines 139 154 672 687 B-treatment
+
+Women 0 5 688 693 B-gender
+who 6 9 694 697 O
+are 10 13 698 701 O
+pregnant 14 22 702 710 B-pregnancy
+or 23 25 711 713 O
+plan 26 30 714 718 B-pregnancy
+to 31 33 719 721 I-pregnancy
+become 34 40 722 728 I-pregnancy
+pregnant 41 49 729 737 I-pregnancy
+
+active 0 6 738 744 O
+liver 7 12 745 750 B-chronic_disease
+disease 13 20 751 758 I-chronic_disease
+
+barbiturates 0 12 759 771 B-treatment
+
+cholestasis 0 11 772 783 B-chronic_disease
+
+cirrhosis 0 9 784 793 B-chronic_disease
+
+efavirenz 0 9 794 803 B-treatment
+
+elevated 0 8 804 812 B-clinical_variable
+bilirubin 9 18 813 822 I-clinical_variable
+
+glucocorticoids 0 15 823 838 B-treatment
+( 16 17 839 840 O
+other 17 22 840 845 O
+than 23 27 846 850 O
+topical 28 35 851 858 B-treatment
+usage 36 41 859 864 I-treatment
+) 41 42 864 865 O
+
+hepatitis 0 9 866 875 B-chronic_disease
+
+modafinil 0 9 876 885 B-treatment
+
+nevirapine 0 10 886 896 B-treatment
+
+pioglitazone 0 12 897 909 B-treatment
+
+rifabutin 0 9 910 919 B-treatment
+
+treated 0 7 920 927 O
+with 8 12 928 932 O
+botulinum 13 22 933 942 B-treatment
+toxin 23 28 943 948 I-treatment
+but 29 32 949 952 O
+who 33 36 953 956 O
+are 37 40 957 960 O
+at 41 43 961 963 O
+least 44 49 964 969 O
+8 50 51 970 971 B-lower_bound
+weeks 52 57 972 977 I-lower_bound
+( 58 59 978 979 O
++ 59 60 979 980 O
+1 61 62 981 982 O
+week 63 67 983 987 O
+) 67 68 987 988 O
+from 69 73 989 993 O
+a 74 75 994 995 O
+previous 76 84 996 1004 O
+injection 85 94 1005 1014 O
+
+who 0 3 1015 1018 O
+have 4 8 1019 1023 O
+experienced 9 20 1024 1035 O
+an 21 23 1036 1038 O
+insufficient 24 36 1039 1051 O
+response 37 45 1052 1060 O
+to 46 48 1061 1063 O
+botulinum 49 58 1064 1073 B-allergy_name
+toxin 59 64 1074 1079 I-allergy_name
+in 65 67 1080 1082 O
+the 68 71 1083 1086 O
+opinion 72 79 1087 1094 O
+of 80 82 1095 1097 O
+the 83 86 1098 1101 O
+enrolling 87 96 1102 1111 O
+investigator 97 109 1112 1124 O
+
+women 0 5 1125 1130 B-gender
+who 6 9 1131 1134 O
+are 10 13 1135 1138 O
+breastfeeding 14 27 1139 1152 O
+

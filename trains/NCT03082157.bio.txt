@@ -1,0 +1,41 @@
+30 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+50 3 5 3 5 B-upper_bound
+
+BMI 0 3 6 9 B-bmi
+
+Fluent 0 6 10 16 B-language_fluency
+in 7 9 17 19 I-language_fluency
+english 10 17 20 27 I-language_fluency
+
+Less 0 4 28 32 O
+than 5 9 33 37 O
+400 10 13 38 41 B-upper_bound
+pounds 14 20 42 48 I-upper_bound
+
+Participant 0 11 49 60 O
+in 12 14 61 63 O
+another 15 22 64 71 O
+obesity 23 30 72 79 B-chronic_disease
+, 30 31 79 80 O
+eating 32 38 81 87 O
+or 39 41 88 90 O
+physical 42 50 91 99 O
+activity 51 59 100 108 O
+program 60 67 109 116 O
+or 68 70 117 119 O
+study 71 76 120 125 O
+-Psychiatric 77 89 126 138 O
+hospitalization 90 105 139 154 O
+in 106 108 155 157 O
+the 109 112 158 161 O
+past 113 117 162 166 B-upper_bound
+12 118 120 167 169 I-upper_bound
+months 121 127 170 176 I-upper_bound
+
+Prior 0 5 177 182 B-treatment
+or 6 8 183 185 I-treatment
+planned 9 16 186 193 I-treatment
+bariatric 17 26 194 203 I-treatment
+surgery 27 34 204 211 I-treatment
+

@@ -1,0 +1,24 @@
+Acutely 0 7 0 7 B-chronic_disease
+psychotic 8 17 8 17 I-chronic_disease
+
+History 0 7 18 25 O
+of 8 10 26 28 O
+mood 11 15 29 33 B-chronic_disease
+incongruent 16 27 34 45 I-chronic_disease
+psychotic 28 37 46 55 I-chronic_disease
+symptoms 38 46 56 64 O
+
+History 0 7 65 72 O
+of 8 10 73 75 O
+primary 11 18 76 83 B-chronic_disease
+organic 19 26 84 91 I-chronic_disease
+disease 27 34 92 99 I-chronic_disease
+and/or 35 41 100 106 O
+dementia 42 50 107 115 B-chronic_disease
+
+History 0 7 116 123 O
+of 8 10 124 126 O
+schizophrenia 11 24 127 140 B-chronic_disease
+spectrum 25 33 141 149 I-chronic_disease
+disorder 34 42 150 158 I-chronic_disease
+

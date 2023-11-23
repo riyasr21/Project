@@ -1,0 +1,36 @@
+Android 0 7 0 7 B-technology_access
+cell 8 12 8 12 I-technology_access
+phone 13 18 13 18 I-technology_access
+
+Average 0 7 19 26 B-clinical_variable
+normal 8 14 27 33 I-clinical_variable
+sleep 15 20 34 39 I-clinical_variable
+duration 21 29 40 48 I-clinical_variable
+≤ 30 31 49 50 O
+7.5 32 35 51 54 B-upper_bound
+hours 36 41 55 60 I-upper_bound
+
+BMI 0 3 61 64 B-bmi
+≥95th 4 9 65 70 O
+percentile 10 20 71 81 I-lower_bound
+
+Males 0 5 82 87 B-gender
+
+Severe 0 6 88 94 B-chronic_disease
+intellectual 7 19 95 107 I-chronic_disease
+disability 20 30 108 118 I-chronic_disease
+
+Severe 0 6 119 125 B-chronic_disease
+mental 7 13 126 132 I-chronic_disease
+illness 14 21 133 140 I-chronic_disease
+
+Sleep 0 5 141 146 B-chronic_disease
+disorders 6 15 147 156 I-chronic_disease
+
+ages 0 4 157 161 B-age
+15 5 7 162 164 B-lower_bound
+- 7 8 164 165 O
+17 8 10 165 167 B-upper_bound
+
+females 0 7 168 175 B-gender
+

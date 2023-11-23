@@ -1,0 +1,102 @@
+Acute 0 5 0 5 O
+cardiovascular 6 20 6 20 B-chronic_disease
+disease 21 28 21 28 I-chronic_disease
+( 29 30 29 30 I-chronic_disease
+CVD 30 33 30 33 I-chronic_disease
+) 33 34 33 34 I-chronic_disease
+events 35 41 35 41 O
+< 42 43 42 43 O
+3 44 45 44 45 B-upper_bound
+months 46 52 46 52 I-upper_bound
+ago 53 56 53 56 O
+
+Adults 0 6 57 63 O
+( 7 8 64 65 O
+21 8 10 65 67 B-upper_bound
+years 11 16 68 73 I-upper_bound
+) 16 17 73 74 O
+with 18 22 75 79 O
+Type 23 27 80 84 B-chronic_disease
+2 28 29 85 86 I-chronic_disease
+diabetes 30 38 87 95 I-chronic_disease
+
+An 0 2 96 98 O
+available 3 12 99 108 B-technology_access
+phone 13 18 109 114 I-technology_access
+and 19 22 115 118 O
+receiving 23 32 119 128 O
+continuity 33 43 129 139 O
+of 44 46 140 142 O
+care 47 51 143 147 O
+at 52 54 148 150 O
+the 55 58 151 154 O
+VA 59 61 155 157 O
+( 62 63 158 159 O
+at 63 65 159 161 O
+least 66 71 162 167 O
+2 72 73 168 169 B-lower_bound
+primary 74 81 170 177 O
+care 82 86 178 182 O
+visits 87 93 183 189 O
+in 94 96 190 192 O
+the 97 100 193 196 O
+previous 101 109 197 205 B-upper_bound
+1.5 110 113 206 209 I-upper_bound
+years 114 119 210 215 I-upper_bound
+at 120 122 216 218 O
+the 123 126 219 222 O
+recruitment 127 138 223 234 O
+site 139 143 235 239 O
+) 143 144 239 240 O
+
+Diabetes 0 8 241 249 B-clinical_variable
+therapy 9 16 250 257 I-clinical_variable
+for 17 20 258 261 O
+> 21 22 262 263 O
+6 23 24 264 265 B-lower_bound
+months 25 31 266 272 I-lower_bound
+
+History 0 7 273 280 O
+of 8 10 281 283 O
+healed 11 17 284 290 O
+diabetic 18 26 291 299 B-clinical_variable
+foot 27 31 300 304 I-clinical_variable
+ulcer 32 37 305 310 I-clinical_variable
+( 38 39 311 312 O
+> 39 40 312 313 O
+3 40 41 313 314 B-lower_bound
+months 42 48 315 321 I-lower_bound
+) 48 49 321 322 O
+
+Patients 0 8 323 331 O
+with 9 13 332 336 O
+an 14 16 337 339 O
+active 17 23 340 346 O
+foot 24 28 347 351 B-chronic_disease
+ulcer 29 34 352 357 I-chronic_disease
+
+Poor 0 4 358 362 B-clinical_variable
+estimated 5 14 363 372 I-clinical_variable
+short 15 20 373 378 I-clinical_variable
+- 20 21 378 379 I-clinical_variable
+term 21 25 379 383 I-clinical_variable
+survival 26 34 384 392 I-clinical_variable
+( 35 36 393 394 O
+< 36 37 394 395 O
+1 38 39 396 397 B-upper_bound
+year 40 44 398 402 I-upper_bound
+) 44 45 402 403 O
+
+Prior 0 5 404 409 B-treatment
+foot 6 10 410 414 I-treatment
+amputation 11 21 415 425 I-treatment
+
+Recent 0 6 426 432 O
+major 7 12 433 438 B-treatment
+surgery 13 20 439 446 I-treatment
+( 21 22 447 448 O
+< 22 23 448 449 O
+3 24 25 450 451 B-upper_bound
+months 26 32 452 458 I-upper_bound
+) 32 33 458 459 O
+

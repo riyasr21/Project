@@ -1,0 +1,164 @@
+Age 0 3 0 3 B-age
+≥60 4 7 4 7 O
+years 8 13 8 13 I-lower_bound
+at 14 16 14 16 O
+time 17 21 17 21 O
+of 22 24 22 24 O
+transplantation 25 40 25 40 B-treatment
+
+Chemotherapy 0 12 41 53 B-treatment
+or 13 15 54 56 O
+radiotherapy 16 28 57 69 B-treatment
+within 29 35 70 76 O
+8 36 37 77 78 B-upper_bound
+days 38 42 79 83 I-upper_bound
+of 43 45 84 86 O
+initiating 46 56 87 97 O
+treatment 57 66 98 107 O
+in 67 69 108 110 O
+this 70 74 111 115 O
+study 75 80 116 121 O
+
+Confirmed 0 9 122 131 O
+diagnosis 10 19 132 141 O
+of 20 22 142 144 O
+multiple 23 31 145 153 B-cancer
+myeloma 32 39 154 161 I-cancer
+less 40 44 162 166 O
+than 45 49 167 171 O
+12 50 52 172 174 B-upper_bound
+months 53 59 175 181 I-upper_bound
+since 60 65 182 187 O
+initiation 66 76 188 198 O
+of 77 79 199 201 O
+systemic 80 88 202 210 B-treatment
+therapy 89 96 211 218 I-treatment
+
+Diagnosis 0 9 219 228 O
+other 10 15 229 234 O
+than 16 20 235 239 O
+multiple 21 29 240 248 B-cancer
+myeloma 30 37 249 256 I-cancer
+
+Evidence 0 8 257 265 O
+of 9 11 266 268 O
+hepatic 12 19 269 276 B-chronic_disease
+synthetic 20 29 277 286 I-chronic_disease
+dysfunction 30 41 287 298 I-chronic_disease
+or 42 44 299 301 O
+total 45 50 302 307 B-clinical_variable
+bilirubin 51 60 308 317 I-clinical_variable
+> 61 62 318 319 O
+2x 63 65 320 322 B-lower_bound
+or 66 68 323 325 O
+AST 69 72 326 329 B-clinical_variable
+> 73 74 330 331 O
+3x 75 77 332 334 B-lower_bound
+ULN 78 81 335 338 I-lower_bound
+
+FVC 0 3 339 342 B-clinical_variable
+, 3 4 342 343 O
+FEV1 5 9 344 348 B-clinical_variable
+or 10 12 349 351 O
+DLCO 13 17 352 356 B-clinical_variable
+< 18 19 357 358 O
+40 20 22 359 361 B-upper_bound
+% 22 23 361 362 I-upper_bound
+of 24 26 363 365 O
+predicted 27 36 366 375 O
+and/or 37 43 376 382 O
+receiving 44 53 383 392 O
+supplementary 54 67 393 406 O
+continuous 68 78 407 417 O
+oxygen 79 85 418 424 O
+
+KPS 0 3 425 428 B-clinical_variable
+70 4 6 429 431 B-lower_bound
+- 6 7 431 432 O
+100 7 10 432 435 B-upper_bound
+% 10 11 435 436 I-upper_bound
+
+Karnofsky 0 9 437 446 B-clinical_variable
+score 10 15 447 452 I-clinical_variable
+< 16 17 453 454 O
+70 18 20 455 457 B-upper_bound
+% 20 21 457 458 I-upper_bound
+
+Known 0 5 459 464 O
+amyloid 6 13 465 472 B-chronic_disease
+deposition 14 24 473 483 I-chronic_disease
+in 25 27 484 486 I-chronic_disease
+heart 28 33 487 492 I-chronic_disease
+
+LVEF 0 4 493 497 B-clinical_variable
+< 5 6 498 499 O
+40 6 8 499 501 B-upper_bound
+% 8 9 501 502 I-upper_bound
+or 10 12 503 505 O
+cardiac 13 20 506 513 B-chronic_disease
+failure 21 28 514 521 I-chronic_disease
+not 29 32 522 525 O
+responsive 33 43 526 536 O
+to 44 46 537 539 O
+therapy 47 54 540 547 B-treatment
+
+Life 0 4 548 552 B-clinical_variable
+expectancy 5 15 553 563 I-clinical_variable
+limited 16 23 564 571 O
+by 24 26 572 574 O
+other 27 32 575 580 O
+co 33 35 581 583 O
+- 35 36 583 584 O
+morbid 36 42 584 590 O
+illnesses 43 52 591 600 O
+
+Measured 0 8 601 609 O
+creatinine 9 19 610 620 B-clinical_variable
+< 20 21 621 622 O
+20ml 22 26 623 627 B-upper_bound
+/ 26 27 627 628 I-upper_bound
+min 27 30 628 631 I-upper_bound
+
+Organ 0 5 632 637 B-chronic_disease
+dysfunction 6 17 638 649 I-chronic_disease
+
+Prior 0 5 650 655 O
+dose 6 10 656 660 B-treatment
+- 10 11 660 661 I-treatment
+intense 11 18 661 668 I-treatment
+therapy 19 26 669 676 I-treatment
+within 27 33 677 683 O
+56 34 36 684 686 B-upper_bound
+days 37 41 687 691 I-upper_bound
+of 42 44 692 694 O
+initiating 45 55 695 705 O
+treatment 56 65 706 715 B-treatment
+in 66 68 716 718 O
+this 69 73 719 723 O
+study 74 79 724 729 O
+
+Sensory 0 7 730 737 B-chronic_disease
+peripheral 8 18 738 748 I-chronic_disease
+neuropathy 19 29 749 759 I-chronic_disease
+grade 30 35 760 765 I-chronic_disease
+4 36 37 766 767 I-chronic_disease
+within 38 44 768 774 O
+14 45 47 775 777 B-upper_bound
+days 48 52 778 782 I-upper_bound
+of 53 55 783 785 O
+enrollment 56 66 786 796 O
+
+Uncontrolled 0 12 797 809 O
+CNS 13 16 810 813 B-cancer
+metastases 17 27 814 824 I-cancer
+
+Uncontrolled 0 12 825 837 O
+bacterial 13 22 838 847 B-chronic_disease
+, 22 23 847 848 O
+viral 24 29 849 854 B-chronic_disease
+, 29 30 854 855 O
+fungal 31 37 856 862 B-chronic_disease
+or 38 40 863 865 O
+parasitic 41 50 866 875 B-chronic_disease
+infections 51 61 876 886 I-chronic_disease
+

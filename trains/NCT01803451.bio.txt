@@ -1,0 +1,40 @@
+GI 0 2 0 2 B-chronic_disease
+obstruction 3 14 3 14 I-chronic_disease
+
+Individuals 0 11 15 26 O
+with 12 16 27 31 O
+bariatric 17 26 32 41 B-treatment
+surgery 27 34 42 49 I-treatment
+
+age 0 3 50 53 B-age
+18 4 6 54 56 B-lower_bound
+- 6 7 56 57 O
+65 7 9 57 59 B-upper_bound
+
+diabetes 0 8 60 68 B-chronic_disease
+currently 9 18 69 78 O
+unless 19 25 79 85 O
+pre 26 29 86 89 O
+- 29 30 89 90 O
+op 30 32 90 92 O
+for 33 36 93 96 O
+bariatric 37 46 97 106 B-treatment
+surgery 47 54 107 114 I-treatment
+procedure 55 64 115 124 O
+
+healthy 0 7 125 132 O
+control 8 15 133 140 O
+without 16 23 141 148 O
+diabetes 24 32 149 157 B-chronic_disease
+
+pregnancy 0 9 158 167 B-pregnancy
+
+recurrent 0 9 168 177 O
+hypoglycemia 10 22 178 190 B-chronic_disease
+post 23 27 191 195 B-treatment
+gastric 28 35 196 203 I-treatment
+bypass 36 42 204 210 I-treatment
+
+significant 0 11 211 222 O
+anemia 12 18 223 229 B-chronic_disease
+

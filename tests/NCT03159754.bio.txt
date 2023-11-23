@@ -1,0 +1,45 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+penicillin 11 21 11 21 B-allergy_name
+plus 22 26 22 26 O
+any 27 30 27 30 O
+one 31 34 31 34 O
+of 35 37 35 37 O
+the 38 41 38 41 O
+following 42 51 42 51 O
+
+Hypersensitivity 0 16 52 68 O
+to 17 19 69 71 O
+ciprofloxacin 20 33 72 85 B-allergy_name
+and/or 34 40 86 92 O
+metronidazole 41 54 93 106 B-allergy_name
+
+Immunocompromized 0 17 107 124 B-chronic_disease
+state 18 23 125 130 O
+
+Patient 0 7 131 138 O
+taking 8 14 139 145 O
+tizanidine 15 25 146 156 B-treatment
+
+Patients 0 8 157 165 O
+taking 9 15 166 172 O
+theophylline 16 28 173 185 B-treatment
+
+Pregnant 0 8 186 194 B-pregnancy
+
+Pregnant 0 8 195 203 B-pregnancy
+women 9 14 204 209 B-gender
+
+Previous 0 8 210 218 O
+appendicitis 9 21 219 231 B-chronic_disease
+
+White 0 5 232 237 B-clinical_variable
+blood 6 11 238 243 I-clinical_variable
+cell 12 16 244 248 I-clinical_variable
+count 17 22 249 254 I-clinical_variable
+( 23 24 255 256 I-clinical_variable
+WBC 24 27 256 259 I-clinical_variable
+) 27 28 259 260 I-clinical_variable
+> 29 30 261 262 O
+15 30 32 262 264 B-lower_bound
+

@@ -1,0 +1,27 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Blind 0 5 16 21 B-chronic_disease
+or 6 8 22 24 O
+deaf 9 13 25 29 B-chronic_disease
+
+Dementia 0 8 30 38 B-chronic_disease
+
+Diagnosis 0 9 39 48 O
+of 10 12 49 51 O
+type 13 17 52 56 B-chronic_disease
+2 18 19 57 58 I-chronic_disease
+diabetes 20 28 59 67 I-chronic_disease
+mellitus 29 37 68 76 I-chronic_disease
+
+Drug 0 4 77 81 O
+- 4 5 81 82 O
+induced 5 12 82 89 O
+diabetes 13 21 90 98 B-chronic_disease
+
+Terminal 0 8 99 107 O
+medical 9 16 108 115 B-chronic_disease
+condition 17 26 116 125 I-chronic_disease
+

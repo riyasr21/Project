@@ -1,0 +1,84 @@
+Kidney 0 6 0 6 B-treatment
+transplant 7 17 7 17 I-treatment
+recipients 18 28 18 28 O
+
+Patients 0 8 29 37 O
+with 9 13 38 42 O
+CKD 14 17 43 46 B-chronic_disease
+
+estimated 0 9 47 56 O
+Glomerular 10 20 57 67 B-clinical_variable
+Filtration 21 31 68 78 I-clinical_variable
+Rate 32 36 79 83 I-clinical_variable
+< 37 38 84 85 O
+60ml 39 43 86 90 B-upper_bound
+/ 43 44 90 91 I-upper_bound
+min/1.73m2 44 54 91 101 I-upper_bound
+
+expected 0 8 102 110 O
+life 9 13 111 115 B-clinical_variable
+expectancy 14 24 116 126 I-clinical_variable
+< 25 26 127 128 O
+6 26 27 128 129 B-upper_bound
+months 28 34 130 136 I-upper_bound
+
+impaired 0 8 137 145 B-chronic_disease
+cognition 9 18 146 155 I-chronic_disease
+
+individuals 0 11 156 167 O
+with 12 16 168 172 O
+an 17 19 173 175 O
+eGFR 20 24 176 180 B-clinical_variable
+< 25 26 181 182 O
+15 26 28 182 184 B-upper_bound
+ml 29 31 185 187 I-upper_bound
+/ 31 32 187 188 I-upper_bound
+min/1.73 32 40 188 196 I-upper_bound
+m2 41 43 197 199 I-upper_bound
+
+no 0 2 200 202 O
+phone 3 8 203 208 B-technology_access
+access 9 15 209 215 I-technology_access
+
+pregnant 0 8 216 224 B-pregnancy
+women 9 14 225 230 B-gender
+
+prevalent 0 9 231 240 O
+dementia 10 18 241 249 B-chronic_disease
+
+proteinuria 0 11 250 261 B-chronic_disease
+consistently 12 24 262 274 O
+over 25 29 275 279 O
+3 30 31 280 281 B-upper_bound
+months 32 38 282 288 I-upper_bound
+
+self 0 4 289 293 O
+- 4 5 293 294 O
+reported 5 13 294 302 O
+hearing 14 21 303 310 B-chronic_disease
+impairment 22 32 311 321 I-chronic_disease
+
+severe 0 6 322 328 B-chronic_disease
+mental 7 13 329 335 I-chronic_disease
+illness 14 21 336 343 I-chronic_disease
+
+severe 0 6 344 350 B-chronic_disease
+visual 7 13 351 357 I-chronic_disease
+impairment 14 24 358 368 I-chronic_disease
+preventing 25 35 369 379 O
+use 36 39 380 383 O
+of 40 42 384 386 O
+a 43 44 387 388 O
+touch 45 50 389 394 B-technology_access
+- 50 51 394 395 I-technology_access
+tone 51 55 395 399 I-technology_access
+telephone 56 65 400 409 I-technology_access
+keypad 66 72 410 416 I-technology_access
+
+speak 0 5 417 422 B-language_fluency
+English 6 13 423 430 I-language_fluency
+, 13 14 430 431 O
+Spanish 15 22 432 439 B-language_fluency
+or 23 25 440 442 O
+Cantonese 26 35 443 452 B-language_fluency
+

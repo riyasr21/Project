@@ -1,0 +1,65 @@
+Age 0 3 0 3 B-age
+45 4 6 4 6 B-lower_bound
+-85 7 10 7 10 O
+years 11 16 11 16 I-upper_bound
+
+Evidence 0 8 17 25 O
+of 9 11 26 28 O
+osteoarthritic 12 26 29 43 B-chronic_disease
+changes 27 34 44 51 O
+on 35 37 52 54 O
+imaging 38 45 55 62 O
+
+Inflammatory 0 12 63 75 B-chronic_disease
+arthritis 13 22 76 85 I-chronic_disease
+
+Intra 0 5 86 91 B-treatment
+- 5 6 91 92 I-treatment
+articular 6 15 92 101 I-treatment
+therapy 16 23 102 109 I-treatment
+in 24 26 110 112 O
+last 27 31 113 117 O
+4 32 33 118 119 O
+weeks 34 39 120 125 O
+
+Knee 0 4 126 130 O
+pain 5 9 131 135 O
+of 10 12 136 138 O
+at 13 15 139 141 O
+least 16 21 142 147 O
+21 22 24 148 150 B-lower_bound
+days 25 29 151 155 I-lower_bound
+duration 30 38 156 164 O
+if 39 41 165 167 O
+traumatic 42 51 168 177 O
+
+Non 0 3 178 181 B-language_fluency
+- 3 4 181 182 I-language_fluency
+English 4 11 182 189 I-language_fluency
+speaking 12 20 190 198 I-language_fluency
+
+Physician 0 9 199 208 O
+diagnosis 10 19 209 218 O
+of 20 22 219 221 O
+meniscal 23 31 222 230 B-chronic_disease
+tear 32 36 231 235 I-chronic_disease
+
+Prior 0 5 236 241 B-treatment
+APM 6 9 242 245 I-treatment
+or 10 12 246 248 O
+TKR 13 16 249 252 B-treatment
+on 17 19 253 255 O
+index 20 25 256 261 O
+knee 26 30 262 266 O
+; 30 31 266 267 O
+or 32 34 268 270 O
+any 35 38 271 274 O
+surgery 39 46 275 282 B-treatment
+on 47 49 283 285 I-treatment
+index 50 55 286 291 I-treatment
+knee 56 60 292 296 I-treatment
+in 61 63 297 299 O
+prior 64 69 300 305 B-upper_bound
+6 70 71 306 307 I-upper_bound
+mo 72 74 308 310 I-upper_bound
+

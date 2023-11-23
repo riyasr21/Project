@@ -1,0 +1,68 @@
+availability 0 12 0 12 O
+of 13 15 13 15 O
+cohabitating 16 28 16 28 O
+study 29 34 29 34 O
+partner 35 42 35 42 O
+without 43 50 43 50 O
+cognitive 51 60 51 60 B-chronic_disease
+impairment 61 71 61 71 I-chronic_disease
+
+body 0 4 72 76 B-bmi
+mass 5 9 77 81 I-bmi
+index 10 15 82 87 I-bmi
+< 16 17 88 89 O
+18.5 17 21 89 93 B-upper_bound
+
+diagnosis 0 9 94 103 O
+of 10 12 104 106 O
+mild 13 17 107 111 B-chronic_disease
+cognitive 18 27 112 121 I-chronic_disease
+impairment 28 38 122 132 I-chronic_disease
+or 39 41 133 135 O
+Alzheimer 42 51 136 145 B-chronic_disease
+'s 51 53 145 147 I-chronic_disease
+disease 54 61 148 155 I-chronic_disease
+
+history 0 7 156 163 O
+of 8 10 164 166 O
+coronary 11 19 167 175 B-chronic_disease
+artery 20 26 176 182 I-chronic_disease
+disease 27 34 183 190 I-chronic_disease
+
+history 0 7 191 198 O
+of 8 10 199 201 O
+liver 11 16 202 207 B-chronic_disease
+disease 17 24 208 215 I-chronic_disease
+
+history 0 7 216 223 O
+of 8 10 224 226 O
+pancreatitis 11 23 227 239 B-chronic_disease
+
+history 0 7 240 247 O
+of 8 10 248 250 O
+renal 11 16 251 256 B-chronic_disease
+disease 17 24 257 264 I-chronic_disease
+or 25 27 265 267 O
+recurrent 28 37 268 277 O
+kidney 38 44 278 284 B-chronic_disease
+stones 45 51 285 291 I-chronic_disease
+
+history 0 7 292 299 O
+of 8 10 300 302 O
+stroke 11 17 303 309 B-chronic_disease
+
+insulin 0 7 310 317 B-treatment
+- 7 8 317 318 O
+dependent 8 17 318 327 O
+diabetes 18 26 328 336 B-chronic_disease
+
+multiple 0 8 337 345 B-allergy_name
+food 9 13 346 350 I-allergy_name
+allergies 14 23 351 360 O
+
+untreated 0 9 361 370 B-chronic_disease
+hypothyroidism 10 24 371 385 I-chronic_disease
+or 25 27 386 388 O
+B12 28 31 389 392 B-chronic_disease
+deficiency 32 42 393 403 I-chronic_disease
+

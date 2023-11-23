@@ -1,0 +1,80 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+read 8 12 8 12 B-language_fluency
+and 13 16 13 16 I-language_fluency
+speak 17 22 17 22 I-language_fluency
+English 23 30 23 30 I-language_fluency
+
+Age 0 3 31 34 B-age
+18 4 6 35 37 B-lower_bound
+years 7 12 38 43 I-lower_bound
+or 13 15 44 46 O
+older 16 21 47 52 O
+
+Current 0 7 53 60 O
+participation 8 21 61 74 O
+in 22 24 75 77 O
+a 25 26 78 79 O
+similar 27 34 80 87 O
+study 35 40 88 93 O
+or 41 43 94 96 O
+in 44 46 97 99 O
+investigational 47 62 100 115 B-treatment
+drug 63 67 116 120 I-treatment
+trials 68 74 121 127 O
+where 75 80 128 133 O
+adverse 81 88 134 141 O
+effects 89 96 142 149 O
+have 97 101 150 154 O
+not 102 105 155 158 O
+been 106 110 159 163 O
+fully 111 116 164 169 O
+elucidated 117 127 170 180 O
+
+Has 0 3 181 184 O
+a 4 5 185 186 O
+working 6 13 187 194 B-technology_access
+cellphone 14 23 195 204 I-technology_access
+or 24 26 205 207 I-technology_access
+landline 27 35 208 216 I-technology_access
+
+Life 0 4 217 221 B-clinical_variable
+expectancy 5 15 222 232 I-clinical_variable
+<3 16 18 233 235 O
+months 19 25 236 242 I-upper_bound
+as 26 28 243 245 O
+determined 29 39 246 256 O
+by 40 42 257 259 O
+oncologist 43 53 260 270 O
+
+New 0 3 271 274 O
+cycle 4 9 275 280 O
+of 10 12 281 283 O
+OCAs 13 17 284 288 B-treatment
+
+Patients 0 8 289 297 O
+who 9 12 298 301 O
+are 13 16 302 305 O
+on 17 19 306 308 O
+simultaneous 20 32 309 321 O
+oral 33 37 322 326 B-treatment
+and 38 41 327 330 I-treatment
+IV 42 44 331 333 I-treatment
+chemotherapeutic 45 61 334 350 I-treatment
+regimens 62 70 351 359 I-treatment
+
+Presence 0 8 360 368 O
+of 9 11 369 371 O
+significant 12 23 372 383 O
+psychiatric 24 35 384 395 B-chronic_disease
+or 36 38 396 398 O
+cognitive 39 48 399 408 B-chronic_disease
+impairments 49 60 409 420 I-chronic_disease
+as 61 63 421 423 O
+determined 64 74 424 434 O
+by 75 77 435 437 O
+oncologists 78 89 438 449 O
+and 90 93 450 453 O
+study 94 99 454 459 O
+teams 100 105 460 465 O
+

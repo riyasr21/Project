@@ -1,0 +1,121 @@
+CBT 0 3 0 3 B-treatment
+
+Exclusionary 0 12 4 16 O
+psychiatric 13 24 17 28 B-chronic_disease
+conditions 25 35 29 39 I-chronic_disease
+
+Have 0 4 40 44 O
+Maple 5 10 45 50 B-chronic_disease
+Syrup 11 16 51 56 I-chronic_disease
+Urine 17 22 57 62 I-chronic_disease
+Disease 23 30 63 70 I-chronic_disease
+
+Hypersensitivity 0 16 71 87 O
+to 17 19 88 90 O
+L 20 21 91 92 B-allergy_name
+- 21 22 92 93 I-allergy_name
+leucine 22 29 93 100 I-allergy_name
+
+Inadequately 0 12 101 113 O
+controlled 13 23 114 124 O
+hypothyroidism 24 38 125 139 B-chronic_disease
+
+Interpersonal 0 13 140 153 B-treatment
+Psychotherapy 14 27 154 167 I-treatment
+of 28 30 168 170 O
+Depression 31 41 171 181 B-chronic_disease
+
+No 0 2 182 184 O
+more 3 7 185 189 O
+than 8 12 190 194 O
+two 13 16 195 198 B-lower_bound
+failed 17 23 199 205 O
+antidepressant 24 38 206 220 B-treatment
+trials 39 45 221 227 I-treatment
+of 46 48 228 230 O
+adequate 49 57 231 239 O
+dose 58 62 240 244 O
+and 63 66 245 248 O
+duration 67 75 249 257 O
+, 75 76 257 258 O
+as 77 79 259 261 O
+defined 80 87 262 269 O
+by 88 90 270 272 O
+ATRQ 91 95 273 277 O
+, 95 96 277 278 O
+in 97 99 279 281 O
+the 100 103 282 285 O
+current 104 111 286 293 O
+episode 112 119 294 301 O
+
+Pregnant 0 8 302 310 B-pregnancy
+
+Psychiatric 0 11 311 322 B-chronic_disease
+co 12 14 323 325 I-chronic_disease
+- 14 15 325 326 I-chronic_disease
+morbidity 15 24 326 335 I-chronic_disease
+posing 25 31 336 342 O
+safety 32 38 343 349 O
+risk 39 43 350 354 O
+
+Stable 0 6 355 361 O
+doses 7 12 362 367 O
+of 13 15 368 370 O
+all 16 19 371 374 O
+concomitant 20 31 375 386 B-treatment
+medications 32 43 387 398 I-treatment
+for 44 47 399 402 O
+over 48 52 403 407 O
+6 53 54 408 409 B-lower_bound
+weeks 55 60 410 415 I-lower_bound
+
+Vagus 0 5 416 421 B-treatment
+nerve 6 11 422 427 I-treatment
+stimulation 12 23 428 439 I-treatment
+, 23 24 439 440 O
+ECT 25 28 441 444 B-treatment
+, 28 29 444 445 O
+or 30 32 446 448 O
+rTMS 33 37 449 453 B-treatment
+, 37 38 453 454 O
+or 39 41 455 457 O
+other 42 47 458 463 O
+somatic 48 55 464 471 B-treatment
+antidepressant 56 70 472 486 I-treatment
+treatment 71 80 487 496 I-treatment
+during 81 87 497 503 O
+current 88 95 504 511 O
+episode 96 103 512 519 O
+
+lifetime 0 8 520 528 O
+history 9 16 529 536 O
+of 17 19 537 539 O
+psychotic 20 29 540 549 B-chronic_disease
+disorders 30 39 550 559 I-chronic_disease
+
+not 0 3 560 563 B-contraception_consent
+using 4 9 564 569 I-contraception_consent
+adequate 10 18 570 578 I-contraception_consent
+contraception 19 32 579 592 I-contraception_consent
+
+plan 0 4 593 597 B-pregnancy
+to 5 7 598 600 I-pregnancy
+become 8 14 601 607 I-pregnancy
+pregnant 15 23 608 616 I-pregnancy
+over 24 28 617 621 O
+the 29 32 622 625 O
+ensuing 33 40 626 633 O
+2 41 42 634 635 B-lower_bound
+months 43 49 636 642 I-lower_bound
+following 50 59 643 652 O
+study 60 65 653 658 O
+entry 66 71 659 664 O
+
+substance 0 9 665 674 O
+dependence 10 20 675 685 O
+in 21 23 686 688 O
+the 24 27 689 692 O
+last 28 32 693 697 B-upper_bound
+6 33 34 698 699 I-upper_bound
+months 35 41 700 706 I-upper_bound
+

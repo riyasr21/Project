@@ -1,0 +1,39 @@
+aged 0 4 0 4 B-age
+18 5 7 5 7 B-lower_bound
+or 8 10 8 10 O
+older 11 16 11 16 O
+
+positive 0 8 17 25 O
+confirmatory 9 21 26 38 O
+HIV 22 25 39 42 B-chronic_disease
+test 26 30 43 47 O
+
+report 0 6 48 54 O
+injecting 7 16 55 64 O
+any 17 20 65 68 O
+drug 21 25 69 73 O
+in 26 28 74 76 O
+the 29 32 77 80 O
+past 33 37 81 85 B-upper_bound
+30 38 40 86 88 I-upper_bound
+days 41 45 89 93 I-upper_bound
+
+show 0 4 94 98 O
+evidence 5 13 99 107 O
+of 14 16 108 110 O
+significant 17 28 111 122 O
+psychiatric 29 40 123 134 B-chronic_disease
+or 41 43 135 137 O
+cognitive 44 53 138 147 B-chronic_disease
+impairment 54 64 148 158 I-chronic_disease
+that 65 69 159 163 O
+would 70 75 164 169 O
+limit 76 81 170 175 O
+effective 82 91 176 185 O
+participation 92 105 186 199 O
+as 106 108 200 202 O
+confirmed 109 118 203 212 O
+during 119 125 213 219 O
+informed 126 134 220 228 O
+consent 135 142 229 236 O
+

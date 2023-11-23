@@ -1,0 +1,209 @@
+A 0 1 0 1 O
+current 2 9 2 9 O
+or 10 12 10 12 O
+past 13 17 13 17 O
+diagnosis 18 27 18 27 O
+of 28 30 28 30 O
+pediatric 31 40 31 40 B-chronic_disease
+autoimmune 41 51 41 51 I-chronic_disease
+neuropsychiatric 52 68 52 68 I-chronic_disease
+disorders 69 78 69 78 I-chronic_disease
+associated 79 89 79 89 I-chronic_disease
+with 90 94 90 94 I-chronic_disease
+streptococcus 95 108 95 108 I-chronic_disease
+( 109 110 109 110 I-chronic_disease
+PANDAS 110 116 110 116 I-chronic_disease
+) 116 117 116 117 I-chronic_disease
+
+A 0 1 118 119 O
+positive 2 10 120 128 O
+pregnancy 11 20 129 138 B-pregnancy
+test 21 25 139 143 O
+
+Active 0 6 144 150 O
+suicidal 7 15 151 159 B-chronic_disease
+ideation 16 24 160 168 I-chronic_disease
+
+Any 0 3 169 172 O
+current 4 11 173 180 O
+or 12 14 181 183 O
+lifetime 15 23 184 192 O
+psychiatric 24 35 193 204 B-chronic_disease
+diagnosis 36 45 205 214 I-chronic_disease
+
+DSM 0 3 215 218 O
+- 3 4 218 219 O
+IV 4 6 219 221 O
+current 7 14 222 229 O
+diagnosis 15 24 230 239 O
+of 25 27 240 242 O
+major 28 33 243 248 O
+depressive 34 44 249 259 B-chronic_disease
+disorder 45 53 260 268 I-chronic_disease
+
+DSM 0 3 269 272 O
+- 3 4 272 273 O
+IV 4 6 273 275 O
+lifetime 7 15 276 284 O
+diagnosis 16 25 285 294 O
+of 26 28 295 297 O
+psychotic 29 38 298 307 B-chronic_disease
+disorder 39 47 308 316 I-chronic_disease
+
+Diagnostic 0 10 317 327 O
+and 11 14 328 331 O
+Statistical 15 26 332 343 O
+Manual 27 33 344 350 O
+of 34 36 351 353 O
+Mental 37 43 354 360 O
+Disorders 44 53 361 370 O
+( 54 55 371 372 O
+DSM 55 58 372 375 O
+- 58 59 375 376 O
+IV 59 61 376 378 O
+) 61 62 378 379 O
+Diagnosis 63 72 380 389 O
+of 73 75 390 392 O
+OCD 76 79 393 396 B-chronic_disease
+as 80 82 397 399 O
+the 83 86 400 403 O
+principal 87 96 404 413 O
+problem 97 104 414 421 O
+
+Females 0 7 422 429 B-gender
+
+IQ<80 0 5 430 435 B-clinical_variable
+
+Inability 0 9 436 445 B-language_fluency
+of 10 12 446 448 I-language_fluency
+participant 13 24 449 460 I-language_fluency
+or 25 27 461 463 I-language_fluency
+parent 28 34 464 470 I-language_fluency
+/ 34 35 470 471 I-language_fluency
+guardian 35 43 471 479 I-language_fluency
+to 44 46 480 482 I-language_fluency
+read 47 51 483 487 I-language_fluency
+or 52 54 488 490 I-language_fluency
+understand 55 65 491 501 I-language_fluency
+English 66 73 502 509 I-language_fluency
+
+Individuals 0 11 510 521 O
+who 12 15 522 525 O
+are 16 19 526 529 O
+currently 20 29 530 539 O
+receiving 30 39 540 549 O
+CBT 40 43 550 553 B-treatment
+, 43 44 553 554 O
+other 45 50 555 560 O
+forms 51 56 561 566 O
+of 57 59 567 569 O
+psychotherapy 60 73 570 583 B-treatment
+, 73 74 583 584 O
+or 75 77 585 587 O
+psychotropic 78 90 588 600 B-treatment
+medications 91 102 601 612 I-treatment
+
+Individuals 0 11 613 624 O
+who 12 15 625 628 O
+have 16 20 629 633 O
+received 21 29 634 642 O
+a 30 31 643 644 O
+full 32 36 645 649 O
+course 37 43 650 656 O
+of 44 46 657 659 O
+CBT 47 50 660 663 B-treatment
+in 51 53 664 666 O
+the 54 57 667 670 O
+past 58 62 671 675 O
+
+Major 0 5 676 681 O
+medical 6 13 682 689 O
+or 14 16 690 692 O
+neurological 17 29 693 705 B-chronic_disease
+problems 30 38 706 714 I-chronic_disease
+
+Not 0 3 715 718 O
+on 4 6 719 721 O
+psychotropic 7 19 722 734 O
+medication 20 30 735 745 O
+and 31 34 746 749 O
+not 35 38 750 753 O
+receiving 39 48 754 763 O
+current 49 56 764 771 O
+psychotherapy 57 70 772 785 B-treatment
+for 71 74 786 789 O
+OCD 75 78 790 793 B-chronic_disease
+
+Participants 0 12 794 806 O
+and 13 16 807 810 O
+a 17 18 811 812 O
+parent 19 25 813 819 O
+/ 25 26 819 820 O
+guardian 26 34 820 828 O
+must 35 39 829 833 O
+be 40 42 834 836 O
+able 43 47 837 841 B-language_fluency
+to 48 50 842 844 I-language_fluency
+read 51 55 845 849 I-language_fluency
+and 56 59 850 853 I-language_fluency
+understand 60 70 854 864 I-language_fluency
+English 71 78 865 872 I-language_fluency
+
+Positive 0 8 873 881 O
+urine 9 14 882 887 O
+screen 15 21 888 894 O
+for 22 25 895 898 O
+illicit 26 33 899 906 B-treatment
+drugs 34 39 907 912 I-treatment
+
+Tourette's 0 10 913 923 B-chronic_disease
+/ 10 11 923 924 I-chronic_disease
+Tic 11 14 924 927 I-chronic_disease
+Disorder 15 23 928 936 I-chronic_disease
+
+Written 0 7 937 944 O
+informed 8 16 945 953 O
+assent 17 23 954 960 O
+by 24 26 961 963 O
+the 27 30 964 967 O
+participants 31 43 968 980 O
+( 44 45 981 982 O
+8 45 46 982 983 B-lower_bound
+and 47 50 984 987 O
+older 51 56 988 993 O
+) 56 57 993 994 O
+and 58 61 995 998 O
+consent 62 69 999 1006 O
+by 70 72 1007 1009 O
+the 73 76 1010 1013 O
+parent 77 83 1014 1020 O
+
+attention 0 9 1021 1030 B-chronic_disease
+- 9 10 1030 1031 I-chronic_disease
+deficit 10 17 1031 1038 I-chronic_disease
+hyperactivity 18 31 1039 1052 I-chronic_disease
+disorder 32 40 1053 1061 I-chronic_disease
+
+bipolar 0 7 1062 1069 B-chronic_disease
+disorder 8 16 1070 1078 I-chronic_disease
+
+eating 0 6 1079 1085 B-chronic_disease
+disorder 7 15 1086 1094 I-chronic_disease
+
+must 0 4 1095 1099 O
+be 5 7 1100 1102 O
+5 8 9 1103 1104 B-lower_bound
+- 9 10 1104 1105 O
+17 10 12 1105 1107 B-upper_bound
+at 13 15 1108 1110 O
+the 16 19 1111 1114 O
+time 20 24 1115 1119 O
+of 25 27 1120 1122 O
+consent 28 35 1123 1130 O
+
+pervasive 0 9 1131 1140 B-chronic_disease
+developmental 10 23 1141 1154 I-chronic_disease
+disorder 24 32 1155 1163 I-chronic_disease
+
+pregnant 0 8 1164 1172 B-pregnancy
+

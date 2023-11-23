@@ -1,0 +1,185 @@
+10 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+and 9 12 9 12 O
+older 13 18 13 18 O
+
+Age 0 3 19 22 B-age
+6 4 5 23 24 B-lower_bound
+months 6 12 25 31 I-lower_bound
+to 13 15 32 34 O
+30 16 18 35 37 B-upper_bound
+years 19 24 38 43 I-upper_bound
+
+Cardiac 0 7 44 51 B-chronic_disease
+condition 8 17 52 61 I-chronic_disease
+requiring 18 27 62 71 O
+emergency 28 37 72 81 O
+procedure 38 47 82 91 O
+
+Female 0 6 92 98 B-gender
+subjects 7 15 99 107 I-gender
+
+Individuals 0 11 108 119 O
+able 12 16 120 124 O
+to 17 19 125 127 O
+undergo 20 27 128 135 O
+bone 28 32 136 140 B-treatment
+marrow 33 39 141 147 I-treatment
+aspirate 40 48 148 156 I-treatment
+according 49 58 157 166 O
+to 59 61 167 169 O
+clinical 62 70 170 178 O
+consultation 71 83 179 191 O
+with 84 88 192 196 O
+Hematology 89 99 197 207 O
+( 100 101 208 209 O
+cell 101 105 209 213 B-treatment
+treatment 106 115 214 223 I-treatment
+group 116 121 224 229 O
+only 122 126 230 234 O
+) 126 127 234 235 O
+
+Individuals 0 11 236 247 O
+requiring 12 21 248 257 O
+cavopulmonary 22 35 258 271 B-treatment
+shunt 36 41 272 277 I-treatment
+at 42 44 278 280 O
+the 45 48 281 284 O
+time 49 53 285 289 O
+of 54 56 290 292 O
+surgical 57 65 293 301 B-treatment
+Ebstein 66 73 302 309 I-treatment
+repair 74 80 310 316 O
+
+Individuals 0 11 317 328 O
+who 12 15 329 332 O
+have 16 20 333 337 O
+other 21 26 338 343 O
+clinical 27 35 344 352 O
+concerns 36 44 353 361 O
+as 45 47 362 364 O
+documented 48 58 365 375 O
+by 59 61 376 378 O
+a 62 63 379 380 O
+site 64 68 381 385 O
+investigator 69 81 386 398 O
+that 82 86 399 403 O
+could 87 92 404 409 O
+reasonably 93 103 410 420 O
+increase 104 112 421 429 O
+the 113 116 430 433 O
+risk 117 121 434 438 O
+of 122 124 439 441 O
+complications 125 138 442 455 O
+during 139 145 456 462 O
+or 146 148 463 465 O
+after 149 154 466 471 O
+surgical 155 163 472 480 B-treatment
+Ebstein 164 171 481 488 I-treatment
+repair 172 178 489 495 I-treatment
+
+Individuals 0 11 496 507 O
+who 12 15 508 511 O
+weigh 16 21 512 517 B-clinical_variable
+more 22 26 518 522 O
+than 27 31 523 527 O
+90 32 34 528 530 B-lower_bound
+kg 35 37 531 533 I-lower_bound
+
+Individuals 0 11 534 545 O
+with 12 16 546 550 O
+bleeding 17 25 551 559 B-chronic_disease
+disorders 26 35 560 569 I-chronic_disease
+
+Individuals 0 11 570 581 O
+with 12 16 582 586 O
+current 17 24 587 594 O
+IV 25 27 595 597 B-treatment
+inotrope 28 36 598 606 I-treatment
+requirements 37 49 607 619 O
+
+Individuals 0 11 620 631 O
+with 12 16 632 636 O
+history 17 24 637 644 O
+of 25 27 645 647 O
+ventricular 28 39 648 659 B-chronic_disease
+arrhythmia 40 50 660 670 I-chronic_disease
+or 51 53 671 673 O
+new 54 57 674 677 O
+onset 58 63 678 683 O
+ventricular 64 75 684 695 O
+arrhythmia 76 86 696 706 O
+after 87 92 707 712 O
+enrollment 93 103 713 723 O
+that 104 108 724 728 O
+requires 109 117 729 737 O
+medical 118 125 738 745 O
+management 126 136 746 756 O
+
+Individuals 0 11 757 768 O
+with 12 16 769 773 O
+preoperative 17 29 774 786 B-chronic_disease
+ventricular 30 41 787 798 I-chronic_disease
+arrhythmia 42 52 799 809 I-chronic_disease
+requiring 53 62 810 819 O
+medical 63 70 820 827 O
+management 71 81 828 838 O
+
+Individuals 0 11 839 850 O
+with 12 16 851 855 O
+pulmonary 17 26 856 865 B-chronic_disease
+atresia 27 34 866 873 I-chronic_disease
+or 35 37 874 876 O
+atrioventricular 38 54 877 893 B-chronic_disease
+discordance 55 66 894 905 I-chronic_disease
+with 67 71 906 910 O
+ventriculoarterial 72 90 911 929 B-chronic_disease
+discordance 91 102 930 941 I-chronic_disease
+
+Individuals 0 11 942 953 O
+with 12 16 954 958 O
+severe 17 23 959 965 B-chronic_disease
+chronic 24 31 966 973 I-chronic_disease
+diseases 32 40 974 982 I-chronic_disease
+
+Individuals 0 11 983 994 O
+with 12 16 995 999 O
+the 17 20 1000 1003 O
+following 21 30 1004 1013 O
+conditions 31 41 1014 1024 O
+within 42 48 1025 1031 O
+60 49 51 1032 1034 B-upper_bound
+days 52 56 1035 1039 I-upper_bound
+prior 57 62 1040 1045 I-upper_bound
+to 63 65 1046 1048 O
+Ebstein 66 73 1049 1056 B-treatment
+repair 74 80 1057 1063 I-treatment
+surgery 81 88 1064 1071 I-treatment
+
+Multi 0 5 1072 1077 B-chronic_disease
+- 5 6 1077 1078 I-chronic_disease
+system 6 12 1078 1084 I-chronic_disease
+organ 13 18 1085 1090 I-chronic_disease
+failure 19 26 1091 1098 I-chronic_disease
+including 27 36 1099 1108 O
+acute 37 42 1109 1114 B-chronic_disease
+or 43 45 1115 1117 I-chronic_disease
+chronic 46 53 1118 1125 I-chronic_disease
+renal 54 59 1126 1131 I-chronic_disease
+failure 60 67 1132 1139 I-chronic_disease
+
+extensive 0 9 1140 1149 O
+extra 10 15 1150 1155 B-chronic_disease
+- 15 16 1155 1156 I-chronic_disease
+cardiac 16 23 1156 1163 I-chronic_disease
+syndromes 24 33 1164 1173 I-chronic_disease
+
+history 0 7 1174 1181 O
+of 8 10 1182 1184 O
+any 11 14 1185 1188 O
+cancer 15 21 1189 1195 B-cancer
+
+history 0 7 1196 1203 O
+of 8 10 1204 1206 O
+thrombosis 11 21 1207 1217 B-chronic_disease
+

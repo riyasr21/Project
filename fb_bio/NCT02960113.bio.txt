@@ -1,0 +1,102 @@
+< 0 1 0 1 O
+18 1 3 1 3 B-upper_bound
+years 4 9 4 9 I-upper_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+ASA 0 3 17 20 B-clinical_variable
+status 4 10 21 27 I-clinical_variable
+III 11 14 28 31 B-lower_bound
+or 15 17 32 34 O
+higher 18 24 35 41 O
+
+Coagulopathies 0 14 42 56 B-chronic_disease
+
+Current 0 7 57 64 O
+history 8 15 65 72 O
+of 16 18 73 75 O
+pregnancy 19 28 76 85 B-pregnancy
+induced 29 36 86 93 O
+hypertension 37 49 94 106 B-chronic_disease
+, 49 50 106 107 O
+pre 51 54 108 111 B-chronic_disease
+- 54 55 111 112 I-chronic_disease
+eclampsia 55 64 112 121 I-chronic_disease
+, 64 65 121 122 O
+or 66 68 123 125 O
+eclampsia 69 78 126 135 O
+
+Current 0 7 136 143 O
+urinary 8 15 144 151 B-chronic_disease
+tract 16 21 152 157 I-chronic_disease
+infection 22 31 158 167 I-chronic_disease
+, 31 32 167 168 O
+pneumonia 33 42 169 178 B-chronic_disease
+, 42 43 178 179 O
+or 44 46 180 182 O
+otitis 47 53 183 189 B-chronic_disease
+media 54 59 190 195 I-chronic_disease
+
+English 0 7 196 203 B-language_fluency
+and 8 11 204 207 I-language_fluency
+non 12 15 208 211 I-language_fluency
+- 15 16 211 212 I-language_fluency
+English 16 23 212 219 I-language_fluency
+speaking 24 32 220 228 I-language_fluency
+subjects 33 41 229 237 I-language_fluency
+
+History 0 7 238 245 O
+of 8 10 246 248 O
+any 11 14 249 252 O
+chronic 15 22 253 260 B-treatment
+medication 23 33 261 271 I-treatment
+use 34 37 272 275 O
+( 38 39 276 277 O
+other 39 44 277 282 O
+than 45 49 283 287 O
+prenatal 50 58 288 296 B-treatment
+vitamins 59 67 297 305 I-treatment
+) 67 68 305 306 O
+, 68 69 306 307 O
+including 70 79 308 317 O
+inhaler 80 87 318 325 B-treatment
+medications 88 99 326 337 I-treatment
+
+History 0 7 338 345 O
+of 8 10 346 348 O
+open 11 15 349 353 B-chronic_disease
+angle 16 21 354 359 I-chronic_disease
+glaucoma 22 30 360 368 I-chronic_disease
+, 30 31 368 369 O
+seizures 32 40 370 378 B-chronic_disease
+or 41 43 379 381 O
+psychosis 44 53 382 391 B-chronic_disease
+
+Subjects 0 8 392 400 O
+who 9 12 401 404 O
+receive 13 20 405 412 O
+spinal 21 27 413 419 B-treatment
+and/or 28 34 420 426 I-treatment
+epidural 35 43 427 435 I-treatment
+anesthesia 44 54 436 446 I-treatment
+
+Subjects 0 8 447 455 O
+with 9 13 456 460 O
+elective 14 22 461 469 B-treatment
+primary 23 30 470 477 I-treatment
+or 31 33 478 480 O
+repeat 34 40 481 487 B-treatment
+cesarean 41 49 488 496 I-treatment
+delivery 50 58 497 505 I-treatment
+
+ages 0 4 506 510 B-age
+18 5 7 511 513 B-lower_bound
+to 8 10 514 516 O
+45 11 13 517 519 B-upper_bound
+
+skin 0 4 520 524 B-chronic_disease
+infections 5 15 525 535 I-chronic_disease
+overlying 16 25 536 545 O
+the 26 29 546 549 O
+spine 30 35 550 555 O
+

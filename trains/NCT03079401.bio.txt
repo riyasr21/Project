@@ -1,0 +1,53 @@
+Patient 0 7 0 7 O
+has 8 11 8 11 O
+known 12 17 12 17 O
+allergy 18 25 18 25 O
+to 26 28 26 28 O
+mouse 29 34 29 34 B-allergy_name
+and/or 35 41 35 41 I-allergy_name
+cow 42 45 42 45 I-allergy_name
+products 46 54 46 54 I-allergy_name
+
+Patient 0 7 55 62 O
+has 8 11 63 66 O
+received 12 20 67 75 O
+treatment 21 30 76 85 B-treatment
+and/or 31 37 86 92 O
+is 38 40 93 95 O
+within 41 47 96 102 O
+an 48 50 103 105 O
+incomplete 51 61 106 116 O
+follow 62 68 117 123 O
+- 68 69 123 124 O
+up 69 71 124 126 O
+treatment 72 81 127 136 O
+of 82 84 137 139 O
+any 85 88 140 143 O
+investigational 89 104 144 159 B-treatment
+cell 105 109 160 164 I-treatment
+based 110 115 165 170 I-treatment
+therapy 116 123 171 178 I-treatment
+within 124 130 179 185 O
+6 131 132 186 187 B-upper_bound
+months 133 139 188 194 I-upper_bound
+prior 140 145 195 200 I-upper_bound
+to 146 148 201 203 O
+randomization 149 162 204 217 O
+
+Patients 0 8 218 226 O
+with 9 13 227 231 O
+a 14 15 232 233 O
+history 16 23 234 241 O
+of 24 26 242 244 O
+high 27 31 245 249 B-chronic_disease
+grade 32 37 250 255 I-chronic_disease
+ventricular 38 49 256 267 I-chronic_disease
+arrhythmias 50 61 268 279 I-chronic_disease
+
+Patients 0 8 280 288 O
+with 9 13 289 293 O
+aortic 14 20 294 300 B-chronic_disease
+or 21 23 301 303 I-chronic_disease
+mitral 24 30 304 310 I-chronic_disease
+atresia 31 38 311 318 I-chronic_disease
+

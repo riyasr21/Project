@@ -1,0 +1,133 @@
+Active 0 6 0 6 O
+cancer 7 13 7 13 B-cancer
+
+Age 0 3 14 17 B-age
+35 4 6 18 20 B-lower_bound
+- 6 7 20 21 O
+65 7 9 21 23 B-upper_bound
+
+Age 0 3 24 27 B-age
+< 4 5 28 29 O
+35 5 7 29 31 B-upper_bound
+or 8 10 32 34 O
+> 11 12 35 36 O
+65 12 14 36 38 B-lower_bound
+
+Any 0 3 39 42 O
+acute 4 9 43 48 O
+or 10 12 49 51 O
+chronic 13 20 52 59 O
+medical 21 28 60 67 O
+or 29 31 68 70 O
+psychiatric 32 43 71 82 B-chronic_disease
+disorder 44 52 83 91 I-chronic_disease
+that 53 57 92 96 O
+, 57 58 96 97 O
+in 59 61 98 100 O
+the 62 65 101 104 O
+opinion 66 73 105 112 O
+of 74 76 113 115 O
+the 77 80 116 119 O
+investigators 81 94 120 133 O
+, 94 95 133 134 O
+would 96 101 135 140 O
+impair 102 108 141 147 O
+evaluation 109 119 148 158 O
+of 120 122 159 161 O
+the 123 126 162 165 O
+study 127 132 166 171 O
+measures 133 141 172 180 O
+
+Bleeding 0 8 181 189 B-chronic_disease
+diathesis 9 18 190 199 I-chronic_disease
+
+Clinically 0 10 200 210 O
+significant 11 22 211 222 O
+hepatic 23 30 223 230 B-chronic_disease
+, 30 31 230 231 O
+cardiac 32 39 232 239 B-chronic_disease
+or 40 42 240 242 O
+renal 43 48 243 248 B-chronic_disease
+impairment 49 59 249 259 I-chronic_disease
+
+Diagnosed 0 9 260 269 O
+with 10 14 270 274 O
+RA 15 17 275 277 B-chronic_disease
+by 18 20 278 280 O
+a 21 22 281 282 O
+Rheumatologist 23 37 283 297 O
+and 38 41 298 301 O
+according 42 51 302 311 O
+to 52 54 312 314 O
+American 55 63 315 323 O
+College 64 71 324 331 O
+of 72 74 332 334 O
+Rheumatology 75 87 335 347 O
+2010 88 92 348 352 O
+criteria 93 101 353 361 O
+
+Insulin 0 7 362 369 B-treatment
+resistant 8 17 370 379 O
+according 18 27 380 389 O
+to 28 30 390 392 O
+the 31 34 393 396 O
+Matsuda 35 42 397 404 O
+index 43 48 405 410 O
+
+Pregnant 0 8 411 419 B-pregnancy
+
+Severe 0 6 420 426 B-chronic_disease
+edema 7 12 427 432 I-chronic_disease
+
+Unable 0 6 433 439 O
+or 7 9 440 442 O
+unwilling 10 19 443 452 O
+to 20 22 453 455 O
+discontinue 23 34 456 467 O
+aspirin 35 42 468 475 B-treatment
+or 43 45 476 478 O
+non 46 49 479 482 B-treatment
+- 49 50 482 483 I-treatment
+steroidal 50 59 483 492 I-treatment
+anti 60 64 493 497 I-treatment
+- 64 65 497 498 I-treatment
+inflammatory 65 77 498 510 I-treatment
+drugs 78 83 511 516 I-treatment
+for 84 87 517 520 O
+5 88 89 521 522 B-upper_bound
+days 90 94 523 527 I-upper_bound
+prior 95 100 528 533 I-upper_bound
+to 101 103 534 536 O
+muscle 104 110 537 543 O
+biopsy 111 117 544 550 O
+
+Untreated 0 9 551 560 B-chronic_disease
+osteoporosis 10 22 561 573 I-chronic_disease
+
+Women 0 5 574 579 B-gender
+of 6 8 580 582 O
+reproductive 9 21 583 595 O
+age 22 25 596 599 O
+who 26 29 600 603 O
+are 30 33 604 607 B-pregnancy
+pregnant 34 42 608 616 I-pregnancy
+or 43 45 617 619 O
+who 46 49 620 623 O
+do 50 52 624 626 B-contraception_consent
+not 53 56 627 630 I-contraception_consent
+agree 57 62 631 636 I-contraception_consent
+to 63 65 637 639 I-contraception_consent
+effective 66 75 640 649 I-contraception_consent
+birth 76 81 650 655 I-contraception_consent
+control 82 89 656 663 I-contraception_consent
+
+chronic 0 7 664 671 B-treatment
+anticoagulant 8 21 672 685 I-treatment
+therapy 22 29 686 693 I-treatment
+
+cognitive 0 9 694 703 B-chronic_disease
+dysfunction 10 21 704 715 I-chronic_disease
+
+skin 0 4 716 720 B-cancer
+cancer 5 11 721 727 I-cancer
+

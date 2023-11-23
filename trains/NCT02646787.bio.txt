@@ -1,0 +1,93 @@
+Age 0 3 0 3 B-age
+greater 4 11 4 11 O
+than 12 16 12 16 O
+or 17 19 17 19 O
+equal 20 25 20 25 O
+to 26 28 26 28 O
+8 29 30 29 30 B-lower_bound
+years 31 36 31 36 I-lower_bound
+
+Age 0 3 37 40 B-age
+less 4 8 41 45 O
+than 9 13 46 50 O
+8 14 15 51 52 B-upper_bound
+years 16 21 53 58 I-upper_bound
+
+Any 0 3 59 62 O
+face 4 8 63 67 O
+/ 8 9 67 68 O
+head 9 13 68 72 O
+/ 13 14 72 73 O
+neck 14 18 73 77 O
+injuries 19 27 78 86 O
+that 28 32 87 91 O
+interfere 33 42 92 101 O
+with 43 47 102 106 O
+the 48 51 107 110 O
+use 52 55 111 114 O
+of 56 58 115 117 O
+Virtual 59 66 118 125 B-treatment
+Reality 67 74 126 133 I-treatment
+equipment 75 84 134 143 I-treatment
+
+Demonstrating 0 13 144 157 O
+delirium 14 22 158 166 B-chronic_disease
+, 22 23 166 167 O
+psychosis 24 33 168 177 B-chronic_disease
+or 34 36 178 180 O
+any 37 40 181 184 O
+form 41 45 185 189 O
+of 46 48 190 192 O
+Organic 49 56 193 200 B-chronic_disease
+Brain 57 62 201 206 I-chronic_disease
+Disorder 63 71 207 215 I-chronic_disease
+and 72 75 216 219 O
+associated 76 86 220 230 O
+memory 87 93 231 237 O
+problems 94 102 238 246 O
+
+Developmental 0 13 247 260 B-chronic_disease
+disability 14 24 261 271 I-chronic_disease
+
+English 0 7 272 279 B-language_fluency
+- 7 8 279 280 I-language_fluency
+speaking 8 16 280 288 I-language_fluency
+
+Evidence 0 8 289 297 O
+of 9 11 298 300 O
+traumatic 12 21 301 310 B-chronic_disease
+brain 22 27 311 316 I-chronic_disease
+injury 28 34 317 323 I-chronic_disease
+
+History 0 7 324 331 O
+of 8 10 332 334 O
+psychiatric 11 22 335 346 B-chronic_disease
+disorder 23 31 347 355 I-chronic_disease
+
+No 0 2 356 358 O
+history 3 10 359 366 O
+of 11 13 367 369 O
+psychiatric 14 25 370 381 B-chronic_disease
+disorder 26 34 382 390 I-chronic_disease
+
+Not 0 3 391 394 O
+demonstrating 4 17 395 408 O
+delirium 18 26 409 417 B-chronic_disease
+, 26 27 417 418 O
+psychosis 28 37 419 428 B-chronic_disease
+or 38 40 429 431 O
+any 41 44 432 435 O
+form 45 49 436 440 O
+of 50 52 441 443 O
+Organic 53 60 444 451 B-chronic_disease
+Brain 61 66 452 457 I-chronic_disease
+Disorder 67 75 458 466 I-chronic_disease
+
+Receiving 0 9 467 476 O
+prophylaxis 10 21 477 488 B-treatment
+for 22 25 489 492 O
+alcohol 26 33 493 500 O
+or 34 36 501 503 O
+drug 37 41 504 508 O
+withdrawal 42 52 509 519 O
+

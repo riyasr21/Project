@@ -1,0 +1,34 @@
+Ages 0 4 0 4 B-age
+less 5 9 5 9 O
+than 10 14 10 14 O
+18 15 17 15 17 B-lower_bound
+and 18 21 18 21 O
+greater 22 29 22 29 O
+than 30 34 30 34 O
+65 35 37 35 37 B-upper_bound
+
+Initial 0 7 38 45 O
+planned 8 15 46 53 O
+nonoperative 16 28 54 66 O
+management 29 39 67 77 O
+patient 40 47 78 85 O
+who 48 51 86 89 O
+subsequently 52 64 90 102 O
+undergoes 65 74 103 112 O
+embolization 75 87 113 125 B-treatment
+or 88 90 126 128 O
+splenectomy 91 102 129 140 B-treatment
+will 103 107 141 145 O
+be 108 110 146 148 O
+withdrawn 111 120 149 158 O
+from 121 125 159 163 O
+the 126 129 164 167 O
+study 130 135 168 173 O
+
+aged 0 4 174 178 B-age
+18 5 7 179 181 B-lower_bound
+to 8 10 182 184 O
+65 11 13 185 187 B-upper_bound
+years 14 19 188 193 I-upper_bound
+old 20 23 194 197 O
+

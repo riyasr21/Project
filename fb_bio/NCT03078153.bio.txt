@@ -1,0 +1,120 @@
+Actively 0 8 0 8 O
+taking 9 15 9 15 O
+PrEP 16 20 16 20 B-treatment
+or 21 23 21 23 O
+having 24 30 24 30 O
+taken 31 36 31 36 O
+PrEP 37 41 37 41 O
+within 42 48 42 48 O
+30 49 51 49 51 B-upper_bound
+days 52 56 52 56 I-upper_bound
+of 57 59 57 59 O
+enrollment 60 70 60 70 O
+
+Age 0 3 71 74 B-age
+18 4 6 75 77 B-lower_bound
+- 6 7 77 78 O
+24 7 9 78 80 B-upper_bound
+
+Age 0 3 81 84 B-age
+younger 4 11 85 92 O
+than 12 16 93 97 O
+18 17 19 98 100 B-lower_bound
+or 20 22 101 103 O
+older 23 28 104 109 O
+than 29 33 110 114 O
+24 34 36 115 117 B-upper_bound
+
+Black 0 5 118 123 B-ethnicity
+/ 5 6 123 124 I-ethnicity
+African 6 13 124 131 I-ethnicity
+American 14 22 132 140 I-ethnicity
+, 22 23 140 141 O
+Latino 24 30 142 148 B-ethnicity
+or 31 33 149 151 O
+Asian 34 39 152 157 B-ethnicity
+
+Caucasian 0 9 158 167 B-ethnicity
+
+Female 0 6 168 174 B-gender
+sex 7 10 175 178 O
+at 11 13 179 181 O
+birth 14 19 182 187 O
+
+HIV 0 3 188 191 B-chronic_disease
+negative 4 12 192 200 O
+
+HIV 0 3 201 204 B-chronic_disease
+positive 4 12 205 213 O
+
+History 0 7 214 221 O
+of 8 10 222 224 O
+unprotected 11 22 225 236 O
+anal 23 27 237 241 O
+sex 28 31 242 245 O
+with 32 36 246 250 O
+a 37 38 251 252 O
+man 39 42 253 256 B-gender
+in 43 45 257 259 O
+the 46 49 260 263 O
+last 50 54 264 268 B-upper_bound
+6 55 56 269 270 I-upper_bound
+months 57 63 271 277 I-upper_bound
+
+Living 0 6 278 284 O
+within 7 13 285 291 O
+the 14 17 292 295 O
+DC 18 20 296 298 O
+metropolitan 21 33 299 311 O
+statistical 34 45 312 323 O
+area 46 50 324 328 O
+and 51 54 329 332 O
+anticipate 55 65 333 343 O
+remaining 66 75 344 353 O
+within 76 82 354 360 O
+the 83 86 361 364 O
+DC 87 89 365 367 O
+area 90 94 368 372 O
+for 95 98 373 376 O
+the 99 102 377 380 O
+next 103 107 381 385 B-upper_bound
+6 108 109 386 387 I-upper_bound
+months 110 116 388 394 I-upper_bound
+
+Male 0 4 395 399 B-gender
+assigned 5 13 400 408 O
+at 14 16 409 411 O
+birth 17 22 412 417 O
+( 23 24 418 419 O
+regardless 24 34 419 429 O
+of 35 37 430 432 O
+current 38 45 433 440 O
+gender 46 52 441 447 O
+identity 53 61 448 456 O
+) 61 62 456 457 O
+
+Not 0 3 458 461 O
+a 4 5 462 463 O
+current 6 13 464 471 O
+PrEP 14 18 472 476 B-treatment
+user 19 23 477 481 O
+and 24 27 482 485 O
+have 28 32 486 490 O
+not 33 36 491 494 O
+taken 37 42 495 500 O
+PrEP 43 47 501 505 O
+in 48 50 506 508 O
+the 51 54 509 512 O
+last 55 59 513 517 B-upper_bound
+30 60 62 518 520 I-upper_bound
+days 63 67 521 525 I-upper_bound
+
+Not 0 3 526 529 O
+enrolled 4 12 530 538 O
+in 13 15 539 541 O
+any 16 19 542 545 O
+other 20 25 546 551 O
+HIV 26 29 552 555 B-chronic_disease
+prevention 30 40 556 566 O
+trial 41 46 567 572 O
+

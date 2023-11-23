@@ -1,0 +1,114 @@
+Age 0 3 0 3 B-age
+must 4 8 4 8 O
+be 9 11 9 11 O
+> 12 13 12 13 O
+18years 13 20 13 20 B-lower_bound
+
+Bevacizumab 0 11 21 32 B-treatment
+exposed 12 19 33 40 O
+patients 20 28 41 49 O
+must 29 33 50 54 O
+be 34 36 55 57 O
+> 37 38 58 59 O
+3months 39 46 60 67 B-lower_bound
+post 47 51 68 72 O
+completion 52 62 73 83 O
+of 63 65 84 86 O
+initial 66 73 87 94 O
+radiation 74 83 95 104 B-treatment
+therapy 84 91 105 112 I-treatment
+
+Bevacizumab 0 11 113 124 B-treatment
+naive 12 17 125 130 O
+patients 18 26 131 139 O
+must 27 31 140 144 O
+be 32 34 145 147 O
+> 35 36 148 149 O
+6months 37 44 150 157 B-lower_bound
+post 45 49 158 162 O
+completion 50 60 163 173 O
+of 61 63 174 176 O
+initial 64 71 177 184 O
+radiation 72 81 185 194 B-treatment
+therapy 82 89 195 202 I-treatment
+
+Histologically 0 14 203 217 O
+confirmed 15 24 218 227 O
+diagnose 25 33 228 236 O
+of 34 36 237 239 O
+a 37 38 240 241 O
+grade 39 44 242 247 O
+WHO 45 48 248 251 O
+grade 49 54 252 257 B-cancer
+III 55 58 258 261 I-cancer
+or 59 61 262 264 I-cancer
+IV 62 64 265 267 I-cancer
+glioma 65 71 268 274 I-cancer
+
+KPS 0 3 275 278 B-clinical_variable
+must 4 8 279 283 O
+be 9 11 284 286 O
+greater 12 19 287 294 O
+than 20 24 295 299 O
+60 25 27 300 302 B-lower_bound
+
+May 0 3 303 306 O
+not 4 7 307 310 O
+be 8 10 311 313 O
+on 11 13 314 316 O
+full 14 18 317 321 O
+dose 19 23 322 326 O
+anti 24 28 327 331 B-treatment
+- 28 29 331 332 I-treatment
+coagulation 29 40 332 343 I-treatment
+therapy 41 48 344 351 I-treatment
+
+Must 0 4 352 356 O
+have 5 9 357 361 O
+previously 10 20 362 372 O
+received 21 29 373 381 O
+radiation 30 39 382 391 B-treatment
+and 40 43 392 395 O
+temozolomide 44 56 396 408 B-treatment
+to 57 59 409 411 O
+treat 60 65 412 417 O
+their 66 71 418 423 O
+glioma 72 78 424 430 B-cancer
+
+Pregnant 0 8 431 439 B-pregnancy
+
+Recurrent 0 9 440 449 B-cancer
+disease 10 17 450 457 I-cancer
+based 18 23 458 463 O
+on 24 26 464 466 O
+combination 27 38 467 478 O
+of 39 41 479 481 O
+clinical 42 50 482 490 O
+, 50 51 490 491 O
+imaging 52 59 492 499 O
+or 60 62 500 502 O
+histologic 63 73 503 513 O
+confirmation 74 86 514 526 O
+
+Uncontrolled 0 12 527 539 O
+hypertension 13 25 540 552 B-chronic_disease
+( 26 27 553 554 O
+> 27 28 554 555 O
+140/90mmHg 28 38 555 565 B-lower_bound
+) 38 39 565 566 O
+
+active 0 6 567 573 B-cancer
+second 7 13 574 580 I-cancer
+malignancy 14 24 581 591 I-cancer
+unless 25 31 592 598 O
+non 32 35 599 602 B-cancer
+- 35 36 602 603 I-cancer
+melanoma 36 44 603 611 I-cancer
+skin 45 49 612 616 I-cancer
+cancer 50 56 617 623 I-cancer
+or 57 59 624 626 O
+cervical 60 68 627 635 B-cancer
+cancer 69 75 636 642 I-cancer
+in 76 78 643 645 I-cancer
+situ 79 83 646 650 I-cancer
+

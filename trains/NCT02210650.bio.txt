@@ -1,0 +1,85 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+or 13 15 13 15 O
+older 16 21 16 21 O
+
+Age 0 3 22 25 B-age
+less 4 8 26 30 O
+than 9 13 31 35 O
+21 14 16 36 38 B-upper_bound
+years 17 22 39 44 I-upper_bound
+
+Current 0 7 45 52 O
+CT 8 10 53 55 B-treatment
+scan 11 15 56 60 I-treatment
+within 16 22 61 67 O
+the 23 26 68 71 O
+90 27 29 72 74 B-upper_bound
+- 29 30 74 75 I-upper_bound
+day 30 33 75 78 I-upper_bound
+pre 34 37 79 82 O
+- 37 38 82 83 O
+operative 38 47 83 92 O
+period 48 54 93 99 O
+
+Patients 0 8 100 108 O
+scheduled 9 18 109 118 O
+to 19 21 119 121 O
+undergo 22 29 122 129 O
+ureteroscopic 30 43 130 143 B-treatment
+removal 44 51 144 151 I-treatment
+of 52 54 152 154 I-treatment
+ureteral 55 63 155 163 I-treatment
+stone(s 64 71 164 171 I-treatment
+) 71 72 171 172 I-treatment
+that 73 77 173 177 O
+are 78 81 178 181 O
+visible 82 89 182 189 O
+on 90 92 190 192 O
+KUB 93 96 193 196 B-treatment
+( 97 98 197 198 I-treatment
+x 98 99 198 199 I-treatment
+- 99 100 199 200 I-treatment
+ray 100 103 200 203 I-treatment
+) 103 104 203 204 I-treatment
+or 105 107 205 207 O
+CT 108 110 208 210 B-treatment
+( 111 112 211 212 O
+i.e. 112 116 212 216 O
+, 116 117 216 217 O
+calcium 118 125 218 225 O
+stones 126 132 226 232 O
+) 132 133 232 233 O
+
+Patients 0 8 234 242 O
+with 9 13 243 247 O
+systemic 14 22 248 256 B-chronic_disease
+disease 23 30 257 264 I-chronic_disease
+
+RTA 0 3 265 268 B-chronic_disease
+
+Stones 0 6 269 275 O
+not 7 10 276 279 O
+visible 11 18 280 287 O
+on 19 21 288 290 O
+KUB 22 25 291 294 B-treatment
+or 26 28 295 297 O
+CT 29 31 298 300 B-treatment
+
+enteric 0 7 301 308 B-chronic_disease
+hyperoxaluria 8 21 309 322 I-chronic_disease
+
+medullary 0 9 323 332 B-chronic_disease
+sponge 10 16 333 339 I-chronic_disease
+kidney 17 23 340 346 I-chronic_disease
+
+primary 0 7 347 354 B-chronic_disease
+hyperparathyroidism 8 27 355 374 I-chronic_disease
+
+renal 0 5 375 380 B-chronic_disease
+anatomical 6 16 381 391 I-chronic_disease
+disorders 17 26 392 401 I-chronic_disease
+
+sarcoidosis 0 11 402 413 B-chronic_disease
+

@@ -1,0 +1,263 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+at 25 27 25 27 O
+the 28 31 28 31 O
+time 32 36 32 36 O
+of 37 39 37 39 O
+enrollment 40 50 40 50 O
+
+Active 0 6 51 57 O
+hepatitis 7 16 58 67 B-chronic_disease
+B 17 18 68 69 I-chronic_disease
+or 19 21 70 72 O
+hepatitis 22 31 73 82 B-chronic_disease
+C 32 33 83 84 I-chronic_disease
+
+Estimated 0 9 85 94 B-clinical_variable
+creatinine 10 20 95 105 I-clinical_variable
+clearance 21 30 106 115 I-clinical_variable
+< 31 32 116 117 O
+15mL 32 36 117 121 B-upper_bound
+/ 36 37 121 122 I-upper_bound
+min 37 40 122 125 I-upper_bound
+
+Has 0 3 126 129 O
+received 4 12 130 138 O
+any 13 16 139 142 O
+prior 17 22 143 148 B-treatment
+systemic 23 31 149 157 I-treatment
+therapy 32 39 158 165 I-treatment
+, 39 40 165 166 O
+excluding 41 50 167 176 O
+corticosteroids 51 66 177 192 B-treatment
+, 66 67 192 193 O
+within 68 74 194 200 O
+7 75 76 201 202 B-upper_bound
+days 77 81 203 207 I-upper_bound
+( 82 83 208 209 O
+or 83 85 209 211 O
+5 86 87 212 213 B-upper_bound
+half 88 92 214 218 I-upper_bound
+- 92 93 218 219 I-upper_bound
+lives 93 98 219 224 I-upper_bound
+) 98 99 224 225 O
+of 100 102 226 228 O
+treatment 103 112 229 238 B-treatment
+
+Known 0 5 239 244 O
+secondary 6 15 245 254 O
+HPS 16 19 255 258 B-chronic_disease
+( 20 21 259 260 I-chronic_disease
+Hemophagocytic 21 35 260 274 I-chronic_disease
+Syndrome 36 44 275 283 I-chronic_disease
+) 44 45 283 284 I-chronic_disease
+that 46 50 285 289 O
+is 51 53 290 292 O
+otherwise 54 63 293 302 O
+treatable 64 73 303 312 O
+( 74 75 313 314 O
+e.g. 75 79 314 318 O
+non 80 83 319 322 B-cancer
+- 83 84 322 323 I-cancer
+Hodgkin 84 91 323 330 I-cancer
+'s 91 93 330 332 I-cancer
+lymphoma 94 102 333 341 I-cancer
+) 102 103 341 342 O
+
+Malabsorption 0 13 343 356 B-chronic_disease
+
+Males 0 5 357 362 B-gender
+
+No 0 2 363 365 O
+active 3 9 366 372 O
+malignancy 10 20 373 383 B-cancer
+at 21 23 384 386 O
+the 24 27 387 390 O
+time 28 32 391 395 O
+of 33 35 396 398 O
+enrollment 36 46 399 409 O
+, 46 47 409 410 O
+except 48 54 411 417 O
+nonmelanoma 55 66 418 429 B-cancer
+skin 67 71 430 434 I-cancer
+cancers 72 79 435 442 I-cancer
+or 80 82 443 445 O
+carcinoma 83 92 446 455 B-cancer
+in 93 95 456 458 I-cancer
+situ 96 100 459 463 I-cancer
+
+Patients 0 8 464 472 O
+must 9 13 473 477 O
+meet 14 18 478 482 O
+the 19 22 483 486 O
+diagnostic 23 33 487 497 O
+criteria 34 42 498 506 O
+for 43 46 507 510 O
+HPS 47 50 511 514 B-chronic_disease
+
+Patients 0 8 515 523 O
+with 9 13 524 528 O
+a 14 15 529 530 O
+prior 16 21 531 536 O
+history 22 29 537 544 O
+of 30 32 545 547 O
+malignancy 33 43 548 558 B-cancer
+are 44 47 559 562 O
+eligible 48 56 563 571 O
+if 57 59 572 574 O
+their 60 65 575 580 O
+malignancy 66 76 581 591 O
+has 77 80 592 595 O
+been 81 85 596 600 O
+definitely 86 96 601 611 O
+treated 97 104 612 619 O
+or 105 107 620 622 O
+is 108 110 623 625 O
+in 111 113 626 628 O
+remission 114 123 629 638 O
+and 124 127 639 642 O
+does 128 132 643 647 O
+not 133 136 648 651 O
+require 137 144 652 659 O
+ongoing 145 152 660 667 O
+adjuvant 153 161 668 676 B-treatment
+or 162 164 677 679 O
+cancer 165 171 680 686 B-treatment
+- 171 172 686 687 I-treatment
+directed 172 180 687 695 I-treatment
+therapies 181 190 696 705 I-treatment
+
+Pregnant 0 8 706 714 B-pregnancy
+
+absolute 0 8 715 723 B-clinical_variable
+neutrophil 9 19 724 734 I-clinical_variable
+count 20 25 735 740 I-clinical_variable
+< 26 27 741 742 O
+1000 27 31 742 746 B-upper_bound
+/ 31 32 746 747 I-upper_bound
+μL 32 34 747 749 I-upper_bound
+) 34 35 749 750 O
+
+all 0 3 751 754 O
+females 4 11 755 762 B-gender
+of 12 14 763 765 O
+child 15 20 766 771 O
+- 20 21 771 772 O
+bearing 21 28 772 779 O
+potential 29 38 780 789 O
+must 39 43 790 794 O
+have 44 48 795 799 O
+a 49 50 800 801 O
+negative 51 59 802 810 B-pregnancy
+serum 60 65 811 816 I-pregnancy
+pregnancy 66 75 817 826 I-pregnancy
+test 76 80 827 831 O
+within 81 87 832 838 O
+7 88 89 839 840 B-upper_bound
+days 90 94 841 845 I-upper_bound
+of 95 97 846 848 O
+treatment 98 107 849 858 B-treatment
+
+females 0 7 859 866 B-gender
+
+fever 0 5 867 872 B-clinical_variable
+, 5 6 872 873 O
+splenomegaly 7 19 874 886 B-clinical_variable
+, 19 20 886 887 O
+cytopenia 21 30 888 897 B-clinical_variable
+involving 31 40 898 907 O
+≥2 41 43 908 910 O
+cell 44 48 911 915 O
+lines 49 54 916 921 O
+( 55 56 922 923 O
+Hemoglobin 56 66 923 933 B-clinical_variable
+< 67 68 934 935 O
+9 68 69 935 936 B-upper_bound
+g 70 71 937 938 I-upper_bound
+/ 71 72 938 939 I-upper_bound
+dL 72 74 939 941 I-upper_bound
+
+hypertriglyceridemia 0 20 942 962 B-chronic_disease
+or 21 23 963 965 O
+hypofibrinogenemia 24 42 966 984 B-chronic_disease
+
+known 0 5 985 990 O
+HIV 6 9 991 994 B-chronic_disease
+infection 10 19 995 1004 O
+
+lactating 0 9 1005 1014 O
+female 10 16 1015 1021 B-gender
+
+lactating 0 9 1022 1031 O
+females 10 17 1032 1039 B-gender
+must 18 22 1040 1044 O
+discontinue 23 34 1045 1056 O
+breast 35 41 1057 1063 O
+feeding 42 49 1064 1071 O
+
+low 0 3 1072 1075 O
+or 4 6 1076 1078 O
+absent 7 13 1079 1085 O
+NK 14 16 1086 1088 B-chronic_disease
+( 17 18 1089 1090 I-chronic_disease
+Natural 18 25 1090 1097 I-chronic_disease
+Killer 26 32 1098 1104 I-chronic_disease
+) 32 33 1104 1105 I-chronic_disease
+cell 34 38 1106 1110 I-chronic_disease
+activity 39 47 1111 1119 O
+
+platelets 0 9 1120 1129 B-clinical_variable
+< 10 11 1130 1131 O
+100,000 11 18 1131 1138 B-upper_bound
+/ 18 19 1138 1139 I-upper_bound
+μL 19 21 1139 1141 I-upper_bound
+
+reported 0 8 1142 1150 O
+history 9 16 1151 1158 O
+of 17 19 1159 1161 O
+liver 20 25 1162 1167 O
+cirrhosis 26 35 1168 1177 B-chronic_disease
+with 36 40 1178 1182 O
+a 41 42 1183 1184 O
+Model 43 48 1185 1190 B-clinical_variable
+for 49 52 1191 1194 I-clinical_variable
+End 53 56 1195 1198 I-clinical_variable
+- 56 57 1198 1199 I-clinical_variable
+stage 57 62 1199 1204 I-clinical_variable
+Liver 63 68 1205 1210 I-clinical_variable
+Disease 69 76 1211 1218 I-clinical_variable
+( 77 78 1219 1220 I-clinical_variable
+MELD 78 82 1220 1224 I-clinical_variable
+) 82 83 1224 1225 I-clinical_variable
+score 84 89 1226 1231 I-clinical_variable
+> 90 91 1232 1233 O
+20 91 93 1233 1235 B-lower_bound
+
+serum 0 5 1236 1241 B-clinical_variable
+ferritin 6 14 1242 1250 I-clinical_variable
+≥3000 15 20 1251 1256 O
+ug 21 23 1257 1259 I-lower_bound
+/ 23 24 1259 1260 I-lower_bound
+L 24 25 1260 1261 I-lower_bound
+
+soluble 0 7 1262 1269 B-clinical_variable
+IL-2 8 12 1270 1274 I-clinical_variable
+receptor 13 21 1275 1283 I-clinical_variable
+( 22 23 1284 1285 I-clinical_variable
+CD25 23 27 1285 1289 I-clinical_variable
+) 27 28 1289 1290 I-clinical_variable
+> 29 30 1291 1292 O
+2400 30 34 1292 1296 B-lower_bound
+U 35 36 1297 1298 I-lower_bound
+/ 36 37 1298 1299 I-lower_bound
+mL 37 39 1299 1301 I-lower_bound
+
+tissue 0 6 1302 1308 O
+demonstration 7 20 1309 1322 O
+of 21 23 1323 1325 O
+hemophagocytosis 24 40 1326 1342 B-cancer
+

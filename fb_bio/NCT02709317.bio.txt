@@ -1,0 +1,54 @@
+be 0 2 0 2 O
+18 3 5 3 5 B-lower_bound
+years 6 11 6 11 I-lower_bound
+or 12 14 12 14 O
+older 15 20 15 20 O
+
+currently 0 9 21 30 O
+be 10 12 31 33 O
+receiving 13 22 34 43 O
+daily 23 28 44 49 O
+treatment 29 38 50 59 B-treatment
+with 39 43 60 64 O
+a 44 45 65 66 O
+prescription 46 58 67 79 O
+opioid 59 65 80 86 B-treatment
+for 66 69 87 90 O
+chronic 70 77 91 98 O
+pain 78 82 99 103 O
+
+have 0 4 104 108 B-technology_access
+a 5 6 109 110 I-technology_access
+cell 7 11 111 115 I-technology_access
+phone 12 17 116 121 I-technology_access
+capable 18 25 122 129 I-technology_access
+of 26 28 130 132 I-technology_access
+receiving 29 38 133 142 I-technology_access
+text 39 43 143 147 I-technology_access
+messages 44 52 148 156 I-technology_access
+
+have 0 4 157 161 O
+a 5 6 162 163 O
+current 7 14 164 171 O
+psychotic 15 24 172 181 B-chronic_disease
+disorder 25 33 182 190 I-chronic_disease
+severe 34 40 191 197 O
+enough 41 47 198 204 O
+to 48 50 205 207 O
+require 51 58 208 215 O
+inpatient 59 68 216 225 O
+treatment 69 78 226 235 O
+
+willing 0 7 236 243 O
+to 8 10 244 246 O
+be 11 13 247 249 O
+in 14 16 250 252 O
+a 17 18 253 254 O
+study 19 24 255 260 O
+where 25 30 261 266 O
+they 31 35 267 271 O
+might 36 41 272 277 O
+receive 42 49 278 285 O
+text 50 54 286 290 B-technology_access
+messages 55 63 291 299 I-technology_access
+

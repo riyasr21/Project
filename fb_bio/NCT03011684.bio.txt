@@ -1,0 +1,59 @@
+Chemotherapy 0 12 0 12 B-treatment
+has 13 16 13 16 O
+already 17 24 17 24 O
+commenced 25 34 25 34 O
+or 35 37 35 37 O
+been 38 42 38 42 O
+completed 43 52 43 52 O
+
+Desires 0 7 53 60 O
+to 8 10 61 63 O
+undergo 11 18 64 71 O
+ovarian 19 26 72 79 B-treatment
+stimulation 27 38 80 91 I-treatment
+and 39 42 92 95 O
+oocyte 43 49 96 102 B-treatment
+retrieval 50 59 103 112 I-treatment
+prior 60 65 113 118 O
+to 66 68 119 121 O
+cancer 69 75 122 128 B-treatment
+treatment 76 85 129 138 I-treatment
+
+Has 0 3 139 142 O
+not 4 7 143 146 O
+yet 8 11 147 150 O
+begun 12 17 151 156 O
+chemotherapy 18 30 157 169 B-treatment
+
+History 0 7 170 177 O
+of 8 10 178 180 O
+recurrent 11 20 181 190 O
+breast 21 27 191 197 B-cancer
+cancer 28 34 198 204 I-cancer
+( 35 36 205 206 O
+with 36 40 206 210 O
+a 41 42 211 212 O
+prior 43 48 213 218 O
+history 49 56 219 226 O
+of 57 59 227 229 O
+chemotherapy 60 72 230 242 B-treatment
+) 72 73 242 243 O
+
+New 0 3 244 247 O
+breast 4 10 248 254 B-cancer
+cancer 11 17 255 261 I-cancer
+diagnosis 18 27 262 271 O
+
+Stage 0 5 272 277 B-cancer
+IV 6 8 278 280 I-cancer
+breast 9 15 281 287 I-cancer
+cancer 16 22 288 294 I-cancer
+diagnosis 23 32 295 304 O
+( 33 34 305 306 O
+metastases 34 44 306 316 B-cancer
+remote 45 51 317 323 O
+from 52 56 324 328 O
+the 57 60 329 332 O
+breast 61 67 333 339 O
+) 67 68 339 340 O
+

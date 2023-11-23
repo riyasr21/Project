@@ -1,0 +1,50 @@
+Known 0 5 0 5 O
+Celiac 6 12 6 12 B-chronic_disease
+disease 13 20 13 20 I-chronic_disease
+
+Patients 0 8 21 29 O
+unable 9 15 30 36 B-language_fluency
+to 16 18 37 39 I-language_fluency
+speak 19 24 40 45 I-language_fluency
+English 25 32 46 53 I-language_fluency
+
+Patients 0 8 54 62 O
+with 9 13 63 67 O
+mild 14 18 68 72 O
+to 19 21 73 75 O
+moderate 22 30 76 84 O
+Irritable 31 40 85 94 B-chronic_disease
+Bowel 41 46 95 100 I-chronic_disease
+Syndrome 47 55 101 109 I-chronic_disease
+( 56 57 110 111 I-chronic_disease
+IBS 57 60 111 114 I-chronic_disease
+) 60 61 114 115 I-chronic_disease
+and 62 65 116 119 O
+mild 66 70 120 124 O
+to 71 73 125 127 O
+moderate 74 82 128 136 O
+anxiety 83 90 137 144 B-chronic_disease
+or 91 93 145 147 O
+depression 94 104 148 158 B-chronic_disease
+
+Pregnant 0 8 159 167 B-pregnancy
+
+Uncontrolled 0 12 168 180 O
+thyroid 13 20 181 188 B-chronic_disease
+disease 21 28 189 196 I-chronic_disease
+as 29 31 197 199 O
+indicated 32 41 200 209 O
+by 42 44 210 212 O
+an 45 47 213 215 O
+abnormal 48 56 216 224 B-clinical_variable
+thyroid 57 64 225 232 I-clinical_variable
+stimulating 65 76 233 244 I-clinical_variable
+hormone 77 84 245 252 I-clinical_variable
+( 85 86 253 254 I-clinical_variable
+TSH 86 89 254 257 I-clinical_variable
+) 89 90 257 258 I-clinical_variable
+level 91 96 259 264 I-clinical_variable
+
+nursing 0 7 265 272 O
+women 8 13 273 278 B-gender
+

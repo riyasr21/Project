@@ -1,0 +1,91 @@
+Greater 0 7 0 7 O
+than 8 12 8 12 O
+6 13 14 13 14 B-lower_bound
+months 15 21 15 21 I-lower_bound
+post 22 26 22 26 B-chronic_disease
+- 26 27 26 27 I-chronic_disease
+spinal 27 33 27 33 I-chronic_disease
+cord 34 38 34 38 I-chronic_disease
+injury 39 45 39 45 I-chronic_disease
+
+No 0 2 46 48 O
+other 3 8 49 54 O
+known 9 14 55 60 O
+neurological 15 27 61 73 B-chronic_disease
+disorders 28 37 74 83 I-chronic_disease
+
+Presence 0 8 84 92 O
+of 9 11 93 95 O
+severe 12 18 96 102 O
+musculoskeletal 19 34 103 118 B-chronic_disease
+impairments 35 46 119 130 I-chronic_disease
+, 46 47 130 131 O
+open 48 52 132 136 B-chronic_disease
+wounds 53 59 137 143 I-chronic_disease
+, 59 60 143 144 O
+or 61 63 145 147 O
+skin 64 68 148 152 B-chronic_disease
+lesions 69 76 153 160 I-chronic_disease
+that 77 81 161 165 O
+would 82 87 166 171 O
+limit 88 93 172 177 O
+participation 94 107 178 191 O
+in 108 110 192 194 O
+functional 111 121 195 205 O
+assessments 122 133 206 217 O
+
+Severe 0 6 218 224 O
+, 6 7 224 225 O
+untreated 8 17 226 235 O
+bladder 18 25 236 243 B-chronic_disease
+or 26 28 244 246 O
+urinary 29 36 247 254 B-chronic_disease
+tract 37 42 255 260 I-chronic_disease
+infection 43 52 261 270 I-chronic_disease
+
+Spinal 0 6 271 277 B-chronic_disease
+cord 7 11 278 282 I-chronic_disease
+injury 12 18 283 289 I-chronic_disease
+affecting 19 28 290 299 O
+segments 29 37 300 308 O
+between 38 45 309 316 O
+C4 46 48 317 319 O
+- 48 49 319 320 O
+T12 49 52 320 323 O
+
+ages 0 4 324 328 B-age
+18 5 7 329 331 B-lower_bound
+- 7 8 331 332 O
+65 8 10 332 334 B-upper_bound
+
+cardiovascular 0 14 335 349 B-chronic_disease
+disease 15 22 350 357 I-chronic_disease
+
+female 0 6 358 364 B-gender
+
+severe 0 6 365 371 O
+musculoskeletal 7 22 372 387 B-chronic_disease
+impairments 23 34 388 399 I-chronic_disease
+, 34 35 399 400 O
+open 36 40 401 405 O
+wounds 41 47 406 412 O
+, 47 48 412 413 O
+or 49 51 414 416 O
+skin 52 56 417 421 O
+lesions 57 64 422 429 O
+that 65 69 430 434 O
+would 70 75 435 440 O
+limit 76 81 441 446 O
+participation 82 95 447 460 O
+in 96 98 461 463 O
+functional 99 109 464 474 O
+assessments 110 121 475 486 O
+
+severe 0 6 487 493 O
+recurrent 7 16 494 503 O
+autonomic 17 26 504 513 B-chronic_disease
+dysreflexia 27 38 514 525 I-chronic_disease
+
+sleep 0 5 526 531 B-chronic_disease
+apnea 6 11 532 537 I-chronic_disease
+

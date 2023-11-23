@@ -1,0 +1,32 @@
+Biopsy 0 6 0 6 B-treatment
+proven 7 13 7 13 O
+T2 14 16 14 16 B-cancer
+malignant 17 26 17 26 I-cancer
+melanoma 27 35 27 35 I-cancer
+
+Eastern 0 7 36 43 B-clinical_variable
+Cooperative 8 19 44 55 I-clinical_variable
+Oncology 20 28 56 64 I-clinical_variable
+Group 29 34 65 70 I-clinical_variable
+( 35 36 71 72 I-clinical_variable
+ECOG 36 40 72 76 I-clinical_variable
+) 40 41 76 77 I-clinical_variable
+score 42 47 78 83 I-clinical_variable
+of 48 50 84 86 O
+0 51 52 87 88 B-lower_bound
+- 52 53 88 89 O
+2 53 54 89 90 B-upper_bound
+
+Melanoma 0 8 91 99 B-cancer
+located 9 16 100 107 O
+on 17 19 108 110 O
+face 20 24 111 115 O
+or 25 27 116 118 O
+digits 28 34 119 125 O
+
+Unable 0 6 126 132 O
+to 7 9 133 135 O
+tolerate 10 18 136 144 O
+general 19 26 145 152 B-treatment
+anesthesia 27 37 153 163 I-treatment
+

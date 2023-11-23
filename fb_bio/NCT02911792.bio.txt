@@ -1,0 +1,230 @@
+> 0 1 0 1 O
+15/10 2 7 2 7 B-lower_bound
+mmHg 8 12 8 12 I-lower_bound
+decrease 13 21 13 21 O
+upon 22 26 22 26 O
+standing 27 35 27 35 O
+for 36 39 36 39 O
+3 40 41 40 41 O
+minutes 42 49 42 49 O
+
+> 0 1 50 51 O
+300 2 5 52 55 B-lower_bound
+mg 6 8 56 58 I-lower_bound
+/ 8 9 58 59 I-lower_bound
+day 9 12 59 62 I-lower_bound
+albumin 13 20 63 70 B-clinical_variable
+excretion 21 30 71 80 I-clinical_variable
+
+BMI 0 3 81 84 B-bmi
+= 4 5 85 86 O
+20 6 8 87 89 B-lower_bound
+- 8 9 89 90 O
+45 9 11 90 92 B-upper_bound
+kg 12 14 93 95 I-upper_bound
+/ 14 15 95 96 I-upper_bound
+m2 15 17 96 98 I-upper_bound
+
+Estimated 0 9 99 108 B-clinical_variable
+glomerular 10 20 109 119 I-clinical_variable
+filtration 21 31 120 130 I-clinical_variable
+rate 32 36 131 135 I-clinical_variable
+< 37 38 136 137 O
+60 38 40 137 139 B-upper_bound
+mL 41 43 140 142 I-upper_bound
+/ 43 44 142 143 I-upper_bound
+min•1.73m2 44 54 143 153 I-upper_bound
+
+HbA1c 0 5 154 159 B-clinical_variable
+= 6 7 160 161 O
+7.5 8 11 162 165 B-lower_bound
+% 11 12 165 166 I-lower_bound
+to 13 15 167 169 O
+12 16 18 170 172 B-upper_bound
+% 18 19 172 173 I-upper_bound
+
+History 0 7 174 181 O
+of 8 10 182 184 O
+cancer 11 17 185 191 B-cancer
+
+Hospitalization 0 15 192 207 B-treatment
+for 16 19 208 211 O
+unstable 20 28 212 220 B-chronic_disease
+angina 29 35 221 227 I-chronic_disease
+
+Ingestion 0 9 228 237 B-treatment
+of 10 12 238 240 I-treatment
+medications 13 24 241 252 I-treatment
+known 25 30 253 258 I-treatment
+to 31 33 259 261 I-treatment
+interfere 34 43 262 271 I-treatment
+with 44 48 272 276 I-treatment
+the 49 52 277 280 I-treatment
+renin 53 58 281 286 I-treatment
+- 58 59 286 287 I-treatment
+angiotensin 59 70 287 298 I-treatment
+system 71 77 299 305 I-treatment
+or 78 80 306 308 I-treatment
+renal 81 86 309 314 I-treatment
+function 87 95 315 323 I-treatment
+, 95 96 323 324 I-treatment
+including 97 106 325 334 I-treatment
+diuretic 107 115 335 343 I-treatment
+therapy 116 123 344 351 I-treatment
+
+New 0 3 352 355 O
+York 4 8 356 360 O
+Heart 9 14 361 366 O
+class 15 20 367 372 O
+II 21 23 373 375 O
+- 23 24 375 376 O
+IV 24 26 376 378 O
+heart 27 32 379 384 B-chronic_disease
+failure 33 40 385 392 I-chronic_disease
+Severe 41 47 393 399 O
+hepatic 48 55 400 407 B-chronic_disease
+insufficiency 56 69 408 421 I-chronic_disease
+
+Newly 0 5 422 427 O
+diagnosed 6 15 428 437 O
+, 15 16 437 438 O
+drug 17 21 439 443 O
+naïve 22 27 444 449 O
+, 27 28 449 450 O
+hyperfiltering 29 43 451 465 O
+and 44 47 466 469 O
+normofiltration 48 63 470 485 O
+patients 64 72 486 494 O
+with 73 77 495 499 O
+type 78 82 500 504 B-chronic_disease
+2 83 84 505 506 I-chronic_disease
+diabetes 85 93 507 515 I-chronic_disease
+mellitus 94 102 516 524 I-chronic_disease
+( 103 104 525 526 I-chronic_disease
+T2DM 104 108 526 530 I-chronic_disease
+) 108 109 530 531 I-chronic_disease
+
+Normofiltration 0 15 532 547 O
+by 16 18 548 550 O
+a 19 20 551 552 O
+GFR 21 24 553 556 B-clinical_variable
+= 25 26 557 558 O
+90 27 29 559 561 O
+- 29 30 561 562 O
+134 30 33 562 565 O
+ml 34 36 566 568 O
+/ 36 37 568 569 O
+min•1.73m2 37 47 569 579 O
+
+Orthostatic 0 11 580 591 B-chronic_disease
+hypotension 12 23 592 603 I-chronic_disease
+
+Positive 0 8 604 612 O
+serologic 9 18 613 622 O
+evidence 19 27 623 631 O
+of 28 30 632 634 O
+current 31 38 635 642 O
+infectious 39 49 643 653 B-chronic_disease
+liver 50 55 654 659 I-chronic_disease
+disease 56 63 660 667 I-chronic_disease
+including 64 73 668 677 O
+Hepatitis 74 83 678 687 B-chronic_disease
+B 84 85 688 689 I-chronic_disease
+viral 86 91 690 695 I-chronic_disease
+antibody 92 100 696 704 I-chronic_disease
+IGM 101 104 705 708 I-chronic_disease
+, 104 105 708 709 O
+Hepatitis 106 115 710 719 B-chronic_disease
+B 116 117 720 721 I-chronic_disease
+surface 118 125 722 729 I-chronic_disease
+antigen 126 133 730 737 I-chronic_disease
+, 133 134 737 738 O
+Hepatitis 135 144 739 748 B-chronic_disease
+C 145 146 749 750 I-chronic_disease
+virus 147 152 751 756 I-chronic_disease
+antibody 153 161 757 765 I-chronic_disease
+and 162 165 766 769 O
+HIV 166 169 770 773 B-chronic_disease
+
+Pregnant 0 8 774 782 B-pregnancy
+
+Premenopausal 0 13 783 796 O
+females 14 21 797 804 B-gender
+who 22 25 805 808 O
+are 26 29 809 812 O
+not 30 33 813 816 B-contraception_consent
+practicing 34 44 817 827 I-contraception_consent
+acceptable 45 55 828 838 I-contraception_consent
+contraceptive 56 69 839 852 I-contraception_consent
+methods 70 77 853 860 I-contraception_consent
+Participation 78 91 861 874 O
+in 92 94 875 877 O
+another 95 102 878 885 B-treatment
+trial 103 108 886 891 I-treatment
+with 109 113 892 896 O
+an 114 116 897 899 O
+investigational 117 132 900 915 O
+drug 133 137 916 920 O
+
+Proliferative 0 13 921 934 B-chronic_disease
+diabetic 14 22 935 943 I-chronic_disease
+retinopathy 23 34 944 955 I-chronic_disease
+
+Willingness 0 11 956 967 O
+to 12 14 968 970 O
+participate 15 26 971 982 O
+in 27 29 983 985 O
+the 30 33 986 989 O
+16 34 36 990 992 B-upper_bound
+week 37 41 993 997 I-upper_bound
+study 42 47 998 1003 O
+protocol 48 56 1004 1012 O
+
+coronary 0 8 1013 1021 B-treatment
+artery 9 15 1022 1028 I-treatment
+revascularization 16 33 1029 1046 I-treatment
+
+major 0 5 1047 1052 B-chronic_disease
+organ 6 11 1053 1058 I-chronic_disease
+system 12 18 1059 1065 I-chronic_disease
+disease 19 26 1066 1073 I-chronic_disease
+
+significant 0 11 1074 1085 O
+abnormal 12 20 1086 1094 O
+liver 21 26 1095 1100 O
+function 27 35 1101 1109 O
+defined 36 43 1110 1117 O
+as 44 46 1118 1120 O
+aspartate 47 56 1121 1130 B-clinical_variable
+aminotransferase 57 73 1131 1147 I-clinical_variable
+( 74 75 1148 1149 I-clinical_variable
+AST 75 78 1149 1152 I-clinical_variable
+) 78 79 1152 1153 I-clinical_variable
+
+total 0 5 1154 1159 O
+bilirubin 6 15 1160 1169 B-clinical_variable
+> 16 17 1170 1171 O
+2.0 18 21 1172 1175 B-lower_bound
+mg 22 24 1176 1178 I-lower_bound
+/ 24 25 1178 1179 I-lower_bound
+dL 25 27 1179 1181 I-lower_bound
+( 28 29 1182 1183 I-lower_bound
+34.2 29 33 1183 1187 I-lower_bound
+µmo 34 37 1188 1191 I-lower_bound
+/ 37 38 1191 1192 I-lower_bound
+L 38 39 1192 1193 I-lower_bound
+) 39 40 1193 1194 I-lower_bound
+
+within 0 6 1195 1201 O
+30 7 9 1202 1204 B-upper_bound
+days 10 14 1205 1209 I-upper_bound
+Alcohol 15 22 1210 1217 O
+or 23 25 1218 1220 O
+drug 26 30 1221 1225 O
+abuse 31 36 1226 1231 O
+within 37 43 1232 1238 O
+the 44 47 1239 1242 O
+preceding 48 57 1243 1252 B-upper_bound
+6 58 59 1253 1254 I-upper_bound
+months 60 66 1255 1261 I-upper_bound
+

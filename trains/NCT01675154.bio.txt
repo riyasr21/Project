@@ -1,0 +1,169 @@
+Acute 0 5 0 5 B-chronic_disease
+illnesses 6 15 6 15 I-chronic_disease
+such 16 20 16 20 O
+as 21 23 21 23 O
+acute 24 29 24 29 B-chronic_disease
+pancreatitis 30 42 30 42 I-chronic_disease
+in 43 45 43 45 O
+the 46 49 46 49 O
+last 50 54 50 54 B-upper_bound
+8 55 56 55 56 I-upper_bound
+weeks 57 62 57 62 I-upper_bound
+
+Age 0 3 63 66 B-age
+> 4 5 67 68 O
+12 6 8 69 71 B-lower_bound
+years 9 14 72 77 I-lower_bound
+
+Alcohol 0 7 78 85 O
+abuse 8 13 86 91 O
+( 14 15 92 93 O
+> 15 16 93 94 O
+7 17 18 95 96 B-lower_bound
+drinks 19 25 97 103 O
+or 26 28 104 106 O
+84 29 31 107 109 B-lower_bound
+g 32 33 110 111 I-lower_bound
+per 34 37 112 115 O
+week 38 42 116 120 O
+for 43 46 121 124 O
+women 47 52 125 130 B-gender
+and 53 56 131 134 O
+> 57 58 135 136 O
+14 59 61 137 139 B-lower_bound
+drinks 62 68 140 146 O
+for 69 72 147 150 O
+men 73 76 151 154 O
+or 77 79 155 157 O
+168 80 83 158 161 B-lower_bound
+g 84 85 162 163 I-lower_bound
+per 86 89 164 167 O
+week 90 94 168 172 O
+for 95 98 173 176 O
+men 99 102 177 180 O
+) 102 103 180 181 O
+
+Cancer 0 6 182 188 O
+within 7 13 189 195 O
+the 14 17 196 199 O
+past 18 22 200 204 B-upper_bound
+five 23 27 205 209 I-upper_bound
+years 28 33 210 215 I-upper_bound
+
+Cholestasis 0 11 216 227 B-chronic_disease
+
+Chronic 0 7 228 235 O
+malabsorption 8 21 236 249 B-chronic_disease
+syndromes 22 31 250 259 I-chronic_disease
+
+Congestive 0 10 260 270 B-chronic_disease
+heart 11 16 271 276 I-chronic_disease
+failure 17 24 277 284 I-chronic_disease
+
+Current 0 7 285 292 B-treatment
+therapy 8 15 293 300 I-treatment
+with 16 20 301 305 I-treatment
+anti 21 25 306 310 I-treatment
+- 25 26 310 311 I-treatment
+coagulants 26 36 311 321 I-treatment
+, 36 37 321 322 O
+digoxin 38 45 323 330 B-treatment
+and 46 49 331 334 O
+anti 50 54 335 339 O
+- 54 55 339 340 O
+arrhythmics 55 66 340 351 O
+
+Fasting 0 7 352 359 B-clinical_variable
+serum 8 13 360 365 I-clinical_variable
+triglyceride 14 26 366 378 I-clinical_variable
+levels 27 33 379 385 O
+of 34 36 386 388 O
+greater 37 44 389 396 O
+than 45 49 397 401 O
+1000 50 54 402 406 B-lower_bound
+mg 55 57 407 409 I-lower_bound
+/ 57 58 409 410 I-lower_bound
+dL 58 60 410 412 I-lower_bound
+
+Gastrointestinal 0 16 413 429 B-treatment
+surgery 17 24 430 437 I-treatment
+in 25 27 438 440 O
+the 28 31 441 444 O
+past 32 36 445 449 O
+
+Major 0 5 450 455 B-treatment
+surgery 6 13 456 463 I-treatment
+in 14 16 464 466 O
+the 17 20 467 470 O
+past 21 25 471 475 B-upper_bound
+three 26 31 476 481 I-upper_bound
+months 32 38 482 488 I-upper_bound
+
+Pregnant 0 8 489 497 B-pregnancy
+
+Secondary 0 9 498 507 O
+hypertriglyceridemias 10 31 508 529 B-chronic_disease
+due 32 35 530 533 O
+to 36 38 534 536 O
+diabetes 39 47 537 545 B-chronic_disease
+, 47 48 545 546 O
+renal 49 54 547 552 B-chronic_disease
+disease 55 62 553 560 I-chronic_disease
+, 62 63 560 561 O
+hypothyroidism 64 78 562 576 B-chronic_disease
+, 78 79 576 577 O
+alcoholism 80 90 578 588 O
+and 91 94 589 592 O
+drug 95 99 593 597 B-treatment
+therapy 100 107 598 605 I-treatment
+such 108 112 606 610 O
+as 113 115 611 613 O
+estrogens 116 125 614 623 B-treatment
+and 126 129 624 627 I-treatment
+estrogen 130 138 628 636 I-treatment
+analogues 139 148 637 646 I-treatment
+, 148 149 646 647 O
+steroids 150 158 648 656 B-treatment
+, 158 159 656 657 O
+HIV 160 163 658 661 B-treatment
+- 163 164 661 662 I-treatment
+protease 164 172 662 670 I-treatment
+inhibitors 173 183 671 681 I-treatment
+, 183 184 681 682 O
+retinoic 185 193 683 691 B-treatment
+acid 194 198 692 696 I-treatment
+derivatives 199 210 697 708 I-treatment
+and 211 214 709 712 O
+interferons 215 226 713 724 B-treatment
+
+Serum 0 5 725 730 B-clinical_variable
+creatinine 6 16 731 741 I-clinical_variable
+greater 17 24 742 749 O
+than 25 29 750 754 O
+2.5 30 33 755 758 B-lower_bound
+mg 34 36 759 761 I-lower_bound
+/ 36 37 761 762 I-lower_bound
+dL 37 39 762 764 I-lower_bound
+
+Significant 0 11 765 776 O
+liver 12 17 777 782 B-chronic_disease
+disease 18 25 783 790 I-chronic_disease
+( 26 27 791 792 O
+elevated 27 35 792 800 B-clinical_variable
+transaminases 36 49 801 814 I-clinical_variable
+> 50 51 815 816 O
+2 52 53 817 818 B-lower_bound
+times 54 59 819 824 I-lower_bound
+upper 60 65 825 830 I-lower_bound
+limit 66 71 831 836 I-lower_bound
+of 72 74 837 839 I-lower_bound
+normal 75 81 840 846 I-lower_bound
+) 81 82 846 847 O
+
+Type 0 4 848 852 B-chronic_disease
+I 5 6 853 854 I-chronic_disease
+hyperlipoproteinemia 7 27 855 875 I-chronic_disease
+
+lactating 0 9 876 885 O
+women 10 15 886 891 B-gender
+

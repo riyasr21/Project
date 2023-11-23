@@ -1,0 +1,46 @@
+Ability 0 7 0 7 B-language_fluency
+to 8 10 8 10 I-language_fluency
+speak 11 16 11 16 I-language_fluency
+English 17 24 17 24 I-language_fluency
+
+Gross 0 5 25 30 O
+cognitive 6 15 31 40 B-chronic_disease
+impairment 16 26 41 51 I-chronic_disease
+as 27 29 52 54 O
+measured 30 38 55 63 O
+by 39 41 64 66 O
+the 42 45 67 70 O
+Mini 46 50 71 75 B-clinical_variable
+Mental 51 57 76 82 I-clinical_variable
+State 58 63 83 88 I-clinical_variable
+Exam 64 68 89 93 I-clinical_variable
+
+Having 0 6 94 100 O
+been 7 11 101 105 O
+released 12 20 106 114 O
+from 21 25 115 119 O
+incarceration 26 39 120 133 O
+in 40 42 134 136 O
+the 43 46 137 140 O
+past 47 51 141 145 B-upper_bound
+4 52 53 146 147 I-upper_bound
+years 54 59 148 153 I-upper_bound
+
+Sexual 0 6 154 160 O
+identification 7 21 161 175 O
+as 22 24 176 178 O
+female 25 31 179 185 B-gender
+
+schizophrenia 0 13 186 199 B-chronic_disease
+, 13 14 199 200 O
+depression 15 25 201 211 B-chronic_disease
+with 26 30 212 216 O
+psychotic 31 40 217 226 O
+features 41 49 227 235 O
+, 49 50 235 236 O
+bipolar 51 58 237 244 B-chronic_disease
+disorder 59 67 245 253 I-chronic_disease
+, 67 68 253 254 O
+any 69 72 255 258 O
+psychosis 73 82 259 268 B-chronic_disease
+

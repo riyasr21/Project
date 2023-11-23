@@ -1,0 +1,45 @@
+Acute 0 5 0 5 B-chronic_disease
+psychiatric 6 17 6 17 I-chronic_disease
+illness 18 25 18 25 I-chronic_disease
+
+Adult 0 5 26 31 O
+patient 6 13 32 39 O
+≥ 14 15 40 41 O
+18 16 18 42 44 B-lower_bound
+years 19 24 45 50 I-lower_bound
+old 25 28 51 54 O
+presenting 29 39 55 65 O
+to 40 42 66 68 O
+the 43 46 69 72 O
+emergency 47 56 73 82 O
+department 57 67 83 93 O
+with 68 72 94 98 O
+complaint 73 82 99 108 O
+of 83 85 109 111 O
+distal 86 92 112 118 O
+radius 93 99 119 125 O
+fracture 100 108 126 134 O
+
+Altered 0 7 135 142 B-chronic_disease
+mental 8 14 143 149 I-chronic_disease
+status 15 21 150 156 I-chronic_disease
+or 22 24 157 159 O
+intoxication 25 37 160 172 O
+
+Aphasia 0 7 173 180 B-chronic_disease
+
+High 0 4 181 185 B-chronic_disease
+acuity 5 11 186 192 I-chronic_disease
+/ 11 12 192 193 I-chronic_disease
+distress 12 20 193 201 I-chronic_disease
+per 21 24 202 205 O
+the 25 28 206 209 O
+Attending 29 38 210 219 O
+ED 39 41 220 222 O
+physician 42 51 223 232 O
+
+dementia 0 8 233 241 B-chronic_disease
+
+mental 0 6 242 248 B-chronic_disease
+retardation 7 18 249 260 I-chronic_disease
+

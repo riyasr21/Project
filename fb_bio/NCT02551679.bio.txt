@@ -1,0 +1,261 @@
+Acute 0 5 0 5 O
+worsening 6 15 6 15 O
+of 16 18 16 18 O
+CLI 19 22 19 22 B-chronic_disease
+
+Advanced 0 8 23 31 O
+Critical 9 17 32 40 B-chronic_disease
+Limb 18 22 41 45 I-chronic_disease
+Ischemia 23 31 46 54 I-chronic_disease
+( 32 33 55 56 I-chronic_disease
+CLI 33 36 56 59 I-chronic_disease
+) 36 37 59 60 I-chronic_disease
+presenting 38 48 61 71 O
+as 49 51 72 74 O
+severe 52 58 75 81 O
+ischemic 59 67 82 90 B-chronic_disease
+or 68 70 91 93 O
+dry 71 74 94 97 B-chronic_disease
+gangrene 75 83 98 106 I-chronic_disease
+
+Anemia 0 6 107 113 B-chronic_disease
+
+Bleeding 0 8 114 122 B-chronic_disease
+diathesis 9 18 123 132 I-chronic_disease
+
+Chronic 0 7 133 140 O
+cytotoxic 8 17 141 150 B-treatment
+drug 18 22 151 155 I-treatment
+treatment 23 32 156 165 I-treatment
+
+Concurrent 0 10 166 176 O
+chronic 11 18 177 184 B-chronic_disease
+or 19 21 185 187 O
+acute 22 27 188 193 B-chronic_disease
+infectious 28 38 194 204 I-chronic_disease
+disease 39 46 205 212 I-chronic_disease
+and 47 50 213 216 O
+uncontrolled 51 63 217 229 O
+infectious 64 74 230 240 O
+symptoms 75 83 241 249 O
+
+Diagnosis 0 9 250 259 O
+of 10 12 260 262 O
+malignancy 13 23 263 273 B-cancer
+
+Hepatic 0 7 274 281 B-chronic_disease
+failure 8 15 282 289 I-chronic_disease
+
+Hypercoagulable 0 15 290 305 B-chronic_disease
+state 16 21 306 311 I-chronic_disease
+
+Life 0 4 312 316 B-clinical_variable
+expectancy 5 15 317 327 I-clinical_variable
+of 16 18 328 330 O
+less 19 23 331 335 O
+than 24 28 336 340 O
+6 29 30 341 342 B-upper_bound
+months 31 37 343 349 I-upper_bound
+
+Lower 0 5 350 355 B-chronic_disease
+extremity 6 15 356 365 I-chronic_disease
+non 16 19 366 369 I-chronic_disease
+- 19 20 369 370 I-chronic_disease
+treated 20 27 370 377 I-chronic_disease
+active 28 34 378 384 I-chronic_disease
+infection 35 44 385 394 I-chronic_disease
+
+Major 0 5 395 400 O
+stroke 6 12 401 407 B-chronic_disease
+
+Male 0 4 408 412 B-gender
+
+Myocardial 0 10 413 423 B-chronic_disease
+infarction 11 21 424 434 I-chronic_disease
+or 22 24 435 437 O
+uncontrolled 25 37 438 450 B-chronic_disease
+myocardial 38 48 451 461 I-chronic_disease
+ischemia 49 57 462 470 I-chronic_disease
+or 58 60 471 473 O
+persistent 61 71 474 484 O
+severe 72 78 485 491 O
+heart 79 84 492 497 B-chronic_disease
+failure 85 92 498 505 I-chronic_disease
+
+Non 0 3 506 509 B-pregnancy
+- 3 4 509 510 I-pregnancy
+pregnant 4 12 510 518 I-pregnancy
+
+Participation 0 13 519 532 O
+at 14 16 533 535 O
+the 17 20 536 539 O
+same 21 25 540 544 O
+time 26 30 545 549 O
+in 31 33 550 552 O
+another 34 41 553 560 O
+investigational 42 57 561 576 B-treatment
+product 58 65 577 584 I-treatment
+or 66 68 585 587 O
+device 69 75 588 594 O
+study 76 81 595 600 O
+
+Recent 0 6 601 607 B-treatment
+major 7 12 608 613 I-treatment
+non 13 16 614 617 I-treatment
+- 16 17 617 618 I-treatment
+vascular 17 25 618 626 I-treatment
+operation 26 35 627 636 I-treatment
+
+Renal 0 5 637 642 B-chronic_disease
+failure 6 13 643 650 I-chronic_disease
+
+Severe 0 6 651 657 O
+aortic 7 13 658 664 B-chronic_disease
+stenosis 14 22 665 673 I-chronic_disease
+
+Severe 0 6 674 680 O
+concurrent 7 17 681 691 O
+disease 18 25 692 699 O
+( 26 27 700 701 O
+other 27 32 701 706 O
+than 33 37 707 711 O
+Peripheral 38 48 712 722 B-chronic_disease
+Vascular 49 57 723 731 I-chronic_disease
+Disease 58 65 732 739 I-chronic_disease
+( 66 67 740 741 I-chronic_disease
+PAD 67 70 741 744 I-chronic_disease
+) 70 71 744 745 I-chronic_disease
+
+Subject 0 7 746 753 O
+has 8 11 754 757 O
+hemodynamic 12 23 758 769 O
+indicators 24 34 770 780 O
+of 35 37 781 783 O
+severe 38 44 784 790 O
+peripheral 45 55 791 801 B-chronic_disease
+arterial 56 64 802 810 I-chronic_disease
+occlusive 65 74 811 820 I-chronic_disease
+disease 75 82 821 828 I-chronic_disease
+
+Subject 0 7 829 836 O
+is 8 10 837 839 O
+diagnosed 11 20 840 849 O
+with 21 25 850 854 O
+critical 26 34 855 863 B-chronic_disease
+limb 35 39 864 868 I-chronic_disease
+ischemia 40 48 869 877 I-chronic_disease
+
+Subject 0 7 878 885 O
+is 8 10 886 888 O
+not 11 14 889 892 O
+a 15 16 893 894 O
+candidate 17 26 895 904 O
+for 27 30 905 908 O
+standard 31 39 909 917 B-treatment
+revascularization 40 57 918 935 I-treatment
+treatment 58 67 936 945 I-treatment
+options 68 75 946 953 O
+for 76 79 954 957 O
+peripheral 80 90 958 968 B-chronic_disease
+arterial 91 99 969 977 I-chronic_disease
+disease 100 107 978 985 I-chronic_disease
+
+Subject 0 7 986 993 O
+must 8 12 994 998 O
+be 13 15 999 1001 O
+on 16 18 1002 1004 O
+standard 19 27 1005 1013 B-treatment
+of 28 30 1014 1016 I-treatment
+care 31 35 1017 1021 I-treatment
+medical 36 43 1022 1029 I-treatment
+therapy 44 51 1030 1037 I-treatment
+for 52 55 1038 1041 O
+peripheral 56 66 1042 1052 O
+vascular 67 75 1053 1061 O
+disease 76 83 1062 1069 O
+
+Subject 0 7 1070 1077 O
+received 8 16 1078 1086 O
+a 17 18 1087 1088 O
+blood 19 24 1089 1094 B-treatment
+transfusion 25 36 1095 1106 I-treatment
+during 37 43 1107 1113 O
+the 44 47 1114 1117 O
+previous 48 56 1118 1126 B-upper_bound
+4 57 58 1127 1128 I-upper_bound
+weeks 59 64 1129 1134 I-upper_bound
+( 65 66 1135 1136 O
+to 66 68 1136 1138 O
+exclude 69 76 1139 1146 O
+the 77 80 1147 1150 O
+potential 81 90 1151 1160 O
+of 91 93 1161 1163 O
+non 94 97 1164 1167 O
+- 97 98 1167 1168 O
+autologous 98 108 1168 1178 O
+ACPs 109 113 1179 1183 O
+in 114 116 1184 1186 O
+the 117 120 1187 1190 O
+harvested 121 130 1191 1200 O
+blood 131 136 1201 1206 O
+) 136 137 1206 1207 O
+
+Subjects 0 8 1208 1216 O
+who 9 12 1217 1220 O
+, 12 13 1220 1221 O
+in 14 16 1222 1224 O
+the 17 20 1225 1228 O
+opinion 21 28 1229 1236 O
+of 29 31 1237 1239 O
+the 32 35 1240 1243 O
+investigator 36 48 1244 1256 O
+, 48 49 1256 1257 O
+have 50 54 1258 1262 O
+a 55 56 1263 1264 O
+vascular 57 65 1265 1273 B-chronic_disease
+disease 66 73 1274 1281 I-chronic_disease
+prognosis 74 83 1282 1291 O
+that 84 88 1292 1296 O
+indicates 89 98 1297 1306 O
+they 99 103 1307 1311 O
+would 104 109 1312 1317 O
+require 110 117 1318 1325 O
+a 118 119 1326 1327 O
+major 120 125 1328 1333 B-treatment
+amputation 126 136 1334 1344 I-treatment
+in 137 139 1345 1347 O
+a 140 141 1348 1349 O
+time 142 146 1350 1354 O
+frame 147 152 1355 1360 O
+shortly 153 160 1361 1368 O
+after 161 166 1369 1374 O
+administration 167 181 1375 1389 O
+of 182 184 1390 1392 O
+the 185 188 1393 1396 O
+IMP 189 192 1397 1400 O
+( 193 194 1401 1402 O
+investigational 194 209 1402 1417 B-treatment
+drug 210 214 1418 1422 I-treatment
+or 215 217 1423 1425 O
+placebo 218 225 1426 1433 O
+) 225 226 1433 1434 O
+
+Uncorrected 0 11 1435 1446 O
+aorto 12 17 1447 1452 B-chronic_disease
+- 17 18 1452 1453 I-chronic_disease
+iliac 18 23 1453 1458 I-chronic_disease
+occlusive 24 33 1459 1468 I-chronic_disease
+disease 34 41 1469 1476 I-chronic_disease
+
+age 0 3 1477 1480 B-age
+18 4 6 1481 1483 B-lower_bound
+and 7 10 1484 1487 O
+above 11 16 1488 1493 O
+
+female 0 6 1494 1500 B-gender
+
+non 0 3 1501 1504 O
+- 3 4 1504 1505 O
+lactating 4 13 1505 1514 O
+female 14 20 1515 1521 B-gender
+

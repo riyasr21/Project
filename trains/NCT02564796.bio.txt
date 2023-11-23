@@ -1,0 +1,161 @@
+Baseline 0 8 0 8 B-clinical_variable
+hematocrit 9 19 9 19 I-clinical_variable
+to 20 22 20 22 O
+be 23 25 23 25 O
+below 26 31 26 31 O
+< 32 33 32 33 O
+40 33 35 33 35 B-upper_bound
+% 35 36 35 36 I-upper_bound
+
+Birth 0 5 37 42 B-clinical_variable
+weight 6 12 43 49 I-clinical_variable
+2.2 13 16 50 53 B-lower_bound
+- 16 17 53 54 O
+4 17 18 54 55 B-upper_bound
+kg 18 20 55 57 I-upper_bound
+
+Birth 0 5 58 63 B-clinical_variable
+weight 6 12 64 70 I-clinical_variable
+< 13 14 71 72 O
+2.2 14 17 72 75 B-upper_bound
+kg 18 20 76 78 O
+or 21 23 79 81 O
+> 24 25 82 83 O
+4 25 26 83 84 B-lower_bound
+kg 26 28 84 86 I-lower_bound
+
+Completes 0 9 87 96 O
+at 10 12 97 99 O
+least 13 18 100 105 O
+1 19 20 106 107 B-lower_bound
+injection 21 30 108 117 O
+in 31 33 118 120 O
+the 34 37 121 124 O
+study 38 43 125 130 O
+by 44 46 131 133 O
+8 47 48 134 135 B-lower_bound
+weeks 49 54 136 141 I-lower_bound
+of 55 57 142 144 O
+age 58 61 145 148 B-age
+
+Creatinine 0 10 149 159 B-clinical_variable
+> 11 12 160 161 O
+2 13 14 162 163 B-lower_bound
+standard 15 23 164 172 O
+deviations 24 34 173 183 O
+above 35 40 184 189 O
+age 41 44 190 193 B-age
+adjusted 45 53 194 202 O
+norm 54 58 203 207 O
+
+Cyanotic 0 8 208 216 B-chronic_disease
+heart 9 14 217 222 I-chronic_disease
+disease 15 22 223 230 I-chronic_disease
+who 23 26 231 234 O
+have 27 31 235 239 O
+had 32 35 240 243 O
+a 36 37 244 245 O
+surgical 38 46 246 254 O
+shunt 47 52 255 260 B-treatment
+or 53 55 261 263 O
+a 56 57 264 265 O
+catheterization 58 73 266 281 O
+intervention 74 86 282 294 O
+that 87 91 295 299 O
+is 92 94 300 302 O
+equivalent 95 105 303 313 O
+to 106 108 314 316 O
+a 109 110 317 318 O
+shunt 111 116 319 324 O
+( 117 118 325 326 O
+patent 118 124 326 332 O
+ductus 125 131 333 339 B-treatment
+arteriosus 132 142 340 350 I-treatment
+stent 143 148 351 356 I-treatment
+, 148 149 356 357 O
+right 150 155 358 363 B-treatment
+ventricular 156 167 364 375 I-treatment
+outflow 168 175 376 383 I-treatment
+tract 176 181 384 389 I-treatment
+stent 182 187 390 395 I-treatment
+) 187 188 395 396 O
+
+Gestation 0 9 397 406 B-clinical_variable
+< 10 11 407 408 O
+34 11 13 408 410 B-upper_bound
+weeks 14 19 411 416 I-upper_bound
+
+Gestational 0 11 417 428 B-clinical_variable
+age 12 15 429 432 I-clinical_variable
+> 16 17 433 434 O
+34 17 19 434 436 B-lower_bound
+weeks 20 25 437 442 I-lower_bound
+
+Hematocrit 0 10 443 453 B-clinical_variable
+> 11 12 454 455 O
+40 12 14 455 457 B-lower_bound
+% 14 15 457 458 I-lower_bound
+
+Hemoglobinopathies 0 18 459 477 B-chronic_disease
+
+Hemolytic 0 9 478 487 B-chronic_disease
+disease 10 17 488 495 I-chronic_disease
+
+Hepatic 0 7 496 503 B-chronic_disease
+failure 8 15 504 511 I-chronic_disease
+
+Infants 0 7 512 519 O
+diagnosed 8 17 520 529 O
+at 18 20 530 532 O
+greater 21 28 533 540 O
+than 29 33 541 545 O
+4 34 35 546 547 B-lower_bound
+weeks 36 41 548 553 I-lower_bound
+of 42 44 554 556 O
+age 45 48 557 560 B-age
+
+Infants 0 7 561 568 O
+with 8 12 569 573 O
+significant 13 24 574 585 O
+co 25 27 586 588 B-chronic_disease
+- 27 28 588 589 I-chronic_disease
+morbidities 28 39 589 600 I-chronic_disease
+
+Newborns 0 8 601 609 O
+with 9 13 610 614 O
+acyanotic 14 23 615 624 B-chronic_disease
+heart 24 29 625 630 I-chronic_disease
+disease 30 37 631 638 I-chronic_disease
+
+Renal 0 5 639 644 B-chronic_disease
+failure 6 13 645 652 I-chronic_disease
+
+Sickle 0 6 653 659 B-chronic_disease
+- 6 7 659 660 I-chronic_disease
+cell 7 11 660 664 I-chronic_disease
+disease 12 19 665 672 I-chronic_disease
+
+Thalassemias 0 12 673 685 B-chronic_disease
+
+elevated 0 8 686 694 B-clinical_variable
+AST 9 12 695 698 I-clinical_variable
+/ 12 13 698 699 I-clinical_variable
+ALT 13 16 699 702 I-clinical_variable
+levels 17 23 703 709 I-clinical_variable
+> 24 25 710 711 O
+2 26 27 712 713 B-lower_bound
+standard 28 36 714 722 O
+deviations 37 47 723 733 O
+above 48 53 734 739 O
+age 54 57 740 743 B-age
+adjusted 58 66 744 752 O
+norm 67 71 753 757 O
+
+less 0 4 758 762 O
+than 5 9 763 767 O
+4 10 11 768 769 B-upper_bound
+weeks 12 17 770 775 I-upper_bound
+old 18 21 776 779 O
+at 22 24 780 782 O
+diagnosis 25 34 783 792 O
+

@@ -1,0 +1,97 @@
+Age 0 3 0 3 B-age
+50 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+90 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+inclusive 16 25 16 25 O
+
+Amnestic 0 8 26 34 B-chronic_disease
+MCI 9 12 35 38 I-chronic_disease
+
+Deemed 0 6 39 45 O
+too 7 10 46 49 O
+unstable 11 19 50 58 O
+medically 20 29 59 68 O
+or 30 32 69 71 O
+neurologically 33 47 72 86 O
+to 48 50 87 89 O
+safely 51 57 90 96 O
+enroll 58 64 97 103 O
+in 65 67 104 106 O
+trial 68 73 107 112 O
+of 74 76 113 115 O
+research 77 85 116 124 O
+medication 86 96 125 135 B-treatment
+
+Diagnosis 0 9 136 145 O
+of 10 12 146 148 O
+dementia 13 21 149 157 B-chronic_disease
+due 22 25 158 161 O
+to 26 28 162 164 O
+Alzheimer 29 38 165 174 B-chronic_disease
+'s 38 40 174 176 I-chronic_disease
+disease 41 48 177 184 I-chronic_disease
+
+Impaired 0 8 185 193 B-chronic_disease
+fasting 9 16 194 201 I-chronic_disease
+glucose 17 24 202 209 I-chronic_disease
+( 25 26 210 211 I-chronic_disease
+IFG 26 29 211 214 I-chronic_disease
+) 29 30 214 215 I-chronic_disease
+, 30 31 215 216 O
+defined 32 39 217 224 O
+by 40 42 225 227 O
+American 43 51 228 236 O
+Diabetes 52 60 237 245 O
+Association 61 72 246 257 O
+criteria 73 81 258 266 O
+
+Knowledgeable 0 13 267 280 O
+informant 14 23 281 290 O
+( 24 25 291 292 O
+KI 25 27 292 294 O
+) 27 28 294 295 O
+who 29 32 296 299 O
+spends 33 39 300 306 O
+at 40 42 307 309 O
+least 43 48 310 315 O
+5 49 50 316 317 B-lower_bound
+hours 51 56 318 323 I-lower_bound
+/ 56 57 323 324 I-lower_bound
+week 57 61 324 328 I-lower_bound
+with 62 66 329 333 O
+the 67 70 334 337 O
+participant 71 82 338 349 O
+and 83 86 350 353 O
+can 87 90 354 357 O
+provide 91 98 358 365 O
+information 99 110 366 377 O
+about 111 116 378 383 O
+the 117 120 384 387 O
+participant 121 132 388 399 O
+'s 132 134 399 401 O
+psychosocial 135 147 402 414 O
+functioning 148 159 415 426 O
+
+Type 0 4 427 431 B-chronic_disease
+1 5 6 432 433 I-chronic_disease
+Diabetes 7 15 434 442 I-chronic_disease
+Mellitus 16 24 443 451 I-chronic_disease
+
+clinically 0 10 452 462 O
+stable 11 17 463 469 O
+type 18 22 470 474 B-chronic_disease
+2 23 24 475 476 I-chronic_disease
+diabetes 25 33 477 485 I-chronic_disease
+
+fasting 0 7 486 493 B-clinical_variable
+blood 8 13 494 499 I-clinical_variable
+sugar 14 19 500 505 I-clinical_variable
+between 20 27 506 513 O
+100 28 31 514 517 B-lower_bound
+and 32 35 518 521 O
+125 36 39 522 525 B-upper_bound
+mg 40 42 526 528 I-upper_bound
+/ 42 43 528 529 I-upper_bound
+dl 43 45 529 531 I-upper_bound
+

@@ -1,0 +1,118 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+communicate 8 19 8 19 I-language_fluency
+and 20 23 20 23 I-language_fluency
+provide 24 31 24 31 I-language_fluency
+consent 32 39 32 39 I-language_fluency
+in 40 42 40 42 I-language_fluency
+English 43 50 43 50 I-language_fluency
+or 51 53 51 53 I-language_fluency
+Spanish 54 61 54 61 I-language_fluency
+
+Bronchiectasis 0 14 62 76 B-chronic_disease
+
+Co 0 2 77 79 B-chronic_disease
+- 2 3 79 80 I-chronic_disease
+morbid 3 9 80 86 I-chronic_disease
+respiratory 10 21 87 98 I-chronic_disease
+disease 22 29 99 106 I-chronic_disease
+
+Current 0 7 107 114 O
+cancer 8 14 115 121 B-cancer
+diagnosis 15 24 122 131 O
+
+Cystic 0 6 132 138 B-chronic_disease
+fibrosis 7 15 139 147 I-chronic_disease
+
+First 0 5 148 153 O
+episode 6 13 154 161 O
+of 14 16 162 164 O
+wheezing 17 25 165 173 B-chronic_disease
+
+Have 0 4 174 178 B-technology_access
+a 5 6 179 180 I-technology_access
+cell 7 11 181 185 I-technology_access
+phone 12 17 186 191 I-technology_access
+that 18 22 192 196 I-technology_access
+is 23 25 197 199 I-technology_access
+able 26 30 200 204 I-technology_access
+to 31 33 205 207 I-technology_access
+receive 34 41 208 215 I-technology_access
+text 42 46 216 220 I-technology_access
+messages 47 55 221 229 I-technology_access
+
+Inflammatory 0 12 230 242 B-chronic_disease
+bowel 13 18 243 248 I-chronic_disease
+disease 19 26 249 256 I-chronic_disease
+
+Other 0 5 257 262 O
+chronic 6 13 263 270 B-chronic_disease
+lung 14 18 271 275 I-chronic_disease
+disease 19 26 276 283 I-chronic_disease
+
+Presentation 0 12 284 296 O
+to 13 15 297 299 O
+the 16 19 300 303 O
+ED 20 22 304 306 O
+with 23 27 307 311 O
+a 28 29 312 313 O
+chief 30 35 314 319 O
+complaint 36 45 320 329 O
+related 46 53 330 337 O
+to 54 56 338 340 O
+an 57 59 341 343 O
+asthma 60 66 344 350 B-chronic_disease
+exacerbation 67 79 351 363 O
+such 80 84 364 368 O
+as 85 87 369 371 O
+shortness 88 97 372 381 O
+of 98 100 382 384 O
+breath 101 107 385 391 O
+, 107 108 391 392 O
+respiratory 109 120 393 404 B-chronic_disease
+distress 121 129 405 413 I-chronic_disease
+, 129 130 413 414 O
+wheezing 131 139 415 423 B-chronic_disease
+, 139 140 423 424 O
+etc 141 144 425 428 O
+
+Previous 0 8 429 437 O
+cardiovascular 9 23 438 452 B-treatment
+surgery 24 31 453 460 I-treatment
+
+Previous 0 8 461 469 O
+history 9 16 470 477 O
+of 17 19 478 480 O
+asthma 20 26 481 487 B-chronic_disease
+as 27 29 488 490 O
+represented 30 41 491 502 O
+in 42 44 503 505 O
+the 45 48 506 509 O
+medical 49 56 510 517 O
+record 57 63 518 524 O
+or 64 66 525 527 O
+by 67 69 528 530 O
+parental 70 78 531 539 O
+report 79 85 540 546 O
+
+Pulmonary 0 9 547 556 B-chronic_disease
+hypertension 10 22 557 569 I-chronic_disease
+
+Receive 0 7 570 577 O
+an 8 10 578 580 O
+albuterol 11 20 581 590 B-treatment
+treatment 21 30 591 600 I-treatment
+in 31 33 601 603 O
+the 34 37 604 607 O
+ED 38 40 608 610 B-chronic_disease
+
+Sickle 0 6 611 617 B-chronic_disease
+Cell 7 11 618 622 I-chronic_disease
+disease 12 19 623 630 I-chronic_disease
+
+aged 0 4 631 635 B-age
+4 5 6 636 637 B-lower_bound
+- 7 8 638 639 O
+17 9 11 640 642 B-upper_bound
+years 12 17 643 648 I-upper_bound
+

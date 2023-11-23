@@ -1,0 +1,22 @@
+Any 0 3 0 3 O
+patient 4 11 4 11 O
+falling 12 19 12 19 O
+within 20 26 20 26 O
+age 27 30 27 30 B-age
+group 31 36 31 36 O
+with 37 41 37 41 O
+granulation 42 53 42 53 O
+tissue 54 60 54 60 O
+around 61 67 61 67 O
+G 68 69 68 69 O
+tube 70 74 70 74 O
+site 75 79 75 79 O
+
+Patients 0 8 80 88 O
+falling 9 16 89 96 O
+outside 17 24 97 104 O
+of 25 27 105 107 O
+age 28 31 108 111 B-age
+group 32 37 112 117 O
+range 38 43 118 123 O
+

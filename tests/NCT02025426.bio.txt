@@ -1,0 +1,102 @@
+Age 0 3 0 3 B-age
+≥18 4 7 4 7 O
+yrs 8 11 8 11 I-lower_bound
+
+Allergy 0 7 12 19 O
+to 8 10 20 22 O
+phenylephrine 11 24 23 36 B-allergy_name
+or 25 27 37 39 O
+ephedrine 28 37 40 49 B-allergy_name
+, 37 38 49 50 O
+or 39 41 51 53 O
+any 42 45 54 57 O
+other 46 51 58 63 O
+standardized 52 64 64 76 O
+medication 65 75 77 87 O
+
+Any 0 3 88 91 O
+other 4 9 92 97 O
+physical 10 18 98 106 O
+or 19 21 107 109 O
+psychiatric 22 33 110 121 B-chronic_disease
+condition 34 43 122 131 I-chronic_disease
+which 44 49 132 137 O
+may 50 53 138 141 O
+impair 54 60 142 148 O
+their 61 66 149 154 O
+ability 67 74 155 162 O
+to 75 77 163 165 O
+cooperate 78 87 166 175 O
+with 88 92 176 180 O
+study 93 98 181 186 O
+data 99 103 187 191 O
+collection 104 114 192 202 O
+
+CD 0 2 203 205 B-chronic_disease
+under 3 8 206 211 O
+spinal 9 15 212 218 B-treatment
+anesthesia 16 26 219 229 I-treatment
+
+English 0 7 230 237 B-language_fluency
+speaking 8 16 238 246 I-language_fluency
+
+Height 0 6 247 253 B-clinical_variable
+< 7 8 254 255 O
+5'0 9 12 256 259 B-upper_bound
+
+Non 0 3 260 263 O
+- 3 4 263 264 O
+laboring 4 12 264 272 O
+women 13 18 273 278 B-gender
+
+Patients 0 8 279 287 O
+on 9 11 288 290 O
+Monoamine 12 21 291 300 B-treatment
+Oxidase 22 29 301 308 I-treatment
+Inhibitors 30 40 309 319 I-treatment
+or 41 43 320 322 O
+Tricyclic 44 53 323 332 B-treatment
+Antidepressants 54 69 333 348 I-treatment
+
+Pre 0 3 349 352 B-chronic_disease
+- 3 4 352 353 I-chronic_disease
+eclampsia 4 13 353 362 I-chronic_disease
+( 14 15 363 364 O
+mild 15 19 364 368 O
+, 19 20 368 369 O
+or 21 23 370 372 O
+severe 24 30 373 379 O
+) 30 31 379 380 O
+
+Severe 0 6 381 387 O
+Cardiac 7 14 388 395 B-chronic_disease
+disease 15 22 396 403 I-chronic_disease
+in 23 25 404 406 O
+pregnancy 26 35 407 416 B-pregnancy
+with 36 40 417 421 O
+marked 41 47 422 428 O
+functional 48 58 429 439 O
+limitations 59 70 440 451 O
+( 71 72 452 453 O
+NYHA 72 76 453 457 O
+Class 77 82 458 463 O
+III 83 86 464 467 O
+and 87 90 468 471 O
+IV 91 93 472 474 O
+) 93 94 474 475 O
+
+Subject 0 7 476 483 O
+enrollment 8 18 484 494 O
+in 19 21 495 497 O
+another 22 29 498 505 O
+study 30 35 506 511 O
+involving 36 45 512 521 O
+a 46 47 522 523 O
+study 48 53 524 529 O
+medication 54 64 530 540 O
+within 65 71 541 547 O
+30 72 74 548 550 B-upper_bound
+days 75 79 551 555 I-upper_bound
+of 80 82 556 558 O
+CD 83 85 559 561 O
+

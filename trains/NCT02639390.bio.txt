@@ -1,0 +1,35 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Ischemic 0 8 16 24 B-chronic_disease
+or 9 11 25 27 I-chronic_disease
+hemorrhagic 12 23 28 39 I-chronic_disease
+stroke 24 30 40 46 I-chronic_disease
+( 31 32 47 48 O
+with 32 36 48 52 O
+confirmatory 37 49 53 65 O
+neuroimaging 50 62 66 78 O
+) 62 63 78 79 O
+that 64 68 80 84 O
+occurred 69 77 85 93 O
+more 78 82 94 98 O
+than 83 87 99 103 O
+6 88 89 104 105 B-lower_bound
+months 90 96 106 112 I-lower_bound
+before 97 103 113 119 O
+entering 104 112 120 128 O
+the 113 116 129 132 O
+study 117 122 133 138 O
+
+Receiving 0 9 139 148 O
+oral 10 14 149 153 O
+or 15 17 154 156 O
+injected 18 26 157 165 B-treatment
+antispasticity 27 41 166 180 I-treatment
+medications 42 53 181 192 I-treatment
+during 54 60 193 199 O
+study 61 66 200 205 O
+treatment 67 76 206 215 O
+

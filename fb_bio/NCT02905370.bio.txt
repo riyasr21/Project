@@ -1,0 +1,135 @@
+65 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+and 16 19 16 19 O
+older 20 25 20 25 O
+
+Acute 0 5 26 31 B-treatment
+cardiac 6 13 32 39 I-treatment
+surgery 14 21 40 47 I-treatment
+
+Atrial 0 6 48 54 B-chronic_disease
+fibrillation 7 19 55 67 I-chronic_disease
+
+Be 0 2 68 70 O
+English 3 10 71 78 B-language_fluency
+- 10 11 78 79 I-language_fluency
+speaking 11 19 79 87 I-language_fluency
+
+Chronic 0 7 88 95 B-chronic_disease
+ulcerative 8 18 96 106 I-chronic_disease
+wounds 19 25 107 113 I-chronic_disease
+
+Congestive 0 10 114 124 B-chronic_disease
+Heart 11 16 125 130 I-chronic_disease
+Failure 17 24 131 138 I-chronic_disease
+
+Deep 0 4 139 143 B-chronic_disease
+vein 5 9 144 148 I-chronic_disease
+thrombosis 10 20 149 159 I-chronic_disease
+/ 20 21 159 160 I-chronic_disease
+pulmonary 21 30 160 169 I-chronic_disease
+embolus 31 38 170 177 I-chronic_disease
+( 39 40 178 179 I-chronic_disease
+DVT 40 43 179 182 I-chronic_disease
+/ 43 44 182 183 I-chronic_disease
+PE 44 46 183 185 I-chronic_disease
+) 46 47 185 186 I-chronic_disease
+
+Depression 0 10 187 197 B-chronic_disease
+/ 10 11 197 198 I-chronic_disease
+mental 11 17 198 204 I-chronic_disease
+health 18 24 205 211 I-chronic_disease
+
+Diabetes 0 8 212 220 B-chronic_disease
+
+Elective 0 8 221 229 B-treatment
+joint 9 14 230 235 I-treatment
+replacement 15 26 236 247 I-treatment
+surgery 27 34 248 255 I-treatment
+
+Gastrointestinal 0 16 256 272 B-chronic_disease
+Bleed 17 22 273 278 I-chronic_disease
+
+Have 0 4 279 283 O
+at 5 7 284 286 O
+least 8 13 287 292 O
+3 14 15 293 294 B-lower_bound
+comorbid 16 24 295 303 O
+conditions 25 35 304 314 O
+
+Heart 0 5 315 320 B-chronic_disease
+Disease 6 13 321 328 I-chronic_disease
+
+Hernia 0 6 329 335 B-chronic_disease
+
+Hypertension 0 12 336 348 B-chronic_disease
+
+Hypo 0 4 349 353 B-chronic_disease
+/ 4 5 353 354 I-chronic_disease
+Hyperthyroid 5 17 354 366 I-chronic_disease
+
+Peripheral 0 10 367 377 B-chronic_disease
+Arterial 11 19 378 386 I-chronic_disease
+Disease 20 27 387 394 I-chronic_disease
+
+Pneumonia 0 9 395 404 B-chronic_disease
+
+Post 0 4 405 409 B-treatment
+- 4 5 409 410 I-treatment
+op 5 7 410 412 I-treatment
+bowel 8 13 413 418 I-treatment
+surgery 14 21 419 426 I-treatment
+
+Post 0 4 427 431 O
+- 4 5 431 432 O
+op 5 7 432 434 O
+pancreatic 8 18 435 445 B-treatment
+surgery 19 26 446 453 I-treatment
+
+Progressive 0 11 454 465 O
+neurodegenerative 12 29 466 483 B-chronic_disease
+diagnosis 30 39 484 493 I-chronic_disease
+( 40 41 494 495 O
+e.g. 41 45 495 499 O
+Parkinson 46 55 500 509 B-chronic_disease
+'s 55 57 509 511 I-chronic_disease
+, 57 58 511 512 O
+MS 59 61 513 515 B-chronic_disease
+, 61 62 515 516 O
+ALS 63 66 517 520 B-chronic_disease
+) 66 67 520 521 O
+
+Referred 0 8 522 530 O
+to 9 11 531 533 O
+home 12 16 534 538 O
+care 17 21 539 543 O
+physical 22 30 544 552 B-treatment
+therapy 31 38 553 560 I-treatment
+following 39 48 561 570 O
+acute 49 54 571 576 O
+medical 55 62 577 584 O
+deconditioning 63 77 585 599 O
+
+Renal 0 5 600 605 B-chronic_disease
+Failure 6 13 606 613 I-chronic_disease
+( 14 15 614 615 O
+no 15 17 615 617 O
+dialysis 18 26 618 626 B-treatment
+) 26 27 626 627 O
+
+Score 0 5 628 633 O
+of 6 8 634 636 O
+< 9 10 637 638 O
+20 10 12 638 640 B-upper_bound
+on 13 15 641 643 O
+SLUMS 16 21 644 649 O
+
+Terminal 0 8 650 658 B-chronic_disease
+illness 9 16 659 666 I-chronic_disease
+
+Urinary 0 7 667 674 B-chronic_disease
+Tract 8 13 675 680 I-chronic_disease
+Infection 14 23 681 690 I-chronic_disease
+

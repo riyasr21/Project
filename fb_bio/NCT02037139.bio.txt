@@ -1,0 +1,36 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+speak 8 13 8 13 I-language_fluency
+and 14 17 14 17 I-language_fluency
+understand 18 28 18 28 I-language_fluency
+English 29 36 29 36 I-language_fluency
+
+Age 0 3 37 40 B-age
+59 4 6 41 43 B-upper_bound
+or 7 9 44 46 O
+less 10 14 47 51 O
+
+Age 0 3 52 55 B-age
+60 4 6 56 58 B-lower_bound
+or 7 9 59 61 O
+older 10 15 62 67 O
+
+Screen 0 6 68 74 O
+positive 7 15 75 83 O
+for 16 19 84 87 O
+hearing 20 27 88 95 B-chronic_disease
+loss 28 32 96 100 I-chronic_disease
+using 33 38 101 106 O
+single 39 45 107 113 O
+question 46 54 114 122 O
+and/or 55 61 123 129 O
+finger 62 68 130 136 O
+rub 69 72 137 140 O
+
+Unable 0 6 141 147 B-language_fluency
+to 7 9 148 150 I-language_fluency
+speak 10 15 151 156 I-language_fluency
+and 16 19 157 160 I-language_fluency
+understand 20 30 161 171 I-language_fluency
+English 31 38 172 179 I-language_fluency
+

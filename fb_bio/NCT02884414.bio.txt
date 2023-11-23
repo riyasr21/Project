@@ -1,0 +1,36 @@
+For 0 3 0 3 O
+healthy 4 11 4 11 O
+subjects 12 20 12 20 O
+: 20 21 20 21 O
+Any 22 25 22 25 O
+diagnosis 26 35 26 35 O
+of 36 38 36 38 O
+knee 39 43 39 43 B-chronic_disease
+osteoarthritis 44 58 44 58 I-chronic_disease
+or 59 61 59 61 O
+knee 62 66 62 66 O
+pain 67 71 67 71 O
+
+For 0 3 72 75 O
+knee 4 8 76 80 O
+pathology 9 18 81 90 O
+subjects 19 27 91 99 O
+: 27 28 99 100 O
+Diagnosis 29 38 101 110 O
+of 39 41 111 113 O
+knee 42 46 114 118 O
+pathology 47 56 119 128 O
+( 57 58 129 130 O
+e.g. 58 62 130 134 O
+knee 63 67 135 139 B-chronic_disease
+osteoarthritis 68 82 140 154 I-chronic_disease
+, 82 83 154 155 O
+ACL 84 87 156 159 B-chronic_disease
+injury 88 94 160 166 I-chronic_disease
+, 94 95 166 167 O
+etc 96 99 168 171 O
+) 99 100 171 172 O
+and/or 101 107 173 179 O
+knee 108 112 180 184 O
+pain 113 117 185 189 O
+

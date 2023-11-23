@@ -1,0 +1,26 @@
+individuals 0 11 0 11 O
+outside 12 19 12 19 O
+the 20 23 20 23 O
+age 24 27 24 27 B-age
+range 28 33 28 33 O
+( 34 35 34 35 O
+i.e. 35 39 35 39 O
+, 39 40 39 40 O
+younger 41 48 41 48 O
+than 49 53 49 53 O
+10 54 56 54 56 B-upper_bound
+or 57 59 57 59 O
+older 60 65 60 65 O
+than 66 70 66 70 O
+24 71 73 71 73 B-lower_bound
+) 73 74 73 74 O
+
+youth 0 5 75 80 O
+between 6 13 81 88 O
+10 14 16 89 91 B-lower_bound
+and 17 20 92 95 O
+24 21 23 96 98 B-upper_bound
+years 24 29 99 104 I-upper_bound
+of 30 32 105 107 O
+age 33 36 108 111 B-age
+

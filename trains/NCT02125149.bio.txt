@@ -1,0 +1,59 @@
+> 0 1 0 1 O
+18 1 3 1 3 B-lower_bound
+years 4 9 4 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+Conceived 0 9 17 26 O
+without 10 17 27 34 O
+assisted 18 26 35 43 O
+fertility 27 36 44 53 B-treatment
+treatments 37 47 54 64 I-treatment
+
+Less 0 4 65 69 O
+than 5 9 70 74 O
+12 10 12 75 77 B-upper_bound
+weeks 13 18 78 83 I-upper_bound
+gestation 19 28 84 93 B-clinical_variable
+
+Singleton 0 9 94 103 B-pregnancy
+pregnancy 10 19 104 113 I-pregnancy
+
+Women 0 5 114 119 B-gender
+who 6 9 120 123 O
+are 10 13 124 127 O
+using 14 19 128 133 O
+recreational 20 32 134 146 O
+drugs 33 38 147 152 O
+
+Women 0 5 153 158 B-gender
+with 6 10 159 163 O
+contraindications 11 28 164 181 O
+to 29 31 182 184 O
+exercise 32 40 185 193 O
+during 41 47 194 200 O
+pregnancy 48 57 201 210 B-pregnancy
+
+Women 0 5 211 216 B-gender
+with 6 10 217 221 O
+pre 11 14 222 225 O
+- 14 15 225 226 O
+existing 15 23 226 234 O
+medical 24 31 235 242 O
+conditions 32 42 243 253 O
+as 43 45 254 256 O
+determined 46 56 257 267 O
+by 57 59 268 270 O
+the 60 63 271 274 O
+PI 64 66 275 277 O
+to 67 69 278 280 O
+affect 70 76 281 287 O
+the 77 80 288 291 O
+outcomes 81 89 292 300 O
+of 90 92 301 303 O
+interest 93 101 304 312 O
+
+alcohol 0 7 313 320 O
+during 8 14 321 327 O
+pregnancy 15 24 328 337 B-pregnancy
+

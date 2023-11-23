@@ -1,0 +1,43 @@
+Evidence 0 8 0 8 O
+of 9 11 9 11 O
+unremitted 12 22 12 22 O
+psychosis 23 32 23 32 B-chronic_disease
+or 33 35 33 35 O
+other 36 41 36 41 O
+condition 42 51 42 51 O
+which 52 57 52 57 O
+would 58 63 58 63 O
+impair 64 70 64 70 O
+mother 71 77 71 77 O
+'s 77 79 77 79 O
+ability 80 87 80 87 O
+to 88 90 88 90 O
+understand 91 101 91 101 O
+or 102 104 102 104 O
+participate 105 116 105 116 O
+in 117 119 117 119 O
+the 120 123 120 123 O
+intervention 124 136 124 136 O
+or 137 139 137 139 O
+consent 140 147 140 147 O
+to 148 150 148 150 O
+the 151 154 151 154 O
+research 155 163 155 163 O
+
+aged 0 4 164 168 B-age
+18 5 7 169 171 B-lower_bound
+- 7 8 171 172 O
+24 8 10 172 174 B-upper_bound
+years 11 16 175 180 I-upper_bound
+
+has 0 3 181 184 O
+physical 4 12 185 193 O
+custody 13 20 194 201 O
+of 21 23 202 204 O
+child 24 29 205 210 O
+under 30 35 211 216 O
+the 36 39 217 220 O
+age 40 43 221 224 B-age
+of 44 46 225 227 O
+7 47 48 228 229 B-upper_bound
+

@@ -1,0 +1,35 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+75 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+Hepatic 0 7 19 26 B-chronic_disease
+failure 8 15 27 34 I-chronic_disease
+
+Mild 0 4 35 39 O
+to 5 7 40 42 O
+moderate 8 16 43 51 O
+loss 17 21 52 56 O
+of 22 24 57 59 O
+kidney 25 31 60 66 O
+function 32 40 67 75 O
+( 41 42 76 77 O
+Estimated 42 51 77 86 B-clinical_variable
+Glomerular 52 62 87 97 I-clinical_variable
+Filtration 63 73 98 108 I-clinical_variable
+Rate 74 78 109 113 I-clinical_variable
+( 79 80 114 115 I-clinical_variable
+eGFR 80 84 115 119 I-clinical_variable
+) 84 85 119 120 I-clinical_variable
+< 86 87 121 122 O
+60 88 90 123 125 B-upper_bound
+) 90 91 125 126 O
+
+Planning 0 8 127 135 O
+breast 9 15 136 142 B-treatment
+reconstruction 16 30 143 157 I-treatment
+with 31 35 158 162 I-treatment
+DIEP 36 40 163 167 I-treatment
+flap 41 45 168 172 I-treatment
+

@@ -1,0 +1,68 @@
+Cognitive 0 9 0 9 B-chronic_disease
+impairment 10 20 10 20 I-chronic_disease
+that 21 25 21 25 O
+may 26 29 26 29 O
+preclude 30 38 30 38 O
+self 39 43 39 43 O
+- 43 44 43 44 O
+directed 44 52 44 52 O
+daily 53 58 53 58 O
+activities 59 69 59 69 O
+
+Must 0 4 70 74 O
+have 5 9 75 79 O
+the 10 13 80 83 O
+ability 14 21 84 91 B-language_fluency
+to 22 24 92 94 I-language_fluency
+converse 25 33 95 103 I-language_fluency
+and 34 37 104 107 I-language_fluency
+read 38 42 108 112 I-language_fluency
+English 43 50 113 120 I-language_fluency
+
+No 0 2 121 123 O
+internet 3 11 124 132 B-technology_access
+access 12 18 133 139 I-technology_access
+
+Not 0 3 140 143 O
+currently 4 13 144 153 O
+enrolled 14 22 154 162 O
+in 23 25 163 165 O
+a 26 27 166 167 O
+structured 28 38 168 178 O
+exercise 39 47 179 187 O
+program 48 55 188 195 O
+over 56 60 196 200 O
+the 61 64 201 204 O
+past 65 69 205 209 B-upper_bound
+6 70 71 210 211 I-upper_bound
+months 72 78 212 218 I-upper_bound
+
+Underactive 0 11 219 230 O
+adults 12 18 231 237 O
+( 19 20 238 239 O
+< 20 21 239 240 O
+60 22 24 241 243 B-upper_bound
+minutes 25 32 244 251 I-upper_bound
+of 33 35 252 254 O
+moderate 36 44 255 263 O
+intensity 45 54 264 273 O
+exercise 55 63 274 282 O
+per 64 67 283 286 O
+week 68 72 287 291 O
+in 73 75 292 294 O
+the 76 79 295 298 O
+last 80 84 299 303 O
+month 85 90 304 309 O
+) 90 91 309 310 O
+
+Working 0 7 311 318 O
+age 8 11 319 322 B-age
+adult 12 17 323 328 O
+21 18 20 329 331 B-lower_bound
+to 21 23 332 334 O
+64 24 26 335 337 B-upper_bound
+yrs 27 30 338 341 I-upper_bound
+. 30 31 341 342 O
+of 32 34 343 345 O
+age 35 38 346 349 O
+

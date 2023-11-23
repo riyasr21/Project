@@ -1,0 +1,42 @@
+Patients 0 8 0 8 O
+who 9 12 9 12 O
+are 13 16 13 16 O
+at 17 19 17 19 O
+least 20 25 20 25 O
+18 26 28 26 28 B-lower_bound
+years 29 34 29 34 I-lower_bound
+of 35 37 35 37 O
+age 38 41 38 41 B-age
+
+Speak 0 5 42 47 B-language_fluency
+English 6 13 48 55 I-language_fluency
+
+the 0 3 56 59 O
+first 4 9 60 65 O
+50 10 12 66 68 O
+records 13 20 69 76 O
+with 21 25 77 81 O
+a 26 27 82 83 O
+diagnoses 28 37 84 93 O
+of 38 40 94 96 O
+each 41 45 97 101 O
+cancer 46 52 102 108 B-cancer
+type 53 57 109 113 O
+: 57 58 113 114 O
+head 59 63 115 119 B-cancer
+and 64 67 120 123 I-cancer
+neck 68 72 124 128 I-cancer
+, 72 73 128 129 O
+lung 74 78 130 134 B-cancer
+, 78 79 134 135 O
+prostate 80 88 136 144 B-cancer
+, 88 89 144 145 O
+or 90 92 146 148 O
+breast 93 99 149 155 B-cancer
+will 100 104 156 160 O
+be 105 107 161 163 O
+utilized 108 116 164 172 O
+for 117 120 173 176 O
+the 121 124 177 180 O
+review 125 131 181 187 O
+

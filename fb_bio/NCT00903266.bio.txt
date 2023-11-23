@@ -1,0 +1,105 @@
+21 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+80 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+a 0 1 19 20 O
+terminal 2 10 21 29 O
+medical 11 18 30 37 O
+condition 19 28 38 47 O
+; 28 29 47 48 O
+history 30 37 49 56 O
+of 38 40 57 59 O
+major 41 46 60 65 O
+neurological 47 59 66 78 B-chronic_disease
+or 60 62 79 81 O
+psychiatric 63 74 82 93 B-chronic_disease
+diseases 75 83 94 102 I-chronic_disease
+( 84 85 103 104 O
+e.g. 85 89 104 108 O
+epilepsy 90 98 109 117 B-chronic_disease
+; 98 99 117 118 O
+meningitis 100 110 119 129 B-chronic_disease
+, 110 111 129 130 O
+encephalitis 112 124 131 143 B-chronic_disease
+) 124 125 143 144 O
+
+active 0 6 145 151 O
+participation 7 20 152 165 O
+in 21 23 166 168 O
+other 24 29 169 174 O
+stroke 30 36 175 181 B-chronic_disease
+recovery 37 45 182 190 O
+trials 46 52 191 197 O
+testing 53 60 198 205 O
+experimental 61 73 206 218 O
+interventions 74 87 219 232 O
+
+at 0 2 233 235 O
+least 3 8 236 241 O
+12 9 11 242 244 B-lower_bound
+months 12 18 245 251 I-lower_bound
+out 19 22 252 255 O
+from 23 27 256 260 O
+first 28 33 261 266 O
+ischemic 34 42 267 275 B-chronic_disease
+stroke 43 49 276 282 I-chronic_disease
+
+diagnosis 0 9 283 292 O
+of 10 12 293 295 O
+non 13 16 296 299 B-chronic_disease
+- 16 17 299 300 I-chronic_disease
+fluent 17 23 300 306 I-chronic_disease
+or 24 26 307 309 I-chronic_disease
+dysfluent 27 36 310 319 I-chronic_disease
+aphasia 37 44 320 327 I-chronic_disease
+
+first 0 5 328 333 O
+- 5 6 333 334 O
+time 6 10 334 338 O
+ischemic 11 19 339 347 B-chronic_disease
+left 20 24 348 352 I-chronic_disease
+- 24 25 352 353 I-chronic_disease
+hemispheric 25 36 353 364 I-chronic_disease
+stroke 37 43 365 371 I-chronic_disease
+or 44 46 372 374 O
+cerebrovascular 47 62 375 390 B-chronic_disease
+accident 63 71 391 399 I-chronic_disease
+
+more 0 4 400 404 O
+than 5 9 405 409 O
+1 10 11 410 411 B-lower_bound
+stroke 12 18 412 418 B-chronic_disease
+
+older 0 5 419 424 O
+than 6 10 425 429 O
+80 11 13 430 432 B-lower_bound
+years 14 19 433 438 I-lower_bound
+of 20 22 439 441 O
+age 23 26 442 445 B-age
+
+right 0 5 446 451 O
+- 5 6 451 452 O
+handed 6 12 452 458 O
+( 13 14 459 460 O
+prior 14 19 460 465 O
+to 20 22 466 468 O
+stroke 23 29 469 475 B-chronic_disease
+) 29 30 475 476 O
+
+use 0 3 477 480 O
+of 4 6 481 483 O
+psychoactive 7 19 484 496 B-treatment
+drugs 20 25 497 502 I-treatment
+/ 25 26 502 503 I-treatment
+medications 26 37 503 514 I-treatment
+such 38 42 515 519 O
+as 43 45 520 522 O
+antidepressants 46 61 523 538 B-treatment
+, 61 62 538 539 O
+antipsychotic 63 76 540 553 B-treatment
+, 76 77 553 554 O
+stimulants 78 88 555 565 B-treatment
+

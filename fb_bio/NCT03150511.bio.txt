@@ -1,0 +1,30 @@
+Certain 0 7 0 7 O
+cancers 8 15 8 15 B-cancer
+( 16 17 16 17 O
+active 17 23 17 23 O
+or 24 26 24 26 O
+in 27 29 27 29 O
+the 30 33 30 33 O
+past 34 38 34 38 O
+) 38 39 38 39 O
+
+Certain 0 7 40 47 O
+pituitary 8 17 48 57 B-chronic_disease
+problems 18 26 58 66 I-chronic_disease
+
+Pregnancy 0 9 67 76 B-pregnancy
+
+Psychosocial 0 12 77 89 B-chronic_disease
+issues 13 19 90 96 I-chronic_disease
+that 20 24 97 101 O
+would 25 30 102 107 O
+limit 31 36 108 113 O
+participation 37 50 114 127 O
+and 51 54 128 131 O
+compliance 55 65 132 142 O
+
+Uncontrolled 0 12 143 155 O
+diabetes 13 21 156 164 B-chronic_disease
+or 22 24 165 167 O
+hypertension 25 37 168 180 B-chronic_disease
+

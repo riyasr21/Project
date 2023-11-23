@@ -1,0 +1,98 @@
+bronchial 0 9 0 9 B-chronic_disease
+asthma 10 16 10 16 I-chronic_disease
+
+chronic 0 7 17 24 B-clinical_variable
+pain 8 12 25 29 I-clinical_variable
+( 13 14 30 31 O
+> 14 15 31 32 O
+3 16 17 33 34 B-lower_bound
+months 18 24 35 41 I-lower_bound
+) 24 25 41 42 O
+in 26 28 43 45 O
+any 29 32 46 49 O
+area 33 37 50 54 O
+
+clinically 0 10 55 65 O
+significant 11 22 66 77 O
+abnormal 23 31 78 86 O
+12 32 34 87 89 O
+- 34 35 89 90 O
+lead 35 39 90 94 O
+ECG 40 43 95 98 B-clinical_variable
+
+coronary 0 8 99 107 B-chronic_disease
+artery 9 15 108 114 I-chronic_disease
+disease 16 23 115 122 I-chronic_disease
+
+greater 0 7 123 130 O
+than 8 12 131 135 O
+first 13 18 136 141 B-lower_bound
+degree 19 25 142 148 I-lower_bound
+heart 26 31 149 154 B-clinical_variable
+block 32 37 155 160 I-clinical_variable
+
+hypotension 0 11 161 172 B-chronic_disease
+( 12 13 173 174 O
+resting 13 20 174 181 O
+systolic 21 29 182 190 B-clinical_variable
+blood 30 35 191 196 I-clinical_variable
+pressure 36 44 197 205 I-clinical_variable
+below 45 50 206 211 O
+90 51 53 212 214 B-upper_bound
+mm 54 56 215 217 I-upper_bound
+Hg 57 59 218 220 I-upper_bound
+) 59 60 220 221 O
+
+major 0 5 222 227 B-chronic_disease
+depression 6 16 228 238 I-chronic_disease
+
+neurological 0 12 239 251 B-chronic_disease
+impairment 13 23 252 262 I-chronic_disease
+of 24 26 263 265 O
+the 27 30 266 269 O
+in 31 33 270 272 O
+the 34 37 273 276 O
+upper 38 43 277 282 O
+- 43 44 282 283 O
+extremity 44 53 283 292 O
+( 54 55 293 294 O
+determined 55 65 294 304 O
+by 66 68 305 307 O
+loss 69 73 308 312 O
+of 74 76 313 315 O
+sensation 77 86 316 325 O
+, 86 87 325 326 O
+muscle 88 94 327 333 O
+weakness 95 103 334 342 O
+, 103 104 342 343 O
+and 105 108 344 347 O
+reflex 109 115 348 354 O
+changes 116 123 355 362 O
+) 123 124 362 363 O
+
+nonallergic 0 11 364 375 B-chronic_disease
+bronchospasm 12 24 376 388 I-chronic_disease
+
+pregnancy 0 9 389 398 B-pregnancy
+
+previous 0 8 399 407 O
+history 9 16 408 415 O
+of 17 19 416 418 O
+upper 20 25 419 424 B-treatment
+- 25 26 424 425 I-treatment
+extremity 26 35 425 434 I-treatment
+surgery 36 43 435 442 I-treatment
+
+sinus 0 5 443 448 B-clinical_variable
+bradycardia 6 17 449 460 I-clinical_variable
+( 18 19 461 462 O
+resting 19 26 462 469 O
+heart 27 32 470 475 O
+rate 33 37 476 480 O
+below 38 43 481 486 O
+55 44 46 487 489 B-upper_bound
+beats 47 52 490 495 I-upper_bound
+per 53 56 496 499 I-upper_bound
+minute 57 63 500 506 I-upper_bound
+) 63 64 506 507 O
+

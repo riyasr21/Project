@@ -1,0 +1,101 @@
+( 0 1 0 1 O
+ages 1 5 1 5 B-age
+18 6 8 6 8 B-lower_bound
+- 8 9 8 9 O
+75 9 11 9 11 B-upper_bound
+) 11 12 11 12 O
+
+Active 0 6 13 19 O
+intravascular 7 20 20 33 B-chronic_disease
+clotting 21 29 34 42 I-chronic_disease
+
+Current 0 7 43 50 O
+anticoagulation 8 23 51 66 B-treatment
+therapy 24 31 67 74 I-treatment
+that 32 36 75 79 O
+can 37 40 80 83 O
+not 40 43 83 86 O
+be 44 46 87 89 O
+interrupted 47 58 90 101 O
+
+History 0 7 102 109 O
+of 8 10 110 112 O
+deep 11 15 113 117 B-chronic_disease
+vein 16 20 118 122 I-chronic_disease
+thrombosis 21 31 123 133 I-chronic_disease
+( 32 33 134 135 I-chronic_disease
+DVT 33 36 135 138 I-chronic_disease
+) 36 37 138 139 I-chronic_disease
+
+History 0 7 140 147 O
+of 8 10 148 150 O
+suspected 11 20 151 160 O
+blood 21 26 161 166 B-chronic_disease
+disorders 27 36 167 176 I-chronic_disease
+or 37 39 177 179 O
+abnormal 40 48 180 188 B-chronic_disease
+coagulation 49 60 189 200 I-chronic_disease
+laboratory 61 71 201 211 O
+results 72 79 212 219 O
+
+Hypersensitivity 0 16 220 236 O
+to 17 19 237 239 O
+tranexamic 20 30 240 250 B-treatment
+acid 31 35 251 255 I-treatment
+or 36 38 256 258 O
+any 39 42 259 262 O
+of 43 45 263 265 O
+the 46 49 266 269 O
+ingredients 50 61 270 281 O
+
+Impaired 0 8 282 290 B-chronic_disease
+renal 9 14 291 296 I-chronic_disease
+function 15 23 297 305 I-chronic_disease
+or 24 26 306 308 O
+creatinine 27 37 309 319 B-clinical_variable
+clearance 38 47 320 329 I-clinical_variable
+< 48 49 330 331 O
+60 49 51 331 333 B-upper_bound
+ml 52 54 334 336 I-upper_bound
+/ 54 55 336 337 I-upper_bound
+min 55 58 337 340 I-upper_bound
+
+Pregnancy 0 9 341 350 B-pregnancy
+
+Subarachnoid 0 12 351 363 B-chronic_disease
+hemorrhage 13 23 364 374 I-chronic_disease
+
+Women 0 5 375 380 B-gender
+on 6 8 381 383 O
+hormonal 9 17 384 392 O
+contraceptives 18 32 393 407 O
+
+scheduled 0 9 408 417 O
+to 10 12 418 420 O
+undergo 13 20 421 428 O
+long 21 25 429 433 O
+segment 26 33 434 441 O
+( 34 35 442 443 O
+greater 35 42 443 450 O
+than 43 47 451 455 O
+8 48 49 456 457 B-upper_bound
+motion 50 56 458 464 O
+segments 57 65 465 473 O
+) 65 66 473 474 O
+posterior 67 76 475 484 B-treatment
+spinal 77 83 485 491 I-treatment
+fusion 84 90 492 498 I-treatment
+with 91 95 499 503 O
+instrumentation 96 111 504 519 O
+( 112 113 520 521 O
+PSF 113 116 521 524 O
+) 116 117 524 525 O
+for 118 121 526 529 O
+adult 122 127 530 535 O
+scoliosis 128 137 536 545 B-chronic_disease
+
+women 0 5 546 551 B-gender
+who 6 9 552 555 O
+are 10 13 556 559 O
+lactating 14 23 560 569 O
+

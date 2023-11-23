@@ -1,0 +1,113 @@
+Aged 0 4 0 4 B-age
+18 5 7 5 7 B-lower_bound
+or 8 10 8 10 O
+older 11 16 11 16 O
+
+Diagnosed 0 9 17 26 O
+with 10 14 27 31 O
+idiopathic 15 25 32 42 B-chronic_disease
+, 25 26 42 43 O
+heritable 27 36 44 53 B-chronic_disease
+, 36 37 53 54 O
+or 38 40 55 57 O
+associated 41 51 58 68 O
+( 52 53 69 70 O
+connective 53 63 70 80 B-chronic_disease
+tissue 64 70 81 87 I-chronic_disease
+disease 71 78 88 95 I-chronic_disease
+, 78 79 95 96 O
+drugs 80 85 97 102 O
+, 85 86 102 103 O
+or 87 89 104 106 O
+toxins 90 96 107 113 O
+) 96 97 113 114 O
+pulmonary 98 107 115 124 B-chronic_disease
+arterial 108 116 125 133 I-chronic_disease
+hypertension 117 129 134 146 I-chronic_disease
+( 130 131 147 148 I-chronic_disease
+PAH 131 134 148 151 I-chronic_disease
+) 134 135 151 152 I-chronic_disease
+according 136 145 153 162 O
+to 146 148 163 165 O
+World 149 154 166 171 O
+Health 155 161 172 178 O
+Organization 162 174 179 191 O
+consensus 175 184 192 201 O
+recommendations 185 200 202 217 O
+
+Forced 0 6 218 224 B-clinical_variable
+vital 7 12 225 230 I-clinical_variable
+capacity 13 21 231 239 I-clinical_variable
+< 22 23 240 241 O
+70 23 25 241 243 B-upper_bound
+% 25 26 243 244 I-upper_bound
+predicted 27 36 245 254 O
+
+Functional 0 10 255 265 O
+class 11 16 266 271 B-chronic_disease
+IV 17 19 272 274 I-chronic_disease
+heart 20 25 275 280 I-chronic_disease
+failure 26 33 281 288 I-chronic_disease
+
+Pregnancy 0 9 289 298 B-pregnancy
+
+Requirement 0 11 299 310 O
+of 12 14 311 313 O
+> 15 16 314 315 O
+1 17 18 316 317 B-lower_bound
+diuretic 19 27 318 326 B-clinical_variable
+adjustment 28 38 327 337 I-clinical_variable
+in 39 41 338 340 O
+the 42 45 341 344 O
+prior 46 51 345 350 B-upper_bound
+three 52 57 351 356 I-upper_bound
+months 58 64 357 363 I-upper_bound
+
+Stable 0 6 364 370 B-treatment
+PAH 7 10 371 374 I-treatment
+- 10 11 374 375 I-treatment
+specific 11 19 375 383 I-treatment
+medication 20 30 384 394 I-treatment
+regimen 31 38 395 402 I-treatment
+for 39 42 403 406 O
+three 43 48 407 412 B-upper_bound
+months 49 55 413 419 I-upper_bound
+prior 56 61 420 425 I-upper_bound
+to 62 64 426 428 O
+enrollment 65 75 429 439 O
+
+Subjects 0 8 440 448 O
+must 9 13 449 453 O
+own 14 17 454 457 B-technology_access
+a 18 19 458 459 I-technology_access
+Bluetooth 20 29 460 469 I-technology_access
+capable 30 37 470 477 I-technology_access
+modern 38 44 478 484 I-technology_access
+smartphone 45 55 485 495 I-technology_access
+capable 56 63 496 503 I-technology_access
+of 64 66 504 506 I-technology_access
+receiving 67 76 507 516 I-technology_access
+and 77 80 517 520 I-technology_access
+sending 81 88 521 528 I-technology_access
+text 89 93 529 533 I-technology_access
+messages 94 102 534 542 I-technology_access
+and 103 106 543 546 I-technology_access
+an 107 109 547 549 I-technology_access
+active 110 116 550 556 I-technology_access
+data 117 121 557 561 I-technology_access
+plan 122 126 562 566 I-technology_access
+
+activity 0 8 567 575 O
+- 8 9 575 576 O
+limiting 9 17 576 584 O
+angina 18 24 585 591 B-chronic_disease
+
+activity 0 8 592 600 O
+- 8 9 600 601 O
+limiting 9 17 601 609 O
+osteoarthritis 18 32 610 624 B-chronic_disease
+
+bed 0 3 625 628 B-clinical_variable
+bound 4 9 629 634 I-clinical_variable
+status 10 16 635 641 I-clinical_variable
+

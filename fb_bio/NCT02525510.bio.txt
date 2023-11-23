@@ -1,0 +1,25 @@
+> 0 1 0 1 O
+18 2 4 2 4 B-lower_bound
+years 5 10 5 10 I-lower_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+Coagulopathy 0 12 18 30 B-chronic_disease
+, 12 13 30 31 O
+Hemodynamic 14 25 32 43 B-chronic_disease
+instability 26 37 44 55 I-chronic_disease
+, 37 38 55 56 O
+Electrolyte 39 50 57 68 B-chronic_disease
+deficiencies 51 63 69 81 I-chronic_disease
+, 63 64 81 82 O
+Pre 65 68 83 86 O
+- 68 69 86 87 O
+existing 69 77 87 95 O
+kidney 78 84 96 102 B-chronic_disease
+disease 85 92 103 110 I-chronic_disease
+( 93 94 111 112 O
+per 94 97 112 115 O
+study 98 103 116 121 O
+protocol 104 112 122 130 O
+) 112 113 130 131 O
+

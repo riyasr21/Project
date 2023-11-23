@@ -1,0 +1,54 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+solitary 14 22 14 22 B-chronic_disease
+kidney 23 29 23 29 I-chronic_disease
+
+Stent 0 5 30 35 B-treatment
+placement 6 15 36 45 I-treatment
+prior 16 21 46 51 O
+to 22 24 52 54 O
+ureteroscopy 25 37 55 67 B-treatment
+( 38 39 68 69 O
+pre 39 42 69 72 O
+- 42 43 72 73 O
+stented 43 50 73 80 O
+patients 51 59 81 89 O
+) 59 60 89 90 O
+
+Stone 0 5 91 96 B-clinical_variable
+size 6 10 97 101 I-clinical_variable
+greater 11 18 102 109 O
+than 19 23 110 114 O
+1.5 24 27 115 118 B-lower_bound
+cm 28 30 119 121 I-lower_bound
+on 31 33 122 124 O
+preoperative 34 46 125 137 O
+imaging 47 54 138 145 O
+
+with 0 4 146 150 O
+solitary 5 13 151 159 O
+or 14 16 160 162 O
+multiple 17 25 163 171 O
+proximal 26 34 172 180 O
+ureteral 35 43 181 189 B-chronic_disease
+or 44 46 190 192 I-chronic_disease
+renal 47 52 193 198 I-chronic_disease
+stones 53 59 199 205 I-chronic_disease
+1.5 60 63 206 209 B-upper_bound
+cm 63 65 209 211 I-upper_bound
+or 66 68 212 214 O
+smaller 69 76 215 222 O
+measured 77 85 223 231 O
+in 86 88 232 234 O
+the 89 92 235 238 O
+longest 93 100 239 246 O
+dimension 101 110 247 256 O
+on 111 113 257 259 O
+preoperative 114 126 260 272 O
+imaging 127 134 273 280 O
+( 135 136 281 282 O
+CT 136 138 282 284 B-treatment
+or 139 141 285 287 O
+xray 142 146 288 292 B-treatment
+) 146 147 292 293 O
+

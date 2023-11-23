@@ -1,0 +1,87 @@
+ability 0 7 0 7 B-language_fluency
+to 8 10 8 10 I-language_fluency
+read 11 15 11 15 I-language_fluency
+and 16 19 16 19 I-language_fluency
+speak 20 25 20 25 I-language_fluency
+English 26 33 26 33 I-language_fluency
+or 34 36 34 36 I-language_fluency
+Spanish 37 44 37 44 I-language_fluency
+
+child 0 5 45 50 O
+care 6 10 51 55 O
+will 11 15 56 60 O
+be 16 18 61 63 O
+closed 19 25 64 70 O
+for 26 29 71 74 O
+more 30 34 75 79 O
+than 35 39 80 84 O
+1 40 41 85 86 B-lower_bound
+month 42 47 87 92 I-lower_bound
+at 48 50 93 95 O
+a 51 52 96 97 O
+time 53 57 98 102 O
+in 58 60 103 105 O
+the 61 64 106 109 O
+forthcoming 65 76 110 121 O
+year 77 81 122 126 O
+
+has 0 3 127 130 O
+no 4 6 131 133 O
+children 7 15 134 142 O
+in 16 18 143 145 O
+their 19 24 146 151 O
+care 25 29 152 156 O
+between 30 37 157 164 O
+the 38 41 165 168 O
+ages 42 46 169 173 B-age
+of 47 49 174 176 O
+2 50 51 177 178 B-lower_bound
+and 52 55 179 182 O
+5 56 57 183 184 B-upper_bound
+years 58 63 185 190 I-upper_bound
+old 64 67 191 194 O
+
+have 0 4 195 199 B-technology_access
+a 5 6 200 201 I-technology_access
+working 7 14 202 209 I-technology_access
+phone 15 20 210 215 I-technology_access
+
+have 0 4 216 220 O
+at 5 7 221 223 O
+least 8 13 224 229 O
+1 14 15 230 231 B-lower_bound
+children 16 24 232 240 O
+in 25 27 241 243 O
+their 28 33 244 249 O
+care 34 38 250 254 O
+
+have 0 4 255 259 O
+either 5 11 260 266 O
+a 12 13 267 268 O
+DVD 14 17 269 272 B-technology_access
+player 18 24 273 279 I-technology_access
+or 25 27 280 282 O
+internet 28 36 283 291 B-technology_access
+access 37 43 292 298 I-technology_access
+through 44 51 299 306 I-technology_access
+computer 52 60 307 315 I-technology_access
+or 61 63 316 318 I-technology_access
+phone 64 69 319 324 I-technology_access
+
+provide 0 7 325 332 O
+at 8 10 333 335 O
+least 11 16 336 341 O
+2 17 18 342 343 B-lower_bound
+meals 19 24 344 349 O
+/ 24 25 349 350 O
+snacks 25 31 350 356 O
+to 32 34 357 359 O
+the 35 38 360 363 O
+children 39 47 364 372 O
+
+under 0 5 373 378 O
+18 6 8 379 381 B-lower_bound
+years 9 14 382 387 I-lower_bound
+of 15 17 388 390 O
+age 18 21 391 394 B-age
+

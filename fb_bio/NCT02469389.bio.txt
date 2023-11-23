@@ -1,0 +1,110 @@
+5th 0 3 0 3 O
+edition 4 11 4 11 O
+( 12 13 12 13 O
+DSM 13 16 13 16 O
+5 17 18 17 18 O
+) 18 19 18 19 O
+diagnosis 20 29 20 29 O
+of 30 32 30 32 O
+schizophrenia 33 46 33 46 B-chronic_disease
+or 47 49 47 49 O
+schizoaffective 50 65 50 65 B-chronic_disease
+disorder 66 74 66 74 I-chronic_disease
+
+A 0 1 75 76 O
+minimum 2 9 77 84 O
+average 10 17 85 92 O
+rating 18 24 93 99 O
+of 25 27 100 102 O
+a 28 29 103 104 O
+moderate 30 38 105 113 O
+deficit 39 46 114 121 O
+( 47 48 122 123 O
+3 48 49 123 124 B-lower_bound
+or 50 52 125 127 O
+greater 53 60 128 135 O
+on 61 63 136 138 O
+a 64 65 139 140 O
+0 66 67 141 142 B-lower_bound
+- 67 68 142 143 O
+4 68 69 143 144 B-upper_bound
+scale 70 75 145 150 O
+) 75 76 150 151 O
+on 77 79 152 154 O
+any 80 83 155 158 O
+symptom 84 91 159 166 O
+domain 92 98 167 173 O
+within 99 105 174 180 O
+the 106 109 181 184 O
+affect 110 116 185 191 O
+motivation 117 127 192 202 O
+factor 128 134 203 209 O
+of 135 137 210 212 O
+the 138 141 213 216 O
+Clinical 142 150 217 225 O
+Assessment 151 161 226 236 O
+Interview 162 171 237 246 O
+for 172 175 247 250 O
+Negative 176 184 251 259 O
+Symptoms 185 193 260 268 O
+( 194 195 269 270 O
+CAINS 195 200 270 275 O
+) 200 201 275 276 O
+
+Age 0 3 277 280 B-age
+between 4 11 281 288 O
+18 12 14 289 291 B-lower_bound
+and 15 18 292 295 O
+75 19 21 296 298 B-upper_bound
+years 22 27 299 304 I-upper_bound
+
+Cognitive 0 9 305 314 B-chronic_disease
+impairment 10 20 315 325 I-chronic_disease
+
+Documented 0 10 326 336 O
+history 11 18 337 344 O
+of 19 21 345 347 O
+serious 22 29 348 355 O
+neurological 30 42 356 368 B-chronic_disease
+disorder 43 51 369 377 I-chronic_disease
+
+anhedonia 0 9 378 387 B-chronic_disease
+
+avolition 0 9 388 397 B-chronic_disease
+
+defined 0 7 398 405 O
+as 8 10 406 408 O
+a 11 12 409 410 O
+total 13 18 411 416 B-clinical_variable
+IQ 19 21 417 419 I-clinical_variable
+score 22 27 420 425 I-clinical_variable
+less 28 32 426 430 O
+than 33 37 431 435 O
+70 38 40 436 438 B-upper_bound
+as 41 43 439 441 O
+measured 44 52 442 450 O
+by 53 55 451 453 O
+the 56 59 454 457 O
+Wechsler 60 68 458 466 O
+Test 69 73 467 471 O
+of 74 76 472 474 O
+Adult 77 82 475 480 O
+Reading 83 90 481 488 O
+or 91 93 489 491 O
+as 94 96 492 494 O
+indicated 97 106 495 504 O
+by 107 109 505 507 O
+chart 110 115 508 513 O
+review 116 122 514 520 O
+
+head 0 4 521 525 B-chronic_disease
+trauma 5 11 526 532 I-chronic_disease
+with 12 16 533 537 O
+loss 17 21 538 542 O
+of 22 24 543 545 O
+consciousness 25 38 546 559 O
+
+symptoms 0 8 560 568 O
+of 9 11 569 571 O
+asociality 12 22 572 582 B-chronic_disease
+

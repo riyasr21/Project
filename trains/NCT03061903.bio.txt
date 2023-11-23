@@ -1,0 +1,53 @@
+Diabetes 0 8 0 8 B-chronic_disease
+
+Obesity 0 7 9 16 B-chronic_disease
+( 8 9 17 18 O
+Body 9 13 18 22 B-bmi
+Mass 14 18 23 27 I-bmi
+Index 19 24 28 33 I-bmi
+( 25 26 34 35 I-bmi
+BMI 26 29 35 38 I-bmi
+) 29 30 38 39 I-bmi
+> 31 32 40 41 O
+30 33 35 42 44 B-lower_bound
+) 35 36 44 45 O
+
+Patients 0 8 46 54 O
+undergoing 9 19 55 65 O
+primary 20 27 66 73 B-treatment
+THA 28 31 74 77 I-treatment
+through 32 39 78 85 I-treatment
+a 40 41 86 87 I-treatment
+direct 42 48 88 94 I-treatment
+anterior 49 57 95 103 I-treatment
+approach 58 66 104 112 I-treatment
+but 67 70 113 116 O
+without 71 78 117 124 O
+any 79 82 125 128 O
+of 83 85 129 131 O
+the 86 89 132 135 O
+above 90 95 136 141 O
+risk 96 100 142 146 O
+factors 101 108 147 154 O
+
+Patients 0 8 155 163 O
+undergoing 9 19 164 174 O
+primary 20 27 175 182 B-treatment
+total 28 33 183 188 I-treatment
+hip 34 37 189 192 I-treatment
+arthroplasty 38 50 193 205 I-treatment
+( 51 52 206 207 I-treatment
+THA 52 55 207 210 I-treatment
+) 55 56 210 211 I-treatment
+through 57 64 212 219 O
+a 65 66 220 221 O
+direct 67 73 222 228 O
+anterior 74 82 229 237 O
+approach 83 91 238 246 O
+by 92 94 247 249 O
+one 95 98 250 253 O
+of 99 101 254 256 O
+the 102 105 257 260 O
+investigating 106 119 261 274 O
+surgeons 120 128 275 283 O
+

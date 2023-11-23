@@ -1,0 +1,139 @@
+Active 0 6 0 6 O
+or 7 9 7 9 O
+chronic 10 17 10 17 B-chronic_disease
+corneal 18 25 18 25 I-chronic_disease
+disorder 26 34 26 34 I-chronic_disease
+
+Currently 0 9 35 44 O
+receiving 10 19 45 54 O
+anticoagulation 20 35 55 70 B-treatment
+therapy 36 43 71 78 I-treatment
+with 44 48 79 83 I-treatment
+warfarin 49 57 84 92 I-treatment
+
+Eaton 0 5 93 98 B-chronic_disease
+- 5 6 98 99 I-chronic_disease
+Lambert 6 13 99 106 I-chronic_disease
+syndrome 14 22 107 115 I-chronic_disease
+( 23 24 116 117 O
+para 24 28 117 121 B-chronic_disease
+- 28 29 121 122 I-chronic_disease
+neoplastic 29 39 122 132 I-chronic_disease
+syndrome 40 48 133 141 I-chronic_disease
+) 48 49 141 142 O
+
+Histologically 0 14 143 157 O
+confirmed 15 24 158 167 O
+diagnosis 25 34 168 177 O
+of 35 37 178 180 O
+metastatic 38 48 181 191 B-cancer
+or 49 51 192 194 I-cancer
+locally 52 59 195 202 I-cancer
+advanced 60 68 203 211 I-cancer
+unresectable 69 81 212 224 I-cancer
+tumors 82 88 225 231 I-cancer
+
+History 0 7 232 239 O
+of 8 10 240 242 O
+multiple 11 19 243 251 B-chronic_disease
+sclerosis 20 29 252 261 I-chronic_disease
+or 30 32 262 264 O
+other 33 38 265 270 O
+demyelinating 39 52 271 284 B-chronic_disease
+disease 53 60 285 292 I-chronic_disease
+
+History 0 7 293 300 O
+of 8 10 301 303 O
+or 11 13 304 306 O
+current 14 21 307 314 O
+active 22 28 315 321 O
+autoimmune 29 39 322 332 B-chronic_disease
+diseases 40 48 333 341 I-chronic_disease
+
+History 0 7 342 349 O
+of 8 10 350 352 O
+severe 11 17 353 359 O
+allergic 18 26 360 368 O
+or 27 29 369 371 O
+anaphylactic 30 42 372 384 O
+reactions 43 52 385 394 O
+to 53 55 395 397 O
+previous 56 64 398 406 O
+monoclonal 65 75 407 417 B-allergy_name
+antibody 76 84 418 426 I-allergy_name
+therapy 85 92 427 434 I-allergy_name
+
+Non 0 3 435 438 O
+- 3 4 438 439 O
+healing 4 11 439 446 O
+wound(s 12 19 447 454 O
+) 19 20 454 455 O
+or 21 23 456 458 O
+ulcer(s 24 31 459 466 O
+) 31 32 466 467 O
+except 33 39 468 474 O
+for 40 43 475 478 O
+ulcerative 44 54 479 489 O
+lesions 55 62 490 497 O
+caused 63 69 498 504 O
+by 70 72 505 507 O
+the 73 76 508 511 O
+underlying 77 87 512 522 O
+neoplasm 88 96 523 531 B-cancer
+
+Patients 0 8 532 540 O
+demonstrating 9 22 541 554 O
+disease 23 30 555 562 O
+progression 31 42 563 574 O
+after 43 48 575 580 O
+treatment 49 58 581 590 B-treatment
+with 59 63 591 595 O
+available 64 73 596 605 O
+therapies 74 83 606 615 B-treatment
+that 84 88 616 620 O
+are 89 92 621 624 O
+known 93 98 625 630 O
+to 99 101 631 633 O
+confer 102 108 634 640 O
+clinical 109 117 641 649 O
+benefit 118 125 650 657 O
+, 125 126 657 658 O
+or 127 129 659 661 O
+who 130 133 662 665 O
+are 134 137 666 669 O
+intolerant 138 148 670 680 O
+to 149 151 681 683 O
+treatment 152 161 684 693 O
+
+Serious 0 7 694 701 O
+concurrent 8 18 702 712 O
+illness 19 26 713 720 O
+, 26 27 720 721 O
+including 28 37 722 731 O
+clinically 38 48 732 742 O
+relevant 49 57 743 751 O
+active 58 64 752 758 B-chronic_disease
+infection 65 74 759 768 I-chronic_disease
+
+Significant 0 11 769 780 O
+cardiac 12 19 781 788 B-chronic_disease
+disease 20 27 789 796 I-chronic_disease
+such 28 32 797 801 O
+as 33 35 802 804 O
+recent 36 42 805 811 O
+myocardial 43 53 812 822 B-chronic_disease
+infarction 54 64 823 833 I-chronic_disease
+
+active 0 6 834 840 O
+herpetic 7 15 841 849 B-chronic_disease
+keratitis 16 25 850 859 I-chronic_disease
+
+alcoholic 0 9 860 869 B-chronic_disease
+liver 10 15 870 875 I-chronic_disease
+disease 16 23 876 883 I-chronic_disease
+
+history 0 7 884 891 O
+of 8 10 892 894 O
+corneal 11 18 895 902 B-treatment
+transplantation 19 34 903 918 I-treatment
+

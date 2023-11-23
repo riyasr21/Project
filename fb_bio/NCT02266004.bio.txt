@@ -1,0 +1,67 @@
+Adults 0 6 0 6 O
+unable 7 13 7 13 O
+to 14 16 14 16 O
+consent 17 24 17 24 O
+, 24 25 24 25 O
+individuals 26 37 26 37 O
+who 38 41 38 41 O
+are 42 45 42 45 O
+not 46 49 46 49 O
+yet 50 53 50 53 O
+adults 54 60 54 60 O
+( 61 62 61 62 O
+infants 62 69 62 69 O
+, 69 70 69 70 O
+children 71 79 71 79 O
+, 79 80 79 80 O
+teenagers 81 90 81 90 O
+) 90 91 90 91 O
+pregnant 92 100 92 100 B-pregnancy
+women 101 106 101 106 B-gender
+, 106 107 106 107 O
+prisoners 108 117 108 117 O
+will 118 122 118 122 O
+not 123 126 123 126 O
+be 127 129 127 129 O
+considered 130 140 130 140 O
+for 141 144 141 144 O
+participation 145 158 145 158 O
+
+Parkinson 0 9 159 168 B-chronic_disease
+'s 9 11 168 170 I-chronic_disease
+disease 12 19 171 178 I-chronic_disease
+stages 20 26 179 185 B-lower_bound
+2 27 28 186 187 I-lower_bound
+- 28 29 187 188 O
+3 29 30 188 189 B-upper_bound
+Hoehn 31 36 190 195 B-clinical_variable
+and 37 40 196 199 I-clinical_variable
+Yahr 41 45 200 204 I-clinical_variable
+
+Stable 0 6 205 211 O
+medication 7 17 212 222 B-treatment
+regimen 18 25 223 230 O
+
+age 0 3 231 234 B-age
+18- 4 7 235 238 B-lower_bound
+80 8 10 239 241 B-upper_bound
+
+dementia 0 8 242 250 B-chronic_disease
+
+history 0 7 251 258 O
+of 8 10 259 261 O
+seizures 11 19 262 270 B-chronic_disease
+
+medical 0 7 271 278 B-chronic_disease
+condition 8 17 279 288 I-chronic_disease
+that 18 22 289 293 O
+would 23 28 294 299 O
+interfere 29 38 300 309 O
+with 39 43 310 314 O
+walking 44 51 315 322 O
+and 52 55 323 326 O
+training 56 64 327 335 O
+for 65 68 336 339 O
+30 69 71 340 342 B-upper_bound
+minutes 72 79 343 350 I-upper_bound
+

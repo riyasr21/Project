@@ -1,0 +1,65 @@
+Adequate 0 8 0 8 O
+renal 9 14 9 14 O
+function 15 23 15 23 O
+to 24 26 24 26 O
+tolerate 27 35 27 35 O
+intravenous 36 47 36 47 B-treatment
+gadolinium 48 58 48 58 I-treatment
+contrast 59 67 59 67 I-treatment
+injection 68 77 68 77 I-treatment
+
+Deemed 0 6 78 84 O
+to 7 9 85 87 O
+be 10 12 88 90 O
+a 13 14 91 92 O
+candidate 15 24 93 102 O
+for 25 28 103 106 O
+stereotactic 29 41 107 119 B-treatment
+body 42 46 120 124 I-treatment
+radiation 47 56 125 134 I-treatment
+therapy 57 64 135 142 I-treatment
+for 65 68 143 146 O
+NSCLC 69 74 147 152 B-cancer
+
+Histologically 0 14 153 167 O
+confirmed 15 24 168 177 O
+non 25 28 178 181 B-cancer
+- 28 29 181 182 I-cancer
+small 29 34 182 187 I-cancer
+cell 35 39 188 192 I-cancer
+lung 40 44 193 197 I-cancer
+cancer 45 51 198 204 I-cancer
+
+Implanted 0 9 205 214 B-treatment
+pacemaker 10 19 215 224 I-treatment
+or 20 22 225 227 O
+cardiac 23 30 228 235 B-treatment
+defibrillator 31 44 236 249 I-treatment
+
+No 0 2 250 252 O
+evidence 3 11 253 261 O
+of 12 14 262 264 O
+nodal 15 20 265 270 B-cancer
+involvement 21 32 271 282 I-cancer
+or 33 35 283 285 O
+distant 36 43 286 293 B-cancer
+metastases 44 54 294 304 I-cancer
+
+Pregnant 0 8 305 313 B-pregnancy
+or 9 11 314 316 O
+breastfeeding 12 25 317 330 O
+
+Prior 0 5 331 336 B-treatment
+thoracic 6 14 337 345 I-treatment
+radiotherapy 15 27 346 358 I-treatment
+or 28 30 359 361 O
+surgery 31 38 362 369 B-treatment
+
+Tumor 0 5 370 375 B-cancer
+between 6 13 376 383 O
+1 14 15 384 385 B-lower_bound
+cm 16 18 386 388 I-lower_bound
+and 19 22 389 392 O
+6 23 24 393 394 B-upper_bound
+cm 25 27 395 397 I-upper_bound
+

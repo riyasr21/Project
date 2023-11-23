@@ -1,0 +1,142 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+4 0 1 18 19 B-upper_bound
+weeks 2 7 20 25 I-upper_bound
+from 8 12 26 30 O
+prior 13 18 31 36 B-treatment
+chemotherapy 19 31 37 49 I-treatment
+( 32 33 50 51 O
+6 34 35 52 53 B-upper_bound
+weeks 36 41 54 59 I-upper_bound
+for 42 45 60 63 O
+mitomycin 46 55 64 73 B-treatment
+C 56 57 74 75 I-treatment
+and 58 61 76 79 O
+nitrosourea 62 73 80 91 B-treatment
+) 73 74 91 92 O
+, 75 76 93 94 O
+immunotherapy 77 90 95 108 B-treatment
+, 90 91 108 109 O
+investigational 92 107 110 125 B-treatment
+anti 108 112 126 130 I-treatment
+- 112 113 130 131 I-treatment
+cancer 113 119 131 137 I-treatment
+therapy 120 127 138 145 I-treatment
+, 127 128 145 146 O
+radiation 129 138 147 156 B-treatment
+therapy 139 146 157 164 I-treatment
+; 146 147 164 165 O
+and 148 151 166 169 O
+have 152 156 170 174 O
+recovered 157 166 175 184 O
+from 167 171 185 189 O
+prior 172 177 190 195 O
+toxicities 178 188 196 206 O
+
+Agree 0 5 207 212 B-contraception_consent
+to 6 8 213 215 I-contraception_consent
+practice 9 17 216 224 I-contraception_consent
+effective 18 27 225 234 I-contraception_consent
+contraception 28 41 235 248 I-contraception_consent
+
+At 0 2 249 251 O
+least 3 8 252 257 O
+4 9 10 258 259 B-upper_bound
+weeks 11 16 260 265 I-upper_bound
+from 17 21 266 270 O
+major 22 27 271 276 B-treatment
+surgery 28 35 277 284 I-treatment
+
+Currently 0 9 285 294 O
+receiving 10 19 295 304 O
+radiotherapy 20 32 305 317 B-treatment
+, 32 33 317 318 O
+biological 34 44 319 329 B-treatment
+therapy 45 52 330 337 I-treatment
+, 52 53 337 338 O
+or 54 56 339 341 O
+any 57 60 342 345 O
+other 61 66 346 351 O
+investigational 67 82 352 367 B-treatment
+agents 83 89 368 374 I-treatment
+
+ECOG 0 4 375 379 B-clinical_variable
+performance 5 16 380 391 I-clinical_variable
+status 17 23 392 398 I-clinical_variable
+0 24 25 399 400 B-lower_bound
+- 25 26 400 401 O
+1 26 27 401 402 B-upper_bound
+
+Histologically 0 14 403 417 O
+or 15 17 418 420 O
+cytologically 18 31 421 434 O
+confirmed 32 41 435 444 O
+solid 42 47 445 450 B-cancer
+tumors 48 54 451 457 I-cancer
+or 55 57 458 460 O
+lymphomas 58 67 461 470 B-cancer
+that 68 72 471 475 I-cancer
+is 73 75 476 478 I-cancer
+metastatic 76 86 479 489 I-cancer
+or 87 89 490 492 O
+unresectable 90 102 493 505 O
+and 103 106 506 509 O
+for 107 110 510 513 O
+which 111 116 514 519 O
+standard 117 125 520 528 O
+curative 126 134 529 537 O
+or 135 137 538 540 O
+palliative 138 148 541 551 O
+measures 149 157 552 560 O
+do 158 160 561 563 O
+not 161 164 564 567 O
+exist 165 170 568 573 O
+or 171 173 574 576 O
+are 174 177 577 580 O
+no 178 180 581 583 O
+longer 181 187 584 590 O
+effective 188 197 591 600 O
+
+Known 0 5 601 606 O
+active 6 12 607 613 B-chronic_disease
+hepatitis 13 22 614 623 I-chronic_disease
+B 23 24 624 625 I-chronic_disease
+and/or 25 31 626 632 O
+hepatitis 32 41 633 642 B-chronic_disease
+C 42 43 643 644 I-chronic_disease
+infection 44 53 645 654 I-chronic_disease
+
+Known 0 5 655 660 O
+to 6 8 661 663 O
+be 9 11 664 666 O
+HIV 12 15 667 670 B-chronic_disease
+- 15 16 670 671 O
+positive 16 24 671 679 O
+
+Life 0 4 680 684 B-clinical_variable
+expectancy 5 15 685 695 I-clinical_variable
+≥ 16 17 696 697 O
+3 18 19 698 699 B-lower_bound
+months 20 26 700 706 I-lower_bound
+
+Pregnant 0 8 707 715 B-pregnancy
+
+Previously 0 10 716 726 O
+untreated 11 20 727 736 O
+CNS 21 24 737 740 B-cancer
+metastasis 25 35 741 751 I-cancer
+or 36 38 752 754 O
+progressive 39 50 755 766 O
+CNS 51 54 767 770 O
+metastasis 55 65 771 781 O
+
+Uncontrolled 0 12 782 794 O
+intercurrent 13 25 795 807 B-chronic_disease
+illness 26 33 808 815 I-chronic_disease
+
+lactating 0 9 816 825 O
+women 10 15 826 831 B-gender
+

@@ -1,0 +1,14 @@
+Current 0 7 0 7 O
+persistent 8 18 8 18 B-chronic_disease
+atrial 19 25 19 25 I-chronic_disease
+fibrillation 26 38 26 38 I-chronic_disease
+
+Pregnant 0 8 39 47 B-pregnancy
+patients 9 17 48 56 O
+
+at 0 2 57 59 O
+least 3 8 60 65 O
+18 9 11 66 68 B-lower_bound
+years 12 17 69 74 I-lower_bound
+old 18 21 75 78 O
+

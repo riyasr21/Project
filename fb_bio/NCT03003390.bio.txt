@@ -1,0 +1,138 @@
+< 0 1 0 1 O
+60 1 3 1 3 B-upper_bound
+days 4 8 4 8 I-upper_bound
+from 9 13 9 13 O
+a 14 15 14 15 O
+clinically 16 26 16 26 O
+relevant 27 35 27 35 O
+bleeding 36 44 36 44 O
+
+< 0 1 45 46 O
+7 1 2 46 47 B-upper_bound
+days 3 7 48 52 I-upper_bound
+after 8 13 53 58 O
+trauma 14 20 59 65 O
+or 21 23 66 68 O
+surgery 24 31 69 76 B-treatment
+
+> 0 1 77 78 O
+36 1 3 78 80 B-lower_bound
+weeks 4 9 81 86 I-lower_bound
+corrected 10 19 87 96 O
+gestational 20 31 97 108 B-clinical_variable
+
+Anticipated 0 11 109 120 O
+surgery 12 19 121 128 B-treatment
+within 20 26 129 135 O
+48 27 29 136 138 B-upper_bound
+hours 30 35 139 144 I-upper_bound
+after 36 41 145 150 O
+insertion 42 51 151 160 O
+of 52 54 161 163 O
+the 55 58 164 167 O
+CVC 59 62 168 171 O
+
+CVC 0 3 172 175 O
+anticipated 4 15 176 187 O
+to 16 18 188 190 O
+be 19 21 191 193 O
+required 22 30 194 202 O
+for 31 34 203 206 O
+≥24 35 38 207 210 O
+hours 39 44 211 216 I-lower_bound
+
+Child 0 5 217 222 O
+anticipated 6 17 223 234 O
+to 18 20 235 237 O
+stay 21 25 238 242 O
+in 26 28 243 245 O
+the 29 32 246 249 O
+pediatric 33 42 250 259 O
+intensive 43 52 260 269 O
+care 53 57 270 274 O
+unit 58 62 275 279 O
+≥48 63 66 280 283 O
+hours 67 72 284 289 I-lower_bound
+
+Coagulopathy 0 12 290 302 B-chronic_disease
+
+Currently 0 9 303 312 B-pregnancy
+pregnant 10 18 313 321 I-pregnancy
+
+Hb 0 2 322 324 B-clinical_variable
+decreased 3 12 325 334 O
+≥2 13 15 335 337 O
+g 16 17 338 339 I-lower_bound
+/ 17 18 339 340 I-lower_bound
+dl 18 20 340 342 I-lower_bound
+in 21 23 343 345 O
+24 24 26 346 348 B-upper_bound
+hours 27 32 349 354 I-upper_bound
+
+History 0 7 355 362 O
+of 8 10 363 365 O
+HIT 11 14 366 369 B-chronic_disease
+( 15 16 370 371 O
+i.e. 16 20 371 375 O
+, 20 21 375 376 O
+positive 22 30 377 385 O
+serotonin 31 40 386 395 O
+release 41 48 396 403 O
+assay 49 54 404 409 O
+) 54 55 409 410 O
+
+Known 0 5 411 416 O
+hypersensitivity 6 22 417 433 O
+to 23 25 434 436 O
+heparin 26 33 437 444 B-allergy_name
+or 34 36 445 447 I-allergy_name
+its 37 40 448 451 I-allergy_name
+components 41 51 452 462 I-allergy_name
+, 51 52 462 463 O
+including 53 62 464 473 O
+pork 63 67 474 478 B-allergy_name
+products 68 76 479 487 I-allergy_name
+
+Renal 0 5 488 493 B-chronic_disease
+failure 6 13 494 501 I-chronic_disease
+
+Untunneled 0 10 502 512 O
+CVC 11 14 513 516 O
+inserted 15 23 517 525 O
+in 24 26 526 528 O
+the 27 30 529 532 O
+internal 31 39 533 541 O
+jugular 40 47 542 549 O
+or 48 50 550 552 O
+femoral 51 58 553 560 O
+vein 59 63 561 565 O
+within 64 70 566 572 O
+the 71 74 573 576 O
+past 75 79 577 581 B-upper_bound
+24 80 82 582 584 I-upper_bound
+hours 83 88 585 590 I-upper_bound
+
+age 0 3 591 594 B-age
+to 4 6 595 597 O
+< 7 8 598 599 O
+18 8 10 599 601 B-upper_bound
+years 11 16 602 607 I-upper_bound
+old 17 20 608 611 O
+
+creatinine 0 10 612 622 B-clinical_variable
+clearance 11 20 623 632 I-clinical_variable
+< 21 22 633 634 O
+30 22 24 634 636 B-upper_bound
+mL 25 27 637 639 I-upper_bound
+/ 27 28 639 640 I-upper_bound
+min 28 31 640 643 I-upper_bound
+
+required 0 8 644 652 O
+medical 9 16 653 660 O
+or 17 19 661 663 I-treatment
+surgical 20 28 664 672 I-treatment
+intervention 29 41 673 685 I-treatment
+to 42 44 686 688 O
+restore 45 52 689 696 O
+hemostasis 53 63 697 707 B-treatment
+

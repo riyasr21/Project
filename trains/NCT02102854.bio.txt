@@ -1,0 +1,90 @@
+Currently 0 9 0 9 O
+receiving 10 19 10 19 O
+any 20 23 20 23 O
+investigational 24 39 24 39 B-treatment
+drug 40 44 40 44 I-treatment
+or 45 47 45 47 O
+treatments 48 58 48 58 B-treatment
+
+Male 0 4 59 63 B-gender
+
+Patients 0 8 64 72 O
+with 9 13 73 77 O
+known 14 19 78 83 O
+severe 20 26 84 90 O
+allergy 27 34 91 98 O
+to 35 37 99 101 O
+antithymocyte 38 51 102 115 B-allergy_name
+globulin 52 60 116 124 I-allergy_name
+or 61 63 125 127 O
+rabbits 64 71 128 135 B-allergy_name
+
+Rejection 0 9 136 145 O
+episode 10 17 146 153 O
+requiring 18 27 154 163 O
+the 28 31 164 167 O
+use 32 35 168 171 O
+of 36 38 172 174 O
+therapeutic 39 50 175 186 B-treatment
+plasma 51 57 187 193 I-treatment
+exchange 58 66 194 202 I-treatment
+immediately 67 78 203 214 O
+subsequent 79 89 215 225 O
+to 90 92 226 228 O
+rATG 93 97 229 233 O
+administration 98 112 234 248 O
+
+aged 0 4 249 253 B-age
+18 5 7 254 256 B-lower_bound
+years 8 13 257 262 I-lower_bound
+or 14 16 263 265 O
+older 17 22 266 271 O
+
+female 0 6 272 278 B-gender
+subjects 7 15 279 287 I-gender
+
+is 0 2 288 290 O
+exhibiting 3 13 291 301 O
+resistance 14 24 302 312 O
+to 25 27 313 315 O
+corticosteroid 28 42 316 330 B-treatment
+treatment 43 52 331 340 I-treatment
+, 52 53 340 341 O
+defined 54 61 342 349 O
+as 62 64 350 352 O
+failure 65 72 353 360 O
+of 73 75 361 363 O
+the 76 79 364 367 O
+serum 80 85 368 373 O
+creatinine 86 96 374 384 O
+to 97 99 385 387 O
+decrease 100 108 388 396 O
+after 109 114 397 402 O
+at 115 117 403 405 O
+least 118 123 406 411 O
+3 124 125 412 413 B-lower_bound
+days 126 130 414 418 I-lower_bound
+of 131 133 419 421 O
+corticosteroid 134 148 422 436 O
+treatment 149 158 437 446 O
+( 159 160 447 448 O
+≥200 160 164 448 452 O
+mg 165 167 453 455 I-lower_bound
+/ 167 168 455 456 I-lower_bound
+day 168 171 456 459 I-lower_bound
+of 172 174 460 462 O
+methylprednisolone 175 193 463 481 B-treatment
+or 194 196 482 484 O
+equivalent 197 207 485 495 O
+) 207 208 495 496 O
+
+will 0 4 497 501 O
+require 5 12 502 509 O
+the 13 16 510 513 O
+use 17 20 514 517 O
+of 21 23 518 520 O
+rATG 24 28 521 525 B-treatment
+based 29 34 526 531 O
+on 35 37 532 534 O
+severity 38 46 535 543 O
+

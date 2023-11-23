@@ -1,0 +1,26 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+failure 0 7 18 25 O
+of 8 10 26 28 O
+at 11 13 29 31 O
+least 14 19 32 37 O
+one 20 23 38 41 B-lower_bound
+anti 24 28 42 46 B-treatment
+- 28 29 46 47 I-treatment
+arrhythmic 29 39 47 57 I-treatment
+drug 40 44 58 62 I-treatment
+
+planned 0 7 63 70 O
+for 8 11 71 74 O
+catheter 12 20 75 83 B-treatment
+ablation 21 29 84 92 I-treatment
+due 30 33 93 96 O
+to 34 36 97 99 O
+symptomatic 37 48 100 111 O
+paroxysmal 49 59 112 122 B-chronic_disease
+atrial 60 66 123 129 I-chronic_disease
+fibrillation 67 79 130 142 I-chronic_disease
+

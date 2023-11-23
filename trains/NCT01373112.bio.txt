@@ -1,0 +1,72 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+a 13 14 13 14 O
+periprosthetic 15 29 15 29 B-chronic_disease
+joint 30 35 30 35 I-chronic_disease
+infection 36 45 36 45 I-chronic_disease
+of 46 48 46 48 O
+a 49 50 49 50 O
+primary 51 58 51 58 B-treatment
+total 59 64 59 64 I-treatment
+knee 65 69 65 69 I-treatment
+arthroplasty 70 82 70 82 I-treatment
+with 83 87 83 87 O
+a 88 89 88 89 O
+planned 90 97 90 97 O
+two 98 101 98 101 O
+- 101 102 101 102 O
+stage 102 107 102 107 O
+exchange 108 116 108 116 O
+procedure 117 126 117 126 O
+
+Extensive 0 9 127 136 O
+bone 10 14 137 141 O
+loss 15 19 142 146 O
+preventing 20 30 147 157 O
+the 31 34 158 161 O
+use 35 38 162 165 O
+of 39 41 166 168 O
+an 42 44 169 171 O
+articulating 45 57 172 184 B-treatment
+spacer 58 64 185 191 I-treatment
+
+Infection 0 9 192 201 B-chronic_disease
+of 10 12 202 204 O
+a 13 14 205 206 O
+revision 15 23 207 215 O
+as 24 26 216 218 O
+opposed 27 34 219 226 O
+to 35 37 227 229 O
+a 38 39 230 231 O
+primary 40 47 232 239 B-treatment
+total 48 53 240 245 I-treatment
+knee 54 58 246 250 I-treatment
+arthroplasty 59 71 251 263 I-treatment
+
+Known 0 5 264 269 O
+allergy 6 13 270 277 O
+to 14 16 278 280 O
+polymethylmethacrylate 17 39 281 303 B-allergy_name
+, 39 40 303 304 O
+tobramycin 41 51 305 315 B-allergy_name
+or 52 54 316 318 O
+vancomycin 55 65 319 329 B-allergy_name
+
+Medically 0 9 330 339 O
+unfit 10 15 340 345 O
+for 16 19 346 349 O
+operative 20 29 350 359 B-treatment
+intervention 30 42 360 372 I-treatment
+
+Soft 0 4 373 377 B-chronic_disease
+tissue 5 11 378 384 I-chronic_disease
+defects 12 19 385 392 I-chronic_disease
+that 20 24 393 397 O
+prevent 25 32 398 405 O
+the 33 36 406 409 O
+use 37 40 410 413 O
+of 41 43 414 416 O
+an 44 46 417 419 O
+articulating 47 59 420 432 B-treatment
+spacer 60 66 433 439 I-treatment
+

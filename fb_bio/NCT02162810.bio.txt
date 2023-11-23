@@ -1,0 +1,32 @@
+All 0 3 0 3 O
+patients 4 12 4 12 O
+currently 13 22 13 22 O
+taking 23 29 23 29 O
+steroids 30 38 30 38 B-treatment
+at 39 41 39 41 O
+the 42 45 42 45 O
+time 46 50 46 50 O
+of 51 53 51 53 O
+surgery 54 61 54 61 B-treatment
+or 62 64 62 64 O
+during 65 71 65 71 O
+the 72 75 72 75 O
+six 76 79 76 79 B-upper_bound
+- 79 80 79 80 I-upper_bound
+week 80 84 80 84 I-upper_bound
+recovery 85 93 85 93 O
+period 94 100 94 100 O
+as 101 103 101 103 O
+well 104 108 104 108 O
+as 109 111 109 111 O
+patients 112 120 112 120 O
+with 121 125 121 125 O
+betamethasone 126 139 126 139 B-allergy_name
+hypersensitivity 140 156 140 156 O
+
+Patients 0 8 157 165 O
+undergoing 9 19 166 176 O
+proximal 20 28 177 185 B-treatment
+hypospadias 29 40 186 197 I-treatment
+repair 41 47 198 204 I-treatment
+

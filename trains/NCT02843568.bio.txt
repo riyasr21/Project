@@ -1,0 +1,153 @@
+Histologic 0 10 0 10 O
+diagnosis 11 20 11 20 O
+of 21 23 21 23 O
+non 24 27 24 27 B-cancer
+- 27 28 27 28 I-cancer
+small 28 33 28 33 I-cancer
+cell 34 38 34 38 I-cancer
+lung 39 43 39 43 I-cancer
+cancer 44 50 44 50 I-cancer
+or 51 53 51 53 O
+lung 54 58 54 58 B-cancer
+metastasis 59 69 59 69 I-cancer
+from 70 74 70 74 O
+a 75 76 75 76 O
+solid 77 82 77 82 B-cancer
+tumor 83 88 83 88 I-cancer
+
+Known 0 5 89 94 O
+underlying 6 16 95 105 O
+collagen 17 25 106 114 B-chronic_disease
+vascular 26 34 115 123 I-chronic_disease
+disease 35 42 124 131 I-chronic_disease
+or 43 45 132 134 O
+intrinsic 46 55 135 144 B-chronic_disease
+lung 56 60 145 149 I-chronic_disease
+disease 61 68 150 157 I-chronic_disease
+that 69 73 158 162 O
+could 74 79 163 168 O
+complicate 80 90 169 179 O
+expected 91 99 180 188 O
+sequelae 100 108 189 197 O
+of 109 111 198 200 O
+radiation 112 121 201 210 O
+
+Not 0 3 211 214 B-pregnancy
+pregnant 4 12 215 223 I-pregnancy
+per 13 16 224 227 O
+radiation 17 26 228 237 B-treatment
+oncology 27 35 238 246 I-treatment
+standard 36 44 247 255 O
+procedures 45 55 256 266 O
+
+One 0 3 267 270 O
+biopsy 4 10 271 277 O
+site 11 15 278 282 O
+is 16 18 283 285 O
+adequate 19 27 286 294 O
+for 28 31 295 298 O
+multiple 32 40 299 307 O
+sites 41 46 308 313 O
+of 47 49 314 316 O
+thoracic 50 58 317 325 B-chronic_disease
+disease 59 66 326 333 I-chronic_disease
+
+Oxygen 0 6 334 340 B-clinical_variable
+dependence 7 17 341 351 I-clinical_variable
+of 18 20 352 354 O
+> 21 22 355 356 O
+2 23 24 357 358 B-lower_bound
+L 25 26 359 360 I-lower_bound
+/ 26 27 360 361 I-lower_bound
+min 27 30 361 364 I-lower_bound
+continuously 31 43 365 377 O
+throughout 44 54 378 388 O
+the 55 58 389 392 O
+day 59 62 393 396 O
+at 63 65 397 399 O
+baseline 66 74 400 408 O
+
+Prior 0 5 409 414 O
+( 6 7 415 416 O
+within 7 13 416 422 O
+last 14 18 423 427 B-upper_bound
+6 19 20 428 429 I-upper_bound
+months 21 27 430 436 I-upper_bound
+) 27 28 436 437 O
+or 29 31 438 440 O
+future 32 38 441 447 O
+planned 39 46 448 455 O
+therapeutic 47 58 456 467 B-treatment
+surgery 59 66 468 475 I-treatment
+for 67 70 476 479 O
+the 71 74 480 483 O
+treatment 75 84 484 493 O
+of 85 87 494 496 O
+the 88 91 497 500 O
+existing 92 100 501 509 O
+lung 101 105 510 514 B-cancer
+cancer 106 112 515 521 I-cancer
+
+Prior 0 5 522 527 B-treatment
+thoracic 6 14 528 536 I-treatment
+radiotherapy 15 27 537 549 I-treatment
+
+Severe 0 6 550 556 B-chronic_disease
+COPD 7 11 557 561 I-chronic_disease
+defined 12 19 562 569 O
+as 20 22 570 572 O
+disease 23 30 573 580 O
+requiring 31 40 581 590 O
+an 41 43 591 593 O
+inpatient 44 53 594 603 O
+stay 54 58 604 608 O
+for 59 62 609 612 O
+respiratory 63 74 613 624 O
+deterioration 75 88 625 638 O
+within 89 95 639 645 O
+the 96 99 646 649 O
+past 100 104 650 654 B-upper_bound
+3 105 106 655 656 I-upper_bound
+months 107 113 657 663 I-upper_bound
+
+Treatment 0 9 664 673 O
+includes 10 18 674 682 O
+localized 19 28 683 692 O
+radiation 29 38 693 702 B-treatment
+therapy 39 46 703 710 I-treatment
+with 47 51 711 715 O
+or 52 54 716 718 O
+without 55 62 719 726 O
+chemotherapy 63 75 727 739 B-treatment
+
+idiopathic 0 10 740 750 B-chronic_disease
+pulmonary 11 20 751 760 I-chronic_disease
+fibrosis 21 29 761 769 I-chronic_disease
+
+ongoing 0 7 770 777 O
+or 8 10 778 780 O
+active 11 17 781 787 B-chronic_disease
+infection 18 27 788 797 I-chronic_disease
+
+psychiatric 0 11 798 809 B-chronic_disease
+illness 12 19 810 817 I-chronic_disease
+/ 19 20 817 818 I-chronic_disease
+social 20 26 818 824 I-chronic_disease
+situations 27 37 825 835 I-chronic_disease
+that 38 42 836 840 O
+would 43 48 841 846 O
+limit 49 54 847 852 O
+compliance 55 65 853 863 O
+with 66 70 864 868 O
+study 71 76 869 874 O
+requirements 77 89 875 887 O
+
+symptomatic 0 11 888 899 B-chronic_disease
+congestive 12 22 900 910 I-chronic_disease
+heart 23 28 911 916 I-chronic_disease
+failure 29 36 917 924 I-chronic_disease
+
+unstable 0 8 925 933 B-chronic_disease
+angina 9 15 934 940 I-chronic_disease
+pectoris 16 24 941 949 I-chronic_disease
+

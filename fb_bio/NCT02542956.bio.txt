@@ -1,0 +1,34 @@
+A 0 1 0 1 O
+medical 2 9 2 9 B-chronic_disease
+condition 10 19 10 19 I-chronic_disease
+that 20 24 20 24 O
+could 25 30 25 30 O
+interfere 31 40 31 40 O
+with 41 45 41 45 O
+study 46 51 46 51 O
+participation 52 65 52 65 O
+
+Body 0 4 66 70 B-clinical_variable
+weight 5 11 71 77 I-clinical_variable
+less 12 16 78 82 O
+than 17 21 83 87 O
+50 22 24 88 90 B-upper_bound
+kg 25 27 91 93 I-upper_bound
+
+Participating 0 13 94 107 O
+in 14 16 108 110 O
+another 17 24 111 118 O
+study 25 30 119 124 O
+involving 31 40 125 134 O
+an 41 43 135 137 O
+investigational 44 59 138 153 B-treatment
+medication 60 70 154 164 I-treatment
+
+Undergoing 0 10 165 175 O
+abdominoplasty 11 25 176 190 B-treatment
+or 26 28 191 193 O
+TRAM 29 33 194 198 B-treatment
+flap 34 38 199 203 I-treatment
+breast 39 45 204 210 I-treatment
+reconstruction 46 60 211 225 I-treatment
+

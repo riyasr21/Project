@@ -1,0 +1,18 @@
+Active 0 6 0 6 O
+eye 7 10 7 10 B-chronic_disease
+infection 11 20 11 20 I-chronic_disease
+
+Clinical 0 8 21 29 O
+pattern 9 16 30 37 O
+of 17 19 38 40 O
+strabismus 20 30 41 51 B-chronic_disease
+of 31 33 52 54 O
+5 34 35 55 56 B-lower_bound
+prism 36 41 57 62 O
+diopters 42 50 63 71 O
+or 51 53 72 74 O
+more 54 58 75 79 O
+
+Paralytic 0 9 80 89 B-chronic_disease
+strabismus 10 20 90 100 I-chronic_disease
+

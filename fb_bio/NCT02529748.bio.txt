@@ -1,0 +1,37 @@
+Adults 0 6 0 6 O
+who 7 10 7 10 O
+are 11 14 11 14 O
+pregnant 15 23 15 23 B-pregnancy
+or 24 26 24 26 O
+nursing 27 34 27 34 O
+
+Adults 0 6 35 41 O
+with 7 11 42 46 O
+a 12 13 47 48 O
+past 14 18 49 53 O
+history 19 26 54 61 O
+of 27 29 62 64 O
+dermal 30 36 65 71 O
+sensitization 37 50 72 85 O
+, 50 51 85 86 O
+skin 52 56 87 91 O
+allergy 57 64 92 99 O
+, 64 65 99 100 O
+or 66 68 101 103 O
+dermal 69 75 104 110 O
+irritation 76 86 111 121 O
+or 87 89 122 124 O
+dermatitis 90 100 125 135 B-chronic_disease
+because 101 108 136 143 O
+of 109 111 144 146 O
+the 112 115 147 150 O
+potential 116 125 151 160 O
+to 126 128 161 163 O
+have 129 133 164 168 O
+compromised 134 145 169 180 O
+barrier 146 153 181 188 O
+function 154 162 189 197 O
+in 163 165 198 200 O
+the 166 169 201 204 O
+skin 170 174 205 209 O
+

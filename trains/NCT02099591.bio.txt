@@ -1,0 +1,96 @@
+Current 0 7 0 7 O
+acute 8 13 8 13 O
+or 14 16 14 16 O
+chronic 17 24 17 24 O
+use 25 28 25 28 O
+of 29 31 29 31 O
+methadone 32 41 32 41 B-treatment
+
+History 0 7 42 49 O
+of 8 10 50 52 O
+an 11 13 53 55 O
+neoplasm 14 22 56 64 B-cancer
+or 23 25 65 67 O
+an 26 28 68 70 O
+ongoing 29 36 71 78 O
+gastrointestinal 37 53 79 95 O
+- 53 54 95 96 O
+related 54 61 96 103 O
+issue 62 67 104 109 O
+
+History 0 7 110 117 O
+of 8 10 118 120 O
+prolonged 11 20 121 130 O
+neutropenia 21 32 131 142 B-chronic_disease
+or 33 35 143 145 O
+thrombocytopenia 36 52 146 162 B-chronic_disease
+with 53 57 163 167 O
+clinical 58 66 168 176 O
+sequelae 67 75 177 185 B-chronic_disease
+
+Patients 0 8 186 194 O
+currently 9 18 195 204 O
+receiving 19 28 205 214 O
+the 29 32 215 218 O
+first 33 38 219 224 O
+cycle 39 44 225 230 O
+of 45 47 231 233 O
+chemotherapy 48 60 234 246 B-treatment
+
+Signs 0 5 247 252 O
+or 6 8 253 255 O
+symptoms 9 17 256 264 O
+of 18 20 265 267 O
+gastrointestinal 21 37 268 284 B-chronic_disease
+obstruction 38 49 285 296 I-chronic_disease
+
+ability 0 7 297 304 O
+to 8 10 305 307 O
+be 11 13 308 310 O
+present 14 21 311 318 O
+in 22 24 319 321 O
+the 25 28 322 325 O
+clinic 29 35 326 332 O
+for 36 39 333 336 O
+at 40 42 337 339 O
+least 43 48 340 345 O
+10 49 51 346 348 B-lower_bound
+hours 52 57 349 354 I-lower_bound
+following 58 67 355 364 O
+the 68 71 365 368 O
+first 72 77 369 374 O
+study 78 83 375 380 O
+drug 84 88 381 385 O
+for 89 92 386 389 O
+blood 93 98 390 395 O
+sampling 99 107 396 404 O
+and 108 111 405 408 O
+to 112 114 409 411 O
+return 115 121 412 418 O
+at 122 124 419 421 O
+24 125 127 422 424 B-upper_bound
+hours 128 133 425 430 I-upper_bound
+for 134 137 431 434 O
+blood 138 143 435 440 O
+sampling 144 152 441 449 O
+
+newly 0 5 450 455 O
+diagnosed 6 15 456 465 O
+constatipation 16 30 466 480 B-chronic_disease
+
+with 0 4 481 485 O
+history 5 12 486 493 O
+of 13 15 494 496 O
+constipation 16 28 497 509 B-chronic_disease
+treated 29 36 510 517 O
+with 37 41 518 522 O
+laxatives 42 51 523 532 B-treatment
+or 52 54 533 535 O
+expected 55 63 536 544 O
+to 64 66 545 547 O
+develop 67 74 548 555 O
+constipation 75 87 556 568 O
+after 88 93 569 574 O
+opioid 94 100 575 581 B-treatment
+treatment 101 110 582 591 I-treatment
+

@@ -1,0 +1,65 @@
+21 0 2 0 2 B-lower_bound
+year 3 7 3 7 I-lower_bound
+of 8 10 8 10 O
+age 11 14 11 14 B-age
+or 15 17 15 17 O
+older 18 23 18 23 O
+
+Able 0 4 24 28 B-language_fluency
+to 5 7 29 31 I-language_fluency
+speak 8 13 32 37 I-language_fluency
+and 14 17 38 41 I-language_fluency
+understand 18 28 42 52 I-language_fluency
+English 29 36 53 60 I-language_fluency
+
+Currently 0 9 61 70 O
+receiving 10 19 71 80 O
+reflexology 20 31 81 92 B-treatment
+
+Diagnosis 0 9 93 102 O
+of 10 12 103 105 O
+major 13 18 106 111 B-chronic_disease
+mental 19 25 112 118 I-chronic_disease
+illness 26 33 119 126 I-chronic_disease
+on 34 36 127 129 O
+the 37 40 130 133 O
+medical 41 48 134 141 O
+record 49 55 142 148 O
+( 56 57 149 150 O
+verified 57 65 150 158 O
+by 66 68 159 161 O
+the 69 72 162 165 O
+recruiter 73 82 166 175 O
+) 82 83 175 176 O
+
+Have 0 4 177 181 O
+access 5 11 182 188 B-technology_access
+to 12 14 189 191 I-technology_access
+a 15 16 192 193 I-technology_access
+telephone 17 26 194 203 I-technology_access
+
+Reporting 0 9 204 213 O
+a 10 11 214 215 O
+severity 12 20 216 224 O
+of 21 23 225 227 O
+3 24 25 228 229 B-lower_bound
+or 26 28 230 232 O
+higher 29 35 233 239 O
+on 36 38 240 242 O
+fatigue 39 46 243 250 O
+using 47 52 251 256 O
+a 53 54 257 258 O
+0 55 56 259 260 B-lower_bound
+- 56 57 260 261 O
+10 57 59 261 263 B-upper_bound
+standardized 60 72 264 276 O
+scale 73 78 277 282 O
+at 79 81 283 285 O
+intake 82 88 286 292 O
+
+Undergoing 0 10 293 303 O
+chemotherapy 11 23 304 316 B-treatment
+
+targeted 0 8 317 325 B-treatment
+therapy 9 16 326 333 I-treatment
+

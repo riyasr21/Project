@@ -1,0 +1,43 @@
+Any 0 3 0 3 O
+adult 4 9 4 9 O
+female 10 16 10 16 B-gender
+volunteers 17 27 17 27 O
+of 28 30 28 30 O
+any 31 34 31 34 O
+race 35 39 35 39 O
+or 40 42 40 42 O
+ethnic 43 49 43 49 O
+background 50 60 50 60 O
+
+Under 0 5 61 66 O
+30 6 8 67 69 B-upper_bound
+years 9 14 70 75 I-upper_bound
+old 15 18 76 79 O
+or 19 21 80 82 O
+over 22 26 83 87 O
+80 27 29 88 90 B-lower_bound
+years 30 35 91 96 I-lower_bound
+old 36 39 97 100 O
+
+between 0 7 101 108 O
+the 8 11 109 112 O
+ages 12 16 113 117 B-age
+of 17 19 118 120 O
+30 20 22 121 123 B-lower_bound
+to 23 25 124 126 O
+80 26 28 127 129 B-upper_bound
+
+pregnant 0 8 130 138 B-pregnancy
+or 9 11 139 141 O
+thinks 12 18 142 148 O
+she 19 22 149 152 O
+may 23 26 153 156 B-pregnancy
+become 27 33 157 163 I-pregnancy
+pregnant 34 42 164 172 I-pregnancy
+
+presenting 0 10 173 183 O
+for 11 14 184 187 O
+breast 15 21 188 194 B-treatment
+cancer 22 28 195 201 I-treatment
+treatment 29 38 202 211 I-treatment
+

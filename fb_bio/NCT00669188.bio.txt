@@ -1,0 +1,47 @@
+Both 0 4 0 4 O
+men 5 8 5 8 B-gender
+and 9 12 9 12 I-gender
+women 13 18 13 18 I-gender
+over 19 23 19 23 O
+age 24 27 24 27 B-age
+18 28 30 28 30 B-lower_bound
+will 31 35 31 35 O
+be 36 38 36 38 O
+eligible 39 47 39 47 O
+for 48 51 48 51 O
+this 52 56 52 56 O
+study 57 62 57 62 O
+( 63 64 63 64 O
+though 64 70 64 70 O
+in 71 73 71 73 O
+practice 74 82 74 82 O
+the 83 86 83 86 O
+age 87 90 87 90 O
+range 91 96 91 96 O
+is 97 99 97 99 O
+likely 100 106 100 106 O
+to 107 109 107 109 O
+naturally 110 119 110 119 O
+be 120 122 120 122 O
+constrained 123 134 123 134 O
+by 135 137 135 137 O
+the 138 141 138 141 O
+typical 142 149 142 149 O
+age 150 153 150 153 O
+of 154 156 154 156 O
+medical 157 164 157 164 O
+students 165 173 165 173 O
+) 173 174 173 174 O
+
+persons 0 7 175 182 O
+with 8 12 183 187 O
+seizure 13 20 188 195 B-chronic_disease
+or 21 23 196 198 O
+vestibular 24 34 199 209 B-chronic_disease
+disorders 35 44 210 219 I-chronic_disease
+
+women 0 5 220 225 B-gender
+with 6 10 226 230 O
+known 11 16 231 236 O
+pregnancy 17 26 237 246 B-pregnancy
+

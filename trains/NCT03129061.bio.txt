@@ -1,0 +1,69 @@
+Active 0 6 0 6 B-chronic_disease
+tuberculosis 7 19 7 19 I-chronic_disease
+
+Diagnosis 0 9 20 29 O
+of 10 12 30 32 O
+immunodeficiency 13 29 33 49 B-chronic_disease
+or 30 32 50 52 O
+active 33 39 53 59 O
+autoimmune 40 50 60 70 B-chronic_disease
+condition 51 60 71 80 I-chronic_disease
+
+Have 0 4 81 85 O
+standard 5 13 86 94 O
+of 14 16 95 97 O
+care 17 21 98 102 O
+biopsy 22 28 103 109 B-treatment
+or 29 31 110 112 O
+resection 32 41 113 122 O
+planned 42 49 123 130 O
+or 50 52 131 133 O
+tumors 53 59 134 140 B-cancer
+amenable 60 68 141 149 O
+to 69 71 150 152 O
+serial 72 78 153 159 B-treatment
+biopsies 79 87 160 168 I-treatment
+
+Pregnant 0 8 169 177 B-pregnancy
+
+Prior 0 5 178 183 B-treatment
+exposure 6 14 184 192 I-treatment
+to 15 17 193 195 I-treatment
+PD-1 18 22 196 200 I-treatment
+or 23 25 201 203 I-treatment
+PD 26 28 204 206 I-treatment
+- 28 29 206 207 I-treatment
+LI 29 31 207 209 I-treatment
+treatment 32 41 210 219 I-treatment
+
+Prior 0 5 220 225 B-treatment
+systemic 6 14 226 234 I-treatment
+chemotherapy 15 27 235 247 I-treatment
+within 28 34 248 254 O
+2 35 36 255 256 B-upper_bound
+weeks 37 42 257 262 I-upper_bound
+of 43 45 263 265 O
+planed 46 52 266 272 O
+anti 53 57 273 277 B-treatment
+- 57 58 277 278 I-treatment
+PD1 58 61 278 281 I-treatment
+treatment 62 71 282 291 I-treatment
+
+Received 0 8 292 300 O
+a 9 10 301 302 O
+live 11 15 303 307 B-treatment
+vaccine 16 23 308 315 I-treatment
+within 24 30 316 322 O
+30 31 33 323 325 B-upper_bound
+days 34 38 326 330 I-upper_bound
+of 39 41 331 333 O
+planned 42 49 334 341 O
+PD-1 50 54 342 346 O
+start 55 60 347 352 O
+date 61 65 353 357 O
+
+Unresectable 0 12 358 370 O
+or 13 15 371 373 O
+metastatic 16 26 374 384 B-cancer
+SCCHN 27 32 385 390 I-cancer
+

@@ -1,0 +1,19 @@
+Active 0 6 0 6 O
+chemotherapy 7 19 7 19 B-treatment
+
+Pelvic 0 6 20 26 B-treatment
+Floor 7 12 27 32 I-treatment
+surgery 13 20 33 40 I-treatment
+within 21 27 41 47 O
+the 28 31 48 51 O
+6 32 33 52 53 B-upper_bound
+weeks 34 39 54 59 I-upper_bound
+prior 40 45 60 65 I-upper_bound
+to 46 48 66 68 O
+enrollment 49 59 69 79 O
+
+Weight 0 6 80 86 B-clinical_variable
+over 7 11 87 91 O
+300 12 15 92 95 B-lower_bound
+pounds 16 22 96 102 I-lower_bound
+

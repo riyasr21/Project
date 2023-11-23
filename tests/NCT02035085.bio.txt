@@ -1,0 +1,91 @@
+> 0 1 0 1 O
+18 1 3 1 3 B-lower_bound
+years 4 9 4 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+Claustrophobic 0 14 17 31 B-chronic_disease
+
+Evidence 0 8 32 40 O
+of 9 11 41 43 O
+metastatic 12 22 44 54 B-cancer
+disease 23 30 55 62 I-cancer
+
+Female 0 6 63 69 B-gender
+
+High 0 4 70 74 O
+risk 5 9 75 79 O
+for 10 13 80 83 O
+surgical 14 22 84 92 B-treatment
+intervention 23 35 93 105 I-treatment
+because 36 43 106 113 O
+of 44 46 114 116 O
+comorbidities 47 60 117 130 O
+
+Less 0 4 131 135 O
+than 5 9 136 140 O
+18 10 12 141 143 B-upper_bound
+months 13 19 144 150 I-upper_bound
+disease 20 27 151 158 O
+- 27 28 158 159 O
+free 28 32 159 163 O
+interval 33 41 164 172 O
+
+Lumpectomy 0 10 173 183 B-treatment
+and 11 14 184 187 O
+radiation 15 24 188 197 B-treatment
+therapy 25 32 198 205 I-treatment
+for 33 36 206 209 O
+breast 37 43 210 216 B-cancer
+carcinoma 44 53 217 226 I-cancer
+
+Metallic 0 8 227 235 B-treatment
+implant 9 16 236 243 I-treatment
+
+Negative 0 8 244 252 B-pregnancy
+pregnancy 9 18 253 262 I-pregnancy
+test 19 23 263 267 O
+
+No 0 2 268 270 O
+evidence 3 11 271 279 O
+of 12 14 280 282 O
+metastatic 15 25 283 293 B-cancer
+disease 26 33 294 301 I-cancer
+
+Patient 0 7 302 309 O
+is 8 10 310 312 O
+fit 11 14 313 316 O
+for 15 18 317 320 O
+surgery 19 26 321 328 B-treatment
+as 27 29 329 331 O
+determined 30 40 332 342 O
+by 41 43 343 345 O
+preoperative 44 56 346 358 O
+medical 57 64 359 366 O
+clearance 65 74 367 376 O
+workup 75 81 377 383 O
+performed 82 91 384 393 O
+by 92 94 394 396 O
+an 95 97 397 399 O
+independent 98 109 400 411 O
+primary 110 117 412 419 O
+care 118 122 420 424 O
+physician 123 132 425 434 O
+
+Received 0 8 435 443 O
+treatment 9 18 444 453 B-treatment
+with 19 23 454 458 I-treatment
+an 24 26 459 461 I-treatment
+investigational 27 42 462 477 I-treatment
+drug 43 47 478 482 I-treatment
+within 48 54 483 489 O
+30 55 57 490 492 B-upper_bound
+days 58 62 493 497 I-upper_bound
+of 63 65 498 500 O
+screening 66 75 501 510 O
+
+Unable 0 6 511 517 O
+to 7 9 518 520 O
+undergo 10 17 521 528 O
+MRI 18 21 529 532 B-treatment
+

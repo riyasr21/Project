@@ -1,0 +1,139 @@
+Active 0 6 0 6 O
+substance 7 16 7 16 O
+abuse 17 22 17 22 O
+within 23 29 23 29 O
+past 30 34 30 34 B-upper_bound
+6 35 36 35 36 I-upper_bound
+months 37 43 37 43 I-upper_bound
+
+Bipolar 0 7 44 51 B-chronic_disease
+Disorder 8 16 52 60 I-chronic_disease
+
+Cluster 0 7 61 68 B-chronic_disease
+B 8 9 69 70 I-chronic_disease
+personality 10 21 71 82 I-chronic_disease
+disorder 22 30 83 91 I-chronic_disease
+
+Concurrent 0 10 92 102 B-treatment
+ECT 11 14 103 106 I-treatment
+
+Diagnosis 0 9 107 116 O
+of 10 12 117 119 O
+Major 13 18 120 125 B-chronic_disease
+Depressive 19 29 126 136 I-chronic_disease
+Disorder 30 38 137 145 I-chronic_disease
+based 39 44 146 151 O
+on 45 47 152 154 O
+Structured 48 58 155 165 B-clinical_variable
+Clinical 59 67 166 174 I-clinical_variable
+Interview 68 77 175 184 I-clinical_variable
+for 78 81 185 188 I-clinical_variable
+DSM 82 85 189 192 I-clinical_variable
+- 85 86 192 193 I-clinical_variable
+IV 86 88 193 195 I-clinical_variable
+( 89 90 196 197 I-clinical_variable
+SCID 90 94 197 201 I-clinical_variable
+) 94 95 201 202 I-clinical_variable
+
+Electroconvulsive 0 17 203 220 B-treatment
+Therapy 18 25 221 228 I-treatment
+( 26 27 229 230 I-treatment
+ECT 27 30 230 233 I-treatment
+) 30 31 233 234 I-treatment
+failure 32 39 235 242 O
+in 40 42 243 245 O
+past 43 47 246 250 O
+
+Hamilton 0 8 251 259 B-clinical_variable
+Depression 9 19 260 270 I-clinical_variable
+Rating 20 26 271 277 I-clinical_variable
+Scale-24 27 35 278 286 I-clinical_variable
+( 36 37 287 288 I-clinical_variable
+HRSD-24 37 44 288 295 I-clinical_variable
+) 44 45 295 296 I-clinical_variable
+score 46 51 297 302 I-clinical_variable
+of 52 54 303 305 O
+8 55 56 306 307 B-lower_bound
+- 56 57 307 308 O
+24 57 59 308 310 O
+
+Neurodegenerative 0 17 311 328 B-chronic_disease
+disease 18 25 329 336 I-chronic_disease
+or 26 28 337 339 O
+dementia 29 37 340 348 B-chronic_disease
+( 38 39 349 350 O
+Mini 39 43 350 354 B-clinical_variable
+Mental 44 50 355 361 I-clinical_variable
+Status 51 57 362 368 I-clinical_variable
+Examination 58 69 369 380 I-clinical_variable
+( 70 71 381 382 I-clinical_variable
+MMSE 71 75 382 386 I-clinical_variable
+) 75 76 386 387 I-clinical_variable
+less 77 81 388 392 O
+than 82 86 393 397 O
+or 87 89 398 400 O
+equal 90 95 401 406 O
+to 96 98 407 409 O
+24 99 101 410 412 B-upper_bound
+) 101 102 412 413 O
+
+No 0 2 414 416 O
+antidepressant 3 17 417 431 B-treatment
+medication 18 28 432 442 I-treatment
+in 29 31 443 445 O
+past 32 36 446 450 B-upper_bound
+3 37 38 451 452 I-upper_bound
+months 39 45 453 459 I-upper_bound
+
+Pregnancy 0 9 460 469 B-pregnancy
+
+Reproductive 0 12 470 482 O
+age 13 16 483 486 B-age
+female 17 23 487 493 B-gender
+not 24 27 494 497 B-contraception_consent
+using 28 33 498 503 I-contraception_consent
+contraception 34 47 504 517 I-contraception_consent
+
+Schizophrenia 0 13 518 531 B-chronic_disease
+
+Suicidal 0 8 532 540 B-chronic_disease
+ideation 9 17 541 549 I-chronic_disease
+
+Thyroid 0 7 550 557 B-clinical_variable
+Stimulating 8 19 558 569 I-clinical_variable
+Hormone 20 27 570 577 I-clinical_variable
+( 28 29 578 579 I-clinical_variable
+TSH 29 32 579 582 I-clinical_variable
+) 32 33 582 583 I-clinical_variable
+greater 34 41 584 591 O
+than 42 46 592 596 O
+4 47 48 597 598 B-lower_bound
+
+Untreated 0 9 599 608 O
+Vitamin 10 17 609 616 B-chronic_disease
+B12 18 21 617 620 I-chronic_disease
+deficiency 22 32 621 631 I-chronic_disease
+( 33 34 632 633 O
+Vitamin 34 41 633 640 O
+B12 42 45 641 644 O
+less 46 50 645 649 O
+than 51 55 650 654 O
+400 56 59 655 658 B-upper_bound
+) 59 60 658 659 O
+
+Use 0 3 660 663 O
+of 4 6 664 666 O
+antiepileptics 7 21 667 681 B-treatment
+
+other 0 5 682 687 O
+psychotic 6 15 688 697 B-chronic_disease
+disorders 16 25 698 707 I-chronic_disease
+
+repetitive 0 10 708 718 B-treatment
+transcranial 11 23 719 731 I-treatment
+magnetic 24 32 732 740 I-treatment
+stimulation 33 44 741 752 I-treatment
+( 45 46 753 754 I-treatment
+rTMS 46 50 754 758 I-treatment
+) 50 51 758 759 I-treatment
+

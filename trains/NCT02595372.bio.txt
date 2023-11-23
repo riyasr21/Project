@@ -1,0 +1,267 @@
+ANC 0 3 0 3 B-clinical_variable
+> 4 5 4 5 O
+1,000 6 11 6 11 B-lower_bound
+
+Adequate 0 8 12 20 O
+organ 9 14 21 26 O
+function 15 23 27 35 O
+for 24 27 36 39 O
+anthracycline 28 41 40 53 B-treatment
+and 42 45 54 57 O
+taxane 46 52 58 64 B-treatment
+based 53 58 65 70 I-treatment
+therapy 59 66 71 78 I-treatment
+
+Creatinine 0 10 79 89 B-clinical_variable
+< 11 12 90 91 O
+1.5 13 16 92 95 B-upper_bound
+
+Dexlansoprazole 0 15 96 111 B-treatment
+( 16 17 112 113 I-treatment
+Dexilant 17 25 113 121 I-treatment
+) 25 26 121 122 I-treatment
+
+ECOG 0 4 123 127 B-clinical_variable
+Performance 5 16 128 139 I-clinical_variable
+Status 17 23 140 146 I-clinical_variable
+0 24 25 147 148 B-lower_bound
+- 25 26 148 149 O
+1 26 27 149 150 B-upper_bound
+
+ER 0 2 151 153 B-clinical_variable
+and 3 6 154 157 O
+PR 7 9 158 160 B-clinical_variable
+< 10 11 161 162 O
+10 12 14 163 165 B-upper_bound
+% 14 15 165 166 I-upper_bound
+
+Esomeprazole 0 12 167 179 B-treatment
+( 13 14 180 181 I-treatment
+Nexium 14 20 181 187 I-treatment
+) 20 21 187 188 I-treatment
+
+HER2 0 4 189 193 O
+: 4 5 193 194 O
+CEP17 6 11 195 200 B-clinical_variable
+ratio 12 17 201 206 I-clinical_variable
+< 18 19 207 208 O
+2.0 20 23 209 212 B-upper_bound
+or 24 26 213 215 O
+HER2 27 31 216 220 B-clinical_variable
+total 32 37 221 226 I-clinical_variable
+copy 38 42 227 231 I-clinical_variable
+number 43 49 232 238 I-clinical_variable
+< 50 51 239 240 O
+6 51 52 240 241 B-upper_bound
+
+Has 0 3 242 245 O
+not 4 7 246 249 O
+had 8 11 250 253 O
+menses 12 18 254 260 O
+at 19 21 261 263 O
+any 22 25 264 267 O
+time 26 30 268 272 O
+in 31 33 273 275 O
+the 34 37 276 279 O
+preceding 38 47 280 289 O
+24 48 50 290 292 B-upper_bound
+consecutive 51 62 293 304 I-upper_bound
+months 63 69 305 311 I-upper_bound
+
+Hgb 0 3 312 315 B-clinical_variable
+> 4 5 316 317 O
+8.5 6 9 318 321 B-lower_bound
+
+IHC 0 3 322 325 B-clinical_variable
+0 4 5 326 327 B-lower_bound
+or 6 8 328 330 O
+1 9 10 331 332 B-upper_bound
++ 10 11 332 333 I-upper_bound
+
+IHC 0 3 334 337 B-clinical_variable
+2 4 5 338 339 B-lower_bound
++ 5 6 339 340 O
+and 7 10 341 344 O
+FISH 11 15 345 349 B-treatment
+equivocal 16 25 350 359 O
+and 26 29 360 363 O
+no 30 32 364 366 O
+indication 33 43 367 377 O
+for 44 47 378 381 O
+HER2 48 52 382 386 B-treatment
+targeted 53 61 387 395 I-treatment
+therapy 62 69 396 403 I-treatment
+based 70 75 404 409 O
+on 76 78 410 412 O
+the 79 82 413 416 O
+treating 83 91 417 425 O
+investigators 92 105 426 439 O
+discretion 106 116 440 450 O
+
+IHC 0 3 451 454 B-treatment
+2 4 5 455 456 O
++ 5 6 456 457 O
+and 7 10 458 461 O
+FISH 11 15 462 466 B-treatment
+negative 16 24 467 475 O
+
+Known 0 5 476 481 O
+hypersensitivity 6 22 482 498 O
+to 23 25 499 501 O
+any 26 29 502 505 O
+component 30 39 506 515 O
+of 40 42 516 518 O
+the 43 46 519 522 O
+formulation 47 58 523 534 O
+or 59 61 535 537 O
+substituted 62 73 538 549 O
+benzimidazoles 74 88 550 564 B-allergy_name
+
+LVEF 0 4 565 569 B-clinical_variable
+> 5 6 570 571 O
+LLN 7 10 572 575 O
+based 11 16 576 581 O
+on 17 19 582 584 O
+cardiac 20 27 585 592 B-treatment
+ECHO 28 32 593 597 I-treatment
+or 33 35 598 600 O
+MUGA 36 40 601 605 B-treatment
+
+Lansoprazole 0 12 606 618 B-treatment
+( 13 14 619 620 O
+Prevacid 14 22 620 628 B-treatment
+) 22 23 628 629 O
+
+Newly 0 5 630 635 O
+diagnosed 6 15 636 645 O
+triple 16 22 646 652 B-cancer
+negative 23 31 653 661 I-cancer
+breast 32 38 662 668 I-cancer
+cancer 39 45 669 675 I-cancer
+( 46 47 676 677 I-cancer
+TNBC 47 51 677 681 I-cancer
+) 51 52 681 682 I-cancer
+clinical 53 61 683 691 B-clinical_variable
+stage 62 67 692 697 I-clinical_variable
+Ic 68 70 698 700 B-lower_bound
+, 70 71 700 701 O
+II 72 74 702 704 O
+, 74 75 704 705 O
+or 76 78 706 708 O
+III 79 82 709 712 B-upper_bound
+
+Omeprazole 0 10 713 723 B-treatment
+( 11 12 724 725 O
+Prilosec 12 20 725 733 B-treatment
+, 20 21 733 734 O
+Zegerid 22 29 735 742 B-treatment
+) 29 30 742 743 O
+
+Pantoprazole 0 12 744 756 B-treatment
+( 13 14 757 758 I-treatment
+Protonix 14 22 758 766 I-treatment
+) 22 23 766 767 I-treatment
+
+Planned 0 7 768 775 O
+neoadjuvant 8 19 776 787 B-treatment
+treatment 20 29 788 797 I-treatment
+with 30 34 798 802 O
+anthracycline 35 48 803 816 B-treatment
+and 49 52 817 820 O
+taxane 53 59 821 827 B-treatment
+containing 60 70 828 838 O
+chemotherapy 71 83 839 851 B-treatment
+
+Platelets 0 9 852 861 B-clinical_variable
+> 10 11 862 863 O
+100,000 12 19 864 871 B-lower_bound
+
+Prior 0 5 872 877 B-treatment
+hysterectomy 6 18 878 890 I-treatment
+
+Prior 0 5 891 896 O
+osteoporotic 6 18 897 909 B-chronic_disease
+fracture 19 27 910 918 I-chronic_disease
+
+Rabeprazole 0 11 919 930 B-treatment
+( 12 13 931 932 O
+Aciphex 13 20 932 939 B-treatment
+) 20 21 939 940 O
+
+T. 0 2 941 943 B-clinical_variable
+bili 3 7 944 948 I-clinical_variable
+< 8 9 949 950 O
+1.3 10 13 951 954 B-upper_bound
+
+Use 0 3 955 958 O
+of 4 6 959 961 O
+OTC 7 10 962 965 B-treatment
+PPIs 11 15 966 970 I-treatment
+within 16 22 971 977 O
+6 23 24 978 979 B-upper_bound
+months 25 31 980 986 I-upper_bound
+prior 32 37 987 992 I-upper_bound
+to 38 40 993 995 O
+study 41 46 996 1001 O
+entry 47 52 1002 1007 O
+
+Use 0 3 1008 1011 O
+of 4 6 1012 1014 O
+Orlistat 7 15 1015 1023 B-treatment
+or 16 18 1024 1026 O
+any 19 22 1027 1030 O
+other 23 28 1031 1036 O
+known 29 34 1037 1042 O
+FASN 35 39 1043 1047 B-treatment
+inhibitor 40 49 1048 1057 I-treatment
+within 50 56 1058 1064 O
+6 57 58 1065 1066 B-upper_bound
+months 59 65 1067 1073 I-upper_bound
+prior 66 71 1074 1079 I-upper_bound
+to 72 74 1080 1082 O
+study 75 80 1083 1088 O
+entry 81 86 1089 1094 O
+
+Use 0 3 1095 1098 O
+of 4 6 1099 1101 O
+prescription 7 19 1102 1114 O
+PPIs 20 24 1115 1119 B-treatment
+within 25 31 1120 1126 O
+12 32 34 1127 1129 B-upper_bound
+months 35 41 1130 1136 I-upper_bound
+prior 42 47 1137 1142 I-upper_bound
+to 48 50 1143 1145 O
+study 51 56 1146 1151 O
+entry 57 62 1152 1157 O
+
+Women 0 5 1158 1163 B-gender
+of 6 8 1164 1166 O
+childbearing 9 21 1167 1179 O
+potential 22 31 1180 1189 O
+definition 32 42 1190 1200 O
+must 43 47 1201 1205 O
+have 48 52 1206 1210 O
+a 53 54 1211 1212 O
+negative 55 63 1213 1221 B-pregnancy
+pregnancy 64 73 1222 1231 I-pregnancy
+test 74 78 1232 1236 O
+within 79 85 1237 1243 O
+14 86 88 1244 1246 B-upper_bound
+days 89 93 1247 1251 I-upper_bound
+of 94 96 1252 1254 O
+registration 97 109 1255 1267 O
+
+bilateral 0 9 1268 1277 B-treatment
+oophorectomy 10 22 1278 1290 I-treatment
+
+≥ 0 1 1291 1292 O
+18 2 4 1293 1295 B-lower_bound
+years 5 10 1296 1301 I-lower_bound
+old 11 14 1302 1305 O
+at 15 17 1306 1308 O
+the 18 21 1309 1312 O
+time 22 26 1313 1317 O
+of 27 29 1318 1320 O
+informed 30 38 1321 1329 O
+consent 39 46 1330 1337 O
+

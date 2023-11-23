@@ -1,0 +1,64 @@
+Actively 0 8 0 8 O
+psychotic 9 18 9 18 B-chronic_disease
+or 19 21 19 21 O
+demented 22 30 22 30 B-chronic_disease
+persons 31 38 31 38 O
+
+Individuals 0 11 39 50 O
+with 12 16 51 55 O
+both 17 21 56 60 O
+suicidal 22 30 61 69 B-chronic_disease
+ideation 31 39 70 78 I-chronic_disease
+and 40 43 79 82 O
+clear 44 49 83 88 O
+intent 50 56 89 95 O
+
+Veterans 0 8 96 104 O
+starting 9 17 105 113 O
+a 18 19 114 115 O
+new 20 23 116 119 O
+psychotropic 24 36 120 132 B-treatment
+medication 37 47 133 143 I-treatment
+at 48 50 144 146 O
+baseline 51 59 147 155 O
+will 60 64 156 160 O
+be 65 67 161 163 O
+asked 68 73 164 169 O
+to 74 76 170 172 O
+wait 77 81 173 177 O
+4 82 83 178 179 B-upper_bound
+weeks 84 89 180 185 I-upper_bound
+for 90 93 186 189 O
+medication 94 104 190 200 O
+stabilization 105 118 201 214 O
+before 119 125 215 221 O
+starting 126 134 222 230 O
+the 135 138 231 234 O
+study 139 144 235 240 O
+
+age 0 3 241 244 B-age
+21 4 6 245 247 B-lower_bound
+and 7 10 248 251 O
+above 11 16 252 257 O
+
+enrolled 0 8 258 266 O
+in 9 11 267 269 O
+another 12 19 270 277 B-treatment
+trial 20 25 278 283 I-treatment
+for 26 29 284 287 O
+PTSD 30 34 288 292 B-chronic_disease
+and/or 35 41 293 299 O
+depression 42 52 300 310 B-chronic_disease
+
+female 0 6 311 317 B-gender
+
+male 0 4 318 322 B-gender
+
+with 0 4 323 327 O
+a 5 6 328 329 O
+diagnosis 7 16 330 339 O
+of 17 19 340 342 O
+Prolonged 20 29 343 352 B-chronic_disease
+Grief 30 35 353 358 I-chronic_disease
+Disorder 36 44 359 367 I-chronic_disease
+

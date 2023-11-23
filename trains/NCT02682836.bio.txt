@@ -1,0 +1,39 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Female 0 6 16 22 B-gender
+
+Metastatic 0 10 23 33 B-cancer
+breast 11 17 34 40 I-cancer
+cancer 18 24 41 47 I-cancer
+( 25 26 48 49 I-cancer
+MBC 26 29 49 52 I-cancer
+) 29 30 52 53 I-cancer
+diagnosis 31 40 54 63 O
+- 41 42 64 65 O
+Stage 43 48 66 71 O
+IV 49 51 72 74 O
+
+Proficient 0 10 75 85 B-language_fluency
+in 11 13 86 88 I-language_fluency
+English 14 21 89 96 I-language_fluency
+
+Receiving 0 9 97 106 O
+treatment 10 19 107 116 O
+regimen 20 27 117 124 O
+for 28 31 125 128 O
+MBC 32 35 129 132 B-chronic_disease
+, 35 36 132 133 O
+but 37 40 134 137 O
+no 41 43 138 140 O
+more 44 48 141 145 O
+than 49 53 146 150 O
+3 54 55 151 152 B-upper_bound
+previous 56 64 153 161 O
+chemotherapy 65 77 162 174 B-treatment
+or 78 80 175 177 O
+biologic 81 89 178 186 B-treatment
+regimens 90 98 187 195 I-treatment
+

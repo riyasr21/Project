@@ -1,0 +1,78 @@
+Adult 0 5 0 5 O
+( 6 7 6 7 O
+≥ 7 8 7 8 O
+18 9 11 9 11 B-lower_bound
+years 12 17 12 17 I-lower_bound
+) 17 18 17 18 O
+
+MRI 0 3 19 22 B-treatment
+, 3 4 22 23 O
+CT 5 7 24 26 B-treatment
+& 8 9 27 28 O
+Diathermy 10 19 29 38 B-treatment
+procedure 20 29 39 48 I-treatment
+
+Preferably 0 10 49 59 O
+target 11 17 60 66 O
+Surgery 18 25 67 74 B-treatment
+A- 26 28 75 77 I-treatment
+Orthopedic 29 39 78 88 I-treatment
+/ 39 40 88 89 O
+GYN 40 43 89 92 B-treatment
+surgery 44 51 93 100 I-treatment
+/ 51 52 100 101 O
+Bariatric 52 61 101 110 B-treatment
+patients 62 70 111 119 O
+
+Pregnant 0 8 120 128 B-pregnancy
+and 9 12 129 132 O
+lactating 13 22 133 142 O
+females 23 30 143 150 B-gender
+
+Proposed 0 8 151 159 O
+case 9 13 160 164 B-clinical_variable
+duration 14 22 165 173 I-clinical_variable
+> 23 24 174 175 O
+2 25 26 176 177 B-lower_bound
+hour 27 31 178 182 I-lower_bound
+case 32 36 183 187 O
+
+Scheduled 0 9 188 197 O
+to 10 12 198 200 O
+have 13 17 201 205 O
+elective 18 26 206 214 B-treatment
+general 27 34 215 222 I-treatment
+surgery 35 42 223 230 I-treatment
+at 43 45 231 233 O
+UW 46 48 234 236 O
+Medical 49 56 237 244 O
+Center 57 63 245 251 O
+
+diabetic 0 8 252 260 B-chronic_disease
+( 9 10 261 262 O
+both 10 14 262 266 O
+Type 15 19 267 271 B-lower_bound
+1 20 21 272 273 I-lower_bound
+& 22 23 274 275 O
+2 24 25 276 277 B-upper_bound
+) 25 26 277 278 O
+patients 27 35 279 287 O
+who 36 39 288 291 O
+are 40 43 292 295 O
+self 44 48 296 300 O
+- 48 49 300 301 O
+monitoring 49 59 301 311 O
+glucose 60 67 312 319 O
+levels 68 74 320 326 O
+( 75 76 327 328 O
+via 76 79 328 331 O
+finger 80 86 332 338 O
+stick 87 92 339 344 O
+measurements 93 105 345 357 O
+) 105 106 357 358 O
+two 107 110 359 362 B-lower_bound
+to 111 113 363 365 O
+three 114 119 366 371 B-upper_bound
+times 120 125 372 377 I-upper_bound
+daily 126 131 378 383 O
+

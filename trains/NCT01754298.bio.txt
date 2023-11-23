@@ -1,0 +1,52 @@
+AVN 0 3 0 3 B-chronic_disease
+
+Completed 0 9 4 13 O
+a 10 11 14 15 O
+course 12 18 16 22 O
+of 19 21 23 25 O
+conservative 22 34 26 38 B-treatment
+therapy 35 42 39 46 I-treatment
+
+Diagnosis 0 9 47 56 O
+of 10 12 57 59 O
+JOCD 13 17 60 64 B-chronic_disease
+
+Diagnosis 0 9 65 74 O
+of 10 12 75 77 O
+metabolic 13 22 78 87 B-chronic_disease
+bone 23 27 88 92 I-chronic_disease
+disorder 28 36 93 101 I-chronic_disease
+
+Diagnosis 0 9 102 111 O
+of 10 12 112 114 O
+sickle 13 19 115 121 B-chronic_disease
+cell 20 24 122 126 I-chronic_disease
+disease 25 32 127 134 I-chronic_disease
+
+History 0 7 135 142 O
+of 8 10 143 145 O
+prolonged 11 20 146 155 O
+corticosteroid 21 35 156 170 B-treatment
+
+Patient 0 7 171 178 O
+deemed 8 14 179 185 O
+skeletally 15 25 186 196 O
+immature 26 34 197 205 O
+based 35 40 206 211 O
+on 41 43 212 214 O
+MRI 44 47 215 218 B-treatment
+
+chemotherapy 0 12 219 231 B-treatment
+treatment 13 22 232 241 O
+
+discoid 0 7 242 249 B-chronic_disease
+/ 7 8 249 250 O
+meniscal 8 16 250 258 O
+tear 17 21 259 263 O
+
+inflammatory 0 12 264 276 B-chronic_disease
+arthritis 13 22 277 286 I-chronic_disease
+
+osteogenesis 0 12 287 299 B-chronic_disease
+imperfecta 13 23 300 310 I-chronic_disease
+

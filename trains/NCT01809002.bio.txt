@@ -1,0 +1,18 @@
+Allergic 0 8 0 8 O
+to 9 11 9 11 O
+Bovine 12 18 12 18 B-allergy_name
+products 19 27 19 27 I-allergy_name
+such 28 32 28 32 O
+as 33 35 33 35 O
+Bovine 36 42 36 42 B-allergy_name
+Collagen 43 51 43 51 I-allergy_name
+Nerve 52 57 52 57 B-allergy_name
+Cuff 58 62 58 62 I-allergy_name
+
+Peripheral 0 10 63 73 B-chronic_disease
+Nerve 11 16 74 79 I-chronic_disease
+Injury 17 23 80 86 I-chronic_disease
+
+Peripheral 0 10 87 97 B-chronic_disease
+Neuropathy 11 21 98 108 I-chronic_disease
+

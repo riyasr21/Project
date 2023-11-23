@@ -1,0 +1,9 @@
+BMI 0 3 0 3 B-bmi
+< 4 5 4 5 O
+25 5 7 5 7 B-upper_bound
+kg 8 10 8 10 I-upper_bound
+/ 10 11 10 11 I-upper_bound
+m2 11 13 11 13 I-upper_bound
+
+Sedentary 0 9 14 23 B-chronic_disease
+

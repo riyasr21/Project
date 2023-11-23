@@ -1,0 +1,32 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+understand 8 18 8 18 B-language_fluency
+English 19 26 19 26 I-language_fluency
+
+Glasgow 0 7 27 34 B-clinical_variable
+Coma 8 12 35 39 I-clinical_variable
+Scale 13 18 40 45 I-clinical_variable
+score 19 24 46 51 I-clinical_variable
+≥9 25 27 52 54 O
+
+Open 0 4 55 59 B-treatment
+tracheostomy 5 17 60 72 I-treatment
+
+Patient 0 7 73 80 O
+who 8 11 81 84 O
+received 12 20 85 93 O
+a 21 22 94 95 O
+percutaneous 23 35 96 108 B-treatment
+tracheostomy 36 48 109 121 I-treatment
+
+Richmond 0 8 122 130 B-clinical_variable
+Agitation 9 18 131 140 I-clinical_variable
+Sedation 19 27 141 149 I-clinical_variable
+Scale 28 33 150 155 I-clinical_variable
+( 34 35 156 157 I-clinical_variable
+RASS 35 39 157 161 I-clinical_variable
+): 39 41 161 163 I-clinical_variable
+-1 42 44 164 166 B-lower_bound
+to 45 47 167 169 O
++1 48 50 170 172 B-upper_bound
+

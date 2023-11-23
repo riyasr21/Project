@@ -1,0 +1,114 @@
+24w0d 0 5 0 5 B-lower_bound
+to 6 8 6 8 O
+32w6d 9 14 9 14 B-upper_bound
+weeks 15 20 15 20 I-upper_bound
+gestation 21 30 21 30 O
+
+Already 0 7 31 38 O
+receiving 8 17 39 48 O
+corticosteroids 18 33 49 64 B-treatment
+for 34 37 65 68 O
+another 38 45 69 76 O
+condition 46 55 77 86 O
+
+Any 0 3 87 90 O
+contraindications 4 21 91 108 O
+to 22 24 109 111 O
+the 25 28 112 115 O
+maternal 29 37 116 124 O
+use 38 41 125 128 O
+of 42 44 129 131 O
+corticosteroids 45 60 132 147 B-treatment
+
+Began 0 5 148 153 O
+first 6 11 154 159 O
+course 12 18 160 166 O
+of 19 21 167 169 O
+ACS 22 25 170 173 O
+at 26 28 174 176 O
+least 29 34 177 182 O
+7 35 36 183 184 B-lower_bound
+days 37 41 185 189 I-lower_bound
+( 42 43 190 191 O
+=/ 44 46 192 194 O
+> 46 47 194 195 O
+168 48 51 196 199 B-lower_bound
+hours 52 57 200 205 I-lower_bound
+) 57 58 205 206 O
+prior 59 64 207 212 O
+to 65 67 213 215 O
+randomization 68 81 216 229 O
+
+C 0 1 230 231 B-clinical_variable
+- 1 2 231 232 I-clinical_variable
+Reactive 2 10 232 240 I-clinical_variable
+Protein 11 18 241 248 I-clinical_variable
+( 19 20 249 250 I-clinical_variable
+CRP 20 23 250 253 I-clinical_variable
+) 23 24 253 254 I-clinical_variable
+> 25 26 255 256 O
+5.9 27 30 257 260 B-lower_bound
+
+Clinical 0 8 261 269 O
+chorioamnionitis 9 25 270 286 B-chronic_disease
+
+Known 0 5 287 292 O
+major 6 11 293 298 O
+fetal 12 17 299 304 B-chronic_disease
+anomalies 18 27 305 314 I-chronic_disease
+
+Participants 0 12 315 327 O
+age 13 16 328 331 B-age
+18 17 19 332 334 B-lower_bound
+years 20 25 335 340 I-lower_bound
+or 26 28 341 343 O
+older 29 34 344 349 O
+
+Received 0 8 350 358 O
+first 9 14 359 364 O
+course 15 21 365 371 O
+of 22 24 372 374 O
+ACS 25 28 375 378 B-chronic_disease
+at 29 31 379 381 O
+or 32 34 382 384 O
+prior 35 40 385 390 O
+to 41 43 391 393 O
+31w6d 44 49 394 399 O
+gestation 50 59 400 409 O
+
+Singleton 0 9 410 419 O
+pregnancy 10 19 420 429 B-pregnancy
+
+fetal 0 5 430 435 B-clinical_variable
+tachycardia 6 17 436 447 I-clinical_variable
+> 18 19 448 449 O
+160 19 22 449 452 B-lower_bound
+bpm 23 26 453 456 I-lower_bound
+
+maternal 0 8 457 465 O
+White 9 14 466 471 B-clinical_variable
+Blood 15 20 472 477 I-clinical_variable
+Cell 21 25 478 482 I-clinical_variable
+( 26 27 483 484 I-clinical_variable
+WBC 27 30 484 487 I-clinical_variable
+) 30 31 487 488 I-clinical_variable
+count 32 37 489 494 I-clinical_variable
+> 38 39 495 496 O
+20 39 41 496 498 B-lower_bound
+X 42 43 499 500 I-lower_bound
+109 44 47 501 504 I-lower_bound
+/ 47 48 504 505 I-lower_bound
+L 48 49 505 506 I-lower_bound
+
+maternal 0 8 507 515 B-clinical_variable
+tachycardia 9 20 516 527 I-clinical_variable
+> 21 22 528 529 O
+100 22 25 529 532 B-lower_bound
+bpm 26 29 533 536 I-lower_bound
+
+temperature 0 11 537 548 B-clinical_variable
+> 12 13 549 550 O
+38.0 14 18 551 555 B-lower_bound
+degrees 19 26 556 563 I-lower_bound
+centigrade 27 37 564 574 I-lower_bound
+

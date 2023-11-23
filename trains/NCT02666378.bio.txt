@@ -1,0 +1,47 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Contraindication 0 16 15 31 O
+to 17 19 32 34 O
+contrast 20 28 35 43 O
+CMR 29 32 44 47 O
+including 33 42 48 57 O
+eGFR 43 47 58 62 B-clinical_variable
+< 48 49 63 64 O
+30 49 51 64 66 B-upper_bound
+mls 52 55 67 70 I-upper_bound
+/ 55 56 70 71 I-upper_bound
+min/1.73m2 56 66 71 81 I-upper_bound
+
+Patients 0 8 82 90 O
+should 9 15 91 97 O
+receive 16 23 98 105 O
+anthracycline 24 37 106 119 B-treatment
+as 38 40 120 122 O
+part 41 45 123 127 O
+of 46 48 128 130 O
+the 49 52 131 134 O
+recommended 53 64 135 146 O
+treatment 65 74 147 156 O
+
+Pregnancy 0 9 157 166 B-pregnancy
+
+Scheduled 0 9 167 176 O
+to 10 12 177 179 O
+receive 13 20 180 187 O
+standard 21 29 188 196 O
+clinical 30 38 197 205 B-treatment
+therapy 39 46 206 213 I-treatment
+designed 47 55 214 222 O
+by 56 58 223 225 O
+their 59 64 226 231 O
+treating 65 73 232 240 O
+oncologist 74 84 241 251 O
+
+Uncontrolled 0 12 252 264 O
+serious 13 20 265 272 B-chronic_disease
+concurrent 21 31 273 283 I-chronic_disease
+illness 32 39 284 291 I-chronic_disease
+

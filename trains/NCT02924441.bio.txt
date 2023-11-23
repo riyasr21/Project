@@ -1,0 +1,54 @@
+May 0 3 0 3 O
+not 4 7 4 7 O
+have 8 12 8 12 O
+taken 13 18 13 18 O
+ibuprofen 19 28 19 28 B-treatment
+or 29 31 29 31 O
+other 32 37 32 37 O
+pain 38 42 38 42 O
+medication 43 53 43 53 O
+within 54 60 54 60 O
+the 61 64 61 64 O
+Space 65 70 65 70 O
+last 71 75 71 75 O
+12 76 78 76 78 O
+hours 79 84 79 84 O
+( 85 86 85 86 O
+ASA 86 89 86 89 O
+81 90 92 90 92 O
+mg 93 95 93 95 O
+dose 96 100 96 100 O
+is 101 103 101 103 O
+allowed 104 111 104 111 O
+) 111 112 111 112 O
+
+Must 0 4 113 117 O
+not 5 8 118 121 O
+have 9 13 122 126 O
+a 14 15 127 128 O
+contraindication 16 32 129 145 O
+for 33 36 146 149 O
+using 37 42 150 155 O
+lidocaine 43 52 156 165 B-allergy_name
+: 52 53 165 166 O
+e.g 54 57 167 170 O
+no 58 60 171 173 O
+history 61 68 174 181 O
+of 69 71 182 184 O
+allergic 72 80 185 193 O
+reactions 81 90 194 203 O
+to 91 93 204 206 O
+lidocaine 94 103 207 216 O
+
+Must 0 4 217 221 O
+not 5 8 222 225 O
+have 9 13 226 230 O
+had 14 17 231 234 O
+history 18 25 235 242 O
+of 26 28 243 245 O
+breast 29 35 246 252 B-cancer
+cancer 36 42 253 259 I-cancer
+
+breast 0 6 260 266 B-treatment
+surgery 7 14 267 274 I-treatment
+

@@ -1,0 +1,253 @@
+A 0 1 0 1 O
+failed 2 8 2 8 O
+therapeutic 9 20 9 20 O
+trial 21 26 21 26 O
+of 27 29 27 29 O
+escitalopram 30 42 30 42 B-treatment
+in 43 45 43 45 O
+the 46 49 46 49 O
+current 50 57 50 57 O
+depressive 58 68 58 68 O
+episode 69 76 69 76 O
+( 77 78 77 78 O
+defined 78 85 78 85 O
+as 86 88 86 88 O
+at 89 91 89 91 O
+least 92 97 92 97 O
+6 98 99 98 99 B-lower_bound
+weeks 100 105 100 105 I-lower_bound
+of 106 108 106 108 O
+treatment 109 118 109 118 B-treatment
+at 119 121 119 121 O
+a 122 123 122 123 O
+daily 124 129 124 129 O
+dose 130 134 130 134 O
+of 135 137 135 137 O
+10 138 140 138 140 B-lower_bound
+mg 140 142 140 142 I-lower_bound
+or 143 145 143 145 O
+higher 146 152 146 152 O
+) 152 153 152 153 O
+
+Acute 0 5 154 159 B-clinical_variable
+grief 6 11 160 165 I-clinical_variable
+( 12 13 166 167 O
+< 13 14 167 168 O
+1 15 16 169 170 B-upper_bound
+month 17 22 171 176 I-upper_bound
+) 22 23 176 177 O
+
+Age 0 3 178 181 B-age
+60 4 6 182 184 B-lower_bound
+years 7 12 185 190 I-lower_bound
+or 13 15 191 193 O
+older 16 21 194 199 O
+
+Any 0 3 200 203 O
+physical 4 12 204 212 B-chronic_disease
+or 13 15 213 215 I-chronic_disease
+intellectual 16 28 216 228 I-chronic_disease
+disability 29 39 229 239 I-chronic_disease
+adversely 40 49 240 249 O
+affecting 50 59 250 259 O
+ability 60 67 260 267 O
+to 68 70 268 270 O
+complete 71 79 271 279 O
+assessments 80 91 280 291 O
+
+Current 0 7 292 299 O
+diagnosis 8 17 300 309 O
+of 18 20 310 312 O
+major 21 26 313 318 B-chronic_disease
+depressive 27 37 319 329 I-chronic_disease
+disorder 38 46 330 338 I-chronic_disease
+( 47 48 339 340 O
+DSM 48 51 340 343 O
+- 51 52 343 344 O
+IV 52 54 344 346 O
+- 54 55 346 347 O
+TR 55 57 347 349 O
+) 57 58 349 350 O
+, 58 59 350 351 O
+single 60 66 352 358 O
+episode 67 74 359 366 O
+, 74 75 366 367 O
+recurrent 76 85 368 377 O
+or 86 88 378 380 O
+chronic 89 96 381 388 O
+, 96 97 388 389 O
+without 98 105 390 397 O
+psychotic 106 115 398 407 O
+features 116 124 408 416 O
+, 124 125 416 417 O
+as 126 128 418 420 O
+detected 129 137 421 429 O
+by 138 140 430 432 O
+MINI 141 145 433 437 O
+and 146 149 438 441 O
+clinical 150 158 442 450 O
+exam 159 163 451 455 O
+
+Current 0 7 456 463 O
+or 8 10 464 466 O
+past 11 15 467 471 O
+diagnoses 16 25 472 481 O
+of 26 28 482 484 O
+other 29 34 485 490 O
+Axis 35 39 491 495 B-chronic_disease
+I 40 41 496 497 I-chronic_disease
+psychiatric 42 53 498 509 I-chronic_disease
+disorders 54 63 510 519 I-chronic_disease
+
+Current 0 7 520 527 O
+or 8 10 528 530 O
+past 11 15 531 535 O
+psychosis 16 25 536 545 B-chronic_disease
+
+Current 0 7 546 553 O
+or 8 10 554 556 O
+planned 11 18 557 564 O
+psychotherapy 19 32 565 578 B-treatment
+
+Electroconvulsive 0 17 579 596 B-treatment
+therapy 18 25 597 604 I-treatment
+in 26 28 605 607 O
+last 29 33 608 612 O
+6 34 35 613 614 B-upper_bound
+months 36 42 615 621 I-upper_bound
+
+Fluent 0 6 622 628 B-language_fluency
+in 7 9 629 631 I-language_fluency
+English 10 17 632 639 I-language_fluency
+
+History 0 7 640 647 O
+of 8 10 648 650 O
+alcohol 11 18 651 658 O
+or 19 21 659 661 O
+drug 22 26 662 666 O
+dependence 27 37 667 677 O
+or 38 40 678 680 O
+abuse 41 46 681 686 O
+in 47 49 687 689 O
+the 50 53 690 693 O
+last 54 58 694 698 B-upper_bound
+three 59 64 699 704 I-upper_bound
+years 65 70 705 710 I-upper_bound
+
+History 0 7 711 718 O
+of 8 10 719 721 O
+developmental 11 24 722 735 B-chronic_disease
+disorder 25 33 736 744 I-chronic_disease
+or 34 36 745 747 O
+IQ 37 39 748 750 B-clinical_variable
+score 40 45 751 756 I-clinical_variable
+< 46 47 757 758 O
+70 48 50 759 761 B-upper_bound
+
+Known 0 5 762 767 O
+allergy 6 13 768 775 O
+or 14 16 776 778 O
+hypersensitivity 17 33 779 795 O
+to 34 36 796 798 O
+escitalopram 37 49 799 811 B-allergy_name
+or 50 52 812 814 O
+bupropion 53 62 815 824 B-allergy_name
+
+MRI 0 3 825 828 B-allergy_name
+contraindications 4 21 829 846 O
+
+Mini 0 4 847 851 B-clinical_variable
+- 4 5 851 852 I-clinical_variable
+Mental 5 11 852 858 I-clinical_variable
+State 12 17 859 864 I-clinical_variable
+Exam 18 22 865 869 I-clinical_variable
+≥ 23 24 870 871 O
+24 25 27 872 874 B-lower_bound
+
+Minimum 0 7 875 882 O
+MADRS 8 13 883 888 B-clinical_variable
+score 14 19 889 894 I-clinical_variable
+≥ 20 21 895 896 O
+15 22 24 897 899 B-lower_bound
+
+Occasional 0 10 900 910 O
+use 11 14 911 914 O
+of 15 17 915 917 O
+benzodiazepines 18 33 918 933 B-treatment
+or 34 36 934 936 O
+non 37 40 937 940 B-treatment
+- 40 41 940 941 I-treatment
+benzodiazepine 41 55 941 955 I-treatment
+sedatives 56 65 956 965 I-treatment
+( 66 67 966 967 O
+such 67 71 967 971 O
+as 72 74 972 974 O
+zolpidem 75 83 975 983 B-treatment
+, 83 84 983 984 O
+eszopiclone 85 96 985 996 B-treatment
+, 96 97 996 997 O
+or 98 100 998 1000 O
+zaleplon 101 109 1001 1009 B-treatment
+) 109 110 1009 1010 O
+
+Parkinson 0 9 1011 1020 B-chronic_disease
+'s 9 11 1020 1022 I-chronic_disease
+disease 12 19 1023 1030 I-chronic_disease
+
+Presence 0 8 1031 1039 O
+of 9 11 1040 1042 O
+acute 12 17 1043 1048 O
+suicidality 18 29 1049 1060 B-chronic_disease
+
+Primary 0 7 1061 1068 O
+neurological 8 20 1069 1081 B-chronic_disease
+disorder 21 29 1082 1090 I-chronic_disease
+
+Use 0 3 1091 1094 O
+of 4 6 1095 1097 O
+antidepressant 7 21 1098 1112 B-treatment
+medications 22 33 1113 1124 O
+or 34 36 1125 1127 O
+other 37 42 1128 1133 O
+psychotropic 43 55 1134 1146 B-treatment
+medications 56 67 1147 1158 I-treatment
+in 68 70 1159 1161 O
+the 71 74 1162 1165 O
+last 75 79 1166 1170 B-upper_bound
+4 80 81 1171 1172 I-upper_bound
+weeks 82 87 1173 1178 I-upper_bound
+( 88 89 1179 1180 O
+or 89 91 1180 1182 O
+the 92 95 1183 1186 O
+last 96 100 1187 1191 B-upper_bound
+6 101 102 1192 1193 I-upper_bound
+weeks 103 108 1194 1199 I-upper_bound
+for 109 112 1200 1203 O
+fluoxetine 113 123 1204 1214 B-treatment
+) 123 124 1214 1215 O
+
+brain 0 5 1216 1221 B-cancer
+tumors 6 12 1222 1228 I-cancer
+
+dementia 0 8 1229 1237 B-chronic_disease
+
+demyelinating 0 13 1238 1251 B-chronic_disease
+diseases 14 22 1252 1260 I-chronic_disease
+
+epilepsy 0 8 1261 1269 B-chronic_disease
+
+generalized 0 11 1270 1281 B-chronic_disease
+anxiety 12 19 1282 1289 I-chronic_disease
+disorder 20 28 1290 1298 I-chronic_disease
+( 29 30 1299 1300 I-chronic_disease
+GAD 30 33 1300 1303 I-chronic_disease
+) 33 34 1303 1304 I-chronic_disease
+symptoms 35 43 1305 1313 O
+occurring 44 53 1314 1323 O
+during 54 60 1324 1330 O
+a 61 62 1331 1332 O
+depressive 63 73 1333 1343 O
+episode 74 81 1344 1351 O
+
+stroke 0 6 1352 1358 B-chronic_disease
+

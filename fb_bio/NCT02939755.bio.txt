@@ -1,0 +1,41 @@
+a 0 1 0 1 O
+spouse 2 8 2 8 O
+or 9 11 9 11 O
+cohabitating 12 24 12 24 O
+intimate 25 33 25 33 O
+partner 34 41 34 41 O
+of 42 44 42 44 O
+an 45 47 45 47 O
+advanced 48 56 48 56 O
+cancer 57 63 57 63 B-cancer
+patient 64 71 64 71 O
+being 72 77 72 77 O
+evaluated 78 87 78 87 O
+at 88 90 88 90 O
+the 91 94 91 94 O
+UPMC 95 99 95 99 O
+'s 99 101 99 101 O
+LCC 102 105 102 105 O
+
+age 0 3 106 109 B-age
+< 4 5 110 111 O
+21 6 8 112 114 B-upper_bound
+years 9 14 115 120 I-upper_bound
+
+no 0 2 121 123 O
+evidence 3 11 124 132 O
+of 12 14 133 135 O
+thought 15 22 136 143 B-chronic_disease
+disorder 23 31 144 152 I-chronic_disease
+, 31 32 152 153 O
+delusions 33 42 154 163 B-chronic_disease
+, 42 43 163 164 O
+or 44 46 165 167 O
+active 47 53 168 174 O
+suicidal 54 62 175 183 B-chronic_disease
+ideation 63 71 184 192 I-chronic_disease
+is 72 74 193 195 O
+observed 75 83 196 204 O
+or 84 86 205 207 O
+reported 87 95 208 216 O
+

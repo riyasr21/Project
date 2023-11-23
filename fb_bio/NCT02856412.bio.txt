@@ -1,0 +1,122 @@
+Contraindications 0 17 0 17 O
+for 18 21 18 21 O
+the 22 25 22 25 O
+exercise 26 34 26 34 B-allergy_name
+treadmill 35 44 35 44 I-allergy_name
+test 45 49 45 49 I-allergy_name
+
+Female 0 6 50 56 B-gender
+
+Male 0 4 57 61 B-gender
+
+Meet 0 4 62 66 O
+criteria 5 13 67 75 O
+for 14 17 76 79 O
+PTSD 18 22 80 84 B-chronic_disease
+of 23 25 85 87 O
+at 26 28 88 90 O
+least 29 34 91 96 O
+3 35 36 97 98 B-lower_bound
+months 37 43 99 105 I-lower_bound
+duration 44 52 106 114 O
+
+Prominent 0 9 115 124 B-chronic_disease
+suicidal 10 18 125 133 I-chronic_disease
+or 19 21 134 136 O
+homicidal 22 31 137 146 B-chronic_disease
+ideation 32 40 147 155 I-chronic_disease
+
+between 0 7 156 163 O
+the 8 11 164 167 O
+ages 12 16 168 172 B-age
+of 17 19 173 175 O
+18 20 22 176 178 B-lower_bound
+- 22 23 178 179 O
+75 23 25 179 181 B-upper_bound
+
+bipolar 0 7 182 189 B-chronic_disease
+disorder 8 16 190 198 I-chronic_disease
+
+have 0 4 199 203 O
+some 5 9 204 208 O
+symptoms 10 18 209 217 O
+of 19 21 218 220 O
+PTSD 22 26 221 225 B-chronic_disease
+with 27 31 226 230 O
+a 32 33 231 232 O
+current 34 41 233 240 O
+CAPS 42 46 241 245 B-clinical_variable
+score 47 52 246 251 I-clinical_variable
+of 53 55 252 254 O
+23 56 58 255 257 B-lower_bound
+or 59 61 258 260 O
+higher 62 68 261 267 O
+
+neurologic 0 10 268 278 B-chronic_disease
+disorder 11 19 279 287 I-chronic_disease
+
+patients 0 8 288 296 O
+must 9 13 297 301 O
+have 14 18 302 306 O
+been 19 23 307 311 O
+in 24 26 312 314 O
+treatment 27 36 315 324 O
+for 37 40 325 328 O
+at 41 43 329 331 O
+least 44 49 332 337 O
+2 50 51 338 339 B-lower_bound
+months 52 58 340 346 I-lower_bound
+
+patients 0 8 347 355 O
+with 9 13 356 360 O
+PTSD 14 18 361 365 B-chronic_disease
+who 19 22 366 369 O
+are 23 26 370 373 O
+currently 27 36 374 383 O
+receiving 37 46 384 393 O
+individual 47 57 394 404 B-treatment
+or 58 60 405 407 O
+group 61 66 408 413 B-treatment
+therapy 67 74 414 421 I-treatment
+or 75 77 422 424 O
+patients 78 86 425 433 O
+who 87 90 434 437 O
+are 91 94 438 441 O
+currently 95 104 442 451 O
+taking 105 111 452 458 O
+antidepressant 112 126 459 473 B-treatment
+or 127 129 474 476 O
+anti 130 134 477 481 B-treatment
+- 134 135 481 482 I-treatment
+anxiety 135 142 482 489 I-treatment
+medication 143 153 490 500 I-treatment
+
+systemic 0 8 501 509 B-chronic_disease
+illness 9 16 510 517 I-chronic_disease
+affecting 17 26 518 527 O
+central 27 34 528 535 O
+nervous 35 42 536 543 O
+system 43 49 544 550 O
+( 50 51 551 552 O
+CNS 51 54 552 555 O
+) 54 55 555 556 O
+function 56 64 557 565 O
+
+which 0 5 566 571 O
+includes 6 14 572 580 O
+any 15 18 581 584 O
+acute 19 24 585 590 B-chronic_disease
+coronary 25 33 591 599 I-chronic_disease
+events 34 40 600 606 O
+( 41 42 607 608 O
+i.e. 42 46 608 612 O
+, 46 47 612 613 O
+Myocardial 48 58 614 624 B-chronic_disease
+Infarction 59 69 625 635 I-chronic_disease
+) 69 70 635 636 O
+in 71 73 637 639 O
+the 74 77 640 643 O
+past 78 82 644 648 B-upper_bound
+6 83 84 649 650 I-upper_bound
+months 85 91 651 657 I-upper_bound
+

@@ -1,0 +1,127 @@
+Active 0 6 0 6 O
+bleeding 7 15 7 15 B-chronic_disease
+within 16 22 16 22 O
+the 23 26 23 26 O
+surgical 27 35 27 35 O
+site 36 40 36 40 O
+
+Male 0 4 41 45 B-gender
+
+Patient 0 7 46 53 O
+≥18 8 11 54 57 O
+years 12 17 58 63 I-lower_bound
+old 18 21 64 67 O
+
+Pregnant 0 8 68 76 B-pregnancy
+
+Skin 0 4 77 81 O
+integrity 5 14 82 91 O
+issues 15 21 92 98 O
+that 22 26 99 103 O
+preclude 27 35 104 112 O
+the 36 39 113 116 O
+use 40 43 117 120 O
+of 44 46 121 123 O
+Negative 47 55 124 132 B-treatment
+Pressure 56 64 133 141 I-treatment
+Wound 65 70 142 147 I-treatment
+Therapy 71 78 148 155 I-treatment
+( 79 80 156 157 I-treatment
+NPWT 80 84 157 161 I-treatment
+) 84 85 161 162 I-treatment
+
+Subjects 0 8 163 171 O
+on 9 11 172 174 O
+warfarin 12 20 175 183 B-treatment
+therapy 21 28 184 191 I-treatment
+
+Subjects 0 8 192 200 O
+undergoing 9 19 201 211 O
+primary 20 27 212 219 B-treatment
+total 28 33 220 225 I-treatment
+joint 34 39 226 231 I-treatment
+procedures 40 50 232 242 I-treatment
+
+Subjects 0 8 243 251 O
+undergoing 9 19 252 262 O
+revision 20 28 263 271 O
+total 29 34 272 277 B-treatment
+knee 35 39 278 282 I-treatment
+arthroplasty 40 52 283 295 I-treatment
+or 53 55 296 298 O
+revision 56 64 299 307 O
+total 65 70 308 313 B-treatment
+hip 71 74 314 317 I-treatment
+arthroplasty 75 87 318 330 I-treatment
+
+Subjects 0 8 331 339 O
+with 9 13 340 344 O
+a 14 15 345 346 O
+known 16 21 347 352 O
+history 22 29 353 360 O
+of 30 32 361 363 O
+poor 33 37 364 368 O
+compliance 38 48 369 379 O
+with 49 53 380 384 O
+medical 54 61 385 392 B-treatment
+treatment 62 71 393 402 I-treatment
+
+Subjects 0 8 403 411 O
+with 9 13 412 416 O
+known 14 19 417 422 O
+allergies 20 29 423 432 O
+to 30 32 433 435 O
+product 33 40 436 443 O
+components 41 51 444 454 O
+( 52 53 455 456 O
+silicone 53 61 456 464 B-allergy_name
+adhesives 62 71 465 474 I-allergy_name
+and 72 75 475 478 O
+polyurethane 76 88 479 491 B-allergy_name
+films 89 94 492 497 I-allergy_name
+( 95 96 498 499 O
+direct 96 102 499 505 O
+contact 103 110 506 513 O
+with 111 115 514 518 O
+wound 116 121 519 524 O
+) 121 122 524 525 O
+, 122 123 525 526 O
+acrylic 124 131 527 534 B-allergy_name
+adhesives 132 141 535 544 I-allergy_name
+( 142 143 545 546 O
+direct 143 149 546 552 O
+contact 150 157 553 560 O
+with 158 162 561 565 O
+skin 163 167 566 570 O
+) 167 168 570 571 O
+, 168 169 571 572 O
+polyethylene 170 182 573 585 B-allergy_name
+fabrics 183 190 586 593 I-allergy_name
+and 191 194 594 597 O
+super 195 200 598 603 B-allergy_name
+- 200 201 603 604 I-allergy_name
+absorbent 201 210 604 613 I-allergy_name
+powders 211 218 614 621 I-allergy_name
+( 219 220 622 623 I-allergy_name
+polyacrylates 220 233 623 636 I-allergy_name
+) 233 234 636 637 I-allergy_name
+( 235 236 638 639 O
+within 236 242 639 645 O
+the 243 246 646 649 O
+dressing 247 255 650 658 O
+) 255 256 658 659 O
+
+females 0 7 660 667 B-treatment
+of 8 10 668 670 O
+childbearing 11 23 671 683 O
+potential 24 33 684 693 O
+not 34 37 694 697 B-contraception_consent
+willing 38 45 698 705 I-contraception_consent
+to 46 48 706 708 I-contraception_consent
+practice 49 57 709 717 I-contraception_consent
+an 58 60 718 720 I-contraception_consent
+effective 61 70 721 730 I-contraception_consent
+method 71 77 731 737 I-contraception_consent
+of 78 80 738 740 I-contraception_consent
+contraception 81 94 741 754 I-contraception_consent
+

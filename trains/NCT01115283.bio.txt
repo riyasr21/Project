@@ -1,0 +1,30 @@
+( 0 1 0 1 O
+> 1 2 1 2 O
+5 2 3 2 3 B-lower_bound
+years 4 9 4 9 I-lower_bound
+old 10 13 10 13 O
+) 13 14 13 14 O
+with 15 19 15 19 O
+normal 20 26 20 26 O
+vision 27 33 27 33 O
+or 34 36 34 36 O
+amblyopia 37 46 37 46 B-chronic_disease
+
+amblyopia 0 9 47 56 B-chronic_disease
+
+any 0 3 57 60 O
+ocular 4 10 61 67 O
+pathological 11 23 68 80 O
+conditions 24 34 81 91 O
+, 34 35 91 92 O
+nystagmus 36 45 93 102 B-chronic_disease
+
+interocular 0 11 103 114 B-clinical_variable
+VA 12 14 115 117 I-clinical_variable
+difference 15 25 118 128 I-clinical_variable
+of 26 28 129 131 O
+at 29 31 132 134 O
+least 32 37 135 140 O
+0.1 38 41 141 144 B-lower_bound
+logMAR 42 48 145 151 I-lower_bound
+

@@ -1,0 +1,72 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+65 5 7 5 7 B-lower_bound
+to 8 10 8 10 O
+95 11 13 11 13 B-upper_bound
+years 14 19 14 19 I-upper_bound
+
+English 0 7 20 27 B-language_fluency
+speaking 8 16 28 36 I-language_fluency
+
+Evidence 0 8 37 45 O
+of 9 11 46 48 O
+dementia 12 20 49 57 B-chronic_disease
+( 21 22 58 59 O
+MMSE 22 26 59 63 B-clinical_variable
+< 27 28 64 65 O
+20 29 31 66 68 B-upper_bound
+) 31 32 68 69 O
+
+MRI 0 3 70 73 B-treatment
+contraindications 4 21 74 91 O
+( 22 23 92 93 O
+e.g. 23 27 93 97 O
+, 27 28 97 98 O
+pregnancy 29 38 99 108 B-pregnancy
+, 38 39 108 109 O
+claustrophobia 40 54 110 124 B-chronic_disease
+, 54 55 124 125 O
+metal 56 61 126 131 B-treatment
+implants 62 70 132 140 I-treatment
+) 70 71 140 141 O
+
+Major 0 5 142 147 B-chronic_disease
+psychiatric 6 17 148 159 I-chronic_disease
+illness 18 25 160 167 I-chronic_disease
+
+Men 0 3 168 171 B-gender
+
+Neurological 0 12 172 184 B-chronic_disease
+disorders 13 22 185 194 I-chronic_disease
+
+Past 0 4 195 199 O
+opportunistic 5 18 200 213 B-chronic_disease
+brain 19 24 214 219 I-chronic_disease
+infection 25 34 220 229 I-chronic_disease
+
+Physical 0 8 230 238 B-chronic_disease
+impairment 9 19 239 249 I-chronic_disease
+precluding 20 30 250 260 O
+motor 31 36 261 266 O
+response 37 45 267 275 O
+or 46 48 276 278 O
+lying 49 54 279 284 O
+still 55 60 285 290 O
+for 61 64 291 294 O
+1 65 66 295 296 O
+hr 67 69 297 299 O
+
+Unstable 0 8 300 308 O
+and 9 12 309 312 O
+chronic 13 20 313 320 O
+( 21 22 321 322 O
+e.g 22 25 322 325 O
+, 25 26 325 326 O
+severe 27 33 327 333 B-chronic_disease
+diabetes 34 42 334 342 I-chronic_disease
+) 42 43 342 343 O
+medical 44 51 344 351 O
+conditions 52 62 352 362 O
+
+women 0 5 363 368 B-gender
+

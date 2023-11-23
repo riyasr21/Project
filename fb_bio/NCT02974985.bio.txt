@@ -1,0 +1,23 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+prior 11 16 11 16 B-treatment
+filler 17 23 17 23 I-treatment
+injections 24 34 24 34 I-treatment
+in 35 37 35 37 O
+the 38 41 38 41 O
+past 42 46 42 46 B-upper_bound
+12 47 49 47 49 I-upper_bound
+months 50 56 50 56 I-upper_bound
+
+Pregnancy 0 9 57 66 B-pregnancy
+
+Women 0 5 67 72 B-gender
+
+ages 0 4 73 77 B-age
+40 5 7 78 80 B-lower_bound
+- 7 8 80 81 O
+60 8 10 81 83 B-upper_bound
+
+planned 0 7 84 91 O
+pregnancy 8 17 92 101 B-pregnancy
+

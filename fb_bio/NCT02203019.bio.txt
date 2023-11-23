@@ -1,0 +1,89 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+89 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Current 0 7 16 23 O
+triglyceride 8 20 24 36 B-clinical_variable
+level 21 26 37 42 I-clinical_variable
+> 27 28 43 44 O
+400 29 32 45 48 B-lower_bound
+mg 33 35 49 51 I-lower_bound
+/ 35 36 51 52 I-lower_bound
+dl 36 38 52 54 I-lower_bound
+
+Mean 0 4 55 59 B-clinical_variable
+arterial 5 13 60 68 I-clinical_variable
+pressure 14 22 69 77 I-clinical_variable
+less 23 27 78 82 O
+than 28 32 83 87 O
+55 33 35 88 90 B-upper_bound
+mmHg 36 40 91 95 I-upper_bound
+despite 41 48 96 103 O
+appropriate 49 60 104 115 O
+fluid 61 66 116 121 B-treatment
+resuscitation 67 80 122 135 I-treatment
+and 81 84 136 139 O
+vasopressor 85 96 140 151 B-treatment
+support 97 104 152 159 O
+
+Men 0 3 160 163 B-gender
+
+Patients 0 8 164 172 O
+with 9 13 173 177 O
+documented 14 24 178 188 O
+allergies 25 34 189 198 O
+to 35 37 199 201 O
+propofol 38 46 202 210 B-allergy_name
+, 46 47 210 211 O
+dexmedetomidine 48 63 212 227 B-allergy_name
+, 63 64 227 228 O
+fentanyl 65 73 229 237 B-allergy_name
+, 73 74 237 238 O
+eggs 75 79 239 243 B-allergy_name
+or 80 82 244 246 I-allergy_name
+egg 83 86 247 250 I-allergy_name
+products 87 95 251 259 I-allergy_name
+, 95 96 259 260 O
+or 97 99 261 263 O
+soy 100 103 264 267 B-allergy_name
+or 104 106 268 270 I-allergy_name
+soy 107 110 271 274 I-allergy_name
+products 111 119 275 283 I-allergy_name
+
+grade 0 5 284 289 B-lower_bound
+2 6 7 290 291 I-lower_bound
+or 8 10 292 294 O
+3 11 12 295 296 B-upper_bound
+AV 13 15 297 299 B-chronic_disease
+heart 16 21 300 305 I-chronic_disease
+block 22 27 306 311 I-chronic_disease
+
+heart 0 5 312 317 B-clinical_variable
+rate 6 10 318 322 I-clinical_variable
+less 11 15 323 327 O
+than 16 20 328 332 O
+50 21 23 333 335 B-upper_bound
+beats 24 29 336 341 I-upper_bound
+/ 29 30 341 342 I-upper_bound
+minute 30 36 342 348 I-upper_bound
+
+with 0 4 349 353 O
+the 5 8 354 357 O
+diagnosis 9 18 358 367 O
+of 19 21 368 370 O
+sepsis 22 28 371 377 B-chronic_disease
+( 29 30 378 379 O
+as 30 32 379 381 O
+specified 33 42 382 391 O
+below 43 48 392 397 O
+) 48 49 397 398 O
+within 50 56 399 405 O
+the 57 60 406 409 O
+previous 61 69 410 418 B-upper_bound
+24 70 72 419 421 I-upper_bound
+hours 73 78 422 427 I-upper_bound
+
+women 0 5 428 433 B-gender
+

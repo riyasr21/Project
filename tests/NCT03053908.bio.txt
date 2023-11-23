@@ -1,0 +1,196 @@
+All 0 3 0 3 O
+subjects 4 12 4 12 O
+enrolled 13 21 13 21 O
+will 22 26 22 26 O
+have 27 31 27 31 O
+both 32 36 32 36 O
+a 37 38 37 38 O
+Clinical 39 47 39 47 B-clinical_variable
+Dementia 48 56 48 56 I-clinical_variable
+Rating 57 63 57 63 I-clinical_variable
+( 64 65 64 65 I-clinical_variable
+CDR)=0 65 71 65 71 I-clinical_variable
+and 72 75 72 75 O
+a 76 77 76 77 O
+MMSE≥27 78 85 78 85 B-clinical_variable
+
+All 0 3 86 89 O
+subjects 4 12 90 98 O
+will 13 17 99 103 O
+have 18 22 104 108 O
+had 23 26 109 112 O
+a 27 28 113 114 O
+minimum 29 36 115 122 O
+of 37 39 123 125 O
+12 40 42 126 128 B-lower_bound
+years 43 48 129 134 I-lower_bound
+of 49 51 135 137 O
+education 52 61 138 147 O
+
+Among 0 5 148 153 O
+minority 6 14 154 162 O
+subjects 15 23 163 171 O
+> 24 25 172 173 O
+80 25 27 173 175 B-lower_bound
+% 27 28 175 176 I-lower_bound
+of 29 31 177 179 O
+the 32 35 180 183 O
+elderly 36 43 184 191 O
+individuals 44 55 192 203 O
+coming 56 62 204 210 O
+to 63 65 211 213 O
+the 66 69 214 217 O
+NYU 70 73 218 221 O
+- 73 74 221 222 O
+ADC 74 77 222 225 O
+meet 78 82 226 230 O
+this 83 87 231 235 O
+criterion 88 97 236 245 O
+
+Geriatric 0 9 246 255 B-clinical_variable
+Depression 10 20 256 266 I-clinical_variable
+Scale 21 26 267 272 I-clinical_variable
+( 27 28 273 274 O
+short 28 33 274 279 O
+form)>5 34 41 280 287 O
+
+History 0 7 288 295 O
+of 8 10 296 298 O
+a 11 12 299 300 O
+first 13 18 301 306 O
+- 18 19 306 307 O
+degree 19 25 307 313 O
+family 26 32 314 320 O
+member 33 39 321 327 O
+with 40 44 328 332 O
+early 45 50 333 338 O
+onset 51 56 339 344 O
+( 57 58 345 346 O
+age 58 61 346 349 B-age
+< 62 63 350 351 O
+60 63 65 351 353 B-upper_bound
+years 66 71 354 359 I-upper_bound
+) 71 72 359 360 O
+dementia 73 81 361 369 B-chronic_disease
+
+History 0 7 370 377 O
+of 8 10 378 380 O
+brain 11 16 381 386 B-cancer
+tumor 17 22 387 392 I-cancer
+
+Irregular 0 9 393 402 B-chronic_disease
+sleep 10 15 403 408 I-chronic_disease
+- 15 16 408 409 I-chronic_disease
+wake 16 20 409 413 I-chronic_disease
+rhythms 21 28 414 421 I-chronic_disease
+( 29 30 422 423 O
+based 30 35 423 428 O
+on 36 38 429 431 O
+the 39 42 432 435 O
+actigraphy 43 53 436 446 O
+recordings 54 64 447 457 O
+) 64 65 457 458 O
+
+MRI 0 3 459 462 O
+evidence 4 12 463 471 O
+of 13 15 472 474 O
+brain 16 21 475 480 B-chronic_disease
+damage 22 28 481 487 I-chronic_disease
+or 29 31 488 490 I-chronic_disease
+brain 32 37 491 496 I-chronic_disease
+disease 38 45 497 504 I-chronic_disease
+including 46 55 505 514 O
+significant 56 67 515 526 O
+trauma 68 74 527 533 B-chronic_disease
+
+Male 0 4 534 538 B-gender
+
+Parkinson 0 9 539 548 B-chronic_disease
+'s 9 11 548 550 I-chronic_disease
+disease 12 19 551 558 I-chronic_disease
+
+Presence 0 8 559 567 O
+of 9 11 568 570 O
+any 12 15 571 574 O
+known 16 21 575 580 O
+or 22 24 581 583 O
+suspected 25 34 584 593 O
+obstructive 35 46 594 605 O
+disease 47 54 606 613 B-chronic_disease
+of 55 57 614 616 I-chronic_disease
+the 58 61 617 620 I-chronic_disease
+gastrointestinal 62 78 621 637 I-chronic_disease
+tract 79 84 638 643 I-chronic_disease
+
+Subjects 0 8 644 652 O
+hypomotility 9 21 653 665 B-chronic_disease
+disorders 22 31 666 675 I-chronic_disease
+of 32 34 676 678 O
+the 35 38 679 682 O
+gastrointestinal 39 55 683 699 O
+tract 56 61 700 705 O
+including 62 71 706 715 O
+but 72 75 716 719 O
+not 76 79 720 723 O
+limited 80 87 724 731 O
+to 88 90 732 734 O
+Ileus 91 96 735 740 O
+
+Subjects 0 8 741 749 O
+with 9 13 750 754 O
+a 14 15 755 756 O
+Fazekas 16 23 757 764 B-clinical_variable
+scale 24 29 765 770 I-clinical_variable
+> 30 31 771 772 O
+2 31 32 772 773 B-lower_bound
+
+bipolar 0 7 774 781 B-chronic_disease
+
+diverticulitis 0 14 782 796 B-chronic_disease
+and 15 18 797 800 I-chronic_disease
+inflammatory 19 31 801 813 I-chronic_disease
+bowel 32 37 814 819 I-chronic_disease
+disease 38 45 820 827 I-chronic_disease
+
+female 0 6 828 834 B-gender
+
+hydrocephalus 0 13 835 848 B-chronic_disease
+
+life 0 4 849 853 O
+- 4 5 853 854 O
+long 5 9 854 858 O
+history 10 17 859 866 O
+of 18 20 867 869 O
+major 21 26 870 875 B-chronic_disease
+depression 27 37 876 886 I-chronic_disease
+
+mental 0 6 887 893 B-chronic_disease
+retardation 7 18 894 905 I-chronic_disease
+or 19 21 906 908 O
+other 22 27 909 914 O
+serious 28 35 915 922 B-chronic_disease
+neurological 36 48 923 935 I-chronic_disease
+disorder 49 57 936 944 I-chronic_disease
+
+other 0 5 945 950 O
+movement 6 14 951 959 B-chronic_disease
+disorders 15 24 960 969 I-chronic_disease
+
+pulmonary 0 9 970 979 B-chronic_disease
+
+schizophrenia 0 13 980 993 B-chronic_disease
+
+seizures 0 8 994 1002 B-chronic_disease
+
+subjects 0 8 1003 1011 O
+with 9 13 1012 1016 O
+normal 14 20 1017 1023 O
+cognition 21 30 1024 1033 O
+and 31 34 1034 1037 O
+55 35 37 1038 1040 B-lower_bound
+- 37 38 1040 1041 O
+75 38 40 1041 1043 B-upper_bound
+years 41 46 1044 1049 I-upper_bound
+of 47 49 1050 1052 O
+age 50 53 1053 1056 B-age
+

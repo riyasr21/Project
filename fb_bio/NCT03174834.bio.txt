@@ -1,0 +1,32 @@
+Critical 0 8 0 8 B-chronic_disease
+illness 9 16 9 16 I-chronic_disease
+
+Current 0 7 17 24 O
+antibiotic 8 18 25 35 B-treatment
+therapy 19 26 36 43 I-treatment
+
+Parents 0 7 44 51 O
+/ 8 9 52 53 O
+caregivers 10 20 54 64 O
+do 21 23 65 67 O
+not 24 27 68 71 B-language_fluency
+speak 28 33 72 77 I-language_fluency
+English 34 41 78 85 I-language_fluency
+
+antibiotics 0 11 86 97 O
+within 12 18 98 104 O
+14 19 21 105 107 B-upper_bound
+days 22 26 108 112 I-upper_bound
+of 27 29 113 115 O
+enrollment 30 40 116 126 O
+
+hemodynamic 0 11 127 138 B-chronic_disease
+instability 12 23 139 150 I-chronic_disease
+
+less 0 4 151 155 O
+than 5 9 156 160 O
+6 10 11 161 162 B-upper_bound
+months 12 18 163 169 I-upper_bound
+of 19 21 170 172 O
+age 22 25 173 176 B-age
+

@@ -1,0 +1,19 @@
+AHI 0 3 0 3 B-clinical_variable
+above 4 9 4 9 O
+15 10 12 10 12 B-lower_bound
+
+AHI 0 3 13 16 B-clinical_variable
+below 4 9 17 22 O
+15 10 12 23 25 B-upper_bound
+
+Above 0 5 26 31 O
+18 6 8 32 34 B-lower_bound
+years 9 14 35 40 I-lower_bound
+old 15 18 41 44 O
+
+Younger 0 7 45 52 O
+than 8 12 53 57 O
+18 13 15 58 60 B-upper_bound
+years 16 21 61 66 I-upper_bound
+old 22 25 67 70 O
+

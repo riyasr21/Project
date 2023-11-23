@@ -1,0 +1,68 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+and 16 19 16 19 O
+older 20 25 20 25 O
+
+Age 0 3 26 29 B-age
+less 4 8 30 34 O
+than 9 13 35 39 O
+18 14 16 40 42 B-upper_bound
+years 17 22 43 48 I-upper_bound
+
+American 0 8 49 57 B-clinical_variable
+Society 9 16 58 65 I-clinical_variable
+of 17 19 66 68 I-clinical_variable
+Anesthesiologists 20 37 69 86 I-clinical_variable
+( 38 39 87 88 I-clinical_variable
+ASA 39 42 88 91 I-clinical_variable
+) 42 43 91 92 I-clinical_variable
+Physical 44 52 93 101 I-clinical_variable
+Status 53 59 102 108 I-clinical_variable
+Classification 60 74 109 123 I-clinical_variable
+1 75 76 124 125 B-lower_bound
+or 77 79 126 128 O
+2 80 81 129 130 B-upper_bound
+, 81 82 130 131 O
+who 83 86 132 135 O
+will 87 91 136 140 O
+be 92 94 141 143 O
+receiving 95 104 144 153 O
+sedation 105 113 154 162 B-treatment
+for 114 117 163 166 O
+an 118 120 167 169 O
+Emergency 121 130 170 179 O
+Department 131 141 180 190 O
+procedure 142 151 191 200 O
+
+American 0 8 201 209 B-clinical_variable
+Society 9 16 210 217 I-clinical_variable
+of 17 19 218 220 I-clinical_variable
+Anesthesiologists 20 37 221 238 I-clinical_variable
+( 38 39 239 240 I-clinical_variable
+ASA 39 42 240 243 I-clinical_variable
+) 42 43 243 244 I-clinical_variable
+class 44 49 245 250 I-clinical_variable
+3 50 51 251 252 B-lower_bound
+, 51 52 252 253 O
+4 53 54 254 255 O
+, 54 55 255 256 O
+and 56 59 257 260 O
+5 60 61 261 262 B-upper_bound
+
+Cardiopulmonary 0 15 263 278 B-chronic_disease
+instability 16 27 279 290 I-chronic_disease
+
+Major 0 5 291 296 B-chronic_disease
+trauma 6 12 297 303 I-chronic_disease
+
+Non 0 3 304 307 B-language_fluency
+English 4 11 308 315 I-language_fluency
+speaking 12 20 316 324 I-language_fluency
+
+Pregnant 0 8 325 333 B-pregnancy
+women 9 14 334 339 B-gender
+
+Sepsis 0 6 340 346 B-chronic_disease
+

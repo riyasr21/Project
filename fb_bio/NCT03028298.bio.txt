@@ -1,0 +1,62 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+= 5 6 5 6 O
+21 7 9 7 9 B-lower_bound
+
+Cerebral 0 8 10 18 B-chronic_disease
+vasospasm 9 18 19 28 I-chronic_disease
+diagnosed 19 28 29 38 O
+on 29 31 39 41 O
+transcranial 32 44 42 54 B-treatment
+doppler 45 52 55 62 I-treatment
+, 52 53 62 63 O
+CT 54 56 64 66 B-treatment
+angiography 57 68 67 78 I-treatment
+, 68 69 78 79 O
+or 70 72 80 82 O
+digital 73 80 83 90 B-treatment
+subtraction 81 92 91 102 I-treatment
+angiography 93 104 103 114 I-treatment
+
+Onset 0 5 115 120 O
+of 6 8 121 123 O
+symptoms 9 17 124 132 O
+within 18 24 133 139 O
+72 25 27 140 142 B-upper_bound
+hours 28 33 143 148 I-upper_bound
+from 34 38 149 153 O
+presentation 39 51 154 166 O
+
+Pre 0 3 167 170 B-treatment
+- 3 4 170 171 I-treatment
+ictal 4 9 171 176 I-treatment
+sildenafil 10 20 177 187 I-treatment
+therapy 21 28 188 195 I-treatment
+( 29 30 196 197 O
+last 30 34 197 201 O
+dose 35 39 202 206 O
+within 40 46 207 213 O
+1 47 48 214 215 B-upper_bound
+week 49 53 216 220 I-upper_bound
+of 54 56 221 223 O
+presentation 57 69 224 236 O
+) 69 70 236 237 O
+
+Pregnancy 0 9 238 247 B-pregnancy
+
+Subarachnoid 0 12 248 260 B-chronic_disease
+hemorrhage 13 23 261 271 I-chronic_disease
+from 24 28 272 276 O
+ruptured 29 37 277 285 B-chronic_disease
+cerebral 38 46 286 294 I-chronic_disease
+aneurysm 47 55 295 303 I-chronic_disease
+
+Subarachnoid 0 12 304 316 B-chronic_disease
+hemorrhage 13 23 317 327 I-chronic_disease
+secondary 24 33 328 337 O
+to 34 36 338 340 O
+traumatic 37 46 341 350 O
+or 47 49 351 353 O
+mycotic 50 57 354 361 B-chronic_disease
+aneurysm 58 66 362 370 I-chronic_disease
+

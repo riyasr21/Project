@@ -1,0 +1,45 @@
+Clinical 0 8 0 8 O
+evidence 9 17 9 17 O
+of 18 20 18 20 O
+impaired 21 29 21 29 B-chronic_disease
+pulmonary 30 39 30 39 I-chronic_disease
+function 40 48 40 48 I-chronic_disease
+
+Confirmed 0 9 49 58 O
+diagnosis 10 19 59 68 O
+of 20 22 69 71 O
+neuromuscular 23 36 72 85 B-chronic_disease
+disease 37 44 86 93 I-chronic_disease
+
+Diagnosis 0 9 94 103 O
+of 10 12 104 106 O
+a 13 14 107 108 O
+primary 15 22 109 116 B-chronic_disease
+pulmonary 23 32 117 126 I-chronic_disease
+disease 33 40 127 134 I-chronic_disease
+
+No 0 2 135 137 O
+clinical 3 11 138 146 O
+evidence 12 20 147 155 O
+of 21 23 156 158 O
+impaired 24 32 159 167 B-chronic_disease
+pulmonary 33 42 168 177 I-chronic_disease
+function 43 51 178 186 I-chronic_disease
+
+No 0 2 187 189 O
+diagnosis 3 12 190 199 O
+of 13 15 200 202 O
+a 16 17 203 204 O
+neuromusuclar 18 31 205 218 B-chronic_disease
+disease 32 39 219 226 I-chronic_disease
+
+Presence 0 8 227 235 O
+of 9 11 236 238 O
+an 12 14 239 241 O
+acute 15 20 242 247 B-chronic_disease
+illness 21 28 248 255 I-chronic_disease
+at 29 31 256 258 O
+time 32 36 259 263 O
+of 37 39 264 266 O
+study 40 45 267 272 O
+

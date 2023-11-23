@@ -1,0 +1,29 @@
+Patients 0 8 0 8 O
+weighing 9 17 9 17 O
+≥ 18 19 18 19 O
+80 20 22 20 22 B-lower_bound
+pounds 23 29 23 29 I-lower_bound
+who 30 33 30 33 O
+are 34 37 34 37 O
+not 38 41 38 41 O
+-intubated 42 52 42 52 O
+prior 53 58 53 58 B-treatment
+to 59 61 59 61 I-treatment
+surgery 62 69 62 69 I-treatment
+
+Patients 0 8 70 78 O
+with 9 13 79 83 O
+Impaired 14 22 84 92 B-chronic_disease
+Renal 23 28 93 98 I-chronic_disease
+Function 29 37 99 107 I-chronic_disease
+with 38 42 108 112 O
+a 43 44 113 114 O
+have 45 49 115 119 O
+a 50 51 120 121 O
+known 52 57 122 127 O
+estimated 58 67 128 137 O
+CrCl<30 68 75 138 145 B-clinical_variable
+ml 76 78 146 148 I-upper_bound
+/ 78 79 148 149 I-upper_bound
+min 79 82 149 152 I-upper_bound
+

@@ -1,0 +1,37 @@
+< 0 1 0 1 O
+= 1 2 1 2 O
+17.85 3 8 3 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+at 15 17 15 17 O
+the 18 21 18 21 O
+time 22 26 22 26 O
+of 27 29 27 29 O
+enrollment 30 40 30 40 O
+
+Pregnancy 0 9 41 50 B-pregnancy
+
+Subject 0 7 51 58 O
+with 8 12 59 63 O
+a 13 14 64 65 O
+history 15 22 66 73 O
+of 23 25 74 76 O
+anaphylaxis 26 37 77 88 B-chronic_disease
+attributed 38 48 89 99 O
+to 49 51 100 102 O
+an 52 54 103 105 O
+echinocandin 55 67 106 118 B-allergy_name
+
+Supported 0 9 119 128 O
+with 10 14 129 133 O
+either 15 21 134 140 O
+venoarterial 22 34 141 153 B-treatment
+( 35 36 154 155 I-treatment
+VA 36 38 155 157 I-treatment
+) 38 39 157 158 I-treatment
+or 40 42 159 161 I-treatment
+venovenous 43 53 162 172 I-treatment
+( 54 55 173 174 I-treatment
+VV 55 57 174 176 I-treatment
+) 57 58 176 177 I-treatment
+ECMO 59 63 178 182 I-treatment
+

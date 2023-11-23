@@ -1,0 +1,51 @@
+18 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+50 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+old 15 18 15 18 O
+
+American 0 8 19 27 B-clinical_variable
+Society 9 16 28 35 I-clinical_variable
+of 17 19 36 38 I-clinical_variable
+Anesthesiologists 20 37 39 56 I-clinical_variable
+Physical 38 46 57 65 I-clinical_variable
+Status 47 53 66 72 I-clinical_variable
+( 54 55 73 74 I-clinical_variable
+ASA 55 58 74 77 I-clinical_variable
+PS 59 61 78 80 I-clinical_variable
+) 61 62 80 81 I-clinical_variable
+score 63 68 82 87 I-clinical_variable
+of 69 71 88 90 O
+I 72 73 91 92 B-lower_bound
+or 74 76 93 95 O
+II 77 79 96 98 B-upper_bound
+
+Current 0 7 99 106 B-pregnancy
+or 8 10 107 109 I-pregnancy
+planned 11 18 110 117 I-pregnancy
+pregnancy 19 28 118 127 I-pregnancy
+
+Radiographic 0 12 128 140 O
+signs 13 18 141 146 O
+of 19 21 147 149 O
+osteoarthritis 22 36 150 164 B-chronic_disease
+( 37 38 165 166 O
+> 38 39 166 167 O
+Tonis 40 45 168 173 B-lower_bound
+grade 46 51 174 179 I-lower_bound
+1 52 53 180 181 I-lower_bound
+) 53 54 181 182 O
+
+Scheduled 0 9 183 192 O
+for 10 13 193 196 O
+arthroscopic 14 26 197 209 B-treatment
+labral 27 33 210 216 I-treatment
+repair 34 40 217 223 I-treatment
+with 41 45 224 228 O
+or 46 48 229 231 O
+without 49 56 232 239 O
+osteoplasty 57 68 240 251 B-treatment
+of 69 71 252 254 I-treatment
+the 72 75 255 258 I-treatment
+hip 76 79 259 262 I-treatment
+

@@ -1,0 +1,50 @@
+Child 0 5 0 5 O
+with 6 10 6 10 O
+conduct 11 18 11 18 B-chronic_disease
+disorder 19 27 19 27 I-chronic_disease
+or 28 30 28 30 O
+pervasive 31 40 31 40 B-chronic_disease
+developmental 41 54 41 54 I-chronic_disease
+disorder 55 63 55 63 I-chronic_disease
+
+Families 0 8 64 72 O
+with 9 13 73 77 O
+at 14 16 78 80 O
+least 17 22 81 86 O
+one 23 26 87 90 O
+child 27 32 91 96 O
+between 33 40 97 104 O
+the 41 44 105 108 O
+age 45 48 109 112 B-age
+of 49 51 113 115 O
+10 52 54 116 118 B-lower_bound
+and 55 58 119 122 O
+15 59 61 123 125 B-upper_bound
+
+Families 0 8 126 134 O
+with 9 13 135 139 O
+at 14 16 140 142 O
+least 17 22 143 148 O
+one 23 26 149 152 O
+parent 27 33 153 159 O
+with 34 38 160 164 O
+a 39 40 165 166 O
+history 41 48 167 174 O
+of 49 51 175 177 O
+depression 52 62 178 188 B-chronic_disease
+during 63 69 189 195 O
+the 70 73 196 199 O
+life 74 78 200 204 O
+of 79 81 205 207 O
+his 82 85 208 211 O
+or 86 88 212 214 O
+her 89 92 215 218 O
+child 93 98 219 224 O
+
+Parent 0 6 225 231 O
+with 7 11 232 236 O
+bipolar 12 19 237 244 B-chronic_disease
+disorder 20 28 245 253 I-chronic_disease
+or 29 31 254 256 O
+schizophrenia 32 45 257 270 B-chronic_disease
+

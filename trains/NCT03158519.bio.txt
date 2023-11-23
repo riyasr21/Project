@@ -1,0 +1,156 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Body 0 4 15 19 B-clinical_variable
+weight 5 11 20 26 I-clinical_variable
+less 12 16 27 31 O
+than 17 21 32 36 O
+350 22 25 37 40 B-upper_bound
+lbs 26 29 41 44 I-upper_bound
+. 29 30 44 45 O
+, 30 31 45 46 O
+as 32 34 47 49 O
+dictated 35 43 50 58 O
+by 44 46 59 61 O
+the 47 50 62 65 O
+weight 51 57 66 72 O
+limit 58 63 73 78 O
+for 64 67 79 82 O
+DXA 68 71 83 86 O
+scanner 72 79 87 94 O
+
+Completion 0 10 95 105 O
+of 11 13 106 108 O
+all 14 17 109 112 O
+primary 18 25 113 120 B-treatment
+therapy 26 33 121 128 I-treatment
+( 34 35 129 130 O
+with 35 39 130 134 O
+the 40 43 135 138 O
+exception 44 53 139 148 O
+of 54 56 149 151 O
+ongoing 57 64 152 159 O
+endocrine 65 74 160 169 B-treatment
+or 75 77 170 172 O
+trastuzumab 78 89 173 184 B-treatment
+therapy 90 97 185 192 I-treatment
+) 97 98 192 193 O
+, 98 99 193 194 O
+including 100 109 195 204 O
+surgery 110 117 205 212 B-treatment
+, 117 118 212 213 O
+radiation 119 128 214 223 B-treatment
+, 128 129 223 224 O
+and/or 130 136 225 231 O
+chemotherapy 137 149 232 244 B-treatment
+greater 150 157 245 252 O
+than 158 162 253 257 O
+4 163 164 258 259 B-lower_bound
+weeks 165 170 260 265 I-lower_bound
+prior 171 176 266 271 I-lower_bound
+to 177 179 272 274 O
+study 180 185 275 280 O
+enrollment 186 196 281 291 O
+
+Diagnosis 0 9 292 301 O
+of 10 12 302 304 O
+DCIS 13 17 305 309 B-cancer
+or 18 20 310 312 O
+stage 21 26 313 318 B-cancer
+I 27 28 319 320 I-cancer
+, 28 29 320 321 I-cancer
+II 30 32 322 324 I-cancer
+, 32 33 324 325 I-cancer
+or 34 36 326 328 I-cancer
+III 37 40 329 332 I-cancer
+breast 41 47 333 339 I-cancer
+cancer 48 54 340 346 I-cancer
+
+Diagnosis 0 9 347 356 O
+of 10 12 357 359 O
+other 13 18 360 365 O
+active 19 25 366 372 O
+malignancy 26 36 373 383 B-cancer
+
+Elective 0 8 384 392 B-treatment
+surgery 9 16 393 400 I-treatment
+anticipated 17 28 401 412 O
+during 29 35 413 419 O
+, 35 36 419 420 O
+pre- 37 41 421 425 O
+, 41 42 425 426 O
+or 43 45 427 429 O
+post 46 50 430 434 O
+- 50 51 434 435 O
+intervention 51 63 435 447 O
+period 64 70 448 454 O
+( 71 72 455 456 O
+e.g. 72 76 456 460 O
+, 76 77 460 461 O
+breast 78 84 462 468 B-treatment
+reconstruction 85 99 469 483 I-treatment
+) 99 100 483 484 O
+
+Pregnancy 0 9 485 494 B-pregnancy
+
+Prior 0 5 495 500 O
+treated 6 13 501 508 O
+malignancies 14 26 509 521 B-cancer
+in 27 29 522 524 O
+addition 30 38 525 533 O
+to 39 41 534 536 O
+breast 42 48 537 543 B-cancer
+cancer 49 55 544 550 I-cancer
+are 56 59 551 554 O
+acceptable 60 70 555 565 O
+
+Regular 0 7 566 573 O
+access 8 14 574 580 B-technology_access
+to 15 17 581 583 I-technology_access
+a 18 19 584 585 I-technology_access
+smart 20 25 586 591 I-technology_access
+phone 26 31 592 597 I-technology_access
+or 32 34 598 600 I-technology_access
+computer 35 43 601 609 I-technology_access
+
+chronic 0 7 610 617 B-chronic_disease
+pulmonary 8 17 618 627 I-chronic_disease
+conditions 18 28 628 638 I-chronic_disease
+such 29 33 639 643 O
+as 34 36 644 646 O
+uncontrolled 37 49 647 659 O
+asthma 50 56 660 666 B-chronic_disease
+( 57 58 667 668 O
+symptoms 58 66 668 676 O
+> 67 68 677 678 O
+2 69 70 679 680 B-lower_bound
+days 71 75 681 685 I-lower_bound
+/ 75 76 685 686 I-lower_bound
+week 76 80 686 690 I-lower_bound
+) 80 81 690 691 O
+
+dyspnea 0 7 692 699 B-chronic_disease
+requiring 8 17 700 709 O
+oxygen 18 24 710 716 O
+
+myocardial 0 10 717 727 B-chronic_disease
+infarction 11 21 728 738 I-chronic_disease
+in 22 24 739 741 O
+the 25 28 742 745 O
+prior 29 34 746 751 B-upper_bound
+12 35 37 752 754 I-upper_bound
+months 38 44 755 761 I-upper_bound
+
+schizophrenia 0 13 762 775 B-chronic_disease
+
+symptomatic 0 11 776 787 O
+peripheral 12 22 788 798 B-chronic_disease
+vascular 23 31 799 807 I-chronic_disease
+disease 32 39 808 815 I-chronic_disease
+
+uncontrolled 0 12 816 828 O
+psychiatric 13 24 829 840 B-chronic_disease
+conditions 25 35 841 851 I-chronic_disease
+

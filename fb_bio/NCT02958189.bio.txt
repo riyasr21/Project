@@ -1,0 +1,56 @@
+Are 0 3 0 3 O
+planning 4 12 4 12 B-pregnancy
+on 13 15 13 15 I-pregnancy
+becoming 16 24 16 24 I-pregnancy
+pregnant 25 33 25 33 I-pregnancy
+in 34 36 34 36 O
+the 37 40 37 40 O
+next 41 45 41 45 B-upper_bound
+8 46 47 46 47 I-upper_bound
+months 48 54 48 54 I-upper_bound
+
+Are 0 3 55 58 O
+willing 4 11 59 66 O
+to 12 14 67 69 O
+participate 15 26 70 81 B-technology_access
+in 27 29 82 84 I-technology_access
+daily 30 35 85 90 I-technology_access
+tweets 36 42 91 97 I-technology_access
+or 43 45 98 100 I-technology_access
+texts 46 51 101 106 I-technology_access
+for 52 55 107 110 O
+up 56 58 111 113 O
+to 59 61 114 116 O
+3 62 63 117 118 B-upper_bound
+months 64 70 119 125 I-upper_bound
+
+Have 0 4 126 130 O
+internet 5 13 131 139 B-technology_access
+access 14 20 140 146 I-technology_access
+on 21 23 147 149 I-technology_access
+your 24 28 150 154 I-technology_access
+mobile 29 35 155 161 I-technology_access
+phone 36 41 162 167 I-technology_access
+
+Use 0 3 168 171 O
+or 4 6 172 174 O
+are 7 10 175 178 O
+familiar 11 19 179 187 B-technology_access
+with 20 24 188 192 I-technology_access
+Facebook 25 33 193 201 I-technology_access
+, 33 34 201 202 I-technology_access
+Twitter 35 42 203 210 I-technology_access
+, 42 43 210 211 I-technology_access
+or 44 46 212 214 I-technology_access
+other 47 52 215 220 I-technology_access
+social 53 59 221 227 I-technology_access
+media 60 65 228 233 I-technology_access
+
+over 0 4 234 238 O
+18 5 7 239 241 B-lower_bound
+years 8 13 242 247 I-lower_bound
+of 14 16 248 250 O
+age 17 20 251 254 B-age
+
+woman 0 5 255 260 B-gender
+

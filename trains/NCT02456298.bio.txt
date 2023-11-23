@@ -1,0 +1,13 @@
+Confirmed 0 9 0 9 O
+diagnosis 10 19 10 19 O
+of 20 22 20 22 O
+autism 23 29 23 29 B-chronic_disease
+spectrum 30 38 30 38 I-chronic_disease
+disorder 39 47 39 47 I-chronic_disease
+
+Unstable 0 8 48 56 B-chronic_disease
+or 9 11 57 59 I-chronic_disease
+degenerative 12 24 60 72 I-chronic_disease
+neurological 25 37 73 85 I-chronic_disease
+disorder 38 46 86 94 I-chronic_disease
+

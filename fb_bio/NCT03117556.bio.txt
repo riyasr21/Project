@@ -1,0 +1,25 @@
+Diagnosed 0 9 0 9 O
+with 10 14 10 14 O
+stage 15 20 15 20 B-cancer
+III 21 24 21 24 I-cancer
+/ 24 25 24 25 I-cancer
+IV 25 27 25 27 I-cancer
+pancreatic 28 38 28 38 I-cancer
+cancer 39 45 39 45 I-cancer
+
+Participating 0 13 46 59 O
+in 14 16 60 62 O
+another 17 24 63 70 B-treatment
+clinical 25 33 71 79 I-treatment
+trial 34 39 80 85 I-treatment
+for 40 43 86 89 O
+the 44 47 90 93 O
+treatment 48 57 94 103 O
+of 58 60 104 106 O
+cancer 61 67 107 113 B-cancer
+at 68 70 114 116 O
+the 71 74 117 120 O
+time 75 79 121 125 O
+of 80 82 126 128 O
+screening 83 92 129 138 O
+

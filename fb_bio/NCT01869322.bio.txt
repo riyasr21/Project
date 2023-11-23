@@ -1,0 +1,33 @@
+ED 0 2 0 2 O
+presentation 3 15 3 15 O
+more 16 20 16 20 O
+than 21 25 21 25 O
+48 26 28 26 28 B-lower_bound
+hours 29 34 29 34 I-lower_bound
+after 35 40 35 40 O
+injury 41 47 41 47 O
+
+Head 0 4 48 52 B-chronic_disease
+injury 5 11 53 59 I-chronic_disease
+
+Known 0 5 60 65 O
+pregnancy 6 15 66 75 B-pregnancy
+
+Non 0 3 76 79 B-language_fluency
+- 3 4 79 80 I-language_fluency
+English 4 11 80 87 I-language_fluency
+speaking 12 20 88 96 I-language_fluency
+
+acute 0 5 97 102 O
+midshaft 6 14 103 111 O
+humeral 15 22 112 119 O
+fracture 23 31 120 128 O
+within 32 38 129 135 O
+48 39 41 136 138 B-upper_bound
+hours 42 47 139 144 I-upper_bound
+
+age 0 3 145 148 B-age
+18 4 6 149 151 B-lower_bound
+- 6 7 151 152 O
+80 7 9 152 154 B-upper_bound
+

@@ -1,0 +1,73 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+21 9 11 9 11 B-lower_bound
+years 12 17 12 17 I-lower_bound
+old 18 21 18 21 O
+
+Experience 0 10 22 32 O
+of 11 13 33 35 O
+a 14 15 36 37 O
+stroke 16 22 38 44 B-chronic_disease
+6 23 24 45 46 O
+months 25 31 47 53 O
+prior 32 37 54 59 O
+to 38 40 60 62 O
+participation 41 54 63 76 O
+
+History 0 7 77 84 O
+of 8 10 85 87 O
+DVT 11 14 88 91 B-chronic_disease
+or 15 17 92 94 O
+pulmonary 18 27 95 104 B-chronic_disease
+embolism 28 36 105 113 I-chronic_disease
+within 37 43 114 120 O
+6 44 45 121 122 B-upper_bound
+months 46 52 123 129 I-upper_bound
+
+Life 0 4 130 134 B-clinical_variable
+expectancy 5 15 135 145 I-clinical_variable
+< 16 17 146 147 O
+1 17 18 147 148 B-upper_bound
+yr 19 21 149 151 I-upper_bound
+; 21 22 151 152 O
+8 23 24 153 154 O
+
+Preexisting 0 11 155 166 O
+neurological 12 24 167 179 B-chronic_disease
+disorders 25 34 180 189 I-chronic_disease
+or 35 37 190 192 O
+dementia 38 46 193 201 B-chronic_disease
+
+Resting 0 7 202 209 O
+blood 8 13 210 215 B-clinical_variable
+pressure 14 22 216 224 I-clinical_variable
+higher 23 29 225 231 O
+than 30 34 232 236 O
+200/110 35 42 237 244 B-lower_bound
+mm 43 45 245 247 I-lower_bound
+Hg 46 48 248 250 I-lower_bound
+
+Resting 0 7 251 258 B-clinical_variable
+heart 8 13 259 264 I-clinical_variable
+rate 14 18 265 269 I-clinical_variable
+above 19 24 270 275 O
+110 25 28 276 279 B-lower_bound
+beats 29 34 280 285 I-lower_bound
+/ 34 35 285 286 I-lower_bound
+min 35 38 286 289 I-lower_bound
+
+Uncontrolled 0 12 290 302 O
+diabetes 13 21 303 311 B-chronic_disease
+with 22 26 312 316 O
+recent 27 33 317 323 O
+weight 34 40 324 330 O
+loss 41 45 331 335 O
+, 45 46 335 336 O
+diabetic 47 55 337 345 O
+coma 56 60 346 350 O
+, 60 61 350 351 O
+or 62 64 352 354 O
+frequent 65 73 355 363 O
+insulin 74 81 364 371 O
+reactions 82 91 372 381 O
+

@@ -1,0 +1,70 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+80 7 9 7 9 B-upper_bound
+
+Cognitive 0 9 10 19 B-chronic_disease
+impairment 10 20 20 30 I-chronic_disease
+or 21 23 31 33 O
+aphasia 24 31 34 41 B-chronic_disease
+with 32 36 42 46 O
+inability 37 46 47 56 O
+to 47 49 57 59 O
+follow 50 56 60 66 O
+instructions 57 69 67 79 O
+
+First 0 5 80 85 O
+time 6 10 86 90 O
+unilateral 11 21 91 101 O
+acute 22 27 102 107 B-chronic_disease
+stroke 28 34 108 114 I-chronic_disease
+, 34 35 114 115 O
+hemorrhagic 36 47 116 127 B-chronic_disease
+or 48 50 128 130 O
+ischemic 51 59 131 139 B-chronic_disease
+, 59 60 139 140 O
+24 61 63 141 143 O
+hours 64 69 144 149 O
+after 70 75 150 155 O
+admission 76 85 156 165 O
+in 86 88 166 168 O
+hospital 89 97 169 177 O
+to 98 100 178 180 O
+1 101 102 181 182 O
+month 103 108 183 188 O
+post 109 113 189 193 O
+stroke 114 120 194 200 O
+
+Hemiplegia 0 10 201 211 B-chronic_disease
+or 11 13 212 214 O
+hemiparesis 14 25 215 226 B-chronic_disease
+
+Pressure 0 8 227 235 B-chronic_disease
+ulcer 9 14 236 241 I-chronic_disease
+
+Severe 0 6 242 248 B-chronic_disease
+cardiovascular 7 21 249 263 I-chronic_disease
+disorders 22 31 264 273 I-chronic_disease
+that 32 36 274 278 O
+interfere 37 46 279 288 O
+with 47 51 289 293 O
+ability 52 59 294 301 O
+to 60 62 302 304 O
+perform 63 70 305 312 O
+moderate 71 79 313 321 O
+movement 80 88 322 330 O
+exercises 89 98 331 340 O
+
+active 0 6 341 347 O
+skin 7 11 348 352 B-chronic_disease
+disease 12 19 353 360 I-chronic_disease
+with 20 24 361 365 O
+open 25 29 366 370 O
+wounds 30 36 371 377 O
+present 37 44 378 385 O
+below 45 50 386 391 O
+knee 51 55 392 396 O
+of 56 58 397 399 O
+treated 59 66 400 407 O
+limb 67 71 408 412 O
+

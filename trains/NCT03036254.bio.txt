@@ -1,0 +1,43 @@
+Brain 0 5 0 5 B-chronic_disease
+disease 6 13 6 13 I-chronic_disease
+that 14 18 14 18 O
+affects 19 26 19 26 O
+cognition 27 36 27 36 O
+
+Chest 0 5 37 42 B-clinical_variable
+pathology 6 15 43 52 I-clinical_variable
+incompatible 16 28 53 65 O
+with 29 33 66 70 O
+HBOT 34 38 71 75 B-treatment
+
+Counter 0 7 76 83 O
+- 7 8 83 84 O
+indication 8 18 84 94 O
+for 19 22 95 98 O
+MRI 23 26 99 102 B-allergy_name
+or 27 29 103 105 O
+PET 30 33 106 109 B-allergy_name
+
+Diagnosis 0 9 110 119 O
+of 10 12 120 122 O
+MCI 13 16 123 126 B-chronic_disease
+
+Diagnosis 0 9 127 136 O
+of 10 12 137 139 O
+T2D 13 16 140 143 B-chronic_disease
+
+Epilepsy 0 8 144 152 B-chronic_disease
+
+Parkinson 0 9 153 162 B-chronic_disease
+'s 9 11 162 164 I-chronic_disease
+disease 12 19 165 172 I-chronic_disease
+
+Stroke 0 6 173 179 B-chronic_disease
+
+Subjects 0 8 180 188 O
+with 9 13 189 193 O
+an 14 16 194 196 O
+indication 17 27 197 207 O
+for 28 31 208 211 O
+HBOT 32 36 212 216 B-treatment
+

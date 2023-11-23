@@ -1,0 +1,98 @@
+Healthy 0 7 0 7 O
+adults 8 14 8 14 O
+between 15 22 15 22 O
+18 23 25 23 25 B-lower_bound
+and 26 29 26 29 O
+65 30 32 30 32 B-upper_bound
+years 33 38 33 38 I-upper_bound
+old 39 42 39 42 O
+
+Subjects 0 8 43 51 O
+presenting 9 19 52 62 O
+chronic 20 27 63 70 B-chronic_disease
+degenerative 28 40 71 83 I-chronic_disease
+and/or 41 47 84 90 O
+inflammatory 48 60 91 103 B-chronic_disease
+diseases 61 69 104 112 I-chronic_disease
+
+Subjects 0 8 113 121 O
+receiving 9 18 122 131 O
+corticosteroid 19 33 132 146 B-treatment
+treatment 34 43 147 156 I-treatment
+
+Subjects 0 8 157 165 O
+receiving 9 18 166 175 O
+systemic 19 27 176 184 B-treatment
+treatment 28 37 185 194 I-treatment
+or 38 40 195 197 O
+topical 41 48 198 205 B-treatment
+treatment 49 58 206 215 I-treatment
+likely 59 65 216 222 O
+to 66 68 223 225 O
+interfere 69 78 226 235 O
+with 79 83 236 240 O
+evaluation 84 94 241 251 O
+of 95 97 252 254 O
+the 98 101 255 258 O
+study 102 107 259 264 O
+parameters 108 118 265 275 O
+( 119 120 276 277 O
+salicylates 120 131 277 288 B-treatment
+, 131 132 288 289 O
+antibiotics 133 144 290 301 B-treatment
+) 144 145 301 302 O
+
+Subjects 0 8 303 311 O
+using 9 14 312 317 O
+oral 15 19 318 322 B-treatment
+anticoagulants 20 34 323 337 I-treatment
+
+Subjects 0 8 338 346 O
+using 9 14 347 352 O
+vitamin 15 22 353 360 O
+supplements 23 34 361 372 O
+containing 35 45 373 383 O
+vitamin 46 53 384 391 B-treatment
+k 54 55 392 393 I-treatment
+
+Subjects 0 8 394 402 O
+who 9 12 403 406 O
+have 13 17 407 411 O
+participated 18 30 412 424 O
+in 31 33 425 427 O
+a 34 35 428 429 O
+clinical 36 44 430 438 B-treatment
+study 45 50 439 444 I-treatment
+more 51 55 445 449 O
+recently 56 64 450 458 O
+than 65 69 459 463 O
+one 70 73 464 467 B-lower_bound
+month 74 79 468 473 I-lower_bound
+before 80 86 474 480 I-lower_bound
+the 87 90 481 484 O
+current 91 98 485 492 O
+study 99 104 493 498 O
+
+Subjects 0 8 499 507 O
+with 9 13 508 512 O
+( 14 15 513 514 O
+a 15 16 514 515 O
+history 17 24 516 523 O
+of 25 27 524 526 O
+) 27 28 526 527 O
+metabolic 29 38 528 537 B-chronic_disease
+or 39 41 538 540 O
+gastrointestinal 42 58 541 557 B-chronic_disease
+diseases 59 67 558 566 I-chronic_disease
+including 68 77 567 576 O
+hepatic 78 85 577 584 B-treatment
+disorders 86 95 585 594 I-treatment
+
+Subjects 0 8 595 603 O
+with 9 13 604 608 O
+a 14 15 609 610 O
+history 16 23 611 618 O
+of 24 26 619 621 O
+soy 27 30 622 625 B-allergy_name
+allergy 31 38 626 633 O
+

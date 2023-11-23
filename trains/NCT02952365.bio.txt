@@ -1,0 +1,44 @@
+Subjects 0 8 0 8 O
+age 9 12 9 12 B-age
+21 13 15 13 15 B-lower_bound
+and 16 19 16 19 O
+older 20 25 20 25 O
+
+Subjects 0 8 26 34 O
+under 9 14 35 40 O
+the 15 18 41 44 O
+age 19 22 45 48 B-age
+of 23 25 49 51 O
+21 26 28 52 54 B-lower_bound
+
+Subjects 0 8 55 63 O
+who 9 12 64 67 O
+are 13 16 68 71 B-pregnancy
+pregnant 17 25 72 80 I-pregnancy
+
+Subjects 0 8 81 89 O
+who 9 12 90 93 O
+have 13 17 94 98 O
+previously 18 28 99 109 O
+undergone 29 38 110 119 O
+LASIK 39 44 120 125 B-treatment
+surgery 45 52 126 133 I-treatment
+
+Subjects 0 8 134 142 O
+with 9 13 143 147 O
+autoimmune 14 24 148 158 B-chronic_disease
+diseases 25 33 159 167 I-chronic_disease
+
+Subjects 0 8 168 176 O
+with 9 13 177 181 O
+ectatic 14 21 182 189 B-chronic_disease
+eye 22 25 190 193 I-chronic_disease
+disorders 26 35 194 203 I-chronic_disease
+
+Subjects 0 8 204 212 O
+with 9 13 213 217 O
+topographic 14 25 218 229 O
+evidence 26 34 230 238 O
+of 35 37 239 241 O
+keratoconus 38 49 242 253 B-chronic_disease
+

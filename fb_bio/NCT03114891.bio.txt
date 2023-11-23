@@ -1,0 +1,92 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+60 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Additional 0 10 16 26 O
+TMS 11 14 27 30 B-allergy_name
+contraindications 15 32 31 48 O
+
+English 0 7 49 56 B-language_fluency
+speaking 8 16 57 65 I-language_fluency
+
+Known 0 5 66 71 O
+neurological 6 18 72 84 B-chronic_disease
+disorders 19 28 85 94 I-chronic_disease
+including 29 38 95 104 O
+multiple 39 47 105 113 B-chronic_disease
+sclerosis 48 57 114 123 I-chronic_disease
+, 57 58 123 124 O
+encephalopathy 59 73 125 139 B-chronic_disease
+, 73 74 139 140 O
+seizure 75 82 141 148 B-chronic_disease
+disorder 83 91 149 157 I-chronic_disease
+, 91 92 157 158 O
+brain 93 98 159 164 B-cancer
+tumors 99 105 165 171 I-cancer
+
+MRI 0 3 172 175 B-allergy_name
+contraindications 4 21 176 193 O
+
+Medication 0 10 194 204 O
+use 11 14 205 208 O
+that 15 19 209 213 O
+substantially 20 33 214 227 O
+reduces 34 41 228 235 O
+seizure 42 49 236 243 O
+threshold 50 59 244 253 O
+to 60 62 254 256 O
+TMS 63 66 257 260 B-treatment
+( 67 68 261 262 O
+olanzapine 68 78 262 272 B-treatment
+, 78 79 272 273 O
+chlorpromazine 80 94 274 288 B-treatment
+, 94 95 288 289 O
+lithium 96 103 290 297 B-treatment
+) 103 104 297 298 O
+
+Newly 0 5 299 304 O
+initiated 6 15 305 314 O
+psychotherapy 16 29 315 328 B-treatment
+( 30 31 329 330 O
+less 31 35 330 334 O
+than 36 40 335 339 O
+6 41 42 340 341 B-upper_bound
+weeks 43 48 342 347 I-upper_bound
+) 48 49 347 348 O
+
+Opiate 0 6 349 355 B-treatment
+medication 7 17 356 366 I-treatment
+
+Pregnancy 0 9 367 376 B-pregnancy
+
+current 0 7 377 384 O
+bipolar 8 15 385 392 B-chronic_disease
+disorder 16 24 393 401 I-chronic_disease
+
+female 0 6 402 408 B-gender
+
+male 0 4 409 413 B-gender
+
+meet 0 4 414 418 O
+criteria 5 13 419 427 O
+for 14 17 428 431 O
+trauma 18 24 432 438 B-chronic_disease
+- 24 25 438 439 I-chronic_disease
+induced 25 32 439 446 I-chronic_disease
+MDD 33 36 447 450 I-chronic_disease
+
+other 0 5 451 456 O
+psychotic 6 15 457 466 B-chronic_disease
+disorder 16 24 467 475 I-chronic_disease
+
+substance 0 9 476 485 B-chronic_disease
+abuse 10 15 486 491 I-chronic_disease
+disorder 16 24 492 500 I-chronic_disease
+( 25 26 501 502 O
+moderate 26 34 502 510 O
+or 35 37 511 513 O
+severe 38 44 514 520 O
+) 44 45 520 521 O
+

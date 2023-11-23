@@ -1,0 +1,39 @@
+chest 0 5 0 5 B-chronic_disease
+deformity 6 15 6 15 I-chronic_disease
+
+history 0 7 16 23 O
+of 8 10 24 26 O
+previous 11 19 27 35 O
+atrial 20 26 36 42 B-chronic_disease
+arrhythmia 27 37 43 53 I-chronic_disease
+of 38 40 54 56 O
+any 41 44 57 60 O
+type 45 49 61 65 O
+
+mitral 0 6 66 72 B-chronic_disease
+or 7 9 73 75 I-chronic_disease
+tricuspid 10 19 76 85 I-chronic_disease
+valve 20 25 86 91 I-chronic_disease
+disease 26 33 92 99 I-chronic_disease
+
+need 0 4 100 104 O
+for 5 8 105 108 O
+hypothermic 9 20 109 120 B-treatment
+circulatory 21 32 121 132 I-treatment
+arrest 33 39 133 139 I-treatment
+
+preoperative 0 12 140 152 O
+non 13 16 153 156 O
+- 16 17 156 157 O
+sinus 17 22 157 162 B-chronic_disease
+rhythm 23 29 163 169 I-chronic_disease
+
+surgery 0 7 170 177 B-treatment
+of 8 10 178 180 O
+the 11 14 181 184 O
+descending 15 25 185 195 O
+thoracic 26 34 196 204 O
+or 35 37 205 207 O
+thoracoabdominal 38 54 208 224 O
+aorta 55 60 225 230 O
+

@@ -1,0 +1,174 @@
+A 0 1 0 1 O
+reasonable 2 12 2 12 O
+attempt 13 20 13 20 O
+should 21 27 21 27 O
+be 28 30 28 30 O
+made 31 35 31 35 O
+to 36 38 36 38 O
+make 39 43 39 43 O
+a 44 45 44 45 O
+pathologic 46 56 46 56 O
+diagnosis 57 66 57 66 O
+of 67 69 67 69 O
+malignancy 70 80 70 80 B-cancer
+
+Acquired 0 8 81 89 B-chronic_disease
+Immune 9 15 90 96 I-chronic_disease
+Deficiency 16 26 97 107 I-chronic_disease
+Syndrome 27 35 108 116 I-chronic_disease
+( 36 37 117 118 I-chronic_disease
+AIDS 37 41 118 122 I-chronic_disease
+) 41 42 122 123 I-chronic_disease
+based 43 48 124 129 O
+on 49 51 130 132 O
+CDC 52 55 133 136 O
+criteria 56 64 137 145 O
+
+Additional 0 10 146 156 O
+labs 11 15 157 161 O
+within 16 22 162 168 O
+14 23 25 169 171 B-upper_bound
+days 26 30 172 176 I-upper_bound
+prior 31 36 177 182 I-upper_bound
+to 37 39 183 185 O
+registration 40 52 186 198 O
+
+Age 0 3 199 202 B-age
+> 4 5 203 204 O
+/= 5 7 204 206 O
+18 8 10 207 209 B-lower_bound
+years 11 16 210 215 I-lower_bound
+
+CBC 0 3 216 219 B-clinical_variable
+/ 3 4 219 220 O
+differential 4 16 220 232 O
+obtained 17 25 233 241 O
+within 26 32 242 248 O
+14 33 35 249 251 B-upper_bound
+days 36 40 252 256 I-upper_bound
+prior 41 46 257 262 I-upper_bound
+to 47 49 263 265 O
+registration 50 62 266 278 O
+with 63 67 279 283 O
+adequate 68 76 284 292 O
+bone 77 81 293 297 O
+marrow 82 88 298 304 O
+function 89 97 305 313 O
+
+CT 0 2 314 316 O
+scan 3 7 317 321 O
+of 8 10 322 324 O
+the 11 14 325 328 O
+chest 15 20 329 334 O
+, 20 21 334 335 O
+abdomen 22 29 336 343 O
+and 30 33 344 347 O
+pelvis 34 40 348 354 O
+with 41 45 355 359 O
+IV 46 48 360 362 O
+and 49 52 363 366 O
+oral 53 57 367 371 O
+contrast 58 66 372 380 O
+within 67 73 381 387 O
+8 74 75 388 389 B-upper_bound
+weeks 76 81 390 395 I-upper_bound
+of 82 84 396 398 O
+registration 85 97 399 411 O
+
+ECOG 0 4 412 416 B-clinical_variable
+performance 5 16 417 428 I-clinical_variable
+status 17 23 429 435 I-clinical_variable
+0 24 25 436 437 B-lower_bound
+- 25 26 437 438 O
+1 26 27 438 439 B-upper_bound
+
+HIV 0 3 440 443 B-chronic_disease
+testing 4 11 444 451 O
+is 12 14 452 454 O
+not 15 18 455 458 O
+manditory 19 28 459 468 O
+for 29 32 469 472 O
+this 33 37 473 477 O
+protocol 38 46 478 486 O
+
+Hepatic 0 7 487 494 B-chronic_disease
+insufficiency 8 21 495 508 I-chronic_disease
+resulting 22 31 509 518 O
+in 32 34 519 521 O
+clinical 35 43 522 530 O
+jaundice 44 52 531 539 B-chronic_disease
+and/or 53 59 540 546 O
+coagulation 60 71 547 558 B-chronic_disease
+defects 72 79 559 566 I-chronic_disease
+
+Metastatic 0 10 567 577 B-cancer
+disease 11 18 578 585 I-cancer
+as 19 21 586 588 O
+defined 22 29 589 596 O
+by 30 32 597 599 O
+the 33 36 600 603 O
+multi 37 42 604 609 O
+- 42 43 609 610 O
+disciplinary 43 55 610 622 O
+team 56 60 623 627 O
+
+Negative 0 8 628 636 B-pregnancy
+serum 9 14 637 642 I-pregnancy
+pregnancy 15 24 643 652 I-pregnancy
+test 25 29 653 657 O
+within 30 36 658 664 O
+2 37 38 665 666 B-upper_bound
+weeks 39 44 667 672 I-upper_bound
+prior 45 50 673 678 I-upper_bound
+to 51 53 679 681 O
+registration 54 66 682 694 O
+for 67 70 695 698 O
+women 71 76 699 704 B-gender
+of 77 79 705 707 O
+childbearing 80 92 708 720 O
+potential 93 102 721 730 O
+
+Pathologic 0 10 731 741 O
+or 11 13 742 744 O
+clinical 14 22 745 753 O
+diagnosis 23 32 754 763 O
+of 33 35 764 766 O
+a 36 37 767 768 O
+new 38 41 769 772 O
+pancreatic 42 52 773 783 B-cancer
+adenocarcinoma 53 67 784 798 I-cancer
+
+Pregnant 0 8 799 807 B-pregnancy
+women 9 14 808 813 B-gender
+or 15 17 814 816 O
+lactating 18 27 817 826 O
+women 28 33 827 832 O
+
+Prior 0 5 833 838 B-treatment
+anti 6 10 839 843 I-treatment
+- 10 11 843 844 I-treatment
+cancer 11 17 844 850 I-treatment
+therapy 18 25 851 858 I-treatment
+for 26 29 859 862 O
+a 30 31 863 864 O
+pancreatic 32 42 865 875 B-cancer
+tumor 43 48 876 881 I-cancer
+
+Prior 0 5 882 887 O
+malignancy 6 16 888 898 B-cancer
+within 17 23 899 905 O
+the 24 27 906 909 O
+last 28 32 910 914 B-upper_bound
+3 33 34 915 916 I-upper_bound
+years 35 40 917 922 I-upper_bound
+
+Whole 0 5 923 928 B-treatment
+body 6 10 929 933 I-treatment
+PET 11 14 934 937 I-treatment
+scan 15 19 938 942 I-treatment
+within 20 26 943 949 O
+8 27 28 950 951 B-upper_bound
+weeks 29 34 952 957 I-upper_bound
+of 35 37 958 960 O
+registration 38 50 961 973 O
+

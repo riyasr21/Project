@@ -1,0 +1,148 @@
+ECOG 0 4 0 4 B-clinical_variable
+Performance 5 16 5 16 I-clinical_variable
+Status 17 23 17 23 I-clinical_variable
+0 24 25 24 25 B-lower_bound
+- 25 26 25 26 O
+1 26 27 26 27 B-upper_bound
+
+Histologically 0 14 28 42 O
+confirmed 15 24 43 52 O
+diagnosis 25 34 53 62 O
+of 35 37 63 65 O
+squamous 38 46 66 74 B-cancer
+cell 47 51 75 79 I-cancer
+carcinoma 52 61 80 89 I-cancer
+of 62 64 90 92 O
+the 65 68 93 96 O
+oropharynx 69 79 97 107 B-cancer
+, 79 80 107 108 O
+stage 81 86 109 114 O
+IVa 87 90 115 118 O
+, 90 91 118 119 O
+p16 92 95 120 123 B-cancer
+- 95 96 123 124 I-cancer
+positive 96 104 124 132 I-cancer
+on 105 107 133 135 O
+immunohistochemistry 108 128 136 156 B-clinical_variable
+
+Pathologic 0 10 157 167 B-cancer
+T1 11 13 168 170 I-cancer
+or 14 16 171 173 I-cancer
+T2 17 19 174 176 I-cancer
+disease 20 27 177 184 I-cancer
+, 27 28 184 185 O
+resected 29 37 186 194 O
+with 38 42 195 199 O
+negative 43 51 200 208 O
+margins 52 59 209 216 O
+( 60 61 217 218 O
+2 62 63 219 220 O
+mm 63 65 220 222 O
+) 65 66 222 223 O
+Pathologic 67 77 224 234 B-cancer
+N2a 78 81 235 238 I-cancer
+, 81 82 238 239 I-cancer
+N2b 83 86 240 243 I-cancer
+, 86 87 243 244 I-cancer
+or 88 90 245 247 I-cancer
+N2c 91 94 248 251 I-cancer
+disease 95 102 252 259 I-cancer
+
+Patients 0 8 260 268 O
+18 9 11 269 271 B-lower_bound
+years 12 17 272 277 I-lower_bound
+or 18 20 278 280 O
+older 21 26 281 286 O
+
+Presence 0 8 287 295 O
+of 9 11 296 298 O
+N0 12 14 299 301 B-chronic_disease
+or 15 17 302 304 O
+N1 18 20 305 307 B-chronic_disease
+disease 21 28 308 315 I-chronic_disease
+in 29 31 316 318 O
+neck 32 36 319 323 B-treatment
+dissection 37 47 324 334 I-treatment
+
+Presence 0 8 335 343 O
+of 9 11 344 346 O
+T3 12 14 347 349 B-cancer
+or 15 17 350 352 O
+T4 18 20 353 355 B-cancer
+disease 21 28 356 363 I-cancer
+
+Presence 0 8 364 372 O
+of 9 11 373 375 O
+close 12 17 376 381 O
+( 18 19 382 383 O
+2 19 20 383 384 O
+mm 21 23 385 387 O
+) 23 24 387 388 O
+or 25 27 389 391 O
+positive 28 36 392 400 O
+margins 37 44 401 408 O
+PNI 45 48 409 412 O
+on 49 51 413 415 O
+TORS 52 56 416 420 O
+resection 57 66 421 430 O
+of 67 69 431 433 O
+the 70 73 434 437 O
+primary 74 81 438 445 B-cancer
+cancer 82 88 446 452 I-cancer
+
+Presence 0 8 453 461 O
+of 9 11 462 464 O
+distant 12 19 465 472 B-cancer
+metastatic 20 30 473 483 I-cancer
+( 31 32 484 485 I-cancer
+M1 32 34 485 487 I-cancer
+) 34 35 487 488 I-cancer
+disease 36 43 489 496 I-cancer
+
+Prior 0 5 497 502 O
+chemotherapy 6 18 503 515 B-treatment
+within 19 25 516 522 O
+the 26 29 523 526 O
+past 30 34 527 531 B-upper_bound
+5 35 36 532 533 I-upper_bound
+years 37 42 534 539 I-upper_bound
+
+Prior 0 5 540 545 B-treatment
+radiation 6 15 546 555 I-treatment
+therapy 16 23 556 563 I-treatment
+to 24 26 564 566 O
+the 27 30 567 570 O
+head 31 35 571 575 O
+and 36 39 576 579 O
+neck 40 44 580 584 O
+
+Uncontrolled 0 12 585 597 O
+intercurrent 13 25 598 610 B-chronic_disease
+illness 26 33 611 618 I-chronic_disease
+
+connective 0 10 619 629 B-chronic_disease
+tissue 11 17 630 636 I-chronic_disease
+disease 18 25 637 644 I-chronic_disease
+
+psychiatric 0 11 645 656 B-chronic_disease
+illness 12 19 657 664 I-chronic_disease
+/ 19 20 664 665 O
+social 20 26 665 671 O
+situations 27 37 672 682 O
+that 38 42 683 687 O
+would 43 48 688 693 O
+limit 49 54 694 699 O
+compliance 55 65 700 710 O
+with 66 70 711 715 O
+study 71 76 716 721 O
+requirements 77 89 722 734 O
+
+symptomatic 0 11 735 746 B-chronic_disease
+congestive 12 22 747 757 I-chronic_disease
+heart 23 28 758 763 I-chronic_disease
+failure 29 36 764 771 I-chronic_disease
+
+unstable 0 8 772 780 B-chronic_disease
+angina 9 15 781 787 I-chronic_disease
+pectoris 16 24 788 796 I-chronic_disease
+

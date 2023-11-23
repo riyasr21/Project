@@ -1,0 +1,5 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+

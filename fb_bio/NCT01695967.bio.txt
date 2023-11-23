@@ -1,0 +1,73 @@
+Physical 0 8 0 8 B-clinical_variable
+Exam 9 13 9 13 I-clinical_variable
+defined 14 21 14 21 O
+by 22 24 22 24 O
+> 25 26 25 26 O
+50 26 28 26 28 B-lower_bound
+% 28 29 28 29 I-lower_bound
+obstruction 30 41 30 41 O
+
+ages 0 4 42 46 B-age
+3 5 6 47 48 B-lower_bound
+- 6 7 48 49 O
+16 7 9 49 51 B-upper_bound
+
+bleeding 0 8 52 60 B-chronic_disease
+disorders 9 18 61 70 I-chronic_disease
+
+congenital 0 10 71 81 B-chronic_disease
+head 11 15 82 86 I-chronic_disease
+and 16 19 87 90 I-chronic_disease
+neck 20 24 91 95 I-chronic_disease
+malformations 25 38 96 109 I-chronic_disease
+
+craniofacial 0 12 110 122 B-chronic_disease
+anomalies 13 22 123 132 I-chronic_disease
+
+current 0 7 133 140 O
+therapy 8 15 141 148 O
+with 16 20 149 153 O
+coumadin 21 29 154 162 B-treatment
+or 30 32 163 165 O
+Pradaxa 33 40 166 173 B-treatment
+
+evidence 0 8 174 182 O
+of 9 11 183 185 O
+turbinate 12 21 186 195 B-chronic_disease
+hypertrophy 22 33 196 207 I-chronic_disease
+or 34 36 208 210 O
+symptoms 37 45 211 219 O
+of 46 48 220 222 O
+nasal 49 54 223 228 B-chronic_disease
+obstruction 55 66 229 240 I-chronic_disease
+
+failed 0 6 241 247 O
+medical 7 14 248 255 O
+treatment 15 24 256 265 O
+with 25 29 266 270 O
+either 30 36 271 277 O
+oral 37 41 278 282 B-treatment
+anti 42 46 283 287 I-treatment
+- 46 47 287 288 I-treatment
+histamine 47 56 288 297 I-treatment
+or 57 59 298 300 O
+nasal 60 65 301 306 B-treatment
+steroid 66 73 307 314 I-treatment
+spray 74 79 315 320 I-treatment
+
+genetic 0 7 321 328 B-chronic_disease
+syndromes 8 17 329 338 I-chronic_disease
+
+obstructive 0 11 339 350 B-chronic_disease
+sleep 12 17 351 356 I-chronic_disease
+apnea 18 23 357 362 I-chronic_disease
+warranting 24 34 363 373 O
+adenotonsillectomy 35 53 374 392 B-treatment
+
+pregnancy 0 9 393 402 B-pregnancy
+or 10 12 403 405 O
+breastfeeding 13 26 406 419 O
+
+turbinate 0 9 420 429 B-chronic_disease
+hypertrophy 10 21 430 441 I-chronic_disease
+

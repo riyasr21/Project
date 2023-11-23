@@ -1,0 +1,45 @@
+Active 0 6 0 6 B-chronic_disease
+infections 7 17 7 17 I-chronic_disease
+
+Aged 0 4 18 22 B-age
+≥70 5 8 23 26 O
+years 9 14 27 32 I-lower_bound
+of 15 17 33 35 O
+all 18 21 36 39 O
+ethnicities 22 33 40 51 O
+
+Diagnosed 0 9 52 61 O
+with 10 14 62 66 O
+End 15 18 67 70 O
+- 18 19 70 71 O
+stage 19 24 71 76 O
+Renal 25 30 77 82 B-chronic_disease
+Disease 31 38 83 90 I-chronic_disease
+stage 39 44 91 96 I-chronic_disease
+4 45 46 97 98 I-chronic_disease
+
+GFR 0 3 99 102 B-clinical_variable
+15 4 6 103 105 B-lower_bound
+- 6 7 105 106 O
+29 7 9 106 108 B-upper_bound
+ml 10 12 109 111 I-upper_bound
+/ 12 13 111 112 I-upper_bound
+min 13 16 112 115 I-upper_bound
+1.73m2 17 23 116 122 I-upper_bound
+
+GFR 0 3 123 126 B-clinical_variable
+< 4 5 127 128 O
+15ml 5 9 128 132 B-upper_bound
+/ 9 10 132 133 I-upper_bound
+min 10 13 133 136 I-upper_bound
+1.73m2 14 20 137 143 I-upper_bound
+
+a 0 1 144 145 O
+bleeding 2 10 146 154 B-chronic_disease
+disorder 11 19 155 163 I-chronic_disease
+
+within 0 6 164 170 O
+past 7 11 171 175 B-upper_bound
+6 12 13 176 177 I-upper_bound
+months 14 20 178 184 I-upper_bound
+

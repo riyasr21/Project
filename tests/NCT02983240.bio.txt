@@ -1,0 +1,147 @@
+A 0 1 0 1 O
+fetal 2 7 2 7 B-chronic_disease
+cardiac 8 15 8 15 I-chronic_disease
+arrhythmia 16 26 16 26 I-chronic_disease
+
+A 0 1 27 28 O
+permanent 2 11 29 38 O
+cardiac 12 19 39 46 O
+pacemaker 20 29 47 56 B-treatment
+
+Active 0 6 57 63 O
+preterm 7 14 64 71 O
+labor 15 20 72 77 O
+with 21 25 78 82 O
+cervical 26 34 83 91 B-clinical_variable
+dilation 35 43 92 100 I-clinical_variable
+> 44 45 101 102 O
+6 46 47 103 104 B-lower_bound
+cm 48 50 105 107 I-lower_bound
+
+Be 0 2 108 110 O
+between 3 10 111 118 O
+18 11 13 119 121 B-lower_bound
+- 14 15 122 123 O
+50 16 18 124 126 B-upper_bound
+years 19 24 127 132 I-upper_bound
+of 25 27 133 135 O
+age 28 31 136 139 B-age
+
+Be 0 2 140 142 O
+between 3 10 143 150 O
+23 11 13 151 153 B-lower_bound
+to 14 16 154 156 O
+34 17 19 157 159 B-upper_bound
+weeks 20 25 160 165 I-upper_bound
+pregnant 26 34 166 174 B-pregnancy
+with 35 39 175 179 O
+a 40 41 180 181 O
+singleton 42 51 182 191 O
+gestation 52 61 192 201 O
+
+Contraindication 0 16 202 218 O
+for 17 20 219 222 O
+tocolysis 21 30 223 232 B-allergy_name
+e.g. 31 35 233 237 O
+premature 36 45 238 247 O
+rupture 46 53 248 255 O
+of 54 56 256 258 O
+the 57 60 259 262 O
+amniotic 61 69 263 271 O
+membranes 70 79 272 281 O
+allowing 80 88 282 290 O
+for 89 92 291 294 O
+ascending 93 102 295 304 O
+intrauterine 103 115 305 317 B-chronic_disease
+infection 116 125 318 327 I-chronic_disease
+with 126 130 328 332 O
+group 131 136 333 338 B-chronic_disease
+B 137 138 339 340 I-chronic_disease
+streptococcus 139 152 341 354 I-chronic_disease
+or 153 155 355 357 I-chronic_disease
+GBS 156 159 358 361 I-chronic_disease
+( 160 161 362 363 O
+beta 161 165 363 367 B-chronic_disease
+hemolytic 166 175 368 377 I-chronic_disease
+streptococcus 176 189 378 391 I-chronic_disease
+, 189 190 391 392 O
+S. 191 193 393 395 B-chronic_disease
+agalactiae 194 204 396 406 I-chronic_disease
+) 204 205 406 407 O
+or 206 208 408 410 O
+other 209 214 411 416 O
+micro 215 220 417 422 O
+- 220 221 422 423 O
+organisms 221 230 423 432 O
+
+Fetal 0 5 433 438 B-chronic_disease
+anomaly 6 13 439 446 I-chronic_disease
+incompatible 14 26 447 459 O
+with 27 31 460 464 O
+life 32 36 465 469 O
+
+Frank 0 5 470 475 O
+chorioamnionitis 6 22 476 492 B-chronic_disease
+
+Hepatitis 0 9 493 502 B-chronic_disease
+C 10 11 503 504 I-chronic_disease
+
+IV 0 2 505 507 O
+or 3 5 508 510 O
+po 6 8 511 513 O
+narcotic 9 17 514 522 B-clinical_variable
+pain 18 22 523 527 I-clinical_variable
+medication 23 33 528 538 I-clinical_variable
+< 34 35 539 540 O
+12 36 38 541 543 B-upper_bound
+hours 39 44 544 549 I-upper_bound
+prior 45 50 550 555 I-upper_bound
+to 51 53 556 558 O
+admission 54 63 559 568 O
+
+Pregnancy 0 9 569 578 B-clinical_variable
+Depression 10 20 579 589 I-clinical_variable
+Scale 21 26 590 595 I-clinical_variable
+score 27 32 596 601 I-clinical_variable
+< 33 34 602 603 O
+16 35 37 604 606 B-upper_bound
+
+Severe 0 6 607 613 B-chronic_disease
+abruption 7 16 614 623 I-chronic_disease
+placenta 17 25 624 632 I-chronic_disease
+
+Severe 0 6 633 639 B-chronic_disease
+fetal 7 12 640 645 I-chronic_disease
+growth 13 19 646 652 I-chronic_disease
+restriction 20 31 653 664 I-chronic_disease
+( 32 33 665 666 O
+EFW 33 36 666 669 B-clinical_variable
+< 37 38 670 671 O
+5 39 40 672 673 B-upper_bound
+% 40 41 673 674 I-upper_bound
+) 41 42 674 675 O
+
+Severe 0 6 676 682 B-chronic_disease
+preeclampsia 7 19 683 695 I-chronic_disease
+
+Vaginal 0 7 696 703 B-clinical_variable
+bleeding 8 16 704 712 I-clinical_variable
+> 17 18 713 714 O
+10 19 21 715 717 B-lower_bound
+cc 22 24 718 720 I-lower_bound
+
+long 0 4 721 725 O
+acting 5 11 726 732 O
+oral 12 16 733 737 B-treatment
+maintenance 17 28 738 749 I-treatment
+opiates 29 36 750 757 I-treatment
+i.e. 37 41 758 762 O
+methadone 42 51 763 772 B-treatment
+, 51 52 772 773 O
+Suboxone 53 61 774 782 B-treatment
+, 61 62 782 783 O
+Subutex 63 70 784 791 B-treatment
+
+regional 0 8 792 800 B-treatment
+anesthesia 9 19 801 811 I-treatment
+

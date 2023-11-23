@@ -1,0 +1,85 @@
+65 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Access 0 6 25 31 B-technology_access
+to 7 9 32 34 I-technology_access
+internet 10 18 35 43 I-technology_access
+3 19 20 44 45 B-upper_bound
+hours 21 26 46 51 I-upper_bound
+per 27 30 52 55 I-upper_bound
+week 31 35 56 60 I-upper_bound
+
+Current 0 7 61 68 O
+or 8 10 69 71 O
+past 11 15 72 76 O
+major 16 21 77 82 B-chronic_disease
+psychiatric 22 33 83 94 I-chronic_disease
+illness 34 41 95 102 I-chronic_disease
+( 42 43 103 104 O
+e.g. 43 47 104 108 O
+, 47 48 108 109 O
+schizophrenia 49 62 110 123 B-chronic_disease
+, 62 63 123 124 O
+bipolar 64 71 125 132 B-chronic_disease
+affective 72 81 133 142 I-chronic_disease
+disorder 82 90 143 151 I-chronic_disease
+) 90 91 151 152 O
+
+Current 0 7 153 160 O
+use 8 11 161 164 O
+of 12 14 165 167 O
+antipsychotics 15 29 168 182 B-treatment
+or 30 32 183 185 O
+anticonvulsant 33 47 186 200 B-treatment
+medications 48 59 201 212 I-treatment
+
+History 0 7 213 220 O
+of 8 10 221 223 O
+major 11 16 224 229 O
+stroke 17 23 230 236 B-chronic_disease
+
+Mild 0 4 237 241 B-chronic_disease
+Cognitive 5 14 242 251 I-chronic_disease
+Impairment 15 25 252 262 I-chronic_disease
+
+head 0 4 263 267 B-clinical_variable
+injury 5 11 268 274 I-clinical_variable
+with 12 16 275 279 I-clinical_variable
+loss 17 21 280 284 I-clinical_variable
+of 22 24 285 287 I-clinical_variable
+consciousness 25 38 288 301 I-clinical_variable
+of 39 41 302 304 O
+> 42 43 305 306 O
+30 43 45 306 308 B-lower_bound
+minutes 46 53 309 316 I-lower_bound
+
+other 0 5 317 322 O
+neurological 6 18 323 335 B-chronic_disease
+disorder 19 27 336 344 I-chronic_disease
+
+systemic 0 8 345 353 B-chronic_disease
+illness 9 16 354 361 I-chronic_disease
+that 17 21 362 366 O
+are 22 25 367 370 O
+thought 26 33 371 378 O
+to 34 36 379 381 O
+be 37 39 382 384 O
+affecting 40 49 385 394 O
+cognition 50 59 395 404 O
+( 60 61 405 406 O
+e.g. 61 65 406 410 O
+, 65 66 410 411 O
+seizure 67 74 412 419 B-chronic_disease
+disorder 75 83 420 428 I-chronic_disease
+, 83 84 428 429 O
+demyelinating 85 98 430 443 B-chronic_disease
+disorder 99 107 444 452 I-chronic_disease
+, 107 108 452 453 O
+etc 109 112 454 457 O
+. 112 113 457 458 O
+) 113 114 458 459 O
+

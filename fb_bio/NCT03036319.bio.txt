@@ -1,0 +1,50 @@
+Individuals 0 11 0 11 O
+who 12 15 12 15 O
+have 16 20 16 20 O
+reported 21 29 21 29 O
+cognitive 30 39 30 39 B-chronic_disease
+dysfunction 40 51 40 51 I-chronic_disease
+and 52 55 52 55 O
+cognitively 56 67 56 67 O
+intact 68 74 68 74 O
+participants 75 87 75 87 O
+
+Participants 0 12 88 100 O
+will 13 17 101 105 O
+be 18 20 106 108 O
+age 21 24 109 112 B-age
+50 25 27 113 115 B-lower_bound
+or 28 30 116 118 O
+older 31 36 119 124 O
+
+Sensory 0 7 125 132 B-chronic_disease
+or 8 10 133 135 I-chronic_disease
+motor 11 16 136 141 I-chronic_disease
+impairments 17 28 142 153 I-chronic_disease
+that 29 33 154 158 O
+limit 34 39 159 164 O
+the 40 43 165 168 O
+ability 44 51 169 176 O
+to 52 54 177 179 O
+take 55 59 180 184 O
+part 60 64 185 189 O
+in 65 67 190 192 O
+the 68 71 193 196 O
+study 72 77 197 202 O
+
+Those 0 5 203 208 O
+who 6 9 209 212 O
+are 10 13 213 216 O
+currently 14 23 217 226 B-pregnancy
+pregnant 24 32 227 235 I-pregnancy
+or 33 35 236 238 O
+may 36 39 239 242 O
+become 40 46 243 249 B-pregnancy
+pregnant 47 55 250 258 I-pregnancy
+during 56 62 259 265 O
+the 63 66 266 269 O
+duration 67 75 270 278 O
+of 76 78 279 281 O
+the 79 82 282 285 O
+study 83 88 286 291 O
+

@@ -1,0 +1,38 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 7 8 7 8 O
+85 9 11 9 11 B-upper_bound
+years 12 17 12 17 I-upper_bound
+of 18 20 18 20 O
+age 21 24 21 24 B-age
+
+Alcohol 0 7 25 32 O
+use 8 11 33 36 O
+of 12 14 37 39 O
+more 15 19 40 44 O
+than 20 24 45 49 O
+4 25 26 50 51 B-lower_bound
+drinks 27 33 52 58 I-lower_bound
+per 34 37 59 62 I-lower_bound
+day 38 41 63 66 I-lower_bound
+
+Currently 0 9 67 76 O
+uncontrolled 10 22 77 89 O
+clinically 23 33 90 100 O
+significant 34 45 101 112 O
+depression 46 56 113 123 B-chronic_disease
+( 57 58 124 125 O
+BDI>20 58 64 125 131 B-clinical_variable
+) 64 65 131 132 O
+
+Medically 0 9 133 142 O
+cleared 10 17 143 150 O
+for 18 21 151 154 O
+undergoing 22 32 155 165 O
+anesthesia 33 43 166 176 O
+and 44 47 177 180 O
+DBS 48 51 181 184 B-treatment
+surgery 52 59 185 192 I-treatment
+
+Pregnancy 0 9 193 202 B-pregnancy
+

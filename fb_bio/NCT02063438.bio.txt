@@ -1,0 +1,58 @@
+Less 0 4 0 4 O
+than 5 9 5 9 O
+18 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+of 19 21 19 21 O
+age 22 25 22 25 B-age
+
+Need 0 4 26 30 O
+for 5 8 31 34 O
+a 9 10 35 36 O
+chest 11 16 37 42 B-treatment
+wall 17 21 43 47 I-treatment
+resection 22 31 48 57 I-treatment
+
+Patients 0 8 58 66 O
+requiring 9 18 67 76 O
+other 19 24 77 82 O
+incisions 25 34 83 92 B-treatment
+in 35 37 93 95 O
+addition 38 46 96 104 O
+to 47 49 105 107 O
+a 50 51 108 109 O
+thoracotomy 52 63 110 121 B-treatment
+( 64 65 122 123 O
+i.e. 65 69 123 127 O
+, 69 70 127 128 O
+Laparotomy 71 81 129 139 B-treatment
+, 81 82 139 140 O
+sternotomy 83 93 141 151 B-treatment
+
+Patients 0 8 152 160 O
+undergoing 9 19 161 171 O
+an 20 22 172 174 O
+elective 23 31 175 183 B-treatment
+procedure 32 41 184 193 I-treatment
+that 42 46 194 198 O
+will 47 51 199 203 O
+include 52 59 204 211 O
+a 60 61 212 213 O
+thoracotomy 62 73 214 225 B-treatment
+
+Previous 0 8 226 234 O
+history 9 16 235 242 O
+of 17 19 243 245 O
+thoracic 20 28 246 254 B-chronic_disease
+trauma 29 35 255 261 I-chronic_disease
+on 36 38 262 264 O
+the 39 42 265 268 O
+operative 43 52 269 278 O
+side 53 57 279 283 O
+
+Previous 0 8 284 292 O
+thoracotomy 9 20 293 304 B-treatment
+on 21 23 305 307 O
+the 24 27 308 311 O
+operative 28 37 312 321 O
+side 38 42 322 326 O
+

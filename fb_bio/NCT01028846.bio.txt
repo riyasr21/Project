@@ -1,0 +1,105 @@
+< 0 1 0 1 O
+4 2 3 2 3 B-upper_bound
+week 4 8 4 8 I-upper_bound
+history 9 16 9 16 O
+of 17 19 17 19 O
+participation 20 33 20 33 O
+in 34 36 34 36 O
+another 37 44 37 44 O
+drug 45 49 45 49 O
+trial 50 55 50 55 O
+
+A1C 0 3 56 59 B-clinical_variable
+> 4 5 60 61 O
+8 5 6 61 62 B-lower_bound
+
+Abnormal 0 8 63 71 B-chronic_disease
+EKG 9 12 72 75 I-chronic_disease
+
+BMI 0 3 76 79 B-bmi
+23 4 6 80 82 B-lower_bound
+- 6 7 82 83 O
+27 7 9 83 85 B-upper_bound
+
+BMI 0 3 86 89 B-bmi
+27 4 6 90 92 B-lower_bound
+- 6 7 92 93 O
+32 7 9 93 95 B-upper_bound
+
+BMI 0 3 96 99 B-bmi
+> 4 5 100 101 O
+27 6 8 102 104 B-lower_bound
+
+BP 0 2 105 107 B-clinical_variable
+< 3 4 108 109 O
+130/90 5 11 110 116 B-upper_bound
+( 12 13 117 118 I-upper_bound
++ 13 14 118 119 I-upper_bound
+-2 14 16 119 121 I-upper_bound
+meds 17 21 122 126 I-upper_bound
+) 21 22 126 127 I-upper_bound
+
+BP>130/90 0 9 128 137 B-clinical_variable
+( 10 11 138 139 O
++ 11 12 139 140 O
+- 12 13 140 141 O
+medications 14 25 142 153 O
+) 25 26 153 154 O
+
+First 0 5 155 160 O
+degree 6 12 161 167 O
+relative 13 21 168 176 O
+with 22 26 177 181 O
+early 27 32 182 187 O
+CAD 33 36 188 191 B-chronic_disease
+or 37 39 192 194 O
+MI 40 42 195 197 B-chronic_disease
+
+HTN 0 3 198 201 B-clinical_variable
+( 4 5 202 203 O
+on 5 7 203 205 O
+< 8 9 206 207 O
+or 10 12 208 210 O
+= 13 14 211 212 O
+2 15 16 213 214 B-upper_bound
+meds 17 21 215 219 I-upper_bound
+) 21 22 219 220 O
+
+History 0 7 221 228 O
+of 8 10 229 231 O
+CAD 11 14 232 235 B-chronic_disease
+
+Medications 0 11 236 247 O
+for 12 15 248 251 O
+medical 16 23 252 259 O
+or 24 26 260 262 O
+psychiatric 27 38 263 274 B-chronic_disease
+conditions 39 49 275 285 I-chronic_disease
+including 50 59 286 295 O
+: 59 60 295 296 O
+dofetilide 61 71 297 307 B-treatment
+, 71 72 307 308 O
+fosphenytoin 73 85 309 321 B-treatment
+/ 85 86 321 322 I-treatment
+phenytoin 86 95 322 331 I-treatment
+trichlormethiazide 96 114 332 350 I-treatment
+( 115 116 351 352 I-treatment
+any 116 119 352 355 I-treatment
+thiazide 120 128 356 364 I-treatment
+) 128 129 364 365 I-treatment
+, 129 130 365 366 O
+chlorpromazine 131 145 367 381 B-treatment
+and 146 149 382 385 O
+warfarin 150 158 386 394 B-treatment
+
+No 0 2 395 397 O
+family 3 9 398 404 O
+history 10 17 405 412 O
+of 18 20 413 415 O
+diabetes 21 29 416 424 B-chronic_disease
+
+hypercholesterolemia 0 20 425 445 B-chronic_disease
+
+stable 0 6 446 452 O
+retinopathy 7 18 453 464 B-chronic_disease
+

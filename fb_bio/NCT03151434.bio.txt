@@ -1,0 +1,57 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Any 0 3 16 19 O
+contraindication 4 20 20 36 O
+for 21 24 37 40 O
+Thoracic 25 33 41 49 B-allergy_name
+Epidural 34 42 50 58 I-allergy_name
+or 43 45 59 61 O
+Paravertebral 46 59 62 75 B-allergy_name
+block 60 65 76 81 I-allergy_name
+
+Desires 0 7 82 89 O
+Regional 8 16 90 98 O
+anesthesia 17 27 99 109 B-treatment
+for 28 31 110 113 O
+postoperative 32 45 114 127 O
+pain 46 50 128 132 O
+control 51 58 133 140 O
+
+Known 0 5 141 146 O
+allergy 6 13 147 154 O
+or 14 16 155 157 O
+other 17 22 158 163 O
+contraindications 23 40 164 181 O
+to 41 43 182 184 O
+the 44 47 185 188 O
+study 48 53 189 194 O
+medications 54 65 195 206 O
+, 66 67 207 208 O
+which 68 73 209 214 O
+include 74 81 215 222 O
+dilaudid 82 90 223 231 B-allergy_name
+, 90 91 231 232 O
+bupivacaine 92 103 233 244 B-allergy_name
+, 103 104 244 245 O
+ropivacaine 105 116 246 257 B-allergy_name
+
+Patient 0 7 258 265 O
+staying 8 15 266 273 O
+intubated 16 25 274 283 O
+after 26 31 284 289 O
+surgery 32 39 290 297 B-treatment
+
+Pt 0 2 298 300 O
+undergoing 3 13 301 311 O
+VATS 14 18 312 316 B-treatment
+procedure 19 28 317 326 O
+at 29 31 327 329 O
+Indiana 32 39 330 337 O
+University 40 50 338 348 O
+Hospital 51 59 349 357 O
+
+male 0 4 358 362 B-gender
+

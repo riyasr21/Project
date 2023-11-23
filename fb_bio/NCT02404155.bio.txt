@@ -1,0 +1,215 @@
+ANC<2500 0 8 0 8 B-clinical_variable
+cells 9 14 9 14 I-upper_bound
+/ 14 15 14 15 I-upper_bound
+mm3 15 18 15 18 I-upper_bound
+in 19 21 19 21 O
+past 22 26 22 26 B-upper_bound
+24 27 29 27 29 I-upper_bound
+months 30 36 30 36 I-upper_bound
+
+African 0 7 37 44 B-ethnicity
+Ancestry 8 16 45 53 I-ethnicity
+( 17 18 54 55 O
+African 18 25 55 62 O
+, 25 26 62 63 O
+African 27 34 64 71 B-ethnicity
+- 34 35 71 72 I-ethnicity
+American 35 43 72 80 I-ethnicity
+or 44 46 81 83 O
+African 47 54 84 91 B-ethnicity
+- 54 55 91 92 I-ethnicity
+Caribbean 55 64 92 101 I-ethnicity
+) 64 65 101 102 O
+
+Age 0 3 103 106 B-age
+: 3 4 106 107 O
+18 5 7 108 110 B-lower_bound
+to 8 10 111 113 O
+64 11 13 114 116 B-upper_bound
+years 14 19 117 122 I-upper_bound
+
+Current 0 7 123 130 O
+treated 8 15 131 138 B-cancer
+or 16 18 139 141 I-cancer
+untreated 19 28 142 151 I-cancer
+cancer 29 35 152 158 I-cancer
+
+DSM 0 3 159 162 O
+- 3 4 162 163 O
+IV 4 6 163 165 O
+diagnosis 7 16 166 175 O
+of 17 19 176 178 O
+Mental 20 26 179 185 B-chronic_disease
+Retardation 27 38 186 197 I-chronic_disease
+
+Documented 0 10 198 208 O
+nutritional 11 22 209 220 O
+deficiencies 23 35 221 233 O
+( 36 37 234 235 O
+such 37 41 235 239 O
+as 42 44 240 242 O
+Beriberi 45 53 243 251 B-chronic_disease
+, 53 54 251 252 O
+Pellagra 55 63 253 261 B-chronic_disease
+, 63 64 261 262 O
+Rickets 65 72 263 270 B-chronic_disease
+, 72 73 270 271 O
+Scurvy 74 80 272 278 B-chronic_disease
+, 80 81 278 279 O
+Keshan 82 88 280 286 B-chronic_disease
+Disease 89 96 287 294 I-chronic_disease
+) 96 97 294 295 O
+
+Eligible 0 8 296 304 O
+and 9 12 305 308 O
+recommended 13 24 309 320 O
+for 25 28 321 324 O
+clozapine 29 38 325 334 B-treatment
+treatment 39 48 335 344 I-treatment
+( 49 50 345 346 O
+e.g. 50 54 346 350 O
+treatment 55 64 351 360 B-treatment
+resistant 65 74 361 370 I-treatment
+schizophrenia 75 88 371 384 I-treatment
+, 88 89 384 385 O
+schizoaffective 90 105 386 401 B-chronic_disease
+disorder 106 114 402 410 I-chronic_disease
+, 114 115 410 411 O
+bipolar 116 123 412 419 B-chronic_disease
+disorder 124 132 420 428 I-chronic_disease
+, 132 133 428 429 O
+other 134 139 430 435 O
+psychotic 140 149 436 445 B-chronic_disease
+disorder 150 158 446 454 I-chronic_disease
+, 158 159 454 455 O
+delusional 160 170 456 466 B-chronic_disease
+disorder 171 179 467 475 I-chronic_disease
+, 179 180 475 476 O
+hostility 181 190 477 486 O
+, 190 191 486 487 O
+other 192 197 488 493 O
+documented 198 208 494 504 O
+rationale 209 218 505 514 O
+) 218 219 514 515 O
+
+Female 0 6 516 522 B-gender
+
+Grave 0 5 523 528 B-chronic_disease
+'s 5 7 528 530 I-chronic_disease
+Disease 8 15 531 538 I-chronic_disease
+
+Hashimoto 0 9 539 548 B-chronic_disease
+'s 9 11 548 550 I-chronic_disease
+Thyroiditis 12 23 551 562 I-chronic_disease
+
+History 0 7 563 570 O
+of 8 10 571 573 O
+a 11 12 574 575 O
+low 13 16 576 579 O
+absolute 17 25 580 588 B-clinical_variable
+neutrophil 26 36 589 599 I-clinical_variable
+count 37 42 600 605 I-clinical_variable
+
+History 0 7 606 613 O
+of 8 10 614 616 O
+clozapine 11 20 617 626 B-clinical_variable
+- 20 21 626 627 I-clinical_variable
+induced 21 28 627 634 I-clinical_variable
+ANC 29 32 635 638 I-clinical_variable
+< 33 34 639 640 O
+700 35 38 641 644 B-upper_bound
+mm3 39 42 645 648 I-upper_bound
+
+History 0 7 649 656 O
+of 8 10 657 659 O
+myeloproliferative 11 29 660 678 B-cancer
+disorder 30 38 679 687 I-cancer
+
+History 0 7 688 695 O
+of 8 10 696 698 O
+paralytic 11 20 699 708 B-chronic_disease
+ileus 21 26 709 714 I-chronic_disease
+
+Male 0 4 715 719 B-gender
+
+Multiple 0 8 720 728 B-chronic_disease
+Sclerosis 9 18 729 738 I-chronic_disease
+
+Pregnancy 0 9 739 748 B-pregnancy
+
+Sickle 0 6 749 755 B-chronic_disease
+cell 7 11 756 760 I-chronic_disease
+anemia 12 18 761 767 I-chronic_disease
+
+Sjogren 0 7 768 775 B-chronic_disease
+'s 7 9 775 777 I-chronic_disease
+Syndrome 10 18 778 786 I-chronic_disease
+
+Systemic 0 8 787 795 B-chronic_disease
+Lupus 9 14 796 801 I-chronic_disease
+Erythematosus 15 28 802 815 I-chronic_disease
+
+Temperature 0 11 816 827 B-clinical_variable
+> 12 13 828 829 O
+37.5 14 18 830 834 B-lower_bound
+º 19 20 835 836 I-lower_bound
+Celsius 21 28 837 844 I-lower_bound
+, 28 29 844 845 O
+99.5 30 34 846 850 B-lower_bound
+º 35 36 851 852 I-lower_bound
+Fahrenheit 37 47 853 863 I-lower_bound
+
+This 0 4 864 868 O
+is 5 7 869 871 O
+a 8 9 872 873 O
+score 10 15 874 879 O
+of 16 18 880 882 O
+≥10/12 19 25 883 889 O
+on 26 28 890 892 O
+ESC 29 32 893 896 B-clinical_variable
+
+Uncontrolled 0 12 897 909 O
+seizure 13 20 910 917 B-chronic_disease
+disorder 21 29 918 926 I-chronic_disease
+
+there 0 5 927 932 O
+are 6 9 933 936 O
+cases 10 15 937 942 O
+of 16 18 943 945 O
+BEN 19 22 946 949 O
+in 23 25 950 952 O
+individuals 26 37 953 964 O
+of 38 40 965 967 O
+Middle 41 47 968 974 B-ethnicity
+Eastern 48 55 975 982 I-ethnicity
+, 55 56 982 983 O
+Caucasian 57 66 984 993 B-ethnicity
+, 66 67 993 994 O
+and 68 71 995 998 O
+other 72 77 999 1004 O
+ethnicity 78 87 1005 1014 O
+
+treatment 0 9 1015 1024 O
+would 10 15 1025 1030 O
+likely 16 22 1031 1037 O
+alter 23 28 1038 1043 O
+the 29 32 1044 1047 O
+presentation 33 45 1048 1060 O
+or 46 48 1061 1063 O
+treatment 49 58 1064 1073 O
+of 59 61 1074 1076 O
+schizophrenia 62 75 1077 1090 B-chronic_disease
+or 76 78 1091 1093 O
+significantly 79 92 1094 1107 O
+increase 93 101 1108 1116 O
+the 102 105 1117 1120 O
+risks 106 111 1121 1126 O
+associated 112 122 1127 1137 O
+with 123 127 1138 1142 O
+the 128 131 1143 1146 O
+proposed 132 140 1147 1155 O
+protocol 141 149 1156 1164 O
+
+viral 0 5 1165 1170 B-chronic_disease
+infection 6 15 1171 1180 I-chronic_disease
+

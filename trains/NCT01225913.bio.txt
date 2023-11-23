@@ -1,0 +1,15 @@
+< 0 1 0 1 O
+10 1 3 1 3 B-upper_bound
+pack 4 8 4 8 I-upper_bound
+yr 9 11 9 11 I-upper_bound
+smoking 12 19 12 19 O
+history 20 27 20 27 O
+
+Age 0 3 28 31 B-age
+10 4 6 32 34 B-lower_bound
+- 6 7 34 35 O
+80 7 9 35 37 B-upper_bound
+yr 10 12 38 40 I-upper_bound
+
+Pregnancy 0 9 41 50 B-pregnancy
+

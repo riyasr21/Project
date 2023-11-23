@@ -1,0 +1,105 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+autism 13 19 13 19 B-chronic_disease
+based 20 25 20 25 O
+on 26 28 26 28 O
+DSM 29 32 29 32 O
+- 32 33 32 33 O
+IV 33 35 33 35 O
+- 35 36 35 36 O
+TR 36 38 36 38 O
+criteria 39 47 39 47 O
+
+Has 0 3 48 51 O
+a 4 5 52 53 O
+diagnosis 6 15 54 63 O
+of 16 18 64 66 O
+ASD 19 22 67 70 B-chronic_disease
+
+Have 0 4 71 75 O
+a 5 6 76 77 O
+medical 7 14 78 85 O
+diagnosis 15 24 86 95 O
+that 25 29 96 100 O
+causes 30 36 101 107 O
+autism 37 43 108 114 B-chronic_disease
+like 44 48 115 119 O
+symptomology 49 61 120 132 O
+( 62 63 133 134 O
+e.g. 63 67 134 138 O
+, 67 68 138 139 O
+Fragile 69 76 140 147 B-chronic_disease
+X 77 78 148 149 I-chronic_disease
+, 78 79 149 150 O
+Down 80 84 151 155 B-chronic_disease
+syndrome 85 93 156 164 I-chronic_disease
+, 93 94 164 165 O
+Angelman 95 103 166 174 B-chronic_disease
+'s 103 105 174 176 I-chronic_disease
+syndrome 106 114 177 185 I-chronic_disease
+, 114 115 185 186 O
+tuberous 116 124 187 195 B-chronic_disease
+sclerosis 125 134 196 205 I-chronic_disease
+, 134 135 205 206 O
+Rett 136 140 207 211 B-chronic_disease
+'s 140 142 211 213 I-chronic_disease
+disorder 143 151 214 222 I-chronic_disease
+) 151 152 222 223 O
+
+Males 0 5 224 229 B-gender
+
+Receiving 0 9 230 239 O
+or 10 12 240 242 O
+will 13 17 243 247 O
+receive 18 25 248 255 O
+a 26 27 256 257 O
+parent 28 34 258 264 O
+delivered 35 44 265 274 O
+intervention 45 57 275 287 O
+to 58 60 288 290 O
+alleviate 61 70 291 300 O
+symptoms 71 79 301 309 O
+related 80 87 310 317 O
+to 88 90 318 320 O
+their 91 96 321 326 O
+diagnosis 97 106 327 336 O
+of 107 109 337 339 O
+autistic 110 118 340 348 B-chronic_disease
+disorder 119 127 349 357 I-chronic_disease
+
+age 0 3 358 361 B-age
+range 4 9 362 367 O
+between 10 17 368 375 O
+1.6 18 21 376 379 B-lower_bound
+and 22 25 380 383 O
+17.11 26 31 384 389 B-upper_bound
+years 32 37 390 395 I-upper_bound
+of 38 40 396 398 O
+age 41 44 399 402 O
+
+between 0 7 403 410 O
+the 8 11 411 414 O
+ages 12 16 415 419 B-age
+of 17 19 420 422 O
+1.6 20 23 423 426 B-lower_bound
+and 24 27 427 430 O
+17.11 28 33 431 436 B-upper_bound
+years 34 39 437 442 I-upper_bound
+of 40 42 443 445 O
+age 43 46 446 449 O
+
+females 0 7 450 457 B-gender
+
+medically 0 9 458 467 O
+unstable 10 18 468 476 O
+( 19 20 477 478 O
+e.g. 20 24 478 482 O
+, 24 25 482 483 O
+more 26 30 484 488 O
+than 31 35 489 493 O
+one 36 39 494 497 B-lower_bound
+seizure 40 47 498 505 B-chronic_disease
+a 48 49 506 507 O
+month 50 55 508 513 O
+) 55 56 513 514 O
+

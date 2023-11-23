@@ -1,0 +1,43 @@
+allergic 0 8 0 8 B-allergy_name
+rhinitis 9 17 9 17 I-allergy_name
+symptoms 18 26 18 26 O
+or 27 29 27 29 O
+cold 30 34 30 34 O
+on 35 37 35 37 O
+day 38 41 38 41 O
+of 42 44 42 44 O
+testing 45 52 45 52 O
+
+bilaterally 0 11 53 64 B-chronic_disease
+intact 12 18 65 71 I-chronic_disease
+tympanic 19 27 72 80 I-chronic_disease
+membranes 28 37 81 90 I-chronic_disease
+
+existing 0 8 91 99 O
+middle 9 15 100 106 B-chronic_disease
+- 15 16 106 107 I-chronic_disease
+ear 16 19 107 110 I-chronic_disease
+disease 20 27 111 118 I-chronic_disease
+
+history 0 7 119 126 O
+of 8 10 127 129 O
+ossicular 11 20 130 139 B-treatment
+reconstruction 21 35 140 154 I-treatment
+
+no 0 2 155 157 O
+recent 3 9 158 164 O
+history 10 17 165 172 O
+of 18 20 173 175 O
+non 21 24 176 179 O
+- 24 25 179 180 O
+activity 25 33 180 188 O
+related 34 41 189 196 O
+otitis 42 48 197 203 B-chronic_disease
+media 49 54 204 209 I-chronic_disease
+
+syndrome 0 8 210 218 O
+predisposing 9 21 219 231 O
+to 22 24 232 234 O
+otitis 25 31 235 241 B-chronic_disease
+media 32 37 242 247 I-chronic_disease
+

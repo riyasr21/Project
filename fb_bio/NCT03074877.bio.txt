@@ -1,0 +1,46 @@
+Child 0 5 0 5 O
+must 6 10 6 10 O
+be 11 13 11 13 O
+recipient 14 23 14 23 O
+of 24 26 24 26 O
+needs 27 32 27 32 O
+based 33 38 33 38 O
+Medicaid 39 47 39 47 O
+or 48 50 48 50 O
+family 51 57 51 57 O
+income 58 64 58 64 O
+must 65 69 65 69 O
+be 70 72 70 72 O
+at 73 75 73 75 O
+or 76 78 76 78 O
+below 79 84 79 84 O
+150 85 88 85 88 B-upper_bound
+% 88 89 88 89 I-upper_bound
+Health 90 96 90 96 O
+and 97 100 97 100 O
+Human 101 106 101 106 O
+Services 107 115 107 115 O
+( 116 117 116 117 O
+HHS 117 120 117 120 O
+) 120 121 120 121 O
+Poverty 122 129 122 129 O
+Guidelines 130 140 130 140 O
+
+Having 0 6 141 147 O
+moderate 7 15 148 156 O
+to 16 18 157 159 O
+severe 19 25 160 166 O
+mental 26 32 167 173 B-chronic_disease
+disability 33 43 174 184 I-chronic_disease
+( 44 45 185 186 O
+based 45 50 186 191 O
+on 51 53 192 194 O
+medical 54 61 195 202 O
+records 62 69 203 210 O
+) 69 70 210 211 O
+
+Inability 0 9 212 221 B-language_fluency
+to 10 12 222 224 I-language_fluency
+read 13 17 225 229 I-language_fluency
+English 18 25 230 237 I-language_fluency
+

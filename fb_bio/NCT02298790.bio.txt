@@ -1,0 +1,68 @@
+BMI 0 3 0 3 B-bmi
+< 4 5 4 5 O
+25 6 8 6 8 B-upper_bound
+or 9 11 9 11 O
+> 12 13 12 13 O
+37.9 14 18 14 18 B-lower_bound
+kgm-2 19 24 19 24 I-lower_bound
+
+BMI 0 3 25 28 B-bmi
+between 4 11 29 36 O
+25 12 14 37 39 B-lower_bound
+and 15 18 40 43 O
+37.9 19 23 44 48 B-upper_bound
+kgm-2 24 29 49 54 I-upper_bound
+
+Donating 0 8 55 63 O
+blood 9 14 64 69 O
+within 15 21 70 76 O
+past 22 26 77 81 B-upper_bound
+8 27 28 82 83 I-upper_bound
+weeks 29 34 84 89 I-upper_bound
+
+Hearing 0 7 90 97 B-chronic_disease
+impairment 8 18 98 108 I-chronic_disease
+
+History 0 7 109 116 O
+of 8 10 117 119 O
+neurological 11 23 120 132 B-chronic_disease
+or 24 26 133 135 O
+psychiatric 27 38 136 147 B-chronic_disease
+disorder 39 47 148 156 I-chronic_disease
+
+History 0 7 157 164 O
+of 8 10 165 167 O
+sleep 11 16 168 173 B-chronic_disease
+disorder 17 25 174 182 I-chronic_disease
+or 26 28 183 185 O
+regular 29 36 186 193 O
+use 37 40 194 197 O
+of 41 43 198 200 O
+sleep 44 49 201 206 B-treatment
+- 49 50 206 207 I-treatment
+promoting 50 59 207 216 I-treatment
+medication 60 70 217 227 I-treatment
+
+Traveling 0 9 228 237 O
+across 10 16 238 244 O
+2 17 18 245 246 B-lower_bound
+or 19 21 247 249 O
+more 22 26 250 254 O
+time 27 31 255 259 O
+zones 32 37 260 265 O
+within 38 44 266 272 O
+past 45 49 273 277 B-upper_bound
+3 50 51 278 279 I-upper_bound
+months 52 58 280 286 I-upper_bound
+
+Worked 0 6 287 293 O
+night 7 12 294 299 O
+or 13 15 300 302 O
+rotating 16 24 303 311 O
+shift 25 30 312 317 O
+work 31 35 318 322 O
+within 36 42 323 329 O
+past 43 47 330 334 B-upper_bound
+3 48 49 335 336 I-upper_bound
+years 50 55 337 342 I-upper_bound
+

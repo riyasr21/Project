@@ -1,0 +1,130 @@
+Administration 0 14 0 14 O
+of 15 17 15 17 O
+any 18 21 18 21 O
+other 22 27 22 27 O
+local 28 33 28 33 B-treatment
+anesthetic 34 44 34 44 I-treatment
+in 45 47 45 47 O
+the 48 51 48 51 O
+2 52 53 52 53 B-upper_bound
+hours 54 59 54 59 I-upper_bound
+prior 60 65 60 65 I-upper_bound
+to 66 68 66 68 O
+the 69 72 69 72 O
+study 73 78 73 78 O
+enrollment 79 89 79 89 O
+
+Coagulopathy 0 12 90 102 B-chronic_disease
+with 13 17 103 107 O
+INR 18 21 108 111 B-clinical_variable
+> 22 23 112 113 O
+1.5 23 26 113 116 B-lower_bound
+
+Concern 0 7 117 124 O
+or 8 10 125 127 O
+compartment 11 22 128 139 B-chronic_disease
+syndrome 23 31 140 148 I-chronic_disease
+
+Distal 0 6 149 155 B-chronic_disease
+femur 7 12 156 161 I-chronic_disease
+fractures 13 22 162 171 I-chronic_disease
+
+End 0 3 172 175 B-chronic_disease
+stage 4 9 176 181 I-chronic_disease
+liver 10 15 182 187 I-chronic_disease
+failure 16 23 188 195 I-chronic_disease
+
+History 0 7 196 203 O
+of 8 10 204 206 O
+allergic 11 19 207 215 O
+reaction 20 28 216 224 O
+to 29 31 225 227 O
+local 32 37 228 233 B-allergy_name
+anesthetics 38 49 234 245 I-allergy_name
+
+History 0 7 246 253 O
+of 8 10 254 256 O
+seizure 11 18 257 264 B-chronic_disease
+disorder 19 27 265 273 I-chronic_disease
+, 27 28 273 274 O
+recent 29 35 275 281 O
+seizure 36 43 282 289 O
+or 44 46 290 292 O
+a 47 48 293 294 O
+document 49 57 295 303 O
+intra 58 63 304 309 B-chronic_disease
+- 63 64 309 310 I-chronic_disease
+cranial 64 71 310 317 I-chronic_disease
+hemorrhage 72 82 318 328 I-chronic_disease
+
+Patient 0 7 329 336 O
+'s 7 9 336 338 O
+s 10 11 339 340 O
+/ 11 12 340 341 O
+p 12 13 341 342 O
+trauma 14 20 343 349 B-chronic_disease
+, 20 21 349 350 O
+with 22 26 351 355 O
+confirmed 27 36 356 365 O
+femur 37 42 366 371 O
+and/or 43 49 372 378 O
+hip 50 53 379 382 O
+fractures 54 63 383 392 O
+with 64 68 393 397 O
+a 69 70 398 399 O
+planned 71 78 400 407 O
+admission 79 88 408 417 O
+to 89 91 418 420 O
+the 92 95 421 424 O
+hospital 96 104 425 433 O
+
+Pediatric 0 9 434 443 O
+patients 10 18 444 452 O
+< 19 20 453 454 O
+18 20 22 454 456 B-upper_bound
+years 23 28 457 462 I-upper_bound
+old 29 32 463 466 O
+
+Pregnancy 0 9 467 476 B-pregnancy
+
+Renal 0 5 477 482 B-chronic_disease
+failure 6 13 483 490 I-chronic_disease
+requiring 14 23 491 500 O
+dialysis 24 32 501 509 O
+
+Use 0 3 510 513 O
+of 4 6 514 516 O
+direct 7 13 517 523 B-treatment
+thrombin 14 22 524 532 I-treatment
+inhibitors 23 33 533 543 I-treatment
+( 34 35 544 545 O
+bivalirudin 35 46 545 556 B-treatment
+, 46 47 556 557 O
+argatroban 48 58 558 568 B-treatment
+, 58 59 568 569 O
+desirudin 60 69 570 579 B-treatment
+, 69 70 579 580 O
+dabigatran 71 81 581 591 B-treatment
+etexilate 82 91 592 601 I-treatment
+) 91 92 601 602 O
+, 92 93 602 603 O
+or 94 96 604 606 O
+direct 97 103 607 613 B-treatment
+factor 104 110 614 620 I-treatment
+Xa 111 113 621 623 I-treatment
+inhibitors 114 124 624 634 I-treatment
+( 125 126 635 636 O
+rivaroxaban 126 137 636 647 B-treatment
+, 137 138 647 648 O
+apixaban 139 147 649 657 B-treatment
+, 147 148 657 658 O
+edoxaban 149 157 659 667 B-treatment
+) 157 158 667 668 O
+
+age 0 3 669 672 B-age
+≥18 4 7 673 676 O
+years 8 13 677 682 I-lower_bound
+≤ 14 15 683 684 O
+70 16 18 685 687 B-upper_bound
+years 19 24 688 693 I-upper_bound
+

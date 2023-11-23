@@ -1,0 +1,67 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+25 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+currently 0 9 16 25 O
+able 10 14 26 30 O
+to 15 17 31 33 O
+provide 18 25 34 41 O
+a 26 27 42 43 O
+urine 28 33 44 49 O
+drug 34 38 50 54 O
+screen 39 45 55 61 O
+that 46 50 62 66 O
+is 51 53 67 69 O
+negative 54 62 70 78 O
+for 63 66 79 82 O
+cocaine 67 74 83 90 O
+, 74 75 90 91 O
+prescription 76 88 92 104 O
+opiates 89 96 105 112 O
+, 96 97 112 113 O
+and 98 101 114 117 O
+non 102 105 118 121 O
+- 105 106 121 122 O
+prescribed 106 116 122 132 O
+methadone 117 126 133 142 O
+or 127 129 143 145 O
+provided 130 138 146 154 O
+this 139 143 155 159 O
+type 144 148 160 164 O
+of 149 151 165 167 O
+screen 152 158 168 174 O
+in 159 161 175 177 O
+the 162 165 178 181 O
+past 166 170 182 186 B-upper_bound
+60 171 173 187 189 I-upper_bound
+days 174 178 190 194 I-upper_bound
+
+meets 0 5 195 200 O
+diagnostic 6 16 201 211 O
+criteria 17 25 212 220 O
+for 26 29 221 224 O
+full 30 34 225 229 O
+or 35 37 230 232 O
+subthreshold 38 50 233 245 B-chronic_disease
+posttraumatic 51 64 246 259 I-chronic_disease
+stress 65 71 260 266 I-chronic_disease
+disorder 72 80 267 275 I-chronic_disease
+
+serious 0 7 276 283 B-chronic_disease
+uncontrolled 8 20 284 296 I-chronic_disease
+psychiatric 21 32 297 308 I-chronic_disease
+problem 33 40 309 316 I-chronic_disease
+( 41 42 317 318 O
+other 42 47 318 323 O
+than 48 52 324 328 O
+posttraumatic 53 66 329 342 B-chronic_disease
+stress 67 73 343 349 I-chronic_disease
+disorder 74 82 350 358 I-chronic_disease
+) 82 83 358 359 O
+
+significant 0 11 360 371 O
+cognitive 12 21 372 381 B-chronic_disease
+impairment 22 32 382 392 I-chronic_disease
+

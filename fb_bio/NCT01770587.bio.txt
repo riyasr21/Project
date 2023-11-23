@@ -1,0 +1,9 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Diagnosis 0 9 16 25 O
+of 10 12 26 28 O
+depression 13 23 29 39 B-chronic_disease
+

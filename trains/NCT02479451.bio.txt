@@ -1,0 +1,29 @@
+ESRD 0 4 0 4 B-chronic_disease
+patients 5 13 5 13 O
+on 14 16 14 16 O
+peritoneal 17 27 17 27 B-treatment
+dialysis 28 36 28 36 I-treatment
+
+ESRD 0 4 37 41 B-chronic_disease
+requiring 5 14 42 51 O
+chronic 15 22 52 59 O
+outpatient 23 33 60 70 O
+hemodialysis 34 46 71 83 B-treatment
+
+Patients 0 8 84 92 O
+currently 9 18 93 102 O
+treated 19 26 103 110 O
+with 27 31 111 115 O
+theophylline 32 44 116 128 B-treatment
+for 45 48 129 132 O
+clinical 49 57 133 141 O
+indication 58 68 142 152 O
+
+Pregnancy 0 9 153 162 B-pregnancy
+
+Prior 0 5 163 168 O
+allergic 6 14 169 177 O
+reaction 15 23 178 186 O
+to 24 26 187 189 O
+theophylline 27 39 190 202 B-allergy_name
+

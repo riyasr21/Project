@@ -1,0 +1,16 @@
+expected 0 8 0 8 O
+to 9 11 9 11 O
+require 12 19 12 19 O
+prolonged 20 29 20 29 O
+intubation 30 40 30 40 O
+and 41 44 41 44 O
+mechanical 45 55 45 55 O
+ventilation 56 67 56 67 O
+, 67 68 67 68 O
+without 69 76 69 76 O
+any 77 80 77 80 O
+evidence 81 89 81 89 O
+of 90 92 90 92 O
+active 93 99 93 99 O
+pneumonia 100 109 100 109 B-chronic_disease
+

@@ -1,0 +1,149 @@
+40 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+80 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Female 0 6 19 25 B-gender
+patients 7 15 26 34 I-gender
+planning 16 24 35 43 B-pregnancy
+a 25 26 44 45 I-pregnancy
+pregnancy 27 36 46 55 I-pregnancy
+during 37 43 56 62 O
+the 44 47 63 66 O
+course 48 54 67 73 O
+of 55 57 74 76 O
+the 58 61 77 80 O
+study 62 67 81 86 O
+
+Females 0 7 87 94 B-gender
+
+Males 0 5 95 100 B-gender
+
+Obese 0 5 101 106 O
+patients 6 14 107 115 O
+where 15 20 116 121 O
+obesity 21 28 122 129 O
+is 29 31 130 132 O
+severe 32 38 133 139 O
+enough 39 45 140 146 O
+to 46 48 147 149 O
+affect 49 55 150 156 O
+subject 56 63 157 164 O
+'s 63 65 164 166 O
+ability 66 73 167 174 O
+to 74 76 175 177 O
+perform 77 84 178 185 O
+activities 85 95 186 196 O
+of 96 98 197 199 O
+daily 99 104 200 205 O
+living 105 111 206 212 O
+( 112 113 213 214 O
+body 113 117 214 218 B-bmi
+mass 118 122 219 223 I-bmi
+index 123 128 224 229 I-bmi
+, 128 129 229 230 O
+kg 130 132 231 233 O
+/ 132 133 233 234 O
+m2 133 135 234 236 O
+: 135 136 236 237 O
+BMI 137 140 238 241 B-bmi
+> 141 142 242 243 O
+35 143 145 244 246 B-lower_bound
+) 145 146 246 247 O
+
+Other 0 5 248 253 O
+significant 6 17 254 265 O
+disabling 18 27 266 275 O
+problems 28 36 276 284 O
+from 37 41 285 289 O
+the 42 45 290 293 O
+muscular 46 54 294 302 O
+- 54 55 302 303 O
+skeletal 55 63 303 311 O
+system 64 70 312 318 O
+than 71 75 319 323 O
+in 76 78 324 326 O
+the 79 82 327 330 O
+knees 83 88 331 336 O
+( 89 90 337 338 O
+i.e 90 93 338 341 O
+muscular 94 102 342 350 B-chronic_disease
+dystrophy 103 112 351 360 I-chronic_disease
+, 112 113 360 361 O
+polio 114 119 362 367 B-chronic_disease
+, 119 120 367 368 O
+nueropathic 121 132 369 380 B-chronic_disease
+joints 133 139 381 387 I-chronic_disease
+) 139 140 387 388 O
+
+Paget 0 5 389 394 B-chronic_disease
+'s 5 7 394 396 I-chronic_disease
+disease 8 15 397 404 I-chronic_disease
+
+Patients 0 8 405 413 O
+requiring 9 18 414 423 O
+knee 19 23 424 428 B-treatment
+prosthesis 24 34 429 439 I-treatment
+
+Patients 0 8 440 448 O
+with 9 13 449 453 O
+or 14 16 454 456 O
+having 17 23 457 463 O
+; 23 24 463 464 O
+malignancy 25 35 465 475 B-cancer
+- 36 37 476 477 O
+active 38 44 478 484 B-cancer
+malignancy 45 55 485 495 I-cancer
+
+Previous 0 8 496 504 O
+major 9 14 505 510 O
+knee 15 19 511 515 B-treatment
+replacement 20 31 516 527 I-treatment
+of 32 34 528 530 O
+the 35 38 531 534 O
+affected 39 47 535 543 O
+knee 48 52 544 548 O
+joint 53 58 549 554 O
+
+Varus 0 5 555 560 B-clinical_variable
+or 6 8 561 563 I-clinical_variable
+valgus 9 15 564 570 I-clinical_variable
+deformity 16 25 571 580 I-clinical_variable
+> 26 27 581 582 O
+20 28 30 583 585 B-lower_bound
+degrees 31 38 586 593 I-lower_bound
+
+active 0 6 594 600 B-chronic_disease
+or 7 9 601 603 I-chronic_disease
+suspected 10 19 604 613 I-chronic_disease
+infection 20 29 614 623 I-chronic_disease
+
+evaluated 0 9 624 633 O
+as 10 12 634 636 O
+appropriate 13 24 637 648 O
+candidates 25 35 649 659 O
+for 36 39 660 663 O
+aTKA 40 44 664 668 O
+by 45 47 669 671 O
+their 48 53 672 677 O
+orthopedic 54 64 678 688 O
+surgeon 65 72 689 696 O
+
+neuromuscular 0 13 697 710 B-chronic_disease
+or 14 16 711 713 O
+neurosensory 17 29 714 726 B-chronic_disease
+deficit 30 37 727 734 I-chronic_disease
+
+renal 0 5 735 740 B-chronic_disease
+osteodystrophy 6 20 741 755 I-chronic_disease
+
+sickle 0 6 756 762 B-chronic_disease
+cell 7 11 763 767 I-chronic_disease
+anemia 12 18 768 774 I-chronic_disease
+
+systemic 0 8 775 783 B-chronic_disease
+lupus 9 14 784 789 I-chronic_disease
+erythmatosus 15 27 790 802 I-chronic_disease
+

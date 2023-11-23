@@ -1,0 +1,6 @@
+21 0 2 0 2 B-lower_bound
+or 3 5 3 5 O
+older 6 11 6 11 O
+
+pregnancy 0 9 12 21 B-pregnancy
+

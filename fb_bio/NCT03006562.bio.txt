@@ -1,0 +1,36 @@
+Active 0 6 0 6 O
+treatment 7 16 7 16 O
+for 17 20 17 20 O
+VTE 21 24 21 24 B-treatment
+
+Epidural 0 8 25 33 B-treatment
+analgesia 9 18 34 43 I-treatment
+
+Known 0 5 44 49 O
+adverse 6 13 50 57 O
+reactions 14 23 58 67 O
+to 24 26 68 70 O
+heparin 27 34 71 78 B-allergy_name
+( 35 36 79 80 O
+heparin 36 43 80 87 B-allergy_name
+- 43 44 87 88 I-allergy_name
+induced 44 51 88 95 I-allergy_name
+thrombocytopenia 52 68 96 112 I-allergy_name
+or 69 71 113 115 O
+any 72 75 116 119 O
+allergy 76 83 120 127 O
+) 83 84 127 128 O
+
+Men 0 3 129 132 B-gender
+
+with 0 4 133 137 O
+histologically 5 19 138 152 O
+confirmed 20 29 153 162 O
+prostate 30 38 163 171 B-cancer
+cancer 39 45 172 178 I-cancer
+of 46 48 179 181 O
+any 49 52 182 185 O
+stage 53 58 186 191 O
+undergoing 59 69 192 202 O
+RP 70 72 203 205 O
+

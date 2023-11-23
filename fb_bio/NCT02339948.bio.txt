@@ -1,0 +1,186 @@
+2002 0 4 0 4 O
+AJCC 5 9 5 9 O
+clinical 10 18 10 18 O
+cancer 19 25 19 25 B-cancer
+stage 26 31 26 31 O
+as 32 34 32 34 O
+determined 35 45 35 45 O
+by 46 48 46 48 O
+either 49 55 49 55 O
+urologist 56 65 56 65 O
+or 66 68 66 68 O
+radiation 69 78 69 78 O
+oncologist 79 89 79 89 O
+must 90 94 90 94 O
+be 95 97 95 97 O
+T1c 98 101 98 101 B-lower_bound
+- 102 103 102 103 O
+T2b 104 107 104 107 B-upper_bound
+, 107 108 107 108 O
+N0 109 111 109 111 O
+, 111 112 111 112 O
+M0 113 115 113 115 O
+
+Age 0 3 116 119 B-age
+≤ 4 5 120 121 O
+18 6 8 122 124 B-upper_bound
+
+Age 0 3 125 128 B-age
+≥ 4 5 129 130 O
+18 6 8 131 133 B-lower_bound
+
+Clinical 0 8 134 142 B-clinical_variable
+stage 9 14 143 148 I-clinical_variable
+T3 15 17 149 151 B-lower_bound
+- 18 19 152 153 O
+T4 20 22 154 156 B-upper_bound
+
+Current 0 7 157 164 O
+medical 8 15 165 172 B-chronic_disease
+or 16 18 173 175 O
+psychiatric 19 30 176 187 B-chronic_disease
+illness 31 38 188 195 I-chronic_disease
+that 39 43 196 200 O
+may 44 47 201 204 O
+interfere 48 57 205 214 O
+with 58 62 215 219 O
+treatment 63 72 220 229 B-treatment
+completion 73 83 230 240 O
+and 84 87 241 244 O
+followup 88 96 245 253 O
+
+Gleason 0 7 254 261 B-clinical_variable
+score 8 13 262 267 I-clinical_variable
+of 14 16 268 270 O
+8 17 18 271 272 B-lower_bound
+- 19 20 273 274 O
+10 21 23 275 277 B-upper_bound
+
+Gleason 0 7 278 285 B-clinical_variable
+scoring 8 15 286 293 I-clinical_variable
+classification 16 30 294 308 I-clinical_variable
+of 31 33 309 311 O
+the 34 37 312 315 O
+biopsy 38 44 316 322 O
+specimen 45 53 323 331 O
+is 54 56 332 334 O
+required 57 65 335 343 O
+and 66 69 344 347 O
+must 70 74 348 352 O
+be 75 77 353 355 O
+greater 78 85 356 363 O
+than 86 90 364 368 O
+or 91 93 369 371 O
+equal 94 99 372 377 O
+to 100 102 378 380 O
+7 103 104 381 382 B-lower_bound
+
+Hip 0 3 383 386 B-treatment
+prosthesis 4 14 387 397 I-treatment
+
+Histologically 0 14 398 412 O
+determined 15 25 413 423 O
+adenocarcinoma 26 40 424 438 B-cancer
+
+IPSS 0 4 439 443 B-clinical_variable
+voiding 5 12 444 451 I-clinical_variable
+symptoms 13 21 452 460 I-clinical_variable
+score 22 27 461 466 I-clinical_variable
+> 28 29 467 468 O
+18 30 32 469 471 B-lower_bound
+
+IPSS 0 4 472 476 B-clinical_variable
+voiding 5 12 477 484 I-clinical_variable
+symptoms 13 21 485 493 I-clinical_variable
+score 22 27 494 499 I-clinical_variable
+must 28 32 500 504 O
+be 33 35 505 507 O
+less 36 40 508 512 O
+than 41 45 513 517 O
+18 46 48 518 520 B-upper_bound
+
+PSA 0 3 521 524 B-clinical_variable
+> 4 5 525 526 O
+20 6 8 527 529 B-lower_bound
+ng 9 11 530 532 I-lower_bound
+/ 11 12 532 533 I-lower_bound
+ml 12 14 533 535 I-lower_bound
+
+PSA 0 3 536 539 B-clinical_variable
+must 4 8 540 544 O
+be 9 11 545 547 O
+less 12 16 548 552 O
+than 17 21 553 557 O
+20 22 24 558 560 B-upper_bound
+ng 25 27 561 563 I-upper_bound
+/ 27 28 563 564 I-upper_bound
+ml 28 30 564 566 I-upper_bound
+
+Prior 0 5 567 572 B-treatment
+TURP 6 10 573 577 I-treatment
+
+Prior 0 5 578 583 O
+cancer 6 12 584 590 B-cancer
+other 13 18 591 596 O
+than 19 23 597 601 O
+basal 24 29 602 607 B-cancer
+cell 30 34 608 612 I-cancer
+
+Prior 0 5 613 618 B-treatment
+pelvic 6 12 619 625 I-treatment
+radiotherapy 13 25 626 638 I-treatment
+or 26 28 639 641 O
+chemotherapy 29 41 642 654 B-treatment
+
+Prior 0 5 655 660 B-treatment
+prostatectomy 6 19 661 674 I-treatment
+
+Prostate 0 8 675 683 B-clinical_variable
+volume 9 15 684 690 I-clinical_variable
+as 16 18 691 693 O
+assessed 19 27 694 702 O
+by 28 30 703 705 O
+TRUS 31 35 706 710 B-treatment
+> 36 37 711 712 O
+60 38 40 713 715 B-lower_bound
+cc 41 43 716 718 I-lower_bound
+
+Prostate 0 8 719 727 B-clinical_variable
+volume 9 15 728 734 I-clinical_variable
+as 16 18 735 737 O
+assessed 19 27 738 746 O
+by 28 30 747 749 O
+TRUS 31 35 750 754 O
+must 36 40 755 759 O
+be 41 43 760 762 O
+less 44 48 763 767 O
+than 49 53 768 772 O
+60 54 56 773 775 B-upper_bound
+cc 57 59 776 778 I-upper_bound
+. 59 60 778 779 I-upper_bound
+3.1.5 61 66 780 785 I-upper_bound
+
+Tissue 0 6 786 792 O
+for 7 10 793 796 O
+diagnosis 11 20 797 806 O
+must 21 25 807 811 O
+be 26 28 812 814 O
+obtained 29 37 815 823 O
+by 38 40 824 826 O
+transrectal 41 52 827 838 B-treatment
+ultrasound 53 63 839 849 I-treatment
+biopsy 64 70 850 856 I-treatment
+
+squamous 0 8 857 865 B-cancer
+cell 9 13 866 870 I-cancer
+skin 14 18 871 875 I-cancer
+carcinoma 19 28 876 885 I-cancer
+unless 29 35 886 892 O
+free 36 40 893 897 O
+of 41 43 898 900 O
+disease 44 51 901 908 O
+for 52 55 909 912 O
+> 56 57 913 914 O
+5 58 59 915 916 B-lower_bound
+years 60 65 917 922 I-lower_bound
+

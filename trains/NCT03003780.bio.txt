@@ -1,0 +1,69 @@
+COPD 0 4 0 4 B-chronic_disease
+or 5 7 5 7 I-chronic_disease
+HF 8 10 8 10 I-chronic_disease
+exacerbation 11 23 11 23 I-chronic_disease
+in 24 26 24 26 O
+the 27 30 27 30 O
+previous 31 39 31 39 O
+month 40 45 40 45 O
+
+Clinical 0 8 46 54 O
+diagnosis 9 18 55 64 O
+of 19 21 65 67 O
+COPD 22 26 68 72 B-chronic_disease
+OR 27 29 73 75 O
+clinical 30 38 76 84 O
+diagnosis 39 48 85 94 O
+of 49 51 95 97 O
+HF 52 54 98 100 B-chronic_disease
+syndrome 55 63 101 109 I-chronic_disease
+( 64 65 110 111 O
+New 65 68 111 114 O
+York 69 73 115 119 O
+Heart 74 79 120 125 O
+Association 80 91 126 137 O
+Class 92 97 138 143 O
+1 98 99 144 145 O
+- 99 100 145 146 O
+3 100 101 146 147 O
+) 101 102 147 148 O
+
+Clinical 0 8 149 157 O
+signs 9 14 158 163 O
+of 15 17 164 166 O
+unstable 18 26 167 175 B-chronic_disease
+cardiovascular 27 41 176 190 I-chronic_disease
+disease 42 49 191 198 I-chronic_disease
+
+Have 0 4 199 203 O
+an 5 7 204 206 O
+active 8 14 207 213 O
+email 15 20 214 219 O
+account 21 28 220 227 O
+and 29 32 228 231 O
+access 33 39 232 238 B-technology_access
+to 40 42 239 241 I-technology_access
+a 43 44 242 243 I-technology_access
+computer 45 53 244 252 I-technology_access
+with 54 58 253 257 I-technology_access
+internet 59 67 258 266 I-technology_access
+connection 68 78 267 277 I-technology_access
+
+Hypoxemia 0 9 278 287 B-chronic_disease
+during 10 16 288 294 O
+6MWT 17 21 295 299 O
+
+Inability 0 9 300 309 O
+to 10 12 310 312 O
+collect 13 20 313 320 O
+at 21 23 321 323 O
+least 24 29 324 329 O
+7 30 31 330 331 B-lower_bound
+of 32 34 332 334 O
+14 35 37 335 337 B-upper_bound
+days 38 42 338 342 I-upper_bound
+of 43 45 343 345 O
+baseline 46 54 346 354 O
+step 55 59 355 359 O
+counts 60 66 360 366 O
+

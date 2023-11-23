@@ -1,0 +1,62 @@
+5 0 1 0 1 B-lower_bound
+or 2 4 2 4 O
+more 5 9 5 9 O
+standard 10 18 10 18 O
+drink 19 24 19 24 O
+on 25 27 25 27 O
+1 28 29 28 29 B-lower_bound
+or 30 32 30 32 O
+more 33 37 33 37 O
+occasions 38 47 38 47 O
+in 48 50 48 50 O
+the 51 54 51 54 O
+last 55 59 55 59 B-upper_bound
+30 60 62 60 62 I-upper_bound
+days 63 67 63 67 I-upper_bound
+
+Ability 0 7 68 75 B-language_fluency
+to 8 10 76 78 I-language_fluency
+read 11 15 79 83 I-language_fluency
+and 16 19 84 87 I-language_fluency
+speak 20 25 88 93 I-language_fluency
+English 26 33 94 101 I-language_fluency
+
+Any 0 3 102 105 O
+medical 4 11 106 113 O
+or 12 14 114 116 O
+psychiatric 15 26 117 128 O
+condition 27 36 129 138 O
+, 36 37 138 139 O
+such 38 42 140 144 O
+as 43 45 145 147 O
+organic 46 53 148 155 B-chronic_disease
+brain 54 59 156 161 I-chronic_disease
+disorder 60 68 162 170 I-chronic_disease
+, 68 69 170 171 O
+dementia 70 78 172 180 B-chronic_disease
+, 78 79 180 181 O
+or 80 82 182 184 O
+psychotic 83 92 185 194 B-chronic_disease
+disorder 93 101 195 203 I-chronic_disease
+
+Illicit 0 7 204 211 O
+drug 8 12 212 216 O
+use 13 16 217 220 O
+greater 17 24 221 228 O
+than 25 29 229 233 O
+alcohol 30 37 234 241 O
+use 38 41 242 245 O
+in 42 44 246 248 O
+the 45 48 249 252 O
+last 49 53 253 257 B-upper_bound
+90 54 56 258 260 I-upper_bound
+days 57 61 261 265 I-upper_bound
+
+Self 0 4 266 270 O
+reported 5 13 271 279 O
+American 14 22 280 288 B-ethnicity
+Indian 23 29 289 295 I-ethnicity
+/ 29 30 295 296 O
+Alaskan 30 37 296 303 B-ethnicity
+Native 38 44 304 310 I-ethnicity
+

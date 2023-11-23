@@ -1,0 +1,16 @@
+Age 0 3 0 3 B-age
+17 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+21 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+Pervasive 0 9 19 28 B-chronic_disease
+Development 10 21 29 40 I-chronic_disease
+Disorders 22 31 41 50 I-chronic_disease
+( 32 33 51 52 I-chronic_disease
+PDD 33 36 52 55 I-chronic_disease
+) 36 37 55 56 I-chronic_disease
+or 38 40 57 59 O
+mental 41 47 60 66 B-chronic_disease
+retardation 48 59 67 78 I-chronic_disease
+

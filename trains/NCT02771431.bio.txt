@@ -1,0 +1,25 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Patients 0 8 25 33 O
+under 9 14 34 39 O
+18 15 17 40 42 B-upper_bound
+years 18 23 43 48 I-upper_bound
+of 24 26 49 51 O
+age 27 30 52 55 B-age
+
+Undergo 0 7 56 63 O
+elective 8 16 64 72 B-treatment
+Urologic 17 25 73 81 I-treatment
+surgery 26 33 82 89 I-treatment
+requiring 34 43 90 99 O
+post 44 48 100 104 O
+- 48 49 104 105 O
+operative 49 58 105 114 O
+inpatient 59 68 115 124 O
+stay 69 73 125 129 O
+

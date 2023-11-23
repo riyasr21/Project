@@ -1,0 +1,36 @@
+18 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+70 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Alarm 0 5 22 27 B-chronic_disease
+symptoms 6 14 28 36 I-chronic_disease
+according 15 24 37 46 O
+to 25 27 47 49 O
+ROME 28 32 50 54 O
+III 33 36 55 58 O
+
+Diagnosis 0 9 59 68 O
+of 10 12 69 71 O
+IBS 13 16 72 75 B-chronic_disease
+based 17 22 76 81 O
+on 23 25 82 84 O
+ROME 26 30 85 89 O
+III 31 34 90 93 O
+criteria 35 43 94 102 O
+
+Individuals 0 11 103 114 O
+currently 12 21 115 124 O
+receiving 22 31 125 134 O
+other 32 37 135 140 O
+types 38 43 141 146 O
+of 44 46 147 149 O
+complementary 47 60 150 163 B-treatment
+therapies 61 70 164 173 I-treatment
+
+Men 0 3 174 177 B-gender
+
+women 0 5 178 183 B-gender
+

@@ -1,0 +1,17 @@
+Singleton 0 9 0 9 O
+or 10 12 10 12 O
+twin 13 17 13 17 O
+pregnant 18 26 18 26 B-pregnancy
+women 27 32 27 32 B-gender
+at 33 35 33 35 O
+32 36 38 36 38 O
+weeks 39 44 39 44 O
+gestation 45 54 45 54 B-clinical_variable
+to 55 57 55 57 O
+full 58 62 58 62 O
+term 63 67 63 67 O
+after 68 73 68 73 O
+routine 74 81 74 81 O
+antepartum 82 92 82 92 O
+testing 93 100 93 100 O
+

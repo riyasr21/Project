@@ -1,0 +1,9 @@
+Pts 0 3 0 3 B-chronic_disease
+undergoing 4 14 4 14 O
+colectomy 15 24 15 24 B-treatment
+
+Pts 0 3 25 28 O
+undergoing 4 14 29 39 O
+sleeve 15 21 40 46 B-treatment
+gastrectomy 22 33 47 58 I-treatment
+

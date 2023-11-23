@@ -1,0 +1,15 @@
+Any 0 3 0 3 O
+pregnant 4 12 4 12 B-pregnancy
+woman 13 18 13 18 B-gender
+
+regardless 0 10 19 29 O
+of 11 13 30 32 O
+age 14 17 33 36 B-age
+
+with 0 4 37 41 O
+a 5 6 42 43 O
+prenatal 7 15 44 52 O
+diagnosis 16 25 53 62 O
+of 26 28 63 65 O
+HLHS 29 33 66 70 B-chronic_disease
+

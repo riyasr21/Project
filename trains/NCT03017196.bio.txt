@@ -1,0 +1,11 @@
+Health 0 6 0 6 O
+professionals 7 20 7 20 O
+who 21 24 21 24 O
+do 25 27 25 27 O
+not 28 31 28 31 O
+treat 32 37 32 37 O
+patients 38 46 38 46 O
+with 47 51 47 51 O
+chronic 52 59 52 59 B-chronic_disease
+conditions 60 70 60 70 I-chronic_disease
+

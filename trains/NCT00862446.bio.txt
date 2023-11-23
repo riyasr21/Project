@@ -1,0 +1,19 @@
+Anticipated 0 11 0 11 O
+TPN 12 15 12 15 B-treatment
+treatment 16 25 16 25 I-treatment
+for 26 29 26 29 O
+at 30 32 30 32 O
+least 33 38 33 38 O
+one 39 42 39 42 B-lower_bound
+month 43 48 43 48 I-lower_bound
+
+TPN 0 3 49 52 B-clinical_variable
+cholestasis 4 15 53 64 I-clinical_variable
+of 16 18 65 67 O
+at 19 21 68 70 O
+least 22 27 71 76 O
+2.5 28 31 77 80 B-lower_bound
+mg 32 34 81 83 I-lower_bound
+/ 34 35 83 84 I-lower_bound
+dl 35 37 84 86 I-lower_bound
+

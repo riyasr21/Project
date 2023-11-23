@@ -1,0 +1,51 @@
+( 0 1 0 1 O
+mild 1 5 1 5 B-chronic_disease
+psychiatric 6 17 6 17 I-chronic_disease
+illness 18 25 18 25 I-chronic_disease
+may 26 29 26 29 O
+be 30 32 30 32 O
+included 33 41 33 41 O
+) 41 42 41 42 O
+
+60 0 2 43 45 B-lower_bound
+years 3 8 46 51 I-lower_bound
+or 9 11 52 54 O
+older 12 17 55 60 O
+
+Contraindication 0 16 61 77 O
+to 17 19 78 80 O
+lithium 20 27 81 88 B-allergy_name
+( 28 29 89 90 O
+e.g. 29 33 90 94 O
+, 33 34 94 95 O
+renal 35 40 96 101 B-chronic_disease
+insufficiency 41 54 102 115 I-chronic_disease
+) 54 55 115 116 O
+
+Diagnosis 0 9 117 126 O
+of 10 12 127 129 O
+Mild 13 17 130 134 B-chronic_disease
+Cognitive 18 27 135 144 I-chronic_disease
+Impairment 28 38 145 155 I-chronic_disease
+
+Major 0 5 156 161 B-chronic_disease
+psychiatric 6 17 162 173 I-chronic_disease
+illness 18 25 174 181 I-chronic_disease
+
+Unable 0 6 182 188 O
+to 7 9 189 191 O
+complete 10 18 192 200 O
+neuropsychological 19 37 201 219 O
+testing 38 45 220 227 O
+due 46 49 228 231 O
+to 50 52 232 234 O
+non 53 56 235 238 B-chronic_disease
+- 56 57 238 239 I-chronic_disease
+remediable 57 67 239 249 I-chronic_disease
+impairment 68 78 250 260 I-chronic_disease
+( 79 80 261 262 O
+e.g. 80 84 262 266 O
+, 84 85 266 267 O
+blindness 86 95 268 277 B-chronic_disease
+) 95 96 277 278 O
+

@@ -1,0 +1,56 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+
+Laparoscopic 0 12 16 28 B-treatment
+or 13 15 29 31 O
+laparoscopic 16 28 32 44 B-treatment
+assisted 29 37 45 53 O
+procedures 38 48 54 64 O
+
+an 0 2 65 67 O
+active 3 9 68 74 O
+SSI 10 13 75 78 B-chronic_disease
+at 14 16 79 81 O
+the 17 20 82 85 O
+time 21 25 86 90 O
+of 26 28 91 93 O
+surgery 29 36 94 101 B-treatment
+
+enterocutaneous 0 15 102 117 B-treatment
+fistula 16 23 118 125 I-treatment
+repair 24 30 126 132 I-treatment
+
+excision 0 8 133 141 O
+or 9 11 142 144 O
+revision 12 20 145 153 O
+of 21 23 154 156 O
+prior 24 29 157 162 B-treatment
+anastomosis 30 41 163 174 I-treatment
+
+incisional 0 10 175 185 B-treatment
+hernia 11 17 186 192 I-treatment
+repair 18 24 193 199 I-treatment
+
+intestinal 0 10 200 210 B-treatment
+resection 11 20 211 220 I-treatment
+
+patients 0 8 221 229 O
+who 9 12 230 233 O
+had 13 16 234 237 O
+undergone 17 26 238 247 O
+a 27 28 248 249 O
+laparotomy 29 39 250 260 B-treatment
+within 40 46 261 267 O
+the 47 50 268 271 O
+preceding 51 60 272 281 B-upper_bound
+three 61 66 282 287 I-upper_bound
+months 67 73 288 294 I-upper_bound
+
+re 0 2 295 297 B-treatment
+- 2 3 297 298 I-treatment
+operative 3 12 298 307 I-treatment
+colorectal 13 23 308 318 I-treatment
+surgery 24 31 319 326 I-treatment
+

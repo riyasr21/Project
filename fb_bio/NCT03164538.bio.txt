@@ -1,0 +1,46 @@
+Cognitive 0 9 0 9 B-chronic_disease
+impairment 10 20 10 20 I-chronic_disease
+precluding 21 31 21 31 O
+consent 32 39 32 39 O
+or 40 42 40 42 O
+meaningful 43 53 43 53 O
+participation 54 67 54 67 O
+
+Inability 0 9 68 77 B-language_fluency
+to 10 12 78 80 I-language_fluency
+read 13 17 81 85 I-language_fluency
+/ 17 18 85 86 I-language_fluency
+write 18 23 86 91 I-language_fluency
+in 24 26 92 94 I-language_fluency
+English 27 34 95 102 I-language_fluency
+
+Low 0 3 103 106 O
+physical 4 12 107 115 O
+activity 13 21 116 124 O
+will 22 26 125 129 O
+be 27 29 130 132 O
+defined 30 37 133 140 O
+as 38 40 141 143 O
+≤150 41 45 144 148 O
+minutes 46 53 149 156 I-upper_bound
+/ 53 54 156 157 I-upper_bound
+week 54 58 157 161 I-upper_bound
+of 59 61 162 164 O
+MVPA 62 66 165 169 O
+( 67 68 170 171 O
+corresponding 68 81 171 184 O
+to 82 84 185 187 O
+ADA 85 88 188 191 O
+recommendations 89 104 192 207 O
+for 105 108 208 211 O
+moderate 109 117 212 220 O
+or 118 120 221 223 O
+greater 121 128 224 231 O
+intensity 129 138 232 241 O
+aerobic 139 146 242 249 O
+physical 147 155 250 258 O
+activity 156 164 259 267 O
+) 164 165 267 268 O
+
+T2D 0 3 269 272 B-chronic_disease
+

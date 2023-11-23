@@ -1,0 +1,96 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+a 9 10 9 10 O
+score 11 16 11 16 O
+of 17 19 17 19 O
+42 20 22 20 22 B-lower_bound
+on 23 25 23 25 O
+the 26 29 26 29 O
+UCLA 30 34 30 34 B-clinical_variable
+Loneliness 35 45 35 45 I-clinical_variable
+scale 46 51 46 51 I-clinical_variable
+
+Current 0 7 52 59 O
+or 8 10 60 62 O
+recent 11 17 63 69 O
+( 18 19 70 71 O
+past 19 23 71 75 B-upper_bound
+3 24 25 76 77 I-upper_bound
+months 26 32 78 84 I-upper_bound
+) 32 33 84 85 O
+substance 34 43 86 95 O
+use 44 47 96 99 O
+or 48 50 100 102 O
+dependence 51 61 103 113 O
+
+Currently 0 9 114 123 O
+taking 10 16 124 130 O
+any 17 20 131 134 O
+medications 21 32 135 146 B-treatment
+that 33 37 147 151 O
+may 38 41 152 155 O
+have 42 46 156 160 O
+unfavorable 47 58 161 172 O
+interactions 59 71 173 185 O
+with 72 76 186 190 O
+pregnenolone 77 89 191 203 B-treatment
+
+Have 0 4 204 208 O
+a 5 6 209 210 O
+counter 7 14 211 218 O
+indication 15 25 219 229 O
+to 26 28 230 232 O
+EEG 29 32 233 236 B-treatment
+
+History 0 7 237 244 O
+of 8 10 245 247 O
+bipolar 11 18 248 255 B-chronic_disease
+disorder 19 27 256 264 I-chronic_disease
+
+History 0 7 265 272 O
+of 8 10 273 275 O
+heart 11 16 276 281 B-chronic_disease
+irregularities 17 31 282 296 I-chronic_disease
+
+Medical 0 7 297 304 O
+history 8 15 305 312 O
+of 16 18 313 315 O
+cancer 19 25 316 322 B-cancer
+
+Meet 0 4 323 327 O
+MINI 5 9 328 332 O
+criteria 10 18 333 341 O
+for 19 22 342 345 O
+anything 23 31 346 354 O
+but 32 35 355 358 O
+untreated 36 45 359 368 O
+major 46 51 369 374 B-chronic_disease
+depressive 52 62 375 385 I-chronic_disease
+disorder 63 71 386 394 I-chronic_disease
+
+Psychotropic 0 12 395 407 B-treatment
+drugs 13 18 408 413 I-treatment
+
+Under 0 5 414 419 O
+hormonal 6 14 420 428 B-treatment
+therapy 15 22 429 436 I-treatment
+( 23 24 437 438 O
+including 24 33 438 447 O
+, 33 34 447 448 O
+but 35 38 449 452 O
+not 39 42 453 456 O
+limited 43 50 457 464 O
+to 51 53 465 467 O
+, 53 54 467 468 O
+testosterone 55 67 469 481 O
+) 67 68 481 482 O
+
+Unstable 0 8 483 491 O
+mental 9 15 492 498 B-chronic_disease
+illness 16 23 499 506 I-chronic_disease
+
+psychotic 0 9 507 516 B-chronic_disease
+disorder 10 18 517 525 I-chronic_disease
+
+schizophrenia 0 13 526 539 B-chronic_disease
+

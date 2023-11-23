@@ -1,0 +1,78 @@
+A 0 1 0 1 O
+positive 2 10 2 10 B-pregnancy
+urine 11 16 11 16 I-pregnancy
+pregnancy 17 26 17 26 I-pregnancy
+test 27 31 27 31 O
+in 32 34 32 34 O
+the 35 38 35 38 O
+MCRU 39 43 39 43 O
+prior 44 49 44 49 O
+to 50 52 50 52 O
+the 53 56 53 56 O
+study 57 62 57 62 O
+
+Asians 0 6 63 69 B-ethnicity
+will 7 11 70 74 O
+not 12 15 75 78 O
+be 16 18 79 81 O
+included 19 27 82 90 O
+in 28 30 91 93 O
+the 31 34 94 97 O
+study 35 40 98 103 O
+as 41 43 104 106 O
+the 44 47 107 110 O
+CES1 48 52 111 115 O
+SNP 53 56 116 119 O
+G143E 57 62 120 125 O
+is 63 65 126 128 O
+absent 66 72 129 135 O
+in 73 75 136 138 O
+this 76 80 139 143 O
+population 81 91 144 154 O
+
+No 0 2 155 157 O
+subjects 3 11 158 166 O
+weighing 12 20 167 175 O
+under 21 26 176 181 O
+50 27 29 182 184 B-upper_bound
+kg 30 32 185 187 I-upper_bound
+will 33 37 188 192 O
+be 38 40 193 195 O
+selected 41 49 196 204 O
+
+Subject 0 7 205 212 O
+with 8 12 213 217 O
+a 13 14 218 219 O
+history 15 22 220 227 O
+of 23 25 228 230 O
+angioedema 26 36 231 241 B-chronic_disease
+
+Subjects 0 8 242 250 O
+hypersensitive 9 23 251 265 O
+to 24 26 266 268 O
+enalapril 27 36 269 278 B-allergy_name
+
+between 0 7 279 286 O
+the 8 11 287 290 O
+ages 12 16 291 295 B-age
+of 17 19 296 298 O
+18 20 22 299 301 B-lower_bound
+- 22 23 301 302 O
+55 23 25 302 304 B-upper_bound
+years 26 31 305 310 I-upper_bound
+
+habitual 0 8 311 319 O
+consumption 9 20 320 331 O
+of 21 23 332 334 O
+large 24 29 335 340 O
+quantities 30 40 341 351 O
+of 41 43 352 354 O
+ethanol 44 51 355 362 B-treatment
+( 52 53 363 364 O
+> 53 54 364 365 O
+3 54 55 365 366 B-lower_bound
+drinks 56 62 367 373 I-lower_bound
+/ 62 63 373 374 I-lower_bound
+day 63 66 374 377 I-lower_bound
+) 66 67 377 378 O
+

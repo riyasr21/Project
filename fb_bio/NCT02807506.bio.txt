@@ -1,0 +1,10 @@
+62 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+and 9 12 9 12 O
+older 13 18 13 18 O
+
+age 0 3 19 22 B-age
+55 4 6 23 25 B-lower_bound
+and 7 10 26 29 O
+older 11 16 30 35 O
+

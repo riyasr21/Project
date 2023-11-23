@@ -1,0 +1,92 @@
+confirmed 0 9 0 9 O
+sarcoma 10 17 10 17 B-cancer
+of 18 20 18 20 O
+the 21 24 21 24 O
+soft 25 29 25 29 O
+tissue 30 36 30 36 O
+or 37 39 37 39 O
+bone 40 44 40 44 O
+
+greater 0 7 45 52 O
+than 8 12 53 57 O
+3 13 14 58 59 B-lower_bound
+years 15 20 60 65 I-lower_bound
+of 21 23 66 68 O
+age 24 27 69 72 B-age
+
+less 0 4 73 77 O
+than 5 9 78 82 O
+or 10 12 83 85 O
+equal 13 18 86 91 O
+to 19 21 92 94 O
+40 22 24 95 97 B-upper_bound
+years 25 30 98 103 I-upper_bound
+of 31 33 104 106 O
+age 34 37 107 110 B-age
+
+life 0 4 111 115 B-clinical_variable
+expectancy 5 15 116 126 I-clinical_variable
+of 16 18 127 129 O
+at 19 21 130 132 O
+least 22 27 133 138 O
+9 28 29 139 140 B-lower_bound
+months 30 36 141 147 I-lower_bound
+
+patients 0 8 148 156 O
+who 9 12 157 160 O
+have 13 17 161 165 O
+had 18 21 166 169 O
+any 22 25 170 173 O
+prior 26 31 174 179 O
+radiotherapy 32 44 180 192 B-treatment
+to 45 47 193 195 O
+the 48 51 196 199 O
+treatment 52 61 200 209 O
+site(s 62 68 210 216 O
+) 68 69 216 217 O
+
+patients 0 8 218 226 O
+who 9 12 227 230 O
+have 13 17 231 235 O
+had 18 21 236 239 O
+chemotherapy 22 34 240 252 B-treatment
+or 35 37 253 255 O
+radiotherapy 38 50 256 268 B-treatment
+within 51 57 269 275 O
+2 58 59 276 277 B-upper_bound
+weeks 60 65 278 283 I-upper_bound
+prior 66 71 284 289 I-upper_bound
+to 72 74 290 292 O
+entering 75 83 293 301 O
+the 84 87 302 305 O
+study 88 93 306 311 O
+
+pregnant 0 8 312 320 B-pregnancy
+women 9 14 321 326 B-gender
+
+refusal 0 7 327 334 O
+of 8 10 335 337 O
+women 11 16 338 343 B-gender
+of 17 19 344 346 O
+child 20 25 347 352 O
+bearing 26 33 353 360 O
+potential 34 43 361 370 O
+to 44 46 371 373 O
+take 47 51 374 378 O
+a 52 53 379 380 O
+pregnancy 54 63 381 390 B-pregnancy
+test 64 68 391 395 O
+prior 69 74 396 401 O
+to 75 77 402 404 O
+treatment 78 87 405 414 B-treatment
+
+tumor 0 5 415 420 B-cancer
+malignancies 6 18 421 433 I-cancer
+must 19 23 434 438 O
+meet 24 28 439 443 O
+certain 29 36 444 451 O
+criteria 37 45 452 460 O
+to 46 48 461 463 O
+be 49 51 464 466 O
+eligible 52 60 467 475 O
+

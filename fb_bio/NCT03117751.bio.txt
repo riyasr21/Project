@@ -1,0 +1,41 @@
+Age 0 3 0 3 B-age
+1 4 5 4 5 B-lower_bound
+- 5 6 5 6 O
+18 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+
+Diagnosis 0 9 15 24 O
+of 10 12 25 27 O
+B- 13 15 28 30 O
+or 16 18 31 33 O
+T 19 20 34 35 B-cancer
+- 20 21 35 36 I-cancer
+ALL 21 24 36 39 I-cancer
+or 25 27 40 42 O
+LLy 28 31 43 46 B-cancer
+
+LLy 0 3 47 50 O
+participants 4 16 51 63 O
+must 17 21 64 68 O
+have 22 26 69 73 O
+< 27 28 74 75 O
+25 29 31 76 78 B-upper_bound
+% 31 32 78 79 I-upper_bound
+tumor 33 38 80 85 B-cancer
+cells 39 44 86 91 I-cancer
+in 45 47 92 94 I-cancer
+bone 48 52 95 99 I-cancer
+marrow 53 59 100 106 I-cancer
+and 60 63 107 110 O
+peripheral 64 74 111 121 O
+blood 75 80 122 127 O
+by 81 83 128 130 O
+morphology 84 94 131 141 O
+and 95 98 142 145 O
+flow 99 103 146 150 O
+cytometry 104 113 151 160 O
+
+pregnant 0 8 161 169 B-pregnancy
+or 9 11 170 172 O
+lactating 12 21 173 182 O
+

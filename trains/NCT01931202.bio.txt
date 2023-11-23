@@ -1,0 +1,181 @@
+24 0 2 0 2 B-clinical_variable
+- 2 3 2 3 I-clinical_variable
+item 3 7 3 7 I-clinical_variable
+Hamilton 8 16 8 16 I-clinical_variable
+Rating 17 23 17 23 I-clinical_variable
+Scale 24 29 24 29 I-clinical_variable
+for 30 33 30 33 I-clinical_variable
+Depression 34 44 34 44 I-clinical_variable
+( 45 46 45 46 I-clinical_variable
+HRSD 46 50 46 50 I-clinical_variable
+) 50 51 50 51 I-clinical_variable
+score 52 57 52 57 I-clinical_variable
+≥ 58 59 58 59 O
+16 60 62 60 62 B-lower_bound
+
+Adjustment 0 10 63 73 B-chronic_disease
+Disorder 11 19 74 82 I-chronic_disease
+
+Anxiety 0 7 83 90 B-chronic_disease
+Disorder 8 16 91 99 I-chronic_disease
+
+Current 0 7 100 107 O
+comorbid 8 16 108 116 B-chronic_disease
+Axis 17 21 117 121 I-chronic_disease
+I 22 23 122 123 O
+DSM 24 27 124 127 B-chronic_disease
+IV 28 30 128 130 I-chronic_disease
+disorder 31 39 131 139 I-chronic_disease
+other 40 45 140 145 O
+than 46 50 146 150 O
+Nicotine 51 59 151 159 B-chronic_disease
+Dependence 60 70 160 170 I-chronic_disease
+
+Diagnosis 0 9 171 180 O
+of 10 12 181 183 O
+probable 13 21 184 192 O
+Alzheimer 22 31 193 202 B-chronic_disease
+'s 31 33 202 204 I-chronic_disease
+Disease 34 41 205 212 I-chronic_disease
+, 41 42 212 213 O
+Vascular 43 51 214 222 B-chronic_disease
+Dementia 52 60 223 231 I-chronic_disease
+, 60 61 231 232 O
+or 62 64 233 235 O
+Parkinson 65 74 236 245 B-chronic_disease
+'s 74 76 245 247 I-chronic_disease
+Disease 77 84 248 255 I-chronic_disease
+
+HRSD 0 4 256 260 B-clinical_variable
+suicide 5 12 261 268 I-clinical_variable
+item 13 17 269 273 I-clinical_variable
+> 18 19 274 275 O
+2 20 21 276 277 B-lower_bound
+or 22 24 278 280 O
+Clinical 25 33 281 289 B-clinical_variable
+Global 34 40 290 296 I-clinical_variable
+Impressions 41 52 297 308 I-clinical_variable
+( 53 54 309 310 I-clinical_variable
+CGI)-Severity 54 67 310 323 I-clinical_variable
+score 68 73 324 329 I-clinical_variable
+of 74 76 330 332 O
+7 77 78 333 334 O
+at 79 81 335 337 O
+baseline 82 90 338 346 O
+
+History 0 7 347 354 O
+of 8 10 355 357 O
+psychosis 11 20 358 367 B-chronic_disease
+, 20 21 367 368 O
+psychotic 22 31 369 378 B-chronic_disease
+disorder 32 40 379 387 I-chronic_disease
+, 40 41 387 388 O
+mania 42 47 389 394 B-chronic_disease
+, 47 48 394 395 O
+or 49 51 396 398 O
+bipolar 52 59 399 406 B-chronic_disease
+disorder 60 68 407 415 I-chronic_disease
+
+MMSE 0 4 416 420 B-clinical_variable
+< 5 6 421 422 O
+24 7 9 423 425 B-upper_bound
+
+Men 0 3 426 429 B-gender
+
+acute 0 5 430 435 B-chronic_disease
+, 5 6 435 436 I-chronic_disease
+severe 7 13 437 443 I-chronic_disease
+, 13 14 443 444 I-chronic_disease
+or 15 17 445 447 I-chronic_disease
+unstable 18 26 448 456 I-chronic_disease
+medical 27 34 457 464 I-chronic_disease
+or 35 37 465 467 I-chronic_disease
+neurological 38 50 468 480 I-chronic_disease
+illness 51 58 481 488 I-chronic_disease
+
+aged 0 4 489 493 B-age
+60 5 7 494 496 B-lower_bound
+- 7 8 496 497 O
+90 8 10 497 499 B-upper_bound
+years 11 16 500 505 I-upper_bound
+
+current 0 7 506 513 O
+treatment 8 17 514 523 O
+with 18 22 524 528 O
+psychotherapy 23 36 529 542 B-treatment
+, 36 37 542 543 O
+antidepressants 38 53 544 559 B-treatment
+, 53 54 559 560 O
+antipsychotics 55 69 561 575 B-treatment
+, 69 70 575 576 O
+or 71 73 577 579 O
+mood 74 78 580 584 B-treatment
+stabilizers 79 90 585 596 I-treatment
+
+diagnosis 0 9 597 606 O
+of 10 12 607 609 O
+substance 13 22 610 619 O
+abuse 23 28 620 625 O
+or 29 31 626 628 O
+dependence 32 42 629 639 O
+( 43 44 640 641 O
+excluding 44 53 641 650 O
+Nicotine 54 62 651 659 O
+Dependence 63 73 660 670 O
+) 73 74 670 671 O
+within 75 81 672 678 O
+the 82 85 679 682 O
+past 86 90 683 687 B-upper_bound
+12 91 93 688 690 I-upper_bound
+months 94 100 691 697 I-upper_bound
+
+history 0 7 698 705 O
+of 8 10 706 708 O
+allergic 11 19 709 717 O
+or 20 22 718 720 O
+adverse 23 30 721 728 O
+reaction 31 39 729 737 O
+to 40 42 738 740 O
+escitalopram 43 55 741 753 B-allergy_name
+
+non 0 3 754 757 O
+- 3 4 757 758 O
+response 4 12 758 766 O
+to 13 15 767 769 O
+adequate 16 24 770 778 O
+trial 25 30 779 784 O
+of 31 33 785 787 O
+escitalopram 34 46 788 800 B-treatment
+( 47 48 801 802 O
+at 48 50 802 804 O
+least 51 56 805 810 O
+4 57 58 811 812 B-upper_bound
+weeks 59 64 813 818 I-upper_bound
+at 65 67 819 821 O
+dose 68 72 822 826 O
+of 73 75 827 829 O
+20 76 78 830 832 O
+mg 78 80 832 834 O
+) 80 81 834 835 O
+during 82 88 836 842 O
+the 89 92 843 846 O
+current 93 100 847 854 O
+episode 101 108 855 862 O
+
+unable 0 6 863 869 O
+to 7 9 870 872 O
+tolerate 10 18 873 881 O
+the 19 22 882 885 O
+scanning 23 31 886 894 O
+procedures 32 42 895 905 O
+( 43 44 906 907 O
+i.e. 44 48 907 911 O
+, 48 49 911 912 O
+severe 50 56 913 919 B-chronic_disease
+obesity 57 64 920 927 I-chronic_disease
+, 64 65 927 928 O
+claustrophobia 66 80 929 943 B-chronic_disease
+) 80 81 943 944 O
+
+women 0 5 945 950 B-gender
+

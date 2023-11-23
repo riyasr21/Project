@@ -1,0 +1,54 @@
+Ages 0 4 0 4 B-age
+18 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+70 8 10 8 10 B-upper_bound
+years 11 16 11 16 I-upper_bound
+
+Agrees 0 6 17 23 B-contraception_consent
+to 7 9 24 26 I-contraception_consent
+barrier 10 17 27 34 I-contraception_consent
+contraception 18 31 35 48 I-contraception_consent
+if 32 34 49 51 O
+pre 35 38 52 55 O
+- 38 39 55 56 O
+menopausal 39 49 56 66 O
+
+Consumption 0 11 67 78 O
+of 12 14 79 81 O
+> 15 16 82 83 O
+2 17 18 84 85 B-lower_bound
+alcoholic 19 28 86 95 O
+drinks 29 35 96 102 O
+per 36 39 103 106 O
+day 40 43 107 110 O
+
+Pituitary 0 9 111 120 B-clinical_variable
+adenomas 10 18 121 129 I-clinical_variable
+on 19 21 130 132 I-clinical_variable
+MRI 22 25 133 136 I-clinical_variable
+≤ 26 27 137 138 O
+1.5 28 31 139 142 B-upper_bound
+cm 31 33 142 144 I-upper_bound
+in 34 36 145 147 O
+greatest 37 45 148 156 O
+diameter 46 54 157 165 O
+and 55 58 166 169 O
+≥ 59 60 170 171 O
+5 61 62 172 173 B-lower_bound
+mm 62 64 173 175 I-lower_bound
+from 65 69 176 180 O
+the 70 73 181 184 O
+optic 74 79 185 190 O
+chiasm 80 86 191 197 O
+
+Pituitary 0 9 198 207 B-cancer
+stalk 10 15 208 213 I-cancer
+compression 16 27 214 225 I-cancer
+on 28 30 226 228 O
+MRI 31 34 229 232 O
+
+Pregnancy 0 9 233 242 B-pregnancy
+
+Untreated 0 9 243 252 B-chronic_disease
+hypothyroidism 10 24 253 267 I-chronic_disease
+

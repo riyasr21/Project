@@ -1,0 +1,17 @@
+Age 0 3 0 3 B-age
+( 4 5 4 5 O
+< 5 6 5 6 O
+9 7 8 7 8 B-upper_bound
+, 8 9 8 9 O
+> 10 11 10 11 O
+18 11 13 11 13 B-lower_bound
+years 14 19 14 19 I-lower_bound
+) 19 20 19 20 O
+
+Youths 0 6 21 27 O
+9 7 8 28 29 B-lower_bound
+- 8 9 29 30 O
+18 9 11 30 32 B-upper_bound
+years 12 17 33 38 I-upper_bound
+old 18 21 39 42 O
+

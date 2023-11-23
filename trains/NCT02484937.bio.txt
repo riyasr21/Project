@@ -1,0 +1,61 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Advanced 0 8 25 33 O
+medical 9 16 34 41 B-chronic_disease
+illness 17 24 42 49 I-chronic_disease
+( 25 26 50 51 O
+severe 26 32 51 57 B-chronic_disease
+systemic 33 41 58 66 I-chronic_disease
+disease 42 49 67 74 I-chronic_disease
+) 49 50 74 75 O
+
+History 0 7 76 83 O
+of 8 10 84 86 O
+psychosis 11 20 87 96 B-chronic_disease
+or 21 23 97 99 I-chronic_disease
+psychiatric 24 35 100 111 I-chronic_disease
+hospitalization 36 51 112 127 I-chronic_disease
+, 51 52 127 128 O
+suicidal 53 61 129 137 B-chronic_disease
+ideation 62 70 138 146 I-chronic_disease
+or 71 73 147 149 I-chronic_disease
+attempt 74 81 150 157 I-chronic_disease
+
+Non 0 3 158 161 O
+- 3 4 161 162 O
+structural 4 14 162 172 O
+non 15 18 173 176 O
+- 18 19 176 177 O
+specific 19 27 177 185 O
+chronic 28 35 186 193 O
+low 36 39 194 197 O
+back 40 44 198 202 O
+pain 45 49 203 207 O
+of 50 52 208 210 O
+a 53 54 211 212 O
+least 55 60 213 218 O
+3 61 62 219 220 B-lower_bound
+months 63 69 221 227 I-lower_bound
+duration 70 78 228 236 O
+
+Significant 0 11 237 248 O
+psychiatric 12 23 249 260 O
+history 24 31 261 268 O
+: 31 32 268 269 O
+a 33 34 270 271 O
+diagnosis 35 44 272 281 O
+of 45 47 282 284 O
+schizophrenia 48 61 285 298 B-chronic_disease
+, 61 62 298 299 O
+bipolar 63 70 300 307 B-chronic_disease
+disorder 71 79 308 316 I-chronic_disease
+, 79 80 316 317 O
+or 81 83 318 320 O
+severe 84 90 321 327 B-chronic_disease
+depression 91 101 328 338 I-chronic_disease
+

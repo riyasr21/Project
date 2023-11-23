@@ -1,0 +1,82 @@
+Diagnosed 0 9 0 9 O
+with 10 14 10 14 O
+primary 15 22 15 22 O
+autonomic 23 32 23 32 B-chronic_disease
+failure 33 40 33 40 I-chronic_disease
+and 41 44 41 44 O
+supine 45 51 45 51 B-chronic_disease
+hypertension 52 64 52 64 I-chronic_disease
+
+Hemoglobin 0 10 65 75 B-clinical_variable
+< 11 12 76 77 O
+10.5 13 17 78 82 B-upper_bound
+or 18 20 83 85 O
+hematocrit 21 31 86 96 B-clinical_variable
+< 32 33 97 98 O
+32 34 36 99 101 B-upper_bound
+
+High 0 4 102 106 O
+- 4 5 106 107 O
+risk 5 9 107 111 O
+patients 10 18 112 120 O
+( 19 20 121 122 O
+e.g. 20 24 122 126 O
+heart 25 30 127 132 B-chronic_disease
+failure 31 38 133 140 I-chronic_disease
+, 38 39 140 141 O
+symptomatic 40 51 142 153 O
+coronary 52 60 154 162 B-chronic_disease
+artery 61 67 163 169 I-chronic_disease
+disease 68 75 170 177 I-chronic_disease
+, 75 76 177 178 O
+liver 77 82 179 184 B-chronic_disease
+impairment 83 93 185 195 I-chronic_disease
+, 93 94 195 196 O
+renal 95 100 197 202 B-chronic_disease
+failure 101 108 203 210 I-chronic_disease
+, 108 109 210 211 O
+history 110 117 212 219 O
+of 118 120 220 222 O
+stroke 121 127 223 229 B-chronic_disease
+or 128 130 230 232 O
+myocardial 131 141 233 243 B-chronic_disease
+infarction 142 152 244 254 I-chronic_disease
+) 152 153 254 255 O
+
+Males 0 5 256 261 B-gender
+
+Pregnancy 0 9 262 271 B-pregnancy
+
+Supine 0 6 272 278 B-chronic_disease
+hypertension 7 19 279 291 I-chronic_disease
+will 20 24 292 296 O
+be 25 27 297 299 O
+defined 28 35 300 307 O
+as 36 38 308 310 O
+systolic 39 47 311 319 B-clinical_variable
+blood 48 53 320 325 I-clinical_variable
+pressure 54 62 326 334 I-clinical_variable
+> 63 64 335 336 O
+150 65 68 337 340 B-lower_bound
+mmHg 69 73 341 345 I-lower_bound
+and/or 74 80 346 352 O
+diastolic 81 90 353 362 B-clinical_variable
+blood 91 96 363 368 I-clinical_variable
+pressure 97 105 369 377 I-clinical_variable
+> 106 107 378 379 O
+90 108 110 380 382 B-lower_bound
+mmHg 111 115 383 387 I-lower_bound
+while 116 121 388 393 O
+lying 122 127 394 399 O
+down 128 132 400 404 O
+
+between 0 7 405 412 O
+18 8 10 413 415 B-lower_bound
+to 11 13 416 418 O
+80 14 16 419 421 B-upper_bound
+years 17 22 422 427 I-upper_bound
+of 23 25 428 430 O
+age 26 29 431 434 B-age
+
+females 0 7 435 442 B-gender
+

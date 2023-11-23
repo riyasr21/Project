@@ -1,0 +1,134 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Any 0 3 25 28 O
+other 4 9 29 34 O
+conditions 10 20 35 45 O
+which 21 26 46 51 O
+represent 27 36 52 61 O
+contraindication 37 53 62 78 O
+to 54 56 79 81 O
+CMR 57 60 82 85 B-treatment
+
+Cochlear 0 8 86 94 B-treatment
+implants 9 17 95 103 I-treatment
+
+Ferromagnetic 0 13 104 117 B-treatment
+aneurysm 14 22 118 126 I-treatment
+clip 23 27 127 131 I-treatment
+
+Males 0 5 132 137 B-gender
+
+Negative 0 8 138 146 B-pregnancy
+pregnancy 9 18 147 156 I-pregnancy
+test 19 23 157 161 O
+( 24 25 162 163 O
+serum 25 30 163 168 O
+or 31 33 169 171 O
+urine 34 39 172 177 O
+β 40 41 178 179 O
+- 41 42 179 180 O
+HCG 42 45 180 183 O
+) 45 46 183 184 O
+within 47 53 185 191 O
+24 54 56 192 194 B-upper_bound
+hours 57 62 195 200 I-upper_bound
+of 63 65 201 203 O
+gadolinium 66 76 204 214 O
+contrast 77 85 215 223 O
+administration 86 100 224 238 O
+, 100 101 238 239 O
+if 102 104 240 242 O
+female 105 111 243 249 B-gender
+and 112 115 250 253 O
+of 116 118 254 256 O
+child 119 124 257 262 O
+- 124 125 262 263 O
+bearing 125 132 263 270 O
+potential 133 142 271 280 O
+
+Symptomatic 0 11 281 292 B-clinical_variable
+severe 12 18 293 299 I-clinical_variable
+mitral 19 25 300 306 I-clinical_variable
+regurgitation 26 39 307 320 I-clinical_variable
+( 40 41 321 322 O
+grade 41 46 322 327 O
+3 47 48 328 329 B-lower_bound
+- 48 49 329 330 O
+4 49 50 330 331 B-upper_bound
++ 50 51 331 332 I-upper_bound
+) 51 52 332 333 O
+
+The 0 3 334 337 O
+patient 4 11 338 345 O
+has 12 15 346 349 O
+Stage 16 21 350 355 B-chronic_disease
+D 22 23 356 357 I-chronic_disease
+Congestive 24 34 358 368 I-chronic_disease
+Heart 35 40 369 374 I-chronic_disease
+Failure 41 48 375 382 I-chronic_disease
+or 49 51 383 385 O
+inability 52 61 386 395 O
+to 62 64 396 398 O
+lay 65 68 399 402 O
+flat 69 73 403 407 O
+for 74 77 408 411 O
+60 78 80 412 414 B-upper_bound
+minutes 81 88 415 422 I-upper_bound
+
+The 0 3 423 426 O
+patient 4 11 427 434 O
+is 12 14 435 437 O
+scheduled 15 24 438 447 O
+to 25 27 448 450 O
+undergo 28 35 451 458 O
+percutaneous 36 48 459 471 B-treatment
+coronary 49 57 472 480 I-treatment
+intervention 58 70 481 493 I-treatment
+with 71 75 494 498 O
+MitraClip 76 85 499 508 B-treatment
+procedure 86 95 509 518 O
+
+all 0 3 519 522 B-gender
+female 4 10 523 529 I-gender
+patients 11 19 530 538 I-gender
+of 20 22 539 541 O
+childbearing 23 35 542 554 O
+potential 36 45 555 564 O
+must 46 50 565 569 O
+agree 51 56 570 575 B-contraception_consent
+to 57 59 576 578 I-contraception_consent
+use 60 63 579 582 I-contraception_consent
+a 64 65 583 584 I-contraception_consent
+medically 66 75 585 594 I-contraception_consent
+accepted 76 84 595 603 I-contraception_consent
+method 85 91 604 610 I-contraception_consent
+of 92 94 611 613 I-contraception_consent
+contraception 95 108 614 627 I-contraception_consent
+throughout 109 119 628 638 O
+the 120 123 639 642 O
+study 124 129 643 648 O
+( 130 131 649 650 O
+this 131 135 650 654 O
+applies 136 143 655 662 O
+only 144 148 663 667 O
+to 149 151 668 670 O
+patients 152 160 671 679 O
+in 161 163 680 682 O
+the 164 167 683 686 O
+gadolinium 168 178 687 697 O
+sub 179 182 698 701 O
+- 182 183 701 702 O
+study 183 188 702 707 O
+) 188 189 707 708 O
+
+females 0 7 709 716 B-gender
+
+serious 0 7 717 724 B-chronic_disease
+concurrent 8 18 725 735 I-chronic_disease
+illness 19 26 736 743 I-chronic_disease
+

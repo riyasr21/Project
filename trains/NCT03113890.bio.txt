@@ -1,0 +1,20 @@
+These 0 5 0 5 O
+patients 6 14 6 14 O
+cover 15 20 15 20 O
+a 21 22 21 22 O
+transdiagnostic 23 38 23 38 O
+range 39 44 39 44 O
+of 45 47 45 47 O
+severe 48 54 48 54 B-chronic_disease
+depression 55 65 55 65 I-chronic_disease
+, 65 66 65 66 O
+anxiety 67 74 67 74 B-chronic_disease
+, 74 75 74 75 O
+and 76 79 76 79 O
+PTSD 80 84 80 84 B-chronic_disease
+
+age 0 3 85 88 B-age
+18 4 6 89 91 B-lower_bound
+or 7 9 92 94 O
+older 10 15 95 100 O
+

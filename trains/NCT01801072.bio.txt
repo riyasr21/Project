@@ -1,0 +1,79 @@
+Adult 0 5 0 5 O
+( 6 7 6 7 O
+≥18 7 10 7 10 O
+years 11 16 11 16 I-lower_bound
+) 16 17 16 17 O
+
+Brain 0 5 18 23 B-cancer
+tumor 6 11 24 29 I-cancer
+
+Currently 0 9 30 39 O
+prescribed 10 20 40 50 O
+medication 21 31 51 61 O
+with 32 36 62 66 O
+anti 37 41 67 71 O
+- 41 42 71 72 O
+epileptic 42 51 72 81 O
+activity 52 60 82 90 O
+( 61 62 91 92 O
+keppra 62 68 92 98 B-treatment
+, 68 69 98 99 O
+dilantin 70 78 100 108 B-treatment
+, 78 79 108 109 O
+tegretol 80 88 110 118 B-treatment
+, 88 89 118 119 O
+lamictal 90 98 120 128 B-treatment
+, 98 99 128 129 O
+topamax 100 107 130 137 B-treatment
+, 107 108 137 138 O
+etc 109 112 139 142 O
+. 112 113 142 143 O
+) 113 114 143 144 O
+
+History 0 7 145 152 O
+of 8 10 153 155 O
+epilepsy 11 19 156 164 B-chronic_disease
+
+History 0 7 165 172 O
+of 8 10 173 175 O
+prior 11 16 176 181 O
+stroke 17 23 182 188 B-chronic_disease
+
+History 0 7 189 196 O
+of 8 10 197 199 O
+seizures 11 19 200 208 B-chronic_disease
+within 20 26 209 215 O
+last 27 31 216 220 O
+10 32 34 221 223 B-upper_bound
+years 35 40 224 229 I-upper_bound
+
+Known 0 5 230 235 O
+levetiracetam 6 19 236 249 B-allergy_name
+allergy 20 27 250 257 O
+
+Pregnant 0 8 258 266 B-pregnancy
+
+Presence 0 8 267 275 O
+of 9 11 276 278 O
+intracranial 12 24 279 291 B-chronic_disease
+aneurysm 25 33 292 300 I-chronic_disease
+( 34 35 301 302 O
+with 35 39 302 306 O
+or 40 42 307 309 O
+without 43 50 310 317 O
+rupture 51 58 318 325 O
+) 58 59 325 326 O
+
+Treating 0 8 327 335 O
+surgeon 9 16 336 343 O
+has 17 20 344 347 O
+recommended 21 32 348 359 O
+surgical 33 41 360 368 O
+repair 42 48 369 375 O
+of 49 51 376 378 O
+the 52 55 379 382 O
+aneurysm 56 64 383 391 B-chronic_disease
+
+nursing 0 7 392 399 O
+woman 8 13 400 405 B-gender
+

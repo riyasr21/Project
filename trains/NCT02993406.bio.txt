@@ -1,0 +1,120 @@
+Age 0 3 0 3 B-age
+between 4 11 4 11 O
+18 12 14 12 14 B-lower_bound
+and 15 18 15 18 O
+85 19 21 19 21 B-upper_bound
+years 22 27 22 27 I-upper_bound
+
+Fasting 0 7 28 35 B-clinical_variable
+blood 8 13 36 41 I-clinical_variable
+LDL 14 17 42 45 I-clinical_variable
+- 17 18 45 46 I-clinical_variable
+cholesterol 18 29 46 57 I-clinical_variable
+≥ 30 31 58 59 O
+100 32 35 60 63 B-lower_bound
+( 36 37 64 65 I-lower_bound
+2.6 37 40 65 68 I-lower_bound
+mmol 41 45 69 73 I-lower_bound
+/ 45 46 73 74 I-lower_bound
+L 46 47 74 75 I-lower_bound
+) 47 48 75 76 I-lower_bound
+at 49 51 77 79 O
+screening 52 61 80 89 O
+
+Fasting 0 7 90 97 B-clinical_variable
+blood 8 13 98 103 I-clinical_variable
+triglycerides 14 27 104 117 I-clinical_variable
+greater 28 35 118 125 O
+than 36 40 126 130 O
+500 41 44 131 134 B-lower_bound
+mg 45 47 135 137 I-lower_bound
+/ 47 48 137 138 I-lower_bound
+dL 48 50 138 140 I-lower_bound
+( 51 52 141 142 I-lower_bound
+5.6 52 55 142 145 I-lower_bound
+mmol 56 60 146 150 I-lower_bound
+/ 60 61 150 151 I-lower_bound
+L 61 62 151 152 I-lower_bound
+) 62 63 152 153 I-lower_bound
+at 64 66 154 156 O
+screening 67 76 157 166 O
+
+History 0 7 167 174 O
+of 8 10 175 177 O
+, 10 11 177 178 O
+or 12 14 179 181 O
+at 15 17 182 184 O
+high 18 22 185 189 O
+risk 23 27 190 194 O
+for 28 31 195 198 O
+, 31 32 198 199 O
+cardiovascular 33 47 200 214 B-chronic_disease
+disease 48 55 215 222 I-chronic_disease
+( 56 57 223 224 I-chronic_disease
+CVD 57 60 224 227 I-chronic_disease
+) 60 61 227 228 I-chronic_disease
+including 62 71 229 238 O
+coronary 72 80 239 247 B-chronic_disease
+artery 81 87 248 254 I-chronic_disease
+disease 88 95 255 262 I-chronic_disease
+, 95 96 262 263 O
+symptomatic 97 108 264 275 B-chronic_disease
+peripheral 109 119 276 286 I-chronic_disease
+arterial 120 128 287 295 I-chronic_disease
+disease 129 136 296 303 I-chronic_disease
+, 136 137 303 304 O
+cerebrovascular 138 153 305 320 B-chronic_disease
+atherosclerotic 154 169 321 336 I-chronic_disease
+disease 170 177 337 344 I-chronic_disease
+
+Patient 0 7 345 352 O
+reported 8 16 353 361 O
+history 17 24 362 369 O
+of 25 27 370 372 O
+statin 28 34 373 379 B-allergy_name
+intolerance 35 46 380 391 O
+
+Recent 0 6 392 398 O
+( 7 8 399 400 O
+within 8 14 400 406 O
+90 15 17 407 409 B-upper_bound
+days 18 22 410 414 I-upper_bound
+of 23 25 415 417 O
+screening 26 35 418 427 O
+) 35 36 427 428 O
+history 37 44 429 436 O
+of 45 47 437 439 O
+major 48 53 440 445 O
+cardiovascular 54 68 446 460 B-chronic_disease
+events 69 75 461 467 I-chronic_disease
+
+Uncontrolled 0 12 468 480 O
+hypertension 13 25 481 493 B-chronic_disease
+
+inability 0 9 494 503 O
+to 10 12 504 506 O
+tolerate 13 21 507 515 O
+2 22 23 516 517 B-lower_bound
+or 24 26 518 520 O
+more 27 31 521 525 O
+statins 32 39 526 533 B-treatment
+, 39 40 533 534 O
+one 41 44 535 538 O
+at 45 47 539 541 O
+a 48 49 542 543 O
+low 50 53 544 547 O
+dose 54 58 548 552 O
+
+nonlactating 0 12 553 565 O
+women 13 18 566 571 B-gender
+
+transient 0 9 572 581 B-chronic_disease
+ischemic 10 18 582 590 I-chronic_disease
+attack 19 25 591 597 I-chronic_disease
+( 26 27 598 599 I-chronic_disease
+TIA 27 30 599 602 I-chronic_disease
+) 30 31 602 603 I-chronic_disease
+
+uncontrolled 0 12 604 616 B-chronic_disease
+diabetes 13 21 617 625 I-chronic_disease
+

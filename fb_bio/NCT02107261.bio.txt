@@ -1,0 +1,66 @@
+Patients 0 8 0 8 O
+must 9 13 9 13 O
+be 14 16 14 16 O
+between 17 24 17 24 O
+the 25 28 25 28 O
+ages 29 33 29 33 B-age
+of 34 36 34 36 O
+18 37 39 37 39 B-lower_bound
+and 40 43 40 43 O
+80 44 46 44 46 B-upper_bound
+
+Patients 0 8 47 55 O
+whose 9 14 56 61 O
+dystonia 15 23 62 70 B-chronic_disease
+is 24 26 71 73 O
+not 27 30 74 77 O
+severe 31 37 78 84 O
+enough 38 44 85 91 O
+to 45 47 92 94 O
+interfere 48 57 95 104 O
+with 58 62 105 109 O
+musical 63 70 110 117 O
+performance 71 82 118 129 O
+in 83 85 130 132 O
+the 86 89 133 136 O
+opinion 90 97 137 144 O
+of 98 100 145 147 O
+a 101 102 148 149 O
+skilled 103 110 150 157 O
+examiner 111 119 158 166 O
+
+Patients 0 8 167 175 O
+with 9 13 176 180 O
+a 14 15 181 182 O
+medical 16 23 183 190 O
+condition 24 33 191 200 O
+that 34 38 201 205 O
+precludes 39 48 206 215 O
+them 49 53 216 220 O
+from 54 58 221 225 O
+receiving 59 68 226 235 O
+BoNT 69 73 236 240 B-treatment
+injections 74 84 241 251 I-treatment
+
+Patients 0 8 252 260 O
+with 9 13 261 265 O
+focal 14 19 266 271 O
+task 20 24 272 276 O
+- 24 25 276 277 O
+specific 25 33 277 285 O
+dystonia 34 42 286 294 B-chronic_disease
+of 43 45 295 297 O
+one 46 49 298 301 O
+or 50 52 302 304 O
+both 53 57 305 309 O
+hands 58 63 310 315 O
+
+Patients 0 8 316 324 O
+with 9 13 325 329 O
+unstable 14 22 330 338 O
+medical 23 30 339 346 O
+conditions 31 41 347 357 O
+or 42 44 358 360 O
+psychiatric 45 56 361 372 B-chronic_disease
+conditions 57 67 373 383 I-chronic_disease
+

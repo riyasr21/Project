@@ -1,0 +1,22 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+relapsed 13 21 13 21 O
+Acute 22 27 22 27 B-cancer
+Lymphoblastic 28 41 28 41 I-cancer
+Leukemia 42 50 42 50 I-cancer
+
+Within 0 6 51 57 O
+3 7 8 58 59 B-upper_bound
+days 9 13 60 64 I-upper_bound
+of 14 16 65 67 O
+starting 17 25 68 76 O
+the 26 29 77 80 O
+induction 30 39 81 90 O
+phase 40 45 91 96 O
+of 46 48 97 99 O
+treatment 49 58 100 109 O
+for 59 62 110 113 O
+Acute 63 68 114 119 B-cancer
+Lymphoblastic 69 82 120 133 I-cancer
+Leukemia 83 91 134 142 I-cancer
+

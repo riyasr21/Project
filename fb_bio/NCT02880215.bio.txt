@@ -1,0 +1,80 @@
+current 0 7 0 7 O
+opioid 8 14 8 14 B-treatment
+analgesics 15 25 15 25 I-treatment
+or 26 28 26 28 O
+systemic 29 37 29 37 B-treatment
+corticosteroid 38 52 38 52 I-treatment
+use 53 56 53 56 O
+for 57 60 57 60 O
+an 61 63 61 63 O
+acute 64 69 64 69 O
+medical 70 77 70 77 O
+condition 78 87 78 87 O
+
+current 0 7 88 95 O
+or 8 10 96 98 O
+past 11 15 99 103 O
+psychotic 16 25 104 113 B-chronic_disease
+disorder 26 34 114 122 I-chronic_disease
+, 34 35 122 123 O
+bipolar 36 43 124 131 B-chronic_disease
+disorder 44 52 132 140 I-chronic_disease
+, 52 53 140 141 O
+or 54 56 142 144 O
+schizophrenia 57 70 145 158 B-chronic_disease
+
+currently 0 9 159 168 O
+receiving 10 19 169 178 O
+psychotherapy 20 33 179 192 B-treatment
+or 34 36 193 195 O
+electroconvulsive 37 54 196 213 B-treatment
+therapy 55 62 214 221 I-treatment
+( 63 64 222 223 I-treatment
+ECT 64 67 223 226 I-treatment
+) 67 68 226 227 I-treatment
+
+fluent 0 6 228 234 B-language_fluency
+in 7 9 235 237 I-language_fluency
+English 10 17 238 245 I-language_fluency
+
+has 0 3 246 249 O
+had 4 7 250 253 O
+suicidal 8 16 254 262 B-chronic_disease
+behaviors 17 26 263 272 I-chronic_disease
+or 27 29 273 275 O
+significant 30 41 276 287 O
+suicidal 42 50 288 296 B-chronic_disease
+ideation 51 59 297 305 I-chronic_disease
+within 60 66 306 312 O
+the 67 70 313 316 O
+last 71 75 317 321 B-upper_bound
+six 76 79 322 325 I-upper_bound
+months 80 86 326 332 I-upper_bound
+
+meets 0 5 333 338 O
+criteria 6 14 339 347 O
+for 15 18 348 351 O
+current 19 26 352 359 O
+substance 27 36 360 369 B-chronic_disease
+use 37 40 370 373 I-chronic_disease
+disorder 41 49 374 382 I-chronic_disease
+( 50 51 383 384 O
+mild 51 55 384 388 O
+or 56 58 389 391 O
+greater 59 66 392 399 O
+severity 67 75 400 408 O
+) 75 76 408 409 O
+
+moderate 0 8 410 418 O
+or 9 11 419 421 O
+greater 12 19 422 429 O
+depression 20 30 430 440 B-chronic_disease
+symptoms 31 39 441 449 O
+
+stable 0 6 450 456 O
+psychiatric 7 18 457 468 B-treatment
+and 19 22 469 472 I-treatment
+neurological 23 35 473 485 I-treatment
+medication 36 46 486 496 I-treatment
+usage 47 52 497 502 O
+

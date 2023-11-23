@@ -1,0 +1,55 @@
+Biliary 0 7 0 7 B-chronic_disease
+obstruction 8 19 8 19 I-chronic_disease
+
+Cardiac 0 7 20 27 B-treatment
+Pacemaker 8 17 28 37 I-treatment
+
+Life 0 4 38 42 B-clinical_variable
+expectancy 5 15 43 53 I-clinical_variable
+of 16 18 54 56 O
+at 19 21 57 59 O
+least 22 27 60 65 O
+6 28 29 66 67 B-lower_bound
+months 30 36 68 74 I-lower_bound
+
+Pancreatic 0 10 75 85 B-cancer
+cancer 11 17 86 92 I-cancer
+or 18 20 93 95 O
+cholangiocarcinoma 21 39 96 114 B-cancer
+unsuitable 40 50 115 125 O
+for 51 54 126 129 O
+surgical 55 63 130 138 B-treatment
+resection 64 73 139 148 I-treatment
+
+Patient 0 7 149 156 O
+unstable 8 16 157 165 O
+for 17 20 166 169 O
+ERCP 21 25 170 174 B-treatment
+or 26 28 175 177 O
+has 29 32 178 181 O
+failed 33 39 182 188 O
+ERCP 40 44 189 193 B-treatment
+( 45 46 194 195 I-treatment
+endoscopic 46 56 195 205 I-treatment
+retrograde 57 67 206 216 I-treatment
+cholangiopancreatography 68 92 217 241 I-treatment
+) 93 94 242 243 I-treatment
+
+Pregnant 0 8 244 252 B-pregnancy
+
+Uncorrected 0 11 253 264 O
+coagulopathy 12 24 265 277 B-chronic_disease
+
+greater 0 7 278 285 O
+than 8 12 286 290 O
+or 13 15 291 293 O
+equal 16 21 294 299 O
+to 22 24 300 302 O
+18 25 27 303 305 B-lower_bound
+years 28 33 306 311 I-lower_bound
+of 34 36 312 314 O
+age 37 40 315 318 B-age
+
+metastatic 0 10 319 329 B-cancer
+disease 11 18 330 337 O
+

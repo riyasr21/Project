@@ -1,0 +1,77 @@
+Any 0 3 0 3 O
+dermatological 4 18 4 18 B-chronic_disease
+disorder 19 27 19 27 I-chronic_disease
+that 28 32 28 32 O
+may 33 36 33 36 O
+interfere 37 46 37 46 O
+with 47 51 47 51 O
+the 52 55 52 55 O
+accurate 56 64 56 64 O
+evaluation 65 75 65 75 O
+of 76 78 76 78 O
+the 79 82 79 82 O
+subject 83 90 83 90 O
+'s 90 92 90 92 O
+skin 93 97 93 97 O
+
+Aspirin 0 7 98 105 B-treatment
+
+Clinically 0 10 106 116 O
+significant 11 22 117 128 O
+unstable 23 31 129 137 B-chronic_disease
+medical 32 39 138 145 I-chronic_disease
+disorders 40 49 146 155 I-chronic_disease
+
+Female 0 6 156 162 B-gender
+subjects 7 15 163 171 I-gender
+
+History 0 7 172 179 O
+of 8 10 180 182 O
+, 10 11 182 183 O
+diabetes 12 20 184 192 B-chronic_disease
+, 20 21 192 193 O
+heart 22 27 194 199 B-chronic_disease
+or 28 30 200 202 I-chronic_disease
+kidney 31 37 203 209 I-chronic_disease
+disease 38 45 210 217 I-chronic_disease
+
+Hydochlorothiazide 0 18 218 236 B-treatment
+
+Immunosuppressant 0 17 237 254 B-treatment
+'s 17 19 254 256 I-treatment
+
+Males 0 5 257 262 B-gender
+
+Muscle 0 6 263 269 B-treatment
+relaxants 7 16 270 279 I-treatment
+
+must 0 4 280 284 O
+be 5 7 285 287 O
+between 8 15 288 295 O
+the 16 19 296 299 O
+ages 20 24 300 304 B-age
+of 25 27 305 307 O
+30 28 30 308 310 B-lower_bound
+to 31 33 311 313 O
+65 34 36 314 316 B-upper_bound
+years 37 42 317 322 I-upper_bound
+of 43 45 323 325 O
+age 46 49 326 329 O
+
+planning 0 8 330 338 B-pregnancy
+a 9 10 339 340 I-pregnancy
+pregnancy 11 20 341 350 I-pregnancy
+
+starting 0 8 351 359 O
+two 9 12 360 363 B-upper_bound
+weeks 13 18 364 369 I-upper_bound
+before 19 25 370 376 O
+onset 26 31 377 382 O
+of 32 34 383 385 O
+study 35 40 386 391 O
+and 41 44 392 395 O
+also 45 49 396 400 O
+during 50 56 401 407 O
+the 57 60 408 411 O
+study 61 66 412 417 O
+

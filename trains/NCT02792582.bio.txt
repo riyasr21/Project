@@ -1,0 +1,33 @@
+Patients 0 8 0 8 O
+ages 9 13 9 13 B-age
+0 14 15 14 15 B-lower_bound
+- 15 16 15 16 O
+21 16 18 16 18 B-upper_bound
+years 19 24 19 24 I-upper_bound
+at 25 27 25 27 O
+the 28 31 28 31 O
+time 32 36 32 36 O
+of 37 39 37 39 O
+diagnosis 40 49 40 49 O
+
+Pregnant 0 8 50 58 B-pregnancy
+females 9 16 59 66 B-gender
+are 17 20 67 70 O
+excluded 21 29 71 79 O
+
+Prior 0 5 80 85 O
+history 6 13 86 93 O
+of 14 16 94 96 O
+fractionated 17 29 97 109 B-treatment
+radiation 30 39 110 119 I-treatment
+therapy 40 47 120 127 I-treatment
+
+Prior 0 5 128 133 B-treatment
+treatment 6 15 134 143 I-treatment
+with 16 20 144 148 O
+intracystic 21 32 149 160 B-treatment
+P-32 33 37 161 165 I-treatment
+or 38 40 166 168 O
+intracystic 41 52 169 180 B-treatment
+bleomycin 53 62 181 190 I-treatment
+

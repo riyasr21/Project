@@ -1,0 +1,36 @@
+No 0 2 0 2 O
+significant 3 14 3 14 O
+cardiovascular 15 29 15 29 B-chronic_disease
+disease 30 37 30 37 I-chronic_disease
+or 38 40 38 40 O
+risk 41 45 41 45 O
+factors 46 53 46 53 O
+
+ages 0 4 54 58 B-age
+18 5 7 59 61 B-lower_bound
+and 8 11 62 65 O
+over 12 16 66 70 O
+
+female 0 6 71 77 B-gender
+
+scheduled 0 9 78 87 O
+by 10 12 88 90 O
+conventional 13 25 91 103 O
+criteria 26 34 104 112 O
+( 35 36 113 114 O
+symptomatic 36 47 114 125 B-chronic_disease
+impairment 48 58 126 136 I-chronic_disease
+of 59 61 137 139 I-chronic_disease
+cardiac 62 69 140 147 I-chronic_disease
+function 70 78 148 156 I-chronic_disease
+with 79 83 157 161 O
+broadened 84 93 162 171 O
+QRS 94 97 172 175 O
+) 97 98 175 176 O
+for 99 102 177 180 O
+clinical 103 111 181 189 O
+CRT 112 115 190 193 O
+procedures 116 126 194 204 O
+at 127 129 205 207 O
+NYULMC 130 136 208 214 O
+

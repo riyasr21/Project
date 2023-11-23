@@ -1,0 +1,14 @@
+12 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+30 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+English 0 7 19 26 B-language_fluency
+- 7 8 26 27 I-language_fluency
+speaking 8 16 27 35 I-language_fluency
+
+Neurologic 0 10 36 46 B-chronic_disease
+disease 11 18 47 54 I-chronic_disease
+

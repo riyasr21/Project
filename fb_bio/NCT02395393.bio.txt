@@ -1,0 +1,45 @@
+to 0 2 0 2 O
+be 3 5 3 5 O
+older 6 11 6 11 O
+than 12 16 12 16 O
+six 17 20 17 20 B-lower_bound
+years 21 26 21 26 I-lower_bound
+of 27 29 27 29 O
+age 30 33 30 33 B-age
+
+to 0 2 34 36 O
+be 3 5 37 39 O
+unable 6 12 40 46 O
+to 13 15 47 49 O
+safely 16 22 50 56 O
+tolerate 23 31 57 65 O
+a 32 33 66 67 O
+bronchoscopic 34 47 68 81 B-treatment
+procedure 48 57 82 91 I-treatment
+
+to 0 2 92 94 O
+be 3 5 95 97 O
+undergoing 6 16 98 108 O
+surveillance 17 29 109 121 O
+or 30 32 122 124 O
+clinically 33 43 125 135 O
+indicated 44 53 136 145 O
+bronchoscopies 54 68 146 160 B-treatment
+with 69 73 161 165 I-treatment
+transbronchial 74 88 166 180 I-treatment
+biopsy 89 95 181 187 I-treatment
+as 96 98 188 190 O
+part 99 103 191 195 O
+of 104 106 196 198 O
+their 107 112 199 204 O
+routine 113 120 205 212 O
+care 121 125 213 217 O
+
+to 0 2 218 220 O
+have 3 7 221 225 O
+any 8 11 226 229 O
+contraindications 12 29 230 247 O
+to 30 32 248 250 O
+transbronchial 33 47 251 265 B-allergy_name
+biopsies 48 56 266 274 I-allergy_name
+

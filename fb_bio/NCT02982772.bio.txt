@@ -1,0 +1,53 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+and 16 19 16 19 O
+older 20 25 20 25 O
+
+Diabetes 0 8 26 34 B-chronic_disease
+requiring 9 18 35 44 O
+insulin 19 26 45 52 B-treatment
+
+Fluent 0 6 53 59 B-language_fluency
+in 7 9 60 62 I-language_fluency
+English 10 17 63 70 I-language_fluency
+or 18 20 71 73 O
+Spanish 21 28 74 81 B-language_fluency
+
+History 0 7 82 89 O
+of 8 10 90 92 O
+allergies 11 20 93 102 O
+to 21 23 103 105 O
+the 24 27 106 109 O
+nicotine 28 36 110 118 B-allergy_name
+patches 37 44 119 126 I-allergy_name
+
+Pregnant 0 8 127 135 B-pregnancy
+women 9 14 136 141 B-gender
+
+Psychotic 0 9 142 151 B-chronic_disease
+or 10 12 152 154 O
+disabling 13 22 155 164 B-chronic_disease
+psychiatric 23 34 165 176 I-chronic_disease
+disorders 35 44 177 186 I-chronic_disease
+
+Temporal 0 8 187 195 B-chronic_disease
+- 8 9 195 196 I-chronic_disease
+mandibular 9 19 196 206 I-chronic_disease
+joint 20 25 207 212 I-chronic_disease
+disease 26 33 213 220 I-chronic_disease
+
+Treatment 0 9 221 230 B-treatment
+for 10 13 231 234 I-treatment
+vascular 14 22 235 243 I-treatment
+problems 23 31 244 252 I-treatment
+
+kidney 0 6 253 259 B-chronic_disease
+disease 7 14 260 267 I-chronic_disease
+
+women 0 5 268 273 B-gender
+that 6 10 274 278 O
+are 11 14 279 282 O
+breastfeeding 15 28 283 296 O
+

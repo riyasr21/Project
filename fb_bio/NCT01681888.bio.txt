@@ -1,0 +1,30 @@
+Cerebral 0 8 0 8 B-chronic_disease
+palsy 9 14 9 14 I-chronic_disease
+, 14 15 14 15 O
+or 16 18 16 18 O
+associated 19 29 19 29 O
+movement 30 38 30 38 O
+disorders 39 48 39 48 O
+such 49 53 49 53 O
+as 54 56 54 56 O
+dystonia 57 65 57 65 B-chronic_disease
+, 65 66 65 66 O
+spasticity 67 77 67 77 B-chronic_disease
+, 77 78 77 78 O
+and/or 79 85 79 85 O
+hypertonia 86 96 86 96 B-chronic_disease
+
+Unable 0 6 97 103 O
+to 7 9 104 106 O
+wear 10 14 107 111 O
+device 15 21 112 118 O
+for 22 25 119 122 O
+at 26 28 123 125 O
+least 29 34 126 131 O
+5 35 36 132 133 B-lower_bound
+hours 37 42 134 139 I-lower_bound
+day 43 46 140 143 O
+for 47 50 144 147 O
+a 51 52 148 149 O
+month 53 58 150 155 O
+

@@ -1,0 +1,20 @@
+EMTs 0 4 0 4 O
+who 5 8 5 8 O
+expect 9 15 9 15 O
+to 16 18 16 18 O
+leave 19 24 19 24 O
+the 25 28 25 28 O
+job 29 32 29 32 O
+in 33 35 33 35 O
+less 36 40 36 40 O
+than 41 45 41 45 O
+1 46 47 46 47 B-upper_bound
+year 48 52 48 52 I-upper_bound
+
+over 0 4 53 57 O
+the 5 8 58 61 O
+age 9 12 62 65 B-age
+of 13 15 66 68 O
+18 16 18 69 71 B-lower_bound
+years 19 24 72 77 I-lower_bound
+

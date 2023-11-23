@@ -1,0 +1,74 @@
+Active 0 6 0 6 O
+psychiatric 7 18 7 18 B-chronic_disease
+condition 19 28 19 28 I-chronic_disease
+such 29 33 29 33 O
+as 34 36 34 36 O
+mania 37 42 37 42 B-chronic_disease
+or 43 45 43 45 O
+psychosis 46 55 46 55 B-chronic_disease
+
+Age 0 3 56 59 B-age
+≥18 4 7 60 63 O
+years 8 13 64 69 I-lower_bound
+old 14 17 70 73 O
+
+Any 0 3 74 77 O
+active 4 10 78 84 B-chronic_disease
+skin 11 15 85 89 I-chronic_disease
+disorder 16 24 90 98 I-chronic_disease
+that 25 29 99 103 O
+affects 30 37 104 111 O
+skin 38 42 112 116 O
+integrity 43 52 117 126 O
+of 53 55 127 129 O
+the 56 59 130 133 O
+scalp 60 65 134 139 O
+
+Implanted 0 9 140 149 O
+metal 10 15 150 155 O
+in 16 18 156 158 O
+the 19 22 159 162 O
+head 23 27 163 167 O
+or 28 30 168 170 O
+neck 31 35 171 175 O
+( 36 37 176 177 O
+metal 37 42 177 182 O
+or 43 45 183 185 O
+shrapnel 46 54 186 194 O
+, 54 55 194 195 O
+deep 56 60 196 200 B-treatment
+brain 61 66 201 206 I-treatment
+stimulators 67 78 207 218 I-treatment
+, 78 79 218 219 O
+aneurysm 80 88 220 228 B-treatment
+clips 89 94 229 234 I-treatment
+, 94 95 234 235 O
+cochlear 96 104 236 244 B-treatment
+stimulators 105 116 245 256 I-treatment
+, 116 117 256 257 O
+retinal 118 125 258 265 B-treatment
+implants 126 134 266 274 I-treatment
+, 134 135 274 275 I-treatment
+etc 136 139 276 279 O
+) 139 140 279 280 O
+
+Pregnant 0 8 281 289 B-pregnancy
+
+Primary 0 7 290 297 B-chronic_disease
+disorder 8 16 298 306 I-chronic_disease
+being 17 22 307 312 O
+a 23 24 313 314 O
+persistent 25 35 315 325 O
+perception 36 46 326 336 O
+of 47 49 337 339 O
+motion 50 56 340 346 O
+with 57 61 347 351 O
+no 62 64 352 354 O
+other 65 70 355 360 O
+cause 71 76 361 366 O
+determined 77 87 367 377 O
+after 88 93 378 383 O
+a 94 95 384 385 O
+careful 96 103 386 393 O
+interview 104 113 394 403 O
+

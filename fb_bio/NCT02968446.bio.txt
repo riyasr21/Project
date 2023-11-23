@@ -1,0 +1,51 @@
+Currently 0 9 0 9 O
+consuming 10 19 10 19 O
+800IU 20 25 20 25 B-lower_bound
+or 26 28 26 28 O
+more 29 33 29 33 O
+of 34 36 34 36 O
+vitamin 37 44 37 44 B-clinical_variable
+D 45 46 45 46 I-clinical_variable
+a 47 48 47 48 O
+day 49 52 49 52 O
+
+Currently 0 9 53 62 O
+taking 10 16 63 69 O
+ketoconazole 17 29 70 82 B-treatment
+, 29 30 82 83 O
+colestipol 31 41 84 94 B-treatment
+, 41 42 94 95 O
+cholestyramine 43 57 96 110 B-treatment
+, 57 58 110 111 O
+phenobarbitol 59 72 112 125 B-treatment
+, 72 73 125 126 O
+phenytoin 74 83 127 136 B-treatment
+, 83 84 136 137 O
+or 85 87 138 140 O
+mineral 88 95 141 148 B-treatment
+oil 96 99 149 152 I-treatment
+
+Fitzpatrick 0 11 153 164 B-clinical_variable
+Skin 12 16 165 169 I-clinical_variable
+Type 17 21 170 174 B-lower_bound
+I 22 23 175 176 I-lower_bound
+- 23 24 176 177 O
+VI 24 26 177 179 B-upper_bound
+
+Subjects 0 8 180 188 O
+whose 9 14 189 194 O
+BMI 15 18 195 198 B-bmi
+are 19 22 199 202 O
+> 23 24 203 204 O
+40 25 27 205 207 B-lower_bound
+
+who 0 3 208 211 O
+may 4 7 212 215 O
+become 8 14 216 222 B-pregnancy
+pregnant 15 23 223 231 I-pregnancy
+in 24 26 232 234 O
+the 27 30 235 238 O
+next 31 35 239 243 B-upper_bound
+3 36 37 244 245 I-upper_bound
+months 38 44 246 252 I-upper_bound
+

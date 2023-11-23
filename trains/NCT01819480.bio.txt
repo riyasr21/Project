@@ -1,0 +1,18 @@
+Adult 0 5 0 5 O
+male 6 10 6 10 B-gender
+
+Diagnosis 0 9 11 20 O
+of 10 12 21 23 O
+either 13 19 24 30 O
+oropharyngeal 20 33 31 44 B-cancer
+
+Metastatic 0 10 45 55 B-cancer
+disease 11 18 56 63 I-cancer
+
+female 0 6 64 70 B-gender
+
+supraglottic 0 12 71 83 B-cancer
+squamous 13 21 84 92 I-cancer
+cell 22 26 93 97 I-cancer
+carcinoma 27 36 98 107 I-cancer
+

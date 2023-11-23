@@ -1,0 +1,76 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+and 13 16 13 16 O
+older 17 22 17 22 O
+
+Patient 0 7 23 30 O
+with 8 12 31 35 O
+sufficient 13 23 36 46 O
+evidence 24 32 47 55 O
+of 33 35 56 58 O
+cognitive 36 45 59 68 B-chronic_disease
+impairment 46 56 69 79 I-chronic_disease
+that 57 61 80 84 O
+limits 62 68 85 91 O
+the 69 72 92 95 O
+subject 73 80 96 103 O
+'s 80 82 103 105 O
+ability 83 90 106 113 O
+to 91 93 114 116 O
+understand 94 104 117 127 O
+the 105 108 128 131 O
+protocol 109 117 132 140 O
+
+Patients 0 8 141 149 O
+having 9 15 150 156 O
+acute 16 21 157 162 B-chronic_disease
+infection 22 31 163 172 I-chronic_disease
+
+Person 0 6 173 179 O
+with 7 11 180 184 O
+Lidocaine 12 21 185 194 B-allergy_name
+sensitivity 22 33 195 206 O
+
+Women 0 5 207 212 B-gender
+of 6 8 213 215 O
+childbearing 9 21 216 228 O
+age 22 25 229 232 B-age
+who 26 29 233 236 O
+have 30 34 237 241 O
+the 35 38 242 245 O
+possibility 39 50 246 257 B-pregnancy
+of 51 53 258 260 I-pregnancy
+being 54 59 261 266 I-pregnancy
+pregnant 60 68 267 275 I-pregnancy
+must 69 73 276 280 O
+have 74 78 281 285 O
+a 79 80 286 287 O
+negative 81 89 288 296 B-pregnancy
+pregnancy 90 99 297 306 I-pregnancy
+test 100 104 307 311 O
+prior 105 110 312 317 O
+to 111 113 318 320 O
+participation 114 127 321 334 O
+
+Women 0 5 335 340 B-gender
+with 6 10 341 345 O
+the 11 14 346 349 O
+possibility 15 26 350 361 O
+of 27 29 362 364 O
+having 30 36 365 371 O
+the 37 40 372 375 O
+pregnancy 41 50 376 385 B-pregnancy
+
+who 0 3 386 389 O
+are 4 7 390 393 O
+undergoing 8 18 394 404 O
+cystoscopy 19 29 405 415 B-treatment
+as 30 32 416 418 O
+part 33 37 419 423 O
+of 38 40 424 426 O
+their 41 46 427 432 O
+routine 47 54 433 440 O
+clinical 55 63 441 449 O
+care 64 68 450 454 O
+

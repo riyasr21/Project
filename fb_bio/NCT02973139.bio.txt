@@ -1,0 +1,24 @@
+Age 0 3 0 3 B-age
+< 4 5 4 5 O
+18 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+
+Hemodynamic 0 11 14 25 B-chronic_disease
+instability 12 23 26 37 I-chronic_disease
+
+Non 0 3 38 41 O
+corrected 4 13 42 51 O
+coagulopathy 14 26 52 64 B-chronic_disease
+
+Pregnancy 0 9 65 74 B-pregnancy
+
+Previous 0 8 75 83 O
+thoracic 9 17 84 92 B-treatment
+surgery 18 25 93 100 I-treatment
+or 26 28 101 103 O
+thrombolytic 29 41 104 116 B-treatment
+therapy 42 49 117 124 I-treatment
+for 50 53 125 128 O
+pleural 54 61 129 136 O
+infection 62 71 137 146 B-chronic_disease
+

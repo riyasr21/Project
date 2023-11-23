@@ -1,0 +1,52 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+or 13 15 13 15 O
+age 16 19 16 19 B-age
+or 20 22 20 22 O
+greater 23 30 23 30 O
+
+Diagnosis 0 9 31 40 O
+of 10 12 41 43 O
+post 13 17 44 48 B-chronic_disease
+- 17 18 48 49 I-chronic_disease
+dural 18 23 49 54 I-chronic_disease
+puncture 24 32 55 63 I-chronic_disease
+headache 33 41 64 72 I-chronic_disease
+based 42 47 73 78 O
+on 48 50 79 81 O
+the 51 54 82 85 O
+International 55 68 86 99 O
+Classification 69 83 100 114 O
+of 84 86 115 117 O
+Headache 87 95 118 126 O
+Disorders 96 105 127 136 O
+
+Headache 0 8 137 145 O
+has 9 12 146 149 O
+developed 13 22 150 159 O
+within 23 29 160 166 O
+5 30 31 167 168 B-upper_bound
+days 32 36 169 173 I-upper_bound
+of 37 39 174 176 O
+the 40 43 177 180 O
+dural 44 49 181 186 O
+puncture 50 58 187 195 O
+
+Not 0 3 196 199 O
+better 4 10 200 206 O
+accounted 11 20 207 216 O
+for 21 24 217 220 O
+by 25 27 221 223 O
+another 28 35 224 231 O
+ICHD-3 36 42 232 238 B-chronic_disease
+diagnosis 43 52 239 248 O
+
+Plan 0 4 249 253 O
+for 5 8 254 257 O
+therapeutic 9 20 258 269 B-treatment
+anticoagulation 21 36 270 285 I-treatment
+post 37 41 286 290 B-chronic_disease
+- 41 42 290 291 I-chronic_disease
+partum 42 48 291 297 I-chronic_disease
+

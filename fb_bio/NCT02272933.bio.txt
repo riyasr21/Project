@@ -1,0 +1,16 @@
+Age 0 3 0 3 B-age
+range 4 9 4 9 O
+: 9 10 9 10 O
+45 11 13 11 13 B-lower_bound
+- 13 14 13 14 O
+85 14 16 14 16 B-upper_bound
+yrs 17 20 17 20 I-upper_bound
+
+At 0 2 21 23 O
+least 3 8 24 29 O
+30 9 11 30 32 B-lower_bound
+day 12 15 33 36 I-lower_bound
+resident 16 24 37 45 O
+of 25 27 46 48 O
+Garrison 28 36 49 57 O
+

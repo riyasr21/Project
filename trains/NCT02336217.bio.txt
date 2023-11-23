@@ -1,0 +1,40 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+6th 9 12 9 12 B-lower_bound
+grade 13 18 13 18 B-clinical_variable
+education 19 28 19 28 I-clinical_variable
+level 29 34 29 34 I-clinical_variable
+
+Cognitive 0 9 35 44 B-chronic_disease
+impairment 10 20 45 55 I-chronic_disease
+
+Have 0 4 56 60 B-technology_access
+a 5 6 61 62 I-technology_access
+smart 7 12 63 68 I-technology_access
+phone 13 18 69 74 I-technology_access
+
+Pregnant 0 8 75 83 B-pregnancy
+women 9 14 84 89 B-gender
+
+Treatment 0 9 90 99 B-treatment
+by 10 12 100 102 O
+Marshall 13 21 103 111 O
+Internal 22 30 112 120 O
+Medicine 31 39 121 129 O
+Department 40 50 130 140 O
+
+Type 0 4 141 145 B-chronic_disease
+1 5 6 146 147 I-chronic_disease
+or 7 9 148 150 O
+type 10 14 151 155 B-chronic_disease
+2 15 16 156 157 I-chronic_disease
+diabetes 17 25 158 166 I-chronic_disease
+on 26 28 167 169 O
+therapeutic 29 40 170 181 B-treatment
+treatment 41 50 182 191 I-treatment
+other 51 56 192 197 O
+than 57 61 198 202 O
+just 62 66 203 207 O
+lifestyle 67 76 208 217 O
+changes 77 84 218 225 O
+

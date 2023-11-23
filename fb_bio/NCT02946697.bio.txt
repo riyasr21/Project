@@ -1,0 +1,37 @@
+breast 0 6 0 6 B-cancer
+cancer 7 13 7 13 I-cancer
+diagnosis 14 23 14 23 I-cancer
+of 24 26 24 26 I-cancer
+stage 27 32 27 32 I-cancer
+IV 33 35 33 35 I-cancer
+
+having 0 6 36 42 O
+completed 7 16 43 52 O
+primary 17 24 53 60 B-treatment
+treatment 25 34 61 70 I-treatment
+( 35 36 71 72 O
+surgery 36 43 72 79 B-treatment
+, 43 44 79 80 O
+chemotherapy 45 57 81 93 B-treatment
+, 57 58 93 94 O
+or 59 61 95 97 O
+radiotherapy 62 74 98 110 B-treatment
+) 74 75 110 111 O
+within 76 82 112 118 O
+the 83 86 119 122 O
+last 87 91 123 127 B-upper_bound
+36 92 94 128 130 I-upper_bound
+months 95 101 131 137 I-upper_bound
+
+unable 0 6 138 144 B-language_fluency
+to 7 9 145 147 I-language_fluency
+read 10 14 148 152 I-language_fluency
+or 15 17 153 155 I-language_fluency
+speak 18 23 156 161 I-language_fluency
+Chinese 24 31 162 169 I-language_fluency
+( 32 33 170 171 I-language_fluency
+Mandarin 33 41 171 179 I-language_fluency
+or 42 44 180 182 I-language_fluency
+Cantonese 45 54 183 192 I-language_fluency
+) 54 55 192 193 I-language_fluency
+

@@ -1,0 +1,57 @@
+- 0 1 0 1 O
+Persons 2 9 2 9 O
+having 10 16 10 16 O
+colorectal 17 27 17 27 O
+disease 28 35 28 35 I-chronic_disease
+( 36 37 36 37 O
+e.g. 37 41 37 41 O
+, 41 42 41 42 O
+ulcerative 43 53 43 53 O
+colitis 54 61 54 61 I-chronic_disease
+or 62 64 62 64 O
+colectomy 65 74 65 74 O
+) 74 75 74 75 I-chronic_disease
+, 75 76 75 76 O
+personal 77 85 77 85 O
+history 86 93 86 93 O
+of 94 96 94 96 O
+colorectal 97 107 97 107 O
+cancer 108 114 108 114 I-cancer
+or 115 117 115 117 O
+colorectal 118 128 118 128 O
+disease 129 136 129 136 O
+, 136 137 136 137 O
+
+Persons 0 7 138 145 O
+having 8 14 146 152 O
+colorectal 15 25 153 163 B-chronic_disease
+disease 26 33 164 171 I-chronic_disease
+( 34 35 172 173 O
+e.g. 35 39 173 177 O
+, 39 40 177 178 O
+ulcerative 41 51 179 189 B-chronic_disease
+colitis 52 59 190 197 I-chronic_disease
+or 60 62 198 200 O
+colectomy 63 72 201 210 B-treatment
+) 72 73 210 211 O
+
+not 0 3 212 215 O
+up 4 6 216 218 O
+- 6 7 218 219 O
+to 7 9 219 221 O
+- 9 10 221 222 O
+date 10 14 222 226 O
+with 15 19 227 231 O
+colorectal 20 30 232 242 B-cancer
+cancer 31 37 243 249 I-cancer
+screening 38 47 250 259 O
+
+personal 0 8 260 268 O
+history 9 16 269 276 O
+of 17 19 277 279 O
+colorectal 20 30 280 290 B-cancer
+cancer 31 37 291 297 I-cancer
+or 38 40 298 300 O
+colorectal 41 51 301 311 B-chronic_disease
+disease 52 59 312 319 I-chronic_disease
+

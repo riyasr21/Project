@@ -1,0 +1,30 @@
+Known 0 5 0 5 O
+allergies 6 15 6 15 O
+to 16 18 16 18 O
+any 19 22 19 22 O
+study 23 28 23 28 B-allergy_name
+materials 29 38 29 38 I-allergy_name
+
+Mental 0 6 39 45 B-chronic_disease
+/ 6 7 45 46 I-chronic_disease
+emotional 7 16 46 55 I-chronic_disease
+/ 16 17 55 56 I-chronic_disease
+developmental 17 30 56 69 I-chronic_disease
+disability 31 41 70 80 I-chronic_disease
+
+craniofacial 0 12 81 93 B-chronic_disease
+anomaly 13 20 94 101 I-chronic_disease
+, 20 21 101 102 O
+or 22 24 103 105 O
+syndrome 25 33 106 114 B-chronic_disease
+
+no 0 2 115 117 O
+pretreatment 3 15 118 130 B-treatment
+with 16 20 131 135 O
+chemical 21 29 136 144 O
+agents 30 36 145 151 O
+such 37 41 152 156 O
+as 42 44 157 159 O
+hydrogen 45 53 160 168 B-treatment
+peroxide 54 62 169 177 I-treatment
+

@@ -1,0 +1,77 @@
+Current 0 7 0 7 O
+major 8 13 8 13 O
+psychiatric 14 25 14 25 B-chronic_disease
+illnesses 26 35 26 35 I-chronic_disease
+including 36 45 36 45 O
+mood 46 50 46 50 B-chronic_disease
+, 50 51 50 51 O
+psychotic 52 61 52 61 B-chronic_disease
+, 61 62 61 62 O
+or 63 65 63 65 O
+anxiety 66 73 66 73 B-chronic_disease
+disorders 74 83 74 83 I-chronic_disease
+
+History 0 7 84 91 O
+of 8 10 92 94 O
+major 11 16 95 100 O
+medical 17 24 101 108 O
+illnesses 25 34 109 118 O
+; 34 35 118 119 O
+including 36 45 120 129 O
+liver 46 51 130 135 B-chronic_disease
+diseases 52 60 136 144 I-chronic_disease
+, 60 61 144 145 O
+heart 62 67 146 151 B-chronic_disease
+disease 68 75 152 159 I-chronic_disease
+, 75 76 159 160 O
+chronic 77 84 161 168 O
+pain 85 89 169 173 O
+or 90 92 174 176 O
+other 93 98 177 182 O
+medical 99 106 183 190 O
+conditions 107 117 191 201 O
+
+Liver 0 5 202 207 B-clinical_variable
+function 6 14 208 216 I-clinical_variable
+tests 15 20 217 222 I-clinical_variable
+( 21 22 223 224 I-clinical_variable
+ALT 22 25 224 227 I-clinical_variable
+or 26 28 228 230 I-clinical_variable
+AST 29 32 231 234 I-clinical_variable
+) 32 33 234 235 I-clinical_variable
+greater 34 41 236 243 O
+than 42 46 244 248 O
+3 47 48 249 250 B-lower_bound
+times 49 54 251 256 I-lower_bound
+normal 55 61 257 263 I-lower_bound
+
+Male 0 4 264 268 B-gender
+
+between 0 7 269 276 O
+the 8 11 277 280 O
+ages 12 16 281 285 B-age
+of 17 19 286 288 O
+21 20 22 289 291 B-lower_bound
+and 23 26 292 295 O
+55 27 29 296 298 B-upper_bound
+
+females 0 7 299 306 B-gender
+
+not 0 3 307 310 B-pregnancy
+pregnant 4 12 311 319 I-pregnancy
+as 13 15 320 322 O
+determined 16 26 323 333 O
+by 27 29 334 336 O
+pregnancy 30 39 337 346 B-pregnancy
+screening 40 49 347 356 O
+nor 50 53 357 360 O
+breast 54 60 361 367 O
+feeding 61 68 368 375 O
+, 68 69 375 376 O
+and 70 73 377 380 O
+using 74 79 381 386 B-contraception_consent
+acceptable 80 90 387 397 I-contraception_consent
+birth 91 96 398 403 I-contraception_consent
+control 97 104 404 411 I-contraception_consent
+methods 105 112 412 419 I-contraception_consent
+

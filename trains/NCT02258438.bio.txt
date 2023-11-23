@@ -1,0 +1,137 @@
+English 0 7 0 7 B-language_fluency
+- 7 8 7 8 I-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+Women 0 5 17 22 B-gender
+are 6 9 23 26 O
+asked 10 15 27 32 O
+to 16 18 33 35 O
+avoid 19 24 36 41 O
+pregnancy 25 34 42 51 B-pregnancy
+until 35 40 52 57 O
+completion 41 51 58 68 O
+of 52 54 69 71 O
+Condition 55 64 72 81 O
+
+a 0 1 82 83 O
+BMI 2 5 84 87 B-bmi
+of 6 8 88 90 O
+27 9 11 91 93 B-lower_bound
+- 11 12 93 94 O
+33 12 14 94 96 B-upper_bound
+kg 15 17 97 99 I-upper_bound
+/ 17 18 99 100 I-upper_bound
+m2 18 20 100 102 I-upper_bound
+
+age 0 3 103 106 B-age
+between 4 11 107 114 O
+19 12 14 115 117 B-lower_bound
+- 14 15 117 118 O
+45 15 17 118 120 B-upper_bound
+years 18 23 121 126 I-upper_bound
+old 24 27 127 130 O
+
+any 0 3 131 134 O
+history 4 11 135 142 O
+of 12 14 143 145 O
+renal 15 20 146 151 B-chronic_disease
+, 20 21 151 152 O
+cardiovascular 22 36 153 167 B-chronic_disease
+or 37 39 168 170 O
+hepatic 40 47 171 178 B-chronic_disease
+diseases 48 56 179 187 I-chronic_disease
+
+cancer 0 6 188 194 B-cancer
+
+consumption 0 11 195 206 O
+of 12 14 207 209 O
+drugs 15 20 210 215 O
+or 21 23 216 218 O
+alcohol 24 31 219 226 O
+( 32 33 227 228 O
+> 33 34 228 229 O
+40g 34 37 229 232 B-lower_bound
+/ 37 38 232 233 I-lower_bound
+d 38 39 233 234 I-lower_bound
+) 39 40 234 235 O
+
+inactive 0 8 236 244 O
+( 9 10 245 246 O
+≤ 10 11 246 247 O
+1.5hr 12 17 248 253 B-upper_bound
+/ 17 18 253 254 I-upper_bound
+wk 18 20 254 256 I-upper_bound
+of 21 23 257 259 O
+moderate 24 32 260 268 O
+- 32 33 268 269 O
+to 33 35 269 271 O
+- 35 36 271 272 O
+vigorous 36 44 272 280 O
+activity 45 53 281 289 O
+) 53 54 289 290 O
+
+menopause 0 9 291 300 O
+( 10 11 301 302 O
+defined 11 18 302 309 O
+as 19 21 310 312 O
+no 22 24 313 315 O
+menses 25 31 316 322 O
+in 32 34 323 325 O
+the 35 38 326 329 O
+prior 39 44 330 335 B-upper_bound
+6 45 46 336 337 I-upper_bound
+months 47 53 338 344 I-upper_bound
+) 53 54 344 345 O
+
+overweight 0 10 346 356 O
+but 11 14 357 360 O
+weight 15 21 361 367 O
+stable 22 28 368 374 O
+( 29 30 375 376 O
+less 30 34 376 380 O
+than 35 39 381 385 O
++ 40 41 386 387 B-upper_bound
+/- 41 43 387 389 I-upper_bound
+3 44 45 390 391 I-upper_bound
+kg 45 47 391 393 I-upper_bound
+over 48 52 394 398 O
+previous 53 61 399 407 B-upper_bound
+6 62 63 408 409 I-upper_bound
+months 64 70 410 416 I-upper_bound
+) 70 71 416 417 O
+male 72 76 418 422 B-gender
+and 77 80 423 426 I-gender
+female 81 87 427 433 I-gender
+adults 88 94 434 440 I-gender
+( 95 96 441 442 O
+n=24 96 100 442 446 O
+) 100 101 446 447 O
+will 102 106 448 452 O
+be 107 109 453 455 O
+recruited 110 119 456 465 O
+
+pregnancy 0 9 466 475 B-pregnancy
+
+sedentary 0 9 476 485 O
+( 10 11 486 487 O
+office 11 17 487 493 O
+employees 18 27 494 503 O
+who 28 31 504 507 O
+are 32 35 508 511 O
+spending 36 44 512 520 O
+more 45 49 521 525 O
+than 50 54 526 530 O
+6hrs 55 59 531 535 B-lower_bound
+/ 59 60 535 536 I-lower_bound
+day 60 63 536 539 I-lower_bound
+in 64 66 540 542 O
+sitting 67 74 543 550 O
+position 75 83 551 559 O
+) 83 84 559 560 O
+
+type 0 4 561 565 B-chronic_disease
+1 5 6 566 567 I-chronic_disease
+or 7 9 568 570 I-chronic_disease
+2 10 11 571 572 I-chronic_disease
+diabetes 12 20 573 581 I-chronic_disease
+

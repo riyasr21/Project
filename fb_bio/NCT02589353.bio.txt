@@ -1,0 +1,66 @@
+61 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+old 9 12 9 12 O
+and 13 16 13 16 O
+above 17 22 17 22 O
+
+between 0 7 23 30 O
+the 8 11 31 34 O
+ages 12 16 35 39 B-age
+of 17 19 40 42 O
+18 20 22 43 45 B-lower_bound
+- 22 23 45 46 O
+60 23 25 46 48 B-upper_bound
+
+fluent 0 6 49 55 B-language_fluency
+in 7 9 56 58 I-language_fluency
+English 10 17 59 66 I-language_fluency
+
+has 0 3 67 70 O
+a 4 5 71 72 O
+history 6 13 73 80 O
+of 14 16 81 83 O
+food 17 21 84 88 B-allergy_name
+allergy 22 29 89 96 O
+
+has 0 3 97 100 O
+a 4 5 101 102 O
+history 6 13 103 110 O
+of 14 16 111 113 O
+taste 17 22 114 119 O
+or 23 25 120 122 O
+smell 26 31 123 128 O
+loss 32 36 129 133 O
+or 37 39 134 136 O
+other 40 45 137 142 O
+oral 46 50 143 147 O
+disorders 51 60 148 157 O
+( 61 62 158 159 O
+e.g. 62 66 159 163 O
+, 66 67 163 164 O
+burning 68 75 165 172 B-chronic_disease
+mouth 76 81 173 178 I-chronic_disease
+syndrome 82 90 179 187 I-chronic_disease
+) 90 91 187 188 O
+
+has 0 3 189 192 O
+current 4 11 193 200 O
+oral 12 16 201 205 B-chronic_disease
+lesions 17 24 206 213 I-chronic_disease
+, 24 25 213 214 O
+canker 26 32 215 221 B-chronic_disease
+sores 33 38 222 227 I-chronic_disease
+, 38 39 227 228 O
+or 40 42 229 231 O
+piercings 43 52 232 241 B-chronic_disease
+
+pregnant 0 8 242 250 B-pregnancy
+women 9 14 251 256 B-gender
+
+taking 0 6 257 263 O
+any 7 10 264 267 O
+prescription 11 23 268 280 O
+pain/ 24 29 281 286 O
+insulin 30 37 287 294 B-treatment
+medication 38 48 295 305 I-treatment
+

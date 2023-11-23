@@ -1,0 +1,79 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+English 0 7 16 23 B-language_fluency
+speaking 8 16 24 32 I-language_fluency
+
+HIV 0 3 33 36 B-chronic_disease
+- 3 4 36 37 O
+positive 4 12 37 45 O
+
+Inability 0 9 46 55 O
+( 10 11 56 57 O
+e.g. 11 15 57 61 O
+, 15 16 61 62 O
+due 17 20 63 66 O
+to 21 23 67 69 O
+cognitive 24 33 70 79 O
+or 34 36 80 82 O
+psychiatric 37 48 83 94 B-chronic_disease
+difficulties 49 61 95 107 I-chronic_disease
+) 61 62 107 108 O
+or 63 65 109 111 O
+unwillingness 66 79 112 125 O
+to 80 82 126 128 O
+provide 83 90 129 136 O
+informed 91 99 137 145 O
+consent 100 107 146 153 O
+
+Low 0 3 154 157 B-clinical_variable
+ART 4 7 158 161 I-clinical_variable
+adherence 8 17 162 171 I-clinical_variable
+( 18 19 172 173 O
+< 19 20 173 174 O
+80 20 22 174 176 B-upper_bound
+% 22 23 176 177 I-upper_bound
+) 23 24 177 178 O
+
+Prescribed 0 10 179 189 O
+ART 11 14 190 193 B-treatment
+medication 15 25 194 204 I-treatment
+for 26 29 205 208 O
+at 30 32 209 211 O
+least 33 38 212 217 O
+the 39 42 218 221 O
+last 43 47 222 226 B-upper_bound
+two 48 51 227 230 I-upper_bound
+months 52 58 231 237 I-upper_bound
+
+Significant 0 11 238 249 O
+mental 12 18 250 256 O
+health 19 25 257 263 O
+diagnosis 26 35 264 273 O
+requiring 36 45 274 283 O
+treatment 46 55 284 293 O
+( 56 57 294 295 O
+e.g. 57 61 295 299 O
+, 61 62 299 300 O
+unstable 63 71 301 309 O
+bipolar 72 79 310 317 B-chronic_disease
+disorder 80 88 318 326 I-chronic_disease
+; 88 89 326 327 O
+any 90 93 328 331 O
+psychotic 94 103 332 341 B-chronic_disease
+disorder 104 112 342 350 I-chronic_disease
+) 112 113 350 351 O
+
+detectable 0 10 352 362 B-clinical_variable
+viral 11 16 363 368 I-clinical_variable
+load 17 21 369 373 I-clinical_variable
+within 22 28 374 380 O
+the 29 32 381 384 O
+past 33 37 385 389 B-upper_bound
+six 38 41 390 393 I-upper_bound
+months 42 48 394 400 I-upper_bound
+
+female 0 6 401 407 B-gender
+

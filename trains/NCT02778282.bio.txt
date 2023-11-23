@@ -1,0 +1,110 @@
+Actively 0 8 0 8 O
+homicidal 9 18 9 18 B-chronic_disease
+or 19 21 19 21 I-chronic_disease
+suicidal 22 30 22 30 I-chronic_disease
+with 31 35 31 35 O
+an 36 38 36 38 O
+imminent 39 47 39 47 O
+plan 48 52 48 52 O
+
+DSM 0 3 53 56 O
+- 3 4 56 57 O
+V 4 5 57 58 O
+diagnosis 6 15 59 68 O
+of 16 18 69 71 O
+dementia 19 27 72 80 B-chronic_disease
+
+DSM 0 3 81 84 O
+- 3 4 84 85 O
+V 4 5 85 86 O
+diagnosis 6 15 87 96 O
+of 16 18 97 99 O
+opioid 19 25 100 106 B-chronic_disease
+use 26 29 107 110 I-chronic_disease
+disorder 30 38 111 119 I-chronic_disease
+, 38 39 119 120 O
+moderate 40 48 121 129 O
+or 49 51 130 132 O
+severe 52 58 133 139 O
+
+Montreal 0 8 140 148 B-clinical_variable
+Cognitive 9 18 149 158 I-clinical_variable
+Assessment 19 29 159 169 I-clinical_variable
+< 30 31 170 171 O
+25/30 32 37 172 177 B-upper_bound
+
+Seeking 0 7 178 185 O
+to 8 10 186 188 O
+initiate 11 19 189 197 O
+buprenorphine 20 33 198 211 B-treatment
+treatment 34 43 212 221 I-treatment
+or 44 46 222 224 O
+currently 47 56 225 234 O
+receiving 57 66 235 244 O
+buprenorphine 67 80 245 258 O
+treatment 81 90 259 268 O
+but 91 94 269 272 O
+had 95 98 273 276 O
+recent 99 105 277 283 O
+positive 106 114 284 292 O
+illicit 115 122 293 300 O
+opioid 123 129 301 307 O
+urine 130 135 308 313 O
+toxicology 136 146 314 324 O
+or 147 149 325 327 O
+missed 150 156 328 334 O
+scheduled 157 166 335 344 O
+urine 167 172 345 350 O
+toxicology 173 183 351 361 O
+
+Serious 0 7 362 369 O
+unstable 8 16 370 378 O
+medical 17 24 379 386 O
+illness 25 32 387 394 O
+including 33 42 395 404 O
+, 42 43 404 405 O
+cardiovascular 44 58 406 420 B-chronic_disease
+, 58 59 420 421 O
+hepatic 60 67 422 429 B-chronic_disease
+, 67 68 429 430 O
+renal 69 74 431 436 B-chronic_disease
+, 74 75 436 437 O
+respiratory 76 87 438 449 B-chronic_disease
+, 87 88 449 450 O
+endocrine 89 98 451 460 B-chronic_disease
+, 98 99 460 461 O
+neurological 100 112 462 474 B-chronic_disease
+, 112 113 474 475 O
+or 114 116 476 478 O
+hematological 117 130 479 492 B-chronic_disease
+disease 131 138 493 500 I-chronic_disease
+such 139 143 501 505 O
+that 144 148 506 510 O
+hospitalization 149 164 511 526 O
+for 165 168 527 530 O
+treatment 169 178 531 540 B-treatment
+of 179 181 541 543 O
+that 182 186 544 548 O
+illness 187 194 549 556 O
+is 195 197 557 559 O
+likely 198 204 560 566 O
+within 205 211 567 573 O
+the 212 215 574 577 O
+next 216 220 578 582 B-upper_bound
+3 221 222 583 584 I-upper_bound
+months 223 229 585 591 I-upper_bound
+
+Substantial 0 11 592 603 B-chronic_disease
+cognitive 12 21 604 613 I-chronic_disease
+impairment 22 32 614 624 I-chronic_disease
+
+Women 0 5 625 630 B-gender
+
+neurodegenerative 0 17 631 648 B-chronic_disease
+disease 18 25 649 656 I-chronic_disease
+
+other 0 5 657 662 O
+organic 6 13 663 670 B-chronic_disease
+mental 14 20 671 677 I-chronic_disease
+disorder 21 29 678 686 I-chronic_disease
+

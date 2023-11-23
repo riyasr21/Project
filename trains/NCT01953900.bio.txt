@@ -1,0 +1,230 @@
+ANC>500 0 7 0 7 B-clinical_variable
+/ 7 8 7 8 I-lower_bound
+uL 8 10 8 10 I-lower_bound
+
+AST 0 3 11 14 B-clinical_variable
+less 4 8 15 19 O
+than 9 13 20 24 O
+or 14 16 25 27 O
+equal 17 22 28 33 O
+to 23 25 34 36 O
+5x 26 28 37 39 B-upper_bound
+upper 29 34 40 45 I-upper_bound
+limit 35 40 46 51 I-upper_bound
+of 41 43 52 54 I-upper_bound
+normal 44 50 55 61 I-upper_bound
+
+Available 0 9 62 71 O
+autologous 10 20 72 82 B-clinical_variable
+transduced 21 31 83 93 I-clinical_variable
+cytotoxic 32 41 94 103 I-clinical_variable
+T 42 43 104 105 I-clinical_variable
+lymphocytes 44 55 106 117 I-clinical_variable
+with 56 60 118 122 O
+greater 61 68 123 130 O
+than 69 73 131 135 O
+or 74 76 136 138 O
+equal 77 82 139 144 O
+to 83 85 145 147 O
+20 86 88 148 150 B-lower_bound
+% 88 89 150 151 I-lower_bound
+expression 90 100 152 162 O
+of 101 103 163 165 O
+GD2 104 107 166 169 O
+CAR 108 111 170 173 O
+
+Bilirubin 0 9 174 183 B-clinical_variable
+less 10 14 184 188 O
+than 15 19 189 193 O
+or 20 22 194 196 O
+equal 23 28 197 202 O
+to 29 31 203 205 O
+3x 32 34 206 208 B-upper_bound
+upper 35 40 209 214 I-upper_bound
+limit 41 46 215 220 I-upper_bound
+of 47 49 221 223 I-upper_bound
+normal 50 56 224 230 I-upper_bound
+
+Diagnosis 0 9 231 240 O
+of 10 12 241 243 O
+relapsed 13 21 244 252 O
+or 22 24 253 255 O
+refractory 25 35 256 266 O
+osteosarcoma 36 48 267 279 B-cancer
+
+Either 0 6 280 286 O
+previously 7 17 287 297 O
+infected 18 26 298 306 O
+with 27 31 307 311 O
+varicella 32 41 312 321 B-chronic_disease
+zoster 42 48 322 328 I-chronic_disease
+virus(VZV 49 58 329 338 I-chronic_disease
+; 58 59 338 339 I-chronic_disease
+chicken 60 67 340 347 I-chronic_disease
+pox 68 71 348 351 I-chronic_disease
+) 71 72 351 352 I-chronic_disease
+or 73 75 353 355 O
+previously 76 86 356 366 O
+vaccinated 87 97 367 377 O
+with 98 102 378 382 O
+VZV 103 106 383 386 B-treatment
+vaccine 107 114 387 394 I-treatment
+
+HIV 0 3 395 398 B-chronic_disease
+positivity 4 14 399 409 O
+
+Hgb 0 3 410 413 B-clinical_variable
+greater 4 11 414 421 O
+than 12 16 422 426 O
+or 17 19 427 429 O
+equal 20 25 430 435 O
+to 26 28 436 438 O
+7.0 29 32 439 442 B-lower_bound
+g 33 34 443 444 I-lower_bound
+/ 34 35 444 445 I-lower_bound
+dl 35 37 445 447 I-lower_bound
+
+History 0 7 448 455 O
+of 8 10 456 458 O
+hypersensitivity 11 27 459 475 O
+reactions 28 37 476 485 O
+to 38 40 486 488 O
+murine 41 47 489 495 B-allergy_name
+protein 48 55 496 503 I-allergy_name
+- 55 56 503 504 O
+containing 56 66 504 514 O
+products 67 75 515 523 O
+
+Karnofsky 0 9 524 533 B-clinical_variable
+/ 9 10 533 534 O
+Lansky 10 16 534 540 B-clinical_variable
+score 17 22 541 546 I-clinical_variable
+of 23 25 547 549 O
+greater 26 33 550 557 O
+than 34 38 558 562 O
+or 39 41 563 565 O
+equal 42 47 566 571 O
+to 48 50 572 574 O
+50 51 53 575 577 B-lower_bound
+
+Known 0 5 578 583 O
+allergy 6 13 584 591 O
+to 14 16 592 594 O
+VZV 17 20 595 598 B-allergy_name
+vaccine 21 28 599 606 I-allergy_name
+
+Known 0 5 607 612 O
+primary 6 13 613 620 B-chronic_disease
+immune 14 20 621 627 I-chronic_disease
+deficiency 21 31 628 638 I-chronic_disease
+
+Male 0 4 639 643 B-gender
+partner 5 12 644 651 O
+should 13 19 652 658 B-contraception_consent
+use 20 23 659 662 I-contraception_consent
+a 24 25 663 664 I-contraception_consent
+condom 26 32 665 671 I-contraception_consent
+
+Pregnant 0 8 672 680 B-pregnancy
+
+Pulse 0 5 681 686 B-clinical_variable
+oximetry 6 14 687 695 I-clinical_variable
+of 15 17 696 698 O
+greater 18 25 699 706 O
+than 26 30 707 711 O
+or 31 33 712 714 O
+equal 34 39 715 720 O
+to 40 42 721 723 O
+90 43 45 724 726 B-lower_bound
+% 45 46 726 727 I-lower_bound
+on 47 49 728 730 O
+room 50 54 731 735 O
+air 55 58 736 739 O
+
+Recovered 0 9 740 749 O
+from 10 14 750 754 O
+the 15 18 755 758 O
+acute 19 24 759 764 O
+toxic 25 30 765 770 O
+effects 31 38 771 778 O
+of 39 41 779 781 O
+all 42 45 782 785 O
+prior 46 51 786 791 O
+chemotherapy 52 64 792 804 B-treatment
+
+Serum 0 5 805 810 B-clinical_variable
+creatinine 6 16 811 821 I-clinical_variable
+less 17 21 822 826 O
+than 22 26 827 831 O
+or 27 29 832 834 O
+equal 30 35 835 840 O
+to 36 38 841 843 O
+2x 39 41 844 846 B-upper_bound
+upper 42 47 847 852 I-upper_bound
+limit 48 53 853 858 I-upper_bound
+of 54 56 859 861 I-upper_bound
+normal 57 63 862 868 I-upper_bound
+
+Severe 0 6 869 875 B-chronic_disease
+intercurrent 7 19 876 888 I-chronic_disease
+infection 20 29 889 898 I-chronic_disease
+
+Sexually 0 8 899 907 O
+active 9 15 908 914 O
+patients 16 24 915 923 O
+must 25 29 924 928 O
+be 30 32 929 931 O
+willing 33 40 932 939 B-contraception_consent
+to 41 43 940 942 I-contraception_consent
+utilize 44 51 943 950 I-contraception_consent
+one 52 55 951 954 I-contraception_consent
+of 56 58 955 957 I-contraception_consent
+the 59 62 958 961 I-contraception_consent
+more 63 67 962 966 I-contraception_consent
+effective 68 77 967 976 I-contraception_consent
+birth 78 83 977 982 I-contraception_consent
+control 84 91 983 990 I-contraception_consent
+methods 92 99 991 998 I-contraception_consent
+for 100 103 999 1002 O
+6 104 105 1003 1004 B-upper_bound
+months 106 112 1005 1011 I-upper_bound
+after 113 118 1012 1017 O
+the 119 122 1018 1021 O
+CTL 123 126 1022 1025 B-treatment
+infusion 127 135 1026 1034 I-treatment
+
+killing 0 7 1035 1042 O
+of 8 10 1043 1045 O
+GD2 11 14 1046 1049 B-clinical_variable
+- 14 15 1049 1050 O
+positive 15 23 1050 1058 O
+targets 24 31 1059 1066 O
+greater 32 39 1067 1074 O
+than 40 44 1075 1079 O
+or 45 47 1080 1082 O
+equal 48 53 1083 1088 O
+to 54 56 1089 1091 O
+20 57 59 1092 1094 B-lower_bound
+% 59 60 1094 1095 I-lower_bound
+in 61 63 1096 1098 O
+cytotoxicity 64 76 1099 1111 B-treatment
+assay 77 82 1112 1117 I-treatment
+
+platelets 0 9 1118 1127 B-clinical_variable
+> 10 11 1128 1129 O
+50,000 12 18 1130 1136 B-lower_bound
+/ 18 19 1136 1137 I-lower_bound
+uL 19 21 1137 1139 I-lower_bound
+
+relapsed 0 8 1140 1148 O
+or 9 11 1149 1151 O
+refractory 12 22 1152 1162 O
+high 23 27 1163 1167 O
+risk 28 32 1168 1172 O
+neuroblastoma 33 46 1173 1186 B-cancer
+not 47 50 1187 1190 O
+responsive 51 61 1191 1201 O
+to 62 64 1202 1204 O
+standard 65 73 1205 1213 B-treatment
+treatment 74 83 1214 1223 I-treatment
+

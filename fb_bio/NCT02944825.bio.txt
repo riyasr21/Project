@@ -1,0 +1,89 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+> 5 6 5 6 O
+= 6 7 6 7 O
+18 7 9 7 9 B-lower_bound
+years 10 15 10 15 I-lower_bound
+of 16 18 16 18 O
+age 19 22 19 22 B-age
+
+Patients 0 8 23 31 O
+who 9 12 32 35 O
+perform 13 20 36 43 O
+clean 21 26 44 49 B-treatment
+intermittent 27 39 50 62 I-treatment
+catheterization 40 55 63 78 I-treatment
+
+Patients 0 8 79 87 O
+with 9 13 88 92 O
+indwelling 14 24 93 103 O
+ureteral 25 33 104 112 O
+stents 34 40 113 119 O
+placed 41 47 120 126 O
+within 48 54 127 133 O
+the 55 58 134 137 O
+2 59 60 138 139 B-upper_bound
+weeks 61 66 140 145 I-upper_bound
+prior 67 72 146 151 I-upper_bound
+to 73 75 152 154 O
+the 76 79 155 158 O
+procedure 80 89 159 168 O
+visit 90 95 169 174 O
+for 96 99 175 178 O
+removal 100 107 179 186 O
+
+We 0 2 187 189 O
+anticipated 3 14 190 201 O
+enrolling 15 24 202 211 O
+a 25 26 212 213 O
+study 27 32 214 219 O
+population 33 43 220 230 O
+of 44 46 231 233 O
+approximately 47 60 234 247 O
+60 61 63 248 250 O
+% 63 64 250 251 O
+men 65 68 252 255 B-gender
+and 69 72 256 259 O
+40 73 75 260 262 O
+% 75 76 262 263 O
+women 77 82 264 269 B-gender
+based 83 88 270 275 O
+on 89 91 276 278 O
+a 92 93 279 280 O
+higher 94 100 281 287 O
+incidence 101 110 288 297 O
+of 111 113 298 300 O
+kidney 114 120 301 307 B-chronic_disease
+stones 121 127 308 314 I-chronic_disease
+among 128 133 315 320 O
+men 134 137 321 324 O
+in 138 140 325 327 O
+NHANES 141 147 328 334 O
+data 148 152 335 339 O
+
+percutaneous 0 12 340 352 B-treatment
+nephrolithotomy 13 28 353 368 I-treatment
+[ 29 30 369 370 I-treatment
+PNL 30 33 370 373 I-treatment
+] 33 34 373 374 I-treatment
+
+retrograde 0 10 375 385 B-treatment
+intrarenal 11 21 386 396 I-treatment
+surgery 22 29 397 404 I-treatment
+[ 30 31 405 406 I-treatment
+RIRS 31 35 406 410 I-treatment
+] 35 36 410 411 I-treatment
+
+shockwave 0 9 412 421 B-treatment
+lithotripsy 10 21 422 433 I-treatment
+[ 22 23 434 435 I-treatment
+SWL 23 26 435 438 I-treatment
+] 26 27 438 439 I-treatment
+
+ureteroscopy 0 12 440 452 B-treatment
+[ 13 14 453 454 I-treatment
+URS 14 17 454 457 I-treatment
+] 17 18 457 458 I-treatment
+
+women 0 5 459 464 B-gender
+

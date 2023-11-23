@@ -1,0 +1,150 @@
+Amblyopia 0 9 0 9 B-chronic_disease
+
+Aniridia 0 8 10 18 B-chronic_disease
+
+Capsular 0 8 19 27 O
+bag 9 12 28 31 O
+tearing 13 20 32 39 O
+beyond 21 27 40 46 O
+the 28 31 47 50 O
+point 32 37 51 56 O
+where 38 43 57 62 O
+the 44 47 63 66 O
+surgeon 48 55 67 74 O
+thinks 56 62 75 81 O
+it 63 65 82 84 O
+is 66 68 85 87 O
+in 69 71 88 90 O
+the 72 75 91 94 O
+best 76 80 95 99 O
+interest 81 89 100 108 O
+of 90 92 109 111 O
+the 93 96 112 115 O
+patient 97 104 116 123 O
+to 105 107 124 126 O
+have 108 112 127 131 O
+a 113 114 132 133 O
+capsular 115 123 134 142 B-treatment
+ring 124 128 143 147 I-treatment
+implanted 129 138 148 157 I-treatment
+
+Cataracts 0 9 158 167 B-chronic_disease
+due 10 13 168 171 O
+to 14 16 172 174 O
+rubella 17 24 175 182 B-chronic_disease
+
+Congenital 0 10 183 193 B-chronic_disease
+cataracts 11 20 194 203 I-chronic_disease
+
+Corneal 0 7 204 211 B-chronic_disease
+disease 8 15 212 219 I-chronic_disease
+
+Diabetes 0 8 220 228 B-chronic_disease
+
+Flat 0 4 229 233 B-chronic_disease
+anterior 5 13 234 242 I-chronic_disease
+chamber 14 21 243 250 I-chronic_disease
+
+Iris 0 4 251 255 B-chronic_disease
+atrophy 5 12 256 263 I-chronic_disease
+
+Iritis 0 6 264 270 B-chronic_disease
+
+Microphthalmia 0 14 271 285 B-chronic_disease
+
+Ocular 0 6 286 292 B-chronic_disease
+inflammation 7 19 293 305 I-chronic_disease
+
+Optic 0 5 306 311 B-chronic_disease
+atrophy 6 13 312 319 I-chronic_disease
+
+Preoperative 0 12 320 332 B-clinical_variable
+intraocular 13 24 333 344 I-clinical_variable
+pressure 25 33 345 353 I-clinical_variable
+over 34 38 354 358 O
+21 39 41 359 361 B-lower_bound
+mm 42 44 362 364 I-lower_bound
+Hg 45 47 365 367 I-lower_bound
+
+Preoperative 0 12 368 380 O
+ocular 13 19 381 387 B-chronic_disease
+infection 20 29 388 397 I-chronic_disease
+
+Retinal 0 7 398 405 B-chronic_disease
+degeneration 8 20 406 418 I-chronic_disease
+
+Retinal 0 7 419 426 B-chronic_disease
+detachment 8 18 427 437 I-chronic_disease
+
+Significant 0 11 438 449 O
+zonular 12 19 450 457 B-treatment
+didlysis 20 28 458 466 I-treatment
+during 29 35 467 473 O
+surgery 36 43 474 481 B-treatment
+
+Vitritis 0 8 482 490 B-chronic_disease
+
+patient 0 7 491 498 O
+has 8 11 499 502 O
+observed 12 20 503 511 O
+or 21 23 512 514 O
+suspected 24 33 515 524 O
+weakened 34 42 525 533 O
+, 42 43 533 534 O
+torn 44 48 535 539 O
+, 48 49 539 540 O
+missing 50 57 541 548 O
+or 58 60 549 551 O
+otherwise 61 70 552 561 O
+compromised 71 82 562 573 O
+zonules 83 90 574 581 O
+( 91 92 582 583 O
+torn 92 96 583 587 O
+or 97 99 588 590 O
+missing 100 107 591 598 O
+estimated 108 117 599 608 O
+not 118 121 609 612 O
+to 122 124 613 615 O
+exceed 125 131 616 622 O
+one 132 135 623 626 O
+- 135 136 626 627 O
+third 136 141 627 632 O
+of 142 144 633 635 O
+the 145 148 636 639 O
+capsular 149 157 640 648 O
+bag 158 161 649 652 O
+diameter 162 170 653 661 O
+) 170 171 661 662 O
+due 172 175 663 666 O
+to 176 178 667 669 O
+Pseudoexfoliation 179 196 670 687 B-chronic_disease
+Syndrome 197 205 688 696 I-chronic_disease
+, 205 206 696 697 O
+Marfans 207 214 698 705 B-chronic_disease
+Syndrome 215 223 706 714 I-chronic_disease
+, 223 224 714 715 O
+trauma 225 231 716 722 B-chronic_disease
+or 232 234 723 725 O
+other 235 240 726 731 O
+zonular 241 248 732 739 O
+compromising 249 261 740 752 O
+condition 262 271 753 762 O
+
+patient 0 7 763 770 O
+is 8 10 771 773 O
+at 11 13 774 776 O
+least 14 19 777 782 O
+21 20 22 783 785 B-lower_bound
+years 23 28 786 791 I-lower_bound
+old 29 32 792 795 O
+
+patient 0 7 796 803 O
+requires 8 16 804 812 O
+cataract 17 25 813 821 B-treatment
+surgery 26 33 822 829 I-treatment
+with 34 38 830 834 I-treatment
+IOL 39 42 835 838 I-treatment
+implantation 43 55 839 851 I-treatment
+
+uveitis 0 7 852 859 B-chronic_disease
+

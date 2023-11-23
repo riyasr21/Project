@@ -1,0 +1,178 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+Abscess 0 7 18 25 B-clinical_variable
+cavity 8 14 26 32 I-clinical_variable
+diameters 15 24 33 42 I-clinical_variable
+will 25 29 43 47 O
+be 30 32 48 50 O
+less 33 37 51 55 O
+than 38 42 56 60 O
+or 43 45 61 63 O
+equal 46 51 64 69 O
+to 52 54 70 72 O
+8 55 56 73 74 B-upper_bound
+cm 57 59 75 77 I-upper_bound
+
+Abscesses 0 9 78 87 B-clinical_variable
+greater 10 17 88 95 O
+than 18 22 96 100 O
+8 23 24 101 102 B-lower_bound
+cm 25 27 103 105 I-lower_bound
+in 28 30 106 108 I-lower_bound
+diameter 31 39 109 117 I-lower_bound
+
+All 0 3 118 121 O
+patients 4 12 122 130 O
+with 13 17 131 135 O
+clinical 18 26 136 144 O
+symptoms 27 35 145 153 O
+( 36 37 154 155 O
+ex 37 39 155 157 O
+: 39 40 157 158 O
+fever 41 46 159 164 O
+, 46 47 164 165 O
+chills 48 54 166 172 O
+, 54 55 172 173 O
+pain 56 60 174 178 O
+, 60 61 178 179 O
+tachycardia 62 73 180 191 B-chronic_disease
+, 73 74 191 192 O
+hypotension 75 86 193 204 B-chronic_disease
+) 86 87 204 205 O
+, 87 88 205 206 O
+laboratory 89 99 207 217 O
+( 100 101 218 219 O
+leukocytosis 101 113 219 231 B-chronic_disease
+) 113 114 231 232 O
+and 115 118 233 236 O
+radiologic 119 129 237 247 O
+findings 130 138 248 256 O
+( 139 140 257 258 O
+thick 140 145 258 263 O
+walled 146 152 264 270 O
+, 152 153 270 271 O
+rim 154 157 272 275 O
+- 157 158 275 276 O
+enhancing 158 167 276 285 O
+collection 168 178 286 296 O
+with 179 183 297 301 O
+gas 184 187 302 305 O
+bubbles 188 195 306 313 O
+or 196 198 314 316 O
+air 199 202 317 320 O
+- 202 203 320 321 O
+fluid 203 208 321 326 O
+levels 209 215 327 333 O
+) 215 216 333 334 O
+compatible 217 227 335 345 O
+with 228 232 346 350 O
+an 233 235 351 353 O
+abscess 236 243 354 361 O
+that 244 248 362 366 O
+requires 249 257 367 375 O
+image 258 263 376 381 O
+- 263 264 381 382 O
+guided 264 270 382 388 O
+percutaneous 271 283 389 401 O
+drainage 284 292 402 410 O
+
+Allergy 0 7 411 418 O
+to 8 10 419 421 O
+contrast 11 19 422 430 B-allergy_name
+media 20 25 431 436 I-allergy_name
+, 25 26 436 437 O
+narcotics 27 36 438 447 B-allergy_name
+, 36 37 447 448 O
+sedatives 38 47 449 458 B-allergy_name
+, 47 48 458 459 O
+atropine 49 57 460 468 B-allergy_name
+or 58 60 469 471 O
+eggs 61 65 472 476 B-allergy_name
+
+Approval 0 8 477 485 O
+by 9 11 486 488 O
+the 12 15 489 492 O
+primary 16 23 493 500 O
+care 24 28 501 505 O
+team 29 33 506 510 O
+to 34 36 511 513 O
+pursue 37 43 514 520 O
+PDT 44 47 521 524 B-treatment
+and 48 51 525 528 O
+discuss 52 59 529 536 O
+enrollment 60 70 537 547 O
+with 71 75 548 552 O
+the 76 79 553 556 O
+patient 80 87 557 564 O
+
+Necrotic 0 8 565 573 O
+tissue 9 15 574 580 O
+that 16 20 581 585 O
+requires 21 29 586 594 O
+surgical 30 38 595 603 B-treatment
+debridement 39 50 604 615 I-treatment
+
+Patient 0 7 616 623 O
+is 8 10 624 626 O
+currently 11 20 627 636 O
+taking 21 27 637 643 O
+serotonergic 28 40 644 656 B-treatment
+psychiatric 41 52 657 668 I-treatment
+medication 53 63 669 679 I-treatment
+
+Poor 0 4 680 684 O
+kidney 5 11 685 691 O
+function 12 20 692 700 O
+( 21 22 701 702 O
+serum 22 27 702 707 B-clinical_variable
+creatinine 28 38 708 718 I-clinical_variable
+> 39 40 719 720 O
+3mg 40 43 720 723 B-lower_bound
+/ 43 44 723 724 I-lower_bound
+dl 44 46 724 726 I-lower_bound
+) 46 47 726 727 O
+
+Pregnancy 0 9 728 737 B-pregnancy
+
+Severely 0 8 738 746 O
+compromised 9 20 747 758 B-chronic_disease
+cardiopulmonary 21 36 759 774 I-chronic_disease
+function 37 45 775 783 I-chronic_disease
+
+Thrombocytopenia 0 16 784 800 B-clinical_variable
+( 17 18 801 802 O
+< 18 19 802 803 O
+50,000 19 25 803 809 B-upper_bound
+/ 25 26 809 810 I-upper_bound
+mm3 26 29 810 813 I-upper_bound
+) 29 30 813 814 O
+
+Uncorrectable 0 13 815 828 O
+coagulopathy 14 26 829 841 B-chronic_disease
+
+abscesses 0 9 842 851 B-chronic_disease
+not 10 13 852 855 O
+amenable 14 22 856 864 O
+to 23 25 865 867 O
+safe 26 30 868 872 O
+percutaneous 31 43 873 885 O
+image 44 49 886 891 O
+- 49 50 891 892 O
+guided 50 56 892 898 O
+drainage 57 65 899 907 O
+
+female 0 6 908 914 B-gender
+
+hemodynamic 0 11 915 926 B-chronic_disease
+instability 12 23 927 938 I-chronic_disease
+
+patient 0 7 939 946 O
+must 8 12 947 951 O
+have 13 17 952 956 O
+negative 18 26 957 965 B-pregnancy
+pregnancy 27 36 966 975 I-pregnancy
+test 37 41 976 980 O
+

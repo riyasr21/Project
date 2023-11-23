@@ -1,0 +1,18 @@
+Participation 0 13 0 13 O
+in 14 16 14 16 O
+the 17 20 17 20 O
+Chronic 21 28 21 28 O
+Disease 29 36 29 36 O
+Self 37 41 37 41 O
+- 41 42 41 42 O
+Management 42 52 42 52 O
+Program 53 60 53 60 O
+( 61 62 61 62 O
+CDSMP 62 67 62 67 O
+) 67 68 67 68 O
+in 69 71 69 71 O
+the 72 75 72 75 O
+past 76 80 76 80 B-upper_bound
+five 81 85 81 85 I-upper_bound
+year 86 90 86 90 I-upper_bound
+

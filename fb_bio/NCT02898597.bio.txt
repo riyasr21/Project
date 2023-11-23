@@ -1,0 +1,38 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Being 0 5 16 21 B-pregnancy
+pregnant 6 14 22 30 I-pregnancy
+or 15 17 31 33 O
+lactating 18 27 34 43 O
+
+Diagnosis 0 9 44 53 O
+of 10 12 54 56 O
+HIV 13 16 57 60 B-chronic_disease
+infection 17 26 61 70 I-chronic_disease
+
+English 0 7 71 78 B-language_fluency
+speaking 8 16 79 87 I-language_fluency
+
+Having 0 6 88 94 O
+an 7 9 95 97 O
+active 10 16 98 104 O
+skin 17 21 105 109 B-chronic_disease
+disease 22 29 110 117 I-chronic_disease
+
+History 0 7 118 125 O
+of 8 10 126 128 O
+serious 11 18 129 136 B-chronic_disease
+mental 19 25 137 143 I-chronic_disease
+illnesses 26 35 144 153 I-chronic_disease
+( 36 37 154 155 O
+e.g. 37 41 155 159 O
+, 41 42 159 160 O
+schizophrenia 43 56 161 174 B-chronic_disease
+and 57 60 175 178 O
+bipolar 61 68 179 186 B-chronic_disease
+disorder 69 77 187 195 I-chronic_disease
+) 77 78 195 196 O
+

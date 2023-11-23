@@ -1,0 +1,45 @@
+< 0 1 0 1 O
+18 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+history 0 7 18 25 O
+of 8 10 26 28 O
+Raynaud 11 18 29 36 B-chronic_disease
+'s 18 20 36 38 I-chronic_disease
+
+known 0 5 39 44 O
+severe 6 12 45 51 B-chronic_disease
+peripheral 13 23 52 62 I-chronic_disease
+artery 24 30 63 69 I-chronic_disease
+disease 31 38 70 77 I-chronic_disease
+
+less 0 4 78 82 O
+than 5 9 83 87 O
+5 10 11 88 89 B-upper_bound
+metabolic 12 21 90 99 O
+equivalents 22 33 100 111 O
+( 34 35 112 113 O
+METs 35 39 113 117 O
+) 39 40 117 118 O
+
+poor 0 4 119 123 O
+perfusion 5 14 124 133 O
+to 15 17 134 136 O
+fingers 18 25 137 144 O
+( 26 27 145 146 O
+as 27 29 146 148 O
+defined 30 37 149 156 O
+as 38 40 157 159 O
+a 41 42 160 161 O
+perfusion 43 52 162 171 B-clinical_variable
+index 53 58 172 177 I-clinical_variable
+less 59 63 178 182 O
+than 64 68 183 187 O
+0.5%- 69 74 188 193 B-upper_bound
+www.Masimo.com 75 89 194 208 O
+) 89 90 208 209 O
+
+pregnancy 0 9 210 219 B-pregnancy
+

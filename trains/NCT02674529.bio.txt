@@ -1,0 +1,74 @@
+A 0 1 0 1 O
+man 2 5 2 5 B-gender
+
+Currently 0 9 6 15 O
+experiencing 10 22 16 28 O
+a 23 24 29 30 O
+depressive 25 35 31 41 O
+episode 36 43 42 49 O
+as 44 46 50 52 O
+part 47 51 53 57 O
+of 52 54 58 60 O
+Major 55 60 61 66 B-chronic_disease
+Depressive 61 71 67 77 I-chronic_disease
+Disorder 72 80 78 86 I-chronic_disease
+
+Have 0 4 87 91 O
+a 5 6 92 93 O
+history 7 14 94 101 O
+of 15 17 102 104 O
+inadequate 18 28 105 115 O
+response 29 37 116 124 O
+/ 37 38 124 125 O
+tolerability 38 50 125 137 O
+to 51 53 138 140 O
+escitalopram 54 66 141 153 B-treatment
+
+Have 0 4 154 158 O
+a 5 6 159 160 O
+medical 7 14 161 168 O
+condition 15 24 169 178 O
+that 25 29 179 183 O
+contradicts 30 41 184 195 O
+treatment 42 51 196 205 B-treatment
+with 52 56 206 210 I-treatment
+escitalopram 57 69 211 223 I-treatment
+
+Meet 0 4 224 228 O
+criteria 5 13 229 237 O
+for 14 17 238 241 O
+substance 18 27 242 251 O
+dependence 28 38 252 262 O
+in 39 41 263 265 O
+the 42 45 266 269 O
+last 46 50 270 274 B-upper_bound
+6 51 52 275 276 I-upper_bound
+months 53 59 277 283 I-upper_bound
+
+Pregnant 0 8 284 292 B-pregnancy
+
+history 0 7 293 300 O
+of 8 10 301 303 O
+resistant 11 20 304 313 O
+depression 21 31 314 324 B-chronic_disease
+
+other 0 5 325 330 O
+Axis 6 10 331 335 B-chronic_disease
+I 11 12 336 337 I-chronic_disease
+psychotic 13 22 338 347 I-chronic_disease
+disorders 23 32 348 357 I-chronic_disease
+
+schizoaffective 0 15 358 373 B-chronic_disease
+
+schizophrenic 0 13 374 387 B-chronic_disease
+
+substance 0 9 388 397 O
+abuse 10 15 398 403 O
+in 16 18 404 406 O
+the 19 22 407 410 O
+last 23 27 411 415 B-upper_bound
+2 28 29 416 417 I-upper_bound
+months 30 36 418 424 I-upper_bound
+
+woman 0 5 425 430 B-gender
+

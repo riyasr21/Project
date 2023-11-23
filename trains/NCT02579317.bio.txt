@@ -1,0 +1,29 @@
+Pregnancy 0 9 0 9 B-pregnancy
+
+Women 0 5 10 15 B-gender
+diagnosed 6 15 16 25 O
+with 16 20 26 30 O
+substance 21 30 31 40 O
+use 31 34 41 44 O
+disorder 35 43 45 53 O
+
+Women 0 5 54 59 B-gender
+over 6 10 60 64 O
+age 11 14 65 68 B-age
+18 15 17 69 71 B-lower_bound
+
+Women 0 5 72 77 B-gender
+participating 6 19 78 91 O
+in 20 22 92 94 O
+IOP 23 26 95 98 O
+at 27 29 99 101 O
+Center 30 36 102 108 O
+for 37 40 109 112 O
+Great 41 46 113 118 O
+Expectations 47 59 119 131 O
+, 59 60 131 132 O
+New 61 64 133 136 O
+Brunswick 65 74 137 146 O
+, 74 75 146 147 O
+NJ 76 78 148 150 O
+

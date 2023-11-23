@@ -1,0 +1,62 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+90 7 9 7 9 B-upper_bound
+yrs 10 13 10 13 I-upper_bound
+
+Age 0 3 14 17 B-age
+< 3 4 17 18 O
+18 5 7 19 21 B-upper_bound
+yrs 8 11 22 25 I-upper_bound
+, 11 12 25 26 O
+or 13 15 27 29 O
+> 15 16 29 30 O
+90 17 19 31 33 B-lower_bound
+yrs 20 23 34 37 I-lower_bound
+
+Bilateral 0 9 38 47 B-treatment
+TKA 10 13 48 51 I-treatment
+
+Bleeding 0 8 52 60 B-chronic_disease
+diathesis 9 18 61 70 I-chronic_disease
+
+Contraindications 0 17 71 88 O
+to 18 20 89 91 O
+regional 21 29 92 100 B-treatment
+blockage 30 38 101 109 I-treatment
+
+General 0 7 110 117 B-treatment
+anesthesia 8 18 118 128 I-treatment
+
+Systemic 0 8 129 137 B-chronic_disease
+infection 9 18 138 147 I-chronic_disease
+
+The 0 3 148 151 B-clinical_variable
+American 4 12 152 160 I-clinical_variable
+Society 13 20 161 168 I-clinical_variable
+of 21 23 169 171 I-clinical_variable
+Anesthesiologists 24 41 172 189 I-clinical_variable
+( 42 43 190 191 I-clinical_variable
+ASA 43 46 191 194 I-clinical_variable
+) 46 47 194 195 I-clinical_variable
+Physical 48 56 196 204 I-clinical_variable
+Status 57 63 205 211 I-clinical_variable
+1 64 65 212 213 B-lower_bound
+- 65 66 213 214 O
+3 66 67 214 215 B-upper_bound
+
+coagulopathy 0 12 216 228 B-chronic_disease
+( 13 14 229 230 O
+as 14 16 230 232 O
+diagnosed 17 26 233 242 O
+by 27 29 243 245 O
+history 30 37 246 253 O
+or 38 40 254 256 O
+laboratory 41 51 257 267 O
+evaluation 52 62 268 278 O
+) 62 63 278 279 O
+
+revision 0 8 280 288 B-treatment
+of 9 11 289 291 I-treatment
+TKA 12 15 292 295 I-treatment
+

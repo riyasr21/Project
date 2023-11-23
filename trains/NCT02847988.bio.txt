@@ -1,0 +1,29 @@
+Acute 0 5 0 5 O
+- 5 6 5 6 O
+onset 6 11 6 11 O
+neuromuscular 12 25 12 25 B-chronic_disease
+disease 26 33 26 33 I-chronic_disease
+
+Cardiopulmonary 0 15 34 49 B-chronic_disease
+Instability 16 27 50 61 O
+
+Duration 0 8 62 70 O
+of 9 11 71 73 O
+mechanical 12 22 74 84 B-clinical_variable
+ventilation 23 34 85 96 I-clinical_variable
+> 35 36 97 98 O
+14 36 38 98 100 B-lower_bound
+days 39 43 101 105 I-lower_bound
+
+Lower 0 5 106 111 B-treatment
+- 5 6 111 112 I-treatment
+extremity 6 15 112 121 I-treatment
+amputee 16 23 122 129 I-treatment
+or 24 26 130 132 I-treatment
+paresis 27 34 133 140 I-treatment
+
+Pitting 0 7 141 148 B-clinical_variable
+edema 8 13 149 154 I-clinical_variable
+grade 14 19 155 160 I-clinical_variable
+≥3 20 22 161 163 O
+

@@ -1,0 +1,67 @@
+Acute 0 5 0 5 B-chronic_disease
+illness 6 13 6 13 I-chronic_disease
+or 14 16 14 16 O
+infection 17 26 17 26 B-chronic_disease
+
+Age 0 3 27 30 B-age
+between 4 11 31 38 O
+18 12 14 39 41 B-lower_bound
+and 15 18 42 45 O
+65 19 21 46 48 B-upper_bound
+years 22 27 49 54 I-upper_bound
+
+Duration 0 8 55 63 O
+of 9 11 64 66 O
+SCI 12 15 67 70 B-clinical_variable
+≥1 16 18 71 73 O
+year 19 23 74 78 I-lower_bound
+
+Evidence 0 8 79 87 O
+of 9 11 88 90 O
+sympathetic 12 23 91 102 O
+integrity 24 33 103 112 O
+below 34 39 113 118 O
+the 40 43 119 122 O
+lesion 44 50 123 129 O
+level 51 56 130 135 O
+by 57 59 136 138 O
+the 60 63 139 142 O
+skin 64 68 143 147 B-clinical_variable
+axon 69 73 148 152 I-clinical_variable
+- 73 74 152 153 I-clinical_variable
+reflex 74 80 153 159 I-clinical_variable
+vasodilatation 81 95 160 174 I-clinical_variable
+( 96 97 175 176 I-clinical_variable
+SkARV 97 102 176 181 I-clinical_variable
+) 102 103 181 182 I-clinical_variable
+test 104 108 183 187 I-clinical_variable
+
+Hypertension 0 12 188 200 B-chronic_disease
+( 13 14 201 202 O
+BP>140/90 14 23 202 211 B-clinical_variable
+mmHg 24 28 212 216 I-lower_bound
+) 28 29 216 217 O
+
+Known 0 5 218 223 O
+allergies 6 15 224 233 O
+to 16 18 234 236 O
+midodrine 19 28 237 246 B-allergy_name
+hydrochloride 29 42 247 260 I-allergy_name
+
+Pregnancy 0 9 261 270 B-pregnancy
+
+Untreated 0 9 271 280 B-chronic_disease
+thyroid 10 17 281 288 I-chronic_disease
+disease 18 25 289 296 I-chronic_disease
+
+diabetes 0 8 297 305 B-chronic_disease
+mellitus 9 17 306 314 I-chronic_disease
+
+peripheral 0 10 315 325 B-chronic_disease
+vascular 11 19 326 334 I-chronic_disease
+, 19 20 334 335 O
+or 21 23 336 338 O
+cerebral 24 32 339 347 B-chronic_disease
+vascular 33 41 348 356 I-chronic_disease
+disease 42 49 357 364 I-chronic_disease
+

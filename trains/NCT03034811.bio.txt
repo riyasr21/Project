@@ -1,0 +1,123 @@
+Charcot 0 7 0 7 B-chronic_disease
+'s 7 9 7 9 I-chronic_disease
+disease 10 17 10 17 I-chronic_disease
+
+Fixed 0 5 18 23 O
+flexion 6 13 24 31 B-clinical_variable
+deformity 14 23 32 41 I-clinical_variable
+( 24 25 42 43 O
+not 25 28 43 46 O
+passively 29 38 47 56 O
+correctable 39 50 57 68 O
+) 50 51 68 69 O
+of 52 54 70 72 O
+greater 55 62 73 80 O
+than 63 67 81 85 O
+15 68 70 86 88 B-lower_bound
+degrees 71 78 89 96 I-lower_bound
+
+Fixed 0 5 97 102 B-clinical_variable
+varus 6 11 103 108 I-clinical_variable
+deformity 12 21 109 118 I-clinical_variable
+( 22 23 119 120 O
+not 23 26 120 123 O
+passively 27 36 124 133 O
+correctable 37 48 134 145 O
+) 48 49 145 146 O
+of 50 52 147 149 O
+greater 53 60 150 157 O
+than 61 65 158 162 O
+15 66 68 163 165 B-lower_bound
+degrees 69 76 166 173 I-lower_bound
+
+Infection 0 9 174 183 B-chronic_disease
+, 9 10 183 184 O
+sepsis 11 17 185 191 B-chronic_disease
+, 17 18 191 192 O
+and 19 22 193 196 O
+osteomyelitis 23 36 197 210 B-chronic_disease
+
+Metabolic 0 9 211 220 B-chronic_disease
+disorders 10 19 221 230 I-chronic_disease
+which 20 25 231 236 O
+may 26 29 237 240 O
+impair 30 36 241 247 O
+bone 37 41 248 252 O
+formation 42 51 253 262 O
+
+Osteomalacia 0 12 263 275 B-chronic_disease
+
+Patient 0 7 276 283 O
+is 8 10 284 286 O
+at 11 13 287 289 O
+least 14 19 290 295 O
+18 20 22 296 298 B-lower_bound
+years 23 28 299 304 I-lower_bound
+of 29 31 305 307 O
+age 32 35 308 311 B-age
+
+Patient 0 7 312 319 O
+is 8 10 320 322 O
+currently 11 20 323 332 O
+participating 21 34 333 346 O
+in 35 37 347 349 O
+any 38 41 350 353 O
+other 42 47 354 359 O
+surgical 48 56 360 368 B-treatment
+intervention 57 69 369 381 I-treatment
+studies 70 77 382 389 O
+or 78 80 390 392 O
+pain 81 85 393 397 O
+management 86 96 398 408 O
+studies 97 104 409 416 O
+
+Patient 0 7 417 424 O
+is 8 10 425 427 O
+pregnant 11 19 428 436 B-pregnancy
+or 20 22 437 439 O
+considered 23 33 440 450 O
+a 34 35 451 452 O
+member 36 42 453 459 O
+of 43 45 460 462 O
+a 46 47 463 464 O
+protected 48 57 465 474 O
+population 58 68 475 485 O
+( 69 70 486 487 O
+e.g. 70 74 487 491 O
+, 74 75 491 492 O
+prisoner 76 84 493 501 O
+, 84 85 501 502 O
+mentally 86 94 503 511 O
+incompetent 95 106 512 523 O
+, 106 107 523 524 O
+etc 108 111 525 528 O
+. 111 112 528 529 O
+) 112 113 529 530 O
+
+Rheumatoid 0 10 531 541 B-chronic_disease
+arthritis 11 20 542 551 I-chronic_disease
+or 21 23 552 554 O
+other 24 29 555 560 O
+forms 30 35 561 566 O
+of 36 38 567 569 O
+inflammatory 39 51 570 582 B-chronic_disease
+joint 52 57 583 588 I-chronic_disease
+disease 58 65 589 596 I-chronic_disease
+
+Uncooperative 0 13 597 610 O
+patient 14 21 611 618 O
+or 22 24 619 621 O
+patient 25 32 622 629 O
+with 33 37 630 634 O
+neurologic 38 48 635 645 B-chronic_disease
+disorders 49 58 646 655 I-chronic_disease
+who 59 62 656 659 O
+is 63 65 660 662 O
+incapable 66 75 663 672 O
+of 76 78 673 675 O
+following 79 88 676 685 O
+directions 89 99 686 696 O
+
+neuromuscular 0 13 697 710 B-chronic_disease
+disease 14 21 711 718 I-chronic_disease
+

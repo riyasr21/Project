@@ -1,0 +1,376 @@
+Active 0 6 0 6 B-chronic_disease
+bleeding 7 15 7 15 I-chronic_disease
+condition 16 25 16 25 I-chronic_disease
+
+Concomitant 0 11 26 37 O
+NSAIDS 12 18 38 44 B-treatment
+
+Concomitant 0 11 45 56 O
+use 12 15 57 60 O
+of 16 18 61 63 O
+dual 19 23 64 68 B-treatment
+strong 24 30 69 75 I-treatment
+inhibitors 31 41 76 86 I-treatment
+or 42 44 87 89 I-treatment
+inducers 45 53 90 98 I-treatment
+( 54 55 99 100 O
+CYP3A4 55 61 100 106 B-treatment
+, 61 62 106 107 O
+P 63 64 108 109 B-treatment
+- 64 65 109 110 I-treatment
+gp 65 67 110 112 I-treatment
+) 67 68 112 113 O
+
+Diagnosis 0 9 114 123 O
+of 10 12 124 126 O
+pelvic 13 19 127 133 B-cancer
+malignancy 20 30 134 144 I-cancer
+
+Documented 0 10 145 155 O
+allergy 11 18 156 163 O
+to 19 21 164 166 O
+apixaban 22 30 167 175 B-allergy_name
+and/or 31 37 176 182 O
+enoxaparin 38 48 183 193 B-allergy_name
+
+Known 0 5 194 199 O
+history 6 13 200 207 O
+of 14 16 208 210 O
+Venous 17 23 211 217 B-chronic_disease
+( 24 25 218 219 I-chronic_disease
+Thromboembolism 25 40 219 234 I-chronic_disease
+) 40 41 234 235 I-chronic_disease
+VTE 42 45 236 239 I-chronic_disease
+prior 46 51 240 245 O
+to 52 54 246 248 O
+diagnosis 55 64 249 258 O
+( 65 66 259 260 O
+DVT 66 69 260 263 B-chronic_disease
+or 70 72 264 266 O
+Pulmonary 73 82 267 276 B-chronic_disease
+Embolism 83 91 277 285 I-chronic_disease
+( 92 93 286 287 I-chronic_disease
+PE 93 95 287 289 I-chronic_disease
+) 95 96 289 290 I-chronic_disease
+) 96 97 290 291 O
+due 98 101 292 295 O
+to 102 104 296 298 O
+increased 105 114 299 308 O
+underlying 115 125 309 319 O
+risk 126 130 320 324 O
+of 131 133 325 327 O
+new 134 137 328 331 O
+event 138 143 332 337 O
+
+Known 0 5 338 343 O
+or 6 8 344 346 O
+documented 9 19 347 357 O
+bleeding 20 28 358 366 B-chronic_disease
+disorders 29 38 367 376 I-chronic_disease
+
+Malignancy 0 10 377 387 B-cancer
+
+Positive 0 8 388 396 B-pregnancy
+pregnancy 9 18 397 406 I-pregnancy
+test 19 23 407 411 O
+on 24 26 412 414 O
+day 27 30 415 418 O
+of 31 33 419 421 O
+surgery 34 41 422 429 B-treatment
+
+Protein 0 7 430 437 B-chronic_disease
+C 8 9 438 439 I-chronic_disease
+deficiency 10 20 440 450 I-chronic_disease
+( 21 22 451 452 O
+increased 22 31 452 461 O
+risk 32 36 462 466 O
+of 37 39 467 469 O
+skin 40 44 470 474 B-chronic_disease
+necrosis 45 53 475 483 I-chronic_disease
+do 54 56 484 486 O
+those 57 62 487 492 O
+on 63 65 493 495 O
+injectable 66 76 496 506 B-treatment
+anticoagulation 77 92 507 522 I-treatment
+) 92 93 522 523 O
+
+SSRIs 0 5 524 529 B-treatment
+and 6 9 530 533 O
+SNRIs 10 15 534 539 B-treatment
+( 16 17 540 541 O
+common 17 23 541 547 O
+anti 24 28 548 552 B-treatment
+- 28 29 552 553 I-treatment
+depressant 29 39 553 563 I-treatment
+therapies 40 49 564 573 I-treatment
+) 49 50 573 574 O
+
+Significant 0 11 575 586 O
+liver 12 17 587 592 B-chronic_disease
+disease 18 25 593 600 I-chronic_disease
+as 26 28 601 603 O
+defined 29 36 604 611 O
+as 37 39 612 614 O
+Aspartate 40 49 615 624 B-clinical_variable
+Transaminase 50 62 625 637 I-clinical_variable
+( 63 64 638 639 I-clinical_variable
+AST 64 67 639 642 I-clinical_variable
+) 67 68 642 643 I-clinical_variable
+or 69 71 644 646 O
+Alanine 72 79 647 654 B-clinical_variable
+Transaminase 80 92 655 667 I-clinical_variable
+( 93 94 668 669 I-clinical_variable
+ALT 94 97 669 672 I-clinical_variable
+) 97 98 672 673 I-clinical_variable
+twice 99 104 674 679 O
+than 105 109 680 684 O
+normal 110 116 685 691 O
+
+Significant 0 11 692 703 O
+renal 12 17 704 709 B-chronic_disease
+disease 18 25 710 717 I-chronic_disease
+as 26 28 718 720 O
+defined 29 36 721 728 O
+by 37 39 729 731 O
+creatinine 40 50 732 742 B-clinical_variable
+clearance 51 60 743 752 I-clinical_variable
+less 61 65 753 757 O
+than 66 70 758 762 O
+30 71 73 763 765 B-upper_bound
+mL 74 76 766 768 I-upper_bound
+/ 76 77 768 769 I-upper_bound
+min 77 80 769 772 I-upper_bound
+
+Suitable 0 8 773 781 O
+candidate 9 18 782 791 O
+for 19 22 792 795 O
+surgery 23 30 796 803 B-treatment
+
+Uncontrolled 0 12 804 816 O
+severe 13 19 817 823 B-chronic_disease
+hypertension 20 32 824 836 I-chronic_disease
+( 33 34 837 838 O
+systolic 34 42 838 846 B-clinical_variable
+> 43 44 847 848 O
+200 44 47 848 851 B-lower_bound
+mmHg 48 52 852 856 I-lower_bound
+or 53 55 857 859 O
+diastolic 56 65 860 869 B-clinical_variable
+> 66 67 870 871 O
+120 67 70 871 874 B-lower_bound
+mmHg 71 75 875 879 I-lower_bound
+) 75 76 879 880 O
+
+WOCBP 0 5 881 886 O
+must 6 10 887 891 O
+agree 11 16 892 897 O
+to 17 19 898 900 O
+follow 20 26 901 907 O
+instructions 27 39 908 920 O
+for 40 43 921 924 O
+method(s 44 52 925 933 O
+) 52 53 933 934 O
+of 54 56 935 937 O
+contraception 57 70 938 951 O
+for 71 74 952 955 O
+the 75 78 956 959 O
+duration 79 87 960 968 O
+of 88 90 969 971 O
+treatment 91 100 972 981 O
+with 101 105 982 986 O
+study 106 111 987 992 O
+drug(s 112 118 993 999 O
+) 118 119 999 1000 O
+apixaban 120 128 1001 1009 B-treatment
+plus 129 133 1010 1014 O
+5 134 135 1015 1016 O
+half 136 140 1017 1021 O
+- 140 141 1021 1022 O
+lives 141 146 1022 1027 O
+of 147 149 1028 1030 O
+study 150 155 1031 1036 O
+drug 156 160 1037 1041 O
+apixaban 161 169 1042 1050 O
+( 170 171 1051 1052 O
+2.5 171 174 1052 1055 O
+days 175 179 1056 1060 O
+) 179 180 1060 1061 O
+plus 181 185 1062 1066 O
+30 186 188 1067 1069 O
+days 189 193 1070 1074 O
+( 194 195 1075 1076 O
+duration 195 203 1076 1084 O
+of 204 206 1085 1087 O
+ovulatory 207 216 1088 1097 O
+cycle 217 222 1098 1103 O
+) 222 223 1103 1104 O
+for 224 227 1105 1108 O
+a 228 229 1109 1110 O
+total 230 235 1111 1116 O
+of 236 238 1117 1119 O
+32.5 239 243 1120 1124 O
+days 244 248 1125 1129 O
+post 249 253 1130 1134 O
+- 253 254 1134 1135 O
+treatment 254 263 1135 1144 O
+completion 264 274 1145 1155 O
+
+Women 0 5 1156 1161 B-gender
+must 6 10 1162 1166 O
+not 11 14 1167 1170 O
+be 15 17 1171 1173 O
+breastfeeding 18 31 1174 1187 O
+
+Women 0 5 1188 1193 B-gender
+of 6 8 1194 1196 O
+childbearing 9 21 1197 1209 O
+potential 22 31 1210 1219 O
+( 32 33 1220 1221 O
+WOCBP 33 38 1221 1226 O
+) 38 39 1226 1227 O
+must 40 44 1228 1232 O
+have 45 49 1233 1237 O
+a 50 51 1238 1239 O
+negative 52 60 1240 1248 B-pregnancy
+serum 61 66 1249 1254 I-pregnancy
+or 67 69 1255 1257 I-pregnancy
+urine 70 75 1258 1263 I-pregnancy
+pregnancy 76 85 1264 1273 I-pregnancy
+test 86 90 1274 1278 O
+( 91 92 1279 1280 O
+minimum 92 99 1280 1287 O
+sensitivity 100 111 1288 1299 O
+25 112 114 1300 1302 B-lower_bound
+IU 115 117 1303 1305 I-lower_bound
+/ 117 118 1305 1306 I-lower_bound
+L 118 119 1306 1307 I-lower_bound
+or 120 122 1308 1310 O
+equivalent 123 133 1311 1321 O
+units 134 139 1322 1327 O
+of 140 142 1328 1330 O
+HCG 143 146 1331 1334 B-clinical_variable
+) 146 147 1334 1335 O
+within 148 154 1336 1342 O
+24 155 157 1343 1345 B-upper_bound
+hours 158 163 1346 1351 I-upper_bound
+prior 164 169 1352 1357 I-upper_bound
+to 170 172 1358 1360 O
+surgery 173 180 1361 1368 B-treatment
+
+anti 0 4 1369 1373 B-chronic_disease
+- 4 5 1373 1374 I-chronic_disease
+phospholipid 5 17 1374 1386 I-chronic_disease
+syndrome 18 26 1387 1395 I-chronic_disease
+
+antithrombin 0 12 1396 1408 B-chronic_disease
+III 13 16 1409 1412 I-chronic_disease
+deficiency 17 27 1413 1423 I-chronic_disease
+
+cervical 0 8 1424 1432 B-cancer
+cancers 9 16 1433 1440 I-cancer
+
+confirmed 0 9 1441 1450 O
+intracranial 10 22 1451 1463 B-chronic_disease
+or 23 25 1464 1466 O
+intraspinal 26 37 1467 1478 B-chronic_disease
+bleeding 38 46 1479 1487 I-chronic_disease
+
+endometrial 0 11 1488 1499 B-cancer
+/ 11 12 1499 1500 O
+uterine 12 19 1500 1507 B-cancer
+
+haemophilias 0 12 1508 1520 B-chronic_disease
+
+homozygotes 0 11 1521 1532 O
+for 12 15 1533 1536 O
+Factor 16 22 1537 1543 B-chronic_disease
+V 23 24 1544 1545 I-chronic_disease
+Leiden 25 31 1546 1552 I-chronic_disease
+deficiency 32 42 1553 1563 I-chronic_disease
+
+hyperhomocysteinemia 0 20 1564 1584 B-chronic_disease
+
+mass 0 4 1585 1589 O
+that 5 9 1590 1594 O
+is 10 12 1595 1597 O
+non 13 16 1598 1601 O
+- 16 17 1601 1602 O
+gynecologic 17 28 1602 1613 O
+in 29 31 1614 1616 O
+origin 32 38 1617 1623 O
+( 39 40 1624 1625 O
+mass 40 44 1625 1629 O
+/ 44 45 1629 1630 O
+tumor 45 50 1630 1635 B-cancer
+of 51 53 1636 1638 O
+origin 54 60 1639 1645 O
+other 61 66 1646 1651 O
+than 67 71 1652 1656 O
+reproductive 72 84 1657 1669 O
+organ 85 90 1670 1675 O
+such 91 95 1676 1680 O
+as 96 98 1681 1683 O
+rectal 99 105 1684 1690 O
+, 105 106 1690 1691 O
+abdominal 107 116 1692 1701 O
+, 116 117 1701 1702 O
+breast 118 124 1703 1709 O
+) 124 125 1709 1710 O
+
+no 0 2 1711 1713 O
+significant 3 14 1714 1725 O
+cardiac 15 22 1726 1733 B-chronic_disease
+/ 22 23 1733 1734 O
+renal 23 28 1734 1739 B-chronic_disease
+/ 28 29 1739 1740 O
+hepatic 29 36 1740 1747 B-chronic_disease
+dysfunction 37 48 1748 1759 I-chronic_disease
+
+other 0 5 1760 1765 O
+anticoagulant 6 19 1766 1779 B-treatment
+/ 19 20 1779 1780 I-treatment
+antiplatelet 20 32 1780 1792 I-treatment
+therapy 33 40 1793 1800 I-treatment
+including 41 50 1801 1810 O
+Acetylsalicylic 51 66 1811 1826 B-treatment
+Acid 67 71 1827 1831 I-treatment
+( 72 73 1832 1833 I-treatment
+Aspirin 73 80 1833 1840 I-treatment
+) 80 81 1840 1841 I-treatment
+( 82 83 1842 1843 O
+ASA 83 86 1843 1846 B-clinical_variable
+) 86 87 1846 1847 O
+> 88 89 1848 1849 O
+81mg 89 93 1849 1853 B-lower_bound
+/ 93 94 1853 1854 I-lower_bound
+day 94 97 1854 1857 I-lower_bound
+
+potential 0 9 1858 1867 O
+bleeding 10 18 1868 1876 B-chronic_disease
+lesions 19 26 1877 1884 I-chronic_disease
+
+protein 0 7 1885 1892 B-chronic_disease
+C 8 9 1893 1894 I-chronic_disease
+deficiency 10 20 1895 1905 I-chronic_disease
+
+recent 0 6 1906 1912 O
+stroke 7 13 1913 1919 B-chronic_disease
+
+recent 0 6 1920 1926 O
+trauma 7 13 1927 1933 O
+or 14 16 1934 1936 O
+surgery 17 24 1937 1944 B-treatment
+
+systemic 0 8 1945 1953 B-chronic_disease
+lupus 9 14 1954 1959 I-chronic_disease
+erythematous 15 27 1960 1972 I-chronic_disease
+
+thrombocytopenia 0 16 1973 1989 B-chronic_disease
+
+undergoing 0 10 1990 2000 O
+surgical 11 19 2001 2009 B-treatment
+debulking 20 29 2010 2019 I-treatment
+
+vulvar 0 6 2020 2026 B-cancer
+cancers 7 14 2027 2034 I-cancer
+

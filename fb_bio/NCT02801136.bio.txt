@@ -1,0 +1,75 @@
+9 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+25 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+old 11 14 11 14 O
+
+Diagnosis 0 9 15 24 O
+of 10 12 25 27 O
+epilepsy 13 21 28 36 B-chronic_disease
+is 22 24 37 39 O
+acceptable 25 35 40 50 O
+as 36 38 51 53 O
+long 39 43 54 58 O
+as 44 46 59 61 O
+patient 47 54 62 69 O
+'s 54 56 69 71 O
+neurologist 57 68 72 83 O
+confirms 69 77 84 92 O
+that 78 82 93 97 O
+epileptic 83 92 98 107 O
+seizures 93 101 108 116 O
+are 102 105 117 120 O
+currently 106 115 121 130 O
+under 116 121 131 136 O
+control 122 129 137 144 O
+
+Diagnosis 0 9 145 154 O
+of 10 12 155 157 O
+psychogenic 13 24 158 169 B-chronic_disease
+non 25 28 170 173 I-chronic_disease
+- 28 29 173 174 I-chronic_disease
+epileptic 29 38 174 183 I-chronic_disease
+seizures 39 47 184 192 I-chronic_disease
+by 48 50 193 195 O
+a 51 52 196 197 O
+medical 53 60 198 205 O
+doctor 61 67 206 212 O
+using 68 73 213 218 O
+video 74 79 219 224 O
+/ 79 80 224 225 O
+EEG 80 83 225 228 O
+
+Family 0 6 229 235 O
+member 7 13 236 242 O
+( 14 15 243 244 O
+parent 15 21 244 250 O
+if 22 24 251 253 O
+a 25 26 254 255 O
+minor 27 32 256 261 O
+) 32 33 261 262 O
+willing 34 41 263 270 O
+to 42 44 271 273 O
+participate 45 56 274 285 O
+and 57 60 286 289 O
+that 61 65 290 294 O
+the 66 69 295 298 O
+subject 70 77 299 306 O
+with 78 82 307 311 O
+PNES 83 87 312 316 B-chronic_disease
+chooses 88 95 317 324 O
+
+Other 0 5 325 330 O
+serious 6 13 331 338 B-chronic_disease
+mental 14 20 339 345 I-chronic_disease
+health 21 27 346 352 I-chronic_disease
+diagnoses 28 37 353 362 O
+
+Received 0 8 363 371 O
+diagnosis 9 18 372 381 O
+less 19 23 382 386 O
+than 24 28 387 391 O
+2 29 30 392 393 B-upper_bound
+years 31 36 394 399 I-upper_bound
+ago 37 40 400 403 O
+

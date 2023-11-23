@@ -1,0 +1,33 @@
+Patient 0 7 0 7 O
+who 8 11 8 11 O
+recently 12 20 12 20 O
+underwent 21 30 21 30 O
+a 31 32 31 32 O
+surgery 33 40 33 40 B-treatment
+involving 41 50 41 50 O
+linear 51 57 51 57 B-treatment
+surgical 58 66 58 66 I-treatment
+skin 67 71 67 71 I-treatment
+incisions 72 81 72 81 I-treatment
+of 82 84 82 84 O
+5 85 86 85 86 B-lower_bound
+cm 86 88 86 88 I-lower_bound
+or 89 91 89 91 O
+more 92 96 92 96 O
+
+patients 0 8 97 105 O
+with 9 13 106 110 O
+two 14 17 111 114 O
+exactly 18 25 115 122 O
+symmetrical 26 37 123 134 B-treatment
+separate 38 46 135 143 I-treatment
+incisions 47 56 144 153 I-treatment
+like 57 61 154 158 O
+bilateral 62 71 159 168 B-treatment
+inguinal 72 80 169 177 I-treatment
+hernia 81 87 178 184 I-treatment
+repair 88 94 185 191 I-treatment
+or 95 97 192 194 O
+bilateral 98 107 195 204 B-treatment
+mastectomy 108 118 205 215 I-treatment
+

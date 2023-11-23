@@ -1,0 +1,30 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+liver 14 19 14 19 B-chronic_disease
+disease 20 27 20 27 I-chronic_disease
+as 28 30 28 30 O
+tested 31 37 31 37 O
+by 38 40 38 40 O
+LFTs 41 45 41 45 O
+
+less 0 4 46 50 O
+than 5 9 51 55 O
+or 10 12 56 58 O
+equal 13 18 59 64 O
+to 19 21 65 67 O
+30 22 24 68 70 B-upper_bound
+weeks 25 30 71 76 I-upper_bound
+gestation 31 40 77 86 O
+or 41 43 87 89 O
+less 44 48 90 94 O
+than 49 53 95 99 O
+1500 54 58 100 104 B-upper_bound
+g 59 60 105 106 I-upper_bound
+at 61 63 107 109 O
+birth 64 69 110 115 O
+
+≤ 0 1 116 117 O
+500 2 5 118 121 B-upper_bound
+grams 6 11 122 127 I-upper_bound
+birthweight 12 23 128 139 B-clinical_variable
+

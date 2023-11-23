@@ -1,0 +1,47 @@
+be 0 2 0 2 O
+at 3 5 3 5 O
+least 6 11 6 11 O
+one 12 15 12 15 O
+year 16 20 16 20 O
+post 21 25 21 25 B-chronic_disease
+- 25 26 25 26 I-chronic_disease
+amputation 26 36 26 36 I-chronic_disease
+
+be 0 2 37 39 O
+willing 3 10 40 47 O
+to 11 13 48 50 O
+travel 14 20 51 57 O
+to 21 23 58 60 O
+the 24 27 61 64 O
+University 28 38 65 75 O
+of 39 41 76 78 O
+Pittsburgh 42 52 79 89 O
+at 53 55 90 92 O
+least 56 61 93 98 O
+twice 62 67 99 104 O
+per 68 71 105 108 O
+week 72 76 109 113 O
+for 77 80 114 117 O
+30 81 83 118 120 B-lower_bound
+days 84 88 121 125 I-lower_bound
+
+have 0 4 126 130 O
+an 5 7 131 133 O
+upper 8 13 134 139 O
+- 13 14 139 140 O
+limb 14 18 140 144 O
+amputation 19 29 145 155 B-treatment
+
+women 0 5 156 161 B-gender
+who 6 9 162 165 O
+are 10 13 166 169 B-pregnancy
+pregnant 14 22 170 178 I-pregnancy
+or 23 25 179 181 O
+plan 26 30 182 186 B-pregnancy
+to 31 33 187 189 I-pregnancy
+become 34 40 190 196 I-pregnancy
+pregnant 41 49 197 205 I-pregnancy
+during 50 56 206 212 O
+the 57 60 213 216 O
+study 61 66 217 222 O
+

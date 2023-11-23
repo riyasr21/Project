@@ -1,0 +1,162 @@
+1hr 0 3 0 3 O
+> 3 4 3 4 O
+180 5 8 5 8 B-lower_bound
+mg 9 11 9 11 I-lower_bound
+/ 11 12 11 12 I-lower_bound
+dL 12 14 12 14 I-lower_bound
+
+2 0 1 15 16 O
+hr>155 2 8 17 23 O
+mg 9 11 24 26 I-lower_bound
+/ 11 12 26 27 I-lower_bound
+dL 12 14 27 29 I-lower_bound
+
+3 0 1 30 31 B-upper_bound
+hr>140 2 8 32 38 I-upper_bound
+mg 9 11 39 41 I-lower_bound
+/ 11 12 41 42 I-lower_bound
+dL 12 14 42 44 I-lower_bound
+
+A1C≥6.5 0 7 45 52 B-clinical_variable
+% 7 8 52 53 I-lower_bound
+
+BMI 0 3 54 57 B-bmi
+of 4 6 58 60 O
+26 7 9 61 63 B-lower_bound
+- 9 10 63 64 O
+39 10 12 64 66 B-upper_bound
+kg 13 15 67 69 I-upper_bound
+/ 15 16 69 70 I-upper_bound
+m2 16 18 70 72 I-upper_bound
+at 19 21 73 75 O
+the 22 25 76 79 O
+time 26 30 80 84 O
+of 31 33 85 87 O
+diagnosis 34 43 88 97 O
+
+Fasting 0 7 98 105 B-clinical_variable
+glucose>125 8 19 106 117 I-clinical_variable
+mg 20 22 118 120 I-lower_bound
+/ 22 23 120 121 I-lower_bound
+dL 23 25 121 123 I-lower_bound
+
+Fasting>95 0 10 124 134 B-clinical_variable
+mg 11 13 135 137 I-lower_bound
+/ 13 14 137 138 I-lower_bound
+dL 14 16 138 140 I-lower_bound
+but 17 20 141 144 O
+< 21 22 145 146 O
+105 22 25 146 149 B-upper_bound
+mg 26 28 150 152 I-upper_bound
+/ 28 29 152 153 I-upper_bound
+dL 29 31 153 155 I-upper_bound
+
+History 0 7 156 163 O
+of 8 10 164 166 O
+pancreatitis 11 23 167 179 B-chronic_disease
+
+Pregnant 0 8 180 188 B-pregnancy
+women 9 14 189 194 B-gender
+
+Risk 0 4 195 199 O
+factors 5 12 200 207 O
+for 13 16 208 211 O
+placental 17 26 212 221 B-chronic_disease
+insufficiency 27 40 222 235 I-chronic_disease
+
+Taking 0 6 236 242 O
+beta 7 11 243 247 B-treatment
+blockers 12 20 248 256 I-treatment
+/ 20 21 256 257 O
+glucocorticoids 21 36 257 272 B-treatment
+
+between 0 7 273 280 O
+the 8 11 281 284 O
+ages 12 16 285 289 B-age
+of 17 19 290 292 O
+20 20 22 293 295 B-lower_bound
+- 22 23 295 296 O
+36 23 25 296 298 B-upper_bound
+yrs 26 29 299 302 I-upper_bound
+
+diagnosed 0 9 303 312 O
+with 10 14 313 317 O
+Gestational 15 26 318 329 B-chronic_disease
+diabetes 27 35 330 338 I-chronic_disease
+according 36 45 339 348 O
+to 46 48 349 351 O
+the 49 52 352 355 O
+criteria 53 61 356 364 O
+established 62 73 365 376 O
+by 74 76 377 379 O
+the 77 80 380 383 O
+American 81 89 384 392 O
+College 90 97 393 400 O
+of 98 100 401 403 O
+Obstetricians 101 114 404 417 O
+and 115 118 418 421 O
+Gynecologists 119 132 422 435 O
+
+extreme 0 7 436 443 B-chronic_disease
+hypertriglyceridemia 8 28 444 464 I-chronic_disease
+
+hypertension 0 12 465 477 B-chronic_disease
+, 12 13 477 478 O
+renal 14 19 479 484 B-chronic_disease
+disease 20 27 485 492 I-chronic_disease
+, 27 28 492 493 O
+thrombophilias 29 43 494 508 B-chronic_disease
+, 43 44 508 509 O
+rheumatologic 45 58 510 523 B-chronic_disease
+disease 59 66 524 531 I-chronic_disease
+, 66 67 531 532 O
+preeclampsia 68 80 533 545 B-chronic_disease
+, 80 81 545 546 O
+steroid 82 89 547 554 B-treatment
+use 90 93 555 558 O
+, 93 94 558 559 O
+history 95 102 560 567 O
+of 103 105 568 570 O
+pancreatitis 106 118 571 583 B-chronic_disease
+, 118 119 583 584 O
+infectious 120 130 585 595 B-chronic_disease
+disease 131 138 596 603 I-chronic_disease
+, 138 139 603 604 O
+or 140 142 605 607 O
+intrauterine 143 155 608 620 B-chronic_disease
+growth 156 162 621 627 I-chronic_disease
+restriction 163 174 628 639 I-chronic_disease
+
+no 0 2 640 642 O
+oral 3 7 643 647 B-treatment
+hypoglycemic 8 20 648 660 I-treatment
+therapy 21 28 661 668 I-treatment
+before 29 35 669 675 O
+entering 36 44 676 684 O
+the 45 48 685 688 O
+study 49 54 689 694 O
+
+non 0 3 695 698 B-language_fluency
+- 3 4 698 699 I-language_fluency
+English 4 11 699 706 I-language_fluency
+speaking 12 20 707 715 I-language_fluency
+
+overt 0 5 716 721 B-chronic_disease
+diabetes 6 14 722 730 I-chronic_disease
+
+random 0 6 731 737 O
+glucose 7 14 738 745 B-clinical_variable
+> 15 16 746 747 O
+200 16 19 747 750 B-lower_bound
+/ 19 20 750 751 I-lower_bound
+mg 20 22 751 753 I-lower_bound
+/ 22 23 753 754 I-lower_bound
+dL 23 25 754 756 I-lower_bound
+
+singleton 0 9 757 766 O
+pregnancy 10 19 767 776 B-pregnancy
+
+suspected 0 9 777 786 O
+preexisting 10 21 787 798 O
+diabetes 22 30 799 807 B-chronic_disease
+

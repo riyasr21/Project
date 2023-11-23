@@ -1,0 +1,22 @@
+Primary 0 7 0 7 O
+diagnosis 8 17 8 17 O
+of 18 20 18 20 O
+OCD 21 24 21 24 B-chronic_disease
+
+Sufficient 0 10 25 35 O
+severity 11 19 36 44 O
+of 20 22 45 47 O
+OCD 23 26 48 51 B-chronic_disease
+symptoms 27 35 52 60 O
+
+ages 0 4 61 65 B-age
+18 5 7 66 68 B-lower_bound
+- 7 8 68 69 O
+65 8 10 69 71 B-upper_bound
+
+major 0 5 72 77 O
+medical 6 13 78 85 O
+or 14 16 86 88 O
+neurological 17 29 89 101 B-chronic_disease
+problem 30 37 102 109 I-chronic_disease
+

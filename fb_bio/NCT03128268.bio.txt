@@ -1,0 +1,24 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+ICDs 0 4 25 29 B-treatment
+implanted 5 14 30 39 O
+
+Pacemaker 0 9 40 49 B-treatment
+or 10 12 50 52 O
+ICD 13 16 53 56 B-treatment
+implanted 17 26 57 66 O
+
+Temporary 0 9 67 76 B-treatment
+Pacemakers 10 20 77 87 I-treatment
+( 21 22 88 89 O
+e.g. 22 26 89 93 O
+transvenous 27 38 94 105 B-treatment
+temporary 39 48 106 115 I-treatment
+wires 49 54 116 121 I-treatment
+) 54 55 121 122 O
+

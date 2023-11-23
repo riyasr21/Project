@@ -1,0 +1,103 @@
+Any 0 3 0 3 O
+manipulative 4 16 4 16 B-treatment
+therapies 17 26 17 26 I-treatment
+within 27 33 27 33 O
+the 34 37 34 37 O
+previous 38 46 38 46 B-upper_bound
+7 47 48 47 48 I-upper_bound
+days 49 53 49 53 I-upper_bound
+( 54 55 54 55 O
+including 55 64 55 64 O
+but 65 68 65 68 O
+not 69 72 69 72 O
+limited 73 80 73 80 O
+to 81 83 81 83 O
+: 83 84 83 84 O
+osteopathic 85 96 85 96 B-treatment
+manipulative 97 109 97 109 I-treatment
+treatment 110 119 110 119 I-treatment
+, 119 120 119 120 O
+massage 121 128 121 128 B-treatment
+or 129 131 129 131 O
+acupuncture 132 143 132 143 B-treatment
+) 143 144 143 144 O
+
+Asthma 0 6 145 151 B-chronic_disease
+
+Chronic 0 7 152 159 O
+Cardiovascular 8 22 160 174 B-chronic_disease
+Disease 23 30 175 182 I-chronic_disease
+( 31 32 183 184 O
+including 32 41 184 193 O
+but 42 45 194 197 O
+not 46 49 198 201 O
+limited 50 57 202 209 O
+to 58 60 210 212 O
+: 60 61 212 213 O
+congestive 62 72 214 224 B-chronic_disease
+heart 73 78 225 230 I-chronic_disease
+failure 79 86 231 238 I-chronic_disease
+, 86 87 238 239 O
+previous 88 96 240 248 O
+myocardial 97 107 249 259 B-chronic_disease
+infarction 108 118 260 270 I-chronic_disease
+, 118 119 270 271 O
+any 120 123 272 275 O
+cardiomyopathy 124 138 276 290 B-chronic_disease
+, 138 139 290 291 O
+any 140 143 292 295 O
+arrhythmia 144 154 296 306 B-chronic_disease
+, 154 155 306 307 O
+or 156 158 308 310 O
+previous 159 167 311 319 O
+cardiac 168 175 320 327 B-treatment
+surgery 176 183 328 335 I-treatment
+) 183 184 335 336 O
+
+Current 0 7 337 344 O
+or 8 10 345 347 O
+recent 11 17 348 354 O
+illness 18 25 355 362 B-chronic_disease
+
+Diabetes 0 8 363 371 B-chronic_disease
+
+Hypertension 0 12 372 384 B-chronic_disease
+as 13 15 385 387 O
+defined 16 23 388 395 O
+by 24 26 396 398 O
+the 27 30 399 402 O
+Seventh 31 38 403 410 O
+Report 39 45 411 417 O
+of 46 48 418 420 O
+US 49 51 421 423 O
+National 52 60 424 432 O
+Committee 61 70 433 442 O
+on 71 73 443 445 O
+Prevention 74 84 446 456 O
+, 84 85 456 457 O
+Detection 86 95 458 467 O
+, 95 96 467 468 O
+Education 97 106 469 478 O
+and 107 110 479 482 O
+Treatment 111 120 483 492 B-treatment
+of 121 123 493 495 O
+High 124 128 496 500 B-chronic_disease
+Blood 129 134 501 506 I-chronic_disease
+Pressure 135 143 507 515 I-chronic_disease
+or 144 146 516 518 O
+hypertensive 147 159 519 531 B-treatment
+medications 160 171 532 543 I-treatment
+
+Normal 0 6 544 550 O
+EKG 7 10 551 554 B-treatment
+
+Pregnancy 0 9 555 564 B-pregnancy
+
+between 0 7 565 572 O
+the 8 11 573 576 O
+ages 12 16 577 581 B-age
+of 17 19 582 584 O
+20 20 22 585 587 B-lower_bound
+- 22 23 587 588 O
+50 23 25 588 590 B-upper_bound
+

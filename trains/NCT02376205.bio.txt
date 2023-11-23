@@ -1,0 +1,69 @@
+Known 0 5 0 5 O
+history 6 13 6 13 O
+of 14 16 14 16 O
+swallowing 17 27 17 27 O
+issues 28 34 28 34 O
+( 35 36 35 36 O
+e.g. 36 40 36 40 O
+dysphagia 41 50 41 50 B-chronic_disease
+, 50 51 50 51 O
+odynophagia 52 63 52 63 B-chronic_disease
+) 63 64 63 64 O
+
+Known 0 5 65 70 O
+hypersensitivity 6 22 71 87 O
+reactions 23 32 88 97 O
+to 33 35 98 100 O
+bupivacaine 36 47 101 112 B-allergy_name
+hydrochloride 48 61 113 126 B-allergy_name
+
+More 0 4 127 131 O
+than 5 9 132 136 O
+2 10 11 137 138 B-lower_bound
+- 11 12 138 139 O
+level 12 17 139 144 O
+ACDF 18 22 145 149 B-treatment
+surgeries 23 32 150 159 I-treatment
+
+Patients 0 8 160 168 O
+older 9 14 169 174 O
+than 15 19 175 179 O
+18 20 22 180 182 B-lower_bound
+y.o 23 26 183 186 I-lower_bound
+
+Patients 0 8 187 195 O
+undergoing 9 19 196 206 O
+one- 20 24 207 211 O
+or 25 27 212 214 O
+two 28 31 215 218 O
+- 31 32 218 219 O
+level 32 37 219 224 O
+anterior 38 46 225 233 B-treatment
+cervical 47 55 234 242 I-treatment
+discectomy 56 66 243 253 I-treatment
+and 67 70 254 257 O
+fusion 71 77 258 264 B-treatment
+surgery 78 85 265 272 I-treatment
+for 86 89 273 276 O
+radiculopathy 90 103 277 290 B-chronic_disease
+or 104 106 291 293 O
+myelopathy 107 117 294 304 B-chronic_disease
+symptoms 118 126 305 313 O
+
+Pregnant 0 8 314 322 B-pregnancy
+
+Previous 0 8 323 331 O
+cervical 9 17 332 340 B-treatment
+spine 18 23 341 346 I-treatment
+surgery 24 31 347 354 I-treatment
+
+other 0 5 355 360 O
+amino 6 11 361 366 B-treatment
+- 11 12 366 367 I-treatment
+amide 12 17 367 372 I-treatment
+anesthetics 18 29 373 384 I-treatment
+( 30 31 385 386 O
+e.g. 31 35 386 390 O
+lidocaine 36 45 391 400 B-treatment
+) 45 46 400 401 O
+

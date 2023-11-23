@@ -1,0 +1,9 @@
+Cardiac 0 7 0 7 B-chronic_disease
+disease 8 15 8 15 I-chronic_disease
+
+Diabetes 0 8 16 24 B-chronic_disease
+mellitus 9 17 25 33 I-chronic_disease
+
+Respiratory 0 11 34 45 B-chronic_disease
+disease 12 19 46 53 I-chronic_disease
+

@@ -1,0 +1,108 @@
+Active 0 6 0 6 O
+systemic 7 15 7 15 B-chronic_disease
+infection 16 25 16 25 I-chronic_disease
+
+Adult 0 5 26 31 O
+patients 6 14 32 40 O
+> 15 16 41 42 O
+18 16 18 42 44 B-lower_bound
+years 19 24 45 50 I-lower_bound
+old 25 28 51 54 O
+
+End 0 3 55 58 O
+stage 4 9 59 64 O
+renal 10 15 65 70 B-chronic_disease
+disease 16 23 71 78 I-chronic_disease
+on 24 26 79 81 O
+dialysis 27 35 82 90 B-treatment
+
+Hospitalized 0 12 91 103 B-treatment
+with 13 17 104 108 O
+primary 18 25 109 116 O
+or 26 28 117 119 O
+secondary 29 38 120 129 O
+diagnosis 39 48 130 139 O
+of 49 51 140 142 O
+Acute 52 57 143 148 B-chronic_disease
+Decompensated 58 71 149 162 I-chronic_disease
+Heart 72 77 163 168 I-chronic_disease
+Failure 78 85 169 176 I-chronic_disease
+
+Inadequate 0 10 177 187 B-technology_access
+cell 11 15 188 192 I-technology_access
+phone 16 21 193 198 I-technology_access
+coverage 22 30 199 207 I-technology_access
+( 31 32 208 209 O
+including 32 41 209 218 O
+international 42 55 219 232 O
+patients 56 64 233 241 O
+or 65 67 242 244 O
+international 68 81 245 258 O
+travel 82 88 259 265 O
+during 89 95 266 272 O
+study 96 101 273 278 O
+period 102 108 279 285 O
+) 108 109 285 286 O
+
+Known 0 5 287 292 O
+skin 6 10 293 297 O
+allergy 11 18 298 305 O
+to 19 21 306 308 O
+adhesives 22 31 309 318 B-allergy_name
+( 32 33 319 320 O
+hydrocolloid 33 45 320 332 B-allergy_name
+, 45 46 332 333 O
+silicone 47 55 334 342 B-allergy_name
+, 55 56 342 343 O
+acrylic 57 64 344 351 B-allergy_name
+) 64 65 351 352 O
+
+Overall 0 7 353 360 O
+life 8 12 361 365 B-clinical_variable
+expectancy 13 23 366 376 I-clinical_variable
+< 24 25 377 378 O
+1 26 27 379 380 B-upper_bound
+year 28 32 381 385 I-upper_bound
+
+Pregnant 0 8 386 394 B-pregnancy
+
+Subject 0 7 395 402 O
+or 8 10 403 405 O
+caregiver 11 20 406 415 O
+is 21 23 416 418 O
+not 24 27 419 422 B-technology_access
+visually 28 36 423 431 I-technology_access
+and 37 40 432 435 I-technology_access
+tactile 41 48 436 443 I-technology_access
+capable 49 56 444 451 I-technology_access
+of 57 59 452 454 I-technology_access
+smartphone 60 70 455 465 I-technology_access
+and 71 74 466 469 O
+home 75 79 470 474 O
+device 80 86 475 481 O
+usage 87 92 482 487 O
+
+rales 0 5 488 493 B-chronic_disease
+, 5 6 493 494 O
+peripheral 7 17 495 505 B-chronic_disease
+edema 18 23 506 511 I-chronic_disease
+, 23 24 511 512 O
+ascites 25 32 513 520 B-chronic_disease
+, 32 33 520 521 O
+or 34 36 522 524 O
+pulmonary 37 46 525 534 B-chronic_disease
+vascular 47 55 535 543 I-chronic_disease
+congestion 56 66 544 554 I-chronic_disease
+on 67 69 555 557 O
+chest 70 75 558 563 B-treatment
+radiography 76 87 564 575 I-treatment
+) 87 88 575 576 O
+
+shortness 0 9 577 586 B-chronic_disease
+of 10 12 587 589 I-chronic_disease
+breath 13 19 590 596 I-chronic_disease
+, 19 20 596 597 O
+orthopnea 21 30 598 607 B-chronic_disease
+or 31 33 608 610 O
+edema 34 39 611 616 B-chronic_disease
+

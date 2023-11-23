@@ -1,0 +1,87 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+= 5 6 5 6 O
+18 7 9 7 9 B-lower_bound
+years 10 15 10 15 I-lower_bound
+
+Patients 0 8 16 24 O
+with 9 13 25 29 O
+active 14 20 30 36 O
+or 21 23 37 39 O
+suspected 24 33 40 49 O
+ocular 34 40 50 56 B-chronic_disease
+or 41 43 57 59 I-chronic_disease
+periocular 44 54 60 70 I-chronic_disease
+infection 55 64 71 80 I-chronic_disease
+, 64 65 80 81 O
+including 66 75 82 91 O
+most 76 80 92 96 O
+viral 81 86 97 102 O
+diseases 87 95 103 111 O
+of 96 98 112 114 O
+the 99 102 115 118 O
+cornea 103 109 119 125 O
+and 110 113 126 129 O
+conjunctiva 114 125 130 141 O
+, 125 126 141 142 O
+including 127 136 143 152 O
+active 137 143 153 159 O
+epithelial 144 154 160 170 B-chronic_disease
+herpes 155 161 171 177 I-chronic_disease
+simplex 162 169 178 185 I-chronic_disease
+keratitis 170 179 186 195 I-chronic_disease
+( 180 181 196 197 O
+dendritic 181 190 197 206 B-chronic_disease
+keratitis 191 200 207 216 I-chronic_disease
+) 200 201 216 217 O
+, 201 202 217 218 O
+vaccinia 203 211 219 227 B-chronic_disease
+, 211 212 227 228 O
+varicella 213 222 229 238 B-chronic_disease
+, 222 223 238 239 O
+mycobacterial 224 237 240 253 B-chronic_disease
+infections 238 248 254 264 I-chronic_disease
+, 248 249 264 265 O
+and 250 253 266 269 O
+fungal 254 260 270 276 B-chronic_disease
+diseases 261 269 277 285 I-chronic_disease
+
+Pregnant 0 8 286 294 B-pregnancy
+patients 9 17 295 303 O
+
+Previous 0 8 304 312 O
+use 9 12 313 316 O
+of 13 15 317 319 O
+an 16 18 320 322 O
+anti 19 23 323 327 B-treatment
+- 23 24 327 328 I-treatment
+Vascular 24 32 328 336 I-treatment
+Endothelial 33 44 337 348 I-treatment
+Growth 45 51 349 355 I-treatment
+Factor 52 58 356 362 I-treatment
+( 59 60 363 364 I-treatment
+VEGF 60 64 364 368 I-treatment
+) 64 65 368 369 I-treatment
+drug 66 70 370 374 O
+within 71 77 375 381 O
+1 78 79 382 383 B-upper_bound
+month 80 85 384 389 I-upper_bound
+of 86 88 390 392 O
+study 89 94 393 398 O
+entry 95 100 399 404 O
+
+macular 0 7 405 412 B-chronic_disease
+pucker 8 14 413 419 I-chronic_disease
+
+rhegmatogenous 0 14 420 434 B-treatment
+retinal 15 22 435 442 I-treatment
+detachment 23 33 443 453 I-treatment
+with 34 38 454 458 O
+PVR 39 42 459 462 B-chronic_disease
+
+rhegmatogenous 0 14 463 477 B-chronic_disease
+retinal 15 22 478 485 I-chronic_disease
+detachment 23 33 486 496 O
+without 34 41 497 504 O
+PVR 42 45 505 508 B-chronic_disease
+

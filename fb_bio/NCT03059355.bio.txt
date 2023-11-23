@@ -1,0 +1,192 @@
+< 0 1 0 1 O
+85 2 4 2 4 B-upper_bound
+( 5 6 5 6 O
+less 6 10 6 10 O
+than 11 15 11 15 O
+or 16 18 16 18 O
+equal 19 24 19 24 O
+to 25 27 25 27 O
+85 28 30 28 30 B-upper_bound
+years 31 36 31 36 I-upper_bound
+at 37 39 37 39 O
+the 40 43 40 43 O
+time 44 48 44 48 O
+of 49 51 49 51 O
+signing 52 59 52 59 O
+the 60 63 60 63 O
+Informed 64 72 64 72 O
+Consent 73 80 73 80 O
+Form 81 85 81 85 O
+
+Advanced 0 8 86 94 B-chronic_disease
+pulmonary 9 18 95 104 I-chronic_disease
+disease 19 26 105 112 I-chronic_disease
+
+Apple 0 5 113 118 O
+shaped 6 12 119 125 O
+adiposity 13 22 126 135 B-chronic_disease
+
+Be 0 2 136 138 O
+a 3 4 139 140 O
+female 5 11 141 147 B-gender
+who 12 15 148 151 O
+is 16 18 152 154 O
+pregnant 19 27 155 163 B-pregnancy
+
+Be 0 2 164 166 O
+an 3 5 167 169 O
+organ 6 11 170 175 B-treatment
+transplant 12 22 176 186 I-treatment
+recipient 23 32 187 196 O
+
+Be 0 2 197 199 O
+serum 3 8 200 205 O
+positive 9 17 206 214 O
+for 18 21 215 218 O
+HIV 22 25 219 222 B-chronic_disease
+
+Elevated 0 8 223 231 B-chronic_disease
+triglycerides 9 22 232 245 I-chronic_disease
+
+Female 0 6 246 252 B-gender
+subjects 7 15 253 261 I-gender
+must 16 20 262 266 O
+undergo 21 28 267 274 O
+a 29 30 275 276 O
+blood 31 36 277 282 B-pregnancy
+or 37 39 283 285 I-pregnancy
+urine 40 45 286 291 I-pregnancy
+pregnancy 46 55 292 301 I-pregnancy
+test 56 60 302 306 O
+at 61 63 307 309 O
+screening 64 73 310 319 O
+and 74 77 320 323 O
+within 78 84 324 330 O
+36 85 87 331 333 B-upper_bound
+hours 88 93 334 339 I-upper_bound
+prior 94 99 340 345 I-upper_bound
+to 100 102 346 348 O
+infusion 103 111 349 357 O
+
+GFR 0 3 358 361 B-clinical_variable
+< 4 5 362 363 O
+or 6 8 364 366 O
+equal 9 14 367 372 O
+to 15 17 373 375 O
+35 18 20 376 378 B-upper_bound
+
+Have 0 4 379 383 O
+a 5 6 384 385 O
+clinical 7 15 386 394 O
+history 16 23 395 402 O
+of 24 26 403 405 O
+malignancy 27 37 406 416 B-cancer
+within 38 44 417 423 O
+3 45 46 424 425 B-upper_bound
+years 47 52 426 431 I-upper_bound
+
+Have 0 4 432 436 O
+a 5 6 437 438 O
+history 7 14 439 446 O
+of 15 17 447 449 O
+drug 18 22 450 454 O
+or 23 25 455 457 O
+alcohol 26 33 458 465 O
+abuse 34 39 466 471 O
+within 40 46 472 478 O
+the 47 50 479 482 O
+past 51 55 483 487 B-upper_bound
+24 56 58 488 490 I-upper_bound
+months 59 65 491 497 I-upper_bound
+
+Have 0 4 498 502 O
+known 5 10 503 508 O
+allergies 11 20 509 518 O
+to 21 23 519 521 O
+penicillin 24 34 522 532 B-allergy_name
+or 35 37 533 535 O
+streptomycin 38 50 536 548 B-allergy_name
+
+Hemoglobin 0 10 549 559 B-clinical_variable
+A1C 11 14 560 563 I-clinical_variable
+greater 15 22 564 571 O
+than 23 27 572 576 O
+7 28 29 577 578 B-lower_bound
+
+Hypersensitivity 0 16 579 595 O
+to 17 19 596 598 O
+dimethyl 20 28 599 607 B-allergy_name
+sulfoxide 29 38 608 617 I-allergy_name
+( 39 40 618 619 I-allergy_name
+DMSO 40 44 619 623 I-allergy_name
+) 44 45 623 624 I-allergy_name
+
+Liver 0 5 625 630 B-chronic_disease
+disease 6 13 631 638 I-chronic_disease
+
+Proliferative 0 13 639 652 B-chronic_disease
+diabetic 14 22 653 661 I-chronic_disease
+retinopathy 23 34 662 673 I-chronic_disease
+
+chronic 0 7 674 681 B-chronic_disease
+kidney 8 14 682 688 I-chronic_disease
+disease 15 22 689 696 I-chronic_disease
+stage 23 28 697 702 B-lower_bound
+3 29 30 703 704 I-lower_bound
+or 31 33 705 707 O
+higher 34 40 708 714 O
+
+curatively- 0 11 715 726 O
+treated 12 19 727 734 O
+basal 20 25 735 740 B-cancer
+cell 26 30 741 745 I-cancer
+carcinoma 31 40 746 755 I-cancer
+
+heart 0 5 756 761 B-chronic_disease
+failure 6 13 762 769 I-chronic_disease
+patients 14 22 770 778 O
+
+hepatitis 0 9 779 788 B-chronic_disease
+BsAg 10 14 789 793 I-chronic_disease
+or 15 17 794 796 O
+Viremic 18 25 797 804 B-chronic_disease
+hepatitis 26 35 805 814 I-chronic_disease
+C 36 37 815 816 I-chronic_disease
+
+less 0 4 817 821 O
+than 5 9 822 826 O
+1 10 11 827 828 B-upper_bound
+expected 12 20 829 837 O
+life 21 25 838 842 B-clinical_variable
+span 26 30 843 847 I-clinical_variable
+
+melanoma 0 8 848 856 B-cancer
+in 9 11 857 859 I-cancer
+situ 12 16 860 864 I-cancer
+or 17 19 865 867 O
+cervical 20 28 868 876 B-cancer
+carcinoma 29 38 877 886 I-cancer
+
+participated 0 12 887 899 O
+within 13 19 900 906 O
+the 20 23 907 910 O
+previous 24 32 911 919 B-upper_bound
+30 33 35 920 922 I-upper_bound
+days 36 40 923 927 I-upper_bound
+
+squamous 0 8 928 936 B-cancer
+cell 9 13 937 941 I-cancer
+carcinoma 14 23 942 951 I-cancer
+
+subjects 0 8 952 960 O
+with 9 13 961 965 O
+prior 14 19 966 971 B-cancer
+malignancy 20 30 972 982 I-cancer
+must 31 35 983 987 O
+be 36 38 988 990 O
+disease 39 46 991 998 O
+free 47 51 999 1003 O
+for 52 55 1004 1007 O
+3 56 57 1008 1009 O
+years 58 63 1010 1015 O
+

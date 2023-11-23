@@ -1,0 +1,144 @@
+Subject 0 7 0 7 O
+who 8 11 8 11 O
+has 12 15 12 15 O
+a 16 17 16 17 O
+history 18 25 18 25 O
+of 26 28 26 28 O
+solid 29 34 29 34 B-treatment
+organ 35 40 35 40 I-treatment
+or 41 43 41 43 O
+bone 44 48 44 48 B-treatment
+marrow 49 55 49 55 I-treatment
+transplant 56 66 56 66 I-treatment
+
+Subject 0 7 67 74 O
+who 8 11 75 78 O
+has 12 15 79 82 O
+alcohol 16 23 83 90 O
+or 24 26 91 93 O
+drug 27 31 94 98 O
+abuse 32 37 99 104 O
+within 38 44 105 111 O
+12 45 47 112 114 B-upper_bound
+months 48 54 115 121 I-upper_bound
+of 55 57 122 124 O
+screening 58 67 125 134 O
+
+Subject 0 7 135 142 O
+who 8 11 143 146 O
+has 12 15 147 150 O
+history 16 23 151 158 O
+of 24 26 159 161 O
+cancer 27 33 162 168 B-cancer
+in 34 36 169 171 O
+last 37 41 172 176 B-upper_bound
+five 42 46 177 181 I-upper_bound
+years 47 52 182 187 I-upper_bound
+
+Subject 0 7 188 195 O
+with 8 12 196 200 O
+Diabetes 13 21 201 209 B-chronic_disease
+Mellitus 22 30 210 218 I-chronic_disease
+Type 31 35 219 223 I-chronic_disease
+I 36 37 224 225 I-chronic_disease
+and 38 41 226 229 I-chronic_disease
+II 42 44 230 232 I-chronic_disease
+by 45 47 233 235 O
+medical 48 55 236 243 O
+history 56 63 244 251 O
+
+Subject 0 7 252 259 O
+with 8 12 260 264 O
+an 13 15 265 267 O
+active 16 22 268 274 B-chronic_disease
+infection 23 32 275 284 I-chronic_disease
+
+Subject 0 7 285 292 O
+with 8 12 293 297 O
+existing 13 21 298 306 O
+hypertension 22 34 307 319 B-chronic_disease
+, 34 35 319 320 O
+per 36 39 321 324 O
+investigator 40 52 325 337 O
+'s 52 54 337 339 O
+discretion 55 65 340 350 O
+
+Subjects 0 8 351 359 O
+have 9 13 360 364 O
+received 14 22 365 373 O
+counseling 23 33 374 384 O
+regarding 34 43 385 394 O
+infertility 44 55 395 406 O
+alternatives 56 68 407 419 O
+to 69 71 420 422 O
+uterine 72 79 423 430 O
+transplant 80 90 431 441 O
+such 91 95 442 446 O
+as 96 98 447 449 O
+adoption 99 107 450 458 O
+or 108 110 459 461 O
+surrogate 111 120 462 471 O
+pregnancy 121 130 472 481 B-pregnancy
+
+Subjects 0 8 482 490 O
+with 9 13 491 495 O
+a 14 15 496 497 O
+history 16 23 498 505 O
+of 24 26 506 508 O
+HPV 27 30 509 512 B-chronic_disease
+in 31 33 513 515 O
+the 34 37 516 519 O
+past 38 42 520 524 O
+must 43 47 525 529 O
+show 48 52 530 534 O
+a 53 54 535 536 O
+negative 55 63 537 545 O
+history 64 71 546 553 O
+since 72 77 554 559 O
+and 78 81 560 563 O
+test 82 86 564 568 O
+negative 87 95 569 577 O
+at 96 98 578 580 O
+screening 99 108 581 590 O
+
+Willing 0 7 591 598 O
+to 8 10 599 601 O
+undergo 11 18 602 609 O
+in 19 21 610 612 B-treatment
+- 21 22 612 613 I-treatment
+vitro 22 27 613 618 I-treatment
+fertilization 28 41 619 632 I-treatment
+
+Women 0 5 633 638 B-gender
+diagnosed 6 15 639 648 O
+with 16 20 649 653 O
+Absolute 21 29 654 662 B-chronic_disease
+Uterine 30 37 663 670 I-chronic_disease
+Infertility 38 49 671 682 I-chronic_disease
+( 50 51 683 684 I-chronic_disease
+AUI 51 54 684 687 I-chronic_disease
+) 54 55 687 688 I-chronic_disease
+and 56 59 689 692 O
+intact 60 66 693 699 O
+native 67 73 700 706 O
+ovaries 74 81 707 714 O
+
+Women 0 5 715 720 B-gender
+of 6 8 721 723 O
+childbearing 9 21 724 736 O
+
+age 0 3 737 740 B-age
+20 4 6 741 743 B-lower_bound
+- 6 7 743 744 O
+35 7 9 744 746 B-upper_bound
+
+received 0 8 747 755 O
+vaccination 9 20 756 767 B-treatment
+for 21 24 768 771 O
+human 25 30 772 777 B-chronic_disease
+papillomarvius 31 45 778 792 I-chronic_disease
+virus 46 51 793 798 I-chronic_disease
+( 52 53 799 800 I-chronic_disease
+HPV 53 56 800 803 I-chronic_disease
+) 56 57 803 804 I-chronic_disease
+

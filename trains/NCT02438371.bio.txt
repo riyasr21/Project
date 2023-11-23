@@ -1,0 +1,60 @@
+known 0 5 0 5 O
+adverse 6 13 6 13 O
+effect 14 20 14 20 O
+to 21 23 21 23 O
+indomethacin 24 36 24 36 B-treatment
+or 37 39 37 39 O
+nifedipine 40 50 40 50 B-treatment
+
+pregnant 0 8 51 59 B-pregnancy
+women 9 14 60 65 B-gender
+between 15 22 66 73 O
+220/7 23 28 74 79 B-lower_bound
+to 29 31 80 82 O
+316/7 32 37 83 88 B-upper_bound
+weeks 38 43 89 94 I-upper_bound
+gestation 44 53 95 104 B-clinical_variable
+who 54 57 105 108 O
+present 58 65 109 116 O
+with 66 70 117 121 O
+regular 71 78 122 129 O
+uterine 79 86 130 137 O
+contractions 87 99 138 150 O
+defined 100 107 151 158 O
+as 108 110 159 161 O
+at 111 113 162 164 O
+least 114 119 165 170 O
+one 120 123 171 174 O
+contraction 124 135 175 186 O
+every 136 141 187 192 O
+10 142 144 193 195 O
+minutes 145 152 196 203 O
+for 153 156 204 207 O
+30 157 159 208 210 O
+minutes 160 167 211 218 O
+with 168 172 219 223 O
+at 173 175 224 226 O
+least 176 181 227 232 O
+one 182 185 233 236 O
+of 186 188 237 239 O
+the 189 192 240 243 O
+following 193 202 244 253 O
+: 202 203 253 254 O
+
+preterm 0 7 255 262 B-chronic_disease
+premature 8 17 263 272 I-chronic_disease
+rupture 18 25 273 280 I-chronic_disease
+of 26 28 281 283 I-chronic_disease
+membranes 29 38 284 293 I-chronic_disease
+
+prior 0 5 294 299 B-treatment
+tocolytic 6 15 300 309 I-treatment
+treatment 16 25 310 319 I-treatment
+during 26 32 320 326 O
+their 33 38 327 332 O
+pregnancy 39 48 333 342 B-pregnancy
+
+suspected 0 9 343 352 O
+placental 10 19 353 362 B-chronic_disease
+abruption 20 29 363 372 I-chronic_disease
+

@@ -1,0 +1,54 @@
+Ages 0 4 0 4 B-age
+16 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+80 8 10 8 10 B-upper_bound
+
+Ages 0 4 11 15 B-age
+< 5 6 16 17 O
+16 7 9 18 20 B-upper_bound
+or 10 12 21 23 O
+> 13 14 24 25 O
+80 15 17 26 28 B-lower_bound
+
+At 0 2 29 31 O
+least 3 8 32 37 O
+one 9 12 38 41 O
+documented 13 23 42 52 O
+episode 24 31 53 60 O
+of 32 34 61 63 O
+AV 35 37 64 66 B-chronic_disease
+nodal 38 43 67 72 I-chronic_disease
+reentrant 44 53 73 82 I-chronic_disease
+tachycardia 54 65 83 94 I-chronic_disease
+
+Electrophysiology 0 17 95 112 O
+study 18 23 113 118 O
+performed 24 33 119 128 O
+without 34 41 129 136 O
+sedation 42 50 137 145 O
+or 51 53 146 148 O
+anesthesia 54 64 149 159 B-treatment
+
+Patient 0 7 160 167 O
+scheduled 8 17 168 177 O
+for 18 21 178 181 O
+electrophysiology 22 39 182 199 B-treatment
+study 40 45 200 205 O
+and 46 49 206 209 O
+catheter 50 58 210 218 B-treatment
+ablation 59 67 219 227 I-treatment
+for 68 71 228 231 O
+supraventricular 72 88 232 248 B-chronic_disease
+tachycardia 89 100 249 260 I-chronic_disease
+
+Pregnancy 0 9 261 270 B-pregnancy
+
+Prior 0 5 271 276 B-treatment
+ablation 6 14 277 285 I-treatment
+with 15 19 286 290 O
+radiation 20 29 291 300 B-treatment
+exposure 30 38 301 309 O
+> 39 40 310 311 O
+2 40 41 311 312 B-lower_bound
+hours 42 47 313 318 I-lower_bound
+

@@ -1,0 +1,56 @@
+60 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+80 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Absence 0 7 16 23 O
+of 8 10 24 26 O
+dementia 11 19 27 35 B-chronic_disease
+
+Baseline 0 8 36 44 O
+dementia 9 17 45 53 B-chronic_disease
+
+Current 0 7 54 61 O
+psychiatric 8 19 62 73 B-chronic_disease
+illness 20 27 74 81 I-chronic_disease
+
+Depression 0 10 82 92 B-chronic_disease
+
+English 0 7 93 100 B-language_fluency
+- 7 8 100 101 I-language_fluency
+speaking 8 16 101 109 I-language_fluency
+
+History 0 7 110 117 O
+of 8 10 118 120 O
+a 11 12 121 122 O
+neurological 13 25 123 135 B-chronic_disease
+disorder 26 34 136 144 I-chronic_disease
+
+Male 0 4 145 149 B-gender
+
+Modified 0 8 150 158 B-clinical_variable
+Hachinski 9 18 159 168 I-clinical_variable
+score 19 24 169 174 I-clinical_variable
+< 25 26 175 176 O
+4 27 28 177 178 B-lower_bound
+
+Perform 0 7 179 186 O
+at 8 10 187 189 O
+least 11 16 190 195 O
+1 17 18 196 197 B-lower_bound
+standard 19 27 198 206 O
+deviations 28 38 207 217 O
+below 39 44 218 223 O
+normative 45 54 224 233 O
+values 55 61 234 240 O
+on 62 64 241 243 O
+cognitive 65 74 244 253 O
+tests 75 80 254 259 O
+
+Severe 0 6 260 266 O
+sensory 7 14 267 274 B-chronic_disease
+deficits 15 23 275 283 I-chronic_disease
+
+female 0 6 284 290 B-gender
+

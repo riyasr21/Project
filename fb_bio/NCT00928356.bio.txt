@@ -1,0 +1,33 @@
+Anatomy 0 7 0 7 O
+and 8 11 8 11 O
+body 12 16 12 16 O
+habitus 17 24 17 24 O
+suitable 25 33 25 33 O
+for 34 37 34 37 O
+Robotic 38 45 38 45 B-treatment
+CABG 46 50 46 50 I-treatment
+
+Need 0 4 51 55 O
+for 5 8 56 59 O
+emergent 9 17 60 68 B-clinical_variable
+CABG 18 22 69 73 I-clinical_variable
+
+Requirement 0 11 74 85 O
+for 12 15 86 89 O
+CABG 16 20 90 94 B-treatment
+
+Requirement 0 11 95 106 O
+of 12 14 107 109 O
+revascularization 15 32 110 127 B-treatment
+of 33 35 128 130 I-treatment
+arteries 36 44 131 139 I-treatment
+amendable 45 54 140 149 O
+for 55 58 150 153 O
+PCI 59 62 154 157 B-treatment
+but 63 66 158 161 O
+not 67 70 162 165 O
+accessable 71 81 166 176 O
+by 82 84 177 179 O
+Robotic 85 92 180 187 B-treatment
+CABG 93 97 188 192 I-treatment
+

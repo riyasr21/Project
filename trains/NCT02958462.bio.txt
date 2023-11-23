@@ -1,0 +1,42 @@
+Clonal 0 6 0 6 B-chronic_disease
+cytopenias 7 17 7 17 I-chronic_disease
+of 18 20 18 20 I-chronic_disease
+unclear 21 28 21 28 I-chronic_disease
+significance 29 41 29 41 I-chronic_disease
+( 42 43 42 43 I-chronic_disease
+CCUS 43 47 43 47 I-chronic_disease
+) 47 48 47 48 I-chronic_disease
+
+Idiopathic 0 10 49 59 B-chronic_disease
+cytopenias 11 21 60 70 I-chronic_disease
+of 22 24 71 73 I-chronic_disease
+unclear 25 32 74 81 I-chronic_disease
+significance 33 45 82 94 I-chronic_disease
+( 46 47 95 96 I-chronic_disease
+ICUS 47 51 96 100 I-chronic_disease
+) 51 52 100 101 I-chronic_disease
+
+Low 0 3 102 105 B-chronic_disease
+Risk 4 8 106 110 I-chronic_disease
+Myelodysplastic 9 24 111 126 I-chronic_disease
+Syndromes 25 34 127 136 I-chronic_disease
+( 35 36 137 138 O
+MDS 36 39 138 141 B-chronic_disease
+) 39 40 141 142 O
+
+Marrow 0 6 143 149 B-chronic_disease
+failure 7 14 150 157 I-chronic_disease
+syndromes 15 24 158 167 I-chronic_disease
+with 25 29 168 172 O
+myeloid 30 37 173 180 B-cancer
+malignancy 38 48 181 191 I-cancer
+predisposition- 49 64 192 207 O
+telomere 65 73 208 216 B-cancer
+dysfunction 74 85 217 228 I-cancer
+, 85 86 228 229 O
+chromosomal 87 98 230 241 B-chronic_disease
+breakage 99 107 242 250 I-chronic_disease
+disorders 108 117 251 260 I-chronic_disease
+, 117 118 260 261 O
+etc 119 122 262 265 O
+

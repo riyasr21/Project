@@ -1,0 +1,175 @@
+> 0 1 0 1 O
+5 1 2 1 2 B-lower_bound
+mm 3 5 3 5 I-lower_bound
+in 6 8 6 8 O
+a 9 10 9 10 O
+6 11 12 11 12 O
+month 13 18 13 18 O
+period 19 25 19 25 O
+
+Age 0 3 26 29 B-age
+≥ 4 5 30 31 O
+21 6 8 32 34 B-lower_bound
+years 9 14 35 40 I-lower_bound
+
+Aortic 0 6 41 47 B-clinical_variable
+neck 7 11 48 52 I-clinical_variable
+angle 12 17 53 58 I-clinical_variable
+≤ 18 19 59 60 O
+90˚ 20 23 61 64 B-upper_bound
+
+Distal 0 6 65 71 B-clinical_variable
+iliac 7 12 72 77 I-clinical_variable
+artery 13 19 78 84 I-clinical_variable
+seal 20 24 85 89 I-clinical_variable
+zone 25 29 90 94 I-clinical_variable
+≥10 30 33 95 98 O
+mm 34 36 99 101 I-lower_bound
+
+Iliac 0 5 102 107 B-clinical_variable
+artery 6 12 108 114 I-clinical_variable
+diameter 13 21 115 123 I-clinical_variable
+8 22 23 124 125 B-lower_bound
+- 23 24 125 126 O
+25 24 26 126 128 B-upper_bound
+mm 27 29 129 131 I-upper_bound
+
+Infrarenal 0 10 132 142 O
+aortic 11 17 143 149 O
+neck 18 22 150 154 O
+diameter 23 31 155 163 O
+16 32 34 164 166 B-lower_bound
+- 34 35 166 167 O
+32 35 37 167 169 B-upper_bound
+mm 38 40 170 172 I-upper_bound
+
+Infrarenal 0 10 173 183 B-clinical_variable
+aortic 11 17 184 190 I-clinical_variable
+neck 18 22 191 195 I-clinical_variable
+length 23 29 196 202 I-clinical_variable
+≥10 30 33 203 206 O
+mm 34 36 207 209 I-lower_bound
+
+Known 0 5 210 215 O
+concomitant 6 17 216 227 B-chronic_disease
+thoracic 18 26 228 236 I-chronic_disease
+aortic 27 33 237 243 I-chronic_disease
+aneurysm 34 42 244 252 I-chronic_disease
+which 43 48 253 258 O
+requires 49 57 259 267 O
+surgical 58 66 268 276 B-treatment
+intervention 67 79 277 289 I-treatment
+
+Known 0 5 290 295 O
+degenerative 6 18 296 308 O
+connective 19 29 309 319 O
+tissue 30 36 320 326 O
+disease 37 44 327 334 O
+, 44 45 334 335 O
+e.g. 46 50 336 340 O
+, 50 51 340 341 O
+Marfan 52 58 342 348 B-chronic_disease
+or 59 61 349 351 O
+Ehler 62 67 352 357 B-chronic_disease
+- 67 68 357 358 I-chronic_disease
+Danlos 68 74 358 364 I-chronic_disease
+Syndrome 75 83 365 373 I-chronic_disease
+
+Life 0 4 374 378 B-clinical_variable
+expectancy 5 15 379 389 I-clinical_variable
+> 16 17 390 391 O
+2 18 19 392 393 B-lower_bound
+years 20 25 394 399 I-lower_bound
+
+Male 0 4 400 404 B-gender
+
+Maximum 0 7 405 412 B-clinical_variable
+diameter 8 16 413 421 I-clinical_variable
+≥50 17 20 422 425 O
+mm 21 23 426 428 I-lower_bound
+
+Mycotic 0 7 429 436 B-chronic_disease
+or 8 10 437 439 O
+ruptured 11 19 440 448 B-chronic_disease
+aneurysm 20 28 449 457 I-chronic_disease
+
+Participating 0 13 458 471 O
+in 14 16 472 474 O
+another 17 24 475 482 B-treatment
+investigational 25 40 483 498 I-treatment
+device 41 47 499 505 I-treatment
+or 48 50 506 508 I-treatment
+drug 51 55 509 513 I-treatment
+study 56 61 514 519 I-treatment
+within 62 68 520 526 O
+1 69 70 527 528 B-upper_bound
+year 71 75 529 533 I-upper_bound
+of 76 78 534 536 O
+treatment 79 88 537 546 B-treatment
+
+Patient 0 7 547 554 O
+has 8 11 555 558 O
+body 12 16 559 563 B-chronic_disease
+habitus 17 24 564 571 I-chronic_disease
+or 25 27 572 574 O
+other 28 33 575 580 O
+medical 34 41 581 588 O
+condition 42 51 589 598 O
+which 52 57 599 604 O
+prevents 58 66 605 613 O
+adequate 67 75 614 622 O
+delineation 76 87 623 634 O
+of 88 90 635 637 O
+the 91 94 638 641 O
+aorta 95 100 642 647 O
+
+Planned 0 7 648 655 O
+concomitant 8 19 656 667 B-treatment
+surgical 20 28 668 676 I-treatment
+procedure 29 38 677 686 I-treatment
+or 39 41 687 689 O
+major 42 47 690 695 B-treatment
+surgery 48 55 696 703 I-treatment
+within 56 62 704 710 O
+30 63 65 711 713 B-upper_bound
+days 66 70 714 718 I-upper_bound
+of 71 73 719 721 O
+treatment 74 83 722 731 O
+date 84 88 732 736 O
+
+Renal 0 5 737 742 B-chronic_disease
+insufficiency 6 19 743 756 I-chronic_disease
+defined 20 27 757 764 O
+as 28 30 765 767 O
+creatinine 31 41 768 778 B-clinical_variable
+> 42 43 779 780 O
+2.5 44 47 781 784 B-lower_bound
+mg 48 50 785 787 I-lower_bound
+/ 50 51 787 788 I-lower_bound
+dL 51 53 788 790 I-lower_bound
+
+Severely 0 8 791 799 O
+tortuous 9 17 800 808 O
+or 18 20 809 811 O
+stenotic 21 29 812 820 B-chronic_disease
+iliac 30 35 821 826 I-chronic_disease
+
+Systemic 0 8 827 835 B-chronic_disease
+infection 9 18 836 845 I-chronic_disease
+which 19 24 846 851 O
+may 25 28 852 855 O
+increase 29 37 856 864 O
+the 38 41 865 868 O
+risk 42 46 869 873 O
+of 47 49 874 876 O
+endovascular 50 62 877 889 B-chronic_disease
+graft 63 68 890 895 I-chronic_disease
+infection 69 78 896 905 I-chronic_disease
+
+infertile 0 9 906 915 O
+female 10 16 916 922 B-gender
+
+patient 0 7 923 930 O
+undergoing 8 18 931 941 O
+dialysis 19 27 942 950 B-treatment
+

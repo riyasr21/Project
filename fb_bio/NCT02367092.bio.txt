@@ -1,0 +1,42 @@
+( 0 1 0 1 O
+> 1 2 1 2 O
+= 2 3 2 3 O
+18 3 5 3 5 B-lower_bound
+years 6 11 6 11 I-lower_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+) 18 19 18 19 O
+
+Active 0 6 20 26 B-chronic_disease
+hepatic 7 14 27 34 I-chronic_disease
+encephalopathy 15 29 35 49 I-chronic_disease
+at 30 32 50 52 O
+the 33 36 53 56 O
+time 37 41 57 61 O
+of 42 44 62 64 O
+baseline 45 53 65 73 O
+assessment 54 64 74 84 O
+for 65 68 85 88 O
+enrollment 69 79 89 99 O
+in 80 82 100 102 O
+the 83 86 103 106 O
+study 87 92 107 112 O
+
+English 0 7 113 120 B-language_fluency
+speaking 8 16 121 129 I-language_fluency
+
+Listed 0 6 130 136 O
+for 7 10 137 140 O
+liver 11 16 141 146 B-treatment
+transplantation 17 32 147 162 I-treatment
+or 33 35 163 165 O
+post 36 40 166 170 B-treatment
+- 40 41 170 171 I-treatment
+liver 41 46 171 176 I-treatment
+transplantation 47 62 177 192 I-treatment
+
+Non 0 3 193 196 B-language_fluency
+- 3 4 196 197 I-language_fluency
+English 4 11 197 204 I-language_fluency
+speaking 12 20 205 213 I-language_fluency
+

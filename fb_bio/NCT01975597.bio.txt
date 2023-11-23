@@ -1,0 +1,65 @@
+Patients 0 8 0 8 O
+may 9 12 9 12 O
+enroll 13 19 13 19 O
+with 20 24 20 24 O
+recently 25 33 25 33 O
+( 34 35 34 35 O
+with 35 39 35 39 O
+2 40 41 40 41 B-upper_bound
+months 42 48 42 48 I-upper_bound
+) 48 49 48 49 O
+progressive 50 61 50 61 O
+tumor 62 67 62 67 B-cancer
+burden 68 74 68 74 O
+
+Patients 0 8 75 83 O
+on 9 11 84 86 O
+treatment 12 21 87 96 O
+dose 22 26 97 101 O
+anticoagulation 27 42 102 117 B-treatment
+or 43 45 118 120 O
+an 46 48 121 123 O
+International 49 62 124 137 B-clinical_variable
+Normalised 63 73 138 148 I-clinical_variable
+Ratio 74 79 149 154 I-clinical_variable
+of 80 82 155 157 O
+2 83 84 158 159 O
+or 85 87 160 162 O
+greater 88 95 163 170 O
+if 96 98 171 173 O
+on 99 101 174 176 O
+warfarin 102 110 177 185 B-treatment
+
+Patients 0 8 186 194 O
+who 9 12 195 198 O
+are 13 16 199 202 O
+known 17 22 203 208 O
+to 23 25 209 211 O
+be 26 28 212 214 O
+pregnant 29 37 215 223 B-pregnancy
+
+Patients 0 8 224 232 O
+with 9 13 233 237 O
+active 14 20 238 244 O
+, 20 21 244 245 O
+uncontrolled 22 34 246 258 O
+coagulopathy 35 47 259 271 B-chronic_disease
+
+Patients 0 8 272 280 O
+with 9 13 281 285 O
+metastatic 14 24 286 296 B-cancer
+breast 25 31 297 303 I-cancer
+cancer 32 38 304 310 I-cancer
+
+Performance 0 11 311 322 B-clinical_variable
+status 12 18 323 329 I-clinical_variable
+of 19 21 330 332 O
+0,1 22 25 333 336 B-lower_bound
+or 26 28 337 339 O
+2 29 30 340 341 B-upper_bound
+
+age 0 3 342 345 B-age
+21 4 6 346 348 B-lower_bound
+or 7 9 349 351 O
+older 10 15 352 357 O
+

@@ -1,0 +1,55 @@
+Age 0 3 0 3 B-age
+greater 4 11 4 11 O
+than 12 16 12 16 O
+or 17 19 17 19 O
+equal 20 25 20 25 O
+to 26 28 26 28 O
+18 29 31 29 31 B-lower_bound
+years 32 37 32 37 I-lower_bound
+
+Current 0 7 38 45 O
+treatment 8 17 46 55 B-treatment
+with 18 22 56 60 O
+tyrosine 23 31 61 69 B-treatment
+kinase 32 38 70 76 I-treatment
+inhibitors 39 49 77 87 I-treatment
+
+Diagnosis 0 9 88 97 O
+of 10 12 98 100 O
+colorectal 13 23 101 111 B-cancer
+or 24 26 112 114 O
+head 27 31 115 119 B-cancer
+and 32 35 120 123 I-cancer
+neck 36 40 124 128 I-cancer
+cancer 41 47 129 135 I-cancer
+
+Patients 0 8 136 144 O
+who 9 12 145 148 O
+are 13 16 149 152 O
+pregnant 17 25 153 161 B-pregnancy
+
+Prior 0 5 162 167 B-treatment
+cetuximab 6 15 168 177 I-treatment
+treatment 16 25 178 187 I-treatment
+within 26 32 188 194 O
+the 33 36 195 198 O
+6 37 38 199 200 B-upper_bound
+months 39 45 201 207 I-upper_bound
+of 46 48 208 210 O
+study 49 54 211 216 O
+initiation 55 65 217 227 O
+
+Receipt 0 7 228 235 O
+of 8 10 236 238 O
+at 11 13 239 241 O
+least 14 19 242 247 O
+one 20 23 248 251 B-lower_bound
+dose 24 28 252 256 O
+of 29 31 257 259 O
+cetuximab 32 41 260 269 B-treatment
+during 42 48 270 276 O
+the 49 52 277 280 O
+study 53 58 281 286 O
+time 59 63 287 291 O
+period 64 70 292 298 O
+

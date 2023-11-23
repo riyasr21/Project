@@ -1,0 +1,136 @@
+1 0 1 0 1 O
+fiber 2 7 2 7 O
+supplement 8 18 8 18 O
+for 19 22 19 22 O
+one 23 26 23 26 B-upper_bound
+month 27 32 27 32 I-upper_bound
+
+1 0 1 33 34 O
+laxative 2 10 35 43 B-treatment
+( 11 12 44 45 O
+osmotic 12 19 45 52 O
+or 20 22 53 55 O
+stimulant 23 32 56 65 O
+) 32 33 65 66 O
+for 34 37 67 70 O
+2 38 39 71 72 B-upper_bound
+weeks 40 45 73 78 I-upper_bound
+
+18 0 2 79 81 B-lower_bound
+years 3 8 82 87 I-lower_bound
+or 9 11 88 90 O
+older 12 17 91 96 O
+of 18 20 97 99 O
+all 21 24 100 103 O
+races 25 30 104 109 O
+and 31 34 110 113 O
+backgrounds 35 46 114 125 O
+
+Altomare 0 8 126 134 B-clinical_variable
+Obstructed 9 19 135 145 I-clinical_variable
+Defecation 20 30 146 156 I-clinical_variable
+Syndrome 31 39 157 165 I-clinical_variable
+score 40 45 166 171 I-clinical_variable
+of 46 48 172 174 O
+15 49 51 175 177 B-lower_bound
+points 52 58 178 184 I-lower_bound
+or 59 61 185 187 O
+above 62 67 188 193 O
+
+And 0 3 194 197 O
+/ 3 4 197 198 O
+or 4 6 198 200 O
+trial 7 12 201 206 O
+of 13 15 207 209 O
+biofeedback 16 27 210 221 O
+for 28 31 222 225 O
+at 32 34 226 228 O
+least 35 40 229 234 O
+4 41 42 235 236 B-lower_bound
+sessions 43 51 237 245 O
+
+Inability 0 9 246 255 O
+to 10 12 256 258 O
+relax 13 18 259 264 O
+the 19 22 265 268 O
+puborectalis 23 35 269 281 O
+muscle 36 42 282 288 O
+at 43 45 289 291 O
+electromyography 46 62 292 308 B-treatment
+
+Inflammatory 0 12 309 321 B-chronic_disease
+bowel 13 18 322 327 I-chronic_disease
+disease 19 26 328 335 I-chronic_disease
+or 27 29 336 338 O
+proctitis 30 39 339 348 B-chronic_disease
+
+Known 0 5 349 354 O
+hypersensitivity 6 22 355 371 O
+to 23 25 372 374 O
+any 26 29 375 378 O
+of 30 32 379 381 O
+the 33 36 382 385 O
+components 37 47 386 396 O
+of 48 50 397 399 O
+the 51 54 400 403 O
+toxin 55 60 404 409 B-allergy_name
+
+Males 0 5 410 415 B-gender
+
+Medication 0 10 416 426 O
+regimen 11 18 427 434 O
+includes 19 27 435 443 O
+narcotics 28 37 444 453 B-treatment
+
+Pregnancy 0 9 454 463 B-pregnancy
+
+Presence 0 8 464 472 O
+of 9 11 473 475 O
+fecal 12 17 476 481 B-chronic_disease
+incontinence 18 30 482 494 I-chronic_disease
+
+Presence 0 8 495 503 O
+of 9 11 504 506 O
+full 12 16 507 511 O
+thickness 17 26 512 521 O
+rectal 27 33 522 528 B-chronic_disease
+prolapse 34 42 529 537 I-chronic_disease
+
+Presence 0 8 538 546 O
+of 9 11 547 549 O
+internal 12 20 550 558 B-chronic_disease
+sphincter 21 30 559 568 I-chronic_disease
+myopathy 31 39 569 577 I-chronic_disease
+
+Presence 0 8 578 586 O
+of 9 11 587 589 O
+unhealed 12 20 590 598 O
+and 21 24 599 602 O
+symptomatic 25 36 603 614 O
+anal 37 41 615 619 B-chronic_disease
+fissure 42 49 620 627 I-chronic_disease
+
+Previous 0 8 628 636 O
+radiation 9 18 637 646 B-treatment
+therapy 19 26 647 654 I-treatment
+to 27 29 655 657 O
+the 30 33 658 661 O
+anal 34 38 662 666 O
+canal 39 44 667 672 O
+and 45 48 673 676 O
+rectum 49 55 677 683 O
+
+Previous 0 8 684 692 O
+treatment 9 18 693 702 O
+with 19 23 703 707 O
+Botox 24 29 708 713 B-treatment
+( 30 31 714 715 O
+possible 31 39 715 723 O
+antibodies 40 50 724 734 O
+) 50 51 734 735 O
+
+Prior 0 5 736 741 O
+proctectomy 6 17 742 753 B-treatment
+
+females 0 7 754 761 B-gender
+

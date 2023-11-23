@@ -1,0 +1,38 @@
+Have 0 4 0 4 O
+been 5 9 5 9 O
+seen 10 14 10 14 O
+in 15 17 15 17 O
+diabetes 18 26 18 26 B-chronic_disease
+clinic 27 33 27 33 O
+in 34 36 34 36 O
+the 37 40 37 40 O
+last 41 45 41 45 B-upper_bound
+6 46 47 46 47 I-upper_bound
+months 48 54 48 54 I-upper_bound
+
+HbA1c 0 5 55 60 B-clinical_variable
+greater 6 13 61 68 O
+than 14 18 69 73 O
+or 19 21 74 76 O
+equal 22 27 77 82 O
+to 28 30 83 85 O
+8 31 32 86 87 B-lower_bound
+% 32 33 87 88 I-lower_bound
+but 34 37 89 92 O
+less 38 42 93 97 O
+than 43 47 98 102 O
+14 48 50 103 105 B-upper_bound
+% 50 51 105 106 I-upper_bound
+
+Hemolytic 0 9 107 116 B-chronic_disease
+anemia 10 16 117 123 I-chronic_disease
+
+Non 0 3 124 127 B-language_fluency
+- 3 4 127 128 I-language_fluency
+English 4 11 128 135 I-language_fluency
+speaking 12 20 136 144 I-language_fluency
+
+Significant 0 11 145 156 O
+cognitive 12 21 157 166 B-chronic_disease
+disability 22 32 167 177 I-chronic_disease
+

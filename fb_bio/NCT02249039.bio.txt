@@ -1,0 +1,43 @@
+Any 0 3 0 3 O
+infant 4 10 4 10 O
+or 11 13 11 13 O
+child 14 19 14 19 O
+who 20 23 20 23 O
+is 24 26 24 26 O
+receiving 27 36 27 36 O
+ECMO 37 41 37 41 B-treatment
+therapy 42 49 42 49 I-treatment
+
+Asphyxia 0 8 50 58 B-chronic_disease
+
+Infants 0 7 59 66 O
+and 8 11 67 70 O
+children 12 20 71 79 O
+age 21 24 80 83 B-age
+: 24 25 83 84 O
+0 26 27 85 86 B-lower_bound
+- 27 28 86 87 O
+12 28 30 87 89 B-upper_bound
+months 31 37 90 96 I-upper_bound
+
+Major 0 5 97 102 B-chronic_disease
+Chromosomal 6 17 103 114 I-chronic_disease
+anomaly 18 25 115 122 I-chronic_disease
+( 26 27 123 124 I-chronic_disease
+Trisomy 27 34 124 131 I-chronic_disease
+13 35 37 132 134 I-chronic_disease
+, 37 38 134 135 I-chronic_disease
+18 39 41 136 138 I-chronic_disease
+) 41 42 138 139 I-chronic_disease
+
+Postoperative 0 13 140 153 O
+from 14 18 154 158 O
+complex 19 26 159 166 O
+congenital 27 37 167 177 B-chronic_disease
+heart 38 43 178 183 I-chronic_disease
+disease 44 51 184 191 I-chronic_disease
+
+Traumatic 0 9 192 201 B-chronic_disease
+Brain 10 15 202 207 I-chronic_disease
+Injury 16 22 208 214 I-chronic_disease
+

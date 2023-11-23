@@ -1,0 +1,43 @@
+A 0 1 0 1 O
+minimum 2 9 2 9 O
+of 10 12 10 12 O
+1 13 14 13 14 B-lower_bound
+year 15 19 15 19 I-lower_bound
+since 20 25 20 25 O
+completion 26 36 26 36 O
+of 37 39 37 39 O
+gonoadotoxic 40 52 40 52 B-treatment
+therapy 53 60 53 60 I-treatment
+
+At 0 2 61 63 O
+least 3 8 64 69 O
+one 9 12 70 73 B-lower_bound
+ovary 13 18 74 79 O
+
+Cancer 0 6 80 86 B-cancer
+diagnosis 7 16 87 96 O
+
+Estrogen 0 8 97 105 O
+receptor 9 17 106 114 O
+positive 18 26 115 123 O
+cancers 27 34 124 131 B-cancer
+
+Prior 0 5 132 137 O
+exposure 6 14 138 146 O
+to 15 17 147 149 O
+gonadotoxic 18 29 150 161 B-treatment
+therapy 30 37 162 169 I-treatment
+
+inclusive 0 9 170 179 O
+of 10 12 180 182 O
+chemothearpy 13 25 183 195 B-treatment
+
+pelvic 0 6 196 202 B-treatment
+or 7 9 203 205 I-treatment
+total 10 15 206 211 I-treatment
+body 16 20 212 216 I-treatment
+irradiation 21 32 217 228 I-treatment
+
+unilateral 0 10 229 239 B-treatment
+oophorectomy 11 23 240 252 I-treatment
+

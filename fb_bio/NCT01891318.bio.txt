@@ -1,0 +1,124 @@
+Have 0 4 0 4 O
+a 5 6 5 6 O
+prior 7 12 7 12 O
+histologic 13 23 13 23 O
+diagnosis 24 33 24 33 O
+of 34 36 34 36 O
+cancer 37 43 37 43 B-cancer
+other 44 49 44 49 O
+than 50 54 50 54 O
+small 55 60 55 60 B-cancer
+cell 61 65 61 65 I-cancer
+lung 66 70 66 70 I-cancer
+cancer 71 77 71 77 I-cancer
+
+Imaging 0 7 78 85 O
+or 8 10 86 88 O
+cytologic 11 20 89 98 O
+evidence 21 29 99 107 O
+of 30 32 108 110 O
+leptomeningeal 33 47 111 125 B-cancer
+disease 48 55 126 133 I-cancer
+
+Patient 0 7 134 141 O
+can 8 11 142 145 O
+have 12 16 146 150 O
+prior 17 22 151 156 B-treatment
+SRS 23 26 157 160 I-treatment
+to 27 29 161 163 O
+lesions 30 37 164 171 O
+other 38 43 172 177 O
+than 44 48 178 182 O
+the 49 52 183 186 O
+one 53 56 187 190 O
+planned 57 64 191 198 O
+for 65 68 199 202 O
+neoadjuvant 69 80 203 214 B-treatment
+SRS 81 84 215 218 I-treatment
+and 85 88 219 222 O
+resection 89 98 223 232 B-treatment
+
+Patient 0 7 233 240 O
+deemed 8 14 241 247 O
+medically 15 24 248 257 O
+unfit 25 30 258 263 O
+to 31 33 264 266 O
+undergo 34 41 267 274 O
+surgical 42 50 275 283 B-treatment
+resection 51 60 284 293 I-treatment
+of 61 63 294 296 O
+brain 64 69 297 302 B-cancer
+metastasis 70 80 303 313 I-cancer
+
+Patient 0 7 314 321 O
+must 8 12 322 326 O
+have 13 17 327 331 O
+a 18 19 332 333 O
+Karnofsky 20 29 334 343 B-clinical_variable
+performance 30 41 344 355 I-clinical_variable
+score 42 47 356 361 I-clinical_variable
+of 48 50 362 364 O
+≥ 51 52 365 366 O
+70 53 55 367 369 B-lower_bound
+
+Prior 0 5 370 375 O
+whole 6 11 376 381 B-treatment
+brain 12 17 382 387 I-treatment
+radiotherapy 18 30 388 400 I-treatment
+
+Tumor 0 5 401 406 B-cancer
+located 6 13 407 414 O
+in 14 16 415 417 O
+the 17 20 418 421 O
+brainstem 21 30 422 431 O
+
+evidence 0 8 432 440 O
+of 9 11 441 443 O
+1 12 13 444 445 B-lower_bound
+- 13 14 445 446 O
+4 14 15 446 447 B-upper_bound
+brain 16 21 448 453 B-cancer
+metastases 22 32 454 464 I-cancer
+
+germ 0 4 465 469 B-cancer
+cell 5 9 470 474 I-cancer
+histologies 10 21 475 486 O
+
+lymphoma 0 8 487 495 B-cancer
+
+with 0 4 496 500 O
+at 5 7 501 503 O
+least 8 13 504 509 O
+one 14 17 510 513 B-lower_bound
+lesion 18 24 514 520 O
+> 25 26 521 522 O
+20 27 29 523 525 B-lower_bound
+mm 30 32 526 528 I-lower_bound
+and 33 36 529 532 O
+≤ 37 38 533 534 O
+50 39 41 535 537 B-upper_bound
+mm 42 44 538 540 I-upper_bound
+in 45 47 541 543 O
+maximal 48 55 544 551 O
+diameter 56 64 552 560 O
+and 65 68 561 564 O
+determined 69 79 565 575 O
+to 80 82 576 578 O
+be 83 85 579 581 O
+appropriate 86 97 582 593 O
+for 98 101 594 597 O
+SRS 102 105 598 601 B-treatment
+and 106 109 602 605 O
+gross 110 115 606 611 O
+total 116 121 612 617 O
+resection 122 131 618 627 O
+; 131 132 627 628 O
+all 133 136 629 632 O
+other 137 142 633 638 O
+brain 143 148 639 644 B-cancer
+metastases 149 159 645 655 I-cancer
+are 160 163 656 659 O
+appropriate 164 175 660 671 O
+for 176 179 672 675 O
+SRS 180 183 676 679 O
+

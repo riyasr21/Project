@@ -1,0 +1,165 @@
+Cerebral 0 8 0 8 B-chronic_disease
+aneurysm 9 17 9 17 I-chronic_disease
+clips 18 23 18 23 O
+- 24 25 24 25 O
+if 26 28 26 28 O
+magnetic 29 37 29 37 O
+, 37 38 37 38 O
+can 39 42 39 42 O
+move 43 47 43 47 O
+
+Cochlear 0 8 48 56 B-treatment
+implant 9 16 57 64 I-treatment
+- 17 18 65 66 O
+malfunction 19 30 67 78 O
+
+Deep 0 4 79 83 B-treatment
+brain 5 10 84 89 I-treatment
+stimulator 11 21 90 100 I-treatment
+
+Evidence 0 8 101 109 O
+cognitive 9 18 110 119 B-chronic_disease
+impairment 19 29 120 130 I-chronic_disease
+that 30 34 131 135 O
+would 35 40 136 141 O
+negatively 41 51 142 152 O
+impact 52 58 153 159 O
+capacity 59 67 160 168 O
+to 68 70 169 171 O
+understand 71 81 172 182 O
+and 82 85 183 186 O
+participate 86 97 187 198 O
+in 98 100 199 201 O
+this 101 105 202 206 O
+study 106 111 207 212 O
+
+Have 0 4 213 217 O
+an 5 7 218 220 O
+educational 8 19 221 232 B-clinical_variable
+level 20 25 233 238 I-clinical_variable
+between 26 33 239 246 O
+14 34 36 247 249 B-lower_bound
+- 36 37 249 250 O
+18 37 39 250 252 B-upper_bound
+years 40 45 253 258 I-upper_bound
+
+Have 0 4 259 263 O
+contraindications 5 22 264 281 O
+for 23 26 282 285 O
+acupuncture 27 38 286 297 B-allergy_name
+or 39 41 298 300 O
+MRI 42 45 301 304 B-allergy_name
+
+Have 0 4 305 309 O
+had 5 8 310 313 O
+a 9 10 314 315 O
+change 11 17 316 322 O
+in 18 20 323 325 O
+medication 21 31 326 336 O
+over 32 36 337 341 O
+two 37 40 342 345 B-upper_bound
+weeks 41 46 346 351 I-upper_bound
+before 47 53 352 358 O
+the 54 57 359 362 O
+start 58 63 363 368 O
+of 64 66 369 371 O
+study 67 72 372 377 O
+procedures 73 83 378 388 O
+or 84 86 389 391 O
+through 87 94 392 399 O
+the 95 98 400 403 O
+study 99 104 404 409 O
+protocol 105 113 410 418 O
+
+IV 0 2 419 421 B-treatment
+anticoagulant 3 16 422 435 I-treatment
+therapy 17 24 436 443 I-treatment
+
+Magnetic 0 8 444 452 B-treatment
+dental 9 15 453 459 I-treatment
+implants 16 24 460 468 I-treatment
+- 25 26 469 470 O
+loss 27 31 471 475 O
+of 32 34 476 478 O
+magnetic 35 43 479 487 O
+hold 44 48 488 492 O
+to 49 51 493 495 O
+keep 52 56 496 500 O
+the 57 60 501 504 O
+implant 61 68 505 512 O
+in 69 71 513 515 O
+place 72 77 516 521 O
+
+Main 0 4 522 526 O
+contraindications 5 22 527 544 O
+for 23 26 545 548 O
+acupcunture 27 38 549 560 B-treatment
+in 39 41 561 563 O
+this 42 46 564 568 O
+study 47 52 569 574 O
+
+Participants 0 12 575 587 O
+must 13 17 588 592 O
+have 18 22 593 597 O
+experienced 23 34 598 609 O
+a 35 36 610 611 O
+left 37 41 612 616 B-clinical_variable
+Cerebrovascular 42 57 617 632 I-clinical_variable
+Accident 58 66 633 641 I-clinical_variable
+( 67 68 642 643 I-clinical_variable
+CVA 68 71 643 646 I-clinical_variable
+) 71 72 646 647 I-clinical_variable
+at 73 75 648 650 O
+least 76 81 651 656 O
+one 82 85 657 660 B-lower_bound
+year 86 90 661 665 I-lower_bound
+prior 91 96 666 671 I-lower_bound
+to 97 99 672 674 O
+study 100 105 675 680 O
+participation 106 119 681 694 O
+and 120 123 695 698 O
+the 124 127 699 702 O
+injury 128 134 703 709 O
+timeframe 135 144 710 719 O
+is 145 147 720 722 O
+1 148 149 723 724 B-lower_bound
+- 149 150 724 725 O
+10 150 152 725 727 B-upper_bound
+years 153 158 728 733 I-upper_bound
+post 159 163 734 738 O
+stroke 164 170 739 745 B-chronic_disease
+
+Pregnancy 0 9 746 755 B-pregnancy
+
+Swan 0 4 756 760 B-treatment
+- 4 5 760 761 I-treatment
+Ganz 5 9 761 765 I-treatment
+catheter 10 18 766 774 I-treatment
+
+having 0 6 775 781 O
+a 7 8 782 783 O
+pacemaker 9 18 784 793 B-treatment
+, 18 19 793 794 O
+defibrillator 20 33 795 808 B-treatment
+or 34 36 809 811 O
+wires 37 42 812 817 O
+other 43 48 818 823 O
+than 49 53 824 828 O
+sternal 54 61 829 836 B-treatment
+wires 62 67 837 842 I-treatment
+
+uncontrolled 0 12 843 855 O
+coagulation 13 24 856 867 O
+blood 25 30 868 873 B-chronic_disease
+disorders 31 40 874 883 I-chronic_disease
+like 41 45 884 888 O
+haemophilia 46 57 889 900 B-chronic_disease
+, 57 58 900 901 I-chronic_disease
+malignant 59 68 902 911 B-cancer
+tumors 69 75 912 918 I-cancer
+, 75 76 918 919 O
+and 77 80 920 923 O
+fear 81 85 924 928 B-chronic_disease
+of 86 88 929 931 I-chronic_disease
+needles 89 96 932 939 I-chronic_disease
+

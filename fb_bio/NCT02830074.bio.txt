@@ -1,0 +1,80 @@
+acute 0 5 0 5 B-chronic_disease
+MI 6 8 6 8 I-chronic_disease
+
+already 0 7 9 16 O
+using 8 13 17 22 O
+PAP 14 17 23 26 B-treatment
+for 18 21 27 30 O
+SDB 22 25 31 34 B-chronic_disease
+at 26 28 35 37 O
+optimal 29 36 38 45 O
+compliance 37 47 46 56 O
+
+recent 0 6 57 63 O
+surgery 7 14 64 71 B-treatment
+or 15 17 72 74 O
+hospitalization 18 33 75 90 B-treatment
+
+the 0 3 91 94 O
+investigators 4 17 95 108 O
+will 18 22 109 113 O
+offer 23 28 114 119 O
+to 29 31 120 122 O
+re 32 34 123 125 O
+- 34 35 125 126 O
+contact 35 42 126 133 O
+patients 43 51 134 142 O
+90 52 54 143 145 B-lower_bound
+days 55 59 146 150 I-lower_bound
+after 60 65 151 156 I-lower_bound
+a 66 67 157 158 O
+health 68 74 159 165 O
+event 75 80 166 171 O
+or 81 83 172 174 O
+after 84 89 175 180 B-lower_bound
+90 90 92 181 183 I-lower_bound
+days 93 97 184 188 I-lower_bound
+of 98 100 189 191 O
+sobriety 101 109 192 200 B-chronic_disease
+
+unable 0 6 201 207 O
+to 7 9 208 210 O
+provide 10 17 211 218 O
+self 18 22 219 223 O
+- 22 23 223 224 O
+consent 23 30 224 231 O
+for 31 34 232 235 O
+participation 35 48 236 249 O
+( 49 50 250 251 O
+e.g. 50 54 251 255 O
+, 54 55 255 256 O
+due 56 59 257 260 O
+to 60 62 261 263 O
+dementia 63 71 264 272 B-chronic_disease
+) 71 72 272 273 O
+
+with 0 4 274 278 O
+chronic 5 12 279 286 B-chronic_disease
+SCI 13 16 287 290 I-chronic_disease
+/ 16 17 290 291 I-chronic_disease
+D 17 18 291 292 I-chronic_disease
+( 19 20 293 294 O
+> 20 21 294 295 O
+3 21 22 295 296 B-lower_bound
+months 23 29 297 303 I-lower_bound
+post 30 34 304 308 O
+injury 35 41 309 315 O
+) 41 42 315 316 O
+
+with 0 4 317 321 O
+no 5 7 322 324 O
+evidence 8 16 325 333 O
+of 17 19 334 336 O
+a 20 21 337 338 O
+neurologic 22 32 339 349 B-chronic_disease
+deficit 33 40 350 357 I-chronic_disease
+based 41 46 358 363 O
+on 47 49 364 366 O
+ASIA 50 54 367 371 O
+classification 55 69 372 386 O
+

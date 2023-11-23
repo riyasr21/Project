@@ -1,0 +1,87 @@
+Not 0 3 0 3 B-language_fluency
+English 4 11 4 11 I-language_fluency
+- 11 12 11 12 I-language_fluency
+speaking 12 20 12 20 I-language_fluency
+
+Patients 0 8 21 29 O
+can 9 12 30 33 O
+be 13 15 34 36 O
+KPS 16 19 37 40 B-clinical_variable
+≥60 20 23 41 44 O
+, 23 24 44 45 O
+as 25 27 46 48 O
+long 28 32 49 53 O
+as 33 35 54 56 O
+primary 36 43 57 64 O
+provider 44 52 65 73 O
+feels 53 58 74 79 O
+that 59 63 80 84 O
+patient 64 71 85 92 O
+is 72 74 93 95 O
+candidate 75 84 96 105 O
+for 85 88 106 109 O
+combined 89 97 110 118 O
+modality 98 106 119 127 O
+chemoradiotherapy 107 124 128 145 B-treatment
+
+Patients 0 8 146 154 O
+can 9 12 155 158 O
+receive 13 20 159 166 O
+chemoradiotherapy 21 38 167 184 B-treatment
+preoperatively 39 53 185 199 I-treatment
+prior 54 59 200 205 I-treatment
+to 60 62 206 208 I-treatment
+surgical 63 71 209 217 I-treatment
+resection 72 81 218 227 I-treatment
+or 82 84 228 230 O
+as 85 87 231 233 O
+definitive 88 98 234 244 B-treatment
+/ 98 99 244 245 I-treatment
+primary 99 106 245 252 I-treatment
+chemoradiotherapy 107 124 253 270 I-treatment
+
+Patients 0 8 271 279 O
+must 9 13 280 284 O
+be 14 16 285 287 O
+≥ 17 18 288 289 O
+age 19 22 290 293 B-age
+of 23 25 294 296 O
+65 26 28 297 299 B-lower_bound
+
+Patients 0 8 300 308 O
+who 9 12 309 312 O
+will 13 17 313 317 O
+receive 18 25 318 325 O
+induction 26 35 326 335 O
+chemotherapy 36 48 336 348 B-treatment
+followed 49 57 349 357 O
+by 58 60 358 360 O
+combined 61 69 361 369 O
+chemoradiotherapy 70 87 370 387 B-treatment
+at 88 90 388 390 O
+MSKCC 91 96 391 396 B-clinical_variable
+for 97 100 397 400 O
+localized 101 110 401 410 O
+stage 111 116 411 416 B-lower_bound
+I 117 118 417 418 I-lower_bound
+- 118 119 418 419 O
+III 119 122 419 422 B-upper_bound
+esophageal 123 133 423 433 B-cancer
+or 134 136 434 436 O
+gastroesophageal 137 153 437 453 B-cancer
+junction 154 162 454 462 I-cancer
+cancer 163 169 463 469 I-cancer
+
+Patients 0 8 470 478 O
+with 9 13 479 483 O
+a 14 15 484 485 O
+feeding 16 23 486 493 B-treatment
+tube 24 28 494 498 I-treatment
+previously 29 39 499 509 O
+placed 40 46 510 516 O
+
+no 0 2 517 519 O
+maximum 3 10 520 527 O
+age 11 14 528 531 B-age
+limit 15 20 532 537 O
+

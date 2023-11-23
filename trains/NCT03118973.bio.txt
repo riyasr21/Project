@@ -1,0 +1,60 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+and 7 10 7 10 O
+older 11 16 11 16 O
+
+Complex 0 7 17 24 B-treatment
+post 8 12 25 29 I-treatment
+- 12 13 29 30 I-treatment
+surgical 13 21 30 38 I-treatment
+anatomy 22 29 39 46 I-treatment
+e.g. 30 34 47 51 O
+Billroth 35 43 52 60 B-treatment
+type 44 48 61 65 I-treatment
+II 49 51 66 68 I-treatment
+anatomy 52 59 69 76 I-treatment
+, 59 60 76 77 O
+Roux 61 65 78 82 B-treatment
+- 65 66 82 83 I-treatment
+en 66 68 83 85 I-treatment
+- 68 69 85 86 I-treatment
+Y 69 70 86 87 I-treatment
+- 70 71 87 88 I-treatment
+gastrojejunostomy 71 88 88 105 I-treatment
+
+Patient 0 7 106 113 O
+has 8 11 114 117 O
+a 12 13 118 119 O
+clinical 14 22 120 128 O
+indication 23 33 129 139 O
+for 34 37 140 143 O
+ERCP 38 42 144 148 B-treatment
+
+Potentially 0 11 149 160 O
+vulnerable 12 22 161 171 O
+subjects 23 31 172 180 O
+including 32 41 181 190 O
+, 41 42 190 191 O
+homeless 43 51 192 200 O
+people 52 58 201 207 O
+, 58 59 207 208 O
+pregnant 60 68 209 217 B-pregnancy
+females 69 76 218 225 B-gender
+, 76 77 225 226 O
+employees 78 87 227 236 O
+and 88 91 237 240 O
+students 92 100 241 249 O
+
+Thrombocytopenia 0 16 250 266 B-chronic_disease
+, 16 17 266 267 O
+coagulopathy 18 30 268 280 B-chronic_disease
+, 30 31 280 281 O
+or 32 34 282 284 O
+indication 35 45 285 295 O
+for 46 49 296 299 O
+ongoing 50 57 300 307 O
+anti 58 62 308 312 B-treatment
+- 62 63 312 313 I-treatment
+coagulation 63 74 313 324 I-treatment
+therapy 75 82 325 332 I-treatment
+

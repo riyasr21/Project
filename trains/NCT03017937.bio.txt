@@ -1,0 +1,91 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+tolerate 8 16 8 16 O
+hypercapnia 17 28 17 28 B-chronic_disease
+for 29 32 29 32 O
+1 33 34 33 34 B-lower_bound
+- 34 35 34 35 O
+2 35 36 35 36 B-upper_bound
+minutes 37 44 37 44 I-upper_bound
+
+Any 0 3 45 48 O
+known 4 9 49 54 O
+seizure 10 17 55 62 B-chronic_disease
+disorder 18 26 63 71 I-chronic_disease
+
+Glaucoma 0 8 72 80 B-chronic_disease
+( 9 10 81 82 O
+Narrow 10 16 82 88 O
+Angle 17 22 89 94 O
+or 23 25 95 97 O
+Normal 26 32 98 104 O
+Tension 33 40 105 112 O
+) 40 41 112 113 O
+
+History 0 7 114 121 O
+of 8 10 122 124 O
+neurological 11 23 125 137 B-chronic_disease
+deficits 24 32 138 146 I-chronic_disease
+, 32 33 146 147 O
+previous 34 42 148 156 O
+cerebral 43 51 157 165 B-chronic_disease
+infarction 52 62 166 176 I-chronic_disease
+, 62 63 176 177 O
+or 64 66 178 180 O
+severe 67 73 181 187 B-chronic_disease
+head 74 78 188 192 I-chronic_disease
+trauma 79 85 193 199 I-chronic_disease
+as 86 88 200 202 O
+indicated 89 98 203 212 O
+through 99 106 213 220 O
+pre 107 110 221 224 O
+- 110 111 224 225 O
+season 111 117 225 231 O
+screening 118 127 232 241 O
+
+Hydrocephalus 0 13 242 255 B-chronic_disease
+
+Known 0 5 256 261 O
+increased 6 15 262 271 O
+intracranial 16 28 272 284 B-chronic_disease
+pressure 29 37 285 293 I-chronic_disease
+
+Medical 0 7 294 301 O
+contraindications 8 25 302 319 O
+to 26 28 320 322 O
+restriction 29 40 323 334 O
+of 41 43 335 337 O
+venous 44 50 338 344 O
+outflow 51 58 345 352 O
+via 59 62 353 356 O
+the 63 66 357 360 O
+internal 67 75 361 369 O
+jugular 76 83 370 377 O
+veins 84 89 378 383 O
+( 90 91 384 385 O
+known 91 96 385 390 O
+increased 97 106 391 400 B-chronic_disease
+intracerebral 107 120 401 414 I-chronic_disease
+pressure 121 129 415 423 I-chronic_disease
+, 129 130 423 424 O
+metabolic 131 140 425 434 B-chronic_disease
+acidosis 141 149 435 443 I-chronic_disease
+or 150 152 444 446 O
+alkalosis 153 162 447 456 B-chronic_disease
+) 162 163 456 457 O
+
+Recent 0 6 458 464 O
+penetrating 7 18 465 476 B-chronic_disease
+brain 19 24 477 482 I-chronic_disease
+trauma 25 31 483 489 I-chronic_disease
+( 32 33 490 491 O
+within 33 39 491 497 O
+6 40 41 498 499 B-upper_bound
+months 42 48 500 506 I-upper_bound
+) 48 49 506 507 O
+
+aged 0 4 508 512 B-age
+7 5 6 513 514 B-lower_bound
+- 6 7 514 515 O
+60 7 9 515 517 B-upper_bound
+

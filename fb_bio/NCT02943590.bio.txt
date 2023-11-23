@@ -1,0 +1,67 @@
+> 0 1 0 1 O
+18 2 4 2 4 B-lower_bound
+years 5 10 5 10 I-lower_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+All 0 3 18 21 O
+patients 4 12 22 30 O
+with 13 17 31 35 O
+newly 18 23 36 41 O
+diagnosed 24 33 42 51 O
+NHL 34 37 52 55 B-cancer
+
+Concomitant 0 11 56 67 O
+use 12 15 68 71 O
+of 16 18 72 74 O
+cyclosporine 19 31 75 87 B-treatment
+
+LVEF 0 4 88 92 B-clinical_variable
+of 5 7 93 95 O
+< 8 9 96 97 O
+50 9 11 97 99 B-upper_bound
+% 11 12 99 100 I-upper_bound
+at 13 15 101 103 O
+baseline 16 24 104 112 O
+
+Pregnancy 0 9 113 122 B-pregnancy
+
+Renal 0 5 123 128 B-chronic_disease
+failure 6 13 129 136 I-chronic_disease
+
+Statin 0 6 137 143 B-treatment
+use 7 10 144 147 O
+or 11 13 148 150 O
+Statin 14 20 151 157 O
+use 21 24 158 161 O
+is 25 27 162 164 O
+indicated 28 37 165 174 O
+based 38 43 175 180 O
+on 44 46 181 183 O
+guidelines 47 57 184 194 O
+
+Unexplained 0 11 195 206 O
+persistent 12 22 207 217 O
+elevation 23 32 218 227 O
+of 33 35 228 230 O
+transaminases 36 49 231 244 B-clinical_variable
+( 50 51 245 246 O
+> 51 52 246 247 O
+3 52 53 247 248 B-lower_bound
+times 54 59 249 254 I-lower_bound
+upper 60 65 255 260 I-lower_bound
+limits 66 72 261 267 I-lower_bound
+of 73 75 268 270 I-lower_bound
+normal 76 82 271 277 I-lower_bound
+) 82 83 277 278 O
+
+estimated 0 9 279 288 B-clinical_variable
+glomerular 10 20 289 299 I-clinical_variable
+filtration 21 31 300 310 I-clinical_variable
+< 32 33 311 312 O
+45 33 35 312 314 B-upper_bound
+mL 36 38 315 317 I-upper_bound
+/ 38 39 317 318 I-upper_bound
+min/1.73 39 47 318 326 I-upper_bound
+m2 48 50 327 329 I-upper_bound
+

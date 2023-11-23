@@ -1,0 +1,68 @@
+Failed 0 6 0 6 O
+at 7 9 7 9 O
+least 10 15 10 15 O
+3 16 17 16 17 B-lower_bound
+months 18 24 18 24 I-lower_bound
+of 25 27 25 27 O
+conservative 28 40 28 40 O
+treatment 41 50 41 50 B-treatment
+
+Greater 0 7 51 58 O
+than 8 12 59 63 O
+Grade 13 18 64 69 B-lower_bound
+2 19 20 70 71 I-lower_bound
+spondylolisthesis 21 38 72 89 B-clinical_variable
+
+History 0 7 90 97 O
+of 8 10 98 100 O
+spinal 11 17 101 107 B-chronic_disease
+infection 18 27 108 117 I-chronic_disease
+
+Not 0 3 118 121 O
+worked 4 10 122 128 O
+for 11 14 129 132 O
+greater 15 22 133 140 O
+than 23 27 141 145 O
+6 28 29 146 147 B-lower_bound
+months 30 36 148 154 I-lower_bound
+or 37 39 155 157 O
+unemployed 40 50 158 168 O
+as 51 53 169 171 O
+a 54 55 172 173 O
+result 56 62 174 180 O
+of 63 65 181 183 O
+lumbar 66 72 184 190 O
+condition 73 82 191 200 O
+
+Prior 0 5 201 206 O
+spinal 6 12 207 213 B-treatment
+surgery 13 20 214 221 I-treatment
+excluding 21 30 222 231 O
+laminectomy 31 42 232 243 B-treatment
+/ 42 43 243 244 O
+discectomy 43 53 244 254 B-treatment
+
+degenerative 0 12 255 267 B-chronic_disease
+kyphosis 13 21 268 276 I-chronic_disease
+
+degenerative 0 12 277 289 B-chronic_disease
+myelopathy 13 23 290 300 I-chronic_disease
+
+degenerative 0 12 301 313 B-chronic_disease
+spondylolisthesis 13 30 314 331 I-chronic_disease
+
+facet 0 5 332 337 B-chronic_disease
+joint 6 11 338 343 I-chronic_disease
+disease 12 19 344 351 I-chronic_disease
+
+intervertebral 0 14 352 366 B-chronic_disease
+disc 15 19 367 371 I-chronic_disease
+disease 20 27 372 379 I-chronic_disease
+
+neurogenic 0 10 380 390 B-chronic_disease
+claudication 11 23 391 403 I-chronic_disease
+
+radiculopathy 0 13 404 417 B-chronic_disease
+
+scoliosis 0 9 418 427 B-chronic_disease
+

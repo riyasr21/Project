@@ -1,0 +1,149 @@
+Active 0 6 0 6 O
+malignancy 7 17 7 17 B-cancer
+
+Colchicine 0 10 18 28 B-treatment
+use 11 14 29 32 O
+within 15 21 33 39 O
+1 22 23 40 41 B-upper_bound
+month 24 29 42 47 I-upper_bound
+
+Glomerular 0 10 48 58 B-clinical_variable
+filtration 11 21 59 69 I-clinical_variable
+rate 22 26 70 74 I-clinical_variable
+< 27 28 75 76 O
+30mL 28 32 76 80 B-upper_bound
+/ 32 33 80 81 I-upper_bound
+minute 33 39 81 87 I-upper_bound
+
+High 0 4 88 92 B-clinical_variable
+- 4 5 92 93 I-clinical_variable
+dose 5 9 93 97 I-clinical_variable
+statin 10 16 98 104 I-clinical_variable
+load 17 21 105 109 I-clinical_variable
+< 22 23 110 111 O
+24 23 25 111 113 B-upper_bound
+hours 26 31 114 119 I-upper_bound
+prior 32 37 120 125 I-upper_bound
+to 38 40 126 128 O
+procedure 41 50 129 138 O
+( 51 52 139 140 O
+major 52 57 140 145 O
+confounder 58 68 146 156 O
+that 69 73 157 161 O
+is 74 76 162 164 O
+known 77 82 165 170 O
+to 83 85 171 173 O
+reduce 86 92 174 180 O
+inflammatory 93 105 181 193 B-clinical_variable
+levels 106 112 194 200 I-clinical_variable
+in 113 115 201 203 O
+12 116 118 204 206 B-lower_bound
+to 119 121 207 209 O
+24 122 124 210 212 O
+hours 125 130 213 218 O
+) 130 131 218 219 O
+
+History 0 7 220 227 O
+of 8 10 228 230 O
+colchicine 11 21 231 241 B-treatment
+intolerance 22 33 242 253 O
+
+History 0 7 254 261 O
+of 8 10 262 264 O
+myelodysplasia 11 25 265 279 B-cancer
+( 26 27 280 281 O
+due 27 30 281 284 O
+to 31 33 285 287 O
+suggested 34 43 288 297 O
+cautionary 44 54 298 308 O
+use 55 58 309 312 O
+of 59 61 313 315 O
+colchicine 62 72 316 326 B-treatment
+in 73 75 327 329 O
+this 76 80 330 334 O
+setting 81 88 335 342 O
+) 88 89 342 343 O
+
+Referred 0 8 344 352 O
+for 9 12 353 356 O
+possible 13 21 357 365 O
+PCI 22 25 366 369 B-treatment
+
+Use 0 3 370 373 O
+of 4 6 374 376 O
+anti 7 11 377 381 B-treatment
+- 11 12 381 382 I-treatment
+inflammatory 12 24 382 394 I-treatment
+agents 25 31 395 401 I-treatment
+
+Use 0 3 402 405 O
+of 4 6 406 408 O
+strong 7 13 409 415 O
+Cytochrome 14 24 416 426 B-treatment
+P450 25 29 427 431 I-treatment
+, 29 30 431 432 O
+Family 31 37 433 439 B-treatment
+3 38 39 440 441 I-treatment
+, 39 40 441 442 O
+Subfamily 41 50 443 452 B-treatment
+A 51 52 453 454 I-treatment
+, 52 53 454 455 O
+Polypeptide 54 65 456 467 B-treatment
+4 66 67 468 469 I-treatment
+( 68 69 470 471 I-treatment
+CYP3A4 69 75 471 477 I-treatment
+) 75 76 477 478 I-treatment
+and/or 77 83 479 485 O
+P 84 85 486 487 B-treatment
+- 85 86 487 488 I-treatment
+glycoprotein 86 98 488 500 I-treatment
+inhibitors 99 109 501 511 I-treatment
+
+aspirin 0 7 512 519 B-treatment
+
+clarithromycin 0 14 520 534 B-treatment
+
+cyclosporine 0 12 535 547 B-treatment
+
+diltiazem 0 9 548 557 B-treatment
+
+infection 0 9 558 567 B-chronic_disease
+( 10 11 568 569 O
+major 11 16 569 574 O
+confounder 17 27 575 585 O
+with 28 32 586 590 O
+increased 33 42 591 600 O
+inflammatory 43 55 601 613 O
+markers 56 63 614 621 O
+) 63 64 621 622 O
+
+ketoconazole 0 12 623 635 B-treatment
+
+on 0 2 636 638 O
+dialysis 3 11 639 647 B-treatment
+( 12 13 648 649 O
+due 13 16 649 652 O
+to 17 19 653 655 O
+the 20 23 656 659 O
+need 24 28 660 664 O
+to 29 31 665 667 O
+adjust 32 38 668 674 O
+colchicine 39 49 675 685 B-treatment
+dose 50 54 686 690 O
+in 55 57 691 693 O
+this 58 62 694 698 O
+setting 63 70 699 706 O
+) 70 71 706 707 O
+
+ritonavir 0 9 708 717 B-treatment
+
+verapamil 0 9 718 727 B-treatment
+
+within 0 6 728 734 O
+5 7 8 735 736 B-upper_bound
+halflives 9 18 737 746 I-upper_bound
+of 19 21 747 749 O
+the 22 25 750 753 O
+individual 26 36 754 764 O
+drug 37 41 765 769 O
+

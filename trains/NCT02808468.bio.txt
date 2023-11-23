@@ -1,0 +1,71 @@
+2 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+10 2 4 2 4 B-upper_bound
+weeks 5 10 5 10 I-upper_bound
+post 11 15 11 15 O
+sexual 16 22 16 22 O
+assault 23 30 23 30 O
+
+Access 0 6 31 37 B-technology_access
+to 7 9 38 40 I-technology_access
+a 10 11 41 42 I-technology_access
+telephone 12 21 43 52 I-technology_access
+
+Age 0 3 53 56 B-age
+> 4 5 57 58 O
+18 6 8 59 61 B-lower_bound
+years 9 14 62 67 I-lower_bound
+
+Drinking 0 8 68 76 O
+more 9 13 77 81 O
+than 14 18 82 86 O
+3 19 20 87 88 B-lower_bound
+drinks 21 27 89 95 O
+on 28 30 96 98 O
+one 31 34 99 102 O
+occasion 35 43 103 111 O
+in 44 46 112 114 O
+the 47 50 115 118 O
+last 51 55 119 123 O
+month 56 61 124 129 O
+and 62 65 130 133 O
+at 66 68 134 136 O
+least 69 74 137 142 O
+two 75 78 143 146 B-lower_bound
+reported 79 87 147 155 O
+negative 88 96 156 164 O
+consequences 97 109 165 177 O
+of 110 112 178 180 O
+alcohol 113 120 181 188 O
+use 121 124 189 192 O
+
+Exhibit 0 7 193 200 O
+current 8 15 201 208 O
+psychosis 16 25 209 218 B-chronic_disease
+
+Identifies 0 10 219 229 O
+as 11 13 230 232 O
+female 14 20 233 239 B-gender
+
+Previous 0 8 240 248 O
+non 9 12 249 252 O
+- 12 13 252 253 O
+response 13 21 253 261 O
+to 22 24 262 264 O
+an 25 27 265 267 O
+adequate 28 36 268 276 O
+trial 37 42 277 282 O
+( 43 44 283 284 O
+8 44 45 284 285 B-lower_bound
+or 46 48 286 288 O
+more 49 53 289 293 O
+sessions 54 62 294 302 O
+) 62 63 302 303 O
+of 64 66 304 306 O
+Cognitive 67 76 307 316 B-treatment
+Processing 77 87 317 327 I-treatment
+Therapy 88 95 328 335 I-treatment
+( 96 97 336 337 I-treatment
+CPT 97 100 337 340 I-treatment
+) 100 101 340 341 I-treatment
+

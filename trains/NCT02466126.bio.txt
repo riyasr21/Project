@@ -1,0 +1,30 @@
+Veterans 0 8 0 8 O
+currently 9 18 9 18 O
+receiving 19 28 19 28 O
+psychotherapy 29 42 29 42 B-treatment
+WILL 43 47 43 47 O
+be 48 50 48 50 O
+excluded 51 59 51 59 O
+
+cognitive 0 9 60 69 B-chronic_disease
+impairment 10 20 70 80 I-chronic_disease
+
+must 0 4 81 85 O
+have 5 9 86 90 O
+clinically 10 20 91 101 O
+significant 21 32 102 113 O
+symptoms 33 41 114 122 O
+of 42 44 123 125 O
+depression 45 55 126 136 B-chronic_disease
+
+presence 0 8 137 145 O
+of 9 11 146 148 O
+bipolar 12 19 149 156 B-chronic_disease
+, 19 20 156 157 O
+psychotic 21 30 158 167 B-chronic_disease
+or 31 33 168 170 O
+substance 34 43 171 180 B-chronic_disease
+- 43 44 180 181 I-chronic_disease
+abuse 44 49 181 186 I-chronic_disease
+disorders 50 59 187 196 I-chronic_disease
+

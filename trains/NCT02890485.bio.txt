@@ -1,0 +1,74 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+40 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+- 11 12 11 12 O
+of 12 14 12 14 O
+- 14 15 14 15 O
+age 15 18 15 18 B-age
+
+Bilateral 0 9 19 28 B-chronic_disease
+patellofemoral 10 24 29 43 I-chronic_disease
+pain 25 29 44 48 I-chronic_disease
+syndrome 30 38 49 57 I-chronic_disease
+
+History 0 7 58 65 O
+of 8 10 66 68 O
+knee 11 15 69 73 B-treatment
+surgery 16 23 74 81 I-treatment
+
+History 0 7 82 89 O
+of 8 10 90 92 O
+pain 11 15 93 97 O
+less 16 20 98 102 O
+than 21 25 103 107 O
+3 26 27 108 109 B-upper_bound
+months 28 34 110 116 I-upper_bound
+
+Pregnancy 0 9 117 126 B-pregnancy
+
+Presence 0 8 127 135 O
+of 9 11 136 138 O
+a 12 13 139 140 O
+neurological 14 26 141 153 B-chronic_disease
+condition 27 36 154 163 I-chronic_disease
+that 37 41 164 168 O
+would 42 47 169 174 O
+affect 48 54 175 181 O
+movement 55 63 182 190 O
+
+Presence 0 8 191 199 O
+of 9 11 200 202 O
+anterior 12 20 203 211 O
+knee 21 25 212 216 O
+pain 26 30 217 221 O
+around 31 37 222 228 O
+the 38 41 229 232 O
+patella 42 49 233 240 O
+during 50 56 241 247 O
+ascending 57 66 248 257 O
+/ 66 67 257 258 O
+descending 67 77 258 268 O
+stairs 78 84 269 275 O
+, 84 85 275 276 O
+squatting 86 95 277 286 O
+, 95 96 286 287 O
+and/or 97 103 288 294 O
+running 104 111 295 302 O
+for 112 115 303 306 O
+at 116 118 307 309 O
+least 119 124 310 315 O
+3 125 126 316 317 B-lower_bound
+months 127 133 318 324 I-lower_bound
+
+Received 0 8 325 333 O
+previous 9 17 334 342 O
+dry 18 21 343 346 B-treatment
+needling 22 30 347 355 I-treatment
+treatments 31 41 356 366 I-treatment
+
+Referred 0 8 367 375 O
+for 9 12 376 379 O
+physical 13 21 380 388 B-treatment
+therapy 22 29 389 396 I-treatment
+

@@ -1,0 +1,57 @@
+Any 0 3 0 3 O
+major 4 9 4 9 O
+surgery 10 17 10 17 B-treatment
+
+Diagnosis 0 9 18 27 O
+of 10 12 28 30 O
+Non 13 16 31 34 B-cancer
+- 16 17 34 35 I-cancer
+Hodgkin 17 24 35 42 I-cancer
+'s 24 26 42 44 I-cancer
+Lymphoma 27 35 45 53 I-cancer
+including 36 45 54 63 O
+Diffuse 46 53 64 71 B-cancer
+Large 54 59 72 77 I-cancer
+B 60 61 78 79 I-cancer
+- 61 62 79 80 I-cancer
+cell 62 66 80 84 I-cancer
+Lymphoma 67 75 85 93 I-cancer
+, 75 76 93 94 O
+Follicular 77 87 95 105 B-cancer
+, 87 88 105 106 O
+Mantle 89 95 107 113 B-cancer
+Cell 96 100 114 118 I-cancer
+Lymphoma 101 109 119 127 I-cancer
+and 110 113 128 131 O
+Marginal 114 122 132 140 B-cancer
+Zone 123 127 141 145 I-cancer
+Lymphoma 128 136 146 154 I-cancer
+
+Evidence 0 8 155 163 O
+of 9 11 164 166 O
+hepatitis 12 21 167 176 B-chronic_disease
+B 22 23 177 178 I-chronic_disease
+virus 24 29 179 184 I-chronic_disease
+, 29 30 184 185 O
+hepatitis 31 40 186 195 B-chronic_disease
+C 41 42 196 197 I-chronic_disease
+virus 43 48 198 203 I-chronic_disease
+
+Prior 0 5 204 209 B-treatment
+Allogeneic 6 16 210 220 I-treatment
+hematologic 17 28 221 232 I-treatment
+stem 29 33 233 237 I-treatment
+cell 34 38 238 242 I-treatment
+transplant 39 49 243 253 I-treatment
+
+Prior 0 5 254 259 B-treatment
+therapy 6 13 260 267 I-treatment
+with 14 18 268 272 O
+a 19 20 273 274 O
+PI3 21 24 275 278 B-treatment
+K 24 25 278 279 I-treatment
+delta 26 31 280 285 I-treatment
+inhibitor 32 41 286 295 I-treatment
+
+chemotherapy 0 12 296 308 B-treatment
+

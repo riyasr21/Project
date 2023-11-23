@@ -1,0 +1,59 @@
+Any 0 3 0 3 O
+patient 4 11 4 11 O
+with 12 16 12 16 O
+suspected 17 26 17 26 O
+malignant 27 36 27 36 B-cancer
+brain 37 42 37 42 I-cancer
+tumor 43 48 43 48 I-cancer
+on 49 51 49 51 O
+diagnostic 52 62 52 62 O
+MR 63 65 63 65 O
+imaging 66 73 66 73 O
+who 74 77 74 77 O
+will 78 82 78 82 O
+undergo 83 90 83 90 O
+a 91 92 91 92 O
+resection 93 102 93 102 B-treatment
+
+Contraindication 0 16 103 119 O
+to 17 19 120 122 O
+MRI 20 23 123 126 O
+( 24 25 127 128 O
+metal 25 30 128 133 B-treatment
+implants 31 39 134 142 I-treatment
+) 39 40 142 143 O
+
+Hemosiderosis 0 13 144 157 B-chronic_disease
+/ 13 14 157 158 O
+hemochromatosis 14 29 158 173 B-chronic_disease
+
+Iron 0 4 174 178 B-chronic_disease
+overload 5 13 179 187 I-chronic_disease
+from 14 18 188 192 O
+any 19 22 193 196 O
+cause 23 28 197 202 O
+( 29 30 203 204 O
+not 30 33 204 207 O
+just 34 38 208 212 O
+hemosiderosis 39 52 213 226 B-chronic_disease
+or 53 55 227 229 O
+hemochromatosis 56 71 230 245 B-chronic_disease
+) 71 72 245 246 O
+
+Known 0 5 247 252 O
+hypersensitivity 6 22 253 269 O
+to 23 25 270 272 O
+ferumoxytol 26 37 273 284 B-allergy_name
+or 38 40 285 287 O
+any 41 44 288 291 O
+of 45 47 292 294 O
+its 48 51 295 298 O
+components 52 62 299 309 O
+
+Pregnant 0 8 310 318 B-pregnancy
+patients 9 17 319 327 O
+
+severe 0 6 328 334 B-chronic_disease
+chronic 7 14 335 342 I-chronic_disease
+hemolysis 15 24 343 352 I-chronic_disease
+

@@ -1,0 +1,24 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+80 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Patients 0 8 19 27 O
+18 9 11 28 30 B-lower_bound
+- 11 12 30 31 O
+80 12 14 31 33 B-upper_bound
+years 15 20 34 39 I-upper_bound
+of 21 23 40 42 O
+age 24 27 43 46 B-age
+
+Pregnant 0 8 47 55 B-pregnancy
+women 9 14 56 61 B-gender
+( 15 16 62 63 O
+as 16 18 63 65 O
+verbalized 19 29 66 76 O
+by 30 32 77 79 O
+participant 33 44 80 91 O
+) 44 45 91 92 O
+

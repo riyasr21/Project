@@ -1,0 +1,92 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+10 9 11 9 11 B-lower_bound
+days 12 16 12 16 I-lower_bound
+after 17 22 17 22 O
+most 23 27 23 27 O
+recent 28 34 28 34 O
+prostate 35 43 35 43 B-treatment
+biopsy 44 50 44 50 I-treatment
+
+Chemotherapy 0 12 51 63 B-treatment
+for 13 16 64 67 O
+prostate 17 25 68 76 B-cancer
+cancer 26 32 77 83 I-cancer
+
+Hemorrhagic 0 11 84 95 B-chronic_disease
+cystitis 12 20 96 104 I-chronic_disease
+or 21 23 105 107 O
+active 24 30 108 114 O
+prostatitis 31 42 115 126 B-chronic_disease
+
+Hormone 0 7 127 134 B-treatment
+deprivation 8 19 135 146 I-treatment
+therapy 20 27 147 154 I-treatment
+
+Investigational 0 15 155 170 B-treatment
+therapy 16 23 171 178 I-treatment
+for 24 27 179 182 O
+prostate 28 36 183 191 B-cancer
+cancer 37 43 192 198 I-cancer
+
+Men 0 3 199 202 B-gender
+18 4 6 203 205 B-lower_bound
+years 7 12 206 211 I-lower_bound
+of 13 15 212 214 O
+age 16 19 215 218 B-age
+or 20 22 219 221 O
+greater 23 30 222 229 O
+with 31 35 230 234 O
+recently 36 44 235 243 O
+diagnosed 45 54 244 253 O
+prostate 55 63 254 262 B-cancer
+cancer 64 70 263 269 I-cancer
+with 71 75 270 274 O
+planned 76 83 275 282 O
+radiation 84 93 283 292 B-treatment
+and 94 97 293 296 O
+ADT 98 101 297 300 B-treatment
+
+Newly 0 5 301 306 O
+diagnosed 6 15 307 316 O
+prostate 16 24 317 325 B-cancer
+cancer 25 31 326 332 I-cancer
+pathologically 32 46 333 347 O
+proven 47 53 348 354 O
+by 54 56 355 357 O
+prostate 57 65 358 366 B-treatment
+biopsy 66 72 367 373 I-treatment
+
+Patients 0 8 374 382 O
+considered 9 19 383 393 O
+as 20 22 394 396 O
+candidates 23 33 397 407 O
+for 34 37 408 411 O
+and 38 41 412 415 O
+medically 42 51 416 425 O
+fit 52 55 426 429 O
+to 56 58 430 432 O
+undergo 59 66 433 440 O
+radiation 67 76 441 450 B-treatment
+and 77 80 451 454 O
+ADT 81 84 455 458 B-treatment
+
+Prior 0 5 459 464 O
+pelvic 6 12 465 471 B-treatment
+external 13 21 472 480 I-treatment
+beam 22 26 481 485 I-treatment
+radiation 27 36 486 495 I-treatment
+therapy 37 44 496 503 I-treatment
+
+Prostate 0 8 504 512 O
+biopsy 9 15 513 519 O
+histology 16 25 520 529 O
+grade 26 31 530 535 O
+≥ 32 33 536 537 O
+Gleason 34 41 538 545 B-clinical_variable
+8 42 43 546 547 B-lower_bound
+- 43 44 547 548 O
+10 44 46 548 550 B-upper_bound
+
+brachytherapy 0 13 551 564 B-treatment
+

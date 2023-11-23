@@ -1,0 +1,87 @@
+Prehypertensive 0 15 0 15 O
+and 16 19 16 19 O
+Normotensive 20 32 20 32 O
+OEF 33 36 33 36 O
+/ 36 37 36 37 O
+OIF 37 40 37 40 O
+/ 40 41 40 41 O
+OND 41 44 41 44 O
+veterans 45 53 45 53 O
+without 54 61 54 61 O
+PTSD 62 66 62 66 B-chronic_disease
+( 67 68 67 68 O
+controls 68 76 68 76 O
+) 76 77 76 77 O
+
+Prehypertensive 0 15 78 93 O
+and 16 19 94 97 O
+Normotensive 20 32 98 110 O
+Operation 33 42 111 120 O
+Enduring 43 51 121 129 O
+Freedom 52 59 130 137 O
+( 60 61 138 139 O
+OEF)/ 61 66 139 144 O
+Operation 67 76 145 154 O
+Iraqi 77 82 155 160 O
+Freedom 83 90 161 168 O
+( 91 92 169 170 O
+OIF)/ 92 97 170 175 O
+Operation 98 107 176 185 O
+New 108 111 186 189 O
+Dawn 112 116 190 194 O
+( 117 118 195 196 O
+OND 118 121 196 199 O
+) 121 122 199 200 O
+veterans 123 131 201 209 O
+with 132 136 210 214 O
+PTSD 137 141 215 219 B-chronic_disease
+
+any 0 3 220 223 O
+serious 4 11 224 231 O
+systemic 12 20 232 240 B-chronic_disease
+disease 21 28 241 248 I-chronic_disease
+
+autonomic 0 9 249 258 B-chronic_disease
+dysfunction 10 21 259 270 I-chronic_disease
+
+diabetes 0 8 271 279 B-chronic_disease
+
+heart 0 5 280 285 B-chronic_disease
+or 6 8 286 288 O
+vascular 9 17 289 297 B-chronic_disease
+disease 18 25 298 305 I-chronic_disease
+
+hyperlipidemia 0 14 306 320 B-chronic_disease
+
+hypertension 0 12 321 333 B-chronic_disease
+
+treatment 0 9 334 343 B-treatment
+with 10 14 344 348 O
+MAO 15 18 349 352 B-treatment
+inhibitors 19 29 353 363 I-treatment
+within 30 36 364 370 O
+the 37 40 371 374 O
+last 41 45 375 379 B-upper_bound
+14 46 48 380 382 I-upper_bound
+days 49 53 383 387 I-upper_bound
+
+treatment 0 9 388 397 B-treatment
+with 10 14 398 402 O
+medications 15 26 403 414 B-treatment
+known 27 32 415 420 O
+to 33 35 421 423 O
+affect 36 42 424 430 O
+the 43 46 431 434 O
+sympathetic 47 58 435 446 O
+nervous 59 66 447 454 O
+system 67 73 455 461 O
+( 74 75 462 463 O
+clonidine 75 84 463 472 B-treatment
+, 84 85 472 473 O
+beta 86 90 474 478 B-treatment
+blockers 91 99 479 487 I-treatment
+, 99 100 487 488 O
+ACE 101 104 489 492 B-treatment
+inhibitors 105 115 493 503 I-treatment
+) 115 116 503 504 O
+

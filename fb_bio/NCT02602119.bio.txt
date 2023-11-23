@@ -1,0 +1,22 @@
+Pregnant 0 8 0 8 B-pregnancy
+women 9 14 9 14 B-gender
+as 15 17 15 17 O
+determined 18 28 18 28 O
+by 29 31 29 31 O
+urinary 32 39 32 39 O
+or 40 42 40 42 O
+serum 43 48 43 48 B-clinical_variable
+beta 49 53 49 53 I-clinical_variable
+hCG 54 57 54 57 I-clinical_variable
+within 58 64 58 64 O
+72 65 67 65 67 B-upper_bound
+hours 68 73 68 73 I-upper_bound
+of 74 76 74 76 O
+surgery 77 84 77 84 O
+
+over 0 4 85 89 O
+18 5 7 90 92 B-lower_bound
+years 8 13 93 98 I-lower_bound
+of 14 16 99 101 O
+age 17 20 102 105 B-age
+

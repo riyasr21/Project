@@ -1,0 +1,14 @@
+male 0 4 0 4 B-gender
+
+no 0 2 5 7 O
+history 3 10 8 15 O
+of 11 13 16 18 O
+chronic 14 21 19 26 B-chronic_disease
+illness 22 29 27 34 I-chronic_disease
+, 29 30 34 35 O
+concussion 31 41 36 46 B-chronic_disease
+, 41 42 46 47 O
+malignancies 43 55 48 60 B-cancer
+, 55 56 60 61 O
+etc 57 60 62 65 O
+

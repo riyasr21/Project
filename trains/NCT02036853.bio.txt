@@ -1,0 +1,121 @@
+Allowed 0 7 0 7 O
+to 8 10 8 10 O
+be 11 13 11 13 O
+on 14 16 14 16 O
+concomitant 17 28 17 28 B-treatment
+AEDs 29 33 29 33 I-treatment
+
+Concomitant 0 11 34 45 B-treatment
+administration 12 26 46 60 O
+of 27 29 61 63 O
+a 30 31 64 65 O
+ketogenic 32 41 66 75 O
+diet 42 46 76 80 O
+for 47 50 81 84 O
+the 51 54 85 88 O
+treatment 55 64 89 98 O
+of 65 67 99 101 O
+GLUT1 68 73 102 107 B-chronic_disease
+deficiency 74 84 108 118 I-chronic_disease
+
+Concomitant 0 11 119 130 O
+administration 12 26 131 145 O
+of 27 29 146 148 O
+valproic 30 38 149 157 B-treatment
+acid 39 43 158 162 I-treatment
+
+Females 0 7 163 170 B-gender
+of 8 10 171 173 O
+childbearing 11 23 174 186 O
+potential 24 33 187 196 O
+must 34 38 197 201 O
+have 39 43 202 206 O
+a 44 45 207 208 O
+negative 46 54 209 217 B-pregnancy
+pregnancy 55 64 218 227 I-pregnancy
+test 65 69 228 232 O
+at 70 72 233 235 O
+Screening 73 82 236 245 O
+and 83 86 246 249 O
+be 87 89 250 252 O
+willing 90 97 253 260 O
+to 98 100 261 263 O
+have 101 105 264 268 O
+additional 106 116 269 279 O
+pregnancy 117 126 280 289 O
+tests 127 132 290 295 O
+during 133 139 296 302 O
+the 140 143 303 306 O
+study 144 149 307 312 O
+
+History 0 7 313 320 O
+of 8 10 321 323 O
+or 11 13 324 326 O
+current 14 21 327 334 O
+suicidal 22 30 335 343 B-chronic_disease
+ideation 31 39 344 352 I-chronic_disease
+, 39 40 352 353 I-chronic_disease
+behavior 41 49 354 362 I-chronic_disease
+and 50 53 363 366 I-chronic_disease
+attempts 54 62 367 375 I-chronic_disease
+
+Males 0 5 376 381 B-gender
+
+Patients 0 8 382 390 O
+are 9 12 391 394 O
+able 13 17 395 399 O
+to 18 20 400 402 O
+tolerate 21 29 403 411 O
+triheptanoin 30 42 412 424 B-treatment
+if 43 45 425 427 O
+they 46 50 428 432 O
+have 51 55 433 437 O
+been 56 60 438 442 O
+( 61 62 443 444 O
+or 62 64 444 446 O
+are 65 68 447 450 O
+currently 69 78 451 460 O
+being 79 84 461 466 O
+) 84 85 466 467 O
+treated 86 93 468 475 O
+with 94 98 476 480 O
+this 99 103 481 485 O
+medication 104 114 486 496 O
+
+Patients 0 8 497 505 O
+with 9 13 506 510 O
+GLUT1 14 19 511 516 B-chronic_disease
+DS 20 22 517 519 I-chronic_disease
+by 23 25 520 522 O
+physician 26 35 523 532 O
+diagnosis 36 45 533 542 O
+
+Pregnant 0 8 543 551 B-pregnancy
+
+Sexually 0 8 552 560 O
+active 9 15 561 567 O
+subjects 16 24 568 576 O
+must 25 29 577 581 O
+be 30 32 582 584 O
+willing 33 40 585 592 B-contraception_consent
+to 41 43 593 595 I-contraception_consent
+use 44 47 596 599 I-contraception_consent
+an 48 50 600 602 I-contraception_consent
+acceptable 51 61 603 613 I-contraception_consent
+method 62 68 614 620 I-contraception_consent
+of 69 71 621 623 I-contraception_consent
+contraception 72 85 624 637 I-contraception_consent
+while 86 91 638 643 O
+participating 92 105 644 657 O
+in 106 108 658 660 O
+the 109 112 661 664 O
+study 113 118 665 670 O
+
+aged 0 4 671 675 B-age
+1 5 6 676 677 B-lower_bound
+to 7 9 678 680 O
+50 10 12 681 683 B-upper_bound
+years 13 18 684 689 I-upper_bound
+
+females 0 7 690 697 B-gender
+

@@ -1,0 +1,159 @@
+Already 0 7 0 7 O
+had 8 11 8 11 O
+a 12 13 12 13 O
+CRT 14 17 14 17 B-treatment
+device 18 24 18 24 I-treatment
+implanted 25 34 25 34 I-treatment
+
+Atrial 0 6 35 41 B-chronic_disease
+Fibrillation 7 19 42 54 I-chronic_disease
+
+Cerebrovascular 0 15 55 70 B-chronic_disease
+Accident 16 24 71 79 I-chronic_disease
+( 25 26 80 81 I-chronic_disease
+CVA 26 29 81 84 I-chronic_disease
+) 29 30 84 85 I-chronic_disease
+or 31 33 86 88 O
+Transient 34 43 89 98 B-chronic_disease
+Ischemic 44 52 99 107 I-chronic_disease
+Attack 53 59 108 114 I-chronic_disease
+( 60 61 115 116 I-chronic_disease
+TIA 61 64 116 119 I-chronic_disease
+) 64 65 119 120 I-chronic_disease
+in 66 68 121 123 O
+the 69 72 124 127 O
+3 73 74 128 129 B-upper_bound
+months 75 81 130 136 I-upper_bound
+prior 82 87 137 142 I-upper_bound
+the 88 91 143 146 O
+enrollmen 92 101 147 156 O
+
+Classification 0 14 157 171 O
+of 15 17 172 174 O
+Status 18 24 175 181 O
+1 25 26 182 183 O
+for 27 30 184 187 O
+cardiac 31 38 188 195 B-treatment
+transplantation 39 54 196 211 I-treatment
+or 55 57 212 214 O
+consideration 58 71 215 228 O
+for 72 75 229 232 O
+transplantation 76 91 233 248 O
+over 92 96 249 253 O
+the 97 100 254 257 O
+next 101 105 258 262 B-lower_bound
+12 106 108 263 265 I-lower_bound
+months 109 115 266 272 I-lower_bound
+
+History 0 7 273 280 O
+or 8 10 281 283 O
+incidence 11 20 284 293 O
+of 21 23 294 296 O
+Paroxysmal 24 34 297 307 B-chronic_disease
+or 35 37 308 310 O
+Persistent 38 48 311 321 B-chronic_disease
+AF 49 51 322 324 I-chronic_disease
+within 52 58 325 331 O
+30 59 61 332 334 B-upper_bound
+days 62 66 335 339 I-upper_bound
+prior 67 72 340 345 I-upper_bound
+the 73 76 346 349 O
+enrollment 77 87 350 360 O
+
+Less 0 4 361 365 O
+than 5 9 366 370 O
+18 10 12 371 373 B-upper_bound
+years 13 18 374 379 I-upper_bound
+of 19 21 380 382 O
+age 22 25 383 386 B-age
+
+Life 0 4 387 391 B-clinical_variable
+expectancy 5 15 392 402 I-clinical_variable
+< 16 17 403 404 O
+12 18 20 405 407 B-upper_bound
+months 21 27 408 414 I-upper_bound
+
+Myocardial 0 10 415 425 B-chronic_disease
+Infarction 11 21 426 436 I-chronic_disease
+
+Permanent 0 9 437 446 O
+AF 10 12 447 449 B-chronic_disease
+not 13 16 450 453 O
+treated 17 24 454 461 O
+with 25 29 462 466 O
+AV 30 32 467 469 B-treatment
+node 33 37 470 474 I-treatment
+ablation 38 46 475 483 I-treatment
+within 47 53 484 490 O
+2 54 55 491 492 B-upper_bound
+weeks 56 61 493 498 I-upper_bound
+from 62 66 499 503 O
+the 67 70 504 507 O
+CRT 71 74 508 511 B-treatment
+implant 75 82 512 519 I-treatment
+
+Persistent 0 10 520 530 B-chronic_disease
+AF 11 13 531 533 I-chronic_disease
+at 14 16 534 536 O
+the 17 20 537 540 O
+time 21 25 541 545 O
+of 26 28 546 548 O
+enrollment 29 39 549 559 O
+
+Pregnant 0 8 560 568 B-pregnancy
+or 9 11 569 571 O
+are 12 15 572 575 O
+planning 16 24 576 584 B-pregnancy
+to 25 27 585 587 I-pregnancy
+become 28 34 588 594 I-pregnancy
+pregnant 35 43 595 603 I-pregnancy
+during 44 50 604 610 O
+the 51 54 611 614 O
+duration 55 63 615 623 O
+of 64 66 624 626 O
+the 67 70 627 630 O
+investigatio 71 83 631 643 O
+
+Primary 0 7 644 651 O
+valvular 8 16 652 660 B-chronic_disease
+disease 17 24 661 668 I-chronic_disease
+
+Recent 0 6 669 675 O
+cardiac 7 14 676 683 B-treatment
+revascularization 15 32 684 701 I-treatment
+( 33 34 702 703 O
+PTCA 34 38 703 707 B-treatment
+, 38 39 707 708 O
+Stent 40 45 709 714 B-treatment
+or 46 48 715 717 O
+CABG 49 53 718 722 B-treatment
+) 53 54 722 723 O
+in 55 57 724 726 O
+the 58 61 727 730 O
+4 62 63 731 732 B-upper_bound
+weeks 64 69 733 738 I-upper_bound
+prior 70 75 739 744 I-upper_bound
+to 76 78 745 747 O
+enrollment 79 89 748 758 O
+or 90 92 759 761 O
+planned 93 100 762 769 O
+for 101 104 770 773 O
+the 105 108 774 777 O
+3 109 110 778 779 B-upper_bound
+months 111 117 780 786 I-upper_bound
+following 118 127 787 796 O
+
+Undergone 0 9 797 806 O
+a 10 11 807 808 O
+cardiac 12 19 809 816 B-treatment
+transplantation 20 35 817 832 I-treatment
+
+unstable 0 8 833 841 B-chronic_disease
+angina 9 15 842 848 I-chronic_disease
+within 16 22 849 855 O
+40 23 25 856 858 B-upper_bound
+days 26 30 859 863 I-upper_bound
+prior 31 36 864 869 I-upper_bound
+the 37 40 870 873 O
+enrollment 41 51 874 884 O
+

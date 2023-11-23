@@ -1,0 +1,122 @@
+Chronic 0 7 0 7 O
+stage 8 13 8 13 O
+stroke 14 20 14 20 B-chronic_disease
+recovery 21 29 21 29 O
+( 30 31 30 31 O
+8 31 32 31 32 B-lower_bound
++ 32 33 32 33 I-lower_bound
+months 34 40 34 40 I-lower_bound
+post 41 45 41 45 O
+) 45 46 45 46 O
+
+STROKE 0 6 47 53 B-chronic_disease
+SURVIVORS 7 16 54 63 O
+
+a 0 1 64 65 O
+Fugl 2 6 66 70 B-clinical_variable
+- 6 7 70 71 I-clinical_variable
+Meyer 7 12 71 76 I-clinical_variable
+score 13 18 77 82 I-clinical_variable
+( 19 20 83 84 O
+between 20 27 84 91 O
+15 28 30 92 94 B-lower_bound
+- 30 31 94 95 O
+50 31 33 95 97 B-upper_bound
+) 33 34 97 98 O
+to 35 37 99 101 O
+evaluate 38 46 102 110 O
+arm 47 50 111 114 O
+motor 51 56 115 120 O
+impairment 57 67 121 131 O
+level 68 73 132 137 O
+
+age 0 3 138 141 B-age
+> 4 5 142 143 O
+18 5 7 143 145 B-lower_bound
+
+aphasia 0 7 146 153 B-chronic_disease
+, 7 8 153 154 O
+cognitive 9 18 155 164 B-chronic_disease
+impairment 19 29 165 175 I-chronic_disease
+or 30 32 176 178 O
+affective 33 42 179 188 O
+dysfunction 43 54 189 200 O
+that 55 59 201 205 O
+would 60 65 206 211 O
+influence 66 75 212 221 O
+the 76 79 222 225 O
+ability 80 87 226 233 O
+to 88 90 234 236 O
+perform 91 98 237 244 O
+the 99 102 245 248 O
+experiment 103 113 249 259 O
+
+bilateral 0 9 260 269 B-chronic_disease
+paresis 10 17 270 277 I-chronic_disease
+
+diffuse 0 7 278 285 O
+/ 7 8 285 286 O
+multiple 8 16 286 294 O
+lesion 17 23 295 301 O
+sites 24 29 302 307 O
+or 30 32 308 310 O
+multiple 33 41 311 319 B-chronic_disease
+stroke 42 48 320 326 I-chronic_disease
+events 49 55 327 333 O
+
+healthy 0 7 334 341 O
+individuals 8 19 342 353 O
+with 20 24 354 358 O
+no 25 27 359 361 O
+history 28 35 362 369 O
+of 36 38 370 372 O
+stroke 39 45 373 379 B-chronic_disease
+or 46 48 380 382 O
+neural 49 55 383 389 O
+injury 56 62 390 396 O
+
+hemispatial 0 11 397 408 B-chronic_disease
+neglect 12 19 409 416 I-chronic_disease
+or 20 22 417 419 O
+visual 23 29 420 426 B-chronic_disease
+field 30 35 427 432 I-chronic_disease
+cut 36 39 433 436 I-chronic_disease
+that 40 44 437 441 O
+would 45 50 442 447 O
+prevent 51 58 448 455 O
+subjects 59 67 456 464 O
+from 68 72 465 469 O
+seeing 73 79 470 476 O
+the 80 83 477 480 O
+targets 84 91 481 488 O
+
+severe 0 6 489 495 O
+sensory 7 14 496 503 B-chronic_disease
+deficits 15 23 504 512 I-chronic_disease
+in 24 26 513 515 I-chronic_disease
+the 27 30 516 519 I-chronic_disease
+limb 31 35 520 524 I-chronic_disease
+
+severe 0 6 525 531 O
+spasticity 7 17 532 542 B-chronic_disease
+( 18 19 543 544 O
+Modified 19 27 544 552 B-clinical_variable
+Ashworth 28 36 553 561 I-clinical_variable
+of 37 39 562 564 O
+4 40 41 565 566 O
+) 41 42 566 567 O
+preventing 43 53 568 578 O
+movement 54 62 579 587 O
+
+strokes 0 7 588 595 B-chronic_disease
+caused 8 14 596 602 O
+by 15 17 603 605 O
+an 18 20 606 608 O
+ischemic 21 29 609 617 B-chronic_disease
+infarct 30 37 618 625 I-chronic_disease
+in 38 40 626 628 O
+the 41 44 629 632 O
+middle 45 51 633 639 O
+cerebral 52 60 640 648 O
+artery 61 67 649 655 O
+

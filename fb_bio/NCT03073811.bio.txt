@@ -1,0 +1,36 @@
+Cognitive 0 9 0 9 B-chronic_disease
+impairment 10 20 10 20 I-chronic_disease
+
+Elective 0 8 21 29 B-treatment
+abdominal 9 18 30 39 I-treatment
+surgery 19 26 40 47 I-treatment
+
+No 0 2 48 50 B-technology_access
+access 3 9 51 57 I-technology_access
+to 10 12 58 60 I-technology_access
+telephone 13 22 61 70 I-technology_access
+
+Unwillingness 0 13 71 84 O
+to 14 16 85 87 O
+be 17 19 88 90 O
+randomized 20 30 91 101 O
+to 31 33 102 104 O
+either 34 40 105 111 O
+intervention 41 53 112 124 O
+arm 54 57 125 128 O
+, 57 58 128 129 O
+submit 59 65 130 136 O
+to 66 68 137 139 O
+study 69 74 140 145 O
+testing 75 82 146 153 O
+, 82 83 153 154 O
+or 84 86 155 157 O
+continuously 87 99 158 170 O
+participate 100 111 171 182 O
+in 112 114 183 185 O
+the 115 118 186 189 O
+intervention 119 131 190 202 O
+for 132 135 203 206 O
+six 136 139 207 210 B-upper_bound
+weeks 140 145 211 216 I-upper_bound
+

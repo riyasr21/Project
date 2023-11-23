@@ -1,0 +1,49 @@
+Chronic 0 7 0 7 B-chronic_disease
+medical 8 15 8 15 I-chronic_disease
+condition 16 25 16 25 I-chronic_disease
+( 26 27 26 27 O
+e.g. 27 31 27 31 O
+self 32 36 32 36 O
+reported 37 45 37 45 O
+hypertension 46 58 46 58 B-chronic_disease
+, 58 59 58 59 O
+or 60 62 60 62 O
+diabetes 63 71 63 71 B-chronic_disease
+, 71 72 71 72 O
+or 73 75 73 75 O
+chronic 76 83 76 83 B-chronic_disease
+obstructive 84 95 84 95 I-chronic_disease
+pulmonary 96 105 96 105 I-chronic_disease
+disease 106 113 106 113 I-chronic_disease
+or 114 116 114 116 O
+heart 117 122 117 122 B-chronic_disease
+disease 123 130 123 130 I-chronic_disease
+) 130 131 130 131 O
+
+Greater 0 7 132 139 O
+than 8 12 140 144 O
+moderate 13 21 145 153 B-chronic_disease
+valvular 22 30 154 162 I-chronic_disease
+disease 31 38 163 170 I-chronic_disease
+or 39 41 171 173 O
+congenital 42 52 174 184 B-chronic_disease
+heart 53 58 185 190 I-chronic_disease
+disease 59 66 191 198 I-chronic_disease
+
+Left 0 4 199 203 B-clinical_variable
+ventricular 5 16 204 215 I-clinical_variable
+ejection 17 25 216 224 I-clinical_variable
+fraction 26 34 225 233 I-clinical_variable
+≥50 35 38 234 237 O
+% 38 39 237 238 I-lower_bound
+
+matched 0 7 239 246 O
+to 8 10 247 249 O
+the 11 14 250 253 O
+age 15 18 254 257 B-age
+and 19 22 258 261 O
+sex 23 26 262 265 O
+of 27 29 266 268 O
+HFpEF 30 35 269 274 O
+patients 36 44 275 283 O
+

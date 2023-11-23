@@ -1,0 +1,75 @@
+Anticoagulant 0 13 0 13 B-treatment
+usage 14 19 14 19 O
+such 20 24 20 24 O
+as 25 27 25 27 O
+heparin 28 35 28 35 B-treatment
+or 36 38 36 38 O
+Plavix 39 45 39 45 B-treatment
+
+Arrhythmia 0 10 46 56 B-chronic_disease
+
+Known 0 5 57 62 O
+or 6 8 63 65 O
+suspected 9 18 66 75 O
+Zenker 19 25 76 82 B-chronic_disease
+'s 25 27 82 84 I-chronic_disease
+diverticulum 28 40 85 97 I-chronic_disease
+of 41 43 98 100 O
+esophagus 44 53 101 110 O
+, 53 54 110 111 O
+esophageal 55 65 112 122 B-chronic_disease
+stricture 66 75 123 132 I-chronic_disease
+, 75 76 132 133 O
+head 77 81 134 138 B-treatment
+/ 81 82 138 139 I-treatment
+neck 82 86 139 143 I-treatment
+radiation 87 96 144 153 I-treatment
+therapy 97 104 154 161 I-treatment
+, 104 105 161 162 O
+hereditary 106 116 163 173 B-chronic_disease
+telangiectasis 117 131 174 188 I-chronic_disease
+, 131 132 188 189 O
+esophageal 133 143 190 200 B-chronic_disease
+varices 144 151 201 208 I-chronic_disease
+, 151 152 208 209 O
+cirrhosis 153 162 210 219 B-chronic_disease
+
+Pregnant 0 8 220 228 B-pregnancy
+
+Prior 0 5 229 234 O
+known 6 11 235 240 O
+or 12 14 241 243 O
+suspected 15 24 244 253 O
+nasal 25 30 254 259 B-chronic_disease
+obstruction 31 42 260 271 I-chronic_disease
+
+Serum 0 5 272 277 B-clinical_variable
+creatinine 6 16 278 288 I-clinical_variable
+> 17 18 289 290 O
+2 19 20 291 292 B-lower_bound
+mg 21 23 293 295 I-lower_bound
+/ 23 24 295 296 I-lower_bound
+dl 24 26 296 298 I-lower_bound
+
+White 0 5 299 304 B-clinical_variable
+Blood 6 11 305 310 I-clinical_variable
+Cell 12 16 311 315 I-clinical_variable
+count 17 22 316 321 I-clinical_variable
+< 23 24 322 323 O
+5,000 25 30 324 329 B-upper_bound
+/ 30 31 329 330 I-upper_bound
+mm3 31 34 330 333 I-upper_bound
+
+Willing 0 7 334 341 O
+and 8 11 342 345 O
+able 12 16 346 350 O
+to 17 19 351 353 O
+give 20 24 354 358 O
+informed 25 33 359 367 O
+consent 34 41 368 375 O
+in 42 44 376 378 O
+either 45 51 379 385 O
+English 52 59 386 393 B-language_fluency
+or 60 62 394 396 O
+Spanish 63 70 397 404 B-language_fluency
+

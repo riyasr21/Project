@@ -1,0 +1,10 @@
+Individuals 0 11 0 11 O
+with 12 16 12 16 O
+a 17 18 17 18 O
+documented 19 29 19 29 O
+reaction 30 38 30 38 O
+/ 38 39 38 39 O
+allergy 39 46 39 46 O
+to 47 49 47 49 O
+Pregnenolone 50 62 50 62 B-allergy_name
+

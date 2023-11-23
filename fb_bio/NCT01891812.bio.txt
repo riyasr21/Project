@@ -1,0 +1,68 @@
+Ages 0 4 0 4 B-age
+8 5 6 5 6 B-lower_bound
+to 7 9 7 9 O
+18 10 12 10 12 B-upper_bound
+, 12 13 12 13 O
+inclusive 14 23 14 23 O
+
+Patients 0 8 24 32 O
+with 9 13 33 37 O
+sickle 14 20 38 44 B-chronic_disease
+cell 21 25 45 49 I-chronic_disease
+disease 26 33 50 57 I-chronic_disease
+
+Present 0 7 58 65 O
+to 8 10 66 68 O
+the 11 14 69 72 O
+pediatric 15 24 73 82 O
+emergency 25 34 83 92 O
+department 35 45 93 103 O
+with 46 50 104 108 O
+VOC 51 54 109 112 O
+and 55 58 113 116 O
+whose 59 64 117 122 O
+pain 65 69 123 127 B-clinical_variable
+scores 70 76 128 134 I-clinical_variable
+remain 77 83 135 141 O
+greater 84 91 142 149 O
+than 92 96 150 154 O
+or 97 99 155 157 O
+equal 100 105 158 163 O
+to 106 108 164 166 O
+7/10 109 113 167 171 B-lower_bound
+on 114 116 172 174 O
+the 117 120 175 178 O
+NRS 121 124 179 182 O
+after 125 130 183 188 O
+initial 131 138 189 196 B-treatment
+standard 139 147 197 205 I-treatment
+treatment 148 157 206 215 I-treatment
+( 158 159 216 217 O
+i.e. 159 163 217 221 O
+IV 164 166 222 224 B-treatment
+fluids 167 173 225 231 I-treatment
+, 173 174 231 232 O
+morphine 175 183 233 241 B-treatment
+and 184 187 242 245 O
+NSAIDs 188 194 246 252 B-treatment
+) 194 195 252 253 O
+
+any 0 3 254 257 O
+contraindications 4 21 258 275 O
+to 22 24 276 278 O
+receiving 25 34 279 288 O
+N2O 35 38 289 292 B-treatment
+
+developmental 0 13 293 306 B-chronic_disease
+delay 14 19 307 312 I-chronic_disease
+
+life 0 4 313 317 B-chronic_disease
+- 4 5 317 318 I-chronic_disease
+threatening 5 16 318 329 I-chronic_disease
+illness 17 24 330 337 I-chronic_disease
+as 25 27 338 340 O
+determined 28 38 341 351 O
+by 39 41 352 354 O
+attending 42 51 355 364 O
+clinician 52 61 365 374 O
+

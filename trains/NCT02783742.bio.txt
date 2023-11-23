@@ -1,0 +1,9 @@
+Younger 0 7 0 7 O
+than 8 12 8 12 O
+18 13 15 13 15 B-upper_bound
+
+non 0 3 16 19 B-language_fluency
+- 3 4 19 20 I-language_fluency
+English 4 11 20 27 I-language_fluency
+speaking 12 20 28 36 I-language_fluency
+

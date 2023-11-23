@@ -1,0 +1,54 @@
+BMI 0 3 0 3 B-bmi
+18.5 4 8 4 8 B-lower_bound
+- 8 9 8 9 O
+24.9kg 9 15 9 15 B-upper_bound
+/ 15 16 15 16 I-upper_bound
+m2 16 18 16 18 I-upper_bound
+
+allergy 0 7 19 26 O
+to 8 10 27 29 O
+lidocaine 11 20 30 39 B-allergy_name
+or 21 23 40 42 O
+drug 24 28 43 47 B-allergy_name
+excipients 29 39 48 58 I-allergy_name
+
+currently 0 9 59 68 B-pregnancy
+pregnant 10 18 69 77 I-pregnancy
+
+history 0 7 78 85 O
+of 8 10 86 88 O
+difficulty 11 21 89 99 O
+with 22 26 100 104 O
+intravenous 27 38 105 116 B-treatment
+line 39 43 117 121 I-treatment
+placement 44 53 122 131 I-treatment
+
+minimal 0 7 132 139 O
+alcohol 8 15 140 147 B-clinical_variable
+intake 16 22 148 154 I-clinical_variable
+( 23 24 155 156 O
+< 24 25 156 157 O
+1 25 26 157 158 B-upper_bound
+drink 27 32 159 164 I-upper_bound
+per 33 36 165 168 I-upper_bound
+day 37 40 169 172 I-upper_bound
+) 40 41 172 173 O
+
+personal 0 8 174 182 O
+or 9 11 183 185 O
+family 12 18 186 192 O
+history 19 26 193 200 O
+of 27 29 201 203 O
+cardiac 30 37 204 211 B-chronic_disease
+arrhythmias 38 49 212 223 I-chronic_disease
+or 50 52 224 226 O
+seizures 53 61 227 235 B-chronic_disease
+
+unwilling 0 9 236 245 B-contraception_consent
+to 10 12 246 248 I-contraception_consent
+take 13 17 249 253 I-contraception_consent
+acceptable 18 28 254 264 I-contraception_consent
+birth 29 34 265 270 I-contraception_consent
+control 35 42 271 278 I-contraception_consent
+method 43 49 279 285 I-contraception_consent
+

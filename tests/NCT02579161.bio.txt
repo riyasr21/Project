@@ -1,0 +1,63 @@
+Foley 0 5 0 5 B-clinical_variable
+catheter 6 14 6 14 I-clinical_variable
+in 15 17 15 17 O
+place 18 23 18 23 O
+for 24 27 24 27 O
+greater 28 35 28 35 O
+than 36 40 36 40 O
+1 41 42 41 42 B-lower_bound
+week 43 47 43 47 I-lower_bound
+duration 48 56 48 56 O
+
+Patients 0 8 57 65 O
+< 9 10 66 67 O
+18 10 12 67 69 B-lower_bound
+years 13 18 70 75 I-lower_bound
+old 19 22 76 79 O
+
+Patients 0 8 80 88 O
+> 9 10 89 90 O
+18 10 12 90 92 B-lower_bound
+years 13 18 93 98 I-lower_bound
+old 19 22 99 102 O
+
+Patients 0 8 103 111 O
+currently 9 18 112 121 O
+on 19 21 122 124 O
+antibiotics 22 33 125 136 B-treatment
+immediately 34 45 137 148 O
+prior 46 51 149 154 O
+to 52 54 155 157 O
+the 55 58 158 161 O
+procedure 59 68 162 171 O
+
+Previous 0 8 172 180 O
+history 9 16 181 188 O
+of 17 19 189 191 O
+sepsis 20 26 192 198 B-chronic_disease
+or 27 29 199 201 O
+SIRS 30 34 202 206 B-chronic_disease
+from 35 39 207 211 O
+stone 40 45 212 217 O
+manipulations 46 59 218 231 O
+
+Renal 0 5 232 237 B-chronic_disease
+Calculi 6 13 238 245 I-chronic_disease
+which 14 19 246 251 O
+would 20 25 252 257 O
+optimally 26 35 258 267 O
+require 36 43 268 275 O
+PCNL 44 48 276 280 B-treatment
+for 49 52 281 284 O
+treatment 53 62 285 294 B-treatment
+
+egative 0 7 295 302 B-clinical_variable
+urine 8 13 303 308 I-clinical_variable
+culture 14 21 309 316 I-clinical_variable
+within 22 28 317 323 O
+1 29 30 324 325 B-upper_bound
+month 31 36 326 331 I-upper_bound
+prior 37 42 332 337 I-upper_bound
+to 43 45 338 340 O
+procedure 46 55 341 350 O
+

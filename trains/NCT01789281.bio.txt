@@ -1,0 +1,32 @@
+Patient 0 7 0 7 O
+is 8 10 8 10 O
+currently 11 20 11 20 O
+benefiting 21 31 21 31 O
+from 32 36 32 36 O
+treatment 37 46 37 46 O
+with 47 51 47 51 O
+everolimus 52 62 52 62 B-treatment
+, 62 63 62 63 O
+as 64 66 64 66 O
+determined 67 77 67 77 O
+by 78 80 78 80 O
+the 81 84 81 84 O
+guidelines 85 95 85 95 O
+of 96 98 96 98 O
+the 99 102 99 102 O
+parent 103 109 103 109 O
+protocol 110 118 110 118 O
+
+Patient 0 7 119 126 O
+is 8 10 127 129 O
+receiving 11 20 130 139 O
+everolimus 21 31 140 150 B-treatment
+in 32 34 151 153 O
+combination 35 46 154 165 O
+with 47 51 166 170 O
+an 52 54 171 173 O
+unapproved 55 65 174 184 O
+or 66 68 185 187 O
+experimental 69 81 188 200 B-treatment
+treatment 82 91 201 210 I-treatment
+

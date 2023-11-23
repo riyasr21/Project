@@ -1,0 +1,29 @@
+Suicidal 0 8 0 8 B-clinical_variable
+Ideation 9 17 9 17 I-clinical_variable
+Questionnaire 18 31 18 31 I-clinical_variable
+clinical 32 40 32 40 I-clinical_variable
+cut 41 44 41 44 I-clinical_variable
+- 44 45 44 45 I-clinical_variable
+off 45 48 45 48 I-clinical_variable
+score 49 54 49 54 I-clinical_variable
+≥ 55 56 55 56 O
+32 57 59 57 59 B-lower_bound
+
+be 0 2 60 62 O
+suicidal 3 11 63 71 B-chronic_disease
+
+self 0 4 72 76 O
+- 4 5 76 77 O
+identify 5 13 77 85 O
+as 14 16 86 88 O
+American 17 25 89 97 B-ethnicity
+Indian 26 32 98 104 I-ethnicity
+or 33 35 105 107 O
+Alaska 36 42 108 114 B-ethnicity
+Native 43 49 115 121 I-ethnicity
+
+speak 0 5 122 127 B-language_fluency
+and 6 9 128 131 I-language_fluency
+read 10 14 132 136 I-language_fluency
+English 15 22 137 144 I-language_fluency
+

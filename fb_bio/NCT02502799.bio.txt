@@ -1,0 +1,73 @@
+Current 0 7 0 7 O
+substance 8 17 8 17 B-chronic_disease
+use 18 21 18 21 I-chronic_disease
+disorder 22 30 22 30 I-chronic_disease
+meeting 31 38 31 38 O
+DSM 39 42 39 42 O
+- 42 43 42 43 O
+IV 43 45 43 45 O
+criteria 46 54 46 54 O
+for 55 58 55 58 O
+the 59 62 59 62 O
+severe 63 69 63 69 O
+qualifier 70 79 70 79 O
+
+Diagnosis 0 9 80 89 O
+of 10 12 90 92 O
+ADHD 13 17 93 97 B-chronic_disease
+
+Diagnosis 0 9 98 107 O
+of 10 12 108 110 O
+autism 13 19 111 117 B-chronic_disease
+spectrum 20 28 118 126 I-chronic_disease
+disorder 29 37 127 135 I-chronic_disease
+( 38 39 136 137 I-chronic_disease
+ASD 39 42 137 140 I-chronic_disease
+) 42 43 140 141 I-chronic_disease
+with 44 48 142 146 O
+a 49 50 147 148 O
+severity 51 59 149 157 B-clinical_variable
+level 60 65 158 163 I-clinical_variable
+of 66 68 164 166 O
+2 69 70 167 168 B-lower_bound
+or 71 73 169 171 O
+3 74 75 172 173 B-upper_bound
+
+Diagnosis 0 9 174 183 O
+of 10 12 184 186 O
+bipolar 13 20 187 194 B-chronic_disease
+disorder 21 29 195 203 I-chronic_disease
+, 29 30 203 204 O
+schizophrenia 31 44 205 218 B-chronic_disease
+, 44 45 218 219 O
+and/or 46 52 220 226 O
+other 53 58 227 232 O
+psychotic 59 68 233 242 B-chronic_disease
+disorder 69 77 243 251 I-chronic_disease
+
+IQ 0 2 252 254 B-clinical_variable
+< 3 4 255 256 O
+80 5 7 257 259 B-upper_bound
+
+Psychotropic 0 12 260 272 B-treatment
+medications 13 24 273 284 I-treatment
+for 25 28 285 288 O
+ADHD 29 33 289 293 B-chronic_disease
+or 34 36 294 296 O
+any 37 40 297 300 O
+other 41 46 301 306 O
+condition 47 56 307 316 O
+
+elevated 0 8 317 325 O
+symptoms 9 17 326 334 O
+of 18 20 335 337 O
+ODD 21 24 338 341 B-chronic_disease
+or 25 27 342 344 O
+CD 28 30 345 347 B-chronic_disease
+
+significant 0 11 348 359 O
+intellectual 12 24 360 372 B-chronic_disease
+or 25 27 373 375 O
+language 28 36 376 384 B-chronic_disease
+impairment 37 47 385 395 I-chronic_disease
+

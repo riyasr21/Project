@@ -1,0 +1,27 @@
+Active 0 6 0 6 O
+immunosuppression 7 24 7 24 B-treatment
+for 25 28 25 28 O
+at 29 31 29 31 O
+least 32 37 32 37 O
+5 38 39 38 39 B-lower_bound
+years 40 45 40 45 I-lower_bound
+
+History 0 7 46 53 O
+of 8 10 54 56 O
+at 11 13 57 59 O
+least 14 19 60 65 O
+one 20 23 66 69 B-lower_bound
+NMSC 24 28 70 74 B-cancer
+
+The 0 3 75 78 O
+patient 4 11 79 86 O
+has 12 15 87 90 O
+been 16 20 91 95 O
+the 21 24 96 99 O
+recipient 25 34 100 109 O
+of 35 37 110 112 O
+any 38 41 113 116 O
+solid 42 47 117 122 B-treatment
+organ 48 53 123 128 I-treatment
+transplant 54 64 129 139 I-treatment
+

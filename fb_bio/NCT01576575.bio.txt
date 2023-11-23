@@ -1,0 +1,91 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+50 3 5 3 5 B-upper_bound
+yr 6 8 6 8 I-upper_bound
+old 9 12 9 12 O
+
+BMI 0 3 13 16 B-bmi
+between 4 11 17 24 O
+20 12 14 25 27 B-lower_bound
+- 14 15 27 28 O
+33 15 17 28 30 B-upper_bound
+
+Females 0 7 31 38 B-gender
+who 8 11 39 42 O
+are 12 15 43 46 B-pregnancy
+pregnant 16 24 47 55 I-pregnancy
+
+Good 0 4 56 60 O
+general 5 12 61 68 O
+health 13 19 69 75 O
+with 20 24 76 80 O
+no 25 27 81 83 O
+known 28 33 84 89 O
+major 34 39 90 95 B-chronic_disease
+medical 40 47 96 103 I-chronic_disease
+conditions 48 58 104 114 I-chronic_disease
+
+Known 0 5 115 120 O
+history 6 13 121 128 O
+of 14 16 129 131 O
+drug 17 21 132 136 O
+or 22 24 137 139 O
+alcohol 25 32 140 147 O
+addiction 33 42 148 157 O
+( 43 44 158 159 O
+prior 44 49 159 164 O
+or 50 52 165 167 O
+present 53 60 168 175 O
+addiction 61 70 176 185 O
+or 71 73 186 188 O
+addiction 74 83 189 198 B-treatment
+treatment 84 93 199 208 I-treatment
+) 93 94 208 209 O
+
+Known 0 5 210 215 O
+history 6 13 216 223 O
+of 14 16 224 226 O
+liver 17 22 227 232 B-chronic_disease
+or 23 25 233 235 O
+kidney 26 32 236 242 B-chronic_disease
+disease 33 40 243 250 I-chronic_disease
+
+Male 0 4 251 255 B-gender
+
+Use 0 3 256 259 O
+of 4 6 260 262 O
+prescription 7 19 263 275 B-treatment
+or 20 22 276 278 I-treatment
+non 23 26 279 282 I-treatment
+- 26 27 282 283 I-treatment
+prescription 27 39 283 295 I-treatment
+medications 40 51 296 307 I-treatment
+, 51 52 307 308 O
+herbals 53 60 309 316 B-treatment
+or 61 63 317 319 O
+foods 64 69 320 325 B-treatment
+known 70 75 326 331 O
+to 76 78 332 334 O
+be 79 81 335 337 O
+metabolized 82 93 338 349 O
+by 94 96 350 352 O
+or 97 99 353 355 O
+affect 100 106 356 362 O
+CYP3A 107 112 363 368 O
+activity 113 121 369 377 O
+( 122 123 378 379 O
+this 123 127 379 383 O
+includes 128 136 384 392 O
+the 137 140 393 396 O
+use 141 144 397 400 O
+of 145 147 401 403 O
+oral 148 152 404 408 B-treatment
+contraceptives 153 167 409 423 I-treatment
+) 167 168 423 424 O
+
+non 0 3 425 428 B-pregnancy
+- 3 4 428 429 I-pregnancy
+pregnant 4 12 429 437 I-pregnancy
+female 13 19 438 444 B-gender
+volunteer 20 29 445 454 I-gender
+

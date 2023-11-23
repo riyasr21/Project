@@ -1,0 +1,48 @@
+21 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+English 0 7 25 32 B-language_fluency
+speaking 8 16 33 41 I-language_fluency
+
+cognitive 0 9 42 51 B-chronic_disease
+impairments 10 21 52 63 I-chronic_disease
+
+confirmed 0 9 64 73 O
+diagnosis 10 19 74 83 O
+of 20 22 84 86 O
+type 23 27 87 91 B-chronic_disease
+2 28 29 92 93 I-chronic_disease
+diabetes 30 38 94 102 I-chronic_disease
+as 39 41 103 105 O
+documented 42 52 106 116 O
+in 53 55 117 119 O
+the 56 59 120 123 O
+electronic 60 70 124 134 O
+health 71 77 135 141 O
+record 78 84 142 148 O
+
+recent 0 6 149 155 O
+Hemoglobin 7 17 156 166 B-clinical_variable
+A1c 18 21 167 170 I-clinical_variable
+reading 22 29 171 178 O
+of 30 32 179 181 O
+> 33 34 182 183 O
+7.5 34 37 183 186 B-lower_bound
+% 37 38 186 187 I-lower_bound
+and 39 42 188 191 O
+less 43 47 192 196 O
+than 48 52 197 201 O
+or 53 55 202 204 O
+equal 56 61 205 210 O
+to 62 64 211 213 O
+10 65 67 214 216 B-upper_bound
+% 67 68 216 217 I-upper_bound
+
+uncorrectable 0 13 218 231 B-chronic_disease
+visual 14 20 232 238 I-chronic_disease
+impairments 21 32 239 250 I-chronic_disease
+

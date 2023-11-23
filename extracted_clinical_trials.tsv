@@ -1,0 +1,255 @@
+#nct_id	eligibility_type	criterion
+NCT04346355	inclusion	age > 18 years
+NCT04346355	inclusion	Informed consent for participation in the study
+NCT04346355	inclusion	Real time polymerase chain reaction (PCR) diagnosis of Sars-CoV2 infection
+NCT04346355	inclusion	Hospitalization due to clinical / instrumental diagnosis (high resolution chest CT scan or chest x-ray or pulmonary ultrasound)
+NCT04346355	inclusion	Presence of acute respiratory distress syndrome with arterial partial pressure of oxygen / fraction of inspired oxygen (PaO2 / FiO2) between 200 and 300 mm/Hg
+NCT04346355	inclusion	Presence of exaggerated inflammatory response defined by the presence of at least 1 of the following criteria: At least one body temperature measurement >38° C in the past two days
+NCT04346355	inclusion	Presence of exaggerated inflammatory response defined by the presence of at least 1 of the following criteria: Serum CRP greater than or equal to 10 mg/dl
+NCT04346355	inclusion	Presence of exaggerated inflammatory response defined by the presence of at least 1 of the following criteria: CRP increase of at least twice the basal value
+NCT04346355	exclusion	Patients with respiratory distress syndrome with arterial partial pressure of oxygen / fraction of inspired oxygen (PaO2 / FiO2) <200 mm/Hg or
+NCT04346355	exclusion	Patients in non-invasive ventilation or
+NCT04346355	exclusion	Patients in invasive ventilation or presence of shock or presence of concomitant organ failure that requires admission to the Intensive Care Unit
+NCT04346355	exclusion	Severe heart and kidney failure
+NCT04346355	exclusion	Pregnant or breastfeeding patient
+NCT04346355	exclusion	Patient who, in the opinion of the clinician or by the patient's express will, will not go to intensive care regardless of the evolution of the lung picture
+NCT04346355	exclusion	Known hypersensitivity to TCZ or its excipients
+NCT04346355	exclusion	Patient being treated with immuno-depressors or anti-rejection drugs
+NCT04346355	exclusion	Known active infections or other clinical conditions that contraindicate TCZ and cannot be treated or resolved according to the physician's judgment
+NCT04346355	exclusion	glutamate-pyruvate transaminase (GPT) or glutamine oxaloacetic transaminase (GOT) > 5 times the upper limit of the norm
+NCT04346355	exclusion	Neutrophils <500 /mmc
+NCT04346355	exclusion	Platelets <50.000 /mmc
+NCT04346355	exclusion	Diverticulitis or intestinal perforation
+NCT04346355	exclusion	Suspicion of latent tuberculosis
+NCT04344951	inclusion	Age 18 or older
+NCT04344951	inclusion	Both genders
+NCT04344951	inclusion	For women of childbearing age, they should use or be willing to use a double contraceptive method during the study. A urine pregnancy test to exclude pregnancy will be performed prior to study initiation
+NCT04344951	inclusion	Written consent after information provided by the patient or the legal representative in the event that the patient cannot consent
+NCT04344951	inclusion	Upper respiratory or lower respiratory tract infection, as in Annexes II and III respectively
+NCT04344951	inclusion	Positive respiratory secretion test for SARS-CoV-2 virus by molecular techniques or positive blood IgM titers
+NCT04344951	exclusion	Under 18 years of age
+NCT04344951	exclusion	Denial of written consent
+NCT04344951	exclusion	Any patient case where it has been decided not to rejuvenate
+NCT04344951	exclusion	Serum AST values greater than 5 times the upper normal range
+NCT04344951	exclusion	QTc interval in rest electrocardiogram greater than 500msecs
+NCT04344951	exclusion	Pregnancy or lactation. Urgent pregnancy test to exclude pregnancy before inclusion in the study
+NCT04344444	inclusion	Age greater than 18 years
+NCT04344444	inclusion	Positive SARS-CoV-2 testing or consistent clinical syndrome (based on clinical picture e.g. characteristic infiltrates on chest x-ray, laboratory findings, and with agreement by two physicians) in patients under investigation (PUIs)
+NCT04344444	inclusion	Onset of symptoms < 7 days from date of enrollment
+NCT04344444	inclusion	Oxygen saturation of >94% on room air with defined risk factors (Table 1) consistent with moderate disease OR oxygen saturation of < 94% on room air consistent with severe disease
+NCT04344444	inclusion	Ability and willingness to comply with study procedures
+NCT04344444	exclusion	QTc greater than 450 milliseconds on screening EKG
+NCT04344444	exclusion	Pregnant or lactating women
+NCT04344444	exclusion	Inability to take oral pills or inability to use a feeding tube
+NCT04344444	exclusion	Inability to obtain informed consent either from the patient or from the next of kin if patient is incapacitated. For the purpose of this study obtaining a verbal consent from a family member on the phone with a witness will be considered acceptable since there is a 'no visitor' policy in force at hospitals
+NCT04344444	exclusion	Patients requiring ICU level care
+NCT04344444	exclusion	use of azithromycin or hydroxychloroquine within 30 days prior to admission
+NCT04344080	inclusion	confirmed COVID-19 disease
+NCT04344080	inclusion	refractory shock with need for norepinephrine ≥ 0.2 μg/kg/min for MAP ≥ 65 mmHg
+NCT04344080	inclusion	IL6 ≥ 500 ng/l
+NCT04344080	inclusion	Indication for CRRT or ECMO
+NCT04344080	exclusion	Liver cirrhosis Child Pugh C
+NCT04344080	exclusion	do not resuscitate"-order
+NCT04344080	exclusion	expected survival due to comorbidities < 14 days
+NCT04344080	exclusion	pregnancy or breastfeeding
+NCT04344080	exclusion	participation in another interventional trial
+NCT04344015	inclusion	Age 18 years and older
+NCT04344015	inclusion	Prior diagnosis of COVID-19 documented by a laboratory test approved by the FDA
+NCT04344015	inclusion	Either: Complete resolution of all COVID-related symptoms for 14-28 days at the time of blood donation AND negative repeated SARS-CoV-2 test OR Complete resolution of all COVID-related symptoms for > 28 days
+NCT04344015	inclusion	Male donors, never-pregnant female donors, or previously pregnant female donors negative for HLA antibodies
+NCT04344015	inclusion	Meet all criteria for volunteer blood donation per Jefferson Blood Donor Center and the FDA
+NCT04344015	exclusion	Failure to pass standard volunteer blood donor screening criteria required by the Jefferson Blood Donor Center and the FDA
+NCT04344015	exclusion	Female donors with HLA antibodies (per FDA requirements for convalescent plasma donors)
+NCT04344015	exclusion	Inadequate venous access for phlebotomy
+NCT04344015	exclusion	Currently pregnant
+NCT04343989	inclusion	In order to be eligible to participate in this study, the patients must meet all of the following criteria
+NCT04343989	inclusion	At least 18 years of age
+NCT04343989	inclusion	Confirmed COVID-19 disease (by Cobas SARS-CoV-2 real time RT-PCR using nasopharyngeal swab sample, or equivalent test available to be performed by the NYU Langone clinical laboratory). Effort will be made to have the confirmatory test result <72 hours prior to enrollment however given overall clinical demand this may not be feasible in all cases
+NCT04343989	inclusion	Respiratory failure manifesting as: Acute Respiratory Distress Syndrome (defined by a P/F ratio of <200), OR SpO2 < 90% on 4L (actual or expected given higher O2 requirement) OR increasing O2 requirements over 24 hours, PLUS 2 or more of the following predictors for severe disease
+NCT04343989	inclusion	CRP > 35 mg/L Ferritin > 500 ng/mL D-dimer > 1 mcg/L Neutrophil-Lymphocyte Ratio > 4 LDH > 200 U/L Increase in troponin in patient w/out known cardiac disease
+NCT04343989	inclusion	Has a consent designee willing to provide informed consent on behalf of the patient (this assumes that a mechanically ventilated patients lacks capacity to consent on his/her own behalf. Should it be deemed that the patient has capacity to consent, consent may be obtained from the patient.)
+NCT04343989	inclusion	Women of childbearing potential must be willing and able to use at least one highly effective contraceptive method for a period of 5 months following the study drug administration. In the context of this study, an effective method is defined as those which result in low failure rate (i.e. less than 1% per year) when used consistently and correctly such as
+NCT04343989	inclusion	combined (estrogen and progestogen containing) hormonal contraception combined (estrogen and progestogen containing) hormonal contraception (oral, intravaginal, or transdermal)
+NCT04343989	inclusion	progestogen-only hormonal contraception associated with inhibition of ovulation (oral, injectable, implantable)
+NCT04343989	inclusion	intrauterine device (IUD)
+NCT04343989	inclusion	intrauterine hormone-releasing system (IUS)
+NCT04343989	inclusion	vasectomized partner
+NCT04343989	inclusion	bilateral tubal occlusion
+NCT04343989	inclusion	true abstinence. when this is in line with the preferred and usual lifestyle of the subject. Periodic abstinence, such as calendar, ovulation, symptothermal, postovulation methods, and withdrawal are not acceptable methods of contraception
+NCT04343989	inclusion	Men must be willing to use a double-barrier contraception from enrollment until at 5 months after the last dose of study drug, if not abstinent
+NCT04343989	exclusion	An individual who meets any of the following criteria will be excluded from participation in this study
+NCT04343989	exclusion	Evidence of irreversible injury deemed non-survivable even if the pulmonary failure recovers (for example severe anoxic brain injury)
+NCT04343989	exclusion	Known active inflammatory bowel disease
+NCT04343989	exclusion	Known active, untreated diverticulitis
+NCT04343989	exclusion	Known untreated bacteremia
+NCT04343989	exclusion	Pregnancy. (The protocol will exclude pregnant subjects given the lack of overall data on use of clazakizumab in pregnancy however the study team would consider a protocol revision should more than 3 potential pregnant study subjects be excluded on this basis)
+NCT04343989	exclusion	Known hypersensitivity to the clazakizumab
+NCT04342182	inclusion	Patients with PCR confirmed COVID disease
+NCT04342182	inclusion	Written informed consent by patient or legal patient representative
+NCT04342182	inclusion	Age >18
+NCT04342182	inclusion	A history of COVID infection that was documented by PCR
+NCT04342182	inclusion	Known ABO-Resus(D) blood group
+NCT04342182	inclusion	A negative screening for irregular antibodies
+NCT04342182	inclusion	Asymptomatic for at least 24 hours
+NCT04342182	inclusion	Donors will be restricted to those who had a symptomatic COVID infection defined as documented fever 38.0 or higher C for at least 48 hours
+NCT04342182	inclusion	Written informed consent regarding the plasmapheresis procedure
+NCT04342182	exclusion	Patient in which a "no ICU admission" or "no invasive ventilation" restriction was implemented at the time of screening for the study
+NCT04342182	exclusion	Donors: Eligibility for plasma donation
+NCT04342182	exclusion	Age <18 years
+NCT04342182	exclusion	Weight <45kg
+NCT04342182	exclusion	Medical history of heart failure
+NCT04342182	exclusion	History of transfusion with red blood cells, platelets or plasma
+NCT04342182	exclusion	Born as a female person. The reason for this is a higher incidence of transfusion related acute lung injury (TRALI) after plasma transfusion from a female donor
+NCT04341389	inclusion	Aged between 18 and 60 years
+NCT04341389	inclusion	Able to understand the content of informed consent and willing to sign the informed consent
+NCT04341389	inclusion	Able and willing to complete all the secluded study process during the whole 6 months study follow-up period
+NCT04341389	inclusion	Negative in HIV diagnostic test
+NCT04341389	inclusion	Negative in serum antibodies (IgG and IgM) screening of COVID-19
+NCT04341389	inclusion	Axillary temperature ≤37.0°C
+NCT04341389	inclusion	The BMI index is 18.5-30.0
+NCT04341389	inclusion	General good health as established by medical history and physical examination
+NCT04341389	exclusion	Family history of seizure, epilepsy, brain or mental disease
+NCT04341389	exclusion	Subject allergic to any component of the investigational vaccine, or a more severe allergic reaction and history of allergies in the past
+NCT04341389	exclusion	Woman who is pregnant, breast-feeding or positive in β-HCG (human chorionic gonadotropin) pregnancy test (urine) on day of enrollment, or become pregnant during the next 6 months
+NCT04341389	exclusion	Any acute fever disease or infections
+NCT04341389	exclusion	History of SARS
+NCT04341389	exclusion	Major congenital defects or not well-controlled chronic illness, such as asthma, diabetes, or thyroid disease
+NCT04341389	exclusion	Serious cardiovascular diseases, such as arrhythmia, conduction block, myocardial infarction, severe hypertension without controllable drugs, etc
+NCT04341389	exclusion	Hereditary angioneurotic edema or acquired angioneurotic edema
+NCT04341389	exclusion	Urticaria in last one year
+NCT04341389	exclusion	No spleen or functional spleen
+NCT04341389	exclusion	Platelet disorder or other bleeding disorder may cause injection contraindication
+NCT04341389	exclusion	Faint at the sight of needles
+NCT04341389	exclusion	Prior administration of immunodepressant or corticosteroids, antianaphylaxis treatment, cytotoxic treatment in last 6 months
+NCT04341389	exclusion	Prior administration of blood products in last 4 months
+NCT04341389	exclusion	Prior administration of other research medicines in last 1 month
+NCT04341389	exclusion	Prior administration of attenuated vaccine in last 1 month
+NCT04341389	exclusion	Prior administration of inactivated vaccine in last 14 days
+NCT04341389	exclusion	Current anti-tuberculosis prophylaxis or therapy
+NCT04341389	exclusion	According to the judgement of investigator,various medical, psychological, social or other conditions, those could affect the subjects to sign informed consent
+NCT04340557	inclusion	Confirmed COVID-19 positive test result
+NCT04340557	inclusion	Mild to moderate respiratory disease defined by oxygen requirement of at least 2 L/min to maintain oxygen saturation level ≥92%
+NCT04340557	inclusion	Systolic blood pressure ≥ 110 mmHg
+NCT04340557	inclusion	Age ≥18 years old
+NCT04340557	inclusion	Access to an electronic device that is able to access DocuSign® online and email for consenting
+NCT04340557	inclusion	Able to read/write/speak English or Spanish fluently
+NCT04340557	inclusion	Subjects must have the ability to understand the requirements of the study, provide informed consent, and provide authorization of use and disclosure of personal health information
+NCT04340557	inclusion	Negative pregnancy test for women of childbearing potential
+NCT04340557	exclusion	Severe allergy to any ARB or ACE-inhibitor, including angioedema
+NCT04340557	exclusion	In the intensive care unit at screening
+NCT04340557	exclusion	Home meds include any kind of ACE inhibitor or ARB
+NCT04340557	exclusion	SBP <110 mmHg
+NCT04340557	exclusion	Acute Kidney Injury (50% reduction in GFR from baseline at admission to any time during treatment in the study treatment arm)
+NCT04340557	exclusion	Hyperkalemia >5.0 mmol/L at baseline or any time during treatment in the study treatment arm
+NCT04340557	exclusion	Creatinine Clearance < 30 ml/min at baseline or any time during treatment in the study treatment arm
+NCT04340050	inclusion	Age greater or equal to 18
+NCT04340050	inclusion	Able to donate blood per blood bank standard guidelines
+NCT04340050	inclusion	Prior diagnosis of COVID-19 documented by a laboratory test (confirmed)
+NCT04340050	inclusion	Complete resolution of symptoms at least 28 days prior to donation
+NCT04340050	inclusion	Female donors who have never been pregnant, previously pregnant female donors negative for HLA antibodies (HLA screening), or male donors
+NCT04340050	inclusion	Patients must be 18 years of age or older
+NCT04340050	inclusion	Must have laboratory-confirmed COVID-19
+NCT04340050	inclusion	Must have severe or immediately life-threatening COVID-19
+NCT04340050	inclusion	Severe defined as dyspnea, respiratory frequency ≥ 30/min, blood oxygen saturation ≤ 93%, partial pressure of arterial oxygen to fraction of inspired oxygen ratio < 300, and/or lung infiltrates > 50% within 24 to 48 hours
+NCT04340050	inclusion	Life-threatening defined as respiratory failure, septic shock, and/or multiple organ dysfunction or failure. Lower priority should be given to patients with septic shock or multiple organ dysfunction or failure since their disease may have progressed to a point where they are not able to benefit from convalescent plasma therapy
+NCT04340050	inclusion	Must be less than 21 days from the start of illness
+NCT04340050	inclusion	Patient is willing and able to provide written informed consent and comply with all protocol requirements. If the patient is not able to consent, we will obtain consent from the power of attorney or a health care proxy for the patient as determined by the Illinois Healthcare Surrogate Act
+NCT04340050	inclusion	Patient, power of attorney or health care proxy agrees to storage of specimens for future testing
+NCT04340050	inclusion	Of note, eIND application for each recipient subject will need to be approved before administration of convalescent plasma
+NCT04340050	exclusion	Does not provide consent
+NCT04340050	exclusion	Does not meet standard blood bank donation guidelines
+NCT04340050	exclusion	Unsuccessful blood donation
+NCT04340050	exclusion	Female subjects with positive pregnancy test, breastfeeding, or planning to become pregnant/breastfeed during the study period
+NCT04340050	exclusion	Receipt of pooled immunoglobulin in past 30 days
+NCT04340050	exclusion	Contraindication to transfusion or history of prior reactions to transfusion blood products
+NCT04340050	exclusion	Patients currently enrolled in other drug trials that preclude investigational treatment with anti-SARS-CoV-2 convalescent plasma
+NCT04348032	inclusion	Patients were diagnosed with ovarian cancer, fallopian tube cancer or primary peritoneal cancer confirmed by previous pathology, and the pathological type was non-mucinous adenocarcinoma.There were previous surgical wax preservation
+NCT04348032	inclusion	Initial platinum-resistant relapse, the recurrence time was less than 6 months after the last chemotherapy
+NCT04348032	inclusion	Complicated with malignant pleural effusion or ascites, or with recurrent lesions that can be evaluated clinically
+NCT04348032	inclusion	ECOG physical status score 0 or 1
+NCT04348032	inclusion	The expected survival time is ≥ 4 months
+NCT04348032	inclusion	In the previous treatment, there was no antivascular targeted therapy
+NCT04348032	inclusion	Patients without pleural effusion or ascites should be confirmed by CT or MRI according to the standard of RECIST1.1 version, requiring the patient to have at least one measurable focus as the target focus. If the target focus is a lymph node with a short diameter of more than 1.5 cm, and the target focus is not suitable for surgical treatment, the target focus has not received radiotherapy or relapsed in the radiotherapy field
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: neutrophil count ≥ 1.5x109 /L
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: platelet count ≥ 100x109 PG L
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: hemoglobin ≥ 9g/dL (blood transfusion is allowed to achieve or maintain this target)
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: Liver function meets the following criteria
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: total bilirubin<1.5 normal limit (ULN)
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: glutamic oxaloacetic transaminase (AST), glutamic pyruvic transaminase (ALT)<2.5xULN, which is allowed<5xULN in patients with liver metastasis
+NCT04348032	inclusion	The baseline blood routine conforms to the following criteria: Serum creatinine ≤ 1.25xULN or calculated creatinine clearance ≥ 50mL/min
+NCT04348032	exclusion	Have received more than two chemotherapy regimens in the past
+NCT04348032	exclusion	Currently or recently (within 30 days before enrollment) using another research drug or participating in another clinical study
+NCT04348032	exclusion	other malignant tumors have occurred within 5 years (except adequately treated cervical carcinoma in situ or skin squamous cell carcinoma, or controlled basal cell carcinoma of the skin)
+NCT04348032	exclusion	Patients with hypertension that cannot be reduced to normal range after antihypertensive treatment (systolic blood pressure ≥ 140mmHg or diastolic blood pressure ≥ 90 mmHg)
+NCT04348032	exclusion	Suffer from myocardial ischemia or myocardial infarction above II grade and poorly controlled arrhythmias (including QTc interval ≥ 470ms in females)
+NCT04348032	exclusion	According to the NYHA standard, there were previous or present cardiac insufficiency of grade II or above, or color Doppler echocardiography showed that the left ventricular ejection fraction ((LVEF)) was less than 50% or the lower limit of the normal value
+NCT04348032	exclusion	Abnormal coagulation function (INR>1.5 or prothrombin time (PT) > ULN+4 seconds or APTT>1.5xULN), with bleeding tendency or undergoing thrombolytic or anticoagulant therapy
+NCT04348032	exclusion	There were significant clinical bleeding symptoms or definite bleeding tendency in the first 3 months, such as gastrointestinal bleeding, hemorrhagic gastric ulcer, baseline fecal occult blood or above, or suffering from vasculitis
+NCT04348032	exclusion	Major surgical operations or severe traumatic injuries, fractures or ulcers occurred within the first 4 weeks of randomization
+NCT04348032	exclusion	There are significant factors affecting oral drug absorption, such as inability to swallow, chronic diarrhea and intestinal obstruction
+NCT04348032	exclusion	Urine routine indicates urinary protein ≥++, or confirms 24-hour urinary protein ≥ 1.0g
+NCT04348032	exclusion	The researchers judged other conditions that may affect the conduct of clinical studies and the determination of research results
+NCT04348032	exclusion	Allergic or heterogeneous reactions to doxorubicin and / or related substances
+NCT04348032	exclusion	The cumulative dose of doxorubicin (including previous anthracycline, if any) is expected to reach or exceed 550 mg after 4 courses of doxorubicin liposome injection treatment
+NCT04348032	exclusion	Uncontrollable arrhythmias or electrocardiograms abnormalities determined by the lead researcher to be at risk
+NCT04348032	exclusion	A history of doxorubicin liposome therapy in recent half a year
+NCT04348032	exclusion	Have previously received local radiotherapy of the pelvis or lower abdomen
+NCT04348006	inclusion	Newly diagnosis Multiple myeloma with CRAB (C: hypercalcemia, R: renal impairment, A: anemia, and B: bone lesions)
+NCT04348006	inclusion	Age above 18 years old
+NCT04348006	exclusion	Age below 18 years
+NCT04348006	exclusion	Smoldering MM
+NCT04347811	inclusion	Physicians, nurses, pharmacists, or therapists working in the University Medical Center Intensive Care Unit and have worked for the full-time equivalent of at least 1 week in the preceding 4 weeks
+NCT04347811	exclusion	Not physicians, nurses, pharmacists, or therapists
+NCT04347811	exclusion	Have worked less than the full-time equivalent of at least 1 week in the preceding 4 weeks
+NCT04347252	inclusion	Healthy, fasting glucose values < 6 mM, A1c < 6%, and no first degree family members with T2DM
+NCT04347252	exclusion	Active infectious, malignant or inflammatory conditions; unstable angina or uncompensated heart failure; pulmonary disorders including COPD and asthma; malabsorptive GI disease; significant hepatic disease; renal insufficiency (eGFR < 50 ml/min/kg); anemia (hematocrit < 34%); pregnancy; and uncontrolled hypertension. Subjects will be excluded if they require daily medications that alter glucose metabolism or GI function (glucocorticoids, psychotropics, narcotics, metoclopramide)
+NCT04344847	inclusion	All morbid obese patients with BMI more than 35
+NCT04344847	exclusion	previous gastric surgery
+NCT04344847	exclusion	patients with hiatus hernia
+NCT04344847	exclusion	age under 21 years
+NCT04344678	inclusion	Eighty adult outpatients with the Diagnostic and Statistical Manual of Mental Disorders-IV (DSM-IV) diagnosis of MDD based on a MINI Neuropsychiatric Interview (MINI) (American Psychiatric Association., 2000; Sheehan et al., 1998), without psychotic features and a total 17 item HAM-D score of at least 18 with item 1 (depressed mood) scored 2 or greater were eligible (Hamilton, 1960)
+NCT04344678	inclusion	Patients were requested to be free of all the psychotropic and anti-inflammatory medications for at least 4 weeks before participating in the study
+NCT04344678	exclusion	Patients with bipolar I or bipolar II disorder
+NCT04344678	exclusion	Patients with personality disorders
+NCT04344678	exclusion	Patients with eating disorders
+NCT04344678	exclusion	Patients with substance dependence or abuse
+NCT04344678	exclusion	Patients with concurrent active medical condition
+NCT04344678	exclusion	Patients with history of seizures
+NCT04344678	exclusion	Patients with history of receiving Electroconvulsive therapy (ECT)
+NCT04344678	exclusion	Patients with inflammatory disorders
+NCT04344678	exclusion	Patients with allergy or contraindications to the used medications
+NCT04344678	exclusion	Patients with finally pregnant or lactating females
+NCT04344678	exclusion	Cardiovascular disorders
+NCT04344678	exclusion	Severe renal impairment: creatinine clearance of ≤ 25 ml/min
+NCT04344678	exclusion	Moderate or severe hepatic impairment
+NCT04344470	inclusion	In order to be eligible to participate in this study, an individual must meet all of the following criteria
+NCT04344470	inclusion	Age between 25-45 years
+NCT04344470	inclusion	Right-handed (tested by the Edinburg handedness inventory)
+NCT04344470	inclusion	Able to give informed consent
+NCT04344470	inclusion	Able to comply with all study procedures
+NCT04344470	inclusion	Fluent in English
+NCT04344470	exclusion	An individual who meets any of the following criteria will be excluded from participation in this study
+NCT04344470	exclusion	Illegal drug use within the past 6 months based on history alone. The intent is to exclude those with drug use that may affect study results
+NCT04344470	exclusion	Self-reported consumption of >14 alcoholic drinks/week for a man and >7 alcoholic drinks/week for a woman
+NCT04344470	exclusion	Abnormal findings on neurological examination
+NCT04344470	exclusion	History of current brain tumor, stroke, head trauma with loss of consciousness, epilepsy, or seizures
+NCT04344470	exclusion	Current episode of major depression or any major psychiatric illness
+NCT04343391	inclusion	Emotional Disorder
+NCT04343391	exclusion	Severe mental disorder
+NCT04343391	exclusion	Substance use disorder
+NCT04343391	exclusion	Severe depression
+NCT04343014	inclusion	aged 18 to 70 years
+NCT04343014	inclusion	ASA graded I~II class
+NCT04343014	inclusion	scheduled for elective surgery requiring orotracheal intubation
+NCT04343014	exclusion	with organ transplant operations
+NCT04343014	exclusion	with thoracic and cardiac vascular surgery
+NCT04343014	exclusion	with severe cadiac or pulmonary disease
+NCT04343014	exclusion	BMI over 35kg/m2
+NCT04342793	inclusion	Men or women ages 19 and over, under 75 years of age
+NCT04342793	inclusion	Patients diagnosed with NAFLD on abdominal ultrasonography and MRI
+NCT04342793	inclusion	Patients show presence of hepatic fat fraction as defined by ≥ 8% on MRI-PDFF and liver stiffness as defined by ≥ 2.5 kPa on MRE at Screening
+NCT04342793	exclusion	Any subject with current, significant alcohol consumption or a history of significant alcohol consumption for a period of more than 3 consecutive months any time within 2 year prior to screening will be excluded
+NCT04342793	exclusion	Chronic liver disease (including hemochromatosis, liver cancer, autoimmune liver disease, viral hepatitis A, B, alcoholic liver disease
+NCT04342793	exclusion	Uncontrolled diabetes mellitus as defined by a HbA1c ≥ 9.0％ at Screening
+NCT04342793	exclusion	Patients who are allergic or hypersensitive to the drug or its constituents
+NCT04342793	exclusion	Pregnant or lactating women

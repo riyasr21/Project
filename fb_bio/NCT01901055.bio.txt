@@ -1,0 +1,66 @@
+Acute 0 5 0 5 O
+medical 6 13 6 13 B-chronic_disease
+or 14 16 14 16 O
+surgical 17 25 17 25 B-chronic_disease
+conditions 26 36 26 36 I-chronic_disease
+or 37 39 37 39 O
+hospitalization 40 55 40 55 B-treatment
+≤ 56 57 56 57 O
+3 58 59 58 59 B-upper_bound
+months 60 66 60 66 I-upper_bound
+
+Moderate 0 8 67 75 O
+- 8 9 75 76 O
+to 9 11 76 78 O
+- 11 12 78 79 O
+severe 12 18 79 85 O
+obstructive 19 30 86 97 B-chronic_disease
+sleep 31 36 98 103 I-chronic_disease
+apnea 37 42 104 109 I-chronic_disease
+
+Poor 0 4 110 114 O
+glucose 5 12 115 122 O
+control 13 20 123 130 O
+( 21 22 131 132 O
+A1C 22 25 132 135 B-clinical_variable
+> 26 27 136 137 O
+11 28 30 138 140 B-lower_bound
+) 30 31 140 141 O
+
+Prior 0 5 142 147 B-treatment
+CPAP 6 10 148 152 I-treatment
+or 11 13 153 155 O
+persons 14 21 156 163 O
+in 22 24 164 166 O
+household 25 34 167 176 O
+with 35 39 177 181 O
+CPAP 40 44 182 186 O
+
+Sleep 0 5 187 192 B-clinical_variable
+duration 6 14 193 201 I-clinical_variable
+< 15 16 202 203 O
+4 17 18 204 205 B-upper_bound
+hrs 19 22 206 209 I-upper_bound
+
+Suboptimal 0 10 210 220 O
+glucose 11 18 221 228 O
+control 19 26 229 236 O
+( 27 28 237 238 O
+A1C 28 31 238 241 B-clinical_variable
+≥ 32 33 242 243 O
+6.5 34 37 244 247 B-lower_bound
+% 37 38 247 248 I-lower_bound
+) 38 39 248 249 O
+
+Type 0 4 250 254 B-chronic_disease
+1 5 6 255 256 I-chronic_disease
+or 7 9 257 259 I-chronic_disease
+gestational 10 21 260 271 I-chronic_disease
+diabetes 22 30 272 280 I-chronic_disease
+
+age 0 3 281 284 B-age
+18 4 6 285 287 B-lower_bound
+years 7 12 288 293 I-lower_bound
+and 13 16 294 297 O
+older 17 22 298 303 O
+

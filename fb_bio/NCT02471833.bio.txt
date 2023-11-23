@@ -1,0 +1,94 @@
+African 0 7 0 7 B-ethnicity
+American 8 16 8 16 I-ethnicity
+
+Baseline 0 8 17 25 B-clinical_variable
+Montreal 9 17 26 34 I-clinical_variable
+Cognitive 18 27 35 44 I-clinical_variable
+Assessment 28 38 45 55 I-clinical_variable
+score 39 44 56 61 I-clinical_variable
+< 45 46 62 63 O
+27 46 48 63 65 B-upper_bound
+
+Creatinine 0 10 66 76 B-clinical_variable
+> 11 12 77 78 O
+1.99 12 16 78 82 B-lower_bound
+mg 17 19 83 85 I-lower_bound
+/ 19 20 85 86 I-lower_bound
+dl 20 22 86 88 I-lower_bound
+at 23 25 89 91 O
+baseline 26 34 92 100 O
+
+Current 0 7 101 108 O
+use 8 11 109 112 O
+of 12 14 113 115 O
+renin 15 20 116 121 B-treatment
+- 20 21 121 122 I-treatment
+angiotensin 21 32 122 133 I-treatment
+acting 33 39 134 140 I-treatment
+medication 40 50 141 151 I-treatment
+
+Dementia 0 8 152 160 B-chronic_disease
+
+Diabetes 0 8 161 169 B-chronic_disease
+Types 9 14 170 175 I-chronic_disease
+I 15 16 176 177 I-chronic_disease
+and 17 20 178 181 I-chronic_disease
+II 21 23 182 184 I-chronic_disease
+
+Heart 0 5 185 190 B-chronic_disease
+failure 6 13 191 198 I-chronic_disease
+
+History 0 7 199 206 O
+of 8 10 207 209 O
+stroke 11 17 210 216 B-chronic_disease
+
+Mean 0 4 217 221 O
+resting 5 12 222 229 O
+blood 13 18 230 235 B-clinical_variable
+pressure 19 27 236 244 I-clinical_variable
+≥110 28 32 245 249 O
+and 33 36 250 253 O
+≤ 37 38 254 255 O
+170 39 42 256 259 B-upper_bound
+mmHg 43 47 260 264 I-upper_bound
+systolic 48 56 265 273 I-upper_bound
+
+Parent 0 6 274 280 O
+or 7 9 281 283 O
+biological 10 20 284 294 O
+family 21 27 295 301 O
+member 28 34 302 308 O
+with 35 39 309 313 O
+Alzheimer 40 49 314 323 B-chronic_disease
+'s 49 51 323 325 I-chronic_disease
+disease 52 59 326 333 I-chronic_disease
+
+Potassium 0 9 334 343 B-clinical_variable
+> 10 11 344 345 O
+5.5 11 14 345 348 B-lower_bound
+meq 15 18 349 352 I-lower_bound
+/ 18 19 352 353 I-lower_bound
+dl 19 21 353 355 I-lower_bound
+at 22 24 356 358 O
+baseline 25 33 359 367 O
+
+Pregnant 0 8 368 376 B-pregnancy
+
+Treated 0 7 377 384 O
+hypertension 8 20 385 397 B-chronic_disease
+
+nursing 0 7 398 405 O
+women 8 13 406 411 B-gender
+
+systolic 0 8 412 420 B-clinical_variable
+blood 9 14 421 426 I-clinical_variable
+pressure 15 23 427 435 I-clinical_variable
+≥ 24 25 436 437 O
+110 26 29 438 441 B-lower_bound
+mmHg 30 34 442 446 I-lower_bound
+systolic 35 43 447 455 O
+and 44 47 456 459 O
+≤ 48 49 460 461 O
+170 50 53 462 465 B-upper_bound
+mmHg 54 58 466 470 I-upper_bound
+

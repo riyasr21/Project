@@ -1,0 +1,84 @@
+Amyotrophic 0 11 0 11 B-chronic_disease
+Lateral 12 19 12 19 I-chronic_disease
+Sclerosis 20 29 20 29 I-chronic_disease
+
+Children 0 8 30 38 O
+aged 9 13 39 43 B-age
+8 14 15 44 45 B-lower_bound
+- 16 17 46 47 O
+17 18 20 48 50 B-upper_bound
+years 21 26 51 56 I-upper_bound
+of 27 29 57 59 O
+age 30 33 60 63 O
+
+Diagnosis 0 9 64 73 O
+of 10 12 74 76 O
+Myasthenia 13 23 77 87 B-chronic_disease
+gravis 24 30 88 94 I-chronic_disease
+
+Eaton 0 5 95 100 B-chronic_disease
+Lambert 6 13 101 108 I-chronic_disease
+Syndrome 14 22 109 117 I-chronic_disease
+
+Patients 0 8 118 126 O
+will 9 13 127 131 O
+provide 14 21 132 139 O
+at 22 24 140 142 O
+least 25 30 143 148 O
+28 31 33 149 151 B-lower_bound
+- 33 34 151 152 I-lower_bound
+day 34 37 152 155 I-lower_bound
+baseline 38 46 156 164 O
+data 47 51 165 169 O
+in 52 54 170 172 O
+the 55 58 173 176 O
+form 59 63 177 181 O
+in 64 66 182 184 O
+the 67 70 185 188 O
+daily 71 76 189 194 O
+diary 77 82 195 200 O
+
+Pregnancy 0 9 201 210 B-pregnancy
+
+injection 0 9 211 220 O
+of 10 12 221 223 O
+anesthetics 13 24 224 235 B-treatment
+/ 24 25 235 236 O
+steroids 25 33 236 244 B-treatment
+within 34 40 245 251 O
+4 41 42 252 253 B-upper_bound
+weeks 43 48 254 259 I-upper_bound
+prior 49 54 260 265 I-upper_bound
+to 55 57 266 268 O
+the 58 61 269 272 O
+week 62 66 273 277 O
+of 67 69 278 280 O
+screening 70 79 281 290 O
+visit 80 85 291 296 O
+
+must 0 4 297 301 O
+have 5 9 302 306 O
+at 10 12 307 309 O
+least 13 18 310 315 O
+15 19 21 316 318 B-lower_bound
+days 22 26 319 323 I-lower_bound
+of 27 29 324 326 O
+reported 30 38 327 335 O
+headache 39 47 336 344 O
+during 48 54 345 351 O
+this 55 59 352 356 O
+period 60 66 357 363 O
+
+with 0 4 364 368 O
+at 5 7 369 371 O
+least 8 13 372 377 O
+4 14 15 378 379 B-lower_bound
+distinct 16 24 380 388 I-lower_bound
+episodes 25 33 389 397 I-lower_bound
+lasting 34 41 398 405 O
+at 42 44 406 408 O
+least 45 50 409 414 O
+4 51 52 415 416 B-lower_bound
+hours 53 58 417 422 I-lower_bound
+each 59 63 423 427 O
+

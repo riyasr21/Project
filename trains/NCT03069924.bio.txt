@@ -1,0 +1,46 @@
+English 0 7 0 7 B-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+being 0 5 17 22 O
+in 6 8 23 25 O
+the 9 12 26 29 O
+immediate 13 22 30 39 O
+( 23 24 40 41 O
+within 24 30 41 47 O
+2 31 32 48 49 B-upper_bound
+weeks 33 38 50 55 I-upper_bound
+) 38 39 55 56 O
+post 40 44 57 61 B-treatment
+myocardial 45 55 62 72 I-treatment
+infarction 56 66 73 83 I-treatment
+period 67 73 84 90 O
+
+known 0 5 91 96 O
+allergy 6 13 97 104 O
+to 14 16 105 107 O
+adhesives 17 26 108 117 B-allergy_name
+
+unstable 0 8 118 126 B-chronic_disease
+angina 9 15 127 133 I-chronic_disease
+pectoris 16 24 134 142 I-chronic_disease
+
+unstable 0 8 143 151 O
+psychiatric 9 20 152 163 O
+/ 20 21 163 164 O
+medical 21 28 164 171 O
+conditions 29 39 172 182 O
+such 40 44 183 187 O
+as 45 47 188 190 O
+suicidal 48 56 191 199 B-chronic_disease
+ideation 57 65 200 208 I-chronic_disease
+, 65 66 208 209 O
+acute 67 72 210 215 B-chronic_disease
+psychosis 73 82 216 225 I-chronic_disease
+, 82 83 225 226 O
+severe 84 90 227 233 O
+alcohol 91 98 234 241 O
+dependence 99 109 242 252 O
+, 109 110 252 253 O
+or 111 113 254 256 O
+dementia 114 122 257 265 B-chronic_disease
+

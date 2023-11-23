@@ -1,0 +1,71 @@
+Absence 0 7 0 7 O
+of 8 10 8 10 O
+hormonal 11 19 11 19 O
+contraception 20 33 20 33 O
+, 33 34 33 34 O
+fertility 35 44 35 44 B-treatment
+therapy 45 52 45 52 I-treatment
+, 52 53 52 53 O
+or 54 56 54 56 O
+insulin 57 64 57 64 B-treatment
+- 64 65 64 65 I-treatment
+sensitizing 65 76 65 76 I-treatment
+medication 77 87 77 87 I-treatment
+in 88 90 88 90 O
+the 91 94 91 94 O
+three 95 100 95 100 B-upper_bound
+months 101 107 101 107 I-upper_bound
+prior 108 113 108 113 I-upper_bound
+to 114 116 114 116 O
+enrollment 117 127 117 127 O
+
+BMI 0 3 128 131 B-bmi
+≥ 4 5 132 133 O
+30.0 6 10 134 138 B-lower_bound
+kg 11 13 139 141 I-lower_bound
+/ 13 14 141 142 I-lower_bound
+m*m 14 17 142 145 I-lower_bound
+
+Pregnant 0 8 146 154 B-pregnancy
+, 8 9 154 155 O
+breastfeeding 10 23 156 169 O
+, 23 24 169 170 O
+or 25 27 171 173 O
+lactating 28 37 174 183 O
+
+Previous 0 8 184 192 O
+diagnosis 9 18 193 202 O
+of 19 21 203 205 O
+bleeding 22 30 206 214 B-chronic_disease
+disorder(s 31 41 215 225 I-chronic_disease
+) 41 42 225 226 I-chronic_disease
+or 43 45 227 229 O
+current 46 53 230 237 O
+use 54 57 238 241 O
+of 58 60 242 244 O
+blood 61 66 245 250 B-treatment
+thinners 67 75 251 259 I-treatment
+/ 75 76 259 260 I-treatment
+anticoagulants 76 90 260 274 I-treatment
+
+Self 0 4 275 279 O
+- 4 5 279 280 O
+reported 5 13 280 288 O
+history 14 21 289 296 O
+of 22 24 297 299 O
+regular 25 32 300 307 O
+menstrual 33 42 308 317 O
+cycles 43 49 318 324 O
+, 49 50 324 325 O
+irregular 51 60 326 335 O
+menstrual 61 70 336 345 O
+cycles 71 77 346 352 O
+, 77 78 352 353 O
+or 79 81 354 356 O
+PCOS 82 86 357 361 B-chronic_disease
+
+Soy 0 3 362 365 B-allergy_name
+or 4 6 366 368 O
+peanut 7 13 369 375 B-allergy_name
+allergy 14 21 376 383 O
+

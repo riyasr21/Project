@@ -1,0 +1,30 @@
+Distant 0 7 0 7 B-cancer
+metastasis 8 18 8 18 I-cancer
+
+Esophageal 0 10 19 29 B-chronic_disease
+strictures 11 21 30 40 I-chronic_disease
+unrelated 22 31 41 50 O
+to 32 34 51 53 O
+EAC 35 38 54 57 B-chronic_disease
+
+Prior 0 5 58 63 O
+diagnosis 6 15 64 73 O
+of 16 18 74 76 O
+esophageal 19 29 77 87 B-chronic_disease
+achalasia 30 39 88 97 I-chronic_disease
+
+Prior 0 5 98 103 O
+diagnosis 6 15 104 113 O
+of 16 18 114 116 O
+oropharyngeal 19 32 117 130 B-chronic_disease
+dysphagia 33 42 131 140 I-chronic_disease
+
+Prior 0 5 141 146 O
+esophageal 6 16 147 157 B-treatment
+or 17 19 158 160 I-treatment
+gastro 20 26 161 167 I-treatment
+- 26 27 167 168 I-treatment
+esophageal 27 37 168 178 I-treatment
+junction 38 46 179 187 I-treatment
+surgery 47 54 188 195 I-treatment
+

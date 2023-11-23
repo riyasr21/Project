@@ -1,0 +1,44 @@
+American 0 8 0 8 B-clinical_variable
+Society 9 16 9 16 I-clinical_variable
+of 17 19 17 19 I-clinical_variable
+Anesthesiologists 20 37 20 37 I-clinical_variable
+physical 38 46 38 46 I-clinical_variable
+status 47 53 47 53 I-clinical_variable
+1 54 55 54 55 B-lower_bound
+- 55 56 55 56 O
+3 56 57 56 57 B-upper_bound
+
+Currently 0 9 58 67 O
+Workman 10 17 68 75 O
+'s 17 19 75 77 O
+Comp 20 24 78 82 O
+litigation 25 35 83 93 O
+related 36 43 94 101 O
+to 44 46 102 104 O
+hip 47 50 105 108 B-treatment
+replacement 51 62 109 120 I-treatment
+
+Pregnancy 0 9 121 130 B-pregnancy
+
+Suffering 0 9 131 140 O
+from 10 14 141 145 O
+a 15 16 146 147 O
+psychotic 17 26 148 157 B-chronic_disease
+disorder 27 35 158 166 I-chronic_disease
+
+Taking 0 6 167 173 O
+greater 7 14 174 181 O
+than 15 19 182 186 O
+100 20 23 187 190 B-lower_bound
+milligrams 24 34 191 201 I-lower_bound
+of 35 37 202 204 O
+morphine 38 46 205 213 B-treatment
+( 47 48 214 215 O
+or 48 50 215 217 O
+equivalent 51 61 218 228 O
+) 61 62 228 229 O
+
+recent 0 6 230 236 O
+psychiatric 7 18 237 248 B-treatment
+hospitalization 19 34 249 264 I-treatment
+

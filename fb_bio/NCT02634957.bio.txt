@@ -1,0 +1,86 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+and 7 10 7 10 O
+older 11 16 11 16 O
+
+CIS 0 3 17 20 B-cancer
+( 4 5 21 22 I-cancer
+Carcinoma 5 14 22 31 I-cancer
+- 14 15 31 32 I-cancer
+in 15 17 32 34 I-cancer
+- 17 18 34 35 I-cancer
+situ 18 22 35 39 I-cancer
+) 22 23 39 40 I-cancer
+
+Cysts 0 5 41 46 B-chronic_disease
+
+Dysplasia 0 9 47 56 B-cancer
+
+History 0 7 57 64 O
+of 8 10 65 67 O
+systemic 11 19 68 76 B-chronic_disease
+illness 20 27 77 84 I-chronic_disease
+that 28 32 85 89 O
+could 33 38 90 95 O
+affect 39 45 96 102 O
+wound 46 51 103 108 O
+healing 52 59 109 116 O
+
+Patients 0 8 117 125 O
+with 9 13 126 130 O
+benign 14 20 131 137 B-chronic_disease
+mid 21 24 138 141 I-chronic_disease
+membranous 25 35 142 152 I-chronic_disease
+vocal 36 41 153 158 I-chronic_disease
+fold 42 46 159 163 I-chronic_disease
+lesions 47 54 164 171 I-chronic_disease
+
+Previous 0 8 172 180 O
+vocal 9 14 181 186 B-treatment
+fold 15 19 187 191 I-treatment
+surgery 20 27 192 199 I-treatment
+
+RRP 0 3 200 203 B-chronic_disease
+( 4 5 204 205 I-chronic_disease
+Recurrent 5 14 205 214 I-chronic_disease
+Respiratory 15 26 215 226 I-chronic_disease
+Papillomatosis 27 41 227 241 I-chronic_disease
+) 41 42 241 242 I-chronic_disease
+
+SCC 0 3 243 246 B-cancer
+( 4 5 247 248 I-cancer
+squamous 5 13 248 256 I-cancer
+cell 14 18 257 261 I-cancer
+carcinoma 19 28 262 271 I-cancer
+) 28 29 271 272 I-cancer
+
+Sub 0 3 273 276 B-chronic_disease
+- 3 4 276 277 I-chronic_disease
+epithelial 4 14 277 287 I-chronic_disease
+fibrous 15 22 288 295 I-chronic_disease
+mass 23 27 296 300 I-chronic_disease
+
+Undergoing 0 10 301 311 O
+elective 11 19 312 320 B-treatment
+phonomicrosurgery 20 37 321 338 I-treatment
+for 38 41 339 342 O
+vocal 42 47 343 348 B-chronic_disease
+fold 48 52 349 353 I-chronic_disease
+lesions 53 60 354 361 I-chronic_disease
+, 60 61 361 362 O
+which 62 67 363 368 O
+involves 68 76 369 377 O
+microflap 77 86 378 387 B-treatment
+excision 87 95 388 396 I-treatment
++ 96 97 397 398 O
+/- 97 99 398 400 O
+truncation 100 110 401 411 B-treatment
++ 111 112 412 413 O
+/- 112 114 413 415 O
+steroid 115 122 416 423 B-treatment
+injection 123 132 424 433 I-treatment
+into 133 137 434 438 O
+the 138 141 439 442 O
+vocal 142 147 443 448 O
+folds 148 153 449 454 O
+

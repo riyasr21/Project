@@ -1,0 +1,115 @@
+Abilify 0 7 0 7 B-treatment
+Maintena 8 16 8 16 I-treatment
+
+Brexpiprazole 0 13 17 30 B-treatment
+
+Cariprazine 0 11 31 42 B-treatment
+
+Known 0 5 43 48 O
+family 6 12 49 55 O
+or 13 15 56 58 O
+personal 16 24 59 67 O
+history 25 32 68 75 O
+or 33 35 76 78 O
+symptoms 36 44 79 87 O
+of 45 47 88 90 O
+long 48 52 91 95 B-chronic_disease
+QT 53 55 96 98 I-chronic_disease
+syndrome 56 64 99 107 I-chronic_disease
+
+Lurasidone 0 10 108 118 B-treatment
+
+Olanzapine 0 10 119 129 B-treatment
+
+Patient 0 7 130 137 O
+has 8 11 138 141 O
+current 12 19 142 149 O
+evidence 20 28 150 158 O
+of 29 31 159 161 O
+a 32 33 162 163 O
+serious 34 41 164 171 O
+and/or 42 48 172 178 O
+unstable 49 57 179 187 O
+psychiatric 58 69 188 199 B-chronic_disease
+, 69 70 199 200 O
+neurologic 71 81 201 211 B-chronic_disease
+, 81 82 211 212 O
+cardiovascular 83 97 213 227 B-chronic_disease
+, 97 98 227 228 O
+respiratory 99 110 229 240 B-chronic_disease
+, 110 111 240 241 O
+gastrointestinal 112 128 242 258 B-chronic_disease
+, 128 129 258 259 O
+renal 130 135 260 265 B-chronic_disease
+, 135 136 265 266 O
+hepatic 137 144 267 274 B-chronic_disease
+, 144 145 274 275 O
+hematologic 146 157 276 287 B-chronic_disease
+, 157 158 287 288 O
+or 159 161 289 291 O
+other 162 167 292 297 O
+medical 168 175 298 305 B-chronic_disease
+disorder 176 184 306 314 I-chronic_disease
+, 184 185 314 315 O
+including 186 195 316 325 O
+cancer 196 202 326 332 B-cancer
+or 203 205 333 335 O
+malignancies 206 218 336 348 B-cancer
+, 218 219 348 349 O
+which 220 225 350 355 O
+would 226 231 356 361 O
+affect 232 238 362 368 O
+the 239 242 369 372 O
+patient 243 250 373 380 O
+'s 250 252 380 382 O
+ability 253 260 383 390 O
+to 261 263 391 393 O
+participate 264 275 394 405 O
+in 276 278 406 408 O
+the 279 282 409 412 O
+program 283 290 413 420 O
+
+Risperidone 0 11 421 432 B-treatment
+long 12 16 433 437 O
+- 16 17 437 438 O
+acting 17 23 438 444 O
+injection 24 33 445 454 O
+
+agree 0 5 455 460 B-contraception_consent
+to 6 8 461 463 I-contraception_consent
+use 9 12 464 467 I-contraception_consent
+two 13 16 468 471 I-contraception_consent
+clinically 17 27 472 482 I-contraception_consent
+acceptable 28 38 483 493 I-contraception_consent
+methods 39 46 494 501 I-contraception_consent
+of 47 49 502 504 I-contraception_consent
+contraception 50 63 505 518 I-contraception_consent
+
+either 0 6 519 525 O
+surgically 7 17 526 536 O
+sterilized 18 28 537 547 O
+or 29 31 548 550 O
+at 32 34 551 553 O
+least 35 40 554 559 O
+1 41 42 560 561 B-lower_bound
+year 43 47 562 566 I-lower_bound
+postmenopausal 48 62 567 581 O
+
+main 0 4 582 586 O
+background 5 15 587 597 O
+antipsychotic 16 29 598 611 B-treatment
+with 30 34 612 616 O
+which 35 40 617 622 O
+the 41 44 623 626 O
+subject 45 52 627 634 O
+is 53 55 635 637 O
+being 56 61 638 643 O
+treated 62 69 644 651 O
+must 70 74 652 656 O
+continue 75 83 657 665 O
+be 84 86 666 668 O
+one 87 90 669 672 O
+of 91 93 673 675 O
+the 94 97 676 679 O
+antipsychotics 98 112 680 694 B-treatment
+

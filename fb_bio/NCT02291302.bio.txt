@@ -1,0 +1,10 @@
+grades 0 6 0 6 O
+K-8 7 10 7 10 O
+with 11 15 11 15 O
+asthma 16 22 16 22 B-chronic_disease
+attending 23 32 23 32 O
+sampling 33 41 33 41 O
+/ 41 42 41 42 O
+intervention 42 54 42 54 O
+schools 55 62 55 62 O
+

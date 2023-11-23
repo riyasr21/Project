@@ -1,0 +1,33 @@
+Patients 0 8 0 8 O
+on 9 11 9 11 O
+systemic 12 20 12 20 O
+anticoagulation 21 36 21 36 B-treatment
+therapy 37 44 37 44 I-treatment
+
+Patients 0 8 45 53 O
+scheduled 9 18 54 63 O
+for 19 22 64 67 O
+elective 23 31 68 76 O
+colorectal 32 42 77 87 B-treatment
+surgery 43 50 88 95 I-treatment
+with 51 55 96 100 O
+Dr. 56 59 101 104 O
+Linda 60 65 105 110 O
+Farkas 66 72 111 117 O
+
+Patients 0 8 118 126 O
+with 9 13 127 131 O
+an 14 16 132 134 O
+allergy 17 24 135 142 O
+to 25 27 143 145 O
+local 28 33 146 151 B-allergy_name
+anesthetics 34 45 152 163 I-allergy_name
+
+Pregnancy 0 9 164 173 B-pregnancy
+
+over 0 4 174 178 O
+90 5 7 179 181 B-upper_bound
+years 8 13 182 187 I-upper_bound
+of 14 16 188 190 O
+age 17 20 191 194 B-age
+

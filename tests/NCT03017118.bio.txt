@@ -1,0 +1,61 @@
+40 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Basal 0 5 25 30 B-chronic_disease
+joint 6 11 31 36 I-chronic_disease
+arthritis 12 21 37 46 I-chronic_disease
+of 22 24 47 49 I-chronic_disease
+Eaton 25 30 50 55 I-chronic_disease
+stage 31 36 56 61 I-chronic_disease
+3 37 38 62 63 I-chronic_disease
+
+Diabetes 0 8 64 72 B-chronic_disease
+Mellitus 9 17 73 81 I-chronic_disease
+
+English 0 7 82 89 B-language_fluency
+fluency 8 15 90 97 I-language_fluency
+and 16 19 98 101 I-language_fluency
+literacy 20 28 102 110 I-language_fluency
+
+Patients 0 8 111 119 O
+on 9 11 120 122 O
+Coumadin 12 20 123 131 B-treatment
+/ 20 21 131 132 O
+Steroids 21 29 132 140 B-treatment
+/ 29 30 140 141 O
+NSAIDs 30 36 141 147 B-treatment
+/ 36 37 147 148 O
+Tylenol 37 44 148 155 B-treatment
+
+Post 0 4 156 160 B-chronic_disease
+- 4 5 160 161 I-chronic_disease
+traumatic 5 14 161 170 I-chronic_disease
+osteoarthritis 15 29 171 185 I-chronic_disease
+
+Pregnant 0 8 186 194 B-pregnancy
+or 9 11 195 197 O
+lactating 12 21 198 207 O
+women 22 27 208 213 B-gender
+
+Radiographic 0 12 214 226 B-treatment
+evidence 13 21 227 235 I-treatment
+of 22 24 236 238 I-treatment
+Eaton 25 30 239 244 I-treatment
+stage 31 36 245 250 I-treatment
+1 37 38 251 252 I-treatment
+and 39 42 253 256 I-treatment
+2 43 44 257 258 I-treatment
+only 45 49 259 263 O
+
+Rheumatoid 0 10 264 274 B-chronic_disease
+Arthritis 11 20 275 284 I-chronic_disease
+or 21 23 285 287 O
+other 24 29 288 293 O
+inflammatory 30 42 294 306 B-chronic_disease
+disorder 43 51 307 315 I-chronic_disease
+diagnoses 52 61 316 325 O
+

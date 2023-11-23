@@ -1,0 +1,57 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+Females 0 7 18 25 B-gender
+must 8 12 26 30 O
+have 13 17 31 35 O
+negative 18 26 36 44 B-pregnancy
+pregnancy 27 36 45 54 I-pregnancy
+test 37 41 55 59 I-pregnancy
+and 42 45 60 63 O
+be 46 48 64 66 O
+willing 49 56 67 74 B-contraception_consent
+to 57 59 75 77 I-contraception_consent
+practice 60 68 78 86 I-contraception_consent
+an 69 71 87 89 I-contraception_consent
+effective 72 81 90 99 I-contraception_consent
+form 82 86 100 104 I-contraception_consent
+of 87 89 105 107 I-contraception_consent
+birth 90 95 108 113 I-contraception_consent
+control 96 103 114 121 I-contraception_consent
+
+History 0 7 122 129 O
+of 8 10 130 132 O
+seizures 11 19 133 141 B-chronic_disease
+and/or 20 26 142 148 O
+severe 27 33 149 155 B-chronic_disease
+asthma 34 40 156 162 I-chronic_disease
+
+Known 0 5 163 168 O
+sensitivity 6 17 169 180 O
+to 18 20 181 183 O
+3,4 21 24 184 187 B-allergy_name
+- 24 25 187 188 I-allergy_name
+DIAMINOPYRIDINE 25 40 188 203 I-allergy_name
+
+LEMS 0 4 204 208 B-chronic_disease
+diagnosis 5 14 209 218 O
+OR 15 17 219 221 O
+Pre 18 21 222 225 B-chronic_disease
+or 22 24 226 228 I-chronic_disease
+Post 25 29 229 233 I-chronic_disease
+Synaptic 30 38 234 242 I-chronic_disease
+CMS 39 42 243 246 I-chronic_disease
+diagnosis 43 52 247 256 O
+
+No 0 2 257 259 O
+prolonged 3 12 260 269 O
+QT 13 15 270 272 B-chronic_disease
+syndrome 16 24 273 281 I-chronic_disease
+as 25 27 282 284 O
+indicated 28 37 285 294 O
+by 38 40 295 297 O
+baseline 41 49 298 306 O
+EKG 50 53 307 310 O
+

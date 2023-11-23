@@ -1,0 +1,84 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+60 6 8 6 8 B-lower_bound
+
+Blind 0 5 9 14 B-chronic_disease
+, 5 6 14 15 O
+deafness 7 15 16 24 B-chronic_disease
+or 16 18 25 27 O
+the 19 22 28 31 O
+inability 23 32 32 41 B-language_fluency
+to 33 35 42 44 I-language_fluency
+speak 36 41 45 50 I-language_fluency
+English 42 49 51 58 I-language_fluency
+
+Follow 0 6 59 65 O
+- 6 7 65 66 O
+up 7 9 66 68 O
+difficulties 10 22 69 81 O
+( 23 24 82 83 O
+i.e. 24 28 83 87 O
+active 29 35 88 94 B-chronic_disease
+substance 36 45 95 104 I-chronic_disease
+abuse 46 51 105 110 I-chronic_disease
+, 51 52 110 111 O
+psychotic 53 62 112 121 B-chronic_disease
+disorder 63 71 122 130 I-chronic_disease
+, 71 72 130 131 O
+homelessness 73 85 132 144 O
+) 85 86 144 145 O
+
+Previous 0 8 146 154 O
+cardiac 9 16 155 162 B-treatment
+surgery 17 24 163 170 I-treatment
+within 25 31 171 177 O
+1 32 33 178 179 B-upper_bound
+year 34 38 180 184 I-upper_bound
+of 39 41 185 187 O
+surgical 42 50 188 196 O
+procedure 51 60 197 206 O
+
+Renal 0 5 207 212 B-chronic_disease
+and 6 9 213 216 O
+liver 10 15 217 222 B-chronic_disease
+failure 16 23 223 230 I-chronic_disease
+requiring 24 33 231 240 O
+dialysis 34 42 241 249 B-treatment
+or 43 45 250 252 O
+Child 46 51 253 258 B-clinical_variable
+- 51 52 258 259 I-clinical_variable
+Pugh 52 56 259 263 I-clinical_variable
+score 57 62 264 269 I-clinical_variable
+> 63 64 270 271 O
+5 65 66 272 273 B-lower_bound
+
+Scheduled 0 9 274 283 O
+for 10 13 284 287 O
+a 14 15 288 289 O
+cardiac 16 23 290 297 B-treatment
+surgical 24 32 298 306 I-treatment
+procedure 33 42 307 316 I-treatment
+with 43 47 317 321 O
+planned 48 55 322 329 O
+post 56 60 330 334 O
+- 60 61 334 335 O
+operative 61 70 335 344 O
+admission 71 80 345 354 O
+to 81 83 355 357 O
+the 84 87 358 361 O
+CSICU 88 93 362 367 B-clinical_variable
+for 94 97 368 371 O
+≥ 98 99 372 373 O
+24 100 102 374 376 B-lower_bound
+hours 103 108 377 382 I-lower_bound
+
+Scheduled 0 9 383 392 O
+for 10 13 393 396 O
+a 14 15 397 398 O
+second 16 22 399 405 O
+surgical 23 31 406 414 B-treatment
+procedure 32 41 415 424 I-treatment
+during 42 48 425 431 O
+hospital 49 57 432 440 O
+stay 58 62 441 445 O
+

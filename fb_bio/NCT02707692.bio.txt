@@ -1,0 +1,131 @@
+Documented 0 10 0 10 O
+CD4 11 14 11 14 B-clinical_variable
+count 15 20 15 20 I-clinical_variable
+at 21 23 21 23 O
+enrollment 24 34 24 34 O
+( 35 36 35 36 O
+> 36 37 36 37 O
+250 37 40 37 40 B-lower_bound
+cells/µl 41 49 41 49 I-lower_bound
+) 49 50 49 50 O
+
+Documented 0 10 51 61 O
+HIV-1 11 16 62 67 B-chronic_disease
+infection 17 26 68 77 I-chronic_disease
+more 27 31 78 82 O
+than 32 36 83 87 O
+365 37 40 88 91 B-lower_bound
+days 41 45 92 96 I-lower_bound
+ago 46 49 97 100 I-lower_bound
+
+Documented 0 10 101 111 O
+viral 11 16 112 117 O
+s 17 18 118 119 O
+suppression 19 30 120 131 O
+for 31 34 132 135 O
+at 35 37 136 138 O
+least 38 43 139 144 O
+48 44 46 145 147 B-lower_bound
+weeks 47 52 148 153 I-lower_bound
+( 53 54 154 155 O
+≤50 54 57 155 158 O
+copies 58 64 159 165 I-upper_bound
+/ 64 65 165 166 I-upper_bound
+mL 65 67 166 168 I-upper_bound
+) 67 68 168 169 O
+
+HIV 0 3 170 173 B-clinical_variable
+antibody 4 12 174 182 I-clinical_variable
+or 13 15 183 185 O
+viral 16 21 186 191 B-clinical_variable
+load 22 26 192 196 I-clinical_variable
+positive 27 35 197 205 O
+
+History 0 7 206 213 O
+of 8 10 214 216 O
+Gullian 11 18 217 224 B-chronic_disease
+Barre 19 24 225 230 I-chronic_disease
+syndrome 25 33 231 239 I-chronic_disease
+
+Men 0 3 240 243 B-gender
+
+Pregnancy 0 9 244 253 B-pregnancy
+
+Read 0 4 254 258 B-language_fluency
+and 5 8 259 262 I-language_fluency
+comprehend 9 19 263 273 I-language_fluency
+English 20 27 274 281 I-language_fluency
+
+Received 0 8 282 290 O
+seasonal 9 17 291 299 O
+flu 18 21 300 303 O
+vaccination 22 33 304 315 O
+at 34 36 316 318 O
+least 37 42 319 324 O
+6 43 44 325 326 B-lower_bound
+weeks 45 50 327 332 I-lower_bound
+prior 51 56 333 338 I-lower_bound
+to 57 59 339 341 O
+first 60 65 342 347 O
+trial 66 71 348 353 O
+injection 72 81 354 363 O
+( 82 83 364 365 O
+and 83 86 365 368 O
+not 87 90 369 372 O
+more 91 95 373 377 O
+recently 96 104 378 386 O
+) 104 105 386 387 O
+
+Received 0 8 388 396 O
+vaccination 9 20 397 408 B-treatment
+for 21 24 409 412 O
+pneumococcal 25 37 413 425 B-chronic_disease
+disease 38 45 426 433 I-chronic_disease
+at 46 48 434 436 O
+least 49 54 437 442 O
+12 55 57 443 445 B-upper_bound
+months 58 64 446 452 I-upper_bound
+prior 65 70 453 458 I-upper_bound
+to 71 73 459 461 O
+first 74 79 462 467 O
+trial 80 85 468 473 O
+injection 86 95 474 483 O
+( 96 97 484 485 O
+and 97 100 485 488 O
+not 101 104 489 492 O
+more 105 109 493 497 O
+recently 110 118 498 506 O
+) 118 119 506 507 O
+
+Receiving 0 9 508 517 O
+immunosuppressive 10 27 518 535 B-treatment
+medications 28 39 536 547 I-treatment
+
+Started 0 7 548 555 O
+ART 8 11 556 559 B-treatment
+during 12 18 560 566 O
+chronic 19 26 567 574 B-chronic_disease
+infection 27 36 575 584 I-chronic_disease
+( 37 38 585 586 O
+> 38 39 586 587 O
+6 40 41 588 589 B-lower_bound
+months 42 48 590 596 I-lower_bound
+from 49 53 597 601 O
+estimated 54 63 602 611 O
+date 64 68 612 616 O
+of 69 71 617 619 O
+injection 72 81 620 629 O
+) 81 82 629 630 O
+
+Uncontrolled 0 12 631 643 O
+psychiatric 13 24 644 655 B-chronic_disease
+condition 25 34 656 665 I-chronic_disease
+
+between 0 7 666 673 O
+18 8 10 674 676 B-lower_bound
+and 11 14 677 680 O
+65 15 17 681 683 B-upper_bound
+years 18 23 684 689 I-upper_bound
+of 24 26 690 692 O
+age 27 30 693 696 B-age
+

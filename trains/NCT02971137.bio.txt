@@ -1,0 +1,43 @@
+No 0 2 0 2 B-technology_access
+access 3 9 3 9 I-technology_access
+to 10 12 10 12 I-technology_access
+telephone 13 22 13 22 I-technology_access
+/ 22 23 22 23 I-technology_access
+Lack 23 27 23 27 I-technology_access
+of 28 30 28 30 I-technology_access
+Telephone 31 40 31 40 I-technology_access
+Access 41 47 41 47 I-technology_access
+
+Non 0 3 48 51 B-language_fluency
+- 3 4 51 52 I-language_fluency
+English 4 11 52 59 I-language_fluency
+speaking 12 20 60 68 I-language_fluency
+
+Pain 0 4 69 73 B-clinical_variable
+intensity 5 14 74 83 I-clinical_variable
+4 15 16 84 85 B-lower_bound
+or 17 19 86 88 O
+greater 20 27 89 96 O
+on 28 30 97 99 O
+scale 31 36 100 105 O
+0 37 38 106 107 B-lower_bound
+- 38 39 107 108 O
+10 39 41 108 110 B-upper_bound
+, 41 42 110 111 O
+self 43 47 112 116 O
+- 47 48 116 117 O
+reported 48 56 117 125 O
+
+Terminal 0 8 126 134 B-chronic_disease
+Illness 9 16 135 142 I-chronic_disease
+
+Willing 0 7 143 150 O
+to 8 10 151 153 O
+make 11 15 154 158 O
+quit 16 20 159 163 O
+attempt 21 28 164 171 O
+in 29 31 172 174 O
+next 32 36 175 179 O
+30 37 39 180 182 B-upper_bound
+days 40 44 183 187 I-upper_bound
+

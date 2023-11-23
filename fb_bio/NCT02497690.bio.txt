@@ -1,0 +1,12 @@
+blindness 0 9 0 9 B-chronic_disease
+
+severe 0 6 10 16 O
+motor 7 12 17 22 B-chronic_disease
+impairment 13 23 23 33 I-chronic_disease
+
+significant 0 11 34 45 O
+genetic 12 19 46 53 O
+/ 19 20 53 54 O
+chromosomal 20 31 54 65 B-chronic_disease
+syndrome 32 40 66 74 I-chronic_disease
+

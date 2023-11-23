@@ -1,0 +1,67 @@
+Acute 0 5 0 5 B-chronic_disease
+infection 6 15 6 15 I-chronic_disease
+acquired 16 24 16 24 O
+during 25 31 25 31 O
+gestation 32 41 32 41 O
+with 42 46 42 46 O
+evidence 47 55 47 55 O
+of 56 58 56 58 O
+fetal 59 64 59 64 B-chronic_disease
+infection 65 74 65 74 I-chronic_disease
+
+Age 0 3 75 78 B-age
+more 4 8 79 83 O
+than 9 13 84 88 O
+1 14 15 89 90 B-lower_bound
+year 16 20 91 95 I-lower_bound
+
+Asymptomatic 0 12 96 108 O
+congenital 13 23 109 119 B-chronic_disease
+toxoplasmosis 24 37 120 133 I-chronic_disease
+
+Infants 0 7 134 141 O
+with 8 12 142 146 O
+congenital 13 23 147 157 B-chronic_disease
+toxoplasmosis 24 37 158 171 I-chronic_disease
+Toxoplasma 38 48 172 182 O
+gondii 49 55 183 189 O
+confirmed 56 65 190 199 O
+prior 66 71 200 205 O
+to 72 74 206 208 O
+age 75 78 209 212 B-age
+2.5 79 82 213 216 B-upper_bound
+months 83 89 217 223 I-upper_bound
+
+No 0 2 224 226 O
+more 3 7 227 231 O
+than 8 12 232 236 O
+1 13 14 237 238 B-lower_bound
+month 15 20 239 244 I-lower_bound
+of 21 23 245 247 O
+prior 24 29 248 253 B-treatment
+therapy 30 37 254 261 I-treatment
+
+No 0 2 262 264 O
+treatment 3 12 265 274 B-treatment
+within 13 19 275 281 O
+the 20 23 282 285 O
+first 24 29 286 291 B-upper_bound
+year 30 34 292 296 I-upper_bound
+of 35 37 297 299 O
+life 38 42 300 304 O
+
+Pregnant 0 8 305 313 B-pregnancy
+women 9 14 314 319 B-gender
+with 15 19 320 324 O
+evidence 20 28 325 333 O
+of 29 31 334 336 O
+toxoplasma 32 42 337 347 B-chronic_disease
+infection 43 52 348 357 I-chronic_disease
+by 53 55 358 360 O
+clinical 56 64 361 369 O
+observation 65 76 370 381 O
+and 77 80 382 385 O
+amniotic 81 89 386 394 O
+fluid 90 95 395 400 O
+sampling 96 104 401 409 O
+

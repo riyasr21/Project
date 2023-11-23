@@ -1,0 +1,48 @@
+< 0 1 0 1 O
+20 1 3 1 3 B-upper_bound
+kg 3 5 3 5 I-upper_bound
+if 6 8 6 8 O
+aged 9 13 9 13 B-age
+7 14 15 14 15 B-lower_bound
+- 15 16 15 16 O
+14 16 18 16 18 B-upper_bound
+years 19 24 19 24 I-upper_bound
+
+Bradyarrhythmias 0 16 25 41 B-chronic_disease
+
+Major 0 5 42 47 O
+head 6 10 48 52 B-chronic_disease
+trauma 11 17 53 59 I-chronic_disease
+
+Native 0 6 60 66 B-language_fluency
+English 7 14 67 74 I-language_fluency
+speaker 15 22 75 82 I-language_fluency
+
+Other 0 5 83 88 O
+neurological 6 18 89 101 B-chronic_disease
+disorders 19 28 102 111 I-chronic_disease
+
+Parent 0 6 112 118 O
+or 7 9 119 121 O
+caregiver 10 19 122 131 O
+must 20 24 132 136 O
+older 25 30 137 142 O
+than 31 35 143 147 O
+18 36 38 148 150 B-lower_bound
+years 39 44 151 156 I-lower_bound
+
+Pregnancy 0 9 157 166 B-pregnancy
+
+Reactive 0 8 167 175 O
+airway 9 15 176 182 B-chronic_disease
+disease 16 23 183 190 I-chronic_disease
+
+Thyroid 0 7 191 198 B-chronic_disease
+disease 8 15 199 206 I-chronic_disease
+
+aged 0 4 207 211 B-age
+15 5 7 212 214 B-lower_bound
+- 7 8 214 215 O
+24 8 10 215 217 B-upper_bound
+years 11 16 218 223 I-upper_bound
+

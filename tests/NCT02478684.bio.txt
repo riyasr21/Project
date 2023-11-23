@@ -1,0 +1,31 @@
+Any 0 3 0 3 O
+major 4 9 4 9 O
+congenital 10 20 10 20 B-chronic_disease
+anomalies 21 30 21 30 I-chronic_disease
+
+Bleeding 0 8 31 39 O
+from 9 13 40 44 O
+placenta 14 22 45 53 B-chronic_disease
+previa 23 29 54 60 I-chronic_disease
+
+Cord 0 4 61 65 B-chronic_disease
+prolapse 5 13 66 74 I-chronic_disease
+
+Meconium 0 8 75 83 B-chronic_disease
+
+Premature 0 9 84 93 O
+infants 10 17 94 101 O
+between 18 25 102 109 O
+28 26 28 110 112 B-lower_bound
+and 29 32 113 116 O
+34 33 35 117 119 B-upper_bound
+6/7 36 39 120 123 I-upper_bound
+weeks 40 45 124 129 I-upper_bound
+
+Suspected 0 9 130 139 B-chronic_disease
+placental 10 19 140 149 I-chronic_disease
+abruption 20 29 150 159 I-chronic_disease
+
+Terminal 0 8 160 168 B-chronic_disease
+bradycardia 9 20 169 180 I-chronic_disease
+

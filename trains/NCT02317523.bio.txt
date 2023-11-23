@@ -1,0 +1,101 @@
+Aged 0 4 0 4 B-age
+55 5 7 5 7 B-lower_bound
+years 8 13 8 13 I-lower_bound
+or 14 16 14 16 O
+older 17 22 17 22 O
+
+Blood 0 5 23 28 B-clinical_variable
+pressure 6 14 29 37 I-clinical_variable
+> 15 16 38 39 O
+200/120 16 23 39 46 B-lower_bound
+mm 24 26 47 49 I-lower_bound
+Hg 27 29 50 52 I-lower_bound
+
+Caregivers 0 10 53 63 O
+enrolled 11 19 64 72 O
+in 20 22 73 75 O
+another 23 30 76 83 O
+intervention 31 43 84 96 O
+study 44 49 97 102 O
+or 50 52 103 105 O
+receiving 53 62 106 115 O
+psychotherapy 63 76 116 129 B-treatment
+to 77 79 130 132 O
+improve 80 87 133 140 O
+well 88 92 141 145 O
+- 92 93 145 146 O
+being 93 98 146 151 O
+or 99 101 152 154 O
+reduce 102 108 155 161 O
+distress 109 117 162 170 O
+
+Cognitive 0 9 171 180 B-chronic_disease
+impairment 10 20 181 191 I-chronic_disease
+
+Glucocorticoid 0 14 192 206 B-treatment
+use 15 18 207 210 O
+in 19 21 211 213 O
+the 22 25 214 217 O
+2 26 27 218 219 B-upper_bound
+weeks 28 33 220 225 I-upper_bound
+prior 34 39 226 231 I-upper_bound
+to 40 42 232 234 O
+enrollment 43 53 235 245 O
+
+Neither 0 7 246 253 O
+the 8 11 254 257 O
+caregiver 12 21 258 267 O
+nor 22 25 268 271 O
+Alzheimer 26 35 272 281 B-chronic_disease
+'s 35 37 281 283 O
+patient 38 45 284 291 O
+can 46 49 292 295 O
+be 50 52 296 298 O
+diagnosed 53 62 299 308 O
+with 63 67 309 313 O
+a 68 69 314 315 O
+terminal 70 78 316 324 O
+illness 79 86 325 332 O
+with 87 91 333 337 O
+a 92 93 338 339 O
+life 94 98 340 344 B-clinical_variable
+expectancy 99 109 345 355 I-clinical_variable
+of 110 112 356 358 O
+less 113 117 359 363 O
+than 118 122 364 368 O
+1 123 124 369 370 B-upper_bound
+year 125 129 371 375 I-upper_bound
+
+Providing 0 9 376 385 O
+in 10 12 386 388 O
+- 12 13 388 389 O
+home 13 17 389 393 O
+care 18 22 394 398 O
+to 23 25 399 401 O
+a 26 27 402 403 O
+spouse 28 34 404 410 O
+with 35 39 411 415 O
+dementia 40 48 416 424 B-chronic_disease
+
+Taking 0 6 425 431 O
+Aldomet 7 14 432 439 B-treatment
+or 15 17 440 442 O
+labetalol 18 27 443 452 B-treatment
+
+Taking 0 6 453 459 O
+Coumarin 7 15 460 468 B-treatment
+anticoagulants 16 30 469 483 I-treatment
+
+Taking 0 6 484 490 O
+nitrates 7 15 491 499 B-treatment
+or 16 18 500 502 O
+niacin 19 25 503 509 B-treatment
+
+Taking 0 6 510 516 O
+non 7 10 517 520 B-treatment
+- 10 11 520 521 I-treatment
+selective 11 20 521 530 I-treatment
+β 21 22 531 532 I-treatment
+- 22 23 532 533 I-treatment
+blockers 23 31 533 541 I-treatment
+

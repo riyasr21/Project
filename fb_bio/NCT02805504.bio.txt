@@ -1,0 +1,22 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+bupivacaine 11 22 11 22 B-allergy_name
+
+Patients 0 8 23 31 O
+undergoing 9 19 32 42 O
+urologic 20 28 43 51 B-treatment
+surgery 29 36 52 59 I-treatment
+
+Pregnant 0 8 60 68 B-pregnancy
+
+Severe 0 6 69 75 O
+cardiovascular 7 21 76 90 B-chronic_disease
+, 21 22 90 91 O
+hepatic 23 30 92 99 B-chronic_disease
+, 30 31 99 100 O
+renal 32 37 101 106 B-chronic_disease
+disease 38 45 107 114 I-chronic_disease
+or 46 48 115 117 O
+neurological 49 61 118 130 B-chronic_disease
+impairment 62 72 131 141 I-chronic_disease
+

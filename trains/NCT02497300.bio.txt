@@ -1,0 +1,175 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+65 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Allergy 0 7 19 26 O
+or 8 10 27 29 O
+intolerance 11 22 30 41 O
+to 23 25 42 44 O
+spironolactone 26 40 45 59 B-allergy_name
+or 41 43 60 62 O
+amiloride 44 53 63 72 B-allergy_name
+
+CKD 0 3 73 76 B-chronic_disease
+( 4 5 77 78 O
+eGFR 5 9 78 82 B-clinical_variable
+25 10 12 83 85 B-lower_bound
+- 12 13 85 86 O
+60 13 15 86 88 B-upper_bound
+mL 16 18 89 91 I-upper_bound
+/ 18 19 91 92 I-upper_bound
+min/1.73m2 19 29 92 102 I-upper_bound
+) 29 30 102 103 O
+with 31 35 104 108 O
+urine 36 41 109 114 B-clinical_variable
+albumin 42 49 115 122 I-clinical_variable
+- 49 50 122 123 I-clinical_variable
+to 50 52 123 125 I-clinical_variable
+- 52 53 125 126 I-clinical_variable
+creatinine 53 63 126 136 I-clinical_variable
+ratio 64 69 137 142 I-clinical_variable
+> 70 71 143 144 O
+30 72 74 145 147 B-lower_bound
+mg 75 77 148 150 I-lower_bound
+/ 77 78 150 151 I-lower_bound
+g 78 79 151 152 I-lower_bound
+
+CKD 0 3 153 156 B-chronic_disease
+( 4 5 157 158 O
+eGFR 5 9 158 162 B-clinical_variable
+> 10 11 163 164 O
+60 12 14 165 167 B-lower_bound
+mL 15 17 168 170 I-lower_bound
+/ 17 18 170 171 I-lower_bound
+min/1.73m2 18 28 171 181 I-lower_bound
+) 28 29 181 182 O
+with 30 34 183 187 O
+urine 35 40 188 193 O
+albumin 41 48 194 201 B-clinical_variable
+- 48 49 201 202 I-clinical_variable
+to 49 51 202 204 I-clinical_variable
+- 51 52 204 205 I-clinical_variable
+creatinine 52 62 205 215 I-clinical_variable
+ratio 63 68 216 221 I-clinical_variable
+≥ 69 70 222 223 O
+300 71 74 224 227 B-lower_bound
+mg 75 77 228 230 I-lower_bound
+/ 77 78 230 231 I-lower_bound
+g 78 79 231 232 I-lower_bound
+
+Dementia 0 8 233 241 B-chronic_disease
+
+Diabetes 0 8 242 250 B-chronic_disease
+mellitus 9 17 251 259 I-chronic_disease
+( 18 19 260 261 I-chronic_disease
+DM 19 21 261 263 I-chronic_disease
+) 21 22 263 264 I-chronic_disease
+type 23 27 265 269 I-chronic_disease
+1 28 29 270 271 I-chronic_disease
+
+Diabetes 0 8 272 280 B-chronic_disease
+mellitus 9 17 281 289 I-chronic_disease
+type 18 22 290 294 I-chronic_disease
+2 23 24 295 296 I-chronic_disease
+with 25 29 297 301 O
+glycosylated 30 42 302 314 B-clinical_variable
+hemoglobin 43 53 315 325 I-clinical_variable
+≥ 54 55 326 327 O
+6.5 56 59 328 331 B-lower_bound
+% 59 60 331 332 I-lower_bound
+
+History 0 7 333 340 O
+of 8 10 341 343 O
+arrhythmia 11 21 344 354 B-chronic_disease
+, 21 22 354 355 O
+including 23 32 356 365 O
+atrial 33 39 366 372 B-chronic_disease
+fibrillation 40 52 373 385 I-chronic_disease
+
+History 0 7 386 393 O
+of 8 10 394 396 O
+ischemic 11 19 397 405 B-chronic_disease
+stroke 20 26 406 412 I-chronic_disease
+
+Hypotension 0 11 413 424 B-chronic_disease
+( 12 13 425 426 O
+office 13 19 426 432 O
+BP 20 22 433 435 B-clinical_variable
+< 23 24 436 437 O
+110/70 25 31 438 444 B-upper_bound
+mm 32 34 445 447 I-upper_bound
+Hg 35 37 448 450 I-upper_bound
+) 37 38 450 451 O
+
+Known 0 5 452 457 O
+primary 6 13 458 465 B-chronic_disease
+aldosteronism 14 27 466 479 I-chronic_disease
+or 28 30 480 482 O
+renal 31 36 483 488 B-chronic_disease
+artery 37 43 489 495 I-chronic_disease
+stenosis 44 52 496 504 I-chronic_disease
+
+Pregnant 0 8 505 513 B-pregnancy
+
+Serum 0 5 514 519 B-clinical_variable
+potassium 6 15 520 529 I-clinical_variable
+> 16 17 530 531 O
+5 18 19 532 533 B-lower_bound
+milliequivalent 20 35 534 549 I-lower_bound
+/ 35 36 549 550 I-lower_bound
+L 36 37 550 551 I-lower_bound
+
+Severe 0 6 552 558 O
+hypertension 7 19 559 571 B-chronic_disease
+( 20 21 572 573 I-chronic_disease
+HTN 21 24 573 576 I-chronic_disease
+) 24 25 576 577 I-chronic_disease
+( 26 27 578 579 O
+office 27 33 579 585 O
+BP 34 36 586 588 B-clinical_variable
+≥ 37 38 589 590 O
+160/100 39 46 591 598 B-lower_bound
+mm 47 49 599 601 I-lower_bound
+Hg 50 52 602 604 I-lower_bound
+) 52 53 604 605 O
+
+Use 0 3 606 609 O
+of 4 6 610 612 O
+an 7 9 613 615 O
+MR 10 12 616 618 B-treatment
+antagonist 13 23 619 629 I-treatment
+or 24 26 630 632 O
+an 27 29 633 635 O
+epithelial 30 40 636 646 B-treatment
+sodium 41 47 647 653 I-treatment
+channel 48 55 654 661 I-treatment
+blocking 56 64 662 670 I-treatment
+medication 65 75 671 681 I-treatment
+within 76 82 682 688 O
+the 83 86 689 692 O
+last 87 91 693 697 O
+month 92 97 698 703 O
+
+breast 0 6 704 710 O
+feeding 7 14 711 718 O
+woman 15 20 719 724 B-gender
+
+cognitive 0 9 725 734 B-chronic_disease
+impairment 10 20 735 745 I-chronic_disease
+prohibiting 21 32 746 757 O
+consent 33 40 758 765 O
+
+myocardial 0 10 766 776 B-chronic_disease
+infarction 11 21 777 787 I-chronic_disease
+within 22 28 788 794 O
+the 29 32 795 798 O
+past 33 37 799 803 B-upper_bound
+6 38 39 804 805 I-upper_bound
+months 40 46 806 812 I-upper_bound
+
+unstable 0 8 813 821 B-chronic_disease
+angina 9 15 822 828 I-chronic_disease
+

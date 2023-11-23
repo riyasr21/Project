@@ -1,0 +1,63 @@
+Anticipated 0 11 0 11 O
+to 12 14 12 14 O
+undergo 15 22 15 22 O
+pancreatectomy 23 37 23 37 B-treatment
+in 38 40 38 40 O
+> 41 42 41 42 O
+/= 42 44 42 44 O
+6 45 46 45 46 B-lower_bound
+weeks 47 52 47 52 I-lower_bound
+from 53 57 53 57 O
+enrollment 58 68 58 68 O
+
+Completed 0 9 69 78 O
+preoperative 10 22 79 91 B-treatment
+therapy 23 30 92 99 I-treatment
+and 31 34 100 103 O
+are 35 38 104 107 O
+on 39 41 108 110 O
+their 42 47 111 116 O
+presurgical 48 59 117 128 O
+rest 60 64 129 133 O
+period 65 71 134 140 O
+
+Myopathic 0 9 141 150 B-chronic_disease
+or 10 12 151 153 O
+rheumatologic 13 26 154 167 B-chronic_disease
+disease 27 34 168 175 I-chronic_disease
+that 35 39 176 180 O
+impacts 40 47 181 188 O
+physical 48 56 189 197 O
+function 57 65 198 206 O
+
+Neuroendocrine 0 14 207 221 B-cancer
+cancer 15 21 222 228 I-cancer
+
+Numeric 0 7 229 236 B-clinical_variable
+pain 8 12 237 241 I-clinical_variable
+rating 13 19 242 248 I-clinical_variable
+scale 20 25 249 254 I-clinical_variable
+of 26 28 255 257 O
+> 29 30 258 259 O
+/= 30 32 259 261 O
+7 33 34 262 263 B-lower_bound
+out 35 38 264 267 O
+of 39 41 268 270 O
+10 42 44 271 273 B-upper_bound
+
+Pancreatic 0 10 274 284 B-cancer
+cancer 11 17 285 291 I-cancer
+of 18 20 292 294 O
+any 21 24 295 298 O
+type 25 29 299 303 O
+, 29 30 303 304 O
+biopsy 31 37 305 311 O
+- 37 38 311 312 O
+proven 38 44 312 318 O
+
+Recurrent 0 9 319 328 O
+cancer 10 16 329 335 B-cancer
+following 17 26 336 345 O
+prior 27 32 346 351 O
+resection 33 42 352 361 O
+

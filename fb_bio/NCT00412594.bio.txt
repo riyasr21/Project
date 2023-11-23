@@ -1,0 +1,126 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+and 13 16 13 16 O
+older 17 22 17 22 O
+
+Diagnosis 0 9 23 32 O
+of 10 12 33 35 O
+HCL 13 16 36 39 B-cancer
+established 17 28 40 51 O
+by 29 31 52 54 O
+bone 32 36 55 59 O
+marrow 37 43 60 66 O
+examination 44 55 67 78 O
+
+Known 0 5 79 84 O
+infection 6 15 85 94 O
+with 16 20 95 99 O
+HIV 21 24 100 103 B-chronic_disease
+, 24 25 103 104 O
+hepatitis 26 35 105 114 B-chronic_disease
+B 36 37 115 116 I-chronic_disease
+or 38 40 117 119 I-chronic_disease
+C 41 42 120 121 I-chronic_disease
+
+New 0 3 122 125 B-clinical_variable
+York 4 8 126 130 I-clinical_variable
+Heart 9 14 131 136 I-clinical_variable
+Association 15 26 137 148 I-clinical_variable
+Classification 27 41 149 163 I-clinical_variable
+III 42 45 164 167 B-lower_bound
+or 46 48 168 170 O
+IV 49 51 171 173 B-upper_bound
+heart 52 57 174 179 B-chronic_disease
+disease 58 65 180 187 I-chronic_disease
+( 66 67 188 189 O
+See 67 70 189 192 O
+Appendix 71 79 193 201 O
+I 80 81 202 203 O
+) 81 82 203 204 O
+
+No 0 2 205 207 O
+prior 3 8 208 213 O
+investigational 9 24 214 229 O
+agent 25 30 230 235 O
+in 31 33 236 238 O
+the 34 37 239 242 O
+4 38 39 243 244 B-upper_bound
+weeks 40 45 245 250 I-upper_bound
+prior 46 51 251 256 I-upper_bound
+to 52 54 257 259 O
+initiation 55 65 260 270 O
+of 66 68 271 273 O
+therapy 69 76 274 281 O
+
+Patients 0 8 282 290 O
+with 9 13 291 295 O
+relapsed 14 22 296 304 O
+disease 23 30 305 312 O
+are 31 34 313 316 O
+eligible 35 43 317 325 O
+if 44 46 326 328 O
+they 47 51 329 333 O
+have 52 56 334 338 O
+had 57 60 339 342 O
+no 61 63 343 345 O
+more 64 68 346 350 O
+than 69 73 351 355 O
+one 74 77 356 359 O
+prior 78 83 360 365 B-treatment
+therapy 84 91 366 373 I-treatment
+
+Performance 0 11 374 385 B-clinical_variable
+status 12 18 386 392 I-clinical_variable
+< 19 20 393 394 O
+/= 20 22 394 396 O
+3 23 24 397 398 B-upper_bound
+
+Presence 0 8 399 407 O
+of 9 11 408 410 O
+CNS 12 15 411 414 B-cancer
+metastases 16 26 415 425 I-cancer
+
+Presence 0 8 426 434 O
+of 9 11 435 437 O
+active 12 18 438 444 B-chronic_disease
+infection 19 28 445 454 I-chronic_disease
+
+Prior 0 5 455 460 B-treatment
+chemotherapy 6 18 461 473 I-treatment
+( 19 20 474 475 O
+last 20 24 475 479 B-upper_bound
+4 25 26 480 481 I-upper_bound
+weeks 27 32 482 487 I-upper_bound
+) 32 33 487 488 O
+
+Women 0 5 489 494 B-gender
+of 6 8 495 497 O
+child 9 14 498 503 O
+- 14 15 503 504 O
+bearing 15 22 504 511 O
+potential 23 32 512 521 O
+must 33 37 522 526 O
+use 38 41 527 530 B-contraception_consent
+birth 42 47 531 536 I-contraception_consent
+control 48 55 537 544 I-contraception_consent
+( 56 57 545 546 O
+oral 57 61 546 550 B-contraception_consent
+contraceptive 62 75 551 564 I-contraception_consent
+, 75 76 564 565 O
+barrier 77 84 566 573 B-contraception_consent
+, 84 85 573 574 O
+abstinence 86 96 575 585 B-contraception_consent
+or 97 99 586 588 O
+any 100 103 589 592 O
+other 104 109 593 598 O
+acceptable 110 120 599 609 O
+method 121 127 610 616 O
+) 127 128 616 617 O
+for 129 132 618 621 O
+the 133 136 622 625 O
+duration 137 145 626 634 O
+of 146 148 635 637 O
+the 149 152 638 641 O
+study 153 158 642 647 O
+

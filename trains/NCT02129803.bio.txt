@@ -1,0 +1,90 @@
+10 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+and 16 19 16 19 O
+older 20 25 20 25 O
+
+Confirmed 0 9 26 35 O
+diagnosis 10 19 36 45 O
+of 20 22 46 48 O
+CF 23 25 49 51 B-chronic_disease
+
+History 0 7 52 59 O
+of 8 10 60 62 O
+obstructive 11 22 63 74 B-chronic_disease
+sleep 23 28 75 80 I-chronic_disease
+apnea 29 34 81 86 I-chronic_disease
+
+History 0 7 87 94 O
+of 8 10 95 97 O
+pressure 11 19 98 106 O
+headaches 20 29 107 116 O
+requiring 30 39 117 126 O
+therapy 40 47 127 134 B-treatment
+within 48 54 135 141 O
+one 55 58 142 145 B-upper_bound
+month 59 64 146 151 I-upper_bound
+of 65 67 152 154 O
+enrollment 68 78 155 165 O
+
+Hospital 0 8 166 174 B-treatment
+admission 9 18 175 184 I-treatment
+for 19 22 185 188 O
+acute 23 28 189 194 B-chronic_disease
+pulmonary 29 38 195 204 I-chronic_disease
+exacerbation 39 51 205 217 I-chronic_disease
+of 52 54 218 220 O
+CF 55 57 221 223 O
+( 58 59 224 225 O
+using 59 64 225 230 O
+Fuchs 65 70 231 236 O
+criteria 71 79 237 245 O
+4/10 80 84 246 250 O
+) 84 85 250 251 O
+
+Receipt 0 7 252 259 O
+of 8 10 260 262 O
+any 11 14 263 266 O
+aerosolized 15 26 267 278 O
+experimental 27 39 279 291 O
+or 40 42 292 294 O
+investigational 43 58 295 310 B-treatment
+drugs 59 64 311 316 I-treatment
+within 65 71 317 323 O
+1 72 73 324 325 B-upper_bound
+month 74 79 326 331 I-upper_bound
+of 80 82 332 334 O
+enrollment 83 93 335 345 O
+
+Subject 0 7 346 353 O
+had 8 11 354 357 O
+ear 12 15 358 361 B-treatment
+, 15 16 361 362 I-treatment
+nose 17 21 363 367 I-treatment
+, 21 22 367 368 I-treatment
+and 23 26 369 372 I-treatment
+throat 27 33 373 379 I-treatment
+( 34 35 380 381 I-treatment
+ENT 35 38 381 384 I-treatment
+) 38 39 384 385 I-treatment
+surgery 40 47 386 393 I-treatment
+
+Subject 0 7 394 401 O
+requires 8 16 402 410 O
+supplemental 17 29 411 423 B-treatment
+oxygen 30 36 424 430 I-treatment
+
+nasal 0 5 431 436 B-chronic_disease
+bleeding 6 14 437 445 I-chronic_disease
+, 14 15 445 446 O
+or 16 18 447 449 O
+nasal 19 24 450 455 B-chronic_disease
+polyps 25 31 456 462 I-chronic_disease
+within 32 38 463 469 O
+6 39 40 470 471 B-upper_bound
+months 41 47 472 478 I-upper_bound
+prior 48 53 479 484 I-upper_bound
+to 54 56 485 487 O
+study 57 62 488 493 O
+

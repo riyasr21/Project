@@ -1,0 +1,66 @@
+18 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+70 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+> 0 1 22 23 O
+than 2 6 24 28 O
+15 7 9 29 31 B-lower_bound
+Eos 10 13 32 35 B-clinical_variable
+phf 14 17 36 39 I-clinical_variable
+
+Clinical 0 8 40 48 O
+evidence 9 17 49 57 O
+of 18 20 58 60 O
+infectious 21 31 61 71 O
+process 32 39 72 79 O
+potentially 40 51 80 91 O
+contributing 52 64 92 104 O
+to 65 67 105 107 O
+dysphagia 68 77 108 117 B-chronic_disease
+( 78 79 118 119 O
+e.g. 79 83 119 123 O
+candidiasis 84 95 124 135 B-chronic_disease
+, 95 96 135 136 O
+CMV 97 100 137 140 B-chronic_disease
+, 100 101 140 141 O
+herpes 102 108 142 148 B-chronic_disease
+) 108 109 148 149 O
+
+Esophageal 0 10 150 160 B-clinical_variable
+minimal 11 18 161 168 I-clinical_variable
+diameter 19 27 169 177 I-clinical_variable
+< 28 29 178 179 O
+13 30 32 180 182 B-upper_bound
+mm 33 35 183 185 I-upper_bound
+on 36 38 186 188 O
+structured 39 49 189 199 B-treatment
+barium 50 56 200 206 I-treatment
+esophagram 57 67 207 217 I-treatment
+
+Other 0 5 218 223 O
+cause 6 11 224 229 O
+of 12 14 230 232 O
+dysphagia 15 24 233 242 B-chronic_disease
+identified 25 35 243 253 O
+at 36 38 254 256 O
+endoscopy 39 48 257 266 B-treatment
+( 49 50 267 268 O
+e.g. 50 54 268 272 O
+reflux 55 61 273 279 B-chronic_disease
+esophagitis 62 73 280 291 I-chronic_disease
+, 73 74 291 292 O
+stricture 75 84 293 302 B-chronic_disease
+, 84 85 302 303 O
+web 86 89 304 307 B-chronic_disease
+, 89 90 307 308 O
+ring 91 95 309 313 B-chronic_disease
+, 95 96 313 314 O
+achalasia 97 106 315 324 B-chronic_disease
+, 106 107 324 325 O
+esophageal 108 118 326 336 B-cancer
+neoplasm 119 127 337 345 I-cancer
+) 127 128 345 346 O
+

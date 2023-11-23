@@ -1,0 +1,8 @@
+Clinical 0 8 0 8 O
+diagnosis 9 18 9 18 O
+of 19 21 19 21 O
+low 22 25 22 25 O
+risk 26 30 26 30 O
+thyroid 31 38 31 38 B-cancer
+cancer 39 45 39 45 I-cancer
+

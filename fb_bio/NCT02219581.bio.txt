@@ -1,0 +1,153 @@
+Any 0 3 0 3 O
+contraindication 4 20 4 20 O
+that 21 25 21 25 O
+would 26 31 26 31 O
+prevent 32 39 32 39 O
+the 40 43 40 43 O
+patient 44 51 44 51 O
+from 52 56 52 56 O
+being 57 62 57 62 O
+treated 63 70 63 70 O
+with 71 75 71 75 O
+the 76 79 76 79 O
+standard 80 88 80 88 O
+multimodal 89 99 89 99 B-treatment
+postoperative 100 113 100 113 I-treatment
+pain 114 118 114 118 I-treatment
+management 119 129 119 129 I-treatment
+regimen 130 137 130 137 O
+History 138 145 138 145 O
+of 146 148 146 148 O
+infection 149 158 149 158 O
+of 159 161 159 161 O
+surgical 162 170 162 170 O
+knee 171 175 171 175 O
+
+Any 0 3 176 179 O
+patient 4 11 180 187 O
+with 12 16 188 192 O
+a 17 18 193 194 O
+complicated 19 30 195 206 O
+postoperative 31 44 207 220 O
+course 45 51 221 227 O
+that 52 56 228 232 O
+requires 57 65 233 241 O
+transfer 66 74 242 250 O
+to 75 77 251 253 O
+the 78 81 254 257 O
+Intensive 82 91 258 267 B-treatment
+Care 92 96 268 272 I-treatment
+Unit 97 101 273 277 I-treatment
+( 102 103 278 279 I-treatment
+ICU 103 106 279 282 I-treatment
+) 106 107 282 283 I-treatment
+or 108 110 284 286 O
+to 111 113 287 289 O
+another 114 121 290 297 O
+facility 122 130 298 306 O
+for 131 134 307 310 O
+further 135 142 311 318 O
+management 143 153 319 329 O
+will 154 158 330 334 O
+be 159 161 335 337 O
+removed 162 169 338 345 O
+from 170 174 346 350 O
+the 175 178 351 354 O
+study 179 184 355 360 O
+
+Current 0 7 361 368 O
+chronic 8 15 369 376 O
+steroid 16 23 377 384 B-treatment
+use 24 27 385 388 O
+
+Patients 0 8 389 397 O
+< 9 10 398 399 O
+18 10 12 399 401 B-upper_bound
+years 13 18 402 407 I-upper_bound
+of 19 21 408 410 O
+age 22 25 411 414 B-age
+
+Patients 0 8 415 423 O
+must 9 13 424 428 B-technology_access
+have 14 18 429 433 I-technology_access
+smart 19 24 434 439 I-technology_access
+phone 25 30 440 445 I-technology_access
+and/or 31 37 446 452 I-technology_access
+device 38 44 453 459 I-technology_access
+for 45 48 460 463 I-technology_access
+app 49 52 464 467 I-technology_access
+usage 53 58 468 473 I-technology_access
+
+Patients 0 8 474 482 O
+that 9 13 483 487 O
+do 14 16 488 490 B-technology_access
+not 17 20 491 494 I-technology_access
+have 21 25 495 499 I-technology_access
+smart 26 31 500 505 I-technology_access
+phone 32 37 506 511 I-technology_access
+and/or 38 44 512 518 I-technology_access
+device 45 51 519 525 I-technology_access
+for 52 55 526 529 I-technology_access
+app 56 59 530 533 I-technology_access
+usage 60 65 534 539 I-technology_access
+
+Patients 0 8 540 548 O
+that 9 13 549 553 O
+have 14 18 554 558 O
+an 19 21 559 561 O
+intolerance 22 33 562 573 O
+to 34 36 574 576 O
+Toradol 37 44 577 584 B-treatment
+
+Patients 0 8 585 593 O
+undergoing 9 19 594 604 O
+primary 20 27 605 612 B-treatment
+total 28 33 613 618 I-treatment
+joint 34 39 619 624 I-treatment
+arthroplasty 40 52 625 637 I-treatment
+of 53 55 638 640 O
+the 56 59 641 644 O
+knee 60 64 645 649 O
+
+Patients 0 8 650 658 O
+undergoing 9 19 659 669 O
+revision 20 28 670 678 O
+knee 29 33 679 683 B-treatment
+surgery 34 41 684 691 I-treatment
+
+Patients 0 8 692 700 O
+with 9 13 701 705 O
+a 14 15 706 707 O
+history 16 23 708 715 O
+of 24 26 716 718 O
+an 27 29 719 721 O
+adverse 30 37 722 729 O
+reaction 38 46 730 738 O
+to 47 49 739 741 O
+glucocorticoid 50 64 742 756 B-treatment
+steroids 65 73 757 765 I-treatment
+
+Patients 0 8 766 774 O
+with 9 13 775 779 O
+avascular 14 23 780 789 B-chronic_disease
+necrosis 24 32 790 798 I-chronic_disease
+of 33 35 799 801 I-chronic_disease
+the 36 39 802 805 I-chronic_disease
+operative 40 49 806 815 I-chronic_disease
+knee 50 54 816 820 I-chronic_disease
+
+Patients 0 8 821 829 O
+with 9 13 830 834 O
+diabetes 14 22 835 843 B-chronic_disease
+
+Patients 0 8 844 852 O
+with 9 13 853 857 O
+inflammatory 14 26 858 870 B-chronic_disease
+arthritis 27 36 871 880 I-chronic_disease
+
+ages 0 4 881 885 B-age
+18 5 7 886 888 B-lower_bound
+- 7 8 888 889 O
+100 8 11 889 892 B-upper_bound
+years 12 17 893 898 I-upper_bound
+

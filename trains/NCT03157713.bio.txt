@@ -1,0 +1,60 @@
+Chronic 0 7 0 7 B-chronic_disease
+Kidney 8 14 8 14 I-chronic_disease
+Disease 15 22 15 22 I-chronic_disease
+stage 23 28 23 28 I-chronic_disease
+IV 29 31 29 31 I-chronic_disease
+/ 31 32 31 32 I-chronic_disease
+V 32 33 32 33 I-chronic_disease
+
+With 0 4 34 38 O
+obesity 5 12 39 46 B-chronic_disease
+, 12 13 46 47 O
+based 14 19 48 53 O
+on 20 22 54 56 O
+BMI 23 26 57 60 B-bmi
+of 27 29 61 63 O
+30 30 32 64 66 B-lower_bound
+to 33 35 67 69 O
+40 36 38 70 72 B-upper_bound
+kg 39 41 73 75 I-upper_bound
+/ 41 42 75 76 I-upper_bound
+m2 42 44 76 78 I-upper_bound
+during 45 51 79 85 O
+a 52 53 86 87 O
+prior 54 59 88 93 O
+visit 60 65 94 99 O
+in 66 68 100 102 O
+the 69 72 103 106 O
+past 73 77 107 111 B-upper_bound
+6 78 79 112 113 I-upper_bound
+months 80 86 114 120 I-upper_bound
+
+have 0 4 121 125 O
+active 5 11 126 132 O
+psychosis 12 21 133 142 B-chronic_disease
+
+metastatic 0 10 143 153 B-cancer
+cancer 11 17 154 160 I-cancer
+
+participated 0 12 161 173 O
+in 13 15 174 176 O
+an 16 18 177 179 O
+intensive 19 28 180 189 O
+weight 29 35 190 196 O
+loss 36 40 197 201 O
+program 41 48 202 209 O
+in 49 51 210 212 O
+the 52 55 213 216 O
+past 56 60 217 221 B-upper_bound
+6 61 62 222 223 I-upper_bound
+mo 63 65 224 226 I-upper_bound
+
+pregnant 0 8 227 235 B-pregnancy
+
+stroke 0 6 236 242 B-chronic_disease
+in 7 9 243 245 O
+the 10 13 246 249 O
+past 14 18 250 254 B-upper_bound
+6 19 20 255 256 I-upper_bound
+mo 21 23 257 259 I-upper_bound
+

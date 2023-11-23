@@ -1,0 +1,70 @@
+English 0 7 0 7 B-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+Intelligence 0 12 17 29 B-clinical_variable
+Quotient 13 21 30 38 I-clinical_variable
+( 22 23 39 40 I-clinical_variable
+IQ 23 25 40 42 I-clinical_variable
+) 25 26 42 43 I-clinical_variable
+< 27 28 44 45 O
+70 29 31 46 48 B-upper_bound
+
+Lifetime 0 8 49 57 O
+history 9 16 58 65 O
+of 17 19 66 68 O
+Axis 20 24 69 73 B-chronic_disease
+I 25 26 74 75 I-chronic_disease
+psychotic 27 36 76 85 I-chronic_disease
+disorder 37 45 86 94 I-chronic_disease
+
+Major 0 5 95 100 B-chronic_disease
+medical 6 13 101 108 I-chronic_disease
+illness 14 21 109 116 I-chronic_disease
+
+One 0 3 117 120 B-lower_bound
+or 4 6 121 123 O
+more 7 11 124 128 O
+psychosis 12 21 129 138 B-chronic_disease
+- 21 22 138 139 O
+risk 22 26 139 143 O
+syndromes 27 36 144 153 O
+as 37 39 154 156 O
+defined 40 47 157 164 O
+by 48 50 165 167 O
+the 51 54 168 171 O
+Structured 55 65 172 182 O
+Interview 66 75 183 192 O
+for 76 79 193 196 O
+Psychosis 80 89 197 206 O
+- 89 90 206 207 O
+Risk 90 94 207 211 O
+Syndromes 95 104 212 221 O
+( 105 106 222 223 O
+SIPS 106 110 223 227 O
+) 110 111 227 228 O
+
+clear 0 5 229 234 O
+evidence 6 14 235 243 O
+that 15 19 244 248 O
+psychosis 20 29 249 258 B-chronic_disease
+- 29 30 258 259 I-chronic_disease
+risk 30 34 259 263 I-chronic_disease
+syndrome 35 43 264 272 I-chronic_disease
+is 44 46 273 275 O
+due 47 50 276 279 O
+to 51 53 280 282 O
+non 54 57 283 286 O
+- 57 58 286 287 O
+schizophrenia 58 71 287 300 B-chronic_disease
+- 71 72 300 301 O
+spectrum 72 80 301 309 O
+Axis 81 85 310 314 B-chronic_disease
+I 86 87 315 316 I-chronic_disease
+or 88 90 317 319 O
+Axis 91 95 320 324 B-chronic_disease
+II 96 98 325 327 I-chronic_disease
+disorder 99 107 328 336 I-chronic_disease
+
+neurological 0 12 337 349 B-chronic_disease
+disorder 13 21 350 358 I-chronic_disease
+

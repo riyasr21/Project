@@ -1,0 +1,343 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+Confirmed 0 9 18 27 O
+diagnosis 10 19 28 37 O
+by 20 22 38 40 O
+low 23 26 41 44 O
+sex 27 30 45 48 B-treatment
+steroids 31 39 49 57 I-treatment
+in 40 42 58 60 O
+the 43 46 61 64 O
+setting 47 54 65 72 O
+of 55 57 73 75 O
+low 58 61 76 79 O
+or 62 64 80 82 O
+inappropriately 65 80 83 98 O
+normal 81 87 99 105 O
+gonadotropins 88 101 106 119 B-treatment
+
+Confirmed 0 9 120 129 O
+diagnosis 10 19 130 139 O
+of 20 22 140 142 O
+PCOS 23 27 143 147 B-chronic_disease
+
+Healthy 0 7 148 155 O
+Men 8 11 156 159 B-gender
+
+Healthy 0 7 160 167 O
+postmenopausal 8 22 168 182 O
+women 23 28 183 188 B-gender
+
+Healthy 0 7 189 196 O
+women 8 13 197 202 B-gender
+
+Men 0 3 203 206 B-gender
+and 4 7 207 210 O
+women 8 13 211 216 B-gender
+with 14 18 217 221 O
+hyperprolactinemia 19 37 222 240 B-chronic_disease
+
+Men 0 3 241 244 B-gender
+and 4 7 245 248 O
+women 8 13 249 254 B-gender
+with 14 18 255 259 O
+hypogonadotropic 19 35 260 276 B-chronic_disease
+hypogonadism 36 48 277 289 I-chronic_disease
+
+Patients 0 8 290 298 O
+with 9 13 299 303 O
+a 14 15 304 305 O
+macroprolactinoma 16 33 306 323 B-chronic_disease
+confirmed 34 43 324 333 O
+on 44 46 334 336 O
+MRI 47 50 337 340 B-clinical_variable
+imaging 51 58 341 348 O
+
+Women 0 5 349 354 B-gender
+with 6 10 355 359 O
+Polycystic 11 21 360 370 B-chronic_disease
+Ovarian 22 29 371 378 I-chronic_disease
+Syndrome 30 38 379 387 I-chronic_disease
+( 39 40 388 389 I-chronic_disease
+PCOS 40 44 389 393 I-chronic_disease
+) 44 45 393 394 I-chronic_disease
+
+able 0 4 395 399 O
+to 5 7 400 402 O
+undergo 8 15 403 410 O
+appropriate 16 27 411 422 O
+washout 28 35 423 430 O
+from 36 40 431 435 O
+hormone 41 48 436 443 B-treatment
+therapy 49 56 444 451 I-treatment
+
+able 0 4 452 456 O
+to 5 7 457 459 O
+undergo 8 15 460 467 O
+washout 16 23 468 475 O
+from 24 28 476 480 O
+hormone 29 36 481 488 B-treatment
+therapy 37 44 489 496 I-treatment
+
+all 0 3 497 500 O
+medical 4 11 501 508 B-chronic_disease
+conditions 12 22 509 519 I-chronic_disease
+stable 23 29 520 526 O
+and 30 33 527 530 O
+well 34 38 531 535 O
+controlled 39 49 536 546 O
+
+at 0 2 547 549 O
+screening 3 12 550 559 O
+, 12 13 559 560 O
+negative 14 22 561 569 B-pregnancy
+hCG 23 26 570 573 I-pregnancy
+pregnancy 27 36 574 583 I-pregnancy
+test 37 41 584 588 O
+
+between 0 7 589 596 O
+21 8 10 597 599 B-lower_bound
+and 11 14 600 603 O
+40 15 17 604 606 B-upper_bound
+years 18 23 607 612 I-upper_bound
+old 24 27 613 616 I-upper_bound
+
+between 0 7 617 624 O
+50 8 10 625 627 B-lower_bound
+and 11 14 628 631 O
+60 15 17 632 634 B-upper_bound
+years 18 23 635 640 I-upper_bound
+old 24 27 641 644 O
+
+for 0 3 645 648 O
+women 4 9 649 654 B-gender
+, 9 10 654 655 O
+at 11 13 656 658 O
+time 14 18 659 663 O
+of 19 21 664 666 O
+screening 22 31 667 676 O
+negative 32 40 677 685 B-pregnancy
+hCG 41 44 686 689 I-pregnancy
+pregnancy 45 54 690 699 I-pregnancy
+test 55 59 700 704 O
+
+for 0 3 705 708 O
+women 4 9 709 714 B-gender
+, 9 10 714 715 O
+not 11 14 716 719 O
+breastfeeding 15 28 720 733 O
+or 29 31 734 736 O
+pregnant 32 40 737 745 B-pregnancy
+
+medications 0 11 746 757 B-treatment
+used 12 16 758 762 O
+to 17 19 763 765 O
+treat 20 25 766 771 O
+the 26 29 772 775 O
+subject 30 37 776 783 O
+'s 37 39 783 785 O
+reproductive 40 52 786 798 O
+condition 53 62 799 808 O
+
+menstrual 0 9 809 818 O
+cycles 10 16 819 825 O
+between 17 24 826 833 O
+25 25 27 834 836 B-lower_bound
+and 28 31 837 840 O
+35 32 34 841 843 B-upper_bound
+days 35 39 844 848 I-upper_bound
+in 40 42 849 851 O
+duration 43 51 852 860 O
+, 51 52 860 861 O
+at 53 55 862 864 O
+least 56 61 865 870 O
+11 62 64 871 873 B-lower_bound
+periods 65 72 874 881 O
+/ 72 73 881 882 O
+year 73 77 882 886 O
+, 77 78 886 887 O
+with 79 83 888 892 O
+no 84 86 893 895 O
+more 87 91 896 900 O
+than 92 96 901 905 O
+5 97 98 906 907 O
+days 99 103 908 912 O
+variability 104 115 913 924 O
+in 116 118 925 927 O
+cycle 119 124 928 933 O
+duration 125 133 934 942 O
+
+negative 0 8 943 951 O
+screening 9 18 952 961 O
+for 19 22 962 965 O
+Factor 23 29 966 972 B-chronic_disease
+V 30 31 973 974 I-chronic_disease
+Leiden 32 38 975 981 I-chronic_disease
+for 39 42 982 985 O
+those 43 48 986 991 O
+who 49 52 992 995 O
+might 53 58 996 1001 O
+receive 59 66 1002 1009 O
+estradiol 67 76 1010 1019 B-treatment
+treatment 77 86 1020 1029 I-treatment
+as 87 89 1030 1032 O
+a 90 91 1033 1034 O
+part 92 96 1035 1039 O
+of 97 99 1040 1042 O
+this 100 104 1043 1047 O
+study 105 110 1048 1053 O
+
+no 0 2 1054 1056 O
+chronic 3 10 1057 1064 B-chronic_disease
+diseases 11 19 1065 1073 I-chronic_disease
+
+no 0 2 1074 1076 O
+evidence 3 11 1077 1085 O
+for 12 15 1086 1089 O
+androgen 16 24 1090 1098 B-chronic_disease
+excess 25 31 1099 1105 I-chronic_disease
+( 32 33 1106 1107 O
+hirsutism 33 42 1107 1116 B-chronic_disease
+or 43 45 1117 1119 O
+acne 46 50 1120 1124 B-chronic_disease
+) 50 51 1124 1125 O
+
+no 0 2 1126 1128 O
+history 3 10 1129 1136 O
+of 11 13 1137 1139 O
+a 14 15 1140 1141 O
+medication 16 26 1142 1152 B-treatment
+reaction 27 35 1153 1161 O
+requiring 36 45 1162 1171 O
+emergency 46 55 1172 1181 O
+medical 56 63 1182 1189 O
+care 64 68 1190 1194 O
+
+no 0 2 1195 1197 O
+history 3 10 1198 1205 O
+of 11 13 1206 1208 O
+reproductive 14 26 1209 1221 B-chronic_disease
+disorders 27 36 1222 1231 I-chronic_disease
+
+no 0 2 1232 1234 O
+illicit 3 10 1235 1242 O
+drug 11 15 1243 1247 O
+use 16 19 1248 1251 O
+or 20 22 1252 1254 O
+excessive 23 32 1255 1264 O
+alcohol 33 40 1265 1272 O
+consumption 41 52 1273 1284 O
+( 53 54 1285 1286 O
+< 54 55 1286 1287 O
+10 56 58 1288 1290 B-upper_bound
+drinks 59 65 1291 1297 I-upper_bound
+/ 65 66 1297 1298 I-upper_bound
+week 66 70 1298 1302 I-upper_bound
+) 70 71 1302 1303 O
+
+no 0 2 1304 1306 O
+illicit 3 10 1307 1314 O
+drug 11 15 1315 1319 O
+use 16 19 1320 1323 O
+or 20 22 1324 1326 O
+excessive 23 32 1327 1336 O
+alcohol 33 40 1337 1344 O
+consumption 41 52 1345 1356 O
+( 53 54 1357 1358 O
+< 54 55 1358 1359 O
+10 55 57 1359 1361 B-upper_bound
+drinks 58 64 1362 1368 I-upper_bound
+/ 64 65 1368 1369 I-upper_bound
+week 65 69 1369 1373 I-upper_bound
+) 69 70 1373 1374 O
+
+no 0 2 1375 1377 O
+pituitary 3 12 1378 1387 B-cancer
+adenoma 13 20 1388 1395 I-cancer
+OR 21 23 1396 1398 O
+a 24 25 1399 1400 O
+microprolactinoma 26 43 1401 1418 B-clinical_variable
+( 44 45 1419 1420 O
+< 45 46 1420 1421 O
+10 46 48 1421 1423 B-upper_bound
+mm 49 51 1424 1426 I-upper_bound
+) 51 52 1426 1427 O
+
+no 0 2 1428 1430 O
+prescription 3 15 1431 1443 O
+medications 16 27 1444 1455 B-treatment
+for 28 31 1456 1459 O
+at 32 34 1460 1462 O
+least 35 40 1463 1468 O
+2 41 42 1469 1470 B-lower_bound
+months 43 49 1471 1477 I-lower_bound
+
+no 0 2 1478 1480 O
+prescription 3 15 1481 1493 O
+medications 16 27 1494 1505 B-treatment
+known 28 33 1506 1511 O
+to 34 36 1512 1514 O
+affect 37 43 1515 1521 O
+reproductive 44 56 1522 1534 O
+endocrine 57 66 1535 1544 O
+function 67 75 1545 1553 O
+for 76 79 1554 1557 O
+at 80 82 1558 1560 O
+least 83 88 1561 1566 O
+2 89 90 1567 1568 B-lower_bound
+months 91 97 1569 1575 I-lower_bound
+
+not 0 3 1576 1579 O
+breastfeeding 4 17 1580 1593 O
+or 18 20 1594 1596 O
+pregnant 21 29 1597 1605 B-pregnancy
+
+previous 0 8 1606 1614 O
+history 9 16 1615 1622 O
+of 17 19 1623 1625 O
+menstrual 20 29 1626 1635 O
+cycles 30 36 1636 1642 O
+between 37 44 1643 1650 O
+25 45 47 1651 1653 B-lower_bound
+and 48 51 1654 1657 O
+35 52 54 1658 1660 B-upper_bound
+days 55 59 1661 1665 I-upper_bound
+in 60 62 1666 1668 O
+duration 63 71 1669 1677 O
+, 71 72 1677 1678 O
+with 73 77 1679 1683 O
+no 78 80 1684 1686 O
+more 81 85 1687 1691 O
+than 86 90 1692 1696 O
+5 91 92 1697 1698 O
+days 93 97 1699 1703 O
+variability 98 109 1704 1715 O
+in 110 112 1716 1718 O
+cycle 113 118 1719 1724 O
+duration 119 127 1725 1733 O
+
+seasonal 0 8 1734 1742 O
+allergy 9 16 1743 1750 O
+medications 17 28 1751 1762 B-treatment
+and 29 32 1763 1766 O
+hormone 33 40 1767 1774 B-treatment
+replacement 41 52 1775 1786 I-treatment
+therapy 53 60 1787 1794 I-treatment
+
+testicular 0 10 1795 1805 B-clinical_variable
+volume 11 17 1806 1812 I-clinical_variable
+> 18 19 1813 1814 O
+15 19 21 1814 1816 B-lower_bound
+ml 22 24 1817 1819 I-lower_bound
+
+willing 0 7 1820 1827 O
+to 8 10 1828 1830 O
+complete 11 19 1831 1839 O
+a 20 21 1840 1841 O
+dopamine 22 30 1842 1850 B-treatment
+agonist 31 38 1851 1858 I-treatment
+washout 39 46 1859 1866 I-treatment
+

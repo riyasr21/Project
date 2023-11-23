@@ -1,0 +1,244 @@
+> 0 1 0 1 O
+30 2 4 2 4 B-upper_bound
+Gy 5 7 5 7 I-upper_bound
+over 8 12 8 12 O
+multiple 13 21 13 21 B-treatment
+treatments 22 32 22 32 I-treatment
+
+Absolute 0 8 33 41 B-clinical_variable
+granulocyte 9 20 42 53 I-clinical_variable
+count 21 26 54 59 I-clinical_variable
+≤ 27 28 60 61 O
+1,500 29 34 62 67 B-upper_bound
+/ 34 35 67 68 I-upper_bound
+ul 35 37 68 70 I-upper_bound
+
+Active 0 6 71 77 O
+uncontrolled 7 19 78 90 O
+infection 20 29 91 100 B-chronic_disease
+
+Age 0 3 101 104 B-age
+≥ 4 5 105 106 O
+18 6 8 107 109 B-lower_bound
+years 9 14 110 115 I-lower_bound
+
+Any 0 3 116 119 O
+pre 4 7 120 123 B-treatment
+- 7 8 123 124 I-treatment
+treatment 8 17 124 133 I-treatment
+laboratory 18 28 134 144 O
+findings 29 37 145 153 O
+
+Confirmed 0 9 154 163 O
+diagnosis 10 19 164 173 O
+of 20 22 174 176 O
+intrahepatic 23 35 177 189 O
+carcinoma 36 45 190 199 B-cancer
+
+Evidence 0 8 200 208 O
+of 9 11 209 211 O
+any 12 15 212 215 O
+detectable 16 26 216 226 O
+Tc-99 27 32 227 232 B-treatment
+m 32 33 232 233 I-treatment
+MAA 34 37 234 237 I-treatment
+flow 38 42 238 242 O
+to 43 45 243 245 O
+the 46 49 246 249 O
+stomach 50 57 250 257 O
+or 58 60 258 260 O
+duodenum 61 69 261 269 O
+, 69 70 269 270 O
+after 71 76 271 276 O
+application 77 88 277 288 O
+of 89 91 289 291 O
+established 92 103 292 303 O
+angiographic 104 116 304 316 B-treatment
+techniques 117 127 317 327 O
+to 128 130 328 330 O
+stop 131 135 331 335 O
+such 136 140 336 340 O
+flow 141 145 341 345 O
+
+Evidence 0 8 346 354 O
+of 9 11 355 357 O
+potential 12 21 358 367 O
+delivery 22 30 368 376 O
+of 31 33 377 379 O
+greater 34 41 380 387 O
+than 42 46 388 392 O
+16.5 47 51 393 397 B-lower_bound
+millicurie 52 62 398 408 I-lower_bound
+( 63 64 409 410 I-lower_bound
+mCi 64 67 410 413 I-lower_bound
+) 67 68 413 414 I-lower_bound
+( 69 70 415 416 O
+30 70 72 416 418 O
+Gy 73 75 419 421 O
+absorbed 76 84 422 430 O
+dose 85 89 431 435 O
+) 89 90 435 436 O
+of 91 93 437 439 O
+radiation 94 103 440 449 B-treatment
+to 104 106 450 452 O
+the 107 110 453 456 O
+lungs 111 116 457 462 O
+
+History 0 7 463 470 O
+of 8 10 471 473 O
+severe 11 17 474 480 O
+allergy 18 25 481 488 O
+or 26 28 489 491 O
+intolerance 29 40 492 503 O
+to 41 43 504 506 O
+any 44 47 507 510 O
+contrast 48 56 511 519 B-allergy_name
+media 57 62 520 525 I-allergy_name
+, 62 63 525 526 O
+narcotics 64 73 527 536 B-allergy_name
+, 73 74 536 537 O
+sedatives 75 84 538 547 B-allergy_name
+, 84 85 547 548 O
+or 86 88 549 551 O
+atropine 89 97 552 560 B-allergy_name
+
+Platelet 0 8 561 569 B-clinical_variable
+count 9 14 570 575 I-clinical_variable
+≤ 15 16 576 577 O
+75,000 17 23 578 584 B-upper_bound
+/ 23 24 584 585 I-upper_bound
+μl 24 26 585 587 I-upper_bound
+
+Portal 0 6 588 594 B-chronic_disease
+hypertension 7 19 595 607 I-chronic_disease
+with 20 24 608 612 O
+portal 25 31 613 619 O
+venous 32 38 620 626 O
+shunt 39 44 627 632 O
+away 45 49 633 637 O
+from 50 54 638 642 O
+the 55 58 643 646 O
+liver 59 64 647 652 O
+
+Pregnant 0 8 653 661 B-pregnancy
+women 9 14 662 667 B-gender
+may 15 18 668 671 O
+not 19 22 672 675 O
+participate 23 34 676 687 O
+
+Serum 0 5 688 693 B-clinical_variable
+bilirubin 6 15 694 703 I-clinical_variable
+≥ 16 17 704 705 O
+2.0 18 21 706 709 B-lower_bound
+mg 22 24 710 712 I-lower_bound
+/ 24 25 712 713 I-lower_bound
+dl 25 27 713 715 I-lower_bound
+
+Serum 0 5 716 721 B-clinical_variable
+creatinine 6 16 722 732 I-clinical_variable
+≥ 17 18 733 734 O
+2.0 19 22 735 738 B-lower_bound
+mg 23 25 739 741 I-lower_bound
+/ 25 26 741 742 I-lower_bound
+dl 26 28 742 744 I-lower_bound
+
+Severe 0 6 745 751 O
+liver 7 12 752 757 B-chronic_disease
+dysfunction 13 24 758 769 I-chronic_disease
+or 25 27 770 772 O
+pulmonary 28 37 773 782 B-chronic_disease
+insufficiency 38 51 783 796 I-chronic_disease
+
+Significant 0 11 797 808 O
+extrahepatic 12 24 809 821 B-chronic_disease
+disease 25 32 822 829 I-chronic_disease
+representing 33 45 830 842 O
+an 46 48 843 845 O
+imminent 49 57 846 854 O
+life 58 62 855 859 O
+- 62 63 859 860 O
+threatening 63 74 860 871 O
+outcome 75 82 872 879 O
+
+Significant 0 11 880 891 O
+underlying 12 22 892 902 O
+medical 23 30 903 910 O
+or 31 33 911 913 O
+psychiatric 34 45 914 925 B-chronic_disease
+illness 46 53 926 933 I-chronic_disease
+
+The 0 3 934 937 O
+cancer 4 10 938 944 B-cancer
+must 11 15 945 949 O
+be 16 18 950 952 O
+unresectable 19 31 953 965 O
+
+The 0 3 966 969 O
+histopathology 4 18 970 984 O
+confirmation 19 31 985 997 O
+criterion 32 41 998 1007 O
+may 42 45 1008 1011 O
+be 46 48 1012 1014 O
+waived 49 55 1015 1021 O
+in 56 58 1022 1024 O
+patients 59 67 1025 1033 O
+with 68 72 1034 1038 O
+a 73 74 1039 1040 O
+radiographically 75 91 1041 1057 O
+identifiable 92 104 1058 1070 O
+liver 105 110 1071 1076 B-cancer
+mass 111 115 1077 1081 I-cancer
+, 115 116 1081 1082 O
+known 117 122 1083 1088 O
+laboratory 123 133 1089 1099 O
+or 134 136 1100 1102 O
+clinical 137 145 1103 1111 O
+risk 146 150 1112 1116 O
+factors 151 158 1117 1124 O
+for 159 162 1125 1128 O
+cancer 163 169 1129 1135 B-cancer
+or 170 172 1136 1138 O
+elevated 173 181 1139 1147 O
+tumor 182 187 1148 1153 B-cancer
+markers 188 195 1154 1161 O
+such 196 200 1162 1166 O
+as 201 203 1167 1169 O
+Alpha 204 209 1170 1175 O
+- 209 210 1175 1176 O
+fetoprotein 210 221 1176 1187 O
+assay 222 227 1188 1193 O
+( 228 229 1194 1195 O
+AFP 229 232 1195 1198 O
+) 232 233 1198 1199 O
+( 234 235 1200 1201 O
+clinical 235 243 1201 1209 O
+diagnosis 244 253 1210 1219 O
+) 253 254 1219 1220 O
+
+contraindications 0 17 1221 1238 O
+to 18 20 1239 1241 O
+angiography 21 32 1242 1253 B-treatment
+and 33 36 1254 1257 O
+selective 37 46 1258 1267 O
+visceral 47 55 1268 1276 B-treatment
+catheterization 56 71 1277 1292 I-treatment
+
+cumulative 0 10 1293 1303 O
+delivery 11 19 1304 1312 O
+of 20 22 1313 1315 O
+radiation 23 32 1316 1325 B-treatment
+to 33 35 1326 1328 O
+the 36 39 1329 1332 O
+lungs 40 45 1333 1338 O
+
+first 0 5 1339 1344 O
+TheraSphere 6 17 1345 1356 B-treatment
+administration 18 32 1357 1371 O
+
+within 0 6 1372 1378 O
+15 7 9 1379 1381 B-upper_bound
+days 10 14 1382 1386 I-upper_bound
+of 15 17 1387 1389 O
+treatment 18 27 1390 1399 B-treatment
+demonstrating 28 41 1400 1413 O
+

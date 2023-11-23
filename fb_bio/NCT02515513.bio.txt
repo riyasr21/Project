@@ -1,0 +1,18 @@
+Pancreatic 0 10 0 10 B-cancer
+Cancer 11 17 11 17 I-cancer
+Patients 18 26 18 26 O
+who 27 30 27 30 O
+are 31 34 31 34 O
+potentially 35 46 35 46 O
+surgically 47 57 47 57 O
+resectable 58 68 58 68 O
+
+do 0 2 69 71 O
+not 3 6 72 75 O
+meet 7 11 76 80 O
+the 12 15 81 84 O
+criteria 16 24 85 93 O
+for 25 28 94 97 O
+surgical 29 37 98 106 B-treatment
+resection 38 47 107 116 I-treatment
+

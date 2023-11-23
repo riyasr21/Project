@@ -1,0 +1,54 @@
+< 0 1 0 1 O
+18 1 3 1 3 B-upper_bound
+years 4 9 4 9 I-upper_bound
+old 10 13 10 13 O
+
+Adult 0 5 14 19 O
+patient 6 13 20 27 O
+( 14 15 28 29 O
+male 15 19 29 33 B-gender
+or 20 22 34 36 I-gender
+female 23 29 37 43 I-gender
+) 29 30 43 44 O
+requiring 31 40 45 54 O
+emergency 41 50 55 64 O
+endotracheal 51 63 65 77 B-treatment
+intubation 64 74 78 88 I-treatment
+
+Any 0 3 89 92 O
+patient 4 11 93 100 O
+who 12 15 101 104 O
+has 16 19 105 108 O
+been 20 24 109 113 O
+previously 25 35 114 124 O
+randomized 36 46 125 135 O
+in 47 49 136 138 O
+the 50 53 139 142 O
+EvK 54 57 143 146 B-treatment
+Trial 58 63 147 152 I-treatment
+
+Women 0 5 153 158 B-gender
+who 6 9 159 162 O
+are 10 13 163 166 B-pregnancy
+known 14 19 167 172 I-pregnancy
+to 20 22 173 175 I-pregnancy
+be 23 25 176 178 I-pregnancy
+pregnant 26 34 179 187 I-pregnancy
+
+who 0 3 188 191 O
+require 4 11 192 199 O
+endotracheal 12 24 200 212 B-treatment
+intubation 25 35 213 223 I-treatment
+without 36 43 224 231 O
+sedative 44 52 232 240 O
+medication 53 63 241 251 O
+
+with 0 4 252 256 O
+a 5 6 257 258 O
+known 7 12 259 264 O
+allergy 13 20 265 272 O
+to 21 23 273 275 O
+ketamine 24 32 276 284 B-allergy_name
+or 33 35 285 287 O
+etomidate 36 45 288 297 B-allergy_name
+

@@ -1,0 +1,41 @@
+HIV 0 3 0 3 B-chronic_disease
+- 3 4 3 4 O
+infected 4 12 4 12 O
+individuals 13 24 13 24 O
+in 25 27 25 27 O
+HIV 28 31 28 31 O
+care 32 36 32 36 O
+
+greater 0 7 37 44 O
+than 8 12 45 49 O
+17 13 15 50 52 B-lower_bound
+years 16 21 53 58 I-lower_bound
+of 22 24 59 61 O
+age 25 28 62 65 B-age
+
+treating 0 8 66 74 O
+clinician 9 18 75 84 O
+( 19 20 85 86 O
+e.g. 20 24 86 90 O
+, 24 25 90 91 O
+based 26 31 92 97 O
+on 32 34 98 100 O
+gaps 35 39 101 105 O
+in 40 42 106 108 O
+treatment 43 52 109 118 O
+( 53 54 119 120 O
+e.g. 54 58 120 124 O
+, 58 59 124 125 O
+missed 60 66 126 132 O
+appointments 67 79 133 145 O
+) 79 80 145 146 O
+or 81 83 147 149 O
+viral 84 89 150 155 O
+load 90 94 156 160 O
+elevations 95 105 161 171 O
+within 106 112 172 178 O
+last 113 117 179 183 B-upper_bound
+6 118 119 184 185 I-upper_bound
+months 120 126 186 192 I-upper_bound
+) 126 127 192 193 O
+

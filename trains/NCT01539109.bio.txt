@@ -1,0 +1,58 @@
+Brain 0 5 0 5 B-cancer
+tumor 6 11 6 11 I-cancer
+
+Concurrent 0 10 12 22 B-treatment
+upper 11 16 23 28 I-treatment
+limb 17 21 29 33 I-treatment
+rehabilitation 22 36 34 48 I-treatment
+
+Dementia 0 8 49 57 B-chronic_disease
+
+Diagnosed 0 9 58 67 O
+with 10 14 68 72 O
+incomplete 15 25 73 83 O
+spinal 26 32 84 90 O
+cord 33 37 91 95 O
+injury 38 44 96 102 O
+( 45 46 103 104 O
+iSCI 46 50 104 108 O
+) 50 51 108 109 O
+that 52 56 110 114 O
+occurred 57 65 115 123 O
+at 66 68 124 126 O
+least 69 74 127 132 O
+6 75 76 133 134 B-lower_bound
+months 77 83 135 141 I-lower_bound
+ago 84 87 142 145 O
+
+History 0 7 146 153 O
+of 8 10 154 156 O
+epilepsy 11 19 157 165 B-chronic_disease
+in 20 22 166 168 O
+a 23 24 169 170 O
+first 25 30 171 176 O
+degree 31 37 177 183 O
+relative 38 46 184 192 O
+
+Implanted 0 9 193 202 B-treatment
+pumps 10 15 203 208 I-treatment
+, 15 16 208 209 O
+shunts 17 23 210 216 B-treatment
+, 23 24 216 217 O
+or 25 27 218 220 O
+neurostimulators 28 44 221 237 B-treatment
+
+Neurologic 0 10 238 248 B-chronic_disease
+condition 11 20 249 258 I-chronic_disease
+affecting 21 30 259 268 O
+sensorimotor 31 43 269 281 O
+systems 44 51 282 289 O
+
+Pregnant 0 8 290 298 B-pregnancy
+
+Stroke 0 6 299 305 B-chronic_disease
+
+Use 0 3 306 309 O
+of 4 6 310 312 O
+anticonvulsants 7 22 313 328 B-treatment
+

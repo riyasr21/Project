@@ -1,0 +1,104 @@
+Active 0 6 0 6 O
+, 6 7 6 7 O
+symptomatic 8 19 8 19 O
+peptic 20 26 20 26 B-chronic_disease
+ulcer 27 32 27 32 I-chronic_disease
+disease 33 40 33 40 I-chronic_disease
+
+Age 0 3 41 44 B-age
+greater 4 11 45 52 O
+than 12 16 53 57 O
+or 17 19 58 60 O
+equal 20 25 61 66 O
+to18 26 30 67 71 O
+and 31 34 72 75 O
+less 35 39 76 80 O
+than 40 44 81 85 O
+or 45 47 86 88 O
+equal 48 53 89 94 O
+to 54 56 95 97 O
+75 57 59 98 100 B-upper_bound
+years 60 65 101 106 I-upper_bound
+
+Diabetes 0 8 107 115 B-chronic_disease
+mellitus 9 17 116 124 I-chronic_disease
+requiring 18 27 125 134 O
+insulin 28 35 135 142 B-treatment
+
+History 0 7 143 150 O
+of 8 10 151 153 O
+coronary 11 19 154 162 B-chronic_disease
+heart 20 25 163 168 I-chronic_disease
+disease 26 33 169 176 I-chronic_disease
+
+History 0 7 177 184 O
+of 8 10 185 187 O
+hepatitis 11 20 188 197 B-chronic_disease
+or 21 23 198 200 O
+injection 24 33 201 210 B-treatment
+drug 34 38 211 215 I-treatment
+use 39 42 216 219 O
+
+History 0 7 220 227 O
+of 8 10 228 230 O
+iritis 11 17 231 237 B-chronic_disease
+or 18 20 238 240 O
+episcleritis 21 33 241 253 B-chronic_disease
+
+Lithium 0 7 254 261 B-treatment
+therapy 8 15 262 269 I-treatment
+
+Pregnancy 0 9 270 279 B-pregnancy
+
+Renal 0 5 280 285 O
+function 6 14 286 294 O
+eGFR 15 19 295 299 B-clinical_variable
+< 20 21 300 301 O
+45 22 24 302 304 B-upper_bound
+ml 25 27 305 307 I-upper_bound
+/ 27 28 307 308 I-upper_bound
+min/1.73m(2 28 39 308 319 I-upper_bound
+) 39 40 319 320 I-upper_bound
+
+Sickle 0 6 321 327 B-chronic_disease
+cell 7 11 328 332 I-chronic_disease
+disease 12 19 333 340 I-chronic_disease
+( 20 21 341 342 O
+sickle 21 27 342 348 B-chronic_disease
+trait 28 33 349 354 I-chronic_disease
+is 34 36 355 357 O
+acceptable 37 47 358 368 O
+) 47 48 368 369 O
+
+Testing 0 7 370 377 O
+for 8 11 378 381 O
+hemoglobin 12 22 382 392 B-chronic_disease
+S 23 24 393 394 I-chronic_disease
+is 25 27 395 397 O
+not 28 31 398 401 O
+required 32 40 402 410 O
+
+Uncontrolled 0 12 411 423 O
+hypertension 13 25 424 436 B-chronic_disease
+( 26 27 437 438 O
+systolic 27 35 438 446 B-clinical_variable
+BP 36 38 447 449 I-clinical_variable
+> 39 40 450 451 O
+160 40 43 451 454 B-lower_bound
+, 43 44 454 455 O
+diastolic 45 54 456 465 B-clinical_variable
+BP 55 57 466 468 I-clinical_variable
+> 58 59 469 470 O
+100 59 62 470 473 B-lower_bound
+) 62 63 473 474 O
+
+Weight 0 6 475 481 B-clinical_variable
+less 7 11 482 486 O
+than 12 16 487 491 O
+50 17 19 492 494 B-upper_bound
+kg 20 22 495 497 I-upper_bound
+( 23 24 498 499 I-upper_bound
+110 24 27 499 502 I-upper_bound
+lbs 28 31 503 506 I-upper_bound
+) 31 32 506 507 I-upper_bound
+

@@ -1,0 +1,190 @@
+A 0 1 0 1 O
+patient 2 9 2 9 O
+who 10 13 10 13 O
+has 14 17 14 17 O
+taken 18 23 18 23 O
+both 24 28 24 28 O
+bisphosphonate 29 43 29 43 B-treatment
+and 44 47 44 47 O
+Denosumab 48 57 48 57 B-treatment
+
+Absence 0 7 58 65 O
+of 8 10 66 68 O
+tumor 11 16 69 74 B-cancer
+in 17 19 75 77 I-cancer
+the 20 23 78 81 I-cancer
+jaw 24 27 82 85 I-cancer
+at 28 30 86 88 O
+the 31 34 89 92 O
+time 35 39 93 97 O
+of 40 42 98 100 O
+recruitment 43 54 101 112 O
+
+Female 0 6 113 119 B-gender
+patients 7 15 120 128 I-gender
+who 16 19 129 132 O
+are 20 23 133 136 O
+pregnant 24 32 137 145 B-pregnancy
+
+History 0 7 146 153 O
+of 8 10 154 156 O
+exposure 11 19 157 165 O
+to 20 22 166 168 O
+antiresorptive 23 37 169 183 B-treatment
+medications 38 49 184 195 O
+such 50 54 196 200 O
+as 55 57 201 203 O
+bisphosphonates 58 73 204 219 B-treatment
+or 74 76 220 222 O
+RANK 77 81 223 227 B-treatment
+- 81 82 227 228 I-treatment
+L 82 83 228 229 I-treatment
+inhibitors 84 94 230 240 I-treatment
+
+Patient 0 7 241 248 O
+with 8 12 249 253 O
+history 13 20 254 261 O
+of 21 23 262 264 O
+prostate 24 32 265 273 B-cancer
+cancer 33 39 274 280 I-cancer
+
+Patients 0 8 281 289 O
+taking 9 15 290 296 O
+CYP1A2 16 22 297 303 B-treatment
+inhibitors 23 33 304 314 I-treatment
+
+Patients 0 8 315 323 O
+taking 9 15 324 330 O
+oral 16 20 331 335 O
+anticoagulants 21 35 336 350 B-treatment
+
+Patients 0 8 351 359 O
+who 9 12 360 363 O
+underwent 13 22 364 373 O
+any 23 26 374 377 O
+surgical 27 35 378 386 O
+intervention 36 48 387 399 O
+for 49 52 400 403 O
+MRONJ 53 58 404 409 B-allergy_name
+in 59 61 410 412 O
+the 62 65 413 416 O
+past 66 70 417 421 B-upper_bound
+4 71 72 422 423 I-upper_bound
+months 73 79 424 430 I-upper_bound
+
+Patients 0 8 431 439 O
+with 9 13 440 444 O
+a 14 15 445 446 O
+vitamin 16 23 447 454 B-chronic_disease
+K 24 25 455 456 I-chronic_disease
+deficiency 26 36 457 467 I-chronic_disease
+due 37 40 468 471 O
+to 41 43 472 474 O
+any 44 47 475 478 O
+cause 48 53 479 484 O
+
+Patients 0 8 485 493 O
+with 9 13 494 498 O
+allergy 14 21 499 506 O
+or 22 24 507 509 O
+hypersensitivity 25 41 510 526 O
+to 42 44 527 529 O
+pentoxifylline 45 59 530 544 B-allergy_name
+, 59 60 544 545 O
+xanthines 61 70 546 555 B-allergy_name
+, 70 71 555 556 O
+or 72 74 557 559 O
+tocopherol 75 85 560 570 B-allergy_name
+
+Patients 0 8 571 579 O
+with 9 13 580 584 O
+an 14 16 585 587 O
+expected 17 25 588 596 B-clinical_variable
+survival 26 34 597 605 I-clinical_variable
+less 35 39 606 610 O
+than 40 44 611 615 O
+1 45 46 616 617 B-upper_bound
+year 47 51 618 622 I-upper_bound
+
+Patients 0 8 623 631 O
+with 9 13 632 636 O
+history 14 21 637 644 O
+of 22 24 645 647 O
+external 25 33 648 656 B-treatment
+radiation 34 43 657 666 I-treatment
+therapy 44 51 667 674 I-treatment
+to 52 54 675 677 O
+the 55 58 678 681 O
+jaws 59 63 682 686 O
+
+Patients 0 8 687 695 O
+with 9 13 696 700 O
+ischemic 14 22 701 709 B-chronic_disease
+heart 23 28 710 715 I-chronic_disease
+diseases 29 37 716 724 I-chronic_disease
+
+Patients 0 8 725 733 O
+with 9 13 734 738 O
+known 14 19 739 744 O
+hemorrhagic 20 31 745 756 B-chronic_disease
+and 32 35 757 760 I-chronic_disease
+coagulation 36 47 761 772 I-chronic_disease
+disorder 48 56 773 781 I-chronic_disease
+
+Patients 0 8 782 790 O
+with 9 13 791 795 O
+serious 14 21 796 803 B-chronic_disease
+cardiac 22 29 804 811 I-chronic_disease
+arrhythmia 30 40 812 822 I-chronic_disease
+
+Patients 0 8 823 831 O
+with 9 13 832 836 O
+severe 14 20 837 843 O
+liver 21 26 844 849 B-chronic_disease
+disease 27 34 850 857 I-chronic_disease
+
+Patients 0 8 858 866 O
+with 9 13 867 871 O
+severe 14 20 872 878 B-chronic_disease
+renal 21 26 879 884 I-chronic_disease
+failure 27 34 885 892 I-chronic_disease
+
+Stage 0 5 893 898 B-lower_bound
+1 6 7 899 900 I-lower_bound
+, 7 8 900 901 O
+2 9 10 902 903 O
+, 10 11 903 904 O
+or 12 14 905 907 O
+3 15 16 908 909 B-upper_bound
+MRONJ 17 22 910 915 B-chronic_disease
+as 23 25 916 918 O
+defined 26 33 919 926 O
+by 34 36 927 929 O
+the 37 40 930 933 O
+AAOMS 41 46 934 939 O
+Position 47 55 940 948 O
+Paper 56 61 949 954 O
+on 62 64 955 957 O
+Medication 65 75 958 968 O
+- 75 76 968 969 O
+Related 76 83 969 976 O
+Osteonecrosis 84 97 977 990 O
+of 98 100 991 993 O
+the 101 104 994 997 O
+Jaw—2014 105 113 998 1006 O
+Update 114 120 1007 1013 O
+( 121 122 1014 1015 O
+Ruggiero 122 130 1015 1023 O
+2014 131 135 1024 1028 O
+) 135 136 1028 1029 O
+
+ciprofloxacin 0 13 1030 1043 B-treatment
+
+extensive 0 9 1044 1053 B-chronic_disease
+retinal 10 17 1054 1061 I-chronic_disease
+hemorrhage 18 28 1062 1072 I-chronic_disease
+
+recent 0 6 1073 1079 O
+myocardial 7 17 1080 1090 B-chronic_disease
+infarction 18 28 1091 1101 I-chronic_disease
+

@@ -1,0 +1,63 @@
+Asthma 0 6 0 6 B-chronic_disease
+
+Bradycardia 0 11 7 18 B-chronic_disease
+
+Corneal 0 7 19 26 B-clinical_variable
+thickness 8 17 27 36 I-clinical_variable
+between 18 25 37 44 O
+480 26 29 45 48 B-lower_bound
+and 30 33 49 52 O
+620 34 37 53 56 B-upper_bound
+microns 38 45 57 64 I-upper_bound
+
+Highly 0 6 65 71 O
+aspheric 7 15 72 80 O
+cornea 16 22 81 87 O
+that 23 27 88 92 O
+would 28 33 93 98 O
+make 34 38 99 103 O
+fitting 39 46 104 111 O
+a 47 48 112 113 O
+contact 49 56 114 121 O
+lens 57 61 122 126 O
+difficult 62 71 127 136 O
+( 72 73 137 138 O
+i.e. 73 77 138 142 O
+, 77 78 142 143 O
+keratoconus 79 90 144 155 B-chronic_disease
+) 90 91 155 156 O
+
+Participation 0 13 157 170 O
+in 14 16 171 173 O
+any 17 20 174 177 O
+drug 21 25 178 182 O
+clinical 26 34 183 191 O
+trial 35 40 192 197 O
+in 41 43 198 200 O
+the 44 47 201 204 O
+last 48 52 205 209 B-upper_bound
+three 53 58 210 215 I-upper_bound
+months 59 65 216 222 I-upper_bound
+
+Pregnancy 0 9 223 232 B-pregnancy
+
+Shaffer 0 7 233 240 B-clinical_variable
+Angle 8 13 241 246 I-clinical_variable
+> 14 15 247 248 O
+2 16 17 249 250 B-lower_bound
+
+Steven 0 6 251 257 B-chronic_disease
+'s 6 8 257 259 I-chronic_disease
+Johnson 9 16 260 267 I-chronic_disease
+
+Sulpha 0 6 268 274 B-allergy_name
+drug 7 11 275 279 I-allergy_name
+intolerance 12 23 280 291 O
+
+Visual 0 6 292 298 B-clinical_variable
+acuity 7 13 299 305 I-clinical_variable
+of 14 16 306 308 O
+20/200 17 23 309 315 B-lower_bound
+or 24 26 316 318 O
+better 27 33 319 325 O
+

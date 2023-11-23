@@ -1,0 +1,72 @@
+Ages 0 4 0 4 B-age
+8 5 6 5 6 B-lower_bound
+through 7 14 7 14 O
+18 15 17 15 17 B-upper_bound
+years 18 23 18 23 I-upper_bound
+
+Developmental 0 13 24 37 B-chronic_disease
+disorders 14 23 38 47 I-chronic_disease
+e.g. 24 28 48 52 O
+autism 29 35 53 59 B-chronic_disease
+
+Measured 0 8 60 68 O
+BMI 9 12 69 72 B-bmi
+≥ 13 14 73 74 O
+85th 15 19 75 79 B-lower_bound
+percentile 20 30 80 90 I-lower_bound
+for 31 34 91 94 O
+age 35 38 95 98 B-age
+and 39 42 99 102 O
+sex 43 46 103 106 O
+
+Planning 0 8 107 115 O
+to 9 11 116 118 O
+leave 12 17 119 124 O
+clinic 18 24 125 131 O
+within 25 31 132 138 O
+6 32 33 139 140 B-upper_bound
+mo 34 36 141 143 I-upper_bound
+. 36 37 143 144 O
+or 38 40 145 147 O
+move 41 45 148 152 O
+out 46 49 153 156 O
+of 50 52 157 159 O
+area 53 57 160 164 O
+within 58 64 165 171 O
+12 65 67 172 174 B-upper_bound
+mo 68 70 175 177 I-upper_bound
+
+Pregnant 0 8 178 186 B-pregnancy
+or 9 11 187 189 O
+nursing 12 19 190 197 O
+
+Serious 0 7 198 205 O
+emotional 8 17 206 215 B-chronic_disease
+disturbance 18 29 216 227 I-chronic_disease
+( 30 31 228 229 O
+DSM 31 34 229 232 B-chronic_disease
+diagnosis 35 44 233 242 O
+and 45 48 243 246 O
+seen 49 53 247 251 O
+at 54 56 252 254 O
+community 57 66 255 264 O
+mental 67 73 265 271 O
+health 74 80 272 278 O
+clinic 81 87 279 285 O
+) 87 88 285 286 O
+
+Serious 0 7 287 294 O
+health 8 14 295 301 O
+condition 15 24 302 311 O
+precluding 25 35 312 322 O
+participation 36 49 323 336 O
+in 50 52 337 339 O
+weight 53 59 340 346 O
+management 60 70 347 357 O
+intervention 71 83 358 370 O
+( 84 85 371 372 O
+e.g. 85 89 372 376 O
+, 89 90 376 377 O
+bulimia 91 98 378 385 B-chronic_disease
+) 98 99 385 386 O
+

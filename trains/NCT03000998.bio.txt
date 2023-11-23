@@ -1,0 +1,38 @@
+being 0 5 0 5 O
+11 6 8 6 8 B-lower_bound
+- 8 9 8 9 O
+13 9 11 9 11 B-upper_bound
+years 12 17 12 17 I-upper_bound
+old 18 21 18 21 O
+
+being 0 5 22 27 O
+male 6 10 28 32 B-gender
+
+participating 0 13 33 46 O
+11 14 16 47 49 B-lower_bound
+- 16 17 49 50 O
+13 17 19 50 52 B-upper_bound
+year 20 24 53 57 I-upper_bound
+old 25 28 58 61 O
+boy 29 32 62 65 O
+
+the 0 3 66 69 O
+participant 4 15 70 81 O
+has 16 19 82 85 O
+already 20 27 86 93 O
+received 28 36 94 102 O
+any 37 40 103 106 O
+or 41 43 107 109 O
+all 44 47 110 113 O
+doses 48 53 114 119 O
+for 54 57 120 123 O
+the 58 61 124 127 O
+HPV 62 65 128 131 B-treatment
+vaccine 66 73 132 139 I-treatment
+
+under 0 5 140 145 O
+the 6 9 146 149 O
+age 10 13 150 153 B-age
+of 14 16 154 156 O
+18 17 19 157 159 B-upper_bound
+

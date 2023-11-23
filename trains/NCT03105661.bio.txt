@@ -1,0 +1,46 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+51 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Not 0 3 16 19 O
+on 4 6 20 22 O
+antihypertensive 7 23 23 39 B-treatment
+medications 24 35 40 51 I-treatment
+
+Patients 0 8 52 60 O
+who 9 12 61 64 O
+have 13 17 65 69 O
+a 18 19 70 71 O
+blood 20 25 72 77 B-clinical_variable
+pressure 26 34 78 86 I-clinical_variable
+140/90 35 41 87 93 B-lower_bound
+or 42 44 94 96 O
+greater 45 52 97 104 O
+
+Patients 0 8 105 113 O
+with 9 13 114 118 O
+an 14 16 119 121 O
+allergy 17 24 122 129 O
+to 25 27 130 132 O
+antihypertensive 28 44 133 149 B-allergy_name
+medication 45 55 150 160 I-allergy_name
+or 56 58 161 163 O
+contraindication 59 75 164 180 O
+for 76 79 181 184 O
+their 80 85 185 190 O
+usage 86 91 191 196 O
+such 92 96 197 201 O
+as 97 99 202 204 O
+certain 100 107 205 212 O
+cardiac 108 115 213 220 B-chronic_disease
+or 116 118 221 223 I-chronic_disease
+neurologic 119 129 224 234 I-chronic_disease
+disorder 130 138 235 243 I-chronic_disease
+during 139 145 244 250 O
+pregnancy 146 155 251 260 B-pregnancy
+
+Pregnant 0 8 261 269 B-pregnancy
+patients 9 17 270 278 O
+

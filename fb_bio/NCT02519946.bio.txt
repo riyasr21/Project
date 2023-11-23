@@ -1,0 +1,52 @@
+Acute 0 5 0 5 B-chronic_disease
+illness 6 13 6 13 I-chronic_disease
+
+Document 0 8 14 22 B-clinical_variable
+transplant 9 19 23 33 I-clinical_variable
+rejection 20 29 34 43 I-clinical_variable
+< 30 31 44 45 O
+3 32 33 46 47 B-upper_bound
+months 34 40 48 54 I-upper_bound
+
+Heart 0 5 55 60 B-treatment
+transplant 6 16 61 71 I-treatment
+> 17 18 72 73 O
+11 18 20 73 75 B-lower_bound
+months 21 27 76 82 I-lower_bound
+before 28 34 83 89 I-lower_bound
+baseline 35 43 90 98 O
+visit 44 49 99 104 O
+
+Latex 0 5 105 110 B-allergy_name
+allergy 6 13 111 118 O
+
+Malignancy 0 10 119 129 B-cancer
+
+Presence 0 8 130 138 O
+of 9 11 139 141 O
+an 12 14 142 144 O
+adult 15 20 145 150 O
+at 21 23 151 153 O
+home 24 28 154 158 O
+during 29 35 159 165 O
+the 36 39 166 169 O
+exercise 40 48 170 178 O
+training 49 57 179 187 O
+sessions 58 66 188 196 O
+for 67 70 197 200 O
+patients 71 79 201 209 O
+< 80 81 210 211 O
+14 82 84 212 214 B-upper_bound
+years 85 90 215 220 I-upper_bound
+of 91 93 221 223 O
+age 94 97 224 227 B-age
+
+Re 0 2 228 230 B-treatment
+- 2 3 230 231 I-treatment
+transplantation 3 18 231 246 I-treatment
+or 19 21 247 249 O
+multi 22 27 250 255 B-treatment
+- 27 28 255 256 I-treatment
+organ 28 33 256 261 I-treatment
+transplantation 34 49 262 277 I-treatment
+

@@ -1,0 +1,169 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+perform 8 15 8 15 O
+some 16 20 16 20 O
+small 21 26 21 26 O
+wrist 27 32 27 32 O
+flexion 33 40 33 40 O
+and 41 44 41 44 O
+extension 45 54 45 54 O
+( 55 56 55 56 O
+measured 56 64 56 64 O
+by 65 67 65 67 O
+a 68 69 68 69 O
+goniometer 70 80 70 80 B-treatment
+) 80 81 80 81 O
+
+Any 0 3 82 85 O
+debilitating 4 16 86 98 B-chronic_disease
+disease 17 24 99 106 I-chronic_disease
+prior 25 30 107 112 O
+to 31 33 113 115 O
+the 34 37 116 119 O
+SCI 38 41 120 123 O
+that 42 46 124 128 O
+caused 47 53 129 135 O
+exercise 54 62 136 144 O
+intolerance 63 74 145 156 O
+
+Chronic 0 7 157 164 B-chronic_disease
+SCI 8 11 165 168 I-chronic_disease
+( 12 13 169 170 O
+6 14 15 171 172 B-upper_bound
+months 16 22 173 179 I-upper_bound
+of 23 25 180 182 O
+injury 26 32 183 189 O
+) 32 33 189 190 O
+
+History 0 7 191 198 O
+of 8 10 199 201 O
+head 11 15 202 206 B-chronic_disease
+injury 16 22 207 213 I-chronic_disease
+or 23 25 214 216 O
+stroke 26 32 217 223 B-chronic_disease
+
+History 0 7 224 231 O
+of 8 10 232 234 O
+seizures 11 19 235 243 B-chronic_disease
+
+Male 0 4 244 248 B-gender
+
+Male 0 4 249 253 B-gender
+and 5 8 254 257 O
+female 9 15 258 264 B-gender
+Veterans 16 24 265 273 O
+and 25 28 274 277 O
+non 29 32 278 281 O
+Veterans 33 41 282 290 O
+
+Ongoing 0 7 291 298 O
+cord 8 12 299 303 B-chronic_disease
+compression 13 24 304 315 I-chronic_disease
+or 25 27 316 318 O
+a 28 29 319 320 O
+syrinx 30 36 321 327 O
+in 37 39 328 330 O
+the 40 43 331 334 O
+spinal 44 50 335 341 O
+cord 51 55 342 346 O
+or 56 58 347 349 O
+who 59 62 350 353 O
+suffer 63 69 354 360 O
+from 70 74 361 365 O
+a 75 76 366 367 O
+spinal 77 83 368 374 B-chronic_disease
+cord 84 88 375 379 I-chronic_disease
+disease 89 96 380 387 I-chronic_disease
+such 97 101 388 392 O
+as 102 104 393 395 O
+spinal 105 111 396 402 B-chronic_disease
+stenosis 112 120 403 411 I-chronic_disease
+, 120 121 411 412 O
+spina 122 127 413 418 B-chronic_disease
+bifida 128 134 419 425 I-chronic_disease
+, 134 135 425 426 O
+MS 136 138 427 429 B-chronic_disease
+, 138 139 429 430 O
+or 140 142 431 433 O
+herniated 143 152 434 443 B-chronic_disease
+cervical 153 161 444 452 I-chronic_disease
+disk 162 166 453 457 I-chronic_disease
+
+Participants 0 12 458 470 O
+who 13 16 471 474 O
+have 17 21 475 479 O
+had 22 25 480 483 O
+a 26 27 484 485 O
+spinal 28 34 486 492 B-chronic_disease
+cord 35 39 493 497 I-chronic_disease
+injury 40 46 498 504 I-chronic_disease
+
+Pregnant 0 8 505 513 B-pregnancy
+females 9 16 514 521 B-gender
+
+Premorbid 0 9 522 531 O
+, 9 10 531 532 O
+ongoing 11 18 533 540 O
+major 19 24 541 546 B-chronic_disease
+depression 25 35 547 557 I-chronic_disease
+or 36 38 558 560 O
+psychosis 39 48 561 570 B-chronic_disease
+, 48 49 570 571 O
+altered 50 57 572 579 B-chronic_disease
+cognitive 58 67 580 589 I-chronic_disease
+status 68 74 590 596 I-chronic_disease
+
+Receiving 0 9 597 606 O
+drugs 10 15 607 612 O
+acting 16 22 613 619 O
+primarily 23 32 620 629 O
+on 33 35 630 632 O
+the 36 39 633 636 O
+central 40 47 637 644 O
+nervous 48 55 645 652 O
+system 56 62 653 659 O
+, 62 63 659 660 O
+which 64 69 661 666 O
+lower 70 75 667 672 O
+the 76 79 673 676 O
+seizure 80 87 677 684 B-chronic_disease
+threshold 88 97 685 694 O
+( 98 99 695 696 O
+see 99 102 696 699 O
+appendix 103 111 700 708 O
+2 112 113 709 710 O
+) 113 114 710 711 O
+
+Uncontrolled 0 12 712 724 O
+medical 13 20 725 732 O
+problems 21 29 733 741 O
+including 30 39 742 751 O
+pulmonary 40 49 752 761 B-chronic_disease
+, 49 50 761 762 O
+cardiovascular 51 65 763 777 B-chronic_disease
+or 66 68 778 780 O
+orthopedic 69 79 781 791 B-chronic_disease
+disease 80 87 792 799 I-chronic_disease
+
+between 0 7 800 807 O
+ages 8 12 808 812 B-age
+18 13 15 813 815 B-lower_bound
+- 15 16 815 816 O
+85 16 18 816 818 B-upper_bound
+years 19 24 819 824 I-upper_bound
+
+females 0 7 825 832 B-gender
+
+with 0 4 833 837 O
+spinal 5 11 838 844 B-chronic_disease
+cord 12 16 845 849 I-chronic_disease
+injury 17 23 850 856 I-chronic_disease
+at 24 26 857 859 O
+least 27 32 860 865 O
+6 33 34 866 867 B-lower_bound
+months 35 41 868 874 I-lower_bound
+after 42 47 875 880 O
+injury 48 54 881 887 O
+was 55 58 888 891 O
+sustained 59 68 892 901 O
+

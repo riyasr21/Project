@@ -1,0 +1,68 @@
+Already 0 7 0 7 O
+taking 8 14 8 14 O
+an 15 17 15 17 O
+anti 18 22 18 22 B-treatment
+- 22 23 22 23 I-treatment
+oxidant 23 30 23 30 I-treatment
+dietary 31 38 31 38 I-treatment
+supplement 39 49 39 49 I-treatment
+( 50 51 50 51 O
+e.g. 51 55 51 55 O
+, 55 56 55 56 O
+Olive 57 62 57 62 B-treatment
+Leaf 63 67 63 67 I-treatment
+Extract 68 75 68 75 I-treatment
+, 75 76 75 76 O
+MitoQ 77 82 77 82 B-treatment
+) 82 83 82 83 O
+
+At 0 2 84 86 O
+least18 3 10 87 94 O
+years 11 16 95 100 I-lower_bound
+old 17 20 101 104 I-lower_bound
+
+History 0 7 105 112 O
+of 8 10 113 115 O
+a 11 12 116 117 O
+post 13 17 118 122 B-chronic_disease
+- 17 18 122 123 I-chronic_disease
+spinal 18 24 123 129 I-chronic_disease
+headache 25 33 130 138 I-chronic_disease
+that 34 38 139 143 O
+required 39 47 144 152 O
+treatment 48 57 153 162 B-treatment
+with 58 62 163 167 O
+a 63 64 168 169 O
+blood 65 70 170 175 B-treatment
+patch 71 76 176 181 I-treatment
+
+Known 0 5 182 187 O
+allergy 6 13 188 195 O
+to 14 16 196 198 O
+NAC 17 20 199 202 B-allergy_name
+
+PD 0 2 203 205 B-chronic_disease
+diagnosed 3 12 206 215 O
+within 13 19 216 222 O
+the 20 23 223 226 O
+past 24 28 227 231 B-upper_bound
+5 29 30 232 233 I-upper_bound
+years 31 36 234 239 I-upper_bound
+
+Pregnant 0 8 240 248 B-pregnancy
+
+Taking 0 6 249 255 O
+a 7 8 256 257 O
+monoamine 9 18 258 267 B-treatment
+oxidase 19 26 268 275 I-treatment
+( 27 28 276 277 I-treatment
+MAO 28 31 277 280 I-treatment
+) 31 32 280 281 I-treatment
+inhibitor 33 42 282 291 I-treatment
+
+Taking 0 6 292 298 O
+levodopa 7 15 299 307 B-treatment
+in 16 18 308 310 O
+any 19 22 311 314 O
+form 23 27 315 319 O
+

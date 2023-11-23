@@ -1,0 +1,29 @@
+Women 0 5 0 5 B-gender
+undergoing 6 16 6 16 O
+cesarean 17 25 17 25 B-treatment
+delivery 26 34 26 34 I-treatment
+after 35 40 35 40 O
+labor 41 46 41 46 O
+at 47 49 47 49 O
+Barnes 50 56 50 56 O
+- 56 57 56 57 O
+Jewish 57 63 57 63 O
+Hospital 64 72 64 72 O
+
+known 0 5 73 78 O
+or 6 8 79 81 O
+suspected 9 18 82 91 O
+allergy 19 26 92 99 O
+to 27 29 100 102 O
+iodine 30 36 103 109 B-allergy_name
+or 37 39 110 112 O
+shellfish 40 49 113 122 B-allergy_name
+
+women 0 5 123 128 B-gender
+with 6 10 129 133 O
+active 11 17 134 140 O
+herpes 18 24 141 147 B-chronic_disease
+simplex 25 32 148 155 I-chronic_disease
+virus 33 38 156 161 I-chronic_disease
+infection 39 48 162 171 I-chronic_disease
+

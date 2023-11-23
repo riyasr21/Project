@@ -1,0 +1,177 @@
+A 0 1 0 1 O
+reversible 2 12 2 12 O
+cause 13 18 13 18 O
+of 19 21 19 21 O
+AF 22 24 22 24 B-chronic_disease
+( 25 26 25 26 O
+e.g. 26 30 26 30 O
+, 30 31 30 31 O
+thyrotoxicosis 32 46 32 46 B-chronic_disease
+) 46 47 46 47 O
+
+AF 0 2 48 50 B-chronic_disease
+symptoms 3 11 51 59 O
+present 12 19 60 67 O
+at 20 22 68 70 O
+least 23 28 71 76 O
+once 29 33 77 81 B-lower_bound
+per 34 37 82 85 I-lower_bound
+month 38 43 86 91 I-lower_bound
+
+Any 0 3 92 95 O
+race 4 8 96 100 O
+other 9 14 101 106 O
+than 15 19 107 111 O
+Caucasian 20 29 112 121 B-ethnicity
+
+Cardiac 0 7 122 129 B-treatment
+or 8 10 130 132 I-treatment
+thoracic 11 19 133 141 I-treatment
+surgery 20 27 142 149 I-treatment
+within 28 34 150 156 O
+the 35 38 157 160 O
+previous 39 47 161 169 B-upper_bound
+6 48 49 170 171 I-upper_bound
+months 50 56 172 178 I-upper_bound
+
+Contra 0 6 179 185 O
+- 6 7 185 186 O
+indication 7 17 186 196 O
+to 18 20 197 199 O
+a 21 22 200 201 O
+class 23 28 202 207 B-allergy_name
+III 29 32 208 211 I-allergy_name
+AAD 33 36 212 215 I-allergy_name
+
+Creatinine 0 10 216 226 B-clinical_variable
+clearance 11 20 227 236 I-clinical_variable
+< 21 22 237 238 O
+40 22 24 238 240 B-upper_bound
+ml 25 27 241 243 I-upper_bound
+/ 27 28 243 244 I-upper_bound
+min 28 31 244 247 I-upper_bound
+
+ECG 0 3 248 251 B-clinical_variable
+that 4 8 252 256 O
+was 9 12 257 260 O
+recorded 13 21 261 269 O
+within 22 28 270 276 O
+12 29 31 277 279 B-upper_bound
+months 32 38 280 286 I-upper_bound
+of 39 41 287 289 O
+randomization 42 55 290 303 O
+showing 56 63 304 311 O
+AF 64 66 312 314 O
+
+Females 0 7 315 322 B-gender
+who 8 11 323 326 O
+are 12 15 327 330 O
+pregnant 16 24 331 339 B-pregnancy
+
+History 0 7 340 347 O
+of 8 10 348 350 O
+severe 11 17 351 357 B-chronic_disease
+AV 18 20 358 360 I-chronic_disease
+node 21 25 361 365 I-chronic_disease
+dysfunction 26 37 366 377 I-chronic_disease
+unless 38 44 378 384 O
+an 45 47 385 387 O
+electronic 48 58 388 398 O
+pacemaker 59 68 399 408 O
+is 69 71 409 411 O
+present 72 79 412 419 O
+
+History 0 7 420 427 O
+of 8 10 428 430 O
+typical 11 18 431 438 O
+or 19 21 439 441 O
+lone 22 26 442 446 B-chronic_disease
+symptomatic 27 38 447 458 I-chronic_disease
+AF 39 41 459 461 I-chronic_disease
+
+Medical 0 7 462 469 O
+condition 8 17 470 479 O
+that 18 22 480 484 O
+is 23 25 485 487 O
+likely 26 32 488 494 O
+to 33 35 495 497 O
+be 36 38 498 500 O
+fatal 39 44 501 506 O
+in 45 47 507 509 O
+less 48 52 510 514 O
+than 53 57 515 519 O
+one 58 61 520 523 B-upper_bound
+year 62 66 524 528 I-upper_bound
+
+Permanent 0 9 529 538 O
+AF 10 12 539 541 B-chronic_disease
+or 13 15 542 544 O
+isolated 16 24 545 553 O
+atrial 25 31 554 560 B-chronic_disease
+flutter 32 39 561 568 I-chronic_disease
+
+Previous 0 8 569 577 O
+use 9 12 578 581 O
+of 13 15 582 584 O
+amiodarone 16 26 585 595 B-treatment
+other 27 32 596 601 O
+than 33 37 602 606 O
+short 38 43 607 612 O
+- 43 44 612 613 O
+term 44 48 613 617 O
+use 49 52 618 621 O
+( 53 54 622 623 O
+e.g. 54 58 623 627 O
+for 59 62 628 631 O
+an 63 65 632 634 O
+acute 66 71 635 640 O
+arrhythmia 72 82 641 651 B-chronic_disease
+in 83 85 652 654 O
+hospital 86 94 655 663 O
+) 94 95 663 664 O
+
+Previously 0 10 665 675 O
+treated 11 18 676 683 O
+with 19 23 684 688 O
+class 24 29 689 694 B-treatment
+I 30 31 695 696 I-treatment
+and 32 35 697 700 O
+class 36 41 701 706 B-treatment
+III 42 45 707 710 I-treatment
+antiarrhythmic 46 60 711 725 I-treatment
+drugs 61 66 726 731 I-treatment
+
+Received 0 8 732 740 O
+2 9 10 741 742 B-lower_bound
+or 11 13 743 745 O
+more 14 18 746 750 O
+AADs 19 23 751 755 B-treatment
+in 24 26 756 758 O
+past 27 31 759 763 O
+
+congenital 0 10 764 774 O
+or 11 13 775 777 O
+acquired 14 22 778 786 O
+long 23 27 787 791 B-chronic_disease
+QT 28 30 792 794 I-chronic_disease
+syndrome 31 39 795 803 I-chronic_disease
+with 40 44 804 808 O
+QTc>450 45 52 809 816 B-clinical_variable
+ms 53 55 817 819 I-lower_bound
+at 56 58 820 822 O
+baseline 59 67 823 831 O
+
+history 0 7 832 839 O
+of 8 10 840 842 O
+MI 11 13 843 845 B-chronic_disease
+
+structural 0 10 846 856 B-chronic_disease
+heart 11 16 857 862 I-chronic_disease
+disease 17 24 863 870 I-chronic_disease
+
+≥ 0 1 871 872 O
+18 2 4 873 875 B-lower_bound
+years 5 10 876 881 I-lower_bound
+of 11 13 882 884 O
+age 14 17 885 888 B-age
+

@@ -1,0 +1,28 @@
+age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+old 13 16 13 16 O
+or 17 19 17 19 O
+older 20 25 20 25 O
+
+greater 0 7 26 33 O
+than 8 12 34 38 O
+20 13 15 39 41 B-lower_bound
+acute 16 21 42 47 O
+care 22 26 48 52 O
+visits 27 33 53 59 O
+within 34 40 60 66 O
+the 41 44 67 70 O
+past 45 49 71 75 O
+year 50 54 76 80 O
+
+patients 0 8 81 89 O
+on 9 11 90 92 O
+chronic 12 19 93 100 O
+RBC 20 23 101 104 B-treatment
+transfusions 24 36 105 117 I-treatment
+( 37 38 118 119 O
+scheduled 38 47 119 128 O
+transfusions 48 60 129 141 O
+) 60 61 141 142 O
+

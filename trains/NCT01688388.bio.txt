@@ -1,0 +1,132 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+40 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Any 0 3 15 18 O
+hormonal 4 12 19 27 O
+receptor 13 21 28 36 O
+and 22 25 37 40 O
+HER-2 26 31 41 46 B-cancer
+status 32 38 47 53 I-cancer
+
+Distant 0 7 54 61 B-cancer
+metastases 8 18 62 72 I-cancer
+
+Gender 0 6 73 79 O
+: 6 7 79 80 O
+male 8 12 81 85 B-gender
+
+Histological 0 12 86 98 O
+proven 13 19 99 105 O
+invasive 20 28 106 114 B-cancer
+breast 29 35 115 121 I-cancer
+carcinoma 36 45 122 131 I-cancer
+ductal 46 52 132 138 I-cancer
+, 52 53 138 139 O
+lobular 54 61 140 147 O
+and/or 62 68 148 154 O
+Ductal 69 75 155 161 B-cancer
+Carcinoma 76 85 162 171 I-cancer
+in 86 88 172 174 I-cancer
+situ 89 93 175 179 I-cancer
+
+Karnofsky 0 9 180 189 B-clinical_variable
+Index 10 15 190 195 I-clinical_variable
+< 16 17 196 197 O
+70 18 20 198 200 B-upper_bound
+% 20 21 200 201 I-upper_bound
+
+Karnofsky 0 9 202 211 B-clinical_variable
+performance 10 21 212 223 I-clinical_variable
+status 22 28 224 230 I-clinical_variable
+> 29 30 231 232 O
+70 31 33 233 235 B-lower_bound
+% 33 34 235 236 I-lower_bound
+
+Mixed 0 5 237 242 B-chronic_disease
+connective 6 16 243 253 I-chronic_disease
+tissue 17 23 254 260 I-chronic_disease
+diseases 24 32 261 269 I-chronic_disease
+e.g. 33 37 270 274 O
+rheumatoid 38 48 275 285 B-chronic_disease
+poly 49 53 286 290 I-chronic_disease
+arthritis 54 63 291 300 I-chronic_disease
+, 63 64 300 301 O
+thromboangitis 65 79 302 316 B-chronic_disease
+obliterans 80 90 317 327 I-chronic_disease
+, 90 91 327 328 O
+systemic 92 100 329 337 B-chronic_disease
+lupus 101 106 338 343 I-chronic_disease
+
+Multicentricity 0 15 344 359 B-cancer
+
+Nodal 0 5 360 365 B-clinical_variable
+status 6 12 366 372 I-clinical_variable
+greater 13 20 373 380 O
+than 21 25 381 385 O
+or 26 28 386 388 O
+equal 29 34 389 394 O
+to 35 37 395 397 O
+N1 38 40 398 400 O
+pathologically 41 55 401 415 O
+
+Pregnancy 0 9 416 425 B-pregnancy
+in 10 12 426 428 O
+woman 13 18 429 434 B-gender
+of 19 21 435 437 O
+child 22 27 438 443 O
+bearing 28 35 444 451 O
+age 36 39 452 455 B-age
+
+Previous 0 8 456 464 O
+radiotherapy 9 21 465 477 B-treatment
+to 22 24 478 480 O
+the 25 28 481 484 O
+involved 29 37 485 493 O
+breast 38 44 494 500 O
+
+Tumor 0 5 501 506 B-clinical_variable
+size 6 10 507 511 I-clinical_variable
+: 10 11 511 512 O
+more 12 16 513 517 O
+than 17 21 518 522 O
+2.5 22 25 523 526 B-lower_bound
+cm 26 28 527 529 I-lower_bound
+
+Tumor 0 5 530 535 B-cancer
+. 5 6 535 536 O
+Single 7 13 537 543 O
+discrete 14 22 544 552 O
+tumor 23 28 553 558 B-cancer
+or 29 31 559 561 O
+focal 32 37 562 567 B-cancer
+microcalcifications 38 57 568 587 I-cancer
+that 58 62 588 592 O
+can 63 66 593 596 O
+be 67 69 597 599 O
+imaged 70 76 600 606 O
+on 77 79 607 609 O
+a 80 81 610 611 O
+specimen 82 90 612 620 O
+radiograph 91 101 621 631 O
+or 102 104 632 634 O
+multifocal 105 115 635 645 B-cancer
+disease 116 123 646 653 I-cancer
+within 124 130 654 660 O
+the 131 134 661 664 O
+same 135 139 665 669 O
+quadrant 140 148 670 678 O
+with 149 153 679 683 O
+a 154 155 684 685 O
+maximum 156 163 686 693 O
+dimension 164 173 694 703 O
+of 174 176 704 706 O
+equal 177 182 707 712 O
+to 183 185 713 715 O
+or 186 188 716 718 O
+less 189 193 719 723 O
+than 194 198 724 728 O
+2.5 199 202 729 732 B-upper_bound
+cm 203 205 733 735 I-upper_bound
+

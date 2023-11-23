@@ -1,0 +1,12 @@
+taking 0 6 0 6 O
+estrogen 7 15 7 15 B-treatment
+supplements 16 27 16 27 I-treatment
+or 28 30 28 30 O
+oral 31 35 31 35 B-contraception_consent
+contraceptive 36 49 36 49 I-contraception_consent
+pills 50 55 50 55 I-contraception_consent
+( 56 57 56 57 O
+for 57 60 57 60 O
+women 61 66 61 66 B-gender
+) 66 67 66 67 O
+

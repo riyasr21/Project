@@ -1,0 +1,39 @@
+ASA 0 3 0 3 B-clinical_variable
+III 4 7 4 7 B-lower_bound
+or 8 10 8 10 O
+IV 11 13 11 13 B-upper_bound
+
+BMI 0 3 14 17 B-bmi
+greater 4 11 18 25 O
+than 12 16 26 30 O
+37 17 19 31 33 B-lower_bound
+
+Contraindications 0 17 34 51 O
+to 18 20 52 54 O
+neuraxial 21 30 55 64 B-allergy_name
+analgesia 31 40 65 74 I-allergy_name
+
+Height 0 6 75 81 B-clinical_variable
+less 7 11 82 86 O
+than 12 16 87 91 O
+60 17 19 92 94 B-upper_bound
+inches 20 26 95 101 I-upper_bound
+
+Previous 0 8 102 110 B-treatment
+spinal 9 15 111 117 I-treatment
+surgery 16 23 118 125 I-treatment
+in 24 26 126 128 O
+the 27 30 129 132 O
+lumbar 31 37 133 139 O
+or 38 40 140 142 O
+sacral 41 47 143 149 O
+area 48 52 150 154 O
+( 53 54 155 156 O
+L1 54 56 156 158 O
+through 57 64 159 166 O
+Sacrum 65 71 167 173 O
+) 71 72 173 174 O
+
+Significant 0 11 175 186 O
+scoliosis 12 21 187 196 B-chronic_disease
+

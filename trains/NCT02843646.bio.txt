@@ -1,0 +1,15 @@
+Seizure 0 7 0 7 B-chronic_disease
+history 8 15 8 15 O
+interfering 16 27 16 27 O
+with 28 32 28 32 O
+use 33 36 33 36 O
+of 37 39 37 39 O
+functional 40 50 40 50 O
+electrical 51 61 51 61 O
+stimulation 62 73 62 73 O
+as 74 76 74 76 O
+verified 77 85 77 85 O
+by 86 88 86 88 O
+their 89 94 89 94 O
+MD 95 97 95 97 O
+

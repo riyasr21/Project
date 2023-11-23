@@ -1,0 +1,111 @@
+Eastern 0 7 0 7 B-clinical_variable
+Cooperative 8 19 8 19 I-clinical_variable
+Oncology 20 28 20 28 I-clinical_variable
+Group(ECOG 29 39 29 39 I-clinical_variable
+) 39 40 39 40 I-clinical_variable
+status 41 47 41 47 I-clinical_variable
+0 48 49 48 49 B-lower_bound
+- 49 50 49 50 O
+2 50 51 50 51 B-upper_bound
+
+T3b 0 3 52 55 B-cancer
+or 4 6 56 58 O
+T4 7 9 59 61 B-cancer
+or 10 12 62 64 O
+node 13 17 65 69 B-cancer
+positive 18 26 70 78 I-cancer
+disease 27 34 79 86 I-cancer
+
+antiplatelet 0 12 87 99 B-treatment
+or 13 15 100 102 O
+anticoagulant 16 29 103 116 B-treatment
+agents 30 36 117 123 I-treatment
+
+history 0 7 124 131 O
+of 8 10 132 134 O
+gallbladder 11 22 135 146 B-chronic_disease
+problems 23 31 147 155 I-chronic_disease
+or 32 34 156 158 O
+gallstones 35 45 159 169 B-chronic_disease
+, 45 46 169 170 O
+or 47 49 171 173 O
+biliary 50 57 174 181 B-chronic_disease
+obstruction 58 69 182 193 I-chronic_disease
+
+history 0 7 194 201 O
+of 8 10 202 204 O
+gastric 11 18 205 212 B-chronic_disease
+or 19 21 213 215 O
+duodenal 22 30 216 224 B-chronic_disease
+ulcers 31 37 225 231 I-chronic_disease
+or 38 40 232 234 O
+hyperacidity 41 53 235 247 B-chronic_disease
+syndromes 54 63 248 257 O
+
+hormone 0 7 258 265 B-treatment
+therapy 8 15 266 273 I-treatment
+before 16 22 274 280 O
+surgery 23 30 281 288 B-treatment
+
+life 0 4 289 293 B-clinical_variable
+expectancy 5 15 294 304 I-clinical_variable
+of 16 18 305 307 O
+3 19 20 308 309 B-upper_bound
+years 21 26 310 315 I-upper_bound
+
+must 0 4 316 320 O
+not 5 8 321 324 O
+have 9 13 325 329 O
+exceeded 14 22 330 338 O
+3 23 24 339 340 B-lower_bound
+months 25 31 341 347 I-lower_bound
+from 32 36 348 352 O
+time 37 41 353 357 O
+of 42 44 358 360 O
+surgery 45 52 361 368 B-treatment
+to 53 55 369 371 O
+enrollment 56 66 372 382 O
+into 67 71 383 387 O
+study 72 77 388 393 O
+
+no 0 2 394 396 O
+plan 3 7 397 401 O
+to 8 10 402 404 O
+receive 11 18 405 412 O
+adjuvant 19 27 413 421 B-treatment
+hormone 28 35 422 429 I-treatment
+or 36 38 430 432 O
+radiation 39 48 433 442 B-treatment
+therapy 49 56 443 450 I-treatment
+
+no 0 2 451 453 O
+sign 3 7 454 458 O
+of 8 10 459 461 O
+lymph 11 16 462 467 O
+node 17 21 468 472 O
+or 22 24 473 475 O
+metastatic 25 35 476 486 B-cancer
+disease 36 43 487 494 O
+
+pathologically 0 14 495 509 O
+confirmed 15 24 510 519 O
+T1 25 27 520 522 B-cancer
+- 27 28 522 523 O
+T3 28 30 523 525 B-cancer
+disease 31 38 526 533 I-cancer
+
+radiation 0 9 534 543 B-treatment
+therapy 10 17 544 551 I-treatment
+as 18 20 552 554 O
+primary 21 28 555 562 O
+treatment 29 38 563 572 B-treatment
+after 39 44 573 578 O
+surgery 45 52 579 586 B-treatment
+
+radical 0 7 587 594 B-chronic_disease
+prostatectomy 8 21 595 608 I-chronic_disease
+for 22 25 609 612 O
+adenocarcinoma 26 40 613 627 B-cancer
+of 41 43 628 630 I-cancer
+prostate 44 52 631 639 I-cancer
+

@@ -1,0 +1,176 @@
+Congestive 0 10 0 10 B-chronic_disease
+heart 11 16 11 16 I-chronic_disease
+failure 17 24 17 24 I-chronic_disease
+
+Effexor 0 7 25 32 B-treatment
+( 8 9 33 34 I-treatment
+venlafaxine 9 20 34 45 I-treatment
+) 20 21 45 46 I-treatment
+
+History 0 7 47 54 O
+of 8 10 55 57 O
+serious 11 18 58 65 O
+neurologic 19 29 66 76 B-chronic_disease
+disease 30 37 77 84 I-chronic_disease
+
+Hypersensitivity 0 16 85 101 O
+to 17 19 102 104 O
+atomoxetine 20 31 105 116 B-allergy_name
+( 32 33 117 118 O
+severe 33 39 118 124 O
+allergic 40 48 125 133 O
+reaction 49 57 134 142 O
+, 57 58 142 143 O
+rash 59 63 144 148 O
+, 63 64 148 149 O
+urticaria 65 74 150 159 O
+, 74 75 159 160 O
+anaphylaxis 76 87 161 172 O
+) 87 88 172 173 O
+
+Impaired 0 8 174 182 B-chronic_disease
+hepatic 9 16 183 190 I-chronic_disease
+function 17 25 191 199 I-chronic_disease
+
+Impaired 0 8 200 208 B-chronic_disease
+renal 9 14 209 214 I-chronic_disease
+function 15 23 215 223 I-chronic_disease
+
+Myocardial 0 10 224 234 B-chronic_disease
+infarction 11 21 235 245 I-chronic_disease
+within 22 28 246 252 O
+6 29 30 253 254 B-upper_bound
+months 31 37 255 261 I-upper_bound
+prior 38 43 262 267 I-upper_bound
+to 44 46 268 270 O
+enrollment 47 57 271 281 O
+
+Neurogenic 0 10 282 292 B-chronic_disease
+Orthostatic 11 22 293 304 I-chronic_disease
+Hypotension 23 34 305 316 I-chronic_disease
+
+Patients 0 8 317 325 O
+with 9 13 326 330 O
+narrow 14 20 331 337 B-chronic_disease
+angle 21 26 338 343 I-chronic_disease
+glaucoma 27 35 344 352 I-chronic_disease
+
+Patients 0 8 353 361 O
+with 9 13 362 366 O
+or 14 16 367 369 O
+a 17 18 370 371 O
+history 19 26 372 379 O
+of 27 29 380 382 O
+pheochromocytoma 30 46 383 399 B-cancer
+
+Pre 0 3 400 403 O
+- 3 4 403 404 O
+existing 4 12 404 412 O
+sustained 13 22 413 422 O
+severe 23 29 423 429 O
+hypertension 30 42 430 442 B-chronic_disease
+( 43 44 443 444 O
+BP 44 46 444 446 B-clinical_variable
+140/80 47 53 447 453 O
+mmhg 54 58 454 458 O
+in 59 61 459 461 O
+the 62 65 462 465 O
+sitting 66 73 466 473 O
+position 74 82 474 482 O
+) 82 83 482 483 O
+
+Pregnancy 0 9 484 493 B-pregnancy
+
+Previous 0 8 494 502 O
+history 9 16 503 510 O
+( 17 18 511 512 O
+within 18 24 512 518 O
+14 25 27 519 521 B-upper_bound
+days 28 32 522 526 I-upper_bound
+prior 33 38 527 532 I-upper_bound
+to 39 41 533 535 O
+enrollment 42 52 536 546 O
+) 52 53 546 547 O
+and 54 57 548 551 O
+current 58 65 552 559 O
+use 66 69 560 563 O
+of 70 72 564 566 O
+monoamine 73 82 567 576 B-treatment
+oxidase 83 90 577 584 I-treatment
+inhibitors 91 101 585 595 I-treatment
+
+Pristiq 0 7 596 603 B-treatment
+( 8 9 604 605 I-treatment
+desvenlafaxine 9 23 605 619 I-treatment
+) 23 24 619 620 I-treatment
+
+Wellbutrin 0 10 621 631 B-treatment
+( 11 12 632 633 I-treatment
+Bupropion 12 21 633 642 I-treatment
+) 21 22 642 643 I-treatment
+
+cerebral 0 8 644 652 B-chronic_disease
+hemorrhage 9 19 653 663 I-chronic_disease
+
+delavirdine 0 11 664 675 B-treatment
+
+fluoxetine 0 10 676 686 B-treatment
+
+mental 0 6 687 693 B-chronic_disease
+conditions 7 17 694 704 I-chronic_disease
+rendering 18 27 705 714 O
+the 28 31 715 718 O
+subject 32 39 719 726 O
+unable 40 46 727 733 O
+to 47 49 734 736 O
+understand 50 60 737 747 O
+the 61 64 748 751 O
+nature 65 71 752 758 O
+, 71 72 758 759 O
+scope 73 78 760 765 O
+, 78 79 765 766 O
+and 80 83 767 770 O
+possible 84 92 771 779 O
+consequences 93 105 780 792 O
+of 106 108 793 795 O
+the 109 112 796 799 O
+study 113 118 800 805 O
+
+paroxetine 0 10 806 816 B-treatment
+
+quinidine 0 9 817 826 B-treatment
+
+serum 0 5 827 832 B-clinical_variable
+creatinine 6 16 833 843 I-clinical_variable
+equal 17 22 844 849 O
+or 23 25 850 852 O
+more 26 30 853 857 O
+than 31 35 858 862 O
+1.6 36 39 863 866 B-lower_bound
+mg 40 42 867 869 I-lower_bound
+/ 42 43 869 870 I-lower_bound
+dl 43 45 870 872 I-lower_bound
+
+≥30 0 3 873 876 O
+mmHg 4 8 877 881 I-lower_bound
+drop 9 13 882 886 O
+in 14 16 887 889 O
+SBP 17 20 890 893 B-clinical_variable
+within 21 27 894 900 O
+3 28 29 901 902 B-upper_bound
+minutes 30 37 903 910 I-upper_bound
+of 38 40 911 913 O
+standing 41 49 914 922 O
+, 49 50 922 923 O
+associated 51 61 924 934 O
+with 62 66 935 939 O
+impaired 67 75 940 948 O
+autonomic 76 85 949 958 O
+reflexes 86 94 959 967 O
+as 95 97 968 970 O
+assessed 98 106 971 979 O
+by 107 109 980 982 O
+autonomic 110 119 983 992 O
+function 120 128 993 1001 O
+tests 129 134 1002 1007 O
+

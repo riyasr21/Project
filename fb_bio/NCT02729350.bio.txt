@@ -1,0 +1,33 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Has 0 3 25 28 O
+SCD 4 7 29 32 B-chronic_disease
+diagnosis 8 17 33 42 O
+
+Reports 0 7 43 50 O
+pain 8 12 51 55 O
+3 13 14 56 57 B-lower_bound
+or 15 17 58 60 O
+greater 18 25 61 68 O
+in 26 28 69 71 O
+the 29 32 72 75 O
+previous 33 41 76 84 O
+24 42 44 85 87 B-upper_bound
+hours 45 50 88 93 I-upper_bound
+( 51 52 94 95 O
+0 52 53 95 96 B-lower_bound
+- 53 54 96 97 O
+10 54 56 97 99 B-upper_bound
+scale 57 62 100 105 I-upper_bound
+) 62 63 105 106 O
+
+Speaks 0 6 107 113 B-language_fluency
+and 7 10 114 117 I-language_fluency
+reads 11 16 118 123 I-language_fluency
+English 17 24 124 131 I-language_fluency
+

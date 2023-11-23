@@ -1,0 +1,34 @@
+5 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+21 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+Females 0 7 18 25 B-gender
+with 8 12 26 30 O
+a 13 14 31 32 O
+positive 15 23 33 41 B-pregnancy
+urine 24 29 42 47 I-pregnancy
+pregnancy 30 39 48 57 I-pregnancy
+test 40 44 58 62 O
+
+Subject 0 7 63 70 O
+is 8 10 71 73 O
+eligible 11 19 74 82 O
+for 20 23 83 86 O
+routine 24 31 87 94 B-treatment
+chemotherapy 32 44 95 107 I-treatment
+and 45 48 108 111 O
+routine 49 56 112 119 B-treatment
+surgery 57 64 120 127 I-treatment
+for 65 68 128 131 O
+the 69 72 132 135 O
+treatment 73 82 136 145 B-treatment
+of 83 85 146 148 O
+non 86 89 149 152 B-cancer
+- 89 90 152 153 I-cancer
+metastatic 90 100 153 163 I-cancer
+extremity 101 110 164 173 I-cancer
+osteosarcoma 111 123 174 186 I-cancer
+

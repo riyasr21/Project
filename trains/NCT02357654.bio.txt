@@ -1,0 +1,19 @@
+women 0 5 0 5 B-gender
+undergoing 6 16 6 16 O
+IVF 17 20 17 20 O
+/ 20 21 20 21 O
+ICSI 21 25 21 25 O
+or 26 28 26 28 O
+frozen 29 35 29 35 O
+embryo 36 42 36 42 O
+transfers 43 52 43 52 O
+( 53 54 53 54 O
+FET 54 57 54 57 O
+) 57 58 57 58 O
+that 59 63 59 63 O
+less 64 68 64 68 O
+than 69 73 69 73 O
+40 74 76 74 76 B-upper_bound
+years 77 82 77 82 I-upper_bound
+old 83 86 83 86 O
+

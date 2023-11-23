@@ -1,0 +1,32 @@
+Clinical 0 8 0 8 O
+diagnosis 9 18 9 18 O
+of 19 21 19 21 O
+idiopathic 22 32 22 32 O
+Parkinson 33 42 33 42 B-chronic_disease
+'s 42 44 42 44 I-chronic_disease
+disease 45 52 45 52 I-chronic_disease
+( 53 54 53 54 I-chronic_disease
+PD 54 56 54 56 I-chronic_disease
+) 56 57 56 57 I-chronic_disease
+
+Significant 0 11 58 69 O
+medical 12 19 70 77 O
+or 20 22 78 80 O
+psychiatric 23 34 81 92 B-chronic_disease
+illness 35 42 93 100 I-chronic_disease
+or 43 45 101 103 O
+dementia 46 54 104 112 B-chronic_disease
+as 55 57 113 115 O
+evidenced 58 67 116 125 O
+by 68 70 126 128 O
+a 71 72 129 130 O
+score 73 78 131 136 O
+less 79 83 137 141 O
+than 84 88 142 146 O
+26 89 91 147 149 B-upper_bound
+on 92 94 150 152 O
+the 95 98 153 156 O
+Montreal 99 107 157 165 O
+Cognitive 108 117 166 175 O
+Assessment 118 128 176 186 O
+

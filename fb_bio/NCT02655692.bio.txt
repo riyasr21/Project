@@ -1,0 +1,41 @@
+between 0 7 0 7 O
+the 8 11 8 11 O
+ages 12 16 12 16 B-age
+of 17 19 17 19 O
+18 20 22 20 22 B-lower_bound
+and 23 26 23 26 O
+70 27 29 27 29 B-upper_bound
+years 30 35 30 35 I-upper_bound
+
+diagnosis 0 9 36 45 O
+of 10 12 46 48 O
+PTSD 13 17 49 53 B-chronic_disease
+
+females 0 7 54 61 B-gender
+who 8 11 62 65 O
+are 12 15 66 69 B-pregnancy
+currently 16 25 70 79 I-pregnancy
+pregnant 26 34 80 88 I-pregnancy
+
+history 0 7 89 96 O
+of 8 10 97 99 O
+severe 11 17 100 106 B-chronic_disease
+head 18 22 107 111 I-chronic_disease
+injury 23 29 112 118 I-chronic_disease
+
+history 0 7 119 126 O
+of 8 10 127 129 O
+trialing 11 19 130 138 O
+one 20 23 139 142 O
+or 24 26 143 145 O
+more 27 31 146 150 O
+antidepressant 32 46 151 165 B-treatment
+medications 47 58 166 177 I-treatment
+with 59 63 178 182 O
+little 64 70 183 189 O
+to 71 73 190 192 O
+no 74 76 193 195 O
+PTSD 77 81 196 200 B-chronic_disease
+symptom 82 89 201 208 O
+improvement 90 101 209 220 O
+

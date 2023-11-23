@@ -1,0 +1,46 @@
+Currently 0 9 0 9 B-pregnancy
+pregnant 10 18 10 18 I-pregnancy
+
+DSM 0 3 19 22 O
+- 3 4 22 23 O
+V 4 5 23 24 O
+moderate 6 14 25 33 O
+or 15 17 34 36 O
+severe 18 24 37 43 O
+opiate 25 31 44 50 B-treatment
+( 32 33 51 52 O
+heroin 33 39 52 58 O
+or 40 42 59 61 O
+OA 43 45 62 64 O
+) 45 46 64 65 O
+
+Past 0 4 66 70 B-upper_bound
+3 5 6 71 72 I-upper_bound
+- 6 7 72 73 I-upper_bound
+month 7 12 73 78 I-upper_bound
+non 13 16 79 82 O
+- 16 17 82 83 O
+medical 17 24 83 90 O
+opioid 25 31 91 97 B-treatment
+analgesic 32 41 98 107 I-treatment
+( 42 43 108 109 I-treatment
+OA 43 45 109 111 I-treatment
+) 45 46 111 112 I-treatment
+use 47 50 113 116 O
+
+Presenting 0 10 117 127 O
+for 11 14 128 131 O
+pain 15 19 132 136 O
+related 20 27 137 144 O
+to 28 30 145 147 O
+acute 31 36 148 153 B-treatment
+cancer 37 43 154 160 I-treatment
+therapy 44 51 161 168 I-treatment
+
+Unable 0 6 169 175 B-language_fluency
+to 7 9 176 178 I-language_fluency
+read 10 14 179 183 I-language_fluency
+/ 14 15 183 184 I-language_fluency
+understand 15 25 184 194 I-language_fluency
+English 26 33 195 202 I-language_fluency
+

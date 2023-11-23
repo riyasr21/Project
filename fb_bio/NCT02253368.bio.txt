@@ -1,0 +1,89 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+21 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+40 8 10 8 10 B-upper_bound
+years 11 16 11 16 I-upper_bound
+
+Average 0 7 17 24 O
+habitual 8 16 25 33 O
+sleep 17 22 34 39 O
+duration 23 31 40 48 O
+of 32 34 49 51 O
+6.5 35 38 52 55 B-upper_bound
+hours 39 44 56 61 I-upper_bound
+or 45 47 62 64 O
+less 48 52 65 69 O
+per 53 56 70 73 O
+night 57 62 74 79 O
+
+Body 0 4 80 84 B-bmi
+mass 5 9 85 89 I-bmi
+index 10 15 90 95 I-bmi
+: 15 16 95 96 O
+25.0 17 21 97 101 B-lower_bound
+to 22 24 102 104 O
+29.9 25 29 105 109 B-upper_bound
+kg 30 32 110 112 I-upper_bound
+/ 32 33 112 113 I-upper_bound
+m2 33 35 113 115 I-upper_bound
+
+claustrophobia 0 14 116 130 B-chronic_disease
+
+diabetes 0 8 131 139 B-chronic_disease
+
+obstructive 0 11 140 151 B-chronic_disease
+sleep 12 17 152 157 I-chronic_disease
+apnea 18 23 158 163 I-chronic_disease
+or 24 26 164 166 O
+history 27 34 167 174 O
+of 35 37 175 177 O
+any 38 41 178 181 O
+other 42 47 182 187 O
+sleep 48 53 188 193 B-chronic_disease
+disorder 54 62 194 202 I-chronic_disease
+
+pregnancy 0 9 203 212 B-pregnancy
+
+prior 0 5 213 218 O
+or 6 8 219 221 O
+current 9 16 222 229 O
+eating 17 23 230 236 B-chronic_disease
+or 24 26 237 239 O
+psychiatric 27 38 240 251 B-chronic_disease
+disorders 39 48 252 261 I-chronic_disease
+
+recent 0 6 262 268 O
+( 7 8 269 270 O
+< 8 9 270 271 O
+4 10 11 272 273 B-upper_bound
+week 12 16 274 278 I-upper_bound
+) 16 17 278 279 O
+travel 18 24 280 286 O
+across 25 31 287 293 O
+time 32 36 294 298 O
+zones 37 42 299 304 O
+
+stable 0 6 305 311 O
+sleep 7 12 312 317 O
+habits 13 19 318 324 O
+for 20 23 325 328 O
+the 24 27 329 332 O
+past 28 32 333 337 B-upper_bound
+6 33 34 338 339 I-upper_bound
+months 35 41 340 346 I-upper_bound
+
+subjects 0 8 347 355 O
+who 9 12 356 359 O
+have 13 17 360 364 O
+received 18 26 365 373 O
+iv 27 29 374 376 O
+or 30 32 377 379 O
+oral 33 37 380 384 B-treatment
+contrast 38 46 385 393 I-treatment
+in 47 49 394 396 O
+the 50 53 397 400 O
+past 54 58 401 405 B-upper_bound
+2 59 60 406 407 I-upper_bound
+weeks 61 66 408 413 I-upper_bound
+

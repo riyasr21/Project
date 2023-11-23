@@ -1,0 +1,8 @@
+Prisoners 0 9 0 9 O
+and/or 10 16 10 16 O
+those 17 22 17 22 O
+who 23 26 23 26 O
+may 27 30 27 30 O
+be 31 33 31 33 O
+pregnant 34 42 34 42 B-pregnancy
+

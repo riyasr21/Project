@@ -1,0 +1,115 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+1 9 10 9 10 B-lower_bound
+lesion 11 17 11 17 O
+with 18 22 18 22 O
+measurable 23 33 23 33 O
+disease 34 41 34 41 O
+at 42 44 42 44 O
+baseline 45 53 45 53 O
+
+Autoimmune 0 10 54 64 B-chronic_disease
+disease 11 18 65 72 I-chronic_disease
+
+Eastern 0 7 73 80 B-clinical_variable
+Cooperative 8 19 81 92 I-clinical_variable
+Oncology 20 28 93 101 I-clinical_variable
+Group 29 34 102 107 I-clinical_variable
+( 35 36 108 109 I-clinical_variable
+ECOG 36 40 109 113 I-clinical_variable
+) 40 41 113 114 I-clinical_variable
+performance 42 53 115 126 I-clinical_variable
+status 54 60 127 133 I-clinical_variable
+of 61 63 134 136 O
+0 64 65 137 138 B-lower_bound
+or 66 68 139 141 O
+1 69 70 142 143 B-upper_bound
+
+Encephalitis 0 12 144 156 B-chronic_disease
+
+For 0 3 157 160 O
+dose 4 8 161 165 O
+escalation 9 19 166 176 O
+and 20 23 177 180 O
+dose 24 28 181 185 O
+expansion 29 38 186 195 O
+in 39 41 196 198 O
+combination 42 53 199 210 O
+with 54 58 211 215 O
+BMS-936558 59 69 216 226 O
+: 69 70 226 227 O
+HL 71 73 228 230 O
+and 74 77 231 234 O
+DLBCL 78 83 235 240 B-cancer
+
+For 0 3 241 244 O
+dose 4 8 245 249 B-treatment
+escalation 9 19 250 260 I-treatment
+monotherapy 20 31 261 272 I-treatment
+: 31 32 272 273 O
+CLL 33 36 274 277 B-cancer
+, 36 37 277 278 O
+HL 38 40 279 281 B-cancer
+, 40 41 281 282 O
+NHL 42 45 283 286 B-cancer
+, 45 46 286 287 O
+MM 47 49 288 290 B-cancer
+
+For 0 3 291 294 O
+dose 4 8 295 299 O
+expansion 9 18 300 309 O
+monotherapy 19 30 310 321 B-treatment
+: 30 31 321 322 O
+CLL 32 35 323 326 B-cancer
+, 35 36 326 327 O
+HL 37 39 328 330 B-cancer
+, 39 40 330 331 O
+NHL 41 44 332 335 B-cancer
+
+Known 0 5 336 341 O
+or 6 8 342 344 O
+suspected 9 18 345 354 O
+central 19 26 355 362 B-cancer
+nervous 27 34 363 370 I-cancer
+system 35 41 371 377 I-cancer
+( 42 43 378 379 I-cancer
+CNS 43 46 379 382 I-cancer
+) 46 47 382 383 I-cancer
+metastases 48 58 384 394 I-cancer
+or 59 61 395 397 O
+with 62 66 398 402 O
+the 67 70 403 406 O
+CNS 71 74 407 410 O
+as 75 77 411 413 O
+the 78 81 414 417 O
+only 82 86 418 422 O
+site 87 91 423 427 O
+of 92 94 428 430 O
+active 95 101 431 437 O
+disease 102 109 438 445 O
+( 110 111 446 447 O
+controlled 111 121 447 457 O
+CNS 122 125 458 461 B-cancer
+metastases 126 136 462 472 I-cancer
+are 137 140 473 476 O
+allowed 141 148 477 484 O
+) 148 149 484 485 O
+
+Uncontrolled 0 12 486 498 O
+or 13 15 499 501 O
+significant 16 27 502 513 O
+cardiovascular 28 42 514 528 B-chronic_disease
+disease 43 50 529 536 I-chronic_disease
+
+meningitis 0 10 537 547 B-chronic_disease
+
+uncontrolled 0 12 548 560 O
+seizures 13 21 561 569 B-chronic_disease
+in 22 24 570 572 O
+the 25 28 573 576 O
+year 29 33 577 581 O
+prior 34 39 582 587 O
+to 40 42 588 590 O
+informed 43 51 591 599 O
+consent 52 59 600 607 O
+

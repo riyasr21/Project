@@ -1,0 +1,24 @@
+Calcific 0 8 0 8 B-chronic_disease
+uremic 9 15 9 15 I-chronic_disease
+arteriolopathy 16 30 16 30 I-chronic_disease
+( 31 32 31 32 O
+a.k.a 32 37 32 37 O
+. 37 38 37 38 O
+calciphylaxis 39 52 39 52 B-chronic_disease
+) 52 53 52 53 O
+
+Pregnancy 0 9 54 63 B-pregnancy
+
+Prior 0 5 64 69 O
+allergic 6 14 70 78 O
+reaction 15 23 79 87 O
+to 24 26 88 90 O
+vitamin 27 34 91 98 B-allergy_name
+K 35 36 99 100 I-allergy_name
+
+Prior 0 5 101 106 O
+history 6 13 107 114 O
+of 14 16 115 117 O
+venous 17 23 118 124 B-chronic_disease
+thromboembolism 24 39 125 140 I-chronic_disease
+

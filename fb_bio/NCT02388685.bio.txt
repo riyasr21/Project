@@ -1,0 +1,129 @@
+Active 0 6 0 6 O
+coronary 7 15 7 15 B-chronic_disease
+artery 16 22 16 22 I-chronic_disease
+disease 23 30 23 30 I-chronic_disease
+such 31 35 31 35 O
+as 36 38 36 38 O
+unstable 39 47 39 47 B-chronic_disease
+angina 48 54 48 54 I-chronic_disease
+
+Allergy 0 7 55 62 O
+to 8 10 63 65 O
+lidocaine 11 20 66 75 B-allergy_name
+or 21 23 76 78 O
+xylocaine 24 33 79 88 B-allergy_name
+( 34 35 89 90 O
+local 35 40 90 95 O
+anesthetic 41 51 96 106 O
+) 51 52 106 107 O
+
+BMI 0 3 108 111 B-bmi
+> 4 5 112 113 O
+40 6 8 114 116 B-lower_bound
+
+Critical 0 8 117 125 B-chronic_disease
+limb 9 13 126 130 I-chronic_disease
+ischemia 14 22 131 139 I-chronic_disease
+
+Documented 0 10 140 150 O
+ABI 11 14 151 154 B-clinical_variable
+0.5 15 18 155 158 B-lower_bound
+- 18 19 158 159 O
+0.9 19 22 159 162 B-upper_bound
+
+Known 0 5 163 168 O
+contraindication 6 22 169 185 O
+to 23 25 186 188 O
+MRI 26 29 189 192 B-treatment
+( 30 31 193 194 O
+intracardiac 31 43 194 206 B-treatment
+pacer 44 49 207 212 I-treatment
+, 49 50 212 213 O
+defibrillator 51 64 214 227 B-treatment
+, 64 65 227 228 O
+certain 66 73 229 236 B-treatment
+intracranial 74 86 237 249 I-treatment
+aneurysm 87 95 250 258 I-treatment
+clips 96 101 259 264 I-treatment
+, 101 102 264 265 O
+intraocular 103 114 266 277 B-treatment
+or 115 117 278 280 O
+cochlear 118 126 281 289 B-treatment
+implants 127 135 290 298 I-treatment
+, 135 136 298 299 O
+claustrophobia 137 151 300 314 B-chronic_disease
+, 151 152 314 315 O
+etc 153 156 316 319 O
+. 156 157 319 320 O
+) 157 158 320 321 O
+
+Known 0 5 322 327 O
+or 6 8 328 330 O
+suspected 9 18 331 340 O
+peripheral 19 29 341 351 B-chronic_disease
+neuropathy 30 40 352 362 I-chronic_disease
+
+Lower 0 5 363 368 B-treatment
+extremity 6 15 369 378 I-treatment
+vascular 16 24 379 387 I-treatment
+surgery 25 32 388 395 I-treatment
+
+Other 0 5 396 401 O
+conditions 6 16 402 412 O
+that 17 21 413 417 O
+limit 22 27 418 423 O
+walking 28 35 424 431 O
+, 35 36 431 432 O
+e.g. 37 41 433 437 O
+lung 42 46 438 442 B-chronic_disease
+disease 47 54 443 450 I-chronic_disease
+or 55 57 451 453 O
+arthritis 58 67 454 463 B-chronic_disease
+
+angioplasty 0 11 464 475 B-treatment
+or 12 14 476 478 O
+lumbar 15 21 479 485 B-treatment
+sympathectomy 22 35 486 499 I-treatment
+within 36 42 500 506 O
+3 43 44 507 508 B-upper_bound
+months 45 51 509 515 I-upper_bound
+of 52 54 516 518 O
+enrollment 55 65 519 529 O
+
+heel 0 4 530 534 O
+cord 5 9 535 539 O
+contracture 10 21 540 551 O
+and 22 25 552 555 O
+foot 26 30 556 560 B-chronic_disease
+deformity 31 40 561 570 I-chronic_disease
+
+significant 0 11 571 582 B-chronic_disease
+left 12 16 583 587 I-chronic_disease
+main 17 21 588 592 I-chronic_disease
+disease 22 29 593 600 I-chronic_disease
+or 30 32 601 603 O
+three 33 38 604 609 B-chronic_disease
+vessel 39 45 610 616 I-chronic_disease
+coronary 46 54 617 625 I-chronic_disease
+artery 55 61 626 632 I-chronic_disease
+disease 62 69 633 640 I-chronic_disease
+( 70 71 641 642 O
+> 71 72 642 643 O
+70 72 74 643 645 B-lower_bound
+% 74 75 645 646 I-lower_bound
+stenosis 76 84 647 655 B-clinical_variable
+, 84 85 655 656 O
+unprotected 86 97 657 668 O
+by 98 100 669 671 O
+grafts 101 107 672 678 O
+) 107 108 678 679 O
+or 109 111 680 682 O
+recent 112 118 683 689 O
+( 119 120 690 691 O
+< 120 121 691 692 O
+2 121 122 692 693 B-upper_bound
+months 123 129 694 700 I-upper_bound
+) 129 130 700 701 O
+myocardial 131 141 702 712 B-clinical_variable
+infarction 142 152 713 723 I-clinical_variable
+

@@ -1,0 +1,59 @@
+Caregiver 0 9 0 9 O
+and 10 13 10 13 O
+teen 14 18 14 18 O
+speak 19 24 19 24 B-language_fluency
+English 25 32 25 32 I-language_fluency
+well 33 37 33 37 O
+enough 38 44 38 44 O
+to 45 47 45 47 O
+use 48 51 48 51 O
+the 52 55 52 55 O
+program 56 63 56 63 O
+manual 64 70 64 70 O
+and 71 74 71 74 O
+respond 75 82 75 82 O
+to 83 85 83 85 O
+survey 86 92 86 92 O
+questions 93 102 93 102 O
+
+Foster 0 6 103 109 O
+youth 7 12 110 115 O
+ages 13 17 116 120 B-age
+11 18 20 121 123 B-lower_bound
+- 20 21 123 124 O
+15 21 23 124 126 B-upper_bound
+years 24 29 127 132 I-upper_bound
+
+In 0 2 133 135 O
+current 3 10 136 143 O
+placement 11 20 144 153 O
+60 21 23 154 156 B-lower_bound
++ 23 24 156 157 I-lower_bound
+days 25 29 158 162 I-lower_bound
+
+The 0 3 163 166 O
+teen 4 8 167 171 O
+will 9 13 172 176 O
+not 14 17 177 180 O
+likely 18 24 181 187 O
+be 25 27 188 190 O
+in 28 30 191 193 O
+the 31 34 194 197 O
+placement 35 44 198 207 O
+for 45 48 208 211 O
+at 49 51 212 214 O
+least 52 57 215 220 O
+6 58 59 221 222 B-lower_bound
+months 60 66 223 229 I-lower_bound
+
+regularly 0 9 230 239 O
+used 10 14 240 244 O
+drugs 15 20 245 250 O
+or 21 23 251 253 O
+alcohol 24 31 254 261 O
+in 32 34 262 264 O
+the 35 38 265 268 O
+last 39 43 269 273 O
+30 44 46 274 276 B-upper_bound
+days 47 51 277 281 I-upper_bound
+

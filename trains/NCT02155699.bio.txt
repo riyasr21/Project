@@ -1,0 +1,114 @@
+age 0 3 0 3 B-age
+16 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+24 7 9 7 9 B-upper_bound
+
+have 0 4 10 14 O
+a 5 6 15 16 O
+psychotic 7 16 17 26 B-chronic_disease
+disorder 17 25 27 35 I-chronic_disease
+( 26 27 36 37 O
+at 27 29 37 39 O
+study 30 35 40 45 O
+entry 36 41 46 51 O
+) 41 42 51 52 O
+and/or 43 49 53 59 O
+have 50 54 60 64 O
+exhibited 55 64 65 74 O
+serious 65 72 75 82 O
+self 73 77 83 87 O
+- 77 78 87 88 O
+harm 78 82 88 92 O
+behaviors 83 92 93 102 O
+
+history 0 7 103 110 O
+of 8 10 111 113 O
+substance 11 20 114 123 O
+use 21 24 124 127 O
+disorder 25 33 128 136 O
+within 34 40 137 143 O
+6 41 42 144 145 B-upper_bound
+months 43 49 146 152 I-upper_bound
+of 50 52 153 155 O
+screening 53 62 156 165 O
+interview 63 72 166 175 O
+
+meeting 0 7 176 183 O
+criteria 8 16 184 192 O
+for 17 20 193 196 O
+an 21 23 197 199 O
+Axis 24 28 200 204 B-chronic_disease
+I 29 30 205 206 I-chronic_disease
+psychotic 31 40 207 216 I-chronic_disease
+disorder 41 49 217 225 I-chronic_disease
+
+mental 0 6 226 232 B-chronic_disease
+retardation 7 18 233 244 I-chronic_disease
+
+no 0 2 245 247 O
+history 3 10 248 255 O
+of 11 13 256 258 O
+brain 14 19 259 264 B-chronic_disease
+injury 20 26 265 271 I-chronic_disease
+or 27 29 272 274 O
+neurological 30 42 275 287 B-chronic_disease
+disease 43 50 288 295 I-chronic_disease
+
+no 0 2 296 298 O
+history 3 10 299 306 O
+or 11 13 307 309 O
+current 14 21 310 317 O
+treatment 22 31 318 327 B-treatment
+with 32 36 328 332 O
+antipsychotics 37 51 333 347 B-treatment
+
+other 0 5 348 353 O
+physical 6 14 354 362 B-chronic_disease
+disorder 15 23 363 371 I-chronic_disease
+that 24 28 372 376 O
+could 29 34 377 382 O
+affect 35 41 383 389 O
+brain 42 47 390 395 O
+functioning 48 59 396 407 O
+
+people 0 6 408 414 O
+who 7 10 415 418 O
+are 11 14 419 422 O
+extremely 15 24 423 432 O
+claustrophobic 25 39 433 447 B-chronic_disease
+
+people 0 6 448 454 O
+who 7 10 455 458 O
+have 11 15 459 463 O
+contraindications 16 33 464 481 O
+to 34 36 482 484 O
+magnetic 37 45 485 493 B-allergy_name
+resonance 46 55 494 503 I-allergy_name
+( 56 57 504 505 I-allergy_name
+MR 57 59 505 507 I-allergy_name
+) 59 60 507 508 I-allergy_name
+scanning 61 69 509 517 I-allergy_name
+including 70 79 518 527 O
+intracranial 80 92 528 540 B-allergy_name
+, 92 93 540 541 O
+intraorbital 94 106 542 554 B-allergy_name
+or 107 109 555 557 O
+intraspinal 110 121 558 569 B-allergy_name
+metal 122 127 570 575 I-allergy_name
+, 127 128 575 576 O
+pacemakers 129 139 577 587 B-allergy_name
+, 139 140 587 588 O
+cochlear 141 149 589 597 B-allergy_name
+implants 150 158 598 606 I-allergy_name
+or 159 161 607 609 O
+other 162 167 610 615 O
+non 168 171 616 619 B-allergy_name
+- 171 172 619 620 I-allergy_name
+MR 172 174 620 622 I-allergy_name
+- 174 175 622 623 I-allergy_name
+compatible 175 185 623 633 I-allergy_name
+devices 186 193 634 641 I-allergy_name
+
+pregnant 0 8 642 650 B-pregnancy
+females 9 16 651 658 B-gender
+

@@ -1,0 +1,136 @@
+Apixaban 0 8 0 8 B-treatment
+
+Clarithromycin 0 14 9 23 B-treatment
+
+Dabigatran 0 10 24 34 B-treatment
+
+Edoxaban 0 8 35 43 B-treatment
+
+Indinavir 0 9 44 53 B-treatment
+
+Itraconazole 0 12 54 66 B-treatment
+
+Ketoconazole 0 12 67 79 B-treatment
+
+Lopinavir 0 9 80 89 B-treatment
+
+NSTEMI 0 6 90 96 B-chronic_disease
+as 7 9 97 99 O
+evidenced 10 19 100 109 O
+by 20 22 110 112 O
+elevation 23 32 113 122 O
+of 33 35 123 125 O
+troponin 36 44 126 134 O
+levels 45 51 135 141 O
+( 52 53 142 143 O
+Troponin 53 61 143 151 B-clinical_variable
+> 62 63 152 153 O
+0.034 64 69 154 159 B-lower_bound
+ng 70 72 160 162 I-lower_bound
+/ 72 73 162 163 I-lower_bound
+ml 73 75 163 165 I-lower_bound
+) 75 76 165 166 O
+
+Nelfinavir 0 10 167 177 B-treatment
+
+Patients 0 8 178 186 O
+with 9 13 187 191 O
+unstable 14 22 192 200 B-chronic_disease
+angina 23 29 201 207 I-chronic_disease
+
+Ritonavir 0 9 208 217 B-treatment
+
+Rivaroxaban 0 11 218 229 B-treatment
+
+Telithormycin 0 13 230 243 B-treatment
+
+Voriconazole 0 12 244 256 B-treatment
+
+administration 0 14 257 271 O
+of 15 17 272 274 O
+GP 18 20 275 277 B-treatment
+IIb 21 24 278 281 I-treatment
+/ 24 25 281 282 I-treatment
+IIIa 25 29 282 286 I-treatment
+inhibitors 30 40 287 297 I-treatment
+
+anemia 0 6 298 304 B-chronic_disease
+with 7 11 305 309 O
+HCT<30 12 18 310 316 B-clinical_variable
+% 18 19 316 317 I-upper_bound
+
+anti 0 4 318 322 B-treatment
+- 4 5 322 323 I-treatment
+retroviral 5 15 323 333 I-treatment
+agents 16 22 334 340 I-treatment
+
+antifungal 0 10 341 351 B-treatment
+agents 11 17 352 358 I-treatment
+and 18 21 359 362 O
+some 22 26 363 367 O
+antibiotics 27 38 368 379 B-treatment
+
+associated 0 10 380 390 O
+therapy 11 18 391 398 O
+with 19 23 399 403 O
+a 24 25 404 405 O
+strong 26 32 406 412 O
+cytochrome 33 43 413 423 B-clinical_variable
+P-450 44 49 424 429 I-clinical_variable
+inhibitors 50 60 430 440 O
+
+increased 0 9 441 450 O
+risk 10 14 451 455 O
+of 15 17 456 458 O
+bradycardia 18 29 459 470 B-chronic_disease
+
+major 0 5 471 476 O
+bleeding 6 14 477 485 O
+episode 15 22 486 493 O
+within 23 29 494 500 O
+2 30 31 501 502 B-upper_bound
+weeks 32 37 503 508 I-upper_bound
+
+need 0 4 509 513 O
+for 5 8 514 517 O
+oral 9 13 518 522 B-treatment
+anticoagulation 14 29 523 538 I-treatment
+therapy 30 37 539 546 I-treatment
+
+need 0 4 547 551 O
+for 5 8 552 555 O
+vasopressor 9 20 556 567 B-treatment
+or 21 23 568 570 O
+inotropic 24 33 571 580 B-treatment
+agents 34 40 581 587 I-treatment
+
+surgery<4 0 9 588 597 B-treatment
+weeks 10 15 598 603 I-upper_bound
+
+thrombocytopenia 0 16 604 620 B-chronic_disease
+( 17 18 621 622 O
+Platelet 18 26 622 630 B-clinical_variable
+count 27 32 631 636 I-clinical_variable
+< 33 34 637 638 O
+100000 35 41 639 645 B-upper_bound
+) 41 42 645 646 O
+
+troponin 0 8 647 655 O
+negative 9 17 656 664 O
+ACS 18 21 665 668 B-chronic_disease
+
+use 0 3 669 672 O
+of 4 6 673 675 O
+any 7 10 676 679 O
+thienopyridines 11 26 680 695 B-treatment
+( 27 28 696 697 O
+Clopidogrel 28 39 697 708 B-treatment
+, 39 40 708 709 O
+Prasugrel 41 50 710 719 B-treatment
+) 50 51 719 720 O
+7 52 53 721 722 B-upper_bound
+days 54 58 723 727 I-upper_bound
+prior 59 64 728 733 I-upper_bound
+to 65 67 734 736 O
+randomization 68 81 737 750 O
+

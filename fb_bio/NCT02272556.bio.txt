@@ -1,0 +1,122 @@
+ALT 0 3 0 3 B-clinical_variable
+> 4 5 4 5 O
+2.5 6 9 6 9 B-lower_bound
+x 10 11 10 11 I-lower_bound
+ULN 12 15 12 15 I-lower_bound
+
+Age 0 3 16 19 B-age
+18 4 6 20 22 B-lower_bound
+- 6 7 22 23 O
+55 7 9 23 25 B-upper_bound
+
+BMI 0 3 26 29 B-bmi
+18 4 6 30 32 B-lower_bound
+- 6 7 32 33 O
+45 7 9 33 35 B-upper_bound
+kg 10 12 36 38 I-upper_bound
+/ 12 13 38 39 I-upper_bound
+m^2 13 16 39 42 I-upper_bound
+
+Bleeding 0 8 43 51 B-chronic_disease
+Disorders 9 18 52 61 I-chronic_disease
+
+Creatinine 0 10 62 72 B-clinical_variable
+> 11 12 73 74 O
+1.5 13 16 75 78 B-lower_bound
+mg 17 19 79 81 I-lower_bound
+/ 19 20 81 82 I-lower_bound
+dL 20 22 82 84 I-lower_bound
+
+Current 0 7 85 92 O
+or 8 10 93 95 O
+recent 11 17 96 102 O
+steroid 18 25 103 110 B-treatment
+use 26 29 111 114 O
+in 30 32 115 117 O
+last 33 37 118 122 B-upper_bound
+3 38 39 123 124 I-upper_bound
+months 40 46 125 131 I-upper_bound
+
+Hgb 0 3 132 135 B-clinical_variable
+< 4 5 136 137 O
+10 6 8 138 140 B-upper_bound
+mg 9 11 141 143 I-upper_bound
+/ 11 12 143 144 I-upper_bound
+dL 12 14 144 146 I-upper_bound
+
+Known 0 5 147 152 O
+Neurological 6 18 153 165 B-chronic_disease
+Disorders 19 28 166 175 I-chronic_disease
+
+Malignancy 0 10 176 186 B-cancer
+
+Pregnancy 0 9 187 196 B-pregnancy
+, 9 10 196 197 O
+actively 11 19 198 206 B-pregnancy
+seeking 20 27 207 214 I-pregnancy
+pregnancy 28 37 215 224 I-pregnancy
+, 37 38 224 225 O
+or 39 41 226 228 O
+breastfeeding 42 55 229 242 O
+
+Type 0 4 243 247 B-chronic_disease
+2 5 6 248 249 I-chronic_disease
+DM 7 9 250 252 I-chronic_disease
+with 10 14 253 257 O
+HbA1C 15 20 258 263 B-treatment
+treated 21 28 264 271 O
+with 29 33 272 276 O
+metformin 34 43 277 286 B-treatment
+, 43 44 286 287 O
+sulfonylurea 45 57 288 300 B-treatment
+, 57 58 300 301 O
+insulin 59 66 302 309 B-treatment
+, 66 67 309 310 O
+or 68 70 311 313 O
+combination 71 82 314 325 O
+OR 83 85 326 328 O
+age 86 89 329 332 O
+- 89 90 332 333 O
+matched 90 97 333 340 O
+, 97 98 340 341 O
+non 99 102 342 345 B-chronic_disease
+- 102 103 345 346 I-chronic_disease
+diabetic 103 111 346 354 I-chronic_disease
+obese 112 117 355 360 I-chronic_disease
+( 118 119 361 362 O
+BMI 119 122 362 365 B-bmi
+> 123 124 366 367 O
+30 125 127 368 370 B-lower_bound
+kg 128 130 371 373 I-lower_bound
+/ 130 131 373 374 I-lower_bound
+m^2 131 134 374 377 I-lower_bound
+) 134 135 377 378 O
+OR 136 138 379 381 O
+age 139 142 382 385 O
+- 142 143 385 386 O
+matched 143 150 386 393 O
+lean 151 155 394 398 O
+, 155 156 398 399 O
+healthy 157 164 400 407 O
+control 165 172 408 415 O
+subjects 173 181 416 424 O
+( 182 183 425 426 O
+BMI 183 186 426 429 O
+< 187 188 430 431 O
+25 189 191 432 434 B-upper_bound
+kg 192 194 435 437 I-upper_bound
+/ 194 195 437 438 I-upper_bound
+m^2 195 198 438 441 I-upper_bound
+) 198 199 441 442 O
+
+Uncontrolled 0 12 443 455 B-chronic_disease
+Hypertension 13 25 456 468 I-chronic_disease
+
+Untreated 0 9 469 478 B-chronic_disease
+Psychiatric 10 21 479 490 I-chronic_disease
+Disorders 22 31 491 500 I-chronic_disease
+
+Untreated 0 9 501 510 O
+thyroid 10 17 511 518 B-chronic_disease
+disease 18 25 519 526 I-chronic_disease
+

@@ -1,0 +1,50 @@
+Active 0 6 0 6 O
+uncontrolled 7 19 7 19 B-chronic_disease
+infection 20 29 20 29 I-chronic_disease
+
+Acue 0 4 30 34 B-cancer
+myelogenous 5 16 35 46 I-cancer
+leukemia 17 25 47 55 I-cancer
+
+Acute 0 5 56 61 B-cancer
+lymphoblastic 6 19 62 75 I-cancer
+leukemia 20 28 76 84 I-cancer
+
+Available 0 9 85 94 O
+related 10 17 95 102 O
+donor 18 23 103 108 O
+who 24 27 109 112 O
+is 28 30 113 115 O
+mismatched 31 41 116 126 O
+at 42 44 127 129 O
+≥ 45 46 130 131 O
+2 47 48 132 133 B-lower_bound
+HLA 49 52 134 137 B-clinical_variable
+alleles 53 60 138 145 I-clinical_variable
+
+Chronic 0 7 146 153 B-cancer
+myelogenous 8 19 154 165 I-cancer
+leukemia 20 28 166 174 I-cancer
+
+HIV 0 3 175 178 B-chronic_disease
+positive 4 12 179 187 O
+
+Myelodysplastic 0 15 188 203 B-cancer
+syndrome 16 24 204 212 I-cancer
+
+Non 0 3 213 216 B-cancer
+- 3 4 216 217 I-cancer
+Hodgkin 4 11 217 224 I-cancer
+lymphoma 12 20 225 233 I-cancer
+
+Performance 0 11 234 245 B-clinical_variable
+status 12 18 246 252 I-clinical_variable
+> 19 20 253 254 O
+70 20 22 254 256 B-lower_bound
+
+Performance 0 11 257 268 B-clinical_variable
+status 12 18 269 275 I-clinical_variable
+≤70 19 22 276 279 O
+
+Pregnancy 0 9 280 289 B-pregnancy
+

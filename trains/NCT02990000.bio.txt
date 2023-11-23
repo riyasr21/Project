@@ -1,0 +1,41 @@
+Adult 0 5 0 5 O
+men 6 9 6 9 B-gender
+and 10 13 10 13 O
+women 14 19 14 19 B-gender
+
+Adults 0 6 20 26 O
+over 7 11 27 31 O
+age 12 15 32 35 B-age
+65 16 18 36 38 B-lower_bound
+years 19 24 39 44 I-lower_bound
+
+age 0 3 45 48 B-age
+18 4 6 49 51 B-lower_bound
+- 6 7 51 52 O
+65 7 9 52 54 B-upper_bound
+
+complex 0 7 55 62 B-chronic_disease
+mood 8 12 63 67 I-chronic_disease
+, 12 13 67 68 O
+trauma 14 20 69 75 B-chronic_disease
+, 20 21 75 76 O
+and 22 25 77 80 O
+anxiety 26 33 81 88 B-chronic_disease
+disorders 34 43 89 98 I-chronic_disease
+, 43 44 98 99 O
+eating 45 51 100 106 B-chronic_disease
+disorders 52 61 107 116 I-chronic_disease
+, 61 62 116 117 O
+simple 63 69 118 124 O
+schizophrenia 70 83 125 138 B-chronic_disease
+, 83 84 138 139 O
+borderline 85 95 140 150 B-chronic_disease
+personality 96 107 151 162 I-chronic_disease
+disorder 108 116 163 171 I-chronic_disease
+, 116 117 171 172 O
+substance 118 127 173 182 O
+abuse 128 133 183 188 O
+, 133 134 188 189 O
+and 135 138 190 193 O
+insomnia 139 147 194 202 B-chronic_disease
+

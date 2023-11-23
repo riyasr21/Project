@@ -1,0 +1,98 @@
+Known 0 5 0 5 O
+stage 6 11 6 11 B-cancer
+IV 12 14 12 14 I-cancer
+malignancy 15 25 15 25 I-cancer
+
+Known 0 5 26 31 O
+stroke 6 12 32 38 B-cancer
+mimics 13 19 39 45 I-cancer
+including 20 29 46 55 O
+multiple 30 38 56 64 B-chronic_disease
+sclerosis 39 48 65 74 I-chronic_disease
+or 49 51 75 77 O
+brain 52 57 78 83 B-cancer
+tumor 58 63 84 89 I-cancer
+
+MRI 0 3 90 93 O
+contraindications 4 21 94 111 O
+per 22 25 112 115 O
+ACR 26 29 116 119 O
+guidelines 30 40 120 130 O
+, 40 41 130 131 O
+including 42 51 132 141 O
+patients 52 60 142 150 O
+with 61 65 151 155 O
+pacemakers 66 76 156 166 O
+, 76 77 166 167 O
+renal 78 83 168 173 B-chronic_disease
+failure 84 91 174 181 I-chronic_disease
+with 92 96 182 186 O
+eGFR<30 97 104 187 194 B-clinical_variable
+ml 105 107 195 197 I-upper_bound
+/ 107 108 197 198 I-upper_bound
+min/1.73m2 108 118 198 208 I-upper_bound
+, 118 119 208 209 O
+and 120 123 210 213 O
+contrast 124 132 214 222 O
+allergy 133 140 223 230 O
+
+Other 0 5 231 236 O
+known 6 11 237 242 O
+sources 12 19 243 250 O
+of 20 22 251 253 O
+cardioembolism 23 37 254 268 B-chronic_disease
+, 37 38 268 269 O
+including 39 48 270 279 O
+atrial 49 55 280 286 B-chronic_disease
+fibrillation 56 68 287 299 I-chronic_disease
+, 68 69 299 300 O
+mechanical 70 80 301 311 O
+heart 81 86 312 317 O
+valve 87 92 318 323 O
+, 92 93 323 324 O
+left 94 98 325 329 O
+atrial 99 105 330 336 O
+or 106 108 337 339 O
+ventricular 109 120 340 351 B-chronic_disease
+thrombus 121 129 352 360 I-chronic_disease
+or 130 132 361 363 O
+intracardiac 133 145 364 376 B-cancer
+mass 146 150 377 381 I-cancer
+, 150 151 381 382 O
+endocarditis 152 164 383 395 B-chronic_disease
+, 164 165 395 396 O
+EF 166 168 397 399 B-clinical_variable
+< 169 170 400 401 O
+30 170 172 401 403 B-upper_bound
+% 172 173 403 404 I-upper_bound
+
+Patients 0 8 405 413 O
+with 9 13 414 418 O
+carotid 14 21 419 426 B-chronic_disease
+occlusion 22 31 427 436 I-chronic_disease
+
+Patients 0 8 437 445 O
+≥18 9 12 446 449 O
+years 13 18 450 455 I-lower_bound
+old 19 22 456 459 O
+
+Pregnancy 0 9 460 469 B-pregnancy
+
+[ 0 1 470 471 O
+18F]Flutemetamol 1 17 471 487 O
+contraindications 18 35 488 505 O
+per 36 39 506 509 O
+manufacturer 40 52 510 522 O
+guidelines 53 63 523 533 O
+, 63 64 533 534 O
+including 65 74 535 544 O
+patients 75 83 545 553 O
+with 84 88 554 558 O
+prior 89 94 559 564 O
+reactions 95 104 565 574 O
+
+plans 0 5 575 580 O
+for 6 9 581 584 O
+carotid 10 17 585 592 B-treatment
+endarterectomy 18 32 593 607 I-treatment
+

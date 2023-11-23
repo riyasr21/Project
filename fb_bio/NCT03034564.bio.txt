@@ -1,0 +1,130 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+Parkinson 13 22 13 22 B-chronic_disease
+'s 22 24 22 24 I-chronic_disease
+Disease 25 32 25 32 I-chronic_disease
+
+No 0 2 33 35 O
+objective 3 12 36 45 O
+orthostasis 13 24 46 57 B-chronic_disease
+( 25 26 58 59 O
+significant 26 37 59 70 O
+drop 38 42 71 75 O
+in 43 45 76 78 O
+blood 46 51 79 84 O
+pressure 52 60 85 93 O
+when 61 65 94 98 O
+standing 66 74 99 107 O
+) 74 75 107 108 O
+
+No 0 2 109 111 O
+orthostatic 3 14 112 123 B-chronic_disease
+symptoms 15 23 124 132 O
+
+No 0 2 133 135 O
+supine 3 9 136 142 B-chronic_disease
+hypertension 10 22 143 155 I-chronic_disease
+( 23 24 156 157 O
+high 24 28 157 161 O
+blood 29 34 162 167 O
+pressure 35 43 168 176 O
+while 44 49 177 182 O
+laying 50 56 183 189 O
+down 57 61 190 194 O
+) 61 62 194 195 O
+judged 63 69 196 202 O
+to 70 72 203 205 O
+be 73 75 206 208 O
+of 76 78 209 211 O
+clinical 79 87 212 220 O
+significance 88 100 221 233 O
+by 101 103 234 236 O
+the 104 107 237 240 O
+investigator 108 120 241 253 O
+
+PD 0 2 254 256 B-clinical_variable
+Fatigue 3 10 257 264 I-clinical_variable
+Scale 11 16 265 270 I-clinical_variable
+Score 17 22 271 276 I-clinical_variable
+of 23 25 277 279 O
+50 26 28 280 282 B-lower_bound
+or 29 31 283 285 O
+above 32 37 286 291 O
+
+Poorly 0 6 292 298 O
+controlled 7 17 299 309 O
+depression 18 28 310 320 B-chronic_disease
+
+SNRI 0 4 321 325 B-treatment
+or 5 7 326 328 O
+TCA 8 11 329 332 B-treatment
+class 12 17 333 338 O
+( 18 19 339 340 O
+both 19 23 340 344 O
+antidepressant 24 38 345 359 O
+) 38 39 359 360 O
+medications 40 51 361 372 O
+( 52 53 373 374 O
+irrespective 53 65 374 386 O
+of 66 68 387 389 O
+indication 69 79 390 400 O
+) 79 80 400 401 O
+
+Significant 0 11 402 413 O
+history 12 19 414 421 O
+of 20 22 422 424 O
+Gastro 23 29 425 431 B-chronic_disease
+Intestinal 30 40 432 442 I-chronic_disease
+disease 41 48 443 450 I-chronic_disease
+that 49 53 451 455 O
+may 54 57 456 459 O
+interfere 58 67 460 469 O
+with 68 72 470 474 O
+absorption 73 83 475 485 O
+
+Significant 0 11 486 497 O
+kidney 12 18 498 504 B-chronic_disease
+disease 19 26 505 512 I-chronic_disease
+history 27 34 513 520 O
+
+Stable 0 6 521 527 B-treatment
+dopaminergic 7 19 528 540 I-treatment
+medication 20 30 541 551 I-treatment
+regimen 31 38 552 559 I-treatment
+for 39 42 560 563 O
+6 43 44 564 565 B-upper_bound
+weeks 45 50 566 571 I-upper_bound
+prior 51 56 572 577 I-upper_bound
+to 57 59 578 580 O
+screening 60 69 581 590 O
+
+creatinine 0 10 591 601 B-clinical_variable
+( 11 12 602 603 O
+a 12 13 603 604 O
+chemical 14 22 605 613 O
+found 23 28 614 619 O
+in 29 31 620 622 O
+the 32 35 623 626 O
+blood 36 41 627 632 O
+) 41 42 632 633 O
+greater 43 50 634 641 O
+than 51 55 642 646 O
+1.5 56 59 647 650 B-lower_bound
+mg 60 62 651 653 I-lower_bound
+/ 62 63 653 654 I-lower_bound
+dl 63 65 654 656 I-lower_bound
+at 66 68 657 659 O
+baseline 69 77 660 668 O
+
+gastric 0 7 669 676 B-treatment
+bypass 8 14 677 683 I-treatment
+
+inflammatory 0 12 684 696 B-chronic_disease
+bowel 13 18 697 702 I-chronic_disease
+disease 19 26 703 710 I-chronic_disease
+
+light 0 5 711 716 B-chronic_disease
+headedness 6 16 717 727 I-chronic_disease
+
+modafinil 0 9 728 737 B-treatment
+

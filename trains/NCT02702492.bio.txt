@@ -1,0 +1,78 @@
+Active 0 6 0 6 B-chronic_disease
+infection 7 16 7 16 I-chronic_disease
+with 17 21 17 21 O
+completion 22 32 22 32 O
+of 33 35 33 35 O
+therapeutic 36 47 36 47 B-treatment
+antibiotics 48 59 48 59 I-treatment
+, 59 60 59 60 O
+antivirals 61 71 61 71 B-treatment
+, 71 72 71 72 O
+or 73 75 73 75 O
+antifungals 76 87 76 87 B-treatment
+within 88 94 88 94 O
+one 95 98 95 98 B-upper_bound
+week 99 103 99 103 I-upper_bound
+prior 104 109 104 109 I-upper_bound
+to 110 112 110 112 O
+C1D1 113 117 113 117 O
+
+Active 0 6 118 124 B-chronic_disease
+peptic 7 13 125 131 I-chronic_disease
+ulcer 14 19 132 137 I-chronic_disease
+disease 20 27 138 145 I-chronic_disease
+or 28 30 146 148 O
+other 31 36 149 154 O
+active 37 43 155 161 B-chronic_disease
+gastrointestinal 44 60 162 178 I-chronic_disease
+bleeds 61 67 179 185 I-chronic_disease
+
+Age 0 3 186 189 B-age
+≥ 4 5 190 191 O
+18 6 8 192 194 B-lower_bound
+years 9 14 195 200 I-lower_bound
+
+Life 0 4 201 205 B-clinical_variable
+expectancy 5 15 206 216 I-clinical_variable
+of 16 18 217 219 O
+≥ 19 20 220 221 O
+3 21 22 222 223 B-lower_bound
+months 23 29 224 230 I-lower_bound
+
+Palliative 0 10 231 241 B-treatment
+steroids 11 19 242 250 I-treatment
+for 20 23 251 254 O
+disease 24 31 255 262 O
+related 32 39 263 270 O
+symptoms 40 48 271 279 O
+< 49 50 280 281 O
+7 51 52 282 283 B-upper_bound
+days 53 57 284 288 I-upper_bound
+prior 58 63 289 294 I-upper_bound
+to 64 66 295 297 O
+C1D1 67 71 298 302 O
+
+Prophylactic 0 12 303 315 B-treatment
+antibiotics 13 24 316 327 I-treatment
+, 24 25 327 328 O
+antivirals 26 36 329 339 B-treatment
+or 37 39 340 342 O
+antifungals 40 51 343 354 B-treatment
+are 52 55 355 358 O
+permitted 56 65 359 368 O
+
+Time 0 4 369 373 O
+since 5 10 374 379 O
+the 11 14 380 383 O
+last 15 19 384 388 O
+prior 20 25 389 394 B-treatment
+therapy 26 33 395 402 I-treatment
+for 34 37 403 406 O
+treatment 38 47 407 416 B-treatment
+of 48 50 417 419 O
+advanced 51 59 420 428 O
+solid 60 65 429 434 B-cancer
+malignancies 66 78 435 447 I-cancer
+or 79 81 448 450 O
+NHL 82 85 451 454 B-cancer
+

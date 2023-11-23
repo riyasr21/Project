@@ -1,0 +1,84 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+morphine 11 19 11 19 B-allergy_name
+
+Chronic 0 7 20 27 B-treatment
+opioid 8 14 28 34 I-treatment
+use 15 18 35 38 I-treatment
+
+Coagulopathy 0 12 39 51 B-chronic_disease
+
+History 0 7 52 59 O
+of 8 10 60 62 O
+chronic 11 18 63 70 B-chronic_disease
+pain 19 23 71 75 I-chronic_disease
+syndromes 24 33 76 85 I-chronic_disease
+
+Intrapartum 0 11 86 97 B-clinical_variable
+or 12 14 98 100 I-clinical_variable
+postpartum 15 25 101 111 I-clinical_variable
+fever 26 31 112 117 I-clinical_variable
+≥ 32 33 118 119 O
+38 34 36 120 122 B-lower_bound
+° 37 38 123 124 I-lower_bound
+C 39 40 125 126 I-lower_bound
+
+Past 0 4 127 131 O
+history 5 12 132 139 O
+of 13 15 140 142 O
+headache 16 24 143 151 O
+syndromes- 25 35 152 162 O
+such 36 40 163 167 O
+as 41 43 168 170 O
+migraine 44 52 171 179 B-chronic_disease
+and 53 56 180 183 O
+cluster 57 64 184 191 B-chronic_disease
+headaches 65 74 192 201 I-chronic_disease
+
+Subjects 0 8 202 210 O
+will 9 13 211 215 O
+be 14 16 216 218 O
+ASA 17 20 219 222 O
+I 21 22 223 224 O
+and 23 26 225 228 O
+II 27 29 229 231 O
+women 30 35 232 237 B-gender
+
+aged 0 4 238 242 B-age
+18 5 7 243 245 B-lower_bound
+years 8 13 246 251 I-lower_bound
+and 14 17 252 255 O
+older 18 23 256 261 O
+
+who 0 3 262 265 O
+are 4 7 266 269 O
+known 8 13 270 275 O
+to 14 16 276 278 O
+have 17 21 279 283 O
+had 22 25 284 287 O
+accidental 26 36 288 298 O
+dural 37 42 299 304 O
+puncture 43 51 305 313 O
+with 52 56 314 318 O
+an 57 59 319 321 O
+epidural 60 68 322 330 O
+needle 69 75 331 337 O
+during 76 82 338 344 O
+placement 83 92 345 354 B-treatment
+of 93 95 355 357 I-treatment
+neuraxial 96 105 358 367 I-treatment
+labor 106 111 368 373 I-treatment
+analgesia 112 121 374 383 I-treatment
+, 121 122 383 384 O
+and 123 126 385 388 O
+have 127 131 389 393 O
+either 132 138 394 400 O
+an 139 141 401 403 O
+intrathecal 142 153 404 415 B-treatment
+catheter 154 162 416 424 I-treatment
+or 163 165 425 427 O
+epidural 166 174 428 436 B-treatment
+catheter 175 183 437 445 I-treatment
+in 184 186 446 448 O
+place 187 192 449 454 O
+

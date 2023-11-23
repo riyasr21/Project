@@ -1,0 +1,46 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+attend 8 14 8 14 O
+3x 15 17 15 17 B-upper_bound
+/ 17 18 17 18 I-upper_bound
+week 18 22 18 22 I-upper_bound
+for 23 26 23 26 O
+8 27 28 27 28 B-upper_bound
+consecutive 29 40 29 40 I-upper_bound
+weeks 41 46 41 46 I-upper_bound
+
+Autism 0 6 47 53 B-chronic_disease
+Spectrum 7 15 54 62 I-chronic_disease
+Disorder 16 24 63 71 I-chronic_disease
+( 25 26 72 73 I-chronic_disease
+ASD 26 29 73 76 I-chronic_disease
+) 29 30 76 77 I-chronic_disease
+Diagnosis 31 40 78 87 O
+6 41 42 88 89 B-lower_bound
+- 42 43 89 90 O
+12 43 45 90 92 B-upper_bound
+years 46 51 93 98 I-upper_bound
+old 52 55 99 102 O
+
+Joining 0 7 103 110 O
+a 8 9 111 112 O
+regular 10 17 113 120 O
+physical 18 26 121 129 O
+exercise 27 35 130 138 O
+program 36 43 139 146 O
+in 44 46 147 149 O
+the 47 50 150 153 O
+last 51 55 154 158 B-upper_bound
+4 56 57 159 160 I-upper_bound
+weeks 58 63 161 166 I-upper_bound
+
+Medical 0 7 167 174 B-chronic_disease
+conditions 8 18 175 185 I-chronic_disease
+that 19 23 186 190 O
+may 24 27 191 194 O
+pose 28 32 195 199 O
+a 33 34 200 201 O
+risk 35 39 202 206 O
+during 40 46 207 213 O
+exercise 47 55 214 222 O
+

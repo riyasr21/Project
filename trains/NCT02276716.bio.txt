@@ -1,0 +1,83 @@
+Age 0 3 0 3 B-age
+12 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+or 13 15 13 15 O
+older 16 21 16 21 O
+
+Diagnosis 0 9 22 31 O
+of 10 12 32 34 O
+familial 13 21 35 43 B-chronic_disease
+dysautonomia 22 34 44 56 I-chronic_disease
+( 35 36 57 58 O
+with 36 40 58 62 O
+mutation 41 49 63 71 O
+testing 50 57 72 79 O
+) 57 58 79 80 O
+
+Patients 0 8 81 89 O
+taking 9 15 90 96 O
+anticoagulants 16 30 97 111 B-treatment
+, 30 31 111 112 O
+such 32 36 113 117 O
+as 37 39 118 120 O
+warfarin 40 48 121 129 B-treatment
+, 48 49 129 130 O
+heparin 50 57 131 138 B-treatment
+, 57 58 138 139 O
+aspirin 59 66 140 147 B-treatment
+, 66 67 147 148 O
+pentoxifylline 68 82 149 163 B-treatment
+, 82 83 163 164 O
+clopidogrel 84 95 165 176 B-treatment
+or 96 98 177 179 O
+ticlopidine 99 110 180 191 B-treatment
+
+Patients 0 8 192 200 O
+taking 9 15 201 207 O
+ginko 16 21 208 213 B-treatment
+, 21 22 213 214 O
+garlic 23 29 215 221 B-treatment
+or 30 32 222 224 O
+vitamin 33 40 225 232 B-treatment
+E 41 42 233 234 I-treatment
+supplements 43 54 235 246 I-treatment
+
+Patients 0 8 247 255 O
+who 9 12 256 259 O
+are 13 16 260 263 O
+currently 17 26 264 273 O
+participating 27 40 274 287 O
+in 41 43 288 290 O
+other 44 49 291 296 B-treatment
+clinical 50 58 297 305 I-treatment
+trials 59 65 306 312 I-treatment
+of 66 68 313 315 O
+compounds 69 78 316 325 O
+that 79 83 326 330 O
+my 84 86 331 333 O
+change 87 93 334 340 O
+IKAP 94 98 341 345 O
+gene 99 103 346 350 O
+expression 104 114 351 361 O
+
+Women 0 5 362 367 B-gender
+of 6 8 368 370 O
+childbearing 9 21 371 383 O
+potential 22 31 384 393 O
+who 32 35 394 397 O
+are 36 39 398 401 O
+not 40 43 402 405 B-contraception_consent
+using 44 49 406 411 I-contraception_consent
+medically 50 59 412 421 I-contraception_consent
+accepted 60 68 422 430 I-contraception_consent
+methods 69 76 431 438 I-contraception_consent
+of 77 79 439 441 I-contraception_consent
+contraception 80 93 442 455 I-contraception_consent
+
+Women 0 5 456 461 B-gender
+who 6 9 462 465 O
+are 10 13 466 469 B-pregnancy
+pregnant 14 22 470 478 I-pregnancy
+or 23 25 479 481 O
+lactating 26 35 482 491 O
+

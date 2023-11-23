@@ -1,0 +1,27 @@
+Severe 0 6 0 6 B-chronic_disease
+aortic 7 13 7 13 I-chronic_disease
+regurgitation 14 27 14 27 I-chronic_disease
+( 28 29 28 29 O
+> 29 30 29 30 O
+3 30 31 30 31 B-lower_bound
++ 31 32 31 32 I-lower_bound
+) 32 33 32 33 O
+
+Severe 0 6 34 40 B-chronic_disease
+aortic 7 13 41 47 I-chronic_disease
+stenosis 14 22 48 56 I-chronic_disease
+
+Severe 0 6 57 63 O
+mitral 7 13 64 70 B-clinical_variable
+regurgitation 14 27 71 84 I-clinical_variable
+( 28 29 85 86 O
+> 29 30 86 87 O
+3 30 31 87 88 B-lower_bound
++ 31 32 88 89 I-lower_bound
+) 32 33 89 90 O
+
+≥ 0 1 91 92 O
+moderate 2 10 93 101 B-clinical_variable
+mitral 11 17 102 108 I-clinical_variable
+stenosis 18 26 109 117 I-clinical_variable
+

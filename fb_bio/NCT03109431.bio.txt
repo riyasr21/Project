@@ -1,0 +1,65 @@
+Acutely 0 7 0 7 O
+infected 8 16 8 16 O
+with 17 21 17 21 O
+HIV 22 25 22 25 B-chronic_disease
+
+Established 0 11 26 37 O
+HIV 12 15 38 41 B-chronic_disease
+infection 16 25 42 51 I-chronic_disease
+( 26 27 52 53 O
+not 27 30 53 56 O
+acutely 31 38 57 64 O
+infected 39 47 65 73 O
+) 47 48 73 74 O
+
+HIV 0 3 75 78 B-chronic_disease
+- 3 4 78 79 O
+negative 4 12 79 87 O
+( 13 14 88 89 O
+high 14 18 89 93 O
+- 18 19 93 94 O
+risk 19 23 94 98 O
+HIV 24 27 99 102 O
+- 27 28 102 103 O
+negative 28 36 103 111 O
+youth 37 42 112 117 O
+will 43 47 118 122 O
+be 48 50 123 125 O
+invited 51 58 126 133 O
+to 59 61 134 136 O
+participate 62 73 137 148 O
+in 74 76 149 151 O
+another 77 84 152 159 O
+study 85 90 160 165 O
+) 90 91 165 166 O
+
+HIV 0 3 167 170 B-chronic_disease
+- 3 4 170 171 O
+positive 4 12 171 179 O
+serostatus 13 23 180 190 O
+
+RNA 0 3 191 194 O
+test 4 8 195 199 O
+will 9 13 200 204 O
+determine 14 23 205 214 O
+whether 24 31 215 222 O
+HIV 32 35 223 226 B-chronic_disease
+infection 36 45 227 236 I-chronic_disease
+is 46 48 237 239 O
+acute 49 54 240 245 O
+or 55 57 246 248 O
+established 58 69 249 260 O
+
+Youth 0 5 261 266 O
+under 6 11 267 272 O
+12 12 14 273 275 B-upper_bound
+years 15 20 276 281 I-upper_bound
+of 21 23 282 284 O
+age 24 27 285 288 B-age
+or 28 30 289 291 O
+above 31 36 292 297 O
+24 37 39 298 300 B-lower_bound
+years 40 45 301 306 I-lower_bound
+of 46 48 307 309 O
+age 49 52 310 313 O
+

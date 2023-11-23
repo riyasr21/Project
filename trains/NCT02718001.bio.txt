@@ -1,0 +1,15 @@
+Clinically 0 10 0 10 O
+significant 11 22 11 22 O
+, 22 23 22 23 O
+symptomatic 24 35 24 35 B-chronic_disease
+mitral 36 42 36 42 I-chronic_disease
+regurgitation 43 56 43 56 I-chronic_disease
+
+High 0 4 57 61 O
+risk 5 9 62 66 O
+for 10 13 67 70 O
+open 14 18 71 75 B-treatment
+- 18 19 75 76 I-treatment
+heart 19 24 76 81 I-treatment
+surgery 25 32 82 89 I-treatment
+

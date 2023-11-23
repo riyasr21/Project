@@ -1,0 +1,51 @@
+Esophageal 0 10 0 10 B-chronic_disease
+fistula 11 18 11 18 I-chronic_disease
+and/or 19 25 19 25 O
+esophageal 26 36 26 36 B-chronic_disease
+strictures 37 47 37 47 I-chronic_disease
+with 48 52 48 52 O
+a 53 54 53 54 O
+stricture 55 64 55 64 O
+diameter 65 73 65 73 O
+that 74 78 74 78 O
+is 79 81 79 81 O
+smaller 82 89 82 89 O
+than 90 94 90 94 O
+the 95 98 95 98 O
+diameter 99 107 99 107 O
+of 108 110 108 110 O
+the 111 114 111 114 O
+capsule 115 122 115 122 O
+
+Pregnancy 0 9 123 132 B-pregnancy
+
+have 0 4 133 137 O
+no 5 7 138 140 O
+solid 8 13 141 146 O
+food 14 18 147 151 O
+for 19 22 152 155 O
+4 23 24 156 157 B-upper_bound
+hours 25 30 158 163 I-upper_bound
+prior 31 36 164 169 O
+to 37 39 170 172 O
+the 40 43 173 176 O
+procedure 44 53 177 186 O
+, 53 54 186 187 O
+and 55 58 188 191 O
+only 59 63 192 196 O
+clear 64 69 197 202 O
+liquids 70 77 203 210 O
+for 78 81 211 214 O
+2 82 83 215 216 B-upper_bound
+hours 84 89 217 222 I-upper_bound
+prior 90 95 223 228 O
+to 96 98 229 231 O
+the 99 102 232 235 O
+procedure 103 112 236 245 O
+
+over 0 4 246 250 O
+70 5 7 251 253 B-lower_bound
+years 8 13 254 259 I-lower_bound
+of 14 16 260 262 O
+age 17 20 263 266 B-age
+

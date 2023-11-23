@@ -1,0 +1,119 @@
+Complex 0 7 0 7 O
+cardiac 8 15 8 15 B-treatment
+surgery 16 23 16 23 I-treatment
+will 24 28 24 28 O
+be 29 31 29 31 O
+defined 32 39 32 39 O
+as 40 42 40 42 O
+surgery 43 50 43 50 O
+involving 51 60 51 60 O
+more 61 65 61 65 O
+than 66 70 66 70 O
+one 71 74 71 74 B-lower_bound
+heart 75 80 75 80 O
+valve 81 86 81 86 O
+, 86 87 86 87 O
+redo 88 92 88 92 B-treatment
+- 92 93 92 93 I-treatment
+sternotomy 93 103 93 103 I-treatment
+procedures 104 114 104 114 I-treatment
+, 114 115 114 115 O
+or 116 118 116 118 O
+combined 119 127 119 127 O
+valvular 128 136 128 136 B-treatment
+and 137 140 137 140 I-treatment
+CABG 141 145 141 145 I-treatment
+procedures 146 156 146 156 I-treatment
+
+active 0 6 157 163 B-chronic_disease
+infection 7 16 164 173 I-chronic_disease
+or 17 19 174 176 O
+sepsis 20 26 177 183 B-chronic_disease
+
+age 0 3 184 187 B-age
+greater 4 11 188 195 O
+than 12 16 196 200 O
+or 17 19 201 203 O
+equal 20 25 204 209 O
+to 26 28 210 212 O
+75 29 31 213 215 B-lower_bound
+years 32 37 216 221 I-lower_bound
+
+immunodeficiency 0 16 222 238 B-chronic_disease
+syndrome 17 25 239 247 I-chronic_disease
+
+immunosuppressive 0 17 248 265 B-treatment
+medication 18 28 266 276 I-treatment
+use 29 32 277 280 O
+( 33 34 281 282 O
+including 34 43 282 291 O
+steroid 44 51 292 299 B-treatment
+use 52 55 300 303 O
+) 55 56 303 304 O
+
+known 0 5 305 310 O
+neurologic 6 16 311 321 B-chronic_disease
+or 17 19 322 324 O
+psychiatric 20 31 325 336 B-chronic_disease
+disorder 32 40 337 345 I-chronic_disease
+
+pre 0 3 346 349 O
+- 3 4 349 350 O
+operative 4 13 350 359 O
+renal 14 19 360 365 B-chronic_disease
+dysfunction 20 31 366 377 I-chronic_disease
+including 32 41 378 387 O
+a 42 43 388 389 O
+baseline 44 52 390 398 O
+creatinine 53 63 399 409 B-clinical_variable
+equal 64 69 410 415 O
+to 70 72 416 418 O
+or 73 75 419 421 O
+greater 76 83 422 429 O
+than 84 88 430 434 O
+1.5 89 92 435 438 B-lower_bound
+mg 93 95 439 441 I-lower_bound
+/ 95 96 441 442 I-lower_bound
+dL 96 98 442 444 I-lower_bound
+or 99 101 445 447 O
+requiring 102 111 448 457 O
+dialysis 112 120 458 466 O
+
+presenting 0 10 467 477 O
+for 11 14 478 481 O
+cardiac 15 22 482 489 B-treatment
+surgery 23 30 490 497 I-treatment
+at 31 33 498 500 O
+the 34 37 501 504 O
+Mayo 38 42 505 509 O
+Clinic 43 49 510 516 O
+in 50 52 517 519 O
+Rochester 53 62 520 529 O
+, 62 63 529 530 O
+Minnesota 64 73 531 540 O
+
+procedures 0 10 541 551 O
+not 11 14 552 555 O
+requiring 15 24 556 565 O
+cardiopulmonary 25 40 566 581 B-treatment
+bypass 41 47 582 588 I-treatment
+
+schedule 0 8 589 597 O
+to 9 11 598 600 O
+undergo 12 19 601 608 O
+complex 20 27 609 616 B-treatment
+cardiac 28 35 617 624 I-treatment
+surgery 36 43 625 632 I-treatment
+
+severe 0 6 633 639 B-chronic_disease
+hepatic 7 14 640 647 I-chronic_disease
+disease 15 22 648 655 I-chronic_disease
+or 23 25 656 658 O
+ascites 26 33 659 666 B-chronic_disease
+
+use 0 3 667 670 O
+of 4 6 671 673 O
+drugs 7 12 674 679 B-treatment
+for 13 16 680 683 O
+psychosis 17 26 684 693 B-chronic_disease
+

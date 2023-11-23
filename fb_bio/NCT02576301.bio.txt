@@ -1,0 +1,239 @@
+AML 0 3 0 3 B-cancer
+that 4 8 4 8 O
+has 9 12 9 12 O
+failed 13 19 13 19 O
+to 20 22 20 22 O
+achieve 23 30 23 30 O
+complete 31 39 31 39 O
+remission 40 49 40 49 O
+or 50 52 50 52 O
+morphologic 53 64 53 64 O
+complete 65 73 65 73 O
+remission 74 83 74 83 O
+
+Absolute 0 8 84 92 B-clinical_variable
+peripheral 9 19 93 103 I-clinical_variable
+blood 20 25 104 109 I-clinical_variable
+myeloblast 26 36 110 120 I-clinical_variable
+count 37 42 121 126 I-clinical_variable
+greater 43 50 127 134 O
+than 51 55 135 139 O
+20,000 56 62 140 146 B-lower_bound
+/ 62 63 146 147 I-lower_bound
+mm3 63 66 147 150 I-lower_bound
+
+Acute 0 5 151 156 B-cancer
+promyelocytic 6 19 157 170 I-cancer
+leukemia 20 28 171 179 I-cancer
+
+Any 0 3 180 183 O
+history 4 11 184 191 O
+of 12 14 192 194 O
+hemorrhagic 15 26 195 206 B-chronic_disease
+stroke 27 33 207 213 I-chronic_disease
+
+Eastern 0 7 214 221 B-clinical_variable
+Cooperative 8 19 222 233 I-clinical_variable
+Oncology 20 28 234 242 I-clinical_variable
+Group 29 34 243 248 I-clinical_variable
+performance 35 46 249 260 I-clinical_variable
+status 47 53 261 267 I-clinical_variable
+0 54 55 268 269 B-lower_bound
+, 55 56 269 270 O
+1 57 58 271 272 O
+, 58 59 272 273 O
+or 60 62 274 276 O
+2 63 64 277 278 B-upper_bound
+
+Hiistory 0 8 279 287 O
+of 9 11 288 290 O
+ventricular 12 23 291 302 B-chronic_disease
+arrhythmia 24 34 303 313 I-chronic_disease
+
+History 0 7 314 321 O
+of 8 10 322 324 O
+congenital 11 21 325 335 B-chronic_disease
+long 22 26 336 340 I-chronic_disease
+QT 27 29 341 343 I-chronic_disease
+syndrome 30 38 344 352 I-chronic_disease
+or 39 41 353 355 O
+torsades 42 50 356 364 B-chronic_disease
+de 51 53 365 367 I-chronic_disease
+pointes 54 61 368 375 I-chronic_disease
+
+MDS 0 3 376 379 B-clinical_variable
+- 4 5 380 381 I-clinical_variable
+Marrow 6 12 382 388 I-clinical_variable
+blasts 13 19 389 395 I-clinical_variable
+must 20 24 396 400 O
+be 25 27 401 403 O
+> 28 29 404 405 O
+5 30 31 406 407 B-lower_bound
+% 31 32 407 408 I-lower_bound
+and 33 36 409 412 O
+disease 37 44 413 420 O
+failed 45 51 421 427 O
+at 52 54 428 430 O
+least 55 60 431 436 O
+1 61 62 437 438 B-upper_bound
+prior 63 68 439 444 O
+hypomethylating 69 84 445 460 B-treatment
+agent 85 90 461 466 I-treatment
+
+Major 0 5 467 472 O
+hemorrhagic 6 17 473 484 B-chronic_disease
+event 18 23 485 490 I-chronic_disease
+within 24 30 491 497 O
+28 31 33 498 500 B-upper_bound
+days 34 38 501 505 I-upper_bound
+
+Males 0 5 506 511 B-gender
+with 6 10 512 516 O
+female 11 17 517 523 B-gender
+partners 18 26 524 532 I-gender
+of 27 29 533 535 O
+child 30 35 536 541 O
+- 35 36 541 542 O
+bearing 36 43 542 549 O
+potential 44 53 550 559 O
+must 54 58 560 564 O
+agree 59 64 565 570 B-contraception_consent
+to 65 67 571 573 I-contraception_consent
+use 68 71 574 577 I-contraception_consent
+physician 72 81 578 587 I-contraception_consent
+- 81 82 587 588 I-contraception_consent
+approved 82 90 588 596 I-contraception_consent
+contraceptive 91 104 597 610 I-contraception_consent
+methods 105 112 611 618 I-contraception_consent
+
+Myocardial 0 10 619 629 B-chronic_disease
+infarction 11 21 630 640 I-chronic_disease
+and/or 22 28 641 647 O
+new 29 32 648 651 O
+ST 33 35 652 654 O
+elevation 36 45 655 664 O
+
+Pathologic 0 10 665 675 B-chronic_disease
+bradycardia 11 22 676 687 I-chronic_disease
+or 23 25 688 690 O
+heart 26 31 691 696 B-chronic_disease
+block 32 37 697 702 I-chronic_disease
+
+Phase 0 5 703 708 O
+2 6 7 709 710 O
+( 8 9 711 712 O
+expansion 9 18 712 721 O
+) 18 19 721 722 O
+subjects 20 28 723 731 O
+must 29 33 732 736 O
+have 34 38 737 741 O
+either 39 45 742 748 O
+MDS 46 49 749 752 B-chronic_disease
+or 50 52 753 755 O
+relapsed 53 61 756 764 B-cancer
+/ 61 62 764 765 I-cancer
+refractory 62 72 765 775 I-cancer
+AML 73 76 776 779 I-cancer
+
+Pregnant 0 8 780 788 B-pregnancy
+
+Prothrombin 0 11 789 800 B-clinical_variable
+time 12 16 801 805 I-clinical_variable
+( 17 18 806 807 I-clinical_variable
+PT)/international 18 35 807 824 I-clinical_variable
+normalized 36 46 825 835 I-clinical_variable
+ratio 47 52 836 841 I-clinical_variable
+and 53 56 842 845 O
+( 57 58 846 847 O
+PTT 58 61 847 850 B-clinical_variable
+) 61 62 850 851 O
+in 63 65 852 854 O
+normal 66 72 855 861 O
+range 73 78 862 867 O
+± 79 80 868 869 B-upper_bound
+25 81 83 870 872 I-upper_bound
+% 83 84 872 873 I-upper_bound
+
+Psychiatric 0 11 874 885 B-chronic_disease
+disorders 12 21 886 895 I-chronic_disease
+that 22 26 896 900 O
+would 27 32 901 906 O
+interfere 33 42 907 916 O
+with 43 47 917 921 O
+consent 48 55 922 929 O
+
+Serum 0 5 930 935 B-clinical_variable
+aspartate 6 15 936 945 I-clinical_variable
+aminotransferase 16 32 946 962 I-clinical_variable
+( 33 34 963 964 I-clinical_variable
+AST 34 37 964 967 I-clinical_variable
+) 37 38 967 968 I-clinical_variable
+and 39 42 969 972 O
+alanine 43 50 973 980 B-clinical_variable
+aminotransferase 51 67 981 997 I-clinical_variable
+( 68 69 998 999 I-clinical_variable
+ALT 69 72 999 1002 I-clinical_variable
+) 72 73 1002 1003 I-clinical_variable
+levels 74 80 1004 1010 I-clinical_variable
+≤ 81 82 1011 1012 O
+2.5 83 86 1013 1016 B-upper_bound
+times 87 92 1017 1022 I-upper_bound
+upper 93 98 1023 1028 I-upper_bound
+limit 99 104 1029 1034 I-upper_bound
+of 105 107 1035 1037 I-upper_bound
+normal 108 114 1038 1044 I-upper_bound
+( 115 116 1045 1046 I-upper_bound
+ULN 116 119 1046 1049 I-upper_bound
+) 119 120 1049 1050 I-upper_bound
+
+Serum 0 5 1051 1056 B-clinical_variable
+creatinine 6 16 1057 1067 I-clinical_variable
+< 17 18 1068 1069 O
+2.5 19 22 1070 1073 B-upper_bound
+times 23 28 1074 1079 I-upper_bound
+ULN 29 32 1080 1083 I-upper_bound
+
+Suggestive 0 10 1084 1094 O
+central 11 18 1095 1102 O
+nervous 19 26 1103 1110 O
+system 27 33 1111 1117 O
+involvement 34 45 1118 1129 O
+with 46 50 1130 1134 O
+leukemia 51 59 1135 1143 B-cancer
+
+Symptomatic 0 11 1144 1155 O
+congestive 12 22 1156 1166 B-chronic_disease
+heart 23 28 1167 1172 I-chronic_disease
+failure 29 36 1173 1180 I-chronic_disease
+
+Total 0 5 1181 1186 O
+bilirubin 6 15 1187 1196 B-clinical_variable
+≤ 16 17 1197 1198 O
+2 18 19 1199 1200 B-upper_bound
+
+Treatment 0 9 1201 1210 O
+with 10 14 1211 1215 O
+any 15 18 1216 1219 O
+anticancer 19 29 1220 1230 B-treatment
+therapy 30 37 1231 1238 I-treatment
+
+Treatment 0 9 1239 1248 O
+with 10 14 1249 1253 O
+colchicine 15 25 1254 1264 B-treatment
+
+Uncontrolled 0 12 1265 1277 O
+hypertension 13 25 1278 1290 B-chronic_disease
+
+Women 0 5 1291 1296 B-gender
+of 6 8 1297 1299 O
+child 9 14 1300 1305 O
+- 14 15 1305 1306 O
+bearing 15 22 1306 1313 O
+potential 23 32 1314 1323 O
+
+≥ 0 1 1324 1325 O
+18 2 4 1326 1328 B-lower_bound
+years 5 10 1329 1334 I-lower_bound
+of 11 13 1335 1337 O
+age 14 17 1338 1341 B-age
+

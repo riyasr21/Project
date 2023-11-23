@@ -1,0 +1,63 @@
+Dementia 0 8 0 8 B-chronic_disease
+or 9 11 9 11 O
+other 12 17 12 17 O
+organic 18 25 18 25 B-chronic_disease
+brain 26 31 26 31 I-chronic_disease
+disorders 32 41 32 41 I-chronic_disease
+that 42 46 42 46 O
+would 47 52 47 52 O
+prevent 53 60 53 60 O
+participation 61 74 61 74 O
+in 75 77 75 77 O
+CCBT 78 82 78 82 B-treatment
+
+Diagnosis 0 9 83 92 O
+of 10 12 93 95 O
+any 13 16 96 99 O
+psychotic 17 26 100 109 B-chronic_disease
+disorder 27 35 110 118 I-chronic_disease
+or 36 38 119 121 O
+bipolar 39 46 122 129 B-chronic_disease
+disorder 47 55 130 138 I-chronic_disease
+
+Inability 0 9 139 148 B-language_fluency
+to 10 12 149 151 I-language_fluency
+read 13 17 152 156 I-language_fluency
+English 18 25 157 164 I-language_fluency
+text 26 30 165 169 I-language_fluency
+on 31 33 170 172 O
+computer 34 42 173 181 B-technology_access
+screen 43 49 182 188 I-technology_access
+
+Patient 0 7 189 196 B-clinical_variable
+Health 8 14 197 203 I-clinical_variable
+Questionnaire 15 28 204 217 I-clinical_variable
+score 29 34 218 223 I-clinical_variable
+of 35 37 224 226 O
+10 38 40 227 229 B-lower_bound
+or 41 43 230 232 O
+above 44 49 233 238 O
+
+Severe 0 6 239 245 O
+or 7 9 246 248 O
+poorly 10 16 249 255 O
+controlled 17 27 256 266 O
+medical 28 35 267 274 B-chronic_disease
+disorders 36 45 275 284 I-chronic_disease
+that 46 50 285 289 O
+would 51 56 290 295 O
+interfere 57 66 296 305 O
+with 67 71 306 310 O
+participation 72 85 311 324 O
+in 86 88 325 327 O
+CCBT 89 93 328 332 B-treatment
+( 94 95 333 334 O
+e.g. 95 99 334 338 O
+, 99 100 338 339 O
+liver 101 106 340 345 B-chronic_disease
+failure 107 114 346 353 I-chronic_disease
+, 114 115 353 354 O
+terminal 116 124 355 363 B-cancer
+cancer 125 131 364 370 I-cancer
+) 131 132 370 371 O
+

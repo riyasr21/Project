@@ -1,0 +1,54 @@
+Lactose 0 7 0 7 B-chronic_disease
+intolerance 8 19 8 19 I-chronic_disease
+or 20 22 20 22 O
+gluten 23 29 23 29 B-chronic_disease
+enteropathy 30 41 30 41 I-chronic_disease
+are 42 45 42 45 O
+not 46 49 46 49 O
+an 50 52 50 52 O
+exclusion 53 62 53 62 O
+provide 63 70 63 70 O
+that 71 75 71 75 O
+the 76 79 76 79 O
+potential 80 89 80 89 O
+subject 90 97 90 97 O
+is 98 100 98 100 O
+asymptomatic 101 113 101 113 O
+
+Male 0 4 114 118 B-gender
+and 5 8 119 122 O
+female 9 15 123 129 B-gender
+patients 16 24 130 138 I-gender
+with 25 29 139 143 O
+recurrent 30 39 144 153 O
+C. 40 42 154 156 B-chronic_disease
+difficile 43 52 157 166 I-chronic_disease
+colitis 53 60 167 174 I-chronic_disease
+
+Patients 0 8 175 183 O
+with 9 13 184 188 O
+other 14 19 189 194 O
+gastrointestinal 20 36 195 211 B-chronic_disease
+problems 37 45 212 220 I-chronic_disease
+prone 46 51 221 226 O
+to 52 54 227 229 O
+cause 55 60 230 235 O
+diarrhea 61 69 236 244 B-chronic_disease
+if 70 72 245 247 O
+they 73 77 248 252 O
+can 78 81 253 256 O
+not 81 84 256 259 O
+be 85 87 260 262 O
+controlled 88 98 263 273 O
+for 99 102 274 277 O
+the 103 106 278 281 O
+period 107 113 282 288 O
+of 114 116 289 291 O
+the 117 120 292 295 O
+study 121 126 296 301 O
+
+vancomycin 0 10 302 312 B-treatment
+and/or 11 17 313 319 O
+ursodiol 18 26 320 328 B-treatment
+tablets 27 34 329 336 I-treatment
+

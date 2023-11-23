@@ -1,0 +1,124 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+more 10 14 10 14 O
+
+Any 0 3 15 18 O
+contraindication 4 20 19 35 O
+to 21 23 36 38 O
+warm 24 28 39 43 B-allergy_name
+or 29 31 44 46 I-allergy_name
+cold 32 36 47 51 I-allergy_name
+compress 37 45 52 60 I-allergy_name
+
+Bleeding 0 8 61 69 B-chronic_disease
+disorder 9 17 70 78 I-chronic_disease
+
+Cognitive 0 9 79 88 B-chronic_disease
+deficits 10 18 89 97 I-chronic_disease
+that 19 23 98 102 O
+would 24 29 103 108 O
+interfere 30 39 109 118 O
+with 40 44 119 123 O
+the 45 48 124 127 O
+subject 49 56 128 135 O
+'s 56 58 135 137 O
+ability 59 66 138 145 O
+to 67 69 146 148 O
+give 70 74 149 153 O
+informed 75 83 154 162 O
+consent 84 91 163 170 O
+or 92 94 171 173 O
+perform 95 102 174 181 O
+study 103 108 182 187 O
+testing 109 116 188 195 O
+
+Diagnosis 0 9 196 205 O
+of 10 12 206 208 O
+MS 13 15 209 211 B-chronic_disease
+made 16 20 212 216 O
+at 21 23 217 219 O
+least 24 29 220 225 O
+3 30 31 226 227 B-lower_bound
+months 32 38 228 234 I-lower_bound
+prior 39 44 235 240 I-lower_bound
+based 45 50 241 246 O
+on 51 53 247 249 O
+McDonald 54 62 250 258 O
+criteria 63 71 259 267 O
+
+Females 0 7 268 275 B-gender
+who 8 11 276 279 O
+are 12 15 280 283 O
+breast 16 22 284 290 O
+- 22 23 290 291 O
+feeding 23 30 291 298 O
+, 30 31 298 299 O
+pregnant 32 40 300 308 B-pregnancy
+or 41 43 309 311 O
+have 44 48 312 316 O
+potential 49 58 317 326 O
+to 59 61 327 329 O
+become 62 68 330 336 B-pregnancy
+pregnant 69 77 337 345 I-pregnancy
+during 78 84 346 352 O
+the 85 88 353 356 O
+course 89 95 357 363 O
+of 96 98 364 366 O
+the 99 102 367 370 O
+study 103 108 371 376 O
+
+History 0 7 377 384 O
+of 8 10 385 387 O
+allergy 11 18 388 395 O
+or 19 21 396 398 O
+intolerance 22 33 399 410 O
+to 34 36 411 413 O
+local 37 42 414 419 B-allergy_name
+heat 43 47 420 424 I-allergy_name
+or 48 50 425 427 O
+cold 51 55 428 432 B-allergy_name
+application 56 67 433 444 I-allergy_name
+
+No 0 2 445 447 O
+MS 3 5 448 450 B-chronic_disease
+exacerbation 6 18 451 463 I-chronic_disease
+for 19 22 464 467 O
+60 23 25 468 470 B-upper_bound
+days 26 30 471 475 I-upper_bound
+prior 31 36 476 481 I-upper_bound
+to 37 39 482 484 O
+screening 40 49 485 494 O
+
+Ongoing 0 7 495 502 O
+treatment 8 17 503 512 B-treatment
+with 18 22 513 517 O
+PEG 23 26 518 521 B-treatment
+for 27 30 522 525 O
+30 31 33 526 528 B-lower_bound
+days 34 38 529 533 I-lower_bound
+or 39 41 534 536 O
+more 42 46 537 541 O
+at 47 49 542 544 O
+screening 50 59 545 554 O
+
+Score 0 5 555 560 O
+of 6 8 561 563 O
+≥50 9 12 564 567 O
+on 13 15 568 570 O
+screening 16 25 571 580 O
+ISR 26 29 581 584 B-clinical_variable
+Erythema 30 38 585 593 I-clinical_variable
+Index 39 44 594 599 I-clinical_variable
+
+fertile 0 7 600 607 O
+and 8 11 608 611 O
+unwilling 12 21 612 621 B-contraception_consent
+/ 21 22 621 622 I-contraception_consent
+unable 22 28 622 628 I-contraception_consent
+to 29 31 629 631 I-contraception_consent
+use 32 35 632 635 I-contraception_consent
+effective 36 45 636 645 I-contraception_consent
+contraceptive 46 59 646 659 I-contraception_consent
+measures 60 68 660 668 I-contraception_consent
+

@@ -1,0 +1,146 @@
+60 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+old 9 12 9 12 O
+and 13 16 13 16 O
+older 17 22 17 22 O
+
+Atrial 0 6 23 29 B-chronic_disease
+and 7 10 30 33 O
+ventricular 11 22 34 45 B-chronic_disease
+tachy 23 28 46 51 I-chronic_disease
+- 28 29 51 52 I-chronic_disease
+bradycardias 29 41 52 64 I-chronic_disease
+
+Bypass 0 6 65 71 B-treatment
+surgery 7 14 72 79 I-treatment
+
+Current 0 7 80 87 O
+unstable 8 16 88 96 B-chronic_disease
+angina 17 23 97 103 I-chronic_disease
+
+History 0 7 104 111 O
+of 8 10 112 114 O
+cardiac 11 18 115 122 B-chronic_disease
+disease 19 26 123 130 I-chronic_disease
+, 26 27 130 131 O
+including 28 37 132 141 O
+myocardial 38 48 142 152 B-chronic_disease
+infarction 49 59 153 163 I-chronic_disease
+
+Males 0 5 164 169 B-gender
+with 6 10 170 174 O
+hypogonadism 11 23 175 187 B-chronic_disease
+
+Patients 0 8 188 196 O
+with 9 13 197 201 O
+severe 14 20 202 208 B-chronic_disease
+sleep 21 26 209 214 I-chronic_disease
+apnea 27 32 215 220 I-chronic_disease
+( 33 34 221 222 O
+AHI>20 34 40 222 228 B-clinical_variable
+/ 40 41 228 229 I-lower_bound
+hr 41 43 229 231 I-lower_bound
+) 43 44 231 232 O
+
+Patients 0 8 233 241 O
+with 9 13 242 246 O
+significant 14 25 247 258 O
+pulmonary 26 35 259 268 B-chronic_disease
+diseases 36 44 269 277 I-chronic_disease
+by 45 47 278 280 O
+history 48 55 281 288 O
+and 56 59 289 292 O
+abnormal 60 68 293 301 O
+pulmonary 69 78 302 311 O
+function 79 87 312 320 O
+testing 88 95 321 328 O
+, 95 96 328 329 O
+including 97 106 330 339 O
+moderate 107 115 340 348 O
+obstructive 116 127 349 360 B-chronic_disease
+/ 127 128 360 361 I-chronic_disease
+restrictive 128 139 361 372 I-chronic_disease
+lung 140 144 373 377 I-chronic_disease
+/ 144 145 377 378 O
+chest 145 150 378 383 B-chronic_disease
+wall 151 155 384 388 I-chronic_disease
+disorders 156 165 389 398 I-chronic_disease
+with 166 170 399 403 O
+resting 171 178 404 411 O
+oxygen 179 185 412 418 B-clinical_variable
+saturation 186 196 419 429 I-clinical_variable
+of 197 199 430 432 O
+< 200 201 433 434 O
+96 201 203 434 436 B-upper_bound
+% 203 204 436 437 I-upper_bound
+or 205 207 438 440 O
+on 208 210 441 443 O
+supplemental 211 223 444 456 O
+oxygen 224 230 457 463 O
+
+Preexisting 0 11 464 475 O
+renal 12 17 476 481 B-chronic_disease
+failure 18 25 482 489 I-chronic_disease
+and 26 29 490 493 O
+liver 30 35 494 499 B-chronic_disease
+disorders 36 45 500 509 I-chronic_disease
+
+Pregnant 0 8 510 518 B-pregnancy
+women 9 14 519 524 O
+
+Seizure 0 7 525 532 B-chronic_disease
+disorder 8 16 533 541 I-chronic_disease
+
+Stroke 0 6 542 548 B-chronic_disease
+
+Systolic 0 8 549 557 O
+congestive 9 19 558 568 B-chronic_disease
+heart 20 25 569 574 I-chronic_disease
+failure 26 33 575 582 I-chronic_disease
+and 34 37 583 586 O
+Cheyne 38 44 587 593 B-chronic_disease
+- 44 45 593 594 I-chronic_disease
+Stokes 45 51 594 600 I-chronic_disease
+respiration 52 63 601 612 I-chronic_disease
+
+Untreated 0 9 613 622 O
+hypothyroidism 10 24 623 637 B-chronic_disease
+
+antidepressants 0 15 638 653 B-treatment
+
+narcotics 0 9 654 663 B-treatment
+
+other 0 5 664 669 O
+central 6 13 670 677 B-treatment
+nervous 14 21 678 685 I-treatment
+system 22 28 686 692 I-treatment
+( 29 30 693 694 I-treatment
+CNS 30 33 694 697 I-treatment
+) 33 34 697 698 I-treatment
+altering 35 43 699 707 I-treatment
+medications 44 55 708 719 I-treatment
+
+with 0 4 720 724 O
+mild 5 9 725 729 O
+to 10 12 730 732 O
+moderate 13 21 733 741 O
+sleep 22 27 742 747 B-chronic_disease
+apnea 28 33 748 753 I-chronic_disease
+with 34 38 754 758 O
+AHI 39 42 759 762 O
+> 43 44 763 764 O
+/=5 44 47 764 767 O
+to 48 50 768 770 O
+20 51 53 771 773 B-upper_bound
+/ 53 54 773 774 I-upper_bound
+hr 54 56 774 776 I-upper_bound
+with 57 61 777 781 O
+central 62 69 782 789 O
+, 69 70 789 790 O
+obstructive 71 82 791 802 O
+, 82 83 802 803 O
+mixed 84 89 804 809 O
+apneas 90 96 810 816 O
+and 97 100 817 820 O
+hypopneas 101 110 821 830 O
+

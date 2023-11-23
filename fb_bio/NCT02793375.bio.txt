@@ -1,0 +1,52 @@
+All 0 3 0 3 O
+patients 4 12 4 12 O
+between 13 20 13 20 O
+the 21 24 21 24 O
+ages 25 29 25 29 B-age
+of 30 32 30 32 O
+3 33 34 33 34 B-lower_bound
+- 34 35 34 35 O
+8 35 36 35 36 B-upper_bound
+
+Those 0 5 37 42 O
+with 6 10 43 47 O
+active 11 17 48 54 O
+respiratory 18 29 55 66 B-chronic_disease
+infections 30 40 67 77 I-chronic_disease
+requiring 41 50 78 87 O
+cancellation 51 63 88 100 O
+of 64 66 101 103 O
+surgery 67 74 104 111 B-treatment
+
+those 0 5 112 117 O
+with 6 10 118 122 O
+allergies 11 20 123 132 O
+to 21 23 133 135 O
+Montelukast 24 35 136 147 B-allergy_name
+and 36 39 148 151 O
+those 40 45 152 157 O
+currently 46 55 158 167 O
+using 56 61 168 173 O
+Montelukast 62 73 174 185 O
+
+undergoing 0 10 186 196 O
+adenotonsillectomy 11 29 197 215 B-treatment
+for 30 33 216 219 O
+an 34 36 220 222 O
+indication 37 47 223 233 O
+of 48 50 234 236 O
+adenotonsillar 51 65 237 251 B-chronic_disease
+hypertrophy 66 77 252 263 I-chronic_disease
+who 78 81 264 267 O
+are 82 85 268 271 O
+scheduled 86 95 272 281 O
+for 96 99 282 285 O
+overnight 100 109 286 295 O
+23 110 112 296 298 O
+hour 113 117 299 303 O
+observation 118 129 304 315 O
+at 130 132 316 318 O
+CCHMC 133 138 319 324 O
+main 139 143 325 329 O
+campus 144 150 330 336 O
+

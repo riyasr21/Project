@@ -1,0 +1,44 @@
+A 0 1 0 1 O
+condition 2 11 2 11 O
+requiring 12 21 12 21 O
+an 22 24 22 24 O
+emergency 25 34 25 34 O
+surgery 35 42 35 42 B-treatment
+or 43 45 43 45 O
+invasive 46 54 46 54 B-treatment
+procedure 55 64 55 64 I-treatment
+where 65 70 65 70 O
+adequate 71 79 71 79 O
+haemostasis 80 91 80 91 B-treatment
+
+Patients 0 8 92 100 O
+taking 9 15 101 107 O
+dabigatran 16 26 108 118 B-treatment
+etexilate 27 36 119 128 I-treatment
+in 37 39 129 131 O
+the 40 43 132 135 O
+paediatric 44 54 136 146 O
+trials 55 61 147 153 O
+1160.106 62 70 154 162 O
+or 71 73 163 165 O
+1160.108 74 82 166 174 O
+
+Patients 0 8 175 183 O
+with 9 13 184 188 O
+minor 14 19 189 194 O
+bleeding 20 28 195 203 O
+( 29 30 204 205 O
+e.g. 30 34 205 209 O
+epistaxis 35 44 210 219 B-chronic_disease
+, 44 45 219 220 O
+haematuria 46 56 221 231 B-chronic_disease
+) 56 57 231 232 O
+who 58 61 233 236 O
+can 62 65 237 240 O
+be 66 68 241 243 O
+managed 69 76 244 251 O
+with 77 81 252 256 O
+standard 82 90 257 265 O
+supportive 91 101 266 276 O
+care 102 106 277 281 O
+

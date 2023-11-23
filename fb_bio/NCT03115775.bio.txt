@@ -1,0 +1,4 @@
+COPD 0 4 0 4 B-chronic_disease
+
+Diabetes 0 8 5 13 B-chronic_disease
+

@@ -1,0 +1,97 @@
+55 0 2 0 2 B-lower_bound
++ 2 3 2 3 I-lower_bound
+years 4 9 4 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+Active 0 6 17 23 B-cancer
+cancer 7 13 24 30 I-cancer
+
+Body 0 4 31 35 B-bmi
+Mass 5 9 36 40 I-bmi
+Index 10 15 41 46 I-bmi
+< 16 17 47 48 O
+25.0 17 21 48 52 B-upper_bound
+or 22 24 53 55 O
+> 25 26 56 57 O
+45.0kg 26 32 57 63 B-lower_bound
+/ 32 33 63 64 I-lower_bound
+m2 33 35 64 66 I-lower_bound
+
+Body 0 4 67 71 B-bmi
+Mass 5 9 72 76 I-bmi
+Index 10 15 77 82 I-bmi
+range 16 21 83 88 O
+of 22 24 89 91 O
+25.0 25 29 92 96 B-lower_bound
+- 29 30 96 97 O
+45.0kg 30 36 97 103 B-upper_bound
+/ 36 37 103 104 I-upper_bound
+m2 37 39 104 106 I-upper_bound
+
+Participating 0 13 107 120 O
+in 14 16 121 123 O
+another 17 24 124 131 O
+clinical 25 33 132 140 B-treatment
+trial 34 39 141 146 I-treatment
+related 40 47 147 154 O
+to 48 50 155 157 O
+study 51 56 158 163 O
+outcomes 57 65 164 172 O
+( 66 67 173 174 O
+as 67 69 174 176 O
+determined 70 80 177 187 O
+by 81 83 188 190 O
+the 84 87 191 194 O
+PI 88 90 195 197 O
+) 90 91 197 198 O
+
+Phone 0 5 199 204 B-technology_access
+access 6 12 205 211 I-technology_access
+( 13 14 212 213 O
+to 14 16 213 215 O
+receive 17 24 216 223 O
+counseling 25 35 224 234 O
+) 35 36 234 235 O
+
+Postmenopausal 0 14 236 250 O
+woman 15 20 251 256 B-gender
+
+Sedentary 0 9 257 266 O
+: 9 10 266 267 O
+Average 11 18 268 275 O
+> 19 20 276 277 O
+8 20 21 277 278 B-lower_bound
+hours 22 27 279 284 I-lower_bound
+sitting 28 35 285 292 O
+/ 35 36 292 293 O
+day 36 39 293 296 O
+, 39 40 296 297 O
+as 41 43 298 300 O
+measured 44 52 301 309 O
+by 53 55 310 312 O
+ActivPAL 56 64 313 321 O
+on 65 67 322 324 O
+4 68 69 325 326 O
++ 69 70 326 327 O
+days 71 75 328 332 O
+per 76 79 333 336 O
+week 80 84 337 341 O
+
+Use 0 3 342 345 O
+of 4 6 346 348 O
+insulin 7 14 349 356 B-treatment
+medications 15 26 357 368 I-treatment
+
+≤ 0 1 369 370 O
+8hr 2 5 371 374 B-upper_bound
+average 6 13 375 382 O
+daily 14 19 383 388 O
+sitting 20 27 389 396 O
+time 28 32 397 401 O
+, 32 33 401 402 O
+as 34 36 403 405 O
+measured 37 45 406 414 O
+by 46 48 415 417 O
+ActivPAL 49 57 418 426 O
+

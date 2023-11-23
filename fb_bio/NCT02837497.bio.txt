@@ -1,0 +1,17 @@
+AND 0 3 0 3 O
+Received 4 12 4 12 O
+CPR 13 16 13 16 B-treatment
+in 17 19 17 19 I-treatment
+the 20 23 20 23 I-treatment
+ICU 24 27 24 27 I-treatment
+setting 28 35 28 35 I-treatment
+
+Age 0 3 36 39 B-age
+greater 4 11 40 47 O
+than 12 16 48 52 O
+or 17 19 53 55 O
+equal 20 25 56 61 O
+to 26 28 62 64 O
+37 29 31 65 67 B-lower_bound
+weeks 32 37 68 73 I-lower_bound
+

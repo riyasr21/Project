@@ -1,0 +1,234 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+
+Any 0 3 13 16 O
+severe 4 10 17 23 O
+medical 11 18 24 31 B-chronic_disease
+condition 19 28 32 41 I-chronic_disease
+that 29 33 42 46 O
+, 33 34 46 47 O
+in 35 37 48 50 O
+the 38 41 51 54 O
+enrollee 42 50 55 63 O
+'s 50 52 63 65 O
+opinion 53 60 66 73 O
+, 60 61 73 74 O
+is 62 64 75 77 O
+likely 65 71 78 84 O
+to 72 74 85 87 O
+compromise 75 85 88 98 O
+the 86 89 99 102 O
+participant 90 101 103 114 O
+'s 101 103 114 116 O
+ability 104 111 117 124 O
+to 112 114 125 127 O
+complete 115 123 128 136 O
+the 124 127 137 140 O
+trial 128 133 141 146 O
+
+Ascites 0 7 147 154 B-chronic_disease
+
+Bilirubin 0 9 155 164 B-clinical_variable
+2 10 11 165 166 B-lower_bound
+mg 12 14 167 169 I-lower_bound
+/ 14 15 169 170 I-lower_bound
+dL 15 17 170 172 I-lower_bound
+
+Current 0 7 173 180 O
+use 8 11 181 184 O
+of 12 14 185 187 O
+azathioprine 15 27 188 200 B-treatment
+, 27 28 200 201 O
+mercaptopurine 29 43 202 216 B-treatment
+, 43 44 216 217 O
+didanosine 45 55 218 228 B-treatment
+, 55 56 228 229 O
+cyclophosphamide 57 73 230 246 B-treatment
+, 73 74 246 247 O
+or 75 77 248 250 O
+probenecid 78 88 251 261 B-treatment
+
+Encephalopathy 0 14 262 276 B-chronic_disease
+
+History 0 7 277 284 O
+of 8 10 285 287 O
+gout 11 15 288 292 B-chronic_disease
+- 16 17 293 294 O
+crystal 18 25 295 302 O
+proven 26 32 303 309 O
+or 33 35 310 312 O
+historical 36 46 313 323 O
+as 47 49 324 326 O
+defined 50 57 327 334 O
+by 58 60 335 337 O
+ACR 61 64 338 341 O
+criteria 65 73 342 350 O
+listed 74 80 351 357 O
+above 81 86 358 363 O
+
+INR 0 3 364 367 O
+1.7 4 7 368 371 O
+, 7 8 371 372 O
+not 9 12 373 376 O
+on 13 15 377 379 O
+Warfarin 16 24 380 388 B-treatment
+therapy 25 32 389 396 I-treatment
+
+Patients 0 8 397 405 O
+who 9 12 406 409 O
+are 13 16 410 413 O
+not 17 20 414 417 O
+candidates 21 31 418 428 O
+for 32 35 429 432 O
+any 36 39 433 436 O
+of 40 42 437 439 O
+the 43 46 440 443 O
+recommended 47 58 444 455 O
+prophylactic 59 71 456 468 B-treatment
+medications 72 83 469 480 I-treatment
+( 84 85 481 482 O
+colchicine 85 95 482 492 B-treatment
+, 95 96 492 493 O
+naprosyn 97 105 494 502 B-treatment
+or 106 108 503 505 O
+glucocorticoids 109 124 506 521 B-treatment
+) 124 125 521 522 O
+
+Patients 0 8 523 531 O
+with 9 13 532 536 O
+a 14 15 537 538 O
+history 16 23 539 546 O
+of 24 26 547 549 O
+prior 27 32 550 555 O
+solid 33 38 556 561 B-treatment
+organ 39 44 562 567 I-treatment
+/ 45 46 568 569 I-treatment
+hematopoietic 47 60 570 583 I-treatment
+transplantation 61 76 584 599 I-treatment
+
+Patients 0 8 600 608 O
+with 9 13 609 613 O
+chronic 14 21 614 621 B-chronic_disease
+liver 22 27 622 627 I-chronic_disease
+disease 28 35 628 635 I-chronic_disease
+
+Patients 0 8 636 644 O
+with 9 13 645 649 O
+malignancies 14 26 650 662 B-cancer
+that 27 31 663 667 O
+are 32 35 668 671 O
+currently 36 45 672 681 O
+active 46 52 682 688 O
+
+Patients 0 8 689 697 O
+with 9 13 698 702 O
+myelodysplasia 14 28 703 717 B-clinical_variable
+and 29 32 718 721 O
+hemoglobin 33 43 722 732 B-clinical_variable
+of 44 46 733 735 O
+< 47 48 736 737 O
+8.5 49 52 738 741 B-upper_bound
+g 53 54 742 743 I-upper_bound
+/ 54 55 743 744 I-upper_bound
+dL 55 57 744 746 I-upper_bound
+
+Patients 0 8 747 755 O
+with 9 13 756 760 O
+serum 14 19 761 766 B-clinical_variable
+uric 20 24 767 771 I-clinical_variable
+acid 25 29 772 776 I-clinical_variable
+levels 30 36 777 783 I-clinical_variable
+> 37 38 784 785 O
+15 38 40 785 787 B-lower_bound
+mg 41 43 788 790 I-lower_bound
+/ 43 44 790 791 I-lower_bound
+dl 44 46 791 793 I-lower_bound
+
+Previous 0 8 794 802 O
+allergy 9 16 803 810 O
+or 17 19 811 813 O
+intolerance 20 31 814 825 O
+to 32 34 826 828 O
+allopurinol 35 46 829 840 B-allergy_name
+or 47 49 841 843 O
+febuxostat 50 60 844 854 B-allergy_name
+
+Previous 0 8 855 863 O
+history 9 16 864 871 O
+of 17 19 872 874 O
+failure 20 27 875 882 O
+to 28 30 883 885 O
+reach 31 36 886 891 O
+target 37 43 892 898 O
+uric 44 48 899 903 O
+acid 49 53 904 908 O
+levels 54 60 909 915 O
+despite 61 68 916 923 O
+therapy 69 76 924 931 B-treatment
+with 77 81 932 936 I-treatment
+allopurinol 82 93 937 948 I-treatment
+at 94 96 949 951 O
+dose 97 101 952 956 O
+> 102 103 957 958 O
+300 104 107 959 962 B-lower_bound
+mg 108 110 963 965 I-lower_bound
+/ 110 111 965 966 I-lower_bound
+day 111 114 966 969 I-lower_bound
+
+Prior 0 5 970 975 O
+febuxostat 6 16 976 986 B-treatment
+use 17 20 987 990 O
+
+Serum 0 5 991 996 B-clinical_variable
+albumin 6 13 997 1004 I-clinical_variable
+< 14 15 1005 1006 O
+3.5 15 18 1006 1009 B-upper_bound
+g 19 20 1010 1011 I-upper_bound
+/ 20 21 1011 1012 I-upper_bound
+dL 21 23 1012 1014 I-upper_bound
+
+Serum 0 5 1015 1020 B-clinical_variable
+urate 6 11 1021 1026 I-clinical_variable
+level 12 17 1027 1032 I-clinical_variable
+6.8 18 21 1033 1036 O
+mg 22 24 1037 1039 O
+/ 24 25 1039 1040 O
+dl 25 27 1040 1042 O
+
+Stage 0 5 1043 1048 B-chronic_disease
+4 6 7 1049 1050 I-chronic_disease
+or 8 10 1051 1053 I-chronic_disease
+5 11 12 1054 1055 I-chronic_disease
+Chronic 13 20 1056 1063 I-chronic_disease
+Kidney 21 27 1064 1070 I-chronic_disease
+Disease 28 35 1071 1078 I-chronic_disease
+( 36 37 1079 1080 I-chronic_disease
+CKD 37 40 1080 1083 I-chronic_disease
+) 40 41 1083 1084 I-chronic_disease
+- 42 43 1085 1086 O
+defined 44 51 1087 1094 O
+as 52 54 1095 1097 O
+eGFR 55 59 1098 1102 B-clinical_variable
+of 60 62 1103 1105 O
+< 63 64 1106 1107 O
+30 64 66 1107 1109 B-upper_bound
+ml 67 69 1110 1112 I-upper_bound
+/ 69 70 1112 1113 I-upper_bound
+min 70 73 1113 1116 I-upper_bound
+
+Women 0 5 1117 1122 B-gender
+
+less 0 4 1123 1127 O
+than 5 9 1128 1132 O
+50 10 12 1133 1135 B-upper_bound
+years 13 18 1136 1141 I-upper_bound
+of 19 21 1142 1144 O
+age 22 25 1145 1148 B-age
+
+non 0 3 1149 1152 B-cancer
+- 3 4 1152 1153 I-cancer
+melanoma 4 12 1153 1161 I-cancer
+skin 13 17 1162 1166 I-cancer
+cancer 18 24 1167 1173 I-cancer
+

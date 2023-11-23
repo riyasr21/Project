@@ -1,0 +1,25 @@
+Adults 0 6 0 6 O
+who 7 10 7 10 O
+are 11 14 11 14 B-pregnancy
+pregnant 15 23 15 23 I-pregnancy
+
+Anyone 0 6 24 30 O
+with 7 11 31 35 O
+allergy 12 19 36 43 O
+to 20 22 44 46 O
+barium 23 29 47 53 B-allergy_name
+
+Subjects 0 8 54 62 O
+will 9 13 63 67 O
+include 14 21 68 75 O
+both 22 26 76 80 O
+male 27 31 81 85 B-gender
+and 32 35 86 89 I-gender
+females 36 43 90 97 I-gender
+
+aged 0 4 98 102 B-age
+between 5 12 103 110 O
+18 13 15 111 113 B-lower_bound
+- 15 16 113 114 O
+100 16 19 114 117 B-upper_bound
+

@@ -1,0 +1,181 @@
+Bipolar 0 7 0 7 B-chronic_disease
+Affective 8 17 8 17 I-chronic_disease
+disorder 18 26 18 26 I-chronic_disease
+( 27 28 27 28 I-chronic_disease
+BPAD 28 32 28 32 I-chronic_disease
+) 32 33 32 33 I-chronic_disease
+
+Contraindication 0 16 34 50 O
+to 17 19 51 53 O
+MRI 20 23 54 57 B-allergy_name
+
+Current 0 7 58 65 O
+dependence 8 18 66 76 O
+, 18 19 76 77 O
+defined 20 27 78 85 O
+by 28 30 86 88 O
+DSM 31 34 89 92 O
+- 34 35 92 93 O
+V 35 36 93 94 O
+criteria 37 45 95 103 O
+, 45 46 103 104 O
+on 47 49 105 107 O
+any 50 53 108 111 O
+psychoactive 54 66 112 124 B-treatment
+substances 67 77 125 135 I-treatment
+
+Dementia 0 8 136 144 B-chronic_disease
+
+History 0 7 145 152 O
+of 8 10 153 155 O
+autoimmune 11 21 156 166 B-chronic_disease
+
+History 0 7 167 174 O
+or 8 10 175 177 O
+MRI 11 14 178 181 O
+evidence 15 23 182 190 O
+of 24 26 191 193 O
+neurological 27 39 194 206 B-chronic_disease
+disorder 40 48 207 215 I-chronic_disease
+that 49 53 216 220 O
+would 54 59 221 226 O
+lead 60 64 227 231 O
+to 65 67 232 234 O
+local 68 73 235 240 O
+or 74 76 241 243 O
+diffuse 77 84 244 251 O
+brain 85 90 252 257 B-chronic_disease
+lesions 91 98 258 265 I-chronic_disease
+or 99 101 266 268 O
+significant 102 113 269 280 O
+physical 114 122 281 289 B-chronic_disease
+impairment 123 133 290 300 I-chronic_disease
+
+Life 0 4 301 305 O
+time 5 9 306 310 O
+history 10 17 311 318 O
+of 18 20 319 321 O
+major 21 26 322 327 O
+Axis 27 31 328 332 B-chronic_disease
+I 32 33 333 334 I-chronic_disease
+disorders 34 43 335 344 I-chronic_disease
+
+Major 0 5 345 350 B-chronic_disease
+Depression 6 16 351 361 I-chronic_disease
+
+No 0 2 362 364 O
+evidence 3 11 365 373 O
+of 12 14 374 376 O
+focal 15 20 377 382 B-chronic_disease
+or 21 23 383 385 I-chronic_disease
+diffuse 24 31 386 393 I-chronic_disease
+brain 32 37 394 399 I-chronic_disease
+lesion 38 44 400 406 I-chronic_disease
+on 45 47 407 409 O
+MRI 48 51 410 413 B-treatment
+
+Not 0 3 414 417 O
+received 4 12 418 426 O
+substance 13 22 427 436 B-treatment
+abuse 23 28 437 442 I-treatment
+treatment 29 38 443 452 I-treatment
+within 39 45 453 459 O
+the 46 49 460 463 O
+previous 50 58 464 472 B-upper_bound
+30 59 61 473 475 I-upper_bound
+days 62 66 476 480 I-upper_bound
+
+Post 0 4 481 485 B-chronic_disease
+- 4 5 485 486 I-chronic_disease
+traumatic 5 14 486 495 I-chronic_disease
+Stress 15 21 496 502 I-chronic_disease
+disorder 22 30 503 511 I-chronic_disease
+( 31 32 512 513 I-chronic_disease
+PTSD 32 36 513 517 I-chronic_disease
+) 36 37 517 518 I-chronic_disease
+
+Schizophrenia 0 13 519 532 B-chronic_disease
+
+Self 0 4 533 537 O
+report 5 11 538 544 O
+of 12 14 545 547 O
+> 15 16 548 549 O
+21 16 18 549 551 B-lower_bound
+standard 19 27 552 560 I-lower_bound
+alcohol 28 35 561 568 I-lower_bound
+drinks 36 42 569 575 I-lower_bound
+per 43 46 576 579 I-lower_bound
+week 47 51 580 584 I-lower_bound
+in 52 54 585 587 O
+any 55 58 588 591 O
+week 59 63 592 596 O
+in 64 66 597 599 O
+the 67 70 600 603 O
+30 71 73 604 606 B-upper_bound
+days 74 78 607 611 I-upper_bound
+prior 79 84 612 617 I-upper_bound
+to 85 87 618 620 O
+screening 88 97 621 630 O
+
+Smoke 0 5 631 636 O
+10 6 8 637 639 B-lower_bound
+or 9 11 640 642 O
+more 12 16 643 647 O
+cigarettes 17 27 648 658 O
+per 28 31 659 662 O
+day 32 35 663 666 O
+
+Unstable 0 8 667 675 O
+cardiac 9 16 676 683 B-chronic_disease
+disease 17 24 684 691 I-chronic_disease
+
+a 0 1 692 693 O
+carbon 2 8 694 700 B-clinical_variable
+monoxide 9 17 701 709 I-clinical_variable
+( 18 19 710 711 I-clinical_variable
+CO 19 21 711 713 I-clinical_variable
+) 21 22 713 714 I-clinical_variable
+level 23 28 715 720 I-clinical_variable
+> 29 30 721 722 O
+10 31 33 723 725 B-lower_bound
+ppm 34 37 726 729 I-lower_bound
+indicative 38 48 730 740 O
+of 49 51 741 743 O
+recent 52 58 744 750 O
+smoking 59 66 751 758 O
+
+brain 0 5 759 764 B-treatment
+surgery 6 13 765 772 I-treatment
+
+caffeine 0 8 773 781 B-treatment
+
+head 0 4 782 786 B-clinical_variable
+trauma 5 11 787 793 I-clinical_variable
+with 12 16 794 798 I-clinical_variable
+loss 17 21 799 803 I-clinical_variable
+of 22 24 804 806 I-clinical_variable
+consciousness 25 38 807 820 I-clinical_variable
+for 39 42 821 824 O
+> 43 44 825 826 O
+15 45 47 827 829 B-lower_bound
+minutes 48 55 830 837 I-lower_bound
+
+history 0 7 838 845 O
+of 8 10 846 848 O
+neurological 11 23 849 861 B-chronic_disease
+disorder 24 32 862 870 I-chronic_disease
+or 33 35 871 873 O
+seizure 36 43 874 881 B-chronic_disease
+
+increased 0 9 882 891 B-chronic_disease
+intracranial 10 22 892 904 I-chronic_disease
+pressure 23 31 905 913 I-chronic_disease
+
+liver 0 5 914 919 B-chronic_disease
+insufficiency 6 19 920 933 I-chronic_disease
+
+pregnancy 0 9 934 943 B-pregnancy
+
+sleep 0 5 944 949 B-chronic_disease
+apnea 6 11 950 955 I-chronic_disease
+

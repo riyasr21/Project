@@ -1,0 +1,48 @@
+18 0 2 0 2 B-lower_bound
+or 3 5 3 5 O
+older 6 11 6 11 O
+
+Estimated 0 9 12 21 B-clinical_variable
+IQ 10 12 22 24 I-clinical_variable
+< 13 14 25 26 O
+75 15 17 27 29 B-upper_bound
+
+Native 0 6 30 36 B-language_fluency
+English 7 14 37 44 I-language_fluency
+speaker 15 22 45 52 I-language_fluency
+or 23 25 53 55 I-language_fluency
+acquired 26 34 56 64 I-language_fluency
+English 35 42 65 72 I-language_fluency
+prior 43 48 73 78 O
+to 49 51 79 81 O
+age 52 55 82 85 B-age
+5 56 57 86 87 B-lower_bound
+
+Non 0 3 88 91 B-language_fluency
+- 3 4 91 92 I-language_fluency
+native 4 10 92 98 I-language_fluency
+English 11 18 99 106 I-language_fluency
+speakers 19 27 107 115 I-language_fluency
+
+Pregnancy 0 9 116 125 B-pregnancy
+
+Presence 0 8 126 134 O
+of 9 11 135 137 O
+serious 12 19 138 145 B-chronic_disease
+medical 20 27 146 153 I-chronic_disease
+illness 28 35 154 161 I-chronic_disease
+, 35 36 161 162 O
+including 37 46 163 172 O
+liver 47 52 173 178 B-chronic_disease
+or 53 55 179 181 O
+kidney 56 62 182 188 B-chronic_disease
+disease 63 70 189 196 I-chronic_disease
+, 70 71 196 197 O
+neurological 72 84 198 210 B-chronic_disease
+disorder 85 93 211 219 I-chronic_disease
+, 93 94 219 220 O
+or 95 97 221 223 O
+certain 98 105 224 231 O
+psychiatric 106 117 232 243 B-chronic_disease
+disorders 118 127 244 253 I-chronic_disease
+

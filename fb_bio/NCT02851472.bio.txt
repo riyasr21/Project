@@ -1,0 +1,101 @@
+< 0 1 0 1 O
+50 2 4 2 4 B-upper_bound
+% 4 5 4 5 I-upper_bound
+of 6 8 6 8 O
+total 9 14 9 14 B-clinical_variable
+fluids 15 21 15 21 I-clinical_variable
+are 22 25 22 25 O
+enteral 26 33 26 33 O
+( 34 35 34 35 O
+breast 35 41 35 41 O
+milk 42 46 42 46 O
+or 47 49 47 49 O
+formula 50 57 50 57 O
+) 57 58 57 58 O
+
+Anemia 0 6 59 65 B-chronic_disease
+with 7 11 66 70 O
+hematocrit 12 22 71 81 B-clinical_variable
+( 23 24 82 83 I-clinical_variable
+Hct 24 27 83 86 I-clinical_variable
+) 27 28 86 87 I-clinical_variable
+less 29 33 88 92 O
+than 34 38 93 97 O
+28 39 41 98 100 B-upper_bound
+% 42 43 101 102 I-upper_bound
+
+Clinically 0 10 103 113 O
+significant 11 22 114 125 O
+patent 23 29 126 132 B-chronic_disease
+ductus 30 36 133 139 I-chronic_disease
+arteriosus 37 47 140 150 I-chronic_disease
+( 48 49 151 152 I-chronic_disease
+PDA 49 52 152 155 I-chronic_disease
+) 52 53 155 156 I-chronic_disease
+requiring 54 63 157 166 O
+treatment 64 73 167 176 B-treatment
+( 74 75 177 178 I-treatment
+Rx 75 77 178 180 I-treatment
+) 77 78 180 181 I-treatment
+within 79 85 182 188 O
+24h 86 89 189 192 B-upper_bound
+
+Death 0 5 193 198 B-clinical_variable
+expected 6 14 199 207 I-clinical_variable
+< 15 16 208 209 O
+48h 17 20 210 213 B-upper_bound
+
+History 0 7 214 221 O
+of 8 10 222 224 O
+at 11 13 225 227 O
+least 14 19 228 233 O
+1 20 21 234 235 B-lower_bound
+prior 22 27 236 241 I-lower_bound
+PRBC 28 32 242 246 B-treatment
+transfusion 33 44 247 258 I-treatment
+( 45 46 259 260 O
+preferably 46 56 260 270 O
+same 57 61 271 275 O
+donor 62 67 276 281 O
+) 67 68 281 282 O
+
+Hypotensive 0 11 283 294 O
+for 12 15 295 298 O
+age 16 19 299 302 B-age
+or 20 22 303 305 O
+active 23 29 306 312 B-chronic_disease
+bleeding 30 38 313 321 I-chronic_disease
+
+Major 0 5 322 327 O
+congenital 6 16 328 338 B-chronic_disease
+or 17 19 339 341 I-chronic_disease
+surgical 20 28 342 350 I-chronic_disease
+malformations 29 42 351 364 I-chronic_disease
+
+More 0 4 365 369 O
+than 5 9 370 374 O
+2 10 11 375 376 B-lower_bound
+weeks 12 17 377 382 I-lower_bound
+postnatal 18 27 383 392 O
+age 28 31 393 396 B-age
+
+More 0 4 397 401 O
+than 5 9 402 406 O
+50 10 12 407 409 B-lower_bound
+% 13 14 410 411 I-lower_bound
+total 15 20 412 417 O
+daily 21 26 418 423 O
+fluids 27 33 424 430 O
+is 34 36 431 433 O
+enteral 37 44 434 441 O
+
+Neonates 0 8 442 450 B-lower_bound
+24 9 11 451 453 I-lower_bound
+0/7 12 15 454 457 I-lower_bound
+to 16 18 458 460 O
+27 19 21 461 463 B-upper_bound
+6/7 22 25 464 467 I-upper_bound
+weeks 26 31 468 473 I-upper_bound
+gestational 32 43 474 485 B-clinical_variable
+age 44 47 486 489 I-clinical_variable
+

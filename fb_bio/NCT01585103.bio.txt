@@ -1,0 +1,31 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+known 14 19 14 19 O
+Lidocaine 20 29 20 29 B-allergy_name
+/ 29 30 29 30 O
+Acetylcysteine 30 44 30 44 B-allergy_name
+allergies 45 54 45 54 O
+
+between 0 7 55 62 O
+the 8 11 63 66 O
+ages 12 16 67 71 B-age
+of 17 19 72 74 O
+18 20 22 75 77 B-lower_bound
+and 23 26 78 81 O
+65 27 29 82 84 B-upper_bound
+with 30 34 85 89 O
+eosinophilic 35 47 90 102 B-chronic_disease
+esophagitis 48 59 103 114 I-chronic_disease
+including 60 69 115 124 O
+lactating 70 79 125 134 O
+or 80 82 135 137 O
+pregnant 83 91 138 146 B-pregnancy
+women 92 97 147 152 B-gender
+undergoing 98 108 153 163 O
+clinically 109 119 164 174 O
+indicated 120 129 175 184 O
+endoscopy 130 139 185 194 O
+and 140 143 195 198 O
+esophageal 144 154 199 209 O
+biopsy 155 161 210 216 O
+

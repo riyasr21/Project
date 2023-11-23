@@ -1,0 +1,59 @@
+Adequate 0 8 0 8 O
+abutment 9 17 9 17 B-clinical_variable
+height 18 24 18 24 I-clinical_variable
+after 25 30 25 30 O
+tooth 31 36 31 36 O
+preparation 37 48 37 48 O
+( 49 50 49 50 O
+minimum 50 57 50 57 O
+4 58 59 58 59 B-lower_bound
+mm 59 61 59 61 I-lower_bound
+) 61 62 61 62 O
+
+Age 0 3 63 66 B-age
+of 4 6 67 69 O
+patient 7 14 70 77 O
+less 15 19 78 82 O
+than 20 24 83 87 O
+18 25 27 88 90 B-upper_bound
+years 28 33 91 96 I-upper_bound
+old 34 37 97 100 O
+
+Age 0 3 101 104 B-age
+of 4 6 105 107 O
+patient 7 14 108 115 O
+≥ 15 16 116 117 O
+18 17 19 118 120 B-lower_bound
+years 20 25 121 126 I-lower_bound
+old 26 29 127 130 O
+
+Anticipated 0 11 131 142 O
+pulp 12 16 143 147 O
+exposure 17 25 148 156 O
+or 26 28 157 159 O
+need 29 33 160 164 O
+for 34 37 165 168 O
+additional 38 48 169 179 O
+treatment 49 58 180 189 B-treatment
+( 59 60 190 191 O
+endodontic 60 70 191 201 B-treatment
+treatment 71 80 202 211 I-treatment
+, 80 81 211 212 O
+post 82 86 213 217 B-treatment
+and 87 90 218 221 I-treatment
+core 91 95 222 226 I-treatment
+, 95 96 226 227 O
+crown 97 102 228 233 B-treatment
+lengthening 103 114 234 245 I-treatment
+) 114 115 245 246 O
+
+Anticipated 0 11 247 258 O
+subgingival 12 23 259 270 B-chronic_disease
+crown 24 29 271 276 I-chronic_disease
+margin 30 36 277 283 I-chronic_disease
+
+Periapical 0 10 284 294 B-chronic_disease
+or 11 13 295 297 I-chronic_disease
+periodontal 14 25 298 309 I-chronic_disease
+pathology 26 35 310 319 I-chronic_disease
+

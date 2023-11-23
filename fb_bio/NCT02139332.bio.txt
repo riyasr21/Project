@@ -1,0 +1,56 @@
+Caregiver 0 9 0 9 O
+has 10 13 10 13 O
+telephone 14 23 14 23 B-technology_access
+access 24 30 24 30 I-technology_access
+
+Caregiver 0 9 31 40 O
+is 10 12 41 43 O
+English 13 20 44 51 B-language_fluency
+speaking 21 29 52 60 I-language_fluency
+
+Caregiver 0 9 61 70 O
+lives 10 15 71 76 O
+with 16 20 77 81 O
+the 21 24 82 85 O
+child 25 30 86 91 O
+full 31 35 92 96 O
+time 36 40 97 101 O
+for 41 44 102 105 O
+the 45 48 106 109 O
+past 49 53 110 114 B-upper_bound
+three 54 59 115 120 I-upper_bound
+months 60 66 121 127 I-upper_bound
+and 67 70 128 131 O
+plans 71 76 132 137 O
+to 77 79 138 140 O
+continue 80 88 141 149 O
+for 89 92 150 153 O
+at 93 95 154 156 O
+least 96 101 157 162 O
+6 102 103 163 164 B-lower_bound
+more 104 108 165 169 I-lower_bound
+months 109 115 170 176 I-lower_bound
+
+Child 0 5 177 182 O
+is 6 8 183 185 O
+an 9 11 186 188 O
+American 12 20 189 197 B-ethnicity
+Indian 21 27 198 204 I-ethnicity
+or 28 30 205 207 O
+Alaska 31 37 208 214 B-ethnicity
+Native 38 44 215 221 I-ethnicity
+living 45 51 222 228 O
+on 52 54 229 231 O
+or 55 57 232 234 O
+near 58 62 235 239 O
+the 63 66 240 243 O
+Tribe 67 72 244 249 O
+'s 72 74 249 251 O
+reservation 75 86 252 263 O
+
+aged 0 4 264 268 B-age
+10 5 7 269 271 B-lower_bound
+to 8 10 272 274 O
+30 11 13 275 277 B-upper_bound
+months 14 20 278 284 I-upper_bound
+

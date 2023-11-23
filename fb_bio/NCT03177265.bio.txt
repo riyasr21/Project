@@ -1,0 +1,26 @@
+Does 0 4 0 4 O
+not 5 8 5 8 B-language_fluency
+speak 9 14 9 14 I-language_fluency
+English 15 22 15 22 I-language_fluency
+
+ICD 0 3 23 26 O
+9 4 5 27 28 O
+diagnosis 6 15 29 38 O
+of 16 18 39 41 O
+dementia 19 27 42 50 B-chronic_disease
+( 28 29 51 52 O
+excluded 29 37 52 60 O
+during 38 44 61 67 O
+data 45 49 68 72 O
+abstraction 50 61 73 84 O
+process 62 69 85 92 O
+) 69 70 92 93 O
+
+positive 0 8 94 102 O
+tobacco 9 16 103 110 O
+use 17 20 111 114 O
+in 21 23 115 117 O
+past 24 28 118 122 B-upper_bound
+6 29 30 123 124 I-upper_bound
+months 31 37 125 131 I-upper_bound
+

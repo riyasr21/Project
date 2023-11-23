@@ -1,0 +1,78 @@
+Adult 0 5 0 5 O
+women 6 11 6 11 B-gender
+
+An 0 2 12 14 O
+HPA 3 6 15 18 O
+axis 7 11 19 23 O
+or 12 14 24 26 O
+an 15 17 27 29 O
+endocrine 18 27 30 39 B-chronic_disease
+disorder 28 36 40 48 I-chronic_disease
+
+Bipolar 0 7 49 56 B-chronic_disease
+disorder 8 16 57 65 I-chronic_disease
+and 17 20 66 69 O
+psychosis 21 30 70 79 B-chronic_disease
+based 31 36 80 85 O
+on 37 39 86 88 O
+the 40 43 89 92 O
+Structured 44 54 93 103 O
+Clinical 55 63 104 112 O
+Interview 64 73 113 122 O
+for 74 77 123 126 O
+DSM 78 81 127 130 O
+- 81 82 130 131 O
+IV 82 84 131 133 O
+Axis 85 89 134 138 O
+I 90 91 139 140 O
+Disorders 92 101 141 150 O
+( 102 103 151 152 O
+SCID 103 107 152 156 O
+- 107 108 156 157 O
+NP 108 110 157 159 O
+) 110 111 159 160 O
+
+Corticosteroid 0 14 161 175 B-treatment
+medication 15 25 176 186 I-treatment
+use 26 29 187 190 O
+during 30 36 191 197 O
+this 37 41 198 202 O
+pregnancy 42 51 203 212 B-pregnancy
+
+Elevated 0 8 213 221 O
+depressive 9 19 222 232 O
+symptoms 20 28 233 241 O
+based 29 34 242 247 O
+on 35 37 248 250 O
+screening 38 47 251 260 O
+with 48 52 261 265 O
+the 53 56 266 269 O
+Edinburgh 57 66 270 279 B-clinical_variable
+Postnatal 67 76 280 289 I-clinical_variable
+Depression 77 87 290 300 I-clinical_variable
+Scale 88 93 301 306 I-clinical_variable
+( 94 95 307 308 I-clinical_variable
+EPDS 95 99 308 312 I-clinical_variable
+) 99 100 312 313 I-clinical_variable
+with 101 105 314 318 O
+score 106 111 319 324 O
+> 112 113 325 326 O
+9 114 115 327 328 B-lower_bound
+
+Presence 0 8 329 337 O
+of 9 11 338 340 O
+cervical 12 20 341 349 B-chronic_disease
+or 21 23 350 352 I-chronic_disease
+uterine 24 31 353 360 I-chronic_disease
+abnormalities 32 45 361 374 I-chronic_disease
+
+over 0 4 375 379 O
+18 5 7 380 382 B-lower_bound
+years 8 13 383 388 I-lower_bound
+of 14 16 389 391 O
+age 17 20 392 395 B-age
+
+singleton 0 9 396 405 O
+intrauterine 10 22 406 418 O
+pregnancy 23 32 419 428 B-pregnancy
+

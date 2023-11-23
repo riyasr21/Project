@@ -1,0 +1,27 @@
+English 0 7 0 7 B-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+Planned 0 7 17 24 O
+use 8 11 25 28 O
+of 12 14 29 31 O
+oxytocin 15 23 32 40 B-treatment
+during 24 30 41 47 O
+the 31 34 48 51 O
+Foley 35 40 52 57 B-treatment
+catheter 41 49 58 66 I-treatment
+ripening 50 58 67 75 O
+
+Undergoing 0 10 76 86 O
+induction 11 20 87 96 O
+of 21 23 97 99 O
+labor 24 29 100 105 O
+with 30 34 106 110 O
+Foley 35 40 111 116 B-treatment
+catheter 41 49 117 125 I-treatment
+
+hepatitis 0 9 126 135 B-chronic_disease
+B 10 11 136 137 I-chronic_disease
+or 12 14 138 140 I-chronic_disease
+C 15 16 141 142 I-chronic_disease
+infection 17 26 143 152 I-chronic_disease
+

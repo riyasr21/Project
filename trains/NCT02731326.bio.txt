@@ -1,0 +1,57 @@
+Ability 0 7 0 7 O
+to 8 10 8 10 O
+successfully 11 23 11 23 O
+use 24 27 24 27 O
+the 28 31 28 31 O
+AliveCor 32 40 32 40 O
+™ 40 41 40 41 O
+Heart 42 47 42 47 O
+Monitor 48 55 48 55 O
+, 55 56 55 56 O
+capture 57 64 57 64 O
+a 65 66 65 66 O
+baseline 67 75 67 75 O
+ECG 76 79 76 79 B-treatment
+, 79 80 79 80 O
+and 81 84 81 84 O
+transmit 85 93 85 93 O
+on 94 96 94 96 O
+the 97 100 97 100 O
+day 101 104 101 104 O
+of 105 107 105 107 O
+enrollment 108 118 108 118 O
+
+Demonstrated 0 12 119 131 O
+ability 13 20 132 139 B-technology_access
+to 21 23 140 142 I-technology_access
+receive 24 31 143 150 I-technology_access
+, 31 32 150 151 I-technology_access
+read 33 37 152 156 I-technology_access
+, 37 38 156 157 I-technology_access
+and 39 42 158 161 I-technology_access
+send 43 47 162 166 I-technology_access
+a 48 49 167 168 I-technology_access
+text 50 54 169 173 I-technology_access
+messages 55 63 174 182 I-technology_access
+on 64 66 183 185 O
+the 67 70 186 189 O
+day 71 74 190 193 O
+of 75 77 194 196 O
+enrollment 78 88 197 207 O
+
+Documented 0 10 208 218 O
+permanent 11 20 219 228 B-chronic_disease
+( 21 22 229 230 I-chronic_disease
+chronic 22 29 230 237 I-chronic_disease
+) 29 30 237 238 I-chronic_disease
+AF 31 33 239 241 I-chronic_disease
+
+English 0 7 242 249 B-language_fluency
+or 8 10 250 252 I-language_fluency
+Spanish 11 18 253 260 I-language_fluency
+speaking 19 27 261 269 I-language_fluency
+
+Males 0 5 270 275 B-gender
+
+females 0 7 276 283 B-gender
+

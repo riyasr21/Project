@@ -1,0 +1,60 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+21 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Anemia 0 6 15 21 B-chronic_disease
+
+Body 0 4 22 26 B-clinical_variable
+weight 5 11 27 33 I-clinical_variable
+> 11 12 33 34 O
+350 13 16 35 38 B-lower_bound
+lb 17 19 39 41 I-lower_bound
+
+Chronic 0 7 42 49 B-chronic_disease
+liver 8 13 50 55 I-chronic_disease
+disease 14 21 56 63 I-chronic_disease
+
+Chronic 0 7 64 71 B-chronic_disease
+renal 8 13 72 77 I-chronic_disease
+disease 14 21 78 85 I-chronic_disease
+
+Contraindication 0 16 86 102 O
+to 17 19 103 105 O
+pioglitazone 20 32 106 118 B-treatment
+use 33 36 119 122 O
+
+Subjects 0 8 123 131 O
+with 9 13 132 136 O
+uric 14 18 137 141 B-chronic_disease
+acid 19 23 142 146 I-chronic_disease
+kidney 24 30 147 153 I-chronic_disease
+stone 31 36 154 159 I-chronic_disease
+disease 37 44 160 167 I-chronic_disease
+
+Thiazolidinedione 0 17 168 185 B-treatment
+use 18 21 186 189 O
+in 22 24 190 192 O
+the 25 28 193 196 O
+preceding 29 38 197 206 B-lower_bound
+18 39 41 207 209 I-lower_bound
+months 42 48 210 216 I-lower_bound
+
+history 0 7 217 224 O
+of 8 10 225 227 O
+congestive 11 21 228 238 B-chronic_disease
+heart 22 27 239 244 I-chronic_disease
+failure 28 35 245 252 I-chronic_disease
+NYHA 36 40 253 257 O
+class 41 46 258 263 O
+III 47 50 264 267 O
+or 51 53 268 270 O
+IV 54 56 271 273 O
+
+liver 0 5 274 279 B-chronic_disease
+failure 6 13 280 287 I-chronic_disease
+
+significant 0 11 288 299 O
+pedal 12 17 300 305 B-chronic_disease
+edema 18 23 306 311 I-chronic_disease
+

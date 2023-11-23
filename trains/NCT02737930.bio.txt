@@ -1,0 +1,130 @@
+Current 0 7 0 7 O
+use 8 11 8 11 O
+of 12 14 12 14 O
+a 15 16 15 16 O
+medication 17 27 17 27 O
+likely 28 34 28 34 O
+to 35 37 35 37 O
+have 38 42 38 42 O
+an 43 45 43 45 O
+adverse 46 53 46 53 O
+interaction 54 65 54 65 O
+with 66 70 66 70 O
+fluoxetine 71 81 71 81 B-treatment
+
+Current 0 7 82 89 O
+use 8 11 90 93 O
+of 12 14 94 96 O
+a 15 16 97 98 O
+medication 17 27 99 109 O
+likely 28 34 110 116 O
+to 35 37 117 119 O
+impair 38 44 120 126 O
+post 45 49 127 131 O
+- 49 50 131 132 O
+stroke 50 56 132 138 B-chronic_disease
+recovery 57 65 139 147 O
+
+Hemorrhagic 0 11 148 159 B-chronic_disease
+transformation 12 26 160 174 I-chronic_disease
+of 27 29 175 177 O
+the 30 33 178 181 O
+index 34 39 182 187 O
+stroke 40 46 188 194 B-chronic_disease
+, 46 47 194 195 O
+resulting 48 57 196 205 O
+in 58 60 206 208 O
+mass 61 65 209 213 O
+effect 66 72 214 220 O
+
+History 0 7 221 228 O
+of 8 10 229 231 O
+angle 11 16 232 237 B-chronic_disease
+- 16 17 237 238 I-chronic_disease
+closure 17 24 238 245 I-chronic_disease
+glaucoma 25 33 246 254 I-chronic_disease
+or 34 36 255 257 O
+elevated 37 45 258 266 B-chronic_disease
+intraocular 46 57 267 278 I-chronic_disease
+pressure 58 66 279 287 I-chronic_disease
+
+History 0 7 288 295 O
+of 8 10 296 298 O
+hyponatremia 11 23 299 311 B-chronic_disease
+
+History 0 7 312 319 O
+of 8 10 320 322 O
+mania 11 16 323 328 B-chronic_disease
+or 17 19 329 331 O
+hypomania 20 29 332 341 B-chronic_disease
+
+History 0 7 342 349 O
+of 8 10 350 352 O
+seizure 11 18 353 360 B-chronic_disease
+disorder 19 27 361 369 I-chronic_disease
+
+Known 0 5 370 375 O
+hypersensitivity 6 22 376 392 O
+to 23 25 393 395 O
+fluoxetine 26 36 396 406 B-allergy_name
+or 37 39 407 409 O
+other 40 45 410 415 O
+selective 46 55 416 425 O
+serotonin 56 65 426 435 B-allergy_name
+reuptake 66 74 436 444 I-allergy_name
+inhibitors 75 85 445 455 I-allergy_name
+
+MRI 0 3 456 459 B-treatment
+- 3 4 459 460 O
+confirmed 4 13 460 469 O
+acute 14 19 470 475 B-chronic_disease
+ischemic 20 28 476 484 I-chronic_disease
+stroke 29 35 485 491 I-chronic_disease
+resulting 36 45 492 501 O
+in 46 48 502 504 O
+an 49 51 505 507 O
+isolated 52 60 508 516 O
+homonymous 61 71 517 527 O
+visual 72 78 528 534 O
+field 79 84 535 540 O
+loss 85 89 541 545 O
+
+National 0 8 546 554 B-clinical_variable
+Institutes 9 19 555 565 I-clinical_variable
+of 20 22 566 568 I-clinical_variable
+Health 23 29 569 575 I-clinical_variable
+Stroke 30 36 576 582 I-clinical_variable
+Scale 37 42 583 588 I-clinical_variable
+score 43 48 589 594 I-clinical_variable
+greater 49 56 595 602 O
+than 57 61 603 607 O
+5 62 63 608 609 B-lower_bound
+
+Pregnancy 0 9 610 619 B-pregnancy
+
+Premorbid 0 9 620 629 B-chronic_disease
+depression 10 20 630 640 I-chronic_disease
+
+Premorbid 0 9 641 650 B-clinical_variable
+modified 10 18 651 659 I-clinical_variable
+Rankin 19 25 660 666 I-clinical_variable
+Scale 26 31 667 672 I-clinical_variable
+score 32 37 673 678 I-clinical_variable
+greater 38 45 679 686 O
+than 46 50 687 691 O
+2 51 52 692 693 B-lower_bound
+
+Premorbid 0 9 694 703 O
+monocular 10 19 704 713 B-chronic_disease
+or 20 22 714 716 I-chronic_disease
+binocular 23 32 717 726 I-chronic_disease
+visual 33 39 727 733 I-chronic_disease
+field 40 45 734 739 I-chronic_disease
+deficits 46 54 740 748 I-chronic_disease
+
+Premorbid 0 9 749 758 B-chronic_disease
+retinopathy 10 21 759 770 I-chronic_disease
+or 22 24 771 773 O
+optic 25 30 774 779 B-chronic_disease
+neuropathy 31 41 780 790 I-chronic_disease
+

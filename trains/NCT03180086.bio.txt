@@ -1,0 +1,118 @@
+aged 0 4 0 4 B-age
+40 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+49 8 10 8 10 B-upper_bound
+years 11 16 11 16 I-upper_bound
+
+aromatase 0 9 17 26 B-treatment
+inhibitors 10 20 27 37 I-treatment
+for 21 24 38 41 O
+breast 25 31 42 48 B-cancer
+cancer 32 38 49 55 I-cancer
+prevention 39 49 56 66 O
+
+read 0 4 67 71 B-language_fluency
+and 5 8 72 75 I-language_fluency
+speak 9 14 76 81 I-language_fluency
+English 15 22 82 89 I-language_fluency
+
+scheduled 0 9 90 99 O
+for 10 13 100 103 O
+a 14 15 104 105 O
+routine 16 23 106 113 O
+visit 24 29 114 119 O
+or 30 32 120 122 O
+physical 33 41 123 131 O
+examination 42 53 132 143 O
+with 54 58 144 148 O
+a 59 60 149 150 O
+non 61 64 151 154 O
+- 64 65 154 155 O
+resident 65 73 155 163 O
+PCP 74 77 164 167 O
+in 78 80 168 170 O
+the 81 84 171 174 O
+next 85 89 175 179 B-lower_bound
+4 90 91 180 181 I-lower_bound
+- 91 92 181 182 O
+12 92 94 182 184 B-upper_bound
+weeks 95 100 185 190 I-upper_bound
+at 101 103 191 193 O
+HealthCare 104 114 194 204 O
+Associates 115 125 205 215 O
+( 126 127 216 217 O
+HCA 127 130 217 220 O
+, 130 131 220 221 O
+BIDMC 132 137 222 227 O
+'s 137 139 227 229 O
+outpatient 140 150 230 240 O
+primary 151 158 241 248 O
+care 159 163 249 253 O
+practice 164 172 254 262 O
+) 172 173 262 263 O
+
+women 0 5 264 269 B-gender
+
+women 0 5 270 275 B-gender
+already 6 13 276 283 O
+receiving 14 23 284 293 O
+screening 24 33 294 303 O
+breast 34 40 304 310 O
+MRIs 41 45 311 315 O
+
+women 0 5 316 321 B-gender
+who 6 9 322 325 O
+had 10 13 326 329 O
+or 14 16 330 332 O
+will 17 21 333 337 O
+have 22 26 338 342 O
+a 27 28 343 344 O
+mammogram 29 38 345 354 B-treatment
+within 39 45 355 361 O
+6 46 47 362 363 B-upper_bound
+months 48 54 364 370 I-upper_bound
+of 55 57 371 373 O
+their 58 63 374 379 O
+PCP 64 67 380 383 O
+visit 68 73 384 389 O
+
+women 0 5 390 395 B-gender
+who 6 9 396 399 O
+have 10 14 400 404 O
+been 15 19 405 409 O
+referred 20 28 410 418 O
+to 29 31 419 421 O
+genetic 32 39 422 429 O
+counseling 40 50 430 440 O
+
+women 0 5 441 446 B-gender
+who 6 9 447 450 O
+have 10 14 451 455 O
+taken 15 20 456 461 O
+or 21 23 462 464 O
+are 24 27 465 468 O
+taking 28 34 469 475 O
+tamoxifen 35 44 476 485 B-treatment
+
+women 0 5 486 491 B-gender
+with 6 10 492 496 O
+a 11 12 497 498 O
+history 13 20 499 506 O
+of 21 23 507 509 O
+breast 24 30 510 516 B-cancer
+cancer 31 37 517 523 I-cancer
+or 38 40 524 526 O
+a 41 42 527 528 O
+BRCA 43 47 529 533 B-cancer
+mutation 48 56 534 542 I-cancer
+
+women 0 5 543 548 B-gender
+with 6 10 549 553 O
+a 11 12 554 555 O
+history 13 20 556 563 O
+of 21 23 564 566 O
+breast 24 30 567 573 B-treatment
+enlargement 31 42 574 585 I-treatment
+or 43 45 586 588 I-treatment
+reduction 46 55 589 598 I-treatment
+

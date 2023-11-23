@@ -1,0 +1,23 @@
+Healthy 0 7 0 7 O
+pregnancy 8 17 8 17 B-pregnancy
+
+Not 0 3 18 21 O
+smoking 4 11 22 29 O
+during 12 18 30 36 O
+pregnancy 19 28 37 46 B-pregnancy
+
+Pregnant 0 8 47 55 B-pregnancy
+women 9 14 56 61 B-gender
+
+before 0 6 62 68 O
+37.5 7 11 69 73 B-upper_bound
+weeks 12 17 74 79 I-upper_bound
+gestation 18 27 80 89 O
+
+between 0 7 90 97 O
+18 8 10 98 100 B-lower_bound
+- 10 11 100 101 O
+45 11 13 101 103 B-upper_bound
+years 14 19 104 109 I-upper_bound
+old 20 23 110 113 O
+

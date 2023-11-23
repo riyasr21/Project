@@ -1,0 +1,90 @@
+Acquired 0 8 0 8 B-chronic_disease
+defective 9 18 9 18 I-chronic_disease
+color 19 24 19 24 I-chronic_disease
+vision 25 31 25 31 I-chronic_disease
+
+Active 0 6 32 38 B-treatment
+hormone 7 14 39 46 I-treatment
+therapy 15 22 47 54 I-treatment
+
+Hip 0 3 55 58 O
+fracture 4 12 59 67 O
+requiring 13 22 68 77 O
+surgical 23 31 78 86 B-treatment
+intervention 32 44 87 99 I-treatment
+
+History 0 7 100 107 O
+of 8 10 108 110 O
+deep 11 15 111 115 B-chronic_disease
+vein 16 20 116 120 I-chronic_disease
+thrombosis 21 31 121 131 I-chronic_disease
+( 32 33 132 133 I-chronic_disease
+DVT 33 36 133 136 I-chronic_disease
+) 36 37 136 137 I-chronic_disease
+or 38 40 138 140 O
+pulmonary 41 50 141 150 B-chronic_disease
+embolism 51 59 151 159 I-chronic_disease
+( 60 61 160 161 I-chronic_disease
+PE 61 63 161 163 I-chronic_disease
+) 63 64 163 164 I-chronic_disease
+within 65 71 165 171 O
+the 72 75 172 175 O
+last 76 80 176 180 O
+year 81 85 181 185 O
+or 86 88 186 188 O
+history 89 96 189 196 O
+or 97 99 197 199 O
+recurrent 100 109 200 209 O
+DVT 110 113 210 213 O
+/ 113 114 213 214 O
+PE 114 116 214 216 O
+
+History 0 7 217 224 O
+of 8 10 225 227 O
+intracranial 11 23 228 240 B-chronic_disease
+hemorrhage 24 34 241 251 I-chronic_disease
+
+History 0 7 252 259 O
+of 8 10 260 262 O
+seizures 11 19 263 271 B-chronic_disease
+
+Known 0 5 272 277 O
+hypersensitivity 6 22 278 294 O
+to 23 25 295 297 O
+tranexamic 26 36 298 308 B-allergy_name
+acid 37 41 309 313 I-allergy_name
+
+Myocardial 0 10 314 324 B-chronic_disease
+infarction 11 21 325 335 I-chronic_disease
+( 22 23 336 337 I-chronic_disease
+MI 23 25 337 339 I-chronic_disease
+) 25 26 339 340 I-chronic_disease
+and/or 27 33 341 347 O
+stents 34 40 348 354 O
+within 41 47 355 361 O
+the 48 51 362 365 O
+past 52 56 366 370 O
+year 57 61 371 375 O
+
+Over 0 4 376 380 O
+the 5 8 381 384 O
+age 9 12 385 388 B-age
+of 13 15 389 391 O
+60 16 18 392 394 B-lower_bound
+years 19 24 395 400 I-lower_bound
+
+Patients 0 8 401 409 O
+admitted 9 17 410 418 O
+directly 18 26 419 427 O
+to 27 29 428 430 O
+nursing 30 37 431 438 O
+units 38 43 439 444 O
+or 44 46 445 447 O
+surgery 47 54 448 455 B-treatment
+without 55 62 456 463 O
+stay 63 67 464 468 O
+in 68 70 469 471 O
+the 71 74 472 475 O
+Emergency 75 84 476 485 O
+Center 85 91 486 492 O
+

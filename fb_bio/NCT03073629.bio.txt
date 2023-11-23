@@ -1,0 +1,50 @@
+> 0 1 0 1 O
+18 2 4 2 4 B-lower_bound
+years 5 10 5 10 I-lower_bound
+old 11 14 11 14 O
+
+CTPA 0 4 15 19 O
+scan 5 9 20 24 O
+with 10 14 25 29 O
+evidence 15 23 30 38 O
+of 24 26 39 41 O
+pulmonary 27 36 42 51 B-chronic_disease
+hypertension 37 49 52 64 I-chronic_disease
+
+Currently 0 9 65 74 O
+being 10 15 75 80 O
+evaluated 16 25 81 90 O
+and/or 26 32 91 97 O
+treated 33 40 98 105 O
+for 41 44 106 109 O
+RV 45 47 110 112 B-chronic_disease
+failure 48 55 113 120 I-chronic_disease
+or 56 58 121 123 O
+PH 59 61 124 126 O
+
+comprehensive 0 13 127 140 O
+echocardiogram 14 28 141 155 O
+within 29 35 156 162 O
+3 36 37 163 164 B-upper_bound
+months 38 44 165 171 I-upper_bound
+of 45 47 172 174 O
+index 48 53 175 180 O
+hospital 54 62 181 189 O
+visit 63 68 190 195 O
+showing 69 76 196 203 O
+isolated 77 85 204 212 O
+RV 86 88 213 215 B-chronic_disease
+dysfunction 89 100 216 227 I-chronic_disease
+
+those 0 5 228 233 O
+with 6 10 234 238 O
+indeterminate 11 24 239 252 B-chronic_disease
+RV 25 27 253 255 I-chronic_disease
+function 28 36 256 264 I-chronic_disease
+OR 37 39 265 267 O
+LV 40 42 268 270 B-chronic_disease
+dysfunction 43 54 271 282 I-chronic_disease
+on 55 57 283 285 O
+comprehensive 58 71 286 299 O
+echocardiography 72 88 300 316 B-treatment
+

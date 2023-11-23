@@ -1,0 +1,160 @@
+Chronic 0 7 0 7 O
+major 8 13 8 13 O
+psychiatric 14 25 14 25 B-chronic_disease
+disorders 26 35 26 35 I-chronic_disease
+( 36 37 36 37 O
+schizophrenia 37 50 37 50 B-chronic_disease
+, 50 51 50 51 O
+major 52 57 52 57 O
+recurrent 58 67 58 67 O
+affective 68 77 68 77 B-chronic_disease
+disorder 78 86 78 86 I-chronic_disease
+) 86 87 86 87 O
+
+English 0 7 88 95 B-language_fluency
+- 7 8 95 96 I-language_fluency
+speaking 8 16 96 104 I-language_fluency
+as 17 19 105 107 O
+needed 20 26 108 114 O
+to 27 29 115 117 O
+complete 30 38 118 126 O
+cognitive 39 48 127 136 O
+testing 49 56 137 144 O
+and 57 60 145 148 O
+follow 61 67 149 155 O
+study 68 73 156 161 O
+procedures 74 84 162 172 O
+
+History 0 7 173 180 O
+of 8 10 181 183 O
+diabetes 11 19 184 192 B-chronic_disease
+
+History 0 7 193 200 O
+of 8 10 201 203 O
+head 11 15 204 208 B-chronic_disease
+injury 16 22 209 215 I-chronic_disease
+involving 23 32 216 225 O
+loss 33 37 226 230 O
+of 38 40 231 233 O
+consciousness 41 54 234 247 O
+within 55 61 248 254 O
+the 62 65 255 258 O
+past 66 70 259 263 B-upper_bound
+6 71 72 264 265 I-upper_bound
+months 73 79 266 272 I-upper_bound
+and/or 80 86 273 279 O
+history 87 94 280 287 O
+of 95 97 288 290 O
+severe 98 104 291 297 B-chronic_disease
+traumatic 105 114 298 307 I-chronic_disease
+brain 115 120 308 313 I-chronic_disease
+injury 121 127 314 320 I-chronic_disease
+
+History 0 7 321 328 O
+of 8 10 329 331 O
+major 11 16 332 337 B-chronic_disease
+vascular 17 25 338 346 I-chronic_disease
+events 26 32 347 353 I-chronic_disease
+( 33 34 354 355 O
+myocardial 34 44 355 365 B-chronic_disease
+infarction 45 55 366 376 I-chronic_disease
+, 55 56 376 377 O
+stroke 57 63 378 384 B-chronic_disease
+, 63 64 384 385 O
+etc 65 68 386 389 O
+) 68 69 389 390 O
+
+Major 0 5 391 396 O
+neurological 6 18 397 409 B-chronic_disease
+disorders 19 28 410 419 I-chronic_disease
+( 29 30 420 421 O
+dementia 30 38 421 429 B-chronic_disease
+, 38 39 429 430 O
+multiple 40 48 431 439 B-chronic_disease
+sclerosis 49 58 440 449 I-chronic_disease
+, 58 59 449 450 O
+epilepsy 60 68 451 459 B-chronic_disease
+, 68 69 459 460 O
+etc 70 73 461 464 O
+) 73 74 464 465 O
+
+Men 0 3 466 469 B-gender
+and 4 7 470 473 I-gender
+women 8 13 474 479 I-gender
+
+Physically 0 10 480 490 O
+inactive 11 19 491 499 O
+( 20 21 500 501 O
+less 21 25 501 505 O
+than 26 30 506 510 O
+60 31 33 511 513 B-upper_bound
+minutes 34 41 514 521 I-upper_bound
+of 42 44 522 524 O
+structured 45 55 525 535 O
+
+between 0 7 536 543 O
+the 8 11 544 547 O
+ages 12 16 548 552 B-age
+of 17 19 553 555 O
+65 20 22 556 558 B-lower_bound
+- 22 23 558 559 O
+80 23 25 559 561 B-upper_bound
+
+diabetes 0 8 562 570 B-chronic_disease
+( 9 10 571 572 O
+poorly 10 16 572 578 O
+controlled 17 27 579 589 O
+or 28 30 590 592 O
+on 31 33 593 595 O
+insulin 34 41 596 603 B-treatment
+) 41 42 603 604 O
+
+heart 0 5 605 610 B-chronic_disease
+failure 6 13 611 618 I-chronic_disease
+
+moderate 0 8 619 627 O
+intensity 9 18 628 637 O
+physical 19 27 638 646 O
+activity 28 36 647 655 O
+in 37 39 656 658 O
+the 40 43 659 662 O
+past 44 48 663 667 B-upper_bound
+6 49 50 668 669 I-upper_bound
+months 51 57 670 676 I-upper_bound
+) 57 58 676 677 O
+
+pulmonary 0 9 678 687 B-chronic_disease
+disease 10 17 688 695 I-chronic_disease
+with 18 22 696 700 O
+hypoxia 23 30 701 708 B-chronic_disease
+or 31 33 709 711 O
+hypercapnia 34 45 712 723 B-chronic_disease
+
+significant 0 11 724 735 O
+liver 12 17 736 741 B-chronic_disease
+problems 18 26 742 750 I-chronic_disease
+or 27 29 751 753 O
+renal 30 35 754 759 B-chronic_disease
+failure 36 43 760 767 I-chronic_disease
+
+treatment 0 9 768 777 O
+of 10 12 778 780 O
+cancer 13 19 781 787 B-cancer
+in 20 22 788 790 O
+the 23 26 791 794 O
+past 27 31 795 799 B-upper_bound
+2 32 33 800 801 I-upper_bound
+years 34 39 802 807 I-upper_bound
+( 40 41 808 809 O
+other 41 46 809 814 O
+than 47 51 815 819 O
+non 52 55 820 823 B-cancer
+- 55 56 823 824 I-cancer
+melanoma 56 64 824 832 I-cancer
+skin 65 69 833 837 I-cancer
+cancer 70 76 838 844 I-cancer
+) 76 77 844 845 O
+
+uncontrolled 0 12 846 858 B-chronic_disease
+hypertension 13 25 859 871 I-chronic_disease
+

@@ -1,0 +1,87 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+17 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+or 14 16 14 16 O
+less 17 21 17 21 O
+at 22 24 22 24 O
+time 25 29 25 29 O
+of 30 32 30 32 O
+enrollment 33 43 33 43 O
+
+Breast 0 6 44 50 O
+- 6 7 50 51 O
+feeding 7 14 51 58 O
+females 15 22 59 66 B-gender
+
+Children 0 8 67 75 O
+with 9 13 76 80 O
+severe 14 20 81 87 B-chronic_disease
+renal 21 26 88 93 I-chronic_disease
+impairment 27 37 94 104 I-chronic_disease
+will 38 42 105 109 O
+not 43 46 110 113 O
+be 47 49 114 116 O
+enrolled 50 58 117 125 O
+
+Patients 0 8 126 134 O
+who 9 12 135 138 O
+are 13 16 139 142 O
+older 17 22 143 148 O
+than 23 27 149 153 O
+17 28 30 154 156 B-lower_bound
+years 31 36 157 162 I-lower_bound
+will 37 41 163 167 O
+not 42 45 168 171 O
+be 46 48 172 174 O
+enrolled 49 57 175 183 O
+
+Post 0 4 184 188 O
+- 4 5 188 189 O
+pubertal 5 13 189 197 O
+females 14 21 198 205 B-gender
+who 22 25 206 209 O
+are 26 29 210 213 O
+pregnant 30 38 214 222 B-pregnancy
+
+Subjects 0 8 223 231 O
+must 9 13 232 236 O
+have 14 18 237 241 O
+a 19 20 242 243 O
+documented 21 31 244 254 O
+infantile 32 41 255 264 B-chronic_disease
+or 42 44 265 267 I-chronic_disease
+juvenile 45 53 268 276 I-chronic_disease
+gangliosidosis 54 68 277 291 I-chronic_disease
+disease 69 76 292 299 I-chronic_disease
+
+Subjects 0 8 300 308 O
+who 9 12 309 312 O
+have 13 17 313 317 O
+an 18 20 318 320 O
+allergy 21 28 321 328 O
+to 29 31 329 331 O
+miglustat 32 41 332 341 B-allergy_name
+or 42 44 342 344 O
+any 45 48 345 348 O
+of 49 51 349 351 O
+the 52 55 352 355 O
+components 56 66 356 366 O
+within 67 73 367 373 O
+the 74 77 374 377 O
+drug 78 82 378 382 O
+product 83 90 383 390 O
+
+who 0 3 391 394 O
+are 4 7 395 398 O
+unwilling 8 17 399 408 O
+to 18 20 409 411 O
+use 21 24 412 415 O
+highly 25 31 416 422 O
+- 31 32 422 423 O
+effective 32 41 423 432 O
+methods 42 49 433 440 O
+to 50 52 441 443 O
+prevent 53 60 444 451 O
+pregnancy 61 70 452 461 B-pregnancy
+

@@ -1,0 +1,96 @@
+Already 0 7 0 7 O
+taking 8 14 8 14 O
+gabapentin 15 25 15 25 B-treatment
+more 26 30 26 30 O
+than 31 35 31 35 O
+300 36 39 36 39 B-lower_bound
+mg 40 42 40 42 I-lower_bound
+three 43 48 43 48 O
+times 49 54 49 54 O
+a 55 56 55 56 O
+day 57 60 57 60 O
+
+Cannabis 0 8 61 69 B-treatment
+use 9 12 70 73 O
+disorder 13 21 74 82 O
+will 22 26 83 87 O
+be 27 29 88 90 O
+allowed 30 37 91 98 O
+
+Concurrent 0 10 99 109 O
+anticonvulsant 11 25 110 124 B-treatment
+medications 26 37 125 136 I-treatment
+for 38 41 137 140 O
+psychiatric 42 53 141 152 B-chronic_disease
+indications 54 65 153 164 I-chronic_disease
+( 66 67 165 166 O
+e.g. 67 71 166 170 O
+bipolar 72 79 171 178 B-chronic_disease
+disorder 80 88 179 187 I-chronic_disease
+) 88 89 187 188 O
+will 90 94 189 193 O
+be 95 97 194 196 O
+allowed 98 105 197 204 O
+
+Patients 0 8 205 213 O
+admitted 9 17 214 222 O
+greater 18 25 223 230 O
+than 26 30 231 235 O
+12 31 33 236 238 B-lower_bound
+hours 34 39 239 244 I-lower_bound
+prior 40 45 245 250 I-lower_bound
+to 46 48 251 253 O
+potential 49 58 254 263 O
+enrollment 59 69 264 274 O
+
+Patients 0 8 275 283 O
+receiving 9 18 284 293 O
+therapeutic 19 30 294 305 O
+dose 31 35 306 310 O
+of 36 38 311 313 O
+gabapentin 39 49 314 324 B-treatment
+( 50 51 325 326 O
+rather 51 57 326 332 O
+than 58 62 333 337 O
+continuation 63 75 338 350 O
+of 76 78 351 353 O
+home 79 83 354 358 O
+dose 84 88 359 363 O
+) 88 89 363 364 O
+prior 90 95 365 370 O
+to 96 98 371 373 O
+enrollment 99 109 374 384 O
+
+Prediction 0 10 385 395 B-clinical_variable
+of 11 13 396 398 I-clinical_variable
+Alcohol 14 21 399 406 I-clinical_variable
+Withdrawal 22 32 407 417 I-clinical_variable
+Severity 33 41 418 426 I-clinical_variable
+Scale 42 47 427 432 I-clinical_variable
+( 48 49 433 434 I-clinical_variable
+PAWSS 49 54 434 439 I-clinical_variable
+) 54 55 439 440 I-clinical_variable
+score 56 61 441 446 I-clinical_variable
+> 62 63 447 448 O
+4 63 64 448 449 B-lower_bound
+
+Pregnancy 0 9 450 459 B-pregnancy
+
+Prescribed 0 10 460 470 O
+pregabalin 11 21 471 481 B-treatment
+
+Severe 0 6 482 488 B-chronic_disease
+renal 7 12 489 494 I-chronic_disease
+impairment 13 23 495 505 I-chronic_disease
+( 24 25 506 507 O
+estimated 25 34 507 516 O
+CrCl 35 39 517 521 B-clinical_variable
+< 40 41 522 523 O
+30 42 44 524 526 B-upper_bound
+) 44 45 526 527 O
+
+Sufficient 0 10 528 538 B-language_fluency
+understanding 11 24 539 552 I-language_fluency
+of 25 27 553 555 I-language_fluency
+English 28 35 556 563 I-language_fluency
+

@@ -1,0 +1,85 @@
+Body 0 4 0 4 B-bmi
+Mass 5 9 5 9 I-bmi
+Index 10 15 10 15 I-bmi
+less 16 20 16 20 O
+than 21 25 21 25 O
+35 26 28 26 28 B-upper_bound
+kg 29 31 29 31 I-upper_bound
+/ 31 32 31 32 I-upper_bound
+m 32 33 32 33 I-upper_bound
+
+Body 0 4 34 38 B-bmi
+Mass 5 9 39 43 I-bmi
+Index 10 15 44 49 I-bmi
+less 16 20 50 54 O
+than 21 25 55 59 O
+or 26 28 60 62 O
+equal 29 34 63 68 O
+to 35 37 69 71 O
+35 38 40 72 74 B-upper_bound
+kg 41 43 75 77 I-upper_bound
+/ 43 44 77 78 I-upper_bound
+m 44 45 78 79 I-upper_bound
+
+Current 0 7 80 87 O
+non 8 11 88 91 O
+- 11 12 91 92 O
+smokers 12 19 92 99 O
+with 20 24 100 104 O
+less 25 29 105 109 O
+than 30 34 110 114 O
+15 35 37 115 117 B-upper_bound
+pack 38 42 118 122 I-upper_bound
+year 43 47 123 127 O
+history 48 55 128 135 O
+
+History 0 7 136 143 O
+of 8 10 144 146 O
+ischemic 11 19 147 155 B-chronic_disease
+or 20 22 156 158 O
+idiopathic 23 33 159 169 B-chronic_disease
+dilated 34 41 170 177 I-chronic_disease
+cardiomyopathy 42 56 178 192 I-chronic_disease
+
+New 0 3 193 196 B-clinical_variable
+York 4 8 197 201 I-clinical_variable
+Heart 9 14 202 207 I-clinical_variable
+Association 15 26 208 219 I-clinical_variable
+class 27 32 220 225 I-clinical_variable
+1 33 34 226 227 B-lower_bound
+- 34 35 227 228 O
+3 35 36 228 229 B-upper_bound
+
+No 0 2 230 232 O
+history 3 10 233 240 O
+of 11 13 241 243 O
+dangerous 14 23 244 253 O
+arrhythmia 24 34 254 264 B-chronic_disease
+'s 34 36 264 266 O
+
+Non 0 3 267 270 B-pregnancy
+- 3 4 270 271 I-pregnancy
+pregnant 4 12 271 279 I-pregnancy
+women 13 18 280 285 B-gender
+
+Will 0 4 286 290 O
+be 5 7 291 293 O
+matched 8 15 294 301 O
+for 16 19 302 305 O
+age 20 23 306 309 B-age
+, 23 24 309 310 O
+gender 25 31 311 317 O
+, 31 32 317 318 O
+height 33 39 319 325 O
+and 40 43 326 329 O
+weight 44 50 330 336 O
+and 51 54 337 340 O
+will 55 59 341 345 O
+have 60 64 346 350 O
+no 65 67 351 353 O
+history 68 75 354 361 O
+of 76 78 362 364 O
+cardiovascular 79 93 365 379 B-chronic_disease
+related 94 101 380 387 I-chronic_disease
+abnormalities 102 115 388 401 I-chronic_disease
+

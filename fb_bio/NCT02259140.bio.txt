@@ -1,0 +1,27 @@
+7 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+21 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+Candidate 0 9 18 27 O
+for 10 13 28 31 O
+total 14 19 32 37 B-treatment
+hip 20 23 38 41 I-treatment
+replacement 24 35 42 53 I-treatment
+
+GMFCS 0 5 54 59 B-clinical_variable
+1 6 7 60 61 B-lower_bound
+- 7 8 61 62 O
+3 8 9 62 63 B-upper_bound
+
+GMFCS 0 5 64 69 B-clinical_variable
+4 6 7 70 71 B-lower_bound
+or 8 10 72 74 O
+5 11 12 75 76 B-upper_bound
+
+cerebral 0 8 77 85 B-chronic_disease
+palsy 9 14 86 91 I-chronic_disease
+diagnosis 15 24 92 101 O
+

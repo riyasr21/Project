@@ -1,0 +1,69 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+one 9 12 9 12 B-lower_bound
+year 13 17 13 17 I-lower_bound
+of 18 20 18 20 O
+predicted 21 30 21 30 O
+growth 31 37 31 37 O
+remaining 38 47 38 47 O
+
+Less 0 4 48 52 O
+than 5 9 53 57 O
+18 10 12 58 60 B-upper_bound
+years 13 18 61 66 I-upper_bound
+of 19 21 67 69 O
+age 22 25 70 73 B-age
+
+Metabolic 0 9 74 83 B-chronic_disease
+bone 10 14 84 88 I-chronic_disease
+disease 15 22 89 96 I-chronic_disease
+or 23 25 97 99 O
+sick 26 30 100 104 B-chronic_disease
+physis 31 37 105 111 I-chronic_disease
+syndrome 38 46 112 120 I-chronic_disease
+, 46 47 120 121 O
+that 48 52 122 126 O
+may 53 56 127 130 O
+cause 57 62 131 136 O
+bone 63 67 137 141 O
+to 68 70 142 144 O
+grow 71 75 145 149 O
+in 76 78 150 152 O
+an 79 81 153 155 O
+unpredictable 82 95 156 169 O
+manne 96 101 170 175 O
+
+Predicted 0 9 176 185 O
+limb 10 14 186 190 B-clinical_variable
+length 15 21 191 197 I-clinical_variable
+discrepancy 22 33 198 209 I-clinical_variable
+2 34 35 210 211 B-lower_bound
+- 35 36 211 212 O
+7 36 37 212 213 B-upper_bound
+cm 38 40 214 216 I-upper_bound
+
+Pregnancy 0 9 217 226 B-pregnancy
+
+Skeletally 0 10 227 237 O
+immature 11 19 238 246 O
+requiring 20 29 247 256 O
+isolated 30 38 257 265 O
+complete 39 47 266 274 O
+epiphysiodesis 48 62 275 289 B-treatment
+of 63 65 290 292 O
+the 66 69 293 296 O
+distal 70 76 297 303 O
+femur 77 82 304 309 O
+and/or 83 89 310 316 O
+proximal 90 98 317 325 O
+tibia 99 104 326 331 O
+
+undergoing 0 10 332 342 O
+additional 11 21 343 353 O
+orthopedic 22 32 354 364 B-treatment
+procedures 33 43 365 375 I-treatment
+at 44 46 376 378 O
+time 47 51 379 383 O
+of 52 54 384 386 O
+epiphysiodesis 55 69 387 401 B-treatment
+

@@ -1,0 +1,140 @@
+A 0 1 0 1 O
+pre 2 5 2 5 O
+- 5 6 5 6 O
+existing 6 14 6 14 O
+bronchopleural 15 29 15 29 B-chronic_disease
+fistula 30 37 30 37 I-chronic_disease
+
+Admit 0 5 38 43 O
+BMI 6 9 44 47 B-bmi
+> 10 11 48 49 O
+30 11 13 49 51 B-lower_bound
+
+Anticipate 0 10 52 62 O
+placement 11 20 63 72 O
+of 21 23 73 75 O
+central 24 31 76 83 B-treatment
+venous 32 38 84 90 I-treatment
+line 39 43 91 95 I-treatment
+within 44 50 96 102 O
+24 51 53 103 105 B-upper_bound
+hours 54 59 106 111 I-upper_bound
+of 60 62 112 114 O
+admission 63 72 115 124 O
+
+Anuric 0 6 125 131 B-chronic_disease
+renal 7 12 132 137 I-chronic_disease
+failure 13 20 138 145 I-chronic_disease
+
+Can 0 3 146 149 O
+not 3 6 149 152 O
+be 7 9 153 155 O
+enterally 10 19 156 165 O
+fed 20 23 166 169 O
+within 24 30 170 176 O
+24 31 33 177 179 B-upper_bound
+hours 34 39 180 185 I-upper_bound
+of 40 42 186 188 O
+admission 43 52 189 198 O
+according 53 62 199 208 O
+to 63 65 209 211 O
+the 66 69 212 215 O
+admitting 70 79 216 225 O
+physician 80 89 226 235 O
+
+Exhibits 0 8 236 244 O
+Acute 9 14 245 250 B-chronic_disease
+Hypoxemic 15 24 251 260 I-chronic_disease
+Respiratory 25 36 261 272 I-chronic_disease
+Failure 37 44 273 280 I-chronic_disease
+
+Expected 0 8 281 289 B-clinical_variable
+survival 9 17 290 298 I-clinical_variable
+< 18 19 299 300 O
+24 19 21 300 302 B-upper_bound
+hours 22 27 303 308 I-upper_bound
+or 28 30 309 311 O
+limitations 31 42 312 323 O
+to 43 45 324 326 O
+aggressive 46 56 327 337 O
+ICU 57 60 338 341 O
+care 61 65 342 346 O
+( 66 67 347 348 O
+DNR 67 70 348 351 O
+) 70 71 351 352 O
+
+Known 0 5 353 358 O
+allergy 6 13 359 366 O
+to 14 16 367 369 O
+lactulose 17 26 370 379 B-allergy_name
+or 27 29 380 382 O
+mannitol 30 38 383 391 B-allergy_name
+
+No 0 2 392 394 O
+evidence 3 11 395 403 O
+of 12 14 404 406 O
+cardiac 15 22 407 414 B-chronic_disease
+dysfunction 23 34 415 426 I-chronic_disease
+
+On 0 2 427 429 O
+extracorporeal 3 17 430 444 B-treatment
+membrane 18 26 445 453 I-treatment
+oxygenation 27 38 454 465 I-treatment
+( 39 40 466 467 I-treatment
+ECMO 40 44 467 471 I-treatment
+) 44 45 471 472 I-treatment
+
+One 0 3 473 476 B-lower_bound
+month 4 9 477 482 I-lower_bound
+to 10 12 483 485 O
+16 13 15 486 488 B-upper_bound
+years 16 21 489 494 I-upper_bound
+of 22 24 495 497 O
+age 25 28 498 501 B-age
+
+PaO2 0 4 502 506 B-clinical_variable
+/ 4 5 506 507 I-clinical_variable
+FiO2 5 9 507 511 I-clinical_variable
+≤ 10 11 512 513 O
+300 12 15 514 517 B-upper_bound
+
+Pregnant 0 8 518 526 B-pregnancy
+
+Premature 0 9 527 536 O
+infants 10 17 537 544 O
+and 18 21 545 548 O
+neonates 22 30 549 557 O
+< 31 32 558 559 O
+37 33 35 560 562 B-upper_bound
+weeks 36 41 563 568 I-upper_bound
+corrected 42 51 569 578 O
+gestational 52 63 579 590 O
+age 64 67 591 594 B-age
+
+Receiving 0 9 595 604 O
+active 10 16 605 611 O
+CPR 17 20 612 615 B-treatment
+when 21 25 616 620 O
+admitted 26 34 621 629 O
+to 35 37 630 632 O
+the 38 41 633 636 O
+PICU 42 46 637 641 O
+
+Require 0 7 642 649 O
+artificial 8 18 650 660 B-treatment
+nutrition 19 28 661 670 I-treatment
+
+SpO2 0 4 671 675 B-clinical_variable
+/ 4 5 675 676 O
+FiO2 5 9 676 680 B-clinical_variable
+≤ 10 11 681 682 O
+260 12 15 683 686 B-upper_bound
+
+previous 0 8 687 695 O
+bowel 9 14 696 701 B-treatment
+surgery 15 22 702 709 I-treatment
+
+short 0 5 710 715 B-chronic_disease
+gut 6 9 716 719 I-chronic_disease
+syndrome 10 18 720 728 I-chronic_disease
+

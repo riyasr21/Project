@@ -1,0 +1,48 @@
+Anticoagulant 0 13 0 13 B-treatment
+medications 14 25 14 25 I-treatment
+
+Bleeding 0 8 26 34 B-chronic_disease
+disorder 9 17 35 43 I-chronic_disease
+
+History 0 7 44 51 O
+of 8 10 52 54 O
+syncope 11 18 55 62 B-chronic_disease
+with 19 23 63 67 O
+venipuncture 24 36 68 80 B-treatment
+
+Local 0 5 81 86 B-chronic_disease
+auricular 6 15 87 96 I-chronic_disease
+infection 16 25 97 106 I-chronic_disease
+
+Patients 0 8 107 115 O
+naïve 9 14 116 121 O
+to 15 17 122 124 O
+acupuncture 18 29 125 136 B-treatment
+
+Patients 0 8 137 145 O
+will 9 13 146 150 O
+be 14 16 151 153 O
+withdrawn 17 26 154 163 O
+from 27 31 164 168 O
+the 32 35 169 172 O
+study 36 41 173 178 O
+if 42 44 179 181 O
+surgery 45 52 182 189 B-treatment
+time 53 57 190 194 O
+exceeds 58 65 195 202 O
+90 66 68 203 205 B-lower_bound
+minutes 69 76 206 213 I-lower_bound
+or 77 79 214 216 O
+the 80 83 217 220 O
+laparoscopic 84 96 221 233 B-treatment
+procedure 97 106 234 243 O
+turned 107 113 244 250 O
+into 114 118 251 255 O
+an 119 121 256 258 O
+open 122 126 259 263 B-treatment
+surgery 127 134 264 271 I-treatment
+
+Prosthetic 0 10 272 282 B-treatment
+cardiac 11 18 283 290 I-treatment
+valves 19 25 291 297 I-treatment
+

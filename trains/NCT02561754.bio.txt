@@ -1,0 +1,120 @@
+Age 0 3 0 3 B-age
+13 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+21 7 9 7 9 B-upper_bound
+yrs 10 13 10 13 I-upper_bound
+
+Currently 0 9 14 23 B-pregnancy
+pregnant 10 18 24 32 I-pregnancy
+, 18 19 32 33 O
+planning 20 28 34 42 B-pregnancy
+on 29 31 43 45 I-pregnancy
+/ 31 32 45 46 I-pregnancy
+becoming 32 40 46 54 I-pregnancy
+pregnant 41 49 55 63 I-pregnancy
+during 50 56 64 70 O
+the 57 60 71 74 O
+study 61 66 75 80 O
+
+Diagnosis 0 9 81 90 O
+of 10 12 91 93 O
+Prader 13 19 94 100 B-chronic_disease
+- 19 20 100 101 I-chronic_disease
+Willi 20 25 101 106 I-chronic_disease
+Syndrome 26 34 107 115 I-chronic_disease
+
+Eating 0 6 116 122 B-chronic_disease
+disorders 7 16 123 132 I-chronic_disease
+, 16 17 132 133 O
+serious 18 25 134 141 O
+food 26 30 142 146 O
+allergies 31 40 147 156 O
+, 40 41 156 157 O
+consuming 42 51 158 167 O
+special 52 59 168 175 O
+diets 60 65 176 181 O
+, 65 66 181 182 O
+aversion 67 75 183 191 O
+to 76 78 192 194 O
+common 79 85 195 201 O
+foods 86 91 202 207 O
+
+Insulin 0 7 208 215 B-treatment
+dependent 8 17 216 225 O
+diabetes 18 26 226 234 B-chronic_disease
+
+Internet 0 8 235 243 B-technology_access
+access 9 15 244 250 I-technology_access
+in 16 18 251 253 I-technology_access
+the 19 22 254 257 I-technology_access
+home 23 27 258 262 I-technology_access
+
+Mild 0 4 263 267 O
+( 5 6 268 269 O
+IQ 6 8 269 271 B-clinical_variable
+of 9 11 272 274 O
+74 12 14 275 277 B-lower_bound
+- 14 15 277 278 O
+50 15 17 278 280 B-upper_bound
+) 17 18 280 281 O
+
+No 0 2 282 284 O
+plans 3 8 285 290 O
+to 9 11 291 293 O
+relocate 12 20 294 302 O
+outside 21 28 303 310 O
+the 29 32 311 314 O
+study 33 38 315 320 O
+area 39 43 321 325 O
+over 44 48 326 330 O
+the 49 52 331 334 O
+next 53 57 335 339 B-upper_bound
+18 58 60 340 342 I-upper_bound
+mos 61 64 343 346 I-upper_bound
+
+Overweight 0 10 347 357 O
+or 11 13 358 360 O
+obese 14 19 361 366 O
+( 20 21 367 368 O
+BMI 21 24 368 371 B-bmi
+≥ 25 26 372 373 O
+85th%ile 27 35 374 382 B-lower_bound
+on 36 38 383 385 O
+CDC 39 42 386 389 O
+growth 43 49 390 396 O
+charts 50 56 397 403 O
+, 56 57 403 404 O
+or 58 60 405 407 O
+waist 61 66 408 413 B-clinical_variable
+circumference 67 80 414 427 I-clinical_variable
+to 81 83 428 430 I-clinical_variable
+height 84 90 431 437 I-clinical_variable
+ratio 91 96 438 443 I-clinical_variable
+> 97 98 444 445 O
+0.5 99 102 446 449 B-lower_bound
+
+Participation 0 13 450 463 O
+in 14 16 464 466 O
+a 17 18 467 468 O
+weight 19 25 469 475 O
+management 26 36 476 486 O
+program 37 44 487 494 O
+involving 45 54 495 504 O
+diet 55 59 505 509 O
+and 60 63 510 513 O
+PA 64 66 514 516 O
+in 67 69 517 519 O
+the 70 73 520 523 O
+past 74 78 524 528 B-upper_bound
+6 79 80 529 530 I-upper_bound
+mos 81 84 531 534 I-upper_bound
+
+moderate 0 8 535 543 O
+( 9 10 544 545 O
+IQ 10 12 545 547 B-clinical_variable
+40 13 15 548 550 B-lower_bound
+- 15 16 550 551 O
+49 16 18 551 553 B-upper_bound
+) 18 19 553 554 O
+IDD 20 23 555 558 O
+

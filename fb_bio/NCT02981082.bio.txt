@@ -1,0 +1,211 @@
+ACR 0 3 0 3 B-clinical_variable
+defined 4 11 4 11 O
+systemic 12 20 12 20 B-chronic_disease
+sclerosis 21 30 21 30 I-chronic_disease
+
+AHI 0 3 31 34 B-clinical_variable
+> 4 5 35 36 O
+20 5 7 36 38 B-lower_bound
+or 8 10 39 41 O
+SaO2 11 15 42 46 B-clinical_variable
+Nadir 16 21 47 52 I-clinical_variable
+< 22 23 53 54 O
+87 23 25 54 56 B-upper_bound
+% 25 26 56 57 I-upper_bound
+
+Adult 0 5 58 63 O
+patients 6 14 64 72 O
+18‐80 15 20 73 78 B-lower_bound
+years 21 26 79 84 I-upper_bound
+of 27 29 85 87 O
+age 30 33 88 91 B-age
+
+Chronic 0 7 92 99 B-chronic_disease
+thromboembolic 8 22 100 114 I-chronic_disease
+disease 23 30 115 122 I-chronic_disease
+
+FVC 0 3 123 126 B-clinical_variable
+< 4 5 127 128 O
+80 6 8 129 131 B-upper_bound
+% 8 9 131 132 I-upper_bound
+
+Moderate 0 8 133 141 O
+to 9 11 142 144 O
+severe 12 18 145 151 O
+hepatic 19 26 152 159 B-chronic_disease
+impairment 27 37 160 170 I-chronic_disease
+( 38 39 171 172 O
+e.g. 39 43 172 176 O
+, 43 44 176 177 O
+Child‐Pugh 45 55 178 188 B-clinical_variable
+Class 56 61 189 194 I-clinical_variable
+B 62 63 195 196 I-clinical_variable
+or 64 66 197 199 I-clinical_variable
+C 67 68 200 201 I-clinical_variable
+) 68 69 201 202 O
+
+Moderate 0 8 203 211 B-chronic_disease
+to 9 11 212 214 I-chronic_disease
+severe 12 18 215 221 I-chronic_disease
+interstitial 19 31 222 234 I-chronic_disease
+lung 32 36 235 239 I-chronic_disease
+disease 37 44 240 247 I-chronic_disease
+
+PAH 0 3 248 251 B-chronic_disease
+of 4 6 252 254 O
+any 7 10 255 258 O
+etiology 11 19 259 267 O
+other 20 25 268 273 O
+than 26 30 274 278 O
+scleroderma 31 42 279 290 B-chronic_disease
+
+PCWP 0 4 291 295 B-clinical_variable
+or 5 7 296 298 O
+LVEDP 8 13 299 304 B-clinical_variable
+> 14 15 305 306 O
+15 15 17 306 308 B-lower_bound
+mHg 18 21 309 312 I-lower_bound
+
+Planned 0 7 313 320 O
+treatment 8 17 321 330 O
+or 18 20 331 333 O
+treatment 21 30 334 343 O
+with 31 35 344 348 O
+another 36 43 349 356 O
+investigational 44 59 357 372 O
+drug 60 64 373 377 O
+within 65 71 378 384 O
+1 72 73 385 386 B-upper_bound
+month 74 79 387 392 I-upper_bound
+prior 80 85 393 398 I-upper_bound
+to 86 88 399 401 O
+start 89 94 402 407 O
+
+Pregnant 0 8 408 416 B-pregnancy
+
+Pulmonary 0 9 417 426 B-chronic_disease
+hypertension 10 22 427 439 I-chronic_disease
+
+Pulmonary 0 9 440 449 B-chronic_disease
+venous 10 16 450 456 I-chronic_disease
+hypertension 17 29 457 469 I-chronic_disease
+
+Recently 0 8 470 478 O
+started 9 16 479 486 O
+( 17 18 487 488 O
+< 18 19 488 489 O
+8 20 21 490 491 B-upper_bound
+weeks 22 27 492 497 I-upper_bound
+prior 28 33 498 503 I-upper_bound
+to 34 36 504 506 O
+randomization 37 50 507 520 O
+) 50 51 520 521 O
+or 52 54 522 524 O
+planned 55 62 525 532 O
+cardiopulmonary 63 78 533 548 O
+rehabilitation 79 93 549 563 O
+program 94 101 564 571 O
+based 102 107 572 577 O
+on 108 110 578 580 O
+exercise 111 119 581 589 O
+
+Renal 0 5 590 595 B-chronic_disease
+failure 6 13 596 603 I-chronic_disease
+
+Right 0 5 604 609 B-treatment
+heart 6 11 610 615 I-treatment
+catheterization 12 27 616 631 I-treatment
+demonstrating 28 41 632 645 O
+mPAP≥ 42 47 646 651 B-clinical_variable
+25 48 50 652 654 B-lower_bound
+mmHg 51 55 655 659 I-lower_bound
+and 56 59 660 663 O
+PCWP 60 64 664 668 B-clinical_variable
+or 65 67 669 671 O
+left 68 72 672 676 B-clinical_variable
+ventricular 73 84 677 688 I-clinical_variable
+end 85 88 689 692 I-clinical_variable
+diastolic 89 98 693 702 I-clinical_variable
+pressure 99 107 703 711 I-clinical_variable
+≤15 108 111 712 715 O
+mm 111 113 715 717 I-upper_bound
+Hg 114 116 718 720 I-upper_bound
+and 117 120 721 724 O
+pulmonary 121 130 725 734 B-clinical_variable
+vascular 131 139 735 743 I-clinical_variable
+resistance 140 150 744 754 I-clinical_variable
+≥240 151 155 755 759 O
+dynes 156 161 760 765 I-lower_bound
+/ 161 162 765 766 I-lower_bound
+cm-5 162 166 766 770 I-lower_bound
+( 167 168 771 772 I-lower_bound
+3 168 169 772 773 I-lower_bound
+Wood 170 174 774 778 I-lower_bound
+units 175 180 779 784 I-lower_bound
+) 180 181 784 785 I-lower_bound
+within 182 188 786 792 O
+12 189 191 793 795 B-upper_bound
+weeks 192 197 796 801 I-upper_bound
+prior 198 203 802 807 I-upper_bound
+to 204 206 808 810 O
+study 207 212 811 816 O
+entry 213 218 817 822 O
+
+Sarcoidosis 0 11 823 834 B-chronic_disease
+
+Systolic 0 8 835 843 B-clinical_variable
+blood 9 14 844 849 I-clinical_variable
+pressure 15 23 850 858 I-clinical_variable
+< 24 25 859 860 O
+90mmHg 26 32 861 867 B-upper_bound
+
+Untreated 0 9 868 877 O
+sleep 10 15 878 883 B-chronic_disease
+apnea 16 21 884 889 I-chronic_disease
+
+World 0 5 890 895 O
+Health 6 12 896 902 O
+Organization 13 25 903 915 O
+Group 26 31 916 921 O
+1 32 33 922 923 O
+PAH 34 37 924 927 O
+associated 38 48 928 938 O
+with 49 53 939 943 O
+scleroderma 54 65 944 955 B-chronic_disease
+( 66 67 956 957 O
+SSc‐PAH 67 74 957 964 B-chronic_disease
+) 74 75 964 965 O
+
+estimated 0 9 966 975 O
+creatinine 10 20 976 986 B-clinical_variable
+clearance 21 30 987 996 I-clinical_variable
+< 31 32 997 998 O
+30 32 34 998 1000 B-upper_bound
+m 35 36 1001 1002 I-upper_bound
+/ 36 37 1002 1003 I-upper_bound
+min 37 40 1003 1006 I-upper_bound
+
+evidence 0 8 1007 1015 O
+on 9 11 1016 1018 O
+HRCT 12 16 1019 1023 B-treatment
+of 17 19 1024 1026 O
+fibrosis 20 28 1027 1035 B-chronic_disease
+or 29 31 1036 1038 O
+ground 32 38 1039 1045 O
+glass 39 44 1046 1051 O
+changes 45 52 1052 1059 O
+involving 53 62 1060 1069 O
+more 63 67 1070 1074 O
+than 68 72 1075 1079 O
+30 73 75 1080 1082 O
+% 75 76 1082 1083 O
+of 77 79 1084 1086 O
+lung 80 84 1087 1091 O
+parenchyma 85 95 1092 1102 O
+
+serum 0 5 1103 1108 B-clinical_variable
+creatinine>2.5 6 20 1109 1123 I-clinical_variable
+mg 21 23 1124 1126 I-lower_bound
+/ 23 24 1126 1127 I-lower_bound
+dl 24 26 1127 1129 I-lower_bound
+

@@ -1,0 +1,58 @@
+Cognitive 0 9 0 9 B-treatment
+Behavioral 10 20 10 20 I-treatment
+Therapy 21 28 21 28 I-treatment
+training 29 37 29 37 O
+
+English 0 7 38 45 B-language_fluency
+- 7 8 45 46 I-language_fluency
+speaking 8 16 46 54 I-language_fluency
+
+age 0 3 55 58 B-age
+≥ 4 5 59 60 O
+21 6 8 61 63 B-lower_bound
+years 9 14 64 69 I-lower_bound
+old 15 18 70 73 O
+
+current 0 7 74 81 B-pregnancy
+pregnancy 8 17 82 91 I-pregnancy
+
+treated 0 7 92 99 O
+with 8 12 100 104 O
+≥30 13 16 105 108 O
+mg 17 19 109 111 I-lower_bound
+/ 19 20 111 112 I-lower_bound
+day 20 23 112 115 I-lower_bound
+of 24 26 116 118 O
+morphine 27 35 119 127 B-clinical_variable
+- 35 36 127 128 I-clinical_variable
+equivalent 36 46 128 138 I-clinical_variable
+dose 47 51 139 143 I-clinical_variable
+for 52 55 144 147 O
+≥3 56 58 148 150 O
+months 59 65 151 157 I-lower_bound
+
+with 0 4 158 162 O
+an 5 7 163 165 O
+average 8 15 166 173 O
+daily 16 21 174 179 B-clinical_variable
+back 22 26 180 184 I-clinical_variable
+pain 27 31 185 189 I-clinical_variable
+score 32 37 190 195 I-clinical_variable
+≥3 38 40 196 198 O
+on 41 43 199 201 O
+a 44 45 202 203 O
+0 46 47 204 205 B-lower_bound
+- 47 48 205 206 O
+10 48 50 206 208 B-upper_bound
+numerical 51 60 209 218 B-clinical_variable
+rating 61 67 219 225 I-clinical_variable
+scale 68 73 226 231 I-clinical_variable
+( 74 75 232 233 O
+question 75 83 233 241 O
+from 84 88 242 246 O
+the 89 92 247 250 O
+Brief 93 98 251 256 O
+Pain 99 103 257 261 O
+Inventory 104 113 262 271 O
+) 113 114 271 272 O
+

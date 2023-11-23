@@ -1,0 +1,53 @@
+Neurological 0 12 0 12 B-chronic_disease
+impairment/ 13 24 13 24 I-chronic_disease
+developmental 25 38 25 38 B-chronic_disease
+delay 39 44 39 44 I-chronic_disease
+
+New 0 3 45 48 O
+/ 4 5 49 50 O
+changes 6 13 51 58 O
+in 14 16 59 61 O
+anti 17 21 62 66 B-treatment
+- 21 22 66 67 I-treatment
+hypertensive 22 34 67 79 I-treatment
+medication 35 45 80 90 I-treatment
+
+No 0 2 91 93 B-technology_access
+smart 3 8 94 99 I-technology_access
+phone 9 14 100 105 I-technology_access
+/ 15 16 106 107 I-technology_access
+smart 17 22 108 113 I-technology_access
+phone 23 28 114 119 I-technology_access
+data 29 33 120 124 O
+plan 34 38 125 129 O
+
+Overweight 0 10 130 140 O
+or 11 13 141 143 O
+Obese 14 19 144 149 B-chronic_disease
+
+Pregnancy 0 9 150 159 B-pregnancy
+
+Prior 0 5 160 165 O
+diagnosis 6 15 166 175 O
+of 16 18 176 178 O
+congenital 19 29 179 189 B-chronic_disease
+heart 30 35 190 195 I-chronic_disease
+disease 36 43 196 203 I-chronic_disease
+or 44 46 204 206 O
+cancer 47 53 207 213 B-cancer
+
+Speaks 0 6 214 220 B-language_fluency
+English 7 14 221 228 I-language_fluency
+
+medication 0 10 229 239 O
+known 11 16 240 245 O
+to 17 19 246 248 O
+affect 20 26 249 255 O
+blood 27 32 256 261 O
+pressure 33 41 262 270 O
+within 42 48 271 277 O
+the 49 52 278 281 O
+last 53 57 282 286 B-upper_bound
+6 58 59 287 288 I-upper_bound
+months 60 66 289 295 I-upper_bound
+

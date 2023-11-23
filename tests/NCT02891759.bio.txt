@@ -1,0 +1,24 @@
+22 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+70 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+old 15 18 15 18 O
+
+Females 0 7 19 26 B-gender
+
+Skin 0 4 27 31 B-treatment
+- 4 5 31 32 I-treatment
+sparing 5 12 32 39 I-treatment
+or 13 15 40 42 I-treatment
+nipple 16 22 43 49 I-treatment
+- 22 23 49 50 I-treatment
+sparing 23 30 50 57 I-treatment
+mastectomy 31 41 58 68 I-treatment
+with 42 46 69 73 O
+or 47 49 74 76 O
+without 50 57 77 84 O
+sentinel 58 66 85 93 B-treatment
+lymph 67 72 94 99 I-treatment
+node 73 77 100 104 I-treatment
+biopsy 78 84 105 111 I-treatment
+

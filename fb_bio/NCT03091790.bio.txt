@@ -1,0 +1,29 @@
+Active 0 6 0 6 B-chronic_disease
+infection 7 16 7 16 I-chronic_disease
+
+Patient 0 7 17 24 O
+scheduled 8 17 25 34 O
+for 18 21 35 38 O
+open 22 26 39 43 O
+ventral 27 34 44 51 B-treatment
+hernia 35 41 52 58 I-treatment
+repair 42 48 59 65 I-treatment
+at 49 51 66 68 O
+LBJ 52 55 69 72 O
+General 56 63 73 80 O
+Hospital 64 72 81 89 O
+
+Patient 0 7 90 97 O
+unlikely 8 16 98 106 O
+to 17 19 107 109 O
+survive 20 27 110 117 O
+with 28 32 118 122 O
+the 33 36 123 126 O
+next 37 41 127 131 B-upper_bound
+2 42 43 132 133 I-upper_bound
+years 44 49 134 139 I-upper_bound
+based 50 55 140 145 O
+upon 56 60 146 150 O
+surgeon 61 68 151 158 O
+judgment 69 77 159 167 O
+

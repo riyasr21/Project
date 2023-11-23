@@ -1,0 +1,47 @@
+Acute 0 5 0 5 B-chronic_disease
+aortic 6 12 6 12 I-chronic_disease
+dissection 13 23 13 23 I-chronic_disease
+
+Age 0 3 24 27 B-age
+21 4 6 28 30 B-lower_bound
+years 7 12 31 36 I-lower_bound
+or 13 15 37 39 O
+older 16 21 40 45 O
+
+Diagnosis 0 9 46 55 O
+of 10 12 56 58 O
+thoracic 13 21 59 67 B-chronic_disease
+aortic 22 28 68 74 I-chronic_disease
+disease 29 36 75 82 I-chronic_disease
+with 37 41 83 87 O
+scheduled 42 51 88 97 O
+repair 52 58 98 104 O
+
+Inability 0 9 105 114 B-language_fluency
+to 10 12 115 117 I-language_fluency
+speak 13 18 118 123 I-language_fluency
+and 19 22 124 127 I-language_fluency
+read 23 27 128 132 I-language_fluency
+English 28 35 133 140 I-language_fluency
+
+Medical 0 7 141 148 O
+clearance 8 17 149 158 O
+from 18 22 159 163 O
+cardiothoracic 23 37 164 178 B-treatment
+surgeon 38 45 179 186 O
+
+Recent 0 6 187 193 O
+coronary 7 15 194 202 B-chronic_disease
+artery 16 22 203 209 I-chronic_disease
+disease 23 30 210 217 I-chronic_disease
+events 31 37 218 224 O
+
+Regular 0 7 225 232 B-technology_access
+use 8 11 233 236 I-technology_access
+of 12 14 237 239 I-technology_access
+a 15 16 240 241 I-technology_access
+smartphone 17 27 242 252 I-technology_access
+or 28 30 253 255 I-technology_access
+personal 31 39 256 264 I-technology_access
+computer 40 48 265 273 I-technology_access
+

@@ -1,0 +1,59 @@
+Prior 0 5 0 5 B-treatment
+treatment 6 15 6 15 I-treatment
+with 16 20 16 20 I-treatment
+antitumor 21 30 21 30 I-treatment
+vaccines 31 39 31 39 I-treatment
+may 40 43 40 43 O
+be 44 46 44 46 O
+permitted 47 56 47 56 O
+upon 57 61 57 61 O
+discussion 62 72 62 72 O
+with 73 77 73 77 O
+the 78 81 78 81 O
+medical 82 89 82 89 O
+monitor 90 97 90 97 O
+
+Prior 0 5 98 103 B-treatment
+treatment 6 15 104 113 I-treatment
+with 16 20 114 118 I-treatment
+immunotherapy 21 34 119 132 I-treatment
+agents 35 41 133 139 I-treatment
+
+Subjects 0 8 140 148 O
+must 9 13 149 153 O
+be 14 16 154 156 O
+at 17 19 157 159 O
+the 20 23 160 163 O
+recurrent 24 33 164 173 B-treatment
+/ 33 34 173 174 I-treatment
+metastatic 34 44 174 184 I-treatment
+setting 45 52 185 192 I-treatment
+
+Subjects 0 8 193 201 O
+must 9 13 202 206 O
+have 14 18 207 211 O
+histologic 19 29 212 222 O
+documentation 30 43 223 236 O
+of 44 46 237 239 O
+advanced 47 55 240 248 O
+recurrent 56 65 249 258 O
+or 66 68 259 261 O
+metastatic 69 79 262 272 B-cancer
+cancer 80 86 273 279 I-cancer
+
+biologic 0 8 280 288 B-treatment
+or 9 11 289 291 O
+hormonal 12 20 292 300 B-treatment
+therapy 21 28 301 308 I-treatment
+for 29 32 309 312 O
+cancer 33 39 313 319 B-treatment
+treatment 40 49 320 329 I-treatment
+
+immunotherapy 0 13 330 343 B-treatment
+
+with 0 4 344 348 O
+selected 5 13 349 357 O
+advanced 14 22 358 366 O
+solid 23 28 367 372 B-cancer
+tumors 29 35 373 379 I-cancer
+

@@ -1,0 +1,10 @@
+Fluent 0 6 0 6 B-language_fluency
+English 7 14 7 14 I-language_fluency
+speakers 15 23 15 23 I-language_fluency
+
+Non 0 3 24 27 B-language_fluency
+- 3 4 27 28 I-language_fluency
+fluent 4 10 28 34 I-language_fluency
+English 11 18 35 42 I-language_fluency
+speakers 19 27 43 51 I-language_fluency
+

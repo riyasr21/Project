@@ -1,0 +1,26 @@
+BMI 0 3 0 3 B-bmi
+> 4 5 4 5 O
+30 5 7 5 7 B-lower_bound
+
+BMI<30 0 6 8 14 B-bmi
+
+Previous 0 8 15 23 O
+Tracheostomy 9 21 24 36 B-treatment
+
+Severe 0 6 37 43 O
+COPD 7 11 44 48 B-chronic_disease
+
+Steroid 0 7 49 56 B-treatment
+- 7 8 56 57 O
+dependent 8 17 57 66 O
+patients 18 26 67 75 O
+
+Thoracotomy 0 11 76 87 B-treatment
+
+Type 0 4 88 92 B-chronic_disease
+I 5 6 93 94 I-chronic_disease
+( 7 8 95 96 I-chronic_disease
+insulin 8 15 96 103 I-chronic_disease
+- 15 16 103 104 I-chronic_disease
+depenedent)diabtetics 16 37 104 125 I-chronic_disease
+

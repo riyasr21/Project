@@ -1,0 +1,31 @@
+( 0 1 0 1 O
+MMSE 1 5 1 5 B-clinical_variable
+< 6 7 6 7 O
+23 8 10 8 10 B-upper_bound
+) 10 11 10 11 O
+
+Between 0 7 12 19 O
+18 8 10 20 22 B-lower_bound
+and 11 14 23 26 O
+55 15 17 27 29 B-upper_bound
+
+Meet 0 4 30 34 O
+criteria 5 13 35 43 O
+for 14 17 44 47 O
+DSM 18 21 48 51 B-clinical_variable
+- 21 22 51 52 I-clinical_variable
+V 22 23 52 53 I-clinical_variable
+substance 24 33 54 63 O
+use 34 37 64 67 O
+disorder 38 46 68 76 O
+
+The 0 3 77 80 O
+use 4 7 81 84 O
+of 8 10 85 87 O
+psychotropic 11 23 88 100 B-treatment
+medication 24 34 101 111 I-treatment
+for 35 38 112 115 O
+< 39 40 116 117 O
+3 41 42 118 119 B-upper_bound
+months 43 49 120 126 I-upper_bound
+

@@ -1,0 +1,168 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+understand 8 18 8 18 I-language_fluency
+and 19 22 19 22 I-language_fluency
+comply 23 29 23 29 I-language_fluency
+with 30 34 30 34 I-language_fluency
+instructions 35 47 35 47 I-language_fluency
+in 48 50 48 50 I-language_fluency
+English 51 58 51 58 I-language_fluency
+
+Active 0 6 59 65 B-cancer
+cancer 7 13 66 72 I-cancer
+or 14 16 73 75 O
+chemotherapy 17 29 76 88 B-treatment
+
+Active 0 6 89 95 B-chronic_disease
+infection 7 16 96 105 I-chronic_disease
+or 17 19 106 108 O
+unexplained 20 31 109 120 O
+fever 32 37 121 126 O
+
+Age 0 3 127 130 B-age
+22 4 6 131 133 B-lower_bound
+- 6 7 133 134 O
+65 7 9 134 136 B-upper_bound
+
+Autonomic 0 9 137 146 B-chronic_disease
+dysreflexia 10 21 147 158 I-chronic_disease
+
+Chronic 0 7 159 166 O
+oral 8 12 167 171 O
+or 13 15 172 174 O
+intravenous 16 27 175 186 O
+use 28 31 187 190 O
+of 32 34 191 193 O
+steroids 35 43 194 202 B-treatment
+or 44 46 203 205 O
+immunosuppressive 47 64 206 223 B-treatment
+therapy 65 72 224 231 I-treatment
+
+Diabetes 0 8 232 240 B-chronic_disease
+
+HIV 0 3 241 244 B-chronic_disease
+or 4 6 245 247 O
+AIDS 7 11 248 252 B-chronic_disease
+infection 12 21 253 262 I-chronic_disease
+
+High 0 4 263 267 B-chronic_disease
+cervical 5 13 268 276 I-chronic_disease
+spinal 14 20 277 283 I-chronic_disease
+lesion 21 27 284 290 I-chronic_disease
+
+History 0 7 291 298 O
+of 8 10 299 301 O
+seizure 11 18 302 309 B-chronic_disease
+
+Implanted 0 9 310 319 O
+Cardiac 10 17 320 327 B-treatment
+Defibrillator 18 31 328 341 I-treatment
+, 31 32 341 342 O
+Pacemaker 33 42 343 352 B-treatment
+, 42 43 352 353 O
+vagal 44 49 354 359 B-treatment
+nerve 50 55 360 365 I-treatment
+stimulator 56 66 366 376 I-treatment
+, 66 67 376 377 O
+or 68 70 378 380 O
+spinal 71 77 381 387 B-treatment
+cord 78 82 388 392 I-treatment
+stimulator 83 93 393 403 I-treatment
+
+Implanted 0 9 404 413 O
+deep 10 14 414 418 B-treatment
+brain 15 20 419 424 I-treatment
+stimulator 21 31 425 435 I-treatment
+( 32 33 436 437 I-treatment
+DBS 33 36 437 440 I-treatment
+) 36 37 440 441 I-treatment
+, 37 38 441 442 O
+DBS 39 42 443 446 O
+leads 43 48 447 452 O
+, 48 49 452 453 O
+or 50 52 454 456 O
+cochlear 53 61 457 465 B-treatment
+implant 62 69 466 473 I-treatment
+
+Implanted 0 9 474 483 B-treatment
+hydrocephalus 10 23 484 497 I-treatment
+shunt 24 29 498 503 I-treatment
+
+Intellectual 0 12 504 516 B-chronic_disease
+impairment 13 23 517 527 I-chronic_disease
+
+Life 0 4 528 532 B-clinical_variable
+expectancy 5 15 533 543 I-clinical_variable
+greater 16 23 544 551 O
+than 24 28 552 556 O
+12 29 31 557 559 B-lower_bound
+months 32 38 560 566 I-lower_bound
+
+Medical 0 7 567 574 O
+conditions 8 18 575 585 O
+contraindicating 19 35 586 602 O
+surgery 36 43 603 610 B-treatment
+and 44 47 611 614 O
+chronic 48 55 615 622 B-treatment
+implantation 56 68 623 635 I-treatment
+of 69 71 636 638 O
+a 72 73 639 640 O
+medical 74 81 641 648 O
+device 82 88 649 655 O
+
+Planning 0 8 656 664 O
+to 9 11 665 667 O
+become 12 18 668 674 O
+pregnant 19 27 675 683 B-pregnancy
+
+Pregnancy 0 9 684 693 B-pregnancy
+
+Previous 0 8 694 702 B-treatment
+neurosurgical 9 22 703 716 I-treatment
+history 23 30 717 724 O
+affecting 31 40 725 734 O
+parietal 41 49 735 743 O
+lobe 50 54 744 748 O
+function 55 63 749 757 O
+
+Prior 0 5 758 763 B-treatment
+cranioplasty 6 18 764 776 I-treatment
+
+Psychotic 0 9 777 786 B-chronic_disease
+illness 10 17 787 794 I-chronic_disease
+or 18 20 795 797 O
+chronic 21 28 798 805 O
+psychiatric 29 40 806 817 B-chronic_disease
+disorder 41 49 818 826 I-chronic_disease
+, 49 50 826 827 O
+including 51 60 828 837 O
+major 61 66 838 843 O
+depression 67 77 844 854 B-chronic_disease
+if 78 80 855 857 O
+untreated 81 90 858 867 O
+
+Suicidal 0 8 868 876 B-chronic_disease
+ideation 9 17 877 885 I-chronic_disease
+
+Travel 0 6 886 892 O
+up 7 9 893 895 O
+to 10 12 896 898 O
+60 13 15 899 901 B-upper_bound
+miles 16 21 902 907 I-upper_bound
+to 22 24 908 910 O
+study 25 30 911 916 O
+locations 31 40 917 926 O
+up 41 43 927 929 O
+to 44 46 930 932 O
+five 47 51 933 937 B-upper_bound
+days 52 56 938 942 I-upper_bound
+per 57 60 943 946 I-upper_bound
+week 61 65 947 951 I-upper_bound
+
+unwilling 0 9 952 961 B-contraception_consent
+to 10 12 962 964 I-contraception_consent
+use 13 16 965 968 I-contraception_consent
+adequate 17 25 969 977 I-contraception_consent
+birth 26 31 978 983 I-contraception_consent
+control 32 39 984 991 I-contraception_consent
+

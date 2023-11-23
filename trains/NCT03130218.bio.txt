@@ -1,0 +1,19 @@
+Severe 0 6 0 6 O
+reactive 7 15 7 15 B-chronic_disease
+airway 16 22 16 22 I-chronic_disease
+disease 23 30 23 30 I-chronic_disease
+such 31 35 31 35 O
+as 36 38 36 38 O
+asthma 39 45 39 45 B-chronic_disease
+or 46 48 46 48 O
+chronic 49 56 49 56 B-chronic_disease
+obstructive 57 68 57 68 I-chronic_disease
+pulmonary 69 78 69 78 I-chronic_disease
+disease 79 86 79 86 I-chronic_disease
+( 87 88 87 88 I-chronic_disease
+COPD 88 92 88 92 I-chronic_disease
+) 92 93 92 93 I-chronic_disease
+
+atrial 0 6 94 100 B-chronic_disease
+fibrillation 7 19 101 113 I-chronic_disease
+

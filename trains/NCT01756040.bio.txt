@@ -1,0 +1,61 @@
+Abdominal 0 9 0 9 B-chronic_disease
+wall 10 14 10 14 I-chronic_disease
+defects 15 22 15 22 I-chronic_disease
+
+Cyanotic 0 8 23 31 B-chronic_disease
+congenital 9 19 32 42 I-chronic_disease
+heart 20 25 43 48 I-chronic_disease
+disease 26 33 49 56 I-chronic_disease
+
+Gestational 0 11 57 68 B-clinical_variable
+age 12 15 69 72 I-clinical_variable
+24 16 18 73 75 B-lower_bound
+- 18 19 75 76 O
+32 19 21 76 78 B-upper_bound
+weeks 22 27 79 84 I-upper_bound
+
+Intestinal 0 10 85 95 B-chronic_disease
+atresia 11 18 96 103 I-chronic_disease
+or 19 21 104 106 O
+perforation 22 33 107 118 B-chronic_disease
+
+Known 0 5 119 124 O
+galactosemia 6 18 125 137 B-chronic_disease
+or 19 21 138 140 O
+other 22 27 141 146 O
+galactose 28 37 147 156 B-chronic_disease
+intolerance 38 49 157 168 I-chronic_disease
+
+Lethal 0 6 169 175 B-chronic_disease
+chromosome 7 17 176 186 I-chronic_disease
+abnormalities 18 31 187 200 I-chronic_disease
+
+Severe 0 6 201 207 O
+asphyxia 7 15 208 216 B-chronic_disease
+
+Significant 0 11 217 228 O
+GI 12 14 229 231 B-chronic_disease
+dysfunction 15 26 232 243 I-chronic_disease
+( 27 28 244 245 O
+e.g. 28 32 245 249 O
+heme 33 37 250 254 B-chronic_disease
+- 37 38 254 255 I-chronic_disease
+positive 38 46 255 263 I-chronic_disease
+stools 47 53 264 270 I-chronic_disease
+, 53 54 270 271 O
+abdominal 55 64 272 281 B-chronic_disease
+distension 65 75 282 292 I-chronic_disease
+( 76 77 293 294 O
+girth 77 82 294 299 B-clinical_variable
+> 83 84 300 301 O
+2 84 85 301 302 B-lower_bound
+cm 86 88 303 305 I-lower_bound
+baseline 89 97 306 314 I-lower_bound
+) 97 98 314 315 O
+, 98 99 315 316 O
+or 100 102 317 319 O
+bilious 103 110 320 327 B-chronic_disease
+emesis 111 117 328 334 I-chronic_disease
+/ 117 118 334 335 I-chronic_disease
+aspirates 118 127 335 344 I-chronic_disease
+

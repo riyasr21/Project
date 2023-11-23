@@ -1,0 +1,59 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+understand 8 18 8 18 B-language_fluency
+, 18 19 18 19 I-language_fluency
+speak 20 25 20 25 I-language_fluency
+, 25 26 25 26 I-language_fluency
+and 27 30 27 30 I-language_fluency
+read 31 35 31 35 I-language_fluency
+English 36 43 36 43 I-language_fluency
+
+Age 0 3 44 47 B-age
+≥ 4 5 48 49 O
+18 6 8 50 52 B-lower_bound
+years 9 14 53 58 I-lower_bound
+
+Does 0 4 59 63 B-language_fluency
+not 5 8 64 67 I-language_fluency
+speak 9 14 68 73 I-language_fluency
+, 14 15 73 74 I-language_fluency
+read 16 20 75 79 I-language_fluency
+, 20 21 79 80 I-language_fluency
+and/or 22 28 81 87 I-language_fluency
+write 29 34 88 93 I-language_fluency
+English 35 42 94 101 I-language_fluency
+
+Psychiatric 0 11 102 113 B-chronic_disease
+illness 12 19 114 121 I-chronic_disease
+/ 19 20 121 122 I-chronic_disease
+social 20 26 122 128 I-chronic_disease
+situations 27 37 129 139 I-chronic_disease
+that 38 42 140 144 O
+would 43 48 145 150 O
+limit 49 54 151 156 O
+compliance 55 65 157 167 O
+with 66 70 168 172 O
+study 71 76 173 178 O
+requirements 77 89 179 191 O
+
+chewed 0 6 192 198 O
+betel 7 12 199 204 O
+nut 13 16 205 208 O
+for 17 20 209 212 O
+at 21 23 213 215 O
+least 24 29 216 221 O
+1 30 31 222 223 B-lower_bound
+year 32 36 224 228 I-lower_bound
+, 36 37 228 229 O
+and 38 41 230 233 O
+at 42 44 234 236 O
+a 45 46 237 238 O
+rate 47 51 239 243 O
+of 52 54 244 246 O
+at 55 57 247 249 O
+least 58 63 250 255 O
+3 64 65 256 257 B-lower_bound
+days 66 70 258 262 I-lower_bound
+per 71 74 263 266 I-lower_bound
+week 75 79 267 271 I-lower_bound
+

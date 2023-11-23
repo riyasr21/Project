@@ -1,0 +1,14 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+histologically 14 28 14 28 O
+proven 29 35 29 35 O
+high 36 40 36 40 B-cancer
+grade 41 46 41 46 I-cancer
+glioma 47 53 47 53 I-cancer
+
+Severe 0 6 54 60 B-chronic_disease
+psychiatric 7 18 61 72 I-chronic_disease
+illness 19 26 73 80 I-chronic_disease
+
+pregnancy 0 9 81 90 B-pregnancy
+

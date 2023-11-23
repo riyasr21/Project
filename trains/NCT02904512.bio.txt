@@ -1,0 +1,46 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+Diabetes 11 19 11 19 B-chronic_disease
+Mellitus 20 28 20 28 I-chronic_disease
+type 29 33 29 33 I-chronic_disease
+2 34 35 34 35 I-chronic_disease
+( 36 37 36 37 I-chronic_disease
+DM2 37 40 37 40 I-chronic_disease
+) 40 41 40 41 I-chronic_disease
+on 42 44 42 44 O
+insulin 45 52 45 52 B-treatment
+
+Patients 0 8 53 61 O
+that 9 13 62 66 O
+are 14 17 67 70 O
+expected 18 26 71 79 O
+to 27 29 80 82 O
+require 30 37 83 90 O
+a 38 39 91 92 O
+hospital 40 48 93 101 O
+stay 49 53 102 106 O
+≤3 54 56 107 109 O
+days 57 61 110 114 I-upper_bound
+
+Pregnant 0 8 115 123 B-pregnancy
+patients 9 17 124 132 O
+
+Subjects 0 8 133 141 O
+that 9 13 142 146 O
+have 14 18 147 151 O
+significant 19 30 152 163 O
+hyperglycemia 31 44 164 177 B-chronic_disease
+or 45 47 178 180 O
+Diabetic 48 56 181 189 B-chronic_disease
+Ketoacidosis 57 69 190 202 I-chronic_disease
+( 70 71 203 204 I-chronic_disease
+DKA 71 74 204 207 I-chronic_disease
+) 74 75 207 208 I-chronic_disease
+that 76 80 209 213 O
+requires 81 89 214 222 O
+treatment 90 99 223 232 O
+with 100 104 233 237 O
+intravenous 105 116 238 249 O
+insulin 117 124 250 257 O
+infusion 125 133 258 266 O
+

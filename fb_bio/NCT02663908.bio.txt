@@ -1,0 +1,47 @@
+Acute 0 5 0 5 B-chronic_disease
+cardiovascular 6 20 6 20 I-chronic_disease
+disease 21 28 21 28 I-chronic_disease
+in 29 31 29 31 O
+the 32 35 32 35 O
+previous 36 44 36 44 B-upper_bound
+30 45 47 45 47 I-upper_bound
+days 48 52 48 52 I-upper_bound
+
+Advanced 0 8 53 61 B-cancer
+prostate 9 17 62 70 I-cancer
+cancer 18 24 71 77 I-cancer
+
+Indication 0 10 78 88 O
+to 11 13 89 91 O
+initiate 14 22 92 100 O
+androgen 23 31 101 109 B-treatment
+deprivation 32 43 110 121 I-treatment
+therapy 44 51 122 129 I-treatment
+( 52 53 130 131 I-treatment
+ADT 53 56 131 134 I-treatment
+) 56 57 134 135 I-treatment
+
+Predefined 0 10 136 146 O
+cardiovascular 11 25 147 161 B-chronic_disease
+disease 26 33 162 169 I-chronic_disease
+
+Previous 0 8 170 178 O
+or 9 11 179 181 O
+current 12 19 182 189 O
+hormonal 20 28 190 198 B-treatment
+management 29 39 199 209 I-treatment
+of 40 42 210 212 O
+prostate 43 51 213 221 B-cancer
+cancer 52 58 222 228 I-cancer
+( 59 60 229 230 O
+unless 60 66 230 236 O
+terminated 67 77 237 247 O
+at 78 80 248 250 O
+least 81 86 251 256 O
+12 87 89 257 259 B-lower_bound
+months 90 96 260 266 I-lower_bound
+prior 97 102 267 272 I-lower_bound
+to 103 105 273 275 O
+trial 106 111 276 281 O
+) 111 112 281 282 O
+

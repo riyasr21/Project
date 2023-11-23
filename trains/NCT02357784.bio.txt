@@ -1,0 +1,78 @@
+at 0 2 0 2 O
+least 3 8 3 8 O
+5 9 10 9 10 B-lower_bound
+UUI 11 14 11 14 O
+episodes 15 23 15 23 O
+on 24 26 24 26 O
+a 27 28 27 28 O
+3 29 30 29 30 O
+- 30 31 30 31 O
+day 31 34 31 34 O
+diary 35 40 35 40 O
+
+diagnosed 0 9 41 50 O
+with 10 14 51 55 O
+idiopathic 15 25 56 66 B-chronic_disease
+dual 26 30 67 71 I-chronic_disease
+incontinence 31 43 72 84 I-chronic_disease
+
+female 0 6 85 91 B-gender
+
+has 0 3 92 95 O
+> 4 5 96 97 O
+Stage 6 11 98 103 B-chronic_disease
+II 12 14 104 106 I-chronic_disease
+pelvic 15 21 107 113 I-chronic_disease
+organ 22 27 114 119 I-chronic_disease
+prolapse 28 36 120 128 I-chronic_disease
+
+has 0 3 129 132 O
+QTc 4 7 133 136 B-chronic_disease
+prolongation 8 20 137 149 O
+
+has 0 3 150 153 O
+a 4 5 154 155 O
+neurologic 6 16 156 166 B-chronic_disease
+disease 17 24 167 174 I-chronic_disease
+
+has 0 3 175 178 O
+cardiac 4 11 179 186 B-chronic_disease
+arrhythmia 12 22 187 197 I-chronic_disease
+
+has 0 3 198 201 O
+chronic 4 11 202 209 B-chronic_disease
+inflammatory 12 24 210 222 I-chronic_disease
+bowel 25 30 223 228 I-chronic_disease
+disease 31 38 229 236 I-chronic_disease
+
+has 0 3 237 240 O
+diathermy 4 13 241 250 B-treatment
+
+over 0 4 251 255 O
+the 5 8 256 259 O
+age 9 12 260 263 B-age
+of 13 15 264 266 O
+18 16 18 267 269 B-lower_bound
+years 19 24 270 275 I-lower_bound
+old 25 28 276 279 O
+
+planning 0 8 280 288 O
+to 9 11 289 291 O
+undergo 12 19 292 299 O
+placement 20 29 300 309 O
+of 30 32 310 312 O
+a 33 34 313 314 O
+sacral 35 41 315 321 B-treatment
+nerve 42 47 322 327 I-treatment
+modulator 48 57 328 337 I-treatment
+
+pregnant 0 8 338 346 B-pregnancy
+
+underwent 0 9 347 356 O
+rectal 10 16 357 363 B-treatment
+surgery 17 24 364 371 I-treatment
+in 25 27 372 374 O
+the 28 31 375 378 O
+past 32 36 379 383 O
+year 37 41 384 388 O
+

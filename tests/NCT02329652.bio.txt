@@ -1,0 +1,211 @@
+Active 0 6 0 6 B-chronic_disease
+untreated 7 16 7 16 I-chronic_disease
+infection 17 26 17 26 I-chronic_disease
+such 27 31 27 31 O
+as 32 34 32 34 O
+decubitus 35 44 35 44 B-chronic_disease
+ulcer 45 50 45 50 I-chronic_disease
+
+Age 0 3 51 54 B-age
+> 4 5 55 56 O
+16 6 8 57 59 B-lower_bound
+years 9 14 60 65 I-lower_bound
+
+American 0 8 66 74 B-clinical_variable
+Spinal 9 15 75 81 I-clinical_variable
+Injury 16 22 82 88 I-clinical_variable
+Impairment 23 33 89 99 I-clinical_variable
+Scale 34 39 100 105 I-clinical_variable
+( 40 41 106 107 I-clinical_variable
+AIS 41 44 107 110 I-clinical_variable
+) 44 45 110 111 I-clinical_variable
+grade 46 51 112 117 O
+A 52 53 118 119 O
+, 53 54 119 120 O
+B 55 56 121 122 O
+, 56 57 122 123 O
+C 58 59 124 125 O
+, 59 60 125 126 O
+or 61 63 127 129 O
+D 64 65 130 131 O
+
+Biceps 0 6 132 138 B-clinical_variable
+/ 6 7 138 139 I-clinical_variable
+brachialis 7 17 139 149 I-clinical_variable
+/ 17 18 149 150 I-clinical_variable
+brachioradialis 18 33 150 165 I-clinical_variable
+strength 34 42 166 174 I-clinical_variable
+of 43 45 175 177 O
+2/5 46 49 178 181 B-lower_bound
+or 50 52 182 184 O
+higher 53 59 185 191 O
+on 60 62 192 194 O
+Manual 63 69 195 201 O
+Muscle 70 76 202 208 O
+Test 77 81 209 213 O
+
+Currently 0 9 214 223 B-pregnancy
+pregnant 10 18 224 232 I-pregnancy
+
+Diagnosis 0 9 233 242 O
+of 10 12 243 245 O
+cervical 13 21 246 254 B-chronic_disease
+level 22 27 255 260 I-chronic_disease
+spinal 28 34 261 267 I-chronic_disease
+cord 35 39 268 272 I-chronic_disease
+injury 40 46 273 279 I-chronic_disease
+, 46 47 279 280 O
+either 48 54 281 287 O
+complete 55 63 288 296 O
+or 64 66 297 299 O
+incomplete 67 77 300 310 O
+
+Disorder 0 8 311 319 O
+or 9 11 320 322 O
+condition 12 21 323 332 O
+that 22 26 333 337 O
+require 27 34 338 345 O
+MRI 35 38 346 349 B-treatment
+monitoring 39 49 350 360 I-treatment
+
+HIV 0 3 361 364 B-chronic_disease
+
+History 0 7 365 372 O
+of 8 10 373 375 O
+coagulopathy 11 23 376 388 B-chronic_disease
+
+Less 0 4 389 393 O
+than 5 9 394 398 O
+six 10 13 399 402 B-upper_bound
+months 14 20 403 409 I-upper_bound
+post 21 25 410 414 O
+- 25 26 414 415 O
+injury 26 32 415 421 O
+
+Medically 0 9 422 431 O
+stable 10 16 432 438 O
+- 17 18 439 440 O
+cleared 19 26 441 448 O
+for 27 30 449 452 O
+surgery 31 38 453 460 B-treatment
+
+Other 0 5 461 466 O
+neurological 6 18 467 479 B-chronic_disease
+conditions 19 29 480 490 I-chronic_disease
+
+Progressive 0 11 491 502 O
+SCI 12 15 503 506 B-chronic_disease
+In 16 18 507 509 O
+subjects 19 27 510 518 O
+who 28 31 519 522 O
+are 32 35 523 526 O
+undergoing 36 46 527 537 B-treatment
+bilateral 47 56 538 547 I-treatment
+implantation 57 69 548 560 I-treatment
+
+at 0 2 561 563 O
+least 3 8 564 569 O
+two 9 12 570 573 B-lower_bound
+of 13 15 574 576 O
+the 16 19 577 580 O
+following 20 29 581 590 O
+muscles 30 37 591 598 O
+: 37 38 598 599 O
+left 39 43 600 604 O
+/ 43 44 604 605 O
+right 44 49 605 610 O
+gluteus 50 57 611 618 O
+maximus 58 65 619 626 O
+, 65 66 626 627 O
+left 67 71 628 632 O
+/ 71 72 632 633 O
+right 72 77 633 638 O
+erector 78 85 639 646 O
+spinae 86 92 647 653 O
+, 92 93 653 654 O
+left 94 98 655 659 O
+/ 98 99 659 660 O
+right 99 104 660 665 O
+quadratus 105 114 666 675 O
+lumborum 115 123 676 684 O
+
+chronic 0 7 685 692 B-chronic_disease
+obstructive 8 19 693 704 I-chronic_disease
+pulmonary 20 29 705 714 I-chronic_disease
+disease 30 37 715 722 I-chronic_disease
+
+diabetes 0 8 723 731 B-chronic_disease
+or 9 11 732 734 O
+any 12 15 735 738 O
+condition 16 25 739 748 O
+which 26 31 749 754 O
+requires 32 40 755 763 O
+frequent 41 49 764 772 O
+blood 50 55 773 778 O
+pressure 56 64 779 787 O
+monitoring 65 75 788 798 O
+or 76 78 799 801 O
+frequent 79 87 802 810 O
+venipuncture 88 100 811 823 O
+
+diabetes 0 8 824 832 B-chronic_disease
+with 9 13 833 837 I-chronic_disease
+peripheral 14 24 838 848 I-chronic_disease
+nerve 25 30 849 854 I-chronic_disease
+involvement 31 42 855 866 I-chronic_disease
+
+hypertension 0 12 867 879 B-chronic_disease
+
+multiple 0 8 880 888 B-chronic_disease
+sclerosis 9 18 889 898 I-chronic_disease
+
+neuroprosthesis 0 15 899 914 B-treatment
+implantation 16 28 915 927 I-treatment
+delayed 29 36 928 935 O
+until 37 42 936 941 O
+criteria 43 51 942 950 O
+met 52 55 951 954 O
+
+neuroprosthesis 0 15 955 970 B-treatment
+implantation 16 28 971 983 I-treatment
+delayed 29 36 984 991 O
+until 37 42 992 997 O
+no 43 45 998 1000 O
+longer 46 52 1001 1007 O
+pregnant 53 61 1008 1016 B-pregnancy
+
+pneumonia 0 9 1017 1026 B-chronic_disease
+
+severe 0 6 1027 1033 B-chronic_disease
+autonomic 7 16 1034 1043 I-chronic_disease
+dysreflexia 17 28 1044 1055 I-chronic_disease
+
+severe 0 6 1056 1062 O
+bradycardia 7 18 1063 1074 B-chronic_disease
+
+severe 0 6 1075 1081 O
+cardiopulmonary 7 22 1082 1097 B-chronic_disease
+disease 23 30 1098 1105 I-chronic_disease
+
+six 0 3 1106 1109 B-lower_bound
+months 4 10 1110 1116 I-lower_bound
+or 11 13 1117 1119 O
+more 14 18 1120 1124 O
+post 19 23 1125 1129 O
+- 23 24 1129 1130 O
+injury 24 30 1130 1136 O
+
+subjects 0 8 1137 1145 O
+should 9 15 1146 1152 O
+not 16 19 1153 1156 O
+have 20 24 1157 1161 O
+a 25 26 1162 1163 O
+history 27 34 1164 1171 O
+of 35 37 1172 1174 O
+autonomic 38 47 1175 1184 B-chronic_disease
+dysreflexia 48 59 1185 1196 I-chronic_disease
+
+urinary 0 7 1197 1204 B-chronic_disease
+tract 8 13 1205 1210 I-chronic_disease
+infection 14 23 1211 1220 I-chronic_disease
+

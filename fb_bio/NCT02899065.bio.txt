@@ -1,0 +1,41 @@
+Patients 0 8 0 8 O
+< 9 10 9 10 O
+21 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+of 19 21 19 21 O
+age 22 25 22 25 B-age
+who 26 29 26 29 O
+are 30 33 30 33 O
+evaluated 34 43 34 43 O
+in 44 46 44 46 O
+the 47 50 47 50 O
+emergency 51 60 51 60 O
+department 61 71 61 71 O
+
+Patients 0 8 72 80 O
+who 9 12 81 84 O
+are 13 16 85 88 B-pregnancy
+pregnant 17 25 89 97 I-pregnancy
+
+including 0 9 98 107 O
+symptoms 10 18 108 116 O
+of 19 21 117 119 O
+influenza 22 31 120 129 B-chronic_disease
+- 31 32 129 130 I-chronic_disease
+like 32 36 130 134 I-chronic_disease
+illness 37 44 135 142 I-chronic_disease
+( 45 46 143 144 O
+ILI 46 49 144 147 B-chronic_disease
+- 50 51 148 149 O
+including 52 61 150 159 O
+fever 62 67 160 165 O
+and 68 71 166 169 O
+cough 72 77 170 175 O
+or 78 80 176 178 O
+sore 81 85 179 183 O
+throat 86 92 184 190 O
+) 92 93 190 191 O
+
+suspected 0 9 192 201 O
+influenza 10 19 202 211 B-chronic_disease
+

@@ -1,0 +1,50 @@
+Gastrointestinal 0 16 0 16 B-chronic_disease
+diseases 17 25 17 25 I-chronic_disease
+such 26 30 26 30 O
+as 31 33 31 33 O
+celiac 34 40 34 40 B-chronic_disease
+disease 41 48 41 48 I-chronic_disease
+, 48 49 48 49 O
+inflammatory 50 62 50 62 B-chronic_disease
+bowel 63 68 63 68 I-chronic_disease
+disease 69 76 69 76 I-chronic_disease
+
+Pregnancy 0 9 77 86 B-pregnancy
+
+There 0 5 87 92 O
+will 6 10 93 97 O
+be 11 13 98 100 O
+no 14 16 101 103 O
+selection 17 26 104 113 O
+on 27 29 114 116 O
+the 30 33 117 120 O
+basis 34 39 121 126 O
+of 40 42 127 129 O
+age 43 46 130 133 B-age
+, 46 47 133 134 O
+race 48 52 135 139 O
+, 52 53 139 140 O
+or 54 56 141 143 O
+gender 57 63 144 150 O
+
+Use 0 3 151 154 O
+of 4 6 155 157 O
+probiotics 7 17 158 168 B-treatment
+in 18 20 169 171 O
+the 21 24 172 175 O
+last 25 29 176 180 B-upper_bound
+90 30 32 181 183 I-upper_bound
+days 33 37 184 188 I-upper_bound
+
+allergy 0 7 189 196 O
+to 8 10 197 199 O
+antibiotics 11 22 200 211 B-allergy_name
+
+taking 0 6 212 218 O
+immunosuppressive 7 24 219 236 B-treatment
+medications 25 36 237 248 I-treatment
+, 36 37 248 249 O
+including 38 47 250 259 O
+oral 48 52 260 264 B-treatment
+corticosteroids 53 68 265 280 I-treatment
+

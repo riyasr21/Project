@@ -1,0 +1,79 @@
+17 0 2 0 2 B-clinical_variable
+- 2 3 2 3 I-clinical_variable
+hydroxyprogesterone 3 22 3 22 I-clinical_variable
+> 23 24 23 24 O
+295 24 27 24 27 B-lower_bound
+ng 28 30 28 30 I-lower_bound
+/ 30 31 30 31 I-lower_bound
+dL 31 33 31 33 I-lower_bound
+
+> 0 1 34 35 O
+95th 1 5 35 39 B-lower_bound
+BMI% 6 10 40 44 B-bmi
+
+Hemoglobin 0 10 45 55 B-clinical_variable
+< 11 12 56 57 O
+12 12 14 57 59 B-upper_bound
+mg 15 17 60 62 I-upper_bound
+/ 17 18 62 63 I-upper_bound
+dL 18 20 63 65 I-upper_bound
+
+History 0 7 66 73 O
+of 8 10 74 76 O
+Cushing 11 18 77 84 B-chronic_disease
+'s 18 20 84 86 I-chronic_disease
+syndrome 21 29 87 95 I-chronic_disease
+or 30 32 96 98 O
+adrenal 33 40 99 106 B-chronic_disease
+insufficiency 41 54 107 120 I-chronic_disease
+
+Morning 0 7 121 128 O
+Cortisol 8 16 129 137 B-treatment
+< 17 18 138 139 O
+5 18 19 139 140 B-upper_bound
+g 20 21 141 142 I-upper_bound
+/ 21 22 142 143 I-upper_bound
+dL 22 24 143 145 I-upper_bound
+
+Normal 0 6 146 152 O
+and 7 10 153 156 O
+obese 11 16 157 162 B-chronic_disease
+
+Pregnant 0 8 163 171 B-pregnancy
+( 9 10 172 173 O
+self 10 14 173 177 O
+reported 15 23 178 186 O
+) 23 24 186 187 O
+
+Screening 0 9 188 197 O
+labs 10 14 198 202 O
+outside 15 22 203 210 O
+of 23 25 211 213 O
+age 26 29 214 217 B-age
+- 29 30 217 218 O
+appropriate 30 41 218 229 O
+normal 42 48 230 236 O
+range 49 54 237 242 O
+
+Weight 0 6 243 249 B-clinical_variable
+of 7 9 250 252 O
+24 10 12 253 255 B-lower_bound
+kg 13 15 256 258 I-lower_bound
+or 16 18 259 261 O
+more 19 23 262 266 O
+
+Weight<24 0 9 267 276 B-clinical_variable
+kg 10 12 277 279 I-upper_bound
+
+expected 0 8 280 288 O
+age 9 12 289 292 B-age
+range 13 18 293 298 O
+7 19 20 299 300 B-lower_bound
+- 20 21 300 301 O
+18 21 23 301 303 B-upper_bound
+
+females 0 7 304 311 B-gender
+
+hematocrit<36 0 13 312 325 B-clinical_variable
+% 13 14 325 326 I-upper_bound
+

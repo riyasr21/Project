@@ -1,0 +1,63 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+/= 5 7 5 7 O
+18 8 10 8 10 B-lower_bound
+years 11 16 11 16 I-lower_bound
+
+Any 0 3 17 20 O
+other 4 9 21 26 O
+invasive 10 18 27 35 B-cancer
+cancer 19 25 36 42 I-cancer
+in 26 28 43 45 O
+the 29 32 46 49 O
+past 33 37 50 54 B-upper_bound
+5 38 39 55 56 I-upper_bound
+years 40 45 57 62 I-upper_bound
+
+Biopsy 0 6 63 69 B-treatment
+confirmed 7 16 70 79 O
+adenocarcinoma 17 31 80 94 B-cancer
+pancreatic 32 42 95 105 I-cancer
+cancer 43 49 106 112 I-cancer
+
+Confirmed 0 9 113 122 O
+diagnosis 10 19 123 132 O
+of 20 22 133 135 O
+resectable 23 33 136 146 B-cancer
+pancreatic 34 44 147 157 I-cancer
+adenocarcinoma 45 59 158 172 I-cancer
+
+Patient 0 7 173 180 O
+has 8 11 181 184 O
+had 12 15 185 188 O
+prior 16 21 189 194 B-treatment
+chemotherapy 22 34 195 207 I-treatment
+
+Patient 0 7 208 215 O
+has 8 11 216 219 O
+metastatic 12 22 220 230 B-cancer
+disease 23 30 231 238 O
+
+Pregnant 0 8 239 247 B-pregnancy
+or 9 11 248 250 O
+breast 12 18 251 257 O
+feeding 19 26 258 265 O
+
+Recurrent 0 9 266 275 O
+or 10 12 276 278 O
+previously 13 23 279 289 O
+resected 24 32 290 298 O
+tumors 33 39 299 305 B-cancer
+
+Will 0 4 306 310 O
+be 5 7 311 313 O
+prescribed 8 18 314 324 O
+standard 19 27 325 333 O
+Gemcitabine 28 39 334 345 B-treatment
+1000 40 44 346 350 O
+mg 45 47 351 353 O
+/ 47 48 353 354 O
+m2 48 50 354 356 O
+chemotherapy 51 63 357 369 B-treatment
+cycle 64 69 370 375 I-treatment
+

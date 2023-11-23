@@ -1,0 +1,137 @@
+AFLD 0 4 0 4 B-chronic_disease
+defined 5 12 5 12 O
+as 13 15 13 15 O
+demonstration 16 29 16 29 O
+of 30 32 30 32 O
+hepatic 33 40 33 40 B-chronic_disease
+steatosis 41 50 41 50 I-chronic_disease
+by 51 53 51 53 O
+imaging 54 61 54 61 B-treatment
+or 62 64 62 64 O
+biopsy 65 71 65 71 B-treatment
+in 72 74 72 74 O
+absence 75 82 75 82 O
+of 83 85 83 85 O
+significant 86 97 86 97 O
+alcohol 98 105 98 105 O
+consumption 106 117 106 117 O
+and 118 121 118 121 O
+other 122 127 122 127 O
+causes 128 134 128 134 O
+of 135 137 135 137 O
+hepatic 138 145 138 145 O
+steatosis 146 155 146 155 O
+
+Active 0 6 156 162 O
+carpel 7 13 163 169 B-chronic_disease
+tunnel 14 20 170 176 I-chronic_disease
+syndrome 21 29 177 185 I-chronic_disease
+
+Ages 0 4 186 190 B-age
+18 5 7 191 193 B-lower_bound
+- 8 9 194 195 O
+65 10 12 196 198 B-upper_bound
+yr 13 15 199 201 I-upper_bound
+
+Contraindications 0 17 202 219 O
+to 18 20 220 222 O
+magnetic 21 29 223 231 B-treatment
+resonance 30 39 232 241 I-treatment
+imaging 40 47 242 249 I-treatment
+( 48 49 250 251 I-treatment
+MRI 49 52 251 254 I-treatment
+) 52 53 254 255 I-treatment
+
+Diabetes 0 8 256 264 B-chronic_disease
+mellitus 9 17 265 273 I-chronic_disease
+
+History 0 7 274 281 O
+of 8 10 282 284 O
+cancer 11 17 285 291 B-cancer
+
+Participants 0 12 292 304 O
+of 13 15 305 307 O
+reproductive 16 28 308 320 O
+age 29 32 321 324 B-age
+must 33 37 325 329 O
+agree 38 43 330 335 B-contraception_consent
+to 44 46 336 338 I-contraception_consent
+use 47 50 339 342 I-contraception_consent
+contraception 51 64 343 356 I-contraception_consent
+
+Pregnancy 0 9 357 366 B-pregnancy
+
+Serum 0 5 367 372 B-clinical_variable
+creatinine 6 16 373 383 I-clinical_variable
+> 17 18 384 385 O
+2 19 20 386 387 B-lower_bound
+times 21 26 388 393 I-lower_bound
+the 27 30 394 397 I-lower_bound
+upper 31 36 398 403 I-lower_bound
+limit 37 42 404 409 I-lower_bound
+of 43 45 410 412 I-lower_bound
+normal 46 52 413 419 I-lower_bound
+
+a 0 1 420 421 O
+hemoglobin 2 12 422 432 B-clinical_variable
+A1C 13 16 433 436 I-clinical_variable
+> 17 18 437 438 O
+6.5 18 21 438 441 B-lower_bound
+
+aminotransferase 0 16 442 458 B-clinical_variable
+levels 17 23 459 465 I-clinical_variable
+> 24 25 466 467 O
+10x 25 28 467 470 B-lower_bound
+upper 29 34 471 476 I-lower_bound
+limit 35 40 477 482 I-lower_bound
+of 41 43 483 485 I-lower_bound
+normal 44 50 486 492 I-lower_bound
+
+desire 0 6 493 499 B-pregnancy
+to 7 9 500 502 I-pregnancy
+become 10 16 503 509 I-pregnancy
+pregnant 17 25 510 518 I-pregnancy
+
+non 0 3 519 522 B-cancer
+- 3 4 522 523 I-cancer
+melanoma 4 12 523 531 I-cancer
+skin 13 17 532 536 I-cancer
+cancers 18 25 537 544 I-cancer
+
+the 0 3 545 548 O
+use 4 7 549 552 O
+of 8 10 553 555 O
+metformin 11 20 556 565 B-treatment
+is 21 23 566 568 O
+acceptable 24 34 569 579 O
+in 35 37 580 582 O
+patients 38 46 583 591 O
+whose 47 52 592 597 O
+HbA1c 53 58 598 603 B-clinical_variable
+has 59 62 604 607 O
+been 63 67 608 612 O
+= 68 69 613 614 O
+< 69 70 614 615 O
+6.0 70 73 615 618 B-upper_bound
+on 74 76 619 621 O
+two 77 80 622 625 O
+visits 81 87 626 632 O
+
+use 0 3 633 636 O
+of 4 6 637 639 O
+any 7 10 640 643 O
+medications 11 22 644 655 O
+prescribed 23 33 656 666 O
+to 34 36 667 669 O
+treat 37 42 670 675 O
+hyperglycemia 43 56 676 689 B-chronic_disease
+
+whose 0 5 690 695 O
+weight 6 12 696 702 O
+has 13 16 703 706 O
+remained 17 25 707 715 O
+stable 26 32 716 722 O
+for 33 36 723 726 O
+six 37 40 727 730 B-upper_bound
+months 41 47 731 737 I-upper_bound
+

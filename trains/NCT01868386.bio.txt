@@ -1,0 +1,60 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+abnormal 0 8 25 33 O
+sensitivity 9 20 34 45 O
+to 21 23 46 48 O
+ionizing 24 32 49 57 B-allergy_name
+radiation 33 42 58 67 I-allergy_name
+
+are 0 3 68 71 O
+receiving 4 13 72 81 O
+chemotherapy 14 26 82 94 B-treatment
+or 27 29 95 97 O
+other 30 35 98 103 O
+agents 36 42 104 110 O
+intended 43 51 111 119 O
+for 52 55 120 123 O
+cancer 56 62 124 130 B-treatment
+treatment 63 72 131 140 I-treatment
+
+diagnosis 0 9 141 150 O
+of 10 12 151 153 O
+prostate 13 21 154 162 B-cancer
+adenocarcinoma 22 36 163 177 I-cancer
+
+had 0 3 178 181 O
+prior 4 9 182 187 O
+pelvic 10 16 188 194 B-treatment
+irradiation 17 28 195 206 I-treatment
+
+have 0 4 207 211 O
+had 5 8 212 215 O
+a 9 10 216 217 O
+prostatectomy 11 24 218 231 B-treatment
+
+history 0 7 232 239 O
+of 8 10 240 242 O
+bleeding 11 19 243 251 B-chronic_disease
+diathesis 20 29 252 261 I-chronic_disease
+
+history 0 7 262 269 O
+of 8 10 270 272 O
+rectal 11 17 273 279 B-treatment
+surgery 18 25 280 287 I-treatment
+or 26 28 288 290 O
+lower 29 34 291 296 B-chronic_disease
+gastrointestinal 35 51 297 313 I-chronic_disease
+bleed 52 57 314 319 I-chronic_disease
+
+scheduled 0 9 320 329 O
+to 10 12 330 332 O
+receive 13 20 333 340 O
+pelvic 21 27 341 347 B-treatment
+nodal 28 33 348 353 I-treatment
+irradiation 34 45 354 365 I-treatment
+

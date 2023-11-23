@@ -1,0 +1,45 @@
+COPD 0 4 0 4 B-chronic_disease
+causing 5 12 5 12 O
+pain 13 17 13 17 O
+or 18 20 18 20 O
+associated 21 31 21 31 O
+symptoms 32 40 32 40 O
+
+at 0 2 41 43 O
+least 3 8 44 49 O
+21 9 11 50 52 B-lower_bound
+years 12 17 53 58 I-lower_bound
+of 18 20 59 61 O
+age 21 24 62 65 B-age
+
+autoimmune 0 10 66 76 B-chronic_disease
+dysfunction 11 22 77 88 I-chronic_disease
+
+concomitant 0 11 89 100 B-treatment
+physical 12 20 101 109 I-treatment
+therapy 21 28 110 117 I-treatment
+
+female 0 6 118 124 B-gender
+sex 7 10 125 128 O
+
+medical 0 7 129 136 O
+confirmation 8 20 137 149 O
+of 21 23 150 152 O
+a 24 25 153 154 O
+diagnosis 26 35 155 164 O
+of 36 38 165 167 O
+stable 39 45 168 174 B-chronic_disease
+angina 46 52 175 181 I-chronic_disease
+for 53 56 182 185 O
+at 57 59 186 188 O
+least 60 65 189 194 O
+6 66 67 195 196 B-lower_bound
+months 68 74 197 203 I-lower_bound
+
+pregnancy 0 9 204 213 B-pregnancy
+
+use 0 3 214 217 O
+of 4 6 218 220 O
+steroid 7 14 221 228 B-treatment
+medications 15 26 229 240 O
+

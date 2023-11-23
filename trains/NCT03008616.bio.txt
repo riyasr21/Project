@@ -1,0 +1,75 @@
+Active 0 6 0 6 B-chronic_disease
+hepatic 7 14 7 14 I-chronic_disease
+disease 15 22 15 22 I-chronic_disease
+
+Chronic 0 7 23 30 B-chronic_disease
+renal 8 13 31 36 I-chronic_disease
+disease 14 21 37 44 I-chronic_disease
+
+Clinically 0 10 45 55 O
+significant 11 22 56 67 O
+fetal 23 28 68 73 B-chronic_disease
+anomaly 29 36 74 81 I-chronic_disease
+
+Decision 0 8 82 90 O
+to 9 11 91 93 O
+deliver 12 19 94 101 O
+within 20 26 102 108 O
+24 27 29 109 111 B-upper_bound
+hours 30 35 112 117 I-upper_bound
+has 36 39 118 121 O
+been 40 44 122 126 O
+made 45 49 127 131 O
+
+Estimated 0 9 132 141 B-clinical_variable
+fetal 10 15 142 147 I-clinical_variable
+weight 16 22 148 154 I-clinical_variable
+< 23 24 155 156 O
+5th 25 28 157 160 B-upper_bound
+percentile 29 39 161 171 I-upper_bound
+
+History 0 7 172 179 O
+of 8 10 180 182 O
+anaphylactic 11 23 183 195 B-allergy_name
+allergic 24 32 196 204 O
+reactions 33 42 205 214 O
+
+Meets 0 5 215 220 O
+modified 6 14 221 229 O
+ACOG 15 19 230 234 B-clinical_variable
+criteria 20 28 235 243 I-clinical_variable
+for 29 32 244 247 O
+severe 33 39 248 254 B-chronic_disease
+preeclampsia 40 52 255 267 I-chronic_disease
+
+Platelet 0 8 268 276 B-clinical_variable
+count 9 14 277 282 I-clinical_variable
+< 15 16 283 284 O
+50,000 17 23 285 291 B-upper_bound
+
+Pulmonary 0 9 292 301 B-chronic_disease
+edema 10 15 302 307 I-chronic_disease
+
+Unstable 0 8 308 316 O
+medical 9 16 317 324 O
+or 17 19 325 327 O
+psychiatric 20 31 328 339 B-chronic_disease
+disorder 32 40 340 348 I-chronic_disease
+
+age 0 3 349 352 B-age
+23 4 6 353 355 B-lower_bound
+0/7 7 10 356 359 I-lower_bound
+to 11 13 360 362 O
+31 14 16 363 365 B-upper_bound
+6/7 17 20 366 369 I-upper_bound
+weeks 21 26 370 375 I-upper_bound
+
+antiphospholipid 0 16 376 392 B-chronic_disease
+antibody 17 25 393 401 I-chronic_disease
+syndrome 26 34 402 410 I-chronic_disease
+
+chromosomal 0 11 411 422 B-chronic_disease
+abnormalities 12 25 423 436 I-chronic_disease
+
+lupus 0 5 437 442 B-chronic_disease
+

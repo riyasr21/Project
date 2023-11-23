@@ -1,0 +1,54 @@
+BMI>30 0 6 0 6 B-clinical_variable
+
+English 0 7 7 14 B-language_fluency
+speaking 8 16 15 23 I-language_fluency
+and 17 20 24 27 I-language_fluency
+reading 21 28 28 35 I-language_fluency
+
+Insufficiently 0 14 36 50 O
+Active 15 21 51 57 O
+( 22 23 58 59 O
+60 24 26 60 62 B-upper_bound
+mins 27 31 63 67 I-upper_bound
+or 32 34 68 70 O
+less 35 39 71 75 O
+of 40 42 76 78 O
+PA 43 45 79 81 O
+per 46 49 82 85 O
+wk 50 52 86 88 O
+measured 53 61 89 97 O
+by 62 64 98 100 O
+Exercise 65 73 101 109 O
+Vital 74 79 110 115 O
+Sign 80 84 116 120 O
+Questionnaire 85 98 121 134 O
+) 98 99 134 135 O
+
+Own 0 3 136 139 B-technology_access
+non 4 7 140 143 I-technology_access
+- 7 8 143 144 I-technology_access
+Kindle 8 14 144 150 I-technology_access
+Smartphone 15 25 151 161 I-technology_access
+iOS 26 29 162 165 I-technology_access
+7 30 31 166 167 I-technology_access
+or 32 34 168 170 I-technology_access
+above 35 40 171 176 I-technology_access
+, 40 41 176 177 I-technology_access
+or 42 44 178 180 I-technology_access
+Android 45 52 181 188 I-technology_access
+2.3 53 56 189 192 I-technology_access
+or 57 59 193 195 I-technology_access
+above 60 65 196 201 I-technology_access
+
+Plans 0 5 202 207 O
+to 6 8 208 210 O
+relocate 9 17 211 219 O
+out 18 21 220 223 O
+of 22 24 224 226 O
+Phoenix 25 32 227 234 O
+area 33 37 235 239 O
+in 38 40 240 242 O
+next 41 45 243 247 B-upper_bound
+12 46 48 248 250 I-upper_bound
+months 49 55 251 257 I-upper_bound
+

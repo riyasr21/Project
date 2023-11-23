@@ -1,0 +1,84 @@
+A 0 1 0 1 O
+contrast 2 10 2 10 B-treatment
+- 10 11 10 11 I-treatment
+enhanced 11 19 11 19 I-treatment
+MRI 20 23 20 23 I-treatment
+scan 24 28 24 28 I-treatment
+showing 29 36 29 36 O
+= 37 38 37 38 O
+or 39 41 39 41 O
+> 42 43 42 43 O
+4 44 45 44 45 B-lower_bound
+brain 46 51 46 51 B-clinical_variable
+metastases 52 62 52 62 I-clinical_variable
+
+Age 0 3 63 66 B-age
+> 4 5 67 68 O
+/=18 5 9 68 72 O
+years 10 15 73 78 I-lower_bound
+of 16 18 79 81 O
+age 19 22 82 85 B-age
+
+Greater 0 7 86 93 O
+than 8 12 94 98 O
+10 13 15 99 101 B-lower_bound
+brain 16 21 102 107 B-cancer
+metastases 22 32 108 118 I-cancer
+
+KPS 0 3 119 122 B-clinical_variable
+> 4 5 123 124 O
+/= 5 7 124 126 O
+70 8 10 127 129 B-lower_bound
+
+Patient 0 7 130 137 O
+must 8 12 138 142 O
+have 13 17 143 147 O
+a 18 19 148 149 O
+graded 20 26 150 156 B-clinical_variable
+prosnostic 27 37 157 167 I-clinical_variable
+score 38 43 168 173 I-clinical_variable
+( 44 45 174 175 I-clinical_variable
+GPA 45 48 175 178 I-clinical_variable
+) 48 49 178 179 I-clinical_variable
+score 50 55 180 185 I-clinical_variable
+0.5 56 59 186 189 B-lower_bound
+or 60 62 190 192 O
+greater 63 70 193 200 O
+
+Postoperative 0 13 201 214 O
+patients 14 22 215 223 O
+with 23 27 224 228 O
+resected 28 36 229 237 O
+brain 37 42 238 243 B-cancer
+metastases 43 53 244 254 I-cancer
+are 54 57 255 258 O
+eligible 58 66 259 267 O
+
+Pregnant 0 8 268 276 B-pregnancy
+
+Primary 0 7 277 284 O
+lesion 8 14 285 291 O
+with 15 19 292 296 O
+radiosensitive 20 34 297 311 O
+histology 35 44 312 321 O
+( 45 46 322 323 O
+i.e. 46 50 323 327 O
+, 50 51 327 328 O
+small 52 57 329 334 B-cancer
+cell 58 62 335 339 I-cancer
+carcinoma 63 72 340 349 I-cancer
+, 72 73 349 350 O
+germ 74 78 351 355 B-cancer
+- 78 79 355 356 I-cancer
+cell 79 83 356 360 I-cancer
+tumors 84 90 361 367 I-cancer
+, 90 91 367 368 O
+lymphoma 92 100 369 377 B-cancer
+, 100 101 377 378 O
+leukemia 102 110 379 387 B-cancer
+, 110 111 387 388 O
+and 112 115 389 392 O
+multiple 116 124 393 401 B-cancer
+myeloma 125 132 402 409 I-cancer
+) 132 133 409 410 O
+

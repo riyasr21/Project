@@ -1,0 +1,149 @@
+Age 0 3 0 3 B-age
+≥18 4 7 4 7 O
+and 8 11 8 11 O
+≤ 12 13 12 13 O
+80 14 16 14 16 B-upper_bound
+years 17 22 17 22 I-upper_bound
+
+Cytostatic 0 10 23 33 B-treatment
+therapy 11 18 34 41 I-treatment
+/ 19 20 42 43 O
+chemotherapy 21 33 44 56 B-treatment
+for 34 37 57 60 O
+cancer 38 44 61 67 B-cancer
+within 45 51 68 74 O
+the 52 55 75 78 O
+past 56 60 79 83 B-upper_bound
+5 61 62 84 85 I-upper_bound
+years 63 68 86 91 I-upper_bound
+
+History 0 7 92 99 O
+of 8 10 100 102 O
+cancers 11 18 103 110 B-cancer
+or 19 21 111 113 O
+other 22 27 114 119 O
+comorbidities 28 41 120 133 O
+that 42 46 134 138 O
+limit 47 52 139 144 O
+life 53 57 145 149 B-clinical_variable
+expectancy 58 68 150 160 I-clinical_variable
+to 69 71 161 163 O
+less 72 76 164 168 O
+than 77 81 169 173 O
+five 82 86 174 178 B-upper_bound
+years 87 92 179 184 I-upper_bound
+
+IORT 0 4 185 189 B-clinical_variable
+dose 5 9 190 194 I-clinical_variable
+> 10 11 195 196 O
+8 11 12 196 197 B-lower_bound
+Gy 13 15 198 200 I-lower_bound
+to 16 18 201 203 O
+any 19 22 204 207 O
+risk 23 27 208 212 O
+organ 28 33 213 218 O
+
+IORT 0 4 219 223 B-treatment
+must 5 9 224 228 O
+be 10 12 229 231 O
+technically 13 24 232 243 O
+feasible 25 33 244 252 O
+
+Karnofsky 0 9 253 262 B-clinical_variable
+Performance 10 21 263 274 I-clinical_variable
+Score 22 27 275 280 I-clinical_variable
+( 28 29 281 282 I-clinical_variable
+KPS 29 32 282 285 I-clinical_variable
+) 32 33 285 286 I-clinical_variable
+≥ 34 35 287 288 O
+60 36 38 289 291 B-lower_bound
+% 38 39 291 292 I-lower_bound
+
+Multicentric 0 12 293 305 B-chronic_disease
+disease 13 20 306 313 I-chronic_disease
+( 21 22 314 315 O
+e.g. 22 26 315 319 O
+in 27 29 320 322 O
+both 30 34 323 327 O
+hemispheres 35 46 328 339 O
+) 46 47 339 340 O
+
+Participation 0 13 341 354 O
+in 14 16 355 357 O
+other 17 22 358 363 B-treatment
+clinical 23 31 364 372 I-treatment
+trials 32 38 373 379 I-treatment
+testing 39 46 380 387 O
+cancer 47 53 388 394 O
+- 53 54 394 395 O
+derived 54 61 395 402 O
+investigational 62 77 403 418 B-treatment
+agents 78 84 419 425 I-treatment
+/ 84 85 425 426 I-treatment
+procedures 85 95 426 436 I-treatment
+
+Patient 0 7 437 444 O
+'s 7 9 444 446 O
+written 10 17 447 454 O
+IC 18 20 455 457 B-chronic_disease
+obtained 21 29 458 466 O
+at 30 32 467 469 O
+least 33 38 470 475 O
+24h 39 42 476 479 B-lower_bound
+prior 43 48 480 485 I-lower_bound
+to 49 51 486 488 O
+surgery 52 59 489 496 B-treatment
+
+Platelets 0 9 497 506 B-clinical_variable
+≥ 10 11 507 508 O
+75.000 12 18 509 515 B-lower_bound
+/ 18 19 515 516 I-lower_bound
+μL 19 21 516 518 I-lower_bound
+
+Pregnant 0 8 519 527 B-pregnancy
+
+Previous 0 8 528 536 O
+cranial 9 16 537 544 B-treatment
+radiation 17 26 545 554 I-treatment
+therapy 27 34 555 562 I-treatment
+
+Previous 0 8 563 571 O
+therapy 9 16 572 579 O
+with 17 21 580 584 O
+anti 22 26 585 589 B-treatment
+- 26 27 589 590 I-treatment
+angiogenic 27 37 590 600 I-treatment
+substances 38 48 601 611 I-treatment
+( 49 50 612 613 O
+such 50 54 613 617 O
+as 55 57 618 620 O
+bevacizumab 58 69 621 632 B-treatment
+) 69 70 632 633 O
+
+Serum 0 5 634 639 B-clinical_variable
+Creatinine 6 16 640 650 I-clinical_variable
+≤ 17 18 651 652 O
+1.5 19 22 653 656 B-upper_bound
+times 23 28 657 662 I-upper_bound
+ULN 29 32 663 666 I-upper_bound
+
+Supratentorial 0 14 667 681 B-chronic_disease
+T1 15 17 682 684 I-chronic_disease
+- 17 18 684 685 I-chronic_disease
+Gd 18 20 685 687 I-chronic_disease
+enhancing 21 30 688 697 O
+lesion(s 31 39 698 706 O
+) 39 40 706 707 O
+amenable 41 49 708 716 O
+to 50 52 717 719 O
+total 53 58 720 725 O
+resection 59 68 726 735 O
+
+Total 0 5 736 741 B-clinical_variable
+Serum 6 11 742 747 I-clinical_variable
+Bilirubin 12 21 748 757 I-clinical_variable
+< 22 23 758 759 O
+1.5 24 27 760 763 B-upper_bound
+times 28 33 764 769 I-upper_bound
+ULN 34 37 770 773 I-upper_bound
+

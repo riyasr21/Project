@@ -1,0 +1,87 @@
+Active 0 6 0 6 O
+brain 7 12 7 12 B-cancer
+metastases 13 23 13 23 I-cancer
+
+HIV 0 3 24 27 B-chronic_disease
+
+Known 0 5 28 33 O
+active 6 12 34 40 O
+or 13 15 41 43 O
+chronic 16 23 44 51 O
+hepatitis 24 33 52 61 B-chronic_disease
+B 34 35 62 63 I-chronic_disease
+or 36 38 64 66 I-chronic_disease
+C 39 40 67 68 I-chronic_disease
+infection 41 50 69 78 I-chronic_disease
+
+Phase 0 5 79 84 O
+1b 6 8 85 87 O
+only 9 13 88 92 O
+: 13 14 92 93 O
+B 15 16 94 95 B-cancer
+- 16 17 95 96 I-cancer
+cell 17 21 96 100 I-cancer
+non 22 25 101 104 I-cancer
+- 25 26 104 105 I-cancer
+Hodgkin 26 33 105 112 I-cancer
+'s 33 35 112 114 I-cancer
+lymphoma 36 44 115 123 I-cancer
+( 45 46 124 125 I-cancer
+NHL 46 49 125 128 I-cancer
+) 49 50 128 129 I-cancer
+, 50 51 129 130 O
+relapsed 52 60 131 139 O
+or 61 63 140 142 O
+refractory 64 74 143 153 O
+to 75 77 154 156 O
+standard 78 86 157 165 O
+approved 87 95 166 174 O
+therapies 96 105 175 184 O
+
+Phase 0 5 185 190 O
+2 6 7 191 192 O
+only 8 12 193 197 O
+: 12 13 197 198 O
+Willing 14 21 199 206 O
+to 22 24 207 209 O
+consent 25 32 210 217 O
+to 33 35 218 220 O
+1 36 37 221 222 O
+mandatory 38 47 223 232 O
+pre 48 51 233 236 B-treatment
+- 51 52 236 237 I-treatment
+treatment 52 61 237 246 I-treatment
+and 62 65 247 250 O
+1 66 67 251 252 O
+on 68 70 253 255 O
+- 70 71 255 256 O
+treatment 71 80 256 265 O
+tumor 81 86 266 271 B-treatment
+biopsy 87 93 272 278 I-treatment
+
+Pregnancy 0 9 279 288 B-pregnancy
+
+Prior 0 5 289 294 B-treatment
+allogeneic 6 16 295 305 I-treatment
+hematopoietic 17 30 306 319 I-treatment
+cell 31 35 320 324 I-treatment
+transplantation 36 51 325 340 I-treatment
+
+Prior 0 5 341 346 B-treatment
+treatment 6 15 347 356 I-treatment
+with 16 20 357 361 I-treatment
+CD47 21 25 362 366 I-treatment
+
+Second 0 6 367 373 B-cancer
+malignancy 7 17 374 384 I-cancer
+within 18 24 385 391 O
+the 25 28 392 395 O
+last 29 33 396 400 B-upper_bound
+3 34 35 401 402 I-upper_bound
+years 36 41 403 408 I-upper_bound
+
+autologous 0 10 409 419 B-treatment
+hematopoietic 11 24 420 433 I-treatment
+cell 25 29 434 438 I-treatment
+transplantation 30 45 439 454 I-treatment
+

@@ -1,0 +1,19 @@
+Adult 0 5 0 5 O
+patients 6 14 6 14 O
+( 15 16 15 16 O
+18 16 18 16 18 B-lower_bound
+and 19 22 19 22 O
+over 23 27 23 27 O
+) 27 28 27 28 O
+
+pregnant 0 8 29 37 B-pregnancy
+women 9 14 38 43 B-gender
+
+who 0 3 44 47 O
+speak 4 9 48 53 B-language_fluency
+English 10 17 54 61 I-language_fluency
+, 17 18 61 62 I-language_fluency
+Spanish 19 26 63 70 I-language_fluency
+or 27 29 71 73 I-language_fluency
+Creole 30 36 74 80 I-language_fluency
+

@@ -1,0 +1,64 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+/= 5 7 5 7 O
+18 8 10 8 10 B-lower_bound
+
+At 0 2 11 13 O
+least 3 8 14 19 O
+one 9 12 20 23 O
+10 13 15 24 26 B-lower_bound
+- 15 16 26 27 O
+40 16 18 27 29 B-upper_bound
+mm 19 21 30 32 I-upper_bound
+peripheral 22 32 33 43 B-clinical_variable
+lung 33 37 44 48 I-clinical_variable
+lesion 38 44 49 55 I-clinical_variable
+documented 45 55 56 66 O
+on 56 58 67 69 O
+CTscan 59 65 70 76 B-treatment
+referred 66 74 77 85 O
+for 75 78 86 89 O
+diagnostic 79 89 90 100 O
+bronchoscopy 90 102 101 113 B-treatment
+
+BMI 0 3 114 117 B-bmi
+> 4 5 118 119 O
+40 6 8 120 122 B-lower_bound
+
+Bullous 0 7 123 130 B-chronic_disease
+emphysema 8 17 131 140 I-chronic_disease
+in 18 20 141 143 O
+region 21 27 144 150 O
+of 28 30 151 153 O
+nodule 31 37 154 160 O
+
+Coagulopathy 0 12 161 173 B-chronic_disease
+( 13 14 174 175 O
+platelet 14 22 175 183 B-clinical_variable
+count 23 28 184 189 I-clinical_variable
+< 29 30 190 191 O
+50,000 31 37 192 198 B-upper_bound
+, 37 38 198 199 O
+INR 39 42 200 203 B-clinical_variable
+> 43 44 204 205 O
+1.5 45 48 206 209 B-lower_bound
+) 48 49 209 210 O
+detected 50 58 211 219 O
+on 59 61 220 222 O
+blood 62 67 223 228 O
+testing 68 75 229 236 O
+done 76 80 237 241 O
+within 81 87 242 248 O
+3 88 89 249 250 B-upper_bound
+weeks 90 95 251 256 I-upper_bound
+of 96 98 257 259 O
+the 99 102 260 263 O
+procedural 103 113 264 274 O
+visit 114 119 275 280 O
+
+Supplemental 0 12 281 293 B-treatment
+oxygen 13 19 294 300 I-treatment
+utilization 20 31 301 312 O
+at 32 34 313 315 O
+baseline 35 43 316 324 O
+

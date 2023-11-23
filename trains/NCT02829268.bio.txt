@@ -1,0 +1,66 @@
+abnormal 0 8 0 8 B-chronic_disease
+liver 9 14 9 14 I-chronic_disease
+function 15 23 15 23 I-chronic_disease
+( 24 25 24 25 O
+defined 25 32 25 32 O
+as 33 35 33 35 O
+serum 36 41 36 41 B-clinical_variable
+transaminases 42 55 42 55 I-clinical_variable
+more 56 60 56 60 O
+than 61 65 61 65 O
+twice 66 71 66 71 B-lower_bound
+the 72 75 72 75 I-lower_bound
+upper 76 81 76 81 I-lower_bound
+limit 82 87 82 87 I-lower_bound
+of 88 90 88 90 I-lower_bound
+normal 91 97 91 97 I-lower_bound
+for 98 101 98 101 O
+the 102 105 102 105 O
+reference 106 115 106 115 O
+laboratory 116 126 116 126 O
+) 126 127 126 127 O
+
+defect 0 6 128 134 O
+in 7 9 135 137 O
+oxidative 10 19 138 147 O
+phosphorylation 20 35 148 163 O
+( 36 37 164 165 O
+such 37 41 165 169 O
+as 42 44 170 172 O
+a 45 46 173 174 O
+confirmed 47 56 175 184 O
+mitochondrial 57 70 185 198 B-chronic_disease
+myopathy 71 79 199 207 I-chronic_disease
+) 79 80 207 208 O
+
+definitive 0 10 209 219 O
+diagnosis 11 20 220 229 O
+of 21 23 230 232 O
+Wolfram 24 31 233 240 B-chronic_disease
+syndrome 32 40 241 249 I-chronic_disease
+
+history 0 7 250 257 O
+of 8 10 258 260 O
+chronic 11 18 261 268 B-chronic_disease
+obstructive 19 30 269 280 I-chronic_disease
+pulmonary 31 40 281 290 I-chronic_disease
+disease 41 48 291 298 I-chronic_disease
+, 48 49 298 299 O
+pleural 50 57 300 307 B-chronic_disease
+effusion 58 66 308 316 I-chronic_disease
+, 66 67 316 317 O
+and/or 68 74 318 324 O
+myocardial 75 85 325 335 B-chronic_disease
+disease 86 93 336 343 I-chronic_disease
+
+received 0 8 344 352 O
+blood 9 14 353 358 B-treatment
+product 15 22 359 366 I-treatment
+transfusions 23 35 367 379 I-treatment
+within 36 42 380 386 O
+90 43 45 387 389 B-upper_bound
+days 46 50 390 394 I-upper_bound
+prior 51 56 395 400 I-upper_bound
+to 57 59 401 403 O
+screening 60 69 404 413 O
+

@@ -1,0 +1,33 @@
+Patients 0 8 0 8 O
+at 9 11 9 11 O
+risk 12 16 12 16 O
+of 17 19 17 19 O
+being 20 25 20 25 O
+non 26 29 26 29 O
+- 29 30 29 30 O
+compliant 30 39 30 39 O
+with 40 44 40 44 O
+administration 45 59 45 59 O
+of 60 62 60 62 O
+the 63 66 63 66 O
+therapy 67 74 67 74 B-treatment
+and 75 78 75 78 O
+with 79 83 79 83 O
+record 84 90 84 90 O
+keeping 91 98 91 98 O
+
+Patients 0 8 99 107 O
+that 9 13 108 112 O
+can 14 17 113 116 O
+be 18 20 117 119 O
+compliant 21 30 120 129 O
+with 31 35 130 134 O
+administration 36 50 135 149 O
+of 51 53 150 152 O
+the 54 57 153 156 O
+therapy 58 65 157 164 B-treatment
+and 66 69 165 168 O
+with 70 74 169 173 O
+record 75 81 174 180 O
+keeping 82 89 181 188 O
+

@@ -1,0 +1,44 @@
+Ability 0 7 0 7 O
+to 8 10 8 10 O
+walk 11 15 11 15 O
+10 16 18 16 18 B-lower_bound
+feet 19 23 19 23 I-lower_bound
+or 24 26 24 26 O
+across 27 33 27 33 O
+a 34 35 34 35 O
+room 36 40 36 40 O
+without 41 48 41 48 O
+human 49 54 49 54 O
+assistance 55 65 55 65 O
+before 66 72 66 72 O
+fracture 73 81 73 81 O
+
+Absolute 0 8 82 90 O
+contraindications 9 26 91 108 O
+to 27 29 109 111 O
+spinal 30 36 112 118 B-allergy_name
+anesthesia 37 47 119 129 I-allergy_name
+
+Planned 0 7 130 137 O
+concurrent 8 18 138 148 O
+surgery 19 26 149 156 B-treatment
+not 27 30 157 160 O
+amenable 31 39 161 169 O
+to 40 42 170 172 O
+spinal 43 49 173 179 B-treatment
+anesthesia 50 60 180 190 I-treatment
+
+Planned 0 7 191 198 O
+surgical 8 16 199 207 B-treatment
+treatment 17 26 208 217 I-treatment
+via 27 30 218 221 I-treatment
+hemiarthroplasty 31 47 222 238 I-treatment
+
+appropriate 0 11 239 250 O
+fixation 12 20 251 259 B-treatment
+procedure 21 30 260 269 I-treatment
+
+total 0 5 270 275 B-treatment
+hip 6 9 276 279 I-treatment
+arthroplasty 10 22 280 292 I-treatment
+

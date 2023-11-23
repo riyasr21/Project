@@ -1,0 +1,6 @@
+High 0 4 0 4 O
+Anxiety 5 12 5 12 B-chronic_disease
+
+No 0 2 13 15 O
+Claustrophobia 3 17 16 30 B-chronic_disease
+

@@ -1,0 +1,64 @@
+current 0 7 0 7 O
+unstable 8 16 8 16 O
+psychiatric 17 28 17 28 B-chronic_disease
+illness 29 36 29 36 I-chronic_disease
+as 37 39 37 39 O
+assessed 40 48 40 48 O
+by 49 51 49 51 O
+clinical 52 60 52 60 O
+diagnostic 61 71 61 71 O
+interview 72 81 72 81 O
+
+expired 0 7 82 89 O
+CO 8 10 90 92 O
+concentration 11 24 93 106 O
+of 25 27 107 109 O
+at 28 30 110 112 O
+least 31 36 113 118 O
+8 37 38 119 120 B-lower_bound
+ppm 39 42 121 124 I-lower_bound
+or 43 45 125 127 O
+urinary 46 53 128 135 B-clinical_variable
+cotinine 54 62 136 144 I-clinical_variable
+> 63 64 145 146 O
+100 65 68 147 150 B-lower_bound
+ng 69 71 151 153 I-lower_bound
+/ 71 72 153 154 I-lower_bound
+mL 72 74 154 156 I-lower_bound
+
+intact 0 6 157 163 B-clinical_variable
+intellectual 7 19 164 176 I-clinical_variable
+functioning 20 31 177 188 I-clinical_variable
+( 32 33 189 190 O
+K 33 34 190 191 B-clinical_variable
+- 34 35 191 192 I-clinical_variable
+BIT2 35 39 192 196 I-clinical_variable
+> 40 41 197 198 O
+79 41 43 198 200 B-lower_bound
+) 43 44 200 201 O
+
+presence 0 8 202 210 O
+of 9 11 211 213 O
+contraindications 12 29 214 231 O
+for 30 33 232 235 O
+nicotine 34 42 236 244 B-treatment
+replacement 43 54 245 256 I-treatment
+therapy 55 62 257 264 I-treatment
+
+suicidal 0 8 265 273 B-chronic_disease
+ideation 9 17 274 282 I-chronic_disease
+with 18 22 283 287 O
+plan 23 27 288 292 O
+or 28 30 293 295 O
+intent 31 37 296 302 O
+
+use 0 3 303 306 O
+of 4 6 307 309 O
+psychoactive 7 19 310 322 B-treatment
+medications 20 31 323 334 I-treatment
+or 32 34 335 337 O
+current 35 42 338 345 O
+participation 43 56 346 359 O
+in 57 59 360 362 O
+psychotherapy 60 73 363 376 B-treatment
+

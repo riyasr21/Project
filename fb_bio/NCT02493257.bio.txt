@@ -1,0 +1,70 @@
+Allergic 0 8 0 8 B-chronic_disease
+rhinitis 9 17 9 17 I-chronic_disease
+
+Asthma 0 6 18 24 B-chronic_disease
+
+Between 0 7 25 32 O
+18 8 10 33 35 B-lower_bound
+- 10 11 35 36 O
+65 11 13 36 38 B-upper_bound
+years 14 19 39 44 I-upper_bound
+of 20 22 45 47 O
+age 23 26 48 51 B-age
+
+Chronic 0 7 52 59 B-chronic_disease
+rhinosinusitis 8 22 60 74 I-chronic_disease
+
+Confirmed 0 9 75 84 O
+negative 10 18 85 93 O
+skin 19 23 94 98 O
+prick 24 29 99 104 O
+test 30 34 105 109 O
+to 35 37 110 112 O
+common 38 44 113 119 O
+allergens 45 54 120 129 O
+( 55 56 130 131 O
+which 56 61 131 136 O
+rules 62 67 137 142 O
+out 68 71 143 146 O
+allergic 72 80 147 155 B-chronic_disease
+rhinitis 81 89 156 164 I-chronic_disease
+) 89 90 164 165 O
+
+History 0 7 166 173 O
+of 8 10 174 176 O
+sinonasal 11 20 177 186 B-treatment
+surgery 21 28 187 194 I-treatment
+
+Inflammatory 0 12 195 207 B-chronic_disease
+or 13 15 208 210 O
+granulomatous 16 29 211 224 B-chronic_disease
+diseases 30 38 225 233 I-chronic_disease
+
+Intranasal 0 10 234 244 B-treatment
+or 11 13 245 247 I-treatment
+systemic 14 22 248 256 I-treatment
+decongestants 23 36 257 270 I-treatment
+x 37 38 271 272 O
+3 39 40 273 274 O
+days 41 45 275 279 O
+
+Intranasal 0 10 280 290 B-treatment
+steroid 11 18 291 298 I-treatment
+use 19 22 299 302 O
+> 23 24 303 304 O
+4 24 25 304 305 B-lower_bound
+wks 26 29 306 309 I-lower_bound
+
+Radiation 0 9 310 319 B-treatment
+to 10 12 320 322 I-treatment
+the 13 16 323 326 I-treatment
+head 17 21 327 331 I-treatment
+and 22 25 332 335 I-treatment
+neck 26 30 336 340 I-treatment
+
+systemic 0 8 341 349 B-treatment
+antihistamine 9 22 350 363 I-treatment
+x 23 24 364 365 O
+3 25 26 366 367 O
+days 27 31 368 372 O
+

@@ -1,0 +1,29 @@
+HIV+ 0 4 0 4 B-chronic_disease
+
+Male 0 4 5 9 B-gender
+sex 5 8 10 13 O
+assigned 9 17 14 22 O
+at 18 20 23 25 O
+birth 21 26 26 31 O
+
+Self 0 4 32 36 O
+- 4 5 36 37 O
+identify 5 13 37 45 O
+as 14 16 46 48 O
+male 17 21 49 53 B-gender
+
+Self 0 4 54 58 O
+- 4 5 58 59 O
+report 5 11 59 65 O
+HIV 12 15 66 69 B-chronic_disease
+- 15 16 69 70 O
+negative 16 24 70 78 O
+or 25 27 79 81 O
+unknown 28 35 82 89 O
+status 36 42 90 96 O
+
+Understand 0 10 97 107 B-language_fluency
+and 11 14 108 111 O
+read 15 19 112 116 O
+English 20 27 117 124 O
+

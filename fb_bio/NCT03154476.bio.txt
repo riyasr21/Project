@@ -1,0 +1,91 @@
+All 0 3 0 3 O
+adult 4 9 4 9 O
+Fontan 10 16 10 16 O
+patients 17 25 17 25 O
+who 26 29 26 29 O
+have 30 34 30 34 O
+no 35 37 35 37 O
+contraindications 38 55 38 55 O
+for 56 59 56 59 O
+magnetic 60 68 60 68 B-treatment
+resonance 69 78 69 78 I-treatment
+imaging 79 86 79 86 I-treatment
+( 87 88 87 88 I-treatment
+MRI 88 91 88 91 I-treatment
+) 91 92 91 92 I-treatment
+will 93 97 93 97 O
+be 98 100 98 100 O
+eligible 101 109 101 109 O
+for 110 113 110 113 O
+the 114 117 114 117 O
+study 118 123 118 123 O
+
+BP 0 2 124 126 B-clinical_variable
+< 3 4 127 128 O
+90/50 4 9 128 133 B-upper_bound
+mmHg 10 14 134 138 I-upper_bound
+
+Hearing 0 7 139 146 B-chronic_disease
+/ 7 8 146 147 O
+vision 8 14 147 153 B-chronic_disease
+impairment 15 25 154 164 I-chronic_disease
+
+History 0 7 165 172 O
+of 8 10 173 175 O
+sildenafil 11 21 176 186 B-treatment
+use 22 25 187 190 O
+in 26 28 191 193 O
+the 29 32 194 197 O
+six 33 36 198 201 B-upper_bound
+months 37 43 202 208 I-upper_bound
+prior 44 49 209 214 I-upper_bound
+to 50 52 215 217 O
+study 53 58 218 223 O
+enrollment 59 69 224 234 O
+
+Pulmonary 0 9 235 244 B-chronic_disease
+hypertension 10 22 245 257 I-chronic_disease
+due 23 26 258 261 O
+to 27 29 262 264 O
+sickle 30 36 265 271 B-chronic_disease
+cell 37 41 272 276 I-chronic_disease
+disease 42 49 277 284 I-chronic_disease
+
+Pulmonary 0 9 285 294 B-chronic_disease
+veno 10 14 295 299 I-chronic_disease
+- 14 15 299 300 I-chronic_disease
+occlusive 15 24 300 309 I-chronic_disease
+disease 25 32 310 317 I-chronic_disease
+
+Residual 0 8 318 326 O
+cardiac 9 16 327 334 O
+lesions 17 24 335 342 O
+( 25 26 343 344 O
+severe 26 32 344 350 O
+ventricular 33 44 351 362 B-chronic_disease
+dysfunction 45 56 363 374 I-chronic_disease
+, 56 57 374 375 O
+severe 58 64 376 382 O
+atrioventricular 65 81 383 399 B-chronic_disease
+valve 82 87 400 405 I-chronic_disease
+regurgitation 88 101 406 419 I-chronic_disease
+, 101 102 419 420 O
+Fontan 103 109 421 427 O
+baffle 110 116 428 434 O
+or 117 119 435 437 O
+conduit 120 127 438 445 O
+obstruction 128 139 446 457 O
+) 139 140 457 458 O
+
+Severe 0 6 459 465 B-chronic_disease
+renal 7 12 466 471 I-chronic_disease
+dysfunction 13 24 472 483 I-chronic_disease
+
+Subjects 0 8 484 492 O
+with 9 13 493 497 O
+implantable 14 25 498 509 B-treatment
+pacemakers 26 36 510 520 I-treatment
+
+Viral 0 5 521 526 B-chronic_disease
+hepatitis 6 15 527 536 I-chronic_disease
+

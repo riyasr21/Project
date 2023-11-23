@@ -1,0 +1,197 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+/= 5 7 5 7 O
+18 8 10 8 10 B-lower_bound
+
+Bilateral 0 9 11 20 O
+Neck 10 14 21 25 B-treatment
+Radiation 15 24 26 35 I-treatment
+
+Clinically 0 10 36 46 O
+significant 11 22 47 58 O
+uncontrolled 23 35 59 71 O
+major 36 41 72 77 B-chronic_disease
+cardiac 42 49 78 85 I-chronic_disease
+, 49 50 85 86 O
+respiratory 51 62 87 98 B-chronic_disease
+, 62 63 98 99 O
+renal 64 69 100 105 B-chronic_disease
+, 69 70 105 106 O
+hepatic 71 78 107 114 B-chronic_disease
+, 78 79 114 115 O
+gastrointestinal 80 96 116 132 B-chronic_disease
+
+Concurrent 0 10 133 143 O
+Chemotherapy 11 23 144 156 B-treatment
+
+Distant 0 7 157 164 B-cancer
+Metastases 8 18 165 175 I-cancer
+( 19 20 176 177 I-cancer
+Stage 20 25 177 182 I-cancer
+IV 26 28 183 185 I-cancer
+C 29 30 186 187 I-cancer
+, 30 31 187 188 I-cancer
+any 32 35 189 192 I-cancer
+T 36 37 193 194 I-cancer
+, 37 38 194 195 I-cancer
+any 39 42 196 199 I-cancer
+N 43 44 200 201 I-cancer
+and 45 48 202 205 I-cancer
+M1 49 51 206 208 I-cancer
+) 51 52 208 209 I-cancer
+
+Eastern 0 7 210 217 B-clinical_variable
+Cooperative 8 19 218 229 I-clinical_variable
+Oncology 20 28 230 238 I-clinical_variable
+Group 29 34 239 244 I-clinical_variable
+( 35 36 245 246 I-clinical_variable
+ECOG 36 40 246 250 I-clinical_variable
+) 40 41 250 251 I-clinical_variable
+performance 42 53 252 263 I-clinical_variable
+status= 54 61 264 271 I-clinical_variable
+0 62 63 272 273 B-lower_bound
+, 63 64 273 274 O
+1 65 66 275 276 O
+, 66 67 276 277 O
+or 68 70 278 280 O
+2 71 72 281 282 B-upper_bound
+
+Histologically 0 14 283 297 O
+documented 15 25 298 308 O
+Squamous 26 34 309 317 B-cancer
+Cell 35 39 318 322 I-cancer
+Carcinoma 40 49 323 332 I-cancer
+of 50 52 333 335 I-cancer
+the 53 56 336 339 I-cancer
+oropharynx 57 67 340 350 I-cancer
+( 68 69 351 352 O
+American 69 77 352 360 O
+Joint 78 83 361 366 O
+Committee 84 93 367 376 O
+on 94 96 377 379 O
+Cancer 97 103 380 386 O
+( 104 105 387 388 O
+AJCC 105 109 388 392 O
+) 109 110 392 393 O
+v7 111 113 394 396 O
+* 113 114 396 397 O
+* 114 115 397 398 O
+Stage 116 121 399 404 O
+III 122 125 405 408 O
+- 125 126 408 409 O
+IV 126 128 409 411 O
+A 129 130 412 413 O
+, 130 131 413 414 O
+B 131 132 414 415 O
+) 132 133 415 416 O
+
+Myocardial 0 10 417 427 B-chronic_disease
+infarction 11 21 428 438 I-chronic_disease
+within 22 28 439 445 O
+3 29 30 446 447 B-upper_bound
+months 31 37 448 454 I-upper_bound
+of 38 40 455 457 O
+registration 41 53 458 470 O
+
+Negative 0 8 471 479 B-pregnancy
+pregnancy 9 18 480 489 I-pregnancy
+test 19 23 490 494 O
+for 24 27 495 498 O
+women 28 33 499 504 B-gender
+of 34 36 505 507 O
+child 37 42 508 513 O
+bearing 43 50 514 521 O
+potential 51 60 522 531 O
+
+Pregnant 0 8 532 540 B-pregnancy
+
+Previous 0 8 541 549 O
+radiation 9 18 550 559 B-treatment
+treatment 19 28 560 569 O
+for 29 32 570 573 O
+head 33 37 574 578 B-cancer
+and 38 41 579 582 I-cancer
+neck 42 46 583 587 I-cancer
+mucosal 47 54 588 595 I-cancer
+primary 55 62 596 603 I-cancer
+cancers 63 70 604 611 I-cancer
+within 71 77 612 618 O
+the 78 81 619 622 O
+past 82 86 623 627 B-upper_bound
+5 87 88 628 629 I-upper_bound
+years 89 94 630 635 I-upper_bound
+( 95 96 636 637 O
+i.e. 96 100 637 641 O
+oropharynx 101 111 642 652 O
+, 111 112 652 653 O
+nasopharynx 113 124 654 665 O
+, 124 125 665 666 O
+hypopharynx 126 137 667 678 O
+, 137 138 678 679 O
+larynx 139 145 680 686 O
+, 145 146 686 687 O
+and 147 150 688 691 O
+oral 151 155 692 696 O
+cavity 156 162 697 703 O
+) 162 163 703 704 O
+
+Previous 0 8 705 713 O
+surgical 9 17 714 722 B-treatment
+resection 18 27 723 732 I-treatment
+
+Symptomatic 0 11 733 744 O
+congestive 12 22 745 755 B-chronic_disease
+heart 23 28 756 761 I-chronic_disease
+failure 29 36 762 769 I-chronic_disease
+, 36 37 769 770 O
+unstable 38 46 771 779 B-chronic_disease
+angina 47 53 780 786 I-chronic_disease
+
+Tumor 0 5 787 792 B-cancer
+tissue 6 12 793 799 O
+( 13 14 800 801 O
+primary 14 21 801 808 O
+or 22 24 809 811 O
+cervical 25 33 812 820 B-cancer
+metastasis 34 44 821 831 I-cancer
+) 44 45 831 832 O
+available 46 55 833 842 O
+for 56 59 843 846 O
+human 60 65 847 852 B-chronic_disease
+papilloma 66 75 853 862 I-chronic_disease
+virus 76 81 863 868 I-chronic_disease
+( 82 83 869 870 I-chronic_disease
+HPV 83 86 870 873 I-chronic_disease
+) 86 87 873 874 I-chronic_disease
+
+breast 0 6 875 881 O
+- 6 7 881 882 O
+feeding 7 14 882 889 O
+females 15 22 890 897 B-gender
+
+cardiac 0 7 898 905 B-chronic_disease
+dysrrhythmia 8 20 906 918 I-chronic_disease
+not 21 24 919 922 O
+controlled 25 35 923 933 O
+by 36 38 934 936 O
+pacer 39 44 937 942 O
+device 45 51 943 949 O
+
+hematologic 0 11 950 961 B-chronic_disease
+disease 12 19 962 969 I-chronic_disease
+
+immunohistochemistry 0 20 970 990 B-treatment
+( 21 22 991 992 I-treatment
+IHC 22 25 992 995 I-treatment
+) 25 26 995 996 I-treatment
+or 27 29 997 999 O
+genotyping 30 40 1000 1010 B-treatment
+testing 41 48 1011 1018 O
+) 48 49 1018 1019 O
+
+neck 0 4 1020 1024 B-treatment
+dissection 5 15 1025 1035 I-treatment
+for 16 19 1036 1039 O
+oropharyngeal 20 33 1040 1053 B-cancer
+cancer 34 40 1054 1060 I-cancer
+

@@ -1,0 +1,154 @@
+GFR<50ml 0 8 0 8 B-clinical_variable
+/ 8 9 8 9 I-upper_bound
+min 9 12 9 12 I-upper_bound
+
+Kidney 0 6 13 19 B-chronic_disease
+insufficiency 7 20 20 33 I-chronic_disease
+
+Undergoing 0 10 34 44 O
+PCTI 11 15 45 49 B-treatment
+for 16 19 50 53 O
+coronary 20 28 54 62 B-chronic_disease
+artery 29 35 63 69 I-chronic_disease
+disease 36 43 70 77 I-chronic_disease
+
+Women 0 5 78 83 B-gender
+
+active 0 6 84 90 O
+ischemia 7 15 91 99 B-chronic_disease
+
+congestive 0 10 100 110 B-chronic_disease
+heart 11 16 111 116 I-chronic_disease
+failure 17 24 117 124 I-chronic_disease
+
+defined 0 7 125 132 O
+as 8 10 133 135 O
+chest 11 16 136 141 O
+pain 17 21 142 146 O
+or 22 24 147 149 O
+new 25 28 150 153 O
+electrocardiogram 29 46 154 171 B-treatment
+( 47 48 172 173 I-treatment
+ECG 48 51 173 176 I-treatment
+) 51 52 176 177 I-treatment
+changes 53 60 178 185 O
+in 61 63 186 188 O
+the 64 67 189 192 O
+12 68 70 193 195 B-upper_bound
+hours 71 76 196 201 I-upper_bound
+prior 77 82 202 207 I-upper_bound
+to 83 85 208 210 O
+study 86 91 211 216 O
+entry 92 97 217 222 O
+and/or 98 104 223 229 O
+rising 105 111 230 236 O
+creatine 112 120 237 245 B-clinical_variable
+kinase 121 127 246 252 I-clinical_variable
+( 128 129 253 254 I-clinical_variable
+CK 129 131 254 256 I-clinical_variable
+) 131 132 256 257 I-clinical_variable
+and 133 136 258 261 O
+CK 137 139 262 264 B-clinical_variable
+- 139 140 264 265 I-clinical_variable
+MB 140 142 265 267 I-clinical_variable
+serum 143 148 268 273 I-clinical_variable
+enzymes 149 156 274 281 I-clinical_variable
+
+enrolled 0 8 282 290 O
+in 9 11 291 293 O
+another 12 19 294 301 O
+investigational 20 35 302 317 O
+clinical 36 44 318 326 O
+trial 45 50 327 332 O
+within 51 57 333 339 O
+the 58 61 340 343 O
+6 62 63 344 345 B-upper_bound
+months 64 70 346 352 I-upper_bound
+prior 71 76 353 358 I-upper_bound
+to 77 79 359 361 O
+study 80 85 362 367 O
+entry 86 91 368 373 O
+
+high 0 4 374 378 O
+- 4 5 378 379 O
+risk 5 9 379 383 O
+and 10 13 384 387 O
+complex 14 21 388 395 O
+lesions 22 29 396 403 O
+, 29 30 403 404 O
+including 31 40 405 414 O
+tortuous 41 49 415 423 O
+blood 50 55 424 429 O
+vessels 56 63 430 437 O
+and 64 67 438 441 O
+lesions 68 75 442 449 O
+with 76 80 450 454 O
+thrombosis 81 91 455 465 B-treatment
+
+people 0 6 466 472 O
+who 7 10 473 476 O
+have 11 15 477 481 O
+had 16 19 482 485 O
+a 20 21 486 487 O
+ST 22 24 488 490 B-chronic_disease
+elevation 25 34 491 500 I-chronic_disease
+heart 35 40 501 506 I-chronic_disease
+attack 41 47 507 513 I-chronic_disease
+will 48 52 514 518 O
+be 53 55 519 521 O
+excluded 56 64 522 530 O
+for 65 68 531 534 O
+at 69 71 535 537 O
+least 72 77 538 543 O
+72 78 80 544 546 B-lower_bound
+hours 81 86 547 552 I-lower_bound
+post 87 91 553 557 O
+- 91 92 557 558 O
+heart 92 97 558 563 O
+attack 98 104 564 570 O
+and 105 108 571 574 O
+until 109 114 575 580 O
+cardiac 115 122 581 588 O
+enzymes 123 130 589 596 O
+return 131 137 597 603 O
+to 138 140 604 606 O
+normal 141 147 607 613 O
+
+pregnancy 0 9 614 623 B-pregnancy
+
+prior 0 5 624 629 O
+coronary 6 14 630 638 B-treatment
+artery 15 21 639 645 I-treatment
+bypass 22 28 646 652 I-treatment
+surgery 29 36 653 660 I-treatment
+
+severe 0 6 661 667 O
+peripheral 7 17 668 678 B-chronic_disease
+vascular 18 26 679 687 I-chronic_disease
+disease 27 34 688 695 I-chronic_disease
+
+unprotected 0 11 696 707 O
+left 12 16 708 712 B-chronic_disease
+main 17 21 713 717 I-chronic_disease
+coronary 22 30 718 726 I-chronic_disease
+artery 31 37 727 733 I-chronic_disease
+disease 38 45 734 741 I-chronic_disease
+
+with 0 4 742 746 O
+childbearing 5 17 747 759 O
+potential 18 27 760 769 O
+must 28 32 770 774 O
+have 33 37 775 779 O
+a 38 39 780 781 O
+negative 40 48 782 790 B-pregnancy
+pregnancy 49 58 791 800 I-pregnancy
+test 59 63 801 805 I-pregnancy
+within 64 70 806 812 O
+the 71 74 813 816 O
+7 75 76 817 818 B-upper_bound
+days 77 81 819 823 I-upper_bound
+prior 82 87 824 829 I-upper_bound
+to 88 90 830 832 O
+study 91 96 833 838 O
+entry 97 102 839 844 O
+

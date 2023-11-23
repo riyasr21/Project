@@ -1,0 +1,48 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+autism 13 19 13 19 B-chronic_disease
+using 20 25 20 25 O
+ADOS 26 30 26 30 B-treatment
+
+In 0 2 31 33 O
+need 3 7 34 38 O
+of 8 10 39 41 O
+an 11 13 42 44 O
+oral 14 18 45 49 O
+cleaning 19 27 50 58 O
+( 28 29 59 60 O
+no 29 31 60 62 O
+previous 32 40 63 71 O
+cleaning 41 49 72 80 O
+within 50 56 81 87 O
+past 57 61 88 92 B-upper_bound
+four 62 66 93 97 I-upper_bound
+months 67 73 98 104 I-upper_bound
+) 73 74 104 105 O
+
+Parents 0 7 106 113 O
+speak 8 13 114 119 B-language_fluency
+English 14 21 120 127 I-language_fluency
+or 22 24 128 130 I-language_fluency
+Spanish 25 32 131 138 I-language_fluency
+
+Prescription 0 12 139 151 O
+of 13 15 152 154 O
+anti 16 20 155 159 B-treatment
+- 20 21 159 160 I-treatment
+cholinergic 21 32 160 171 I-treatment
+drugs 33 38 172 177 I-treatment
+( 39 40 178 179 O
+which 40 45 179 184 O
+may 46 49 185 188 O
+alter 50 55 189 194 O
+EDA 56 59 195 198 O
+) 59 60 198 199 O
+
+Significant 0 11 200 211 O
+motor 12 17 212 217 B-chronic_disease
+impairment 18 28 218 228 I-chronic_disease
+
+cerebral 0 8 229 237 B-chronic_disease
+palsy 9 14 238 243 I-chronic_disease
+

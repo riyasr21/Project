@@ -1,0 +1,70 @@
+Diagnosed 0 9 0 9 O
+with 10 14 10 14 O
+a 15 16 15 16 O
+Voice 17 22 17 22 B-chronic_disease
+disorder 23 31 23 31 I-chronic_disease
+
+Diagnosed 0 9 32 41 O
+with 10 14 42 46 O
+benign 15 21 47 53 B-chronic_disease
+vocal 22 27 54 59 I-chronic_disease
+fold 28 32 60 64 I-chronic_disease
+lesions 33 40 65 72 I-chronic_disease
+and/or 41 47 73 79 O
+hyper 48 53 80 85 O
+- 53 54 85 86 O
+function 54 62 86 94 O
+
+English 0 7 95 102 B-language_fluency
+speaking 8 16 103 111 I-language_fluency
+
+First 0 5 112 117 O
+/ 5 6 117 118 O
+primary 6 13 118 125 O
+propose 14 21 126 133 O
+treatment 22 31 134 143 B-treatment
+modality 32 40 144 152 I-treatment
+is 41 43 153 155 O
+voice 44 49 156 161 B-treatment
+therapy 50 57 162 169 I-treatment
+
+Older 0 5 170 175 O
+than 6 10 176 180 O
+59 11 13 181 183 B-lower_bound
+
+Patients 0 8 184 192 O
+who 9 12 193 196 O
+are 13 16 197 200 O
+appropriate 17 28 201 212 O
+for 29 32 213 216 O
+either 33 39 217 223 O
+standard 40 48 224 232 O
+of 49 51 233 235 O
+care 52 56 236 240 O
+treatment 57 66 241 250 O
+modality 67 75 251 259 O
+( 76 77 260 261 O
+traditional 77 88 261 272 B-treatment
+or 89 91 273 275 I-treatment
+intensive 92 101 276 285 I-treatment
+voice 102 107 286 291 I-treatment
+therapy 108 115 292 299 I-treatment
+) 115 116 299 300 O
+
+Willingness 0 11 301 312 O
+to 12 14 313 315 O
+participate 15 26 316 327 O
+in 27 29 328 330 O
+either 30 36 331 337 O
+standard 37 45 338 346 B-treatment
+of 46 48 347 349 I-treatment
+care 49 53 350 354 I-treatment
+treatment 54 63 355 364 I-treatment
+modality 64 72 365 373 I-treatment
+
+Younger 0 7 374 381 O
+than 8 12 382 386 O
+18 13 15 387 389 B-upper_bound
+
+females 0 7 390 397 B-gender
+

@@ -1,0 +1,9 @@
+English 0 7 0 7 B-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+pregnancy 0 9 17 26 B-pregnancy
+
+unilateral 0 10 27 37 B-chronic_disease
+femoral 11 18 38 45 I-chronic_disease
+endarterectomy 19 33 46 60 I-chronic_disease
+

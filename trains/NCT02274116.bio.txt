@@ -1,0 +1,92 @@
+18 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+75 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+old 15 18 15 18 O
+
+> 0 1 19 20 O
+1 1 2 20 21 B-lower_bound
+year 3 7 22 26 I-lower_bound
+since 8 13 27 32 O
+SCI 14 17 33 36 O
+to 18 20 37 39 O
+ensure 21 27 40 46 O
+minimal 28 35 47 54 O
+confounds 36 45 55 64 O
+of 46 48 65 67 O
+spontaneous 49 60 68 79 O
+neurological 61 73 80 92 O
+recovery 74 82 93 101 O
+
+cardiopulmonary 0 15 102 117 B-chronic_disease
+complications 16 29 118 131 I-chronic_disease
+
+concurrent 0 10 132 142 B-chronic_disease
+illness 11 18 143 150 I-chronic_disease
+, 18 19 150 151 O
+including 20 29 152 161 O
+unhealed 30 38 162 170 O
+decubiti 39 47 171 179 B-chronic_disease
+, 47 48 179 180 O
+severe 49 55 181 187 O
+neuropathic 56 67 188 199 B-chronic_disease
+or 68 70 200 202 O
+chronic 71 78 203 210 B-chronic_disease
+pain 79 83 211 215 I-chronic_disease
+syndrome 84 92 216 224 I-chronic_disease
+, 92 93 224 225 O
+infection 94 103 226 235 B-chronic_disease
+, 103 104 235 236 O
+cardiovascular 105 119 237 251 B-chronic_disease
+disease 120 127 252 259 I-chronic_disease
+, 127 128 259 260 O
+osteoporosis 129 141 261 273 B-chronic_disease
+( 142 143 274 275 O
+history 143 150 275 282 O
+of 151 153 283 285 O
+fractures 154 163 286 295 O
+) 163 164 295 296 O
+, 164 165 296 297 O
+active 166 172 298 304 O
+heterotopic 173 184 305 316 B-chronic_disease
+ossification 185 197 317 329 I-chronic_disease
+, 197 198 329 330 O
+or 199 201 331 333 O
+known 202 207 334 339 O
+history 208 215 340 347 O
+of 216 218 348 350 O
+peripheral 219 229 351 361 B-chronic_disease
+nerve 230 235 362 367 I-chronic_disease
+injury 236 242 368 374 I-chronic_disease
+to 243 245 375 377 O
+legs 246 250 378 382 O
+
+concurrent 0 10 383 393 O
+physical 11 19 394 402 B-treatment
+therapy 20 27 403 410 I-treatment
+
+less 0 4 411 415 O
+than 5 9 416 420 O
+24 10 12 421 423 B-upper_bound
+on 13 15 424 426 O
+the 16 19 427 430 O
+Mini 20 24 431 435 B-clinical_variable
+- 24 25 435 436 I-clinical_variable
+mental 25 31 436 442 I-clinical_variable
+Exam 32 36 443 447 I-clinical_variable
+
+pregnancy 0 9 448 457 B-pregnancy
+because 10 17 458 465 O
+of 18 20 466 468 O
+unknown 21 28 469 476 O
+effects 29 36 477 484 O
+of 37 39 485 487 O
+AIH 40 43 488 491 B-chronic_disease
+on 44 46 492 494 O
+a 47 48 495 496 O
+fetus 49 54 497 502 O
+
+recurrent 0 9 503 512 O
+autonomic 10 19 513 522 B-chronic_disease
+dysreflexia 20 31 523 534 I-chronic_disease
+

@@ -1,0 +1,4 @@
+Documented 0 10 0 10 O
+ADHD 11 15 11 15 B-chronic_disease
+diagnosis 16 25 16 25 O
+

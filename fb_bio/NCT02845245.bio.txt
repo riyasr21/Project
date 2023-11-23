@@ -1,0 +1,33 @@
+Adults 0 6 0 6 O
+18 7 9 7 9 B-lower_bound
+to 10 12 10 12 O
+75 13 15 13 15 B-upper_bound
+years 16 21 16 21 I-upper_bound
+old 22 25 22 25 O
+
+Available 0 9 26 35 O
+for 10 13 36 39 O
+follow 14 20 40 46 O
+- 20 21 46 47 O
+up 21 23 47 49 O
+for 24 27 50 53 O
+12 28 30 54 56 B-lower_bound
+months 31 37 57 63 I-lower_bound
+
+English 0 7 64 71 B-language_fluency
+speaking 8 16 72 80 I-language_fluency
+
+History 0 7 81 88 O
+of 8 10 89 91 O
+musculoskeletal 11 26 92 107 B-chronic_disease
+disease 27 34 108 115 I-chronic_disease
+of 35 37 116 118 O
+the 38 41 119 122 O
+foot 42 46 123 127 O
+and/or 47 53 128 134 O
+ankle 54 59 135 140 O
+( 60 61 141 142 O
+i.e. 61 65 142 146 O
+arthritis 66 75 147 156 B-chronic_disease
+) 75 76 156 157 O
+

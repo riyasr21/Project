@@ -1,0 +1,62 @@
+24hr 0 4 0 4 O
+urine 5 10 5 10 B-clinical_variable
+calcium 11 18 11 18 I-clinical_variable
+> 19 20 19 20 O
+250mg 20 25 20 25 B-lower_bound
+/ 25 26 25 26 I-lower_bound
+d 26 27 26 27 I-lower_bound
+in 28 30 28 30 O
+women 31 36 31 36 B-gender
+
+> 0 1 37 38 O
+300mg 1 6 38 43 B-lower_bound
+/ 6 7 43 44 I-lower_bound
+d 7 8 44 45 I-lower_bound
+in 9 11 46 48 O
+men 12 15 49 52 B-gender
+prior 16 21 53 58 O
+to 22 24 59 61 O
+indapamide 25 35 62 72 B-treatment
+use 36 39 73 76 O
+
+Hypercalciuric 0 14 77 91 B-chronic_disease
+CaP 15 18 92 95 O
+stone 19 24 96 101 O
+formers 25 32 102 109 O
+
+Hypocitraturic 0 14 110 124 B-chronic_disease
+CaP 15 18 125 128 O
+stone 19 24 129 134 O
+formers 25 32 135 142 O
+
+elevated 0 8 143 151 O
+pH 9 11 152 154 O
+as 12 14 155 157 O
+24 15 17 158 160 O
+- 17 18 160 161 O
+hr 18 20 161 163 O
+urine 21 26 164 169 B-clinical_variable
+pH 27 29 170 172 I-clinical_variable
+above 30 35 173 178 O
+6.40 36 40 179 183 B-lower_bound
+
+high 0 4 184 188 O
+pH 5 7 189 191 B-clinical_variable
+as 8 10 192 194 O
+> 11 12 195 196 O
+6.40 12 16 196 200 B-lower_bound
+in 17 19 201 203 O
+the 20 23 204 207 O
+absence 24 31 208 215 O
+of 32 34 216 218 O
+urinary 35 42 219 226 B-chronic_disease
+tract 43 48 227 232 I-chronic_disease
+infection 49 58 233 242 I-chronic_disease
+
+urine 0 5 243 248 B-clinical_variable
+citrate 6 13 249 256 I-clinical_variable
+< 14 15 257 258 O
+320mg 15 20 258 263 B-upper_bound
+/ 20 21 263 264 I-upper_bound
+d 21 22 264 265 I-upper_bound
+

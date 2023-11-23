@@ -1,0 +1,21 @@
+Patients 0 8 0 8 O
+at 9 11 9 11 O
+least 12 17 12 17 O
+6 18 19 18 19 B-lower_bound
+years 20 25 20 25 I-lower_bound
+of 26 28 26 28 O
+age 29 32 29 32 B-age
+, 32 33 32 33 O
+upper 34 39 34 39 O
+limit 40 45 40 45 O
+of 46 48 46 48 O
+45 49 51 49 51 B-upper_bound
+years 52 57 52 57 I-upper_bound
+old 58 61 58 61 O
+
+Patients 0 8 62 70 O
+with 9 13 71 75 O
+Inflammatory 14 26 76 88 B-chronic_disease
+Bowel 27 32 89 94 I-chronic_disease
+Disease 33 40 95 102 I-chronic_disease
+

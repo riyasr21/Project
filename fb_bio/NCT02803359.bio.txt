@@ -1,0 +1,55 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+Lidocaine 11 20 11 20 B-allergy_name
+
+Allergy 0 7 21 28 O
+to 8 10 29 31 O
+Oxymetazoline 11 24 32 45 B-allergy_name
+
+Healthy 0 7 46 53 O
+Subjects 8 16 54 62 O
+undergoing 17 27 63 73 O
+thyroid 28 35 74 81 B-treatment
+or 36 38 82 84 I-treatment
+other 39 44 85 90 I-treatment
+open 45 49 91 95 I-treatment
+neck 50 54 96 100 I-treatment
+surgeries 55 64 101 110 I-treatment
+
+History 0 7 111 118 O
+of 8 10 119 121 O
+Brain 11 16 122 127 B-treatment
+Surgery 17 24 128 135 I-treatment
+
+History 0 7 136 143 O
+of 8 10 144 146 O
+Diabetes 11 19 147 155 B-chronic_disease
+Mellitus 20 28 156 164 I-chronic_disease
+
+History 0 7 165 172 O
+of 8 10 173 175 O
+Neck 11 15 176 180 B-treatment
+Surgery 16 23 181 188 I-treatment
+
+History 0 7 189 196 O
+of 8 10 197 199 O
+Neurologic 11 21 200 210 B-chronic_disease
+Disease 22 29 211 218 I-chronic_disease
+
+History 0 7 219 226 O
+of 8 10 227 229 O
+Stroke 11 17 230 236 B-chronic_disease
+
+Laryngopharyngeal 0 17 237 254 B-chronic_disease
+Reflux 18 24 255 261 I-chronic_disease
+Disease 25 32 262 269 I-chronic_disease
+
+Recent 0 6 270 276 O
+Laryngeal 7 16 277 286 B-treatment
+Surgery 17 24 287 294 I-treatment
+( 25 26 295 296 O
+within 26 32 296 302 O
+one 33 36 303 306 B-upper_bound
+month 37 42 307 312 I-upper_bound
+) 42 43 312 313 O
+

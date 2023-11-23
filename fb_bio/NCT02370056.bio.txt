@@ -1,0 +1,72 @@
+BMI 0 3 0 3 B-bmi
+between 4 11 4 11 O
+17 12 14 12 14 B-lower_bound
+and 15 18 15 18 O
+30 19 21 19 21 B-upper_bound
+
+BMI>30 0 6 22 28 B-bmi
+
+Elective 0 8 29 37 B-treatment
+procedure 9 18 38 47 I-treatment
+
+Emergency 0 9 48 57 B-treatment
+surgery 10 17 58 65 I-treatment
+
+Indication 0 10 66 76 O
+for 11 14 77 80 O
+surgery 15 22 81 88 B-treatment
+must 23 27 89 93 O
+be 28 30 94 96 O
+Ulcerative 31 41 97 107 B-chronic_disease
+Colitis 42 49 108 115 I-chronic_disease
+
+Patient 0 7 116 123 O
+age 8 11 124 127 B-age
+between 12 19 128 135 O
+18 20 22 136 138 B-lower_bound
+and 23 26 139 142 O
+80 27 29 143 145 B-upper_bound
+
+Patient 0 7 146 153 O
+age 8 11 154 157 B-age
+< 11 12 157 158 O
+18 13 15 159 161 B-upper_bound
+, 15 16 161 162 O
+or 17 19 163 165 O
+> 20 21 166 167 O
+80 21 23 167 169 B-lower_bound
+
+Pregnancy 0 9 170 179 B-pregnancy
+
+Presence 0 8 180 188 O
+of 9 11 189 191 O
+any 12 15 192 195 O
+gastrointestinal 16 32 196 212 B-cancer
+tract 33 38 213 218 I-cancer
+malignancy 39 49 219 229 I-cancer
+
+Previous 0 8 230 238 O
+gastrointestinal 9 25 239 255 B-treatment
+surgery 26 33 256 263 I-treatment
+
+Segmental 0 9 264 273 B-treatment
+colon 10 15 274 279 I-treatment
+resections 16 26 280 290 I-treatment
+
+Total 0 5 291 296 O
+colectomy 6 15 297 306 O
+with 16 20 307 311 O
+end 21 24 312 315 O
+ileostomy 25 34 316 325 B-treatment
+, 34 35 325 326 O
+without 36 43 327 334 O
+proctectomy 44 55 335 346 B-treatment
+
+UC 0 2 347 349 B-chronic_disease
+
+completion 0 10 350 360 O
+proctectomy 11 22 361 372 B-treatment
+
+total 0 5 373 378 O
+proctocolectomy 6 21 379 394 B-treatment
+

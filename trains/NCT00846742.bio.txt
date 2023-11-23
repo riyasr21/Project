@@ -1,0 +1,73 @@
+3 0 1 0 1 B-lower_bound
+or 2 4 2 4 O
+more 5 9 5 9 O
+nodal 10 15 10 15 O
+sites 16 21 16 21 O
+involved 22 30 22 30 O
+
+< 0 1 31 32 O
+3 2 3 33 34 B-upper_bound
+nodal 4 9 35 40 B-clinical_variable
+regions 10 17 41 48 I-clinical_variable
+involved 18 26 49 57 O
+on 27 29 58 60 O
+the 30 33 61 64 O
+same 34 38 65 69 O
+side 39 43 70 74 O
+of 44 46 75 77 O
+the 47 50 78 81 O
+diaphragm 51 60 82 91 O
+
+Age 0 3 92 95 B-age
+: 3 4 95 96 O
+Participants 5 17 97 109 O
+must 18 22 110 114 O
+be 23 25 115 117 O
+21 26 28 118 120 B-upper_bound
+years 29 34 121 126 I-upper_bound
+of 35 37 127 129 O
+age 38 41 130 133 B-age
+or 42 44 134 136 O
+younger 45 52 137 144 O
+
+Female 0 6 145 151 B-gender
+patients 7 15 152 160 I-gender
+who 16 19 161 164 O
+are 20 23 165 168 O
+post 24 28 169 173 O
+- 28 29 173 174 O
+menarchal 29 38 174 183 O
+must 39 43 184 188 O
+have 44 48 189 193 O
+a 49 50 194 195 O
+negative 51 59 196 204 B-pregnancy
+pregnancy 60 69 205 214 I-pregnancy
+test 70 74 215 219 O
+
+Patients 0 8 220 228 O
+of 9 11 229 231 O
+reproductive 12 24 232 244 O
+potential 25 34 245 254 O
+must 35 39 255 259 O
+agree 40 45 260 265 B-contraception_consent
+to 46 48 266 268 I-contraception_consent
+use 49 52 269 272 I-contraception_consent
+an 53 55 273 275 I-contraception_consent
+effective 56 65 276 285 I-contraception_consent
+contraceptive 66 79 286 299 I-contraception_consent
+method 80 86 300 306 I-contraception_consent
+
+bulky 0 5 307 312 O
+mediastinal 6 17 313 324 B-chronic_disease
+adenopathy 18 28 325 335 I-chronic_disease
+
+defined 0 7 336 343 O
+as 8 10 344 346 O
+Stage 11 16 347 352 B-cancer
+IB 17 19 353 355 I-cancer
+
+previously 0 10 356 366 O
+untreated 11 20 367 376 O
+Hodgkin 21 28 377 384 B-cancer
+lymphoma 29 37 385 393 I-cancer
+

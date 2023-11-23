@@ -1,0 +1,108 @@
+Limited 0 7 0 7 O
+prior 8 13 8 13 B-treatment
+therapy 14 21 14 21 I-treatment
+
+Patient 0 7 22 29 O
+has 8 11 30 33 O
+newly 12 17 34 39 O
+diagnosed 18 27 40 49 O
+acute 28 33 50 55 B-cancer
+lymphoblastic 34 47 56 69 I-cancer
+leukemia 48 56 70 78 I-cancer
+( 57 58 79 80 I-cancer
+ALL 58 61 80 83 I-cancer
+) 61 62 83 84 I-cancer
+or 63 65 85 87 O
+acute 66 71 88 93 B-cancer
+undifferentiated 72 88 94 110 I-cancer
+leukemia 89 97 111 119 I-cancer
+with 98 102 120 124 O
+≥25 103 106 125 128 O
+% 106 107 128 129 I-lower_bound
+blasts 108 114 130 136 O
+in 115 117 137 139 O
+the 118 121 140 143 O
+bone 122 126 144 148 O
+marrow 127 133 149 155 O
+( 134 135 156 157 O
+M3 135 137 157 159 O
+) 137 138 159 160 O
+, 138 139 160 161 O
+with 140 144 162 166 O
+or 145 147 167 169 O
+without 148 155 170 177 O
+extramedullary 156 170 178 192 B-cancer
+disease 171 178 193 200 I-cancer
+
+Patient 0 7 201 208 O
+is 8 10 209 211 O
+≤ 11 12 212 213 O
+365 13 16 214 217 B-upper_bound
+days 17 21 218 222 I-upper_bound
+of 22 24 223 225 O
+age 25 28 226 229 B-age
+at 29 31 230 232 O
+the 32 35 233 236 O
+time 36 40 237 241 O
+of 41 43 242 244 O
+diagnosis 44 53 245 254 O
+
+Patients 0 8 255 263 O
+with 9 13 264 268 O
+Down 14 18 269 273 B-chronic_disease
+syndrome 19 27 274 282 I-chronic_disease
+
+Patients 0 8 283 291 O
+with 9 13 292 296 O
+T 14 15 297 298 B-cancer
+- 15 16 298 299 I-cancer
+cell 16 20 299 303 I-cancer
+ALL 21 24 304 307 I-cancer
+
+Patients 0 8 308 316 O
+with 9 13 317 321 O
+mature 14 20 322 328 B-cancer
+B 21 22 329 330 I-cancer
+- 22 23 330 331 I-cancer
+cell 23 27 331 335 I-cancer
+ALL 28 31 336 339 I-cancer
+or 32 34 340 342 O
+acute 35 40 343 348 B-cancer
+myelogenous 41 52 349 360 I-cancer
+( 53 54 361 362 I-cancer
+AML 54 57 362 365 I-cancer
+) 57 58 365 366 I-cancer
+
+Patients 0 8 367 375 O
+with 9 13 376 380 O
+prior 14 19 381 386 B-treatment
+therapy 20 27 387 394 I-treatment
+, 27 28 394 395 O
+other 29 34 396 401 O
+than 35 39 402 406 O
+therapy 40 47 407 414 O
+specified 48 57 415 424 O
+in 58 60 425 427 O
+the 61 64 428 431 O
+Inclusion 65 74 432 441 O
+Criteria 75 83 442 450 O
+
+one 0 3 451 454 O
+dose 4 8 455 459 O
+of 9 11 460 462 O
+intrathecal 12 23 463 474 B-treatment
+chemotherapy 24 36 475 487 I-treatment
+
+one 0 3 488 491 O
+dose 4 8 492 496 O
+of 9 11 497 499 O
+vincristine 12 23 500 511 B-treatment
+
+systemic 0 8 512 520 B-treatment
+glucocorticoids 9 24 521 536 I-treatment
+for 25 28 537 540 O
+one 29 32 541 544 B-upper_bound
+week 33 37 545 549 I-upper_bound
+or 38 40 550 552 O
+less 41 45 553 557 O
+

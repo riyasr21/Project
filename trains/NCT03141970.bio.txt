@@ -1,0 +1,58 @@
+Corticosteroid 0 14 0 14 B-treatment
+therapy 15 22 15 22 I-treatment
+for 23 26 23 26 O
+initial 27 34 27 34 O
+episode 35 42 35 42 O
+of 43 45 43 45 O
+nephrotic 46 55 46 55 B-chronic_disease
+syndrome 56 64 56 64 I-chronic_disease
+prior 65 70 65 70 O
+to 71 73 71 73 O
+randomization 74 87 74 87 O
+varying 88 95 88 95 O
+from 96 100 96 100 O
+pre 101 104 101 104 O
+- 104 105 104 105 O
+specified 105 114 105 114 O
+protocol 115 123 115 123 O
+on 124 126 124 126 O
+more 127 131 127 131 O
+than 132 136 132 136 O
+14 137 139 137 139 B-lower_bound
+days 140 144 140 144 I-lower_bound
+
+Persistent 0 10 145 155 O
+estimated 11 20 156 165 O
+glomerular 21 31 166 176 B-clinical_variable
+filtration 32 42 177 187 I-clinical_variable
+rate 43 47 188 192 I-clinical_variable
+( 48 49 193 194 I-clinical_variable
+GFR 49 52 194 197 I-clinical_variable
+) 52 53 197 198 I-clinical_variable
+< 54 55 199 200 O
+75 55 57 200 202 B-upper_bound
+ml 58 60 203 205 I-upper_bound
+/ 60 61 205 206 I-upper_bound
+min/1.73 61 69 206 214 I-upper_bound
+m2 70 72 215 217 I-upper_bound
+
+Therapy 0 7 218 225 O
+with 8 12 226 230 O
+prednisolone 13 25 231 243 B-treatment
+for 26 29 244 247 O
+prior 30 35 248 253 O
+episodes 36 44 254 262 O
+of 45 47 263 265 O
+nephrotic 48 57 266 275 B-chronic_disease
+syndrome 58 66 276 284 I-chronic_disease
+
+first 0 5 285 290 O
+episode 6 13 291 298 O
+of 14 16 299 301 O
+nephrotic 17 26 302 311 B-chronic_disease
+syndrome 27 35 312 320 I-chronic_disease
+
+steroid 0 7 321 328 B-allergy_name
+- 7 8 328 329 I-allergy_name
+sensitive 8 17 329 338 I-allergy_name
+

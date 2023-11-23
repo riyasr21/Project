@@ -1,0 +1,65 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 7 8 7 8 O
+45 9 11 9 11 B-upper_bound
+
+Diagnosis 0 9 12 21 O
+of 10 12 22 24 O
+hip 13 16 25 28 B-chronic_disease
+dysplasia 17 26 29 38 I-chronic_disease
+( 27 28 39 40 I-chronic_disease
+DDH 28 31 40 43 I-chronic_disease
+) 31 32 43 44 I-chronic_disease
+electing 33 41 45 53 B-chronic_disease
+periacetabular 42 56 54 68 I-chronic_disease
+osteotomy 57 66 69 78 I-chronic_disease
+( 67 68 79 80 I-chronic_disease
+PAO 68 71 80 83 I-chronic_disease
+) 71 72 83 84 I-chronic_disease
+for 73 76 85 88 O
+treatment 77 86 89 98 O
+
+Patients 0 8 99 107 O
+receiving 9 18 108 117 O
+PAO 19 22 118 121 B-treatment
+for 23 26 122 125 O
+acetabular 27 37 126 136 O
+retroversion 38 50 137 149 O
+in 51 53 150 152 O
+the 54 57 153 156 O
+absence 58 65 157 164 O
+of 66 68 165 167 O
+DDH 69 72 168 171 O
+
+Pregnant 0 8 172 180 B-pregnancy
+women 9 14 181 186 B-gender
+
+Previous 0 8 187 195 O
+hip 9 12 196 199 B-treatment
+arthroscopy 13 24 200 211 I-treatment
+to 25 27 212 214 O
+address 28 35 215 222 O
+intra 36 41 223 228 O
+- 41 42 228 229 O
+articular 42 51 229 238 O
+pathology 52 61 239 248 O
+
+Previous 0 8 249 257 B-treatment
+surgery 9 16 258 265 I-treatment
+about 17 22 266 271 O
+the 23 26 272 275 O
+hip 27 30 276 279 O
+
+Tonnis 0 6 280 286 B-clinical_variable
+Grade 7 12 287 292 I-clinical_variable
+0 13 14 293 294 B-lower_bound
+or 15 17 295 297 O
+1 18 19 298 299 B-upper_bound
+osteoarthritis 20 34 300 314 O
+( 35 36 315 316 O
+minimal 36 43 316 323 O
+or 44 46 324 326 O
+no 47 49 327 329 O
+arthritis 50 59 330 339 O
+) 59 60 339 340 O
+

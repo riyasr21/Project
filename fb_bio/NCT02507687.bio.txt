@@ -1,0 +1,45 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+either 13 19 13 19 O
+Open 20 24 20 24 B-chronic_disease
+- 24 25 24 25 I-chronic_disease
+Angle 25 30 25 30 I-chronic_disease
+Glaucoma 31 39 31 39 I-chronic_disease
+or 40 42 40 42 O
+Ocular 43 49 43 49 B-chronic_disease
+Hypertension 50 62 50 62 I-chronic_disease
+in 63 65 63 65 O
+each 66 70 66 70 O
+eye 71 74 71 74 O
+that 75 79 75 79 O
+require 80 87 80 87 O
+IOP 88 91 88 91 B-treatment
+lowering 92 100 92 100 I-treatment
+treatment 101 110 101 110 I-treatment
+
+Enrollment 0 10 111 121 O
+in 11 13 122 124 O
+other 14 19 125 130 O
+studies 20 27 131 138 O
+using 28 33 139 144 O
+Bimatoprost 34 45 145 156 O
+SR 46 48 157 159 I-treatment
+
+Eye 0 3 160 163 B-treatment
+surgery 4 11 164 171 I-treatment
+( 12 13 172 173 O
+including 13 22 173 182 O
+cataract 23 31 183 191 B-treatment
+surgery 32 39 192 199 I-treatment
+) 39 40 199 200 O
+and 41 44 201 204 O
+or 45 47 205 207 O
+eye 48 51 208 211 B-treatment
+laser 52 57 212 217 I-treatment
+surgery 58 65 218 225 I-treatment
+within 66 72 226 232 O
+the 73 76 233 236 O
+past 77 81 237 241 B-upper_bound
+6 82 83 242 243 I-upper_bound
+months 84 90 244 250 I-upper_bound
+

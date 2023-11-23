@@ -1,0 +1,38 @@
+Exposed 0 7 0 7 O
+to 8 10 8 10 O
+cannabis 11 19 11 19 O
+at 20 22 20 22 O
+least 23 28 23 28 O
+once 29 33 29 33 B-lower_bound
+in 34 36 34 36 O
+their 37 42 37 42 O
+lifetime 43 51 43 51 O
+
+Hearing 0 7 52 59 B-chronic_disease
+deficits 8 16 60 68 I-chronic_disease
+
+Men 0 3 69 72 B-gender
+
+Positive 0 8 73 81 O
+pregnancy 9 18 82 91 B-pregnancy
+screen 19 25 92 98 O
+during 26 32 99 105 O
+screening 33 42 106 115 O
+
+aged 0 4 116 120 B-age
+18 5 7 121 123 B-lower_bound
+and 8 11 124 127 O
+55 12 14 128 130 B-upper_bound
+years 15 20 131 136 I-upper_bound
+( 21 22 137 138 O
+extremes 22 30 138 146 O
+included 31 39 147 155 O
+) 39 40 155 156 O
+on 41 43 157 159 O
+day 44 47 160 163 O
+of 48 50 164 166 O
+first 51 56 167 172 O
+dosing 57 63 173 179 O
+
+women 0 5 180 185 B-gender
+

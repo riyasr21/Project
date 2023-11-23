@@ -1,0 +1,87 @@
+age 0 3 0 3 B-age
+younger 4 11 4 11 O
+than 12 16 12 16 O
+18 17 19 17 19 B-upper_bound
+years 20 25 20 25 I-upper_bound
+
+current 0 7 26 33 O
+treatment 8 17 34 43 O
+with 18 22 44 48 O
+systemic 23 31 49 57 B-treatment
+antibiotic 32 42 58 68 I-treatment
+therapy 43 50 69 76 I-treatment
+
+documented 0 10 77 87 O
+or 11 13 88 90 O
+suspected 14 23 91 100 O
+infection 24 33 101 110 O
+of 34 36 111 113 O
+the 37 40 114 117 O
+site 41 45 118 122 O
+prior 46 51 123 128 O
+to 52 54 129 131 O
+surgery 55 62 132 139 B-treatment
+
+history 0 7 140 147 O
+of 8 10 148 150 O
+skin 11 15 151 155 O
+sensitivity 16 27 156 167 O
+or 28 30 168 170 O
+reaction 31 39 171 179 O
+to 40 42 180 182 O
+white 43 48 183 188 B-allergy_name
+petrolatum 49 59 189 199 I-allergy_name
+
+patients 0 8 200 208 O
+receiving 9 18 209 218 O
+prophylactic 19 31 219 231 B-treatment
+antibiotics 32 43 232 243 I-treatment
+
+patients 0 8 244 252 O
+undergoing 9 19 253 263 O
+any 20 23 264 267 O
+surgical 24 32 268 276 B-treatment
+treatment 33 42 277 286 I-treatment
+of 43 45 287 289 O
+benign 46 52 290 296 B-cancer
+and 53 56 297 300 O
+malignant 57 66 301 310 B-cancer
+lesions 67 74 311 318 I-cancer
+by 75 77 319 321 O
+any 78 81 322 325 O
+physician 82 91 326 335 O
+in 92 94 336 338 O
+the 95 98 339 342 O
+Dermatology 99 110 343 354 O
+department 111 121 355 365 O
+
+pregnancy 0 9 366 375 B-pregnancy
+
+standard 0 8 376 384 O
+excisional 9 19 385 395 B-treatment
+surgery 20 27 396 403 I-treatment
+or 28 30 404 406 O
+Mohs 31 35 407 411 B-treatment
+micrographic 36 48 412 424 I-treatment
+surgery 49 56 425 432 I-treatment
+with 57 61 433 437 O
+immediate 62 71 438 447 B-treatment
+reconstruction 72 86 448 462 I-treatment
+
+will 0 4 463 467 O
+not 5 8 468 471 O
+be 9 11 472 474 O
+returning 12 21 475 484 O
+to 22 24 485 487 O
+the 25 28 488 491 O
+dermatology 29 40 492 503 O
+clinic 41 47 504 510 O
+in 48 50 511 513 O
+7 51 52 514 515 B-lower_bound
+- 52 53 515 516 O
+14 53 55 516 518 B-upper_bound
+days 56 60 519 523 I-upper_bound
+for 61 64 524 527 O
+suture 65 71 528 534 B-treatment
+removal 72 79 535 542 I-treatment
+

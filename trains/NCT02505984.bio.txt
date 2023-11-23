@@ -1,0 +1,53 @@
+At 0 2 0 2 O
+risk 3 7 3 7 O
+of 8 10 8 10 O
+postpartum 11 21 11 21 B-chronic_disease
+depression 22 32 22 32 I-chronic_disease
+( 33 34 33 34 I-chronic_disease
+PPD 34 37 34 37 I-chronic_disease
+) 37 38 37 38 I-chronic_disease
+
+Complicating 0 12 39 51 O
+pediatric 13 22 52 61 B-chronic_disease
+medical 23 30 62 69 I-chronic_disease
+condition 31 40 70 79 I-chronic_disease
+in 41 43 80 82 O
+the 44 47 83 86 O
+newborn 48 55 87 94 O
+
+Current 0 7 95 102 O
+diagnosis 8 17 103 112 O
+DSM-5 18 23 113 118 O
+mental 24 30 119 125 B-chronic_disease
+disorder 31 39 126 134 I-chronic_disease
+pertaining 40 50 135 145 O
+to 51 53 146 148 O
+psychosis 54 63 149 158 B-chronic_disease
+or 64 66 159 161 O
+substance 67 76 162 171 O
+abuse 77 82 172 177 O
+
+Obstetric 0 9 178 187 B-chronic_disease
+complication 10 22 188 200 I-chronic_disease
+( 23 24 201 202 O
+e.g. 24 28 202 206 O
+, 28 29 206 207 O
+preeclampsia 30 42 208 220 B-chronic_disease
+, 42 43 220 221 O
+excessive 44 53 222 231 B-chronic_disease
+hemorrhaging 54 66 232 244 I-chronic_disease
+) 66 67 244 245 O
+
+Third 0 5 246 251 O
+- 5 6 251 252 O
+trimester 6 15 252 261 O
+pregnant 16 24 262 270 B-pregnancy
+women 25 30 271 276 B-gender
+being 31 36 277 282 O
+followed 37 45 283 291 O
+at 46 48 292 294 O
+the 49 52 295 298 O
+MGH 53 56 299 302 O
+Obstetrics 57 67 303 313 O
+Program 68 75 314 321 O
+

@@ -1,0 +1,32 @@
+Eastern 0 7 0 7 B-clinical_variable
+Cooperative 8 19 8 19 I-clinical_variable
+Oncology 20 28 20 28 I-clinical_variable
+Group 29 34 29 34 I-clinical_variable
+( 35 36 35 36 I-clinical_variable
+ECOG 36 40 36 40 I-clinical_variable
+) 40 41 40 41 I-clinical_variable
+score 42 47 42 47 I-clinical_variable
+of 48 50 48 50 O
+0 51 52 51 52 B-lower_bound
+to 53 55 53 55 O
+2 56 57 56 57 B-upper_bound
+
+Transformation 0 14 58 72 O
+of 15 17 73 75 O
+CLL 18 21 76 79 B-cancer
+to 22 24 80 82 O
+aggressive 25 35 83 93 O
+Non 36 39 94 97 B-cancer
+- 39 40 97 98 I-cancer
+Hodgkin 40 47 98 105 I-cancer
+'s 47 49 105 107 I-cancer
+Lymphoma 50 58 108 116 I-cancer
+( 59 60 117 118 I-cancer
+NHL 60 63 118 121 I-cancer
+) 63 64 121 122 I-cancer
+( 65 66 123 124 O
+Richter 66 73 124 131 O
+'s 73 75 131 133 O
+transformation 76 90 134 148 O
+) 90 91 148 149 O
+

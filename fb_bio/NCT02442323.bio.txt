@@ -1,0 +1,112 @@
+Are 0 3 0 3 O
+undergoing 4 14 4 14 O
+treatment 15 24 15 24 O
+for 25 28 25 28 O
+pancreatic 29 39 29 39 B-cancer
+cancer 40 46 40 46 I-cancer
+at 47 49 47 49 O
+Fox 50 53 50 53 O
+Chase 54 59 54 59 O
+Cancer 60 66 60 66 O
+Center 67 73 67 73 O
+
+Have 0 4 74 78 O
+an 5 7 79 81 O
+Eastern 8 15 82 89 B-clinical_variable
+Cooperative 16 27 90 101 I-clinical_variable
+Oncology 28 36 102 110 I-clinical_variable
+Group 37 42 111 116 I-clinical_variable
+( 43 44 117 118 I-clinical_variable
+ECOG 44 48 118 122 I-clinical_variable
+) 48 49 122 123 I-clinical_variable
+performance 50 61 124 135 I-clinical_variable
+status 62 68 136 142 I-clinical_variable
+of 69 71 143 145 O
+0 72 73 146 147 B-lower_bound
+, 73 74 147 148 O
+1 75 76 149 150 O
+, 76 77 150 151 O
+or 78 80 152 154 O
+2 81 82 155 156 B-upper_bound
+
+Have 0 4 157 161 O
+an 5 7 162 164 O
+estimated 8 17 165 174 O
+life 18 22 175 179 B-clinical_variable
+expectancy 23 33 180 190 I-clinical_variable
+of 34 36 191 193 O
+greater 37 44 194 201 O
+than 45 49 202 206 O
+3 50 51 207 208 B-lower_bound
+months 52 58 209 215 I-lower_bound
+
+Have 0 4 216 220 O
+borderline 5 15 221 231 B-cancer
+resectable 16 26 232 242 I-cancer
+or 27 29 243 245 O
+unresectable 30 42 246 258 O
+locally 43 50 259 266 O
+advanced 51 59 267 275 O
+disease 60 67 276 283 O
+or 68 70 284 286 O
+metastatic 71 81 287 297 B-cancer
+disease 82 89 298 305 I-cancer
+
+Have 0 4 306 310 O
+histologically 5 19 311 325 O
+confirmed 20 29 326 335 O
+adenocarcinoma 30 44 336 350 B-cancer
+of 45 47 351 353 I-cancer
+the 48 51 354 357 I-cancer
+pancreas 52 60 358 366 I-cancer
+
+Inability 0 9 367 376 B-language_fluency
+to 10 12 377 379 I-language_fluency
+communicate 13 24 380 391 I-language_fluency
+in 25 27 392 394 I-language_fluency
+English 28 35 395 402 I-language_fluency
+
+Patients 0 8 403 411 O
+aged 9 13 412 416 B-age
+18 14 16 417 419 B-lower_bound
+years 17 22 420 425 I-lower_bound
+or 23 25 426 428 O
+older 26 31 429 434 O
+
+Patients 0 8 435 443 O
+with 9 13 444 448 O
+islet 14 19 449 454 B-cancer
+cell 20 24 455 459 I-cancer
+/ 24 25 459 460 I-cancer
+neuroendocrine 25 39 460 474 I-cancer
+
+adenocarcinoma 0 14 475 489 B-cancer
+subtypes 15 23 490 498 O
+
+adenosquamous 0 13 499 512 B-cancer
+carcinoma 14 23 513 522 I-cancer
+
+mucinous 0 8 523 531 B-cancer
+carcinoma 9 18 532 541 I-cancer
+
+papillary 0 9 542 551 B-cancer
+cystic 10 16 552 558 I-cancer
+neoplasm 17 25 559 567 I-cancer
+
+receiving 0 9 568 577 O
+3rd 10 13 578 581 B-treatment
+- 13 14 581 582 I-treatment
+line 14 18 582 586 I-treatment
+palliative 19 29 587 597 I-treatment
+chemotherapy 30 42 598 610 I-treatment
+
+signet 0 6 611 617 B-cancer
+ring 7 11 618 622 I-cancer
+carcinoma 12 21 623 632 I-cancer
+
+undifferentiated 0 16 633 649 O
+/ 16 17 649 650 O
+poorly 17 23 650 656 O
+differentiated 24 38 657 671 O
+carcinoma 39 48 672 681 B-cancer
+

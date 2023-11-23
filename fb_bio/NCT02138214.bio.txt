@@ -1,0 +1,121 @@
+Ability 0 7 0 7 B-language_fluency
+to 8 10 8 10 I-language_fluency
+read 11 15 11 15 I-language_fluency
+and 16 19 16 19 I-language_fluency
+write 20 25 20 25 I-language_fluency
+in 26 28 26 28 I-language_fluency
+English 29 36 29 36 I-language_fluency
+
+Becomes 0 7 37 44 B-pregnancy
+pregnant 8 16 45 53 I-pregnancy
+before 17 23 54 60 O
+surgery 24 31 61 68 B-treatment
+or 32 34 69 71 O
+at 35 37 72 74 O
+any 38 41 75 78 O
+time 42 46 79 83 O
+while 47 52 84 89 O
+on 53 55 90 92 O
+study 56 61 93 98 O
+
+Chronic 0 7 99 106 B-chronic_disease
+neurologic 8 18 107 117 I-chronic_disease
+condition 19 28 118 127 I-chronic_disease
+which 29 34 128 133 O
+affects 35 42 134 141 O
+voice 43 48 142 147 O
+or 49 51 148 150 O
+swallow 52 59 151 158 O
+( 60 61 159 160 O
+for 61 64 160 163 O
+instance 65 73 164 172 O
+, 73 74 172 173 O
+multiple 75 83 174 182 B-chronic_disease
+sclerosis 84 93 183 192 I-chronic_disease
+or 94 96 193 195 O
+Parkinson 97 106 196 205 B-chronic_disease
+disease 107 114 206 213 I-chronic_disease
+) 114 115 213 214 O
+
+Concurrent 0 10 215 225 O
+active 11 17 226 232 O
+malignancy 18 28 233 243 B-cancer
+of 29 31 244 246 O
+another 32 39 247 254 O
+type 40 44 255 259 O
+
+Failure 0 7 260 267 O
+to 8 10 268 270 O
+confirm 11 18 271 278 O
+diagnosis 19 28 279 288 O
+of 29 31 289 291 O
+cancer 32 38 292 298 B-cancer
+in 39 41 299 301 O
+participant 42 53 302 313 O
+
+Largest 0 7 314 321 O
+papillary 8 17 322 331 B-cancer
+thyroid 18 25 332 339 I-cancer
+carcinoma 26 35 340 349 I-cancer
+< 36 37 350 351 O
+1 38 39 352 353 B-upper_bound
+cm 40 42 354 356 I-upper_bound
+in 43 45 357 359 O
+size 46 50 360 364 O
+on 51 53 365 367 O
+ultrasound 54 64 368 378 O
+
+No 0 2 379 381 O
+evidence 3 11 382 390 O
+of 12 14 391 393 O
+distant 15 22 394 401 B-cancer
+metastases 23 33 402 412 I-cancer
+
+No 0 2 413 415 O
+pre 3 6 416 419 O
+- 6 7 419 420 O
+operative 7 16 420 429 O
+evidence 17 25 430 438 O
+of 26 28 439 441 O
+cervical 29 37 442 450 B-cancer
+lymph 38 43 451 456 I-cancer
+node 44 48 457 461 I-cancer
+metastases 49 59 462 472 I-cancer
+on 60 62 473 475 I-cancer
+neck 63 67 476 480 I-cancer
+ultrasound 68 78 481 491 O
+( 79 80 492 493 O
+randomization 80 93 493 506 O
+arms 94 98 507 511 O
+only 99 103 512 516 O
+) 103 104 516 517 O
+
+Pre 0 3 518 521 O
+- 3 4 521 522 O
+existing 4 12 522 530 O
+vocal 13 18 531 536 B-chronic_disease
+cord 19 23 537 541 I-chronic_disease
+paralysis 24 33 542 551 I-chronic_disease
+
+Previous 0 8 552 560 O
+thyroid 9 16 561 568 B-treatment
+surgery 17 24 569 576 I-treatment
+
+T4 0 2 577 579 B-cancer
+tumor 3 8 580 585 I-cancer
+
+suspicion 0 9 586 595 O
+of 10 12 596 598 O
+papillary 13 22 599 608 B-cancer
+thyroid 23 30 609 616 I-cancer
+cancer 31 37 617 623 I-cancer
+, 37 38 623 624 O
+usually 39 46 625 632 O
+by 47 49 633 635 O
+fine 50 54 636 640 B-treatment
+needle 55 61 641 647 I-treatment
+aspiration 62 72 648 658 I-treatment
+( 73 74 659 660 I-treatment
+FNA 74 77 660 663 I-treatment
+) 77 78 663 664 I-treatment
+

@@ -1,0 +1,226 @@
+12 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+17 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+ALT 0 3 16 19 B-clinical_variable
+or 4 6 20 22 O
+AST 7 10 23 26 B-clinical_variable
+> 11 12 27 28 O
+2 12 13 28 29 B-lower_bound
+times 14 19 30 35 I-lower_bound
+the 20 23 36 39 I-lower_bound
+upper 24 29 40 45 I-lower_bound
+limit 30 35 46 51 I-lower_bound
+of 36 38 52 54 I-lower_bound
+normal 39 45 55 61 I-lower_bound
+
+BMI 0 3 62 65 B-clinical_variable
+≥1.2 4 8 66 70 O
+times 9 14 71 76 I-lower_bound
+the 15 18 77 80 I-lower_bound
+95th 19 23 81 85 I-lower_bound
+percentile 24 34 86 96 I-lower_bound
+( 35 36 97 98 O
+based 36 41 98 103 O
+on 42 44 104 106 O
+sex 45 48 107 110 O
+and 49 52 111 114 O
+age 53 56 115 118 B-age
+) 56 57 118 119 O
+or 58 60 120 122 O
+BMI 61 64 123 126 O
+≥35 65 68 127 130 O
+kg 69 71 131 133 I-lower_bound
+/ 71 72 133 134 I-lower_bound
+m2 72 74 134 136 I-lower_bound
+
+Bicarbonate 0 11 137 148 B-clinical_variable
+< 12 13 149 150 O
+18 13 15 150 152 B-upper_bound
+mmol 16 20 153 157 I-upper_bound
+/ 20 21 157 158 I-upper_bound
+L 21 22 158 159 I-upper_bound
+
+Bulimia 0 7 160 167 B-chronic_disease
+nervosa 8 15 168 175 I-chronic_disease
+
+Calcitonin 0 10 176 186 B-clinical_variable
+level 11 16 187 192 I-clinical_variable
+> 17 18 193 194 O
+50 18 20 194 196 B-lower_bound
+ng 21 23 197 199 I-lower_bound
+/ 23 24 199 200 I-lower_bound
+L 24 25 200 201 I-lower_bound
+
+Clinical 0 8 202 210 O
+diagnosis 9 18 211 220 O
+of 19 21 221 223 O
+bipolar 22 29 224 231 B-chronic_disease
+illness 30 37 232 239 I-chronic_disease
+, 37 38 239 240 O
+schizophrenia 39 52 241 254 B-chronic_disease
+, 52 53 254 255 O
+conduct 54 61 256 263 B-chronic_disease
+disorder 62 70 264 272 I-chronic_disease
+, 70 71 272 273 O
+and/or 72 78 274 280 O
+substance 79 88 281 290 O
+use 89 92 291 294 O
+/ 92 93 294 295 O
+abuse 93 98 295 300 O
+
+Creatinine 0 10 301 311 B-clinical_variable
+> 11 12 312 313 O
+1.2 12 15 313 316 B-lower_bound
+mg 16 18 317 319 I-lower_bound
+/ 18 19 319 320 I-lower_bound
+dL 19 21 320 322 I-lower_bound
+
+Females 0 7 323 330 B-gender
+
+History 0 7 331 338 O
+of 8 10 339 341 O
+cholelithiasis 11 25 342 356 B-chronic_disease
+
+History 0 7 357 364 O
+of 8 10 365 367 O
+pancreatitis 11 23 368 380 B-chronic_disease
+
+History 0 7 381 388 O
+of 8 10 389 391 O
+suicide 11 18 392 399 B-chronic_disease
+attempt 19 26 400 407 I-chronic_disease
+
+History 0 7 408 415 O
+of 8 10 416 418 O
+treatment 11 20 419 428 B-treatment
+with 21 25 429 433 O
+growth 26 32 434 440 O
+hormone 33 40 441 448 O
+
+Hyperthyroidism 0 15 449 464 B-chronic_disease
+or 16 18 465 467 O
+uncontrolled 19 31 468 480 B-chronic_disease
+hypothyroidism 32 46 481 495 I-chronic_disease
+
+Hypothalamic 0 12 496 508 B-chronic_disease
+obesity 13 20 509 516 I-chronic_disease
+
+Liver 0 5 517 522 B-chronic_disease
+/ 5 6 522 523 O
+renal 6 11 523 528 B-chronic_disease
+dysfunction 12 23 529 540 I-chronic_disease
+
+Neurodevelopmental 0 18 541 559 B-chronic_disease
+disorder 19 27 560 568 I-chronic_disease
+severe 28 34 569 575 O
+enough 35 41 576 582 O
+to 42 44 583 585 O
+impair 45 51 586 592 O
+ability 52 59 593 600 O
+to 60 62 601 603 O
+comply 63 69 604 610 O
+with 70 74 611 615 O
+study 75 80 616 621 O
+protocol 81 89 622 630 O
+
+Neurological 0 12 631 643 B-chronic_disease
+disorder 13 21 644 652 I-chronic_disease
+
+Obesity 0 7 653 660 B-chronic_disease
+associated 8 18 661 671 O
+with 19 23 672 676 O
+genetic 24 31 677 684 B-chronic_disease
+disorder 32 40 685 693 I-chronic_disease
+( 41 42 694 695 O
+monogenetic 42 53 695 706 B-chronic_disease
+obesity 54 61 707 714 I-chronic_disease
+) 61 62 714 715 O
+
+Personal- 0 9 716 725 O
+and/or 10 16 726 732 O
+family 17 23 733 739 O
+history 24 31 740 747 O
+of 32 34 748 750 O
+medullary 35 44 751 760 B-cancer
+thyroid 45 52 761 768 I-cancer
+carcinoma 53 62 769 778 I-cancer
+
+Personal- 0 9 779 788 O
+and/or 10 16 789 795 O
+family 17 23 796 802 O
+history 24 31 803 810 O
+of 32 34 811 813 O
+multiple 35 43 814 822 B-chronic_disease
+endocrine 44 53 823 832 I-chronic_disease
+neoplasia 54 63 833 842 I-chronic_disease
+type 64 68 843 847 I-chronic_disease
+2 69 70 848 849 I-chronic_disease
+
+Previous 0 8 850 858 O
+( 9 10 859 860 O
+within 10 16 860 866 O
+6 17 18 867 868 B-upper_bound
+months 19 25 869 875 I-upper_bound
+) 25 26 875 876 O
+or 27 29 877 879 O
+current 30 37 880 887 O
+use 38 41 888 891 O
+of 42 44 892 894 O
+medication(s 45 57 895 907 O
+) 57 58 907 908 O
+prescribed 59 69 909 919 O
+primarily 70 79 920 929 O
+for 80 83 930 933 O
+weight 84 90 934 940 O
+loss 91 95 941 945 O
+( 96 97 946 947 O
+refer 97 102 947 952 O
+to 103 105 953 955 O
+appendix 106 114 956 964 O
+material 115 123 965 973 O
+for 124 127 974 977 O
+comprehensive 128 141 978 991 O
+list 142 146 992 996 O
+) 146 147 996 997 O
+
+Previous 0 8 998 1006 B-treatment
+bariatric 9 18 1007 1016 I-treatment
+surgery 19 26 1017 1024 I-treatment
+
+Type 0 4 1025 1029 B-chronic_disease
+1 5 6 1030 1031 I-chronic_disease
+or 7 9 1032 1034 I-chronic_disease
+2 10 11 1035 1036 I-chronic_disease
+diabetes 12 20 1037 1045 I-chronic_disease
+mellitus 21 29 1046 1054 I-chronic_disease
+
+currently 0 9 1055 1064 B-pregnancy
+pregnant 10 18 1065 1073 I-pregnancy
+
+planning 0 8 1074 1082 B-pregnancy
+to 9 11 1083 1085 I-pregnancy
+become 12 18 1086 1092 I-pregnancy
+pregnant 19 27 1093 1101 I-pregnancy
+
+unwilling 0 9 1102 1111 B-contraception_consent
+to 10 12 1112 1114 I-contraception_consent
+use 13 16 1115 1118 I-contraception_consent
+2 17 18 1119 1120 I-contraception_consent
+or 19 21 1121 1123 I-contraception_consent
+more 22 26 1124 1128 I-contraception_consent
+acceptable 27 37 1129 1139 I-contraception_consent
+methods 38 45 1140 1147 I-contraception_consent
+of 46 48 1148 1150 I-contraception_consent
+contraception 49 62 1151 1164 I-contraception_consent
+when 63 67 1165 1169 O
+engaging 68 76 1170 1178 O
+in 77 79 1179 1181 O
+sexual 80 86 1182 1188 O
+activity 87 95 1189 1197 O
+throughout 96 106 1198 1208 O
+the 107 110 1209 1212 O
+study 111 116 1213 1218 O
+

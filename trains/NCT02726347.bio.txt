@@ -1,0 +1,61 @@
+COPD 0 4 0 4 B-chronic_disease
+subjects 5 13 5 13 O
+
+between 0 7 14 21 O
+the 8 11 22 25 O
+age 12 15 26 29 B-age
+of 16 18 30 32 O
+19 19 21 33 35 B-lower_bound
+and 22 25 36 39 O
+80 26 28 40 42 B-upper_bound
+
+individuals 0 11 43 54 O
+between 12 19 55 62 O
+the 20 23 63 66 O
+age 24 27 67 70 B-age
+of 28 30 71 73 O
+19 31 33 74 76 B-lower_bound
+and 34 37 77 80 O
+80 38 40 81 83 B-upper_bound
+who 41 44 84 87 O
+have 45 49 88 92 O
+a 50 51 93 94 O
+history 52 59 95 102 O
+of 60 62 103 105 O
+frequent 63 71 106 114 O
+bacterial 72 81 115 124 O
+infections 82 92 125 135 O
+and 93 96 136 139 O
+are 97 100 140 143 O
+being 101 106 144 149 O
+evaluated 107 116 150 159 O
+for 117 120 160 163 O
+humoral 121 128 164 171 B-chronic_disease
+immunodeficiency 129 145 172 188 I-chronic_disease
+
+subjects 0 8 189 197 O
+age 9 12 198 201 B-age
+50 13 15 202 204 B-lower_bound
+years 16 21 205 210 I-lower_bound
+or 22 24 211 213 O
+older 25 30 214 219 O
+
+subjects 0 8 220 228 O
+who 9 12 229 232 O
+are 13 16 233 236 O
+on 17 19 237 239 O
+immune 20 26 240 246 B-treatment
+suppressive 27 38 247 258 I-treatment
+agents 39 45 259 265 I-treatment
+
+without 0 7 266 273 O
+a 8 9 274 275 O
+history 10 17 276 283 O
+of 18 20 284 286 O
+frequent 21 29 287 295 O
+infections 30 40 296 306 O
+, 40 41 306 307 O
+COPD 42 46 308 312 B-chronic_disease
+or 47 49 313 315 O
+asthma 50 56 316 322 B-chronic_disease
+

@@ -1,0 +1,82 @@
+Clinical 0 8 0 8 O
+diagnosis 9 18 9 18 O
+of 19 21 19 21 O
+HFpEF 22 27 22 27 B-chronic_disease
+
+Current 0 7 28 35 O
+non 8 11 36 39 O
+- 11 12 39 40 O
+smokers 12 19 40 47 O
+with 20 24 48 52 O
+< 25 26 53 54 O
+15 26 28 54 56 B-upper_bound
+pack 29 33 57 61 O
+year 34 38 62 66 O
+history 39 46 67 74 O
+
+Ejection 0 8 75 83 B-clinical_variable
+fraction 9 17 84 92 I-clinical_variable
+≥40 18 21 93 96 O
+% 21 22 96 97 I-lower_bound
+
+Hemoglobin 0 10 98 108 B-clinical_variable
+< 11 12 109 110 O
+7.0 13 16 111 114 B-upper_bound
+g 17 18 115 116 I-upper_bound
+/ 18 19 116 117 I-upper_bound
+d 19 20 117 118 I-upper_bound
+
+Non 0 3 119 122 B-pregnancy
+- 3 4 122 123 I-pregnancy
+pregnant 4 12 123 131 I-pregnancy
+women 13 18 132 137 B-gender
+
+Patients 0 8 138 146 O
+18 9 11 147 149 B-lower_bound
+- 11 12 149 150 O
+80 12 14 150 152 B-upper_bound
+yrs 15 18 153 156 I-upper_bound
+old 19 22 157 160 O
+with 23 27 161 165 O
+a 28 29 166 167 O
+history 30 37 168 175 O
+stable 38 44 176 182 O
+( 45 46 183 184 O
+no 46 48 184 186 O
+medication 49 59 187 197 O
+changes 60 67 198 205 O
+in 68 70 206 208 O
+past 71 75 209 213 B-upper_bound
+6 76 77 214 215 I-upper_bound
+weeks 78 83 216 221 I-upper_bound
+( 84 85 222 223 O
+w 85 86 223 224 O
+/ 86 87 224 225 O
+duration 87 95 225 233 O
+of 96 98 234 236 O
+diagnosis 99 108 237 246 O
+> 109 110 247 248 O
+6 110 111 248 249 B-lower_bound
+months 112 118 250 256 I-lower_bound
+) 118 119 256 257 O
+
+Significant 0 11 258 269 O
+cognitive 12 21 270 279 B-chronic_disease
+impairment 22 32 280 290 I-chronic_disease
+
+individuals 0 11 291 302 O
+who 12 15 303 306 O
+are 16 19 307 310 O
+able 20 24 311 315 O
+to 25 27 316 318 O
+exercise 28 36 319 327 O
+( 37 38 328 329 O
+i.e. 38 42 329 333 O
+without 43 50 334 341 O
+orthopedic 51 61 342 352 O
+limitations 62 73 353 364 O
+or 74 76 365 367 O
+neuromuscular 77 90 368 381 B-chronic_disease
+disorders 91 100 382 391 I-chronic_disease
+) 100 101 391 392 O
+

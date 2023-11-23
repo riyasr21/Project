@@ -1,0 +1,24 @@
+Pregnant 0 8 0 8 B-pregnancy
+women 9 14 9 14 B-gender
+
+between 0 7 15 22 O
+the 8 11 23 26 O
+ages 12 16 27 31 B-age
+of 17 19 32 34 O
+18 20 22 35 37 B-lower_bound
+- 22 23 37 38 O
+99 23 25 38 40 B-upper_bound
+years 26 31 41 46 I-upper_bound
+with 32 36 47 51 O
+breast 37 43 52 58 B-cancer
+tumor 44 49 59 64 I-cancer
+undergoing 50 60 65 75 O
+lumpectomy 61 71 76 86 B-treatment
+
+excisional 0 10 87 97 B-treatment
+biopsy 11 17 98 104 I-treatment
+procedure 18 27 105 114 I-treatment
+
+radical 0 7 115 122 B-treatment
+mastectomy 8 18 123 133 I-treatment
+

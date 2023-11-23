@@ -1,0 +1,73 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+90 6 8 6 8 B-lower_bound
+or 9 11 9 11 O
+< 12 13 12 13 O
+18 14 16 14 16 B-upper_bound
+years 17 22 17 22 I-upper_bound
+of 23 25 23 25 O
+age 26 29 26 29 B-age
+
+Hypotension 0 11 30 41 O
+( 12 13 42 43 O
+Systolic 13 21 43 51 B-clinical_variable
+Blood 22 27 52 57 I-clinical_variable
+Pressure 28 36 58 66 I-clinical_variable
+( 37 38 67 68 I-clinical_variable
+SBP 38 41 68 71 I-clinical_variable
+) 41 42 71 72 I-clinical_variable
+< 43 44 73 74 O
+90mmHg 45 51 75 81 B-upper_bound
+) 51 52 81 82 O
+
+Inability 0 9 83 92 O
+to 10 12 93 95 O
+obtain 13 19 96 102 O
+intravenous 20 31 103 114 B-treatment
+access 32 38 115 121 I-treatment
+or 39 41 122 124 O
+intraosseous 42 54 125 137 B-treatment
+
+Known 0 5 138 143 O
+pregnancy 6 15 144 153 B-pregnancy
+
+Tachycardia 0 11 154 165 B-chronic_disease
+( 12 13 166 167 O
+heart 13 18 167 172 B-clinical_variable
+rate 19 23 173 177 I-clinical_variable
+> 24 25 178 179 O
+110 25 28 179 182 B-lower_bound
+beats 29 34 183 188 I-lower_bound
+per 35 38 189 192 I-lower_bound
+minute 39 45 193 199 I-lower_bound
+) 45 46 199 200 O
+
+Traumatic 0 9 201 210 B-clinical_variable
+arrest 10 16 211 217 I-clinical_variable
+with 17 21 218 222 O
+> 22 23 223 224 O
+5 24 25 225 226 B-lower_bound
+minutes 26 33 227 234 I-lower_bound
+CPR 34 37 235 238 B-treatment
+without 38 45 239 246 O
+return 46 52 247 253 O
+of 53 55 254 256 O
+vital 56 61 257 262 O
+signs 62 67 263 268 O
+
+Traumatic 0 9 269 278 B-chronic_disease
+brain 10 15 279 284 I-chronic_disease
+injury 16 22 285 291 I-chronic_disease
+with 23 27 292 296 O
+brain 28 33 297 302 O
+matter 34 40 303 309 O
+exposed 41 48 310 317 O
+
+Within 0 6 318 324 O
+2 7 8 325 326 B-upper_bound
+hours 9 14 327 332 I-upper_bound
+of 15 17 333 335 O
+time 18 22 336 340 O
+of 23 25 341 343 O
+injury 26 32 344 350 O
+

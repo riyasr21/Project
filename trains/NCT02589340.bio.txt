@@ -1,0 +1,138 @@
+Currently 0 9 0 9 O
+have 10 14 10 14 O
+severe 15 21 15 21 B-chronic_disease
+renal 22 27 22 27 I-chronic_disease
+impairment 28 38 28 38 I-chronic_disease
+
+Currently 0 9 39 48 O
+receiving 10 19 49 58 O
+any 20 23 59 62 O
+other 24 29 63 68 O
+treatment 30 39 69 78 O
+for 40 43 79 82 O
+levodopa 44 52 83 91 B-chronic_disease
+- 52 53 91 92 I-chronic_disease
+induced 53 60 92 99 I-chronic_disease
+dyskinesia 61 71 100 110 I-chronic_disease
+, 71 72 110 111 O
+including 73 82 112 121 O
+but 83 86 122 125 O
+not 87 90 126 129 O
+exclusive 91 100 130 139 O
+to 101 103 140 142 O
+deep 104 108 143 147 O
+brain 109 114 148 153 O
+stimulation 115 126 154 165 O
+
+Currently 0 9 166 175 O
+taking 10 16 176 182 O
+a 17 18 183 184 O
+levodopa 19 27 185 193 B-treatment
+containing 28 38 194 204 O
+medication 39 49 205 215 O
+for 50 53 216 219 O
+Parkinson 54 63 220 229 B-chronic_disease
+'s 63 65 229 231 I-chronic_disease
+disease 66 73 232 239 I-chronic_disease
+
+Currently 0 9 240 249 O
+taking 10 16 250 256 O
+between 17 24 257 264 O
+200 25 28 265 268 B-lower_bound
+- 28 29 268 269 O
+500 29 32 269 272 B-upper_bound
+mg 33 35 273 275 I-upper_bound
+of 36 38 276 278 O
+amantadine 39 49 279 289 B-treatment
+daily 50 55 290 295 O
+for 56 59 296 299 O
+treatment 60 69 300 309 B-treatment
+of 70 72 310 312 O
+levodopa 73 81 313 321 B-chronic_disease
+- 81 82 321 322 I-chronic_disease
+induced 82 89 322 329 I-chronic_disease
+dyskinesia 90 100 330 340 I-chronic_disease
+with 101 105 341 345 O
+insufficient 106 118 346 358 O
+suppression 119 130 359 370 O
+levodopa 131 139 371 379 O
+- 139 140 379 380 O
+induced 140 147 380 387 O
+dyskinesia 148 158 388 398 O
+
+Have 0 4 399 403 O
+a 5 6 404 405 O
+history 7 14 406 413 O
+of 15 17 414 416 O
+hepatic 18 25 417 424 B-chronic_disease
+impairment 26 36 425 435 I-chronic_disease
+
+Have 0 4 436 440 O
+proprioceptive 5 19 441 455 B-chronic_disease
+deficits 20 28 456 464 I-chronic_disease
+
+Mild 0 4 465 469 O
+to 5 7 470 472 O
+Severe 8 14 473 479 O
+dyskinesia 15 25 480 490 B-chronic_disease
+
+Not 0 3 491 494 O
+able 4 8 495 499 O
+to 9 11 500 502 O
+answer 12 18 503 509 O
+a 19 20 510 511 O
+patient 21 28 512 519 O
+questionnaire 29 42 520 533 O
+about 43 48 534 539 O
+their 49 54 540 545 O
+symptoms 55 63 546 554 O
+of 64 66 555 557 O
+Parkinson 67 76 558 567 B-chronic_disease
+'s 76 78 567 569 I-chronic_disease
+disease 79 86 570 577 I-chronic_disease
+and 87 90 578 581 O
+dyskinesia 91 101 582 592 B-chronic_disease
+
+Not 0 3 593 596 O
+able 4 8 597 601 O
+to 9 11 602 604 O
+stand 12 17 605 610 O
+unsupported 18 29 611 622 O
+for 30 33 623 626 O
+at 34 36 627 629 O
+least 37 42 630 635 O
+60 43 45 636 638 B-lower_bound
+seconds 46 53 639 646 I-lower_bound
+
+Parkinson 0 9 647 656 B-chronic_disease
+'s 9 11 656 658 I-chronic_disease
+disease 12 19 659 666 I-chronic_disease
+diagnosis 20 29 667 676 O
+
+Pregnancy 0 9 677 686 B-pregnancy
+
+Significant 0 11 687 698 B-chronic_disease
+cognitive 12 21 699 708 I-chronic_disease
+impairment 22 32 709 719 I-chronic_disease
+
+Stable 0 6 720 726 B-treatment
+medication 7 17 727 737 I-treatment
+regimen 18 25 738 745 I-treatment
+for 26 29 746 749 O
+at 30 32 750 752 O
+least 33 38 753 758 O
+4 39 40 759 760 B-lower_bound
+weeks 41 46 761 766 I-lower_bound
+prior 47 52 767 772 I-lower_bound
+to 53 55 773 775 O
+study 56 61 776 781 O
+
+Unable 0 6 782 788 O
+to 7 9 789 791 O
+swallow 10 17 792 799 O
+study 18 23 800 805 B-treatment
+drug 24 28 806 810 I-treatment
+( 29 30 811 812 O
+capsule 30 37 812 819 O
+) 37 38 819 820 O
+

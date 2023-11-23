@@ -1,0 +1,32 @@
+Participants 0 12 0 12 O
+with 13 17 13 17 O
+hepatocellular 18 32 18 32 B-cancer
+carcinoma 33 42 33 42 I-cancer
+( 43 44 43 44 I-cancer
+HCC 44 47 44 47 I-cancer
+) 47 48 47 48 I-cancer
+or 49 51 49 51 O
+intrahepatic 52 64 52 64 B-cancer
+cholangiocarcinoma 65 83 65 83 I-cancer
+( 84 85 84 85 I-cancer
+ICC 85 88 85 88 I-cancer
+) 88 89 88 89 I-cancer
+
+Uncontrolled 0 12 90 102 O
+significant 13 24 103 114 O
+active 25 31 115 121 B-chronic_disease
+infections 32 42 122 132 I-chronic_disease
+, 42 43 132 133 O
+except 44 50 134 140 O
+Hepatitis 51 60 141 150 B-chronic_disease
+B 61 62 151 152 I-chronic_disease
+( 63 64 153 154 I-chronic_disease
+HBV 64 67 154 157 I-chronic_disease
+) 67 68 157 158 I-chronic_disease
+or 69 71 159 161 O
+Hepatitis 72 81 162 171 B-chronic_disease
+C 82 83 172 173 I-chronic_disease
+( 84 85 174 175 I-chronic_disease
+HCV 85 88 175 178 I-chronic_disease
+) 88 89 178 179 I-chronic_disease
+

@@ -1,0 +1,21 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+greater 10 17 10 17 O
+
+Blistering 0 10 18 28 B-chronic_disease
+skin 11 15 29 33 I-chronic_disease
+lesions 16 23 34 41 I-chronic_disease
+due 24 27 42 45 O
+to 28 30 46 48 O
+another 31 38 49 56 O
+condition 39 48 57 66 O
+
+Documented 0 10 67 77 O
+porphyria 11 20 78 87 B-chronic_disease
+cutanea 21 28 88 95 I-chronic_disease
+tarda 29 34 96 101 I-chronic_disease
+( 35 36 102 103 I-chronic_disease
+PCT 36 39 103 106 I-chronic_disease
+) 39 40 106 107 I-chronic_disease
+

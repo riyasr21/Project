@@ -1,0 +1,17 @@
+abnormal 0 8 0 8 O
+caudal 9 15 9 15 O
+anatomy 16 23 16 23 O
+or 24 26 24 26 O
+spinal 27 33 27 33 B-chronic_disease
+dysraphism 34 44 34 44 I-chronic_disease
+
+cyanotic 0 8 45 53 B-chronic_disease
+congenital 9 19 54 64 I-chronic_disease
+heart 20 25 65 70 I-chronic_disease
+disease 26 33 71 78 I-chronic_disease
+
+proximal 0 8 79 87 B-chronic_disease
+or 9 11 88 90 I-chronic_disease
+penoscrotal 12 23 91 102 I-chronic_disease
+hypospadias 24 35 103 114 I-chronic_disease
+

@@ -1,0 +1,63 @@
+Age 0 3 0 3 B-age
+6 4 5 4 5 B-lower_bound
+months 6 12 6 12 I-lower_bound
+to 13 15 13 15 O
+21 16 18 16 18 B-upper_bound
+years 19 24 19 24 I-upper_bound
+at 25 27 25 27 O
+the 28 31 28 31 O
+time 32 36 32 36 O
+of 37 39 37 39 O
+enrollment 40 50 40 50 O
+
+Clinical 0 8 51 59 O
+decision 9 17 60 68 O
+by 18 20 69 71 O
+patient 21 28 72 79 O
+, 28 29 79 80 O
+family 30 36 81 87 O
+, 36 37 87 88 O
+and 38 41 89 92 O
+healthcare 42 52 93 103 O
+provider 53 61 104 112 O
+to 62 64 113 115 O
+initiate 65 73 116 124 O
+hydroxyurea 74 85 125 136 B-treatment
+therapy 86 93 137 144 I-treatment
+, 93 94 144 145 O
+including 95 104 146 155 O
+patients 105 113 156 164 O
+who 114 117 165 168 O
+are 118 121 169 172 O
+transitioning 122 135 173 186 O
+from 136 140 187 191 O
+chronic 141 148 192 199 B-treatment
+transfusions 149 161 200 212 I-treatment
+to 162 164 213 215 O
+hydroxyurea 165 176 216 227 O
+therapy 177 184 228 235 O
+
+Diagnosis 0 9 236 245 O
+of 10 12 246 248 O
+sickle 13 19 249 255 B-chronic_disease
+cell 20 24 256 260 I-chronic_disease
+anemia 25 31 261 267 I-chronic_disease
+
+Family 0 6 268 274 O
+unwillingness 7 20 275 288 O
+to 21 23 289 291 O
+sign 24 28 292 296 O
+informed 29 37 297 305 O
+consent 38 45 306 313 O
+or 46 48 314 316 O
+comply 49 55 317 323 O
+with 56 60 324 328 O
+study 61 66 329 334 O
+treatments 67 77 335 345 B-treatment
+
+HbSS 0 4 346 350 B-chronic_disease
+or 5 7 351 353 O
+Hbβ0 8 12 354 358 B-chronic_disease
+- 12 13 358 359 I-chronic_disease
+thalassemia 13 24 359 370 I-chronic_disease
+

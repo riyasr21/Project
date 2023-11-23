@@ -1,0 +1,75 @@
+Age 0 3 0 3 B-age
+≤ 4 5 4 5 O
+17 6 8 6 8 B-upper_bound
+
+Allergy 0 7 9 16 O
+to 8 10 17 19 O
+povidone 11 19 20 28 B-allergy_name
+iodine 20 26 29 35 I-allergy_name
+
+Any 0 3 36 39 O
+condition 4 13 40 49 O
+requiring 14 23 50 59 O
+antibiotics 24 35 60 71 B-treatment
+14 36 38 72 74 B-upper_bound
+days 39 43 75 79 I-upper_bound
+prior 44 49 80 85 I-upper_bound
+to 50 52 86 88 O
+arriving 53 61 89 97 O
+for 62 65 98 101 O
+surgery 66 73 102 109 B-treatment
+
+Inability 0 9 110 119 O
+to 10 12 120 122 O
+provide 13 20 123 130 O
+informed 21 29 131 139 O
+consent 30 37 140 147 O
+or 38 40 148 150 O
+to 41 43 151 153 O
+comply 44 50 154 160 O
+with 51 55 161 165 O
+study 56 61 166 171 O
+assessments 62 73 172 183 O
+( 74 75 184 185 O
+e.g. 75 79 185 189 O
+due 80 83 190 193 O
+to 84 86 194 196 O
+cognitive 87 96 197 206 B-chronic_disease
+impairment 97 107 207 217 I-chronic_disease
+or 108 110 218 220 O
+geographic 111 121 221 231 O
+distance 122 130 232 240 O
+) 130 131 240 241 O
+
+Patients 0 8 242 250 O
+scheduled 9 18 251 260 O
+to 19 21 261 263 O
+undergo 22 29 264 271 O
+revision 30 38 272 280 B-treatment
+total 39 44 281 286 I-treatment
+knee 45 49 287 291 I-treatment
+arthroplasty 50 62 292 304 I-treatment
+for 63 66 305 308 O
+infectious 67 77 309 319 O
+reasons 78 85 320 327 O
+
+Patients 0 8 328 336 O
+with 9 13 337 341 O
+chronic 14 21 342 349 B-chronic_disease
+immunosuppression 22 39 350 367 I-chronic_disease
+( 40 41 368 369 O
+such 41 45 369 373 O
+as 46 48 374 376 O
+HIV 49 52 377 380 B-chronic_disease
+/ 52 53 380 381 O
+AIDS 53 57 381 385 B-chronic_disease
+) 57 58 385 386 O
+
+Scheduled 0 9 387 396 O
+to 10 12 397 399 O
+undergo 13 20 400 407 O
+revision 21 29 408 416 O
+total 30 35 417 422 B-treatment
+knee 36 40 423 427 I-treatment
+arthroplasty 41 53 428 440 I-treatment
+

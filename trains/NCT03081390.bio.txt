@@ -1,0 +1,106 @@
+Allergies 0 9 0 9 O
+or 10 12 10 12 O
+sensitivity 13 24 13 24 O
+to 25 27 25 27 O
+any 28 31 28 31 O
+of 32 34 32 34 O
+the 35 38 35 38 O
+ingredients 39 50 39 50 B-allergy_name
+of 51 53 51 53 I-allergy_name
+the 54 57 54 57 I-allergy_name
+meal 58 62 58 62 I-allergy_name
+
+BMI 0 3 63 66 B-bmi
+18.5 4 8 67 71 B-lower_bound
+- 8 9 71 72 O
+24.9 9 13 72 76 B-upper_bound
+kg 14 16 77 79 I-upper_bound
+/ 16 17 79 80 I-upper_bound
+m2 17 19 80 82 I-upper_bound
+, 19 20 82 83 O
+inclusive 21 30 84 93 O
+
+BMI 0 3 94 97 B-bmi
+≥30 4 7 98 101 O
+kg 8 10 102 104 I-lower_bound
+/ 10 11 104 105 I-lower_bound
+m2 11 13 105 107 I-lower_bound
+
+Chronic 0 7 108 115 O
+use 8 11 116 119 O
+of 12 14 120 122 O
+medications 15 26 123 134 O
+, 26 27 134 135 O
+including 28 37 136 145 O
+oral 38 42 146 150 B-treatment
+contraceptives 43 57 151 165 I-treatment
+
+Female 0 6 166 172 B-gender
+18 7 9 173 175 B-lower_bound
+- 9 10 175 176 O
+35 10 12 176 178 B-upper_bound
+years 13 18 179 184 I-upper_bound
+of 19 21 185 187 O
+age 22 25 188 191 B-age
+, 25 26 191 192 O
+inclusive 27 36 193 202 O
+
+Inability 0 9 203 212 O
+to 10 12 213 215 O
+fast 13 17 216 220 O
+for 18 21 221 224 O
+10 22 24 225 227 B-upper_bound
+hours 25 30 228 233 I-upper_bound
+and/or 31 37 234 240 O
+abstain 38 45 241 248 O
+from 46 50 249 253 O
+caffeine 51 59 254 262 O
+intake 60 66 263 269 O
+for 67 70 270 273 O
+24 71 73 274 276 B-upper_bound
+hours 74 79 277 282 I-upper_bound
+
+Migraine 0 8 283 291 B-chronic_disease
+headaches 9 18 292 301 O
+, 18 19 301 302 O
+or 20 22 303 305 O
+headaches 23 32 306 315 O
+other 33 38 316 321 O
+than 39 43 322 326 O
+tension 44 51 327 334 O
+- 51 52 334 335 O
+type 52 56 335 339 O
+headaches 57 66 340 349 O
+with 67 71 350 354 O
+a 72 73 355 356 O
+frequency 74 83 357 366 O
+of 84 86 367 369 O
+1 87 88 370 371 B-upper_bound
+or 89 91 372 374 O
+fewer 92 97 375 380 O
+days 98 102 381 385 O
+per 103 106 386 389 O
+month 107 112 390 395 O
+
+Pregnant 0 8 396 404 B-pregnancy
+
+Treatment 0 9 405 414 B-treatment
+with 10 14 415 419 O
+NSAIDs 15 21 420 426 B-treatment
+within 22 28 427 433 O
+the 29 32 434 437 O
+previous 33 41 438 446 B-upper_bound
+1 42 43 447 448 I-upper_bound
+week 44 48 449 453 I-upper_bound
+
+Treatment 0 9 454 463 O
+with 10 14 464 468 O
+antibiotics 15 26 469 480 B-treatment
+
+steroids 0 8 481 489 B-treatment
+within 9 15 490 496 O
+the 16 19 497 500 O
+previous 20 28 501 509 B-upper_bound
+3 29 30 510 511 I-upper_bound
+months 31 37 512 518 I-upper_bound
+

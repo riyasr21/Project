@@ -1,0 +1,73 @@
+Be 0 2 0 2 O
+18 3 5 3 5 B-lower_bound
+years 6 11 6 11 I-lower_bound
+or 12 14 12 14 O
+older 15 20 15 20 O
+
+Live 0 4 21 25 O
+in 5 7 26 28 O
+RI 8 10 29 31 O
+or 11 13 32 34 O
+MA 14 16 35 37 O
+within 17 23 38 44 O
+20 24 26 45 47 B-upper_bound
+miles 27 32 48 53 I-upper_bound
+of 33 35 54 56 O
+Providence 36 46 57 67 O
+and 47 50 68 71 O
+plan 51 55 72 76 O
+to 56 58 77 79 O
+remain 59 65 80 86 O
+in 66 68 87 89 O
+the 69 72 90 93 O
+area 73 77 94 98 O
+for 78 81 99 102 O
+the 82 85 103 106 O
+next 86 90 107 111 B-upper_bound
+6 91 92 112 113 I-upper_bound
+months 93 99 114 120 I-upper_bound
+
+Meet 0 4 121 125 O
+DSM 5 8 126 129 O
+- 8 9 129 130 O
+IV 9 11 130 132 O
+criteria 12 20 133 141 O
+for 21 24 142 145 O
+alcohol 25 32 146 153 O
+abuse 33 38 154 159 O
+or 39 41 160 162 O
+dependence 42 52 163 173 O
+in 53 55 174 176 O
+the 56 59 177 180 O
+last 60 64 181 185 B-upper_bound
+six 65 68 186 189 I-upper_bound
+months 69 75 190 196 I-upper_bound
+
+Report 0 6 197 203 O
+STI 7 10 204 207 B-chronic_disease
+/ 10 11 207 208 O
+HIV 11 14 208 211 B-chronic_disease
+sexual 15 21 212 218 O
+risk 22 26 219 223 O
+defined 27 34 224 231 O
+as 35 37 232 234 O
+unprotected 38 49 235 246 O
+heterosexual 50 62 247 259 O
+sex 63 66 260 263 O
+at 67 69 264 266 O
+least 70 75 267 272 O
+three 76 81 273 278 B-lower_bound
+times 82 87 279 284 I-lower_bound
+in 88 90 285 287 O
+the 91 94 288 291 O
+three 95 100 292 297 B-upper_bound
+months 101 107 298 304 I-upper_bound
+prior 108 113 305 310 I-upper_bound
+to 114 116 311 313 O
+incarceration 117 130 314 327 O
+
+Speak 0 5 328 333 B-language_fluency
+English 6 13 334 341 I-language_fluency
+
+Women 0 5 342 347 B-gender
+

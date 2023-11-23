@@ -1,0 +1,60 @@
+Allergy 0 7 0 7 O
+or 8 10 8 10 O
+contraindication 11 27 11 27 O
+to 28 30 28 30 O
+any 31 34 31 34 O
+NSAID 35 40 35 40 B-allergy_name
+, 40 41 40 41 O
+CS 42 44 42 44 B-allergy_name
+, 44 45 44 45 O
+or 46 48 46 48 O
+local 49 54 49 54 B-allergy_name
+anesthetic 55 65 55 65 I-allergy_name
+
+Diabetes 0 8 66 74 B-chronic_disease
+mellitus 9 17 75 83 I-chronic_disease
+
+Fibromyalgia 0 12 84 96 B-chronic_disease
+
+Gastrointestinal 0 16 97 113 B-chronic_disease
+ulceration 17 27 114 124 I-chronic_disease
+
+History 0 7 125 132 O
+of 8 10 133 135 O
+bleeding 11 19 136 144 B-chronic_disease
+disorder 20 28 145 153 I-chronic_disease
+
+Men 0 3 154 157 B-gender
+
+Pre 0 3 158 161 O
+- 3 4 161 162 O
+existing 4 12 162 170 O
+congestive 13 23 171 181 B-chronic_disease
+heart 24 29 182 187 I-chronic_disease
+failure 30 37 188 195 I-chronic_disease
+
+Pre 0 3 196 199 B-chronic_disease
+- 3 4 199 200 I-chronic_disease
+existing 4 12 200 208 I-chronic_disease
+renal 13 18 209 214 I-chronic_disease
+disease 19 26 215 222 I-chronic_disease
+
+Pregnant 0 8 223 231 B-pregnancy
+
+Prior 0 5 232 237 B-chronic_disease
+myocardial 6 16 238 248 I-chronic_disease
+infarction 17 27 249 259 I-chronic_disease
+
+age 0 3 260 263 B-age
+18 4 6 264 266 B-lower_bound
+or 7 9 267 269 O
+over 10 14 270 274 O
+
+breast 0 6 275 281 O
+feeding 7 14 282 289 O
+women 15 20 290 295 B-gender
+
+stroke 0 6 296 302 B-chronic_disease
+
+women 0 5 303 308 B-gender
+

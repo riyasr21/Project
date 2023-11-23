@@ -1,0 +1,26 @@
+Has 0 3 0 3 O
+at 4 6 4 6 O
+least 7 12 7 12 O
+1 13 14 13 14 B-lower_bound
+focal 15 20 15 20 O
+lesion 21 27 21 27 O
+in 28 30 28 30 O
+liver 31 36 31 36 O
+or 37 39 37 39 O
+kidney 40 46 40 46 O
+
+Hypersensitivity 0 16 47 63 O
+to 17 19 64 66 O
+perflutren 20 30 67 77 B-allergy_name
+
+Pregnant 0 8 78 86 B-pregnancy
+
+at 0 2 87 89 O
+least18 3 10 90 97 O
+years 11 16 98 103 I-lower_bound
+of 17 19 104 106 O
+age 20 23 107 110 B-age
+
+lactating 0 9 111 120 O
+women 10 15 121 126 B-gender
+

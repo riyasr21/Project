@@ -1,0 +1,39 @@
+HIV 0 3 0 3 B-chronic_disease
+negative 4 12 4 12 O
+women 13 18 13 18 B-gender
+
+HIV 0 3 19 22 B-chronic_disease
+positive 4 12 23 31 O
+women 13 18 32 37 B-gender
+
+No 0 2 38 40 O
+risk 3 7 41 45 O
+factors 8 15 46 53 O
+for 16 19 54 57 O
+microinvasive 20 33 58 71 O
+disease 34 41 72 79 O
+( 42 43 80 81 O
+no 43 45 81 83 O
+colposcopic 46 57 84 95 O
+features 58 66 96 104 O
+of 67 69 105 107 O
+microinvasion 70 83 108 121 O
+, 83 84 121 122 O
+adequate 85 93 123 131 O
+colposcopy 94 104 132 142 B-treatment
+and 105 108 143 146 O
+negative 109 117 147 155 O
+endocervical 118 130 156 168 O
+curettage 131 140 169 178 O
+) 140 141 178 179 O
+
+pregnant 0 8 180 188 B-pregnancy
+women 9 14 189 194 B-gender
+
+prior 0 5 195 200 B-treatment
+treatment 6 15 201 210 I-treatment
+for 16 19 211 214 O
+cervical 20 28 215 223 B-cancer
+precancer 29 38 224 233 I-cancer
+condition 39 48 234 243 O
+

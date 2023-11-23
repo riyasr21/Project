@@ -1,0 +1,11 @@
+Age 0 3 0 3 B-age
+of 4 6 4 6 O
+21 7 9 7 9 B-lower_bound
+of 10 12 10 12 O
+older 13 18 13 18 O
+
+Women 0 5 19 24 B-gender
+diagnosed 6 15 25 34 O
+with 16 20 35 39 O
+cancer 21 27 40 46 B-cancer
+

@@ -1,0 +1,125 @@
+Allergies 0 9 0 9 O
+to 10 12 10 12 O
+shell 13 18 13 18 B-allergy_name
+fish 19 23 19 23 I-allergy_name
+, 23 24 23 24 O
+seafood 25 32 25 32 B-allergy_name
+, 32 33 32 33 O
+eggs 34 38 34 38 B-allergy_name
+or 39 41 39 41 O
+iodine 42 48 42 48 B-allergy_name
+
+Body 0 4 49 53 B-bmi
+Mass 5 9 54 58 I-bmi
+Index 10 15 59 64 I-bmi
+( 16 17 65 66 I-bmi
+BMI 17 20 66 69 I-bmi
+) 20 21 69 70 I-bmi
+greater 22 29 71 78 O
+than 30 34 79 83 O
+32 35 37 84 86 B-lower_bound
+
+Diagnosis 0 9 87 96 O
+of 10 12 97 99 O
+asthma 13 19 100 106 B-chronic_disease
+
+FEV1 0 4 107 111 B-clinical_variable
+/ 4 5 111 112 O
+FVC<0.7 5 12 112 119 B-clinical_variable
+
+FEV1>80 0 7 120 127 B-clinical_variable
+% 7 8 127 128 I-lower_bound
+of 9 11 129 131 O
+predicted 12 21 132 141 O
+
+FVC 0 3 142 145 B-clinical_variable
+greater 4 11 146 153 O
+than 12 16 154 158 O
+80 17 19 159 161 B-lower_bound
+% 19 20 161 162 I-lower_bound
+of 21 23 163 165 O
+predicted 24 33 166 175 O
+
+Forced 0 6 176 182 B-clinical_variable
+Expiratory 7 17 183 193 I-clinical_variable
+Flow 18 22 194 198 I-clinical_variable
+at 23 25 199 201 I-clinical_variable
+25 26 28 202 204 I-clinical_variable
+- 28 29 204 205 I-clinical_variable
+75 29 31 205 207 I-clinical_variable
+% 31 32 207 208 I-clinical_variable
+of 33 35 209 211 I-clinical_variable
+predicted(FEF25 36 51 212 227 I-clinical_variable
+- 51 52 227 228 I-clinical_variable
+75 52 54 228 230 I-clinical_variable
+) 54 55 230 231 I-clinical_variable
+> 56 57 232 233 O
+79 58 60 234 236 B-lower_bound
+% 60 61 236 237 I-lower_bound
+of 62 64 238 240 I-lower_bound
+predicted 65 74 241 250 I-lower_bound
+
+Heart 0 5 251 256 B-chronic_disease
+disease 6 13 257 264 I-chronic_disease
+
+Pregnant 0 8 265 273 B-pregnancy
+
+Prior 0 5 274 279 O
+history 6 13 280 287 O
+of 14 16 288 290 O
+hypersensitivity 17 33 291 307 O
+to 34 36 308 310 O
+Sildenafil 37 47 311 321 B-allergy_name
+
+Weight 0 6 322 328 B-clinical_variable
+of 7 9 329 331 O
+greater 10 17 332 339 O
+than 18 22 340 344 O
+220 23 26 345 348 B-lower_bound
+pounds 27 33 349 355 I-lower_bound
+( 34 35 356 357 I-lower_bound
+100 35 38 357 360 I-lower_bound
+kg 39 41 361 363 I-lower_bound
+) 41 42 363 364 I-lower_bound
+
+antihypertensives 0 17 365 382 B-treatment
+, 17 18 382 383 O
+and 19 22 384 387 O
+medications 23 34 388 399 B-treatment
+for 35 38 400 403 O
+osteoporosis 39 51 404 416 B-chronic_disease
+and 52 55 417 420 O
+gastrointestinal 56 72 421 437 B-chronic_disease
+diseases 73 81 438 446 I-chronic_disease
+
+between 0 7 447 454 O
+the 8 11 455 458 O
+ages 12 16 459 463 B-age
+of 17 19 464 466 O
+25 20 22 467 469 B-lower_bound
+and 23 26 470 473 O
+65 27 29 474 476 B-upper_bound
+
+breastfeeding 0 13 477 490 O
+females 14 21 491 498 B-gender
+
+currently 0 9 499 508 O
+smoking 10 17 509 516 O
+at 18 20 517 519 O
+least 21 26 520 525 O
+1/2 27 30 526 529 B-lower_bound
+pack 31 35 530 534 I-lower_bound
+/ 35 36 534 535 I-lower_bound
+day 36 39 535 538 I-lower_bound
+( 40 41 539 540 O
+confirmed 41 50 540 549 O
+with 51 55 550 554 O
+cotinine 56 64 555 563 O
+level 65 70 564 569 O
+) 70 71 569 570 O
+
+diabetes 0 8 571 579 B-chronic_disease
+
+kidney 0 6 580 586 B-chronic_disease
+disease 7 14 587 594 I-chronic_disease
+

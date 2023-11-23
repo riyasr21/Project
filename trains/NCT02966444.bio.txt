@@ -1,0 +1,101 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+40yrs 3 8 3 8 B-upper_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+
+BMI 0 3 16 19 B-bmi
+of 4 6 20 22 O
+> 7 8 23 24 O
+18.5 8 12 24 28 B-lower_bound
+- 12 13 28 29 O
+24.9kg 13 19 29 35 B-upper_bound
+/ 19 20 35 36 I-upper_bound
+m2 20 22 36 38 I-upper_bound
+
+Rate 0 4 39 43 O
+less 5 9 44 48 O
+than 10 14 49 53 O
+80 15 17 54 56 B-upper_bound
+% 17 18 56 57 I-upper_bound
+of 19 21 58 60 O
+foods 22 27 61 66 O
+offered 28 35 67 74 O
+in 36 38 75 77 O
+the 39 42 78 81 O
+buffet 43 49 82 88 O
+at 50 52 89 91 O
+50 53 55 92 94 B-lower_bound
+mm 55 57 94 96 I-lower_bound
+or 58 60 97 99 O
+more 61 65 100 104 O
+on 66 68 105 107 O
+the 69 72 108 111 O
+100 73 76 112 115 B-upper_bound
+mm 76 78 115 117 I-upper_bound
+VAS 79 82 118 121 B-clinical_variable
+as 83 85 122 124 O
+palatable 86 95 125 134 O
+
+Reports 0 7 135 142 O
+of 8 10 143 145 O
+metabolic 11 20 146 155 B-chronic_disease
+or 21 23 156 158 O
+endocrine 24 33 159 168 B-chronic_disease
+disease 34 41 169 176 I-chronic_disease
+, 41 42 176 177 O
+gastrointestinal 43 59 178 194 B-chronic_disease
+disorders 60 69 195 204 I-chronic_disease
+, 69 70 204 205 O
+or 71 73 206 208 O
+history 74 81 209 216 O
+of 82 84 217 219 O
+medical 85 92 220 227 O
+or 93 95 228 230 O
+surgical 96 104 231 239 O
+events 105 111 240 246 O
+
+allergies 0 9 247 256 O
+to 10 12 257 259 O
+any 13 16 260 263 O
+of 17 19 264 266 O
+the 20 23 267 270 O
+components 24 34 271 281 B-allergy_name
+of 35 37 282 284 I-allergy_name
+the 38 41 285 288 I-allergy_name
+liquid 42 48 289 295 I-allergy_name
+meals 49 54 296 301 I-allergy_name
+
+currently 0 9 302 311 B-pregnancy
+pregnant 10 18 312 320 I-pregnancy
+
+donated 0 7 321 328 O
+blood 8 13 329 334 O
+in 14 16 335 337 O
+the 17 20 338 341 O
+last 21 25 342 346 B-upper_bound
+20 26 28 347 349 I-upper_bound
+days 29 33 350 354 I-upper_bound
+
+planning 0 8 355 363 B-pregnancy
+on 9 11 364 366 I-pregnancy
+becoming 12 20 367 375 I-pregnancy
+pregnant 21 29 376 384 I-pregnancy
+
+weight 0 6 385 391 O
+loss 7 11 392 396 O
+or 12 14 397 399 O
+gain 15 19 400 404 O
+exceeding 20 29 405 414 O
+5 30 31 415 416 B-lower_bound
+% 31 32 416 417 I-lower_bound
+of 33 35 418 420 O
+their 36 41 421 426 O
+body 42 46 427 431 O
+weight 47 53 432 438 O
+within 54 60 439 445 O
+the 61 64 446 449 O
+past 65 69 450 454 B-upper_bound
+3 70 71 455 456 I-upper_bound
+months 72 78 457 463 I-upper_bound
+

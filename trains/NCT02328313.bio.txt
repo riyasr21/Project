@@ -1,0 +1,77 @@
+Age 0 3 0 3 B-age
+65 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+English 0 7 16 23 B-language_fluency
+speaking 8 16 24 32 I-language_fluency
+
+Histologically 0 14 33 47 O
+confirmed 15 24 48 57 O
+Stage 25 30 58 63 B-lower_bound
+I 31 32 64 65 I-lower_bound
+, 32 33 65 66 O
+II 34 36 67 69 O
+or 37 39 70 72 O
+III 40 43 73 76 B-upper_bound
+breast 44 50 77 83 B-cancer
+cancer 51 57 84 90 I-cancer
+( 58 59 91 92 O
+if 59 61 92 94 O
+the 62 65 95 98 O
+patient 66 73 99 106 O
+has 74 77 107 110 O
+had 78 81 111 114 O
+more 82 86 115 119 O
+than 87 91 120 124 O
+one 92 95 125 128 B-lower_bound
+breast 96 102 129 135 O
+cancer 103 109 136 142 O
+, 109 110 142 143 O
+then 111 115 144 148 O
+the 116 119 149 152 O
+most 120 124 153 157 O
+recent 125 131 158 164 O
+diagnosis 132 141 165 174 O
+) 141 142 174 175 O
+
+One 0 3 176 179 B-lower_bound
+or 4 6 180 182 O
+more 7 11 183 187 O
+significant 12 23 188 199 O
+medical 24 31 200 207 O
+conditions 32 42 208 218 O
+that 43 47 219 223 O
+in 48 50 224 226 O
+the 51 54 227 230 O
+physician 55 64 231 240 O
+'s 64 66 240 242 O
+judgment 67 75 243 251 O
+preclude 76 84 252 260 O
+participation 85 98 261 274 O
+in 99 101 275 277 O
+the 102 105 278 281 O
+walking 106 113 282 289 O
+intervention 114 126 290 302 O
+
+Scheduled 0 9 303 312 O
+to 10 12 313 315 O
+begin 13 18 316 321 O
+an 19 21 322 324 O
+appropriate 22 33 325 336 O
+adjuvant 34 42 337 345 B-treatment
+or 43 45 346 348 I-treatment
+neoadjuvant 46 57 349 360 I-treatment
+chemotherapy 58 70 361 373 I-treatment
+regimen 71 78 374 381 I-treatment
+as 79 81 382 384 O
+defined 82 89 385 392 O
+by 90 92 393 395 O
+NCCN 93 97 396 400 O
+guidelines 98 108 401 411 O
+( 109 110 412 413 O
+www.nccn.org 110 122 413 425 O
+) 122 123 425 426 O
+
+female 0 6 427 433 B-gender
+

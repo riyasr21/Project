@@ -1,0 +1,101 @@
+Caffeine 0 8 0 8 B-allergy_name
+and/or 9 15 9 15 O
+NSAID 16 21 16 21 B-allergy_name
+allergies 22 31 22 31 O
+or 32 34 32 34 O
+intolerances 35 47 35 47 O
+
+Cirrhosis 0 9 48 57 B-chronic_disease
+
+Concurrent 0 10 58 68 O
+severe 11 17 69 75 B-chronic_disease
+medical 18 25 76 83 I-chronic_disease
+illness 26 33 84 91 I-chronic_disease
+
+Diabetes 0 8 92 100 B-chronic_disease
+
+History 0 7 101 108 O
+of 8 10 109 111 O
+seizures 11 19 112 120 B-chronic_disease
+, 19 20 120 121 O
+brain 21 26 122 127 B-chronic_disease
+injury 27 33 128 134 I-chronic_disease
+, 33 34 134 135 O
+and/or 35 41 136 142 O
+epilepsy 42 50 143 151 B-chronic_disease
+
+Pregnant 0 8 152 160 B-pregnancy
+women 9 14 161 166 B-gender
+because 15 22 167 174 O
+of 23 25 175 177 O
+the 26 29 178 181 O
+unknown 30 37 182 189 O
+affects 38 45 190 197 O
+of 46 48 198 200 O
+AIH 49 52 201 204 B-chronic_disease
+on 53 55 205 207 O
+pregnant 56 64 208 216 B-pregnancy
+women 65 70 217 222 O
+and 71 74 223 226 O
+fetus 75 80 227 232 O
+
+Undergoing 0 10 233 243 O
+concurrent 11 21 244 254 B-treatment
+physical 22 30 255 263 I-treatment
+therapy 31 38 264 271 I-treatment
+
+age 0 3 272 275 B-age
+18 4 6 276 278 B-lower_bound
+and 7 10 279 282 O
+75 11 13 283 285 B-upper_bound
+years 14 19 286 291 I-upper_bound
+
+infection 0 9 292 301 B-chronic_disease
+, 9 10 301 302 O
+cardiovascular 11 25 303 317 B-chronic_disease
+disease 26 33 318 325 I-chronic_disease
+, 33 34 325 326 O
+ossification 35 47 327 339 B-chronic_disease
+, 47 48 339 340 O
+recurrent 49 58 341 350 B-chronic_disease
+autonomic 59 68 351 360 I-chronic_disease
+dysreflexia 69 80 361 372 I-chronic_disease
+, 80 81 372 373 O
+unhealed 82 90 374 382 B-chronic_disease
+decubiti 91 99 383 391 I-chronic_disease
+, 99 100 391 392 O
+and 101 104 393 396 O
+history 105 112 397 404 O
+of 113 115 405 407 O
+pulmonary 116 125 408 417 B-chronic_disease
+complications 126 139 418 431 I-chronic_disease
+
+injury 0 6 432 438 O
+greater 7 14 439 446 O
+than 15 19 447 451 O
+1 20 21 452 453 B-lower_bound
+year 22 26 454 458 I-lower_bound
+
+lesion 0 6 459 465 O
+at 7 9 466 468 O
+or 10 12 469 471 O
+below 13 18 472 477 O
+C2 19 21 478 480 B-upper_bound
+and 22 25 481 484 O
+above 26 31 485 490 O
+T12 32 35 491 494 B-lower_bound
+with 36 40 495 499 O
+non 41 44 500 503 O
+- 44 45 503 504 O
+progressive 45 56 504 515 O
+etiology 57 65 516 524 O
+
+the 0 3 525 528 O
+latter 4 10 529 535 O
+to 11 13 536 538 O
+reduce 14 20 539 545 O
+likelihood 21 31 546 556 O
+of 32 34 557 559 O
+heart 35 40 560 565 B-chronic_disease
+disease 41 48 566 573 I-chronic_disease
+

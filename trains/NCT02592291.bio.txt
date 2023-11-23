@@ -1,0 +1,62 @@
+12 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+Diagnosis 0 9 18 27 O
+of 10 12 28 30 O
+severe 13 19 31 37 B-chronic_disease
+intellectual 20 32 38 50 I-chronic_disease
+disability 33 43 51 61 I-chronic_disease
+
+have 0 4 62 66 O
+a 5 6 67 68 O
+diagnosis 7 16 69 78 O
+of 17 19 79 81 O
+a 20 21 82 83 O
+chronic 22 29 84 91 O
+and 30 33 92 95 O
+complex 34 41 96 103 O
+condition 42 51 104 113 O
+such 52 56 114 118 O
+as 57 59 119 121 O
+Spina 60 65 122 127 B-chronic_disease
+Bifida 66 72 128 134 I-chronic_disease
+, 72 73 134 135 O
+Spinal 74 80 136 142 B-chronic_disease
+Cord 81 85 143 147 I-chronic_disease
+Injury 86 92 148 154 I-chronic_disease
+, 92 93 154 155 O
+Cerebral 94 102 156 164 B-chronic_disease
+Palsy 103 108 165 170 I-chronic_disease
+and 109 112 171 174 O
+Traumatic 113 122 175 184 B-chronic_disease
+Brain 123 128 185 190 I-chronic_disease
+Injury 129 135 191 197 I-chronic_disease
+
+pass 0 4 198 202 O
+all 5 8 203 206 O
+the 9 12 207 210 O
+functional 13 23 211 221 O
+screening 24 33 222 231 O
+tests 34 39 232 237 O
+which 40 45 238 243 O
+include 46 53 244 251 O
+basic 54 59 252 257 B-technology_access
+usage 60 65 258 263 I-technology_access
+of 66 68 264 266 I-technology_access
+a 69 70 267 268 I-technology_access
+smart 71 76 269 274 I-technology_access
+phone 77 82 275 280 I-technology_access
+, 82 83 280 281 O
+and 84 87 282 285 O
+impairment 88 98 286 296 O
+severity 99 107 297 305 O
+assessments 108 119 306 317 O
+
+severe 0 6 318 324 B-chronic_disease
+and 7 10 325 328 I-chronic_disease
+persistent 11 21 329 339 I-chronic_disease
+psychiatric 22 33 340 351 I-chronic_disease
+illness 34 41 352 359 I-chronic_disease
+

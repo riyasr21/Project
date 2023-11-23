@@ -1,0 +1,77 @@
+have 0 4 0 4 O
+a 5 6 5 6 O
+neurological 7 19 7 19 B-chronic_disease
+impairment 20 30 20 30 I-chronic_disease
+secondary 31 40 31 40 O
+to 41 43 41 43 O
+SCI 44 47 44 47 B-chronic_disease
+or 48 50 48 50 O
+disease 51 58 51 58 O
+at 59 61 59 61 O
+T2 62 64 62 64 O
+or 65 67 65 67 O
+lower 68 73 68 73 O
+
+live 0 4 74 78 O
+within 5 11 79 85 O
+60 12 14 86 88 B-upper_bound
+minutes 15 22 89 96 I-upper_bound
+driving 23 30 97 104 O
+time 31 35 105 109 O
+( 36 37 110 111 O
+1 37 38 111 112 O
+hour 39 43 113 117 O
+) 43 44 117 118 O
+from 45 49 119 123 O
+the 50 53 124 127 O
+research 54 62 128 136 O
+center 63 69 137 143 O
+
+pregnant 0 8 144 152 B-pregnancy
+women 9 14 153 158 B-gender
+
+recent 0 6 159 165 O
+hospitalization 7 22 166 181 O
+for 23 26 182 185 O
+any 27 30 186 189 O
+reason 31 37 190 196 O
+( 38 39 197 198 O
+within 39 45 198 204 O
+the 46 49 205 208 O
+past 50 54 209 213 B-upper_bound
+three 55 60 214 219 I-upper_bound
+months 61 67 220 226 I-upper_bound
+) 67 68 226 227 O
+
+upper 0 5 228 233 B-chronic_disease
+limb 6 10 234 238 I-chronic_disease
+pain 11 15 239 243 I-chronic_disease
+that 16 20 244 248 O
+interferes 21 31 249 259 O
+with 32 36 260 264 O
+the 37 40 265 268 O
+ability 41 48 269 276 O
+to 49 51 277 279 O
+propel 52 58 280 286 O
+or 59 61 287 289 O
+transfer 62 70 290 298 O
+
+use 0 3 299 302 O
+a 4 5 303 304 O
+manual 6 12 305 311 O
+wheelchair 13 23 312 322 O
+as 24 26 323 325 O
+primary 27 34 326 333 O
+means 35 40 334 339 O
+of 41 43 340 342 O
+mobility 44 52 343 351 O
+( 53 54 352 353 O
+at 54 56 353 355 O
+least 57 62 356 361 O
+30 63 65 362 364 B-lower_bound
+hrs 66 69 365 368 I-lower_bound
+. 69 70 368 369 I-lower_bound
+per 71 74 370 373 I-lower_bound
+week 75 79 374 378 I-lower_bound
+) 79 80 378 379 O
+

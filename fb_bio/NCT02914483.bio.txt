@@ -1,0 +1,85 @@
+Active 0 6 0 6 O
+suicidal 7 15 7 15 B-chronic_disease
+ideation 16 24 16 24 I-chronic_disease
+( 25 26 25 26 O
+PHQ-9 26 31 26 31 O
+item 32 36 32 36 O
+# 37 38 37 38 O
+9 38 39 38 39 O
+or 40 42 40 42 O
+otherwise 43 52 43 52 O
+reported 53 61 53 61 O
+during 62 68 62 68 O
+screening 69 78 69 78 O
+) 78 79 78 79 O
+
+Acute 0 5 80 85 B-chronic_disease
+ischemic 6 14 86 94 I-chronic_disease
+symptoms 15 23 95 103 O
+compatible 24 34 104 114 O
+with 35 39 115 119 O
+diagnosis 40 49 120 129 O
+of 50 52 130 132 O
+MI 53 55 133 135 B-chronic_disease
+
+Moderately 0 10 136 146 O
+severe 11 17 147 153 O
+or 18 20 154 156 O
+severe 21 27 157 163 O
+depressive 28 38 164 174 O
+symptoms 39 47 175 183 O
+( 48 49 184 185 O
+PHQ-9 49 54 185 190 B-clinical_variable
+≥ 55 56 191 192 O
+15 57 59 193 195 B-lower_bound
+) 59 60 195 196 O
+
+PSS-4 0 5 197 202 B-clinical_variable
+score 6 11 203 208 I-clinical_variable
+≥6 12 14 209 211 O
+at 15 17 212 214 O
+2 18 19 215 216 B-upper_bound
+month 20 25 217 222 I-upper_bound
+follow 26 32 223 229 O
+up 33 35 230 232 O
+visit 36 41 233 238 O
+after 42 47 239 244 O
+MI 48 50 245 247 B-chronic_disease
+
+ST 0 2 248 250 B-clinical_variable
+segment 3 10 251 258 I-clinical_variable
+elevation 11 20 259 268 I-clinical_variable
+of 21 23 269 271 O
+≥1 24 26 272 274 O
+mm 26 28 274 276 I-lower_bound
+on 29 31 277 279 O
+2 32 33 280 281 O
+contiguous 34 44 282 292 O
+ECG 45 48 293 296 O
+leads 49 54 297 302 O
+
+acute 0 5 303 308 B-chronic_disease
+exacerbation 6 18 309 321 I-chronic_disease
+of 19 21 322 324 I-chronic_disease
+heart 22 27 325 330 I-chronic_disease
+failure 28 35 331 338 I-chronic_disease
+
+anginal 0 7 339 346 B-chronic_disease
+equivalent 8 18 347 357 I-chronic_disease
+symptoms 19 27 358 366 O
+at 28 30 367 369 O
+rest 31 35 370 374 O
+
+cardiac 0 7 375 382 B-chronic_disease
+trauma 8 14 383 389 I-chronic_disease
+
+chronic 0 7 390 397 O
+elevation 8 17 398 407 O
+due 18 21 408 411 O
+to 22 24 412 414 O
+kidney 25 31 415 421 B-chronic_disease
+disease 32 39 422 429 I-chronic_disease
+
+pulmonary 0 9 430 439 B-chronic_disease
+embolism 10 18 440 448 I-chronic_disease
+

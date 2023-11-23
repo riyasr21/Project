@@ -1,0 +1,120 @@
+Active 0 6 0 6 O
+congestive 7 17 7 17 B-chronic_disease
+heart 18 23 18 23 I-chronic_disease
+failure 24 31 24 31 I-chronic_disease
+( 32 33 32 33 O
+EF<45 33 38 33 38 B-clinical_variable
+% 38 39 38 39 I-upper_bound
+) 39 40 39 40 O
+
+Cervical 0 8 41 49 B-treatment
+cerclage 9 17 50 58 I-treatment
+in 18 20 59 61 O
+place 21 26 62 67 O
+
+Cervical 0 8 68 76 B-clinical_variable
+dilation 9 17 77 85 I-clinical_variable
+visually 18 26 86 94 I-clinical_variable
+≤ 27 28 95 96 O
+5 29 30 97 98 B-upper_bound
+cm 30 32 98 100 I-upper_bound
+on 33 35 101 103 O
+sterile 36 43 104 111 B-treatment
+speculum 44 52 112 120 I-treatment
+exam 53 57 121 125 I-treatment
+
+Clinical 0 8 126 134 O
+chorioamnionitis 9 25 135 151 B-chronic_disease
+
+Contraindication 0 16 152 168 O
+to 17 19 169 171 O
+any 20 23 172 175 O
+of 24 26 176 178 O
+the 27 30 179 182 O
+antibiotics 31 42 183 194 O
+used 43 47 195 199 O
+( 48 49 200 201 O
+allergy 49 56 201 208 O
+to 57 59 209 211 O
+macrolides 60 70 212 222 B-allergy_name
+) 70 71 222 223 O
+
+No 0 2 224 226 O
+prenatal 3 11 227 235 O
+care 12 16 236 240 O
+( 17 18 241 242 O
+less 18 22 242 246 O
+than 23 27 247 251 O
+2 28 29 252 253 B-upper_bound
+prenatal 30 38 254 262 O
+visits 39 45 263 269 O
+) 45 46 269 270 O
+
+Significant 0 11 271 282 O
+liver 12 17 283 288 B-chronic_disease
+disease 18 25 289 296 I-chronic_disease
+defined 26 33 297 304 O
+as 34 36 305 307 O
+known 37 42 308 313 O
+cirrhosis 43 52 314 323 B-chronic_disease
+or 53 55 324 326 O
+elevated 56 64 327 335 O
+transaminases 65 78 336 349 O
+of 79 81 350 352 O
+at 82 84 353 355 O
+least 85 90 356 361 O
+3 91 92 362 363 B-lower_bound
+- 92 93 363 364 O
+fold 93 97 364 368 O
+upper 98 103 369 374 O
+limit 104 109 375 380 O
+of 110 112 381 383 O
+normal 113 119 384 390 O
+
+Significant 0 11 391 402 O
+renal 12 17 403 408 B-chronic_disease
+disease 18 25 409 416 I-chronic_disease
+defined 26 33 417 424 O
+as 34 36 425 427 O
+serum 37 42 428 433 B-clinical_variable
+creatinine 43 53 434 444 I-clinical_variable
+known 54 59 445 450 O
+to 60 62 451 453 O
+be 63 65 454 456 O
+> 66 67 457 458 O
+2.0 67 70 458 461 B-lower_bound
+mg 71 73 462 464 I-lower_bound
+/ 73 74 464 465 I-lower_bound
+dl 74 76 465 467 I-lower_bound
+
+Singleton 0 9 468 477 B-pregnancy
+pregnancy 10 19 478 487 I-pregnancy
+
+abscess 0 7 488 495 B-chronic_disease
+
+any 0 3 496 499 O
+other 4 9 500 505 O
+active 10 16 506 512 B-chronic_disease
+bacterial 17 26 513 522 I-chronic_disease
+infection 27 36 523 532 I-chronic_disease
+
+not 0 3 533 536 O
+including 4 13 537 546 O
+steroids 14 22 547 555 B-treatment
+for 23 26 556 559 O
+lung 27 31 560 564 B-chronic_disease
+maturity 32 40 565 573 I-chronic_disease
+
+on 0 2 574 576 O
+dialysis 3 11 577 585 B-treatment
+
+placental 0 9 586 595 B-chronic_disease
+abruption 10 19 596 605 I-chronic_disease
+
+pneumonia 0 9 606 615 B-chronic_disease
+
+pulmonary 0 9 616 625 B-chronic_disease
+edema 10 15 626 631 I-chronic_disease
+
+pyelonephritis 0 14 632 646 B-chronic_disease
+

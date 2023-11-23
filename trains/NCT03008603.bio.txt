@@ -1,0 +1,51 @@
+Subject 0 7 0 7 O
+with 8 12 8 12 O
+significant 13 24 13 24 O
+coagulopathy 25 37 25 37 B-chronic_disease
+
+Subjects 0 8 38 46 O
+with 9 13 47 51 O
+an 14 16 52 54 O
+unstable 17 25 55 63 O
+medical 26 33 64 71 O
+condition 34 43 72 81 O
+, 43 44 81 82 O
+e.g. 45 49 83 87 O
+unstable 50 58 88 96 O
+hypertension 59 71 97 109 B-chronic_disease
+, 71 72 109 110 O
+unstable 73 81 111 119 O
+cardiac 82 89 120 127 B-chronic_disease
+disease 90 97 128 135 I-chronic_disease
+, 97 98 135 136 O
+etc 99 102 137 140 O
+
+minimally 0 9 141 150 O
+invasive 10 18 151 159 O
+percutaneous 19 31 160 172 O
+procedures 32 42 173 183 O
+in 43 45 184 186 O
+the 46 49 187 190 O
+interventional 50 64 191 205 O
+radiology 65 74 206 215 O
+suite 75 80 216 221 O
+, 80 81 221 222 O
+e.g. 82 86 223 227 O
+, 86 87 227 228 O
+core 88 92 229 233 O
+biopsy 93 99 234 240 O
+, 99 100 240 241 O
+fine 101 105 242 246 B-treatment
+needle 106 112 247 253 I-treatment
+aspiration 113 123 254 264 I-treatment
+( 124 125 265 266 I-treatment
+FNA 125 128 266 269 I-treatment
+) 128 129 269 270 I-treatment
+, 129 130 270 271 O
+tumor 131 136 272 277 B-treatment
+ablation 137 145 278 286 I-treatment
+, 145 146 286 287 O
+etc 147 150 288 291 O
+
+women 0 5 292 297 B-gender
+

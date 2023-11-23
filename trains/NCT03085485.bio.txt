@@ -1,0 +1,272 @@
+A 0 1 0 1 O
+Clinical 2 10 2 10 O
+diagnosis 11 20 11 20 O
+of 21 23 21 23 O
+COPD 24 28 24 28 B-chronic_disease
+as 29 31 29 31 O
+defined 32 39 32 39 O
+by 40 42 40 42 O
+GOLD 43 47 43 47 O
+
+Angina 0 6 48 54 B-chronic_disease
+symptoms 7 15 55 63 O
+
+Cirrhosis 0 9 64 73 B-chronic_disease
+or 10 12 74 76 O
+elevated 13 21 77 85 B-clinical_variable
+liver 22 27 86 91 I-clinical_variable
+transaminases 28 41 92 105 I-clinical_variable
+> 42 43 106 107 O
+3X 44 46 108 110 B-lower_bound
+ULN 47 50 111 114 I-lower_bound
+
+Clinically 0 10 115 125 O
+significant 11 22 126 137 O
+arrhythmias 23 34 138 149 B-chronic_disease
+requiring 35 44 150 159 O
+anti 45 49 160 164 B-treatment
+- 49 50 164 165 I-treatment
+arrhythmic 50 60 165 175 I-treatment
+agent(s 61 68 176 183 I-treatment
+) 68 69 183 184 I-treatment
+or 70 72 185 187 O
+conduction 73 83 188 198 B-chronic_disease
+abnormalities 84 97 199 212 I-chronic_disease
+that 98 102 213 217 O
+in 103 105 218 220 O
+the 106 109 221 224 O
+opinion 110 117 225 232 O
+of 118 120 233 235 O
+the 121 124 236 239 O
+investigator 125 137 240 252 O
+that 138 142 253 257 O
+affect 143 149 258 264 O
+patient 150 157 265 272 O
+safety 158 164 273 279 O
+
+Clinically 0 10 280 290 O
+significant 11 22 291 302 O
+congestive 23 33 303 313 B-chronic_disease
+heart 34 39 314 319 I-chronic_disease
+failure 40 47 320 327 I-chronic_disease
+( 48 49 328 329 O
+known 49 54 329 334 O
+LVEF 55 59 335 339 B-clinical_variable
+< 60 61 340 341 O
+= 61 62 341 342 O
+45 63 65 343 345 B-upper_bound
+% 65 66 345 346 I-upper_bound
+, 66 67 346 347 O
+cor 68 71 348 351 B-chronic_disease
+pulmonale 72 81 352 361 I-chronic_disease
+, 81 82 361 362 O
+diastolic 83 92 363 372 B-chronic_disease
+heart 93 98 373 378 I-chronic_disease
+failure 99 106 379 386 I-chronic_disease
+, 106 107 386 387 O
+etc 108 111 388 391 O
+
+Clinically 0 10 392 402 O
+stable 11 17 403 409 O
+in 18 20 410 412 O
+the 21 24 413 416 O
+last 25 29 417 421 B-upper_bound
+4 30 31 422 423 I-upper_bound
+weeks 32 37 424 429 I-upper_bound
+with 38 42 430 434 O
+no 43 45 435 437 O
+evidence 46 54 438 446 O
+of 55 57 447 449 O
+COPD 58 62 450 454 B-chronic_disease
+exacerbation 63 75 455 467 I-chronic_disease
+
+Element 0 7 468 475 O
+of 8 10 476 478 O
+CFTR 11 15 479 483 B-chronic_disease
+Dysfunction 16 27 484 495 I-chronic_disease
+
+Exhibit 0 7 496 503 O
+symptoms 8 16 504 512 O
+of 17 19 513 515 O
+chronic 20 27 516 523 B-chronic_disease
+bronchitis 28 38 524 534 I-chronic_disease
+as 39 41 535 537 O
+defined 42 49 538 545 O
+by 50 52 546 548 O
+the 53 56 549 552 O
+Medical 57 64 553 560 O
+Research 65 73 561 569 O
+Council 74 81 570 577 O
+
+FEV1 0 4 578 582 B-clinical_variable
+% 4 5 582 583 I-clinical_variable
+predicted 6 15 584 593 O
+≥ 16 17 594 595 O
+35 18 20 596 598 B-lower_bound
+% 20 21 598 599 I-lower_bound
+
+Female 0 6 600 606 B-gender
+
+GFR 0 3 607 610 B-clinical_variable
+< 4 5 611 612 O
+50 6 8 613 615 B-upper_bound
+estimated 9 18 616 625 O
+by 19 21 626 628 O
+Cockroft 22 30 629 637 O
+- 30 31 637 638 O
+Gault 31 36 638 643 O
+
+History 0 7 644 651 O
+of 8 10 652 654 O
+MI 11 13 655 657 B-chronic_disease
+
+Known 0 5 658 663 O
+Diagnosis 6 15 664 673 O
+of 16 18 674 676 O
+Cystic 19 25 677 683 B-chronic_disease
+Fibrosis 26 34 684 692 I-chronic_disease
+
+Male 0 4 693 697 B-gender
+
+Pregnant 0 8 698 706 B-pregnancy
+
+Recent 0 6 707 713 O
+( 7 8 714 715 O
+e.g 8 11 715 718 O
+1year 12 17 719 724 O
+) 17 18 724 725 O
+arterial 19 27 726 734 B-chronic_disease
+thrombotic 28 38 735 745 I-chronic_disease
+events 39 45 746 752 I-chronic_disease
+( 46 47 753 754 O
+peripheral 47 57 754 764 B-chronic_disease
+arterial 58 66 765 773 I-chronic_disease
+disease 67 74 774 781 I-chronic_disease
+, 74 75 781 782 O
+thrombotic 76 86 783 793 B-chronic_disease
+stroke 87 93 794 800 I-chronic_disease
+) 93 94 800 801 O
+
+Revascularization 0 17 802 819 B-treatment
+procedure 18 27 820 829 I-treatment
+in 28 30 830 832 O
+the 31 34 833 836 O
+last 35 39 837 841 B-upper_bound
+year 40 44 842 846 I-upper_bound
+prior 45 50 847 852 O
+to 51 53 853 855 O
+screening 54 63 856 865 O
+
+Subjects 0 8 866 874 O
+should 9 15 875 881 O
+not 16 19 882 885 O
+have 20 24 886 890 O
+a 25 26 891 892 O
+pulmonary 27 36 893 902 B-treatment
+exacerbation 37 49 903 915 I-treatment
+or 50 52 916 918 O
+changes 53 60 919 926 O
+in 61 63 927 929 O
+therapy 64 71 930 937 B-treatment
+for 72 75 938 941 O
+pulmonary 76 85 942 951 B-chronic_disease
+disease 86 93 952 959 I-chronic_disease
+within 94 100 960 966 O
+28 101 103 967 969 B-upper_bound
+days 104 108 970 974 I-upper_bound
+before 109 115 975 981 O
+receiving 116 125 982 991 O
+the 126 129 992 995 O
+first 130 135 996 1001 O
+dose 136 140 1002 1006 O
+of 141 143 1007 1009 O
+study 144 149 1010 1015 O
+drug 150 154 1016 1020 O
+
+Subjects 0 8 1021 1029 O
+taking 9 15 1030 1036 O
+moderate 16 24 1037 1045 O
+or 25 27 1046 1048 O
+strong 28 34 1049 1055 O
+inhibitors 35 45 1056 1066 O
+or 46 48 1067 1069 O
+inducers 49 57 1070 1078 O
+of 58 60 1079 1081 O
+CYP3A4 61 67 1082 1088 B-treatment
+
+Sweat 0 5 1089 1094 B-clinical_variable
+Chloride 6 14 1095 1103 I-clinical_variable
+> 15 16 1104 1105 O
+30 17 19 1106 1108 B-lower_bound
+mEq 20 23 1109 1112 I-lower_bound
+/ 23 24 1112 1113 I-lower_bound
+L 24 25 1113 1114 I-lower_bound
+) 25 26 1114 1115 O
+
+Uncontrolled 0 12 1116 1128 O
+Diabetes 13 21 1129 1137 B-chronic_disease
+
+Use 0 3 1138 1141 O
+of 4 6 1142 1144 O
+Continuous 7 17 1145 1155 O
+Oxygen 18 24 1156 1162 B-treatment
+Therapy 25 32 1163 1170 I-treatment
+of 33 35 1171 1173 O
+greater 36 43 1174 1181 O
+than 44 48 1182 1186 O
+2 49 50 1187 1188 B-lower_bound
+liters 51 57 1189 1195 I-lower_bound
+per 58 61 1196 1199 I-lower_bound
+minute 62 68 1200 1206 I-lower_bound
+
+Weight 0 6 1207 1213 B-clinical_variable
+of 7 9 1214 1216 O
+40 10 12 1217 1219 B-lower_bound
+kg-120 13 19 1220 1226 I-lower_bound
+kg 20 22 1227 1229 I-upper_bound
+
+Willingness 0 11 1230 1241 B-contraception_consent
+to 12 14 1242 1244 I-contraception_consent
+use 15 18 1245 1248 I-contraception_consent
+at 19 21 1249 1251 I-contraception_consent
+least 22 27 1252 1257 I-contraception_consent
+one 28 31 1258 1261 I-contraception_consent
+form 32 36 1262 1266 I-contraception_consent
+of 37 39 1267 1269 I-contraception_consent
+acceptable 40 50 1270 1280 I-contraception_consent
+birth 51 56 1281 1286 I-contraception_consent
+control 57 64 1287 1294 I-contraception_consent
+including 65 74 1295 1304 O
+abstinence 75 85 1305 1315 B-contraception_consent
+, 85 86 1315 1316 O
+condom 87 93 1317 1323 B-contraception_consent
+with 94 98 1324 1328 I-contraception_consent
+spermicide 99 109 1329 1339 I-contraception_consent
+, 109 110 1339 1340 O
+or 111 113 1341 1343 O
+hormonal 114 122 1344 1352 B-contraception_consent
+contraceptives 123 137 1353 1367 I-contraception_consent
+from 138 142 1368 1372 O
+time 143 147 1373 1377 O
+of 148 150 1378 1380 O
+signing 151 158 1381 1388 O
+ICF 159 162 1389 1392 O
+through 163 170 1393 1400 O
+study 171 176 1401 1406 O
+follow 177 183 1407 1413 O
+up 184 186 1414 1416 O
+visit 187 192 1417 1422 O
+
+age 0 3 1423 1426 B-age
+40 4 6 1427 1429 B-lower_bound
+- 6 7 1429 1430 O
+80 7 9 1430 1432 B-upper_bound
+
+herbal 0 6 1433 1439 B-treatment
+medications 7 18 1440 1451 I-treatment
+
+stable 0 6 1452 1458 B-chronic_disease
+coronary 7 15 1459 1467 I-chronic_disease
+artery 16 22 1468 1474 I-chronic_disease
+disease 23 30 1475 1482 I-chronic_disease
+

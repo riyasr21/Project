@@ -1,0 +1,90 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+amoxicillin 11 22 11 22 B-allergy_name
+- 22 23 22 23 I-allergy_name
+clavulanate 23 34 23 34 I-allergy_name
+
+Antibiotic 0 10 35 45 B-treatment
+use 11 14 46 49 O
+within 15 21 50 56 O
+15 22 24 57 59 B-upper_bound
+days 25 29 60 64 I-upper_bound
+
+Asthma 0 6 65 71 B-chronic_disease
+/ 6 7 71 72 O
+allergic 7 15 72 80 B-chronic_disease
+rhinitis 16 24 81 89 I-chronic_disease
+explains 25 33 90 98 O
+symptoms 34 42 99 107 O
+
+Baseline 0 8 108 116 B-clinical_variable
+score 9 14 117 122 I-clinical_variable
+≥9 15 17 123 125 O
+on 18 20 126 128 O
+the 21 24 129 132 O
+Pediatric 25 34 133 142 O
+Rhinosinusitis 35 49 143 157 O
+Symptom 50 57 158 165 O
+Scale 58 63 166 171 O
+
+Cystic 0 6 172 178 B-chronic_disease
+fibrosis 7 15 179 187 I-chronic_disease
+
+Immotile 0 8 188 196 B-chronic_disease
+cilia 9 14 197 202 I-chronic_disease
+syndrome 15 23 203 211 I-chronic_disease
+
+Immunodeficiency 0 16 212 228 B-chronic_disease
+
+Meets 0 5 229 234 O
+criteria 6 14 235 243 O
+for 15 18 244 247 O
+persistent 19 29 248 258 O
+or 30 32 259 261 O
+worsening 33 42 262 271 O
+presentations 43 56 272 285 O
+of 57 59 286 288 O
+sinusitis 60 69 289 298 B-chronic_disease
+
+Other 0 5 299 304 O
+concurrent 6 16 305 315 B-chronic_disease
+infection 17 26 316 325 I-chronic_disease
+( 27 28 326 327 O
+e.g. 28 32 327 331 O
+, 32 33 331 332 O
+pneumonia 34 43 333 342 B-chronic_disease
+, 43 44 342 343 O
+acute 45 50 344 349 B-chronic_disease
+otitis 51 57 350 356 I-chronic_disease
+media 58 63 357 362 I-chronic_disease
+, 63 64 362 363 O
+streptococcal 65 78 364 377 B-chronic_disease
+pharyngitis 79 90 378 389 I-chronic_disease
+) 90 91 389 390 O
+
+Parental 0 8 391 399 O
+inability 9 18 400 409 B-language_fluency
+to 19 21 410 412 I-language_fluency
+read 22 26 413 417 I-language_fluency
+/ 26 27 417 418 I-language_fluency
+write 27 32 418 423 I-language_fluency
+English 33 40 424 431 I-language_fluency
+or 41 43 432 434 I-language_fluency
+Spanish 44 51 435 442 I-language_fluency
+
+Wheezing 0 8 443 451 B-chronic_disease
+on 9 11 452 454 O
+exam 12 16 455 459 O
+
+≥3 0 2 460 462 O
+days 3 7 463 467 I-lower_bound
+of 8 10 468 470 O
+colored 11 18 471 478 B-clinical_variable
+nasal 19 24 479 484 I-clinical_variable
+discharge 25 34 485 494 I-clinical_variable
+and 35 38 495 498 O
+fever 39 44 499 504 B-clinical_variable
+≥39 45 48 505 508 O
+° 48 49 508 509 I-lower_bound
+C 49 50 509 510 I-lower_bound
+

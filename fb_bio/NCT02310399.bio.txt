@@ -1,0 +1,245 @@
+18 0 2 0 2 B-lower_bound
+months 3 9 3 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+with 17 21 17 21 O
+6 22 23 22 23 B-upper_bound
+months 24 30 24 30 I-upper_bound
+of 31 33 31 33 O
+use 34 37 34 37 O
+
+Clear 0 5 38 43 O
+surgical 6 14 44 52 O
+reason 15 21 53 59 O
+for 22 25 60 63 O
+poor 26 30 64 68 O
+CI 31 33 69 71 O
+performance 34 45 72 83 O
+that 46 50 84 88 O
+can 51 54 89 92 O
+be 55 57 93 95 O
+remediated 58 68 96 106 O
+with 69 73 107 111 O
+revision 74 82 112 120 O
+CI 83 85 121 123 O
+or 86 88 124 126 O
+contralateral 89 102 127 140 B-treatment
+surgery 103 110 141 148 I-treatment
+rather 111 117 149 155 O
+than 118 122 156 160 O
+ABI 123 126 161 164 B-clinical_variable
+
+Cochlear 0 8 165 173 B-chronic_disease
+aplasia 9 16 174 181 I-chronic_disease
+or 17 19 182 184 O
+severe 20 26 185 191 O
+hypoplasia 27 37 192 202 B-chronic_disease
+
+Cochlear 0 8 203 211 B-chronic_disease
+nerve 9 14 212 217 I-chronic_disease
+deficiency 15 25 218 228 I-chronic_disease
+
+Failed 0 6 229 235 O
+revision 7 15 236 244 B-treatment
+CI 16 18 245 247 I-treatment
+without 19 26 248 255 O
+benefit 27 34 256 263 O
+
+Group 0 5 264 269 O
+1 6 7 270 271 O
+: 7 8 271 272 O
+Prelinguistic 9 22 273 286 O
+hearing 23 30 287 294 B-chronic_disease
+loss 31 35 295 299 I-chronic_disease
+
+Group 0 5 300 305 O
+2 6 7 306 307 O
+: 7 8 307 308 O
+Post 9 13 309 313 B-chronic_disease
+- 13 14 313 314 I-chronic_disease
+linguistic 14 24 314 324 I-chronic_disease
+hearing 25 32 325 332 I-chronic_disease
+loss 33 37 333 337 I-chronic_disease
+( 38 39 338 339 O
+< 39 40 339 340 O
+21 40 42 340 342 B-upper_bound
+yrs 43 46 343 346 I-upper_bound
+. 46 47 346 347 O
+of 48 50 348 350 O
+age 51 54 351 354 B-age
+) 54 55 354 355 O
+
+Intractable 0 11 356 367 B-chronic_disease
+seizures 12 20 368 376 I-chronic_disease
+or 21 23 377 379 O
+progressive 24 35 380 391 O
+, 35 36 391 392 O
+deteriorating 37 50 393 406 O
+neurological 51 63 407 419 B-chronic_disease
+disorder 64 72 420 428 I-chronic_disease
+
+Involvement 0 11 429 440 O
+in 12 14 441 443 O
+a 15 16 444 445 O
+rehabilitation 17 31 446 460 B-treatment
+program 32 39 461 468 I-treatment
+that 40 44 469 473 O
+emphasizes 45 55 474 484 O
+development 56 67 485 496 O
+of 68 70 497 499 O
+auditory 71 79 500 508 O
+skills 80 86 509 515 O
+with 87 91 516 520 O
+or 92 94 521 523 O
+without 95 102 524 531 O
+the 103 106 532 535 O
+use 107 110 536 539 O
+of 111 113 540 542 O
+supplementary 114 127 543 556 O
+visual 128 134 557 563 O
+communication 135 148 564 577 O
+
+Loss 0 4 578 582 O
+or 5 7 583 585 O
+lack 8 12 586 590 O
+of 13 15 591 593 O
+benefit 16 23 594 601 O
+from 24 28 602 606 O
+appropriate 29 40 607 618 O
+CI 41 43 619 621 O
+without 44 51 622 629 O
+the 52 55 630 633 O
+possibility 56 67 634 645 O
+for 68 71 646 649 O
+revision 72 80 650 658 B-treatment
+or 81 83 659 661 I-treatment
+contralateral 84 97 662 675 I-treatment
+implantation 98 110 676 688 I-treatment
+
+MRI 0 3 689 692 B-treatment
++ 4 5 693 694 O
+/- 5 7 694 696 O
+CT 8 10 697 699 B-treatment
+evidence 11 19 700 708 O
+
+Need 0 4 709 713 O
+for 5 8 714 717 O
+brainstem 9 18 718 727 B-treatment
+irradiation 19 30 728 739 I-treatment
+
+No 0 2 740 742 O
+or 3 5 743 745 O
+limited 6 13 746 753 B-chronic_disease
+cognitive 14 23 754 763 I-chronic_disease
+/ 23 24 763 764 I-chronic_disease
+developmental 24 37 764 777 I-chronic_disease
+delays 38 44 778 784 I-chronic_disease
+
+Patients 0 8 785 793 O
+with 9 13 794 798 O
+evidence 14 22 799 807 O
+of 23 25 808 810 O
+Chiari 26 32 811 817 B-chronic_disease
+malformation 33 45 818 830 I-chronic_disease
+, 45 46 830 831 O
+hydrocephalus 47 60 832 845 B-chronic_disease
+, 60 61 845 846 O
+spina 62 67 847 852 B-chronic_disease
+bifid 68 73 853 858 I-chronic_disease
+a 74 75 859 860 I-chronic_disease
+
+Post 0 4 861 865 O
+- 4 5 865 866 O
+meningitis 5 15 866 876 B-chronic_disease
+ossification 16 28 877 889 I-chronic_disease
+
+Severe 0 6 890 896 O
+inner 7 12 897 902 O
+ear 13 16 903 906 B-chronic_disease
+malformation 17 29 907 919 I-chronic_disease
+
+Unable 0 6 920 926 O
+to 7 9 927 929 O
+tolerate 10 18 930 938 O
+general 19 26 939 946 B-treatment
+anesthesia 27 37 947 957 I-treatment
+( 38 39 958 959 O
+cardiac 39 46 959 966 O
+, 46 47 966 967 O
+pulmonary 48 57 968 977 O
+, 57 58 977 978 O
+bleeding 59 67 979 987 B-chronic_disease
+diathesis 68 77 988 997 I-chronic_disease
+, 77 78 997 998 O
+etc 79 82 999 1002 O
+. 82 83 1002 1003 O
+) 83 84 1003 1004 O
+
+When 0 4 1005 1009 O
+a 5 6 1010 1011 O
+cochlea 7 14 1012 1019 O
+is 15 17 1020 1022 O
+present 18 25 1023 1030 O
+or 26 28 1031 1033 O
+patent 29 35 1034 1040 O
+, 35 36 1040 1041 O
+lack 37 41 1042 1046 O
+of 42 44 1047 1049 O
+significant 45 56 1050 1061 O
+benefit 57 64 1062 1069 O
+from 65 69 1070 1074 O
+CI 70 72 1075 1077 O
+despite 73 80 1078 1085 O
+consistent 81 91 1086 1096 O
+use 92 95 1097 1100 O
+( 96 97 1101 1102 O
+> 97 98 1102 1103 O
+6 98 99 1103 1104 B-lower_bound
+mo 100 102 1105 1107 I-lower_bound
+. 102 103 1107 1108 I-lower_bound
+) 103 104 1108 1109 O
+
+Willing 0 7 1110 1117 O
+to 8 10 1118 1120 O
+receive 11 18 1121 1128 O
+the 19 22 1129 1132 O
+appropriate 23 34 1133 1144 O
+meningitis 35 45 1145 1155 B-treatment
+vaccinations 46 58 1156 1168 I-treatment
+
+birth-5 0 7 1169 1176 O
+years 8 13 1177 1182 I-upper_bound
+; 13 14 1182 1183 O
+age 15 18 1184 1187 B-age
+at 19 21 1188 1190 O
+implantation 22 34 1191 1203 O
+of 35 37 1204 1206 O
+ABI 38 41 1207 1210 B-treatment
+18 42 44 1211 1213 B-lower_bound
+months-5 45 53 1214 1222 I-lower_bound
+years 54 59 1223 1228 O
+
+brainstem 0 9 1229 1238 O
+or 10 12 1239 1241 O
+cortical 13 21 1242 1250 O
+anomaly 22 29 1251 1258 O
+that 30 34 1259 1263 O
+makes 35 40 1264 1269 O
+implantation 41 53 1270 1282 B-treatment
+unfeasible 54 64 1283 1293 O
+
+normal 0 6 1294 1300 O
+cochlea 7 14 1301 1308 O
+and 15 18 1309 1312 O
+cochlear 19 27 1313 1321 O
+nerves 28 34 1322 1328 O
+or 35 37 1329 1331 O
+NF2 38 41 1332 1335 B-chronic_disease
+
+potential 0 9 1336 1345 O
+benefits 10 18 1346 1354 O
+and 19 22 1355 1358 O
+limitations 23 34 1359 1370 O
+of 35 37 1371 1373 O
+ABI 38 41 1374 1377 B-treatment
+

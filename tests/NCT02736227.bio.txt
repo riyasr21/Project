@@ -1,0 +1,24 @@
+Listed 0 6 0 6 O
+for 7 10 7 10 O
+or 11 13 11 13 O
+recent 14 20 14 20 O
+( 21 22 21 22 O
+within 22 28 22 28 O
+1 29 30 29 30 B-upper_bound
+month 31 36 31 36 I-upper_bound
+) 36 37 36 37 O
+recipient 38 47 38 47 O
+of 48 50 48 50 O
+deceased 51 59 51 59 O
+or 60 62 60 62 O
+living 63 69 63 69 O
+donor 70 75 70 75 O
+liver 76 81 76 81 O
+transplantation 82 97 82 97 O
+
+≥ 0 1 98 99 O
+18 2 4 100 102 B-lower_bound
+years 5 10 103 108 I-lower_bound
+of 11 13 109 111 O
+age 14 17 112 115 B-age
+

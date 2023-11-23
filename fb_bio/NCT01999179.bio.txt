@@ -1,0 +1,156 @@
+> 0 1 0 1 O
+18 1 3 1 3 B-lower_bound
+years 4 9 4 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+Anticipated 0 11 17 28 O
+replacement 12 23 29 40 O
+of 24 26 41 43 O
+central 27 34 44 51 O
+venous 35 41 52 58 O
+catheter 42 50 59 67 O
+within 51 57 68 74 O
+3 58 59 75 76 B-upper_bound
+months 60 66 77 83 I-upper_bound
+
+Catheter 0 8 84 92 O
+removal 9 16 93 100 O
+> 17 18 101 102 O
+1 18 19 102 103 B-lower_bound
+month 20 25 104 109 I-lower_bound
+prior 26 31 110 115 I-lower_bound
+to 32 34 116 118 O
+enrollment 35 45 119 129 O
+
+Creatinine 0 10 130 140 B-clinical_variable
+clearance 11 20 141 150 I-clinical_variable
+> 21 22 151 152 O
+30 22 24 152 154 B-lower_bound
+ml 25 27 155 157 I-lower_bound
+/ 27 28 157 158 I-lower_bound
+min 28 31 158 161 I-lower_bound
+
+Current 0 7 162 169 O
+hematologic 8 19 170 181 B-chronic_disease
+
+Known 0 5 182 187 O
+underlying 6 16 188 198 O
+higher 17 23 199 205 O
+risk 24 28 206 210 O
+thrombophilias 29 43 211 225 B-chronic_disease
+including 44 53 226 235 O
+antiphospholipid 54 70 236 252 B-chronic_disease
+antibody 71 79 253 261 I-chronic_disease
+syndrome 80 88 262 270 I-chronic_disease
+, 88 89 270 271 O
+antithrombin 90 102 272 284 O
+, 102 103 284 285 O
+protein 104 111 286 293 B-chronic_disease
+C 112 113 294 295 I-chronic_disease
+or 114 116 296 298 I-chronic_disease
+protein 117 124 299 306 I-chronic_disease
+S 125 126 307 308 I-chronic_disease
+deficiencies 127 139 309 321 I-chronic_disease
+, 139 140 321 322 O
+or 141 143 323 325 O
+homozygosity 144 156 326 338 O
+or 157 159 339 341 O
+compound 160 168 342 350 B-chronic_disease
+heterozygosity 169 183 351 365 I-chronic_disease
+for 184 187 366 369 O
+prothrombin 188 199 370 381 B-chronic_disease
+G20210A 200 207 382 389 I-chronic_disease
+or 208 210 390 392 O
+Factor 211 217 393 399 B-treatment
+V 218 219 400 401 I-treatment
+R506Q 220 225 402 407 I-treatment
+mutations 226 235 408 417 O
+
+Major 0 5 418 423 O
+bleeding 6 14 424 432 O
+or 15 17 433 435 O
+clinically 18 28 436 446 O
+relevant 29 37 447 455 O
+non 38 41 456 459 O
+- 41 42 459 460 O
+major 42 47 460 465 O
+bleeding 48 56 466 474 O
+in 57 59 475 477 O
+the 60 63 478 481 O
+preceding 64 73 482 491 O
+60 74 76 492 494 B-lower_bound
+days 77 81 495 499 I-lower_bound
+
+Participation 0 13 500 513 O
+in 14 16 514 516 O
+another 17 24 517 524 O
+clinical 25 33 525 533 O
+trial 34 39 534 539 O
+that 40 44 540 544 O
+requires 45 53 545 553 O
+anticoagulation 54 69 554 569 B-treatment
+
+Platelet 0 8 570 578 B-clinical_variable
+count 9 14 579 584 I-clinical_variable
+> 15 16 585 586 O
+50,000 16 22 586 592 B-lower_bound
+
+Treatment 0 9 593 602 O
+with 10 14 603 607 O
+thrombolysis 15 27 608 620 B-treatment
+
+Underlying 0 10 621 631 O
+medical 11 18 632 639 O
+condition 19 28 640 649 O
+or 29 31 650 652 O
+chemotherapy 32 44 653 665 B-treatment
+requiring 45 54 666 675 O
+long 55 59 676 680 O
+- 59 60 680 681 O
+term 60 64 681 685 O
+anticoagulation 65 80 686 701 B-treatment
+
+Upper 0 5 702 707 O
+extremity 6 15 708 717 O
+venous 16 22 718 724 B-chronic_disease
+thrombosis 23 33 725 735 I-chronic_disease
+associated 34 44 736 746 O
+with 45 49 747 751 O
+an 50 52 752 754 O
+indwelling 53 63 755 765 O
+catheter 64 72 766 774 O
+documented 73 83 775 785 O
+by 84 86 786 788 O
+ultrasound 87 97 789 799 B-treatment
+, 97 98 799 800 O
+CT 99 101 801 803 B-treatment
+or 102 104 804 806 O
+venography 105 115 807 817 B-treatment
+
+Use 0 3 818 821 O
+of 4 6 822 824 O
+anticoagulant 7 20 825 838 B-treatment
+other 21 26 839 844 O
+than 27 31 845 849 O
+low 32 35 850 853 B-treatment
+- 35 36 853 854 I-treatment
+molecular 36 45 854 863 I-treatment
+weight 46 52 864 870 I-treatment
+heparin 53 60 871 878 I-treatment
+
+solid 0 5 879 884 B-cancer
+tumor 6 11 885 890 I-cancer
+malignancy 12 22 891 901 I-cancer
+undergoing 23 33 902 912 O
+chemotherapy 34 46 913 925 B-treatment
+, 46 47 925 926 O
+surgery 48 55 927 934 B-treatment
+, 55 56 934 935 O
+radiation 57 66 936 945 B-treatment
+or 67 69 946 948 O
+hormonal 70 78 949 957 B-treatment
+therapy 79 86 958 965 I-treatment
+for 87 90 966 969 O
+malignancy 91 101 970 980 O
+

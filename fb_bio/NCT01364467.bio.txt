@@ -1,0 +1,35 @@
+Children 0 8 0 8 O
+with 9 13 9 13 O
+immunodeficiency 14 30 14 30 B-chronic_disease
+
+between 0 7 31 38 O
+the 8 11 39 42 O
+ages 12 16 43 47 B-age
+of 17 19 48 50 O
+7 20 21 51 52 B-lower_bound
+and 22 25 53 56 O
+18 26 28 57 59 B-upper_bound
+years 29 34 60 65 I-upper_bound
+
+cystic 0 6 66 72 B-chronic_disease
+fibrosis 7 15 73 81 I-chronic_disease
+
+diagnosed 0 9 82 91 O
+with 10 14 92 96 O
+Chronic 15 22 97 104 B-chronic_disease
+Rhinitis 23 31 105 113 I-chronic_disease
+and 32 35 114 117 O
+nasal 36 41 118 123 B-chronic_disease
+stuffiness 42 52 124 134 I-chronic_disease
+for 53 56 135 138 O
+at 57 59 139 141 O
+least 60 65 142 147 O
+3 66 67 148 149 B-lower_bound
+month 68 73 150 155 I-lower_bound
+duration 74 82 156 164 O
+
+signs 0 5 165 170 O
+of 6 8 171 173 O
+bacterial 9 18 174 183 B-chronic_disease
+infection 19 28 184 193 I-chronic_disease
+

@@ -1,0 +1,16 @@
+Severe 0 6 0 6 B-chronic_disease
+comorbid 7 15 7 15 I-chronic_disease
+psychiatric 16 27 16 27 I-chronic_disease
+disorder 28 36 28 36 I-chronic_disease
+
+dependence 0 10 37 47 O
+in 11 13 48 50 O
+3 14 15 51 52 B-upper_bound
+months 16 22 53 59 I-upper_bound
+prior 23 28 60 65 I-upper_bound
+to 29 31 66 68 O
+study 32 37 69 74 O
+
+intellectual 0 12 75 87 B-chronic_disease
+disorder 13 21 88 96 I-chronic_disease
+

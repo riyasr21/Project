@@ -1,0 +1,86 @@
+Abdominal 0 9 0 9 B-chronic_disease
+wall 10 14 10 14 I-chronic_disease
+defects 15 22 15 22 I-chronic_disease
+as 23 25 23 25 O
+described 26 35 26 35 O
+above 36 41 36 41 O
+
+Accepts 0 7 42 49 O
+dedicating 8 18 50 60 O
+at 19 21 61 63 O
+least 22 27 64 69 O
+2 28 29 70 71 B-lower_bound
+years 30 35 72 77 I-lower_bound
+towards 36 43 78 85 O
+extensive 44 53 86 95 O
+post 54 58 96 100 O
+transplant 59 69 101 111 B-treatment
+rehabilitation 70 84 112 126 I-treatment
+
+Active 0 6 127 133 B-cancer
+cancer 7 13 134 140 I-cancer
+with 14 18 141 145 O
+or 19 21 146 148 O
+without 22 29 149 156 O
+metastases 30 40 157 167 B-cancer
+
+Age 0 3 168 171 B-age
+between 4 11 172 179 O
+18 12 14 180 182 B-lower_bound
+and 15 18 183 186 O
+60 19 21 187 189 B-upper_bound
+years 22 27 190 195 I-upper_bound
+
+Documented 0 10 196 206 O
+psychological 11 24 207 220 B-chronic_disease
+disorder(s 25 35 221 231 I-chronic_disease
+) 35 36 231 232 O
+or 37 39 233 235 O
+incomplete 40 50 236 246 O
+psychological 51 64 247 260 O
+clearance 65 74 261 270 O
+
+Elapsed 0 7 271 278 O
+injury 8 14 279 285 O
+- 14 15 285 286 O
+to 15 17 286 288 O
+- 17 18 288 289 O
+transplant 18 28 289 299 B-treatment
+time 29 33 300 304 O
+of 34 36 305 307 O
+more 37 41 308 312 O
+than 42 46 313 317 O
+6 47 48 318 319 B-lower_bound
+months 49 55 320 326 I-lower_bound
+and 56 59 327 330 O
+less 60 64 331 335 O
+than 65 69 336 340 O
+15 70 72 341 343 B-upper_bound
+years 73 78 344 349 I-upper_bound
+
+Impaired 0 8 350 358 B-chronic_disease
+renal 9 14 359 364 I-chronic_disease
+or 15 17 365 367 O
+hepatic 18 25 368 375 B-chronic_disease
+function 26 34 376 384 I-chronic_disease
+
+Severe 0 6 385 391 B-chronic_disease
+cardiac 7 14 392 399 I-chronic_disease
+/ 14 15 399 400 I-chronic_disease
+pulmonary 15 24 400 409 I-chronic_disease
+dysfunction 25 36 410 421 I-chronic_disease
+or 37 39 422 424 O
+other 40 45 425 430 O
+severe 46 52 431 437 B-chronic_disease
+irreversible 53 65 438 450 I-chronic_disease
+/ 65 66 450 451 I-chronic_disease
+uncorrectable 66 79 451 464 I-chronic_disease
+disease 80 87 465 472 I-chronic_disease
+
+Strong 0 6 473 479 O
+motivation 7 17 480 490 O
+to 18 20 491 493 O
+proceed 21 28 494 501 O
+with 29 33 502 506 O
+transplantation 34 49 507 522 B-treatment
+

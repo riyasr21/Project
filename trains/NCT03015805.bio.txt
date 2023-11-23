@@ -1,0 +1,60 @@
+12 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+17 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Active 0 6 16 22 B-chronic_disease
+psychotic 7 16 23 32 I-chronic_disease
+disorder 17 25 33 41 I-chronic_disease
+
+Diagnostic 0 10 42 52 B-clinical_variable
+and 11 14 53 56 I-clinical_variable
+Statistical 15 26 57 68 I-clinical_variable
+Manual-5 27 35 69 77 I-clinical_variable
+( 36 37 78 79 I-clinical_variable
+DSM-5 37 42 79 84 I-clinical_variable
+) 42 43 84 85 I-clinical_variable
+substance 44 53 86 95 O
+use 54 57 96 99 O
+disorder 58 66 100 108 O
+
+Not 0 3 109 112 O
+serving 4 11 113 120 O
+clients 12 19 121 128 O
+aged 20 24 129 133 B-age
+12 25 27 134 136 B-lower_bound
+- 27 28 136 137 O
+17 28 30 137 139 B-upper_bound
+years 31 36 140 145 I-upper_bound
+old 37 40 146 149 O
+with 41 45 150 154 O
+a 46 47 155 156 O
+substance 48 57 157 166 O
+abuse 58 63 167 172 O
+problem 64 71 173 180 O
+
+Pervasive 0 9 181 190 B-chronic_disease
+developmental 10 23 191 204 I-chronic_disease
+disorder 24 32 205 213 I-chronic_disease
+
+Serving 0 7 214 221 O
+clients 8 15 222 229 O
+aged 16 20 230 234 B-age
+12 21 23 235 237 B-lower_bound
+- 23 24 237 238 O
+17 24 26 238 240 B-upper_bound
+years 27 32 241 246 I-upper_bound
+old 33 36 247 250 O
+with 37 41 251 255 O
+a 42 43 256 257 O
+substance 44 53 258 267 O
+abuse 54 59 268 273 O
+problem 60 67 274 281 O
+
+Severe 0 6 282 288 B-chronic_disease
+/ 6 7 288 289 I-chronic_disease
+profound 7 15 289 297 I-chronic_disease
+mental 16 22 298 304 I-chronic_disease
+retardation 23 34 305 316 I-chronic_disease
+

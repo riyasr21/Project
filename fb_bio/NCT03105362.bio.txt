@@ -1,0 +1,86 @@
+Male 0 4 0 4 B-gender
+
+Patients 0 8 5 13 O
+receiving 9 18 14 23 O
+IV 19 21 24 26 B-treatment
+antibiotics 22 33 27 38 I-treatment
+within 34 40 39 45 O
+the 41 44 46 49 O
+previous 45 53 50 58 O
+72h 54 57 59 62 B-upper_bound
+
+Patients 0 8 63 71 O
+who 9 12 72 75 O
+are 13 16 76 79 O
+in 17 19 80 82 O
+intestinal 20 30 83 93 O
+continuity 31 41 94 104 O
+or 42 44 105 107 O
+with 45 49 108 112 O
+diverting 50 59 113 122 O
+ileostomy 60 69 123 132 B-treatment
+, 69 70 132 133 O
+jejunostomy 71 82 134 145 B-treatment
+
+Patients 0 8 146 154 O
+with 9 13 155 159 O
+a 14 15 160 161 O
+primary 16 23 162 169 O
+diagnosis 24 33 170 179 O
+of 34 36 180 182 O
+a 37 38 183 184 O
+motility 39 47 185 193 B-chronic_disease
+disorder 48 56 194 202 I-chronic_disease
+
+Stable 0 6 203 209 O
+GI 7 9 210 212 B-treatment
+medication 10 20 213 223 I-treatment
+regime 21 27 224 230 O
+
+Weight 0 6 231 237 B-clinical_variable
+/ 6 7 237 238 I-clinical_variable
+Height 7 13 238 244 I-clinical_variable
+Z 14 15 245 246 I-clinical_variable
+- 15 16 246 247 I-clinical_variable
+score 16 21 247 252 I-clinical_variable
+( 22 23 253 254 I-clinical_variable
+WHZ 23 26 254 257 I-clinical_variable
+) 26 27 257 258 I-clinical_variable
+< 28 29 259 260 O
+-2 29 31 260 262 B-upper_bound
+
+between 0 7 263 270 O
+the 8 11 271 274 O
+ages 12 16 275 279 B-age
+of 17 19 280 282 O
+1 20 21 283 284 B-lower_bound
+- 21 22 284 285 O
+17 22 24 285 287 B-upper_bound
+
+cholestyramine 0 14 288 302 B-treatment
+
+chronic 0 7 303 310 B-chronic_disease
+intestinal 8 18 311 321 I-chronic_disease
+pseudo 19 25 322 328 I-chronic_disease
+- 25 26 328 329 I-chronic_disease
+obstruction 26 37 329 340 I-chronic_disease
+
+epithelial 0 10 341 351 B-chronic_disease
+cell 11 15 352 356 I-chronic_disease
+disorder 16 24 357 365 I-chronic_disease
+
+female 0 6 366 372 B-gender
+
+microvillus 0 11 373 384 B-chronic_disease
+inclusion 12 21 385 394 I-chronic_disease
+disease 22 29 395 402 I-chronic_disease
+
+small 0 5 403 408 B-chronic_disease
+bowel 6 11 409 414 I-chronic_disease
+bacterial 12 21 415 424 I-chronic_disease
+overgrowth 22 32 425 435 I-chronic_disease
+( 33 34 436 437 I-chronic_disease
+SBBO 34 38 437 441 I-chronic_disease
+) 38 39 441 442 I-chronic_disease
+regimen 40 47 443 450 O
+

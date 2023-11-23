@@ -1,0 +1,15 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Inflammatory 0 12 25 37 B-chronic_disease
+arthritis 13 22 38 47 I-chronic_disease
+
+Pregnant 0 8 48 56 B-pregnancy
+women 9 14 57 62 B-gender
+
+rheumatoid 0 10 63 73 B-chronic_disease
+

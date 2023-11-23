@@ -1,0 +1,37 @@
+Both 0 4 0 4 O
+partners 5 13 5 13 O
+are 14 17 14 17 O
+the 18 21 18 21 O
+biological 22 32 22 32 O
+parents 33 40 33 40 O
+of 41 43 41 43 O
+a 44 45 44 45 O
+child 46 51 46 51 O
+in 52 54 52 54 O
+a 55 56 55 56 O
+current 57 64 57 64 B-pregnancy
+pregnancy 65 74 65 74 I-pregnancy
+or 75 77 75 77 O
+of 78 80 78 80 O
+a 81 82 81 82 O
+child 83 88 83 88 O
+born 89 93 89 93 O
+within 94 100 94 100 O
+the 101 104 101 104 O
+past 105 109 105 109 B-upper_bound
+3 110 111 110 111 I-upper_bound
+months 112 118 112 118 I-upper_bound
+
+Fluent 0 6 119 125 B-language_fluency
+in 7 9 126 128 I-language_fluency
+English 10 17 129 136 I-language_fluency
+( 18 19 137 138 O
+study 19 24 138 143 O
+and 25 28 144 147 O
+intervention 29 41 148 160 O
+materials 42 51 161 170 O
+are 52 55 171 174 O
+in 56 58 175 177 O
+English 59 66 178 185 O
+) 66 67 185 186 O
+

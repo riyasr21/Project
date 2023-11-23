@@ -1,0 +1,216 @@
+50 0 2 0 2 B-lower_bound
+- 3 4 3 4 O
+75 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+of 14 16 14 16 O
+age 17 20 17 20 B-age
+
+Alcohol 0 7 21 28 O
+use 8 11 29 32 O
+of 12 14 33 35 O
+more 15 19 36 40 O
+than 20 24 41 45 O
+4 25 26 46 47 B-lower_bound
+drinks 27 33 48 54 I-lower_bound
+per 34 37 55 58 O
+day 38 41 59 62 O
+
+Condition 0 9 63 72 O
+precluding 10 20 73 83 O
+MRI 21 24 84 87 B-clinical_variable
+
+Currently 0 9 88 97 O
+uncontrolled 10 22 98 110 O
+moderate 23 31 111 119 B-chronic_disease
+- 31 32 119 120 I-chronic_disease
+severe 32 38 120 126 I-chronic_disease
+depression 39 49 127 137 I-chronic_disease
+( 50 51 138 139 O
+BDI>20 51 57 139 145 B-clinical_variable
+) 57 58 145 146 O
+
+Dementia 0 8 147 155 B-chronic_disease
+per 9 12 156 159 O
+DSM 13 16 160 163 O
+- 16 17 163 164 O
+V 17 18 164 165 O
+criteria 19 27 166 174 O
+
+Diagnosis 0 9 175 184 O
+of 10 12 185 187 O
+PD 13 15 188 190 B-chronic_disease
+- 15 16 190 191 I-chronic_disease
+MCI 16 19 191 194 I-chronic_disease
+, 19 20 194 195 O
+amnestic 21 29 196 204 O
+subtype 30 37 205 212 O
+per 38 41 213 216 O
+MDS 42 45 217 220 B-cancer
+criteria 46 54 221 229 O
+
+History 0 7 230 237 O
+of 8 10 238 240 O
+schizophrenia 11 24 241 254 B-chronic_disease
+, 24 25 254 255 O
+delusions 26 35 256 265 B-chronic_disease
+
+Medically 0 9 266 275 O
+cleared 10 17 276 283 O
+for 18 21 284 287 O
+surgery 22 29 288 295 B-treatment
+and 30 33 296 299 O
+anesthesia 34 44 300 310 B-treatment
+
+Minimum 0 7 311 318 O
+of 8 10 319 321 O
+10 11 13 322 324 B-lower_bound
+years 14 19 325 330 I-lower_bound
+of 20 22 331 333 O
+education 23 32 334 343 O
+
+Parkinson 0 9 344 353 B-chronic_disease
+'s 9 11 353 355 I-chronic_disease
+disease 12 19 356 363 I-chronic_disease
+per 20 23 364 367 O
+UK 24 26 368 370 O
+Parkinson 27 36 371 380 B-chronic_disease
+'s 36 38 380 382 I-chronic_disease
+Disease 39 46 383 390 I-chronic_disease
+Society 47 54 391 398 O
+Brain 55 60 399 404 O
+Bank 61 65 405 409 O
+( 66 67 410 411 O
+Queens 67 73 411 417 O
+Square 74 80 418 424 O
+) 80 81 424 425 O
+criteria 82 90 426 434 O
+
+Primary 0 7 435 442 B-language_fluency
+English 8 15 443 450 I-language_fluency
+speaking 16 24 451 459 I-language_fluency
+
+Subject 0 7 460 467 O
+must 8 12 468 472 O
+be 13 15 473 475 O
+on 16 18 476 478 O
+stable 19 25 479 485 O
+doses 26 31 486 491 O
+of 32 34 492 494 O
+any 35 38 495 498 O
+medication 39 49 499 509 B-treatment
+used 50 54 510 514 O
+to 55 57 515 517 O
+treat 58 63 518 523 O
+PD 64 66 524 526 B-chronic_disease
+or 67 69 527 529 O
+cognition 70 79 530 539 O
+for 80 83 540 543 O
+3 84 85 544 545 B-upper_bound
+months 86 92 546 552 I-upper_bound
+prior 93 98 553 558 I-upper_bound
+to 99 101 559 561 O
+study 102 107 562 567 O
+entry 108 113 568 573 O
+
+Subjects 0 8 574 582 O
+who 9 12 583 586 O
+are 13 16 587 590 B-pregnancy
+pregnant 17 25 591 599 I-pregnancy
+or 26 28 600 602 O
+nursing 29 36 603 610 O
+
+Subjects 0 8 611 619 O
+who 9 12 620 623 O
+have 13 17 624 628 O
+made 18 22 629 633 O
+a 23 24 634 635 O
+suicide 25 32 636 643 B-chronic_disease
+attempt 33 40 644 651 I-chronic_disease
+within 41 47 652 658 O
+the 48 51 659 662 O
+prior 52 57 663 668 O
+year 58 62 669 673 O
+
+Subjects 0 8 674 682 O
+who 9 12 683 686 O
+require 13 20 687 694 O
+rTMS 21 25 695 699 B-treatment
+, 25 26 699 700 O
+ECT 27 30 701 704 B-treatment
+, 30 31 704 705 O
+diathermy 32 41 706 715 B-treatment
+, 41 42 715 716 O
+or 43 45 717 719 O
+repeat 46 52 720 726 B-treatment
+MRI 53 56 727 730 I-treatment
+procedures 57 67 731 741 I-treatment
+to 68 70 742 744 I-treatment
+treat 71 76 745 750 I-treatment
+a 77 78 751 752 I-treatment
+medical 79 86 753 760 I-treatment
+condition 87 96 761 770 I-treatment
+
+Subjects 0 8 771 779 O
+with 9 13 780 784 O
+a 14 15 785 786 O
+history 16 23 787 794 O
+of 24 26 795 797 O
+seizure 27 34 798 805 B-chronic_disease
+disorder 35 43 806 814 I-chronic_disease
+
+Subjects 0 8 815 823 O
+with 9 13 824 828 O
+an 14 16 829 831 O
+implanted 17 26 832 841 O
+stimulator 27 37 842 852 O
+such 38 42 853 857 O
+as 43 45 858 860 O
+a 46 47 861 862 O
+cardiac 48 55 863 870 B-treatment
+pacemaker 56 65 871 880 I-treatment
+, 65 66 880 881 O
+defibrillator 67 80 882 895 B-treatment
+, 80 81 895 896 O
+neurostimulator 82 97 897 912 B-treatment
+and 98 101 913 916 O
+cochlear 102 110 917 925 B-treatment
+implant 111 118 926 933 I-treatment
+
+Subjects 0 8 934 942 O
+with 9 13 943 947 O
+any 14 17 948 951 O
+medical 18 25 952 959 O
+contraindications 26 43 960 977 O
+to 44 46 978 980 O
+undergoing 47 57 981 991 O
+DBS 58 61 992 995 B-treatment
+surgery 62 69 996 1003 I-treatment
+( 70 71 1004 1005 O
+eg 71 73 1005 1007 O
+, 73 74 1007 1008 O
+infection 75 84 1009 1018 B-chronic_disease
+, 84 85 1018 1019 O
+coagulopathy 86 98 1020 1032 B-chronic_disease
+, 98 99 1032 1033 O
+or 100 102 1034 1036 O
+significant 103 114 1037 1048 O
+cardiac 115 122 1049 1056 O
+or 123 125 1057 1059 O
+other 126 131 1060 1065 O
+medical 132 139 1066 1073 O
+risk 140 144 1074 1078 O
+factors 145 152 1079 1086 O
+for 153 156 1087 1090 O
+surgery 157 164 1091 1098 O
+) 164 165 1098 1099 O
+
+Use 0 3 1100 1103 O
+of 4 6 1104 1106 O
+cholinesterase 7 21 1107 1121 B-treatment
+inhibitor 22 31 1122 1131 I-treatment
+
+currently 0 9 1132 1141 O
+uncontrolled 10 22 1142 1154 O
+visual 23 29 1155 1161 B-chronic_disease
+hallucinations 30 44 1162 1176 I-chronic_disease
+

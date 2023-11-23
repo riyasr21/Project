@@ -1,0 +1,150 @@
+Age 0 3 0 3 B-age
+greater 4 11 4 11 O
+than 12 16 12 16 O
+or 17 19 17 19 O
+equal 20 25 20 25 O
+to 26 28 26 28 O
+6 29 30 29 30 B-lower_bound
+months 31 37 31 37 I-lower_bound
+
+Availability 0 12 38 50 O
+of 13 15 51 53 O
+metreleptin 16 27 54 65 B-treatment
+to 28 30 66 68 O
+the 31 34 69 72 O
+patient 35 42 73 80 O
+either 43 49 81 87 O
+as 50 52 88 90 O
+an 53 55 91 93 O
+approved 56 64 94 102 O
+drug 65 69 103 107 O
+, 69 70 107 108 O
+or 71 73 109 111 O
+through 74 81 112 119 O
+local 82 87 120 125 O
+compassionate 88 101 126 139 O
+use 102 105 140 143 O
+or 106 108 144 146 O
+expanded 109 117 147 155 O
+access 118 124 156 162 O
+programs 125 133 163 171 O
+
+Decrease 0 8 172 180 O
+in 9 11 181 183 O
+episodes 12 20 184 192 O
+of 21 23 193 195 O
+pancreatitis 24 36 196 208 B-chronic_disease
+
+Decrease 0 8 209 217 O
+in 9 11 218 220 O
+insulin 12 19 221 228 B-clinical_variable
+requirements 20 32 229 241 I-clinical_variable
+greater 33 40 242 249 O
+than 41 45 250 254 O
+or 46 48 255 257 O
+equal 49 54 258 263 O
+to 55 57 264 266 O
+40 58 60 267 269 B-lower_bound
+% 60 61 269 270 I-lower_bound
+
+Documented 0 10 271 281 O
+metabolic 11 20 282 291 O
+benefit 21 28 292 299 O
+from 29 33 300 304 O
+prior 34 39 305 310 B-treatment
+or 40 42 311 313 I-treatment
+current 43 50 314 321 I-treatment
+metreleptin 51 62 322 333 I-treatment
+treatment 63 72 334 343 I-treatment
+
+HbA1c 0 5 344 349 B-clinical_variable
+reduction 6 15 350 359 I-clinical_variable
+greater 16 23 360 367 O
+than 24 28 368 372 O
+or 29 31 373 375 O
+equal 32 37 376 381 O
+to 38 40 382 384 O
+1 41 42 385 386 B-lower_bound
+% 42 43 386 387 I-lower_bound
+
+Improvement 0 11 388 399 O
+in 12 14 400 402 O
+steatohepatitis 15 30 403 418 B-chronic_disease
+
+Known 0 5 419 424 O
+HIV 6 9 425 428 B-chronic_disease
+infection 10 19 429 438 I-chronic_disease
+or 20 22 439 441 O
+HIV 23 26 442 445 O
+- 26 27 445 446 O
+associated 27 37 446 456 O
+lipodystrophy 38 51 457 470 B-chronic_disease
+
+Partial 0 7 471 478 B-chronic_disease
+lipodystrophy 8 21 479 492 I-chronic_disease
+( 22 23 493 494 O
+either 23 29 494 500 O
+genetic 30 37 501 508 O
+or 38 40 509 511 O
+acquired 41 49 512 520 O
+) 49 50 520 521 O
+
+Previously 0 10 522 532 O
+or 11 13 533 535 O
+currently 14 23 536 545 O
+treated 24 31 546 553 O
+with 32 36 554 558 O
+metreleptin 37 48 559 570 B-treatment
+under 49 54 571 576 O
+NIH 55 58 577 580 O
+study 59 64 581 586 O
+02 65 67 587 589 O
+- 67 68 589 590 O
+DK-0022 68 75 590 597 O
+and/or 76 82 598 604 O
+NIH 83 86 605 608 O
+study 87 92 609 614 O
+13 93 95 615 617 O
+- 95 96 617 618 O
+DK-0057 96 103 618 625 O
+
+Psychiatric 0 11 626 637 B-chronic_disease
+disorder 12 20 638 646 I-chronic_disease
+impeding 21 29 647 655 O
+competence 30 40 656 666 O
+or 41 43 667 669 O
+compliance 44 54 670 680 O
+
+Subjects 0 8 681 689 O
+who 9 12 690 693 O
+have 13 17 694 698 O
+a 18 19 699 700 O
+known 20 25 701 706 O
+hypersensitivity 26 42 707 723 O
+to 43 45 724 726 O
+E. 46 48 727 729 B-allergy_name
+coli 49 53 730 734 I-allergy_name
+derived 54 61 735 742 I-allergy_name
+proteins 62 70 743 751 I-allergy_name
+
+TG 0 2 752 754 B-clinical_variable
+reduction 3 12 755 764 I-clinical_variable
+greater 13 20 765 772 O
+than 21 25 773 777 O
+or 26 28 778 780 O
+equal 29 34 781 786 O
+to 35 37 787 789 O
+30 38 40 790 792 B-lower_bound
+% 40 41 792 793 I-lower_bound
+
+Withdrawal 0 10 794 804 O
+of 11 13 805 807 O
+metreleptin 14 25 808 819 B-treatment
+led 26 29 820 823 O
+to 30 32 824 826 O
+marked 33 39 827 833 O
+worsening 40 49 834 843 O
+of 50 52 844 846 O
+metabolic 53 62 847 856 O
+parameters 63 73 857 867 O
+

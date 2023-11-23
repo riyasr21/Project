@@ -1,0 +1,94 @@
+Adequate 0 8 0 8 O
+birth 9 14 9 14 O
+control 15 22 15 22 O
+is 23 25 23 25 O
+defined 26 33 26 33 O
+as 34 36 34 36 O
+surgical 37 45 37 45 B-treatment
+sterilization 46 59 46 59 I-treatment
+, 59 60 59 60 O
+hormone 61 68 61 68 B-treatment
+contraceptive 69 82 69 82 I-treatment
+use 83 86 83 86 O
+or 87 89 87 89 O
+intrauterine 90 102 90 102 B-treatment
+device 103 109 103 109 I-treatment
+( 110 111 110 111 I-treatment
+IUD 111 114 111 114 I-treatment
+) 114 115 114 115 I-treatment
+
+Female 0 6 116 122 B-gender
+subject 7 14 123 130 I-gender
+of 15 17 131 133 O
+child 18 23 134 139 O
+- 23 24 139 140 O
+bearing 24 31 140 147 O
+potential 32 41 148 157 O
+has 42 45 158 161 O
+a 46 47 162 163 O
+negative 48 56 164 172 O
+urine 57 62 173 178 O
+
+Male 0 4 179 183 B-gender
+
+Subject 0 7 184 191 O
+has 8 11 192 195 O
+been 12 16 196 200 O
+administered 17 29 201 213 O
+any 30 33 214 217 O
+other 34 39 218 223 O
+radiopharmaceutical 40 59 224 243 B-treatment
+within 60 66 244 250 O
+a 67 68 251 252 O
+timeframe 69 78 253 262 O
+that 79 83 263 267 O
+might 84 89 268 273 O
+cause 90 95 274 279 O
+interference 96 108 280 292 O
+with 109 113 293 297 O
+study 114 119 298 303 O
+imaging 120 127 304 311 O
+
+Subject 0 7 312 319 O
+has 8 11 320 323 O
+had 12 15 324 327 O
+or 16 18 328 330 O
+is 19 21 331 333 O
+scheduled 22 31 334 343 O
+to 32 34 344 346 O
+have 35 39 347 351 O
+a 40 41 352 353 O
+chest 42 47 354 359 O
+X 48 49 360 361 O
+- 49 50 361 362 O
+ray 50 53 362 365 O
+within 54 60 366 372 O
+24 61 63 373 375 B-upper_bound
+hours 64 69 376 381 I-upper_bound
+prior 70 75 382 387 I-upper_bound
+to 76 78 388 390 O
+the 79 82 391 394 O
+investigational 83 98 395 410 O
+imaging 99 106 411 418 O
+study 107 112 419 424 O
+
+female 0 6 425 431 B-gender
+
+has 0 3 432 435 O
+received 4 12 436 444 O
+an 13 15 445 447 O
+investigational 16 31 448 463 O
+drug 32 36 464 468 O
+within 37 43 469 475 O
+30 44 46 476 478 B-upper_bound
+days 47 51 479 483 I-upper_bound
+prior 52 57 484 489 I-upper_bound
+to 58 60 490 492 O
+dosing 61 67 493 499 O
+
+pregnant 0 8 500 508 B-pregnancy
+
+serum 0 5 509 514 B-pregnancy
+pregnancy 6 15 515 524 I-pregnancy
+test 16 20 525 529 O
+

@@ -1,0 +1,77 @@
+Clinically 0 10 0 10 O
+significant 11 22 11 22 O
+coronary 23 31 23 31 B-chronic_disease
+artery 32 38 32 38 I-chronic_disease
+disease 39 46 39 46 I-chronic_disease
+
+Diagnosis 0 9 47 56 O
+of 10 12 57 59 O
+postural 13 21 60 68 B-chronic_disease
+tachycardia 22 33 69 80 I-chronic_disease
+syndrome 34 42 81 89 I-chronic_disease
+
+Hypothyroidism 0 14 90 104 B-chronic_disease
+or 15 17 105 107 O
+hyperthyroidism 18 33 108 123 B-chronic_disease
+
+Medications 0 11 124 135 O
+that 12 16 136 140 O
+could 17 22 141 146 O
+interfere 23 32 147 156 O
+with 33 37 157 161 O
+autonomic 38 47 162 171 B-clinical_variable
+testing 48 55 172 179 I-clinical_variable
+
+Orthostatic 0 11 180 191 B-clinical_variable
+heart 12 17 192 197 I-clinical_variable
+rate 18 22 198 202 I-clinical_variable
+increment 23 32 203 212 I-clinical_variable
+greater 33 40 213 220 O
+than 41 45 221 225 O
+or 46 48 226 228 O
+equal 49 54 229 234 O
+to 55 57 235 237 O
+30 58 60 238 240 B-lower_bound
+beats 61 66 241 246 I-lower_bound
+per 67 70 247 250 I-lower_bound
+minute 71 77 251 257 I-lower_bound
+( 78 79 258 259 I-lower_bound
+bpm 79 82 259 262 I-lower_bound
+) 82 83 262 263 I-lower_bound
+within 84 90 264 270 O
+5 91 92 271 272 B-upper_bound
+minutes 93 100 273 280 I-upper_bound
+of 101 103 281 283 O
+head 104 108 284 288 O
+- 108 109 288 289 O
+up 109 111 289 291 O
+tilt 112 116 292 296 O
+
+Patients 0 8 297 305 O
+must 9 13 306 310 O
+not 14 17 311 314 O
+have 18 22 315 319 O
+taken 23 28 320 325 O
+pyridostigmine 29 43 326 340 B-treatment
+in 44 46 341 343 O
+the 47 50 344 347 O
+past 51 55 348 352 B-upper_bound
+month 56 61 353 358 I-upper_bound
+
+Pregnant 0 8 359 367 B-pregnancy
+or 9 11 368 370 O
+lactating 12 21 371 380 O
+women 22 27 381 386 B-gender
+
+Previous 0 8 387 395 B-treatment
+treatment 9 18 396 405 I-treatment
+with 19 23 406 410 O
+pyridostigmine 24 38 411 425 B-treatment
+for 39 42 426 429 O
+POTS 43 47 430 434 B-chronic_disease
+
+Symptoms 0 8 435 443 O
+of 9 11 444 446 O
+orthostatic 12 23 447 458 B-chronic_disease
+intolerance 24 35 459 470 I-chronic_disease
+

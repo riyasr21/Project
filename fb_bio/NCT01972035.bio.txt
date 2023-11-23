@@ -1,0 +1,14 @@
+All 0 3 0 3 O
+consenting 4 14 4 14 O
+kidney 15 21 15 21 B-treatment
+transplant 22 32 22 32 I-treatment
+recipients 33 43 33 43 O
+
+Recipients 0 10 44 54 O
+with 11 15 55 59 O
+allergies 16 25 60 69 O
+to 26 28 70 72 O
+valacyclovir 29 41 73 85 B-allergy_name
+or 42 44 86 88 O
+valganciclovir 45 59 89 103 B-allergy_name
+

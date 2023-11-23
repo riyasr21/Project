@@ -1,0 +1,95 @@
+AML 0 3 0 3 B-cancer
+, 3 4 3 4 O
+CMML 5 9 5 9 B-cancer
+- 9 10 9 10 O
+with 10 14 10 14 O
+excess 15 21 15 21 O
+blasts 22 28 22 28 O
+, 28 29 28 29 O
+MDS 30 33 30 33 B-cancer
+- 33 34 33 34 O
+RAEB 34 38 34 38 B-cancer
+not 39 42 39 42 O
+in 43 45 43 45 O
+remission 46 55 46 55 O
+prior 56 61 56 61 O
+to 62 64 62 64 O
+leukemia 65 73 65 73 O
+cell 74 78 74 78 O
+harvest 79 86 79 86 O
+
+ECOG 0 4 87 91 B-clinical_variable
+performance 5 16 92 103 I-clinical_variable
+status 17 23 104 110 I-clinical_variable
+of 24 26 111 113 O
+0 27 28 114 115 B-lower_bound
+- 28 29 115 116 O
+2 29 30 116 117 B-upper_bound
+
+HLA 0 3 118 121 B-clinical_variable
+8/8 4 7 122 125 B-upper_bound
+or 8 10 126 128 O
+7/8 11 14 129 132 B-lower_bound
+matched 15 22 133 140 O
+related 23 30 141 148 O
+or 31 33 149 151 O
+unrelated 34 43 152 161 O
+donor 44 49 162 167 O
+available 50 59 168 177 O
+
+History 0 7 178 185 O
+of 8 10 186 188 O
+allergic 11 19 189 197 O
+reactions 20 29 198 207 O
+to 30 32 208 210 O
+compounds 33 42 211 220 B-allergy_name
+of 43 45 221 223 I-allergy_name
+similar 46 53 224 231 I-allergy_name
+chemical 54 62 232 240 I-allergy_name
+or 63 65 241 243 I-allergy_name
+biologic 66 74 244 252 I-allergy_name
+composition 75 86 253 264 I-allergy_name
+to 87 89 265 267 I-allergy_name
+GM 90 92 268 270 I-allergy_name
+- 92 93 270 271 I-allergy_name
+CSF 93 96 271 274 I-allergy_name
+
+Leukemia 0 8 275 283 B-cancer
+with 9 13 284 288 O
+active 14 20 289 295 O
+CNS 21 24 296 299 O
+involvement 25 36 300 311 O
+
+Positive 0 8 312 320 O
+HIV 9 12 321 324 B-chronic_disease
+or 13 15 325 327 O
+HTLV-1 16 22 328 334 B-chronic_disease
+serology 23 31 335 343 O
+
+Pregnant 0 8 344 352 B-pregnancy
+or 9 11 353 355 O
+breastfeeding 12 25 356 369 O
+
+Prior 0 5 370 375 B-treatment
+allogeneic 6 16 376 386 I-treatment
+transplant 17 27 387 397 I-treatment
+
+Suitable 0 8 398 406 O
+candidate 9 18 407 416 O
+for 19 22 417 420 O
+myeloablative 23 36 421 434 B-treatment
+or 37 39 435 437 O
+reduced 40 47 438 445 O
+intensity 48 57 446 455 O
+conditioning 58 70 456 468 O
+allogeneic 71 81 469 479 B-chronic_disease
+HSCT 82 86 480 484 I-chronic_disease
+using 87 92 485 490 O
+PBSC 93 97 491 495 O
+or 98 100 496 498 O
+marrow 101 107 499 505 O
+as 108 110 506 508 O
+stem 111 115 509 513 O
+cell 116 120 514 518 O
+resource 121 129 519 527 O
+

@@ -1,0 +1,105 @@
+Age 0 3 0 3 B-age
+equal 4 9 4 9 O
+to 10 12 10 12 O
+or 13 15 13 15 O
+greater 16 23 16 23 O
+than 24 28 24 28 O
+18 29 31 29 31 B-lower_bound
+years 32 37 32 37 I-lower_bound
+of 38 40 38 40 O
+age 41 44 41 44 B-age
+
+Emergency 0 9 45 54 B-treatment
+surgery 10 17 55 62 I-treatment
+
+Expected 0 8 63 71 O
+hospital 9 17 72 80 O
+stay 18 22 81 85 O
+< 23 24 86 87 O
+48 25 27 88 90 B-upper_bound
+hours 28 33 91 96 I-upper_bound
+
+Immunoglobulin 0 14 97 111 B-chronic_disease
+A 15 16 112 113 I-chronic_disease
+( 17 18 114 115 I-chronic_disease
+IgA 18 21 115 118 I-chronic_disease
+) 21 22 118 119 I-chronic_disease
+deficiency 23 33 120 130 I-chronic_disease
+
+No 0 2 131 133 O
+plan 3 7 134 138 O
+for 8 11 139 142 O
+placement 12 21 143 152 O
+of 22 24 153 155 O
+a 25 26 156 157 O
+pulmonary 27 36 158 167 B-treatment
+artery 37 43 168 174 I-treatment
+catheter 44 52 175 183 I-treatment
+
+Not 0 3 184 187 O
+anticipated 4 15 188 199 O
+to 16 18 200 202 O
+survive 19 26 203 210 O
+> 27 28 211 212 O
+48 29 31 213 215 B-lower_bound
+hours 32 37 216 221 I-lower_bound
+
+Prevalent 0 9 222 231 O
+congestive 10 20 232 242 B-chronic_disease
+heart 21 26 243 248 I-chronic_disease
+failure 27 34 249 256 I-chronic_disease
+prior 35 40 257 262 O
+to 41 43 263 265 O
+randomization 44 57 266 279 O
+
+Prevalent 0 9 280 289 B-chronic_disease
+lung 10 14 290 294 I-chronic_disease
+injury 15 21 295 301 I-chronic_disease
+prior 22 27 302 307 O
+to 28 30 308 310 O
+randomization 31 44 311 324 O
+
+Scheduled 0 9 325 334 O
+to 10 12 335 337 O
+have 13 17 338 342 O
+cardiac 18 25 343 350 B-treatment
+bypass 26 32 351 357 I-treatment
+surgery 33 40 358 365 I-treatment
+at 41 43 366 368 O
+Mayo 44 48 369 373 O
+Clinic 49 55 374 380 O
+in 56 58 381 383 O
+Rochester 59 68 384 393 O
+, 68 69 393 394 O
+Minnesota 70 79 395 404 O
+or 80 82 405 407 O
+Duke 83 87 408 412 O
+University 88 98 413 423 O
+Medical 99 106 424 431 O
+Center 107 113 432 438 O
+in 114 116 439 441 O
+Durham 117 123 442 448 O
+, 123 124 448 449 O
+North 125 130 450 455 O
+Carolina 131 139 456 464 O
+
+Use 0 3 465 468 O
+of 4 6 469 471 O
+home 7 11 472 476 B-treatment
+oxygen 12 18 477 483 I-treatment
+therapy 19 26 484 491 I-treatment
+
+risk 0 4 492 496 O
+for 5 8 497 500 O
+needing 9 16 501 508 O
+at 17 19 509 511 O
+least 20 25 512 517 O
+4 26 27 518 519 B-lower_bound
+units 28 33 520 525 I-lower_bound
+of 34 36 526 528 I-lower_bound
+blood 37 42 529 534 I-lower_bound
+during 43 49 535 541 O
+/ 49 50 541 542 O
+after 50 55 542 547 O
+surgery 56 63 548 555 B-treatment
+

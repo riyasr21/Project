@@ -1,0 +1,72 @@
+Absence 0 7 0 7 O
+of 8 10 8 10 O
+dementia 11 19 11 19 B-chronic_disease
+
+Absence 0 7 20 27 O
+of 8 10 28 30 O
+primary 11 18 31 38 B-chronic_disease
+memory 19 25 39 45 I-chronic_disease
+deficits 26 34 46 54 I-chronic_disease
+
+Age 0 3 55 58 B-age
+40 4 6 59 61 B-lower_bound
+- 7 8 62 63 O
+70 9 11 64 66 B-upper_bound
+years 12 17 67 72 I-upper_bound
+
+Deep 0 4 73 77 B-treatment
+brain 5 10 78 83 I-treatment
+stimulator 11 21 84 94 I-treatment
+implants 22 30 95 103 I-treatment
+
+History 0 7 104 111 O
+of 8 10 112 114 O
+stroke 11 17 115 121 B-chronic_disease
+
+Metallic 0 8 122 130 B-treatment
+implants 9 17 131 139 I-treatment
+
+Montreal 0 8 140 148 B-clinical_variable
+Cognitive 9 18 149 158 I-clinical_variable
+Assessment 19 29 159 169 I-clinical_variable
+( 30 31 170 171 I-clinical_variable
+MocA 31 35 171 175 I-clinical_variable
+) 35 36 175 176 I-clinical_variable
+score 37 42 177 182 I-clinical_variable
+< 43 44 183 184 O
+24 45 47 185 187 B-upper_bound
+
+Peripheral 0 10 188 198 B-chronic_disease
+neuropathy 11 21 199 209 I-chronic_disease
+
+Pure 0 4 210 214 B-clinical_variable
+- 4 5 214 215 I-clinical_variable
+tone 5 9 215 219 I-clinical_variable
+threshold 10 19 220 229 I-clinical_variable
+sensitivity 20 31 230 241 I-clinical_variable
+> 32 33 242 243 O
+40 34 36 244 246 B-lower_bound
+dB 37 39 247 249 I-lower_bound
+
+Untreated 0 9 250 259 B-chronic_disease
+Major 10 15 260 265 I-chronic_disease
+Depression 16 26 266 276 I-chronic_disease
+
+Willingness 0 11 277 288 O
+to 12 14 289 291 O
+spend 15 20 292 297 O
+1 21 22 298 299 B-upper_bound
+- 22 23 299 300 I-upper_bound
+h 23 24 300 301 I-upper_bound
+in 25 27 302 304 O
+a 28 29 305 306 O
+scanner 30 37 307 314 O
+
+traumatic 0 9 315 324 B-chronic_disease
+brain 10 15 325 330 I-chronic_disease
+injury 16 22 331 337 I-chronic_disease
+
+vascular 0 8 338 346 B-chronic_disease
+cognitive 9 18 347 356 I-chronic_disease
+impairment 19 29 357 367 I-chronic_disease
+

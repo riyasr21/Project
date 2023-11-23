@@ -1,0 +1,66 @@
+Hysterectomy 0 12 0 12 B-treatment
+at 13 15 13 15 O
+the 16 19 16 19 O
+time 20 24 20 24 O
+of 25 27 25 27 O
+sacrocolpopexy 28 42 28 42 B-treatment
+
+Preoperative 0 12 43 55 B-treatment
+prophylactic 13 25 56 68 I-treatment
+heparin 26 33 69 76 I-treatment
+is 34 36 77 79 O
+not 37 40 80 83 O
+an 41 43 84 86 O
+exclusion 44 53 87 96 O
+criterion 54 63 97 106 O
+
+Sites 0 5 107 112 O
+of 6 8 113 115 O
+surgery 9 16 116 123 B-treatment
+include 17 24 124 131 O
+Norwalk 25 32 132 139 O
+Hospital 33 41 140 148 O
+and 42 45 149 152 O
+Danbury 46 53 153 160 O
+Hospital 54 62 161 169 O
+
+Vaginal 0 7 170 177 B-treatment
+hysterectomy 8 20 178 190 I-treatment
+
+Women 0 5 191 196 B-gender
+
+Women 0 5 197 202 B-gender
+scheduled 6 15 203 212 O
+for 16 19 213 216 O
+standard 20 28 217 225 O
+multiport 29 38 226 235 O
+laparoscopic 39 51 236 248 B-treatment
+
+acquired 0 8 249 257 B-chronic_disease
+coagulation 9 20 258 269 I-chronic_disease
+disorder 21 29 270 278 I-chronic_disease
+
+open 0 4 279 283 O
+abdominal 5 14 284 293 B-treatment
+hysterectomy 15 27 294 306 I-treatment
+
+robotic 0 7 307 314 B-treatment
+assisted 8 16 315 323 I-treatment
+laparoscopic 17 29 324 336 I-treatment
+hysterectomy 30 42 337 349 I-treatment
+
+therapeutic 0 11 350 361 B-treatment
+anticoagulation 12 27 362 377 I-treatment
+or 28 30 378 380 I-treatment
+use 31 34 381 384 I-treatment
+agents 35 41 385 391 I-treatment
+affecting 42 51 392 401 O
+platelet 52 60 402 410 O
+function 61 69 411 419 O
+, 69 70 419 420 O
+other 71 76 421 426 O
+than 77 81 427 431 O
+low 82 85 432 435 O
+dose 86 90 436 440 O
+aspirin 91 98 441 448 B-treatment
+

@@ -1,0 +1,61 @@
+a 0 1 0 1 O
+diagnosis 2 11 2 11 O
+of 12 14 12 14 O
+cardiovascular 15 29 15 29 B-chronic_disease
+, 29 30 29 30 O
+pulmonary 31 40 31 40 B-chronic_disease
+, 40 41 40 41 O
+or 42 44 42 44 O
+digestive 45 54 45 54 B-chronic_disease
+disease 55 62 55 62 I-chronic_disease
+
+age 0 3 63 66 B-age
+6 4 5 67 68 B-lower_bound
+- 5 6 68 69 O
+11 6 8 69 71 B-upper_bound
+
+identified 0 10 72 82 O
+by 11 13 83 85 O
+parent 14 20 86 92 O
+or 21 23 93 95 O
+legal 24 29 96 101 O
+guardian 30 38 102 110 O
+as 39 41 111 113 O
+Hispanic 42 50 114 122 B-ethnicity
+
+overweight 0 10 123 133 B-chronic_disease
+or 11 13 134 136 O
+obese 14 19 137 142 B-chronic_disease
+( 20 21 143 144 O
+BMI 21 24 144 147 B-bmi
+between 25 32 148 155 O
+the 33 36 156 159 O
+85th 37 41 160 164 B-lower_bound
+and 42 45 165 168 O
+99.9thth 46 54 169 177 B-upper_bound
+( 55 56 178 179 O
+< 56 57 179 180 O
+99th 57 61 180 184 B-upper_bound
+) 61 62 184 185 O
+percentile 63 73 186 196 O
+for 74 77 197 200 O
+age 78 81 201 204 B-age
+and 82 85 205 208 O
+gender 86 92 209 215 O
+
+parent 0 6 216 222 O
+unable 7 13 223 229 O
+or 14 16 230 232 O
+not 17 20 233 236 O
+willing 21 28 237 244 O
+to 29 31 245 247 O
+receive 32 39 248 255 O
+text 40 44 256 260 B-technology_access
+messages 45 53 261 269 I-technology_access
+
+parent 0 6 270 276 O
+without 7 14 277 284 B-technology_access
+a 15 16 285 286 I-technology_access
+cell 17 21 287 291 I-technology_access
+phone 22 27 292 297 I-technology_access
+

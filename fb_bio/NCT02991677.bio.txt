@@ -1,0 +1,60 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+70 7 9 7 9 B-upper_bound
+
+Coronary 0 8 10 18 B-chronic_disease
+artery 9 15 19 25 I-chronic_disease
+disease 16 23 26 33 I-chronic_disease
+
+Denial 0 6 34 40 O
+of 7 9 41 43 O
+CIPN 10 14 44 48 B-chronic_disease
+
+Diagnosis 0 9 49 58 O
+with 10 14 59 63 O
+cancer 15 21 64 70 B-cancer
+, 21 22 70 71 I-cancer
+stage 23 28 72 77 I-cancer
+I 29 30 78 79 I-cancer
+- 30 31 79 80 I-cancer
+IV 31 33 80 82 I-cancer
+
+History 0 7 83 90 O
+of 8 10 91 93 O
+> 11 12 94 95 O
+1 12 13 95 96 B-lower_bound
+chemotherapy 14 26 97 109 B-treatment
+regimen 27 34 110 117 I-treatment
+
+Musculoskeletal 0 15 118 133 B-chronic_disease
+conditions 16 26 134 144 I-chronic_disease
+which 27 32 145 150 O
+preclude 33 41 151 159 O
+participation 42 55 160 173 O
+in 56 58 174 176 O
+an 59 61 177 179 O
+exercise 62 70 180 188 O
+training 71 79 189 197 O
+program 80 87 198 205 O
+
+Pregnancy 0 9 206 215 B-pregnancy
+
+Regular 0 7 216 223 O
+exerciser 8 17 224 233 O
+, 17 18 233 234 O
+defined 19 26 235 242 O
+as 27 29 243 245 O
+> 30 31 246 247 O
+90 31 33 247 249 B-lower_bound
+minutes 34 41 250 257 I-lower_bound
+per 42 45 258 261 O
+week 46 50 262 266 O
+of 51 53 267 269 O
+aerobic 54 61 270 277 O
+exercise 62 70 278 286 O
+and 71 74 287 290 O
+any 75 78 291 294 O
+resistive 79 88 295 304 O
+training 89 97 305 313 O
+

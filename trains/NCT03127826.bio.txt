@@ -1,0 +1,44 @@
+Already 0 7 0 7 O
+receiving 8 17 8 17 O
+treatment 18 27 18 27 B-treatment
+( 28 29 28 29 O
+other 29 34 29 34 O
+than 35 39 35 39 O
+primary 40 47 40 47 O
+care 48 52 48 52 O
+) 52 53 52 53 O
+for 54 57 54 57 O
+this 58 62 58 62 O
+episode 63 70 63 70 O
+of 71 73 71 73 O
+LBP 74 77 74 77 O
+
+Can 0 3 78 81 O
+speak 4 9 82 87 O
+and 10 13 88 91 O
+understand 14 24 92 102 O
+English 25 32 103 110 B-language_fluency
+
+Current 0 7 111 118 O
+pregnancy 8 17 119 128 B-pregnancy
+
+Males 0 5 129 134 B-gender
+and 6 9 135 138 I-gender
+females 10 17 139 146 I-gender
+
+between 0 7 147 154 O
+the 8 11 155 158 O
+ages 12 16 159 163 B-age
+of 17 19 164 166 O
+18 20 22 167 169 B-lower_bound
+- 22 23 169 170 O
+50 23 25 170 172 B-upper_bound
+years 26 31 173 178 I-upper_bound
+old 32 35 179 182 O
+
+within 0 6 183 189 O
+the 7 10 190 193 O
+last 11 15 194 198 B-upper_bound
+6 16 17 199 200 I-upper_bound
+months 18 24 201 207 I-upper_bound
+

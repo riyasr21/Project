@@ -1,0 +1,28 @@
+Women 0 5 0 5 B-gender
+
+history 0 7 6 13 O
+of 8 10 14 16 O
+cardiovascular 11 25 17 31 B-chronic_disease
+disease 26 33 32 39 I-chronic_disease
+
+history 0 7 40 47 O
+of 8 10 48 50 O
+diabetes 11 19 51 59 B-chronic_disease
+
+history 0 7 60 67 O
+of 8 10 68 70 O
+kidney 11 17 71 77 B-chronic_disease
+disease 18 25 78 85 I-chronic_disease
+
+men 0 3 86 89 B-gender
+
+obesity 0 7 90 97 B-chronic_disease
+( 8 9 98 99 O
+BMI 9 12 99 102 B-bmi
+> 13 14 103 104 O
+30 15 17 105 107 B-lower_bound
+kg 18 20 108 110 I-lower_bound
+/ 20 21 110 111 I-lower_bound
+m2 21 23 111 113 I-lower_bound
+) 23 24 113 114 O
+

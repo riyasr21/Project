@@ -1,0 +1,18 @@
+Diagnosed 0 9 0 9 O
+with 10 14 10 14 O
+MAS 15 18 15 18 B-chronic_disease
+under 19 24 19 24 O
+98 25 27 25 27 O
+- 27 28 27 28 O
+D-0145 28 34 28 34 O
+
+Personal 0 8 35 43 O
+history 9 16 44 51 O
+of 17 19 52 54 O
+any 20 23 55 58 O
+DSM-5 24 29 59 64 B-chronic_disease
+diagnoses 30 39 65 74 I-chronic_disease
+Axis 40 44 75 79 I-chronic_disease
+I 45 46 80 81 I-chronic_disease
+disorder 47 55 82 90 I-chronic_disease
+

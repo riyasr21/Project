@@ -1,0 +1,84 @@
+active 0 6 0 6 O
+viral 7 12 7 12 B-chronic_disease
+or 13 15 13 15 O
+bacterial 16 25 16 25 B-chronic_disease
+infection 26 35 26 35 I-chronic_disease
+
+anemia 0 6 36 42 B-chronic_disease
+
+between 0 7 43 50 O
+4 8 9 51 52 B-lower_bound
+- 9 10 52 53 O
+18 10 12 53 55 B-upper_bound
+years 13 18 56 61 I-upper_bound
+old 19 22 62 65 O
+
+children 0 8 66 74 O
+with 9 13 75 79 O
+either 14 20 80 86 O
+type1 21 26 87 92 B-chronic_disease
+or 27 29 93 95 I-chronic_disease
+type 30 34 96 100 I-chronic_disease
+2 35 36 101 102 I-chronic_disease
+diabetes 37 45 103 111 I-chronic_disease
+
+consumption 0 11 112 123 O
+of 12 14 124 126 O
+biotin 15 21 127 133 B-treatment
+supplements 22 33 134 145 I-treatment
+or 34 36 146 148 O
+raw 37 40 149 152 O
+eggs 41 45 153 157 O
+within 46 52 158 164 O
+30 53 55 165 167 B-upper_bound
+days 56 60 168 172 I-upper_bound
+
+heart 0 5 173 178 B-chronic_disease
+failure 6 13 179 186 I-chronic_disease
+
+hemoglobinopathy 0 16 187 203 B-chronic_disease
+
+history 0 7 204 211 O
+of 8 10 212 214 O
+gastrointestinal 11 27 215 231 B-chronic_disease
+blood 28 33 232 237 I-chronic_disease
+loss 34 38 238 242 I-chronic_disease
+
+prior 0 5 243 248 O
+history 6 13 249 256 O
+of 14 16 257 259 O
+liver 17 22 260 265 B-chronic_disease
+disease 23 30 266 273 I-chronic_disease
+with 31 35 274 278 O
+transaminases 36 49 279 292 O
+more 50 54 293 297 O
+than 55 59 298 302 O
+3 60 61 303 304 B-lower_bound
+times 62 67 305 310 I-lower_bound
+the 68 71 311 314 I-lower_bound
+upper 72 77 315 320 I-lower_bound
+limit 78 83 321 326 I-lower_bound
+of 84 86 327 329 I-lower_bound
+normal 87 93 330 336 I-lower_bound
+for 94 97 337 340 O
+age 98 101 341 344 B-age
+
+prior 0 5 345 350 O
+serum 6 11 351 356 B-clinical_variable
+creatinine 12 22 357 367 I-clinical_variable
+more 23 27 368 372 O
+than 28 32 373 377 O
+> 33 34 378 379 O
+1.5 34 37 379 382 B-lower_bound
+mg 38 40 383 385 I-lower_bound
+/ 40 41 385 386 I-lower_bound
+dlL 41 44 386 389 I-lower_bound
+
+uncontrolled 0 12 390 402 O
+thyroid 13 20 403 410 B-chronic_disease
+disease 21 28 411 418 I-chronic_disease
+
+whole 0 5 419 424 B-clinical_variable
+blood 6 11 425 430 I-clinical_variable
+HCT<33 12 18 431 437 I-clinical_variable
+

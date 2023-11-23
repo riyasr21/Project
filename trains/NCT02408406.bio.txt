@@ -1,0 +1,82 @@
+Clinical 0 8 0 8 O
+evidence 9 17 9 17 O
+of 18 20 18 20 O
+cognitive 21 30 21 30 B-chronic_disease
+or 31 33 31 33 O
+psychological 34 47 34 47 B-chronic_disease
+impairment 48 58 48 58 I-chronic_disease
+
+Current 0 7 59 66 O
+outpatient 8 18 67 77 O
+status 19 25 78 84 O
+( 26 27 85 86 O
+participation 27 40 86 99 O
+will 41 45 100 104 O
+be 46 48 105 107 O
+suspended 49 58 108 117 O
+during 59 65 118 124 O
+hospitalization 66 81 125 140 B-treatment
+) 81 82 140 141 O
+
+Fluent 0 6 142 148 B-language_fluency
+in 7 9 149 151 I-language_fluency
+English 10 17 152 159 I-language_fluency
+
+Internet 0 8 160 168 B-technology_access
+access 9 15 169 175 I-technology_access
+at 16 18 176 178 O
+home 19 23 179 183 O
+
+Life 0 4 184 188 B-clinical_variable
+expectancy 5 15 189 199 I-clinical_variable
+of 16 18 200 202 O
+at 19 21 203 205 O
+least 22 27 206 211 O
+six 28 31 212 215 B-lower_bound
+months 32 38 216 222 I-lower_bound
+
+Malignant 0 9 223 232 O
+diagnosis 10 19 233 242 O
+in 20 22 243 245 O
+any 23 26 246 249 O
+cancer 27 33 250 256 B-cancer
+type 34 38 257 261 O
+at 39 41 262 264 O
+any 42 45 265 268 O
+stage 46 51 269 274 O
+
+Malignant 0 9 275 284 B-cancer
+diagnosis 10 19 285 294 O
+in 20 22 295 297 O
+breast 23 29 298 304 B-cancer
+, 29 30 304 305 O
+gynecologic 31 42 306 317 B-cancer
+( 43 44 318 319 I-cancer
+GYN 44 47 319 322 I-cancer
+) 47 48 322 323 I-cancer
+, 48 49 323 324 O
+genitourinary 50 63 325 338 B-cancer
+( 64 65 339 340 I-cancer
+GU 65 67 340 342 I-cancer
+) 67 68 342 343 I-cancer
+cancer 69 75 344 350 I-cancer
+at 76 78 351 353 O
+any 79 82 354 357 O
+stage 83 88 358 363 O
+
+Pregnant 0 8 364 372 B-pregnancy
+women 9 14 373 378 B-gender
+
+Receiving 0 9 379 388 O
+any 10 13 389 392 O
+type 14 18 393 397 O
+of 19 21 398 400 O
+cancer 22 28 401 407 B-treatment
+treatment 29 38 408 417 I-treatment
+
+Receiving 0 9 418 427 O
+surgery 10 17 428 435 B-treatment
+and/or 18 24 436 442 O
+chemotherapy 25 37 443 455 B-treatment
+treatment 38 47 456 465 I-treatment
+

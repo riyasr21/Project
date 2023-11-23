@@ -1,0 +1,88 @@
+Active 0 6 0 6 O
+psychiatric 7 18 7 18 B-chronic_disease
+disorder 19 27 19 27 I-chronic_disease
+
+Active 0 6 28 34 B-chronic_disease
+, 6 7 34 35 I-chronic_disease
+uncontrolled 8 20 36 48 I-chronic_disease
+infection 21 30 49 58 I-chronic_disease
+
+Age 0 3 59 62 B-age
+≥ 4 5 63 64 O
+18 6 8 65 67 B-lower_bound
+years 9 14 68 73 I-lower_bound
+
+BSA 0 3 74 77 B-clinical_variable
+< 4 5 78 79 O
+1.4 6 9 80 83 B-upper_bound
+m² 10 12 84 86 I-upper_bound
+
+Coagulopathy 0 12 87 99 B-chronic_disease
+
+Intolerant 0 10 100 110 O
+of 11 13 111 113 O
+anticoagulation 14 29 114 129 B-treatment
+therapy 30 37 130 137 I-treatment
+
+Listed 0 6 138 144 O
+for 7 10 145 148 O
+cardiac 11 18 149 156 B-treatment
+transplant 19 29 157 167 I-treatment
+as 30 32 168 170 O
+a 33 34 171 172 O
+status 35 41 173 179 O
+1A 42 44 180 182 O
+or 45 47 183 185 O
+1B 48 50 186 188 O
+
+NYHA 0 4 189 193 B-clinical_variable
+Class 5 10 194 199 B-chronic_disease
+IV 11 13 200 202 I-chronic_disease
+heart 14 19 203 208 I-chronic_disease
+failure 20 27 209 216 I-chronic_disease
+
+Patients 0 8 217 225 O
+refusing 9 17 226 234 O
+blood 18 23 235 240 B-treatment
+transfusion 24 35 241 252 I-treatment
+
+Patients 0 8 253 261 O
+with 9 13 262 266 O
+an 14 16 267 269 O
+unacceptable 17 29 270 282 O
+risk 30 34 283 287 O
+for 35 38 288 291 O
+successful 39 49 292 302 O
+LVAD 50 54 303 307 B-treatment
+implantation 55 67 308 320 I-treatment
+and 68 71 321 324 O
+maintenance 72 83 325 336 O
+
+Pregnancy 0 9 337 346 B-pregnancy
+
+Presence 0 8 347 355 O
+of 9 11 356 358 O
+condition 12 21 359 368 O
+other 22 27 369 374 O
+than 28 32 375 379 O
+heart 33 38 380 385 B-chronic_disease
+failure 39 46 386 393 I-chronic_disease
+that 47 51 394 398 O
+would 52 57 399 404 O
+limit 58 63 405 410 O
+survival 64 72 411 419 O
+to 73 75 420 422 O
+less 76 80 423 427 O
+than 81 85 428 432 O
+3 86 87 433 434 B-upper_bound
+years 88 93 435 440 I-upper_bound
+
+Severe 0 6 441 447 B-chronic_disease
+right 7 12 448 453 I-chronic_disease
+ventricular 13 24 454 465 I-chronic_disease
+failure 25 32 466 473 I-chronic_disease
+
+irreversible 0 12 474 486 B-chronic_disease
+cognitive 13 22 487 496 I-chronic_disease
+dysfunction 23 34 497 508 I-chronic_disease
+

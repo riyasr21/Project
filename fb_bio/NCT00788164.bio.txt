@@ -1,0 +1,247 @@
+Active 0 6 0 6 B-chronic_disease
+systemic 7 15 7 15 I-chronic_disease
+infection 16 25 16 25 I-chronic_disease
+
+Autoimmune 0 10 26 36 B-chronic_disease
+disease 11 18 37 44 I-chronic_disease
+
+Colposcopically 0 15 45 60 B-treatment
+and 16 19 61 64 O
+biopsy 20 26 65 71 B-treatment
+confirmed 27 36 72 81 O
+grade 37 42 82 87 B-chronic_disease
+3 43 44 88 89 I-chronic_disease
+cervical 45 53 90 98 I-chronic_disease
+intraepithelial 54 69 99 114 I-chronic_disease
+neoplasia 70 79 115 124 I-chronic_disease
+
+Congestive 0 10 125 135 B-chronic_disease
+heart 11 16 136 141 I-chronic_disease
+failure 17 24 142 149 I-chronic_disease
+
+Fertile 0 7 150 157 O
+patients 8 16 158 166 O
+must 17 21 167 171 O
+use 22 25 172 175 B-contraception_consent
+an 26 28 176 178 I-contraception_consent
+effective 29 38 179 188 I-contraception_consent
+form 39 43 189 193 I-contraception_consent
+of 44 46 194 196 I-contraception_consent
+contraception 47 60 197 210 I-contraception_consent
+during 61 67 211 217 O
+study 68 73 218 223 O
+treatment 74 83 224 233 O
+
+History 0 7 234 241 O
+of 8 10 242 244 O
+acute 11 16 245 250 B-chronic_disease
+myocardial 17 27 251 261 I-chronic_disease
+infarction 28 38 262 272 I-chronic_disease
+or 39 41 273 275 O
+cerebrovascular 42 57 276 291 B-chronic_disease
+accident 58 66 292 300 I-chronic_disease
+within 67 73 301 307 O
+the 74 77 308 311 O
+past 78 82 312 316 B-upper_bound
+6 83 84 317 318 I-upper_bound
+months 85 91 319 325 I-upper_bound
+
+Human 0 5 326 331 B-chronic_disease
+papillomavirus 6 20 332 346 I-chronic_disease
+( 21 22 347 348 I-chronic_disease
+HPV 22 25 348 351 I-chronic_disease
+) 25 26 351 352 I-chronic_disease
+16 27 29 353 355 O
+- 29 30 355 356 O
+positive 30 38 356 364 O
+disease 39 46 365 372 O
+by 47 49 373 375 O
+PCR 50 53 376 379 O
+
+Impetigo 0 8 380 388 B-chronic_disease
+
+Lichen 0 6 389 395 B-chronic_disease
+planus 7 13 396 402 I-chronic_disease
+
+Major 0 5 403 408 O
+medical 6 13 409 416 O
+illnesses 14 23 417 426 O
+of 24 26 427 429 O
+the 27 30 430 433 O
+cardiovascular 31 45 434 448 B-chronic_disease
+or 46 48 449 451 O
+respiratory 49 60 452 463 B-chronic_disease
+system 61 67 464 470 I-chronic_disease
+
+Negative 0 8 471 479 B-pregnancy
+pregnancy 9 18 480 489 I-pregnancy
+test 19 23 490 494 O
+
+No 0 2 495 497 O
+HIV 3 6 498 501 B-chronic_disease
+seropositivity 7 21 502 516 O
+
+No 0 2 517 519 O
+active 3 9 520 526 B-chronic_disease
+eczema 10 16 527 533 I-chronic_disease
+within 17 23 534 540 O
+the 24 27 541 544 O
+past 28 32 545 549 B-upper_bound
+12 33 35 550 552 I-upper_bound
+months 36 42 553 559 I-upper_bound
+
+No 0 2 560 562 O
+allergy 3 10 563 570 O
+to 11 13 571 573 O
+eggs 14 18 574 578 B-allergy_name
+
+No 0 2 579 581 O
+close 3 8 582 587 O
+social 9 15 588 594 O
+contact 16 23 595 602 O
+with 24 28 603 607 O
+children 29 37 608 616 O
+under 38 43 617 622 O
+5 44 45 623 624 B-upper_bound
+years 46 51 625 630 I-upper_bound
+old 52 55 631 634 O
+
+No 0 2 635 637 O
+close 3 8 638 643 O
+social 9 15 644 650 O
+or 16 18 651 653 O
+domestic 19 27 654 662 O
+contact 28 35 663 670 O
+with 36 40 671 675 O
+a 41 42 676 677 O
+pregnant 43 51 678 686 B-pregnancy
+woman 52 57 687 692 B-gender
+
+No 0 2 693 695 O
+concurrent 3 13 696 706 O
+adenocarcinoma 14 28 707 721 B-cancer
+in 29 31 722 724 I-cancer
+situ 32 36 725 729 I-cancer
+of 37 39 730 732 I-cancer
+the 40 43 733 736 I-cancer
+cervix 44 50 737 743 I-cancer
+
+No 0 2 744 746 O
+concurrent 3 13 747 757 O
+malignancy 14 24 758 768 B-cancer
+
+No 0 2 769 771 O
+concurrent 3 13 772 782 O
+participation 14 27 783 796 O
+in 28 30 797 799 O
+another 31 38 800 807 B-treatment
+experimental 39 51 808 820 I-treatment
+protocol 52 60 821 829 I-treatment
+
+No 0 2 830 832 O
+concurrent 3 13 833 843 O
+skin 14 18 844 848 B-chronic_disease
+conditions 19 29 849 859 I-chronic_disease
+
+No 0 2 860 862 O
+evidence 3 11 863 871 O
+or 12 14 872 874 O
+history 15 22 875 882 O
+of 23 25 883 885 O
+cardiac 26 33 886 893 B-chronic_disease
+disease 34 41 894 901 I-chronic_disease
+
+No 0 2 902 904 O
+history 3 10 905 912 O
+of 11 13 913 915 O
+severe 14 20 916 922 O
+allergy 21 28 923 930 O
+including 29 38 931 940 O
+eczema 39 45 941 947 B-allergy_name
+or 46 48 948 950 O
+other 49 54 951 956 O
+exfoliative 55 66 957 968 B-chronic_disease
+skin 67 71 969 973 I-chronic_disease
+disorder 72 80 974 982 I-chronic_disease
+
+No 0 2 983 985 O
+immunosuppressive 3 20 986 1003 B-treatment
+medication 21 31 1004 1014 I-treatment
+( 32 33 1015 1016 O
+i.e. 33 37 1016 1020 O
+, 37 38 1020 1021 O
+steroid 39 46 1022 1029 B-treatment
+therapy 47 54 1030 1037 I-treatment
+or 55 57 1038 1040 O
+other 58 63 1041 1046 O
+immunosuppressive 64 81 1047 1064 B-treatment
+/ 81 82 1064 1065 I-treatment
+immunomodulating 82 98 1065 1081 I-treatment
+drugs 99 104 1082 1087 I-treatment
+[ 105 106 1088 1089 O
+e.g. 106 110 1089 1093 O
+, 110 111 1093 1094 O
+cyclosporine 112 124 1095 1107 B-treatment
+] 124 125 1107 1108 O
+) 125 126 1108 1109 O
+within 127 133 1110 1116 O
+the 134 137 1117 1120 O
+past 138 142 1121 1125 B-upper_bound
+2 143 144 1126 1127 I-upper_bound
+months 145 151 1128 1134 I-upper_bound
+
+No 0 2 1135 1137 O
+investigational 3 18 1138 1153 B-treatment
+agent(s 19 26 1154 1161 I-treatment
+) 26 27 1161 1162 I-treatment
+within 28 34 1163 1169 O
+the 35 38 1170 1173 O
+past 39 43 1174 1178 B-upper_bound
+6 44 45 1179 1180 I-upper_bound
+months 46 52 1181 1187 I-upper_bound
+
+No 0 2 1188 1190 O
+previous 3 11 1191 1199 O
+vaccination 12 23 1200 1211 B-treatment
+with 24 28 1212 1216 O
+vaccinia 29 37 1217 1225 B-treatment
+
+Not 0 3 1226 1229 B-pregnancy
+pregnant 4 12 1230 1238 I-pregnancy
+or 13 15 1239 1241 O
+nursing 16 23 1242 1249 O
+
+Proven 0 6 1250 1256 O
+or 7 9 1257 1259 O
+suspected 10 19 1260 1269 O
+immunosuppressive 20 37 1270 1287 B-chronic_disease
+disorder 38 46 1288 1296 I-chronic_disease
+
+Psoriasis 0 9 1297 1306 B-chronic_disease
+
+Sepsis 0 6 1307 1313 B-chronic_disease
+
+Sever 0 5 1314 1319 O
+acneiform 6 15 1320 1329 B-chronic_disease
+rash 16 20 1330 1334 I-chronic_disease
+
+Symptomatic 0 11 1335 1346 O
+arrhythmia 12 22 1347 1357 B-chronic_disease
+not 23 26 1358 1361 O
+controlled 27 37 1362 1372 O
+by 38 40 1373 1375 O
+medication 41 51 1376 1386 O
+
+Traumatic 0 9 1387 1396 B-chronic_disease
+or 10 12 1397 1399 I-chronic_disease
+pruritic 13 21 1400 1408 I-chronic_disease
+skin 22 26 1409 1413 I-chronic_disease
+conditions 27 37 1414 1424 I-chronic_disease
+
+Unstable 0 8 1425 1433 B-chronic_disease
+angina 9 15 1434 1440 I-chronic_disease
+
+nonmelanoma 0 11 1441 1452 B-cancer
+skin 12 16 1453 1457 I-cancer
+lesions 17 24 1458 1465 I-cancer
+

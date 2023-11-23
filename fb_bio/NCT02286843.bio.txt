@@ -1,0 +1,63 @@
+5 0 1 0 1 B-lower_bound
+or 2 4 2 4 O
+more 5 9 5 9 O
+foci 10 14 10 14 O
+of 15 17 15 17 O
+demonstrable 18 30 18 30 O
+metastases 31 41 31 41 B-cancer
+on 42 44 42 44 O
+recent 45 51 45 51 O
+imaging 52 59 52 59 O
+modalities 60 70 60 70 O
+( 71 72 71 72 O
+CT 72 74 72 74 B-treatment
+, 74 75 74 75 O
+MR 76 78 76 78 B-treatment
+, 78 79 78 79 O
+FDG 80 83 80 83 B-treatment
+PET 84 87 84 87 B-treatment
+/ 87 88 87 88 I-treatment
+CT 88 90 88 90 I-treatment
+) 90 91 90 91 O
+
+Biopsy 0 6 92 98 B-treatment
+proven 7 13 99 105 O
+HER2 14 18 106 110 B-cancer
+negative 19 27 111 119 I-cancer
+primary 28 35 120 127 I-cancer
+breast 36 42 128 134 I-cancer
+cancer 43 49 135 141 I-cancer
+
+CNS 0 3 142 145 B-chronic_disease
+only 4 8 146 150 O
+disease 9 16 151 158 O
+on 17 19 159 161 O
+recent 20 26 162 168 O
+imaging 27 34 169 176 O
+
+ECOG 0 4 177 181 B-clinical_variable
+performance 5 16 182 193 I-clinical_variable
+score 17 22 194 199 I-clinical_variable
+of 23 25 200 202 O
+0 26 27 203 204 B-lower_bound
+- 27 28 204 205 O
+2 28 29 205 206 B-upper_bound
+
+Life 0 4 207 211 B-clinical_variable
+expectancy 5 15 212 222 I-clinical_variable
+< 16 17 223 224 O
+3months 18 25 225 232 B-upper_bound
+
+Pregnancy 0 9 233 242 B-pregnancy
+
+Women 0 5 243 248 B-gender
+
+age 0 3 249 252 B-age
+> 4 5 253 254 O
+18 6 8 255 257 B-lower_bound
+
+biopsy 0 6 258 264 O
+proven 7 13 265 271 O
+metastatic 14 24 272 282 B-chronic_disease
+disease 25 32 283 290 I-chronic_disease
+

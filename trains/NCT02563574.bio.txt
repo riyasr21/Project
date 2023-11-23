@@ -1,0 +1,48 @@
+Current 0 7 0 7 O
+major 8 13 8 13 B-chronic_disease
+psychiatric 14 25 14 25 I-chronic_disease
+disturbance 26 37 26 37 I-chronic_disease
+
+English 0 7 38 45 B-language_fluency
+speaking 8 16 46 54 I-language_fluency
+
+Evidence 0 8 55 63 O
+of 9 11 64 66 O
+dementia 12 20 67 75 B-chronic_disease
+
+HIV 0 3 76 79 B-chronic_disease
+- 3 4 79 80 I-chronic_disease
+infected 4 12 80 88 I-chronic_disease
+
+MRI 0 3 89 92 O
+contraindications 4 21 93 110 O
+( 22 23 111 112 O
+e.g. 23 27 112 116 O
+, 27 28 116 117 O
+pregnancy 29 38 118 127 B-pregnancy
+, 38 39 127 128 O
+claustrophobia 40 54 129 143 B-chronic_disease
+, 54 55 143 144 O
+metal 56 61 145 150 O
+implants 62 70 151 159 O
+) 70 71 159 160 O
+
+Major 0 5 161 166 B-chronic_disease
+psychiatric 6 17 167 178 I-chronic_disease
+illness 18 25 179 186 I-chronic_disease
+
+Neurological 0 12 187 199 B-chronic_disease
+disorders 13 22 200 209 I-chronic_disease
+
+Past 0 4 210 214 O
+opportunistic 5 18 215 228 B-chronic_disease
+brain 19 24 229 234 I-chronic_disease
+infection 25 34 235 244 I-chronic_disease
+
+Unstable 0 8 245 253 O
+medical 9 16 254 261 O
+conditions 17 27 262 272 O
+( 28 29 273 274 O
+cancer 29 35 274 280 B-cancer
+) 35 36 280 281 O
+

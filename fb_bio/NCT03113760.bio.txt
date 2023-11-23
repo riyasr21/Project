@@ -1,0 +1,160 @@
+Concomitant 0 11 0 11 O
+use 12 15 12 15 O
+of 16 18 16 18 O
+immunosuppression 19 36 19 36 B-treatment
+therapies 37 46 37 46 I-treatment
+
+Ferritin 0 8 47 55 B-clinical_variable
+≥ 9 10 56 57 O
+500 11 14 58 61 B-lower_bound
+ng 15 17 62 64 I-lower_bound
+/ 17 18 64 65 I-lower_bound
+mL 18 20 65 67 I-lower_bound
+
+IL-1 0 4 68 72 O
+blockade 5 13 73 81 O
+for 14 17 82 85 O
+at 18 20 86 88 O
+least 21 26 89 94 O
+2 27 28 95 96 B-lower_bound
+weeks 29 34 97 102 I-lower_bound
+prior 35 40 103 108 I-lower_bound
+to 41 43 109 111 O
+enrollment 44 54 112 122 O
+are 55 58 123 126 O
+allowed 59 66 127 134 O
+into 67 71 135 139 O
+the 72 75 140 143 O
+study 76 81 144 149 O
+
+Patients 0 8 150 158 O
+> 9 10 159 160 O
+17 11 13 161 163 B-lower_bound
+years 14 19 164 169 I-lower_bound
+of 20 22 170 172 O
+age 23 26 173 176 B-age
+
+Patients 0 8 177 185 O
+receiving 9 18 186 195 O
+stable 19 25 196 202 O
+doses 26 31 203 208 O
+of 32 34 209 211 O
+corticosteroids 35 50 212 227 B-treatment
+
+Patients 0 8 228 236 O
+suffering 9 18 237 246 O
+from 19 23 247 251 O
+familial 24 32 252 260 B-chronic_disease
+hemophagocytic 33 47 261 275 I-chronic_disease
+lymphohistiocytosis 48 67 276 295 I-chronic_disease
+( 68 69 296 297 I-chronic_disease
+f 69 70 297 298 I-chronic_disease
+HLH 71 74 299 302 I-chronic_disease
+) 74 75 302 303 I-chronic_disease
+
+Patients 0 8 304 312 O
+who 9 12 313 316 O
+are 13 16 317 320 B-pregnancy
+pregnant 17 25 321 329 I-pregnancy
+
+Patients 0 8 330 338 O
+with 9 13 339 343 O
+genetic 14 21 344 351 O
+diagnosis 22 31 352 361 O
+of 32 34 362 364 B-treatment
+NLRC4 35 40 365 370 I-treatment
+- 40 41 370 371 I-treatment
+MAS 41 44 371 374 I-treatment
+mutation 45 53 375 383 I-treatment
+
+Patients 0 8 384 392 O
+≤ 9 10 393 394 O
+17 11 13 395 397 B-upper_bound
+years 14 19 398 403 I-upper_bound
+of 20 22 404 406 O
+age 23 26 407 410 B-age
+
+Positive 0 8 411 419 O
+test 9 13 420 424 O
+for 14 17 425 428 O
+or 18 20 429 431 O
+prior 21 26 432 437 O
+history 27 34 438 445 O
+of 35 37 446 448 O
+HIV 38 41 449 452 B-chronic_disease
+, 41 42 452 453 O
+Hepatitis 43 52 454 463 B-chronic_disease
+B 53 54 464 465 I-chronic_disease
+or 55 57 466 468 O
+Hepatitis 58 67 469 478 B-chronic_disease
+C 68 69 479 480 I-chronic_disease
+( 70 71 481 482 O
+serology 71 79 482 490 O
+) 79 80 490 491 O
+
+Women 0 5 492 497 B-gender
+of 6 8 498 500 O
+childbearing 9 21 501 513 O
+potential 22 31 514 523 O
+with 32 36 524 528 O
+negative 37 45 529 537 O
+urine 46 51 538 543 O
+pregnancy 52 61 544 553 B-pregnancy
+test 62 66 554 558 O
+( 67 68 559 560 O
+UPT 68 71 560 563 O
+) 71 72 563 564 O
+at 73 75 565 567 O
+all 76 79 568 571 O
+visits 80 86 572 578 O
+
+XIAP 0 4 579 583 B-chronic_disease
+deficiency 5 15 584 594 I-chronic_disease
+( 16 17 595 596 O
+caused 17 23 596 602 O
+by 24 26 603 605 O
+BIRC4 27 32 606 611 O
+gene 33 37 612 616 O
+mutation 38 46 617 625 O
+) 46 47 625 626 O
+
+a 0 1 627 628 O
+history 2 9 629 636 O
+of 10 12 637 639 O
+pulmonary 13 22 640 649 B-chronic_disease
+TB 23 25 650 652 I-chronic_disease
+infection 26 35 653 662 I-chronic_disease
+with 36 40 663 667 O
+or 41 43 668 670 O
+without 44 51 671 678 O
+documented 52 62 679 689 O
+adequate 63 71 690 698 O
+therapy 72 79 699 706 O
+
+current 0 7 707 714 O
+or 8 10 715 717 O
+previous 11 19 718 726 O
+history 20 27 727 734 O
+of 28 30 735 737 O
+malignancy 31 41 738 748 B-cancer
+
+disease 0 7 749 756 B-treatment
+modifying 8 17 757 766 I-treatment
+anti 18 22 767 771 I-treatment
+rheumatic 23 32 772 781 I-treatment
+drugs 33 38 782 787 I-treatment
+( 39 40 788 789 I-treatment
+DMARDs 40 46 789 795 I-treatment
+) 46 47 795 796 I-treatment
+
+mAIDAI 0 6 797 803 B-clinical_variable
+≥4 7 9 804 806 O
+
+persistent 0 10 807 817 O
+elevation 11 20 818 827 O
+of 21 23 828 830 O
+CRP 24 27 831 834 B-clinical_variable
+≥ 28 29 835 836 O
+2x 30 32 837 839 B-lower_bound
+ULN 33 36 840 843 I-lower_bound
+

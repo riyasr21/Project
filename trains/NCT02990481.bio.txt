@@ -1,0 +1,145 @@
+Active 0 6 0 6 O
+, 6 7 6 7 O
+uncontrolled 8 20 8 20 O
+bacterial 21 30 21 30 O
+, 30 31 30 31 O
+viral 32 37 32 37 O
+, 37 38 37 38 O
+or 39 41 39 41 O
+fungal 42 48 42 48 O
+infections 49 59 49 59 O
+, 59 60 59 60 O
+requiring 61 70 61 70 O
+systemic 71 79 71 79 B-treatment
+therapy 80 87 80 87 I-treatment
+
+Known 0 5 88 93 O
+active 6 12 94 100 O
+infection 13 22 101 110 O
+with 23 27 111 115 O
+HIV 28 31 116 119 B-chronic_disease
+, 31 32 119 120 O
+hepatitis 33 42 121 130 B-chronic_disease
+B 43 44 131 132 I-chronic_disease
+, 44 45 132 133 O
+hepatitis 46 55 134 143 B-chronic_disease
+C 56 57 144 145 I-chronic_disease
+
+New 0 3 146 149 B-clinical_variable
+York 4 8 150 154 I-clinical_variable
+Heart 9 14 155 160 I-clinical_variable
+Association 15 26 161 172 I-clinical_variable
+Class 27 32 173 178 I-clinical_variable
+III 33 36 179 182 B-lower_bound
+or 37 39 183 185 O
+IV 40 42 186 188 B-upper_bound
+
+Patients 0 8 189 197 O
+with 9 13 198 202 O
+histologically 14 28 203 217 O
+confirmed 29 38 218 227 O
+locally 39 46 228 235 O
+advanced 47 55 236 244 O
+or 56 58 245 247 O
+metastatic 59 69 248 258 B-cancer
+cholangiocarcinomas 70 89 259 278 I-cancer
+in 90 92 279 281 O
+Arm 93 96 282 285 O
+3 97 98 286 287 O
+
+Patients 0 8 288 296 O
+with 9 13 297 301 O
+histologically 14 28 302 316 O
+confirmed 29 38 317 326 O
+locally 39 46 327 334 O
+advanced 47 55 335 343 O
+or 56 58 344 346 O
+metastatic 59 69 347 357 B-cancer
+colon 70 75 358 363 I-cancer
+, 75 76 363 364 O
+gastric 77 84 365 372 B-cancer
+, 84 85 372 373 O
+ovarian 86 93 374 381 B-cancer
+, 93 94 381 382 O
+bladder 95 102 383 390 B-cancer
+cancers 103 110 391 398 I-cancer
+, 110 111 398 399 O
+as 112 114 400 402 O
+well 115 119 403 407 O
+as 120 122 408 410 O
+cholangiocarcinomas 123 142 411 430 O
+or 143 145 431 433 O
+hepatomas 146 155 434 443 O
+in 156 158 444 446 O
+Arm 159 162 447 450 O
+4 163 164 451 452 O
+
+Pregnant 0 8 453 461 B-pregnancy
+
+Symptomatic 0 11 462 473 B-cancer
+brain 12 17 474 479 I-cancer
+metastases 18 28 480 490 I-cancer
+
+Treatment 0 9 491 500 O
+with 10 14 501 505 O
+radiation 15 24 506 515 B-treatment
+therapy 25 32 516 523 I-treatment
+, 32 33 523 524 O
+surgery 34 41 525 532 B-treatment
+, 41 42 532 533 O
+chemotherapy 43 55 534 546 B-treatment
+, 55 56 546 547 O
+or 57 59 548 550 O
+investigational 60 75 551 566 B-treatment
+therapy 76 83 567 574 I-treatment
+within 84 90 575 581 O
+four 91 95 582 586 B-upper_bound
+weeks 96 101 587 592 I-upper_bound
+prior 102 107 593 598 I-upper_bound
+to 108 110 599 601 O
+study 111 116 602 607 O
+entry 117 122 608 613 O
+
+Tumor 0 5 614 619 B-cancer
+progression 6 17 620 631 O
+after 18 23 632 637 O
+receiving 24 33 638 647 O
+standard 34 42 648 656 O
+/ 42 43 656 657 O
+approved 43 51 657 665 O
+chemotherapy 52 64 666 678 B-treatment
+or 65 67 679 681 O
+where 68 73 682 687 O
+there 74 79 688 693 O
+is 80 82 694 696 O
+no 83 85 697 699 O
+approved 86 94 700 708 O
+therapy 95 102 709 716 O
+or 103 105 717 719 O
+not 106 109 720 723 O
+amendable 110 119 724 733 O
+to 120 122 734 736 O
+a 123 124 737 738 O
+curative 125 133 739 747 B-treatment
+treatment 134 143 748 757 I-treatment
+
+cardiac 0 7 758 765 B-chronic_disease
+disease 8 15 766 773 I-chronic_disease
+
+evidence 0 8 774 782 O
+of 9 11 783 785 O
+ischemia 12 20 786 794 B-chronic_disease
+on 21 23 795 797 O
+ECG 24 27 798 801 B-treatment
+
+myocardial 0 10 802 812 B-chronic_disease
+infarction 11 21 813 823 I-chronic_disease
+within 22 28 824 830 O
+the 29 32 831 834 O
+past 33 37 835 839 B-upper_bound
+6 38 39 840 841 I-upper_bound
+months 40 46 842 848 I-upper_bound
+
+unstable 0 8 849 857 B-chronic_disease
+arrhythmia 9 19 858 868 I-chronic_disease
+

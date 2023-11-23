@@ -1,0 +1,179 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+18 5 7 5 7 B-lower_bound
+years 8 13 8 13 I-lower_bound
+
+Age 0 3 14 17 B-age
+≥ 4 5 18 19 O
+18 6 8 20 22 B-lower_bound
+years 9 14 23 28 I-lower_bound
+
+Available 0 9 29 38 O
+autologous 10 20 39 49 B-treatment
+transduced 21 31 50 60 I-treatment
+T 32 33 61 62 I-treatment
+cell 34 38 63 67 I-treatment
+product 39 46 68 75 I-treatment
+
+Child 0 5 76 81 B-clinical_variable
+- 5 6 81 82 I-clinical_variable
+Pugh 6 10 82 86 I-clinical_variable
+- 10 11 86 87 I-clinical_variable
+Turcotte 11 19 87 95 I-clinical_variable
+score 20 25 96 101 I-clinical_variable
+< 26 27 102 103 O
+8 28 29 104 105 B-upper_bound
+
+Child 0 5 106 111 B-clinical_variable
+- 5 6 111 112 I-clinical_variable
+Pugh 6 10 112 116 I-clinical_variable
+- 10 11 116 117 I-clinical_variable
+Turcotte 11 19 117 125 I-clinical_variable
+score 20 25 126 131 I-clinical_variable
+< 26 27 132 133 O
+7 27 28 133 134 B-upper_bound
+
+Heart 0 5 135 140 B-chronic_disease
+failure 6 13 141 148 I-chronic_disease
+of 14 16 149 151 O
+Class 17 22 152 157 B-lower_bound
+III 23 26 158 161 I-lower_bound
+- 26 27 161 162 O
+IV 27 29 162 164 B-upper_bound
+and 30 33 165 168 O
+/ 34 35 169 170 O
+or 36 38 171 173 O
+C 39 40 174 175 O
+- 40 41 175 176 O
+D 41 42 176 177 O
+per 43 46 178 181 O
+NYHA 47 51 182 186 O
+Criteria 52 60 187 195 O
+
+Hepatic 0 7 196 203 B-chronic_disease
+encephalopathy 8 22 204 218 I-chronic_disease
+
+Hgb 0 3 219 222 B-clinical_variable
+≥7.0 4 8 223 227 O
+g 9 10 228 229 I-lower_bound
+/ 10 11 229 230 I-lower_bound
+dl 11 13 230 232 I-lower_bound
+
+INR 0 3 233 236 B-clinical_variable
+≤1.7 4 8 237 241 O
+
+Karnofsky 0 9 242 251 B-clinical_variable
+score 10 15 252 257 I-clinical_variable
+> 16 17 258 259 O
+60 17 19 259 261 B-lower_bound
+% 19 20 261 262 I-lower_bound
+
+Life 0 4 263 267 B-clinical_variable
+expectancy 5 15 268 278 I-clinical_variable
+of 16 18 279 281 O
+≥ 19 20 282 283 O
+12 21 23 284 286 B-lower_bound
+weeks 24 29 287 292 I-lower_bound
+
+Pregnancy 0 9 293 302 B-pregnancy
+
+Pulse 0 5 303 308 B-clinical_variable
+oximetry 6 14 309 317 I-clinical_variable
+> 15 16 318 319 O
+90 16 18 319 321 B-lower_bound
+% 18 19 321 322 I-lower_bound
+on 20 22 323 325 O
+room 23 27 326 330 O
+air 28 31 331 334 O
+
+Sexually 0 8 335 343 O
+active 9 15 344 350 O
+patients 16 24 351 359 O
+must 25 29 360 364 O
+be 30 32 365 367 O
+willing 33 40 368 375 B-contraception_consent
+to 41 43 376 378 I-contraception_consent
+utilize 44 51 379 386 I-contraception_consent
+one 52 55 387 390 I-contraception_consent
+of 56 58 391 393 I-contraception_consent
+the 59 62 394 397 I-contraception_consent
+more 63 67 398 402 I-contraception_consent
+effective 68 77 403 412 I-contraception_consent
+birth 78 83 413 418 I-contraception_consent
+control 84 91 419 426 I-contraception_consent
+methods 92 99 427 434 I-contraception_consent
+for 100 103 435 438 O
+3 104 105 439 440 B-upper_bound
+months 106 112 441 447 I-upper_bound
+after 113 118 448 453 O
+the 119 122 454 457 O
+T 123 124 458 459 B-treatment
+- 124 125 459 460 I-treatment
+cell 125 129 460 464 I-treatment
+infusion 130 138 465 473 I-treatment
+
+Systemic 0 8 474 482 B-clinical_variable
+steroid 9 16 483 490 I-clinical_variable
+treatment 17 26 491 500 I-clinical_variable
+( 27 28 501 502 O
+greater 28 35 502 509 O
+than 36 40 510 514 O
+or 41 43 515 517 O
+equal 44 49 518 523 O
+to 50 52 524 526 O
+0.5 53 56 527 530 B-lower_bound
+mg 57 59 531 533 I-lower_bound
+prednisone 60 70 534 544 B-treatment
+equivalent 71 81 545 555 O
+/ 81 82 555 556 O
+kg 82 84 556 558 O
+/ 84 85 558 559 O
+day 85 88 559 562 O
+) 88 89 562 563 O
+
+absolute 0 8 564 572 B-clinical_variable
+neutrophil 9 19 573 583 I-clinical_variable
+count 20 25 584 589 I-clinical_variable
+> 26 27 590 591 O
+500 28 31 592 595 B-lower_bound
+/ 31 32 595 596 I-lower_bound
+microliter 32 42 596 606 I-lower_bound
+
+creatinine 0 10 607 617 B-clinical_variable
+clearance 11 20 618 627 I-clinical_variable
+( 21 22 628 629 O
+as 22 24 629 631 O
+estimated 25 34 632 641 O
+by 35 37 642 644 O
+Cockcroft 38 47 645 654 O
+Gault 48 53 655 660 O
+) 53 54 660 661 O
+≥ 55 56 662 663 O
+60 57 59 664 666 B-lower_bound
+ml 60 62 667 669 I-lower_bound
+/ 62 63 669 670 I-lower_bound
+min 63 66 670 673 I-lower_bound
+
+platelet 0 8 674 682 B-clinical_variable
+count 9 14 683 688 I-clinical_variable
+> 15 16 689 690 O
+20,000 17 23 691 697 B-lower_bound
+/ 23 24 697 698 I-lower_bound
+microliter 24 34 698 708 I-lower_bound
+
+serum 0 5 709 714 B-clinical_variable
+AST 6 9 715 718 I-clinical_variable
+< 9 10 718 719 O
+5 11 12 720 721 B-upper_bound
+times 13 18 722 727 I-upper_bound
+ULN 19 22 728 731 I-upper_bound
+
+total 0 5 732 737 B-clinical_variable
+bilirubin 6 15 738 747 I-clinical_variable
+< 16 17 748 749 O
+3 18 19 750 751 B-upper_bound
+times 20 25 752 757 I-upper_bound
+ULN 26 29 758 761 I-upper_bound
+for 30 33 762 765 O
+age 34 37 766 769 B-age
+

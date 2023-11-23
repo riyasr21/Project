@@ -1,0 +1,65 @@
+BMI 0 3 0 3 B-bmi
+> 4 5 4 5 O
+27 5 7 5 7 B-lower_bound
+kg 8 10 8 10 I-lower_bound
+/ 10 11 10 11 I-lower_bound
+m2 11 13 11 13 I-lower_bound
+
+ESRD 0 4 14 18 B-chronic_disease
+and 5 8 19 22 O
+on 9 11 23 25 O
+dialysis 12 20 26 34 B-treatment
+
+absence 0 7 35 42 O
+of 8 10 43 45 O
+reliable 11 19 46 54 O
+birth 20 25 55 60 O
+control 26 33 61 68 O
+in 34 36 69 71 O
+women 37 42 72 77 B-gender
+of 43 45 78 80 O
+child 46 51 81 86 O
+- 51 52 86 87 O
+bearing 52 59 87 94 O
+potential 60 69 95 104 O
+
+age 0 3 105 108 B-age
+21 4 6 109 111 B-lower_bound
+to 7 9 112 114 O
+80 10 12 115 117 B-upper_bound
+years 13 18 118 123 I-upper_bound
+
+diagnosed 0 9 124 133 O
+diabetics 10 19 134 143 B-chronic_disease
+or 20 22 144 146 O
+HbA1c 23 28 147 152 B-clinical_variable
+> 29 30 153 154 O
+7 30 31 154 155 B-lower_bound
+
+life 0 4 156 160 B-clinical_variable
+expectancy 5 15 161 171 I-clinical_variable
+< 16 17 172 173 O
+1 18 19 174 175 B-upper_bound
+year 20 24 176 180 I-upper_bound
+
+malignancy 0 10 181 191 B-cancer
+except 11 17 192 198 O
+non 18 21 199 202 B-cancer
+- 21 22 202 203 I-cancer
+melanoma 22 30 203 211 I-cancer
+skin 31 35 212 216 I-cancer
+cancer 36 42 217 223 I-cancer
+
+negative 0 8 224 232 B-pregnancy
+pregnancy 9 18 233 242 I-pregnancy
+test 19 23 243 247 O
+in 24 26 248 250 O
+women 27 32 251 256 B-gender
+of 33 35 257 259 O
+child 36 41 260 265 O
+- 41 42 265 266 O
+bearing 42 49 266 273 O
+potential 50 59 274 283 O
+
+pregnancy 0 9 284 293 B-pregnancy
+

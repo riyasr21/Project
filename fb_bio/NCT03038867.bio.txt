@@ -1,0 +1,121 @@
+Healthy 0 7 0 7 O
+men 8 11 8 11 B-gender
+
+current 0 7 12 19 O
+psychiatric 8 19 20 31 B-chronic_disease
+history 20 27 32 39 O
+or 28 30 40 42 O
+history 31 38 43 50 O
+of 39 41 51 53 O
+bipolar 42 49 54 61 B-chronic_disease
+disorder 50 58 62 70 I-chronic_disease
+
+current 0 7 71 78 B-chronic_disease
+sexual 8 14 79 85 I-chronic_disease
+dysfunction 15 26 86 97 I-chronic_disease
+( 27 28 98 99 O
+classified 28 38 99 109 O
+as 39 41 110 112 O
+moderate 42 50 113 121 O
+or 51 53 122 124 O
+worse 54 59 125 130 O
+on 60 62 131 133 O
+IIEF 63 67 134 138 O
+) 67 68 138 139 O
+
+history 0 7 140 147 O
+of 8 10 148 150 O
+previous 11 19 151 159 O
+chemotherapy 20 32 160 172 B-treatment
+or 33 35 173 175 O
+radiation 36 45 176 185 B-treatment
+therapy 46 53 186 193 I-treatment
+
+inability 0 9 194 203 B-language_fluency
+to 10 12 204 206 I-language_fluency
+read 13 17 207 211 I-language_fluency
+, 17 18 211 212 I-language_fluency
+follow 19 25 213 219 I-language_fluency
+instructions 26 38 220 232 I-language_fluency
+, 38 39 232 233 I-language_fluency
+or 40 42 234 236 I-language_fluency
+complete 43 51 237 245 I-language_fluency
+questionnaires 52 66 246 260 I-language_fluency
+in 67 69 261 263 I-language_fluency
+English 70 77 264 271 I-language_fluency
+
+normal 0 6 272 278 O
+or 7 9 279 281 O
+borderline 10 20 282 292 O
+semen 21 26 293 298 O
+analysis 27 35 299 307 O
+( 36 37 308 309 O
+sperm 37 42 309 314 B-clinical_variable
+concentration 43 56 315 328 I-clinical_variable
+> 57 58 329 330 O
+10 59 61 331 333 B-lower_bound
+million 62 69 334 341 I-lower_bound
+/ 69 70 341 342 I-lower_bound
+mL 70 72 342 344 I-lower_bound
+, 72 73 344 345 O
+sperm 74 79 346 351 B-clinical_variable
+motility 80 88 352 360 I-clinical_variable
+> 89 90 361 362 O
+30 91 93 363 365 B-lower_bound
+% 93 94 365 366 I-lower_bound
+, 94 95 366 367 O
+sperm 96 101 368 373 B-clinical_variable
+morphology 102 112 374 384 I-clinical_variable
+> 113 114 385 386 O
+3 115 116 387 388 B-lower_bound
+% 116 117 388 389 I-lower_bound
+) 117 118 389 390 O
+
+oligoasthenoteratospermia 0 25 391 416 B-chronic_disease
+or 26 28 417 419 O
+azoospermia 29 40 420 431 B-chronic_disease
+on 41 43 432 434 O
+semen 44 49 435 440 B-treatment
+analysis 50 58 441 449 I-treatment
+
+ongoing 0 7 450 457 O
+attempts 8 16 458 466 O
+to 17 19 467 469 O
+initiate 20 28 470 478 O
+pregnancy 29 38 479 488 B-pregnancy
+
+use 0 3 489 492 O
+of 4 6 493 495 O
+any 7 10 496 499 O
+hormonal 11 19 500 508 B-treatment
+medications 20 31 509 520 I-treatment
+on 32 34 521 523 O
+a 35 36 524 525 O
+daily 37 42 526 531 O
+or 43 45 532 534 O
+intermittent 46 58 535 547 O
+basis 59 64 548 553 O
+during 65 71 554 560 O
+the 72 75 561 564 O
+preceding 76 85 565 574 O
+3 86 87 575 576 B-upper_bound
+months 88 94 577 583 I-upper_bound
+
+use 0 3 584 587 O
+of 4 6 588 590 O
+any 7 10 591 594 O
+psychotropic 11 23 595 607 B-treatment
+medications 24 35 608 619 I-treatment
+or 36 38 620 622 O
+anticonvulsants 39 54 623 638 B-treatment
+
+use 0 3 639 642 O
+of 4 6 643 645 O
+sleeping 7 15 646 654 B-treatment
+pills 16 21 655 660 I-treatment
+more 22 26 661 665 O
+than 27 31 666 670 O
+once 32 36 671 675 B-lower_bound
+per 37 40 676 679 I-lower_bound
+week 41 45 680 684 I-lower_bound
+

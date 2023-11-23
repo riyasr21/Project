@@ -1,0 +1,44 @@
+Acetabular 0 10 0 10 B-treatment
+repair 11 17 11 17 I-treatment
+with 18 22 18 22 O
+instrumentation 23 38 23 38 O
+
+Active 0 6 39 45 B-chronic_disease
+infection 7 16 46 55 I-chronic_disease
+
+History 0 7 56 63 O
+of 8 10 64 66 O
+prior 11 16 67 72 B-chronic_disease
+prosthesis 17 27 73 83 I-chronic_disease
+infection 28 37 84 93 I-chronic_disease
+
+Posterior 0 9 94 103 B-treatment
+lumbar 10 16 104 110 I-treatment
+, 16 17 110 111 O
+cervical 18 26 112 120 B-treatment
+, 26 27 120 121 O
+or 28 30 122 124 O
+thoracic 31 39 125 133 B-treatment
+( 40 41 134 135 O
+up 41 43 135 137 O
+to 44 46 138 140 O
+and 47 50 141 144 O
+including 51 60 145 154 O
+6 61 62 155 156 O
+vertebral 63 72 157 166 O
+levels 73 79 167 173 O
+) 79 80 173 174 O
+spine 81 86 175 180 B-treatment
+fusion 87 93 181 187 I-treatment
+with 94 98 188 192 O
+instrumentation 99 114 193 208 O
+
+Total 0 5 209 214 B-treatment
+hip 6 9 215 218 I-treatment
+arthroplasty 10 22 219 231 I-treatment
+
+vascular 0 8 232 240 B-treatment
+prosthetic 9 19 241 251 I-treatment
+graft 20 25 252 257 I-treatment
+implantation 26 38 258 270 I-treatment
+

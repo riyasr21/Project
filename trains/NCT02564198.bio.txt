@@ -1,0 +1,84 @@
+Active 0 6 0 6 O
+non 7 10 7 10 B-chronic_disease
+- 10 11 10 11 I-chronic_disease
+healing 11 18 11 18 I-chronic_disease
+wound 19 24 19 24 I-chronic_disease
+or 25 27 25 27 O
+bone 28 32 28 32 O
+fracture 33 41 33 41 O
+
+Active 0 6 42 48 O
+or 7 9 49 51 O
+recent 10 16 52 58 O
+history 17 24 59 66 O
+of 25 27 67 69 O
+gastrointestinal 28 44 70 86 B-chronic_disease
+perforations 45 57 87 99 I-chronic_disease
+, 57 58 99 100 O
+ulcers 59 65 101 107 B-chronic_disease
+, 65 66 107 108 O
+fistulas 67 75 109 117 B-chronic_disease
+or 76 78 118 120 O
+abscesses 79 88 121 130 B-chronic_disease
+
+Active 0 6 131 137 O
+or 7 9 138 140 O
+recent 10 16 141 147 O
+history 17 24 148 155 O
+of 25 27 156 158 O
+hypertensive 28 40 159 171 B-chronic_disease
+crisis 41 47 172 178 I-chronic_disease
+or 48 50 179 181 O
+hypertensive 51 63 182 194 B-chronic_disease
+encephalopathy 64 78 195 209 I-chronic_disease
+
+Active 0 6 210 216 O
+or 7 9 217 219 O
+recent 10 16 220 226 O
+history 17 24 227 234 O
+of 25 27 235 237 O
+serious 28 35 238 245 B-chronic_disease
+bleeding 36 44 246 254 I-chronic_disease
+events 45 51 255 261 I-chronic_disease
+
+History 0 7 262 269 O
+of 8 10 270 272 O
+solid 11 16 273 278 B-treatment
+organ 17 22 279 284 I-treatment
+transplant 23 33 285 295 I-treatment
+
+Karnofsky 0 9 296 305 B-clinical_variable
+≥50 10 13 306 309 O
+% 13 14 309 310 I-lower_bound
+for 15 18 311 314 O
+participants 19 31 315 327 O
+> 32 33 328 329 O
+16 33 35 329 331 O
+years 36 41 332 337 O
+and 42 45 338 341 O
+Lansky 46 52 342 348 B-clinical_variable
+≥50 53 56 349 352 O
+for 57 60 353 356 O
+participants 61 73 357 369 O
+≤16 74 77 370 373 O
+years 78 83 374 379 O
+
+participants 0 12 380 392 O
+with 13 17 393 397 O
+recurrent 18 27 398 407 O
+or 28 30 408 410 O
+refractory 31 41 411 421 O
+CNS 42 45 422 425 B-cancer
+tumors 46 52 426 432 I-cancer
+
+participants 0 12 433 445 O
+with 13 17 446 450 O
+recurrent 18 27 451 460 O
+or 28 30 461 463 O
+refractory 31 41 464 474 O
+non 42 45 475 478 B-cancer
+- 45 46 478 479 I-cancer
+CNS 46 49 479 482 I-cancer
+solid 50 55 483 488 I-cancer
+tumors 56 62 489 495 I-cancer
+

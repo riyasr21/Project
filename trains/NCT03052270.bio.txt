@@ -1,0 +1,47 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+at 18 20 18 20 O
+the 21 24 21 24 O
+time 25 29 25 29 O
+of 30 32 30 32 O
+enrollment 33 43 33 43 O
+
+Age 0 3 44 47 B-age
+less 4 8 48 52 O
+than 9 13 53 57 O
+18 14 16 58 60 B-upper_bound
+years 17 22 61 66 I-upper_bound
+
+Major 0 5 67 72 O
+fetal 6 11 73 78 B-chronic_disease
+anomalies 12 21 79 88 I-chronic_disease
+
+Multiple 0 8 89 97 B-pregnancy
+pregnancy 9 18 98 107 I-pregnancy
+
+Patient 0 7 108 115 O
+currently 8 17 116 125 O
+with 18 22 126 130 O
+cervical 23 31 131 139 B-treatment
+cerclage 32 40 140 148 I-treatment
+in 41 43 149 151 I-treatment
+- 43 44 151 152 I-treatment
+situ 44 48 152 156 I-treatment
+for 49 52 157 160 O
+the 53 56 161 164 O
+treatment 57 66 165 174 O
+of 67 69 175 177 O
+incompetence 70 82 178 190 B-chronic_disease
+cervix 83 89 191 197 I-chronic_disease
+
+Singleton 0 9 198 207 B-pregnancy
+pregnant 10 18 208 216 I-pregnancy
+women 19 24 217 222 B-gender
+
+between 0 7 223 230 O
+18 8 10 231 233 B-lower_bound
+-24 11 14 234 237 O
+weeks 15 20 238 243 I-upper_bound
+

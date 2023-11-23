@@ -1,0 +1,51 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+history 14 21 14 21 O
+of 22 24 22 24 O
+substance 25 34 25 34 O
+abuse 35 40 35 40 O
+or 41 43 41 43 O
+substance 44 53 44 53 O
+- 53 54 53 54 O
+dependence 54 64 54 64 O
+anytime 65 72 65 72 O
+over 73 77 73 77 O
+the 78 81 78 81 O
+past 82 86 82 86 B-upper_bound
+six 87 90 87 90 I-upper_bound
+months 91 97 91 97 I-upper_bound
+
+must 0 4 98 102 O
+have 5 9 103 107 O
+no 10 12 108 110 O
+history 13 20 111 118 O
+of 21 23 119 121 O
+substance 24 33 122 131 O
+use 34 37 132 135 O
+of 38 40 136 138 O
+substance 41 50 139 148 O
+- 50 51 148 149 O
+dependence 51 61 149 159 O
+issues 62 68 160 166 O
+over 69 73 167 171 O
+at 74 76 172 174 O
+least 77 82 175 180 O
+the 83 86 181 184 O
+past 87 91 185 189 B-upper_bound
+six 92 95 190 193 I-upper_bound
+months 96 102 194 200 I-upper_bound
+
+patients 0 8 201 209 O
+with 9 13 210 214 O
+a 14 15 215 216 O
+history 16 23 217 224 O
+of 24 26 225 227 O
+seizures 27 35 228 236 B-chronic_disease
+
+patients 0 8 237 245 O
+with 9 13 246 250 O
+elevated 14 22 251 259 O
+risk 23 27 260 264 O
+of 28 30 265 267 O
+seizures 31 39 268 276 B-chronic_disease
+

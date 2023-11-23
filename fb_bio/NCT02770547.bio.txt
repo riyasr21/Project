@@ -1,0 +1,131 @@
+Ankle 0 5 0 5 B-clinical_variable
+brachial 6 14 6 14 I-clinical_variable
+index 15 20 15 20 I-clinical_variable
+< 21 22 21 22 O
+0.9 22 25 22 25 B-upper_bound
+
+Chronic 0 7 26 33 B-chronic_disease
+Obstructive 8 19 34 45 I-chronic_disease
+Pulmonary 20 29 46 55 I-chronic_disease
+Disease 30 37 56 63 I-chronic_disease
+
+Chronic 0 7 64 71 B-chronic_disease
+kidney 8 14 72 78 I-chronic_disease
+disease 15 22 79 86 I-chronic_disease
+( 23 24 87 88 O
+eGFR 24 28 88 92 B-clinical_variable
+< 29 30 93 94 O
+30 30 32 94 96 B-upper_bound
+by 33 35 97 99 O
+Modification 36 48 100 112 B-treatment
+of 49 51 113 115 I-treatment
+Diet 52 56 116 120 I-treatment
+in 57 59 121 123 I-treatment
+Renal 60 65 124 129 I-treatment
+Disease 66 73 130 137 I-treatment
+or 74 76 138 140 O
+Mayo 77 81 141 145 B-treatment
+or 82 84 146 148 O
+Cockcroft 85 94 149 158 B-treatment
+- 94 95 158 159 I-treatment
+Gault 95 100 159 164 I-treatment
+formula 101 108 165 172 I-treatment
+) 108 109 172 173 O
+
+Exercise 0 8 174 182 O
+- 8 9 182 183 O
+limiting 9 17 183 191 O
+comorbidity 18 29 192 203 O
+( 30 31 204 205 O
+i.e. 31 35 205 209 O
+, 35 36 209 210 O
+angina 37 43 211 217 B-chronic_disease
+, 43 44 217 218 O
+chronic 45 52 219 226 B-chronic_disease
+lung 53 57 227 231 I-chronic_disease
+disease 58 65 232 239 I-chronic_disease
+, 65 66 239 240 O
+or 67 69 241 243 O
+arthritis 70 79 244 253 B-chronic_disease
+) 79 80 253 254 O
+
+HIV 0 3 255 258 B-chronic_disease
+positive 4 12 259 267 O
+
+Implanted 0 9 268 277 B-treatment
+cardiac 10 17 278 285 I-treatment
+defibrillator 18 31 286 299 I-treatment
+
+Insulin 0 7 300 307 B-treatment
+or 8 10 308 310 O
+infusion 11 19 311 319 B-treatment
+pump 20 24 320 324 I-treatment
+
+Men 0 3 325 328 B-gender
+and 4 7 329 332 I-gender
+women 8 13 333 338 I-gender
+with 14 18 339 343 O
+a 19 20 344 345 O
+stable 21 27 346 352 O
+symptomatic 28 39 353 364 O
+claudication 40 52 365 377 O
+for 53 56 378 381 O
+≥6 57 59 382 384 O
+months 60 66 385 391 I-lower_bound
+
+Peripheral 0 10 392 402 B-chronic_disease
+neuropathy 11 21 403 413 I-chronic_disease
+
+Recent 0 6 414 420 O
+( 7 8 421 422 O
+<3 8 10 422 424 O
+months 11 17 425 431 I-upper_bound
+) 17 18 431 432 O
+infrainguinal 19 32 433 446 B-treatment
+revascularization 33 50 447 464 I-treatment
+( 51 52 465 466 O
+surgery 52 59 466 473 B-treatment
+or 60 62 474 476 I-treatment
+endovascular 63 75 477 489 I-treatment
+revascularization 76 93 490 507 I-treatment
+) 93 94 507 508 O
+or 95 97 509 511 O
+revascularization 98 115 512 529 O
+planned 116 123 530 537 O
+during 124 130 538 544 O
+study 131 136 545 550 O
+period 137 143 551 557 O
+
+Uncontrolled 0 12 558 570 B-chronic_disease
+Diabetes 13 21 571 579 I-chronic_disease
+( 22 23 580 581 O
+HbA1C 23 28 581 586 B-clinical_variable
+> 29 30 587 588 O
+8.5 31 34 589 592 B-lower_bound
+measured 35 43 593 601 O
+within 44 50 602 608 O
+3 51 52 609 610 B-upper_bound
+months 53 59 611 617 I-upper_bound
+prior 60 65 618 623 I-upper_bound
+to 66 68 624 626 O
+date 69 73 627 631 O
+of 74 76 632 634 O
+consent 77 84 635 642 O
+) 84 85 642 643 O
+
+ear 0 3 644 647 B-treatment
+implant 4 11 648 655 I-treatment
+
+hepatitis 0 9 656 665 B-chronic_disease
+C 10 11 666 667 I-chronic_disease
+virus 12 17 668 673 I-chronic_disease
+( 18 19 674 675 I-chronic_disease
+HCV 19 22 675 678 I-chronic_disease
+) 22 23 678 679 I-chronic_disease
+disease 24 31 680 687 I-chronic_disease
+
+paresthesia 0 11 688 699 B-chronic_disease
+in 12 14 700 702 O
+the 15 18 703 706 O
+legs 19 23 707 711 O
+

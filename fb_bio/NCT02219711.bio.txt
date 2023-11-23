@@ -1,0 +1,46 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+a 11 12 11 12 O
+significant 13 24 13 24 O
+cardiovascular 25 39 25 39 B-chronic_disease
+illness 40 47 40 47 I-chronic_disease
+
+Left 0 4 48 52 B-clinical_variable
+ventricular 5 16 53 64 I-clinical_variable
+ejection 17 25 65 73 I-clinical_variable
+fraction 26 34 74 82 I-clinical_variable
+< 35 36 83 84 O
+40 37 39 85 87 B-upper_bound
+% 39 40 87 88 I-upper_bound
+
+Metastatic 0 10 89 99 O
+or 11 13 100 102 O
+unresectable 14 26 103 115 O
+solid 27 32 116 121 B-cancer
+tumor 33 38 122 127 I-cancer
+malignancy 39 49 128 138 I-cancer
+
+Other 0 5 139 144 O
+active 6 12 145 151 O
+cancer 13 19 152 158 B-cancer
+
+Prolonged 0 9 159 168 B-clinical_variable
+corrected 10 19 169 178 I-clinical_variable
+QT 20 22 179 181 I-clinical_variable
+( 23 24 182 183 I-clinical_variable
+QTc 24 27 183 186 I-clinical_variable
+) 27 28 186 187 I-clinical_variable
+interval 29 37 188 196 I-clinical_variable
+
+Standard 0 8 197 205 B-treatment
+treatment 9 18 206 215 I-treatment
+is 19 21 216 218 O
+not 22 25 219 222 O
+available 26 35 223 232 O
+
+Symptomatic 0 11 233 244 O
+or 12 14 245 247 O
+uncontrolled 15 27 248 260 O
+brain 28 33 261 266 B-cancer
+metastases 34 44 267 277 I-cancer
+

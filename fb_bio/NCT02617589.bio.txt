@@ -1,0 +1,54 @@
+Any 0 3 0 3 O
+known 4 9 4 9 O
+tumor 10 15 10 15 B-cancer
+outside 16 23 16 23 I-cancer
+of 24 26 24 26 I-cancer
+the 27 30 27 30 I-cancer
+brain 31 36 31 36 I-cancer
+
+Biopsy 0 6 37 43 B-treatment
+with 7 11 44 48 O
+less 12 16 49 53 O
+than 17 21 54 58 O
+20 22 24 59 61 B-upper_bound
+% 24 25 61 62 I-upper_bound
+of 26 28 63 65 O
+tumor 29 34 66 71 B-cancer
+removed 35 42 72 79 O
+
+Males 0 5 80 85 B-gender
+
+Newly 0 5 86 91 O
+- 5 6 91 92 O
+diagnosed 6 15 92 101 O
+brain 16 21 102 107 B-cancer
+cancer 22 28 108 114 I-cancer
+or 29 31 115 117 O
+tumor 32 37 118 123 B-cancer
+called 38 44 124 130 O
+glioblastoma 45 57 131 143 B-cancer
+or 58 60 144 146 O
+GBM 61 64 147 150 B-cancer
+
+Prior 0 5 151 156 O
+treatment 6 15 157 166 O
+for 16 19 167 170 O
+GBM 20 23 171 174 B-cancer
+( 24 25 175 176 O
+other 25 30 176 181 O
+than 31 35 182 186 O
+surgical 36 44 187 195 B-treatment
+resection 45 54 196 205 I-treatment
+) 54 55 205 206 O
+
+Recurrent 0 9 207 216 O
+or 10 12 217 219 O
+secondary 13 22 220 229 O
+GBM 23 26 230 233 B-cancer
+
+age 0 3 234 237 B-age
+≥ 4 5 238 239 O
+18 6 8 240 242 B-lower_bound
+years 9 14 243 248 I-lower_bound
+old 15 18 249 252 O
+

@@ -1,0 +1,25 @@
+English 0 7 0 7 B-language_fluency
+or 8 10 8 10 I-language_fluency
+Spanish 11 18 11 18 I-language_fluency
+Speaking 19 27 19 27 I-language_fluency
+
+Non 0 3 28 31 B-ethnicity
+- 3 4 31 32 I-ethnicity
+Hispanic 4 12 32 40 I-ethnicity
+White 13 18 41 46 I-ethnicity
+, 18 19 46 47 I-ethnicity
+Black 20 25 48 53 I-ethnicity
+, 25 26 53 54 I-ethnicity
+or 27 29 55 57 I-ethnicity
+Hispanic 30 38 58 66 I-ethnicity
+
+age 0 3 67 70 B-age
+> 4 5 71 72 O
+49 6 8 73 75 B-lower_bound
+
+bipolar 0 7 76 83 B-chronic_disease
+disorder 8 16 84 92 I-chronic_disease
+
+probable 0 8 93 101 O
+dementia 9 17 102 110 B-chronic_disease
+

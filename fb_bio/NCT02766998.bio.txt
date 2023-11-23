@@ -1,0 +1,54 @@
+All 0 3 0 3 O
+fetal 4 9 4 9 O
+diagnoses 10 19 10 19 O
+of 20 22 20 22 O
+complex 23 30 23 30 O
+congenital 31 41 31 41 B-chronic_disease
+heart 42 47 42 47 I-chronic_disease
+disease 48 55 48 55 I-chronic_disease
+diagnosed 56 65 56 65 O
+by 66 68 66 68 O
+fetal 69 74 69 74 B-treatment
+echocardiogram 75 89 75 89 I-treatment
+requiring 90 99 90 99 O
+cardiac 100 107 100 107 B-treatment
+repair 108 114 108 114 I-treatment
+with 115 119 115 119 I-treatment
+Blalock 120 127 120 127 I-treatment
+- 127 128 127 128 I-treatment
+Taussig 128 135 128 135 I-treatment
+Shunt 136 141 136 141 I-treatment
+or 142 144 142 144 I-treatment
+Right 145 150 145 150 I-treatment
+Ventricle 151 160 151 160 I-treatment
+to 161 163 161 163 I-treatment
+Pulmonary 164 173 164 173 I-treatment
+Artery 174 180 174 180 I-treatment
+conduit 181 188 181 188 I-treatment
+
+HIV 0 3 189 192 B-chronic_disease
+positive 4 12 193 201 O
+mothers 13 20 202 209 O
+
+Hepatitis 0 9 210 219 B-chronic_disease
+B 10 11 220 221 I-chronic_disease
+or 12 14 222 224 I-chronic_disease
+C 15 16 225 226 I-chronic_disease
+positive 17 25 227 235 O
+mothers 26 33 236 243 O
+
+all 0 3 244 247 O
+pre 4 7 248 251 O
+- 7 8 251 252 O
+natal 8 13 252 257 O
+diagnoses 14 23 258 267 O
+of 24 26 268 270 O
+any 27 30 271 274 O
+single 31 37 275 281 B-chronic_disease
+ventricle 38 47 282 291 I-chronic_disease
+circulation 48 59 292 303 I-chronic_disease
+physiology 60 70 304 314 I-chronic_disease
+( 71 72 315 316 I-chronic_disease
+SVP 72 75 316 319 I-chronic_disease
+) 75 76 319 320 I-chronic_disease
+

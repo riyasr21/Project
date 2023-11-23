@@ -1,0 +1,79 @@
+Acute 0 5 0 5 B-chronic_disease
+intoxication 6 18 6 18 I-chronic_disease
+as 19 21 19 21 O
+measured 22 30 22 30 O
+by 31 33 31 33 O
+breath 34 40 34 40 B-clinical_variable
+alcohol 41 48 41 48 I-clinical_variable
+level 49 54 49 54 I-clinical_variable
+( 55 56 55 56 I-clinical_variable
+BAL 56 59 56 59 I-clinical_variable
+) 59 60 59 60 I-clinical_variable
+> 61 62 61 62 O
+0 63 64 63 64 B-lower_bound
+
+Blood 0 5 65 70 B-clinical_variable
+pressure 6 14 71 79 I-clinical_variable
+at 15 17 80 82 O
+or 18 20 83 85 O
+above 21 26 86 91 O
+160/100 27 34 92 99 B-lower_bound
+
+HIV 0 3 100 103 B-chronic_disease
+- 3 4 103 104 O
+infected 4 12 104 112 O
+adults 13 19 113 119 O
+age 20 23 120 123 B-age
+18 24 26 124 126 B-lower_bound
+and 27 30 127 130 O
+older 31 36 131 136 O
+currently 37 46 137 146 O
+receiving 47 56 147 156 O
+HIV 57 60 157 160 B-treatment
+care 61 65 161 165 I-treatment
+
+Heart 0 5 166 171 B-clinical_variable
+rate 6 10 172 176 I-clinical_variable
+at 11 13 177 179 O
+or 14 16 180 182 O
+above 17 22 183 188 O
+105 23 26 189 192 B-lower_bound
+bpm 27 30 193 196 I-lower_bound
+
+Self 0 4 197 201 O
+- 4 5 201 202 O
+report 5 11 202 208 O
+smoking 12 19 209 216 O
+≥10 20 23 217 220 O
+cigarettes 24 34 221 231 O
+/ 34 35 231 232 O
+day 35 38 232 235 O
+of 39 41 236 238 O
+a 42 43 239 240 O
+brand 44 49 241 246 O
+delivering 50 60 247 257 O
+> 61 62 258 259 O
+0.5 62 65 259 262 B-lower_bound
+mg 65 67 262 264 I-lower_bound
+nicotine 68 76 265 273 O
+for 77 80 274 277 O
+> 81 82 278 279 O
+2yrs 82 86 279 283 B-lower_bound
+
+Unstable 0 8 284 292 O
+HIV 9 12 293 296 B-chronic_disease
+or 13 15 297 299 O
+associated 16 26 300 310 O
+comorbidities 27 40 311 324 O
+, 40 41 324 325 O
+as 42 44 326 328 O
+determined 45 55 329 339 O
+by 56 58 340 342 O
+a 59 60 343 344 O
+licensed 61 69 345 353 O
+medical 70 77 354 361 O
+professional 78 90 362 374 O
+
+below 0 5 375 380 O
+90/50 6 11 381 386 B-upper_bound
+

@@ -1,0 +1,43 @@
+8 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+17 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+of 11 13 11 13 O
+age 14 17 14 17 B-age
+
+Exacerbation 0 12 18 30 O
+in 13 15 31 33 O
+previous 16 24 34 42 B-upper_bound
+12 25 27 43 45 I-upper_bound
+months 28 34 46 52 I-upper_bound
+
+Persistent 0 10 53 63 B-chronic_disease
+asthma 11 17 64 70 I-chronic_disease
+( 18 19 71 72 O
+NAEPP 19 24 72 77 O
+criteria 25 33 78 86 O
+) 33 34 86 87 O
+
+Significant 0 11 88 99 O
+pulmonary 12 21 100 109 B-chronic_disease
+or 22 24 110 112 I-chronic_disease
+cardiac 25 32 113 120 I-chronic_disease
+disease 33 40 121 128 I-chronic_disease
+
+Spends 0 6 129 135 O
+≥4 7 9 136 138 O
+nights 10 16 139 145 I-lower_bound
+/ 16 17 145 146 I-lower_bound
+week 17 21 146 150 I-lower_bound
+at 22 24 151 153 O
+home 25 29 154 158 O
+
+Underweight 0 11 159 170 O
+, 11 12 170 171 O
+defined 13 20 172 179 O
+by 21 23 180 182 O
+BMI 24 27 183 186 B-bmi
+< 28 29 187 188 O
+5th 29 32 188 191 B-upper_bound
+percentile 33 43 192 202 I-upper_bound
+

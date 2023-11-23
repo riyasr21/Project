@@ -1,0 +1,41 @@
+advanced 0 8 0 8 B-chronic_disease
+liver 9 14 9 14 I-chronic_disease
+disease 15 22 15 22 I-chronic_disease
+
+bleeding 0 8 23 31 B-chronic_disease
+diathesis 9 18 32 41 I-chronic_disease
+
+contraindications 0 17 42 59 O
+to 18 20 60 62 O
+endoscopic 21 31 63 73 B-allergy_name
+treatment 32 41 74 83 I-allergy_name
+
+pregnancy 0 9 84 93 B-pregnancy
+
+suitable 0 8 94 102 O
+candidates 9 19 103 113 O
+for 20 23 114 117 O
+endoscopic 24 34 118 128 B-treatment
+treatment 35 44 129 138 I-treatment
+of 45 47 139 141 O
+Barrett 48 55 142 149 B-cancer
+'s 55 57 149 151 I-cancer
+esophagus 58 67 152 161 I-cancer
+( 68 69 162 163 I-cancer
+BE 69 71 163 165 I-cancer
+) 71 72 165 166 I-cancer
+with 73 77 167 171 O
+high 78 82 172 176 B-cancer
+- 82 83 176 177 I-cancer
+grade 83 88 177 182 I-cancer
+dysplasia 89 98 183 192 I-cancer
+( 99 100 193 194 I-cancer
+HGD 100 103 194 197 I-cancer
+) 103 104 197 198 I-cancer
+and/or 105 111 199 205 O
+early 112 117 206 211 O
+adenocarcinoma 118 132 212 226 B-cancer
+of 133 135 227 229 I-cancer
+the 136 139 230 233 I-cancer
+esophagus 140 149 234 243 I-cancer
+

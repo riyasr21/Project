@@ -1,0 +1,105 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+schizophrenia 13 26 13 26 B-chronic_disease
+
+History 0 7 27 34 O
+of 8 10 35 37 O
+recreational 11 23 38 50 O
+drug 24 28 51 55 O
+use 29 32 56 59 O
+in 33 35 60 62 O
+the 36 39 63 66 O
+past 40 44 67 71 B-upper_bound
+1 45 46 72 73 I-upper_bound
+year 47 51 74 78 I-upper_bound
+
+Medications 0 11 79 90 O
+that 12 16 91 95 O
+may 17 20 96 99 O
+alter 21 26 100 105 O
+oxycodone 27 36 106 115 O
+metabolism 37 47 116 126 O
+: 47 48 126 127 O
+St. 49 52 128 131 B-treatment
+John 53 57 132 136 I-treatment
+'s 57 59 136 138 I-treatment
+wort 60 64 139 143 I-treatment
+, 64 65 143 144 O
+Dilantin 66 74 145 153 B-treatment
+, 74 75 153 154 O
+tegretol 76 84 155 163 B-treatment
+, 84 85 163 164 O
+corticosteroids 86 101 165 180 B-treatment
+, 101 102 180 181 O
+rifampin 103 111 182 190 B-treatment
+
+Pregnancy 0 9 191 200 B-pregnancy
+
+active 0 6 201 207 B-cancer
+cancer 7 13 208 214 I-cancer
+requiring 14 23 215 224 O
+current 24 31 225 232 O
+treatment 32 41 233 242 O
+
+anxiety 0 7 243 250 B-chronic_disease
+disorder 8 16 251 259 I-chronic_disease
+requiring 17 26 260 269 O
+regular 27 34 270 277 O
+medication 35 45 278 288 O
+
+cerebral 0 8 289 297 B-chronic_disease
+vascular 9 17 298 306 I-chronic_disease
+accident 18 26 307 315 I-chronic_disease
+
+current 0 7 316 323 O
+regular 8 15 324 331 O
+use 16 19 332 335 O
+of 20 22 336 338 O
+an 23 25 339 341 O
+opioid 26 32 342 348 B-treatment
+or 33 35 349 351 O
+medications 36 47 352 363 B-treatment
+that 48 52 364 368 O
+involve 53 60 369 376 O
+the 61 64 377 380 O
+opioid 65 71 381 387 B-treatment
+receptor 72 80 388 396 I-treatment
+( 81 82 397 398 O
+naltrexone 82 92 398 408 B-treatment
+( 93 94 409 410 I-treatment
+vivitrol 94 102 410 418 I-treatment
+) 102 103 418 419 O
+, 103 104 419 420 O
+buprenorphine 105 118 421 434 B-treatment
+( 119 120 435 436 I-treatment
+subutex 120 127 436 443 I-treatment
+) 127 128 443 444 I-treatment
+, 128 129 444 445 O
+methadone 130 139 446 455 B-treatment
+( 140 141 456 457 I-treatment
+dolophine 141 150 457 466 I-treatment
+) 150 151 466 467 I-treatment
+
+psychomotor 0 11 468 479 O
+function 12 20 480 488 O
+: 20 21 488 489 O
+MAO 22 25 490 493 B-treatment
+inhibitors 26 36 494 504 I-treatment
+, 36 37 504 505 O
+neuroleptics 38 50 506 518 B-treatment
+, 50 51 518 519 O
+antidepressants 52 67 520 535 B-treatment
+, 67 68 535 536 O
+anticonvulsants 69 84 537 552 B-treatment
+, 84 85 552 553 O
+benzodiazepines 86 101 554 569 B-treatment
+, 101 102 569 570 O
+sleep 103 108 571 576 O
+aids 109 113 577 581 O
+
+schizoaffective 0 15 582 597 B-chronic_disease
+disorder 16 24 598 606 I-chronic_disease
+
+unstable 0 8 607 615 B-chronic_disease
+angina 9 15 616 622 I-chronic_disease
+

@@ -1,0 +1,54 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+80 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+
+Chronic 0 7 12 19 B-chronic_disease
+kidney 8 14 20 26 I-chronic_disease
+disease 15 22 27 34 I-chronic_disease
+stage 23 28 35 40 I-chronic_disease
+5 29 30 41 42 I-chronic_disease
+
+Emergency 0 9 43 52 B-treatment
+surgery 10 17 53 60 I-treatment
+
+GFR 0 3 61 64 B-clinical_variable
+< 4 5 65 66 O
+15 6 8 67 69 B-upper_bound
+ml 9 11 70 72 I-upper_bound
+/ 11 12 72 73 I-upper_bound
+min 12 15 73 76 I-upper_bound
+
+Major 0 5 77 82 B-treatment
+spine 6 11 83 88 I-treatment
+surgery 12 19 89 96 I-treatment
+scheduled 20 29 97 106 O
+as 30 32 107 109 O
+part 33 37 110 114 O
+of 38 40 115 117 O
+clinical 41 49 118 126 O
+care 50 54 127 131 O
+
+More 0 4 132 136 O
+than 5 9 137 141 O
+three 10 15 142 147 B-lower_bound
+doses 16 21 148 153 O
+of 22 24 154 156 O
+any 25 28 157 160 O
+opioid 29 35 161 167 O
+within 36 42 168 174 O
+one 43 46 175 178 B-upper_bound
+week 47 51 179 183 I-upper_bound
+of 52 54 184 186 O
+surgery 55 62 187 194 B-treatment
+
+Pregnancy 0 9 195 204 B-pregnancy
+
+Recent 0 6 205 211 O
+myocardial 7 17 212 222 B-chronic_disease
+infarction 18 28 223 233 I-chronic_disease
+
+Severe 0 6 234 240 O
+hepatic 7 14 241 248 B-chronic_disease
+impairment 15 25 249 259 I-chronic_disease
+

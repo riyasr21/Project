@@ -1,0 +1,327 @@
+> 0 1 0 1 O
+20cc 2 6 2 6 B-lower_bound
+/ 6 7 6 7 I-lower_bound
+hr 7 9 7 9 I-lower_bound
+sputum 10 16 10 16 B-clinical_variable
+production 17 27 17 27 I-clinical_variable
+or 28 30 28 30 O
+> 31 32 31 32 O
+100 33 36 33 36 B-lower_bound
+cc 37 39 37 39 I-lower_bound
+'s 39 41 39 41 I-lower_bound
+hemoptysis/24 42 55 42 55 B-clinical_variable
+hrs 56 59 56 59 O
+
+Active 0 6 60 66 O
+myocardial 7 17 67 77 B-chronic_disease
+ischemia 18 26 78 86 I-chronic_disease
+( 27 28 87 88 O
+acute 28 33 88 93 O
+ST 34 36 94 96 B-chronic_disease
+elevation 37 46 97 106 I-chronic_disease
+or 47 49 107 109 O
+non 50 53 110 113 B-chronic_disease
+ST 54 56 114 116 I-chronic_disease
+elevation 57 66 117 126 I-chronic_disease
+MI 67 69 127 129 I-chronic_disease
+
+Age 0 3 130 133 B-age
+> 4 5 134 135 O
+/= 5 7 135 137 O
+18 8 10 138 140 B-lower_bound
+years 11 16 141 146 I-lower_bound
+old 17 20 147 150 O
+
+Airway 0 6 151 157 B-chronic_disease
+or 7 9 158 160 O
+facial 10 16 161 167 B-chronic_disease
+trauma 17 23 168 174 I-chronic_disease
+that 24 28 175 179 O
+would 29 34 180 185 O
+hinder 35 41 186 192 O
+the 42 45 193 196 O
+use 46 49 197 200 O
+of 50 52 201 203 O
+a 53 54 204 205 O
+NIPPV 55 60 206 211 O
+mask 61 65 212 216 O
+
+Atrial 0 6 217 223 B-chronic_disease
+fibrillation 7 19 224 236 I-chronic_disease
+with 20 24 237 241 O
+rapid 25 30 242 247 O
+ventricular 31 42 248 259 O
+response 43 51 260 268 O
+
+Chest 0 5 269 274 B-treatment
+radiograph 6 16 275 285 I-treatment
+or 17 19 286 288 O
+CT 20 22 289 291 B-treatment
+scan 23 27 292 296 I-treatment
+within 28 34 297 303 O
+< 35 36 304 305 O
+/= 36 38 305 307 O
+3 39 40 308 309 B-upper_bound
+months 41 47 310 316 I-upper_bound
+prior 48 53 317 322 I-upper_bound
+to 54 56 323 325 O
+study 57 62 326 331 O
+enrollment 63 73 332 342 O
+rules 74 79 343 348 O
+out 80 83 349 352 O
+primary 84 91 353 360 B-cancer
+or 92 94 361 363 O
+metastatic 95 105 364 374 B-cancer
+malignancy 106 116 375 385 I-cancer
+in 117 119 386 388 I-cancer
+the 120 123 389 392 I-cancer
+lungs 124 129 393 398 I-cancer
+or 130 132 399 401 O
+pleural 133 140 402 409 B-cancer
+space 141 146 410 415 I-cancer
+as 147 149 416 418 O
+a 150 151 419 420 O
+significant 152 163 421 432 O
+cause 164 169 433 438 O
+of 170 172 439 441 O
+respiratory 173 184 442 453 B-chronic_disease
+insufficiency 185 198 454 467 I-chronic_disease
+
+Clinical 0 8 468 476 O
+evidence 9 17 477 485 O
+of 18 20 486 488 O
+left 21 25 489 493 B-chronic_disease
+heart 26 31 494 499 I-chronic_disease
+failure 32 39 500 507 I-chronic_disease
+as 40 42 508 510 O
+the 43 46 511 514 O
+main 47 51 515 519 O
+etiology 52 60 520 528 O
+for 61 64 529 532 O
+respiratory 65 76 533 544 O
+compromise 77 87 545 555 O
+
+Contraindications 0 17 556 573 O
+to 18 20 574 576 O
+NIPPV 21 26 577 582 B-treatment
+therapy 27 34 583 590 I-treatment
+
+Evidence 0 8 591 599 O
+of 9 11 600 602 O
+active 12 18 603 609 O
+intrathoracic 19 32 610 623 B-cancer
+malignancy 33 43 624 634 I-cancer
+( 44 45 635 636 I-cancer
+primary 45 52 636 643 I-cancer
+or 53 55 644 646 I-cancer
+metastatic 56 66 647 657 I-cancer
+) 66 67 657 658 I-cancer
+in 68 70 659 661 O
+the 71 74 662 665 O
+lungs 75 80 666 671 O
+or 81 83 672 674 O
+pleural 84 91 675 682 O
+space 92 97 683 688 O
+that 98 102 689 693 O
+is 103 105 694 696 O
+a 106 107 697 698 O
+significant 108 119 699 710 O
+cause 120 125 711 716 O
+of 126 128 717 719 O
+respiratory 129 140 720 731 B-chronic_disease
+insufficiency 141 154 732 745 I-chronic_disease
+
+GCS 0 3 746 749 B-clinical_variable
+< 4 5 750 751 O
+8 6 7 752 753 B-upper_bound
+or 8 10 754 756 O
+inadequate 11 21 757 767 O
+airway 22 28 768 774 O
+protective 29 39 775 785 O
+reflexes 40 48 786 794 O
+
+HR 0 2 795 797 B-clinical_variable
+> 3 4 798 799 O
+120 5 8 800 803 B-lower_bound
+bpm 9 12 804 807 I-lower_bound
+
+Have 0 4 808 812 O
+a 5 6 813 814 O
+diagnosed 7 16 815 824 O
+malignancy 17 27 825 835 B-cancer
+
+Inability 0 9 836 845 O
+to 10 12 846 848 O
+cooperate 13 22 849 858 O
+with 23 27 859 863 O
+NIPPV 28 33 864 869 B-treatment
+
+Oliguric 0 8 870 878 O
+acute 9 14 879 884 B-chronic_disease
+renal 15 20 885 890 I-chronic_disease
+failure 21 28 891 898 I-chronic_disease
+
+PaO2 0 4 899 903 B-clinical_variable
+: 4 5 903 904 O
+FiO2 5 9 904 908 B-clinical_variable
+ratio 10 15 909 914 I-clinical_variable
+< 16 17 915 916 O
+/= 17 19 916 918 O
+300 20 23 919 922 B-upper_bound
+mmHg 24 28 923 927 I-upper_bound
+OR 29 31 928 930 O
+a 32 33 931 932 O
+SpO2 34 38 933 937 B-clinical_variable
+: 38 39 937 938 O
+FiO2 39 43 938 942 O
+< 44 45 943 944 O
+/= 45 47 944 946 O
+357 48 51 947 950 B-upper_bound
+
+Patient 0 7 951 958 O
+already 8 15 959 966 O
+on 16 18 967 969 O
+NIPPV 19 24 970 975 B-treatment
+at 25 27 976 978 O
+the 28 31 979 982 O
+time 32 36 983 987 O
+of 37 39 988 990 O
+screening 40 49 991 1000 O
+
+Patients 0 8 1001 1009 O
+with 9 13 1010 1014 O
+acute 14 19 1015 1020 B-chronic_disease
+chronic 20 27 1021 1028 I-chronic_disease
+obstructive 28 39 1029 1040 I-chronic_disease
+disease 40 47 1041 1048 I-chronic_disease
+exacerbation 48 60 1049 1061 I-chronic_disease
+as 61 63 1062 1064 O
+the 64 67 1065 1068 O
+primary 68 75 1069 1076 O
+etiology 76 84 1077 1085 O
+for 85 88 1086 1089 O
+respiratory 89 100 1090 1101 O
+failure 101 108 1102 1109 O
+
+Probability 0 11 1110 1121 O
+of 12 14 1122 1124 O
+survival 15 23 1125 1133 B-clinical_variable
+is 24 26 1134 1136 O
+at 27 29 1137 1139 O
+least 30 35 1140 1145 O
+6 36 37 1146 1147 B-lower_bound
+months 38 44 1148 1154 I-lower_bound
+
+Recent 0 6 1155 1161 B-treatment
+esophageal 7 17 1162 1172 I-treatment
+, 17 18 1172 1173 I-treatment
+gastric 19 26 1174 1181 I-treatment
+or 27 29 1182 1184 I-treatment
+bowel 30 35 1185 1190 I-treatment
+surgery 36 43 1191 1198 I-treatment
+( 44 45 1199 1200 O
+within 45 51 1200 1206 O
+3 52 53 1207 1208 B-upper_bound
+weeks 54 59 1209 1214 I-upper_bound
+of 60 62 1215 1217 O
+study 63 68 1218 1223 O
+enrollment 69 79 1224 1234 O
+) 79 80 1234 1235 O
+
+Refusal 0 7 1236 1243 O
+to 8 10 1244 1246 O
+receive 11 18 1247 1254 O
+NIPPV 19 24 1255 1260 B-treatment
+
+Respiratory 0 11 1261 1272 B-chronic_disease
+arrest 12 18 1273 1279 I-chronic_disease
+
+Risk 0 4 1280 1284 O
+for 5 8 1285 1288 O
+gastric 9 16 1289 1296 B-treatment
+aspiration 17 27 1297 1307 I-treatment
+( 28 29 1308 1309 O
+ie 29 31 1309 1311 O
+; 31 32 1311 1312 O
+ileus 33 38 1313 1318 B-chronic_disease
+, 38 39 1318 1319 O
+esophageal 40 50 1320 1330 B-chronic_disease
+or 51 53 1331 1333 O
+bowel 54 59 1334 1339 B-chronic_disease
+obstruction 60 71 1340 1351 I-chronic_disease
+, 71 72 1351 1352 O
+active 73 79 1353 1359 O
+vomiting 80 88 1360 1368 O
+) 88 89 1368 1369 O
+
+Shock 0 5 1370 1375 B-chronic_disease
+
+Supraventricular 0 16 1376 1392 B-chronic_disease
+tachycardia 17 28 1393 1404 I-chronic_disease
+
+Third 0 5 1405 1410 B-chronic_disease
+degree 6 12 1411 1417 I-chronic_disease
+heart 13 18 1418 1423 I-chronic_disease
+block 19 24 1424 1429 I-chronic_disease
+
+Uncontrolled 0 12 1430 1442 O
+tachy 13 18 1443 1448 B-chronic_disease
+or 19 21 1449 1451 O
+bradyarrhythmia 22 37 1452 1467 B-chronic_disease
+or 38 40 1468 1470 O
+active 41 47 1471 1477 O
+myocardial 48 58 1478 1488 B-chronic_disease
+ischemia 59 67 1489 1497 I-chronic_disease
+
+Undrained 0 9 1498 1507 O
+pneumothorax 10 22 1508 1520 B-chronic_disease
+/ 22 23 1520 1521 O
+pneumomediastinum 23 40 1521 1538 B-chronic_disease
+
+Ventricular 0 11 1539 1550 B-chronic_disease
+tachycardia 12 23 1551 1562 I-chronic_disease
+or 24 26 1563 1565 O
+nonsustained 27 39 1566 1578 B-chronic_disease
+ventricular 40 51 1579 1590 I-chronic_disease
+tachycardia 52 63 1591 1602 I-chronic_disease
+
+any 0 3 1603 1606 O
+heart 4 9 1607 1612 B-clinical_variable
+rate 10 14 1613 1617 I-clinical_variable
+less 15 19 1618 1622 O
+than 20 24 1623 1627 O
+40 25 27 1628 1630 B-upper_bound
+bpm 28 31 1631 1634 I-upper_bound
+
+need 0 4 1635 1639 O
+for 5 8 1640 1643 O
+vasopressor 9 20 1644 1655 B-treatment
+therapy 21 28 1656 1663 I-treatment
+or 29 31 1664 1666 O
+MAP 32 35 1667 1670 O
+< 36 37 1671 1672 O
+60 38 40 1673 1675 B-upper_bound
+despite 41 48 1676 1683 O
+fluid 49 54 1684 1689 O
+administration 55 69 1690 1704 O
+
+pH 0 2 1705 1707 B-clinical_variable
+< 3 4 1708 1709 O
+7.30 4 8 1709 1713 B-upper_bound
+or 9 11 1714 1716 O
+pCO2 12 16 1717 1721 B-clinical_variable
+> 17 18 1722 1723 O
+50 18 20 1723 1725 B-lower_bound
+( 21 22 1726 1727 O
+if 22 24 1727 1729 O
+available 25 34 1730 1739 O
+) 34 35 1739 1740 O
+
+urine 0 5 1741 1746 B-clinical_variable
+output 6 12 1747 1753 I-clinical_variable
+< 13 14 1754 1755 O
+500 15 18 1756 1759 B-upper_bound
+ml 19 21 1760 1762 I-upper_bound
+/ 21 22 1762 1763 I-upper_bound
+day 22 25 1763 1766 I-upper_bound
+

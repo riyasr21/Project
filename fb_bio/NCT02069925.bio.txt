@@ -1,0 +1,72 @@
+16 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+35 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+old 15 18 15 18 O
+
+Established 0 11 19 30 O
+diagnosis 12 21 31 40 O
+of 22 24 41 43 O
+affective 25 34 44 53 O
+psychotic 35 44 54 63 B-chronic_disease
+illness 45 52 64 71 I-chronic_disease
+( 53 54 72 73 O
+Bipolar 54 61 73 80 B-chronic_disease
+disorder 62 70 81 89 I-chronic_disease
+or 71 73 90 92 O
+MDD 74 77 93 96 B-chronic_disease
+with 78 82 97 101 O
+psychotic 83 92 102 111 O
+features 93 101 112 120 O
+) 101 102 120 121 O
+or 103 105 122 124 O
+psychosis 106 115 125 134 B-chronic_disease
+secondary 116 125 135 144 I-chronic_disease
+to 126 128 145 147 O
+substance 129 138 148 157 O
+use 139 142 158 161 O
+or 143 145 162 164 O
+a 146 147 165 166 O
+medical 148 155 167 174 O
+illness 156 163 175 182 O
+
+IQ<70 0 5 183 188 B-clinical_variable
+or 6 8 189 191 O
+eligible 9 17 192 200 O
+for 18 21 201 204 O
+DDS 22 25 205 208 O
+( 26 27 209 210 O
+Department 27 37 210 220 O
+of 38 40 221 223 O
+Developmental 41 54 224 237 O
+Services 55 63 238 246 O
+) 63 64 246 247 O
+care 65 69 248 252 O
+
+Unable 0 6 253 259 O
+to 7 9 260 262 O
+reliably 10 18 263 271 O
+determine 19 28 272 281 O
+DUP 29 32 282 285 B-chronic_disease
+
+Unstable 0 8 286 294 O
+medical 9 16 295 302 B-chronic_disease
+illness 17 24 303 310 I-chronic_disease
+
+Within 0 6 311 317 O
+first 7 12 318 323 O
+3 13 14 324 325 B-upper_bound
+years 15 20 326 331 I-upper_bound
+of 21 23 332 334 O
+psychosis 24 33 335 344 B-chronic_disease
+onset 34 39 345 350 I-chronic_disease
+( 40 41 351 352 O
+per 41 44 352 355 O
+pre 45 48 356 359 O
+- 48 49 359 360 O
+defined 49 56 360 367 O
+SOS 57 60 368 371 O
+threshold 61 70 372 381 O
+criteria 71 79 382 390 O
+) 79 80 390 391 O
+

@@ -1,0 +1,151 @@
+A 0 1 0 1 O
+creatinine 2 12 2 12 B-clinical_variable
+level 13 18 13 18 I-clinical_variable
+of 19 21 19 21 O
+less 22 26 22 26 O
+than 27 31 27 31 O
+1 32 33 32 33 B-upper_bound
+1/2 34 37 34 37 I-upper_bound
+times 38 43 38 43 I-upper_bound
+the 44 47 44 47 I-upper_bound
+upper 48 53 48 53 I-upper_bound
+limit 54 59 54 59 I-upper_bound
+of 60 62 60 62 I-upper_bound
+normal 63 69 63 69 I-upper_bound
+for 70 73 70 73 O
+the 74 77 74 77 O
+local 78 83 78 83 O
+lab 84 87 84 87 O
+test 88 92 88 92 O
+
+At 0 2 93 95 O
+least 3 8 96 101 O
+part 9 13 102 106 O
+of 14 16 107 109 O
+the 17 20 110 113 O
+lung 21 25 114 118 B-cancer
+cancer 26 32 119 125 I-cancer
+must 33 37 126 130 O
+be 38 40 131 133 O
+viewable 41 49 134 142 O
+and 50 53 143 146 O
+measurable 54 64 147 157 O
+by 65 67 158 160 O
+CT 68 70 161 163 O
+or 71 73 164 166 O
+MRI 74 77 167 170 O
+
+Enrolled 0 8 171 179 O
+in 9 11 180 182 O
+another 12 19 183 190 O
+therapeutic 20 31 191 202 B-treatment
+clinical 32 40 203 211 I-treatment
+trial 41 46 212 217 I-treatment
+
+Exudative 0 9 218 227 B-cancer
+pleural 10 17 228 235 I-cancer
+effusion 18 26 236 244 I-cancer
+
+Glucose-6 0 9 245 254 B-chronic_disease
+- 9 10 254 255 I-chronic_disease
+phosphate 10 19 255 264 I-chronic_disease
+dehydrogenase 20 33 265 278 I-chronic_disease
+( 34 35 279 280 I-chronic_disease
+G6PD 35 39 280 284 I-chronic_disease
+) 39 40 284 285 I-chronic_disease
+deficiency 41 51 286 296 I-chronic_disease
+
+Lactating 0 9 297 306 O
+women 10 15 307 312 B-gender
+
+Not 0 3 313 316 B-pregnancy
+pregnant 4 12 317 325 I-pregnancy
+
+Pathologic 0 10 326 336 O
+diagnosis 11 20 337 346 O
+( 21 22 347 348 O
+i.e. 22 26 348 352 O
+, 26 27 352 353 O
+cell 28 32 354 358 O
+sample 33 39 359 365 O
+, 39 40 365 366 O
+biopsy 41 47 367 373 B-treatment
+, 47 48 373 374 O
+tissue 49 55 375 381 B-treatment
+swap 56 60 382 386 I-treatment
+, 60 61 386 387 O
+bronchoscopy 62 74 388 400 B-treatment
+) 74 75 400 401 O
+with 76 80 402 406 O
+non 81 84 407 410 B-cancer
+- 84 85 410 411 I-cancer
+small 85 90 411 416 I-cancer
+cell 91 95 417 421 I-cancer
+lung 96 100 422 426 I-cancer
+cancer 101 107 427 433 I-cancer
+
+Patients 0 8 434 442 O
+actively 9 17 443 451 O
+receiving 18 27 452 461 O
+insulin 28 35 462 469 B-treatment
+
+Patients 0 8 470 478 O
+requiring 9 18 479 488 O
+daily 19 24 489 494 O
+finger 25 31 495 501 B-clinical_variable
+- 31 32 501 502 I-clinical_variable
+stick 32 37 502 507 I-clinical_variable
+blood 38 43 508 513 I-clinical_variable
+glucose 44 51 514 521 I-clinical_variable
+measurements 52 64 522 534 O
+
+Physician 0 9 535 544 O
+determined 10 20 545 555 O
+the 21 24 556 559 O
+patient 25 32 560 567 O
+is 33 35 568 570 O
+healthy 36 43 571 578 O
+enough 44 50 579 585 O
+for 51 54 586 589 O
+chemotherapy 55 67 590 602 B-treatment
+and 68 71 603 606 O
+radiation 72 81 607 616 B-treatment
+therapy 82 89 617 624 I-treatment
+
+Recurrent 0 9 625 634 O
+non 10 13 635 638 B-cancer
+- 13 14 638 639 I-cancer
+small 14 19 639 644 I-cancer
+cell 20 24 645 649 I-cancer
+lung 25 29 650 654 I-cancer
+cancer 30 36 655 661 I-cancer
+
+a 0 1 662 663 O
+creatinine 2 12 664 674 B-clinical_variable
+clearance 13 22 675 684 I-clinical_variable
+of 23 25 685 687 O
+at 26 28 688 690 O
+least 29 34 691 696 O
+60 35 37 697 699 B-lower_bound
+mL/(min*1.73m2 38 52 700 714 I-lower_bound
+) 52 53 714 715 I-lower_bound
+
+amphetamines 0 12 716 728 B-treatment
+
+chlorpropamide 0 14 729 743 B-treatment
+
+commit 0 6 744 750 B-contraception_consent
+to 7 9 751 753 I-contraception_consent
+using 10 15 754 759 I-contraception_consent
+birth 16 21 760 765 I-contraception_consent
+control 22 29 766 773 I-contraception_consent
+during 30 36 774 780 O
+the 37 40 781 784 O
+study 41 46 785 790 O
+
+flecainide 0 10 791 801 B-treatment
+
+quinidine 0 9 802 811 B-treatment
+
+warfarin 0 8 812 820 B-treatment
+

@@ -1,0 +1,17 @@
+Attention 0 9 0 9 B-chronic_disease
+Deficit 10 17 10 17 I-chronic_disease
+Hyperactivity 18 31 18 31 I-chronic_disease
+Disorder 32 40 32 40 I-chronic_disease
+
+Penetrating 0 11 41 52 O
+TBI 12 15 53 56 B-chronic_disease
+
+Time 0 4 57 61 O
+tested 5 11 62 68 O
+post 12 16 69 73 O
+- 16 17 73 74 O
+injury 17 23 74 80 O
+> 24 25 81 82 O
+3 26 27 83 84 B-lower_bound
+months 28 34 85 91 I-lower_bound
+

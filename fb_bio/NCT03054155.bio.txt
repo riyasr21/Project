@@ -1,0 +1,54 @@
+Patients 0 8 0 8 O
+on 9 11 9 11 O
+systemic 12 20 12 20 B-treatment
+treatment 21 30 21 30 I-treatment
+for 31 34 31 34 O
+Hidradenitis 35 47 35 47 B-chronic_disease
+Suppurativa 48 59 48 59 I-chronic_disease
+
+Patients 0 8 60 68 O
+unable 9 15 69 75 O
+to 16 18 76 78 O
+tolerate 19 27 79 87 O
+the 28 31 88 91 O
+laser 32 37 92 97 B-treatment
+treatments 38 48 98 108 I-treatment
+
+Patients 0 8 109 117 O
+with 9 13 118 122 O
+Hidradenitis 14 26 123 135 B-chronic_disease
+Suppurativa 27 38 136 147 I-chronic_disease
+with 39 43 148 152 O
+bilateral 44 53 153 162 B-chronic_disease
+and 54 57 163 166 I-chronic_disease
+symmetric 58 67 167 176 I-chronic_disease
+disease 68 75 177 184 I-chronic_disease
+with 76 80 185 189 O
+one 81 84 190 193 O
+or 85 87 194 196 O
+more 88 92 197 201 O
+anatomic 93 101 202 210 O
+sites 102 107 211 216 O
+of 108 110 217 219 O
+involvement 111 122 220 231 O
+
+Patients 0 8 232 240 O
+with 9 13 241 245 O
+photosensitivity 14 30 246 262 B-chronic_disease
+disorders 31 40 263 272 I-chronic_disease
+
+Pregnant 0 8 273 281 B-pregnancy
+patients 9 17 282 290 O
+
+patients 0 8 291 299 O
+planning 9 17 300 308 B-pregnancy
+to 18 20 309 311 I-pregnancy
+get 21 24 312 315 I-pregnancy
+pregnant 25 33 316 324 I-pregnancy
+during 34 40 325 331 O
+the 41 44 332 335 O
+time 45 49 336 340 O
+of 50 52 341 343 O
+the 53 56 344 347 O
+study 57 62 348 353 O
+

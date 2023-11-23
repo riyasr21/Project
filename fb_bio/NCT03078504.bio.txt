@@ -1,0 +1,164 @@
+Acute 0 5 0 5 B-chronic_disease
+renal 6 11 6 11 I-chronic_disease
+failure 12 19 12 19 I-chronic_disease
+or 20 22 20 22 O
+end 23 26 23 26 B-chronic_disease
+- 26 27 26 27 I-chronic_disease
+stage 27 32 27 32 I-chronic_disease
+renal 33 38 33 38 I-chronic_disease
+disease 39 46 39 46 I-chronic_disease
+necessitating 47 60 47 60 O
+CRRT 61 65 61 65 O
+
+Age 0 3 66 69 B-age
+18 4 6 70 72 B-lower_bound
+- 6 7 72 73 O
+89 7 9 73 75 B-upper_bound
+
+Arterial 0 8 76 84 B-treatment
+catheter 9 17 85 93 I-treatment
+present 18 25 94 101 O
+for 26 29 102 105 O
+continuous 30 40 106 116 O
+blood 41 46 117 122 O
+pressure 47 55 123 131 O
+monitoring 56 66 132 142 O
+
+CRRT 0 4 143 147 B-treatment
+duration 5 13 148 156 O
+of 14 16 157 159 O
+48 17 19 160 162 O
+hours 20 25 163 168 O
+or 26 28 169 171 O
+less 29 33 172 176 O
+using 34 39 177 182 O
+NxStage 40 47 183 190 O
+System 48 54 191 197 O
+One 55 58 198 201 O
+dialysis 59 67 202 210 O
+system 68 74 211 217 O
+
+Mean 0 4 218 222 B-clinical_variable
+arterial 5 13 223 231 I-clinical_variable
+pressure 14 22 232 240 I-clinical_variable
+( 23 24 241 242 I-clinical_variable
+MAP 24 27 242 245 I-clinical_variable
+) 27 28 245 246 I-clinical_variable
+> 29 30 247 248 O
+= 30 31 248 249 O
+65 32 34 250 252 B-lower_bound
+
+atrial 0 6 253 259 B-chronic_disease
+fibrillation 7 19 260 272 I-chronic_disease
+
+fluid 0 5 273 278 B-clinical_variable
+removal 6 13 279 286 I-clinical_variable
+( 14 15 287 288 I-clinical_variable
+ultrafiltration 15 30 288 303 I-clinical_variable
+) 30 31 303 304 I-clinical_variable
+rate 32 36 305 309 I-clinical_variable
+> 37 38 310 311 O
+100mL 39 44 312 317 B-lower_bound
+/ 44 45 317 318 I-lower_bound
+hour 45 49 318 322 I-lower_bound
+
+intravenous 0 11 323 334 O
+vasopressor 12 23 335 346 B-treatment
+/ 23 24 346 347 O
+inotropic 24 33 347 356 B-treatment
+agent 34 39 357 362 I-treatment
+other 40 45 363 368 O
+than 46 50 369 373 O
+norepinephrine 51 65 374 388 B-treatment
+( 66 67 389 390 O
+ie 67 69 390 392 O
+dobutamine 70 80 393 403 B-treatment
+, 80 81 403 404 O
+dopamine 82 90 405 413 B-treatment
+, 90 91 413 414 O
+vasopressin 92 103 415 426 B-treatment
+, 103 104 426 427 O
+epinephrine 105 116 428 439 O
+) 116 117 439 440 O
+
+known 0 5 441 446 O
+acute 6 11 447 452 B-chronic_disease
+myocardial 12 22 453 463 I-chronic_disease
+infarction 23 33 464 474 I-chronic_disease
+as 34 36 475 477 O
+defined 37 44 478 485 O
+by 45 47 486 488 O
+elevated 48 56 489 497 O
+troponin 57 65 498 506 O
+along 66 71 507 512 O
+with 72 76 513 517 O
+a 77 78 518 519 O
+documented 79 89 520 530 O
+clinical 90 98 531 539 O
+diagnosis 99 108 540 549 O
+during 109 115 550 556 O
+current 116 123 557 564 O
+hospitalization 124 139 565 580 B-treatment
+
+known 0 5 581 586 O
+acute 6 11 587 592 B-chronic_disease
+stroke 12 18 593 599 I-chronic_disease
+, 18 19 599 600 O
+intracerebral 20 33 601 614 B-chronic_disease
+hemorrhage 34 44 615 625 I-chronic_disease
+, 44 45 625 626 O
+intracranial 46 58 627 639 B-chronic_disease
+mass 59 63 640 644 I-chronic_disease
+effect 64 70 645 651 I-chronic_disease
+, 70 71 651 652 O
+or 72 74 653 655 O
+elevated 75 83 656 664 B-chronic_disease
+intracranial 84 96 665 677 I-chronic_disease
+pressure 97 105 678 686 I-chronic_disease
+within 106 112 687 693 O
+the 113 116 694 697 O
+last 117 121 698 702 B-upper_bound
+30 122 124 703 705 I-upper_bound
+days 125 129 706 710 I-upper_bound
+
+listed 0 6 711 717 O
+for 7 10 718 721 O
+organ 11 16 722 727 B-treatment
+transplant 17 27 728 738 I-treatment
+
+need 0 4 739 743 O
+for 5 8 744 747 O
+more 9 13 748 752 O
+than 14 18 753 757 O
+one 19 22 758 761 B-lower_bound
+intravenous 23 34 762 773 O
+vasopressor 35 46 774 785 O
+agent 47 52 786 791 O
+
+other 0 5 792 797 O
+irregular 6 15 798 807 B-chronic_disease
+heart 16 21 808 813 I-chronic_disease
+rhythm 22 28 814 820 I-chronic_disease
+
+successfully 0 12 821 833 O
+tolerated 13 22 834 843 O
+CRRT 23 27 844 848 B-treatment
+for 28 31 849 852 O
+at 32 34 853 855 O
+least 35 40 856 861 O
+4 41 42 862 863 B-lower_bound
+hours 43 48 864 869 I-lower_bound
+without 49 56 870 877 O
+clotting 57 65 878 886 O
+or 66 68 887 889 O
+hemodynamic 69 80 890 901 O
+instability 81 92 902 913 O
+
+therapeutic 0 11 914 925 B-treatment
+anticoagulation 12 27 926 941 I-treatment
+being 28 33 942 947 O
+administered 34 46 948 960 O
+
+unstable 0 8 961 969 B-chronic_disease
+arrhythmia 9 19 970 980 I-chronic_disease
+

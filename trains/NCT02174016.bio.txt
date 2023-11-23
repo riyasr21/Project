@@ -1,0 +1,82 @@
+Hepatic 0 7 0 7 B-chronic_disease
+or 8 10 8 10 O
+renal 11 16 11 16 B-chronic_disease
+insufficiency 17 30 17 30 I-chronic_disease
+
+History 0 7 31 38 O
+of 8 10 39 41 O
+inborn 11 17 42 48 B-chronic_disease
+error 18 23 49 54 I-chronic_disease
+of 24 26 55 57 I-chronic_disease
+metabolism 27 37 58 68 I-chronic_disease
+
+History 0 7 69 76 O
+of 8 10 77 79 O
+nephrolithiasis 11 26 80 95 B-chronic_disease
+
+Preexisting 0 11 96 107 O
+epilepsy 12 20 108 116 B-chronic_disease
+or 21 23 117 119 O
+developmental 24 37 120 133 B-chronic_disease
+delay 38 43 134 139 I-chronic_disease
+
+Severe 0 6 140 146 O
+acidosis 7 15 147 155 B-chronic_disease
+( 16 17 156 157 O
+serum 17 22 157 162 B-clinical_variable
+bicarbonate 23 34 163 174 I-clinical_variable
+≤ 35 36 175 176 O
+17 37 39 177 179 B-upper_bound
+mEq 40 43 180 183 I-upper_bound
+/ 43 44 183 184 I-upper_bound
+L 44 45 184 185 I-upper_bound
+) 45 46 185 186 O
+resistant 47 56 187 196 O
+to 57 59 197 199 O
+correction 60 70 200 210 O
+
+Significant 0 11 211 222 O
+gastrointestinal 12 28 223 239 B-chronic_disease
+injury 29 35 240 246 I-chronic_disease
+precluding 36 46 247 257 O
+enteral 47 54 258 265 O
+feeding 55 62 266 273 O
+
+True 0 4 274 278 O
+milk 5 9 279 283 B-chronic_disease
+allergy 10 17 284 291 I-chronic_disease
+( 18 19 292 293 O
+anaphylaxis 19 30 293 304 B-allergy_name
+or 31 33 305 307 O
+severe 34 40 308 314 O
+rash 41 45 315 319 O
+) 45 46 319 320 O
+
+admitted 0 8 321 329 O
+to 9 11 330 332 O
+the 12 15 333 336 O
+pediatric 16 25 337 346 O
+intensive 26 35 347 356 O
+care 36 40 357 361 O
+unit 41 45 362 366 O
+with 46 50 367 371 O
+acute 51 56 372 377 O
+brain 57 62 378 383 B-chronic_disease
+injury 63 69 384 390 I-chronic_disease
+such 70 74 391 395 O
+as 75 77 396 398 O
+acute 78 83 399 404 B-chronic_disease
+stroke 84 90 405 411 I-chronic_disease
+
+age 0 3 412 415 B-age
+-17 4 7 416 419 O
+years 8 13 420 425 I-lower_bound
+
+intracerebral 0 13 426 439 B-chronic_disease
+hemorrhage 14 24 440 450 I-chronic_disease
+
+severe 0 6 451 457 O
+traumatic 7 16 458 467 B-chronic_disease
+brain 17 22 468 473 I-chronic_disease
+injury 23 29 474 480 I-chronic_disease
+

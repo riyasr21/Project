@@ -1,0 +1,75 @@
+Any 0 3 0 3 O
+current 4 11 4 11 O
+neurological 12 24 12 24 B-chronic_disease
+condition 25 34 25 34 I-chronic_disease
+
+Current 0 7 35 42 O
+or 8 10 43 45 O
+past 11 15 46 50 O
+Axis 16 20 51 55 B-chronic_disease
+I 21 22 56 57 I-chronic_disease
+Diagnostic 23 33 58 68 I-chronic_disease
+and 34 37 69 72 I-chronic_disease
+Statistical 38 49 73 84 I-chronic_disease
+Manual 50 56 85 91 I-chronic_disease
+( 57 58 92 93 I-chronic_disease
+DSM 58 61 93 96 I-chronic_disease
+- 61 62 96 97 I-chronic_disease
+IV 62 64 97 99 I-chronic_disease
+) 64 65 99 100 I-chronic_disease
+disorder 66 74 101 109 I-chronic_disease
+based 75 80 110 115 O
+on 81 83 116 118 O
+the 84 87 119 122 O
+MINI 88 92 123 127 O
+
+Current 0 7 128 135 O
+unstable 8 16 136 144 O
+medical 17 24 145 152 B-chronic_disease
+condition 25 34 153 162 I-chronic_disease
+
+Pregnancy 0 9 163 172 B-pregnancy
+based 10 15 173 178 O
+on 16 18 179 181 O
+Urine 19 24 182 187 O
+Pregnancy 25 34 188 197 O
+Test 35 39 198 202 O
+
+Use 0 3 203 206 O
+of 4 6 207 209 O
+effective 7 16 210 219 O
+method 17 23 220 226 O
+of 24 26 227 229 O
+birth 27 32 230 235 O
+control 33 40 236 243 O
+for 41 44 244 247 O
+women 45 50 248 253 B-gender
+of 51 53 254 256 O
+childbearing 54 66 257 269 O
+capacity 67 75 270 278 O
+
+Use 0 3 279 282 O
+of 4 6 283 285 O
+medications 7 18 286 297 B-treatment
+known 19 24 298 303 O
+to 25 27 304 306 O
+affect 28 34 307 313 O
+Central 35 42 314 321 O
+Nervous 43 50 322 329 O
+System 51 57 330 336 O
+( 58 59 337 338 O
+CNS 59 62 338 341 O
+) 62 63 341 342 O
+function 64 72 343 351 O
+within 73 79 352 358 O
+5 80 81 359 360 B-upper_bound
+half 82 86 361 365 I-upper_bound
+- 86 87 365 366 I-upper_bound
+lives 87 92 366 371 I-upper_bound
+screening 93 102 372 381 O
+
+Women 0 5 382 387 B-gender
+who 6 9 388 391 O
+are 10 13 392 395 O
+breast‐feeding 14 28 396 410 O
+

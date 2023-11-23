@@ -1,0 +1,110 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+and 9 12 9 12 O
+older 13 18 13 18 O
+
+Additional 0 10 19 29 O
+surgical 11 19 30 38 B-treatment
+procedures 20 30 39 49 I-treatment
+( 31 32 50 51 O
+i.e. 32 36 51 55 O
+UPPP 37 41 56 60 B-treatment
+( 42 43 61 62 I-treatment
+uvulopalatopharyngoplasty 43 68 62 87 I-treatment
+) 68 69 87 88 I-treatment
+, 69 70 88 89 O
+septoplasty 71 82 90 101 B-treatment
+, 82 83 101 102 O
+inferior 84 92 103 111 B-treatment
+turbinate 93 102 112 121 I-treatment
+reduction 103 112 122 131 I-treatment
+) 112 113 131 132 O
+during 114 120 133 139 O
+same 121 125 140 144 O
+surgery 126 133 145 152 B-treatment
+
+Contraindications 0 17 153 170 O
+to 18 20 171 173 O
+pain 21 25 174 178 O
+regimen 26 33 179 186 O
+medications 34 45 187 198 B-treatment
+( 46 47 199 200 O
+Tylenol 47 54 200 207 B-treatment
+, 54 55 207 208 O
+Norco 56 61 209 214 B-treatment
+, 61 62 214 215 O
+Percocet 63 71 216 224 B-treatment
+, 71 72 224 225 O
+Dilaudid 73 81 226 234 B-treatment
+) 81 82 234 235 O
+
+Contraindications 0 17 236 253 O
+to 18 20 254 256 O
+preoperative 21 33 257 269 O
+Decadron 34 42 270 278 B-treatment
+
+History 0 7 279 286 O
+of 8 10 287 289 O
+chronic 11 18 290 297 B-chronic_disease
+pain 19 23 298 302 I-chronic_disease
+or 24 26 303 305 O
+daily 27 32 306 311 O
+pain 33 37 312 316 O
+medication 38 48 317 327 B-treatment
+used 49 53 328 332 O
+for 54 57 333 336 O
+another 58 65 337 344 O
+medical 66 73 345 352 O
+problem 74 81 353 360 O
+
+History 0 7 361 368 O
+of 8 10 369 371 O
+liver 11 16 372 377 B-chronic_disease
+disease 17 24 378 385 I-chronic_disease
+
+Indications 0 11 386 397 O
+: 11 12 397 398 O
+Suspected 13 22 399 408 O
+malignancy 23 33 409 419 B-cancer
+
+Pregnant 0 8 420 428 B-pregnancy
+females 9 16 429 436 B-gender
+
+Surgical 0 8 437 445 O
+indications 9 20 446 457 O
+: 20 21 457 458 O
+Chronic 22 29 459 466 B-chronic_disease
+tonsillitis 30 41 467 478 I-chronic_disease
+, 41 42 478 479 O
+Snoring 43 50 480 487 B-chronic_disease
+, 50 51 487 488 O
+Sleep 52 57 489 494 B-chronic_disease
+apnea 58 63 495 500 I-chronic_disease
+
+Surgical 0 8 501 509 B-treatment
+procedure 9 18 510 519 I-treatment
+: 18 19 519 520 O
+Tonsillectomy 20 33 521 534 B-treatment
+with 34 38 535 539 I-treatment
+monopolar 39 48 540 549 I-treatment
+cautery 49 56 550 557 I-treatment
+, 56 57 557 558 O
+hemostasis 58 68 559 569 B-treatment
+with 69 73 570 574 I-treatment
+monopolar 74 83 575 584 I-treatment
+cautery 84 91 585 592 I-treatment
+and/or 92 98 593 599 I-treatment
+suction 99 106 600 607 I-treatment
+cautery 107 114 608 615 I-treatment
+
+The 0 3 616 619 O
+surgical 4 12 620 628 B-treatment
+procedure 13 22 629 638 O
+can 23 26 639 642 O
+also 27 31 643 647 O
+include 32 39 648 655 O
+Adenoidectomy 40 53 656 669 B-treatment
+with 54 58 670 674 O
+suction 59 66 675 682 O
+cautery 67 74 683 690 O
+

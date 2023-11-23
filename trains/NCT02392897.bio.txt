@@ -1,0 +1,87 @@
+Abnormal 0 8 0 8 B-clinical_variable
+fasting 9 16 9 16 I-clinical_variable
+glucose 17 24 17 24 I-clinical_variable
+( 25 26 25 26 O
+> 26 27 26 27 O
+100 27 30 27 30 B-lower_bound
+mg 31 33 31 33 I-lower_bound
+/ 33 34 33 34 I-lower_bound
+dL 34 36 34 36 I-lower_bound
+) 36 37 36 37 O
+
+Ages 0 4 38 42 B-age
+18 5 7 43 45 B-lower_bound
+- 7 8 45 46 O
+50 8 10 46 48 B-upper_bound
+years 11 16 49 54 I-upper_bound
+
+BMI 0 3 55 58 B-bmi
+= 4 5 59 60 O
+18.5 6 10 61 65 B-lower_bound
+- 10 11 65 66 O
+24.9 11 15 66 70 B-upper_bound
+and 16 19 71 74 O
+28.0 20 24 75 79 B-lower_bound
+- 24 25 79 80 O
+40.0 25 29 80 84 B-upper_bound
+kg 30 32 85 87 I-upper_bound
+/ 32 33 87 88 I-upper_bound
+m² 33 35 88 90 I-upper_bound
+
+Individuals 0 11 91 102 O
+with 12 16 103 107 O
+BMI 17 20 108 111 B-bmi
+≥ 21 22 112 113 O
+40 23 25 114 116 B-lower_bound
+kg 26 28 117 119 I-lower_bound
+/ 28 29 119 120 I-lower_bound
+m2 29 31 120 122 I-lower_bound
+
+Normal 0 6 123 129 O
+, 6 7 129 130 O
+overweight 8 18 131 141 O
+and 19 22 142 145 O
+obese 23 28 146 151 B-chronic_disease
+males 29 34 152 157 B-gender
+and 35 38 158 161 I-gender
+females 39 46 162 169 I-gender
+
+Pregnant 0 8 170 178 B-pregnancy
+women 9 14 179 184 B-gender
+
+Presence 0 8 185 193 O
+of 9 11 194 196 O
+diseases 12 20 197 205 O
+requiring 21 30 206 215 O
+dietary 31 38 216 223 O
+modification 39 51 224 236 O
+, 51 52 236 237 O
+including 53 62 238 247 O
+physician 63 72 248 257 O
+diagnosed 73 82 258 267 O
+cardiovascular 83 97 268 282 B-chronic_disease
+disease 98 105 283 290 I-chronic_disease
+or 106 108 291 293 O
+diabetes 109 117 294 302 B-chronic_disease
+mellitus 118 126 303 311 I-chronic_disease
+, 126 127 311 312 O
+use 128 131 313 316 O
+of 132 134 317 319 O
+medications 135 146 320 331 O
+that 147 151 332 336 O
+may 152 155 337 340 O
+impact 156 162 341 347 O
+study 163 168 348 353 O
+results 169 176 354 361 O
+including 177 186 362 371 O
+non 187 190 372 375 B-treatment
+- 190 191 375 376 I-treatment
+steroidal 191 200 376 385 I-treatment
+anti 201 205 386 390 I-treatment
+- 205 206 390 391 I-treatment
+inflammatory 206 218 391 403 I-treatment
+drugs 219 224 404 409 I-treatment
+( 225 226 410 411 I-treatment
+NSAIDS 226 232 411 417 I-treatment
+) 232 233 417 418 I-treatment
+

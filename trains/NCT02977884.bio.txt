@@ -1,0 +1,8 @@
+Pregnancy 0 9 0 9 B-pregnancy
+
+Under 0 5 10 15 O
+the 6 9 16 19 O
+age 10 13 20 23 B-age
+of 14 16 24 26 O
+18 17 19 27 29 B-upper_bound
+

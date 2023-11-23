@@ -1,0 +1,56 @@
+Bipolar 0 7 0 7 B-chronic_disease
+I 8 9 8 9 I-chronic_disease
+( 10 11 10 11 O
+parent 11 17 11 17 O
+or 18 20 18 20 O
+child 21 26 21 26 O
+) 26 27 26 27 O
+
+Conduct 0 7 28 35 B-chronic_disease
+disorder 8 16 36 44 I-chronic_disease
+; 16 17 44 45 O
+developmental 18 31 46 59 B-chronic_disease
+disability 32 42 60 70 I-chronic_disease
+( 43 44 71 72 I-chronic_disease
+child 44 49 72 77 I-chronic_disease
+) 49 50 77 78 I-chronic_disease
+
+Current 0 7 79 86 O
+diagnosis 8 17 87 96 O
+of 18 20 97 99 O
+a 21 22 100 101 O
+depressive 23 33 102 112 B-chronic_disease
+disorder 34 42 113 121 I-chronic_disease
+( 43 44 122 123 O
+child 44 49 123 128 O
+) 49 50 128 129 O
+
+Parent 0 6 130 136 O
+with 7 11 137 141 O
+a 12 13 142 143 O
+current 14 21 144 151 O
+or 22 24 152 154 O
+history 25 32 155 162 O
+of 33 35 163 165 O
+a 36 37 166 167 O
+depressive 38 48 168 178 B-chronic_disease
+disorder 49 57 179 187 I-chronic_disease
+within 58 64 188 194 O
+child 65 70 195 200 O
+'s 70 72 200 202 O
+lif 73 76 203 206 O
+
+Schizophrenia 0 13 207 220 B-chronic_disease
+( 14 15 221 222 O
+parent 15 21 222 228 O
+or 22 24 229 231 O
+child 25 30 232 237 O
+) 30 31 237 238 O
+
+ages 0 4 239 243 B-age
+9.0 5 8 244 247 B-lower_bound
+to 9 11 248 250 O
+15.6 12 16 251 255 B-upper_bound
+years 17 22 256 261 I-upper_bound
+old 23 26 262 265 B-age
+

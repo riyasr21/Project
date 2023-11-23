@@ -1,0 +1,226 @@
+Ability 0 7 0 7 O
+to 8 10 8 10 O
+preserve 11 19 11 19 O
+at 20 22 20 22 O
+least 23 28 23 28 O
+one 29 32 29 32 B-lower_bound
+hypogastric 33 44 33 44 O
+artery 45 51 45 51 O
+
+Anatomic 0 8 52 60 O
+eligibility 9 20 61 72 O
+for 21 24 73 76 O
+the 25 28 77 80 O
+Nellix 29 35 81 87 B-treatment
+System 36 42 88 94 I-treatment
+per 43 46 95 98 O
+the 47 50 99 102 O
+instructions 51 63 103 115 O
+
+Aneurysm 0 8 116 124 B-clinical_variable
+blood 9 14 125 130 I-clinical_variable
+lumen 15 20 131 136 I-clinical_variable
+diameter 21 29 137 145 I-clinical_variable
+≤60 30 33 146 149 O
+mm 33 35 149 151 I-upper_bound
+
+Aneurysmal 0 10 152 162 B-chronic_disease
+disease 11 18 163 170 I-chronic_disease
+of 19 21 171 173 O
+the 22 25 174 177 O
+descending 26 36 178 188 O
+thoracic 37 45 189 197 O
+aorta 46 51 198 203 O
+
+CVA 0 3 204 207 B-chronic_disease
+or 4 6 208 210 O
+MI 7 9 211 213 B-chronic_disease
+within 10 16 214 220 O
+three 17 22 221 226 B-upper_bound
+months 23 29 227 233 I-upper_bound
+of 30 32 234 236 O
+enrollment 33 43 237 247 O
+/ 43 44 247 248 O
+treatment 44 53 248 257 O
+
+Clinically 0 10 258 268 O
+significant 11 22 269 280 O
+infrarenal 23 33 281 291 B-chronic_disease
+mural 34 39 292 297 I-chronic_disease
+thrombus 40 48 298 306 I-chronic_disease
+( 49 50 307 308 O
+> 50 51 308 309 O
+5 51 52 309 310 B-lower_bound
+mm 52 54 310 312 I-lower_bound
+thickness 55 64 313 322 B-clinical_variable
+over 65 69 323 327 O
+> 70 71 328 329 O
+50 71 73 329 331 B-lower_bound
+% 73 74 331 332 I-lower_bound
+circumference 75 88 333 346 B-clinical_variable
+) 88 89 346 347 O
+
+Coagulopathy 0 12 348 360 B-chronic_disease
+or 13 15 361 363 O
+uncontrolled 16 28 364 376 B-chronic_disease
+bleeding 29 37 377 385 I-chronic_disease
+disorder 38 46 386 394 I-chronic_disease
+
+Common 0 6 395 401 O
+iliac 7 12 402 407 B-clinical_variable
+artery 13 19 408 414 I-clinical_variable
+lumen 20 25 415 420 I-clinical_variable
+diameter 26 34 421 429 I-clinical_variable
+between 35 42 430 437 O
+9 43 44 438 439 B-lower_bound
+and 45 48 440 443 O
+35 49 51 444 446 B-upper_bound
+mm 51 53 446 448 I-upper_bound
+with 54 58 449 453 O
+blood 59 64 454 459 B-clinical_variable
+lumen 65 70 460 465 I-clinical_variable
+diameter 71 79 466 474 I-clinical_variable
+≤35 80 83 475 478 O
+mm 83 85 478 480 O
+
+Connective 0 10 481 491 B-chronic_disease
+tissue 11 17 492 498 I-chronic_disease
+diseases 18 26 499 507 I-chronic_disease
+( 27 28 508 509 O
+e.g. 28 32 509 513 O
+, 32 33 513 514 O
+Marfan 34 40 515 521 B-chronic_disease
+Syndrome 41 49 522 530 I-chronic_disease
+) 49 50 530 531 O
+
+Have 0 4 532 536 O
+AAA 5 8 537 540 B-chronic_disease
+with 9 13 541 545 O
+sac 14 17 546 549 B-clinical_variable
+diameter 18 26 550 558 I-clinical_variable
+≥5.0 27 31 559 563 O
+cm 31 33 563 565 I-lower_bound
+
+Life 0 4 566 570 B-clinical_variable
+expectancy 5 15 571 581 I-clinical_variable
+< 16 17 582 583 O
+2 17 18 583 584 B-upper_bound
+years 19 24 585 590 I-upper_bound
+
+Male 0 4 591 595 B-gender
+
+Most 0 4 596 600 O
+caudal 5 11 601 607 O
+renal 12 17 608 613 O
+artery 18 24 614 620 O
+to 25 27 621 623 O
+aortoiliac 28 38 624 634 B-clinical_variable
+bifurcation 39 50 635 646 I-clinical_variable
+length 51 57 647 653 I-clinical_variable
+≥100 58 62 654 658 O
+mm 62 64 658 660 I-lower_bound
+
+Participating 0 13 661 674 O
+in 14 16 675 677 O
+enrollment 17 27 678 688 O
+of 28 30 689 691 O
+another 31 38 692 699 B-treatment
+clinical 39 47 700 708 I-treatment
+study 48 53 709 714 I-treatment
+
+Pregnant 0 8 715 723 B-pregnancy
+
+Proximal 0 8 724 732 B-chronic_disease
+non 9 12 733 736 I-chronic_disease
+- 12 13 736 737 I-chronic_disease
+aneurysmal 13 23 737 747 I-chronic_disease
+aortic 24 30 748 754 I-chronic_disease
+neck 31 35 755 759 I-chronic_disease
+
+Psychiatric 0 11 760 771 B-chronic_disease
+or 12 14 772 774 O
+other 15 20 775 780 O
+condition 21 30 781 790 O
+that 31 35 791 795 O
+may 36 39 796 799 O
+interfere 40 49 800 809 O
+with 50 54 810 814 O
+the 55 58 815 818 O
+study 59 64 819 824 O
+
+Ruptured 0 8 825 833 O
+, 8 9 833 834 O
+leaking 10 17 835 842 O
+or 18 20 843 845 O
+mycotic 21 28 846 853 B-chronic_disease
+aneurysm 29 37 854 862 I-chronic_disease
+
+Serum 0 5 863 868 B-clinical_variable
+creatinine 6 16 869 879 I-clinical_variable
+level 17 22 880 885 I-clinical_variable
+> 23 24 886 887 O
+2.0mg 24 29 887 892 B-lower_bound
+/ 29 30 892 893 I-lower_bound
+dL 30 32 893 895 I-lower_bound
+
+angle 0 5 896 901 B-clinical_variable
+≤60 6 9 902 905 O
+° 9 10 905 906 I-upper_bound
+to 11 13 907 909 O
+the 14 17 910 913 O
+aneurysm 18 26 914 922 O
+sac 27 30 923 926 O
+
+at 0 2 927 929 O
+least 3 8 930 935 O
+18 9 11 936 938 B-lower_bound
+years 12 17 939 944 I-lower_bound
+old 18 21 945 948 O
+
+female 0 6 949 955 B-gender
+
+females 0 7 956 963 B-gender
+of 8 10 964 966 O
+childbearing 11 23 967 979 O
+potential 24 33 980 989 O
+only 34 38 990 994 O
+
+femoral 0 7 995 1002 O
+access 8 14 1003 1009 O
+compatible 15 25 1010 1020 O
+with 26 30 1021 1025 O
+the 31 34 1026 1029 O
+required 35 43 1030 1038 O
+delivery 44 52 1039 1047 O
+systems 53 60 1048 1055 O
+( 61 62 1056 1057 O
+diameter 62 70 1057 1065 B-clinical_variable
+≥6 71 73 1066 1068 O
+mm 74 76 1069 1071 I-lower_bound
+) 76 77 1071 1072 O
+
+length 0 6 1073 1079 B-clinical_variable
+≥10 7 10 1080 1083 O
+mm 10 12 1083 1085 I-lower_bound
+
+lumen 0 5 1086 1091 B-clinical_variable
+diameter 6 14 1092 1100 I-clinical_variable
+18 15 17 1101 1103 B-lower_bound
+to 18 20 1104 1106 O
+32 21 23 1107 1109 B-upper_bound
+mm 23 25 1109 1111 I-upper_bound
+
+≥4.5 0 4 1112 1116 O
+cm 5 7 1117 1119 I-lower_bound
+which 8 13 1120 1125 O
+has 14 17 1126 1129 O
+increased 18 27 1130 1139 O
+by 28 30 1140 1142 O
+> 31 32 1143 1144 O
+1.0 32 35 1144 1147 B-lower_bound
+cm 35 37 1147 1149 I-lower_bound
+in 38 40 1150 1152 O
+the 41 44 1153 1156 O
+past 45 49 1157 1161 O
+year 50 54 1162 1166 O
+

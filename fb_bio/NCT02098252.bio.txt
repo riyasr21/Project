@@ -1,0 +1,36 @@
+Hemorrhagic 0 11 0 11 O
+presentation 12 24 12 24 O
+with 25 29 25 29 O
+mass 30 34 30 34 O
+effect 35 41 35 41 O
+requiring 42 51 42 51 O
+surgical 52 60 52 60 B-treatment
+management 61 71 61 71 I-treatment
+
+if 0 2 72 74 O
+a 3 4 75 76 O
+residual 5 13 77 85 O
+AVM 14 17 86 89 B-chronic_disease
+is 18 20 90 92 O
+found 21 26 93 98 O
+after 27 32 99 104 O
+the 33 36 105 108 O
+initial 37 44 109 116 B-treatment
+surgery 45 52 117 124 I-treatment
+, 52 53 124 125 O
+the 54 57 126 129 O
+patient 58 65 130 137 O
+could 66 71 138 143 O
+then 72 76 144 148 O
+be 77 79 149 151 O
+a 80 81 152 153 O
+candidate 82 91 154 163 O
+for 92 95 164 167 O
+TOBAS 96 101 168 173 O
+
+patient 0 7 174 181 O
+with 8 12 182 186 O
+a 13 14 187 188 O
+brain 15 20 189 194 B-chronic_disease
+AVM 21 24 195 198 I-chronic_disease
+

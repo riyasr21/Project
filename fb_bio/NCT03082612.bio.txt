@@ -1,0 +1,43 @@
+Age 0 3 0 3 B-age
+50 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+89 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Have 0 4 16 20 O
+completed 5 14 21 30 O
+more 15 19 31 35 O
+than 20 24 36 40 O
+half 25 29 41 45 O
+of 30 32 46 48 O
+prescribed 33 43 49 59 O
+chemotherapy 44 56 60 72 B-treatment
+treatments 57 67 73 83 I-treatment
+
+Have 0 4 84 88 O
+completed 5 14 89 98 O
+surgery 15 22 99 106 O
+with 23 27 107 111 O
+no 28 30 112 114 O
+plans 31 36 115 120 O
+for 37 40 121 124 O
+chemotherapy 41 53 125 137 B-treatment
+
+Treatment 0 9 138 147 O
+plans 10 15 148 153 O
+to 16 18 154 156 O
+include 19 26 157 164 O
+weekly 27 33 165 171 O
+outpatient 34 44 172 182 O
+chemotherapy 45 57 183 195 B-treatment
+
+reviously 0 9 196 205 O
+screened 10 18 206 214 O
+and 19 22 215 218 O
+with 23 27 219 223 O
+any 28 31 224 227 O
+level 32 37 228 233 O
+of 38 40 234 236 O
+psychological 41 54 237 250 B-chronic_disease
+distress 55 63 251 259 I-chronic_disease
+

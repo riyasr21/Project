@@ -1,0 +1,126 @@
+ANC 0 3 0 3 B-clinical_variable
+< 4 5 4 5 O
+1000 5 9 5 9 B-upper_bound
+/ 9 10 9 10 I-upper_bound
+mm3 10 13 10 13 I-upper_bound
+
+Active 0 6 14 20 O
+fistula 7 14 21 28 B-chronic_disease
+
+Clinical 0 8 29 37 O
+and 9 12 38 41 O
+microbiologic 13 26 42 55 O
+relapse 27 34 56 63 O
+of 35 37 64 66 O
+C. 38 40 67 69 O
+difficile 41 50 70 79 O
+associated 51 61 80 90 O
+diarrhea 62 70 91 99 B-chronic_disease
+after 71 76 100 105 O
+at 77 79 106 108 O
+least 80 85 109 114 O
+one 86 89 115 118 B-lower_bound
+course 90 96 119 125 O
+of 97 99 126 128 O
+adequate 100 108 129 137 O
+antibiotic 109 119 138 148 B-treatment
+therapy 120 127 149 156 I-treatment
+or 128 130 157 159 O
+refractory 131 141 160 170 B-cancer
+disease 142 149 171 178 O
+that 150 154 179 183 O
+does 155 159 184 188 O
+not 160 163 189 192 O
+respond 164 171 193 200 O
+to 172 174 201 203 O
+treatment 175 184 204 213 O
+
+Contraindications 0 17 214 231 O
+to 18 20 232 234 O
+anesthesia 21 31 235 245 B-allergy_name
+for 32 35 246 249 O
+procedure 36 45 250 259 O
+
+Gastrointestinal 0 16 260 276 B-chronic_disease
+( 17 18 277 278 I-chronic_disease
+GI 18 20 278 280 I-chronic_disease
+) 20 21 280 281 I-chronic_disease
+contraindications 22 39 282 299 O
+
+Gastroparesis 0 13 300 313 B-chronic_disease
+
+HGB 0 3 314 317 B-clinical_variable
+< 4 5 318 319 O
+8 5 6 319 320 B-upper_bound
+g 7 8 321 322 I-upper_bound
+/ 8 9 322 323 I-upper_bound
+dL 9 11 323 325 I-upper_bound
+
+HIV 0 3 326 329 B-chronic_disease
+infection 4 13 330 339 O
+with 14 18 340 344 O
+CD4 19 22 345 348 B-clinical_variable
+count 23 28 349 354 I-clinical_variable
+< 29 30 355 356 O
+240 30 33 356 359 B-upper_bound
+
+Hematologic 0 11 360 371 B-cancer
+malignancy 12 22 372 382 I-cancer
+
+History 0 7 383 390 O
+of 8 10 391 393 O
+hematopoietic 11 24 394 407 B-treatment
+stem 25 29 408 412 I-treatment
+cell 30 34 413 417 I-treatment
+transplant 35 45 418 428 I-treatment
+( 46 47 429 430 I-treatment
+HSCT 47 51 430 434 I-treatment
+) 51 52 434 435 I-treatment
+
+Ileus 0 5 436 441 B-chronic_disease
+
+Inflammatory 0 12 442 454 B-chronic_disease
+bowel 13 18 455 460 I-chronic_disease
+disease 19 26 461 468 I-chronic_disease
+
+Life 0 4 469 473 B-clinical_variable
+expectancy 5 15 474 484 I-clinical_variable
+of 16 18 485 487 O
+> 19 20 488 489 O
+3 20 21 489 490 B-lower_bound
+months 22 28 491 497 I-lower_bound
+
+PLT 0 3 498 501 B-clinical_variable
+< 4 5 502 503 O
+50,000 5 11 503 509 B-upper_bound
+K 12 13 510 511 I-upper_bound
+/ 13 14 511 512 I-upper_bound
+mcL 14 17 512 515 I-upper_bound
+
+Patients 0 8 516 524 O
+with 9 13 525 529 O
+solid 14 19 530 535 B-cancer
+organ 20 25 536 541 I-cancer
+malignancy 26 36 542 552 I-cancer
+who 37 40 553 556 O
+have 41 45 557 561 O
+received 46 54 562 570 O
+chemotherapy 55 67 571 583 B-treatment
+within 68 74 584 590 O
+the 75 78 591 594 O
+past 79 83 595 599 B-upper_bound
+six 84 87 600 603 I-upper_bound
+months 88 94 604 610 I-upper_bound
+
+Serious 0 7 611 618 O
+cardiopulmonary 8 23 619 634 B-chronic_disease
+comorbidities 24 37 635 648 I-chronic_disease
+
+Small 0 5 649 654 B-chronic_disease
+bowel 6 11 655 660 I-chronic_disease
+obstruction 12 23 661 672 I-chronic_disease
+
+≥18 0 3 673 676 O
+years 4 9 677 682 I-lower_bound
+old 10 13 683 686 O
+

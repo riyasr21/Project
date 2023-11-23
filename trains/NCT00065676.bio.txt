@@ -1,0 +1,244 @@
+BP 0 2 0 2 B-clinical_variable
+> 3 4 3 4 O
+160/90 4 10 4 10 B-lower_bound
+
+Diabetic 0 8 11 19 O
+subjects 9 17 20 28 O
+must 18 22 29 33 O
+have 23 27 34 38 O
+a 28 29 39 40 O
+BMI 30 33 41 44 B-bmi
+greater 34 41 45 52 O
+than 42 46 53 57 O
+or 47 49 58 60 O
+equal 50 55 61 66 O
+to 56 58 67 69 O
+30 59 61 70 72 B-lower_bound
+
+Diabetic 0 8 73 81 B-chronic_disease
+subjects 9 17 82 90 O
+who 18 21 91 94 O
+choose 22 28 95 101 O
+not 29 32 102 105 O
+to 33 35 106 108 O
+self 36 40 109 113 O
+- 40 41 113 114 O
+monitor 41 48 114 121 O
+glucose 49 56 122 129 O
+daily 57 62 130 135 O
+by 63 65 136 138 O
+glucometer 66 76 139 149 B-treatment
+
+Subjects 0 8 150 158 O
+will 9 13 159 163 O
+be 14 16 164 166 O
+taken 17 22 167 172 O
+off 23 26 173 176 O
+hypoglycemic 27 39 177 189 B-treatment
+agents 40 46 190 196 I-treatment
+for 47 50 197 200 O
+3 51 52 201 202 B-lower_bound
+to 53 55 203 205 O
+7 56 57 206 207 B-upper_bound
+days 58 62 208 212 I-upper_bound
+prior 63 68 213 218 O
+to 69 71 219 221 O
+each 72 76 222 226 O
+part 77 81 227 231 O
+of 82 84 232 234 O
+the 85 88 235 238 O
+study 89 94 239 244 O
+
+anemia 0 6 245 251 B-chronic_disease
+
+any 0 3 252 255 O
+significant 4 15 256 267 O
+complications 16 29 268 281 O
+from 30 34 282 286 O
+diabetes 35 43 287 295 B-chronic_disease
+such 44 48 296 300 O
+as 49 51 301 303 O
+kidney 52 58 304 310 B-chronic_disease
+damage 59 65 311 317 I-chronic_disease
+
+between 0 7 318 325 O
+the 8 11 326 329 O
+ages 12 16 330 334 B-age
+of 17 19 335 337 O
+18 20 22 338 340 B-lower_bound
+and 23 26 341 344 O
+65 27 29 345 347 B-upper_bound
+
+blood 0 5 348 353 B-clinical_variable
+pressure 6 14 354 362 I-clinical_variable
+< 15 16 363 364 O
+= 16 17 364 365 O
+160/90 17 23 365 371 B-upper_bound
+mmHg 24 28 372 376 I-upper_bound
+with 29 33 377 381 O
+or 34 36 382 384 O
+without 37 44 385 392 O
+medication 45 55 393 403 O
+
+chronic 0 7 404 411 B-chronic_disease
+diarrhea 8 16 412 420 I-chronic_disease
+
+congestive 0 10 421 431 B-chronic_disease
+heart 11 16 432 437 I-chronic_disease
+failure 17 24 438 445 I-chronic_disease
+
+coronary 0 8 446 454 B-chronic_disease
+artery 9 15 455 461 I-chronic_disease
+disease 16 23 462 469 I-chronic_disease
+, 23 24 469 470 O
+or 25 27 471 473 O
+symptomatic 28 39 474 485 B-chronic_disease
+peripheral 40 50 486 496 I-chronic_disease
+vascular 51 59 497 505 I-chronic_disease
+disease 60 67 506 513 I-chronic_disease
+
+eye 0 3 514 517 B-chronic_disease
+damage 4 10 518 524 I-chronic_disease
+( 11 12 525 526 I-chronic_disease
+proliferative 12 25 526 539 I-chronic_disease
+retinopathy 26 37 540 551 I-chronic_disease
+) 37 38 551 552 I-chronic_disease
+
+fasting 0 7 553 560 B-clinical_variable
+blood 8 13 561 566 I-clinical_variable
+sugar 14 19 567 572 I-clinical_variable
+< 20 21 573 574 O
+200mg 21 26 574 579 B-upper_bound
+/ 26 27 579 580 I-upper_bound
+dl 27 29 580 582 I-upper_bound
+or 30 32 583 585 O
+HbA1C 33 38 586 591 B-clinical_variable
+< 39 40 592 593 O
+8.5 41 44 594 597 B-upper_bound
+
+female 0 6 598 604 B-gender
+subjects 7 15 605 613 I-gender
+
+heart 0 5 614 619 B-chronic_disease
+failure 6 13 620 627 I-chronic_disease
+
+hematocrit 0 10 628 638 B-clinical_variable
+< 11 12 639 640 O
+30 13 15 641 643 B-upper_bound
+
+hypertension 0 12 644 656 B-chronic_disease
+
+known 0 5 657 662 O
+gastroparesis 6 19 663 676 B-chronic_disease
+
+lactation 0 9 677 686 O
+; 9 10 686 687 O
+positive 11 19 688 696 O
+HIV 20 23 697 700 B-chronic_disease
+or 24 26 701 703 O
+hepatitis 27 36 704 713 B-chronic_disease
+( 37 38 714 715 I-chronic_disease
+B 38 39 715 716 I-chronic_disease
+or 40 42 717 719 I-chronic_disease
+C 43 44 720 721 I-chronic_disease
+) 44 45 721 722 I-chronic_disease
+screening 46 55 723 732 O
+tests 56 61 733 738 O
+( 62 63 739 740 O
+subjects 63 71 740 748 O
+will 72 76 749 753 O
+be 77 79 754 756 O
+notified 80 88 757 765 O
+of 89 91 766 768 O
+these 92 97 769 774 O
+test 98 102 775 779 O
+results 103 110 780 787 O
+) 110 111 787 788 O
+
+male 0 4 789 793 B-gender
+
+peripheral 0 10 794 804 B-chronic_disease
+vascular 11 19 805 813 I-chronic_disease
+disease 20 27 814 821 I-chronic_disease
+
+peripheral 0 10 822 832 B-chronic_disease
+vascular 11 19 833 841 I-chronic_disease
+disease 20 27 842 849 I-chronic_disease
+and 28 31 850 853 O
+severe 32 38 854 860 O
+peripheral 39 49 861 871 B-chronic_disease
+neuropathy 50 60 872 882 I-chronic_disease
+
+proliferative 0 13 883 896 B-chronic_disease
+retinopathy 14 25 897 908 I-chronic_disease
+
+pulmonary 0 9 909 918 B-chronic_disease
+disease 10 17 919 926 I-chronic_disease
+
+renal 0 5 927 932 B-chronic_disease
+insufficiency 6 19 933 946 I-chronic_disease
+
+serum 0 5 947 952 B-clinical_variable
+creatinine 6 16 953 963 I-clinical_variable
+> 17 18 964 965 O
+2 18 19 965 966 B-lower_bound
+
+severe 0 6 967 973 O
+diabetic 7 15 974 982 B-chronic_disease
+neuropathy 16 26 983 993 I-chronic_disease
+
+significant 0 11 994 1005 O
+digestive 12 21 1006 1015 O
+abnormalities 22 35 1016 1029 O
+such 36 40 1030 1034 O
+as 41 43 1035 1037 O
+malabsorption 44 57 1038 1051 B-chronic_disease
+
+significant 0 11 1052 1063 O
+organ 12 17 1064 1069 O
+malfunction 18 29 1070 1081 O
+including 30 39 1082 1091 O
+( 40 41 1092 1093 O
+but 41 44 1093 1096 O
+not 45 48 1097 1100 O
+limited 49 56 1101 1108 O
+to 57 59 1109 1111 O
+) 59 60 1111 1112 O
+liver 61 66 1113 1118 B-chronic_disease
+disease 67 74 1119 1126 I-chronic_disease
+
+smokers 0 7 1127 1134 O
+; 7 8 1134 1135 O
+pregnancy 9 18 1136 1145 B-pregnancy
+( 19 20 1146 1147 O
+a 20 21 1147 1148 O
+urine 22 27 1149 1154 O
+pregnancy 28 37 1155 1164 O
+test 38 42 1165 1169 O
+will 43 47 1170 1174 O
+be 48 50 1175 1177 O
+performed 51 60 1178 1187 O
+on 61 63 1188 1190 O
+all 64 67 1191 1194 B-gender
+women 68 73 1195 1200 I-gender
+with 74 78 1201 1205 O
+reproductive 79 91 1206 1218 O
+age 92 95 1219 1222 B-age
+before 96 102 1223 1229 O
+each 103 107 1230 1234 O
+part 108 112 1235 1239 O
+of 113 115 1240 1242 O
+the 116 119 1243 1246 O
+study 120 125 1247 1252 O
+) 125 126 1252 1253 O
+
+stroke 0 6 1254 1260 B-chronic_disease
+
+with 0 4 1261 1265 O
+mild 5 9 1266 1270 O
+to 10 12 1271 1273 O
+moderate 13 21 1274 1282 O
+type 22 26 1283 1287 B-chronic_disease
+2 27 28 1288 1289 I-chronic_disease
+diabetes 29 37 1290 1298 I-chronic_disease
+

@@ -1,0 +1,22 @@
+No 0 2 0 2 O
+history 3 10 3 10 O
+of 11 13 11 13 O
+dementia 14 22 14 22 B-chronic_disease
+or 23 25 23 25 O
+other 26 31 26 31 O
+serious 32 39 32 39 B-chronic_disease
+cognitive 40 49 40 49 I-chronic_disease
+condition 50 59 50 59 I-chronic_disease
+that 60 64 60 64 O
+would 65 70 65 70 O
+prevent 71 78 71 78 O
+them 79 83 79 83 O
+from 84 88 84 88 O
+being 89 94 89 94 O
+interviewed 95 106 95 106 O
+or 107 109 107 109 O
+completing 110 120 110 120 O
+a 121 122 121 122 O
+survey 123 129 123 129 O
+questionnaire 130 143 130 143 O
+

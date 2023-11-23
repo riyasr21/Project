@@ -1,0 +1,95 @@
+12 0 2 0 2 B-upper_bound
+months 3 9 3 9 I-upper_bound
+post 10 14 10 14 O
+- 14 15 14 15 O
+injury 15 21 15 21 O
+( 22 23 22 23 O
+if 23 25 23 25 O
+AIS 26 29 26 29 O
+incomplete 30 40 30 40 O
+) 40 41 40 41 O
+or 42 44 42 44 O
+6 45 46 45 46 B-lower_bound
+months 47 53 47 53 I-lower_bound
+post 54 58 54 58 O
+- 58 59 58 59 O
+injury 59 65 59 65 O
+( 66 67 66 67 O
+if 67 69 67 69 O
+AIS 70 73 70 73 O
+complete 74 82 74 82 O
+) 82 83 82 83 O
+
+Between 0 7 84 91 O
+18 8 10 92 94 B-lower_bound
+and 11 14 95 98 O
+75 15 17 99 101 B-upper_bound
+years 18 23 102 107 I-upper_bound
+of 24 26 108 110 O
+age 27 30 111 114 B-age
+
+Minor 0 5 115 120 O
+infection 6 15 121 130 O
+at 16 18 131 133 O
+the 19 22 134 137 O
+site 23 27 138 142 O
+of 28 30 143 145 O
+implantation 31 43 146 158 O
+requiring 44 53 159 168 O
+antibiotics 54 65 169 180 B-treatment
+within 66 72 181 187 O
+the 73 76 188 191 O
+past 77 81 192 196 B-upper_bound
+3 82 83 197 198 I-upper_bound
+weeks 84 89 199 204 I-upper_bound
+
+Scoliosis 0 9 205 214 B-chronic_disease
+, 9 10 214 215 O
+chest 11 16 216 221 B-chronic_disease
+wall 17 21 222 226 I-chronic_disease
+deformity 22 31 227 236 I-chronic_disease
+, 31 32 236 237 O
+or 33 35 238 240 O
+marked 36 42 241 247 B-chronic_disease
+obesity 43 50 248 255 I-chronic_disease
+
+Serious 0 7 256 263 O
+infection 8 17 264 273 B-chronic_disease
+requiring 18 27 274 283 O
+hospitalization 28 43 284 299 B-treatment
+within 44 50 300 306 O
+the 51 54 307 310 O
+past 55 59 311 315 B-upper_bound
+6 60 61 316 317 I-upper_bound
+week 62 66 318 322 I-upper_bound
+
+Spinal 0 6 323 329 B-chronic_disease
+cord 7 11 330 334 I-chronic_disease
+injury 12 18 335 341 I-chronic_disease
+C8 19 21 342 344 I-chronic_disease
+level 22 27 345 350 I-chronic_disease
+or 28 30 351 353 I-chronic_disease
+higher 31 37 354 360 I-chronic_disease
+
+Unmanaged 0 9 361 370 O
+hypertension 10 22 371 383 B-chronic_disease
+( 23 24 384 385 I-chronic_disease
+high 24 28 385 389 I-chronic_disease
+blood 29 34 390 395 I-chronic_disease
+pressure 35 43 396 404 I-chronic_disease
+) 43 44 404 405 I-chronic_disease
+or 45 47 406 408 O
+hypotension 48 59 409 420 B-chronic_disease
+( 60 61 421 422 I-chronic_disease
+low 61 64 422 425 I-chronic_disease
+blood 65 70 426 431 I-chronic_disease
+pressure 71 79 432 440 I-chronic_disease
+
+Untreated 0 9 441 450 O
+lung 10 14 451 455 B-chronic_disease
+, 14 15 455 456 O
+cardiovascular 16 30 457 471 B-chronic_disease
+or 31 33 472 474 O
+brain 34 39 475 480 B-chronic_disease
+disease 40 47 481 488 I-chronic_disease
+

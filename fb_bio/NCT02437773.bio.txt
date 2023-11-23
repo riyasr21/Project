@@ -1,0 +1,203 @@
+Age 0 3 0 3 B-age
+13 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+17 7 9 7 9 B-upper_bound
+( 10 11 10 11 O
+inclusive 11 20 11 20 O
+) 20 21 20 21 O
+
+Age 0 3 22 25 B-age
+13 4 6 26 28 B-lower_bound
+- 6 7 28 29 O
+17 7 9 29 31 B-upper_bound
+( 10 11 32 33 O
+inclusive 11 20 33 42 O
+) 20 21 42 43 O
+year 22 26 44 48 O
+old 27 30 49 52 O
+healthy 31 38 53 60 O
+volunteers 39 49 61 71 O
+
+Age 0 3 72 75 B-age
+25 4 6 76 78 B-lower_bound
+- 6 7 78 79 O
+45 7 9 79 81 B-upper_bound
+( 10 11 82 83 O
+inclusive 11 20 83 92 O
+) 20 21 92 93 O
+
+Age 0 3 94 97 B-age
+25 4 6 98 100 B-lower_bound
+- 6 7 100 101 O
+45 7 9 101 103 B-upper_bound
+( 10 11 104 105 O
+inclusive 11 20 105 114 O
+) 20 21 114 115 O
+year 22 26 116 120 O
+old 27 30 121 124 O
+healthy 31 38 125 132 O
+volunteers 39 49 133 143 O
+
+Age 0 3 144 147 B-age
+of 4 6 148 150 O
+OCD 7 10 151 154 B-chronic_disease
+onset 11 16 155 160 O
+after 17 22 161 166 O
+15 23 25 167 169 B-lower_bound
+years 26 31 170 175 I-lower_bound
+old 32 35 176 179 O
+
+Anyone 0 6 180 186 O
+between 7 14 187 194 O
+the 15 18 195 198 O
+ages 19 23 199 203 B-age
+of 24 26 204 206 O
+18 27 29 207 209 B-lower_bound
+- 29 30 209 210 O
+24 30 32 210 212 B-upper_bound
+( 33 34 213 214 O
+inclusive 34 43 214 223 O
+range 44 49 224 229 O
+) 49 50 229 230 O
+
+First 0 5 231 236 O
+- 5 6 236 237 O
+degree 6 12 237 243 O
+family 13 19 244 250 O
+members 20 27 251 258 O
+with 28 32 259 263 O
+OCD 33 36 264 267 B-chronic_disease
+or 37 39 268 270 O
+tic 40 43 271 274 B-chronic_disease
+disorders 44 53 275 284 I-chronic_disease
+
+Male 0 4 285 289 B-gender
+
+No 0 2 290 292 O
+evidence 3 11 293 301 O
+of 12 14 302 304 O
+suicidal 15 23 305 313 B-chronic_disease
+intentions 24 34 314 324 I-chronic_disease
+or 35 37 325 327 I-chronic_disease
+behaviors 38 47 328 337 I-chronic_disease
+in 48 50 338 340 O
+the 51 54 341 344 O
+past 55 59 345 349 B-upper_bound
+6 60 61 350 351 I-upper_bound
+months 62 68 352 358 I-upper_bound
+
+No 0 2 359 361 O
+history 3 10 362 369 O
+of 11 13 370 372 O
+closed 14 20 373 379 B-chronic_disease
+head 21 25 380 384 I-chronic_disease
+injury 26 32 385 391 I-chronic_disease
+( 33 34 392 393 O
+e.g. 34 38 393 397 O
+loss 39 43 398 402 B-chronic_disease
+of 44 46 403 405 I-chronic_disease
+consciousness 47 60 406 419 I-chronic_disease
+) 60 61 419 420 O
+
+No 0 2 421 423 O
+history 3 10 424 431 O
+of 11 13 432 434 O
+past 14 18 435 439 O
+or 19 21 440 442 O
+current 22 29 443 450 O
+mental 30 36 451 457 B-chronic_disease
+illness 37 44 458 465 I-chronic_disease
+
+No 0 2 466 468 O
+history 3 10 469 476 O
+of 11 13 477 479 O
+serious 14 21 480 487 B-chronic_disease
+medical 22 29 488 495 I-chronic_disease
+or 30 32 496 498 O
+neurological 33 45 499 511 B-chronic_disease
+illness 46 53 512 519 I-chronic_disease
+
+No 0 2 520 522 O
+lifetime 3 11 523 531 O
+diagnosis 12 21 532 541 O
+of 22 24 542 544 O
+bipolar 25 32 545 552 B-chronic_disease
+or 33 35 553 555 O
+psychosis 36 45 556 565 B-chronic_disease
+disorders 46 55 566 575 I-chronic_disease
+
+No 0 2 576 578 O
+substance 3 12 579 588 O
+/ 12 13 588 589 O
+alcohol 13 20 589 596 O
+abuse 21 26 597 602 O
+in 27 29 603 605 O
+the 30 33 606 609 O
+past 34 38 610 614 B-upper_bound
+6 39 40 615 616 I-upper_bound
+months 41 47 617 623 I-upper_bound
+
+Not 0 3 624 627 O
+taking 4 10 628 634 O
+any 11 14 635 638 O
+medication 15 25 639 649 B-treatment
+, 25 26 649 650 O
+prescription 27 39 651 663 O
+or 40 42 664 666 O
+non 43 46 667 670 O
+- 46 47 670 671 O
+prescription 47 59 671 683 O
+, 59 60 683 684 O
+with 61 65 685 689 O
+psychotropic 66 78 690 702 O
+effects 79 86 703 710 O
+
+OCD 0 3 711 714 B-chronic_disease
+adolescent 4 14 715 725 O
+and 15 18 726 729 O
+adult 19 24 730 735 O
+subjects 25 33 736 744 O
+can 34 37 745 748 O
+be 38 40 749 751 O
+on 41 43 752 754 O
+medications 44 55 755 766 B-treatment
+but 56 59 767 770 O
+will 60 64 771 775 O
+have 65 69 776 780 O
+to 70 72 781 783 O
+be 73 75 784 786 O
+on 76 78 787 789 O
+a 79 80 790 791 O
+stable 81 87 792 798 O
+medication 88 98 799 809 B-treatment
+regimen 99 106 810 817 I-treatment
+for 107 110 818 821 O
+at 111 113 822 824 O
+least 114 119 825 830 O
+4 120 121 831 832 B-upper_bound
+weeks 122 127 833 838 I-upper_bound
+prior 128 133 839 844 I-upper_bound
+to 134 136 845 847 O
+enrolling 137 146 848 857 O
+
+Pregnant 0 8 858 866 B-pregnancy
+
+age 0 3 867 870 B-age
+of 4 6 871 873 O
+onset 7 12 874 879 O
+before 13 19 880 886 O
+15 20 22 887 889 B-upper_bound
+years 23 28 890 895 I-upper_bound
+
+female 0 6 896 902 B-gender
+
+subjects 0 8 903 911 O
+diagnosed 9 18 912 921 O
+with 19 23 922 926 O
+OCD 24 27 927 930 B-chronic_disease
+
+trying 0 6 931 937 B-pregnancy
+to 7 9 938 940 I-pregnancy
+become 10 16 941 947 I-pregnancy
+pregnant 17 25 948 956 I-pregnancy
+

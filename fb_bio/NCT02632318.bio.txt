@@ -1,0 +1,7 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+20/200 9 15 9 15 B-lower_bound
+corrected 16 25 16 25 O
+visual 26 32 26 32 O
+acuity 33 39 33 39 O
+

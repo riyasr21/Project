@@ -1,0 +1,97 @@
+Craniofacial 0 12 0 12 B-chronic_disease
+, 12 13 12 13 O
+airway 14 20 14 20 B-chronic_disease
+or 21 23 21 23 O
+foregut 24 31 24 31 B-chronic_disease
+malformations 32 45 32 45 I-chronic_disease
+
+Direct 0 6 46 52 O
+breast 7 13 53 59 O
+feeding 14 21 60 67 O
+≥ 22 23 68 69 O
+50 24 26 70 72 B-lower_bound
+% 26 27 72 73 I-lower_bound
+of 28 30 74 76 O
+daily 31 36 77 82 O
+feeding 37 44 83 90 O
+occurrences 45 56 91 102 O
+
+Gestational 0 11 103 114 B-clinical_variable
+Age 12 15 115 118 I-clinical_variable
+≤ 16 17 119 120 O
+42 18 20 121 123 B-upper_bound
+weeks 21 26 124 129 I-upper_bound
+
+History 0 7 130 137 O
+of 8 10 138 140 O
+craniofacial 11 23 141 153 B-treatment
+, 23 24 153 154 O
+foregut 25 32 155 162 B-treatment
+, 32 33 162 163 O
+ears 34 38 164 168 B-treatment
+, 38 39 168 169 O
+nose 40 44 170 174 B-treatment
+and 45 48 175 178 O
+throat 49 55 179 185 B-treatment
+( 56 57 186 187 I-treatment
+ENT 57 60 187 190 I-treatment
+) 60 61 190 191 I-treatment
+or 62 64 192 194 O
+neurosurgery 65 77 195 207 B-treatment
+
+Known 0 5 208 213 O
+genetic 6 13 214 221 B-chronic_disease
+, 13 14 221 222 O
+metabolic 15 24 223 232 B-chronic_disease
+or 25 27 233 235 O
+syndromic 28 37 236 245 B-chronic_disease
+disease 38 45 246 253 I-chronic_disease
+
+Neurological 0 12 254 266 B-chronic_disease
+diseases 13 21 267 275 I-chronic_disease
+such 22 26 276 280 O
+as 27 29 281 283 O
+Grade 30 35 284 289 B-lower_bound
+3 36 37 290 291 I-lower_bound
+or 38 40 292 294 O
+4 41 42 295 296 B-upper_bound
+intraventricular 43 59 297 313 B-chronic_disease
+hemorrhage 60 70 314 324 I-chronic_disease
+( 71 72 325 326 I-chronic_disease
+IVH 72 75 326 329 I-chronic_disease
+) 75 76 329 330 I-chronic_disease
+or 77 79 331 333 O
+intracranial 80 92 334 346 B-chronic_disease
+hemorrhage 93 103 347 357 I-chronic_disease
+( 104 105 358 359 I-chronic_disease
+ICH 105 108 359 362 I-chronic_disease
+) 108 109 362 363 I-chronic_disease
+, 109 110 363 364 O
+perinatal 111 120 365 374 B-chronic_disease
+asphyxia 121 129 375 383 I-chronic_disease
+or 130 132 384 386 O
+stroke 133 139 387 393 B-chronic_disease
+
+Orally 0 6 394 400 O
+feeding 7 14 401 408 O
+≥ 15 16 409 410 O
+50 17 19 411 413 B-lower_bound
+% 19 20 413 414 I-lower_bound
+of 21 23 415 417 O
+prescribed 24 34 418 428 O
+feeding 35 42 429 436 O
+volume 43 49 437 443 O
+
+Room 0 4 444 448 B-clinical_variable
+air 5 8 449 452 I-clinical_variable
+or 9 11 453 455 I-clinical_variable
+supplemental 12 24 456 468 I-clinical_variable
+oxygen 25 31 469 475 I-clinical_variable
+of 32 34 476 478 O
+≤1liter 35 42 479 486 O
+/ 42 43 486 487 I-upper_bound
+minute 43 49 487 493 I-upper_bound
+( 50 51 494 495 I-upper_bound
+LPM 51 54 495 498 I-upper_bound
+) 54 55 498 499 I-upper_bound
+

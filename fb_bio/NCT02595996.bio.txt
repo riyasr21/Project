@@ -1,0 +1,66 @@
+Adequate 0 8 0 8 O
+bone 9 13 9 13 O
+marrow 14 20 14 20 O
+, 20 21 20 21 O
+renal 22 27 22 27 O
+function 28 36 28 36 O
+, 36 37 36 37 O
+cardiac 38 45 38 45 O
+, 45 46 45 46 O
+and 47 50 47 50 O
+pulmonary 51 60 51 60 O
+function 61 69 61 69 O
+, 69 70 69 70 O
+negative 71 79 71 79 B-pregnancy
+pregnancy 80 89 80 89 I-pregnancy
+test 90 94 90 94 O
+( 95 96 95 96 O
+for 96 99 96 99 O
+women 100 105 100 105 B-gender
+) 105 106 105 106 O
+
+Karnofsky 0 9 107 116 B-clinical_variable
+> 10 11 117 118 O
+50 11 13 118 120 B-lower_bound
+% 13 14 120 121 I-lower_bound
+( 15 16 122 123 O
+> 16 17 123 124 O
+age 17 20 124 127 B-age
+16 21 23 128 130 B-lower_bound
+) 23 24 130 131 O
+
+Lanky 0 5 132 137 B-clinical_variable
+> 6 7 138 139 O
+50 7 9 139 141 B-lower_bound
+( 10 11 142 143 O
+< 11 12 143 144 O
+age 12 15 144 147 B-age
+16 16 18 148 150 B-upper_bound
+) 18 19 150 151 O
+
+Measurable 0 10 152 162 B-chronic_disease
+disease 11 18 163 170 I-chronic_disease
+
+No 0 2 171 173 O
+prior 3 8 174 179 O
+therapy 9 16 180 187 O
+within 17 23 188 194 O
+4 24 25 195 196 B-upper_bound
+weeks 26 31 197 202 I-upper_bound
+of 32 34 203 205 O
+enrollment 35 45 206 216 O
+
+Patients 0 8 217 225 O
+with 9 13 226 230 O
+known 14 19 231 236 O
+contraindications 20 37 237 254 O
+to 38 40 255 257 O
+receiving 41 50 258 267 O
+propranolol 51 62 268 279 B-allergy_name
+
+Primary 0 7 280 287 B-chronic_disease
+lymphedema 8 18 288 298 I-chronic_disease
+
+Secondary 0 9 299 308 B-chronic_disease
+lymphedema 10 20 309 319 I-chronic_disease
+

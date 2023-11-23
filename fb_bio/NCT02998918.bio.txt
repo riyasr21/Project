@@ -1,0 +1,22 @@
+Between 0 7 0 7 O
+18 8 10 8 10 B-lower_bound
+and 11 14 11 14 O
+60 15 17 15 17 B-upper_bound
+years 18 23 18 23 I-upper_bound
+old 24 27 24 27 O
+
+Taking 0 6 28 34 O
+prescription 7 19 35 47 O
+anti 20 24 48 52 B-treatment
+- 24 25 52 53 I-treatment
+inflammatory 25 37 53 65 I-treatment
+drugs 38 43 66 71 I-treatment
+or 44 46 72 74 O
+supplements 47 58 75 86 B-treatment
+/ 58 59 86 87 I-treatment
+drugs 59 64 87 92 I-treatment
+that 65 69 93 97 O
+may 70 73 98 101 O
+affect 74 80 102 108 O
+inflammation 81 93 109 121 B-chronic_disease
+

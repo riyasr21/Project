@@ -1,0 +1,36 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+a 14 15 14 15 O
+Category 16 24 16 24 B-lower_bound
+II 25 27 25 27 I-lower_bound
+or 28 30 28 30 O
+III 31 34 31 34 B-upper_bound
+fetal 35 40 35 40 B-clinical_variable
+heart 41 46 41 46 I-clinical_variable
+rate 47 51 47 51 I-clinical_variable
+tracing 52 59 52 59 I-clinical_variable
+
+ages 0 4 60 64 B-age
+of 5 7 65 67 O
+18 8 10 68 70 B-lower_bound
+and 11 14 71 74 O
+45 15 17 75 77 B-upper_bound
+years 18 23 78 83 I-upper_bound
+
+at 0 2 84 86 O
+term 3 7 87 91 O
+gestation 8 17 92 101 B-clinical_variable
+( 18 19 102 103 O
+≥ 19 20 103 104 O
+37 21 23 105 107 B-lower_bound
+weeks 24 29 108 113 I-lower_bound
+) 29 30 113 114 O
+
+pregnant 0 8 115 123 B-pregnancy
+females 9 16 124 131 B-gender
+
+prolonged 0 9 132 141 B-chronic_disease
+rupture 10 17 142 149 I-chronic_disease
+of 18 20 150 152 I-chronic_disease
+membranes 21 30 153 162 I-chronic_disease
+

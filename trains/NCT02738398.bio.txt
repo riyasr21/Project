@@ -1,0 +1,37 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+NSCLC 14 19 14 19 B-cancer
+diagnosis 20 29 20 29 O
+who 30 33 30 33 O
+have 34 38 34 38 O
+been 39 43 39 43 O
+referred 44 52 44 52 O
+for 53 56 53 56 O
+a 57 58 57 58 O
+clinical 59 67 59 67 O
+FDG 68 71 68 71 B-treatment
+PET 72 75 72 75 I-treatment
+/ 75 76 75 76 I-treatment
+CT 76 78 76 78 I-treatment
+staging 79 86 79 86 I-treatment
+scan 87 91 87 91 I-treatment
+as 92 94 92 94 O
+part 95 99 95 99 O
+of 100 102 100 102 O
+their 103 108 103 108 O
+standard 109 117 109 117 O
+of 118 120 118 120 O
+care 121 125 121 125 O
+
+aged 0 4 126 130 B-age
+18 5 7 131 133 B-lower_bound
+or 8 10 134 136 O
+over 11 15 137 141 O
+
+at 0 2 142 144 O
+least 3 8 145 150 O
+18 9 11 151 153 B-lower_bound
+years 12 17 154 159 I-lower_bound
+of 18 20 160 162 O
+age 21 24 163 166 B-age
+

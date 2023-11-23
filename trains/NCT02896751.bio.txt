@@ -1,0 +1,11 @@
+On 0 2 0 2 O
+stable 3 9 3 9 O
+NIV 10 13 10 13 B-treatment
+settings 14 22 14 22 I-treatment
+for 23 26 23 26 O
+a 27 28 27 28 O
+minimum 29 36 29 36 O
+of 37 39 37 39 O
+2 40 41 40 41 B-lower_bound
+months 42 48 42 48 I-lower_bound
+

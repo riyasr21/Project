@@ -1,0 +1,75 @@
+Any 0 3 0 3 O
+neurologic 4 14 4 14 B-chronic_disease
+or 15 17 15 17 I-chronic_disease
+psychiatric 18 29 18 29 I-chronic_disease
+disorder 30 38 30 38 I-chronic_disease
+
+Body 0 4 39 43 B-bmi
+mass 5 9 44 48 I-bmi
+index 10 15 49 54 I-bmi
+( 16 17 55 56 I-bmi
+BMI 17 20 56 59 I-bmi
+) 20 21 59 60 I-bmi
+over 22 26 61 65 O
+50 27 29 66 68 B-lower_bound
+
+No 0 2 69 71 O
+plans 3 8 72 77 O
+to 9 11 78 80 O
+quit 12 16 81 85 O
+in 17 19 86 88 O
+the 20 23 89 92 O
+next 24 28 93 97 B-upper_bound
+30 29 31 98 100 I-upper_bound
+days 32 36 101 105 I-upper_bound
+
+No 0 2 106 108 O
+quit 3 7 109 113 O
+attempts 8 16 114 122 O
+or 17 19 123 125 O
+attempts 20 28 126 134 O
+to 29 31 135 137 O
+cut 32 35 138 141 O
+back 36 40 142 146 O
+in 41 43 147 149 O
+the 44 47 150 153 O
+last 48 52 154 158 B-upper_bound
+30 53 55 159 161 I-upper_bound
+days 56 60 162 166 I-upper_bound
+
+Pregnancy 0 9 167 176 B-pregnancy
+
+Smoke 0 5 177 182 O
+> 6 7 183 184 O
+10 8 10 185 187 B-lower_bound
+cigarettes 11 21 188 198 O
+per 22 25 199 202 O
+day 26 29 203 206 O
+for 30 33 207 210 O
+the 34 37 211 214 O
+last 38 42 215 219 B-upper_bound
+6 43 44 220 221 I-upper_bound
+months 45 51 222 228 I-upper_bound
+
+Smokes 0 6 229 235 O
+first 7 12 236 241 O
+cigarette 13 22 242 251 O
+within 23 29 252 258 O
+60 30 32 259 261 B-upper_bound
+minutes 33 40 262 269 I-upper_bound
+after 41 46 270 275 O
+waking 47 53 276 282 O
+
+Willing 0 7 283 290 O
+to 8 10 291 293 O
+complete 11 19 294 302 O
+all 20 23 303 306 O
+appointments 24 36 307 319 O
+and 37 40 320 323 O
+change 41 47 324 330 O
+smoking 48 55 331 338 O
+behaviors 56 65 339 348 O
+for 66 69 349 352 O
+2 70 71 353 354 B-upper_bound
+weeks 72 77 355 360 I-upper_bound
+

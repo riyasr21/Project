@@ -1,0 +1,13 @@
+Parents 0 7 0 7 O
+with 8 12 8 12 O
+children 13 21 13 21 O
+younger 22 29 22 29 O
+than 30 34 30 34 O
+age 35 38 35 38 B-age
+2 39 40 39 40 B-lower_bound
+and 41 44 41 44 O
+older 45 50 45 50 O
+than 51 55 51 55 O
+age 56 59 56 59 O
+8 60 61 60 61 B-upper_bound
+

@@ -1,0 +1,97 @@
+Knee 0 4 0 4 B-treatment
+surgery 5 12 5 12 I-treatment
+on 13 15 13 15 O
+the 16 19 16 19 O
+affected 20 28 20 28 O
+knee 29 33 29 33 O
+within 34 40 34 40 O
+the 41 44 41 44 O
+last 45 49 45 49 B-upper_bound
+6 50 51 50 51 I-upper_bound
+months 52 58 52 58 I-upper_bound
+
+Lumbar 0 6 59 65 B-chronic_disease
+nerve 7 12 66 71 I-chronic_disease
+root 13 17 72 76 I-chronic_disease
+compression 18 29 77 88 I-chronic_disease
+( 30 31 89 90 O
+any 31 34 90 93 O
+of 35 37 94 96 O
+the 38 41 97 100 O
+following 42 51 101 110 O
+signs 52 57 111 116 O
+present 58 65 117 124 O
+) 65 66 124 125 O
+
+Marked 0 6 126 132 O
+paresis 7 14 133 140 B-chronic_disease
+involving 15 24 141 150 O
+a 25 26 151 152 O
+major 27 32 153 158 O
+muscle 33 39 159 165 O
+group 40 45 166 171 O
+of 46 48 172 174 O
+the 49 52 175 178 O
+lower 53 58 179 184 O
+extremity 59 68 185 194 O
+
+Nervous 0 7 195 202 B-chronic_disease
+system 8 14 203 209 I-chronic_disease
+disease 15 22 210 217 I-chronic_disease
+or 23 25 218 220 I-chronic_disease
+disorder 26 34 221 229 I-chronic_disease
+
+Osteoporosis 0 12 230 242 B-chronic_disease
+or 13 15 243 245 O
+recent 16 22 246 252 O
+fracture 23 31 253 261 O
+of 32 34 262 264 O
+the 35 38 265 268 O
+hip 39 42 269 272 O
+or 43 45 273 275 O
+spinal 46 52 276 282 O
+joints 53 59 283 289 O
+
+Positive 0 8 290 298 O
+straight 9 17 299 307 B-clinical_variable
+leg 18 21 308 311 I-clinical_variable
+raise 22 27 312 317 I-clinical_variable
+( 28 29 318 319 I-clinical_variable
+SLR 29 32 319 322 I-clinical_variable
+) 32 33 322 323 I-clinical_variable
+test 34 38 324 328 O
+less 39 43 329 333 O
+than 44 48 334 338 O
+45 49 51 339 341 B-upper_bound
+° 51 52 341 342 I-upper_bound
+
+Pregnant 0 8 343 351 B-pregnancy
+
+Referred 0 8 352 360 O
+to 9 11 361 363 O
+out 12 15 364 367 O
+- 15 16 367 368 O
+patient 16 23 368 375 O
+physical 24 32 376 384 B-treatment
+therapy 33 40 385 392 I-treatment
+for 41 44 393 396 O
+a 45 46 397 398 O
+knee 47 51 399 403 B-chronic_disease
+condition 52 61 404 413 I-chronic_disease
+and 62 65 414 417 O
+a 66 67 418 419 O
+chief 68 73 420 425 O
+complaint 74 83 426 435 O
+of 84 86 436 438 O
+anterior 87 95 439 447 O
+knee 96 100 448 452 O
+pain 101 105 453 457 O
+
+Spinal 0 6 458 464 B-treatment
+or 7 9 465 467 I-treatment
+hip 10 13 468 471 I-treatment
+joint 14 19 472 477 I-treatment
+surgery 20 27 478 485 I-treatment
+or 28 30 486 488 O
+prosthesis 31 41 489 499 B-treatment
+

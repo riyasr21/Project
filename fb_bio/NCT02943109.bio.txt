@@ -1,0 +1,8 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+legally 0 7 18 25 O
+blind 8 13 26 31 B-chronic_disease
+

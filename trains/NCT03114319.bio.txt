@@ -1,0 +1,77 @@
+Active 0 6 0 6 O
+diarrhea 7 15 7 15 B-chronic_disease
+
+Clinically 0 10 16 26 O
+significant 11 22 27 38 O
+cardiac 23 30 39 46 B-chronic_disease
+disease 31 38 47 54 I-chronic_disease
+
+ECOG 0 4 55 59 B-clinical_variable
+( 5 6 60 61 I-clinical_variable
+Eastern 6 13 61 68 I-clinical_variable
+cooperative 14 25 69 80 I-clinical_variable
+oncology 26 34 81 89 I-clinical_variable
+group 35 40 90 95 I-clinical_variable
+) 40 41 95 96 I-clinical_variable
+performance 42 53 97 108 I-clinical_variable
+status 54 60 109 115 I-clinical_variable
+≤2 61 63 116 118 O
+
+Insufficient 0 12 119 131 B-chronic_disease
+hepatic 13 20 132 139 I-chronic_disease
+and 21 24 140 143 I-chronic_disease
+renal 25 30 144 149 I-chronic_disease
+function 31 39 150 158 I-chronic_disease
+
+Must 0 4 159 163 O
+have 5 9 164 168 O
+progressed 10 20 169 179 O
+following 21 30 180 189 O
+standard 31 39 190 198 B-treatment
+therapy 40 47 199 206 I-treatment
+, 47 48 206 207 O
+or 49 51 208 210 O
+for 52 55 211 214 O
+whom 56 60 215 219 O
+, 60 61 219 220 O
+in 62 64 221 223 O
+the 65 68 224 227 O
+opinion 69 76 228 235 O
+of 77 79 236 238 O
+the 80 83 239 242 O
+Investigator 84 96 243 255 O
+
+Tumors 0 6 256 262 B-cancer
+harboring 7 16 263 272 O
+known 17 22 273 278 O
+activating 23 33 279 289 O
+KRAS 34 38 290 294 O
+, 38 39 294 295 O
+NRAS 40 44 296 300 O
+, 44 45 300 301 O
+HRAS 46 50 302 306 O
+, 50 51 306 307 O
+BRAF 52 56 308 312 O
+or 57 59 313 315 O
+PTPN11 60 66 316 322 O
+( 67 68 323 324 O
+SHP2 68 72 324 328 O
+) 72 73 328 329 O
+mutations 74 83 330 339 O
+
+female 0 6 340 346 B-gender
+
+male 0 4 347 351 B-gender
+
+willing 0 7 352 359 O
+to 8 10 360 362 O
+agree 11 16 363 368 O
+to 17 19 369 371 O
+not 20 23 372 375 O
+father 24 30 376 382 O
+a 31 32 383 384 O
+child 33 38 385 390 O
+/ 38 39 390 391 O
+become 39 45 391 397 B-pregnancy
+pregnant 46 54 398 406 I-pregnancy
+

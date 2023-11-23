@@ -1,0 +1,145 @@
+Any 0 3 0 3 O
+PCI 4 7 4 7 B-clinical_variable
+within 8 14 8 14 O
+30 15 17 15 17 B-upper_bound
+days 18 22 18 22 I-upper_bound
+prior 23 28 23 28 I-upper_bound
+to 29 31 29 31 O
+the 32 35 32 35 O
+index 36 41 36 41 B-treatment
+procedure 42 51 42 51 I-treatment
+or 52 54 52 54 O
+planned 55 62 55 62 O
+3 63 64 63 64 B-upper_bound
+months 65 71 65 71 I-upper_bound
+post 72 76 72 76 O
+the 77 80 77 80 O
+index 81 86 81 86 O
+procedure 87 96 87 96 O
+
+Chronic 0 7 97 104 O
+functional 8 18 105 115 B-chronic_disease
+tricuspid 19 28 116 125 I-chronic_disease
+regurgitation 29 42 126 139 I-chronic_disease
+( 43 44 140 141 I-chronic_disease
+FTR 44 47 141 144 I-chronic_disease
+) 47 48 144 145 I-chronic_disease
+with 49 53 146 150 O
+a 54 55 151 152 O
+minimum 56 63 153 160 O
+of 64 66 161 163 O
+moderate 67 75 164 172 O
+tricuspid 76 85 173 182 O
+regurgitation 86 99 183 196 O
+
+Chronic 0 7 197 204 O
+oral 8 12 205 209 B-treatment
+steroid 13 20 210 217 I-treatment
+use 21 24 218 221 O
+( 25 26 222 223 O
+≥6 26 28 223 225 O
+months 29 35 226 232 I-lower_bound
+) 35 36 232 233 O
+
+LVEF 0 4 234 238 B-clinical_variable
+≥35 5 8 239 242 O
+% 8 9 242 243 I-lower_bound
+
+Life 0 4 244 248 B-clinical_variable
+expectancy 5 15 249 259 I-clinical_variable
+of 16 18 260 262 O
+less 19 23 263 267 O
+than 24 28 268 272 O
+12 29 31 273 275 B-upper_bound
+- 31 32 275 276 I-upper_bound
+months 32 38 276 282 I-upper_bound
+
+MI 0 2 283 285 B-chronic_disease
+or 3 5 286 288 O
+known 6 11 289 294 O
+unstable 12 20 295 303 B-chronic_disease
+angina 21 27 304 310 I-chronic_disease
+within 28 34 311 317 O
+the 35 38 318 321 O
+30 39 41 322 324 B-upper_bound
+- 41 42 324 325 I-upper_bound
+days 42 46 325 329 I-upper_bound
+prior 47 52 330 335 I-upper_bound
+to 53 55 336 338 O
+the 56 59 339 342 O
+index 60 65 343 348 O
+procedure 66 75 349 358 O
+
+NYHA 0 4 359 363 B-chronic_disease
+II 5 7 364 366 I-chronic_disease
+- 8 9 367 368 I-chronic_disease
+IV 10 12 369 371 I-chronic_disease
+
+Pregnant 0 8 372 380 B-pregnancy
+
+Previous 0 8 381 389 O
+tricuspid 9 18 390 399 B-treatment
+valve 19 24 400 405 I-treatment
+repair 25 31 406 412 I-treatment
+or 32 34 413 415 I-treatment
+replacement 35 46 416 427 I-treatment
+
+Severe 0 6 428 434 O
+coronary 7 15 435 443 B-chronic_disease
+artery 16 22 444 450 I-chronic_disease
+disease 23 30 451 458 I-chronic_disease
+
+Severe 0 6 459 465 O
+uncontrolled 7 19 466 478 O
+hypertension 20 32 479 491 B-chronic_disease
+( 33 34 492 493 O
+SBP 34 37 493 496 B-clinical_variable
+≥ 38 39 497 498 O
+180 40 43 499 502 B-lower_bound
+mmHg 44 48 503 507 I-lower_bound
+and/or 49 55 508 514 O
+DBP 56 59 515 518 B-clinical_variable
+≥ 60 61 519 520 O
+110 62 65 521 524 B-lower_bound
+mmHg 66 70 525 529 I-lower_bound
+) 70 71 529 530 O
+
+Tricuspid 0 9 531 540 B-clinical_variable
+valve 10 15 541 546 I-clinical_variable
+annular 16 23 547 554 I-clinical_variable
+diameter 24 32 555 563 I-clinical_variable
+≥ 33 34 564 565 O
+40 35 37 566 568 B-lower_bound
+mm 38 40 569 571 I-lower_bound
+( 41 42 572 573 O
+or 42 44 573 575 O
+21 45 47 576 578 B-lower_bound
+mm 48 50 579 581 I-lower_bound
+/ 50 51 581 582 I-lower_bound
+m2 51 53 582 584 I-lower_bound
+( 54 55 585 586 O
+Superscript 55 66 586 597 O
+) 66 67 597 598 O
+) 67 68 598 599 O
+and 69 72 600 603 O
+≤55 73 76 604 607 O
+mm 77 79 608 610 I-upper_bound
+( 80 81 611 612 O
+or 81 83 612 614 O
+29 84 86 615 617 B-upper_bound
+mm 87 89 618 620 I-upper_bound
+/ 89 90 620 621 I-upper_bound
+m2 90 92 621 623 I-upper_bound
+( 93 94 624 625 O
+Superscript 94 105 625 636 O
+) 105 106 636 637 O
+
+lactating 0 9 638 647 O
+female 10 16 648 654 B-gender
+
+≥18 0 3 655 658 O
+and 4 7 659 662 O
+≤85 8 11 663 666 O
+years 12 17 667 672 I-upper_bound
+old 18 21 673 676 O
+

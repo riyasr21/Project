@@ -1,0 +1,148 @@
+21 0 2 0 2 B-lower_bound
+- 3 4 3 4 O
+65 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+of 14 16 14 16 O
+age 17 20 17 20 B-age
+
+A 0 1 21 22 O
+presurgery 2 12 23 33 B-clinical_variable
+weight 13 19 34 40 I-clinical_variable
+of 20 22 41 43 O
+> 23 24 44 45 O
+400lbs 25 31 46 52 B-lower_bound
+at 32 34 53 55 O
+screening 35 44 56 65 O
+appointment 45 56 66 77 O
+or 57 59 78 80 O
+as 60 62 81 83 O
+reported 63 71 84 92 O
+on 72 74 93 95 O
+telephone 75 84 96 105 O
+screen 85 91 106 112 O
+
+Current 0 7 113 120 O
+suicidality 8 19 121 132 B-chronic_disease
+( 20 21 133 134 O
+as 21 23 134 136 O
+assessed 24 32 137 145 O
+at 33 35 146 148 O
+screening 36 45 149 158 O
+) 45 46 158 159 O
+
+In 0 2 160 162 O
+evaluation 3 13 163 173 O
+for 14 17 174 177 O
+Roux 18 22 178 182 B-treatment
+- 22 23 182 183 I-treatment
+en 23 25 183 185 I-treatment
+- 25 26 185 186 I-treatment
+Y 26 27 186 187 I-treatment
+gastric 28 35 188 195 I-treatment
+bypass 36 42 196 202 I-treatment
+surgery 43 50 203 210 I-treatment
+
+Insulin 0 7 211 218 B-treatment
+dependent 8 17 219 228 O
+diabetes 18 26 229 237 B-chronic_disease
+mellitus 27 35 238 246 I-chronic_disease
+
+Laboratory 0 10 247 257 O
+abnormalities 11 24 258 271 O
+defined 25 32 272 279 O
+as 33 35 280 282 O
+a 36 37 283 284 O
+hepatic 38 45 285 292 B-clinical_variable
+panel 46 51 293 298 I-clinical_variable
+greater 52 59 299 306 O
+than 60 64 307 311 O
+three 65 70 312 317 B-lower_bound
+times 71 76 318 323 I-lower_bound
+the 77 80 324 327 I-lower_bound
+upper 81 86 328 333 I-lower_bound
+limit 87 92 334 339 I-lower_bound
+of 93 95 340 342 I-lower_bound
+normal 96 102 343 349 I-lower_bound
+, 102 103 349 350 O
+or 104 106 351 353 O
+fasting 107 114 354 361 B-clinical_variable
+glucose 115 122 362 369 I-clinical_variable
+of 123 125 370 372 O
+< 126 127 373 374 O
+60 128 130 375 377 B-lower_bound
+or 131 133 378 380 O
+> 134 135 381 382 O
+120 135 138 382 385 B-upper_bound
+mg 139 141 386 388 I-upper_bound
+/ 141 142 388 389 I-upper_bound
+dl 142 144 389 391 I-upper_bound
+, 144 145 391 392 O
+or 146 148 393 395 O
+positive 149 157 396 404 O
+pregnancy 158 167 405 414 B-pregnancy
+test 168 172 415 419 O
+
+Male 0 4 420 424 B-gender
+
+Participated 0 12 425 437 O
+in 13 15 438 440 O
+an 16 18 441 443 O
+investigational 19 34 444 459 O
+drug 35 39 460 464 O
+study 40 45 465 470 O
+within 46 52 471 477 O
+the 53 56 478 481 O
+past 57 61 482 486 B-upper_bound
+30 62 64 487 489 I-upper_bound
+days 65 69 490 494 I-upper_bound
+
+Pregnancy 0 9 495 504 B-pregnancy
+
+Psychotic 0 9 505 514 B-chronic_disease
+or 10 12 515 517 O
+bipolar 13 20 518 525 B-chronic_disease
+spectrum 21 29 526 534 I-chronic_disease
+disorder 30 38 535 543 I-chronic_disease
+( 39 40 544 545 O
+as 40 42 545 547 O
+assessed 43 51 548 556 O
+at 52 54 557 559 O
+screening 55 64 560 569 O
+) 64 65 569 570 O
+
+Smoking 0 7 571 578 O
+defined 8 15 579 586 O
+as 16 18 587 589 O
+regular 19 26 590 597 O
+use 27 30 598 601 O
+of 31 33 602 604 O
+nicotine 34 42 605 613 O
+in 43 45 614 616 O
+the 46 49 617 620 O
+past 50 54 621 625 B-upper_bound
+6 55 56 626 627 I-upper_bound
+months 57 63 628 634 I-upper_bound
+
+Unable 0 6 635 641 B-language_fluency
+to 7 9 642 644 I-language_fluency
+speak 10 15 645 650 I-language_fluency
+English 16 23 651 658 I-language_fluency
+
+female 0 6 659 665 B-gender
+
+intending 0 9 666 675 O
+to 10 12 676 678 O
+become 13 19 679 685 B-pregnancy
+pregnant 20 28 686 694 I-pregnancy
+prior 29 34 695 700 O
+to 35 37 701 703 O
+the 38 41 704 707 O
+end 42 45 708 711 O
+of 46 48 712 714 O
+the 49 52 715 718 O
+their 53 58 719 724 O
+participation 59 72 725 738 O
+in 73 75 739 741 O
+the 76 79 742 745 O
+study 80 85 746 751 O
+

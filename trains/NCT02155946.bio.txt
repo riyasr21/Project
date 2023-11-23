@@ -1,0 +1,67 @@
+All 0 3 0 3 O
+medications 4 15 4 15 O
+stable 16 22 16 22 O
+for 23 26 23 26 O
+approximately 27 40 27 40 O
+2 41 42 41 42 B-lower_bound
+- 42 43 42 43 O
+3 43 44 43 44 B-upper_bound
+months 45 51 45 51 I-upper_bound
+
+Diagnosis 0 9 52 61 O
+of 10 12 62 64 O
+amnestic 13 21 65 73 B-chronic_disease
+MCI 22 25 74 77 I-chronic_disease
+based 26 31 78 83 O
+on 32 34 84 86 O
+criteria 35 43 87 95 O
+set 44 47 96 99 O
+forth 48 53 100 105 O
+by 54 56 106 108 O
+Petersen 57 65 109 117 O
+( 66 67 118 119 O
+2004 67 71 119 123 O
+) 71 72 123 124 O
+. 72 73 124 125 O
+Additionally 74 86 126 138 O
+, 86 87 138 139 O
+other 88 93 140 145 O
+potential 94 103 146 155 O
+causes 104 110 156 162 O
+of 111 113 163 165 O
+cognitive 114 123 166 175 O
+deficit 124 131 176 183 O
+ruled 132 137 184 189 O
+out 138 141 190 193 O
+by 142 144 194 196 O
+the 145 148 197 200 O
+referring 149 158 201 210 O
+physician 159 168 211 220 O
+
+English 0 7 221 228 B-language_fluency
+as 8 10 229 231 I-language_fluency
+native 11 17 232 238 I-language_fluency
+and 18 21 239 242 I-language_fluency
+preferred 22 31 243 252 I-language_fluency
+language 32 40 253 261 I-language_fluency
+
+History 0 7 262 269 O
+of 8 10 270 272 O
+neurological 11 23 273 285 B-chronic_disease
+disease 24 31 286 293 I-chronic_disease
+or 32 34 294 296 O
+injury 35 41 297 303 O
+
+History 0 7 304 311 O
+of 8 10 312 314 O
+severe 11 17 315 321 B-chronic_disease
+mental 18 24 322 328 I-chronic_disease
+illness 25 32 329 336 I-chronic_disease
+
+No 0 2 337 339 O
+history 3 10 340 347 O
+of 11 13 348 350 O
+severe 14 20 351 357 O
+mental 21 27 358 364 B-chronic_disease
+illness 28 35 365 372 I-chronic_disease
+

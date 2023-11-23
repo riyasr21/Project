@@ -1,0 +1,201 @@
+Active 0 6 0 6 O
+bloodstream 7 18 7 18 B-chronic_disease
+infection 19 28 19 28 I-chronic_disease
+demonstrated 29 41 29 41 O
+by 42 44 42 44 O
+positive 45 53 45 53 O
+blood 54 59 54 59 O
+culture 60 67 60 67 O
+at 68 70 68 70 O
+screening 71 80 71 80 O
+
+Anasarca 0 8 81 89 B-chronic_disease
+
+At 0 2 90 92 O
+least 3 8 93 98 O
+80 9 11 99 101 B-lower_bound
+% 11 12 101 102 I-lower_bound
+of 13 15 103 105 O
+nutritional 16 27 106 117 O
+needs 28 33 118 123 O
+at 34 36 124 126 O
+baseline 37 45 127 135 O
+received 46 54 136 144 O
+by 55 57 145 147 O
+PN 58 60 148 150 O
+
+Bell 0 4 151 155 B-chronic_disease
+'s 4 6 155 157 I-chronic_disease
+stage 7 12 158 163 I-chronic_disease
+2B 13 15 164 166 I-chronic_disease
+or 16 18 167 169 O
+higher 19 25 170 176 O
+
+Birth 0 5 177 182 B-clinical_variable
+weight 6 12 183 189 I-clinical_variable
+≥ 13 14 190 191 O
+750 15 18 192 195 B-lower_bound
+g 18 19 195 196 I-lower_bound
+
+Conjugated 0 10 197 207 B-clinical_variable
+bilirubin 11 20 208 217 I-clinical_variable
+> 21 22 218 219 O
+0.6 23 26 220 223 B-lower_bound
+mg 27 29 224 226 I-lower_bound
+/ 29 30 226 227 I-lower_bound
+dL 30 32 227 229 I-lower_bound
+
+Cyanotic 0 8 230 238 B-chronic_disease
+congenital 9 19 239 249 I-chronic_disease
+heart 20 25 250 255 I-chronic_disease
+defect 26 32 256 262 I-chronic_disease
+
+Cystic 0 6 263 269 B-chronic_disease
+fibrosis 7 15 270 278 I-chronic_disease
+
+Gastroschisis 0 13 279 292 B-chronic_disease
+
+History 0 7 293 300 O
+of 8 10 301 303 O
+shock 11 16 304 309 O
+requiring 17 26 310 319 O
+vasopressors 27 39 320 332 B-treatment
+
+Known 0 5 333 338 O
+congenital 6 16 339 349 B-chronic_disease
+viral 17 22 350 355 I-chronic_disease
+infection 23 32 356 365 I-chronic_disease
+
+Known 0 5 366 371 O
+hypersensitivity 6 22 372 388 O
+to 23 25 389 391 O
+fish- 26 31 392 397 B-allergy_name
+, 31 32 397 398 O
+egg- 33 37 399 403 B-allergy_name
+, 37 38 403 404 O
+soya- 39 44 405 410 B-allergy_name
+or 45 47 411 413 O
+peanut 48 54 414 420 B-allergy_name
+protein 55 62 421 428 I-allergy_name
+or 63 65 429 431 O
+to 66 68 432 434 O
+any 69 72 435 438 O
+of 73 75 439 441 O
+the 76 79 442 445 O
+active 80 86 446 452 O
+substances 87 97 453 463 O
+or 98 100 464 466 O
+excipients 101 111 467 477 O
+
+Known 0 5 478 483 O
+inborn 6 12 484 490 B-chronic_disease
+errors 13 19 491 497 I-chronic_disease
+of 20 22 498 500 I-chronic_disease
+metabolism 23 33 501 511 I-chronic_disease
+
+Meconium 0 8 512 520 B-chronic_disease
+ileus 9 14 521 526 I-chronic_disease
+
+Postmenstrual 0 13 527 540 B-clinical_variable
+age 14 17 541 544 I-clinical_variable
+≥ 18 19 545 546 O
+24 20 22 547 549 B-lower_bound
+weeks 23 28 550 555 I-lower_bound
+
+Serum 0 5 556 561 B-clinical_variable
+triglyceride 6 18 562 574 I-clinical_variable
+levels 19 25 575 581 I-clinical_variable
+> 26 27 582 583 O
+250 28 31 584 587 B-lower_bound
+mg 32 34 588 590 I-lower_bound
+/ 34 35 590 591 I-lower_bound
+dL 35 37 591 593 I-lower_bound
+
+Signed 0 6 594 600 O
+and 7 10 601 604 O
+dated 11 16 605 610 O
+informed 17 25 611 619 O
+consent 26 33 620 627 O
+obtained 34 42 628 636 O
+from 43 47 637 641 O
+at 48 50 642 644 O
+least 51 56 645 650 O
+one 57 60 651 654 B-lower_bound
+parent 61 67 655 661 O
+or 68 70 662 664 O
+legal 71 76 665 670 O
+guardian 77 85 671 679 O
+
+Suspected 0 9 680 689 O
+liver 10 15 690 695 B-chronic_disease
+disease 16 23 696 703 I-chronic_disease
+
+Unlikely 0 8 704 712 O
+to 9 11 713 715 O
+survive 12 19 716 723 O
+longer 20 26 724 730 O
+than 27 31 731 735 O
+28 32 34 736 738 B-lower_bound
+days 35 39 739 743 I-lower_bound
+
+alanine 0 7 744 751 B-clinical_variable
+aminotransferase 8 24 752 768 I-clinical_variable
+( 25 26 769 770 I-clinical_variable
+ALT 26 29 770 773 I-clinical_variable
+) 29 30 773 774 I-clinical_variable
+
+expected 0 8 775 783 O
+to 9 11 784 786 O
+require 12 19 787 794 O
+parenteral 20 30 795 805 O
+nutrition 31 40 806 815 O
+( 41 42 816 817 O
+PN 42 44 817 819 O
+) 44 45 819 820 O
+for 46 49 821 824 O
+28 50 52 825 827 B-upper_bound
+days 53 57 828 832 I-upper_bound
+
+ileal 0 5 833 838 B-chronic_disease
+atresia 6 13 839 846 I-chronic_disease
+
+liver 0 5 847 852 B-chronic_disease
+damage 6 12 853 859 I-chronic_disease
+based 13 18 860 865 O
+on 19 21 866 868 O
+either 22 28 869 875 O
+aspartate 29 38 876 885 O
+aminotransferase 39 55 886 902 O
+( 56 57 903 904 O
+AST 57 60 904 907 O
+) 60 61 907 908 O
+
+necrotizing 0 11 909 920 B-chronic_disease
+enterocolitis 12 25 921 934 I-chronic_disease
+
+pre- 0 4 935 939 O
+, 4 5 939 940 O
+intra- 6 12 941 947 O
+or 13 15 948 950 O
+posthepatic 16 27 951 962 O
+complication 28 40 963 975 O
+increasing 41 51 976 986 O
+conjugated 52 62 987 997 B-clinical_variable
+bilirubin 63 72 998 1007 I-clinical_variable
+levels 73 79 1008 1014 I-clinical_variable
+> 80 81 1015 1016 O
+0.6 82 85 1017 1020 B-lower_bound
+, 85 86 1020 1021 I-lower_bound
+mg 87 89 1022 1024 I-lower_bound
+/ 89 90 1024 1025 I-lower_bound
+dL 90 92 1025 1027 I-lower_bound
+during 93 99 1028 1034 O
+study 100 105 1035 1040 O
+participation 106 119 1041 1054 O
+
+spontaneous 0 11 1055 1066 B-chronic_disease
+intestinal 12 22 1067 1077 I-chronic_disease
+perforation 23 34 1078 1089 I-chronic_disease
+
+volvulus 0 8 1090 1098 B-chronic_disease
+

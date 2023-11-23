@@ -1,0 +1,75 @@
+Asthma 0 6 0 6 B-chronic_disease
+exacerbation 7 19 7 19 I-chronic_disease
+in 20 22 20 22 O
+the 23 26 23 26 O
+prior 27 32 27 32 B-upper_bound
+6 33 34 33 34 I-upper_bound
+weeks 35 40 35 40 I-upper_bound
+
+FEV1 0 4 41 45 B-clinical_variable
+< 5 6 46 47 O
+60 7 9 48 50 B-upper_bound
+% 10 11 51 52 I-upper_bound
+predicted 12 21 53 62 O
+
+Fever 0 5 63 68 B-clinical_variable
+of 6 8 69 71 O
+> 9 10 72 73 O
+38oC 11 15 74 78 B-lower_bound
+in 16 18 79 81 O
+last 19 23 82 86 O
+week 24 28 87 91 O
+
+Known 0 5 92 97 O
+aortic 6 12 98 104 B-chronic_disease
+aneurysm 13 21 105 113 I-chronic_disease
+
+Known 0 5 114 119 O
+obstructive 6 17 120 131 B-chronic_disease
+sleep 18 23 132 137 I-chronic_disease
+apnea/ 24 30 138 144 I-chronic_disease
+high 31 35 145 149 O
+likelihood 36 46 150 160 O
+of 47 49 161 163 O
+obstructive 50 61 164 175 O
+sleep 62 67 176 181 O
+apnea 68 73 182 187 O
+
+No 0 2 188 190 O
+physician 3 12 191 200 O
+diagnosis 13 22 201 210 O
+of 23 25 211 213 O
+asthma 26 32 214 220 B-chronic_disease
+
+PC20 0 4 221 225 B-clinical_variable
+to 5 7 226 228 I-clinical_variable
+methacholine 8 20 229 241 I-clinical_variable
+> 21 22 242 243 O
+16 23 25 244 246 B-lower_bound
+mg 26 28 247 249 I-lower_bound
+/ 28 29 249 250 I-lower_bound
+ml 29 31 250 252 I-lower_bound
+
+Smoking 0 7 253 260 O
+within 8 14 261 267 O
+last 15 19 268 272 B-upper_bound
+6 20 21 273 274 I-upper_bound
+months 22 28 275 281 I-upper_bound
+
+Stoke 0 5 282 287 B-chronic_disease
+or 6 8 288 290 O
+heart 9 14 291 296 B-chronic_disease
+attack 15 21 297 303 I-chronic_disease
+in 22 24 304 306 O
+the 25 28 307 310 O
+prior 29 34 311 316 B-upper_bound
+3 35 36 317 318 I-upper_bound
+months 37 43 319 325 I-upper_bound
+
+≥ 0 1 326 327 O
+20 2 4 328 330 B-lower_bound
+pack 5 9 331 335 I-lower_bound
+year 10 14 336 340 I-lower_bound
+smoking 15 22 341 348 O
+history 23 30 349 356 O
+

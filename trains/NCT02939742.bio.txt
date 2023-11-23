@@ -1,0 +1,78 @@
+Cervical 0 8 0 8 B-clinical_variable
+dilation 9 17 9 17 I-clinical_variable
+visually 18 26 18 26 I-clinical_variable
+≤ 27 28 27 28 O
+5 29 30 29 30 B-upper_bound
+cm 30 32 30 32 I-upper_bound
+on 33 35 33 35 O
+sterile 36 43 36 43 O
+speculum 44 52 44 52 O
+exam 53 57 53 57 O
+
+Gestational 0 11 58 69 B-clinical_variable
+age 12 15 70 73 B-age
+< 16 17 74 75 O
+23 18 20 76 78 B-upper_bound
+5/7 21 24 79 82 I-upper_bound
+weeks 25 30 83 88 O
+or 31 33 89 91 O
+> 34 35 92 93 O
+32 36 38 94 96 B-lower_bound
+5/7 39 42 97 100 I-lower_bound
+weeks 43 48 101 106 O
+
+Gestational 0 11 107 118 B-clinical_variable
+age 12 15 119 122 I-clinical_variable
+of 16 18 123 125 O
+membrane 19 27 126 134 O
+rupture 28 35 135 142 O
+and 36 39 143 146 O
+initiation 40 50 147 157 O
+of 51 53 158 160 O
+first 54 59 161 166 O
+course 60 66 167 173 O
+of 67 69 174 176 O
+antenatal 70 79 177 186 B-treatment
+corticosteroids 80 95 187 202 I-treatment
+between 96 103 203 210 O
+23 104 106 211 213 B-lower_bound
+5/7 107 110 214 217 I-lower_bound
+- 111 112 218 219 O
+32 113 115 220 222 B-upper_bound
+5/7 116 119 223 226 I-upper_bound
+weeks 120 125 227 232 I-upper_bound
+
+Known 0 5 233 238 O
+major 6 11 239 244 O
+congenital 12 22 245 255 B-chronic_disease
+abnormalities 23 36 256 269 I-chronic_disease
+, 36 37 269 270 O
+aneuploidy 38 48 271 281 O
+, 48 49 281 282 O
+or 50 52 283 285 O
+genetic 53 60 286 293 B-chronic_disease
+syndrome 61 69 294 302 I-chronic_disease
+
+Maternal 0 8 303 311 O
+age 9 12 312 315 B-age
+> 13 14 316 317 O
+50 15 17 318 320 B-lower_bound
+years 18 23 321 326 I-lower_bound
+
+Maternal 0 8 327 335 B-chronic_disease
+chorioamnionitis 9 25 336 352 I-chronic_disease
+
+Planned 0 7 353 360 B-pregnancy
+pregnancy 8 17 361 370 I-pregnancy
+continuation 18 30 371 383 O
+with 31 35 384 388 O
+no 36 38 389 391 O
+indication 39 49 392 402 O
+for 50 53 403 406 O
+delivery 54 62 407 415 O
+for 63 66 416 419 O
+at 67 69 420 422 O
+least 70 75 423 428 O
+7 76 77 429 430 B-lower_bound
+days 78 82 431 435 I-lower_bound
+

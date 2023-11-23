@@ -1,0 +1,77 @@
+Healthy 0 7 0 7 O
+Older 8 13 8 13 O
+Adults 14 20 14 20 O
+Group 21 26 21 26 O
+: 26 27 26 27 O
+Intact 28 34 28 34 O
+cognitive 35 44 35 44 O
+profile 45 52 45 52 O
+based 53 58 53 58 O
+on 59 61 59 61 O
+neuropsychology 62 77 62 77 O
+testing 78 85 78 85 O
+within 86 92 86 92 O
+1 93 94 93 94 B-upper_bound
+standard 95 103 95 103 O
+deviation 104 113 104 113 O
+for 114 117 114 117 O
+age 118 121 118 121 B-age
+and 122 125 122 125 O
+education 126 135 126 135 O
+status 136 142 136 142 O
+
+age 0 3 143 146 B-age
+≥60 4 7 147 150 O
+years 8 13 151 156 I-lower_bound
+
+history 0 7 157 164 O
+of 8 10 165 167 O
+seizures 11 19 168 176 B-chronic_disease
+or 20 22 177 179 O
+taking 23 29 180 186 O
+medications 30 41 187 198 B-treatment
+that 42 46 199 203 O
+may 47 50 204 207 O
+lower 51 56 208 213 O
+the 57 60 214 217 O
+seizure 61 68 218 225 O
+threshold 69 78 226 235 O
+
+moderate 0 8 236 244 O
+- 8 9 244 245 O
+severe 9 15 245 251 O
+sleep 16 21 252 257 B-chronic_disease
+apnea 22 27 258 263 I-chronic_disease
+defined 28 35 264 271 O
+by 36 38 272 274 O
+apnea 39 44 275 280 B-clinical_variable
+- 44 45 280 281 I-clinical_variable
+hypopnea 45 53 281 289 I-clinical_variable
+index 54 59 290 295 I-clinical_variable
+≥15 60 63 296 299 O
+events 64 70 300 306 I-lower_bound
+/ 70 71 306 307 I-lower_bound
+hour 71 75 307 311 I-lower_bound
+or 76 78 312 314 O
+periodic 79 87 315 323 B-clinical_variable
+limb 88 92 324 328 I-clinical_variable
+movement 93 101 329 337 I-clinical_variable
+index 102 107 338 343 I-clinical_variable
+≥15 108 111 344 347 O
+/ 111 112 347 348 I-lower_bound
+hour 112 116 348 352 I-lower_bound
+on 117 119 353 355 O
+the 120 123 356 359 O
+screening 124 133 360 369 O
+home 134 138 370 374 B-treatment
+sleep 139 144 375 380 I-treatment
+test 145 149 381 385 I-treatment
+
+unstable 0 8 386 394 O
+medical 9 16 395 402 B-chronic_disease
+or 17 19 403 405 I-chronic_disease
+psychiatric 20 31 406 417 I-chronic_disease
+disorder 32 40 418 426 I-chronic_disease
+
+women 0 5 427 432 B-gender
+

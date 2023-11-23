@@ -1,0 +1,71 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Any 0 3 25 28 O
+same 4 8 29 33 O
+gender 9 15 34 40 O
+anal 16 20 41 45 O
+or 21 23 46 48 O
+oral 24 28 49 53 O
+sex 29 32 54 57 O
+in 33 35 58 60 O
+the 36 39 61 64 O
+past 40 44 65 69 B-upper_bound
+2 45 46 70 71 I-upper_bound
+years 47 52 72 77 I-upper_bound
+
+Assigned 0 8 78 86 O
+male 9 13 87 91 B-gender
+sex 14 17 92 95 O
+at 18 20 96 98 O
+birth 21 26 99 104 O
+
+Between 0 7 105 112 O
+the 8 11 113 116 O
+ages 12 16 117 121 B-age
+of 17 19 122 124 O
+18 20 22 125 127 B-lower_bound
+- 22 23 127 128 O
+35 23 25 128 130 B-upper_bound
+years 26 31 131 136 I-upper_bound
+old 32 35 137 140 O
+
+Have 0 4 141 145 O
+had 5 8 146 149 O
+fewer 9 14 150 155 O
+than 15 19 156 160 O
+3 20 21 161 162 B-upper_bound
+PrEP 22 26 163 167 B-treatment
+clinical 27 35 168 176 O
+visits 36 42 177 183 O
+in 43 45 184 186 O
+the 46 49 187 190 O
+past 50 54 191 195 B-upper_bound
+12 55 57 196 198 I-upper_bound
+months 58 64 199 205 I-upper_bound
+
+Owns 0 4 206 210 B-technology_access
+a 5 6 211 212 I-technology_access
+cell 7 11 213 217 I-technology_access
+phone 12 17 218 223 I-technology_access
+that 18 22 224 228 O
+is 23 25 229 231 O
+not 26 29 232 235 O
+shared 30 36 236 242 O
+with 37 41 243 247 O
+other 42 47 248 253 O
+persons 48 55 254 261 O
+
+Self 0 4 262 266 O
+- 4 5 266 267 O
+identify 5 13 267 275 O
+as 14 16 276 278 O
+African 17 24 279 286 B-ethnicity
+American 25 33 287 295 I-ethnicity
+/ 33 34 295 296 O
+Black 34 39 296 301 O
+

@@ -1,0 +1,60 @@
+allergy 0 7 0 7 O
+to 8 10 8 10 O
+CHG 11 14 11 14 B-allergy_name
+
+between 0 7 15 22 O
+18 8 10 23 25 B-lower_bound
+- 11 12 26 27 O
+81 13 15 28 30 B-upper_bound
+years 16 21 31 36 I-upper_bound
+of 22 24 37 39 O
+age 25 28 40 43 B-age
+
+bilateral 0 9 44 53 O
+reconstruction 10 24 54 68 B-treatment
+using 25 30 69 74 O
+other 31 36 75 80 O
+techniques 37 47 81 91 O
+
+candidates 0 10 92 102 O
+for 11 14 103 106 O
+immediate 15 24 107 116 O
+breast 25 31 117 123 B-treatment
+reconstruction 32 46 124 138 I-treatment
+with 47 51 139 143 I-treatment
+tissue 52 58 144 150 I-treatment
+expanders 59 68 151 160 I-treatment
+
+patients 0 8 161 169 O
+allergic 9 17 170 178 O
+to 18 20 179 181 O
+one 21 24 182 185 O
+or 25 27 186 188 O
+more 28 32 189 193 O
+components 33 43 194 204 O
+of 44 46 205 207 O
+the 47 50 208 211 O
+antibiotic 51 61 212 222 B-allergy_name
+solution 62 70 223 231 O
+
+undergoing 0 10 232 242 O
+bilateral 11 20 243 252 B-treatment
+mastectomy 21 31 253 263 I-treatment
+
+undergoing 0 10 264 274 O
+unilateral 11 21 275 285 B-treatment
+mastectomy 22 32 286 296 I-treatment
+and 33 36 297 300 I-treatment
+reconstruction 37 51 301 315 I-treatment
+
+younger 0 7 316 323 O
+than 8 12 324 328 O
+18 13 15 329 331 B-lower_bound
+and 16 19 332 335 O
+older 20 25 336 341 O
+than 26 30 342 346 O
+81 31 33 347 349 B-upper_bound
+years 34 39 350 355 I-upper_bound
+of 40 42 356 358 O
+age 43 46 359 362 B-age
+

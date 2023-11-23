@@ -1,0 +1,116 @@
+Active 0 6 0 6 B-chronic_disease
+suicidal 7 15 7 15 I-chronic_disease
+/ 15 16 15 16 O
+homicidal 16 25 16 25 B-chronic_disease
+ideation 26 34 26 34 I-chronic_disease
+, 34 35 34 35 O
+intent 36 42 36 42 O
+, 42 43 42 43 O
+or 44 46 44 46 O
+plan 47 51 47 51 O
+
+Age 0 3 52 55 B-age
+18 4 6 56 58 B-lower_bound
+- 6 7 58 59 O
+70 7 9 59 61 B-upper_bound
+
+Bipolar 0 7 62 69 B-chronic_disease
+disorder 8 16 70 78 I-chronic_disease
+
+Current 0 7 79 86 O
+organic 8 15 87 94 B-chronic_disease
+mental 16 22 95 101 I-chronic_disease
+disorder 23 31 102 110 I-chronic_disease
+
+Diagnosed 0 9 111 120 O
+with 10 14 121 125 O
+PTSD 15 19 126 130 B-chronic_disease
+
+English 0 7 131 138 B-language_fluency
+- 7 8 138 139 I-language_fluency
+speaking 8 16 139 147 I-language_fluency
+adults 17 23 148 154 O
+
+History 0 7 155 162 O
+of 8 10 163 165 O
+seizures 11 19 166 174 B-chronic_disease
+
+Hypersensitivity 0 16 175 191 O
+to 17 19 192 194 O
+cycloserine 20 31 195 206 B-allergy_name
+
+Pregnant 0 8 207 215 B-pregnancy
+
+Schizophrenia 0 13 216 229 B-chronic_disease
+or 14 16 230 232 O
+symptoms 17 25 233 241 O
+of 26 28 242 244 O
+psychosis 29 38 245 254 B-chronic_disease
+/ 38 39 254 255 O
+delusions 39 48 255 264 B-chronic_disease
+
+Significant 0 11 265 276 O
+health 12 18 277 283 O
+impairment 19 29 284 294 O
+, 29 30 294 295 O
+including 31 40 296 305 O
+renal 41 46 306 311 B-chronic_disease
+disease 47 54 312 319 I-chronic_disease
+
+Survivor 0 8 320 328 O
+of 9 11 329 331 O
+a 12 13 332 333 O
+variety 14 21 334 341 O
+of 22 24 342 344 O
+traumas 25 32 345 352 B-chronic_disease
+( 33 34 353 354 O
+e.g. 34 38 354 358 O
+, 38 39 358 359 O
+motor 40 45 360 365 O
+vehicle 46 53 366 373 O
+and 54 57 374 377 O
+accidents 58 67 378 387 O
+, 67 68 387 388 O
+burns 69 74 389 394 O
+and 75 78 395 398 O
+others 79 85 399 405 O
+injuries 86 94 406 414 O
+, 94 95 414 415 O
+combat 96 102 416 422 O
+, 102 103 422 423 O
+World 104 109 424 429 O
+Trade 110 115 430 435 O
+Center 116 122 436 442 O
+attack 123 129 443 449 O
+, 129 130 449 450 O
+etc 131 134 451 454 O
+. 134 135 454 455 O
+) 135 136 455 456 O
+
+Taking 0 6 457 463 O
+oral 7 11 464 468 B-treatment
+anticoagulant 12 25 469 482 I-treatment
+medication 26 36 483 493 O
+, 36 37 493 494 O
+ethionamide 38 49 495 506 B-treatment
+( 50 51 507 508 I-treatment
+Trecator 51 59 508 516 I-treatment
+- 59 60 516 517 I-treatment
+SC 60 62 517 519 I-treatment
+) 62 63 519 520 I-treatment
+, 63 64 520 521 O
+isoniazid 65 74 522 531 B-treatment
+( 75 76 532 533 I-treatment
+INH 76 79 533 536 I-treatment
+) 79 80 536 537 I-treatment
+, 80 81 537 538 O
+or 82 84 539 541 O
+anti 85 89 542 546 B-treatment
+- 89 90 546 547 I-treatment
+depressant 90 100 547 557 I-treatment
+medication 101 111 558 568 I-treatment
+
+Use 0 3 569 572 O
+of 4 6 573 575 O
+pacemaker 7 16 576 585 B-treatment
+

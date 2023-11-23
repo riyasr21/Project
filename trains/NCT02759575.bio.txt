@@ -1,0 +1,81 @@
+Anticipated 0 11 0 11 B-clinical_variable
+survival 12 20 12 20 I-clinical_variable
+minimum 21 28 21 28 O
+of 29 31 29 31 O
+12 32 34 32 34 B-lower_bound
+months 35 41 35 41 I-lower_bound
+
+Biopsy 0 6 42 48 B-treatment
+- 6 7 48 49 O
+proven 7 13 49 55 O
+
+Distant 0 7 56 63 B-cancer
+metastasis 8 18 64 74 I-cancer
+
+HIV 0 3 75 78 B-chronic_disease
+
+Known 0 5 79 84 O
+history 6 13 85 92 O
+of 14 16 93 95 O
+active 17 23 96 102 B-chronic_disease
+tuberculosis 24 36 103 115 I-chronic_disease
+( 37 38 116 117 I-chronic_disease
+TB 38 40 117 119 I-chronic_disease
+) 40 41 119 120 I-chronic_disease
+
+Performance 0 11 121 132 B-clinical_variable
+status 12 18 133 139 I-clinical_variable
+0 19 20 140 141 B-lower_bound
+or 21 23 142 144 O
+1 24 25 145 146 B-upper_bound
+on 26 28 147 149 O
+Eastern 29 36 150 157 B-clinical_variable
+Cooperative 37 48 158 169 I-clinical_variable
+Oncology 49 57 170 178 I-clinical_variable
+Group 58 63 179 184 I-clinical_variable
+Performance 64 75 185 196 I-clinical_variable
+Scale 76 81 197 202 I-clinical_variable
+
+Prior 0 5 203 208 B-treatment
+radiation 6 15 209 218 I-treatment
+therapy 16 23 219 226 I-treatment
+to 24 26 227 229 I-treatment
+the 27 30 230 233 I-treatment
+larynx 31 37 234 240 I-treatment
+area 38 42 241 245 I-treatment
+or 43 45 246 248 I-treatment
+involved 46 54 249 257 I-treatment
+neck 55 59 258 262 I-treatment
+
+autoimmune 0 10 263 273 B-chronic_disease
+disease 11 18 274 281 I-chronic_disease
+
+previously 0 10 282 292 O
+untreated 11 20 293 302 O
+stage 21 26 303 308 B-cancer
+III 27 30 309 312 I-cancer
+or 31 33 313 315 I-cancer
+IV 34 36 316 318 I-cancer
+squamous 37 45 319 327 I-cancer
+cell 46 50 328 332 I-cancer
+carcinoma 51 60 333 342 I-cancer
+of 61 63 343 345 I-cancer
+the 64 67 346 349 I-cancer
+larynx 68 74 350 356 I-cancer
+
+tumor 0 5 357 362 B-cancer
+largely 6 13 363 370 O
+penetrating 14 25 371 382 O
+into 26 30 383 387 O
+base 31 35 388 392 O
+of 36 38 393 395 O
+tongue 39 45 396 402 O
+and 46 49 403 406 O
+resulting 50 59 407 416 O
+in 60 62 417 419 O
+inability 63 72 420 429 O
+to 73 75 430 432 O
+swallow 76 83 433 440 O
+at 84 86 441 443 O
+baseline 87 95 444 452 O
+

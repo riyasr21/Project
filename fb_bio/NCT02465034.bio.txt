@@ -1,0 +1,83 @@
+Age 0 3 0 3 B-age
+between 4 11 4 11 O
+18 12 14 12 14 B-lower_bound
+- 14 15 14 15 O
+85 15 17 15 17 B-upper_bound
+years 18 23 18 23 I-upper_bound
+
+Age 0 3 24 27 B-age
+outside 4 11 28 35 O
+the 12 15 36 39 O
+age 16 19 40 43 B-age
+range 20 25 44 49 O
+of 26 28 50 52 O
+18 29 31 53 55 B-lower_bound
+- 31 32 55 56 O
+85 32 34 56 58 B-upper_bound
+years 35 40 59 64 I-upper_bound
+
+Aphasia 0 7 65 72 B-chronic_disease
+( 8 9 73 74 O
+score 9 14 74 79 O
+< 15 16 80 81 O
+13 17 19 82 84 B-upper_bound
+on 20 22 85 87 O
+the 23 26 88 91 O
+Frenchay 27 35 92 100 B-clinical_variable
+Aphasia 36 43 101 108 I-clinical_variable
+Screen 44 50 109 115 I-clinical_variable
+) 50 51 115 116 O
+
+Contraindications 0 17 117 134 O
+to 18 20 135 137 O
+Transcranial 21 33 138 150 B-treatment
+Magnetic 34 42 151 159 I-treatment
+Stimulation 43 54 160 171 I-treatment
+
+History 0 7 172 179 O
+of 8 10 180 182 O
+a 11 12 183 184 O
+major 13 18 185 190 B-chronic_disease
+psychiatric 19 30 191 202 I-chronic_disease
+diagnosis 31 40 203 212 O
+
+History 0 7 213 220 O
+of 8 10 221 223 O
+a 11 12 224 225 O
+neurodegenerative 13 30 226 243 B-chronic_disease
+disorder 31 39 244 252 I-chronic_disease
+
+Individuals 0 11 253 264 O
+with 12 16 265 269 O
+a 17 18 270 271 O
+first 19 24 272 277 O
+time 25 29 278 282 O
+stroke 30 36 283 289 B-chronic_disease
+that 37 41 290 294 O
+affects 42 49 295 302 O
+the 50 53 303 306 O
+corona 54 60 307 313 O
+radiata 61 68 314 321 O
+and/or 69 75 322 328 O
+internal 76 84 329 337 O
+capsule 85 92 338 345 O
+
+Middle 0 6 346 352 B-chronic_disease
+cerebral 7 15 353 361 I-chronic_disease
+artery 16 22 362 368 I-chronic_disease
+stroke 23 29 369 375 I-chronic_disease
+
+Signs 0 5 376 381 O
+of 6 8 382 384 O
+dementia 9 17 385 393 B-chronic_disease
+( 18 19 394 395 O
+score 19 24 395 400 O
+< 25 26 401 402 O
+24 27 29 403 405 B-upper_bound
+on 30 32 406 408 O
+the 33 36 409 412 O
+Montreal 37 45 413 421 O
+Cognitive 46 55 422 431 O
+Assessment 56 66 432 442 O
+) 66 67 442 443 O
+

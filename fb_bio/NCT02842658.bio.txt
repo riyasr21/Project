@@ -1,0 +1,86 @@
+Acute 0 5 0 5 B-chronic_disease
+myocarditis 6 17 6 17 I-chronic_disease
+
+Complex 0 7 18 25 O
+ventricular 8 19 26 37 B-chronic_disease
+arrhythmias 20 31 38 49 I-chronic_disease
+
+Myocardial 0 10 50 60 B-chronic_disease
+infarction 11 21 61 71 I-chronic_disease
+in 22 24 72 74 O
+the 25 28 75 78 O
+past 29 33 79 83 B-upper_bound
+4 34 35 84 85 I-upper_bound
+weeks 36 41 86 91 I-upper_bound
+
+New 0 3 92 95 B-chronic_disease
+York 4 8 96 100 I-chronic_disease
+Heart 9 14 101 106 I-chronic_disease
+Association 15 26 107 118 I-chronic_disease
+class 27 32 119 124 I-chronic_disease
+IV 33 35 125 127 I-chronic_disease
+symptoms 36 44 128 136 O
+
+Pregnant 0 8 137 145 B-pregnancy
+Women 9 14 146 151 B-gender
+
+Sodium 0 6 152 158 B-chronic_disease
+and/or 7 13 159 165 O
+Potassium 14 23 166 175 B-chronic_disease
+≥ 24 25 176 177 O
+Grade 26 31 178 183 B-lower_bound
+2 32 33 184 185 I-lower_bound
+
+Subjects 0 8 186 194 O
+must 9 13 195 199 O
+be 14 16 200 202 O
+scheduled 17 26 203 212 O
+by 27 29 213 215 O
+their 30 35 216 221 O
+oncologist 36 46 222 232 O
+to 47 49 233 235 O
+undergo 50 57 236 243 O
+anthracycline 58 71 244 257 B-treatment
+based 72 77 258 263 O
+chemotherapy 78 90 264 276 B-treatment
+( 91 92 277 278 O
+doxorubicin 92 103 278 289 B-treatment
+and 104 107 290 293 O
+cyclophosphamide 108 124 294 310 B-treatment
+) 124 125 310 311 O
+in 126 128 312 314 O
+the 129 132 315 318 O
+neoadjuvant 133 144 319 330 O
+/ 144 145 330 331 O
+adjuvant 145 153 331 339 O
+setting 154 161 340 347 O
+
+Subjects 0 8 348 356 O
+will 9 13 357 361 O
+have 14 18 362 366 O
+been 19 23 367 371 O
+recently 24 32 372 380 O
+diagnosed 33 42 381 390 O
+with 43 47 391 395 O
+breast 48 54 396 402 B-cancer
+cancer 55 61 403 409 I-cancer
+
+Symptomatic 0 11 410 421 B-chronic_disease
+severe 12 18 422 428 I-chronic_disease
+aortic 19 25 429 435 I-chronic_disease
+stenosis 26 34 436 444 I-chronic_disease
+
+Uncompensated 0 13 445 458 B-chronic_disease
+heart 14 19 459 464 I-chronic_disease
+failure 20 27 465 472 I-chronic_disease
+
+Unstable 0 8 473 481 B-chronic_disease
+angina 9 15 482 488 I-chronic_disease
+
+Untreated 0 9 489 498 O
+high 10 14 499 503 B-chronic_disease
+- 14 15 503 504 I-chronic_disease
+risk 15 19 504 508 I-chronic_disease
+proliferative 20 33 509 522 I-chronic_disease
+retinopathy 34 45 523 534 I-chronic_disease
+

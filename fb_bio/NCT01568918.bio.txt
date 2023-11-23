@@ -1,0 +1,165 @@
+< 0 1 0 1 O
+35 2 4 2 4 B-upper_bound
+years 5 10 5 10 I-upper_bound
+
+Cervical 0 8 11 19 B-treatment
+Anterior 9 17 20 28 I-treatment
+Corpectomy 18 28 29 39 I-treatment
+
+Cervical 0 8 40 48 B-treatment
+Anterior 9 17 49 57 I-treatment
+Discectomy 18 28 58 68 I-treatment
+and 29 32 69 72 I-treatment
+Fusion 33 39 73 79 I-treatment
+
+Cervical 0 8 80 88 B-treatment
+Anterior 9 17 89 97 I-treatment
+/ 17 18 97 98 I-treatment
+Posterior 18 27 98 107 I-treatment
+Fusion 28 34 108 114 I-treatment
+
+Cervical 0 8 115 123 B-treatment
+Foraminotomy 9 21 124 136 I-treatment
+
+Cervical 0 8 137 145 B-treatment
+Laminectomy 9 20 146 157 I-treatment
+
+Cervical 0 8 158 166 B-treatment
+Posterior 9 18 167 176 I-treatment
+Discectomy 19 29 177 187 I-treatment
+
+Cervical 0 8 188 196 B-treatment
+Posterior 9 18 197 206 I-treatment
+Fusion 19 25 207 213 I-treatment
+
+History 0 7 214 221 O
+of 8 10 222 224 O
+prostatectomy 11 24 225 238 B-treatment
+or 25 27 239 241 O
+urologic 28 36 242 250 B-treatment
+surgery 37 44 251 258 I-treatment
+involving 45 54 259 268 O
+the 55 58 269 272 O
+bladder 59 66 273 280 O
+or 67 69 281 283 O
+urethra 70 77 284 291 O
+
+Lumbar 0 6 292 298 B-chronic_disease
+Anterior 7 15 299 307 I-chronic_disease
+Fusion 16 22 308 314 I-chronic_disease
+
+Lumbar 0 6 315 321 B-treatment
+Discectomy 7 17 322 332 I-treatment
+( 18 19 333 334 O
+METRx 19 24 334 339 O
+or 25 27 340 342 O
+Open 28 32 343 347 O
+) 32 33 347 348 O
+
+Lumbar 0 6 349 355 B-treatment
+Foraminotomy 7 19 356 368 I-treatment
+
+Lumbar 0 6 369 375 B-treatment
+Interbody 7 16 376 385 I-treatment
+Fusion 17 23 386 392 I-treatment
+
+Lumbar 0 6 393 399 B-treatment
+Laminectomy 7 18 400 411 I-treatment
+
+Lumbar 0 6 412 418 B-treatment
+Posterolateral 7 21 419 433 I-treatment
+Fusion 22 28 434 440 I-treatment
+
+Males 0 5 441 446 B-gender
+& 6 7 447 448 I-gender
+Females 8 15 449 456 I-gender
+
+Myelopathy 0 10 457 467 B-chronic_disease
+with 11 15 468 472 O
+bladder 16 23 473 480 B-chronic_disease
+dysfunction 24 35 481 492 I-chronic_disease
+
+Patients 0 8 493 501 O
+currently 9 18 502 511 O
+taking 19 25 512 518 O
+an 26 28 519 521 O
+alpha 29 34 522 527 B-treatment
+- 34 35 527 528 I-treatment
+antagonist 35 45 528 538 I-treatment
+
+Patients 0 8 539 547 O
+taking 9 15 548 554 O
+strong 16 22 555 561 O
+inhibitors 23 33 562 572 B-treatment
+of 34 36 573 575 I-treatment
+CYP3A4 37 43 576 582 I-treatment
+( 44 45 583 584 O
+ketoconazole 45 57 584 596 B-treatment
+, 57 58 596 597 O
+itraconazole 59 71 598 610 B-treatment
+, 71 72 610 611 O
+clarithromycin 73 87 612 626 B-treatment
+, 87 88 626 627 O
+ritonavir 89 98 628 637 B-treatment
+, 98 99 637 638 O
+indinavir 100 109 639 648 B-treatment
+/ 109 110 648 649 O
+ritonavir 110 119 649 658 O
+, 119 120 658 659 O
+lopinavir 121 130 660 669 B-treatment
+/ 130 131 669 670 O
+ritonavir 131 140 670 679 O
+, 140 141 679 680 O
+and 142 145 681 684 O
+conivaptan 146 156 685 695 B-treatment
+) 156 157 695 696 O
+
+Patients 0 8 697 705 O
+with 9 13 706 710 O
+a 14 15 711 712 O
+mental 16 22 713 719 B-chronic_disease
+disability 23 33 720 730 I-chronic_disease
+
+Patients 0 8 731 739 O
+with 9 13 740 744 O
+history 14 21 745 752 O
+of 22 24 753 755 O
+allergy 25 32 756 763 O
+or 33 35 764 766 O
+sensitivity 36 47 767 778 O
+to 48 50 779 781 O
+tamsulosin 51 61 782 792 B-allergy_name
+or 62 64 793 795 O
+other 65 70 796 801 O
+alpha 71 76 802 807 B-allergy_name
+- 76 77 807 808 I-allergy_name
+antagonist 77 87 808 818 I-allergy_name
+( 88 89 819 820 O
+alfuzosin 89 98 820 829 B-allergy_name
+, 98 99 829 830 O
+doxazosin 100 109 831 840 B-allergy_name
+, 109 110 840 841 O
+prazosin 111 119 842 850 B-allergy_name
+, 119 120 850 851 O
+terazosin 121 130 852 861 B-allergy_name
+, 130 131 861 862 O
+tamsulosin 132 142 863 873 O
+, 142 143 873 874 O
+and 144 147 875 878 O
+phenoxybenzamine 148 164 879 895 B-allergy_name
+) 164 165 895 896 O
+
+Severe 0 6 897 903 O
+liver 7 12 904 909 B-chronic_disease
+disease 13 20 910 917 I-chronic_disease
+or 21 23 918 920 O
+end 24 27 921 924 B-chronic_disease
+- 27 28 924 925 I-chronic_disease
+stage 28 33 925 930 I-chronic_disease
+renal 34 39 931 936 I-chronic_disease
+disease 40 47 937 944 I-chronic_disease
+
+≥ 0 1 945 946 O
+35 2 4 947 949 B-lower_bound
+years 5 10 950 955 I-lower_bound
+

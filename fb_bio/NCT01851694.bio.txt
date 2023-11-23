@@ -1,0 +1,231 @@
+Abnormal 0 8 0 8 B-chronic_disease
+renal 9 14 9 14 I-chronic_disease
+function 15 23 15 23 I-chronic_disease
+
+Acute 0 5 24 29 B-chronic_disease
+illness 6 13 30 37 I-chronic_disease
+or 14 16 38 40 O
+changes 17 24 41 48 O
+in 25 27 49 51 O
+therapy 28 35 52 59 B-treatment
+( 36 37 60 61 O
+including 37 46 61 70 O
+antibiotics 47 58 71 82 B-treatment
+) 58 59 82 83 O
+
+Age 0 3 84 87 B-age
+greater 4 11 88 95 O
+than 12 16 96 100 O
+or 17 19 101 103 O
+equal 20 25 104 109 O
+to 26 28 110 112 O
+18y 29 32 113 116 B-lower_bound
+on 33 35 117 119 O
+date 36 40 120 124 O
+of 41 43 125 127 O
+consent 44 51 128 135 O
+
+CFRD 0 4 136 140 B-chronic_disease
+with 5 9 141 145 O
+fasting 10 17 146 153 B-chronic_disease
+hyperglycemia 18 31 154 167 I-chronic_disease
+
+Confirmed 0 9 168 177 O
+diagnosis 10 19 178 187 O
+of 20 22 188 190 O
+cystic 23 29 191 197 B-chronic_disease
+fibrosis 30 38 198 206 I-chronic_disease
+, 38 39 206 207 O
+defined 40 47 208 215 O
+by 48 50 216 218 O
+positive 51 59 219 227 O
+sweat 60 65 228 233 O
+test 66 70 234 238 O
+or 71 73 239 241 O
+CFTR 74 78 242 246 O
+mutation 79 87 247 255 O
+analysis 88 96 256 264 O
+according 97 106 265 274 O
+to 107 109 275 277 O
+CFF 110 113 278 281 O
+diagnostic 114 124 282 292 O
+criteria 125 133 293 301 O
+
+Established 0 11 302 313 O
+diagnosis 12 21 314 323 O
+of 22 24 324 326 O
+non 25 28 327 330 B-chronic_disease
+- 28 29 330 331 I-chronic_disease
+CF 29 31 331 333 I-chronic_disease
+diabetes 32 40 334 342 I-chronic_disease
+( 41 42 343 344 O
+i.e. 42 46 344 348 O
+T1D 47 50 349 352 B-chronic_disease
+) 50 51 352 353 O
+
+For 0 3 354 357 O
+female 4 10 358 364 B-gender
+subjects 11 19 365 373 I-gender
+, 19 20 373 374 O
+negative 21 29 375 383 B-pregnancy
+urine 30 35 384 389 I-pregnancy
+pregnancy 36 45 390 399 I-pregnancy
+test 46 50 400 404 O
+at 51 53 405 407 O
+enrollment 54 64 408 418 O
+
+Fundoplication 0 14 419 433 B-treatment
+- 14 15 433 434 O
+related 15 22 434 441 O
+dumping 23 30 442 449 B-chronic_disease
+syndrome 31 39 450 458 I-chronic_disease
+
+Hemoglobin 0 10 459 469 B-clinical_variable
+less 11 15 470 474 O
+than10g 16 23 475 482 O
+/ 23 24 482 483 I-upper_bound
+dL 24 26 483 485 I-upper_bound
+
+History 0 7 486 493 O
+of 8 10 494 496 O
+clinically 11 21 497 507 O
+symptomatic 22 33 508 519 B-chronic_disease
+pancreatitis 34 46 520 532 I-chronic_disease
+within 47 53 533 539 O
+last 54 58 540 544 O
+year 59 63 545 549 O
+
+Medical 0 7 550 557 O
+co 8 10 558 560 O
+- 10 11 560 561 O
+morbidities 11 22 561 572 O
+that 23 27 573 577 O
+are 28 31 578 581 O
+not 32 35 582 585 O
+CF 36 38 586 588 O
+- 38 39 588 589 O
+related 39 46 589 596 O
+or 47 49 597 599 O
+are 50 53 600 603 O
+unstable 54 62 604 612 O
+per 63 66 613 616 O
+investigator 67 79 617 629 O
+opinion 80 87 630 637 O
+( 88 89 638 639 O
+i.e. 89 93 639 643 O
+history 94 101 644 651 O
+of 102 104 652 654 O
+bleeding 105 113 655 663 B-chronic_disease
+disorders 114 123 664 673 I-chronic_disease
+, 123 124 673 674 O
+immunodeficiency 125 141 675 691 B-chronic_disease
+) 141 142 691 692 O
+
+Pancreatic 0 10 693 703 B-chronic_disease
+insufficiency 11 24 704 717 I-chronic_disease
+
+Prior 0 5 718 723 B-treatment
+lung 6 10 724 728 I-treatment
+or 11 13 729 731 I-treatment
+liver 14 19 732 737 I-treatment
+transplant 20 30 738 748 I-treatment
+
+Recent 0 6 749 755 B-treatment
+OGTT 7 11 756 760 I-treatment
+consistent 12 22 761 771 O
+with 23 27 772 776 O
+Indeterminate 28 41 777 790 O
+- 41 42 790 791 O
+GT 42 44 791 793 O
+, 44 45 793 794 O
+IGT 46 49 795 798 O
+, 49 50 798 799 O
+CFRD 51 55 800 804 O
+w/o 56 59 805 808 O
+fasting 60 67 809 816 O
+hyperglycemia 68 81 817 830 O
+
+Severe 0 6 831 837 O
+CF 7 9 838 840 B-chronic_disease
+liver 10 15 841 846 I-chronic_disease
+disease 16 23 847 854 I-chronic_disease
+, 23 24 854 855 O
+as 25 27 856 858 O
+defined 28 35 859 866 O
+by 36 38 867 869 O
+portal 39 45 870 876 B-chronic_disease
+hypertension 46 58 877 889 I-chronic_disease
+
+Treatment 0 9 890 899 B-treatment
+with 10 14 900 904 I-treatment
+oral 15 19 905 909 I-treatment
+
+an 0 2 910 912 O
+established 3 14 913 924 O
+diagnosis 15 24 925 934 O
+of 25 27 935 937 O
+CFRD 28 32 938 942 B-chronic_disease
+without 33 40 943 950 O
+fasting 41 48 951 958 B-chronic_disease
+hyperglycemia 49 62 959 972 I-chronic_disease
+
+defined 0 7 973 980 O
+as 8 10 981 983 O
+Creatinine 11 21 984 994 B-clinical_variable
+greater 22 29 995 1002 O
+than 30 34 1003 1007 O
+2x 35 37 1008 1010 B-lower_bound
+upper 38 43 1011 1016 I-lower_bound
+limit 44 49 1017 1022 I-lower_bound
+of 50 52 1023 1025 I-lower_bound
+normal 53 59 1026 1032 I-lower_bound
+( 60 61 1033 1034 I-lower_bound
+ULN 61 64 1034 1037 I-lower_bound
+) 64 65 1037 1038 I-lower_bound
+
+fasting 0 7 1039 1046 B-clinical_variable
+glucose 8 15 1047 1054 I-clinical_variable
+greater 16 23 1055 1062 O
+than126 24 31 1063 1070 O
+mg 32 34 1071 1073 I-lower_bound
+/ 34 35 1073 1074 I-lower_bound
+dL 35 37 1074 1076 I-lower_bound
+
+intravenous 0 11 1077 1088 O
+corticosteroids 12 27 1089 1104 B-treatment
+within 28 34 1105 1111 O
+6 35 36 1112 1113 B-upper_bound
+weeks 37 42 1114 1119 I-upper_bound
+of 43 45 1120 1122 O
+study 46 51 1123 1128 O
+
+potassium 0 9 1129 1138 B-clinical_variable
+greater 10 17 1139 1146 O
+than 18 22 1147 1151 O
+5.5mEq 23 29 1152 1158 B-lower_bound
+/ 29 30 1158 1159 I-lower_bound
+L 30 31 1159 1160 I-lower_bound
+on 32 34 1161 1163 O
+non 35 38 1164 1167 O
+- 38 39 1167 1168 O
+hemolyzed 39 48 1168 1177 O
+specimen 49 57 1178 1186 O
+
+within 0 6 1187 1193 O
+6 7 8 1194 1195 B-upper_bound
+weeks 9 14 1196 1201 I-upper_bound
+prior 15 20 1202 1207 I-upper_bound
+to 21 23 1208 1210 O
+study 24 29 1211 1216 O
+procedures 30 40 1217 1227 O
+
+within 0 6 1228 1234 O
+90 7 9 1235 1237 B-upper_bound
+days 10 14 1238 1242 I-upper_bound
+of 15 17 1243 1245 O
+Visit 18 23 1246 1251 O
+1 24 25 1252 1253 O
+or 26 28 1254 1256 O
+at 29 31 1257 1259 O
+Screening 32 41 1260 1269 O
+

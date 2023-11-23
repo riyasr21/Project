@@ -1,0 +1,156 @@
+a 0 1 0 1 O
+current 2 9 2 9 O
+, 9 10 9 10 O
+clinically 11 21 11 21 O
+significant 22 33 22 33 O
+physical 34 42 34 42 B-chronic_disease
+disease 43 50 43 50 I-chronic_disease
+or 51 53 51 53 O
+abnormality 54 65 54 65 O
+
+a 0 1 66 67 O
+history 2 9 68 75 O
+of 10 12 76 78 O
+hypersensitivity 13 29 79 95 O
+to 30 32 96 98 O
+TOP 33 36 99 102 B-allergy_name
+
+able 0 4 103 107 B-language_fluency
+to 5 7 108 110 I-language_fluency
+read 8 12 111 115 I-language_fluency
+English 13 20 116 123 I-language_fluency
+at 21 23 124 126 O
+the 24 27 127 130 O
+8th 28 31 131 134 O
+grade 32 37 135 140 O
+or 38 40 141 143 O
+higher 41 47 144 150 O
+level 48 53 151 156 O
+and 54 57 157 160 O
+without 58 65 161 168 O
+gross 66 71 169 174 O
+cognitive 72 81 175 184 O
+impairment 82 92 185 195 O
+
+age 0 3 196 199 B-age
+18 4 6 200 202 B-lower_bound
+to 7 9 203 205 O
+70 10 12 206 208 B-upper_bound
+years 13 18 209 214 I-upper_bound
+
+and 0 3 215 218 O
+have 4 8 219 223 O
+a 9 10 224 225 O
+negative 11 19 226 234 B-pregnancy
+serum 20 25 235 240 I-pregnancy
+pregnancy 26 35 241 250 I-pregnancy
+test 36 40 251 255 O
+prior 41 46 256 261 O
+to 47 49 262 264 O
+initiation 50 60 265 275 O
+of 61 63 276 278 O
+treatment 64 73 279 288 O
+
+bilateral 0 9 289 298 B-treatment
+oophorectomy 10 22 299 311 I-treatment
+
+bipolar 0 7 312 319 B-chronic_disease
+disorder 8 16 320 328 I-chronic_disease
+
+current 0 7 329 336 O
+moderate 8 16 337 345 O
+- 16 17 345 346 O
+to 17 19 346 348 O
+- 19 20 348 349 O
+severe 20 26 349 355 O
+alcohol 27 34 356 363 O
+withdrawal 35 45 364 374 O
+requiring 46 55 375 384 O
+pharmacological 56 71 385 400 B-treatment
+treatment 72 81 401 410 I-treatment
+( 82 83 411 412 O
+see 83 86 412 415 O
+Section 87 94 416 423 O
+D.4.a 95 100 424 429 O
+. 100 101 429 430 O
+regarding 102 111 431 440 O
+alcohol 112 119 441 448 O
+detoxification 120 134 449 463 O
+) 134 135 463 464 O
+
+current 0 7 465 472 O
+regular 8 15 473 480 O
+treatment 16 25 481 490 O
+with 26 30 491 495 O
+a 31 32 496 497 O
+psychotropic 33 45 498 510 B-treatment
+medication 46 56 511 521 I-treatment
+, 56 57 521 522 O
+including 58 67 523 532 O
+medications 68 79 533 544 O
+that 80 84 545 549 O
+, 84 85 549 550 O
+when 86 90 551 555 O
+combined 91 99 556 564 O
+with 100 104 565 569 O
+alcohol 105 112 570 577 O
+, 112 113 577 578 O
+present 114 121 579 586 O
+a 122 123 587 588 O
+risk 124 128 589 593 O
+of 129 131 594 596 O
+overdose 132 140 597 605 O
+
+current 0 7 606 613 O
+treatment 8 17 614 623 B-treatment
+with 18 22 624 628 I-treatment
+TOP 23 26 629 632 I-treatment
+or 27 29 633 635 O
+a 30 31 636 637 O
+medication 32 42 638 648 O
+approved 43 51 649 657 O
+for 52 55 658 661 O
+AUD 56 59 662 665 O
+
+eating 0 6 666 672 B-chronic_disease
+disorder 7 15 673 681 I-chronic_disease
+
+history 0 7 682 689 O
+of 8 10 690 692 O
+glaucoma 11 19 693 701 B-chronic_disease
+
+imminent 0 8 702 710 B-chronic_disease
+suicide 9 16 711 718 I-chronic_disease
+or 17 19 719 721 I-chronic_disease
+violence 20 28 722 730 I-chronic_disease
+risk 29 33 731 735 I-chronic_disease
+
+meeting 0 7 736 743 O
+at 8 10 744 746 O
+least 11 16 747 752 O
+4 17 18 753 754 B-lower_bound
+of 19 21 755 757 O
+11 22 24 758 760 B-upper_bound
+DSM-5 25 30 761 766 O
+AUD 31 34 767 770 O
+criteria 35 43 771 779 O
+
+schizophrenia 0 13 780 793 B-chronic_disease
+
+tubal 0 5 794 799 B-treatment
+ligation 6 14 800 808 I-treatment
+or 15 17 809 811 O
+are 18 21 812 815 O
+less 22 26 816 820 O
+than 27 31 821 825 O
+two 32 35 826 829 B-upper_bound
+years 36 41 830 835 I-upper_bound
+postmenopausal 42 56 836 850 O
+
+who 0 3 851 854 O
+have 4 8 855 859 O
+not 9 12 860 863 O
+had 13 16 864 867 O
+a 17 18 868 869 O
+hysterectomy 19 31 870 882 B-treatment
+

@@ -1,0 +1,58 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+greater 19 26 19 26 O
+
+has 0 3 27 30 O
+acute 4 9 31 36 B-chronic_disease
+/ 9 10 36 37 I-chronic_disease
+fulminant 10 19 37 46 I-chronic_disease
+liver 20 25 47 52 I-chronic_disease
+failure 26 33 53 60 I-chronic_disease
+
+registered 0 10 61 71 O
+as 11 13 72 74 O
+an 14 16 75 77 O
+active 17 23 78 84 O
+recipient 24 33 85 94 O
+on 34 36 95 97 O
+the 37 40 98 101 O
+UNOS 41 45 102 106 O
+waiting 46 53 107 114 O
+list 54 58 115 119 O
+for 59 62 120 123 O
+liver 63 68 124 129 B-treatment
+transplantation 69 84 130 145 I-treatment
+
+requiring 0 9 146 155 O
+all 10 13 156 159 O
+of 14 16 160 162 O
+the 17 20 163 166 O
+following 21 30 167 176 O
+at 31 33 177 179 O
+the 34 37 180 183 O
+time 38 42 184 188 O
+of 43 45 189 191 O
+transplantation 46 61 192 207 B-treatment
+: 61 62 207 208 O
+oxygen 63 69 209 215 B-treatment
+therapy 70 77 216 223 I-treatment
+, 77 78 223 224 O
+inotropic 79 88 225 234 B-treatment
+support 89 96 235 242 I-treatment
+, 96 97 242 243 O
+renal 98 103 244 249 B-treatment
+replacement 104 115 250 261 I-treatment
+therapy 116 123 262 269 I-treatment
+
+undergoing 0 10 270 280 O
+simultaneous 11 23 281 293 B-treatment
+transplantation 24 39 294 309 I-treatment
+of 40 42 310 312 O
+more 43 47 313 317 O
+than 48 52 318 322 O
+one 53 56 323 326 O
+organ 57 62 327 332 O
+

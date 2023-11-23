@@ -1,0 +1,130 @@
+BMI 0 3 0 3 B-bmi
+≤40 4 7 4 7 O
+kg 8 10 8 10 I-upper_bound
+/ 10 11 10 11 I-upper_bound
+m2 11 13 11 13 I-upper_bound
+
+Contraindications 0 17 14 31 O
+to 18 20 32 34 O
+or 21 23 35 37 O
+known 24 29 38 43 O
+drug 30 34 44 48 O
+interactions 35 47 49 61 O
+with 48 52 62 66 O
+local 53 58 67 72 B-allergy_name
+anesthetics 59 70 73 84 I-allergy_name
+
+Male 0 4 85 89 B-gender
+
+Patients 0 8 90 98 O
+scheduled 9 18 99 108 O
+to 19 21 109 111 O
+undergo 22 29 112 119 O
+unilateral 30 40 120 130 B-treatment
+shoulder 41 49 131 139 I-treatment
+surgery 50 57 140 147 I-treatment
+at 58 60 148 150 O
+Duke 61 65 151 155 O
+University 66 76 156 166 O
+Medical 77 84 167 174 O
+Center 85 91 175 181 O
+, 91 92 181 182 O
+including 93 102 183 192 O
+arthroscopic 103 115 193 205 B-treatment
+rotator 116 123 206 213 I-treatment
+cuff 124 128 214 218 I-treatment
+repair 129 135 219 225 I-treatment
+, 135 136 225 226 O
+acromioplasty 137 150 227 240 B-treatment
+, 150 151 240 241 O
+hemiarthroplasty 152 168 242 258 B-treatment
+, 168 169 258 259 O
+and 170 173 260 263 O
+total 174 179 264 269 B-treatment
+shoulder 180 188 270 278 I-treatment
+replacement 189 200 279 290 I-treatment
+
+Patients 0 8 291 299 O
+with 9 13 300 304 O
+chronic 14 21 305 312 B-chronic_disease
+pain 22 26 313 317 I-chronic_disease
+( 27 28 318 319 O
+pain 28 32 319 323 O
+existing 33 41 324 332 O
+for 42 45 333 336 O
+longer 46 52 337 343 O
+than 53 57 344 348 O
+6 58 59 349 350 B-lower_bound
+months 60 66 351 357 I-lower_bound
+) 66 67 357 358 O
+
+Pregnant 0 8 359 367 B-pregnancy
+women 9 14 368 373 B-gender
+
+Uncontrolled 0 12 374 386 O
+anxiety 13 20 387 394 B-chronic_disease
+
+abnormal 0 8 395 403 B-chronic_disease
+clotting 9 17 404 412 I-chronic_disease
+
+female 0 6 413 419 B-gender
+
+moderate 0 8 420 428 B-chronic_disease
+- 8 9 428 429 I-chronic_disease
+severe 9 15 429 435 I-chronic_disease
+COPD 16 20 436 440 I-chronic_disease
+( 21 22 441 442 O
+FEV1<80 22 29 442 449 B-clinical_variable
+% 29 30 449 450 I-upper_bound
+of 31 33 451 453 O
+normal 34 40 454 460 O
+values 41 47 461 467 O
+and/or 48 54 468 474 O
+FEV1 55 59 475 479 B-clinical_variable
+/ 59 60 479 480 I-clinical_variable
+FVC 60 63 480 483 I-clinical_variable
+< 64 65 484 485 O
+0.70 66 70 486 490 B-upper_bound
+) 70 71 490 491 O
+
+other 0 5 492 497 O
+psychiatric 6 17 498 509 B-chronic_disease
+disorder 18 26 510 518 I-chronic_disease
+
+presence 0 8 519 527 O
+of 9 11 528 530 O
+neurological 12 24 531 543 B-chronic_disease
+disorders 25 34 544 553 I-chronic_disease
+or 35 37 554 556 O
+cervical 38 46 557 565 B-chronic_disease
+spine 47 52 566 571 I-chronic_disease
+disease 53 60 572 579 I-chronic_disease
+
+skin 0 4 580 584 B-chronic_disease
+infection 5 14 585 594 I-chronic_disease
+involving 15 24 595 604 O
+the 25 28 605 608 O
+neck 29 33 609 613 O
+
+taking 0 6 614 620 O
+chronic 7 14 621 628 B-treatment
+opioids 15 22 629 636 I-treatment
+( 23 24 637 638 O
+greater 24 31 638 645 O
+than 32 36 646 650 O
+60 37 39 651 653 B-lower_bound
+morphine 40 48 654 662 I-lower_bound
+equivalents 49 60 663 674 I-lower_bound
+per 61 64 675 678 I-lower_bound
+day 65 68 679 682 I-lower_bound
+) 68 69 682 683 O
+at 70 72 684 686 O
+time 73 77 687 691 O
+of 78 80 692 694 O
+surgery 81 88 695 702 B-treatment
+
+≥18 0 3 703 706 O
+years 4 9 707 712 I-lower_bound
+of 10 12 713 715 O
+age 13 16 716 719 B-age
+

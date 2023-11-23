@@ -1,0 +1,14 @@
+English 0 7 0 7 B-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+Women 0 5 17 22 B-gender
+on 6 8 23 25 O
+hormonal 9 17 26 34 O
+birth 18 23 35 40 O
+control 24 31 41 48 O
+
+pregnant 0 8 49 57 B-pregnancy
+
+psychiatric 0 11 58 69 B-chronic_disease
+problems 12 20 70 78 I-chronic_disease
+

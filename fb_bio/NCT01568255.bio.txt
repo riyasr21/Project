@@ -1,0 +1,199 @@
+A 0 1 0 1 O
+co 2 4 2 4 O
+- 4 5 4 5 O
+existent 5 13 5 13 O
+diagnosis 14 23 14 23 O
+of 24 26 24 26 O
+primary 27 34 27 34 O
+hyperparathyroidism 35 54 35 54 B-chronic_disease
+within 55 61 55 61 O
+the 62 65 62 65 O
+previous 66 74 66 74 B-upper_bound
+6 75 76 75 76 I-upper_bound
+months 77 83 77 83 I-upper_bound
+
+A 0 1 84 85 O
+co 2 4 86 88 O
+- 4 5 88 89 O
+existent 5 13 89 97 O
+diagnosis 14 23 98 107 O
+of 24 26 108 110 O
+renal 27 32 111 116 B-chronic_disease
+calculi 33 40 117 124 I-chronic_disease
+within 41 47 125 131 O
+the 48 51 132 135 O
+previous 52 60 136 144 B-upper_bound
+6 61 62 145 146 I-upper_bound
+months 63 69 147 153 I-upper_bound
+
+AST 0 3 154 157 B-clinical_variable
+/ 3 4 157 158 O
+ALT 4 7 158 161 B-clinical_variable
+> 8 9 162 163 O
+3 10 11 164 165 B-lower_bound
+x 12 13 166 167 I-lower_bound
+ULN 14 17 168 171 I-lower_bound
+of 18 20 172 174 O
+the 21 24 175 178 O
+local 25 30 179 184 O
+reference 31 40 185 194 O
+range 41 46 195 200 O
+
+Age 0 3 201 204 B-age
+> 4 5 205 206 O
+18 6 8 207 209 B-lower_bound
+
+Albumin 0 7 210 217 B-clinical_variable
+adjusted 8 16 218 226 I-clinical_variable
+calcium 17 24 227 234 I-clinical_variable
+> 25 26 235 236 O
+2.55 27 31 237 241 B-lower_bound
+mmol 32 36 242 246 I-lower_bound
+/ 36 37 246 247 I-lower_bound
+L 37 38 247 248 I-lower_bound
+or 39 41 249 251 O
+< 42 43 252 253 O
+2.20 44 48 254 258 B-upper_bound
+mmol 49 53 259 263 I-upper_bound
+/ 53 54 263 264 I-upper_bound
+L 54 55 264 265 I-upper_bound
+
+Already 0 7 266 273 O
+taking 8 14 274 280 O
+Vitamin 15 22 281 288 B-treatment
+D 23 24 289 290 I-treatment
+supplements 25 36 291 302 I-treatment
+> 37 38 303 304 O
+1000 39 43 305 309 B-lower_bound
+IU 44 46 310 312 I-lower_bound
+/ 46 47 312 313 I-lower_bound
+day 47 50 313 316 I-lower_bound
+
+An 0 2 317 319 O
+indication 3 13 320 330 O
+to 14 16 331 333 O
+be 17 19 334 336 O
+on 20 22 337 339 O
+statin 23 29 340 346 B-treatment
+therapy 30 37 347 354 I-treatment
+
+Clinical 0 8 355 363 O
+diagnosis 9 18 364 373 O
+of 19 21 374 376 O
+overt 22 27 377 382 B-chronic_disease
+vitamin 28 35 383 390 I-chronic_disease
+D 36 37 391 392 I-chronic_disease
+deficiency 38 48 393 403 I-chronic_disease
+: 48 49 403 404 O
+osteomalacia 50 62 405 417 B-chronic_disease
+, 62 63 417 418 O
+rickets 64 71 419 426 B-chronic_disease
+, 71 72 426 427 O
+hypocalcemia 73 85 428 440 B-chronic_disease
+, 85 86 440 441 O
+hypophosphatemia 87 103 442 458 B-chronic_disease
+
+Continue 0 8 459 467 O
+a 9 10 468 469 O
+statin 11 17 470 476 B-treatment
+within 18 24 477 483 O
+the 25 28 484 487 O
+CYP3A4 29 35 488 494 B-treatment
+family 36 42 495 501 O
+
+Currently 0 9 502 511 O
+consuming 10 19 512 521 O
+Digoxin 20 27 522 529 B-treatment
+, 27 28 529 530 O
+as 29 31 531 533 O
+usage 32 37 534 539 O
+increases 38 47 540 549 O
+risk 48 52 550 554 O
+of 53 55 555 557 O
+hypercalcemia 56 69 558 571 B-chronic_disease
+
+English 0 7 572 579 B-language_fluency
+speaking 8 16 580 588 I-language_fluency
+patients 17 25 589 597 I-language_fluency
+onl 26 29 598 601 I-language_fluency
+
+Female 0 6 602 608 B-gender
+gender 7 13 609 615 O
+
+Lactating 0 9 616 625 O
+women 10 15 626 631 B-gender
+
+Malabsorption 0 13 632 645 B-chronic_disease
+syndrome 14 22 646 654 I-chronic_disease
+
+Metastatic 0 10 655 665 B-cancer
+malignancy 11 21 666 676 O
+
+Moderate 0 8 677 685 O
+to 9 11 686 688 O
+severe 12 18 689 695 O
+myopathic 19 28 696 705 B-chronic_disease
+pain 29 33 706 710 I-chronic_disease
+while 34 39 711 716 O
+on 40 42 717 719 O
+Simvastatin 43 54 720 731 B-treatment
+
+Myopathic 0 9 732 741 B-chronic_disease
+pain 10 14 742 746 I-chronic_disease
+that 15 19 747 751 O
+can 20 23 752 755 O
+not 23 26 755 758 O
+be 27 29 759 761 O
+attributed 30 40 762 772 O
+to 41 43 773 775 O
+other 44 49 776 781 O
+medical 50 57 782 789 O
+conditions 58 68 790 800 O
+
+Recent 0 6 801 807 O
+therapy 7 14 808 815 B-treatment
+with 15 19 816 820 O
+corticosteroids 20 35 821 836 B-treatment
+within 36 42 837 843 O
+the 43 46 844 847 O
+previous 47 55 848 856 B-upper_bound
+6 56 57 857 858 I-upper_bound
+months 58 64 859 865 I-upper_bound
+
+Renal 0 5 866 871 B-chronic_disease
+osteodystrophy 6 20 872 886 I-chronic_disease
+
+Serum 0 5 887 892 B-clinical_variable
+CK 6 8 893 895 I-clinical_variable
+level 9 14 896 901 I-clinical_variable
+> 15 16 902 903 O
+10 17 19 904 906 B-lower_bound
+x 20 21 907 908 I-lower_bound
+ULN 22 25 909 912 I-lower_bound
+
+Serum 0 5 913 918 B-clinical_variable
+creatinine 6 16 919 929 I-clinical_variable
+> 17 18 930 931 O
+2.2 19 22 932 935 B-lower_bound
+mg 23 25 936 938 I-lower_bound
+/ 25 26 938 939 I-lower_bound
+dL 26 28 939 941 I-lower_bound
+within 29 35 942 948 O
+last 36 40 949 953 B-upper_bound
+6 41 42 954 955 I-upper_bound
+months 43 49 956 962 I-upper_bound
+
+Systolic 0 8 963 971 B-clinical_variable
+blood 9 14 972 977 I-clinical_variable
+pressure 15 23 978 986 I-clinical_variable
+< 24 25 987 988 O
+100 26 29 989 992 B-upper_bound
+mmHg 30 34 993 997 I-upper_bound
+
+using 0 5 998 1003 O
+an 6 8 1004 1006 O
+effective 9 18 1007 1016 O
+form 19 23 1017 1021 O
+of 24 26 1022 1024 O
+contraception 27 40 1025 1038 B-contraception_consent
+

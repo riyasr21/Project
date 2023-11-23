@@ -1,0 +1,66 @@
+Baseline 0 8 0 8 B-clinical_variable
+Barthel 9 16 9 16 I-clinical_variable
+Index 17 22 17 22 I-clinical_variable
+Functional 23 33 23 33 I-clinical_variable
+Score 34 39 34 39 I-clinical_variable
+> 40 41 40 41 O
+70 42 44 42 44 B-lower_bound
+, 44 45 44 45 O
+functional 46 56 46 56 O
+at 57 59 57 59 O
+home 60 64 60 64 O
+
+Cardiac 0 7 65 72 B-chronic_disease
+arrest 8 14 73 79 I-chronic_disease
+as 15 17 80 82 O
+cause 18 23 83 88 O
+for 24 27 89 92 O
+respiratory 28 39 93 104 B-chronic_disease
+failure 40 47 105 112 I-chronic_disease
+
+Elevated 0 8 113 121 O
+intracranial 9 21 122 134 B-cancer
+pressure 22 30 135 143 I-cancer
+
+MV 0 2 144 146 B-clinical_variable
+> 3 4 147 148 O
+24 5 7 149 151 B-lower_bound
+, 7 8 151 152 O
+< 9 10 153 154 O
+96 11 13 155 157 B-upper_bound
+hours 14 19 158 163 I-upper_bound
+
+Pregnancy 0 9 164 173 B-pregnancy
+
+Rapidly 0 7 174 181 O
+changing 8 16 182 190 O
+neurological 17 29 191 203 B-chronic_disease
+conditions 30 40 204 214 I-chronic_disease
+
+Severe 0 6 215 221 O
+chronic 7 14 222 229 B-chronic_disease
+pain 15 19 230 234 I-chronic_disease
+syndrome 20 28 235 243 I-chronic_disease
+on 29 31 244 246 O
+admission 32 41 247 256 O
+
+Terminal 0 8 257 265 B-chronic_disease
+condition 9 18 266 275 I-chronic_disease
+
+Traumatic 0 9 276 285 B-chronic_disease
+brain 10 15 286 291 I-chronic_disease
+injury 16 22 292 298 I-chronic_disease
+, 22 23 298 299 O
+multiple 24 32 300 308 B-chronic_disease
+limb 33 37 309 313 I-chronic_disease
+fractures 38 47 314 323 I-chronic_disease
+, 47 48 323 324 O
+pelvic 49 55 325 331 B-chronic_disease
+fractures 56 65 332 341 I-chronic_disease
+
+life 0 4 342 346 B-clinical_variable
+expectancy 5 15 347 357 I-clinical_variable
+< 16 17 358 359 O
+6 18 19 360 361 B-upper_bound
+months 20 26 362 368 I-upper_bound
+

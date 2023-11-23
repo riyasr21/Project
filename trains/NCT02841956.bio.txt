@@ -1,0 +1,32 @@
+Duration 0 8 0 8 O
+of 9 11 9 11 O
+psychosis 12 21 12 21 B-chronic_disease
+> 22 23 22 23 O
+2 24 25 24 25 B-lower_bound
+years 26 31 26 31 I-lower_bound
+
+Lack 0 4 32 36 O
+of 5 7 37 39 O
+English 8 15 40 47 B-language_fluency
+fluency 16 23 48 55 I-language_fluency
+
+Meet 0 4 56 60 O
+DSM 5 8 61 64 O
+- 8 9 64 65 O
+IV 9 11 65 67 O
+criteria 12 20 68 76 O
+for 21 24 77 80 O
+a 25 26 81 82 O
+diagnosis 27 36 83 92 O
+of 37 39 93 95 O
+affective 40 49 96 105 B-chronic_disease
+or 50 52 106 108 O
+nonaffective 53 65 109 121 B-chronic_disease
+psychosis 66 75 122 131 I-chronic_disease
+
+Only 0 4 132 136 O
+substance 5 14 137 146 O
+induced 15 22 147 154 B-treatment
+psychotic 23 32 155 164 I-treatment
+symptoms 33 41 165 173 I-treatment
+

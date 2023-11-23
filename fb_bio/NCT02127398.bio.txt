@@ -1,0 +1,121 @@
+Absolute 0 8 0 8 B-clinical_variable
+neutrophil 9 19 9 19 I-clinical_variable
+count 20 25 20 25 I-clinical_variable
+< 26 27 26 27 O
+500 28 31 28 31 B-upper_bound
+cells 32 37 32 37 I-upper_bound
+/ 37 38 37 38 I-upper_bound
+mm3 38 41 38 41 I-upper_bound
+
+Active 0 6 42 48 B-chronic_disease
+infection 7 16 49 58 I-chronic_disease
+at 17 19 59 61 O
+other 20 25 62 67 O
+sites 26 31 68 73 O
+( 32 33 74 75 O
+excluding 33 42 75 84 O
+Clostridium 43 54 85 96 B-chronic_disease
+difficile 55 64 97 106 I-chronic_disease
+) 64 65 106 107 O
+requiring 66 75 108 117 O
+ongoing 76 83 118 125 O
+antibacterial 84 97 126 139 B-treatment
+therapy 98 105 140 147 I-treatment
+( 106 107 148 149 O
+antiviral 107 116 149 158 B-treatment
+or 117 119 159 161 I-treatment
+antifungal 120 130 162 172 I-treatment
+therapy 131 138 173 180 I-treatment
+is 139 141 181 183 O
+acceptable 142 152 184 194 O
+) 152 153 194 195 O
+
+Crohn 0 5 196 201 B-chronic_disease
+'s 5 7 201 203 I-chronic_disease
+or 8 10 204 206 O
+ulcerative 11 21 207 217 B-chronic_disease
+colitis 22 29 218 225 I-chronic_disease
+
+Current 0 7 226 233 B-treatment
+or 8 10 234 236 O
+planned 11 18 237 244 B-treatment
+cytotoxic 19 28 245 254 I-treatment
+chemotherapy 29 41 255 267 I-treatment
+within 42 48 268 274 O
+14 49 51 275 277 B-upper_bound
+days 52 56 278 282 I-upper_bound
+of 57 59 283 285 O
+the 60 63 286 289 O
+potential 64 73 290 299 O
+fecal 74 79 300 305 B-treatment
+transplantation 80 95 306 321 I-treatment
+date 96 100 322 326 O
+
+Diagnosis 0 9 327 336 O
+of 10 12 337 339 O
+inflammatory 13 25 340 352 B-chronic_disease
+bowel 26 31 353 358 I-chronic_disease
+disease 32 39 359 366 I-chronic_disease
+
+Documented 0 10 367 377 O
+intestinal 11 21 378 388 B-chronic_disease
+parasite 22 30 389 397 I-chronic_disease
+infection 31 40 398 407 I-chronic_disease
+without 41 48 408 415 O
+documentation 49 62 416 429 O
+of 63 65 430 432 O
+appropriate 66 77 433 444 O
+treatment 78 87 445 454 B-treatment
+
+Life 0 4 455 459 B-clinical_variable
+expectancy 5 15 460 470 I-clinical_variable
+< 16 17 471 472 O
+180 17 20 472 475 B-upper_bound
+days 21 25 476 480 I-upper_bound
+
+Pregnancy 0 9 481 490 B-pregnancy
+
+Short 0 5 491 496 B-chronic_disease
+gut 6 9 497 500 I-chronic_disease
+syndrome 10 18 501 509 I-chronic_disease
+requiring 19 28 510 519 O
+total 29 34 520 525 O
+parenteral 35 45 526 536 O
+nutrition 46 55 537 546 O
+
+Study 0 5 547 552 O
+entry 6 11 553 558 O
+is 12 14 559 561 O
+open 15 19 562 566 O
+to 20 22 567 569 O
+adults 23 29 570 576 O
+( 30 31 577 578 O
+> 31 32 578 579 O
+18 32 34 579 581 B-lower_bound
+years 35 40 582 587 I-lower_bound
+old 41 44 588 591 O
+) 44 45 591 592 O
+who 46 49 593 596 O
+have 50 54 597 601 O
+had 55 58 602 605 O
+three 59 64 606 611 O
+of 65 67 612 614 O
+more 68 72 615 619 O
+episodes 73 81 620 628 O
+of 82 84 629 631 O
+Clostridium 85 96 632 643 B-clinical_variable
+difficile 97 106 644 653 I-clinical_variable
+colitis 107 114 654 661 I-clinical_variable
+within 115 121 662 668 O
+the 122 125 669 672 O
+previous 126 134 673 681 B-upper_bound
+12 135 137 682 684 I-upper_bound
+months 138 144 685 691 I-upper_bound
+
+gastrostomy 0 11 692 703 B-treatment
+
+orogastric 0 10 704 714 B-treatment
+
+total 0 5 715 720 B-treatment
+gastrectomy 6 17 721 732 I-treatment
+

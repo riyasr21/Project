@@ -1,0 +1,98 @@
+Subjects 0 8 0 8 O
+must 9 13 9 13 O
+be 14 16 14 16 O
+able 17 21 17 21 O
+to 22 24 22 24 O
+step 25 29 25 29 O
+on 30 32 30 32 O
+a 33 34 33 34 O
+treadmill 35 44 35 44 O
+with 45 49 45 49 O
+no 50 52 50 52 O
+more 53 57 53 57 O
+than 58 62 58 62 O
+40 63 65 63 65 B-upper_bound
+% 65 66 65 66 I-upper_bound
+body 67 71 67 71 O
+weight 72 78 72 78 O
+support 79 86 79 86 O
+
+an 0 2 87 89 O
+episode 3 10 90 97 O
+of 11 13 98 100 O
+autonomic 14 23 101 110 B-chronic_disease
+dysreflexia 24 35 111 122 I-chronic_disease
+in 36 38 123 125 O
+the 39 42 126 129 O
+past 43 47 130 134 O
+year 48 52 135 139 O
+
+at 0 2 140 142 O
+least 3 8 143 148 O
+6 9 10 149 150 B-lower_bound
+months 11 17 151 157 I-lower_bound
+post 18 22 158 162 O
+injury 23 29 163 169 O
+, 29 30 169 170 O
+and 31 34 171 174 O
+medically 35 44 175 184 O
+stable 45 51 185 191 O
+with 52 56 192 196 O
+an 57 59 197 199 O
+incomplete 60 70 200 210 O
+lesion 71 77 211 217 O
+between 78 85 218 225 O
+levels 86 92 226 232 O
+T1 93 95 233 235 B-lower_bound
+- 95 96 235 236 O
+T10 96 99 236 239 B-upper_bound
+
+bladder 0 7 240 247 B-chronic_disease
+or 8 10 248 250 I-chronic_disease
+other 11 16 251 256 I-chronic_disease
+infection 17 26 257 266 I-chronic_disease
+
+cardiac 0 7 267 274 B-chronic_disease
+arrhythmia 8 18 275 285 I-chronic_disease
+
+heterotopic 0 11 286 297 B-chronic_disease
+ossification 12 24 298 310 I-chronic_disease
+
+incomplete 0 10 311 321 B-chronic_disease
+SCI 11 14 322 325 I-chronic_disease
+
+lower 0 5 326 331 B-clinical_variable
+extremity 6 15 332 341 I-clinical_variable
+motor 16 21 342 347 I-clinical_variable
+score 22 27 348 353 O
+of 28 30 354 356 O
+10 31 33 357 359 B-lower_bound
+or 34 36 360 362 O
+greater 37 44 363 370 O
+
+severe 0 6 371 377 B-chronic_disease
+contracture 7 18 378 389 I-chronic_disease
+or 19 21 390 392 O
+osteoporosis 22 34 393 405 B-chronic_disease
+
+subjects 0 8 406 414 O
+will 9 13 415 419 O
+be 14 16 420 422 O
+over 17 21 423 427 O
+age 22 25 428 431 B-age
+18 26 28 432 434 B-lower_bound
+
+unhealed 0 8 435 443 B-chronic_disease
+decubiti 9 17 444 452 I-chronic_disease
+
+use 0 3 453 456 O
+of 4 6 457 459 O
+spasticity 7 17 460 470 B-treatment
+or 18 20 471 473 O
+cardiovascular 21 35 474 488 B-treatment
+medications 36 47 489 500 I-treatment
+( 48 49 501 502 O
+e.g. 49 53 502 506 O
+baclofen 54 62 507 515 B-treatment
+) 62 63 515 516 O
+

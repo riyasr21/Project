@@ -1,0 +1,43 @@
+Life 0 4 0 4 O
+- 4 5 4 5 O
+threatening 5 16 5 16 O
+condition 17 26 17 26 O
+of 27 29 27 29 O
+fetus 30 35 30 35 O
+( 36 37 36 37 O
+e.g. 37 41 37 41 O
+severe 42 48 42 48 B-chronic_disease
+hydrops 49 56 49 56 I-chronic_disease
+, 56 57 56 57 O
+lethal 58 64 58 64 B-chronic_disease
+chromosomal 65 76 65 76 I-chronic_disease
+abnormality 77 88 77 88 I-chronic_disease
+, 88 89 88 89 O
+severe 90 96 90 96 B-chronic_disease
+congenital 97 107 97 107 I-chronic_disease
+malformation 108 120 108 120 I-chronic_disease
+) 120 121 120 121 O
+
+Medical 0 7 122 129 O
+emergency 8 17 130 139 O
+necessitating 18 31 140 153 O
+emergency 32 41 154 163 O
+delivery 42 50 164 172 O
+( 51 52 173 174 O
+e.g. 52 56 174 178 O
+complete 57 65 179 187 O
+placental 66 75 188 197 B-chronic_disease
+abruption 76 85 198 207 I-chronic_disease
+) 85 86 207 208 O
+
+Multiple 0 8 209 217 B-clinical_variable
+gestation 9 18 218 227 I-clinical_variable
+greater 19 26 228 235 O
+than 27 31 236 240 O
+twins 32 37 241 246 O
+
+Suspected 0 9 247 256 O
+severe 10 16 257 263 O
+fetal 17 22 264 269 B-chronic_disease
+anemia 23 29 270 276 I-chronic_disease
+

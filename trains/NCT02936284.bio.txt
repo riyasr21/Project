@@ -1,0 +1,24 @@
+a 0 1 0 1 O
+low 2 5 2 5 O
+birth 6 11 6 11 B-clinical_variable
+weight 12 18 12 18 I-clinical_variable
+( 19 20 19 20 O
+< 20 21 20 21 O
+2500 22 26 22 26 B-upper_bound
+grams 27 32 27 32 I-upper_bound
+) 32 33 32 33 O
+
+subject 0 7 34 41 O
+'s 7 9 41 43 O
+mother 10 16 44 50 O
+was 17 20 51 54 O
+< 21 22 55 56 O
+18 23 25 57 59 B-upper_bound
+years 26 31 60 65 I-upper_bound
+old 32 35 66 69 O
+at 36 38 70 72 O
+the 39 42 73 76 O
+time 43 47 77 81 O
+of 48 50 82 84 O
+pregnancy 51 60 85 94 B-pregnancy
+

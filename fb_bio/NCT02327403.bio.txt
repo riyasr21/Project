@@ -1,0 +1,127 @@
+ACR 0 3 0 3 B-clinical_variable
+in 4 6 4 6 O
+the 7 10 7 10 O
+previous 11 19 11 19 B-upper_bound
+6 20 21 20 21 I-upper_bound
+months 22 28 22 28 I-upper_bound
+
+Age 0 3 29 32 B-age
+< 4 5 33 34 O
+18 5 7 34 36 B-upper_bound
+years 8 13 37 42 I-upper_bound
+
+EBV 0 3 43 46 B-chronic_disease
+IgG 4 7 47 50 I-chronic_disease
+negative 8 16 51 59 O
+
+Everolimus 0 10 60 70 B-treatment
+
+Maintenance 0 11 71 82 O
+immunosuppression 12 29 83 100 B-treatment
+of 30 32 101 103 I-treatment
+CNI 33 36 104 107 I-treatment
+( 37 38 108 109 O
+cyclosporine 38 50 109 121 B-treatment
+or 51 53 122 124 O
+tacrolimus 54 64 125 135 B-treatment
+) 64 65 135 136 O
+
+Male 0 4 137 141 B-gender
+
+Proteinuria 0 11 142 153 B-clinical_variable
+≥1 12 14 154 156 O
+gram 15 19 157 161 I-lower_bound
+/ 19 20 161 162 I-lower_bound
+day 20 23 162 165 I-lower_bound
+in 24 26 166 168 O
+spot 27 31 169 173 O
+urine 32 37 174 179 O
+protein 38 45 180 187 O
+/ 45 46 187 188 O
+creatinine 46 56 188 198 O
+ratio 57 62 199 204 O
+
+Sirolimus 0 9 205 214 B-treatment
+
+active 0 6 215 221 O
+acute 7 12 222 227 O
+antibody 13 21 228 236 B-chronic_disease
+- 21 22 236 237 I-chronic_disease
+mediated 22 30 237 245 I-chronic_disease
+rejection 31 40 246 255 I-chronic_disease
+
+active 0 6 256 262 O
+acute 7 12 263 268 B-chronic_disease
+cellular 13 21 269 277 I-chronic_disease
+rejection 22 31 278 287 I-chronic_disease
+( 32 33 288 289 O
+ACR 33 36 289 292 B-chronic_disease
+; 36 37 292 293 O
+higher 38 44 294 300 O
+than 45 49 301 305 O
+borderline 50 60 306 316 O
+) 60 61 316 317 O
+
+antiproliferative 0 17 318 335 B-treatment
+agent 18 23 336 341 I-treatment
+( 24 25 342 343 O
+azathioprine 25 37 343 355 B-treatment
+, 37 38 355 356 O
+MMF 39 42 357 360 B-treatment
+or 43 45 361 363 O
+MPA 46 49 364 367 B-treatment
+) 49 50 367 368 O
+with 51 55 369 373 O
+either 56 62 374 380 O
+steroids 63 71 381 389 B-treatment
+or 72 74 390 392 O
+not 75 78 393 396 O
+
+eGFR 0 4 397 401 B-clinical_variable
+≥30 5 8 402 405 O
+ml 9 11 406 408 I-lower_bound
+/ 11 12 408 409 I-lower_bound
+min 12 15 409 412 I-lower_bound
+
+eGFR<30 0 7 413 420 B-clinical_variable
+ml 8 10 421 423 I-upper_bound
+/ 10 11 423 424 I-upper_bound
+min 11 14 424 427 I-upper_bound
+
+female 0 6 428 434 B-gender
+adult 7 12 435 440 O
+
+kidney 0 6 441 447 B-treatment
+transplant 7 17 448 458 I-treatment
+recipients 18 28 459 469 O
+older 29 34 470 475 O
+than 35 39 476 480 O
+18 40 42 481 483 B-lower_bound
+years 43 48 484 489 I-lower_bound
+old 49 52 490 493 O
+
+patient 0 7 494 501 O
+on 8 10 502 504 O
+mTOR 11 15 505 509 B-treatment
+inhibitor 16 25 510 519 I-treatment
+
+patient 0 7 520 527 O
+only 8 12 528 532 O
+on 13 15 533 535 O
+CNI 16 19 536 539 B-chronic_disease
+( 20 21 540 541 O
+cyclosporine 21 33 541 553 B-treatment
+or 34 36 554 556 O
+tacrolimus 37 47 557 567 B-treatment
+) 47 48 567 568 O
+and 49 52 569 572 O
+steroids 53 61 573 581 B-treatment
+
+recurrent 0 9 582 591 O
+FSGS 10 14 592 596 B-chronic_disease
+
+≥6 0 2 597 599 O
+months 3 9 600 606 I-lower_bound
+after 10 15 607 612 I-lower_bound
+transplantation 16 31 613 628 B-treatment
+

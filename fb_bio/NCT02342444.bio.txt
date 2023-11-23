@@ -1,0 +1,39 @@
+Admitted 0 8 0 8 O
+patients 9 17 9 17 O
+requiring 18 27 18 27 O
+prophylactic 28 40 28 40 O
+dosing 41 47 41 47 O
+of 48 50 48 50 O
+enoxaparin 51 61 51 61 B-treatment
+( 62 63 62 63 O
+Lovenox 63 70 63 70 B-treatment
+) 70 71 70 71 O
+
+Age 0 3 72 75 B-age
+greater 4 11 76 83 O
+than 12 16 84 88 O
+15 17 19 89 91 B-lower_bound
+years 20 25 92 97 I-lower_bound
+
+Presence 0 8 98 106 O
+of 9 11 107 109 O
+intracranial 12 24 110 122 B-chronic_disease
+hemorrhage 25 35 123 133 I-chronic_disease
+
+Presence 0 8 134 142 O
+of 9 11 143 145 O
+renal 12 17 146 151 B-chronic_disease
+failure 18 25 152 159 I-chronic_disease
+requiring 26 35 160 169 O
+non 36 39 170 173 O
+- 39 40 173 174 O
+standard 40 48 174 182 O
+dosing 49 55 183 189 O
+regimen 56 63 190 197 O
+
+Receiving 0 9 198 207 O
+other 10 15 208 213 O
+forms 16 21 214 219 O
+of 22 24 220 222 O
+anticoagulation 25 40 223 238 B-treatment
+

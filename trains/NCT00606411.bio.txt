@@ -1,0 +1,32 @@
+Adults 0 6 0 6 O
+18 7 9 7 9 B-lower_bound
+- 9 10 9 10 O
+65 10 12 10 12 B-upper_bound
+
+Diagnosis 0 9 13 22 O
+of 10 12 23 25 O
+SRED 13 17 26 30 B-chronic_disease
+
+Liver 0 5 31 36 B-chronic_disease
+disease 6 13 37 44 I-chronic_disease
+
+Other 0 5 45 50 O
+sleep 6 11 51 56 B-chronic_disease
+disorders 12 21 57 66 I-chronic_disease
+
+Previous 0 8 67 75 O
+history 9 16 76 83 O
+of 17 19 84 86 O
+Topiramate 20 30 87 97 B-treatment
+or 31 33 98 100 I-treatment
+Topamax 34 41 101 108 I-treatment
+use 42 45 109 112 O
+for 46 49 113 116 O
+any 50 53 117 120 O
+condition 54 63 121 130 O
+
+Women 0 5 131 136 B-gender
+who 6 9 137 140 O
+are 10 13 141 144 B-pregnancy
+pregnant 14 22 145 153 I-pregnancy
+

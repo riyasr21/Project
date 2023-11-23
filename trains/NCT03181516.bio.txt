@@ -1,0 +1,196 @@
+Active 0 6 0 6 O
+diarrhea 7 15 7 15 B-chronic_disease
+( 16 17 16 17 O
+diarrhea 17 25 17 25 O
+is 26 28 26 28 O
+defined 29 36 29 36 O
+in 37 39 37 39 O
+this 40 44 40 44 O
+study 45 50 45 50 O
+as 51 53 51 53 O
+three 54 59 54 59 O
+or 60 62 60 62 O
+more 63 67 63 67 O
+loose 68 73 68 73 O
+stools 74 80 74 80 O
+per 81 84 81 84 O
+day 85 88 85 88 O
+for 89 92 89 92 O
+two 93 96 93 96 B-upper_bound
+consecutive 97 108 97 108 O
+days 109 113 109 113 O
+) 113 114 113 114 O
+
+Allergy 0 7 115 122 O
+to 8 10 123 125 O
+penicillin 11 21 126 136 B-allergy_name
+or 22 24 137 139 O
+cephalosporin 25 38 140 153 B-allergy_name
+class 39 44 154 159 O
+antibiotics 45 56 160 171 O
+
+Allergy 0 7 172 179 O
+to 8 10 180 182 O
+strawberry 11 21 183 193 B-allergy_name
+
+Amoxicillin 0 11 194 205 B-treatment
+
+Ancef 0 5 206 211 B-treatment
+( 6 7 212 213 I-treatment
+cefazolin 7 16 213 222 I-treatment
+) 16 17 222 223 I-treatment
+
+Caregiver 0 9 224 233 O
+has 10 13 234 237 O
+the 14 17 238 241 O
+ability 18 25 242 249 B-language_fluency
+to 26 28 250 252 I-language_fluency
+read 29 33 253 257 I-language_fluency
+, 33 34 257 258 I-language_fluency
+speak 35 40 259 264 I-language_fluency
+and 41 44 265 268 I-language_fluency
+write 45 50 269 274 I-language_fluency
+English 51 58 275 282 I-language_fluency
+or 59 61 283 285 I-language_fluency
+Spanish 62 69 286 293 I-language_fluency
+
+Ceclor 0 6 294 300 B-treatment
+( 7 8 301 302 I-treatment
+cefaclor 8 16 302 310 I-treatment
+) 16 17 310 311 I-treatment
+
+Cefadroxil 0 10 312 322 B-treatment
+
+Cefoxitin 0 9 323 332 B-treatment
+
+Ceftin 0 6 333 339 B-treatment
+( 7 8 340 341 I-treatment
+cefuroxime 8 18 341 351 I-treatment
+) 18 19 351 352 I-treatment
+
+Cefzil 0 6 353 359 B-treatment
+( 7 8 360 361 I-treatment
+cefprozil 8 17 361 370 I-treatment
+) 17 18 370 371 I-treatment
+
+Cephalexin 0 10 372 382 B-treatment
+
+Cephradine 0 10 383 393 B-treatment
+
+Child 0 5 394 399 O
+was 6 9 400 403 O
+prescribed 10 20 404 414 O
+treatment 21 30 415 424 B-treatment
+with 31 35 425 429 I-treatment
+a 36 37 430 431 I-treatment
+penicillin 38 48 432 442 I-treatment
+or 49 51 443 445 I-treatment
+cephalosporin 52 65 446 459 I-treatment
+class 66 71 460 465 I-treatment
+antibiotic 72 82 466 476 I-treatment
+regimen 83 90 477 484 I-treatment
+for 91 94 485 488 O
+10 95 97 489 491 B-upper_bound
+days 98 102 492 496 I-upper_bound
+for 103 106 497 500 O
+a 107 108 501 502 O
+respiratory 109 120 503 514 O
+infection 121 130 515 524 B-chronic_disease
+
+Congenital 0 10 525 535 B-chronic_disease
+anomalies 11 20 536 545 I-chronic_disease
+
+Duricef 0 7 546 553 B-treatment
+( 8 9 554 555 O
+cefadroxil 9 19 555 565 B-treatment
+) 19 20 565 566 O
+
+Erythromycin 0 12 567 579 B-treatment
+
+History 0 7 580 587 O
+of 8 10 588 590 O
+gastrointestinal 11 27 591 607 B-treatment
+surgery 28 35 608 615 I-treatment
+or 36 38 616 618 O
+disease 39 46 619 626 O
+
+History 0 7 627 634 O
+of 8 10 635 637 O
+heart 11 16 638 643 B-chronic_disease
+disease 17 24 644 651 I-chronic_disease
+, 24 25 651 652 O
+including 26 35 653 662 O
+valvulopathies 36 50 663 677 B-chronic_disease
+or 51 53 678 680 O
+cardiac 54 61 681 688 B-chronic_disease
+surgery 62 69 689 696 I-chronic_disease
+, 69 70 696 697 O
+any 71 74 698 701 O
+implantable 75 86 702 713 B-treatment
+device 87 93 714 720 I-treatment
+or 94 96 721 723 O
+prosthetic 97 107 724 734 B-treatment
+
+Household 0 9 735 744 O
+has 10 13 745 748 B-technology_access
+telephone 14 23 749 758 I-technology_access
+access 24 30 759 765 I-technology_access
+
+Keflex 0 6 766 772 B-treatment
+( 7 8 773 774 I-treatment
+cephalexin 8 18 774 784 I-treatment
+) 18 19 784 785 I-treatment
+
+Kefzol 0 6 786 792 B-treatment
+( 7 8 793 794 I-treatment
+cefazolin 8 17 794 803 I-treatment
+) 17 18 803 804 I-treatment
+
+Mefoxin 0 7 805 812 B-treatment
+( 8 9 813 814 I-treatment
+Cefoxitin 9 18 814 823 I-treatment
+) 18 19 823 824 I-treatment
+
+Milk 0 4 825 829 B-allergy_name
+- 4 5 829 830 I-allergy_name
+protein 5 12 830 837 I-allergy_name
+allergy 13 20 838 845 O
+
+Omnicef 0 7 846 853 B-treatment
+( 8 9 854 855 I-treatment
+cefdinir 9 17 855 863 I-treatment
+) 17 18 863 864 I-treatment
+
+Pen 0 3 865 868 B-treatment
+- 3 4 868 869 I-treatment
+Vee 4 7 869 872 I-treatment
+K 8 9 873 874 I-treatment
+( 10 11 875 876 I-treatment
+penicillin 11 21 876 886 I-treatment
+) 21 22 886 887 I-treatment
+
+Prematurity 0 11 888 899 O
+, 11 12 899 900 O
+birth 13 18 901 906 B-clinical_variable
+weight 19 25 907 913 I-clinical_variable
+< 26 27 914 915 O
+2,500 27 32 915 920 B-upper_bound
+grams 33 38 921 926 I-upper_bound
+
+Tetracycline 0 12 927 939 B-treatment
+
+Trimethoprim 0 12 940 952 B-treatment
+
+Velosef 0 7 953 960 B-treatment
+( 8 9 961 962 I-treatment
+cephradine 9 19 962 972 I-treatment
+) 19 20 972 973 I-treatment
+
+between 0 7 974 981 O
+ages 8 12 982 986 B-age
+of 13 15 987 989 O
+3 16 17 990 991 B-lower_bound
+- 17 18 991 992 O
+12 18 20 992 994 B-upper_bound
+years 21 26 995 1000 I-upper_bound
+

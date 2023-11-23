@@ -1,0 +1,53 @@
+Aged 0 4 0 4 B-age
+19 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+89 8 10 8 10 B-upper_bound
+
+Having 0 6 11 17 O
+a 7 8 18 19 O
+current 9 16 20 27 O
+or 17 19 28 30 O
+past 20 24 31 35 O
+history 25 32 36 43 O
+of 33 35 44 46 O
+a 36 37 47 48 O
+substance 38 47 49 58 B-chronic_disease
+abuse 48 53 59 64 I-chronic_disease
+disorder 54 62 65 73 I-chronic_disease
+
+Having 0 6 74 80 O
+a 7 8 81 82 O
+previous 9 17 83 91 O
+serious 18 25 92 99 B-chronic_disease
+head 26 30 100 104 I-chronic_disease
+injury 31 37 105 111 I-chronic_disease
+or 38 40 112 114 O
+neurological 41 53 115 127 B-chronic_disease
+disorder 54 62 128 136 I-chronic_disease
+, 62 63 136 137 O
+or 64 66 138 140 O
+loss 67 71 141 145 O
+of 72 74 146 148 O
+consciousness 75 88 149 162 O
+for 89 92 163 166 O
+more 93 97 167 171 O
+than 98 102 172 176 O
+2 103 104 177 178 B-lower_bound
+minutes 105 112 179 186 I-lower_bound
+
+Younger 0 7 187 194 O
+than 8 12 195 199 O
+18 13 15 200 202 B-upper_bound
+or 16 18 203 205 O
+older 19 24 206 211 O
+than 25 29 212 216 O
+89 30 32 217 219 B-lower_bound
+
+visual 0 6 220 226 B-chronic_disease
+impairments 7 18 227 238 I-chronic_disease
+due 19 22 239 242 O
+to 23 25 243 245 O
+partial 26 33 246 253 O
+vision 34 40 254 260 O
+loss 41 45 261 265 O
+

@@ -1,0 +1,182 @@
+Age 0 3 0 3 B-age
+less 4 8 4 8 O
+than 9 13 9 13 O
+18 14 16 14 16 B-upper_bound
+
+Allergy 0 7 17 24 O
+to 8 10 25 27 O
+mirabegron 11 21 28 38 B-allergy_name
+
+Current 0 7 39 46 O
+calcium 8 15 47 54 B-treatment
+antagonist 16 26 55 65 I-treatment
+or 27 29 66 68 O
+corticosteroid 30 44 69 83 B-treatment
+or 45 47 84 86 O
+tamsulosin 48 58 87 97 B-treatment
+usage 59 64 98 103 O
+
+History 0 7 104 111 O
+of 8 10 112 114 O
+ureteral 11 19 115 123 B-treatment
+surgery 20 27 124 131 I-treatment
+or 28 30 132 134 O
+previous 31 39 135 143 B-treatment
+endoscopic 40 50 144 154 I-treatment
+procedure 51 60 155 164 I-treatment
+
+Horseshoe 0 9 165 174 B-chronic_disease
+kidney 10 16 175 181 I-chronic_disease
+
+On 0 2 182 184 O
+digoxin 3 10 185 192 B-treatment
+
+On 0 2 193 195 O
+immunosuppressant 3 20 196 213 B-treatment
+therapy 21 28 214 221 I-treatment
+
+Patients 0 8 222 230 O
+already 9 16 231 238 O
+taking 17 23 239 245 O
+a 24 25 246 247 O
+beta 26 30 248 252 B-treatment
+- 30 31 252 253 I-treatment
+adrenergic 31 41 253 263 I-treatment
+agonist 42 49 264 271 I-treatment
+medication 50 60 272 282 I-treatment
+
+Patients 0 8 283 291 O
+with 9 13 292 296 O
+Childs 14 20 297 303 B-chronic_disease
+B 21 22 304 305 I-chronic_disease
+and 23 26 306 309 I-chronic_disease
+C 27 28 310 311 I-chronic_disease
+liver 29 34 312 317 I-chronic_disease
+failure 35 42 318 325 I-chronic_disease
+
+Patients 0 8 326 334 O
+with 9 13 335 339 O
+chronic 14 21 340 347 B-chronic_disease
+pain 22 26 348 352 I-chronic_disease
+already 27 34 353 360 O
+undergoing 35 45 361 371 O
+treatment 46 55 372 381 O
+with 56 60 382 386 O
+narcotic 61 69 387 395 B-treatment
+medications 70 81 396 407 I-treatment
+
+Positive 0 8 408 416 O
+urine 9 14 417 422 O
+culture 15 22 423 430 O
+[ 23 24 431 432 O
+defined 24 31 432 439 O
+as 32 34 440 442 O
+a 35 36 443 444 O
+single 37 43 445 451 B-clinical_variable
+isolated 44 52 452 460 I-clinical_variable
+bacterial 53 62 461 470 I-clinical_variable
+species 63 70 471 478 I-clinical_variable
+population 71 81 479 489 I-clinical_variable
+of 82 84 490 492 O
+greater 85 92 493 500 O
+than 93 97 501 505 O
+100,000 98 105 506 513 B-lower_bound
+Colony 106 112 514 520 I-lower_bound
+Forming 113 120 521 528 I-lower_bound
+Units 121 126 529 534 I-lower_bound
+( 127 128 535 536 I-lower_bound
+CFU 128 131 536 539 I-lower_bound
+) 131 132 539 540 I-lower_bound
+] 132 133 540 541 O
+
+Renal 0 5 542 547 B-chronic_disease
+insufficiency 6 19 548 561 I-chronic_disease
+[ 20 21 562 563 O
+Glomerular 21 31 563 573 B-clinical_variable
+Filtration 32 42 574 584 I-clinical_variable
+Rate 43 47 585 589 I-clinical_variable
+( 48 49 590 591 I-clinical_variable
+GFR 49 52 591 594 I-clinical_variable
+) 52 53 594 595 I-clinical_variable
+less 54 58 596 600 O
+than 59 63 601 605 O
+60 64 66 606 608 B-upper_bound
+] 66 67 608 609 O
+
+Serum 0 5 610 615 B-clinical_variable
+creatinine 6 16 616 626 I-clinical_variable
+within 17 23 627 633 O
+normal 24 30 634 640 O
+range 31 36 641 646 O
+
+Single 0 6 647 653 B-clinical_variable
+unilateral 7 17 654 664 I-clinical_variable
+ureteral 18 26 665 673 I-clinical_variable
+calculus 27 35 674 682 I-clinical_variable
+4 36 37 683 684 B-lower_bound
+to 38 40 685 687 O
+10 41 43 688 690 B-upper_bound
+mm 44 46 691 693 I-upper_bound
+visible 47 54 694 701 O
+on 55 57 702 704 O
+CT 58 60 705 707 B-treatment
+scan 61 65 708 712 I-treatment
+within 66 72 713 719 O
+the 73 76 720 723 O
+ureter 77 83 724 730 O
+
+Solitary 0 8 731 739 B-chronic_disease
+kidney 9 15 740 746 I-chronic_disease
+
+Temperature 0 11 747 758 B-clinical_variable
+greater 12 19 759 766 O
+than 20 24 767 771 O
+38 25 27 772 774 B-lower_bound
+degrees 28 35 775 782 I-lower_bound
+Celsius 36 43 783 790 I-lower_bound
+
+Uncontrolled 0 12 791 803 O
+hypertension 13 25 804 816 B-chronic_disease
+( 26 27 817 818 O
+Systolic 27 35 818 826 B-clinical_variable
+blood 36 41 827 832 I-clinical_variable
+pressure 42 50 833 841 I-clinical_variable
+> 51 52 842 843 O
+170 53 56 844 847 B-lower_bound
+, 56 57 847 848 O
+diastolic 58 67 849 858 B-clinical_variable
+blood 68 73 859 864 I-clinical_variable
+pressure 74 82 865 873 I-clinical_variable
+> 83 84 874 875 O
+110 85 88 876 879 B-lower_bound
+) 88 89 879 880 O
+
+White 0 5 881 886 B-clinical_variable
+blood 6 11 887 892 I-clinical_variable
+cell 12 16 893 897 I-clinical_variable
+count 17 22 898 903 I-clinical_variable
+greater 23 30 904 911 O
+than 31 35 912 916 O
+15 36 38 917 919 B-lower_bound
+/ 38 39 919 920 I-lower_bound
+hpf 39 42 920 923 I-lower_bound
+( 43 44 924 925 O
+high 44 48 925 929 O
+powered 49 56 930 937 O
+field 57 62 938 943 O
+) 62 63 943 944 O
+
+Willingness 0 11 945 956 O
+to 12 14 957 959 O
+follow 15 21 960 966 O
+- 21 22 966 967 O
+up 22 24 967 969 O
+in 25 27 970 972 O
+the 28 31 973 976 O
+Urology 32 39 977 984 O
+Clinic 40 46 985 991 O
+in 47 49 992 994 O
+approximately 50 63 995 1008 O
+30 64 66 1009 1011 B-upper_bound
+day 67 70 1012 1015 I-upper_bound
+

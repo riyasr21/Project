@@ -1,0 +1,140 @@
+Ability 0 7 0 7 B-language_fluency
+to 8 10 8 10 I-language_fluency
+communicate 11 22 11 22 I-language_fluency
+in 23 25 23 25 I-language_fluency
+English 26 33 26 33 I-language_fluency
+
+Current 0 7 34 41 O
+or 8 10 42 44 O
+previous 11 19 45 53 O
+use 20 23 54 57 O
+of 24 26 58 60 O
+glucose 27 34 61 68 B-treatment
+- 34 35 68 69 I-treatment
+lowering 35 43 69 77 I-treatment
+agents 44 50 78 84 I-treatment
+or 51 53 85 87 O
+insulin 54 61 88 95 B-treatment
+
+Current 0 7 96 103 O
+use 8 11 104 107 O
+of 12 14 108 110 O
+antipsychotic 15 28 111 124 B-treatment
+, 28 29 124 125 O
+anticonvulsant 30 44 126 140 B-treatment
+, 44 45 140 141 O
+anxiolytic 46 56 142 152 B-treatment
+, 56 57 152 153 O
+anticoagulant 58 71 154 167 B-treatment
+or 72 74 168 170 O
+sedative 75 83 171 179 B-treatment
+medications 84 95 180 191 I-treatment
+
+Hemoglobin 0 10 192 202 B-clinical_variable
+< 11 12 203 204 O
+8 12 13 204 205 B-upper_bound
+g 14 15 206 207 I-upper_bound
+/ 15 16 207 208 I-upper_bound
+dl 16 18 208 210 I-upper_bound
+
+Preexisting 0 11 211 222 O
+diabetes 12 20 223 231 B-chronic_disease
+
+Previous 0 8 232 240 O
+or 9 11 241 243 O
+subsequent 12 22 244 254 O
+diagnosis 23 32 255 264 O
+of 33 35 265 267 O
+Alzheimer 36 45 268 277 B-chronic_disease
+'s 45 47 277 279 I-chronic_disease
+disease 48 55 280 287 I-chronic_disease
+or 56 58 288 290 O
+mild 59 63 291 295 B-chronic_disease
+cognitive 64 73 296 305 I-chronic_disease
+impairment 74 84 306 316 I-chronic_disease
+
+Prior 0 5 317 322 B-treatment
+lumbar 6 12 323 329 I-treatment
+lumbar 13 19 330 336 I-treatment
+surgeries 20 29 337 346 I-treatment
+or 30 32 347 349 O
+other 33 38 350 355 O
+medical 39 46 356 363 O
+conditions 47 57 364 374 O
+that 58 62 375 379 O
+render 63 69 380 386 O
+lumbar 70 76 387 393 O
+punctures 77 86 394 403 O
+unsafe 87 93 404 410 O
+
+Significant 0 11 411 422 O
+medical 12 19 423 430 B-chronic_disease
+illness 20 27 431 438 I-chronic_disease
+or 28 30 439 441 O
+organ 31 36 442 447 B-chronic_disease
+failure 37 44 448 455 I-chronic_disease
+
+Significant 0 11 456 467 O
+neurologic 12 22 468 478 B-chronic_disease
+disease 23 30 479 486 I-chronic_disease
+that 31 35 487 491 O
+might 36 41 492 497 O
+affect 42 48 498 504 O
+cognition 49 58 505 514 O
+
+chronic 0 7 515 522 B-chronic_disease
+obstructive 8 19 523 534 I-chronic_disease
+pulmonary 20 29 535 544 I-chronic_disease
+disease 30 37 545 552 I-chronic_disease
+
+including 0 9 553 562 O
+stroke 10 16 563 569 B-chronic_disease
+, 16 17 569 570 O
+Parkinson 18 27 571 580 B-chronic_disease
+'s 27 29 580 582 I-chronic_disease
+disease 30 37 583 590 I-chronic_disease
+, 37 38 590 591 O
+multiple 39 47 592 600 B-chronic_disease
+sclerosis 48 57 601 610 I-chronic_disease
+
+kidney 0 6 611 617 B-chronic_disease
+disease 7 14 618 625 I-chronic_disease
+
+liver 0 5 626 631 B-chronic_disease
+disease 6 13 632 639 I-chronic_disease
+
+other 0 5 640 645 O
+than 6 10 646 650 O
+Alzheimer 11 20 651 660 B-chronic_disease
+'s 20 22 660 662 I-chronic_disease
+disease 23 30 663 670 I-chronic_disease
+
+recent 0 6 671 677 O
+severe 7 13 678 684 B-chronic_disease
+head 14 18 685 689 I-chronic_disease
+injury 19 25 690 696 I-chronic_disease
+( 26 27 697 698 O
+within 27 33 698 704 O
+the 34 37 705 708 O
+last 38 42 709 713 O
+year 43 47 714 718 O
+) 47 48 718 719 O
+with 49 53 720 724 O
+loss 54 58 725 729 B-clinical_variable
+of 59 61 730 732 I-clinical_variable
+consciousness 62 75 733 746 I-clinical_variable
+> 76 77 747 748 O
+30 77 79 748 750 B-lower_bound
+minutes 80 87 751 758 I-lower_bound
+or 88 90 759 761 O
+with 91 95 762 766 O
+permanent 96 105 767 776 B-chronic_disease
+neurologic 106 116 777 787 I-chronic_disease
+sequelae 117 125 788 796 I-chronic_disease
+
+uncontrolled 0 12 797 809 O
+hypertension 13 25 810 822 B-chronic_disease
+or 26 28 823 825 O
+cardiovascular 29 43 826 840 B-chronic_disease
+disease 44 51 841 848 I-chronic_disease
+

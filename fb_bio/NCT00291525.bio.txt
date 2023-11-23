@@ -1,0 +1,181 @@
+AVR 0 3 0 3 B-treatment
+patients 4 12 4 12 O
+receiving 13 22 13 22 O
+low 23 26 23 26 O
+dose 27 31 27 31 O
+or 32 34 32 34 O
+antiplatelet 35 47 35 47 B-treatment
+only 48 52 48 52 O
+anticoagulation 53 68 53 68 B-treatment
+will 69 73 69 73 O
+be 74 76 74 76 O
+divided 77 84 77 84 O
+into 85 89 85 89 O
+groups 90 96 90 96 O
+at 97 99 97 99 O
+low 100 103 100 103 O
+risk 104 108 104 108 O
+and 109 112 109 112 O
+high 113 117 113 117 O
+risk 118 122 118 122 O
+for 123 126 123 126 O
+thromboembolism 127 142 127 142 B-chronic_disease
+with 143 147 143 147 O
+all 148 151 148 151 O
+patients 152 160 152 160 O
+being 161 166 161 166 O
+in 167 169 167 169 O
+the 170 173 170 173 O
+low 174 177 174 177 O
+risk 178 182 178 182 O
+group 183 188 183 188 O
+
+Chronic 0 7 189 196 B-chronic_disease
+atrial 8 14 197 203 I-chronic_disease
+fibrillation 15 27 204 216 I-chronic_disease
+
+Concomitant 0 11 217 228 B-treatment
+cardiac 12 19 229 236 I-treatment
+surgery 20 27 237 244 I-treatment
+
+Double 0 6 245 251 B-treatment
+( 7 8 252 253 I-treatment
+aortic 8 14 253 259 I-treatment
+plus 15 19 260 264 I-treatment
+mitral 20 26 265 271 I-treatment
+) 26 27 271 272 I-treatment
+valve 28 33 273 278 I-treatment
+replacement 34 45 279 290 I-treatment
+
+Enlarged 0 8 291 299 B-clinical_variable
+left 9 13 300 304 I-clinical_variable
+atrium 14 20 305 311 I-clinical_variable
+> 21 22 312 313 O
+50 22 24 313 315 B-lower_bound
+mm 24 26 315 317 I-lower_bound
+diameter 27 35 318 326 I-lower_bound
+
+Hypercoagulability 0 18 327 345 B-chronic_disease
+
+Lack 0 4 346 350 O
+of 5 7 351 353 O
+platelet 8 16 354 362 B-clinical_variable
+response 17 25 363 371 O
+to 26 28 372 374 O
+aspirin 29 36 375 382 B-treatment
+or 37 39 383 385 O
+clopidogrel 40 51 386 397 B-treatment
+
+Left 0 4 398 402 B-chronic_disease
+or 5 7 403 405 I-chronic_disease
+right 8 13 406 411 I-chronic_disease
+ventricular 14 25 412 423 I-chronic_disease
+aneurysm 26 34 424 432 I-chronic_disease
+
+Left 0 4 433 437 B-clinical_variable
+ventricular 5 16 438 449 I-clinical_variable
+ejection 17 25 450 458 I-clinical_variable
+fraction 26 34 459 467 I-clinical_variable
+< 35 36 468 469 O
+30 37 39 470 472 B-upper_bound
+% 40 41 473 474 I-upper_bound
+
+Neurological 0 12 475 487 B-chronic_disease
+events 13 19 488 494 I-chronic_disease
+
+Other 0 5 495 500 O
+terminal 6 14 501 509 B-chronic_disease
+illness 15 22 510 517 I-chronic_disease
+
+Patients 0 8 518 526 O
+requiring 9 18 527 536 O
+isolated 19 27 537 545 O
+aortic 28 34 546 552 B-treatment
+valve 35 40 553 558 I-treatment
+replacement 41 52 559 570 I-treatment
+( 53 54 571 572 I-treatment
+AVR 54 57 572 575 I-treatment
+) 57 58 575 576 I-treatment
+, 58 59 576 577 O
+or 60 62 578 580 O
+isolated 63 71 581 589 O
+mitral 72 78 590 596 B-treatment
+valve 79 84 597 602 I-treatment
+replacement 85 96 603 614 I-treatment
+( 97 98 615 616 I-treatment
+MVR 98 101 616 619 I-treatment
+) 101 102 619 620 I-treatment
+
+Patients 0 8 621 629 O
+who 9 12 630 633 O
+are 13 16 634 637 O
+known 17 22 638 643 B-pregnancy
+to 23 25 644 646 I-pregnancy
+be 26 28 647 649 I-pregnancy
+pregnant 29 37 650 658 I-pregnancy
+
+Patients 0 8 659 667 O
+with 9 13 668 672 O
+acquired 14 22 673 681 O
+immunodeficiency 23 39 682 698 B-chronic_disease
+syndrome 40 48 699 707 I-chronic_disease
+or 49 51 708 710 O
+know 52 56 711 715 O
+to 57 59 716 718 O
+be 60 62 719 721 O
+HIV 63 66 722 725 B-chronic_disease
+positive 67 75 726 734 O
+
+Patients 0 8 735 743 O
+with 9 13 744 748 O
+active 14 20 749 755 O
+endocarditis 21 33 756 768 B-chronic_disease
+at 34 36 769 771 O
+the 37 40 772 775 O
+time 41 45 776 780 O
+of 46 48 781 783 O
+implant 49 56 784 791 O
+
+Patients 0 8 792 800 O
+with 9 13 801 805 O
+an 14 16 806 808 O
+On 17 19 809 811 B-treatment
+- 19 20 811 812 I-treatment
+X 20 21 812 813 I-treatment
+valve 22 27 814 819 I-treatment
+implanted 28 37 820 829 O
+within 38 44 830 836 O
+the 45 48 837 840 O
+study 49 54 841 846 O
+and 55 58 847 850 O
+subsequently 59 71 851 863 O
+explanted 72 81 864 873 O
+
+Previous 0 8 874 882 O
+confirmed 9 18 883 892 O
+or 19 21 893 895 O
+suspected 22 31 896 905 O
+thromboembolic 32 46 906 920 B-chronic_disease
+event 47 52 921 926 O
+or 53 55 927 929 O
+thrombophlebitis 56 72 930 946 B-chronic_disease
+
+Right 0 5 947 952 B-treatment
+side 6 10 953 957 I-treatment
+valve 11 16 958 963 I-treatment
+replacement 17 28 964 975 I-treatment
+
+Vascular 0 8 976 984 B-chronic_disease
+pathology 9 18 985 994 I-chronic_disease
+
+Women 0 5 995 1000 B-gender
+receiving 6 15 1001 1010 O
+estrogen 16 24 1011 1019 B-treatment
+replacement 25 36 1020 1031 I-treatment
+therapy 37 44 1032 1039 I-treatment
+
+plan 0 4 1040 1044 B-pregnancy
+to 5 7 1045 1047 I-pregnancy
+become 8 14 1048 1054 I-pregnancy
+pregnant 15 23 1055 1063 I-pregnancy
+

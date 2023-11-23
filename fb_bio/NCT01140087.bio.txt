@@ -1,0 +1,52 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+64 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+Active 0 6 19 25 B-cancer
+malignancy 7 17 26 36 I-cancer
+
+Facial 0 6 37 43 O
+defect 7 13 44 50 O
+or 14 16 51 53 O
+injury 17 23 54 60 O
+requiring 24 33 61 70 O
+facial 34 40 71 77 B-treatment
+transplantation 41 56 78 93 I-treatment
+as 57 59 94 96 O
+determined 60 70 97 107 O
+by 71 73 108 110 O
+the 74 77 111 114 O
+treating 78 86 115 123 O
+Plastic 87 94 124 131 O
+and 95 98 132 135 O
+Reconstructive 99 113 136 150 O
+Surgeon 114 121 151 158 O
+
+HIV 0 3 159 162 B-chronic_disease
+positive 4 12 163 171 O
+
+Positive 0 8 172 180 O
+for 9 12 181 184 O
+Hepatitis 13 22 185 194 B-chronic_disease
+B 23 24 195 196 I-chronic_disease
+or 25 27 197 199 I-chronic_disease
+C 28 29 200 201 I-chronic_disease
+
+Pregnant 0 8 202 210 B-pregnancy
+
+Willing 0 7 211 218 O
+and 8 11 219 222 O
+able 12 16 223 227 O
+to 17 19 228 230 O
+continue 20 28 231 239 O
+immunosuppression 29 46 240 257 B-treatment
+regimen 47 54 258 265 I-treatment
+as 55 57 266 268 O
+directed 58 66 269 277 O
+by 67 69 278 280 O
+treating 70 78 281 289 O
+physician 79 88 290 299 O
+

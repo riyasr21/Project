@@ -1,0 +1,38 @@
+Access 0 6 0 6 B-technology_access
+to 7 9 7 9 I-technology_access
+devices 10 17 10 17 I-technology_access
+that 18 22 18 22 I-technology_access
+play 23 27 23 27 I-technology_access
+DVDs 28 32 28 32 I-technology_access
+
+Medical 0 7 33 40 O
+contraindications 8 25 41 58 O
+for 26 29 59 62 O
+nicotine 30 38 63 71 B-allergy_name
+replacement 39 50 72 83 I-allergy_name
+therapy 51 58 84 91 I-allergy_name
+( 59 60 92 93 I-allergy_name
+NRT 60 63 93 96 I-allergy_name
+) 63 64 96 97 I-allergy_name
+
+Recent 0 6 98 104 O
+quitters 7 15 105 113 O
+( 16 17 114 115 O
+have 17 21 115 119 O
+not 22 25 120 123 O
+smoked 26 32 124 130 O
+in 33 35 131 133 O
+past 36 40 134 138 B-upper_bound
+7 41 42 139 140 I-upper_bound
+days 43 47 141 145 I-upper_bound
+) 47 48 145 146 O
+
+Self 0 4 147 151 O
+- 4 5 151 152 O
+identification 5 19 152 166 O
+as 20 22 167 169 O
+Black 23 28 170 175 B-ethnicity
+/ 28 29 175 176 I-ethnicity
+African 29 36 176 183 I-ethnicity
+American 37 45 184 192 I-ethnicity
+

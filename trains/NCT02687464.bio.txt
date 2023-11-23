@@ -1,0 +1,97 @@
+age 0 3 0 3 B-age
+5 4 5 4 5 B-lower_bound
+- 5 6 5 6 O
+16 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+
+clinical 0 8 15 23 O
+and 9 12 24 27 O
+/or 13 16 28 31 O
+radiological 17 29 32 44 O
+diagnosis 30 39 45 54 O
+( 40 41 55 56 O
+ultrasound 41 51 56 66 O
+[ 52 53 67 68 O
+US 53 55 68 70 O
+] 55 56 70 71 O
+and/or 57 63 72 78 O
+CT 64 66 79 81 O
+scan 67 71 82 86 O
+) 71 72 86 87 O
+of 73 75 88 90 O
+acute 76 81 91 96 B-chronic_disease
+non 82 85 97 100 I-chronic_disease
+- 85 86 100 101 I-chronic_disease
+perforated 86 96 101 111 I-chronic_disease
+appendicitis 97 109 112 124 I-chronic_disease
+
+current 0 7 125 132 O
+treatment 8 17 133 142 O
+for 18 21 143 146 O
+malignancy 22 32 147 157 B-cancer
+
+non 0 3 158 161 O
+- 3 4 161 162 O
+operative 4 13 162 171 O
+management 14 24 172 182 O
+( 25 26 183 184 O
+2 26 27 184 185 O
+or 28 30 186 188 O
+more 31 35 189 193 O
+rounds 36 42 194 200 O
+of 43 45 201 203 O
+intravenous 46 57 204 215 B-treatment
+antibiotics 58 69 216 227 I-treatment
+) 69 70 227 228 O
+initiated 71 80 229 238 O
+at 81 83 239 241 O
+an 84 86 242 244 O
+outside 87 94 245 252 O
+institution 95 106 253 264 O
+
+positive 0 8 265 273 O
+pregnancy 9 18 274 283 B-pregnancy
+test 19 23 284 288 O
+( 24 25 289 290 O
+if 25 27 290 292 O
+part 28 32 293 297 O
+of 33 35 298 300 O
+a 36 37 301 302 O
+clinical 38 46 303 311 O
+routine 47 54 312 319 O
+) 54 55 319 320 O
+
+presentation 0 12 321 333 O
+with 13 17 334 338 O
+an 18 20 339 341 O
+appendix 21 29 342 350 O
+mass 30 34 351 355 O
+or 35 37 356 358 O
+phlegmon 38 46 359 367 B-cancer
+( 47 48 368 369 O
+on 48 50 369 371 O
+physical 51 59 372 380 O
+examination 60 71 381 392 O
+and/or 72 78 393 399 O
+imaging 79 86 400 407 O
+) 86 87 407 408 O
+
+previous 0 8 409 417 O
+episode 9 16 418 425 O
+of 17 19 426 428 O
+appendicitis 20 32 429 441 B-chronic_disease
+or 33 35 442 444 O
+appendix 36 44 445 453 B-chronic_disease
+mass 45 49 454 458 I-chronic_disease
+/ 49 50 458 459 I-chronic_disease
+phlegmon 50 58 459 467 I-chronic_disease
+treated 59 66 468 475 O
+non 67 70 476 479 O
+- 70 71 479 480 O
+operatively 71 82 480 491 O
+
+suspicion 0 9 492 501 O
+of 10 12 502 504 O
+perforated 13 23 505 515 O
+appendicitis 24 36 516 528 B-chronic_disease
+

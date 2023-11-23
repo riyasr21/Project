@@ -1,0 +1,33 @@
+Has 0 3 0 3 O
+Internet 4 12 4 12 B-technology_access
+access 13 19 13 19 I-technology_access
+at 20 22 20 22 O
+home 23 27 23 27 O
+
+No 0 2 28 30 O
+signs 3 8 31 36 O
+of 9 11 37 39 O
+dementia 12 20 40 48 B-chronic_disease
+
+Owns 0 4 49 53 B-technology_access
+a 5 6 54 55 I-technology_access
+standard 7 15 56 64 I-technology_access
+TV 16 18 65 67 I-technology_access
+
+Prior 0 5 68 73 O
+use 6 9 74 77 O
+of 10 12 78 80 O
+hearing 13 20 81 88 B-treatment
+amplification 21 34 89 102 I-treatment
+within 35 41 103 109 O
+the 42 45 110 113 O
+past 46 50 114 118 B-upper_bound
+10 51 53 119 121 I-upper_bound
+years 54 59 122 127 I-upper_bound
+
+Speaks 0 6 128 134 B-language_fluency
+and 7 10 135 138 I-language_fluency
+reads 11 16 139 144 I-language_fluency
+English 17 24 145 152 I-language_fluency
+fluently 25 33 153 161 I-language_fluency
+

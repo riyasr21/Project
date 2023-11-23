@@ -1,0 +1,58 @@
+age 0 3 0 3 B-age
+17 4 6 4 6 B-upper_bound
+and 7 10 7 10 O
+under 11 16 11 16 O
+
+considered 0 10 17 27 O
+to 11 13 28 30 O
+be 14 16 31 33 O
+high 17 21 34 38 O
+risk 22 26 39 43 O
+based 27 32 44 49 O
+on 33 35 50 52 O
+their 36 41 53 58 O
+breast 42 48 59 65 B-cancer
+/ 48 49 65 66 I-cancer
+ovarian 49 56 66 73 I-cancer
+cancer 57 63 74 80 I-cancer
+genetics 64 72 81 89 O
+Referral 73 81 90 98 B-clinical_variable
+Screening 82 91 99 108 I-clinical_variable
+Tool 92 96 109 113 I-clinical_variable
+( 97 98 114 115 I-clinical_variable
+RST 98 101 115 118 I-clinical_variable
+) 101 102 118 119 I-clinical_variable
+score 103 108 120 125 I-clinical_variable
+( 109 110 126 127 O
+≥ 110 111 127 128 O
+2 112 113 129 130 B-lower_bound
+checks 114 120 131 137 I-lower_bound
+) 120 121 137 138 O
+
+do 0 2 139 141 B-language_fluency
+not 3 6 142 145 I-language_fluency
+speak 7 12 146 151 I-language_fluency
+English 13 20 152 159 I-language_fluency
+, 20 21 159 160 I-language_fluency
+Spanish 22 29 161 168 I-language_fluency
+, 29 30 168 169 I-language_fluency
+or 31 33 170 172 I-language_fluency
+Cantonese 34 43 173 182 I-language_fluency
+
+do 0 2 183 185 O
+n't 2 5 185 188 O
+have 6 10 189 193 O
+a 11 12 194 195 O
+family 13 19 196 202 O
+history 20 27 203 210 O
+of 28 30 211 213 O
+cancer 31 37 214 220 B-cancer
+
+speak 0 5 221 226 B-language_fluency
+English 6 13 227 234 I-language_fluency
+, 13 14 234 235 I-language_fluency
+Spanish 15 22 236 243 I-language_fluency
+, 22 23 243 244 I-language_fluency
+or 24 26 245 247 I-language_fluency
+Cantonese 27 36 248 257 I-language_fluency
+

@@ -1,0 +1,64 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Blood 0 5 15 20 B-clinical_variable
+pressure 6 14 21 29 I-clinical_variable
+of 15 17 30 32 O
+> 18 19 33 34 O
+140/90 19 25 34 40 B-lower_bound
+mmHg 26 30 41 45 I-lower_bound
+for 31 34 46 49 O
+patients 35 43 50 58 O
+less 44 48 59 63 O
+than 49 53 64 68 O
+60 54 56 69 71 B-upper_bound
+years 57 62 72 77 I-upper_bound
+
+Cognitively 0 11 78 89 B-chronic_disease
+impaired 12 20 90 98 I-chronic_disease
+persons 21 28 99 106 O
+
+Conditions 0 10 107 117 O
+with 11 15 118 122 O
+visual 16 22 123 129 B-chronic_disease
+field 23 28 130 135 I-chronic_disease
+deterioration 29 42 136 149 I-chronic_disease
+( 43 44 150 151 O
+Anterior 44 52 151 159 B-chronic_disease
+Ischemic 53 61 160 168 I-chronic_disease
+Optic 62 67 169 174 I-chronic_disease
+Neuropathy 68 78 175 185 I-chronic_disease
+, 78 79 185 186 O
+Glaucoma 80 88 187 195 B-chronic_disease
+, 88 89 195 196 O
+Optic 90 95 197 202 B-chronic_disease
+Nerve 96 101 203 208 I-chronic_disease
+Disorders 102 111 209 218 I-chronic_disease
+) 111 112 218 219 O
+
+Currently 0 9 220 229 O
+receiving 10 19 230 239 O
+3 20 21 240 241 O
+anti 22 26 242 246 B-treatment
+- 26 27 246 247 I-treatment
+hypertensive 27 39 247 259 I-treatment
+agents 40 46 260 266 I-treatment
+, 46 47 266 267 O
+one 48 51 268 271 O
+of 52 54 272 274 O
+which 55 60 275 280 O
+is 61 63 281 283 O
+a 64 65 284 285 O
+diuretic 66 74 286 294 B-treatment
+, 74 75 294 295 O
+for 76 79 296 299 O
+at 80 82 300 302 O
+least 83 88 303 308 O
+3 89 90 309 310 B-upper_bound
+months 91 97 311 317 I-upper_bound
+
+Pregnant 0 8 318 326 B-pregnancy
+women 9 14 327 332 B-gender
+

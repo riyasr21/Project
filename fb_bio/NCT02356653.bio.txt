@@ -1,0 +1,118 @@
+Acute 0 5 0 5 B-cancer
+leukemias 6 15 6 15 I-cancer
+
+Bone 0 4 16 20 B-chronic_disease
+marrow 5 11 21 27 I-chronic_disease
+failure 12 19 28 35 I-chronic_disease
+syndromes 20 29 36 45 I-chronic_disease
+
+Cardiac 0 7 46 53 B-clinical_variable
+shortening 8 18 54 64 I-clinical_variable
+fraction 19 27 65 73 I-clinical_variable
+≥27 28 31 74 77 O
+% 31 32 77 78 I-lower_bound
+
+Chronic 0 7 79 86 O
+leukemias 8 17 87 96 B-cancer
+
+Females 0 7 97 104 B-gender
+of 8 10 105 107 O
+childbearing 11 23 108 120 O
+potential 24 33 121 130 O
+must 34 38 131 135 O
+have 39 43 136 140 O
+negative 44 52 141 149 B-pregnancy
+pregnancy 53 62 150 159 I-pregnancy
+test 63 67 160 164 O
+
+Immunodeficiencies 0 18 165 183 B-chronic_disease
+/ 18 19 183 184 O
+immune 19 25 184 190 B-chronic_disease
+dysregulation 26 39 191 204 I-chronic_disease
+syndromes 40 49 205 214 I-chronic_disease
+
+Lansky 0 6 215 221 B-clinical_variable
+or 7 9 222 224 O
+Karnofsky 10 19 225 234 B-clinical_variable
+performance 20 31 235 246 I-clinical_variable
+≥60 32 35 247 250 O
+
+Lymphomas 0 9 251 260 B-cancer
+
+Metabolic 0 9 261 270 B-chronic_disease
+storage 10 17 271 278 I-chronic_disease
+diseases 18 26 279 287 I-chronic_disease
+correctable 27 38 288 299 O
+by 39 41 300 302 O
+HSCT 42 46 303 307 B-treatment
+
+Myelodyplastic 0 14 308 322 B-cancer
+syndrome 15 23 323 331 I-cancer
+
+Non 0 3 332 335 B-cancer
+- 3 4 335 336 I-cancer
+malignant 4 13 336 345 I-cancer
+diseases 14 22 346 354 I-cancer
+
+Patients 0 8 355 363 O
+who 9 12 364 367 O
+lack 13 17 368 372 O
+a 18 19 373 374 O
+fully 20 25 375 380 O
+HLA 26 29 381 384 O
+matched 30 37 385 392 O
+sibling 38 45 393 400 O
+and 46 49 401 404 O
+who 50 53 405 408 O
+are 54 57 409 412 O
+candidates 58 68 413 423 O
+for 69 72 424 427 O
+allogeneic 73 83 428 438 B-treatment
+hematopoietic 84 97 439 452 I-treatment
+stem 98 102 453 457 I-treatment
+cell 103 107 458 462 I-treatment
+transplant 108 118 463 473 I-treatment
+( 119 120 474 475 I-treatment
+HSCT 120 124 475 479 I-treatment
+) 124 125 479 480 I-treatment
+but 126 129 481 484 O
+do 130 132 485 487 O
+not 133 136 488 491 O
+meet 137 141 492 496 O
+criteria 142 150 497 505 O
+for 151 154 506 509 O
+current 155 162 510 517 O
+open 163 167 518 522 O
+institutional 168 181 523 536 O
+protocols 182 191 537 546 O
+using 192 197 547 552 O
+ClinMACs 198 206 553 561 B-treatment
+device 207 213 562 568 I-treatment
+for 214 217 569 572 O
+CD3+/CD19 218 227 573 582 O
++ 227 228 582 583 O
+depletion 229 238 584 593 O
+
+Pregnant 0 8 594 602 B-pregnancy
+Females 9 16 603 610 B-gender
+
+Serum 0 5 611 616 B-clinical_variable
+creatinine 6 16 617 627 I-clinical_variable
+≤3xupper 17 25 628 636 O
+limit 26 31 637 642 I-upper_bound
+of 32 34 643 645 I-upper_bound
+normal 35 41 646 652 I-upper_bound
+for 42 45 653 656 O
+age 46 49 657 660 B-age
+
+Transaminases 0 13 661 674 B-clinical_variable
+≤10xnormal 14 24 675 685 O
+
+Uncontrolled 0 12 686 698 B-chronic_disease
+bacterial 13 22 699 708 I-chronic_disease
+, 22 23 708 709 I-chronic_disease
+viral 24 29 710 715 I-chronic_disease
+or 30 32 716 718 I-chronic_disease
+fungal 33 39 719 725 I-chronic_disease
+infections 40 50 726 736 I-chronic_disease
+

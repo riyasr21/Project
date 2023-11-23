@@ -1,0 +1,74 @@
+21 0 2 0 2 B-lower_bound
+- 2 3 2 3 I-lower_bound
+years 3 8 3 8 I-lower_bound
+- 8 9 8 9 O
+old 9 12 9 12 O
+or 13 15 13 15 O
+greater 16 23 16 23 O
+
+History 0 7 24 31 O
+of 8 10 32 34 O
+cardiovascular 11 25 35 49 B-chronic_disease
+disease 26 33 50 57 I-chronic_disease
+that 34 38 58 62 O
+may 39 42 63 66 O
+adversely 43 52 67 76 O
+affect 53 59 77 83 O
+patient 60 67 84 91 O
+participation 68 81 92 105 O
+at 82 84 106 108 O
+the 85 88 109 112 O
+discretion 89 99 113 123 O
+of 100 102 124 126 O
+the 103 106 127 130 O
+primary 107 114 131 138 O
+investigator 115 127 139 151 O
+
+Women 0 5 152 157 B-gender
+who 6 9 158 161 O
+are 10 13 162 165 O
+pregnant 14 22 166 174 B-pregnancy
+or 23 25 175 177 O
+breastfeeding 26 39 178 191 O
+
+hemodialysis 0 12 192 204 B-treatment
+
+nown 0 4 205 209 O
+metastatic 5 15 210 220 O
+thyroid 16 23 221 228 B-cancer
+cancer 24 30 229 235 I-cancer
+
+qualify 0 7 236 243 O
+for 8 11 244 247 O
+thyroid 12 19 248 255 B-treatment
+ablation 20 28 256 264 I-treatment
+with 29 33 265 269 I-treatment
+I-131 34 39 270 275 I-treatment
+
+status 0 6 276 282 O
+post 7 11 283 287 O
+near 12 16 288 292 O
+total 17 22 293 298 B-treatment
+thyroidectomy 23 36 299 312 I-treatment
+for 37 40 313 316 O
+differentiated 41 55 317 331 O
+thyroid 56 63 332 339 B-cancer
+cancer 64 70 340 346 I-cancer
+without 71 78 347 354 O
+known 79 84 355 360 O
+distant 85 92 361 368 B-cancer
+metastases 93 103 369 379 I-cancer
+and 104 107 380 383 O
+who 108 111 384 387 O
+are 112 115 388 391 O
+planning 116 124 392 400 O
+to 125 127 401 403 O
+undergo 128 135 404 411 O
+routine 136 143 412 419 O
+remnant 144 151 420 427 B-treatment
+thyroid 152 159 428 435 I-treatment
+tissue 160 166 436 442 I-treatment
+ablation 167 175 443 451 I-treatment
+with 176 180 452 456 I-treatment
+I-131 181 186 457 462 I-treatment
+

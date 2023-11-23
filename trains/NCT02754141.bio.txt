@@ -1,0 +1,22 @@
+Allow 0 5 0 5 O
+biopsies 6 14 6 14 B-treatment
+
+Eastern 0 7 15 22 B-clinical_variable
+Cooperative 8 19 23 34 I-clinical_variable
+Oncology 20 28 35 43 I-clinical_variable
+Group 29 34 44 49 I-clinical_variable
+( 35 36 50 51 I-clinical_variable
+ECOG 36 40 51 55 I-clinical_variable
+) 40 41 55 56 I-clinical_variable
+0 42 43 57 58 B-lower_bound
+- 43 44 58 59 O
+1 44 45 59 60 B-upper_bound
+
+Uncontrolled 0 12 61 73 O
+or 13 15 74 76 O
+significant 16 27 77 88 O
+cardiovascular 28 42 89 103 B-chronic_disease
+diseases 43 51 104 112 I-chronic_disease
+
+women 0 5 113 118 B-gender
+

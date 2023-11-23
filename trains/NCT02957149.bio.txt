@@ -1,0 +1,98 @@
+Diabetes 0 8 0 8 B-chronic_disease
+mellitus 9 17 9 17 I-chronic_disease
+diagnosis 18 27 18 27 O
+
+Male 0 4 28 32 B-gender
+gender 5 11 33 39 O
+
+Men 0 3 40 43 B-gender
+found 4 9 44 49 O
+grossly 10 17 50 57 O
+or 18 20 58 60 O
+pathologically 21 35 61 75 O
+to 36 38 76 78 O
+have 39 43 79 83 O
+locally 44 51 84 91 O
+advanced 52 60 92 100 O
+or 61 63 101 103 O
+metastatic 64 74 104 114 B-chronic_disease
+disease 75 82 115 122 I-chronic_disease
+at 83 85 123 125 O
+the 86 89 126 129 O
+time 90 94 130 134 O
+of 95 97 135 137 O
+radical 98 105 138 145 B-treatment
+prostatectomy 106 119 146 159 I-treatment
+
+Metastatic 0 10 160 170 O
+or 11 13 171 173 O
+locally 14 21 174 181 O
+advanced 22 30 182 190 O
+prostatic 31 40 191 200 B-cancer
+adenocarcinoma 41 55 201 215 I-cancer
+on 56 58 216 218 O
+preoperative 59 71 219 231 O
+evaluation 72 82 232 242 O
+
+Newly 0 5 243 248 O
+diagnosed 6 15 249 258 O
+, 15 16 258 259 O
+clinically 17 27 260 270 O
+localized 28 37 271 280 O
+prostatic 38 47 281 290 B-cancer
+adenocarcinoma 48 62 291 305 I-cancer
+
+Preexisting 0 11 306 317 B-chronic_disease
+Erectile 12 20 318 326 I-chronic_disease
+Dysfunction 21 32 327 338 I-chronic_disease
+or 33 35 339 341 O
+urinary 36 43 342 349 B-chronic_disease
+incontinence 44 56 350 362 I-chronic_disease
+
+Treatment 0 9 363 372 B-treatment
+prior 10 15 373 378 O
+to 16 18 379 381 O
+surgery 19 26 382 389 B-treatment
+with 27 31 390 394 O
+any 32 35 395 398 O
+form 36 40 399 403 O
+of 41 43 404 406 O
+hormones 44 52 407 415 B-treatment
+, 52 53 415 416 O
+anti 54 58 417 421 B-treatment
+- 58 59 421 422 I-treatment
+androgens 59 68 422 431 I-treatment
+or 69 71 432 434 O
+androgen 72 80 435 443 B-treatment
+deprivation 81 92 444 455 I-treatment
+therapy 93 100 456 463 I-treatment
+
+Use 0 3 464 467 O
+of 4 6 468 470 O
+an 7 9 471 473 O
+antidepressant 10 24 474 488 B-treatment
+, 24 25 488 489 O
+beta 26 30 490 494 B-treatment
+blocker 31 38 495 502 I-treatment
+or 39 41 503 505 O
+erectile 42 50 506 514 B-treatment
+dysfunction 51 62 515 526 I-treatment
+medication 63 73 527 537 I-treatment
+at 74 76 538 540 O
+the 77 80 541 544 O
+time 81 85 545 549 O
+of 86 88 550 552 O
+study 89 94 553 558 O
+screening 95 104 559 568 O
+
+Use 0 3 569 572 O
+of 4 6 573 575 O
+aspirin 7 14 576 583 B-treatment
+or 15 17 584 586 O
+heparin 18 25 587 594 B-treatment
+2 26 27 595 596 O
+weeks 28 33 597 602 O
+before 34 40 603 609 O
+radical 41 48 610 617 B-treatment
+prostatectomy 49 62 618 631 I-treatment
+

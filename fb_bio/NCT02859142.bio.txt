@@ -1,0 +1,100 @@
+Consume 0 7 0 7 O
+> 8 9 8 9 O
+14 9 11 9 11 B-lower_bound
+( 12 13 12 13 O
+men 13 16 13 16 B-gender
+) 16 17 16 17 O
+or 18 20 18 20 O
+> 21 22 21 22 O
+7 22 23 22 23 B-lower_bound
+( 24 25 24 25 O
+women 25 30 25 30 B-gender
+) 30 31 30 31 O
+standard 32 40 32 40 O
+alcohol 41 48 41 48 O
+drinks 49 55 49 55 O
+per 56 59 56 59 O
+week 60 64 60 64 O
+
+Current 0 7 65 72 O
+suicidal 8 16 73 81 B-chronic_disease
+ideation 17 25 82 90 I-chronic_disease
+( 26 27 91 92 O
+past 27 31 92 96 B-upper_bound
+6 32 33 97 98 I-upper_bound
+months 34 40 99 105 I-upper_bound
+) 40 41 105 106 O
+
+History 0 7 107 114 O
+of 8 10 115 117 O
+adverse 11 18 118 125 O
+reactions 19 28 126 135 O
+to 29 31 136 138 O
+varenicline 32 43 139 150 B-allergy_name
+( 44 45 151 152 I-allergy_name
+VAR 45 48 152 155 I-allergy_name
+) 48 49 155 156 I-allergy_name
+
+History 0 7 157 164 O
+of 8 10 165 167 O
+seizures 11 19 168 176 B-chronic_disease
+
+Smoke 0 5 177 182 O
+3 6 7 183 184 B-age
+- 7 8 184 185 O
+30 8 10 185 187 B-upper_bound
+cigarettes 11 21 188 198 O
+/ 21 22 198 199 O
+day 22 25 199 202 O
+
+at 0 2 203 205 O
+least 3 8 206 211 O
+8th 9 12 212 215 B-lower_bound
+grade 13 18 216 221 O
+education 19 28 222 231 O
+
+cirrhosis 0 9 232 241 B-chronic_disease
+
+current 0 7 242 249 B-pregnancy
+plans 8 13 250 255 I-pregnancy
+to 14 16 256 258 I-pregnancy
+become 17 23 259 265 I-pregnancy
+pregnant 24 32 266 274 I-pregnancy
+in 33 35 275 277 O
+next 36 40 278 282 B-upper_bound
+three 41 46 283 288 I-upper_bound
+months 47 53 289 295 I-upper_bound
+
+currently 0 9 296 305 O
+pregnant 10 18 306 314 B-pregnancy
+
+hepatitis 0 9 315 324 B-chronic_disease
+
+history 0 7 325 332 O
+of 8 10 333 335 O
+major 11 16 336 341 O
+suicide 17 24 342 349 B-chronic_disease
+attempts 25 33 350 358 I-chronic_disease
+
+psychiatric 0 11 359 370 B-chronic_disease
+disorder 12 20 371 379 I-chronic_disease
+
+recent 0 6 380 386 O
+major 7 12 387 392 B-chronic_disease
+cardiovascular 13 27 393 407 I-chronic_disease
+event 28 33 408 413 O
+
+seizure 0 7 414 421 B-chronic_disease
+disorder 8 16 422 430 I-chronic_disease
+
+unable 0 6 431 437 B-contraception_consent
+to 7 9 438 440 I-contraception_consent
+agree 10 15 441 446 I-contraception_consent
+to 16 18 447 449 I-contraception_consent
+adequate 19 27 450 458 I-contraception_consent
+birth 28 33 459 464 I-contraception_consent
+control 34 41 465 472 I-contraception_consent
+during 42 48 473 479 O
+study 49 54 480 485 O
+participation 55 68 486 499 O
+

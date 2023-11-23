@@ -1,0 +1,67 @@
+At 0 2 0 2 O
+least 3 8 3 8 O
+18 9 11 9 11 B-lower_bound
+years 12 17 12 17 I-lower_bound
+of 18 20 18 20 O
+age 21 24 21 24 B-age
+
+Female 0 6 25 31 B-gender
+
+Pregnant 0 8 32 40 B-pregnancy
+
+Prior 0 5 41 46 O
+history 6 13 47 54 O
+of 14 16 55 57 O
+chest 17 22 58 63 B-treatment
+wall 23 27 64 68 I-treatment
+radiation 28 37 69 78 I-treatment
+
+Scheduled 0 9 79 88 O
+to 10 12 89 91 O
+receive 13 20 92 99 O
+neoadjuvant 21 32 100 111 B-treatment
+chemotherapy 33 45 112 124 I-treatment
+for 46 49 125 128 O
+the 50 53 129 132 O
+treatment 54 63 133 142 O
+of 64 66 143 145 O
+newly 67 72 146 151 O
+diagnosed 73 82 152 161 O
+, 82 83 161 162 O
+locally 84 91 163 170 O
+advanced 92 100 171 179 B-cancer
+breast 101 107 180 186 I-cancer
+cancer 108 114 187 193 I-cancer
+or 115 117 194 196 O
+scheduled 118 127 197 206 O
+to 128 130 207 209 O
+receive 131 138 210 217 O
+neoadjuvant 139 150 218 229 B-treatment
+endocrine 151 160 230 239 I-treatment
+therapy 161 168 240 247 I-treatment
+with 169 173 248 252 O
+the 174 177 253 256 O
+eventual 178 186 257 265 O
+goal 187 191 266 270 O
+of 192 194 271 273 O
+surgery 195 202 274 281 B-treatment
+of 203 205 282 284 O
+newly 206 211 285 290 O
+diagnosed 212 221 291 300 O
+clinical 222 230 301 309 O
+stage 231 236 310 315 B-cancer
+II 237 239 316 318 I-cancer
+- 239 240 318 319 I-cancer
+III 240 243 319 322 I-cancer
+ER+ 244 247 323 326 I-cancer
+HER2- 248 253 327 332 I-cancer
+breast 254 260 333 339 I-cancer
+cancer 261 267 340 346 I-cancer
+( 268 269 347 348 O
+for 269 272 348 351 O
+the 273 276 352 355 O
+endocrine 277 286 356 365 O
+therapy 287 294 366 373 O
+cohort 295 301 374 380 O
+) 301 302 380 381 O
+

@@ -1,0 +1,20 @@
+history 0 7 0 7 O
+unilateral 8 18 8 18 B-clinical_variable
+stroke 19 25 19 25 I-clinical_variable
+> 26 27 26 27 O
+6 28 29 28 29 B-lower_bound
+months 30 36 30 36 I-lower_bound
+duration 37 45 37 45 O
+
+walks 0 5 46 51 O
+without 6 13 52 59 O
+physical 14 22 60 68 B-clinical_variable
+assistance 23 33 69 79 I-clinical_variable
+at 34 36 80 82 I-clinical_variable
+speeds 37 43 83 89 I-clinical_variable
+< 44 45 90 91 O
+1.0 46 49 92 95 B-upper_bound
+m 50 51 96 97 I-upper_bound
+/ 51 52 97 98 I-upper_bound
+s 52 53 98 99 I-upper_bound
+

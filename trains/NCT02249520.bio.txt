@@ -1,0 +1,51 @@
+Age 0 3 0 3 B-age
+< 4 5 4 5 O
+18 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+
+Age 0 3 15 18 B-age
+≥18 4 7 19 22 O
+years 8 13 23 28 I-lower_bound
+
+Any 0 3 29 32 O
+contraindications 4 21 33 50 O
+to 22 24 51 53 O
+MR 25 27 54 56 B-treatment
+imaging 28 35 57 64 I-treatment
+
+For 0 3 65 68 O
+MR 4 6 69 71 B-clinical_variable
+- 6 7 71 72 I-clinical_variable
+PET 7 10 72 75 I-clinical_variable
+calibration 11 22 76 87 I-clinical_variable
+
+Outpatient 0 10 88 98 O
+undergoing 11 21 99 109 O
+standard 22 30 110 118 O
+- 30 31 118 119 O
+of 31 33 119 121 O
+- 33 34 121 122 O
+care 34 38 122 126 O
+18FDG 39 44 127 132 B-treatment
+- 44 45 132 133 I-treatment
+PET 45 48 133 136 I-treatment
+at 49 51 137 139 O
+S. 52 54 140 142 O
+Mark 55 59 143 147 O
+Taper 60 65 148 153 O
+Foundation 66 76 154 164 O
+Imaging 77 84 165 172 O
+Center 85 91 173 179 O
+at 92 94 180 182 O
+CSMC 95 99 183 187 O
+
+Pregnancy 0 9 188 197 B-pregnancy
+
+claustrophobia 0 14 198 212 B-chronic_disease
+
+intracranial 0 12 213 225 B-treatment
+clips 13 18 226 231 I-treatment
+
+valve 0 5 232 237 B-treatment
+replacement 6 17 238 249 I-treatment
+

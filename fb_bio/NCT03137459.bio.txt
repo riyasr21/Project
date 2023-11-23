@@ -1,0 +1,47 @@
+Moderate 0 8 0 8 B-chronic_disease
+to 9 11 9 11 I-chronic_disease
+severe 12 18 12 18 I-chronic_disease
+cognitive 19 28 19 28 I-chronic_disease
+impairment 29 39 29 39 I-chronic_disease
+, 39 40 39 40 O
+defined 41 48 41 48 O
+as 49 51 49 51 O
+either 52 58 52 58 O
+a 59 60 59 60 O
+diagnosis 61 70 61 70 O
+of 71 73 71 73 O
+dementia 74 82 74 82 O
+and/or 83 89 83 89 O
+short 90 95 90 95 O
+- 95 96 95 96 O
+term 96 100 96 100 O
+recall 101 107 101 107 O
+of 108 110 108 110 O
+< 111 112 111 112 O
+2/3 112 115 112 115 B-upper_bound
+objects 116 123 116 123 O
+at 124 126 124 126 O
+2 127 128 127 128 O
+minutes 129 136 129 136 O
+
+Primary 0 7 137 144 B-language_fluency
+language 8 16 145 153 I-language_fluency
+other 17 22 154 159 I-language_fluency
+than 23 27 160 164 I-language_fluency
+English 28 35 165 172 I-language_fluency
+
+Severe 0 6 173 179 B-chronic_disease
+visual 7 13 180 186 I-chronic_disease
+impairment 14 24 187 197 I-chronic_disease
+, 24 25 197 198 O
+defined 26 33 199 206 O
+as 34 36 207 209 O
+being 37 42 210 215 O
+unable 43 49 216 222 O
+to 50 52 223 225 O
+read 53 57 226 230 O
+large 58 63 231 236 O
+- 63 64 236 237 O
+print 64 69 237 242 O
+materials 70 79 243 252 O
+

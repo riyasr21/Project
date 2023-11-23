@@ -1,0 +1,15 @@
+Oxygen 0 6 0 6 B-treatment
+therapy 7 14 7 14 I-treatment
+within 15 21 15 21 O
+the 22 25 22 25 O
+previous 26 34 26 34 B-upper_bound
+30 35 37 35 37 I-upper_bound
+days 38 42 38 42 I-upper_bound
+
+Smoking 0 7 43 50 O
+within 8 14 51 57 O
+the 15 18 58 61 O
+previous 19 27 62 70 B-upper_bound
+30 28 30 71 73 I-upper_bound
+days 31 35 74 78 I-upper_bound
+

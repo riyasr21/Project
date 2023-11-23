@@ -1,0 +1,122 @@
+Age 0 3 0 3 B-age
+greater 4 11 4 11 O
+than 12 16 12 16 O
+or 17 19 17 19 O
+equal 20 25 20 25 O
+to 26 28 26 28 O
+18 29 31 29 31 B-lower_bound
+years 32 37 32 37 I-lower_bound
+
+Current 0 7 38 45 O
+Gastrointestinal 8 24 46 62 B-chronic_disease
+Bleeding 25 33 63 71 I-chronic_disease
+or 34 36 72 74 O
+bowel 37 42 75 80 B-chronic_disease
+ischemia 43 51 81 89 I-chronic_disease
+
+Fludrocortisone 0 15 90 105 B-treatment
+acetate 16 23 106 113 I-treatment
+is 24 26 114 116 O
+a 27 28 117 118 O
+current 29 36 119 126 O
+home 37 41 127 131 O
+medication 42 52 132 142 O
+
+History 0 7 143 150 O
+of 8 10 151 153 O
+lactose 11 18 154 161 B-chronic_disease
+intolerance 19 30 162 173 I-chronic_disease
+
+History 0 7 174 181 O
+of 8 10 182 184 O
+pheochromocytoma 11 27 185 201 B-cancer
+
+Known 0 5 202 207 O
+allergy 6 13 208 215 O
+to 14 16 216 218 O
+Midodrine 17 26 219 228 B-allergy_name
+
+Midodrine 0 9 229 238 B-treatment
+as 10 12 239 241 O
+a 13 14 242 243 O
+home 15 19 244 248 O
+medication 20 30 249 259 O
+
+Patients 0 8 260 268 O
+diagnosed 9 18 269 278 O
+with 19 23 279 283 O
+sepsis 24 30 284 290 B-chronic_disease
+based 31 36 291 296 O
+on 37 39 297 299 O
+the 40 43 300 303 O
+old 44 47 304 307 O
+Sepsis 48 54 308 314 O
+criteria 55 63 315 323 O
+
+Recent 0 6 324 330 O
+Myocardial 7 17 331 341 B-chronic_disease
+infarction 18 28 342 352 I-chronic_disease
+within 29 35 353 359 O
+the 36 39 360 363 O
+past 40 44 364 368 B-upper_bound
+3 45 46 369 370 I-upper_bound
+months 47 53 371 377 I-upper_bound
+
+Recent 0 6 378 384 O
+Stroke 7 13 385 391 B-chronic_disease
+within 14 20 392 398 O
+the 21 24 399 402 O
+past 25 29 403 407 B-upper_bound
+3 30 31 408 409 I-upper_bound
+months 32 38 410 416 I-upper_bound
+
+Two 0 3 417 420 B-lower_bound
+or 4 6 421 423 O
+more 7 11 424 428 O
+blood 12 17 429 434 B-clinical_variable
+pressure 18 26 435 443 I-clinical_variable
+readings 27 35 444 452 O
+taken 36 41 453 458 O
+at 42 44 459 461 O
+least 45 50 462 467 O
+15 51 53 468 470 B-lower_bound
+minutes 54 61 471 478 I-lower_bound
+apart 62 67 479 484 O
+with 68 72 485 489 O
+mean 73 77 490 494 O
+arterial 78 86 495 503 O
+pressures 87 96 504 513 O
+, 96 97 513 514 O
+MAPs 98 102 515 519 B-clinical_variable
+70 103 105 520 522 B-upper_bound
+or 106 108 523 525 O
+less 109 113 526 530 O
+
+Women 0 5 531 536 B-gender
+of 6 8 537 539 O
+child 9 14 540 545 O
+bearing 15 22 546 553 O
+age 23 26 554 557 B-age
+with 27 31 558 562 O
+the 32 35 563 566 O
+potential 36 45 567 576 O
+to 46 48 577 579 O
+become 49 55 580 586 B-pregnancy
+pregnant 56 64 587 595 I-pregnancy
+who 65 68 596 599 O
+do 69 71 600 602 O
+not 72 75 603 606 O
+have 76 80 607 611 O
+a 81 82 612 613 O
+clinically 83 93 614 624 O
+documented 94 104 625 635 O
+negative 105 113 636 644 B-pregnancy
+pregnancy 114 123 645 654 I-pregnancy
+test 124 128 655 659 O
+
+glaucoma 0 8 660 668 B-chronic_disease
+
+ischemic 0 8 669 677 B-chronic_disease
+bowel 9 14 678 683 I-chronic_disease
+disease 15 22 684 691 I-chronic_disease
+

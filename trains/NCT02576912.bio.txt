@@ -1,0 +1,19 @@
+Exposed 0 7 0 7 O
+to 8 10 8 10 O
+cannabis 11 19 11 19 B-treatment
+at 20 22 20 22 O
+least 23 28 23 28 O
+once 29 33 29 33 O
+in 34 36 34 36 O
+lifetime 37 45 37 45 O
+
+Individuals 0 11 46 57 O
+with 12 16 58 62 O
+a 17 18 63 64 O
+documented 19 29 65 75 O
+reaction 30 38 76 84 O
+/ 38 39 84 85 O
+allergy 39 46 85 92 O
+to 47 49 93 95 O
+Pregnenolone 50 62 96 108 B-allergy_name
+

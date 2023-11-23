@@ -1,0 +1,114 @@
+On 0 2 0 2 O
+- 2 3 2 3 O
+treatment 3 12 3 12 O
+systolic 13 21 13 21 B-clinical_variable
+BP 22 24 22 24 I-clinical_variable
+of 25 27 25 27 O
+> 28 29 28 29 O
+160 29 32 29 32 B-lower_bound
+mmHg 33 37 33 37 I-lower_bound
+at 38 40 38 40 O
+screening 41 50 41 50 O
+visit 51 56 51 56 O
+
+active 0 6 57 63 O
+cancer 7 13 64 70 B-cancer
+other 14 19 71 76 O
+than 20 24 77 81 O
+non 25 28 82 85 B-cancer
+- 28 29 85 86 I-cancer
+melanoma 29 37 86 94 I-cancer
+skin 38 42 95 99 I-cancer
+or 43 45 100 102 I-cancer
+low 46 49 103 106 I-cancer
+- 49 50 106 107 I-cancer
+risk 50 54 107 111 I-cancer
+prostate 55 63 112 120 I-cancer
+cancer 64 70 121 127 I-cancer
+
+chronic 0 7 128 135 B-chronic_disease
+kidney 8 14 136 142 I-chronic_disease
+disease 15 22 143 150 I-chronic_disease
+with 23 27 151 155 O
+estimated 28 37 156 165 B-clinical_variable
+glomerular 38 48 166 176 I-clinical_variable
+filtration 49 59 177 187 I-clinical_variable
+rate 60 64 188 192 I-clinical_variable
+< 65 66 193 194 O
+45 66 68 194 196 B-upper_bound
+ml 69 71 197 199 I-upper_bound
+/ 71 72 199 200 I-upper_bound
+min/ 72 76 200 204 I-upper_bound
+1.73m2 77 83 205 211 I-upper_bound
+
+cirrhosis 0 9 212 221 B-chronic_disease
+
+hemoglobin 0 10 222 232 B-clinical_variable
+< 11 12 233 234 O
+9 12 13 234 235 B-upper_bound
+gm 14 16 236 238 I-upper_bound
+/ 16 17 238 239 I-upper_bound
+dL 17 19 239 241 I-upper_bound
+
+hepatic 0 7 242 249 B-chronic_disease
+disease 8 15 250 257 I-chronic_disease
+
+left 0 4 258 262 B-clinical_variable
+ventricular 5 16 263 274 I-clinical_variable
+ejection 17 25 275 283 I-clinical_variable
+fraction 26 34 284 292 I-clinical_variable
+< 35 36 293 294 O
+50 36 38 294 296 B-upper_bound
+% 38 39 296 297 I-upper_bound
+
+metabolic 0 9 298 307 B-chronic_disease
+syndrome 10 18 308 316 I-chronic_disease
+
+moderate 0 8 317 325 B-chronic_disease
+or 9 11 326 328 I-chronic_disease
+severe 12 18 329 335 I-chronic_disease
+valvular 19 27 336 344 I-chronic_disease
+heart 28 33 345 350 I-chronic_disease
+disease 34 41 351 358 I-chronic_disease
+
+myocardial 0 10 359 369 B-chronic_disease
+infarction 11 21 370 380 I-chronic_disease
+or 22 24 381 383 O
+stroke 25 31 384 390 B-chronic_disease
+within 32 38 391 397 O
+the 39 42 398 401 O
+prior 43 48 402 407 B-upper_bound
+6 49 50 408 409 I-upper_bound
+months 51 57 410 416 I-upper_bound
+
+other 0 5 417 422 O
+comorbidity 6 17 423 434 O
+with 18 22 435 439 O
+expected 23 31 440 448 B-clinical_variable
+survival 32 40 449 457 I-clinical_variable
+< 41 42 458 459 O
+12 42 44 459 461 B-upper_bound
+months 45 51 462 468 I-upper_bound
+
+severely 0 8 469 477 B-chronic_disease
+uncontrolled 9 21 478 490 I-chronic_disease
+diabetes 22 30 491 499 I-chronic_disease
+
+unoperated 0 10 500 510 O
+aortic 11 17 511 517 B-chronic_disease
+aneurysm 18 26 518 526 I-chronic_disease
+for 27 30 527 530 O
+which 31 36 531 536 O
+surgery 37 44 537 544 B-treatment
+is 45 47 545 547 O
+indicated 48 57 548 557 O
+, 57 58 557 558 O
+prior 59 64 559 564 O
+hyperkalemia 65 77 565 577 B-chronic_disease
+requiring 78 87 578 587 O
+urgent 88 94 588 594 O
+treatment 95 104 595 604 B-treatment
+
+with 0 4 605 609 O
+HTN 5 8 610 613 B-chronic_disease
+

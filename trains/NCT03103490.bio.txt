@@ -1,0 +1,12 @@
+Patient 0 7 0 7 O
+is 8 10 8 10 O
+pregnant 11 19 11 19 B-pregnancy
+
+Patient 0 7 20 27 O
+with 8 12 28 32 O
+known 13 18 33 38 O
+or 19 21 39 41 O
+suspected 22 31 42 51 O
+cardiac 32 39 52 59 B-chronic_disease
+sarcoidosis 40 51 60 71 I-chronic_disease
+

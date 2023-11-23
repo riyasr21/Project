@@ -1,0 +1,9 @@
+Contraindication 0 16 0 16 O
+to 17 19 17 19 O
+increasing 20 30 20 30 B-allergy_name
+activity 31 39 31 39 I-allergy_name
+
+congestive 0 10 40 50 B-chronic_disease
+heart 11 16 51 56 I-chronic_disease
+failure 17 24 57 64 I-chronic_disease
+

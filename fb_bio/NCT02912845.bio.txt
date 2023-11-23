@@ -1,0 +1,18 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+previous 11 19 11 19 O
+administration 20 34 20 34 O
+of 35 37 35 37 O
+rabies 38 44 38 44 B-treatment
+vaccine 45 52 45 52 I-treatment
+or 53 55 53 55 O
+human 56 61 56 61 B-treatment
+rabies 62 68 62 68 I-treatment
+immune 69 75 69 75 I-treatment
+globulin 76 84 76 84 I-treatment
+( 85 86 85 86 I-treatment
+HRIG 86 90 86 90 I-treatment
+) 90 91 90 91 I-treatment
+
+male 0 4 92 96 B-gender
+

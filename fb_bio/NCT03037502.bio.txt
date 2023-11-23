@@ -1,0 +1,50 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+35 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+64 8 10 8 10 B-upper_bound
+at 11 13 11 13 O
+enrollment 14 24 14 24 O
+
+BMI 0 3 25 28 B-bmi
+: 3 4 28 29 O
+30 5 7 30 32 B-lower_bound
+- 7 8 32 33 O
+50 8 10 33 35 B-upper_bound
+
+Fluent 0 6 36 42 B-language_fluency
+in 7 9 43 45 I-language_fluency
+English 10 17 46 53 I-language_fluency
+( 18 19 54 55 I-language_fluency
+Nashville 19 28 55 64 I-language_fluency
+and 29 32 65 68 I-language_fluency
+Miami 33 38 69 74 I-language_fluency
+) 38 39 74 75 I-language_fluency
+or 40 42 76 78 I-language_fluency
+Spanish 43 50 79 86 I-language_fluency
+( 51 52 87 88 I-language_fluency
+Miami 52 57 88 93 I-language_fluency
+) 57 58 93 94 I-language_fluency
+
+Prior 0 5 95 100 B-treatment
+or 6 8 101 103 I-treatment
+planned 9 16 104 111 I-treatment
+bariatric 17 26 112 121 I-treatment
+surgery 27 34 122 129 I-treatment
+
+Race/ 0 5 130 135 O
+ethnicity 6 15 136 145 O
+: 15 16 145 146 O
+African 17 24 147 154 B-ethnicity
+American/ 25 34 155 164 I-ethnicity
+Black 35 40 165 170 B-ethnicity
+or 41 43 171 173 O
+Latino/ 44 51 174 181 B-ethnicity
+Hispanic 52 60 182 190 B-ethnicity
+
+Weight 0 6 191 197 B-clinical_variable
+less 7 11 198 202 O
+than 12 16 203 207 O
+400 17 20 208 211 B-upper_bound
+pounds 21 27 212 218 I-upper_bound
+

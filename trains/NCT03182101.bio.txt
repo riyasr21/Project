@@ -1,0 +1,46 @@
+< 0 1 0 1 O
+age 2 5 2 5 B-age
+12 6 8 6 8 B-upper_bound
+
+Patient 0 7 9 16 O
+and 8 11 17 20 O
+parent 12 18 21 27 O
+/ 18 19 27 28 O
+legal 19 24 28 33 O
+guardian 25 33 34 42 O
+are 34 37 43 46 O
+English 38 45 47 54 B-language_fluency
+speaking 46 54 55 63 I-language_fluency
+
+Primary 0 7 64 71 O
+or 8 10 72 74 O
+co 11 13 75 77 O
+- 13 14 77 78 O
+primary 14 21 78 85 O
+diagnosis 22 31 86 95 O
+of 32 34 96 98 O
+OCD 35 38 99 102 B-chronic_disease
+, 38 39 102 103 O
+Separation 40 50 104 114 B-chronic_disease
+Anxiety 51 58 115 122 I-chronic_disease
+, 58 59 122 123 O
+Social 60 66 124 130 B-chronic_disease
+Anxiety 67 74 131 138 I-chronic_disease
+, 74 75 138 139 O
+Panic 76 81 140 145 B-chronic_disease
+Disorder 82 90 146 154 I-chronic_disease
+, 90 91 154 155 O
+or 92 94 156 158 O
+Specific 95 103 159 167 B-chronic_disease
+Phobia 104 110 168 174 I-chronic_disease
+
+Psychosis 0 9 175 184 B-chronic_disease
+, 9 10 184 185 O
+Pervasive 11 20 186 195 B-chronic_disease
+Developmental 21 34 196 209 I-chronic_disease
+Disorder 35 43 210 218 I-chronic_disease
+, 43 44 218 219 O
+or 45 47 220 222 O
+Mental 48 54 223 229 B-chronic_disease
+Retardation 55 66 230 241 I-chronic_disease
+

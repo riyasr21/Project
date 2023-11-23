@@ -1,0 +1,38 @@
+Histologically 0 14 0 14 O
+documented 15 25 15 25 O
+squamous 26 34 26 34 B-cancer
+or 35 37 35 37 I-cancer
+basaloid 38 46 38 46 I-cancer
+carcinoma 47 56 47 56 I-cancer
+of 57 59 57 59 I-cancer
+the 60 63 60 63 I-cancer
+anal 64 68 64 68 I-cancer
+canal 69 74 69 74 I-cancer
+
+Karnofsky 0 9 75 84 B-clinical_variable
+Performance 10 21 85 96 I-clinical_variable
+Status 22 28 97 103 I-clinical_variable
+> 29 30 104 105 O
+70 30 32 105 107 B-lower_bound
+% 32 33 107 108 I-lower_bound
+
+Patients 0 8 109 117 O
+with 9 13 118 122 O
+a 14 15 123 124 O
+life 16 20 125 129 B-clinical_variable
+expectancy 21 31 130 140 I-clinical_variable
+of 32 34 141 143 O
+< 35 36 144 145 O
+3 37 38 146 147 B-upper_bound
+months 39 45 148 154 I-upper_bound
+
+Stage 0 5 155 160 B-cancer
+T2 6 8 161 163 I-cancer
+- 8 9 163 164 I-cancer
+4 9 10 164 165 I-cancer
+disease 11 18 166 173 I-cancer
+with 19 23 174 178 O
+any 24 27 179 182 O
+N 28 29 183 184 O
+category 30 38 185 193 O
+

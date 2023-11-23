@@ -1,0 +1,98 @@
+21 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+70 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Contraindication 0 16 22 38 O
+for 17 20 39 42 O
+estrogen 21 29 43 51 B-allergy_name
+cream 30 35 52 57 I-allergy_name
+
+History 0 7 58 65 O
+of 8 10 66 68 O
+connective 11 21 69 79 B-chronic_disease
+tissue 22 28 80 86 I-chronic_disease
+disease 29 36 87 94 I-chronic_disease
+
+History 0 7 95 102 O
+of 8 10 103 105 O
+prior 11 16 106 111 O
+noncompliance 17 30 112 125 O
+or 31 33 126 128 O
+the 34 37 129 132 O
+presence 38 46 133 141 O
+or 47 49 142 144 O
+history 50 57 145 152 O
+of 58 60 153 155 O
+psychiatric 61 72 156 167 B-chronic_disease
+condition 73 82 168 177 I-chronic_disease
+that 83 87 178 182 O
+would 88 93 183 188 O
+in 94 96 189 191 O
+the 97 100 192 195 O
+opinion 101 108 196 203 O
+of 109 111 204 206 O
+the 112 115 207 210 O
+investigator 116 128 211 223 O
+make 129 133 224 228 O
+it 134 136 229 231 O
+difficult 137 146 232 241 O
+for 147 150 242 245 O
+the 151 154 246 249 O
+subject 155 162 250 257 O
+to 163 165 258 260 O
+comply 166 172 261 267 O
+with 173 177 268 272 O
+study 178 183 273 278 O
+procedures 184 194 279 289 O
+or 195 197 290 292 O
+follow 198 204 293 299 O
+instructions 205 217 300 312 O
+
+Individuals 0 11 313 324 O
+electing 12 20 325 333 O
+surgery 21 28 334 341 B-treatment
+to 29 31 342 344 O
+treat 32 37 345 350 O
+their 38 43 351 356 O
+POP 44 47 357 360 O
+
+Pregnant 0 8 361 369 B-pregnancy
+
+Previous 0 8 370 378 O
+hysterectomy 9 21 379 391 B-treatment
+or 22 24 392 394 O
+pelvic 25 31 395 401 B-treatment
+organ 32 37 402 407 I-treatment
+prolapse 38 46 408 416 I-treatment
+surgery 47 54 417 424 I-treatment
+
+Stage 0 5 425 430 B-chronic_disease
+II 6 8 431 433 I-chronic_disease
+or 9 11 434 436 I-chronic_disease
+greater 12 19 437 444 I-chronic_disease
+pelvic 20 26 445 451 I-chronic_disease
+organ 27 32 452 457 I-chronic_disease
+prolapse 33 41 458 466 I-chronic_disease
+( 42 43 467 468 I-chronic_disease
+POP 43 46 468 471 I-chronic_disease
+) 46 47 471 472 I-chronic_disease
+
+Use 0 3 473 476 O
+of 4 6 477 479 O
+hormone 7 14 480 487 B-treatment
+therapy 15 22 488 495 I-treatment
+in 23 25 496 498 O
+postmenopausal 26 40 499 513 O
+women 41 46 514 519 B-gender
+in 47 49 520 522 O
+the 50 53 523 526 O
+last 54 58 527 531 B-upper_bound
+90 59 61 532 534 I-upper_bound
+days 62 66 535 539 I-upper_bound
+
+lactating 0 9 540 549 O
+females 10 17 550 557 B-gender
+

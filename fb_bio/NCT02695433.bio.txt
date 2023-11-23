@@ -1,0 +1,327 @@
+< 0 1 0 1 O
+50 1 3 1 3 B-upper_bound
+mg 4 6 4 6 I-upper_bound
+/ 6 7 6 7 I-upper_bound
+dl 7 9 7 9 I-upper_bound
+for 10 13 10 13 O
+women 14 19 14 19 B-gender
+
+> 0 1 20 21 O
+40 2 4 22 24 B-lower_bound
+kg 5 7 25 27 I-lower_bound
+/ 7 8 27 28 I-lower_bound
+m2 8 10 28 30 I-lower_bound
+
+Aged 0 4 31 35 B-age
+< 5 6 36 37 O
+25 7 9 38 40 B-upper_bound
+or 10 12 41 43 O
+> 13 14 44 45 O
+60 15 17 46 48 B-lower_bound
+years 18 23 49 54 I-lower_bound
+
+BMI 0 3 55 58 B-bmi
+< 4 5 59 60 O
+25 6 8 61 63 B-upper_bound
+kg 9 11 64 66 I-upper_bound
+/ 11 12 66 67 I-upper_bound
+m2 12 14 67 69 I-upper_bound
+
+Consuming 0 9 70 79 O
+3 10 11 80 81 B-lower_bound
+or 12 14 82 84 O
+more 15 19 85 89 O
+servings 20 28 90 98 O
+of 29 31 99 101 O
+nuts 32 36 102 106 O
+or 37 39 107 109 O
+peanuts 40 47 110 117 O
+per 48 51 118 121 O
+week 52 56 122 126 O
+, 56 57 126 127 O
+unless 58 64 128 134 O
+subject 65 72 135 142 O
+is 73 75 143 145 O
+willing 76 83 146 153 O
+to 84 86 154 156 O
+stop 87 91 157 161 O
+consuming 92 101 162 171 O
+nuts 102 106 172 176 O
+4 107 108 177 178 B-upper_bound
+weeks 109 114 179 184 I-upper_bound
+before 115 121 185 191 O
+and 122 125 192 195 O
+throughout 126 136 196 206 O
+the 137 140 207 210 O
+course 141 147 211 217 O
+of 148 150 218 220 O
+the 151 154 221 224 O
+study 155 160 225 230 O
+
+Diabetes 0 8 231 239 B-chronic_disease
+
+Does 0 4 240 244 O
+not 5 8 245 248 O
+take 9 13 249 253 O
+part 14 18 254 258 O
+in 19 21 259 261 O
+chronic 22 29 262 269 O
+feeding 30 37 270 277 O
+or 38 40 278 280 O
+medication 41 51 281 291 O
+clinical 52 60 292 300 O
+trial 61 66 301 306 O
+in 67 69 307 309 O
+the 70 73 310 313 O
+last 74 78 314 318 B-upper_bound
+3 79 80 319 320 I-upper_bound
+months 81 87 321 327 I-upper_bound
+
+Excessive 0 9 328 337 O
+coffee 10 16 338 344 O
+and 17 20 345 348 O
+tea 21 24 349 352 O
+consumers 25 34 353 362 O
+( 35 36 363 364 O
+> 36 37 364 365 O
+4 37 38 365 366 B-lower_bound
+cups 39 43 367 371 I-lower_bound
+/ 43 44 371 372 I-lower_bound
+day 44 47 372 375 I-lower_bound
+) 47 48 375 376 O
+
+Fasting 0 7 377 384 B-clinical_variable
+blood 8 13 385 390 I-clinical_variable
+glucose 14 21 391 398 I-clinical_variable
+< 22 23 399 400 O
+100 24 27 401 404 B-upper_bound
+
+Fasting 0 7 405 412 B-clinical_variable
+venous 8 14 413 419 I-clinical_variable
+blood 15 20 420 425 I-clinical_variable
+glucose 21 28 426 433 I-clinical_variable
+of 29 31 434 436 O
+100 32 35 437 440 B-lower_bound
+- 35 36 440 441 O
+125.9 36 41 441 446 B-upper_bound
+mg 42 44 447 449 I-upper_bound
+/ 44 45 449 450 I-upper_bound
+dl 45 47 450 452 I-upper_bound
+
+HOMA 0 4 453 457 B-clinical_variable
+- 4 5 457 458 I-clinical_variable
+IR 5 7 458 460 I-clinical_variable
+< 8 9 461 462 O
+3 10 11 463 464 B-upper_bound
+
+HOMA 0 4 465 469 B-clinical_variable
+- 4 5 469 470 I-clinical_variable
+IR 5 7 470 472 I-clinical_variable
+≥ 8 9 473 474 O
+3 10 11 475 476 B-lower_bound
+
+Have 0 4 477 481 O
+donated 5 12 482 489 O
+blood 13 18 490 495 O
+within 19 25 496 502 O
+3 26 27 503 504 B-upper_bound
+months 28 34 505 511 I-upper_bound
+of 35 37 512 514 O
+the 38 41 515 518 O
+screening 42 51 519 528 O
+visit 52 57 529 534 O
+
+Have 0 4 535 539 O
+or 5 7 540 542 O
+had 8 11 543 546 O
+cancer 12 18 547 553 B-cancer
+other 19 24 554 559 O
+than 25 29 560 564 O
+non 30 33 565 568 B-cancer
+- 33 34 568 569 I-cancer
+melanoma 34 42 569 577 I-cancer
+skin 43 47 578 582 I-cancer
+cancer 48 54 583 589 I-cancer
+in 55 57 590 592 O
+past 58 62 593 597 B-upper_bound
+5 63 64 598 599 I-upper_bound
+years 65 70 600 605 I-upper_bound
+
+High 0 4 606 610 B-clinical_variable
+triglycerides 5 18 611 624 I-clinical_variable
+: 18 19 624 625 O
+≥ 20 21 626 627 O
+150mg 22 27 628 633 B-lower_bound
+/ 27 28 633 634 I-lower_bound
+dl 28 30 634 636 I-lower_bound
+
+History 0 7 637 644 O
+of 8 10 645 647 O
+heart 11 16 648 653 B-chronic_disease
+disease 17 24 654 661 I-chronic_disease
+, 24 25 661 662 O
+respiratory 26 37 663 674 B-chronic_disease
+, 37 38 674 675 O
+renal 39 44 676 681 B-chronic_disease
+, 44 45 681 682 O
+gastrointestinal 46 62 683 699 B-chronic_disease
+or 63 65 700 702 O
+hepatic 66 73 703 710 B-chronic_disease
+disease 74 81 711 718 I-chronic_disease
+
+Men 0 3 719 722 B-gender
+
+Pre 0 3 723 726 B-chronic_disease
+- 3 4 726 727 I-chronic_disease
+diabetic 4 12 727 735 I-chronic_disease
+
+Pregnant 0 8 736 744 B-pregnancy
+
+Present 0 7 745 752 O
+with 8 12 753 757 O
+significant 13 24 758 769 O
+psychiatric 25 36 770 781 B-chronic_disease
+or 37 39 782 784 O
+neurological 40 52 785 797 B-chronic_disease
+disturbances 53 65 798 810 I-chronic_disease
+
+Systolic 0 8 811 819 B-clinical_variable
+BP 9 11 820 822 I-clinical_variable
+≥130 12 16 823 827 O
+mm 17 19 828 830 I-lower_bound
+Hg 20 22 831 833 I-lower_bound
+
+Women 0 5 834 839 B-gender
+who 6 9 840 843 O
+are 10 13 844 847 O
+taking 14 20 848 854 B-contraception_consent
+unstable 21 29 855 863 I-contraception_consent
+dose 30 34 864 868 I-contraception_consent
+and 35 38 869 872 I-contraception_consent
+brand 39 44 873 878 I-contraception_consent
+of 45 47 879 881 I-contraception_consent
+hormonal 48 56 882 890 I-contraception_consent
+contraceptive 57 70 891 904 I-contraception_consent
+and/or 71 77 905 911 O
+stable 78 84 912 918 O
+dose 85 89 919 923 O
+and 90 93 924 927 O
+brand 94 99 928 933 O
+less 100 104 934 938 O
+than 105 109 939 943 O
+6 110 111 944 945 B-upper_bound
+months 112 118 946 952 I-upper_bound
+
+aged 0 4 953 957 B-age
+25 5 7 958 960 B-lower_bound
+- 7 8 960 961 O
+60 8 10 961 963 B-upper_bound
+yrs 11 14 964 967 I-upper_bound
+
+blood 0 5 968 973 O
+donors 6 12 974 980 O
+/ 12 13 980 981 O
+participants 13 25 981 993 O
+for 26 29 994 997 O
+whom 30 34 998 1002 O
+participation 35 48 1003 1016 O
+in 49 51 1017 1019 O
+this 52 56 1020 1024 O
+study 57 62 1025 1030 O
+will 63 67 1031 1035 O
+result 68 74 1036 1042 O
+in 75 77 1043 1045 O
+having 78 84 1046 1052 O
+donated 85 92 1053 1060 O
+more 93 97 1061 1065 O
+than 98 102 1066 1070 O
+1500 103 107 1071 1075 B-lower_bound
+milliliters 108 119 1076 1087 I-lower_bound
+of 120 122 1088 1090 O
+blood 123 128 1091 1096 O
+in 129 131 1097 1099 O
+the 132 135 1100 1103 O
+previous 136 144 1104 1112 B-upper_bound
+12 145 147 1113 1115 I-upper_bound
+months 148 154 1116 1122 I-upper_bound
+
+diastolic 0 9 1123 1132 B-clinical_variable
+BP 10 12 1133 1135 I-clinical_variable
+≥85 13 16 1136 1139 O
+mm 17 19 1140 1142 I-lower_bound
+Hg 20 22 1143 1145 I-lower_bound
+
+history 0 7 1146 1153 O
+of 8 10 1154 1156 O
+heart 11 16 1157 1162 B-chronic_disease
+disease 17 24 1163 1170 I-chronic_disease
+, 24 25 1170 1171 O
+respiratory 26 37 1172 1183 B-chronic_disease
+, 37 38 1183 1184 O
+renal 39 44 1185 1190 B-chronic_disease
+, 44 45 1190 1191 O
+gastrointestinal 46 62 1192 1208 B-chronic_disease
+, 62 63 1208 1209 O
+or 64 66 1210 1212 O
+hepatic 67 74 1213 1220 B-chronic_disease
+disease 75 82 1221 1228 I-chronic_disease
+
+mid 0 3 1229 1232 B-clinical_variable
+- 3 4 1232 1233 I-clinical_variable
+point 4 9 1233 1238 I-clinical_variable
+waist 10 15 1239 1244 I-clinical_variable
+circumference 16 29 1245 1258 I-clinical_variable
+> 30 31 1259 1260 O
+102 31 34 1260 1263 B-lower_bound
+cm 35 37 1264 1266 I-lower_bound
+for 38 41 1267 1270 O
+men 42 45 1271 1274 B-gender
+
+planning 0 8 1275 1283 B-pregnancy
+to 9 11 1284 1286 I-pregnancy
+become 12 18 1287 1293 I-pregnancy
+pregnant 19 27 1294 1302 I-pregnancy
+
+prescription 0 12 1303 1315 O
+medications 13 24 1316 1327 B-treatment
+/ 24 25 1327 1328 I-treatment
+dietary 25 32 1328 1335 I-treatment
+supplements 33 44 1336 1347 I-treatment
+that 45 49 1348 1352 O
+may 50 53 1353 1356 O
+interfere 54 63 1357 1366 O
+with 64 68 1367 1371 O
+study 69 74 1372 1377 O
+procedures 75 85 1378 1388 O
+or 86 88 1389 1391 O
+endpoints 89 98 1392 1401 O
+( 99 100 1402 1403 O
+e.g. 100 104 1403 1407 O
+, 104 105 1407 1408 O
+antioxidant 106 117 1409 1420 B-treatment
+supplements 118 129 1421 1432 I-treatment
+, 129 130 1432 1433 O
+protein 131 138 1434 1441 B-treatment
+powder 139 145 1442 1448 I-treatment
+, 145 146 1448 1449 O
+energy 147 153 1450 1456 B-treatment
+drinks 154 160 1457 1463 I-treatment
+, 160 161 1463 1464 O
+anti 162 166 1465 1469 B-treatment
+- 166 167 1469 1470 I-treatment
+inflammatory 167 179 1470 1482 I-treatment
+or 180 182 1483 1485 O
+lipid 183 188 1486 1491 B-treatment
+- 188 189 1491 1492 I-treatment
+lowering 189 197 1492 1500 I-treatment
+medications 198 209 1501 1512 I-treatment
+) 209 210 1512 1513 O
+
+smoking 0 7 1514 1521 B-clinical_variable
+cessation 8 17 1522 1531 I-clinical_variable
+> 18 19 1532 1533 O
+2 20 21 1534 1535 B-lower_bound
+yrs 22 25 1536 1539 I-lower_bound
+
+women 0 5 1540 1545 B-gender
+

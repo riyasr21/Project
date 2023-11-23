@@ -1,0 +1,54 @@
+Female 0 6 0 6 B-gender
+patients 7 15 7 15 I-gender
+
+Medical 0 7 16 23 O
+provider 8 16 24 32 O
+willing 17 24 33 40 O
+to 25 27 41 43 O
+consider 28 36 44 52 O
+the 37 40 53 56 O
+result 41 47 57 63 O
+of 48 50 64 66 O
+the 51 54 67 70 O
+rapid 55 60 71 76 O
+turnaround 61 71 77 87 O
+test 72 76 88 92 O
+in 77 79 93 95 O
+decision 80 88 96 104 O
+to 89 91 105 107 O
+treat 92 97 108 113 O
+for 98 101 114 117 O
+gonorrhea 102 111 118 127 B-chronic_disease
+/ 111 112 127 128 O
+chlamydia 112 121 128 137 B-chronic_disease
+
+Patient 0 7 138 145 O
+who 8 11 146 149 O
+reports 12 19 150 157 O
+being 20 25 158 163 O
+treated 26 33 164 171 O
+for 34 37 172 175 O
+either 38 44 176 182 O
+gonorrhea 45 54 183 192 B-chronic_disease
+or 55 57 193 195 O
+chlamydia 58 67 196 205 B-chronic_disease
+in 68 70 206 208 O
+the 71 74 209 212 O
+preceding 75 84 213 222 O
+3 85 86 223 224 B-upper_bound
+months 87 93 225 231 I-upper_bound
+
+Signs 0 5 232 237 O
+or 6 8 238 240 O
+symptoms 9 17 241 249 O
+consistent 18 28 250 260 O
+with 29 33 261 265 O
+sexually 34 42 266 274 B-chronic_disease
+transmitted 43 54 275 286 I-chronic_disease
+infection 55 64 287 296 I-chronic_disease
+
+age 0 3 297 300 B-age
+18 4 6 301 303 B-lower_bound
+- 6 7 303 304 O
+55 7 9 304 306 B-upper_bound
+

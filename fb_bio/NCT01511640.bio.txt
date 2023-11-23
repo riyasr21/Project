@@ -1,0 +1,43 @@
+available 0 9 0 9 O
+for 10 13 10 13 O
+up 14 16 14 16 O
+to 17 19 17 19 O
+6 20 21 20 21 B-upper_bound
+hrs 22 25 22 25 I-upper_bound
+every 26 31 26 31 O
+day 32 35 32 35 O
+for 36 39 36 39 O
+two 40 43 40 43 B-upper_bound
+2 44 45 44 45 I-upper_bound
+- 45 46 45 46 I-upper_bound
+week 46 50 46 50 I-upper_bound
+test 51 55 51 55 O
+periods 56 63 56 63 O
+with 64 68 64 68 O
+an 69 71 69 71 O
+intervening 72 83 72 83 O
+break 84 89 84 89 O
+of 90 92 90 92 O
+7 93 94 93 94 B-lower_bound
+- 94 95 94 95 O
+10 95 97 95 97 B-upper_bound
+days 98 102 98 102 I-upper_bound
+each 103 107 103 107 O
+
+effective 0 9 108 117 O
+form 10 14 118 122 O
+of 15 17 123 125 O
+birth 18 23 126 131 O
+control 24 31 132 139 O
+in 32 34 140 142 O
+female 35 41 143 149 B-gender
+subjects 42 50 150 158 I-gender
+
+medical 0 7 159 166 O
+history 8 15 167 174 O
+that 16 20 175 179 O
+would 21 26 180 185 O
+contraindicate 27 41 186 200 O
+pregabalin 42 52 201 211 B-treatment
+administration 53 67 212 226 O
+

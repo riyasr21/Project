@@ -1,0 +1,103 @@
+High 0 4 0 4 O
+risk 5 9 5 9 O
+MDS 10 13 10 13 B-chronic_disease
+
+High 0 4 14 18 O
+risk 5 9 19 23 O
+MDS 10 13 24 27 B-cancer
+who 14 17 28 31 O
+have 18 22 32 36 O
+failed 23 29 37 43 O
+hypomethylating 30 45 44 59 B-treatment
+agent 46 51 60 65 I-treatment
+therapy 52 59 66 73 I-treatment
+( 60 61 74 75 O
+Arms 61 65 75 79 O
+4b 66 68 80 82 O
+& 69 70 83 84 O
+5b 71 73 85 87 O
+) 73 74 87 88 O
+
+Male 0 4 89 93 B-gender
+
+Patient 0 7 94 101 O
+has 8 11 102 105 O
+an 12 14 106 108 O
+Eastern 15 22 109 116 B-clinical_variable
+Cooperative 23 34 117 128 I-clinical_variable
+Oncology 35 43 129 137 I-clinical_variable
+Group 44 49 138 143 I-clinical_variable
+( 50 51 144 145 I-clinical_variable
+ECOG 51 55 145 149 I-clinical_variable
+) 55 56 149 150 I-clinical_variable
+performance 57 68 151 162 I-clinical_variable
+status 69 75 163 169 I-clinical_variable
+≤ 76 77 170 171 O
+2 78 79 172 173 B-upper_bound
+
+Refractory 0 10 174 184 B-cancer
+/ 11 12 185 186 O
+relapsed 13 21 187 195 B-cancer
+AML 22 25 196 199 I-cancer
+following 26 35 200 209 O
+≥1 36 38 210 212 O
+prior 39 44 213 218 B-treatment
+therapies 45 54 219 228 I-treatment
+( 55 56 229 230 O
+Arms 56 60 230 234 O
+4a 61 63 235 237 O
+& 64 65 238 239 O
+5a 66 68 240 242 O
+) 68 69 242 243 O
+
+female 0 6 244 250 B-gender
+patients 7 15 251 259 I-gender
+
+patients 0 8 260 268 O
+who 9 12 269 272 O
+are 13 16 273 276 O
+suitable 17 25 277 285 O
+for 26 29 286 289 O
+standard 30 38 290 298 B-treatment
+induction 39 48 299 308 I-treatment
+chemotherapy 49 61 309 321 I-treatment
+or 62 64 322 324 O
+hematopoietic 65 78 325 338 B-treatment
+stem 79 83 339 343 I-treatment
+cell 84 88 344 348 I-treatment
+transplantation 89 104 349 364 I-treatment
+and 105 108 365 368 O
+willing 109 116 369 376 O
+to 117 119 377 379 O
+receive 120 127 380 387 O
+it 128 130 388 390 O
+are 131 134 391 394 O
+excluded 135 143 395 403 O
+
+patients 0 8 404 412 O
+who 9 12 413 416 O
+are 13 16 417 420 O
+suitable 17 25 421 429 O
+for 26 29 430 433 O
+standard 30 38 434 442 O
+re 39 41 443 445 O
+- 41 42 445 446 O
+induction 42 51 446 455 O
+chemotherapy 52 64 456 468 B-treatment
+or 65 67 469 471 O
+hematopoietic 68 81 472 485 B-treatment
+stem 82 86 486 490 I-treatment
+cell 87 91 491 495 I-treatment
+transplantation 92 107 496 511 I-treatment
+and 108 111 512 515 O
+willing 112 119 516 523 O
+to 120 122 524 526 O
+receive 123 130 527 534 O
+it 131 133 535 537 O
+
+≥ 0 1 538 539 O
+18 2 4 540 542 B-lower_bound
+years 5 10 543 548 I-lower_bound
+of 11 13 549 551 O
+age 14 17 552 555 B-age
+

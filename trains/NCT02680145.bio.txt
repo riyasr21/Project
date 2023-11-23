@@ -1,0 +1,64 @@
+Are 0 3 0 3 O
+scheduled 4 13 4 13 O
+for 14 17 14 17 O
+surgery 18 25 18 25 O
+for 26 29 26 29 O
+pelvic 30 36 30 36 B-chronic_disease
+organ 37 42 37 42 I-chronic_disease
+prolapse 43 51 43 51 I-chronic_disease
+less 52 56 52 56 O
+than 57 61 57 61 O
+7 62 63 62 63 B-upper_bound
+days 64 68 64 68 I-upper_bound
+after 69 74 69 74 O
+office 75 81 75 81 O
+consultation 82 94 82 94 O
+or 95 97 95 97 O
+greater 98 105 98 105 O
+than 106 110 106 110 O
+4 111 112 111 112 B-lower_bound
+weeks 113 118 113 118 I-lower_bound
+after 119 124 119 124 O
+office 125 131 125 131 O
+consultation 132 144 132 144 O
+
+Have 0 4 145 149 O
+allergies 5 14 150 159 O
+to 15 17 160 162 O
+both 18 22 163 167 O
+latex 23 28 168 173 B-allergy_name
+and 29 32 174 177 O
+silicone 33 41 178 186 B-allergy_name
+
+Have 0 4 187 191 O
+an 5 7 192 194 O
+isolated 8 16 195 203 B-chronic_disease
+rectocele 17 26 204 213 I-chronic_disease
+
+Older 0 5 214 219 O
+than 6 10 220 224 O
+18 11 13 225 227 B-lower_bound
+years 14 19 228 233 I-lower_bound
+of 20 22 234 236 O
+age 23 26 237 240 B-age
+
+Patients 0 8 241 249 O
+undergoing 9 19 250 260 O
+obliterative 20 32 261 273 B-treatment
+prolapse 33 41 274 282 I-treatment
+surgery 42 49 283 290 I-treatment
+( 50 51 291 292 O
+i.e. 51 55 292 296 O
+Colpocleisis 56 68 297 309 B-treatment
+) 68 69 309 310 O
+
+Previous 0 8 311 319 O
+use 9 12 320 323 O
+of 13 15 324 326 O
+a 16 17 327 328 O
+pessary 18 25 329 336 B-treatment
+for 26 29 337 340 O
+pelvic 30 36 341 347 B-chronic_disease
+organ 37 42 348 353 I-chronic_disease
+prolapse 43 51 354 362 I-chronic_disease
+

@@ -1,0 +1,104 @@
+Any 0 3 0 3 O
+active 4 10 4 10 O
+gastrointestinal 11 27 11 27 B-chronic_disease
+abnormalities 28 41 28 41 I-chronic_disease
+or 42 44 42 44 O
+malformations 45 58 45 58 O
+, 58 59 58 59 O
+including 60 69 60 69 O
+but 70 73 70 73 O
+not 74 77 74 77 O
+limited 78 85 78 85 O
+to 86 88 86 88 O
+infections 89 99 89 99 O
+, 99 100 99 100 O
+inflammation 101 113 101 113 O
+, 113 114 113 114 O
+obstruction 115 126 115 126 O
+and/or 127 133 127 133 O
+recent 134 140 134 140 O
+abdominal 141 150 141 150 B-treatment
+surgery 151 158 151 158 I-treatment
+or 159 161 159 161 O
+trauma 162 168 162 168 O
+
+GJ 0 2 169 171 B-clinical_variable
+( 3 4 172 173 I-clinical_variable
+AMT 4 7 173 176 I-clinical_variable
+) 7 8 176 177 I-clinical_variable
+14 9 11 178 180 O
+Fr 12 14 181 183 O
+, 14 15 183 184 O
+38 16 18 185 187 B-lower_bound
+- 19 20 188 189 O
+140 21 24 190 193 B-upper_bound
+cm 25 27 194 196 I-upper_bound
+( 28 29 197 198 O
+15 29 31 198 200 B-lower_bound
+- 32 33 201 202 O
+55 34 36 203 205 B-upper_bound
+in 37 39 206 208 I-upper_bound
+) 39 40 208 209 O
+
+Males 0 5 210 215 B-gender
+
+Nasogastric 0 11 216 227 B-treatment
+Tube 12 16 228 232 I-treatment
+( 17 18 233 234 I-treatment
+NG 18 20 234 236 I-treatment
+) 20 21 236 237 I-treatment
+( 22 23 238 239 O
+Corflo 23 29 239 245 B-treatment
+, 29 30 245 246 O
+Corpak 31 37 247 253 O
+MedSystems 38 48 254 264 O
+) 48 49 264 265 O
+used 50 54 266 270 O
+as 55 57 271 273 O
+a 58 59 274 275 O
+jejunal 60 67 276 283 B-treatment
+tube 68 72 284 288 I-treatment
+inserted 73 81 289 297 O
+through 82 89 298 305 O
+a 90 91 306 307 O
+gastrostomy 92 103 308 319 B-treatment
+tube 104 108 320 324 I-treatment
+, 108 109 324 325 O
+6 110 111 326 327 B-lower_bound
+- 112 113 328 329 O
+8 114 115 330 331 B-upper_bound
+Fr 116 118 332 334 O
+, 118 119 334 335 O
+38 120 122 336 338 B-lower_bound
+- 123 124 339 340 O
+140 125 128 341 344 B-upper_bound
+cm 129 131 345 347 I-upper_bound
+
+Positive 0 8 348 356 O
+pregnancy 9 18 357 366 B-pregnancy
+test 19 23 367 371 O
+
+Pregnant 0 8 372 380 B-pregnancy
+females 9 16 381 388 B-gender
+
+Subject 0 7 389 396 O
+attains 8 15 397 404 O
+18 16 18 405 407 B-lower_bound
+years 19 24 408 413 I-lower_bound
+of 25 27 414 416 O
+age 28 31 417 420 B-age
+during 32 38 421 427 O
+study 39 44 428 433 O
+duration 45 53 434 442 O
+
+between 0 7 443 450 O
+who 8 11 451 454 O
+have 12 16 455 459 O
+not 17 20 460 463 O
+attained 21 29 464 472 O
+their 30 35 473 478 O
+18th 36 40 479 483 B-upper_bound
+birthday 41 49 484 492 O
+
+females 0 7 493 500 B-gender
+

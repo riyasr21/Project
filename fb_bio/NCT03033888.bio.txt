@@ -1,0 +1,15 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+read 8 12 8 12 I-language_fluency
+and 13 16 13 16 I-language_fluency
+write 17 22 17 22 I-language_fluency
+English 23 30 23 30 I-language_fluency
+
+HIV 0 3 31 34 B-chronic_disease
+infection 4 13 35 44 I-chronic_disease
+
+Had 0 3 45 48 O
+undergone 4 13 49 58 O
+a 14 15 59 60 O
+hysterectomy 16 28 61 73 B-treatment
+

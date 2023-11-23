@@ -1,0 +1,58 @@
+TBI 0 3 0 3 B-chronic_disease
+with 4 8 4 8 O
++ 9 10 9 10 O
+loss 11 15 11 15 B-chronic_disease
+of 16 18 16 18 I-chronic_disease
+consciousness 19 32 19 32 I-chronic_disease
+( 33 34 33 34 I-chronic_disease
+LOC 34 37 34 37 I-chronic_disease
+) 37 38 37 38 I-chronic_disease
+less 39 43 39 43 O
+than 44 48 44 48 O
+24 49 51 49 51 B-upper_bound
+hours 52 57 52 57 I-upper_bound
+
+aged 0 4 58 62 B-age
+18 5 7 63 65 B-lower_bound
+- 7 8 65 66 O
+55 8 10 66 68 B-upper_bound
+
+any 0 3 69 72 O
+skull 4 9 73 78 B-chronic_disease
+defect 10 16 79 85 I-chronic_disease
+
+history 0 7 86 93 O
+of 8 10 94 96 O
+neurological 11 23 97 109 B-chronic_disease
+disease 24 31 110 117 I-chronic_disease
+or 32 34 118 120 O
+seizures 35 43 121 129 B-chronic_disease
+
+history 0 7 130 137 O
+of 8 10 138 140 O
+psychosis 11 20 141 150 B-chronic_disease
+
+injured 0 7 151 158 O
+between 8 15 159 166 O
+3 16 17 167 168 B-lower_bound
+months 18 24 169 175 I-lower_bound
+and 25 28 176 179 O
+5 29 30 180 181 B-upper_bound
+years 31 36 182 187 I-upper_bound
+ago 37 40 188 191 O
+
+less 0 4 192 196 O
+than 5 9 197 201 O
+1 10 11 202 203 B-upper_bound
+week 12 16 204 208 I-upper_bound
+of 17 19 209 211 O
+post 20 24 212 216 B-chronic_disease
+- 24 25 216 217 I-chronic_disease
+traumatic 25 34 217 226 I-chronic_disease
+amnesia 35 42 227 234 I-chronic_disease
+( 43 44 235 236 I-chronic_disease
+PTA 44 47 236 239 I-chronic_disease
+) 47 48 239 240 I-chronic_disease
+
+pregnancy 0 9 241 250 B-pregnancy
+

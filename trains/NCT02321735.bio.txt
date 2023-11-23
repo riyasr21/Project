@@ -1,0 +1,30 @@
+early 0 5 0 5 O
+stage 6 11 6 11 O
+, 11 12 11 12 O
+low 13 16 13 16 O
+grade 17 22 17 22 O
+ovarian 23 30 23 30 B-cancer
+cancer 31 37 31 37 I-cancer
+diagnosed 38 47 38 47 O
+less 48 52 48 52 O
+than 53 57 53 57 O
+10 58 60 58 60 B-upper_bound
+years 61 66 61 66 I-upper_bound
+ago 67 70 67 70 O
+
+stage 0 5 71 76 B-cancer
+III 6 9 77 80 I-cancer
+/ 9 10 80 81 I-cancer
+IV 10 12 81 83 I-cancer
+high 13 17 84 88 I-cancer
+grade 18 23 89 94 I-cancer
+epithelial 24 34 95 105 I-cancer
+ovarian 35 42 106 113 I-cancer
+cancer 43 49 114 120 I-cancer
+diagnosed 50 59 121 130 O
+at 60 62 131 133 O
+least 63 68 134 139 O
+10 69 71 140 142 B-lower_bound
+years 72 77 143 148 I-lower_bound
+ago 78 81 149 152 O
+

@@ -1,0 +1,167 @@
+A 0 1 0 1 O
+diagnosis 2 11 2 11 O
+of 12 14 12 14 O
+ataxia 15 21 15 21 B-chronic_disease
+telangiectasia 22 36 22 36 I-chronic_disease
+
+Aged 0 4 37 41 B-age
+at 5 7 42 44 O
+least 8 13 45 50 O
+18 14 16 51 53 B-lower_bound
+
+Bad 0 3 54 57 O
+reaction 4 12 58 66 O
+to 13 15 67 69 O
+AZD6738 16 23 70 77 B-allergy_name
+
+Contra 0 6 78 84 O
+- 6 7 84 85 O
+indicated 7 16 85 94 O
+for 17 20 95 98 O
+treatment 21 30 99 108 B-treatment
+with 31 35 109 113 O
+MEDI4736 36 44 114 122 B-allergy_name
+
+Contra 0 6 123 129 O
+- 6 7 129 130 O
+indicated 7 16 130 139 O
+for 17 20 140 143 O
+treatment 21 30 144 153 O
+with 31 35 154 158 O
+carboplatin 36 47 159 170 B-allergy_name
+
+Contra 0 6 171 177 O
+- 6 7 177 178 O
+indicated 7 16 178 187 O
+for 17 20 188 191 O
+treatment 21 30 192 201 B-treatment
+with 31 35 202 206 I-treatment
+olaparib 36 44 207 215 I-treatment
+
+No 0 2 216 218 O
+previous 3 11 219 227 O
+treatment 12 21 228 237 B-treatment
+with 22 26 238 242 O
+PARP 27 31 243 247 B-treatment
+inhibitor 32 41 248 257 I-treatment
+
+Prior 0 5 258 263 O
+exposure 6 14 264 272 O
+to 15 17 273 275 O
+an 18 20 276 278 O
+ATR 21 24 279 282 B-treatment
+inhibitor 25 34 283 292 I-treatment
+
+Second 0 6 293 299 O
+or 7 9 300 302 O
+third 10 15 303 308 O
+line 16 20 309 313 O
+triple 21 27 314 320 B-cancer
+negative 28 36 321 329 I-cancer
+breast 37 43 330 336 I-cancer
+cancer 44 50 337 343 I-cancer
+( 51 52 344 345 I-cancer
+TNBC 52 56 345 349 I-cancer
+) 56 57 349 350 I-cancer
+
+Second 0 6 351 357 O
+or 7 9 358 360 O
+thrid 10 15 361 366 O
+line 16 20 367 371 O
+HER2 21 25 372 376 B-cancer
+negative 26 34 377 385 I-cancer
+breast 35 41 386 392 I-cancer
+cancer 42 48 393 399 I-cancer
+
+The 0 3 400 403 O
+presence 4 12 404 412 O
+of 13 15 413 415 O
+a 16 17 416 417 O
+solid 18 23 418 423 B-cancer
+malignant 24 33 424 433 I-cancer
+tumour 34 40 434 440 I-cancer
+that 41 45 441 445 O
+is 46 48 446 448 O
+not 49 52 449 452 O
+considered 53 63 453 463 O
+appropriate 64 75 464 475 O
+for 76 79 476 479 O
+further 80 87 480 487 O
+standard 88 96 488 496 O
+treatment 97 106 497 506 O
+
+advanced 0 8 507 515 O
+gastric 9 16 516 523 B-cancer
+adenocarcinoma 17 31 524 538 I-cancer
+( 32 33 539 540 O
+including 33 42 540 549 O
+GEJ 43 46 550 553 O
+) 46 47 553 554 O
+patients 48 56 555 563 O
+with 57 61 564 568 O
+ATM 62 65 569 572 B-cancer
+deficient 66 75 573 582 I-cancer
+tumours 76 83 583 590 I-cancer
+
+advanced 0 8 591 599 O
+gastric 9 16 600 607 B-cancer
+adenocarcinoma 17 31 608 622 I-cancer
+( 32 33 623 624 O
+including 33 42 624 633 O
+GEJ 43 46 634 637 B-cancer
+) 46 47 637 638 O
+patients 48 56 639 647 O
+with 57 61 648 652 O
+ATM 62 65 653 656 O
+proficient 66 76 657 667 O
+tumours 77 84 668 675 B-cancer
+
+advanced 0 8 676 684 O
+recurrent 9 18 685 694 O
+or 19 21 695 697 O
+metastatic 22 32 698 708 O
+non 33 36 709 712 B-cancer
+- 36 37 712 713 I-cancer
+small 37 42 713 718 I-cancer
+cell 43 47 719 723 I-cancer
+lung 48 52 724 728 I-cancer
+cancer 53 59 729 735 I-cancer
+
+head 0 4 736 740 B-cancer
+and 5 8 741 744 I-cancer
+neck 9 13 745 749 I-cancer
+squamous 14 22 750 758 I-cancer
+cell 23 27 759 763 I-cancer
+carcinoma 28 37 764 773 I-cancer
+
+patients 0 8 774 782 O
+must 9 13 783 787 O
+have 14 18 788 792 O
+a 19 20 793 794 O
+tumour 21 27 795 801 B-cancer
+at 28 30 802 804 O
+least 31 36 805 810 O
+1 37 38 811 812 B-lower_bound
+cm 39 41 813 815 I-lower_bound
+in 42 44 816 818 O
+size 45 49 819 823 O
+that 50 54 824 828 O
+can 55 58 829 832 O
+be 59 61 833 835 O
+measured 62 70 836 844 O
+using 71 76 845 850 O
+a 77 78 851 852 O
+CT 79 81 853 855 B-treatment
+or 82 84 856 858 O
+MRI 85 88 859 862 B-treatment
+scan 89 93 863 867 I-treatment
+
+second 0 6 868 874 O
+line 7 11 875 879 O
+lung 12 16 880 884 B-cancer
+adenocarcinoma 17 31 885 899 I-cancer
+with 32 36 900 904 O
+ATM 37 40 905 908 B-cancer
+deficient 41 50 909 918 I-cancer
+tumours 51 58 919 926 I-cancer
+

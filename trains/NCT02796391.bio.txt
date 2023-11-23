@@ -1,0 +1,191 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Bendamustine 0 12 25 37 B-treatment
+( 13 14 38 39 I-treatment
+Treanda 14 21 39 46 I-treatment
+) 21 22 46 47 I-treatment
+
+Carbamazepine 0 13 48 61 B-treatment
+[ 14 15 62 63 O
+Brand 15 20 63 68 O
+Name 21 25 69 73 O
+: 25 26 73 74 O
+Tegretol 27 35 75 83 B-treatment
+, 35 36 83 84 O
+Carbatrol 37 46 85 94 B-treatment
+, 46 47 94 95 O
+Equetro 48 55 96 103 B-treatment
+, 55 56 103 104 O
+Epitol 57 63 105 111 B-treatment
+] 63 64 111 112 O
+
+Clopidogrel 0 11 113 124 B-treatment
+( 12 13 125 126 I-treatment
+Plavix 13 19 126 132 I-treatment
+) 19 20 132 133 I-treatment
+
+Clozapine 0 9 134 143 B-treatment
+( 10 11 144 145 I-treatment
+Clozaril 11 19 145 153 I-treatment
+, 19 20 153 154 I-treatment
+FazaClo 21 28 155 162 I-treatment
+) 28 29 162 163 I-treatment
+
+Erlotinib 0 9 164 173 B-treatment
+( 10 11 174 175 I-treatment
+Tarceva 11 18 175 182 I-treatment
+) 18 19 182 183 I-treatment
+
+Flecainide 0 10 184 194 B-treatment
+( 11 12 195 196 I-treatment
+Tambocor 12 20 196 204 I-treatment
+) 20 21 204 205 I-treatment
+
+Fluvoxamine 0 11 206 217 B-chronic_disease
+( 12 13 218 219 I-chronic_disease
+Luvox 13 18 219 224 I-chronic_disease
+) 18 19 224 225 I-chronic_disease
+
+Irinotecan 0 10 226 236 B-treatment
+( 11 12 237 238 I-treatment
+Camptosar 12 21 238 247 I-treatment
+) 21 22 247 248 I-treatment
+
+Oxcarbazepine 0 13 249 262 B-treatment
+[ 14 15 263 264 O
+Brand 15 20 264 269 O
+Name 21 25 270 274 O
+: 25 26 274 275 O
+Trileptal 27 36 276 285 B-treatment
+] 36 37 285 286 O
+
+Phenobarbital 0 13 287 300 B-treatment
+
+Primidone 0 9 301 310 B-treatment
+[ 10 11 311 312 O
+Brand 11 16 312 317 O
+Name 17 21 318 322 O
+: 21 22 322 323 O
+Mysoline 23 31 324 332 B-treatment
+] 31 32 332 333 O
+
+Ropinirole 0 10 334 344 B-treatment
+( 11 12 345 346 I-treatment
+Requip 12 18 346 352 I-treatment
+) 18 19 352 353 I-treatment
+
+THC 0 3 354 357 B-treatment
+will 4 8 358 362 O
+be 9 11 363 365 O
+tested 12 18 366 372 O
+but 19 22 373 376 O
+will 23 27 377 381 O
+not 28 31 382 385 O
+be 32 34 386 388 O
+an 35 37 389 391 O
+exclusionary 38 50 392 404 O
+criterion 51 60 405 414 O
+
+able 0 4 415 419 B-language_fluency
+to 5 7 420 422 I-language_fluency
+speak 8 13 423 428 I-language_fluency
+and 14 17 429 432 I-language_fluency
+read 18 22 433 437 I-language_fluency
+English 23 30 438 445 I-language_fluency
+sufficiently 31 43 446 458 O
+for 44 47 459 462 O
+completion 48 58 463 473 O
+of 59 61 474 476 O
+consent 62 69 477 484 O
+form 70 74 485 489 O
+and 75 78 490 493 O
+questionnaires 79 93 494 508 O
+
+binge 0 5 509 514 O
+alcohol 6 13 515 522 O
+drinking 14 22 523 531 O
+( 23 24 532 533 O
+4/5 24 27 533 536 O
+[ 28 29 537 538 O
+female 29 35 538 544 B-gender
+/ 35 36 544 545 O
+male 36 40 545 549 O
+] 40 41 549 550 O
+drinks 42 48 551 557 O
+per 49 52 558 561 O
+day 53 56 562 565 O
+more 57 61 566 570 O
+than 62 66 571 575 O
+9 67 68 576 577 B-lower_bound
+days 69 73 578 582 I-lower_bound
+in 74 76 583 585 O
+the 77 80 586 589 O
+past 81 85 590 594 O
+month 86 91 595 600 O
+) 91 92 600 601 O
+
+breath 0 6 602 608 B-clinical_variable
+alcohol 7 14 609 616 I-clinical_variable
+level 15 20 617 622 I-clinical_variable
+> 21 22 623 624 O
+0.01 23 27 625 629 B-lower_bound
+( 28 29 630 631 O
+one 29 32 631 634 O
+re 33 35 635 637 O
+- 35 36 637 638 O
+screen 36 42 638 644 O
+allowed 43 50 645 652 O
+) 50 51 652 653 O
+
+participants 0 12 654 666 O
+with 13 17 667 671 O
+valid 18 23 672 677 O
+prescriptions 24 37 678 691 O
+for 38 41 692 695 O
+opiates 42 49 696 703 B-treatment
+, 49 50 703 704 O
+benzodiazepines 51 66 705 720 B-treatment
+, 66 67 720 721 O
+barbiturates 68 80 722 734 B-treatment
+, 80 81 734 735 O
+amphetamines 82 94 736 748 B-treatment
+or 95 97 749 751 O
+methadone 98 107 752 761 B-treatment
+
+pregnant 0 8 762 770 B-pregnancy
+or 9 11 771 773 O
+breastfeeding 12 25 774 787 O
+
+significant 0 11 788 799 O
+unstable 12 20 800 808 O
+medical 21 28 809 816 B-chronic_disease
+/ 28 29 816 817 I-chronic_disease
+psychiatric 29 40 817 828 I-chronic_disease
+or 41 43 829 831 O
+substance 44 53 832 841 O
+use 54 57 842 845 O
+disorders 58 67 846 855 O
+
+used 0 4 856 860 O
+other 5 10 861 866 O
+tobacco 11 18 867 874 O
+products 19 27 875 883 O
+( 28 29 884 885 O
+including 29 38 885 894 O
+e 39 40 895 896 O
+- 40 41 896 897 O
+cigarettes 41 51 897 907 O
+more 52 56 908 912 O
+than 57 61 913 917 O
+9 62 63 918 919 B-lower_bound
+days 64 68 920 924 I-lower_bound
+in 69 71 925 927 O
+the 72 75 928 931 O
+past 76 80 932 936 O
+month 81 86 937 942 O
+

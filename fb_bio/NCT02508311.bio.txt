@@ -1,0 +1,172 @@
+Active 0 6 0 6 O
+respiratory 7 18 7 18 B-chronic_disease
+disease 19 26 19 26 I-chronic_disease
+or 27 29 27 29 O
+recent(within 30 43 30 43 O
+3 44 45 44 45 B-upper_bound
+months 46 52 46 52 I-upper_bound
+) 52 53 52 53 O
+respiratory 54 65 54 65 B-chronic_disease
+infections 66 76 66 76 I-chronic_disease
+
+Antidepressant 0 14 77 91 B-treatment
+use 15 18 92 95 O
+
+Chronic 0 7 96 103 O
+spinal 8 14 104 110 B-chronic_disease
+cord 15 19 111 115 I-chronic_disease
+injury 20 26 116 122 I-chronic_disease
+( 27 28 123 124 O
+1 29 30 125 126 O
+year 31 35 127 131 O
+since 36 41 132 137 O
+injury 42 48 138 144 O
+) 48 49 144 145 O
+
+Current 0 7 146 153 O
+use 8 11 154 157 O
+a 12 13 158 159 O
+beta-2 14 20 160 166 B-treatment
+adrenergic 21 31 167 177 I-treatment
+agonists 32 40 178 186 I-treatment
+
+Currently 0 9 187 196 O
+taking 10 16 197 203 O
+corticosteroids 17 32 204 219 B-treatment
+
+Currently 0 9 220 229 O
+taking 10 16 230 236 O
+monoamine 17 26 237 246 B-treatment
+oxidase 27 34 247 254 I-treatment
+inhibitors 35 45 255 265 I-treatment
+or 46 48 266 268 O
+tricyclic 49 58 269 278 B-treatment
+antidepressants 59 74 279 294 I-treatment
+
+Females 0 7 295 302 B-gender
+with 8 12 303 307 O
+maximal 13 20 308 315 B-clinical_variable
+inspiratory 21 32 316 327 I-clinical_variable
+pressure 33 41 328 336 I-clinical_variable
+( 42 43 337 338 I-clinical_variable
+MIP 43 46 338 341 I-clinical_variable
+) 46 47 341 342 I-clinical_variable
+< 48 49 343 344 O
+65 50 52 345 347 B-upper_bound
+cmH2O 53 58 348 353 I-upper_bound
+
+History 0 7 354 361 O
+of 8 10 362 364 O
+asthma 11 17 365 371 B-chronic_disease
+
+History 0 7 372 379 O
+of 8 10 380 382 O
+epilepsy 11 19 383 391 B-chronic_disease
+or 20 22 392 394 O
+seizure 23 30 395 402 B-chronic_disease
+disorder 31 39 403 411 I-chronic_disease
+
+Hypersensitivity 0 16 412 428 O
+to 17 19 429 431 O
+albuterol 20 29 432 441 B-allergy_name
+or 30 32 442 444 O
+any 33 36 445 448 O
+of 37 39 449 451 O
+its 40 43 452 455 O
+' 43 44 455 456 O
+constituents 45 57 457 469 O
+
+Hyperthyroidism 0 15 470 485 B-chronic_disease
+
+Male 0 4 486 490 B-gender
+or 5 7 491 493 I-gender
+Female 8 14 494 500 I-gender
+
+Males 0 5 501 506 B-gender
+with 6 10 507 511 O
+maximal 11 18 512 519 B-clinical_variable
+inspiratory 19 30 520 531 I-clinical_variable
+pressure 31 39 532 540 I-clinical_variable
+( 40 41 541 542 I-clinical_variable
+MIP 41 44 542 545 I-clinical_variable
+) 44 45 545 546 I-clinical_variable
+< 46 47 547 548 O
+90 48 50 549 551 B-upper_bound
+cmH2O 51 56 552 557 I-upper_bound
+
+Neurological 0 12 558 570 B-clinical_variable
+level 13 18 571 576 I-clinical_variable
+of 19 21 577 579 O
+injury 22 28 580 586 O
+between 29 36 587 594 O
+C3 37 39 595 597 B-lower_bound
+- 39 40 597 598 O
+C8 40 42 598 600 B-upper_bound
+( 43 44 601 602 O
+Tetraplegia 44 55 602 613 B-chronic_disease
+) 55 56 613 614 O
+
+Neurological 0 12 615 627 B-clinical_variable
+level 13 18 628 633 I-clinical_variable
+of 19 21 634 636 I-clinical_variable
+injury 22 28 637 643 I-clinical_variable
+between 29 36 644 651 O
+T1 37 39 652 654 B-lower_bound
+- 39 40 654 655 O
+T6 40 42 655 657 B-upper_bound
+( 43 44 658 659 O
+High 44 48 659 663 O
+Paraplegia 49 59 664 674 B-chronic_disease
+) 59 60 674 675 O
+
+Pregnant 0 8 676 684 B-pregnancy
+
+Uncontrolled 0 12 685 697 B-chronic_disease
+hypertension 13 25 698 710 I-chronic_disease
+or 26 28 711 713 O
+cardiovascular 29 43 714 728 B-chronic_disease
+disease 44 51 729 736 I-chronic_disease
+
+Use 0 3 737 740 O
+or 4 6 741 743 O
+are 7 10 744 747 O
+suspected 11 20 748 757 O
+of 21 23 758 760 O
+using 24 29 761 766 O
+over 30 34 767 771 O
+- 34 35 771 772 O
+the 35 38 772 775 O
+counter 39 46 776 783 O
+supplements 47 58 784 795 O
+or 59 61 796 798 O
+prescribed 62 72 799 809 O
+medications 73 84 810 821 B-treatment
+with 85 89 822 826 O
+anabolic 90 98 827 835 O
+characteristics 99 114 836 851 O
+( 115 116 852 853 O
+promotes 116 124 853 861 O
+improvements 125 137 862 874 O
+to 138 140 875 877 O
+muscle 141 147 878 884 O
+mass 148 152 885 889 O
+and 153 156 890 893 O
+strength 157 165 894 902 O
+) 165 166 902 903 O
+
+Ventilator 0 10 904 914 B-treatment
+Dependence 11 21 915 925 I-treatment
+
+age 0 3 926 929 B-age
+18 4 6 930 932 B-lower_bound
+to 7 9 933 935 O
+80 10 12 936 938 B-upper_bound
+
+anabolic 0 8 939 947 B-treatment
+steroids 9 17 948 956 I-treatment
+( 18 19 957 958 O
+e.g. 19 23 958 962 O
+, 23 24 962 963 O
+testosterone 25 37 964 976 B-treatment
+) 37 38 976 977 O
+

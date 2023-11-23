@@ -1,0 +1,81 @@
+< 0 1 0 1 O
+18 1 3 1 3 B-upper_bound
+years 4 9 4 9 I-upper_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+Estimated 0 9 17 26 B-clinical_variable
+fetal 10 15 27 32 I-clinical_variable
+weight 16 22 33 39 I-clinical_variable
+greater 23 30 40 47 O
+than 31 35 48 52 O
+4500 36 40 53 57 B-lower_bound
+grams 41 46 58 63 I-lower_bound
+in 47 49 64 66 O
+diabetic 50 58 67 75 O
+and 59 62 76 79 O
+5000 63 67 80 84 B-lower_bound
+grams 68 73 85 90 I-lower_bound
+in 74 76 91 93 O
+non 77 80 94 97 O
+- 80 81 97 98 O
+diabetic 81 89 98 106 O
+mother 90 96 107 113 O
+
+History 0 7 114 121 O
+of 8 10 122 124 O
+previous 11 19 125 133 B-treatment
+cesarean 20 28 134 142 I-treatment
+delivery 29 37 143 151 I-treatment
+
+Lean 0 4 152 156 O
+group 5 10 157 162 O
+: 10 11 162 163 O
+BMI 12 15 164 167 B-bmi
+≤25 16 19 168 171 O
+at 20 22 172 174 O
+< 23 24 175 176 O
+20 24 26 176 178 B-upper_bound
+weeks 27 32 179 184 I-upper_bound
+of 33 35 185 187 O
+pregnancy 36 45 188 197 B-pregnancy
+, 45 46 197 198 O
+or 47 49 199 201 O
+BMI 50 53 202 205 O
+≤28 54 57 206 209 O
+at 58 60 210 212 O
+a 61 62 213 214 O
+term 63 67 215 219 O
+gestation 68 77 220 229 O
+of 78 80 230 232 O
+pregnancy 81 90 233 242 O
+
+Patients 0 8 243 251 O
+with 9 13 252 256 O
+history 14 21 257 264 O
+of 22 24 265 267 O
+significant 25 36 268 279 O
+cardiac 37 44 280 287 B-chronic_disease
+disease 45 52 288 295 I-chronic_disease
+
+Previous 0 8 296 304 O
+cervical 9 17 305 313 O
+ripening 18 26 314 322 O
+agents 27 33 323 329 O
+( 34 35 330 331 O
+cytotec 35 42 331 338 B-treatment
+, 42 43 338 339 O
+cervidil 44 52 340 348 B-treatment
+, 52 53 348 349 O
+cervical 54 62 350 358 B-treatment
+Foley 63 68 359 364 I-treatment
+Balloon 69 76 365 372 I-treatment
+) 76 77 372 373 O
+
+Singleton 0 9 374 383 O
+pregnancy 10 19 384 393 B-pregnancy
+≥ 20 21 394 395 O
+37 22 24 396 398 B-lower_bound
+weeks 25 30 399 404 I-lower_bound
+gestation 31 40 405 414 O
+

@@ -1,0 +1,60 @@
+24 0 2 0 2 B-lower_bound
+months 3 9 3 9 I-lower_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+or 17 19 17 19 O
+older 20 25 20 25 O
+at 26 28 26 28 O
+the 29 32 29 32 O
+time 33 37 33 37 O
+of 38 40 38 40 O
+surgery 41 48 41 48 B-treatment
+
+Diagnosed 0 9 49 58 O
+with 10 14 59 63 O
+developmental 15 28 64 77 B-chronic_disease
+dysplasia 29 38 78 87 I-chronic_disease
+of 39 41 88 90 I-chronic_disease
+the 42 45 91 94 I-chronic_disease
+hip 46 49 95 98 I-chronic_disease
+
+Failed 0 6 99 105 O
+conservative 7 19 106 118 B-treatment
+treatment 20 29 119 128 I-treatment
+and 30 33 129 132 O
+will 34 38 133 137 O
+undergo 39 46 138 145 O
+closed 47 53 146 152 B-treatment
+or 54 56 153 155 I-treatment
+open 57 61 156 160 I-treatment
+reduction 62 71 161 170 I-treatment
+and 72 75 171 174 O
+spica 76 81 175 180 B-treatment
+casting 82 89 181 188 I-treatment
+
+Known 0 5 189 194 O
+heart 6 11 195 200 B-chronic_disease
+or 12 14 201 203 I-chronic_disease
+pulmonary 15 24 204 213 I-chronic_disease
+condition 25 34 214 223 I-chronic_disease
+
+Males 0 5 224 229 B-gender
+
+Subjects 0 8 230 238 O
+with 9 13 239 243 O
+DDH 14 17 244 247 B-chronic_disease
+who 18 21 248 251 O
+are 22 25 252 255 O
+successfully 26 38 256 268 O
+treated 39 46 269 276 O
+with 47 51 277 281 O
+conservative 52 64 282 294 O
+measures 65 73 295 303 O
+and 74 77 304 307 O
+do 78 80 308 310 O
+not 81 84 311 314 O
+require 85 92 315 322 O
+surgery 93 100 323 330 B-treatment
+
+females 0 7 331 338 B-gender
+

@@ -1,0 +1,270 @@
+> 0 1 0 1 O
+10 1 3 1 3 B-lower_bound
+mg 4 6 4 6 I-lower_bound
+prednisone 7 17 7 17 B-treatment
+per 18 21 18 21 O
+day 22 25 22 25 O
+or 26 28 26 28 O
+equivalent 29 39 29 39 O
+
+Absolute 0 8 40 48 B-clinical_variable
+neutrophil 9 19 49 59 I-clinical_variable
+count 20 25 60 65 I-clinical_variable
+( 26 27 66 67 I-clinical_variable
+ANC)>1500 27 36 67 76 I-clinical_variable
+/ 36 37 76 77 I-lower_bound
+mm3 37 40 77 80 I-lower_bound
+
+Age 0 3 81 84 B-age
+18 4 6 85 87 B-lower_bound
+- 6 7 87 88 O
+76 7 9 88 90 B-upper_bound
+years 10 15 91 96 I-upper_bound
+
+Calculated 0 10 97 107 B-clinical_variable
+creatinine 11 21 108 118 I-clinical_variable
+clearance 22 31 119 128 I-clinical_variable
+> 32 33 129 130 O
+30ml 33 37 130 134 B-lower_bound
+/ 37 38 134 135 I-lower_bound
+m 38 39 135 136 I-lower_bound
+
+Creatinine<2mg 0 14 137 151 B-clinical_variable
+/ 14 15 151 152 I-upper_bound
+dl 15 17 152 154 I-upper_bound
+
+Evidence 0 8 155 163 O
+of 9 11 164 166 O
+clinically 12 22 167 177 O
+significant 23 34 178 189 O
+pancreatitis 35 47 190 202 B-chronic_disease
+as 48 50 203 205 O
+determined 51 61 206 216 O
+by 62 64 217 219 O
+the 65 68 220 223 O
+investigator 69 81 224 236 O
+
+Evidence 0 8 237 245 O
+of 9 11 246 248 O
+significant 12 23 249 260 O
+ascites 24 31 261 268 B-chronic_disease
+as 32 34 269 271 O
+determined 35 45 272 282 O
+by 46 48 283 285 O
+the 49 52 286 289 O
+investigator 53 65 290 302 O
+
+Female 0 6 303 309 B-gender
+patients 7 15 310 318 I-gender
+of 16 18 319 321 O
+childbearing 19 31 322 334 O
+age 32 35 335 338 B-age
+must 36 40 339 343 O
+have 41 45 344 348 O
+negative 46 54 349 357 B-clinical_variable
+serum 55 60 358 363 I-clinical_variable
+or 61 63 364 366 I-clinical_variable
+urine 64 69 367 372 I-clinical_variable
+pregnancy 70 79 373 382 I-clinical_variable
+test 80 84 383 387 O
+within 85 91 388 394 O
+1 92 93 395 396 B-upper_bound
+week 94 98 397 401 I-upper_bound
+of 99 101 402 404 O
+beginning 102 111 405 414 O
+therapy 112 119 415 422 B-treatment
+
+Hemoglobin 0 10 423 433 B-clinical_variable
+> 11 12 434 435 O
+9 13 14 436 437 B-lower_bound
+g 15 16 438 439 I-lower_bound
+/ 16 17 439 440 I-lower_bound
+dL 17 19 440 442 I-lower_bound
+
+Known 0 5 443 448 O
+to 6 8 449 451 O
+be 9 11 452 454 O
+HIV+ 12 16 455 459 B-chronic_disease
+
+Other 0 5 460 465 O
+current 6 13 466 473 O
+malignancy 14 24 474 484 B-cancer
+( 25 26 485 486 O
+except 26 32 486 492 O
+squamous 33 41 493 501 B-cancer
+or 42 44 502 504 O
+basal 45 50 505 510 B-cancer
+cell 51 55 511 515 I-cancer
+skin 56 60 516 520 I-cancer
+cancers 61 68 521 528 I-cancer
+) 68 69 528 529 O
+
+Pathological 0 12 530 542 O
+diagnosis 13 22 543 552 O
+of 23 25 553 555 O
+pancreatic 26 36 556 566 B-cancer
+adenocarcinoma 37 51 567 581 I-cancer
+adequately 52 62 582 592 O
+treated 63 70 593 600 O
+with 71 75 601 605 O
+induction 76 85 606 615 B-treatment
+chemotherapy 86 98 616 628 I-treatment
+for 99 102 629 632 O
+at 103 105 633 635 O
+least 106 111 636 641 O
+2 112 113 642 643 B-lower_bound
+months 114 120 644 650 I-lower_bound
+
+Patients 0 8 651 659 O
+must 9 13 660 664 O
+be 14 16 665 667 O
+deemed 17 23 668 674 O
+to 24 26 675 677 O
+be 27 29 678 680 O
+in 30 32 681 683 O
+adequate 33 41 684 692 O
+health 42 48 693 699 O
+to 49 51 700 702 O
+undergo 52 59 703 710 O
+major 60 65 711 716 B-treatment
+surgery 66 73 717 724 I-treatment
+( 74 75 725 726 O
+pancreaticoduodenectomy 75 98 726 749 B-treatment
+) 98 99 749 750 O
+
+Patients 0 8 751 759 O
+on 9 11 760 762 O
+systemic 12 20 763 771 B-treatment
+corticosteroids 21 36 772 787 I-treatment
+
+Patients 0 8 788 796 O
+with 9 13 797 801 O
+biliary 14 21 802 809 O
+obstruction 22 33 810 821 O
+must 34 38 822 826 O
+be 39 41 827 829 O
+stented 42 49 830 837 O
+prior 50 55 838 843 O
+to 56 58 844 846 O
+initiating 59 69 847 857 O
+treatment 70 79 858 867 B-treatment
+
+Performance 0 11 868 879 B-clinical_variable
+status 12 18 880 886 I-clinical_variable
+ECOG 19 23 887 891 I-clinical_variable
+0 24 25 892 893 B-lower_bound
+- 25 26 893 894 O
+1 26 27 894 895 B-upper_bound
+
+Platelets>100,000 0 17 896 913 B-clinical_variable
+/ 17 18 913 914 I-lower_bound
+mm3 18 21 914 917 I-lower_bound
+
+Pregnant 0 8 918 926 B-pregnancy
+
+Primary 0 7 927 934 O
+hepatic 8 15 935 942 O
+dysfunction 16 27 943 954 O
+including 28 37 955 964 O
+known 38 43 965 970 O
+cirrhosis 44 53 971 980 B-chronic_disease
+or 54 56 981 983 O
+active 57 63 984 990 B-chronic_disease
+hepatitis 64 73 991 1000 I-chronic_disease
+
+Resection 0 9 1001 1010 B-treatment
+may 10 13 1011 1014 O
+include 14 21 1015 1022 O
+major 22 27 1023 1028 B-treatment
+vascular 28 36 1029 1037 I-treatment
+resection 37 46 1038 1047 I-treatment
+with 47 51 1048 1052 O
+reconstruction 52 66 1053 1067 O
+as 67 69 1068 1070 O
+needed 70 76 1071 1077 O
+
+SGOT 0 4 1078 1082 B-clinical_variable
+( 5 6 1083 1084 I-clinical_variable
+AST)<3x 6 13 1084 1091 I-clinical_variable
+upper 14 19 1092 1097 I-upper_bound
+limit 20 25 1098 1103 I-upper_bound
+of 26 28 1104 1106 I-upper_bound
+normal 29 35 1107 1113 I-upper_bound
+
+Total 0 5 1114 1119 B-clinical_variable
+bilirubin 6 15 1120 1129 I-clinical_variable
+≤2mg 16 20 1130 1134 O
+/ 20 21 1134 1135 I-upper_bound
+dl 21 23 1135 1137 I-upper_bound
+
+Tumor 0 5 1138 1143 B-cancer
+accessible 6 16 1144 1154 O
+for 17 20 1155 1158 O
+injection 21 30 1159 1168 O
+that 31 35 1169 1173 O
+is 36 38 1174 1176 O
+classified 39 49 1177 1187 O
+as 50 52 1188 1190 O
+borderline 53 63 1191 1201 O
+- 63 64 1201 1202 O
+resectable 64 74 1202 1212 O
+or 75 77 1213 1215 O
+locally 78 85 1216 1223 O
+advanced 86 94 1224 1232 O
+but 95 98 1233 1236 O
+considered 99 109 1237 1247 O
+potentially 110 121 1248 1259 O
+resectable 122 132 1260 1270 O
+after 133 138 1271 1276 O
+central 139 146 1277 1284 O
+review 147 153 1285 1291 O
+by 154 156 1292 1294 O
+surgical 157 165 1295 1303 O
+investigators 166 179 1304 1317 O
+( 180 181 1318 1319 O
+based 181 186 1319 1324 O
+upon 187 191 1325 1329 O
+pre 192 195 1330 1333 O
+- 195 196 1333 1334 O
+induction 196 205 1334 1343 O
+chemotherapy 206 218 1344 1356 B-treatment
+imaging 219 226 1357 1364 I-treatment
+) 226 227 1364 1365 O
+
+WBC>3000 0 8 1366 1374 B-clinical_variable
+/ 8 9 1374 1375 I-lower_bound
+mm3 9 12 1375 1378 I-lower_bound
+
+allergic 0 8 1379 1387 O
+reactions 9 18 1388 1397 O
+to 19 21 1398 1400 O
+acyclovir 22 31 1401 1410 B-allergy_name
+
+other 0 5 1411 1416 O
+systemic 6 14 1417 1425 B-treatment
+immunosuppressive 15 32 1426 1443 I-treatment
+drugs 33 38 1444 1449 I-treatment
+
+such 0 4 1450 1454 O
+that 5 9 1455 1459 O
+they 10 14 1460 1464 O
+are 15 18 1465 1468 O
+a 19 20 1469 1470 O
+candidate 21 30 1471 1480 O
+for 31 34 1481 1484 O
+localized 35 44 1485 1494 B-treatment
+therapy 45 52 1495 1502 I-treatment
+with 53 57 1503 1507 O
+chemoradiation 58 72 1508 1522 B-treatment
+followed 73 81 1523 1531 O
+by 82 84 1532 1534 O
+surgery 85 92 1535 1542 B-treatment
+with 93 97 1543 1547 O
+or 98 100 1548 1550 O
+without 101 108 1551 1558 O
+major 109 114 1559 1564 O
+vascular 115 123 1565 1573 B-treatment
+resection 124 133 1574 1583 I-treatment
+
+valacyclovir 0 12 1584 1596 B-treatment
+

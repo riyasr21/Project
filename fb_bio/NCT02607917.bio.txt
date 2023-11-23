@@ -1,0 +1,30 @@
+Healthy 0 7 0 7 O
+men 8 11 8 11 B-gender
+
+Healthy 0 7 12 19 O
+women 8 13 20 25 B-gender
+
+History 0 7 26 33 O
+of 8 10 34 36 O
+cardiovascular 11 25 37 51 B-chronic_disease
+disease 26 33 52 59 I-chronic_disease
+
+age 0 3 60 63 B-age
+45 4 6 64 66 B-lower_bound
+- 6 7 66 67 O
+79 7 9 67 69 B-upper_bound
+
+age 0 3 70 73 B-age
+55 4 6 74 76 B-lower_bound
+- 6 7 76 77 O
+79 7 9 77 79 B-upper_bound
+
+aspirin 0 7 80 87 B-allergy_name
+allergy 8 15 88 95 O
+
+serious 0 7 96 103 O
+life 8 12 104 108 B-chronic_disease
+- 12 13 108 109 I-chronic_disease
+limiting 13 21 109 117 I-chronic_disease
+illness 22 29 118 125 I-chronic_disease
+

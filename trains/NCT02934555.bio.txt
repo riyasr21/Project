@@ -1,0 +1,52 @@
+> 0 1 0 1 O
+12 2 4 2 4 B-lower_bound
+hours 5 10 5 10 I-lower_bound
+from 11 15 11 15 O
+ROSC 16 20 16 20 O
+to 21 23 21 23 O
+estimated 24 33 24 33 O
+randomization 34 47 34 47 O
+
+Adult 0 5 48 53 O
+( 6 7 54 55 O
+≥ 7 8 55 56 O
+18 9 11 57 59 B-lower_bound
+years 12 17 60 65 I-lower_bound
+) 17 18 65 66 O
+
+Anticipated 0 11 67 78 O
+death 12 17 79 84 O
+within 18 24 85 91 O
+24 25 27 92 94 B-upper_bound
+hours 28 33 95 100 I-upper_bound
+
+Cardiac 0 7 101 108 B-chronic_disease
+arrest 8 14 109 115 I-chronic_disease
+defined 15 22 116 123 O
+by 23 25 124 126 O
+cessation 26 35 127 136 O
+of 36 38 137 139 O
+pulse 39 44 140 145 O
+requiring 45 54 146 155 O
+chest 55 60 156 161 O
+compressions 61 73 162 174 O
+
+Not 0 3 175 178 O
+following 4 13 179 188 O
+commands 14 22 189 197 O
+after 23 28 198 203 O
+ROSC 29 33 204 208 B-chronic_disease
+
+Protected 0 9 209 218 O
+populations 10 21 219 230 O
+( 22 23 231 232 O
+pregnant 23 31 232 240 B-pregnancy
+women 32 37 241 246 B-gender
+, 37 38 246 247 O
+prisoners 39 48 248 257 O
+, 48 49 257 258 O
+the 50 53 259 262 O
+intellectual 54 66 263 275 O
+disabled 67 75 276 284 O
+) 75 76 284 285 O
+

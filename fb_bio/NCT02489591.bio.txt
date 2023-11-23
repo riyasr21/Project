@@ -1,0 +1,55 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+lidocaine 11 20 11 20 B-allergy_name
+or 21 23 21 23 O
+oxymetazoline 24 37 24 37 B-allergy_name
+hydrochloride 38 51 38 51 I-allergy_name
+
+Any 0 3 52 55 O
+unstable 4 12 56 64 O
+cardiac 13 20 65 72 O
+condition 21 30 73 82 O
+( 31 32 83 84 O
+other 32 37 84 89 O
+than 38 42 90 94 O
+well 43 47 95 99 O
+controlled 48 58 100 110 O
+hypertension 59 71 111 123 O
+) 71 72 123 124 O
+or 73 75 125 127 O
+pulmonary 76 85 128 137 B-chronic_disease
+problems 86 94 138 146 I-chronic_disease
+
+Claustrophobia 0 14 147 161 B-chronic_disease
+
+Concurrent 0 10 162 172 B-chronic_disease
+sleep 11 16 173 178 I-chronic_disease
+disorders 17 26 179 188 I-chronic_disease
+( 27 28 189 190 O
+insomnia 28 36 190 198 B-chronic_disease
+, 36 37 198 199 O
+narcolepsy 38 48 200 210 B-chronic_disease
+, 48 49 210 211 O
+central 50 57 212 219 B-chronic_disease
+sleep 58 63 220 225 I-chronic_disease
+apnea 64 69 226 231 I-chronic_disease
+or 70 72 232 234 O
+parasomnia 73 83 235 245 B-chronic_disease
+) 83 84 245 246 O
+
+Patients 0 8 247 255 O
+with 9 13 256 260 O
+Obstructive 14 25 261 272 B-chronic_disease
+Sleep 26 31 273 278 I-chronic_disease
+Apnea 32 37 279 284 I-chronic_disease
+
+Periodontal 0 11 285 296 B-chronic_disease
+disease 12 19 297 304 I-chronic_disease
+and/or 20 26 305 311 O
+insufficient 27 39 312 324 O
+number 40 46 325 331 O
+of 47 49 332 334 O
+teeth 50 55 335 340 O
+
+Pregnancy 0 9 341 350 B-pregnancy
+

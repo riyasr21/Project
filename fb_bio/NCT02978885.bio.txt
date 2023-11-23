@@ -1,0 +1,48 @@
+Age 0 3 0 3 B-age
+< 4 5 4 5 O
+18 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+
+Patients 0 8 15 23 O
+with 9 13 24 28 O
+normal 14 20 29 35 O
+lung 21 25 36 40 O
+function 26 34 41 49 O
+undergoing 35 45 50 60 O
+Whipple 46 53 61 68 B-treatment
+procedures 54 64 69 79 I-treatment
+
+forced 0 6 80 86 B-clinical_variable
+expiratory 7 17 87 97 I-clinical_variable
+volume 18 24 98 104 I-clinical_variable
+1 25 26 105 106 I-clinical_variable
+( 27 28 107 108 I-clinical_variable
+FEV1)/forced 28 40 108 120 I-clinical_variable
+vital 41 46 121 126 I-clinical_variable
+capacity 47 55 127 135 I-clinical_variable
+( 56 57 136 137 I-clinical_variable
+FVC 57 60 137 140 I-clinical_variable
+) 60 61 140 141 I-clinical_variable
+< 62 63 142 143 O
+0.70 63 67 143 147 B-upper_bound
+and 68 71 148 151 O
+FEV1 72 76 152 156 O
+50 77 79 157 159 B-lower_bound
+- 79 80 159 160 O
+79 80 82 160 162 B-upper_bound
+% 82 83 162 163 I-upper_bound
+normal 84 90 164 170 O
+) 90 91 170 171 O
+undergoing 92 102 172 182 O
+Whipple 103 110 183 190 O
+procedures 111 121 191 201 O
+or 122 124 202 204 O
+other 125 130 205 210 O
+major 131 136 211 216 B-treatment
+surgeries 137 146 217 226 I-treatment
+
+other 0 5 227 232 O
+major 6 11 233 238 B-treatment
+abdominal 12 21 239 248 I-treatment
+surgeries 22 31 249 258 I-treatment
+

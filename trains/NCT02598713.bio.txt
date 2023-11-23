@@ -1,0 +1,16 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+Patients 0 8 15 23 O
+who 9 12 24 27 O
+had 13 16 28 31 O
+partial 17 24 32 39 B-treatment
+or 25 27 40 42 I-treatment
+total 28 33 43 48 I-treatment
+gastrectomy 34 45 49 60 I-treatment
+
+Status 0 6 61 67 B-chronic_disease
+asthmatics 7 17 68 78 I-chronic_disease
+

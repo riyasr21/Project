@@ -1,0 +1,37 @@
+delivery 0 8 0 8 O
+less 9 13 9 13 O
+than 14 18 14 18 O
+2hrs 19 23 19 23 B-upper_bound
+from 24 28 24 28 O
+consenting 29 39 29 39 O
+to 40 42 40 42 O
+study 43 48 43 48 O
+participation 49 62 49 62 O
+
+placental 0 9 63 72 B-chronic_disease
+abruption 10 19 73 82 I-chronic_disease
+/ 19 20 82 83 O
+placental 20 29 83 92 B-chronic_disease
+previa 30 36 93 99 I-chronic_disease
+
+pregnant 0 8 100 108 B-pregnancy
+women 9 14 109 114 B-gender
+admitted 15 23 115 123 O
+> 24 25 124 125 O
+24weeks 25 32 125 132 B-lower_bound
+and 33 36 133 136 O
+< 37 38 137 138 O
+30weeks 38 45 138 145 B-upper_bound
+gestational 46 57 146 157 B-clinical_variable
+age 58 61 158 161 B-age
+
+preterm 0 7 162 169 B-clinical_variable
+infant 8 14 170 176 I-clinical_variable
+< 15 16 177 178 O
+24weeks 16 23 178 185 B-upper_bound
+or 24 26 186 188 O
+> 27 28 189 190 O
+30weeks 28 35 190 197 B-lower_bound
+at 36 38 198 200 O
+birt 39 43 201 205 O
+

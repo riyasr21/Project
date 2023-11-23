@@ -1,0 +1,31 @@
+Autonomic 0 9 0 9 B-chronic_disease
+neuropathy 10 20 10 20 I-chronic_disease
+as 21 23 21 23 O
+defined 24 31 24 31 O
+by 32 34 32 34 O
+the 35 38 35 38 O
+Toronto 39 46 39 46 O
+Diabetic 47 55 47 55 O
+Neuropathy 56 66 56 66 O
+Expert 67 73 67 73 O
+Group 74 79 74 79 O
+2010/11 80 87 80 87 O
+consensus 88 97 88 97 O
+criteria 98 106 98 106 O
+
+Severe 0 6 107 113 O
+autonomic 7 16 114 123 B-chronic_disease
+neuropathy 17 27 124 134 I-chronic_disease
+that 28 32 135 139 O
+restricts 33 42 140 149 O
+daily 43 48 150 155 O
+function 49 57 156 164 O
+and 58 61 165 168 O
+the 62 65 169 172 O
+ability 66 73 173 180 O
+to 74 76 181 183 O
+participate 77 88 184 195 O
+in 89 91 196 198 O
+study 92 97 199 204 O
+interventions 98 111 205 218 O
+

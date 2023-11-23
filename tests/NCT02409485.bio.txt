@@ -1,0 +1,44 @@
+initiating 0 10 0 10 O
+radiotherapy 11 23 11 23 B-treatment
+for 24 27 24 27 O
+HNC 28 31 28 31 B-cancer
+
+patient 0 7 32 39 O
+has 8 11 40 43 O
+Karnofsky 12 21 44 53 B-clinical_variable
+score 22 27 54 59 I-clinical_variable
+> 28 29 60 61 O
+50 30 32 62 64 B-lower_bound
+( 33 34 65 66 O
+ambulatory 34 44 66 76 O
+& 45 46 77 78 O
+capable 47 54 79 86 O
+of 55 57 87 89 O
+self 58 62 90 94 O
+- 62 63 94 95 O
+care 63 67 95 99 O
+) 67 68 99 100 O
+
+patient 0 7 101 108 O
+/ 7 8 108 109 O
+partner 8 15 109 116 O
+can 16 19 117 120 B-language_fluency
+not 19 22 120 123 I-language_fluency
+read 23 27 124 128 I-language_fluency
+or 28 30 129 131 I-language_fluency
+communicate 31 42 132 143 I-language_fluency
+using 43 48 144 149 I-language_fluency
+spoken 49 55 150 156 I-language_fluency
+English 56 63 157 164 I-language_fluency
+
+patient 0 7 165 172 O
+/ 7 8 172 173 O
+partner 8 15 173 180 O
+is 16 18 181 183 O
+> 19 20 184 185 O
+age 21 24 186 189 B-age
+18 25 27 190 192 B-lower_bound
+
+pregnant 0 8 193 201 B-pregnancy
+women 9 14 202 207 B-gender
+

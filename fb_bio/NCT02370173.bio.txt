@@ -1,0 +1,22 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+50 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+old 12 15 12 15 O
+
+Having 0 6 16 22 O
+experienced 7 18 23 34 O
+a 19 20 35 36 O
+traumatic 21 30 37 46 O
+event 31 36 47 52 O
+within 37 43 53 59 O
+the 44 47 60 63 O
+past 48 52 64 68 B-upper_bound
+10 53 55 69 71 I-upper_bound
+years 56 61 72 77 I-upper_bound
+
+Primary 0 7 78 85 B-language_fluency
+language 8 16 86 94 I-language_fluency
+is 17 19 95 97 I-language_fluency
+English 20 27 98 105 I-language_fluency
+

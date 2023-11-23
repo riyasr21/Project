@@ -1,0 +1,320 @@
+0 0 1 0 1 B-lower_bound
+through 2 9 2 9 O
+55 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+of 19 21 19 21 O
+age 22 25 22 25 B-age
+
+Adrenoleukodystrophy 0 20 26 46 B-chronic_disease
+with 21 25 47 51 O
+cerebral 26 34 52 60 O
+involvement 35 46 61 72 O
+
+Alpha 0 5 73 78 B-chronic_disease
+mannosidosis 6 18 79 91 I-chronic_disease
+
+Alpha 0 5 92 97 B-chronic_disease
+- 5 6 97 98 I-chronic_disease
+methylacyl 6 16 98 108 I-chronic_disease
+- 16 17 108 109 I-chronic_disease
+CoA 17 20 109 112 I-chronic_disease
+Racmase 21 28 113 120 I-chronic_disease
+Deficiency 29 39 121 131 I-chronic_disease
+( 40 41 132 133 I-chronic_disease
+AMACRD 41 47 133 139 I-chronic_disease
+) 47 48 139 140 I-chronic_disease
+
+Aspartylglucosaminuria 0 22 141 163 B-chronic_disease
+
+CoA 0 3 164 167 B-chronic_disease
+- 3 4 167 168 I-chronic_disease
+Oxidase 4 11 168 175 I-chronic_disease
+Deficiency 12 22 176 186 I-chronic_disease
+
+D 0 1 187 188 B-chronic_disease
+- 1 2 188 189 I-chronic_disease
+Bifunctional 2 14 189 201 I-chronic_disease
+enzyme 15 21 202 208 I-chronic_disease
+deficiency 22 32 209 219 I-chronic_disease
+
+Fucosidosis 0 11 220 231 B-chronic_disease
+
+Globoid 0 7 232 239 B-chronic_disease
+cell 8 12 240 244 I-chronic_disease
+leukodystrophy 13 27 245 259 I-chronic_disease
+
+Glycoprotein 0 12 260 272 B-chronic_disease
+Metabolic 13 22 273 282 I-chronic_disease
+Disorders 23 32 283 292 I-chronic_disease
+
+Hereditary 0 10 293 303 B-chronic_disease
+Leukoencephalopathy 11 30 304 323 I-chronic_disease
+with 31 35 324 328 I-chronic_disease
+axonal 36 42 329 335 I-chronic_disease
+spheroids 43 52 336 345 I-chronic_disease
+( 53 54 346 347 O
+HDLS 54 58 347 351 O
+; 58 59 351 352 O
+CSF1R 60 65 353 358 O
+mutation 66 74 359 367 O
+) 74 75 367 368 O
+
+Infantile 0 9 369 378 B-chronic_disease
+Refsum 10 16 379 385 I-chronic_disease
+disease 17 24 386 393 I-chronic_disease
+
+MPS 0 3 394 397 B-chronic_disease
+IH 4 6 398 400 I-chronic_disease
+( 7 8 401 402 I-chronic_disease
+Hurler 8 14 402 408 I-chronic_disease
+syndrome 15 23 409 417 I-chronic_disease
+) 23 24 417 418 I-chronic_disease
+
+MPS 0 3 419 422 B-chronic_disease
+II 4 6 423 425 I-chronic_disease
+( 7 8 426 427 I-chronic_disease
+Hunter 8 14 427 433 I-chronic_disease
+syndrome 15 23 434 442 I-chronic_disease
+) 23 24 442 443 I-chronic_disease
+if 25 27 444 446 O
+the 28 31 447 450 O
+patient 32 39 451 458 O
+has 40 43 459 462 O
+no 44 46 463 465 O
+or 47 49 466 468 O
+minimal 50 57 469 476 O
+evidence 58 66 477 485 O
+of 67 69 486 488 O
+symptomatic 70 81 489 500 O
+neurologic 82 92 501 511 B-chronic_disease
+disease 93 100 512 519 I-chronic_disease
+but 101 104 520 523 O
+is 105 107 524 526 O
+expected 108 116 527 535 O
+to 117 119 536 538 O
+have 120 124 539 543 O
+a 125 126 544 545 O
+neurologic 127 137 546 556 O
+phenotype 138 147 557 566 O
+
+MPS 0 3 567 570 B-chronic_disease
+VI 4 6 571 573 I-chronic_disease
+( 7 8 574 575 I-chronic_disease
+Maroteaux 8 17 575 584 I-chronic_disease
+- 17 18 584 585 I-chronic_disease
+Lamy 18 22 585 589 I-chronic_disease
+syndrome 23 31 590 598 I-chronic_disease
+) 31 32 598 599 I-chronic_disease
+
+MPS 0 3 600 603 B-chronic_disease
+VII 4 7 604 607 I-chronic_disease
+( 8 9 608 609 I-chronic_disease
+Sly 9 12 609 612 I-chronic_disease
+syndrome 13 21 613 621 I-chronic_disease
+) 21 22 621 622 I-chronic_disease
+
+Metachromatic 0 13 623 636 B-chronic_disease
+leukodystrophy 14 28 637 651 I-chronic_disease
+
+Mitochondrial 0 13 652 665 B-chronic_disease
+Neurogastrointestingal 14 36 666 688 I-chronic_disease
+Encephalopathy 37 51 689 703 I-chronic_disease
+( 52 53 704 705 I-chronic_disease
+MNGIE 53 58 705 710 I-chronic_disease
+) 58 59 710 711 I-chronic_disease
+
+Mucopolysaccharidosis 0 21 712 733 B-chronic_disease
+Disorders 22 31 734 743 I-chronic_disease
+
+Multifunctional 0 15 744 759 B-chronic_disease
+enzyme 16 22 760 766 I-chronic_disease
+deficiency 23 33 767 777 I-chronic_disease
+
+Neonatal 0 8 778 786 B-chronic_disease
+Adrenoleukodystrophy 9 29 787 807 I-chronic_disease
+
+Niemann 0 7 808 815 B-chronic_disease
+- 7 8 815 816 I-chronic_disease
+Pick 8 12 816 820 I-chronic_disease
+B 13 14 821 822 I-chronic_disease
+patients 15 23 823 831 O
+( 24 25 832 833 O
+sphingomyelin 25 38 833 846 B-chronic_disease
+deficiency 39 49 847 857 I-chronic_disease
+) 49 50 857 858 O
+
+Niemann 0 7 859 866 B-chronic_disease
+- 7 8 866 867 I-chronic_disease
+Pick 8 12 867 871 I-chronic_disease
+C 13 14 872 873 I-chronic_disease
+subtype 15 22 874 881 I-chronic_disease
+2 23 24 882 883 I-chronic_disease
+
+Other 0 5 884 889 O
+Inherited 6 15 890 899 B-chronic_disease
+Metabolic 16 25 900 909 I-chronic_disease
+Disorders 26 35 910 919 I-chronic_disease
+( 36 37 920 921 I-chronic_disease
+IMD 37 40 921 924 I-chronic_disease
+) 40 41 924 925 I-chronic_disease
+
+Patients 0 8 926 934 O
+will 9 13 935 939 O
+also 14 18 940 944 O
+be 19 21 945 947 O
+considered 22 32 948 958 O
+who 33 36 959 962 O
+have 37 41 963 967 O
+other 42 47 968 973 O
+life 48 52 974 978 O
+- 52 53 978 979 O
+threatening 53 64 979 990 O
+, 64 65 990 991 O
+rare 66 70 992 996 O
+lysosomal 71 80 997 1006 B-chronic_disease
+, 80 81 1006 1007 O
+peroxisomal 82 93 1008 1019 B-chronic_disease
+or 94 96 1020 1022 O
+other 97 102 1023 1028 O
+similar 103 110 1029 1036 O
+inherited 111 120 1037 1046 O
+disorders 121 130 1047 1056 O
+characterized 131 144 1057 1070 O
+by 145 147 1071 1073 O
+white 148 153 1074 1079 B-chronic_disease
+matter 154 160 1080 1086 I-chronic_disease
+disease 161 168 1087 1094 I-chronic_disease
+or 169 171 1095 1097 O
+other 172 177 1098 1103 O
+neurologic 178 188 1104 1114 O
+manifestations 189 203 1115 1129 O
+for 204 207 1130 1133 O
+which 208 213 1134 1139 O
+there 214 219 1140 1145 O
+is 220 222 1146 1148 O
+rationale 223 232 1149 1158 O
+that 233 237 1159 1163 O
+transplantation 238 253 1164 1179 O
+would 254 259 1180 1185 O
+be 260 262 1186 1188 O
+of 263 265 1189 1191 O
+benefit 266 273 1192 1199 O
+, 273 274 1199 1200 O
+such 275 279 1201 1205 O
+as 280 282 1206 1208 O
+certain 283 290 1209 1216 O
+patients 291 299 1217 1225 O
+with 300 304 1226 1230 O
+Wolman 305 311 1231 1237 B-chronic_disease
+'s 311 313 1237 1239 I-chronic_disease
+disease 314 321 1240 1247 I-chronic_disease
+, 321 322 1247 1248 O
+GM1 323 326 1249 1252 B-chronic_disease
+gangliosidosis 327 341 1253 1267 I-chronic_disease
+, 341 342 1267 1268 O
+I 343 344 1269 1270 B-chronic_disease
+- 344 345 1270 1271 I-chronic_disease
+cell 345 349 1271 1275 I-chronic_disease
+disease 350 357 1276 1283 I-chronic_disease
+, 357 358 1283 1284 O
+Tay 359 362 1285 1288 B-chronic_disease
+- 362 363 1288 1289 I-chronic_disease
+Sachs 363 368 1289 1294 I-chronic_disease
+disease 369 376 1295 1302 I-chronic_disease
+, 376 377 1302 1303 O
+Sandhoff 378 386 1304 1312 B-chronic_disease
+disease 387 394 1313 1320 I-chronic_disease
+or 395 397 1321 1323 O
+others 398 404 1324 1330 O
+
+Peroxisomal 0 11 1331 1342 B-chronic_disease
+Disorders 12 21 1343 1352 I-chronic_disease
+
+Pregnancy 0 9 1353 1362 B-pregnancy
+
+Prior 0 5 1363 1368 B-treatment
+myeloablative 6 19 1369 1382 I-treatment
+chemotherapy 20 32 1383 1395 I-treatment
+exposure 33 41 1396 1404 O
+within 42 48 1405 1411 O
+4 49 50 1412 1413 B-upper_bound
+months 51 57 1414 1420 I-upper_bound
+of 58 60 1421 1423 O
+the 61 64 1424 1427 O
+start 65 70 1428 1433 O
+of 71 73 1434 1436 O
+conditioning 74 86 1437 1449 O
+on 87 89 1450 1452 O
+this 90 94 1453 1457 O
+protocol 95 103 1458 1466 O
+( 104 105 1467 1468 O
+patients 105 113 1468 1476 O
+excluded 114 122 1477 1485 O
+for 123 126 1486 1489 O
+this 127 131 1490 1494 O
+reason 132 138 1495 1501 O
+may 139 142 1502 1505 O
+be 143 145 1506 1508 O
+eligible 146 154 1509 1517 O
+for 155 158 1518 1521 O
+other 159 164 1522 1527 O
+institutional 165 178 1528 1541 O
+protocols 179 188 1542 1551 O
+) 188 189 1551 1552 O
+
+Severe 0 6 1553 1559 O
+Osteopetrosis 7 20 1560 1573 B-chronic_disease
+( 21 22 1574 1575 I-chronic_disease
+OP 22 24 1575 1577 I-chronic_disease
+) 24 25 1577 1578 I-chronic_disease
+
+Sphingolipidoses 0 16 1579 1595 B-chronic_disease
+and 17 20 1596 1599 O
+Recessive 21 30 1600 1609 O
+Leukodystrophies 31 47 1610 1626 B-chronic_disease
+
+Uncontrolled 0 12 1627 1639 O
+bacterial 13 22 1640 1649 B-chronic_disease
+, 22 23 1649 1650 O
+fungal 24 30 1651 1657 B-chronic_disease
+or 31 33 1658 1660 O
+viral 34 39 1661 1666 B-chronic_disease
+infections 40 50 1667 1677 I-chronic_disease
+including 51 60 1678 1687 O
+HIV 61 64 1688 1691 B-chronic_disease
+( 65 66 1692 1693 O
+including 66 75 1693 1702 O
+active 76 82 1703 1709 B-chronic_disease
+infection 83 92 1710 1719 I-chronic_disease
+with 93 97 1720 1724 O
+Aspergillus 98 109 1725 1736 B-chronic_disease
+or 110 112 1737 1739 O
+other 113 118 1740 1745 O
+mold 119 123 1746 1750 O
+within 124 130 1751 1757 O
+30 131 133 1758 1760 B-upper_bound
+days 134 138 1761 1765 I-upper_bound
+) 138 139 1765 1766 O
+
+Zellweger 0 9 1767 1776 B-chronic_disease
+syndrome 10 18 1777 1785 I-chronic_disease
+
+menstruating 0 12 1786 1798 O
+females 13 20 1799 1806 B-gender
+must 21 25 1807 1811 O
+have 26 30 1812 1816 O
+a 31 32 1817 1818 O
+negative 33 41 1819 1827 O
+serum 42 47 1828 1833 O
+or 48 50 1834 1836 O
+urine 51 56 1837 1842 B-pregnancy
+pregnancy 57 66 1843 1852 I-pregnancy
+test 67 71 1853 1857 O
+within 72 78 1858 1864 O
+14 79 81 1865 1867 B-upper_bound
+days 82 86 1868 1872 I-upper_bound
+of 87 89 1873 1875 O
+study 90 95 1876 1881 O
+treatment 96 105 1882 1891 B-treatment
+start 106 111 1892 1897 O
+

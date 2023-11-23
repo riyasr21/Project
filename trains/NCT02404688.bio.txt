@@ -1,0 +1,15 @@
+21 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+55 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Males 0 5 22 27 B-gender
+
+Positive 0 8 28 36 B-pregnancy
+pregnancy 9 18 37 46 I-pregnancy
+screen 19 25 47 53 O
+
+females 0 7 54 61 B-gender
+

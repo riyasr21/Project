@@ -1,0 +1,73 @@
+ANC 0 3 0 3 B-clinical_variable
+> 4 5 4 5 O
+500 5 8 5 8 B-lower_bound
+/ 8 9 8 9 I-lower_bound
+mm3 9 12 9 12 I-lower_bound
+
+Creatinine 0 10 13 23 B-clinical_variable
+clearance 11 20 24 33 I-clinical_variable
+> 21 22 34 35 O
+70ml 22 26 35 39 B-lower_bound
+/ 26 27 39 40 I-lower_bound
+min/1.73m2 27 37 40 50 I-lower_bound
+
+Karnofsky 0 9 51 60 B-clinical_variable
+performance 10 21 61 72 I-clinical_variable
+status 22 28 73 79 I-clinical_variable
+> 29 30 80 81 O
+50 30 32 81 83 B-lower_bound
+% 32 33 83 84 I-lower_bound
+
+Life 0 4 85 89 B-clinical_variable
+expectancy 5 15 90 100 I-clinical_variable
+> 16 17 101 102 O
+8 18 19 103 104 B-lower_bound
+weeks 20 25 105 110 I-lower_bound
+
+Must 0 4 111 115 O
+have 5 9 116 120 O
+unresectable 10 22 121 133 O
+primary 23 30 134 141 B-cancer
+tumor 31 36 142 147 I-cancer
+or 37 39 148 150 O
+metastases 40 50 151 161 B-cancer
+
+Patient 0 7 162 169 O
+may 8 11 170 173 O
+not 12 15 174 177 B-pregnancy
+be 16 18 178 180 I-pregnancy
+pregnant 19 27 181 189 I-pregnancy
+or 28 30 190 192 O
+breastfeeding 31 44 193 206 O
+
+Patients 0 8 207 215 O
+must 9 13 216 220 O
+be 14 16 221 223 O
+between 17 24 224 231 O
+13 25 27 232 234 B-lower_bound
+and 28 31 235 238 O
+65 32 34 239 241 B-upper_bound
+years 35 40 242 247 I-upper_bound
+of 41 43 248 250 O
+age 44 47 251 254 B-age
+
+Patients 0 8 255 263 O
+who 9 12 264 267 O
+have 13 17 268 272 O
+received 18 26 273 281 O
+prior 27 32 282 287 B-treatment
+radiotherapy 33 45 288 300 I-treatment
+to 46 48 301 303 O
+all 49 52 304 307 O
+areas 53 58 308 313 O
+of 59 61 314 316 O
+current 62 69 317 324 O
+active 70 76 325 331 O
+disease 77 84 332 339 O
+
+Platelets 0 9 340 349 B-clinical_variable
+> 10 11 350 351 O
+50,000 11 17 351 357 B-lower_bound
+/ 17 18 357 358 I-lower_bound
+mm3 18 21 358 361 I-lower_bound
+

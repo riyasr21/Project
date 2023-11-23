@@ -1,0 +1,55 @@
+Allergies 0 9 0 9 O
+to 10 12 10 12 O
+any 13 16 13 16 O
+agent 17 22 17 22 O
+used 23 27 23 27 O
+in 28 30 28 30 O
+either 31 37 31 37 O
+treatment 38 47 38 47 B-treatment
+regimen 48 55 48 55 I-treatment
+
+Neonate 0 7 56 63 O
+has 8 11 64 67 O
+anticipated 12 23 68 79 O
+stay 24 28 80 84 O
+longer 29 35 85 91 O
+than 36 40 92 96 O
+5 41 42 97 98 B-lower_bound
+days 43 47 99 103 I-lower_bound
+in 48 50 104 106 O
+the 51 54 107 110 O
+NICU 55 59 111 115 O
+
+Parent(s 0 8 116 124 O
+) 8 9 124 125 O
+test 10 14 126 130 O
+positive 15 23 131 139 O
+for 24 27 140 143 O
+S. 28 30 144 146 B-chronic_disease
+aureus 31 37 147 153 I-chronic_disease
+at 38 40 154 156 O
+screening 41 50 157 166 O
+
+admitted 0 8 167 175 O
+from 9 13 176 180 O
+home 14 18 181 185 O
+and 19 22 186 189 O
+had 23 26 190 193 O
+admission 27 36 194 203 O
+screening 37 46 204 213 O
+cultures 47 55 214 222 O
+for 56 59 223 226 O
+S. 60 62 227 229 B-chronic_disease
+aureus 63 69 230 236 I-chronic_disease
+colonization 70 82 237 249 I-chronic_disease
+that 83 87 250 254 O
+were 88 92 255 259 O
+negative 93 101 260 268 O
+
+greater 0 7 269 276 O
+than 8 12 277 281 O
+7 13 14 282 283 B-lower_bound
+days 15 19 284 288 I-lower_bound
+of 20 22 289 291 O
+age 23 26 292 295 B-age
+

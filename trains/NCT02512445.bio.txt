@@ -1,0 +1,20 @@
+Moderate 0 8 0 8 O
+or 9 11 9 11 O
+severe 12 18 12 18 O
+cognitive 19 28 19 28 B-chronic_disease
+impairment 29 39 29 39 I-chronic_disease
+, 39 40 39 40 O
+acute 41 46 41 46 O
+suicidality 47 58 47 58 B-chronic_disease
+, 58 59 58 59 O
+current 60 67 60 67 O
+severe 68 74 68 74 O
+substance 75 84 75 84 B-chronic_disease
+use 85 88 85 88 I-chronic_disease
+disorder 89 97 89 97 I-chronic_disease
+, 97 98 97 98 O
+unmanaged 99 108 99 108 O
+psychosis 109 118 109 118 B-chronic_disease
+or 119 121 119 121 I-chronic_disease
+mania 122 127 122 127 I-chronic_disease
+

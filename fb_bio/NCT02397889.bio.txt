@@ -1,0 +1,322 @@
+18 0 2 0 2 B-lower_bound
+- 2 3 2 3 O
+65 3 5 3 5 B-upper_bound
+years 6 11 6 11 I-upper_bound
+of 12 14 12 14 O
+age 15 18 15 18 B-age
+
+A 0 1 19 20 O
+blood 2 7 21 26 B-clinical_variable
+pressure 8 16 27 35 I-clinical_variable
+of 17 19 36 38 O
+one 20 23 39 42 O
+reading 24 31 43 50 O
+over 32 36 51 55 O
+160/90 37 43 56 62 O
+or 44 46 63 65 O
+two 47 50 66 69 O
+separate 51 59 70 78 O
+readings 60 68 79 87 O
+over 69 73 88 92 O
+140/90 74 80 93 99 O
+at 81 83 100 102 O
+screen 84 90 103 109 O
+or 91 93 110 112 O
+baseline 94 102 113 121 O
+visits 103 109 122 128 O
+
+Current 0 7 129 136 O
+diagnosis 8 17 137 146 O
+of 18 20 147 149 O
+bulimia 21 28 150 157 B-chronic_disease
+nervosa 29 36 158 165 I-chronic_disease
+or 37 39 166 168 O
+anorexia 40 48 169 177 B-chronic_disease
+nervosa 49 56 178 185 I-chronic_disease
+
+Diagnosis 0 9 186 195 O
+of 10 12 196 198 O
+schizotypal 13 24 199 210 B-chronic_disease
+or 25 27 211 213 O
+antisocial 28 38 214 224 B-chronic_disease
+personality 39 50 225 236 I-chronic_disease
+disorder 51 59 237 245 I-chronic_disease
+
+History 0 7 246 253 O
+of 8 10 254 256 O
+( 11 12 257 258 B-chronic_disease
+hypo)mania 12 22 258 268 I-chronic_disease
+
+History 0 7 269 276 O
+of 8 10 277 279 O
+autism 11 17 280 286 B-chronic_disease
+, 17 18 286 287 O
+mental 19 25 288 294 B-chronic_disease
+retardation 26 37 295 306 I-chronic_disease
+, 37 38 306 307 O
+pervasive 39 48 308 317 B-chronic_disease
+developmental 49 62 318 331 I-chronic_disease
+disorders 63 72 332 341 I-chronic_disease
+, 72 73 341 342 O
+or 74 76 343 345 O
+Tourette 77 85 346 354 B-chronic_disease
+'s 85 87 354 356 I-chronic_disease
+syndrome 88 96 357 365 I-chronic_disease
+
+History 0 7 366 373 O
+of 8 10 374 376 O
+one 11 14 377 380 B-lower_bound
+or 15 17 381 383 O
+more 18 22 384 388 O
+seizures 23 31 389 397 B-chronic_disease
+without 32 39 398 405 O
+a 40 41 406 407 O
+clear 42 47 408 413 O
+and 48 51 414 417 O
+resolved 52 60 418 426 O
+etiology 61 69 427 435 O
+
+Hormonal 0 8 436 444 B-treatment
+treatment 9 18 445 454 I-treatment
+( 19 20 455 456 O
+e.g. 20 24 456 460 O
+, 24 25 460 461 O
+estrogen 26 34 462 470 B-treatment
+) 34 35 470 471 O
+started 36 43 472 479 O
+in 44 46 480 482 O
+the 47 50 483 486 O
+3 51 52 487 488 O
+months 53 59 489 495 O
+prior 60 65 496 501 O
+to 66 68 502 504 O
+the 69 72 505 508 O
+first 73 78 509 514 O
+infusion 79 87 515 523 B-treatment
+day 88 91 524 527 O
+
+Men 0 3 528 531 B-gender
+
+Participants 0 12 532 544 O
+must 13 17 545 549 O
+fulfill 18 25 550 557 O
+DSM-5 26 31 558 563 B-clinical_variable
+criteria 32 40 564 572 O
+for 41 44 573 576 O
+current 45 52 577 584 O
+civilian 53 61 585 593 O
+or 62 64 594 596 O
+combat 65 71 597 603 O
+- 71 72 603 604 O
+related 72 79 604 611 O
+PTSD 80 84 612 616 B-chronic_disease
+
+Past 0 4 617 621 O
+or 5 7 622 624 O
+current 8 15 625 632 O
+presence 16 24 633 641 O
+of 25 27 642 644 O
+psychotic 28 37 645 654 B-chronic_disease
+symptoms 38 46 655 663 O
+
+Patients 0 8 664 672 O
+judged 9 15 673 679 O
+clinically 16 26 680 690 O
+to 27 29 691 693 O
+be 30 32 694 696 O
+at 33 35 697 699 O
+serious 36 43 700 707 O
+and 44 47 708 711 O
+imminent 48 56 712 720 O
+suicidal 57 65 721 729 B-chronic_disease
+or 66 68 730 732 I-chronic_disease
+homicidal 69 78 733 742 I-chronic_disease
+risk 79 83 743 747 I-chronic_disease
+
+Patients 0 8 748 756 O
+who 9 12 757 760 O
+report 13 19 761 767 O
+current 20 27 768 775 O
+treatment 28 37 776 785 O
+with 38 42 786 790 O
+a 43 44 791 792 O
+benzodiazepine 45 59 793 807 B-treatment
+, 59 60 807 808 O
+an 61 63 809 811 O
+opioid 64 70 812 818 B-treatment
+medication 71 81 819 829 I-treatment
+, 81 82 829 830 O
+or 83 85 831 833 O
+a 86 87 834 835 O
+mood 88 92 836 840 B-treatment
+stabilizer 93 103 841 851 I-treatment
+( 104 105 852 853 O
+such 105 109 853 857 O
+as 110 112 858 860 O
+valproic 113 121 861 869 B-treatment
+acid 122 126 870 874 I-treatment
+or 127 129 875 877 O
+lithium 130 137 878 885 B-treatment
+) 137 138 885 886 O
+within 139 145 887 893 O
+2 146 147 894 895 B-upper_bound
+weeks 148 153 896 901 I-upper_bound
+prior 154 159 902 907 I-upper_bound
+to 160 162 908 910 O
+randomization 163 176 911 924 O
+
+Patients 0 8 925 933 O
+with 9 13 934 938 O
+uncorrected 14 25 939 950 O
+hypothyroidism 26 40 951 965 B-chronic_disease
+or 41 43 966 968 I-chronic_disease
+hyperthyroidism 44 59 969 984 I-chronic_disease
+
+Previous 0 8 985 993 O
+recreational 9 21 994 1006 O
+use 22 25 1007 1010 O
+of 26 28 1011 1013 O
+ketamine 29 37 1014 1022 B-treatment
+or 38 40 1023 1025 O
+PCP 41 44 1026 1029 B-treatment
+
+Renal 0 5 1030 1035 B-chronic_disease
+impairment 6 16 1036 1046 I-chronic_disease
+, 16 17 1046 1047 O
+as 18 20 1048 1050 O
+reflected 21 30 1051 1060 O
+by 31 33 1061 1063 O
+a 34 35 1064 1065 O
+BUN 36 39 1066 1069 B-clinical_variable
+> 40 41 1070 1071 O
+20 41 43 1071 1073 B-lower_bound
+mg 44 46 1074 1076 I-lower_bound
+/ 46 47 1076 1077 I-lower_bound
+dL 47 49 1077 1079 I-lower_bound
+
+Use 0 3 1080 1083 O
+of 4 6 1084 1086 O
+evidence 7 15 1087 1095 O
+- 15 16 1095 1096 O
+based 16 21 1096 1101 O
+individual 22 32 1102 1112 O
+psychotherapy 33 46 1113 1126 B-treatment
+( 47 48 1127 1128 O
+such 48 52 1128 1132 O
+as 53 55 1133 1135 O
+prolonged 56 65 1136 1145 O
+exposure 66 74 1146 1154 O
+) 74 75 1154 1155 O
+during 76 82 1156 1162 O
+the 83 86 1163 1166 O
+study 87 92 1167 1172 O
+
+Women 0 5 1173 1178 B-gender
+of 6 8 1179 1181 O
+childbearing 9 21 1182 1194 O
+potential 22 31 1195 1204 O
+must 32 36 1205 1209 O
+have 37 41 1210 1214 O
+a 42 43 1215 1216 O
+negative 44 52 1217 1225 B-pregnancy
+pregnancy 53 62 1226 1235 I-pregnancy
+test 63 67 1236 1240 O
+at 68 70 1241 1243 O
+screening 71 80 1244 1253 O
+and 81 84 1254 1257 O
+prior 85 90 1258 1263 O
+to 91 93 1264 1266 O
+each 94 98 1267 1271 O
+intravenous 99 110 1272 1283 B-treatment
+infusion 111 119 1284 1292 I-treatment
+
+cardiovascular 0 14 1293 1307 B-chronic_disease
+
+creatinin 0 9 1308 1317 B-clinical_variable
+clearance 10 19 1318 1327 I-clinical_variable
+of 20 22 1328 1330 O
+> 23 24 1331 1332 O
+1.3 24 27 1332 1335 B-upper_bound
+mg 28 30 1336 1338 I-upper_bound
+/ 30 31 1338 1339 I-upper_bound
+dL 31 33 1339 1341 I-upper_bound
+
+dependence 0 10 1342 1352 O
+within 11 17 1353 1359 O
+the 18 21 1360 1363 O
+preceding 22 31 1364 1373 B-upper_bound
+3 32 33 1374 1375 I-upper_bound
+months 34 40 1376 1382 I-upper_bound
+
+diagnosis 0 9 1383 1392 O
+of 10 12 1393 1395 O
+a 13 14 1396 1397 O
+lifetime 15 23 1398 1406 O
+psychotic 24 33 1407 1416 B-chronic_disease
+disorder 34 42 1417 1425 I-chronic_disease
+including 43 52 1426 1435 O
+schizophrenia 53 66 1436 1449 B-chronic_disease
+or 67 69 1450 1452 O
+schizoaffective 70 85 1453 1468 B-chronic_disease
+disorder 86 94 1469 1477 I-chronic_disease
+
+gastro 0 6 1478 1484 B-chronic_disease
+- 6 7 1484 1485 I-chronic_disease
+esophageal 7 17 1485 1495 I-chronic_disease
+reflux 18 24 1496 1502 I-chronic_disease
+disease 25 32 1503 1510 I-chronic_disease
+
+hematologic 0 11 1511 1522 B-chronic_disease
+disease 12 19 1523 1530 I-chronic_disease
+
+history 0 7 1531 1538 O
+of 8 10 1539 1541 O
+difficulty 11 21 1542 1552 O
+with 22 26 1553 1557 O
+airway 27 33 1558 1564 O
+management 34 44 1565 1575 O
+during 45 51 1576 1582 O
+previous 52 60 1583 1591 O
+anesthetics 61 72 1592 1603 B-treatment
+, 72 73 1603 1604 O
+ischemic 74 82 1605 1613 B-chronic_disease
+heart 83 88 1614 1619 I-chronic_disease
+disease 89 96 1620 1627 I-chronic_disease
+and 97 100 1628 1631 O
+uncontrolled 101 113 1632 1644 B-chronic_disease
+hypertension 114 126 1645 1657 I-chronic_disease
+
+history 0 7 1658 1665 O
+of 8 10 1666 1668 O
+severe 11 17 1669 1675 O
+head 18 22 1676 1680 B-chronic_disease
+injury 23 29 1681 1687 I-chronic_disease
+
+hyroid 0 6 1688 1694 B-chronic_disease
+impairment 7 17 1695 1705 I-chronic_disease
+, 17 18 1705 1706 O
+as 19 21 1707 1709 O
+reflected 22 31 1710 1719 O
+by 32 34 1720 1722 O
+TSH 35 38 1723 1726 B-clinical_variable
+> 38 39 1726 1727 O
+4.2 40 43 1728 1731 B-lower_bound
+mU 44 46 1732 1734 I-lower_bound
+/ 46 47 1734 1735 I-lower_bound
+L 47 48 1735 1736 I-lower_bound
+
+obstructive 0 11 1737 1748 B-chronic_disease
+sleep 12 17 1749 1754 I-chronic_disease
+apnea 18 23 1755 1760 I-chronic_disease
+
+omen 0 4 1761 1765 B-gender
+who 5 8 1766 1769 O
+plan 9 13 1770 1774 B-pregnancy
+to 14 16 1775 1777 I-pregnancy
+become 17 23 1778 1784 I-pregnancy
+pregnant 24 32 1785 1793 I-pregnancy
+
+pregnant 0 8 1794 1802 B-pregnancy
+
+women 0 5 1803 1808 B-gender
+

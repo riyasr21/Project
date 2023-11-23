@@ -1,0 +1,150 @@
+Active 0 6 0 6 B-chronic_disease
+vaginal 7 14 7 14 I-chronic_disease
+bleeding 15 23 15 23 I-chronic_disease
+requiring 24 33 24 33 O
+packing 34 41 34 41 O
+and 42 45 42 45 O
+emergent 46 54 46 54 B-treatment
+radiation 55 64 55 64 I-treatment
+therapy 65 72 65 72 I-treatment
+
+Age 0 3 73 76 B-age
+≥ 4 5 77 78 O
+18 6 8 79 81 B-lower_bound
+years 9 14 82 87 I-lower_bound
+of 15 17 88 90 O
+age 18 21 91 94 B-age
+( 22 23 95 96 O
+no 23 25 96 98 O
+upper 26 31 99 104 O
+age 32 35 105 108 O
+limit 36 41 109 114 O
+) 41 42 114 115 O
+
+Body 0 4 116 120 B-bmi
+Mass 5 9 121 125 I-bmi
+Index 10 15 126 131 I-bmi
+( 16 17 132 133 I-bmi
+BMI 17 20 133 136 I-bmi
+) 20 21 136 137 I-bmi
+> 22 23 138 139 O
+35 24 26 140 142 B-lower_bound
+
+History 0 7 143 150 O
+of 8 10 151 153 O
+a 11 12 154 155 O
+prior 13 18 156 161 O
+malignancy 19 29 162 172 B-cancer
+within 30 36 173 179 O
+past 37 41 180 184 B-upper_bound
+5 42 43 185 186 I-upper_bound
+years 44 49 187 192 I-upper_bound
+
+Inability 0 9 193 202 O
+to 10 12 203 205 O
+tolerate 13 21 206 214 O
+MRI 22 25 215 218 O
+( 26 27 219 220 O
+e.g. 27 31 220 224 O
+, 31 32 224 225 O
+inability 33 42 226 235 O
+to 43 45 236 238 O
+lie 46 49 239 242 O
+flat 50 54 243 247 O
+for 55 58 248 251 O
+> 59 60 252 253 O
+1 60 61 253 254 B-lower_bound
+hour 62 66 255 259 I-lower_bound
+) 66 67 259 260 O
+
+Medical 0 7 261 268 O
+conditions 8 18 269 279 O
+precluding 19 29 280 290 O
+radiation 30 39 291 300 B-treatment
+therapy 40 47 301 308 I-treatment
+or 48 50 309 311 O
+curative 51 59 312 320 B-treatment
+intent 60 66 321 327 I-treatment
+surgery 67 74 328 335 I-treatment
+
+Must 0 4 336 340 O
+be 5 7 341 343 O
+in 8 10 344 346 O
+acceptable 11 21 347 357 O
+health 22 28 358 364 O
+to 29 31 365 367 O
+undergo 32 39 368 375 O
+radiation 40 49 376 385 B-treatment
+therapy 50 57 386 393 I-treatment
+and 58 61 394 397 O
+curative 62 70 398 406 B-treatment
+intent 71 77 407 413 I-treatment
+surgery 78 85 414 421 I-treatment
+as 86 88 422 424 O
+assessed 89 97 425 433 O
+by 98 100 434 436 O
+UNC 101 104 437 440 O
+surgeons 105 113 441 449 O
+and 114 117 450 453 O
+radiation 118 127 454 463 O
+oncologist 128 138 464 474 O
+
+Must 0 4 475 479 O
+receive 5 12 480 487 O
+their 13 18 488 493 O
+neoadjuvant 19 30 494 505 B-treatment
+radiation 31 40 506 515 I-treatment
+therapy 41 48 516 523 I-treatment
+and 49 52 524 527 O
+curative 53 61 528 536 B-treatment
+intent 62 68 537 543 I-treatment
+surgery 69 76 544 551 I-treatment
+at 77 79 552 554 O
+UNC 80 83 555 558 O
+Hospitals 84 93 559 568 O
+
+Poorly 0 6 569 575 O
+controlled 7 17 576 586 O
+diabetes 18 26 587 595 B-chronic_disease
+mellitus 27 35 596 604 I-chronic_disease
+
+Pregnancy 0 9 605 614 B-pregnancy
+
+Previous 0 8 615 623 O
+radiation 9 18 624 633 O
+exposure 19 27 634 642 O
+precluding 28 38 643 653 O
+radiation 39 48 654 663 B-treatment
+therapy 49 56 664 671 I-treatment
+
+Women 0 5 672 677 B-gender
+of 6 8 678 680 O
+childbearing 9 21 681 693 O
+potential 22 31 694 703 O
+must 32 36 704 708 O
+have 37 41 709 713 O
+a 42 43 714 715 O
+negative 44 52 716 724 B-pregnancy
+serum 53 58 725 730 I-pregnancy
+or 59 61 731 733 I-pregnancy
+urine 62 67 734 739 I-pregnancy
+pregnancy 68 77 740 749 I-pregnancy
+test 78 82 750 754 O
+performed 83 92 755 764 O
+within 93 99 765 771 O
+7 100 101 772 773 B-upper_bound
+days 102 106 774 778 I-upper_bound
+prior 107 112 779 784 I-upper_bound
+to 113 115 785 787 O
+each 116 120 788 792 O
+PET 121 124 793 796 O
+/ 124 125 796 797 O
+MRI 125 128 797 800 O
+
+intracranial 0 12 801 813 B-chronic_disease
+aneurysm 13 21 814 822 I-chronic_disease
+clip 22 26 823 827 O
+
+lactating 0 9 828 837 O
+female 10 16 838 844 B-gender
+

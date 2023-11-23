@@ -1,0 +1,126 @@
+Age 0 3 0 3 B-age
+50 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Bleeding 0 8 16 24 B-chronic_disease
+disorder 9 17 25 33 I-chronic_disease
+
+CDR 0 3 34 37 B-clinical_variable
+score 4 9 38 43 I-clinical_variable
+of 10 12 44 46 O
+0.5 13 16 47 50 O
+
+Current 0 7 51 58 B-pregnancy
+Pregnancy 8 17 59 68 I-pregnancy
+
+Currently 0 9 69 78 O
+making 10 16 79 85 O
+changes 17 24 86 93 O
+to 25 27 94 96 O
+other 28 33 97 102 O
+drugs 34 39 103 108 O
+that 40 44 109 113 O
+might 45 50 114 119 O
+affect 51 57 120 126 O
+cognitive 58 67 127 136 O
+performance 68 79 137 148 O
+( 80 81 149 150 O
+subjects 81 89 150 158 O
+showing 90 97 159 166 O
+the 98 101 167 170 O
+greatest 102 110 171 179 O
+cognitive 111 120 180 189 O
+decline 121 128 190 197 O
+and 129 132 198 201 O
+other 133 138 202 207 O
+signs 139 144 208 213 O
+of 145 147 214 216 O
+Alzheimer 148 157 217 226 B-chronic_disease
+'s 157 159 226 228 I-chronic_disease
+disease 160 167 229 236 I-chronic_disease
+may 168 171 237 240 O
+be 172 174 241 243 O
+prescribed 175 185 244 254 O
+cholinesterase 186 200 255 269 O
+inhibitors 201 211 270 280 O
+as 212 214 281 283 O
+this 215 219 284 288 O
+is 220 222 289 291 O
+a 223 224 292 293 O
+standard 225 233 294 302 O
+of 234 236 303 305 O
+care 237 241 306 310 O
+for 242 245 311 314 O
+Alzheimer 246 255 315 324 O
+'s 255 257 324 326 O
+disease 258 265 327 334 O
+but 266 269 335 338 O
+not 270 273 339 342 O
+MCI 274 277 343 346 B-chronic_disease
+) 277 278 346 347 O
+
+Diabetes 0 8 348 356 B-chronic_disease
+
+Known 0 5 357 362 O
+allergy 6 13 363 370 O
+to 14 16 371 373 O
+honeysuckle 17 28 374 385 B-allergy_name
+
+Known 0 5 386 391 O
+history 6 13 392 399 O
+of 14 16 400 402 O
+sensitivity 17 28 403 414 O
+to 29 31 415 417 O
+elderberry 32 42 418 428 B-allergy_name
+products 43 51 429 437 I-allergy_name
+
+MMSE 0 4 438 442 B-clinical_variable
+of 5 7 443 445 O
+at 8 10 446 448 O
+least 11 16 449 454 O
+24 17 19 455 457 B-lower_bound
+
+Potentially 0 11 458 469 O
+confounding 12 23 470 481 O
+neurodegenerative 24 41 482 499 B-chronic_disease
+diseases 42 50 500 508 I-chronic_disease
+( 51 52 509 510 O
+e.g. 52 56 510 514 O
+MS 57 59 515 517 B-chronic_disease
+) 59 60 517 518 O
+
+Presence 0 8 519 527 O
+of 9 11 528 530 O
+any 12 15 531 534 O
+condition 16 25 535 544 O
+the 26 29 545 548 O
+health 30 36 549 555 O
+professional 37 49 556 568 O
+believes 50 58 569 577 O
+will 59 63 578 582 O
+impair 64 70 583 589 O
+ability 71 78 590 597 O
+to 79 81 598 600 O
+complete 82 90 601 609 O
+study 91 96 610 615 O
+procedures 97 107 616 626 O
+( 108 109 627 628 O
+ex 109 111 628 630 O
+. 111 112 630 631 O
+terminal 113 121 632 640 B-chronic_disease
+illness 122 129 641 648 I-chronic_disease
+, 129 130 648 649 O
+comorbid 131 139 650 658 B-chronic_disease
+major 140 145 659 664 I-chronic_disease
+psychiatric 146 157 665 676 I-chronic_disease
+disorders 158 167 677 686 I-chronic_disease
+such 168 172 687 691 O
+as 173 175 692 694 O
+schizophrenia 176 189 695 708 B-chronic_disease
+, 189 190 708 709 O
+or 191 193 710 712 O
+drug 194 198 713 717 O
+abuse 199 204 718 723 O
+) 204 205 723 724 O
+

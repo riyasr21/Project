@@ -1,0 +1,94 @@
+Confirmed 0 9 0 9 O
+cervical 10 18 10 18 B-cancer
+cancer 19 25 19 25 I-cancer
+
+Distant 0 7 26 33 B-cancer
+metastases 8 18 34 44 I-cancer
+
+Hepatitis 0 9 45 54 B-chronic_disease
+B 10 11 55 56 I-chronic_disease
+
+Hepatitis 0 9 57 66 B-chronic_disease
+C 10 11 67 68 I-chronic_disease
+
+Hypersensitivity 0 16 69 85 O
+to 17 19 86 88 O
+pembrolizumab 20 33 89 102 B-allergy_name
+or 34 36 103 105 O
+similar 37 44 106 113 O
+drugs 45 50 114 119 O
+
+Known 0 5 120 125 O
+history 6 13 126 133 O
+of 14 16 134 136 O
+HIV 17 20 137 140 B-chronic_disease
+
+Known 0 5 141 146 O
+history 6 13 147 154 O
+of 14 16 155 157 O
+non 17 20 158 161 B-chronic_disease
+- 20 21 161 162 I-chronic_disease
+infectious 21 31 162 172 I-chronic_disease
+pneumonitis 32 43 173 184 I-chronic_disease
+
+Subject 0 7 185 192 O
+has 8 11 193 196 O
+a 12 13 197 198 O
+immunodeficiency 14 30 199 215 B-chronic_disease
+
+Subject 0 7 216 223 O
+has 8 11 224 227 O
+an 12 14 228 230 O
+active 15 21 231 237 O
+autoimmune 22 32 238 248 B-chronic_disease
+disease 33 40 249 256 I-chronic_disease
+in 41 43 257 259 O
+the 44 47 260 263 O
+past 48 52 264 268 B-upper_bound
+2 53 54 269 270 I-upper_bound
+years 55 60 271 276 I-upper_bound
+
+Subject 0 7 277 284 O
+has 8 11 285 288 O
+had 12 15 289 292 O
+prior 16 21 293 298 O
+radiation 22 31 299 308 B-treatment
+
+Subjects 0 8 309 317 O
+with 9 13 318 322 O
+previously 14 24 323 333 O
+treated 25 32 334 341 O
+brain 33 38 342 347 B-cancer
+metastases 39 49 348 358 I-cancer
+are 50 53 359 362 O
+permissible 54 65 363 374 O
+
+TB 0 2 375 377 B-chronic_disease
+
+basal 0 5 378 383 B-cancer
+cell 6 10 384 388 I-cancer
+carcinoma 11 20 389 398 I-cancer
+or 21 23 399 401 O
+squamous 24 32 402 410 B-cancer
+cell 33 37 411 415 I-cancer
+carcinoma 38 47 416 425 I-cancer
+of 48 50 426 428 O
+the 51 54 429 432 O
+skin 55 59 433 437 O
+that 60 64 438 442 O
+has 65 68 443 446 O
+undergone 69 78 447 456 O
+potentially 79 90 457 468 O
+curative 91 99 469 477 B-treatment
+therapy 100 107 478 485 I-treatment
+is 108 110 486 488 O
+permissable 111 122 489 500 O
+
+chemotherapy 0 12 501 513 B-treatment
+
+investigational 0 15 514 529 B-treatment
+therapy 16 23 530 537 I-treatment
+for 24 27 538 541 O
+cervical 28 36 542 550 B-cancer
+cancer 37 43 551 557 I-cancer
+

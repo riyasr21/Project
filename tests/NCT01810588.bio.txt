@@ -1,0 +1,139 @@
+Acute 0 5 0 5 B-cancer
+leukemia 6 14 6 14 I-cancer
+in 15 17 15 17 O
+first 18 23 18 23 O
+remission 24 33 24 33 O
+at 34 36 34 36 O
+high 37 41 37 41 O
+- 41 42 41 42 O
+risk 42 46 42 46 O
+for 47 50 47 50 O
+recurrence 51 61 51 61 O
+
+Age 0 3 62 65 B-age
+≥ 4 5 66 67 O
+18 6 8 68 70 B-lower_bound
+years 9 14 71 76 I-lower_bound
+
+Aplastic 0 8 77 85 B-chronic_disease
+anemia 9 15 86 92 I-chronic_disease
+
+Chronic 0 7 93 100 B-chronic_disease
+lymphocytic 8 19 101 112 I-chronic_disease
+leukemia 20 28 113 121 I-chronic_disease
+, 28 29 121 122 O
+relapsed 30 38 123 131 O
+or 39 41 132 134 O
+with 42 46 135 139 O
+poor 47 51 140 144 O
+prognostic 52 62 145 155 O
+features 63 71 156 164 O
+
+Chronic 0 7 165 172 B-cancer
+myelogenous 8 19 173 184 I-cancer
+leukemia 20 28 185 193 I-cancer
+in 29 31 194 196 O
+chronic 32 39 197 204 O
+
+Chronic 0 7 205 212 B-chronic_disease
+myeloproliferative 8 26 213 231 I-chronic_disease
+disease 27 34 232 239 I-chronic_disease
+
+Evidence 0 8 240 248 O
+of 9 11 249 251 O
+chronic 12 19 252 259 B-chronic_disease
+active 20 26 260 266 I-chronic_disease
+hepatitis 27 36 267 276 I-chronic_disease
+or 37 39 277 279 O
+cirrhosis 40 49 280 289 B-chronic_disease
+
+Hemoglobinopathies 0 18 290 308 B-chronic_disease
+
+Karnofsky 0 9 309 318 B-clinical_variable
+( 10 11 319 320 I-clinical_variable
+KPS 11 14 320 323 I-clinical_variable
+) 14 15 323 324 I-clinical_variable
+Performance 16 27 325 336 O
+status 28 34 337 343 O
+of 35 37 344 346 O
+> 38 39 347 348 O
+= 39 40 348 349 O
+70 41 43 350 352 B-lower_bound
+% 43 44 352 353 I-lower_bound
+
+Life 0 4 354 358 B-clinical_variable
+expectancy 5 15 359 369 I-clinical_variable
+is 16 18 370 372 O
+severely 19 27 373 381 O
+limited 28 35 382 389 O
+by 36 38 390 392 O
+concomitant 39 50 393 404 O
+illness 51 58 405 412 O
+or 59 61 413 415 O
+uncontrolled 62 74 416 428 O
+infection 75 84 429 438 O
+
+Multiple 0 8 439 447 B-cancer
+myeloma 9 16 448 455 I-cancer
+
+Myelodysplastic 0 15 456 471 B-cancer
+syndrome 16 24 472 480 I-cancer
+
+Other 0 5 481 486 O
+hematological 6 19 487 500 B-chronic_disease
+disorder 20 28 501 509 I-chronic_disease
+in 29 31 510 512 O
+need 32 36 513 517 O
+of 37 39 518 520 O
+allogeneic 40 50 521 531 B-treatment
+transplant 51 61 532 542 I-treatment
+
+Pregnant 0 8 543 551 B-pregnancy
+
+Previously 0 10 552 562 O
+Relapsed 11 19 563 571 O
+or 20 22 572 574 O
+refractory 23 33 575 585 O
+acute 34 39 586 591 B-cancer
+leukemia 40 48 592 600 I-cancer
+( 49 50 601 602 I-cancer
+myeloid 50 57 602 609 I-cancer
+or 58 60 610 612 I-cancer
+lymphoid 61 69 613 621 I-cancer
+) 69 70 621 622 I-cancer
+
+Recurrent 0 9 623 632 O
+or 10 12 633 635 O
+refractory 13 23 636 646 O
+malignant 24 33 647 656 B-cancer
+lymphoma 34 42 657 665 I-cancer
+or 43 45 666 668 O
+Hodgkin 46 53 669 676 B-cancer
+lymphoma 54 62 677 685 I-cancer
+
+Severely 0 8 686 694 O
+decreased 9 18 695 704 O
+Left 19 23 705 709 B-clinical_variable
+Ventricular 24 35 710 721 I-clinical_variable
+Ejection 36 44 722 730 I-clinical_variable
+Fraction 45 53 731 739 I-clinical_variable
+( 54 55 740 741 I-clinical_variable
+LVEF 55 59 741 745 I-clinical_variable
+) 59 60 745 746 I-clinical_variable
+
+Uncontrolled 0 12 747 759 O
+HIV 13 16 760 763 B-chronic_disease
+disease 17 24 764 771 I-chronic_disease
+
+accelerated 0 11 772 783 O
+phase 12 17 784 789 O
+or 18 20 790 792 O
+blast 21 26 793 798 B-cancer
+- 26 27 798 799 I-cancer
+crisis 27 33 799 805 I-cancer
+
+blastoid 0 8 806 814 B-cancer
+dendritic 9 18 815 824 I-cancer
+cell 19 23 825 829 I-cancer
+neoplasm 24 32 830 838 I-cancer
+

@@ -1,0 +1,64 @@
+Congestive 0 10 0 10 B-chronic_disease
+heart 11 16 11 16 I-chronic_disease
+failure 17 24 17 24 I-chronic_disease
+
+Diabetes 0 8 25 33 B-chronic_disease
+requiring 9 18 34 43 O
+the 19 22 44 47 O
+use 23 26 48 51 O
+of 27 29 52 54 O
+insulin 30 37 55 62 B-treatment
+
+Hemoglobin 0 10 63 73 B-clinical_variable
+< 11 12 74 75 O
+10 13 15 76 78 B-upper_bound
+g 16 17 79 80 I-upper_bound
+/ 17 18 80 81 I-upper_bound
+dL 18 20 81 83 I-upper_bound
+on 21 23 84 86 O
+point 24 29 87 92 O
+of 30 32 93 95 O
+care 33 37 96 100 O
+screening 38 47 101 110 O
+
+History 0 7 111 118 O
+of 8 10 119 121 O
+moderate 11 19 122 130 O
+to 20 22 131 133 O
+severe 23 29 134 140 B-chronic_disease
+Obstructive 30 41 141 152 I-chronic_disease
+sleep 42 47 153 158 I-chronic_disease
+apnea 48 53 159 164 I-chronic_disease
+( 54 55 165 166 I-chronic_disease
+OSA 55 58 166 169 I-chronic_disease
+) 58 59 169 170 I-chronic_disease
+
+Known 0 5 171 176 O
+pregnancy 6 15 177 186 B-pregnancy
+, 15 16 186 187 O
+by 17 19 188 190 O
+urine 20 25 191 196 O
+testing 26 33 197 204 O
+in 34 36 205 207 O
+women 37 42 208 213 B-gender
+of 43 45 214 216 O
+child 46 51 217 222 O
+- 51 52 222 223 O
+bearing 52 59 223 230 O
+age 60 63 231 234 B-age
+
+Uncontrolled 0 12 235 247 O
+hypertension 13 25 248 260 B-chronic_disease
+with 26 30 261 265 O
+systolic 31 39 266 274 B-clinical_variable
+blood 40 45 275 280 I-clinical_variable
+pressure 46 54 281 289 I-clinical_variable
+> 55 56 290 291 O
+170 56 59 291 294 B-lower_bound
+or 60 62 295 297 O
+diastolic 63 72 298 307 B-clinical_variable
+blood 73 78 308 313 I-clinical_variable
+pressure 79 87 314 322 I-clinical_variable
+> 88 89 323 324 O
+110 90 93 325 328 B-lower_bound
+

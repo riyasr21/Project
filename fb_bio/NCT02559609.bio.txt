@@ -1,0 +1,19 @@
+English 0 7 0 7 B-language_fluency
+- 7 8 7 8 I-language_fluency
+speaking 8 16 8 16 I-language_fluency
+and 17 20 17 20 I-language_fluency
+able 21 25 21 25 I-language_fluency
+to 26 28 26 28 I-language_fluency
+read 29 33 29 33 I-language_fluency
+at 34 36 34 36 O
+a 37 38 37 38 O
+5th 39 42 39 42 O
+grade 43 48 43 48 O
+level 49 54 49 54 O
+
+age 0 3 55 58 B-age
+18 4 6 59 61 B-lower_bound
+- 6 7 61 62 O
+65 7 9 62 64 B-upper_bound
+years 10 15 65 70 I-upper_bound
+

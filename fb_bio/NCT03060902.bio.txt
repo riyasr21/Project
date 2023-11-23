@@ -1,0 +1,30 @@
+child 0 5 0 5 O
+has 6 9 6 9 O
+known 10 15 10 15 O
+developmental 16 29 16 29 B-chronic_disease
+disabilities 30 42 30 42 I-chronic_disease
+
+have 0 4 43 47 O
+a 5 6 48 49 O
+verbal 7 13 50 56 B-clinical_variable
+IQ 14 16 57 59 I-clinical_variable
+of 17 19 60 62 O
+at 20 22 63 65 O
+least 23 28 66 71 O
+70 29 31 72 74 B-lower_bound
+
+mother 0 6 75 81 O
+has 7 10 82 85 O
+low 11 14 86 89 O
+verbal 15 21 90 96 O
+IQ 22 24 97 99 B-clinical_variable
+
+mother 0 6 100 106 O
+has 7 10 107 110 O
+suicidal 11 19 111 119 B-chronic_disease
+ideation 20 28 120 128 I-chronic_disease
++ 29 30 129 130 O
+an 31 33 131 133 O
+active 34 40 134 140 O
+plan 41 45 141 145 O
+

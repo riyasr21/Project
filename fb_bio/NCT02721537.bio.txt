@@ -1,0 +1,49 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+depression 11 21 11 21 B-chronic_disease
+preceding 22 31 22 31 O
+a 32 33 32 33 O
+concussion 34 44 34 44 O
+
+History 0 7 45 52 O
+of 8 10 53 55 O
+developmental 11 24 56 69 B-chronic_disease
+delays 25 31 70 76 I-chronic_disease
+or 32 34 77 79 O
+Attention 35 44 80 89 B-chronic_disease
+Deficit 45 52 90 97 I-chronic_disease
+Hyperactivity 53 66 98 111 I-chronic_disease
+Disorder 67 75 112 120 I-chronic_disease
+( 76 77 121 122 I-chronic_disease
+ADHD 77 81 122 126 I-chronic_disease
+) 81 82 126 127 I-chronic_disease
+
+History 0 7 128 135 O
+of 8 10 136 138 O
+epilepsy 11 19 139 147 B-chronic_disease
+
+History 0 7 148 155 O
+of 8 10 156 158 O
+loss 11 15 159 163 O
+of 16 18 164 166 O
+consciousness 19 32 167 180 O
+of 33 35 181 183 O
+more 36 40 184 188 O
+than 41 45 189 193 O
+5 46 47 194 195 B-lower_bound
+minutes 48 55 196 203 I-lower_bound
+
+History 0 7 204 211 O
+of 8 10 212 214 O
+more 11 15 215 219 O
+than 16 20 220 224 O
+3 21 22 225 226 B-lower_bound
+concussions 23 34 227 238 O
+
+History 0 7 239 246 O
+of 8 10 247 249 O
+post 11 15 250 254 B-chronic_disease
+- 15 16 254 255 I-chronic_disease
+traumatic 16 25 255 264 I-chronic_disease
+seizures 26 34 265 273 I-chronic_disease
+

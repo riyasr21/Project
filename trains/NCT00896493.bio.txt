@@ -1,0 +1,225 @@
+ALT 0 3 0 3 B-clinical_variable
+and 4 7 4 7 O
+AST 8 11 8 11 B-clinical_variable
+must 12 16 12 16 O
+be 17 19 17 19 O
+< 20 21 20 21 O
+= 21 22 21 22 O
+3X 23 25 23 25 B-upper_bound
+normal 26 32 26 32 I-upper_bound
+
+Age 0 3 33 36 B-age
+> 4 5 37 38 O
+18 6 8 39 41 B-lower_bound
+years 9 14 42 47 I-lower_bound
+and 15 18 48 51 O
+< 19 20 52 53 O
+= 20 21 53 54 O
+75 22 24 55 57 B-upper_bound
+years 25 30 58 63 I-upper_bound
+
+Age 0 3 64 67 B-age
+> 4 5 68 69 O
+= 5 6 69 70 O
+17 6 8 70 72 B-lower_bound
+
+Corrected 0 9 73 82 O
+DLCO 10 14 83 87 B-clinical_variable
+> 15 16 88 89 O
+= 16 17 89 90 O
+40 18 20 91 93 B-lower_bound
+% 20 21 93 94 I-lower_bound
+
+Estimated 0 9 95 104 B-clinical_variable
+creatinine 10 20 105 115 I-clinical_variable
+clearance 21 30 116 125 I-clinical_variable
+> 31 32 126 127 O
+= 32 33 127 128 O
+50 34 36 129 131 B-lower_bound
+ml 37 39 132 134 I-lower_bound
+/ 39 40 134 135 I-lower_bound
+min 40 43 135 138 I-lower_bound
+
+HIV 0 3 139 142 B-chronic_disease
+seronegative 4 16 143 155 I-chronic_disease
+
+Have 0 4 156 160 O
+a 5 6 161 162 O
+related 7 14 163 170 O
+or 15 17 171 173 O
+unrelated 18 27 174 183 O
+HLA 28 31 184 187 B-treatment
+- 31 32 187 188 O
+identical 32 41 188 197 O
+donor 42 47 198 203 O
+or 48 50 204 206 O
+one 51 54 207 210 O
+antigen 55 62 211 218 O
+/ 62 63 218 219 O
+allele 63 69 219 225 O
+mismatched 70 80 226 236 O
+in 81 83 237 239 O
+HLA 84 87 240 243 B-treatment
+- 87 88 243 244 I-treatment
+A 88 89 244 245 I-treatment
+, 89 90 245 246 I-treatment
+B 91 92 247 248 I-treatment
+, 92 93 248 249 I-treatment
+C 94 95 250 251 I-treatment
+or 96 98 252 254 O
+DRB1 99 103 255 259 B-treatment
+
+Karnofsky 0 9 260 269 B-clinical_variable
+Performance 10 21 270 281 I-clinical_variable
+Status 22 28 282 288 I-clinical_variable
+> 29 30 289 290 O
+= 30 31 290 291 O
+70 32 34 292 294 B-lower_bound
+% 34 35 294 295 I-lower_bound
+
+Left 0 4 296 300 B-clinical_variable
+ventricle 5 14 301 310 I-clinical_variable
+ejection 15 23 311 319 I-clinical_variable
+fraction 24 32 320 328 I-clinical_variable
+( 33 34 329 330 I-clinical_variable
+LVEF 34 38 330 334 I-clinical_variable
+) 38 39 334 335 I-clinical_variable
+> 40 41 336 337 O
+30 42 44 338 340 B-lower_bound
+% 44 45 340 341 I-lower_bound
+
+No 0 2 342 344 O
+contraindication 3 19 345 361 O
+to 20 22 362 364 O
+the 23 26 365 368 O
+administration 27 41 369 383 O
+of 42 44 384 386 O
+G 45 46 387 388 B-treatment
+- 46 47 388 389 I-treatment
+CSF 47 50 389 392 I-treatment
+
+Patients 0 8 393 401 O
+with 9 13 402 406 O
+a 14 15 407 408 O
+prior 16 21 409 414 O
+malignancy 22 32 415 425 B-cancer
+treated 33 40 426 433 O
+< 41 42 434 435 O
+5 43 44 436 437 B-lower_bound
+years 45 50 438 443 I-lower_bound
+ago 51 54 444 447 I-upper_bound
+but 55 58 448 451 O
+have 59 63 452 456 O
+a 64 65 457 458 O
+life 66 70 459 463 B-clinical_variable
+expectancy 71 81 464 474 I-clinical_variable
+of 82 84 475 477 O
+> 85 86 478 479 O
+5 87 88 480 481 O
+years 89 94 482 487 O
+for 95 98 488 491 O
+that 99 103 492 496 O
+malignancy 104 114 497 507 O
+
+Patients 0 8 508 516 O
+with 9 13 517 521 O
+prior 14 19 522 527 O
+malignancies 20 32 528 540 B-cancer
+diagnosed 33 42 541 550 O
+> 43 44 551 552 O
+5 45 46 553 554 B-lower_bound
+years 47 52 555 560 I-lower_bound
+ago 53 56 561 564 O
+without 57 64 565 572 O
+evidence 65 73 573 581 O
+of 74 76 582 584 O
+disease 77 84 585 592 O
+
+Pregnancy 0 9 593 602 B-pregnancy
+
+Pregnant 0 8 603 611 B-pregnancy
+
+Prior 0 5 612 617 O
+malignancies 6 18 618 630 B-cancer
+within 19 25 631 637 O
+the 26 29 638 641 O
+last 30 34 642 646 B-upper_bound
+5 35 36 647 648 I-upper_bound
+years 37 42 649 654 I-upper_bound
+except 43 49 655 661 O
+for 50 53 662 665 O
+non 54 57 666 669 B-cancer
+- 57 58 669 670 I-cancer
+melanoma 58 66 670 678 I-cancer
+skin 67 71 679 683 I-cancer
+cancers 72 79 684 691 I-cancer
+
+Serious 0 7 692 699 O
+medical 8 15 700 707 B-chronic_disease
+or 16 18 708 710 O
+psychological 19 32 711 724 B-chronic_disease
+illness 33 40 725 732 I-chronic_disease
+
+Stage 0 5 733 738 B-lower_bound
+IIB 6 9 739 742 I-lower_bound
+- 9 10 742 743 O
+IV 10 12 743 745 B-upper_bound
+mycosis 13 20 746 753 B-cancer
+fungoides 21 30 754 763 I-cancer
+or 31 33 764 766 I-cancer
+Sezary 34 40 767 773 I-cancer
+syndrome 41 49 774 782 I-cancer
+, 49 50 782 783 O
+who 51 54 784 787 O
+have 55 59 788 792 O
+failed 60 66 793 799 O
+at 67 69 800 802 O
+least 70 75 803 808 O
+1 76 77 809 810 B-lower_bound
+standard 78 86 811 819 B-treatment
+systemic 87 95 820 828 I-treatment
+therapy 96 103 829 836 I-treatment
+or 104 106 837 839 O
+are 107 110 840 843 O
+not 111 114 844 847 O
+candidates 115 125 848 858 O
+for 126 129 859 862 O
+standard 130 138 863 871 B-treatment
+therapy 139 146 872 879 I-treatment
+
+Those 0 5 880 885 O
+who 6 9 886 889 O
+are 10 13 890 893 O
+HIV 14 17 894 897 B-chronic_disease
+- 17 18 897 898 O
+positive 18 26 898 906 O
+
+Total 0 5 907 912 B-clinical_variable
+bilirubin 6 15 913 922 I-clinical_variable
+< 16 17 923 924 O
+= 17 18 924 925 O
+3 19 20 926 927 B-upper_bound
+mg 21 23 928 930 I-upper_bound
+/ 23 24 930 931 I-upper_bound
+dL 24 26 931 933 I-upper_bound
+unless 27 33 934 940 O
+hemolysis 34 43 941 950 B-chronic_disease
+or 44 46 951 953 O
+Gilbert 47 54 954 961 B-chronic_disease
+'s 54 56 961 963 I-chronic_disease
+disease 57 64 964 971 I-chronic_disease
+
+Uncontrolled 0 12 972 984 O
+active 13 19 985 991 B-chronic_disease
+infection 20 29 992 1001 I-chronic_disease
+
+Uncontrolled 0 12 1002 1014 O
+congestive 13 23 1015 1025 B-chronic_disease
+heart 24 29 1026 1031 I-chronic_disease
+failure 30 37 1032 1039 I-chronic_disease
+or 38 40 1040 1042 O
+angina 41 47 1043 1049 B-chronic_disease
+
+lactating 0 9 1050 1059 O
+women 10 15 1060 1065 B-gender
+

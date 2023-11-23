@@ -1,0 +1,101 @@
+English 0 7 0 7 B-language_fluency
+literacy 8 16 8 16 I-language_fluency
+
+History 0 7 17 24 O
+of 8 10 25 27 O
+moderate 11 19 28 36 B-chronic_disease
+to 20 22 37 39 I-chronic_disease
+severe 23 29 40 46 I-chronic_disease
+cognitive 30 39 47 56 I-chronic_disease
+impairment 40 50 57 67 I-chronic_disease
+
+Meet 0 4 68 72 O
+diagnostic 5 15 73 83 O
+criteria 16 24 84 92 O
+for 25 28 93 96 O
+insomnia 29 37 97 105 B-chronic_disease
+
+Over 0 4 106 110 O
+the 5 8 111 114 O
+age 9 12 115 118 B-age
+of 13 15 119 121 O
+19 16 18 122 124 B-lower_bound
+years 19 24 125 130 I-lower_bound
+old 25 28 131 134 O
+
+Participation 0 13 135 148 O
+in 14 16 149 151 O
+concurrent 17 27 152 162 O
+psychotherapies 28 43 163 178 B-treatment
+targeting 44 53 179 188 O
+PTSD 54 58 189 193 B-chronic_disease
+
+Sleep 0 5 194 199 B-chronic_disease
+disorders 6 15 200 209 I-chronic_disease
+diagnosed 16 25 210 219 O
+, 25 26 219 220 O
+but 27 30 221 224 O
+stably 31 37 225 231 O
+treated 38 45 232 239 O
+, 45 46 239 240 O
+such 47 51 241 245 O
+as 52 54 246 248 O
+obstructive 55 66 249 260 B-chronic_disease
+sleep 67 72 261 266 I-chronic_disease
+apnea 73 78 267 272 I-chronic_disease
+treated 79 86 273 280 O
+with 87 91 281 285 O
+continuous 92 102 286 296 O
+positive 103 111 297 305 O
+airway 112 118 306 312 O
+pressure 119 127 313 321 O
+( 128 129 322 323 O
+CPAP 129 133 323 327 O
+) 133 134 327 328 O
+, 134 135 328 329 O
+will 136 140 330 334 O
+be 141 143 335 337 O
+allowed 144 151 338 345 O
+
+Unmanaged 0 9 346 355 O
+psychosis 10 19 356 365 B-chronic_disease
+or 20 22 366 368 O
+manic 23 28 369 374 B-chronic_disease
+episodes 29 37 375 383 I-chronic_disease
+in 38 40 384 386 O
+past 41 45 387 391 O
+year 46 50 392 396 O
+
+Veteran 0 7 397 404 O
+can 8 11 405 408 O
+be 12 14 409 411 O
+reassessed 15 25 412 422 O
+after 26 31 423 428 O
+their 32 37 429 434 O
+PTSD 38 42 435 439 B-treatment
+treatment 43 52 440 449 I-treatment
+concludes 53 62 450 459 O
+
+Veterans 0 8 460 468 O
+who 9 12 469 472 O
+are 13 16 473 476 O
+engaged 17 24 477 484 O
+in 25 27 485 487 O
+treatment 28 37 488 497 O
+for 38 41 498 501 O
+non 42 45 502 505 O
+- 45 46 505 506 O
+PTSD 46 50 506 510 B-chronic_disease
+symptoms 51 59 511 519 O
+( 60 61 520 521 O
+e.g. 61 65 521 525 O
+, 65 66 525 526 O
+12 67 69 527 529 O
+- 69 70 529 530 O
+step 70 74 530 534 O
+programs 75 83 535 543 O
+) 83 84 543 544 O
+will 85 89 545 549 O
+be 90 92 550 552 O
+eligible 93 101 553 561 O
+

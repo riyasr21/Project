@@ -1,0 +1,103 @@
+Active 0 6 0 6 B-chronic_disease
+seizure 7 14 7 14 I-chronic_disease
+disorders 15 24 15 24 I-chronic_disease
+
+Congenital 0 10 25 35 B-chronic_disease
+anomalies 11 20 36 45 I-chronic_disease
+
+Cystic 0 6 46 52 B-chronic_disease
+periventricular 7 22 53 68 I-chronic_disease
+leukomalacia 23 35 69 81 I-chronic_disease
+( 36 37 82 83 I-chronic_disease
+PVL 37 40 83 86 I-chronic_disease
+) 40 41 86 87 I-chronic_disease
+
+History 0 7 88 95 O
+of 8 10 96 98 O
+Central 11 18 99 106 B-chronic_disease
+Nervous 19 26 107 114 I-chronic_disease
+System 27 33 115 121 I-chronic_disease
+infections 34 44 122 132 I-chronic_disease
+
+Hydrocephalus 0 13 133 146 B-chronic_disease
+
+Infants 0 7 147 154 O
+born 8 12 155 159 O
+preterm 13 20 160 167 O
+at 21 23 168 170 O
+Stanford 24 32 171 179 O
+Children 33 41 180 188 O
+'s 41 43 188 190 O
+Hospital 44 52 191 199 O
+between 53 60 200 207 O
+27 61 63 208 210 B-lower_bound
+0/7 64 67 211 214 I-lower_bound
+- 68 69 215 216 O
+31 70 72 217 219 B-upper_bound
+6/7 73 76 220 223 I-upper_bound
+weeks 77 82 224 229 I-upper_bound
+gestational 83 94 230 241 O
+age 95 98 242 245 B-age
+
+Intra 0 5 246 251 B-chronic_disease
+- 5 6 251 252 I-chronic_disease
+uterine 6 13 252 259 I-chronic_disease
+growth 14 20 260 266 I-chronic_disease
+restriction 21 32 267 278 I-chronic_disease
+( 33 34 279 280 I-chronic_disease
+IUGR 34 38 280 284 I-chronic_disease
+) 38 39 284 285 I-chronic_disease
+no 40 42 286 288 O
+head 43 47 289 293 O
+sparing 48 55 294 301 O
+
+Intraventricular 0 16 302 318 B-chronic_disease
+Hemorrhage 17 27 319 329 I-chronic_disease
+Grades 28 34 330 336 I-chronic_disease
+III 35 38 337 340 I-chronic_disease
+- 38 39 340 341 I-chronic_disease
+IV 39 41 341 343 I-chronic_disease
+
+Likelihood 0 10 344 354 O
+to 11 13 355 357 O
+be 14 16 358 360 O
+transferred 17 28 361 372 O
+from 29 33 373 377 O
+NICU 34 38 378 382 O
+to 39 41 383 385 O
+alternate 42 51 386 395 O
+care 52 56 396 400 O
+facility 57 65 401 409 O
+or 66 68 410 412 O
+home 69 73 413 417 O
+environment 74 85 418 429 O
+prior 86 91 430 435 B-upper_bound
+to 92 94 436 438 I-upper_bound
+36 95 97 439 441 I-upper_bound
+weeks 98 103 442 447 I-upper_bound
+PMA 104 107 448 451 O
+
+Major 0 5 452 457 B-chronic_disease
+sensori 6 13 458 465 I-chronic_disease
+- 13 14 465 466 I-chronic_disease
+neural 14 20 466 472 I-chronic_disease
+hearing 21 28 473 480 I-chronic_disease
+loss 29 33 481 485 I-chronic_disease
+
+Small 0 5 486 491 B-clinical_variable
+for 6 9 492 495 I-clinical_variable
+gestational 10 21 496 507 I-clinical_variable
+age 22 25 508 511 I-clinical_variable
+( 26 27 512 513 I-clinical_variable
+SGA 27 30 513 516 I-clinical_variable
+) 30 31 516 517 I-clinical_variable
+<3 32 34 518 520 O
+percentile 35 45 521 531 I-upper_bound
+
+Twin 0 4 532 536 B-chronic_disease
+- 4 5 536 537 I-chronic_disease
+to 5 7 537 539 I-chronic_disease
+- 7 8 539 540 I-chronic_disease
+twin 8 12 540 544 I-chronic_disease
+transfusions 13 25 545 557 I-chronic_disease
+

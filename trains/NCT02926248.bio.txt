@@ -1,0 +1,175 @@
+Age 0 3 0 3 B-age
+greater 4 11 4 11 O
+than 12 16 12 16 O
+or 17 19 17 19 O
+equal 20 25 20 25 O
+to 26 28 26 28 O
+18 29 31 29 31 B-lower_bound
+years 32 37 32 37 I-lower_bound
+
+Atazanavir 0 10 38 48 B-treatment
+, 10 11 48 49 O
+clarithromycin 12 26 50 64 B-treatment
+, 26 27 64 65 O
+indinavir 28 37 66 75 B-treatment
+, 37 38 75 76 O
+itraconazole 39 51 77 89 B-treatment
+, 51 52 89 90 O
+ketoconazole 53 65 91 103 B-treatment
+, 65 66 103 104 O
+nefazodone 67 77 105 115 B-treatment
+, 77 78 115 116 O
+nelfinavir 79 89 117 127 B-treatment
+, 89 90 127 128 O
+ritonavir 91 100 129 138 B-treatment
+, 100 101 138 139 O
+saquinavir 102 112 140 150 B-treatment
+, 112 113 150 151 O
+telithromycin 114 127 152 165 B-treatment
+, 127 128 165 166 O
+amprenavir 129 139 167 177 B-treatment
+, 139 140 177 178 O
+aprepitant 141 151 179 189 B-treatment
+, 151 152 189 190 O
+diltiazem 153 162 191 200 B-treatment
+, 162 163 200 201 O
+erythromycin 164 176 202 214 B-treatment
+, 176 177 214 215 O
+fluconazole 178 189 216 227 B-treatment
+, 189 190 227 228 O
+fosamprenavir 191 204 229 242 B-treatment
+, 204 205 242 243 O
+grapefruit 206 216 244 254 O
+juice 217 222 255 260 O
+, 222 223 260 261 O
+verapamil 224 233 262 271 B-treatment
+
+Creatinine 0 10 272 282 B-clinical_variable
+> 11 12 283 284 O
+1.5 13 16 285 288 B-lower_bound
+, 16 17 288 289 O
+and/or 18 24 290 296 O
+estimated 25 34 297 306 O
+creatinine 35 45 307 317 B-clinical_variable
+clearance 46 55 318 327 I-clinical_variable
+less 56 60 328 332 O
+than 61 65 333 337 O
+30 66 68 338 340 B-upper_bound
+mL 69 71 341 343 I-upper_bound
+/ 71 72 343 344 I-upper_bound
+min 72 75 344 347 I-upper_bound
+
+Cyclosporine 0 12 348 360 B-treatment
+, 12 13 360 361 O
+ranolazine 14 24 362 372 B-treatment
+
+MUA 0 3 373 376 B-treatment
+indicated 4 13 377 386 O
+within 14 20 387 393 O
+5 21 22 394 395 B-lower_bound
+to 23 25 396 398 O
+12 26 28 399 401 B-upper_bound
+weeks 29 34 402 407 I-upper_bound
+of 35 37 408 410 O
+primary 38 45 411 418 B-treatment
+surgery 46 53 419 426 I-treatment
+
+Non 0 3 427 430 B-language_fluency
+- 3 4 430 431 I-language_fluency
+English 4 11 431 438 I-language_fluency
+speaking 12 20 439 447 I-language_fluency
+patients 21 29 448 456 I-language_fluency
+
+Patients 0 8 457 465 O
+concurrently 9 21 466 478 O
+taking 22 28 479 485 O
+medications 29 40 486 497 O
+that 41 45 498 502 O
+increase 46 54 503 511 O
+the 55 58 512 515 O
+risk 59 63 516 520 O
+for 64 67 521 524 O
+myopathy 68 76 525 533 B-chronic_disease
+and 77 80 534 537 O
+rhabdomyolysis 81 95 538 552 B-chronic_disease
+
+Patients 0 8 553 561 O
+requiring 9 18 562 571 O
+bilateral 19 28 572 581 B-treatment
+MUA 29 32 582 585 I-treatment
+
+Patients 0 8 586 594 O
+with 9 13 595 599 O
+hepatic 14 21 600 607 B-chronic_disease
+disease 22 29 608 615 I-chronic_disease
+( 30 31 616 617 O
+known 31 36 617 622 O
+liver 37 42 623 628 B-chronic_disease
+disease 43 50 629 636 I-chronic_disease
+, 50 51 636 637 O
+cirrhosis 52 61 638 647 B-chronic_disease
+, 61 62 647 648 O
+and/or 63 69 649 655 O
+AST 70 73 656 659 B-clinical_variable
+/ 73 74 659 660 I-clinical_variable
+ALT>60 74 80 660 666 I-clinical_variable
+) 80 81 666 667 O
+
+Patients 0 8 668 676 O
+with 9 13 677 681 O
+less 14 18 682 686 O
+than 19 23 687 691 O
+10 24 26 692 694 B-upper_bound
+degrees 27 34 695 702 I-upper_bound
+of 35 37 703 705 O
+a 38 39 706 707 O
+flexion 40 47 708 715 B-treatment
+contracture 48 59 716 727 I-treatment
+
+Patients 0 8 728 736 O
+with 9 13 737 741 O
+renal 14 19 742 747 B-chronic_disease
+disease 20 27 748 755 I-chronic_disease
+
+Patients 0 8 756 764 O
+with 9 13 765 769 O
+reported 14 22 770 778 O
+allergy 23 30 779 786 O
+to 31 33 787 789 O
+colchicine 34 44 790 800 B-allergy_name
+
+Pregnant 0 8 801 809 B-pregnancy
+patients 9 17 810 818 O
+
+Primary 0 7 819 826 O
+Diagnosis 8 17 827 836 O
+of 18 20 837 839 O
+OA 21 23 840 842 B-chronic_disease
+for 24 27 843 846 O
+TKA 28 31 847 850 B-treatment
+
+Revision 0 8 851 859 B-treatment
+TKA 9 12 860 863 I-treatment
+
+atorvastatin 0 12 864 876 B-treatment
+, 12 13 876 877 O
+fluvastatin 14 25 878 889 B-treatment
+, 25 26 889 890 O
+pravastatin 27 38 891 902 B-treatment
+, 38 39 902 903 O
+simvastatin 40 51 904 915 B-treatment
+, 51 52 915 916 O
+fibrates 53 61 917 925 B-treatment
+, 61 62 925 926 O
+gemfibrozil 63 74 927 938 B-treatment
+, 74 75 938 939 O
+digoxin 76 83 940 947 B-treatment
+
+knee 0 4 948 952 B-clinical_variable
+flexion 5 12 953 960 I-clinical_variable
+angle 13 18 961 966 I-clinical_variable
+less 19 23 967 971 O
+than 24 28 972 976 O
+90 29 31 977 979 B-upper_bound
+° 31 32 979 980 I-upper_bound
+

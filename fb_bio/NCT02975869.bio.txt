@@ -1,0 +1,44 @@
+A 0 1 0 1 O
+diagnosis 2 11 2 11 O
+of 12 14 12 14 O
+acute 15 20 15 20 B-cancer
+promyelocytic 21 34 21 34 I-cancer
+leukemia 35 43 35 43 I-cancer
+( 44 45 44 45 I-cancer
+APML 45 49 45 49 I-cancer
+) 49 50 49 50 I-cancer
+
+Major 0 5 51 56 B-chronic_disease
+psychiatric 6 17 57 68 I-chronic_disease
+illness 18 25 69 76 I-chronic_disease
+or 26 28 77 79 O
+comorbid 29 37 80 88 B-chronic_disease
+conditions 38 48 89 99 I-chronic_disease
+prohibiting 49 60 100 111 O
+compliance 61 71 112 122 O
+with 72 76 123 127 O
+study 77 82 128 133 O
+procedures 83 93 134 144 O
+
+Newly 0 5 145 150 O
+diagnosed 6 15 151 160 O
+patients 16 24 161 169 O
+with 25 29 170 174 O
+AML 30 33 175 178 B-cancer
+≥ 34 35 179 180 O
+60 36 38 181 183 B-lower_bound
+years 39 44 184 189 I-lower_bound
+of 45 47 190 192 O
+age 48 51 193 196 B-age
+
+Newly 0 5 197 202 O
+diagnosed 6 15 203 212 O
+therapy 16 23 213 220 O
+- 23 24 220 221 O
+related 24 31 221 228 O
+AML 32 35 229 232 B-cancer
+
+Primary 0 7 233 240 B-cancer
+refractory 8 18 241 251 I-cancer
+AML 19 22 252 255 I-cancer
+

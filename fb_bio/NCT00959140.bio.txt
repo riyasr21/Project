@@ -1,0 +1,260 @@
+ALL 0 3 0 3 B-cancer
+: 3 4 3 4 O
+Refractory 5 15 5 15 O
+to 16 18 16 18 O
+Induction 19 28 19 28 B-treatment
+and 29 32 29 32 O
+salvage 33 40 33 40 B-treatment
+therapy 41 48 41 48 I-treatment
+
+AML 0 3 49 52 B-cancer
+/ 3 4 52 53 O
+ALL 4 7 53 56 B-cancer
+: 7 8 56 57 O
+with 9 13 58 62 O
+Bi 14 16 63 65 B-cancer
+- 16 17 65 66 I-cancer
+phenotypic 17 27 66 76 I-cancer
+features 28 36 77 85 O
+
+AML 0 3 86 89 B-cancer
+: 3 4 89 90 O
+Refractory 5 15 91 101 O
+to 16 18 102 104 O
+Induction 19 28 105 114 B-treatment
+and 29 32 115 118 O
+salvage 33 40 119 126 B-treatment
+therapy 41 48 127 134 I-treatment
+
+All 0 3 135 138 O
+organ 4 9 139 144 O
+function 10 18 145 153 O
+testing 19 26 154 161 O
+should 27 33 162 168 O
+be 34 36 169 171 O
+done 37 41 172 176 O
+within 42 48 177 183 O
+28 49 51 184 186 B-upper_bound
+days 52 56 187 191 I-upper_bound
+of 57 59 192 194 O
+study 60 65 195 200 O
+registration 66 78 201 213 O
+
+CML 0 3 214 217 B-cancer
+: 3 4 217 218 O
+Active 5 11 219 225 O
+blast 12 17 226 231 B-cancer
+crisis 18 24 232 238 I-cancer
+
+Cardiac 0 7 239 246 B-chronic_disease
+
+DLCO 0 4 247 251 B-treatment
+( 5 6 252 253 O
+alveolar 6 14 253 261 O
+diffusion 15 24 262 271 O
+capacity 25 33 272 280 O
+for 34 37 281 284 O
+carbon 38 44 285 291 O
+monoxide 45 53 292 300 O
+) 53 54 300 301 O
+( 55 56 302 303 O
+corrected 56 65 303 312 O
+for 66 69 313 316 O
+hemoglobin 70 80 317 327 B-clinical_variable
+) 80 81 327 328 O
+≥ 82 83 329 330 O
+50 84 86 331 333 B-lower_bound
+% 86 87 333 334 I-lower_bound
+of 88 90 335 337 O
+predicted 91 100 338 347 O
+
+FEV1 0 4 348 352 B-clinical_variable
+( 5 6 353 354 I-clinical_variable
+Forced 6 12 354 360 I-clinical_variable
+expiratory 13 23 361 371 I-clinical_variable
+volume 24 30 372 378 I-clinical_variable
+in 31 33 379 381 I-clinical_variable
+1 34 35 382 383 I-clinical_variable
+second 36 42 384 390 I-clinical_variable
+) 42 43 390 391 I-clinical_variable
+
+FVC 0 3 392 395 B-clinical_variable
+( 4 5 396 397 I-clinical_variable
+Forced 5 11 397 403 I-clinical_variable
+vital 12 17 404 409 I-clinical_variable
+capacity 18 26 410 418 I-clinical_variable
+) 26 27 418 419 I-clinical_variable
+≥ 28 29 420 421 O
+50 30 32 422 424 B-lower_bound
+% 32 33 424 425 I-lower_bound
+predicted 34 43 426 435 O
+
+HIV 0 3 436 439 B-chronic_disease
+positive 4 12 440 448 O
+patients 13 21 449 457 O
+
+HL 0 2 458 460 O
+: 2 3 460 461 O
+Disease 4 11 462 469 O
+refractory 12 22 470 480 O
+to 23 25 481 483 O
+chemotherapy 26 38 484 496 B-treatment
+or 39 41 497 499 O
+targeted 42 50 500 508 B-treatment
+therapy 51 58 509 516 I-treatment
+
+Karnofsky 0 9 517 526 B-clinical_variable
+≥ 10 11 527 528 O
+70 12 14 529 531 B-lower_bound
+% 14 15 531 532 I-lower_bound
+
+Left 0 4 533 537 B-clinical_variable
+ventricular 5 16 538 549 I-clinical_variable
+ejection 17 25 550 558 I-clinical_variable
+fraction 26 34 559 567 I-clinical_variable
+( 35 36 568 569 I-clinical_variable
+LVEF 36 40 569 573 I-clinical_variable
+) 40 41 573 574 I-clinical_variable
+
+NHL 0 3 575 578 B-cancer
+: 3 4 578 579 O
+Disease 5 12 580 587 O
+refractory 13 23 588 598 O
+to 24 26 599 601 O
+chemotherapy 27 39 602 614 B-treatment
+or 40 42 615 617 O
+targeted 43 51 618 626 B-treatment
+therapy 52 59 627 634 I-treatment
+
+Patients 0 8 635 643 O
+must 9 13 644 648 O
+be 14 16 649 651 O
+≥19 17 20 652 655 O
+years 21 26 656 661 I-lower_bound
+of 27 29 662 664 O
+age 30 33 665 668 B-age
+
+Patients 0 8 669 677 O
+must 9 13 678 682 O
+meet 14 18 683 687 O
+all 19 22 688 691 O
+the 23 26 692 695 O
+UAB 27 30 696 699 O
+diagnosis 31 40 700 709 O
+and 41 44 710 713 O
+disease 45 52 714 721 O
+status 53 59 722 728 O
+criteria 60 68 729 737 O
+for 69 72 738 741 O
+clinical 73 81 742 750 O
+appropriateness 82 97 751 766 O
+for 98 101 767 770 O
+myeloablative 102 115 771 784 B-treatment
+allo 116 120 785 789 O
+HSCT 121 125 790 794 B-treatment
+derived 126 133 795 802 O
+from 134 138 803 807 O
+ASBMT 139 144 808 813 O
+and 145 148 814 817 O
+NCCN 149 153 818 822 O
+guidelines 154 164 823 833 O
+
+Performance 0 11 834 845 B-clinical_variable
+status 12 18 846 852 I-clinical_variable
+
+Prior 0 5 853 858 B-treatment
+autologous 6 16 859 869 I-treatment
+or 17 19 870 872 O
+allogeneic 20 30 873 883 B-treatment
+transplantation 31 46 884 899 I-treatment
+for 47 50 900 903 O
+any 51 54 904 907 O
+disease 55 62 908 915 O
+
+Scheduled 0 9 916 925 O
+to 10 12 926 928 O
+receive 13 20 929 936 O
+non 21 24 937 940 B-treatment
+- 24 25 940 941 I-treatment
+myeloablative 25 38 941 954 I-treatment
+or 39 41 955 957 O
+reduced 42 49 958 965 B-treatment
+intensity 50 59 966 975 I-treatment
+conditioning 60 72 976 988 I-treatment
+regimen 73 80 989 996 I-treatment
+
+The 0 3 997 1000 O
+estimated 4 13 1001 1010 B-clinical_variable
+creatinine 14 24 1011 1021 I-clinical_variable
+clearance 25 34 1022 1031 I-clinical_variable
+( 35 36 1032 1033 I-clinical_variable
+CrCl 36 40 1033 1037 I-clinical_variable
+) 40 41 1037 1038 I-clinical_variable
+must 42 46 1039 1043 O
+be 47 49 1044 1046 O
+equal 50 55 1047 1052 O
+or 56 58 1053 1055 O
+greater 59 66 1056 1063 O
+than 67 71 1064 1068 O
+60 72 74 1069 1071 B-lower_bound
+mL 75 77 1072 1074 I-lower_bound
+/ 77 78 1074 1075 I-lower_bound
+min/1.73 78 86 1075 1083 I-lower_bound
+m2 87 89 1084 1086 I-lower_bound
+as 90 92 1087 1089 O
+calculated 93 103 1090 1100 O
+by 104 106 1101 1103 O
+the 107 110 1104 1107 O
+Cockcroft 111 120 1108 1117 O
+- 120 121 1117 1118 O
+Gault 121 126 1118 1123 O
+Formula 127 134 1124 1131 O
+
+Uncontrolled 0 12 1132 1144 B-chronic_disease
+infections 13 23 1145 1155 I-chronic_disease
+, 23 24 1155 1156 O
+defined 25 32 1157 1164 O
+as 33 35 1165 1167 O
+positive 36 44 1168 1176 O
+blood 45 50 1177 1182 O
+cultures 51 59 1183 1191 O
+
+chest 0 5 1192 1197 B-treatment
+CT 6 8 1198 1200 I-treatment
+scan 9 13 1201 1205 I-treatment
+within 14 20 1206 1212 O
+14 21 23 1213 1215 B-upper_bound
+days 24 28 1216 1220 I-upper_bound
+of 29 31 1221 1223 O
+registration 32 44 1224 1236 O
+
+evidence 0 8 1237 1245 O
+of 9 11 1246 1248 O
+progressive 12 23 1249 1260 B-chronic_disease
+infection 24 33 1261 1270 I-chronic_disease
+by 34 36 1271 1273 O
+imaging 37 44 1274 1281 O
+studies 45 52 1282 1289 O
+
+within 0 6 1290 1296 O
+72 7 9 1297 1299 B-upper_bound
+hours 10 15 1300 1305 I-upper_bound
+of 16 18 1306 1308 O
+study 19 24 1309 1314 O
+entry 25 30 1315 1320 O
+, 30 31 1320 1321 O
+
+≥ 0 1 1322 1323 O
+50 2 4 1324 1326 B-lower_bound
+% 4 5 1326 1327 I-lower_bound
+by 6 8 1328 1330 O
+MUGA 9 13 1331 1335 B-treatment
+( 14 15 1336 1337 I-treatment
+Multi 15 20 1337 1342 I-treatment
+Gated 21 26 1343 1348 I-treatment
+Acquisition 27 38 1349 1360 I-treatment
+) 38 39 1360 1361 I-treatment
+scan 40 44 1362 1366 I-treatment
+or 45 47 1367 1369 O
+echocardiogram 48 62 1370 1384 B-treatment
+

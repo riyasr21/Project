@@ -1,0 +1,21 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Not 0 3 16 19 B-language_fluency
+fluent 4 10 20 26 I-language_fluency
+in 11 13 27 29 I-language_fluency
+English 14 21 30 37 I-language_fluency
+
+Under 0 5 38 43 O
+the 6 9 44 47 O
+age 10 13 48 51 B-age
+of 14 16 52 54 O
+18 17 19 55 57 B-lower_bound
+years 20 25 58 63 I-lower_bound
+or 26 28 64 66 O
+over 29 33 67 71 O
+90 34 36 72 74 B-upper_bound
+years 37 42 75 80 I-upper_bound
+

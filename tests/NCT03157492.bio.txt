@@ -1,0 +1,37 @@
+Greater 0 7 0 7 O
+than 8 12 8 12 O
+three 13 18 13 18 B-lower_bound
+years 19 24 19 24 I-lower_bound
+post 25 29 25 29 O
+- 29 30 29 30 O
+activation 30 40 30 40 O
+of 41 43 41 43 O
+CI 44 46 44 46 B-treatment
+
+Less 0 4 47 51 O
+than 5 9 52 56 O
+18 10 12 57 59 B-upper_bound
+years 13 18 60 65 I-upper_bound
+of 19 21 66 68 O
+age 22 25 69 72 B-age
+
+Prior 0 5 73 78 O
+Aural 6 11 79 84 B-treatment
+Rehabilitation 12 26 85 99 I-treatment
+with 27 31 100 104 O
+cochlear 32 40 105 113 B-treatment
+implant 41 48 114 121 I-treatment
+
+Sentence 0 8 122 130 B-clinical_variable
+recognition 9 20 131 142 I-clinical_variable
+scores 21 27 143 149 I-clinical_variable
+( 28 29 150 151 I-clinical_variable
+CasperSent 29 39 151 161 I-clinical_variable
+) 39 40 161 162 I-clinical_variable
+between 41 48 163 170 O
+10 49 51 171 173 B-lower_bound
+% 51 52 173 174 I-lower_bound
+and 53 56 175 178 O
+85 57 59 179 181 B-upper_bound
+% 59 60 181 182 I-upper_bound
+

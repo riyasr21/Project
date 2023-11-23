@@ -1,0 +1,8 @@
+completed 0 9 0 9 O
+primary 10 17 10 17 B-treatment
+treatment 18 27 18 27 I-treatment
+
+histologically 0 14 28 42 O
+confirmed 15 24 43 52 O
+cancer 25 31 53 59 B-cancer
+

@@ -1,0 +1,91 @@
+Age 0 3 0 3 B-age
+less 4 8 4 8 O
+than 9 13 9 13 O
+60 14 16 14 16 B-upper_bound
+years 17 22 17 22 I-upper_bound
+
+All 0 3 23 26 O
+other 4 9 27 32 O
+criteria 10 18 33 41 O
+required 19 27 42 50 O
+for 28 31 51 54 O
+renal 32 37 55 60 B-treatment
+transplantation 38 53 61 76 I-treatment
+
+Bipolar 0 7 77 84 B-chronic_disease
+disorder 8 16 85 93 I-chronic_disease
+
+Body 0 4 94 98 B-bmi
+mass 5 9 99 103 I-bmi
+index 10 15 104 109 I-bmi
+40 16 18 110 112 B-lower_bound
+- 18 19 112 113 O
+55 19 21 113 115 B-upper_bound
+kg 22 24 116 118 I-upper_bound
+/ 24 25 118 119 I-upper_bound
+m2 25 27 119 121 I-upper_bound
+
+Cirrhosis 0 9 122 131 B-chronic_disease
+
+Crohn 0 5 132 137 B-chronic_disease
+'s 5 7 137 139 I-chronic_disease
+disease 8 15 140 147 I-chronic_disease
+
+Fixed 0 5 148 153 O
+expiratory 6 16 154 164 O
+volume 17 23 165 171 O
+1 24 25 172 173 O
+less 26 30 174 178 O
+than 31 35 179 183 O
+75 36 38 184 186 B-upper_bound
+% 38 39 186 187 I-upper_bound
+or 40 42 188 190 O
+on 43 45 191 193 O
+oxygen 46 52 194 200 O
+
+Human 0 5 201 206 B-chronic_disease
+Immunodeficiency 6 22 207 223 I-chronic_disease
+Virus 23 28 224 229 I-chronic_disease
+
+Non 0 3 230 233 B-language_fluency
+- 3 4 233 234 I-language_fluency
+English 4 11 234 241 I-language_fluency
+speaking 12 20 242 250 I-language_fluency
+
+Non 0 3 251 254 O
+- 3 4 254 255 O
+compliance 4 14 255 265 O
+with 15 19 266 270 O
+dialysis 20 28 271 279 B-treatment
+regimen 29 36 280 287 O
+
+Previous 0 8 288 296 O
+renal 9 14 297 302 B-treatment
+transplant 15 25 303 313 I-treatment
+
+Prior 0 5 314 319 O
+anti 6 10 320 324 B-treatment
+- 10 11 324 325 I-treatment
+reflux 11 17 325 331 I-treatment
+surgery 18 25 332 339 I-treatment
+
+Prior 0 5 340 345 B-treatment
+mesh 6 10 346 350 I-treatment
+hernia 11 17 351 357 I-treatment
+repair 18 24 358 364 I-treatment
+
+Prior 0 5 365 370 O
+weight 6 12 371 377 B-treatment
+loss 13 17 378 382 I-treatment
+surgery 18 25 383 390 I-treatment
+
+Schizophrenia 0 13 391 404 B-chronic_disease
+
+Significant 0 11 405 416 O
+coronary 12 20 417 425 B-chronic_disease
+disease 21 28 426 433 I-chronic_disease
+
+Significant 0 11 434 445 O
+lung 12 16 446 450 B-chronic_disease
+disease 17 24 451 458 I-chronic_disease
+

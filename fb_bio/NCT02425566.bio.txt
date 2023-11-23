@@ -1,0 +1,108 @@
+Current 0 7 0 7 O
+smokers 8 15 8 15 O
+or 16 18 16 18 O
+history 19 26 19 26 O
+of 27 29 27 29 O
+heavy 30 35 30 35 B-clinical_variable
+smoking 36 43 36 43 I-clinical_variable
+( 44 45 44 45 O
+> 45 46 45 46 O
+2 46 47 46 47 B-lower_bound
+packs 48 53 48 53 I-lower_bound
+/ 53 54 53 54 I-lower_bound
+day 54 57 54 57 I-lower_bound
+) 57 58 57 58 O
+
+Hypertension 0 12 59 71 B-chronic_disease
+will 13 17 72 76 O
+be 18 20 77 79 O
+defined 21 28 80 87 O
+as 29 31 88 90 O
+a 32 33 91 92 O
+systolic 34 42 93 101 B-clinical_variable
+BP 43 45 102 104 I-clinical_variable
+≥140 46 50 105 109 O
+mm 51 53 110 112 I-lower_bound
+Hg 54 56 113 115 I-lower_bound
+and/or 57 63 116 122 O
+a 64 65 123 124 O
+diastolic 66 75 125 134 B-clinical_variable
+BP 76 78 135 137 I-clinical_variable
+≥ 79 80 138 139 O
+90 81 83 140 142 B-lower_bound
+mm 84 86 143 145 I-lower_bound
+Hg 87 89 146 148 I-lower_bound
+, 89 90 148 149 O
+taken 91 96 150 155 O
+in 97 99 156 158 O
+the 100 103 159 162 O
+seated 104 110 163 169 O
+position 111 119 170 178 O
+in 120 122 179 181 O
+at 123 125 182 184 O
+least 126 131 185 190 O
+2 132 133 191 192 B-lower_bound
+separate 134 142 193 201 O
+occasions 143 152 202 211 O
+
+Lean 0 4 212 216 B-treatment
+
+Pregnancy 0 9 217 226 B-pregnancy
+
+Subjects 0 8 227 235 O
+with 9 13 236 240 O
+any 14 17 241 244 O
+chronic 18 25 245 252 B-chronic_disease
+disease 26 33 253 260 I-chronic_disease
+
+Subjects 0 8 261 269 O
+with 9 13 270 274 O
+morbid 14 20 275 281 B-clinical_variable
+obesity 21 28 282 289 I-clinical_variable
+( 29 30 290 291 O
+BMI 30 33 291 294 B-clinical_variable
+> 34 35 295 296 O
+40 36 38 297 299 B-lower_bound
+kg 39 41 300 302 I-lower_bound
+/ 41 42 302 303 I-lower_bound
+m2 42 44 303 305 I-lower_bound
+) 44 45 305 306 O
+
+between 0 7 307 314 O
+18 8 10 315 317 B-lower_bound
+and 11 14 318 321 O
+65 15 17 322 324 B-upper_bound
+years 18 23 325 330 I-upper_bound
+of 24 26 331 333 O
+age 27 30 334 337 B-age
+
+cardiovascular 0 14 338 352 B-chronic_disease
+disease 15 22 353 360 I-chronic_disease
+
+diabetes 0 8 361 369 B-chronic_disease
+
+diagnosis 0 9 370 379 O
+of 10 12 380 382 O
+sleep 13 18 383 388 B-chronic_disease
+apnea 19 24 389 394 I-chronic_disease
+or 25 27 395 397 O
+a 28 29 398 399 O
+high 30 34 400 404 O
+score 35 40 405 410 O
+in 41 43 411 413 O
+the 44 47 414 417 O
+Berlin 48 54 418 424 O
+questionnaire 55 68 425 438 O
+for 69 72 439 442 O
+sleep 73 78 443 448 O
+apnea 79 84 449 454 O
+
+female 0 6 455 461 B-gender
+subjects 7 15 462 470 I-gender
+
+hypertension 0 12 471 483 B-chronic_disease
+
+male 0 4 484 488 B-gender
+
+obese 0 5 489 494 B-chronic_disease
+

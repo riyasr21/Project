@@ -1,0 +1,8 @@
+Participation 0 13 0 13 O
+in 14 16 14 16 O
+Batterer 17 25 17 25 B-treatment
+Intervention 26 38 26 38 I-treatment
+Program 39 46 39 46 I-treatment
+in 47 49 47 49 I-treatment
+RI 50 52 50 52 I-treatment
+

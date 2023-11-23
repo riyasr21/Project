@@ -1,0 +1,59 @@
+Ages 0 4 0 4 B-age
+18 5 7 5 7 B-lower_bound
+- 7 8 7 8 O
+80 8 10 8 10 B-upper_bound
+
+Neurological 0 12 11 23 O
+diagnosis 13 22 24 33 O
+of 23 25 34 36 O
+amnestic 26 34 37 45 B-chronic_disease
+mild 35 39 46 50 I-chronic_disease
+cognitive 40 49 51 60 I-chronic_disease
+impairment 50 60 61 71 I-chronic_disease
+( 61 62 72 73 I-chronic_disease
+aMCI 62 66 73 77 I-chronic_disease
+) 66 67 77 78 I-chronic_disease
+
+brain 0 5 79 84 B-cancer
+tumors 6 12 85 91 I-cancer
+
+diagnosis 0 9 92 101 O
+of 10 12 102 104 O
+cognitive 13 22 105 114 B-chronic_disease
+impairment 23 33 115 125 I-chronic_disease
+
+eczema 0 6 126 132 B-chronic_disease
+or 7 9 133 135 O
+sensitive 10 19 136 145 O
+skin 20 24 146 150 O
+
+epilepsy 0 8 151 159 B-chronic_disease
+
+insomnia 0 8 160 168 B-chronic_disease
+
+narcolepsy 0 10 169 179 B-chronic_disease
+
+rapid 0 5 180 185 B-chronic_disease
+eye 6 9 186 189 I-chronic_disease
+movement 10 18 190 198 I-chronic_disease
+( 19 20 199 200 I-chronic_disease
+REM)-sleep 20 30 200 210 I-chronic_disease
+behavior 31 39 211 219 I-chronic_disease
+disorder 40 48 220 228 I-chronic_disease
+
+restless 0 8 229 237 B-chronic_disease
+legs 9 13 238 242 I-chronic_disease
+syndrome 14 22 243 251 I-chronic_disease
+
+sleep 0 5 252 257 B-chronic_disease
+apnea 6 11 258 263 I-chronic_disease
+
+trying 0 6 264 270 B-pregnancy
+to 7 9 271 273 I-pregnancy
+become 10 16 274 280 I-pregnancy
+pregnant 17 25 281 289 I-pregnancy
+during 26 32 290 296 O
+the 33 36 297 300 O
+study 37 42 301 306 O
+period 43 49 307 313 O
+

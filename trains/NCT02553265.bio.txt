@@ -1,0 +1,137 @@
+Confirmed 0 9 0 9 O
+diagnosis 10 19 10 19 O
+of 20 22 20 22 O
+FD 23 25 23 25 B-chronic_disease
+( 26 27 26 27 O
+genetic 27 34 27 34 O
+testing 35 42 35 42 O
+) 42 43 42 43 O
+
+Male 0 4 44 48 B-gender
+or 5 7 49 51 I-gender
+female 8 14 52 58 I-gender
+patients 15 23 59 67 I-gender
+with 24 28 68 72 O
+familial 29 37 73 81 B-chronic_disease
+dysautonomia 38 50 82 94 I-chronic_disease
+( 51 52 95 96 I-chronic_disease
+FD 52 54 96 98 I-chronic_disease
+) 54 55 98 99 I-chronic_disease
+
+Patients 0 8 100 108 O
+taking 9 15 109 115 O
+monoamine 16 25 116 125 B-treatment
+oxidase 26 33 126 133 I-treatment
+( 34 35 134 135 I-treatment
+MAO)-inhibitors 35 50 135 150 I-treatment
+
+Patients 0 8 151 159 O
+taking 9 15 160 166 O
+neuroleptic 16 27 167 178 B-treatment
+drugs 28 33 179 184 I-treatment
+( 34 35 185 186 O
+haloperidol 35 46 186 197 B-treatment
+and 47 50 198 201 O
+chlorpromazine 51 65 202 216 B-treatment
+) 65 66 216 217 O
+
+Patients 0 8 218 226 O
+taking 9 15 227 233 O
+tricyclic 16 25 234 243 B-treatment
+antidepressants 26 41 244 259 I-treatment
+
+Patients 0 8 260 268 O
+taking 9 15 269 275 O
+: 15 16 275 276 O
+metoclopramide 17 31 277 291 B-treatment
+, 31 32 291 292 O
+domperidone 33 44 293 304 B-treatment
+, 44 45 304 305 O
+risperidone 46 57 306 317 B-treatment
+or 58 60 318 320 O
+other 61 66 321 326 B-treatment
+dopamine 67 75 327 335 I-treatment
+blockers 76 84 336 344 I-treatment
+
+Patients 0 8 345 353 O
+with 9 13 354 358 O
+a 14 15 359 360 O
+known 16 21 361 366 O
+hypersensitivity 22 38 367 383 O
+to 39 41 384 386 O
+any 42 45 387 390 B-allergy_name
+component 46 55 391 400 I-allergy_name
+of 56 58 401 403 I-allergy_name
+this 59 63 404 408 I-allergy_name
+drug 64 68 409 413 I-allergy_name
+
+Patients 0 8 414 422 O
+with 9 13 423 427 O
+atrial 14 20 428 434 B-chronic_disease
+fibrillation 21 33 435 447 I-chronic_disease
+, 33 34 447 448 O
+angina 35 41 449 455 B-chronic_disease
+or 42 44 456 458 O
+significant 45 56 459 470 O
+ECG 57 60 471 474 B-treatment
+abnormality 61 72 475 486 O
+
+Patients 0 8 487 495 O
+with 9 13 496 500 O
+significant 14 25 501 512 O
+pulmonary 26 35 513 522 O
+, 35 36 522 523 O
+cardiac 37 44 524 531 O
+, 44 45 531 532 O
+liver 46 51 533 538 O
+, 51 52 538 539 O
+renal 53 58 540 545 O
+( 59 60 546 547 O
+creatinine 60 70 547 557 B-clinical_variable
+> 71 72 558 559 O
+2.0 72 75 559 562 B-lower_bound
+mg 76 78 563 565 I-lower_bound
+/ 78 79 565 566 I-lower_bound
+ml 79 81 566 568 I-lower_bound
+) 81 82 568 569 O
+
+Systolic 0 8 570 578 B-clinical_variable
+BP 9 11 579 581 I-clinical_variable
+standard 12 20 582 590 I-clinical_variable
+deviation 21 30 591 600 I-clinical_variable
+> 31 32 601 602 O
+15 32 34 602 604 B-lower_bound
+mmHg 35 39 605 609 I-lower_bound
+
+Unstable 0 8 610 618 B-chronic_disease
+blood 9 14 619 624 I-chronic_disease
+pressure 15 23 625 633 I-chronic_disease
+
+Women 0 5 634 639 B-gender
+who 6 9 640 643 O
+are 10 13 644 647 O
+pregnant 14 22 648 656 B-pregnancy
+or 23 25 657 659 O
+lactating 26 35 660 669 O
+
+age 0 3 670 673 B-age
+10 4 6 674 676 B-lower_bound
+or 7 9 677 679 O
+older 10 15 680 685 O
+
+coefficient 0 11 686 697 B-clinical_variable
+of 12 14 698 700 I-clinical_variable
+variation 15 24 701 710 I-clinical_variable
+> 25 26 711 712 O
+15 26 28 712 714 B-lower_bound
+% 28 29 714 715 I-lower_bound
+
+ocumented 0 9 716 725 O
+episodic 10 18 726 734 B-clinical_variable
+hypertensive 19 31 735 747 I-clinical_variable
+peaks 32 37 748 753 I-clinical_variable
+( 38 39 754 755 O
+> 39 40 755 756 O
+140mmHg 40 47 756 763 B-lower_bound
+) 47 48 763 764 O
+

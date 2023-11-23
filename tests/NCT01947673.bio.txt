@@ -1,0 +1,59 @@
+any 0 3 0 3 O
+serious 4 11 4 11 O
+systemic 12 20 12 20 B-chronic_disease
+disease 21 28 21 28 I-chronic_disease
+that 29 33 29 33 O
+might 34 39 34 39 O
+influence 40 49 40 49 O
+survival 50 58 50 58 O
+
+autonomic 0 9 59 68 B-chronic_disease
+dysfunction 10 21 69 80 I-chronic_disease
+
+clinical 0 8 81 89 O
+evidence 9 17 90 98 O
+of 18 20 99 101 O
+congestive 21 31 102 112 B-chronic_disease
+heart 32 37 113 118 I-chronic_disease
+failure 38 45 119 126 I-chronic_disease
+
+ejection 0 8 127 135 B-clinical_variable
+fraction 9 17 136 144 I-clinical_variable
+below 18 23 145 150 O
+35 24 26 151 153 B-upper_bound
+% 26 27 153 154 I-upper_bound
+
+myocardial 0 10 155 165 B-chronic_disease
+infarction 11 21 166 176 I-chronic_disease
+or 22 24 177 179 O
+cerebrovascular 25 40 180 195 B-chronic_disease
+accident 41 49 196 204 I-chronic_disease
+within 50 56 205 211 O
+the 57 60 212 215 O
+past 61 65 216 220 B-upper_bound
+six 66 69 221 224 I-upper_bound
+months 70 76 225 231 I-upper_bound
+
+peripheral 0 10 232 242 B-chronic_disease
+neuropathy 11 21 243 253 I-chronic_disease
+
+pregnancy 0 9 254 263 B-pregnancy
+
+severe 0 6 264 270 O
+anemia 7 13 271 277 B-chronic_disease
+with 14 18 278 282 O
+hgb 19 22 283 286 B-clinical_variable
+level 23 28 287 292 I-clinical_variable
+< 29 30 293 294 O
+8 30 31 294 295 B-upper_bound
+g 32 33 296 297 I-upper_bound
+/ 33 34 297 298 I-upper_bound
+dL 34 36 298 300 I-upper_bound
+
+surgery 0 7 301 308 B-treatment
+within 8 14 309 315 O
+the 15 18 316 319 O
+past 19 23 320 324 B-upper_bound
+3 24 25 325 326 I-upper_bound
+months 26 32 327 333 I-upper_bound
+

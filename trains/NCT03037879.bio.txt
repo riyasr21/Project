@@ -1,0 +1,86 @@
+Acute 0 5 0 5 B-chronic_disease
+illness 6 13 6 13 I-chronic_disease
+or 14 16 14 16 I-chronic_disease
+infection 17 26 17 26 I-chronic_disease
+
+Controlled 0 10 27 37 O
+or 11 13 38 40 O
+uncontrolled 14 26 41 53 O
+Hypertension 27 39 54 66 B-chronic_disease
+or 40 42 67 69 O
+Diabetes 43 51 70 78 B-chronic_disease
+Mellitus 52 60 79 87 I-chronic_disease
+
+Currently 0 9 88 97 O
+prescribed 10 20 98 108 O
+steroids 21 29 109 117 B-treatment
+, 29 30 117 118 O
+benzodiazepines 31 46 119 134 B-treatment
+, 46 47 134 135 O
+or 48 50 136 138 O
+neuroleptics 51 63 139 151 B-treatment
+
+Level 0 5 152 157 O
+of 6 8 158 160 O
+Spinal 9 15 161 167 B-chronic_disease
+Cord 16 20 168 172 I-chronic_disease
+Injury 21 27 173 179 I-chronic_disease
+between 28 35 180 187 O
+C1 36 38 188 190 O
+and 39 42 191 194 O
+T12 43 46 195 198 O
+
+Multiple 0 8 199 207 B-chronic_disease
+sclerosis 9 18 208 217 I-chronic_disease
+& 19 20 218 219 O
+Parkinson 21 30 220 229 B-chronic_disease
+'s 30 32 229 231 I-chronic_disease
+disease 33 40 232 239 I-chronic_disease
+
+Pre 0 3 240 243 B-clinical_variable
+- 3 4 243 244 I-clinical_variable
+screen 4 10 244 250 I-clinical_variable
+MoCA 11 15 251 255 I-clinical_variable
+score 16 21 256 261 I-clinical_variable
+of 22 24 262 264 O
+< 25 26 265 266 O
+22 27 29 267 269 B-upper_bound
+( 30 31 270 271 O
+to 31 33 271 273 O
+rule 34 38 274 278 O
+out 39 42 279 282 O
+dementia 43 51 283 291 B-chronic_disease
+) 51 52 291 292 O
+
+Primary 0 7 293 300 B-language_fluency
+language 8 16 301 309 I-language_fluency
+is 17 19 310 312 I-language_fluency
+English 20 27 313 320 I-language_fluency
+
+Spinal 0 6 321 327 O
+Cord 7 11 328 332 O
+Injury 12 18 333 339 O
+occurred 19 27 340 348 O
+more 28 32 349 353 O
+than 33 37 354 358 O
+1 38 39 359 360 B-lower_bound
+year 40 44 361 365 I-lower_bound
+ago 45 48 366 369 O
+
+Stroke 0 6 370 376 B-chronic_disease
+
+Vision 0 6 377 383 B-chronic_disease
+impaired 7 15 384 392 I-chronic_disease
+
+more 0 4 393 397 O
+than 5 9 398 402 O
+20/60 10 15 403 408 B-lower_bound
+in 16 18 409 411 O
+worst 19 24 412 417 O
+eye 25 28 418 421 O
+( 29 30 422 423 O
+with 30 34 423 427 O
+prescription 35 47 428 440 O
+eyewear 48 55 441 448 O
+) 55 56 448 449 O
+

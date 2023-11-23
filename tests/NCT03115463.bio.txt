@@ -1,0 +1,24 @@
+Non 0 3 0 3 B-clinical_variable
+- 3 4 3 4 I-clinical_variable
+viable 4 10 4 10 I-clinical_variable
+newborns 11 19 11 19 I-clinical_variable
+
+Prenatally 0 10 20 30 O
+diagnosed 11 20 31 40 O
+congenital 21 31 41 51 B-chronic_disease
+diaphragmatic 32 45 52 65 I-chronic_disease
+hernia 46 52 66 72 I-chronic_disease
+
+Prenatally 0 10 73 83 O
+diagnosed 11 20 84 93 O
+cyanotic 21 29 94 102 B-chronic_disease
+congenital 30 40 103 113 I-chronic_disease
+heart 41 46 114 119 I-chronic_disease
+disease 47 54 120 127 I-chronic_disease
+
+age 0 3 128 131 B-age
+23 4 6 132 134 B-lower_bound
+- 6 7 134 135 O
+30 7 9 135 137 B-upper_bound
+weeks 10 15 138 143 I-upper_bound
+

@@ -1,0 +1,95 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+1 5 6 5 6 B-lower_bound
+day 7 10 7 10 I-lower_bound
+( 11 12 11 12 O
+> 12 13 12 13 O
+38 14 16 14 16 B-lower_bound
+weeks 17 22 17 22 I-lower_bound
+GA 23 25 23 25 I-lower_bound
+neonate 26 33 26 33 I-lower_bound
+or 34 36 34 36 O
+older 37 42 37 42 O
+) 42 43 42 43 O
+to 44 46 44 46 O
+17 47 49 47 49 B-upper_bound
+years 50 55 50 55 I-upper_bound
+
+All 0 3 56 59 O
+patients 4 12 60 68 O
+who 13 16 69 72 O
+are 17 20 73 76 O
+receiving 21 30 77 86 O
+HFNC 31 35 87 91 B-treatment
+for 36 39 92 95 O
+hypoxia 40 47 96 103 B-chronic_disease
+
+Patient 0 7 104 111 O
+who 8 11 112 115 O
+the 12 15 116 119 O
+medical 16 23 120 127 O
+team 24 28 128 132 O
+feels 29 34 133 138 O
+may 35 38 139 142 O
+require 39 46 143 150 O
+urgent 47 53 151 157 O
+escalation 54 64 158 168 O
+of 65 67 169 171 O
+non 68 71 172 175 B-treatment
+- 71 72 175 176 I-treatment
+invasive 72 80 176 184 I-treatment
+therapy 81 88 185 192 I-treatment
+or 89 91 193 195 O
+imminent 92 100 196 204 B-treatment
+intubation 101 111 205 215 I-treatment
+
+Patients 0 8 216 224 O
+less 9 13 225 229 O
+than 14 18 230 234 O
+3 19 20 235 236 B-upper_bound
+kilograms 21 30 237 246 I-upper_bound
+
+Patients 0 8 247 255 O
+less 9 13 256 260 O
+than 14 18 261 265 O
+38 19 21 266 268 B-upper_bound
+weeks 22 27 269 274 I-upper_bound
+gestational 28 39 275 286 B-clinical_variable
+age 40 43 287 290 I-clinical_variable
+
+Patients 0 8 291 299 O
+who 9 12 300 303 O
+are 13 16 304 307 O
+immunocompromised 17 34 308 325 B-chronic_disease
+and/or 35 41 326 332 O
+status 42 48 333 339 O
+post 49 53 340 344 O
+bone 54 58 345 349 B-treatment
+marrow 59 65 350 356 I-treatment
+transplant 66 76 357 367 I-treatment
+
+Patients 0 8 368 376 O
+who 9 12 377 380 O
+are 13 16 381 384 O
+on 17 19 385 387 O
+FIO2 20 24 388 392 B-clinical_variable
+> 25 26 393 394 O
+0.6 27 30 395 398 B-lower_bound
+at 31 33 399 401 O
+the 34 37 402 405 O
+highest 38 45 406 413 O
+level 46 51 414 419 O
+of 52 54 420 422 O
+flow 55 59 423 427 O
+offered 60 67 428 435 O
+within 68 74 436 442 O
+the 75 78 443 446 O
+study 79 84 447 452 O
+
+Patients 0 8 453 461 O
+who 9 12 462 465 O
+have 13 17 466 470 O
+congenital 18 28 471 481 B-chronic_disease
+heart 29 34 482 487 I-chronic_disease
+defects 35 42 488 495 I-chronic_disease
+

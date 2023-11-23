@@ -1,0 +1,64 @@
+Pre 0 3 0 3 O
+- 3 4 3 4 O
+existing 4 12 4 12 O
+dementia 13 21 13 21 B-chronic_disease
+
+Protected 0 9 22 31 O
+population 10 20 32 42 O
+( 21 22 43 44 O
+pregnant 22 30 44 52 B-pregnancy
+, 30 31 52 53 O
+prisoner 32 40 54 62 O
+) 40 41 62 63 O
+
+Serum 0 5 64 69 B-clinical_variable
+Lactate 6 13 70 77 I-clinical_variable
+≥2 14 16 78 80 O
+
+Time 0 4 81 85 O
+of 5 7 86 88 O
+enrollment 8 18 89 99 O
+≤ 19 20 100 101 O
+6 21 22 102 103 B-upper_bound
+hours 23 28 104 109 I-upper_bound
+from 29 33 110 114 O
+initiation 34 44 115 125 O
+of 45 47 126 128 O
+targeted 48 56 129 137 O
+temperature 57 68 138 149 O
+management 69 79 150 160 O
+
+Undergoing 0 10 161 171 O
+targeted 11 19 172 180 B-treatment
+temperature 20 31 181 192 I-treatment
+management 32 42 193 203 I-treatment
+
+dependence 0 10 204 214 O
+on 11 13 215 217 O
+others 14 20 218 224 O
+for 21 24 225 228 O
+activities 25 35 229 239 O
+of 36 38 240 242 O
+daily 39 44 243 248 O
+living 45 51 249 255 O
+( 52 53 256 257 O
+i.e. 53 57 257 261 O
+a 58 59 262 263 O
+modified 60 68 264 272 B-clinical_variable
+Rankin 69 75 273 279 I-clinical_variable
+scale 76 81 280 285 I-clinical_variable
+score 82 87 286 291 I-clinical_variable
+of 88 90 292 294 O
+4 91 92 295 296 B-lower_bound
+or 93 95 297 299 O
+higher 96 102 300 306 O
+) 102 103 306 307 O
+
+severe 0 6 308 314 B-chronic_disease
+brain 7 12 315 320 I-chronic_disease
+injury 13 19 321 327 I-chronic_disease
+
+≥ 0 1 328 329 O
+18 2 4 330 332 B-lower_bound
+years 5 10 333 338 I-lower_bound
+

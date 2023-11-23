@@ -1,0 +1,38 @@
+Adult 0 5 0 5 O
+patients 6 14 6 14 O
+with 15 19 15 19 O
+OSA 20 23 20 23 B-chronic_disease
+considering 24 35 24 35 O
+surgical 36 44 36 44 B-treatment
+treatment 45 54 45 54 I-treatment
+
+Allergy 0 7 55 62 O
+to 8 10 63 65 O
+propofol 11 19 66 74 B-allergy_name
+, 19 20 74 75 O
+soybean 21 28 76 83 B-allergy_name
+oil 29 32 84 87 I-allergy_name
+, 32 33 87 88 O
+egg 34 37 89 92 B-allergy_name
+lecithin 38 46 93 101 I-allergy_name
+or 47 49 102 104 O
+glycerol 50 58 105 113 B-allergy_name
+
+Other 0 5 114 119 O
+contraindication 6 22 120 136 O
+to 23 25 137 139 O
+use 26 29 140 143 O
+of 30 32 144 146 O
+propofol 33 41 147 155 B-treatment
+( 42 43 156 157 O
+decision 43 51 157 165 O
+of 52 54 166 168 O
+anesthesiologist 55 71 169 185 B-treatment
+or 72 74 186 188 O
+otolaryngologist 75 91 189 205 B-treatment
+. 91 92 205 206 O
+) 92 93 206 207 O
+
+Pregnant 0 8 208 216 B-pregnancy
+women 9 14 217 222 B-gender
+

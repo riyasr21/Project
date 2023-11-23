@@ -1,0 +1,83 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+80 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Known 0 5 16 21 O
+sensitivity 6 17 22 33 O
+to 18 20 34 36 O
+etidronate 21 31 37 47 B-treatment
+
+Longstanding 0 12 48 60 O
+diabetes 13 21 61 69 B-chronic_disease
+mellitus 22 30 70 78 I-chronic_disease
+( 31 32 79 80 O
+more 32 36 80 84 O
+than 37 41 85 89 O
+10 42 44 90 92 B-lower_bound
+years 45 50 93 98 I-lower_bound
+) 50 51 98 99 O
+
+Pregnancy 0 9 100 109 B-pregnancy
+
+Severe 0 6 110 116 B-chronic_disease
+renal 7 12 117 122 I-chronic_disease
+impairment 13 23 123 133 I-chronic_disease
+( 24 25 134 135 O
+estimated 25 34 135 144 O
+creatinine 35 45 145 155 B-clinical_variable
+clearance 46 55 156 165 I-clinical_variable
+/ 55 56 165 166 I-clinical_variable
+eGFR 56 60 166 170 I-clinical_variable
+of 61 63 171 173 O
+< 64 65 174 175 O
+30ml 66 70 176 180 B-upper_bound
+/ 70 71 180 181 I-upper_bound
+min 71 74 181 184 I-upper_bound
+calculated 75 85 185 195 O
+using 86 91 196 201 O
+CKD 92 95 202 205 O
+- 95 96 205 206 O
+EPI 96 99 206 209 O
+equation 100 108 210 218 O
+
+Subjects 0 8 219 227 O
+< 9 10 228 229 O
+18 10 12 229 231 B-upper_bound
+or 13 15 232 234 O
+> 16 17 235 236 O
+80 17 19 236 238 B-lower_bound
+years 20 25 239 244 I-lower_bound
+of 26 28 245 247 O
+age 29 32 248 251 B-age
+
+Subjects 0 8 252 260 O
+must 9 13 261 265 O
+be 14 16 266 268 O
+diagnosed 17 26 269 278 O
+with 27 31 279 283 O
+ACDC 32 36 284 288 B-chronic_disease
+based 37 42 289 294 O
+on 43 45 295 297 O
+genetic 46 53 298 305 O
+tests 54 59 306 311 O
+confirming 60 70 312 322 O
+mutation(s 71 81 323 333 O
+) 81 82 333 334 O
+in 83 85 335 337 O
+NT5E 86 90 338 342 O
+and 91 94 343 346 O
+evidence 95 103 347 355 O
+of 104 106 356 358 O
+lower 107 112 359 364 O
+extremity 113 122 365 374 O
+arterial 123 131 375 383 O
+calcifications 132 146 384 398 O
+
+Subjects 0 8 399 407 O
+not 9 12 408 411 O
+diagnosed 13 22 412 421 O
+with 23 27 422 426 O
+ACDC 28 32 427 431 B-chronic_disease
+

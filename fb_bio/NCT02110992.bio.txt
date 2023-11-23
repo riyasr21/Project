@@ -1,0 +1,113 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+/= 5 7 5 7 O
+18 8 10 8 10 B-lower_bound
+
+Minimum 0 7 11 18 B-clinical_variable
+estimated 8 17 19 28 I-clinical_variable
+survival 18 26 29 37 I-clinical_variable
+of 27 29 38 40 O
+> 30 31 41 42 O
+/= 31 33 42 44 O
+3 34 35 45 46 B-lower_bound
+months 36 42 47 53 I-lower_bound
+
+Original 0 8 54 62 O
+pathology 9 18 63 72 O
+report 19 25 73 79 O
+and 26 29 80 83 O
+radiation 30 39 84 93 B-treatment
+therapy 40 47 94 101 I-treatment
+records 48 55 102 109 O
+not 56 59 110 113 O
+available 60 69 114 123 O
+
+Performance 0 11 124 135 B-clinical_variable
+status 12 18 136 142 I-clinical_variable
+score 19 24 143 148 I-clinical_variable
+0 25 26 149 150 B-lower_bound
+- 26 27 150 151 O
+1 27 28 151 152 B-upper_bound
+
+Previous 0 8 153 161 O
+head 9 13 162 166 B-clinical_variable
+and 14 17 167 170 I-clinical_variable
+neck 18 22 171 175 I-clinical_variable
+radiation 23 32 176 185 I-clinical_variable
+( 33 34 186 187 I-clinical_variable
+RT 34 36 187 189 I-clinical_variable
+) 36 37 189 190 I-clinical_variable
+to 38 40 191 193 O
+> 41 42 194 195 O
+/= 42 44 195 197 O
+50 45 47 198 200 B-lower_bound
+Gy 48 50 201 203 I-lower_bound
+
+Primary 0 7 204 211 B-cancer
+tumors 8 14 212 218 I-cancer
+of 15 17 219 221 I-cancer
+the 18 21 222 225 I-cancer
+salivary 22 30 226 234 I-cancer
+gland 31 36 235 240 I-cancer
+
+Prior 0 5 241 246 O
+invasive 6 14 247 255 B-cancer
+malignancy 15 25 256 266 I-cancer
+
+Prior 0 5 267 272 O
+spinal 6 12 273 279 B-clinical_variable
+cord 13 17 280 284 I-clinical_variable
+dose 18 22 285 289 I-clinical_variable
+> 23 24 290 291 O
+45 25 27 292 294 B-lower_bound
+Gy 28 30 295 297 I-lower_bound
+
+Recurrent 0 9 298 307 O
+or 10 12 308 310 O
+second 13 19 311 317 O
+primary 20 27 318 325 O
+squamous 28 36 326 334 B-cancer
+cell 37 41 335 339 I-cancer
+head 42 46 340 344 I-cancer
+and 47 50 345 348 O
+neck 51 55 349 353 B-cancer
+cancer 56 62 354 360 I-cancer
+
+Surgery 0 7 361 368 B-treatment
+or 8 10 369 371 O
+chemotherapy 11 23 372 384 B-treatment
+within 24 30 385 391 O
+4 31 32 392 393 B-upper_bound
+weeks 33 38 394 399 I-upper_bound
+
+Time 0 4 400 404 O
+interval 5 13 405 413 O
+from 14 18 414 418 O
+previous 19 27 419 427 O
+RT 28 30 428 430 O
+> 31 32 431 432 O
+/= 32 34 432 434 O
+9 35 36 435 436 B-lower_bound
+months 37 43 437 443 I-lower_bound
+
+non 0 3 444 447 B-cancer
+- 3 4 447 448 I-cancer
+melanomatous 4 16 448 460 I-cancer
+skin 17 21 461 465 I-cancer
+cancer 22 28 466 472 I-cancer
+
+noninvasive 0 11 473 484 B-cancer
+cancers 12 19 485 492 I-cancer
+are 20 23 493 496 O
+permitted 24 33 497 506 O
+
+unless 0 6 507 513 O
+disease 7 14 514 521 O
+free 15 19 522 526 O
+for 20 23 527 530 O
+a 24 25 531 532 O
+minimum 26 33 533 540 O
+of 34 36 541 543 O
+3 37 38 544 545 B-lower_bound
+years 39 44 546 551 I-lower_bound
+

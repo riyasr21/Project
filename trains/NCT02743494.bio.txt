@@ -1,0 +1,32 @@
+Completed 0 9 0 9 O
+pre 10 13 10 13 B-treatment
+- 13 14 13 14 I-treatment
+operative 14 23 14 23 I-treatment
+chemo 24 29 24 29 I-treatment
+radiotherapy 30 42 30 42 I-treatment
+followed 43 51 43 51 O
+by 52 54 52 54 O
+surgery 55 62 55 62 B-treatment
+
+Diagnosed 0 9 63 72 O
+with 10 14 73 77 O
+Stage 15 20 78 83 B-cancer
+IV 21 23 84 86 I-cancer
+resectable 24 34 87 97 I-cancer
+disease 35 42 98 105 I-cancer
+
+Diagnosed 0 9 106 115 O
+with 10 14 116 120 O
+cervical 15 23 121 129 B-cancer
+esophageal 24 34 130 140 I-cancer
+carcinoma 35 44 141 150 I-cancer
+
+Did 0 3 151 154 O
+not 4 7 155 158 O
+receive 8 15 159 166 O
+concurrent 16 26 167 177 O
+chemoradiotherapy 27 44 178 195 B-treatment
+prior 45 50 196 201 O
+to 51 53 202 204 O
+surgery 54 61 205 212 B-treatment
+

@@ -1,0 +1,33 @@
+ASA 0 3 0 3 B-clinical_variable
+class 4 9 4 9 I-clinical_variable
+1 10 11 10 11 B-lower_bound
+- 11 12 11 12 O
+3 12 13 12 13 B-upper_bound
+
+Age 0 3 14 17 B-age
+, 3 4 17 18 O
+75 5 7 19 21 B-lower_bound
+years 8 13 22 27 I-lower_bound
+and 14 17 28 31 O
+older 18 23 32 37 O
+
+BMI 0 3 38 41 B-bmi
+above 4 9 42 47 O
+18 10 12 48 50 B-lower_bound
+and 13 16 51 54 O
+≤30 17 20 55 58 O
+
+Female 0 6 59 65 B-gender
+
+Male 0 4 66 70 B-gender
+
+Previous 0 8 71 79 B-treatment
+Abdominal 9 18 80 89 I-treatment
+Surgeries 19 28 90 99 I-treatment
+including 29 38 100 109 I-treatment
+abdominal 39 48 110 119 I-treatment
+wall 49 53 120 124 I-treatment
+repair 54 60 125 131 I-treatment
+with 61 65 132 136 I-treatment
+mesh 66 70 137 141 I-treatment
+

@@ -1,0 +1,89 @@
+5 0 1 0 1 B-lower_bound
+to 2 4 2 4 O
+12 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+old 14 17 14 17 O
+
+active 0 6 18 24 O
+or 7 9 25 27 O
+suspected 10 19 28 37 O
+neoplasia 20 29 38 47 B-cancer
+
+cardiomegaly 0 12 48 60 B-chronic_disease
+
+closed 0 6 61 67 O
+epiphyses 7 16 68 77 B-chronic_disease
+
+hepatic 0 7 78 85 B-chronic_disease
+insufficiency 8 21 86 99 I-chronic_disease
+
+history 0 7 100 107 O
+of 8 10 108 110 O
+allergy 11 18 111 118 O
+to 19 21 119 121 O
+IGF-1 22 27 122 127 B-allergy_name
+or 28 30 128 130 O
+any 31 34 131 134 O
+component 35 44 135 144 O
+of 45 47 145 147 O
+the 48 51 148 151 O
+formulation 52 63 152 163 O
+( 64 65 164 165 O
+mecasermin 65 75 165 175 B-allergy_name
+) 75 76 175 176 O
+
+history 0 7 177 184 O
+of 8 10 185 187 O
+extreme 11 18 188 195 O
+prematurity 19 30 196 207 B-clinical_variable
+( 31 32 208 209 O
+< 32 33 209 210 O
+1000 33 37 210 214 B-upper_bound
+grams 38 43 215 220 I-upper_bound
+) 43 44 220 221 O
+with 45 49 222 226 O
+associated 50 60 227 237 O
+early 61 66 238 243 O
+neo 67 70 244 247 O
+- 70 71 247 248 O
+natal 71 76 248 253 O
+complications 77 90 254 267 O
+, 90 91 267 268 O
+e.g. 92 96 269 273 O
+intra 97 102 274 279 B-chronic_disease
+- 102 103 279 280 I-chronic_disease
+cerebral 103 111 280 288 I-chronic_disease
+hemorrhage 112 122 289 299 I-chronic_disease
+, 122 123 299 300 O
+prolonged 124 133 301 310 B-chronic_disease
+hypoxia 134 141 311 318 I-chronic_disease
+, 141 142 318 319 O
+prolonged 143 152 320 329 B-chronic_disease
+hypoglycemia 153 165 330 342 I-chronic_disease
+
+intracranial 0 12 343 355 B-chronic_disease
+hypertension 13 25 356 368 I-chronic_disease
+
+patients 0 8 369 377 O
+with 9 13 378 382 O
+comorbid 14 22 383 391 O
+conditions 23 33 392 402 O
+deemed 34 40 403 409 O
+too 41 44 410 413 O
+medically 45 54 414 423 O
+compromised 55 66 424 435 O
+to 67 69 436 438 O
+tolerate 70 78 439 447 O
+the 79 82 448 451 O
+risk 83 87 452 456 O
+of 88 90 457 459 O
+experimental 91 103 460 472 B-treatment
+treatment 104 113 473 482 I-treatment
+with 114 118 483 487 O
+IGF-1 119 124 488 493 B-treatment
+
+renal 0 5 494 499 B-chronic_disease
+insufficiency 6 19 500 513 I-chronic_disease
+
+valvulopathy 0 12 514 526 B-chronic_disease
+

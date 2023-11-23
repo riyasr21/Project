@@ -1,0 +1,81 @@
+Active 0 6 0 6 B-chronic_disease
+pulmonary 7 16 7 16 I-chronic_disease
+tuberculosis 17 29 17 29 I-chronic_disease
+
+Any 0 3 30 33 O
+disease 4 11 34 41 O
+requiring 12 21 42 51 O
+chronic 22 29 52 59 B-treatment
+immunosuppression 30 47 60 77 I-treatment
+( 48 49 78 79 O
+SLE 49 52 79 82 B-treatment
+, 52 53 82 83 O
+solid 54 59 84 89 B-treatment
+organ 60 65 90 95 I-treatment
+transplant 66 76 96 106 I-treatment
+) 76 77 106 107 O
+
+Human 0 5 108 113 B-chronic_disease
+Immunodeficiency 6 22 114 130 I-chronic_disease
+Virus 23 28 131 136 I-chronic_disease
+Infection 29 38 137 146 I-chronic_disease
+
+Morbid 0 6 147 153 B-chronic_disease
+Obesity 7 14 154 161 I-chronic_disease
+with 15 19 162 166 O
+BMI 20 23 167 170 B-bmi
+> 24 25 171 172 O
+49.99 25 30 172 177 B-lower_bound
+
+Other 0 5 178 183 O
+medical 6 13 184 191 O
+conditions 14 24 192 202 O
+that 25 29 203 207 O
+would 30 35 208 213 O
+exclude 36 43 214 221 O
+women 44 49 222 227 B-gender
+from 50 54 228 232 O
+group 55 60 233 238 O
+care 61 65 239 243 O
+at 66 68 244 246 O
+the 69 72 247 250 O
+discretion 73 83 251 261 O
+of 84 86 262 264 O
+the 87 90 265 268 O
+PI 91 93 269 271 O
+
+Other 0 5 272 277 O
+pregnancy 6 15 278 287 B-pregnancy
+complications 16 29 288 301 O
+that 30 34 302 306 O
+would 35 40 307 312 O
+exclude 41 48 313 320 O
+women 49 54 321 326 B-gender
+from 55 59 327 331 O
+group 60 65 332 337 O
+care 66 70 338 342 O
+at 71 73 343 345 O
+the 74 77 346 349 O
+discretion 78 88 350 360 O
+of 89 91 361 363 O
+the 92 95 364 367 O
+PI 96 98 368 370 O
+
+Patients 0 8 371 379 O
+must 9 13 380 384 O
+be 14 16 385 387 O
+randomized 17 27 388 398 O
+by 28 30 399 401 O
+23 31 33 402 404 O
+6/7 34 37 405 408 O
+weeks 38 43 409 414 O
+gestational 44 55 415 426 O
+age 56 59 427 430 B-age
+
+Pregestational 0 14 431 445 B-chronic_disease
+diabetes 15 23 446 454 I-chronic_disease
+
+Sickle 0 6 455 461 B-chronic_disease
+cell 7 11 462 466 I-chronic_disease
+anemia 12 18 467 473 I-chronic_disease
+

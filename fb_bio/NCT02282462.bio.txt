@@ -1,0 +1,69 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+90 7 9 7 9 B-upper_bound
+
+Undergoing 0 10 10 20 O
+a 11 12 21 22 O
+segmentectomy 13 26 23 36 B-treatment
+, 26 27 36 37 O
+lobectomy 28 37 38 47 B-treatment
+, 37 38 47 48 O
+or 39 41 49 51 O
+bilobectomy 42 53 52 63 B-treatment
+( 54 55 64 65 O
+including 55 64 65 74 O
+sleeve 65 71 75 81 B-treatment
+resection 72 81 82 91 I-treatment
+) 81 82 91 92 O
+
+completion 0 10 93 103 O
+pneumonectomy 11 24 104 117 B-treatment
+
+undergoing 0 10 118 128 O
+anatomic 11 19 129 137 B-treatment
+lung 20 24 138 142 I-treatment
+resection 25 34 143 152 I-treatment
+for 35 38 153 156 O
+bullous 39 46 157 164 B-chronic_disease
+disease 47 54 165 172 I-chronic_disease
+, 54 55 172 173 O
+lung 56 60 174 178 B-chronic_disease
+abscess 61 68 179 186 I-chronic_disease
+or 69 71 187 189 O
+bronchiectasis 72 86 190 204 B-chronic_disease
+
+undergoing 0 10 205 215 O
+non 11 14 216 219 B-treatment
+- 14 15 219 220 I-treatment
+anatomic 15 23 220 228 I-treatment
+lung 24 28 229 233 I-treatment
+resection 29 38 234 243 I-treatment
+only 39 43 244 248 O
+( 44 45 249 250 O
+i.e. 45 49 250 254 O
+wedge 50 55 255 260 B-treatment
+resection 56 65 261 270 I-treatment
+) 65 66 270 271 O
+
+undergoing 0 10 272 282 O
+pneumonectomy 11 24 283 296 B-treatment
+
+unstable 0 8 297 305 O
+enough 9 15 306 312 O
+to 16 18 313 315 O
+require 19 26 316 323 O
+ICU 27 30 324 327 O
+care 31 35 328 332 O
+for 36 39 333 336 O
+hemodynamic 40 51 337 348 B-chronic_disease
+or 52 54 349 351 I-chronic_disease
+respiratory 55 66 352 363 I-chronic_disease
+problems 67 75 364 372 I-chronic_disease
+during 76 82 373 379 O
+the 83 86 380 383 O
+first 87 92 384 389 O
+7 93 94 390 391 B-upper_bound
+days 95 99 392 396 I-upper_bound
+postoperatively 100 115 397 412 O
+

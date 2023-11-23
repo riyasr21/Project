@@ -1,0 +1,25 @@
+Age 0 3 0 3 B-age
+30 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+100 7 10 7 10 B-upper_bound
+
+Candidate 0 9 11 20 O
+for 10 13 21 24 O
+topical 14 21 25 32 B-treatment
+anesthesia 22 32 33 43 I-treatment
+
+Have 0 4 44 48 O
+any 5 8 49 52 O
+other 9 14 53 58 O
+significant 15 26 59 70 O
+ocular 27 33 71 77 B-chronic_disease
+comorbidities 34 47 78 91 I-chronic_disease
+
+Have 0 4 92 96 O
+known 5 10 97 102 O
+systemic 11 19 103 111 O
+immuno 20 26 112 118 B-chronic_disease
+- 26 27 118 119 I-chronic_disease
+compromised 27 38 119 130 I-chronic_disease
+state 39 44 131 136 O
+

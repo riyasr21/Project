@@ -1,0 +1,44 @@
+Active 0 6 0 6 B-chronic_disease
+psychosis 7 16 7 16 I-chronic_disease
+and/or 17 23 17 23 O
+a 24 25 24 25 O
+suicide 26 33 26 33 B-chronic_disease
+attempt 34 41 34 41 I-chronic_disease
+in 42 44 42 44 O
+the 45 48 45 48 O
+previous 49 57 49 57 O
+year 58 62 58 62 O
+
+Eating 0 6 63 69 B-chronic_disease
+disorders 7 16 70 79 I-chronic_disease
+
+Enrolled 0 8 80 88 O
+in 9 11 89 91 O
+grades 12 18 92 98 B-lower_bound
+3 19 20 99 100 I-lower_bound
+- 20 21 100 101 O
+7 21 22 101 102 B-upper_bound
+
+Have 0 4 103 107 O
+a 5 6 108 109 O
+primary 7 14 110 117 O
+clinical 15 23 118 126 O
+problem 24 31 127 134 O
+in 32 34 135 137 O
+the 35 38 138 141 O
+areas 39 44 142 147 O
+of 45 47 148 150 O
+anxiety 48 55 151 158 B-chronic_disease
+, 55 56 158 159 O
+depression 57 67 160 170 B-chronic_disease
+, 67 68 170 171 O
+conduct 69 76 172 179 O
+, 76 77 179 180 O
+or 78 80 181 183 O
+posttraumatic 81 94 184 197 B-chronic_disease
+stress 95 101 198 204 I-chronic_disease
+
+Pervasive 0 9 205 214 B-chronic_disease
+developmental 10 23 215 228 I-chronic_disease
+disorder 24 32 229 237 I-chronic_disease
+

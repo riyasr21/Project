@@ -1,0 +1,82 @@
+18 0 2 0 2 B-lower_bound
++ 2 3 2 3 I-lower_bound
+years 4 9 4 9 I-lower_bound
+old 10 13 10 13 O
+
+English- 0 8 14 22 B-language_fluency
+or 9 11 23 25 I-language_fluency
+Spanish 12 19 26 33 I-language_fluency
+- 19 20 33 34 I-language_fluency
+speaking 20 28 34 42 I-language_fluency
+
+Evidence 0 8 43 51 O
+of 9 11 52 54 O
+severe 12 18 55 61 B-chronic_disease
+cognitive 19 28 62 71 I-chronic_disease
+impairment 29 39 72 82 I-chronic_disease
+or 40 42 83 85 O
+active 43 49 86 92 B-chronic_disease
+psychosis 50 59 93 102 I-chronic_disease
+, 59 60 102 103 O
+as 61 63 104 106 O
+determined 64 74 107 117 O
+by 75 77 118 120 O
+the 78 81 121 124 O
+Project 82 89 125 132 O
+Director 90 98 133 141 O
+in 99 101 142 144 O
+consultation 102 114 145 157 O
+with 115 119 158 162 O
+the 120 123 163 166 O
+Principal 124 133 167 176 O
+Investigator 134 146 177 189 O
+
+Evidence 0 8 190 198 O
+of 9 11 199 201 O
+suboptimal 12 22 202 212 O
+engagement 23 33 213 223 O
+in 34 36 224 226 O
+HIV 37 40 227 230 B-chronic_disease
+care 41 45 231 235 O
+, 45 46 235 236 O
+as 47 49 237 239 O
+indicated 50 59 240 249 O
+by 60 62 250 252 O
+one 63 66 253 256 O
+or 67 69 257 259 O
+more 70 74 260 264 O
+
+HIV+ 0 4 265 269 B-chronic_disease
+confirmed 5 14 270 279 O
+via 15 18 280 283 O
+antibody 19 27 284 292 O
+testing 28 35 293 300 O
+
+If 0 2 301 303 O
+on 3 5 304 306 O
+ART 6 9 307 310 B-treatment
+, 9 10 310 311 O
+reporting 11 20 312 321 O
+less 21 25 322 326 O
+than 26 30 327 331 O
+perfect 31 38 332 339 O
+adherence 39 48 340 349 O
+on 49 51 350 352 O
+a 52 53 353 354 O
+validated 54 63 355 364 O
+adherence 64 73 365 374 O
+rating 74 80 375 381 O
+scale 81 86 382 387 O
+
+Reporting 0 9 388 397 O
+no 10 12 398 400 O
+HIV 13 16 401 404 B-chronic_disease
+primary 17 24 405 412 O
+care 25 29 413 417 O
+appointments 30 42 418 430 O
+in 43 45 431 433 O
+the 46 49 434 437 O
+prior 50 55 438 443 B-upper_bound
+6 56 57 444 445 I-upper_bound
+months 58 64 446 452 I-upper_bound
+

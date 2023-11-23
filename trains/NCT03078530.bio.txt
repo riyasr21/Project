@@ -1,0 +1,83 @@
+Clinically 0 10 0 10 O
+significant 11 22 11 22 O
+chronic 23 30 23 30 B-chronic_disease
+disease 31 38 31 38 I-chronic_disease
+
+HIV 0 3 39 42 B-chronic_disease
+, 3 4 42 43 O
+cardiac 5 12 44 51 B-chronic_disease
+, 12 13 51 52 O
+pulmonary 14 23 53 62 B-chronic_disease
+, 23 24 62 63 O
+hepatic 25 32 64 71 B-chronic_disease
+or 33 35 72 74 O
+renal 36 41 75 80 B-chronic_disease
+dysfunction 42 53 81 92 I-chronic_disease
+
+History 0 7 93 100 O
+of 8 10 101 103 O
+/ 10 11 103 104 O
+or 11 13 104 106 O
+presence 14 22 107 115 O
+of 23 25 116 118 O
+systemic 26 34 119 127 B-cancer
+malignancy 35 45 128 138 I-cancer
+
+Negative 0 8 139 147 O
+Tissue 9 15 148 154 B-clinical_variable
+transglutaminase 16 32 155 171 I-clinical_variable
+( 33 34 172 173 I-clinical_variable
+TTG 34 37 173 176 I-clinical_variable
+) 37 38 176 177 I-clinical_variable
+for 39 42 178 181 O
+celiac 43 49 182 188 B-chronic_disease
+disease 50 57 189 196 I-chronic_disease
+
+Normal 0 6 197 203 O
+gross 7 12 204 209 O
+appearance 13 23 210 220 O
+of 24 26 221 223 O
+the 27 30 224 227 O
+colonic 31 38 228 235 B-chronic_disease
+mucosa 39 45 236 242 I-chronic_disease
+other 46 51 243 248 O
+than 52 56 249 253 O
+erythema 57 65 254 262 B-chronic_disease
+and 66 69 263 266 O
+polyps 70 76 267 273 B-chronic_disease
+
+Positive 0 8 274 282 B-pregnancy
+pregnancy 9 18 283 292 I-pregnancy
+test 19 23 293 297 O
+
+Symptoms 0 8 298 306 O
+of 9 11 307 309 O
+> 12 13 310 311 O
+6 14 15 312 313 B-lower_bound
+months 16 22 314 320 I-lower_bound
+duration 23 31 321 329 O
+
+Veterans 0 8 330 338 O
+with 9 13 339 343 O
+psychological 14 27 344 357 B-chronic_disease
+disorders 28 37 358 367 I-chronic_disease
+will 38 42 368 372 O
+not 43 46 373 376 O
+be 47 49 377 379 O
+excluded 50 58 380 388 O
+but 59 62 389 392 O
+will 63 67 393 397 O
+be 68 70 398 400 O
+identified 71 81 401 411 O
+for 82 85 412 415 O
+sub 86 89 416 419 O
+- 89 90 419 420 O
+group 90 95 420 425 O
+analysis 96 104 426 434 O
+
+age 0 3 435 438 B-age
+35 4 6 439 441 B-lower_bound
+- 6 7 441 442 O
+75 7 9 442 444 B-upper_bound
+years 10 15 445 450 I-upper_bound
+

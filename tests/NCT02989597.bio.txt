@@ -1,0 +1,61 @@
+ASA 0 3 0 3 B-clinical_variable
+grades 4 10 4 10 I-clinical_variable
+I 11 12 11 12 B-lower_bound
+- 12 13 12 13 O
+III 13 16 13 16 B-upper_bound
+
+Obstructive 0 11 17 28 B-chronic_disease
+sleep 12 17 29 34 I-chronic_disease
+apnea 18 23 35 40 I-chronic_disease
+
+Prolonged 0 9 41 50 B-clinical_variable
+QTc 10 13 51 54 I-clinical_variable
+on 14 16 55 57 O
+pre 17 20 58 61 O
+- 20 21 61 62 O
+operative 21 30 62 71 O
+EKG 31 34 72 75 O
+
+Pulmonary 0 9 76 85 B-chronic_disease
+disease 10 17 86 93 I-chronic_disease
+requiring 18 27 94 103 O
+home 28 32 104 108 B-treatment
+oxygen 33 39 109 115 I-treatment
+therapy 40 47 116 123 I-treatment
+
+Renal 0 5 124 129 B-chronic_disease
+failure 6 13 130 137 I-chronic_disease
+requiring 14 23 138 147 O
+dialysis 24 32 148 156 B-treatment
+
+Severe 0 6 157 163 B-chronic_disease
+heart 7 12 164 169 I-chronic_disease
+disease 13 20 170 177 I-chronic_disease
+
+Treatment 0 9 178 187 O
+with 10 14 188 192 O
+other 15 20 193 198 O
+NMDA 21 25 199 203 B-treatment
+receptor 26 34 204 212 I-treatment
+antagonists 35 46 213 224 I-treatment
+
+Undergoing 0 10 225 235 O
+lumbar 11 17 236 242 B-treatment
+fusion 18 24 243 249 I-treatment
+surgery 25 32 250 257 I-treatment
+
+age 0 3 258 261 B-age
+between 4 11 262 269 O
+18 12 14 270 272 B-lower_bound
+- 14 15 272 273 O
+80 15 17 273 275 B-upper_bound
+
+body 0 4 276 280 B-bmi
+mass 5 9 281 285 I-bmi
+index 10 15 286 291 I-bmi
+> 16 17 292 293 O
+50 18 20 294 296 B-lower_bound
+kg 21 23 297 299 I-lower_bound
+/ 23 24 299 300 I-lower_bound
+m2 24 26 300 302 I-lower_bound
+

@@ -1,0 +1,53 @@
+Aspirin 0 7 0 7 B-chronic_disease
+exacerbated 8 19 8 19 I-chronic_disease
+respiratory 20 31 20 31 I-chronic_disease
+disease 32 39 32 39 I-chronic_disease
+
+CRSsNP 0 6 40 46 B-chronic_disease
+as 7 9 47 49 O
+defined 10 17 50 57 O
+by 18 20 58 60 O
+Clinical 21 29 61 69 O
+Practice 30 38 70 78 O
+Guideline 39 48 79 88 O
+( 49 50 89 90 O
+Update 50 56 90 96 O
+) 56 57 96 97 O
+on 58 60 98 100 O
+Adult 61 66 101 106 O
+Sinusitis 67 76 107 116 B-chronic_disease
+
+Immunosuppressive 0 17 117 134 O
+states 18 24 135 141 O
+( 25 26 142 143 O
+Human 26 31 143 148 B-chronic_disease
+immunodeficiency 32 48 149 165 I-chronic_disease
+virus 49 54 166 171 I-chronic_disease
+, 54 55 171 172 O
+transplant 56 66 173 183 B-treatment
+) 66 67 183 184 O
+
+Oral 0 4 185 189 B-treatment
+steroid 5 12 190 197 I-treatment
+use 13 16 198 201 O
+within 17 23 202 208 O
+30 24 26 209 211 B-upper_bound
+days 27 31 212 216 I-upper_bound
+of 32 34 217 219 O
+surgery 35 42 220 227 B-treatment
+
+chronic 0 7 228 235 B-chronic_disease
+rhinosinusitis 8 22 236 250 I-chronic_disease
+with 23 27 251 255 I-chronic_disease
+polyps 28 34 256 262 I-chronic_disease
+( 35 36 263 264 I-chronic_disease
+CRSwNP 36 42 264 270 I-chronic_disease
+) 42 43 270 271 I-chronic_disease
+
+scheduled 0 9 272 281 O
+to 10 12 282 284 O
+undergo 13 20 285 292 O
+endoscopic 21 31 293 303 B-treatment
+sinus 32 37 304 309 I-treatment
+surgery 38 45 310 317 I-treatment
+

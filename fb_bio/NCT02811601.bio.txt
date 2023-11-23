@@ -1,0 +1,6 @@
+Patients 0 8 0 8 O
+unfit 9 14 9 14 O
+for 15 18 15 18 O
+laparoscopic 19 31 19 31 B-treatment
+surgery 32 39 32 39 I-treatment
+

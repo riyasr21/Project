@@ -1,0 +1,63 @@
+Age 0 3 0 3 B-age
+> 4 5 4 5 O
+/= 5 7 5 7 O
+18 8 10 8 10 B-lower_bound
+years 11 16 11 16 I-lower_bound
+
+Collected 0 9 17 26 O
+tumor 10 15 27 32 B-cancer
+tissue 16 22 33 39 O
+is 23 25 40 42 O
+inadequate 26 36 43 53 O
+for 37 40 54 57 O
+DNA 41 44 58 61 O
+and 45 48 62 65 O
+RNA 49 52 66 69 O
+analysis 53 61 70 78 O
+and/or 62 68 79 85 O
+is 69 71 86 88 O
+not 72 75 89 92 O
+positive 76 84 93 101 O
+for 85 88 102 105 O
+adenocarcinoma 89 103 106 120 B-cancer
+of 104 106 121 123 I-cancer
+the 107 110 124 127 I-cancer
+prostate 111 119 128 136 I-cancer
+
+Patients 0 8 137 145 O
+with 9 13 146 150 O
+prior 14 19 151 156 B-treatment
+systemic 20 28 157 165 I-treatment
+therapy 29 36 166 173 I-treatment
+will 37 41 174 178 O
+not 42 45 179 182 O
+be 46 48 183 185 O
+eligible 49 57 186 194 O
+for 58 61 195 198 O
+the 62 65 199 202 O
+study 66 71 203 208 O
+, 71 72 208 209 O
+i.e. 73 77 210 214 O
+radiation 78 87 215 224 B-treatment
+or 88 90 225 227 O
+chemo 91 96 228 233 B-treatment
+or 97 99 234 236 O
+immunotherapy 100 113 237 250 B-treatment
+
+Self 0 4 251 255 O
+- 4 5 255 256 O
+reported 5 13 256 264 O
+race 14 18 265 269 O
+of 19 21 270 272 O
+African 22 29 273 280 B-ethnicity
+American 30 38 281 289 I-ethnicity
+or 39 41 290 292 O
+Caucasian 42 51 293 302 B-ethnicity
+American 52 60 303 311 I-ethnicity
+
+Suspected 0 9 312 321 O
+malignancy 10 20 322 332 B-cancer
+of 21 23 333 335 I-cancer
+prostate 24 32 336 344 I-cancer
+cancer 33 39 345 351 I-cancer
+

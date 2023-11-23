@@ -1,0 +1,62 @@
+English 0 7 0 7 B-language_fluency
+speaking 8 16 8 16 I-language_fluency
+
+have 0 4 17 21 O
+a 5 6 22 23 O
+MMSE 7 11 24 28 B-clinical_variable
+< 12 13 29 30 O
+28 14 16 31 33 B-upper_bound
+
+have 0 4 34 38 O
+an 5 7 39 41 O
+adult 8 13 42 47 O
+family 14 20 48 54 O
+member 21 27 55 61 O
+or 28 30 62 64 O
+other 31 36 65 70 O
+caregiver 37 46 71 80 O
+, 46 47 80 81 O
+age 48 51 82 85 B-age
+> 52 53 86 87 O
+21 53 55 87 89 B-lower_bound
+, 55 56 89 90 O
+to 57 59 91 93 O
+participate 60 71 94 105 O
+in 72 74 106 108 O
+video 75 80 109 114 O
+feedback 81 89 115 123 O
+
+have 0 4 124 128 O
+at 5 7 129 131 O
+least 8 13 132 137 O
+10 14 16 138 140 B-lower_bound
+years 17 22 141 146 I-lower_bound
+of 23 25 147 149 O
+driving 26 33 150 157 O
+experience 34 44 158 168 O
+
+language 0 8 169 177 B-chronic_disease
+impairment 9 19 178 188 I-chronic_disease
+that 20 24 189 193 O
+would 25 30 194 199 O
+interfere 31 40 200 209 O
+with 41 45 210 214 O
+the 46 49 215 218 O
+ability 50 57 219 226 O
+to 58 60 227 229 O
+participate 61 72 230 241 O
+in 73 75 242 244 O
+the 76 79 245 248 O
+educational 80 91 249 260 O
+intervention 92 104 261 273 O
+
+will 0 4 274 278 O
+be 5 7 279 281 O
+categorized 8 19 282 293 O
+as 20 22 294 296 O
+CDR= 23 27 297 301 B-clinical_variable
+0.5 28 31 302 305 B-lower_bound
+, 31 32 305 306 O
+or 33 35 307 309 O
+1 36 37 310 311 B-upper_bound
+

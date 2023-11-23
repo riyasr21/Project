@@ -1,0 +1,118 @@
+Botulinum 0 9 0 9 B-treatment
+toxin 10 15 10 15 I-treatment
+therapy 16 23 16 23 I-treatment
+in 24 26 24 26 O
+either 27 33 27 33 O
+upper 34 39 34 39 O
+extremity 40 49 40 49 O
+during 50 56 50 56 O
+last 57 61 57 61 B-upper_bound
+2 62 63 62 63 I-upper_bound
+months 64 70 64 70 I-upper_bound
+, 70 71 70 71 O
+or 72 74 72 74 O
+planned 75 82 75 82 O
+during 83 89 83 89 O
+study 90 95 90 95 O
+period 96 102 96 102 O
+
+Current 0 7 103 110 O
+medical 8 15 111 118 B-chronic_disease
+illness 16 23 119 126 I-chronic_disease
+unrelated 24 33 127 136 O
+to 34 36 137 139 O
+CP 37 39 140 142 B-chronic_disease
+
+Currently 0 9 143 152 O
+receiving 10 19 153 162 O
+intrathecal 20 31 163 174 B-treatment
+baclofen 32 40 175 183 I-treatment
+
+Diagnosis 0 9 184 193 O
+of 10 12 194 196 O
+hemiplegic 13 23 197 207 B-chronic_disease
+Cerebral 24 32 208 216 I-chronic_disease
+Palsy 33 38 217 222 I-chronic_disease
+
+Dorsal 0 6 223 229 B-treatment
+root 7 11 230 234 I-treatment
+rhizotomy 12 21 235 244 I-treatment
+
+Orthopedic 0 10 245 255 B-treatment
+surgery 11 18 256 263 I-treatment
+in 19 21 264 266 O
+affected 22 30 267 275 O
+arm 31 34 276 279 O
+within 35 41 280 286 O
+2 42 43 287 288 B-upper_bound
+years 44 49 289 294 I-upper_bound
+
+Previous 0 8 295 303 O
+episode 9 16 304 311 O
+of 17 19 312 314 O
+neurocardiogenic 20 36 315 331 B-chronic_disease
+snycopy 37 44 332 339 I-chronic_disease
+
+Seizure 0 7 340 347 B-chronic_disease
+beyond 8 14 348 354 O
+age 15 18 355 358 B-age
+2 19 20 359 360 B-lower_bound
+
+Severe 0 6 361 367 O
+spasticity 7 17 368 378 B-chronic_disease
+
+Visual 0 6 379 385 B-chronic_disease
+problems 7 15 386 394 I-chronic_disease
+( 16 17 395 396 O
+uncorrected 17 28 396 407 O
+by 29 31 408 410 O
+glasses 32 39 411 418 O
+/ 39 40 418 419 O
+contact 40 47 419 426 O
+lenses 48 54 427 433 O
+) 54 55 433 434 O
+
+deices 0 6 435 441 O
+that 7 11 442 446 O
+may 12 15 447 450 O
+be 16 18 451 453 O
+affected 19 27 454 462 O
+by 28 30 463 465 O
+TMS 31 34 466 469 B-treatment
+( 35 36 470 471 O
+pacemaker 36 45 471 480 B-treatment
+, 45 46 480 481 O
+medication 47 57 482 492 B-treatment
+pump 58 62 493 497 I-treatment
+, 62 63 497 498 O
+cochlear 64 72 499 507 B-treatment
+implant 73 80 508 515 I-treatment
+, 80 81 515 516 O
+implanted 82 91 517 526 B-treatment
+brain 92 97 527 532 I-treatment
+stimulator 98 108 533 543 I-treatment
+) 108 109 543 544 O
+
+history 0 7 545 552 O
+of 8 10 553 555 O
+epilepsy 11 19 556 564 B-chronic_disease
+( 20 21 565 566 O
+in 21 23 566 568 O
+self 24 28 569 573 O
+or 29 31 574 576 O
+first 32 37 577 582 O
+degree 38 44 583 589 O
+relatives 45 54 590 599 O
+) 54 55 599 600 O
+
+structural 0 10 601 611 O
+brain 11 16 612 617 B-chronic_disease
+lesion 17 23 618 624 I-chronic_disease
+
+use 0 3 625 628 O
+of 4 6 629 631 O
+anti 7 11 632 636 B-treatment
+- 11 12 636 637 I-treatment
+seizure 12 19 637 644 I-treatment
+medication 20 30 645 655 I-treatment
+

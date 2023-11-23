@@ -1,0 +1,45 @@
+Adults 0 6 0 6 O
+18 7 9 7 9 B-lower_bound
+years 10 15 10 15 I-lower_bound
+of 16 18 16 18 O
+age 19 22 19 22 B-age
+and 23 26 23 26 O
+older 27 32 27 32 O
+
+Healthy 0 7 33 40 O
+subjects 8 16 41 49 O
+without 17 24 50 57 O
+known 25 30 58 63 O
+cardiovascular 31 45 64 78 B-chronic_disease
+disease 46 53 79 86 I-chronic_disease
+and 54 57 87 90 O
+thyroid 58 65 91 98 B-chronic_disease
+disease 66 73 99 106 I-chronic_disease
+
+No 0 2 107 109 O
+prior 3 8 110 115 O
+history 9 16 116 123 O
+of 17 19 124 126 O
+caffeine 20 28 127 135 B-allergy_name
+sensitivity 29 40 136 147 O
+or 41 43 148 150 O
+allergy 44 51 151 158 O
+
+Pregnancy 0 9 159 168 B-pregnancy
+
+Prior 0 5 169 174 O
+history 6 13 175 182 O
+of 14 16 183 185 O
+caffeine 17 25 186 194 B-allergy_name
+sensitivity 26 37 195 206 O
+or 38 40 207 209 O
+allergy 41 48 210 217 O
+
+Subjects 0 8 218 226 O
+with 9 13 227 231 O
+known 14 19 232 237 O
+cardiovascular 20 34 238 252 B-chronic_disease
+and/or 35 41 253 259 O
+thyroid 42 49 260 267 B-chronic_disease
+disease 50 57 268 275 I-chronic_disease
+

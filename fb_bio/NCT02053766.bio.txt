@@ -1,0 +1,87 @@
+Anesthesia 0 10 0 10 B-treatment
+time 11 15 11 15 O
+is 16 18 16 18 O
+less 19 23 19 23 O
+than 24 28 24 28 O
+one 29 32 29 32 B-upper_bound
+hour 33 37 33 37 I-upper_bound
+
+Subject 0 7 38 45 O
+has 8 11 46 49 O
+been 12 16 50 54 O
+diagnosed 17 26 55 64 O
+with 27 31 65 69 O
+mitochondrial 32 45 70 83 B-chronic_disease
+dysfunction 46 57 84 95 I-chronic_disease
+based 58 63 96 101 O
+on 64 66 102 104 O
+modified 67 75 105 113 O
+Walker 76 82 114 120 O
+criteria 83 91 121 129 O
+
+Subject 0 7 130 137 O
+has 8 11 138 141 O
+participated 12 24 142 154 O
+in 25 27 155 157 O
+the 28 31 158 161 O
+same 32 36 162 166 O
+study 37 42 167 172 O
+within 43 49 173 179 O
+48 50 52 180 182 B-upper_bound
+hours 53 58 183 188 I-upper_bound
+
+Subject 0 7 189 196 O
+is 8 10 197 199 O
+a 11 12 200 201 O
+nursing 13 20 202 209 O
+female 21 27 210 216 B-gender
+
+Subject 0 7 217 224 O
+is 8 10 225 227 O
+between 11 18 228 235 O
+0 19 20 236 237 B-lower_bound
+- 21 22 238 239 O
+17 23 25 240 242 B-upper_bound
+years 26 31 243 248 I-upper_bound
+of 32 34 249 251 O
+age 35 38 252 255 B-age
+
+Subject 0 7 256 263 O
+is 8 10 264 266 O
+older 11 16 267 272 O
+than 17 21 273 277 O
+17 22 24 278 280 B-lower_bound
+years 25 30 281 286 I-lower_bound
+
+Subject 0 7 287 294 O
+is 8 10 295 297 O
+pregnant 11 19 298 306 B-pregnancy
+
+Subject 0 7 307 314 O
+is 8 10 315 317 O
+scheduled 11 20 318 327 O
+to 21 23 328 330 O
+have 24 28 331 335 O
+a 29 30 336 337 O
+non 31 34 338 341 B-treatment
+- 34 35 341 342 I-treatment
+emergent 35 43 342 350 I-treatment
+diagnostic 44 54 351 361 I-treatment
+or 55 57 362 364 O
+therapeutic 58 69 365 376 B-treatment
+procedure 70 79 377 386 I-treatment
+for 80 83 387 390 O
+routine 84 91 391 398 O
+medical 92 99 399 406 O
+care 100 104 407 411 O
+requiring 105 114 412 421 O
+general 115 122 422 429 B-treatment
+anesthesia 123 133 430 440 I-treatment
+estimated 134 143 441 450 O
+to 144 146 451 453 O
+last 147 151 454 458 O
+at 152 154 459 461 O
+least 155 160 462 467 O
+one 161 164 468 471 B-lower_bound
+hour 165 169 472 476 I-lower_bound
+

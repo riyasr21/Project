@@ -1,0 +1,47 @@
+Histologically 0 14 0 14 O
+confirmed 15 24 15 24 O
+, 24 25 24 25 O
+stage 26 31 26 31 B-cancer
+IV 32 34 32 34 I-cancer
+or 35 37 35 37 I-cancer
+recurrent 38 47 38 47 I-cancer
+non 48 51 48 51 I-cancer
+- 51 52 51 52 I-cancer
+small 52 57 52 57 I-cancer
+cell 58 62 58 62 I-cancer
+lung 63 67 63 67 I-cancer
+cancer 68 74 68 74 I-cancer
+with 75 79 75 79 O
+no 80 82 80 82 O
+prior 83 88 83 88 B-treatment
+systemic 89 97 89 97 I-treatment
+anticancer 98 108 98 108 I-treatment
+therapy 109 116 109 116 I-treatment
+given 117 122 117 122 O
+as 123 125 123 125 O
+primary 126 133 126 133 B-treatment
+therapy 134 141 134 141 I-treatment
+for 142 145 142 145 O
+advanced 146 154 146 154 O
+or 155 157 155 157 O
+metastatic 158 168 158 168 B-cancer
+disease 169 176 169 176 I-cancer
+
+Participants 0 12 177 189 O
+with 13 17 190 194 O
+active 18 24 195 201 O
+, 24 25 201 202 O
+known 26 31 203 208 O
+or 32 34 209 211 O
+suspected 35 44 212 221 O
+autoimmune 45 55 222 232 B-chronic_disease
+disease 56 63 233 240 I-chronic_disease
+
+Patients 0 8 241 249 O
+with 9 13 250 254 O
+untreated 14 23 255 264 O
+central 24 31 265 272 B-cancer
+nervous 32 39 273 280 I-cancer
+system 40 46 281 287 I-cancer
+metastases 47 57 288 298 I-cancer
+

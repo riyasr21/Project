@@ -1,0 +1,79 @@
+Active 0 6 0 6 B-chronic_disease
+autoimmune 7 17 7 17 I-chronic_disease
+disorder 18 26 18 26 I-chronic_disease
+( 27 28 27 28 O
+with 28 32 28 32 O
+the 33 36 33 36 O
+exception 37 46 37 46 O
+of 47 49 47 49 O
+autoimmune 50 60 50 60 B-chronic_disease
+hemolytic 61 70 61 70 I-chronic_disease
+anemia 71 77 71 77 I-chronic_disease
+or 78 80 78 80 O
+ITP 81 84 81 84 B-chronic_disease
+) 84 85 84 85 O
+
+Any 0 3 86 89 O
+major 4 9 90 95 B-treatment
+surgery 10 17 96 103 I-treatment
+, 17 18 103 104 O
+chemotherapy 19 31 105 117 B-treatment
+or 32 34 118 120 O
+immunotherapy 35 48 121 134 B-treatment
+within 49 55 135 141 O
+the 56 59 142 145 O
+last 60 64 146 150 B-upper_bound
+14 65 67 151 153 I-upper_bound
+days 68 72 154 158 I-upper_bound
+
+Confirmed 0 9 159 168 O
+diagnosis 10 19 169 178 O
+of 20 22 179 181 O
+B 23 24 182 183 B-cancer
+- 24 25 183 184 I-cancer
+cell 25 29 184 188 I-cancer
+Chronic 30 37 189 196 I-cancer
+Lymphocytic 38 49 197 208 I-cancer
+Leukemia 50 58 209 217 I-cancer
+
+Eastern 0 7 218 225 B-clinical_variable
+Cooperative 8 19 226 237 I-clinical_variable
+Oncology 20 28 238 246 I-clinical_variable
+Group 29 34 247 252 I-clinical_variable
+( 35 36 253 254 I-clinical_variable
+ECOG 36 40 254 258 I-clinical_variable
+) 40 41 258 259 I-clinical_variable
+score 42 47 260 265 I-clinical_variable
+of 48 50 266 268 O
+0 51 52 269 270 B-lower_bound
+to 53 55 271 273 O
+2 56 57 274 275 B-upper_bound
+
+Known 0 5 276 281 O
+hepatitis 6 15 282 291 B-chronic_disease
+B 16 17 292 293 I-chronic_disease
+virus 18 23 294 299 I-chronic_disease
+, 23 24 299 300 O
+hepatitis 25 34 301 310 B-chronic_disease
+C 35 36 311 312 I-chronic_disease
+virus 37 42 313 318 I-chronic_disease
+or 43 45 319 321 O
+HIV 46 49 322 325 B-chronic_disease
+infection 50 59 326 335 I-chronic_disease
+
+Refractory 0 10 336 346 O
+to 11 13 347 349 O
+or 14 16 350 352 O
+relapsed 17 25 353 361 O
+after 26 31 362 367 O
+at 32 34 368 370 O
+least 35 40 371 376 O
+1 41 42 377 378 B-lower_bound
+prior 43 48 379 384 O
+treatment 49 58 385 394 O
+regimen 59 66 395 402 O
+
+Richter 0 7 403 410 B-cancer
+'s 7 9 410 412 I-cancer
+Transformation 10 24 413 427 I-cancer
+

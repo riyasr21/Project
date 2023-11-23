@@ -1,0 +1,25 @@
+18 0 2 0 2 B-lower_bound
+and 3 6 3 6 O
+older 7 12 7 12 O
+
+Under 0 5 13 18 O
+18 6 8 19 21 B-upper_bound
+
+diagnosed 0 9 22 31 O
+with 10 14 32 36 O
+breast 15 21 37 43 B-cancer
+cancer 22 28 44 50 I-cancer
+, 28 29 50 51 O
+lung 30 34 52 56 B-cancer
+cancer 35 41 57 63 I-cancer
+, 41 42 63 64 O
+or 43 45 65 67 O
+gastro 46 52 68 74 B-cancer
+- 52 53 74 75 I-cancer
+intestinal 53 63 75 85 I-cancer
+cancer 64 70 86 92 I-cancer
+
+past 0 4 93 97 O
+cancer(s 5 13 98 106 B-cancer
+) 13 14 106 107 I-cancer
+

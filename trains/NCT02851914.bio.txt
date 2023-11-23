@@ -1,0 +1,69 @@
+ALS 0 3 0 3 B-clinical_variable
+- 3 4 3 4 I-clinical_variable
+FRS 4 7 4 7 I-clinical_variable
+score 8 13 8 13 I-clinical_variable
+< 14 15 14 15 O
+26 16 18 16 18 B-upper_bound
+
+BDI 0 3 19 22 B-clinical_variable
+score 4 9 23 28 I-clinical_variable
+19 10 12 29 31 B-lower_bound
+or 13 15 32 34 O
+above 16 21 35 40 O
+
+Currently 0 9 41 50 O
+on 10 12 51 53 O
+SSRIs 13 18 54 59 B-treatment
+or 19 21 60 62 O
+TCAs 22 26 63 67 B-treatment
+
+Currently 0 9 68 77 O
+on 10 12 78 80 O
+other 13 18 81 86 O
+antidepressants 19 34 87 102 B-treatment
+such 35 39 103 107 O
+as 40 42 108 110 O
+monoamine 43 52 111 120 B-treatment
+oxidase 53 60 121 128 I-treatment
+inhibitors 61 71 129 139 I-treatment
+( 72 73 140 141 I-treatment
+MAOIs 73 78 141 146 I-treatment
+) 78 79 146 147 I-treatment
+, 79 80 147 148 O
+selective 81 90 149 158 B-treatment
+norepinephrine 91 105 159 173 I-treatment
+re 106 108 174 176 I-treatment
+- 108 109 176 177 I-treatment
+uptake 109 115 177 183 I-treatment
+inhibitors 116 126 184 194 I-treatment
+( 127 128 195 196 I-treatment
+SNRIs 128 133 196 201 I-treatment
+) 133 134 201 202 I-treatment
+etc 135 138 203 206 O
+
+Depression 0 10 207 217 B-chronic_disease
+diagnosis 11 20 218 227 O
+by 21 23 228 230 O
+mental 24 30 231 237 O
+health 31 37 238 244 O
+provider 38 46 245 253 O
+
+Documented 0 10 254 264 O
+diagnosis 11 20 265 274 O
+of 21 23 275 277 O
+definite 24 32 278 286 O
+or 33 35 287 289 O
+probable 36 44 290 298 O
+ALS 45 48 299 302 B-chronic_disease
+
+History 0 7 303 310 O
+of 8 10 311 313 O
+psychotic 11 20 314 323 B-chronic_disease
+disorder 21 29 324 332 I-chronic_disease
+
+male 0 4 333 337 B-gender
+
+premorbid 0 9 338 347 B-chronic_disease
+bipolar 10 17 348 355 I-chronic_disease
+depression 18 28 356 366 I-chronic_disease
+

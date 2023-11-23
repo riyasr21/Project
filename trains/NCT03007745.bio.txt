@@ -1,0 +1,121 @@
+A 0 1 0 1 O
+clinically 2 12 2 12 O
+unstable 13 21 13 21 O
+medical 22 29 22 29 O
+condition 30 39 30 39 O
+in 40 42 40 42 O
+the 43 46 43 46 O
+previous 47 55 47 55 B-upper_bound
+2 56 57 56 57 I-upper_bound
+months 58 64 58 64 I-upper_bound
+as 65 67 65 67 O
+defined 68 75 68 75 O
+by 76 78 76 78 O
+a 79 80 79 80 O
+new 81 84 81 84 O
+diagnosis 85 94 85 94 O
+
+Access 0 6 95 101 B-technology_access
+in 7 9 102 104 I-technology_access
+the 10 13 105 108 I-technology_access
+home 14 18 109 113 I-technology_access
+to 19 21 114 116 I-technology_access
+the 22 25 117 120 I-technology_access
+internet 26 34 121 129 I-technology_access
+, 34 35 129 130 I-technology_access
+e 36 37 131 132 I-technology_access
+- 37 38 132 133 I-technology_access
+mail 38 42 133 137 I-technology_access
+, 42 43 137 138 I-technology_access
+and 44 47 139 142 I-technology_access
+phone 48 53 143 148 I-technology_access
+on 54 56 149 151 O
+all 57 60 152 155 O
+days 61 65 156 160 O
+
+Cheyne 0 6 161 167 B-chronic_disease
+- 6 7 167 168 I-chronic_disease
+Stokes 7 13 168 174 I-chronic_disease
+breathing 14 23 175 184 I-chronic_disease
+
+Fluent 0 6 185 191 B-language_fluency
+in 7 9 192 194 I-language_fluency
+English 10 17 195 202 I-language_fluency
+as 18 20 203 205 O
+assessed 21 29 206 214 O
+on 30 32 215 217 O
+the 33 36 218 221 O
+initial 37 44 222 229 O
+phone 45 50 230 235 O
+contact 51 58 236 243 O
+
+Previous 0 8 244 252 O
+treatment 9 18 253 262 B-treatment
+with 19 23 263 267 O
+positive 24 32 268 276 B-treatment
+airway 33 39 277 283 I-treatment
+pressure 40 48 284 292 I-treatment
+, 48 49 292 293 O
+non 50 53 294 297 B-treatment
+- 53 54 297 298 I-treatment
+nasal 54 59 298 303 I-treatment
+surgery 60 67 304 311 I-treatment
+for 68 71 312 315 O
+OSA 72 75 316 319 B-chronic_disease
+, 75 76 319 320 O
+or 77 79 321 323 O
+current 80 87 324 331 O
+use 88 91 332 335 O
+of 92 94 336 338 O
+supplemental 95 107 339 351 B-treatment
+oxygen 108 114 352 358 I-treatment
+
+central 0 7 359 366 B-chronic_disease
+sleep 8 13 367 372 I-chronic_disease
+apnea 14 19 373 378 I-chronic_disease
+( 20 21 379 380 O
+50 21 23 380 382 O
+% 23 24 382 383 O
+of 25 27 384 386 O
+apneas 28 34 387 393 B-chronic_disease
+on 35 37 394 396 O
+diagnostic 38 48 397 407 O
+testing 49 56 408 415 O
+are 57 60 416 419 O
+central 61 68 420 427 B-chronic_disease
+apneas 69 75 428 434 I-chronic_disease
+) 75 76 434 435 O
+
+cirrhosis 0 9 436 445 B-chronic_disease
+
+congestive 0 10 446 456 B-chronic_disease
+heart 11 16 457 462 I-chronic_disease
+failure 17 24 463 470 I-chronic_disease
+
+depression 0 10 471 481 B-chronic_disease
+or 11 13 482 484 O
+psychosis 14 23 485 494 B-chronic_disease
+
+myocardial 0 10 495 505 B-chronic_disease
+infarction 11 21 506 516 I-chronic_disease
+
+narcolepsy 0 10 517 527 B-chronic_disease
+
+obesity 0 7 528 535 B-chronic_disease
+hypoventilation 8 23 536 551 I-chronic_disease
+syndrome 24 32 552 560 I-chronic_disease
+
+obstructive 0 11 561 572 B-chronic_disease
+sleep 12 17 573 578 I-chronic_disease
+apnea 18 23 579 584 I-chronic_disease
+( 24 25 585 586 I-chronic_disease
+OSA 25 28 586 589 I-chronic_disease
+) 28 29 589 590 I-chronic_disease
+
+pneumonia 0 9 591 600 B-chronic_disease
+
+surgery 0 7 601 608 B-treatment
+
+thyroid 0 7 609 616 B-chronic_disease
+disease 8 15 617 624 I-chronic_disease
+

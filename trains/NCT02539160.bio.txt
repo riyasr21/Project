@@ -1,0 +1,241 @@
+Active 0 6 0 6 O
+pathological 7 19 7 19 B-chronic_disease
+bleeding 20 28 20 28 I-chronic_disease
+
+Age 0 3 29 32 B-age
+> 4 5 33 34 O
+18 5 7 34 36 B-lower_bound
+years 8 13 37 42 I-lower_bound
+
+Angiographically 0 16 43 59 B-treatment
+documented 17 27 60 70 O
+CAD 28 31 71 74 B-chronic_disease
+
+Any 0 3 75 78 O
+active 4 10 79 85 O
+malignancy 11 21 86 96 B-cancer
+
+Blood 0 5 97 102 O
+dyscrasia 6 15 103 112 B-chronic_disease
+or 16 18 113 115 O
+bleeding 19 27 116 124 B-chronic_disease
+diathesis 28 37 125 134 I-chronic_disease
+
+Hemoglobin 0 10 135 145 B-clinical_variable
+< 11 12 146 147 O
+10 12 14 147 149 B-upper_bound
+g 15 16 150 151 I-upper_bound
+/ 16 17 151 152 I-upper_bound
+dl 17 19 152 154 I-upper_bound
+
+History 0 7 155 162 O
+of 8 10 163 165 O
+intracranial 11 23 166 178 B-chronic_disease
+hemorrhage 24 34 179 189 I-chronic_disease
+with 35 39 190 194 O
+prior 40 45 195 200 O
+hemorrhage 46 56 201 211 B-chronic_disease
+stroke 57 63 212 218 I-chronic_disease
+
+Known 0 5 219 224 O
+allergy 6 13 225 232 O
+or 14 16 233 235 O
+hypersensitivity 17 33 236 252 O
+to 34 36 253 255 O
+ticagrelor 37 47 256 266 B-allergy_name
+or 48 50 267 269 O
+any 51 54 270 273 O
+excipients 55 65 274 284 B-allergy_name
+
+Known 0 5 285 290 O
+hepatic 6 13 291 298 B-chronic_disease
+dysfunction 14 25 299 310 I-chronic_disease
+( 26 27 311 312 O
+known 27 32 312 317 O
+moderate 33 41 318 326 O
+and 42 45 327 330 O
+severe 46 52 331 337 O
+hepatic 53 60 338 345 O
+dysfunction 61 72 346 357 O
+) 72 73 357 358 O
+
+On 0 2 359 361 O
+treatment 3 12 362 371 B-treatment
+with 13 17 372 376 O
+low 18 21 377 380 O
+- 21 22 380 381 O
+dose 22 26 381 385 O
+aspirin 27 34 386 393 B-treatment
+( 35 36 394 395 O
+81mg 36 40 395 399 O
+/ 40 41 399 400 O
+day 41 44 400 403 O
+) 44 45 403 404 O
+and 46 49 405 408 O
+clopidogrel 50 61 409 420 B-treatment
+( 62 63 421 422 O
+75mg 63 67 422 426 O
+/ 67 68 426 427 O
+day 68 71 427 430 O
+) 71 72 430 431 O
+
+Patients 0 8 432 440 O
+with 9 13 441 445 O
+end 14 17 446 449 B-chronic_disease
+- 17 18 449 450 I-chronic_disease
+stage 18 23 450 455 I-chronic_disease
+renal 24 29 456 461 I-chronic_disease
+disease 30 37 462 469 I-chronic_disease
+on 38 40 470 472 O
+hemodialysis 41 53 473 485 B-treatment
+
+Patients 0 8 486 494 O
+with 9 13 495 499 O
+sick 14 18 500 504 B-chronic_disease
+sinus 19 24 505 510 I-chronic_disease
+syndrome 25 33 511 519 I-chronic_disease
+( 34 35 520 521 I-chronic_disease
+SSS 35 38 521 524 I-chronic_disease
+) 38 39 524 525 I-chronic_disease
+or 40 42 526 528 O
+high 43 47 529 533 O
+degree 48 54 534 540 O
+atrio 55 60 541 546 O
+- 60 61 546 547 O
+ventricular 61 72 547 558 O
+block 73 78 559 564 O
+without 79 86 565 572 O
+pacemaker 87 96 573 582 B-treatment
+protection 97 107 583 593 O
+
+Platelet 0 8 594 602 B-clinical_variable
+count 9 14 603 608 I-clinical_variable
+< 15 16 609 610 O
+80x106/µl 17 26 611 620 B-upper_bound
+
+Pregnant 0 8 621 629 B-pregnancy
+
+Strong 0 6 630 636 B-treatment
+inhibitors 7 17 637 647 I-treatment
+of 18 20 648 650 I-treatment
+cytochrome 21 31 651 661 I-treatment
+CYP3A4 32 38 662 668 I-treatment
+and 39 42 669 672 O
+potent 43 49 673 679 B-treatment
+inducers 50 58 680 688 I-treatment
+of 59 61 689 691 I-treatment
+cytochrome 62 72 692 702 I-treatment
+CYP3A4 73 79 703 709 I-treatment
+( 80 81 710 711 O
+to 81 83 711 713 O
+avoid 84 89 714 719 O
+interaction 90 101 720 731 O
+with 102 106 732 736 O
+ticagrelor 107 117 737 747 B-treatment
+) 117 118 747 748 O
+
+Type 0 4 749 753 B-chronic_disease
+2 5 6 754 755 I-chronic_disease
+DM 7 9 756 758 I-chronic_disease
+, 9 10 758 759 O
+defined 11 18 760 767 O
+according 19 28 768 777 O
+to 29 31 778 780 O
+World 32 37 781 786 O
+Health 38 44 787 793 O
+Organization 45 57 794 806 O
+( 58 59 807 808 O
+WHO 59 62 808 811 O
+) 62 63 811 812 O
+definition 64 74 813 823 O
+, 74 75 823 824 O
+on 76 78 825 827 O
+treatment 79 88 828 837 B-treatment
+with 89 93 838 842 I-treatment
+oral 94 98 843 847 I-treatment
+hypoglycemic 99 111 848 860 I-treatment
+agents 112 118 861 867 I-treatment
+
+Use 0 3 868 871 O
+of 4 6 872 874 O
+any 7 10 875 878 O
+antiplatelet 11 23 879 891 B-treatment
+therapy 24 31 892 899 I-treatment
+( 32 33 900 901 O
+except 33 39 901 907 O
+aspirin 40 47 908 915 B-treatment
+and 48 51 916 919 O
+clopidogrel 52 63 920 931 B-treatment
+) 63 64 931 932 O
+
+Use 0 3 933 936 O
+of 4 6 937 939 O
+parenteral 7 17 940 950 B-treatment
+or 18 20 951 953 O
+oral 21 25 954 958 B-treatment
+anticoagulation 26 41 959 974 I-treatment
+
+for 0 3 975 978 O
+at 4 6 979 981 O
+least 7 12 982 987 O
+30 13 15 988 990 B-lower_bound
+days 16 20 991 995 I-lower_bound
+as 21 23 996 998 O
+part 24 28 999 1003 O
+of 29 31 1004 1006 O
+standard 32 40 1007 1015 O
+of 41 43 1016 1018 O
+care 44 48 1019 1023 O
+
+insulin 0 7 1024 1031 B-treatment
+for 8 11 1032 1035 O
+at 12 14 1036 1038 O
+least 15 20 1039 1044 O
+2 21 22 1045 1046 B-lower_bound
+months 23 29 1047 1053 I-lower_bound
+without 30 37 1054 1061 O
+any 38 41 1062 1065 O
+changes 42 49 1066 1073 O
+in 50 52 1074 1076 O
+treatment 53 62 1077 1086 B-treatment
+regimen 63 70 1087 1094 I-treatment
+
+ketoconazole 0 12 1095 1107 B-treatment
+, 12 13 1107 1108 O
+itraconazole 14 26 1109 1121 B-treatment
+, 26 27 1121 1122 O
+voriconazole 28 40 1123 1135 B-treatment
+, 40 41 1135 1136 O
+clarithromycin 42 56 1137 1151 B-treatment
+, 56 57 1151 1152 O
+nefazodone 58 68 1153 1163 B-treatment
+, 68 69 1163 1164 O
+ritonavir 70 79 1165 1174 B-treatment
+, 79 80 1174 1175 O
+saquinavir 81 91 1176 1186 B-treatment
+, 91 92 1186 1187 O
+nelfinavir 93 103 1188 1198 B-treatment
+, 103 104 1198 1199 O
+indinavir 105 114 1200 1209 B-treatment
+, 114 115 1209 1210 O
+atazanavir 116 126 1211 1221 B-treatment
+and 127 130 1222 1225 O
+telithromycin 131 144 1226 1239 B-treatment
+
+lactating 0 9 1240 1249 O
+females 10 17 1250 1257 B-gender
+
+women 0 5 1258 1263 B-gender
+of 6 8 1264 1266 O
+childbearing 9 21 1267 1279 O
+age 22 25 1280 1283 B-age
+must 26 30 1284 1288 O
+use 31 34 1289 1292 B-contraception_consent
+reliable 35 43 1293 1301 I-contraception_consent
+birth 44 49 1302 1307 I-contraception_consent
+control 50 57 1308 1315 I-contraception_consent
+while 58 63 1316 1321 O
+in 64 66 1322 1324 O
+the 67 70 1325 1328 O
+study 71 76 1329 1334 O
+

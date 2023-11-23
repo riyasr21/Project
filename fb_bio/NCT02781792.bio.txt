@@ -1,0 +1,42 @@
+Karnofsky 0 9 0 9 B-clinical_variable
+performance 10 21 10 21 I-clinical_variable
+status 22 28 22 28 I-clinical_variable
+≥ 29 30 29 30 O
+60 31 33 31 33 B-lower_bound
+% 33 34 33 34 I-lower_bound
+
+Newly 0 5 35 40 O
+diagnosed 6 15 41 50 O
+and 16 19 51 54 O
+recurrent 20 29 55 64 O
+high 30 34 65 69 B-cancer
+grade 35 40 70 75 I-cancer
+gliomas 41 48 76 83 I-cancer
+( 49 50 84 85 I-cancer
+WHO 50 53 85 88 I-cancer
+grades 54 60 89 95 I-cancer
+III 61 64 96 99 I-cancer
+& 65 66 100 101 I-cancer
+IV 67 69 102 104 I-cancer
+) 69 70 104 105 I-cancer
+
+Pregnant 0 8 106 114 B-pregnancy
+
+Women 0 5 115 120 B-gender
+of 6 8 121 123 O
+childbearing 9 21 124 136 O
+potential 22 31 137 146 O
+
+must 0 4 147 151 O
+have 5 9 152 156 O
+a 10 11 157 158 O
+negative 12 20 159 167 B-pregnancy
+pregnancy 21 30 168 177 I-pregnancy
+test 31 35 178 182 O
+within 36 42 183 189 O
+14 43 45 190 192 B-upper_bound
+days 46 50 193 197 I-upper_bound
+of 51 53 198 200 O
+study 54 59 201 206 O
+entry 60 65 207 212 O
+

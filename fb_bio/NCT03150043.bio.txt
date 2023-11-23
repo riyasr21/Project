@@ -1,0 +1,44 @@
+Patient 0 7 0 7 O
+who 8 11 8 11 O
+are 12 15 12 15 B-pregnancy
+not 16 19 16 19 I-pregnancy
+pregnant 20 28 20 28 I-pregnancy
+
+Pregnant 0 8 29 37 B-pregnancy
+women 9 14 38 43 B-gender
+
+Pregnant 0 8 44 52 B-pregnancy
+women 9 14 53 58 B-gender
+undergoing 15 25 59 69 O
+primary 26 33 70 77 O
+cesarean 34 42 78 86 O
+delivery 43 51 87 95 O
+after 52 57 96 101 O
+failed 58 64 102 108 O
+induction 65 74 109 118 O
+of 75 77 119 121 O
+labor 78 83 122 127 O
+, 83 84 127 128 O
+or 85 87 129 131 O
+repeat 88 94 132 138 O
+cesarean 95 103 139 147 O
+delivery 104 112 148 156 O
+after 113 118 157 162 O
+failed 119 125 163 169 O
+TOLAC 126 131 170 175 O
+( 132 133 176 177 O
+trial 133 138 177 182 O
+of 139 141 183 185 O
+labor 142 147 186 191 O
+after 148 153 192 197 O
+cesarean 154 162 198 206 O
+) 162 163 206 207 O
+
+between 0 7 208 215 O
+the 8 11 216 219 O
+ages 12 16 220 224 B-age
+of 17 19 225 227 O
+18 20 22 228 230 B-lower_bound
+- 22 23 230 231 O
+50 23 25 231 233 B-upper_bound
+

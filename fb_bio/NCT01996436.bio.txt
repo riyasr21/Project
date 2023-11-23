@@ -1,0 +1,49 @@
+Adult 0 5 0 5 O
+patient 6 13 6 13 O
+, 13 14 13 14 O
+age 15 18 15 18 B-age
+18 19 21 19 21 B-lower_bound
+- 21 22 21 22 O
+80 22 24 22 24 B-upper_bound
+years 25 30 25 30 I-upper_bound
+old 31 34 31 34 O
+, 34 35 34 35 O
+with 36 40 36 40 O
+ruptured 41 49 41 49 O
+aneurysm(s 50 60 50 60 B-chronic_disease
+) 60 61 60 61 I-chronic_disease
+who 62 65 62 65 O
+experience 66 76 66 76 O
+cerebral 77 85 77 85 B-chronic_disease
+vasospasm 86 95 86 95 I-chronic_disease
+post 96 100 96 100 O
+operatively 101 112 101 112 O
+within 113 119 113 119 O
+3 120 121 120 121 B-lower_bound
+- 121 122 121 122 O
+21 122 124 122 124 B-upper_bound
+days 125 129 125 129 I-upper_bound
+
+Hunt 0 4 130 134 B-clinical_variable
+Hess 5 9 135 139 I-clinical_variable
+Grade 10 15 140 145 B-chronic_disease
+5 16 17 146 147 I-chronic_disease
+SAH 18 21 148 151 I-chronic_disease
+
+Pregnant 0 8 152 160 B-pregnancy
+women 9 14 161 166 B-gender
+
+less 0 4 167 171 O
+than 5 9 172 176 O
+18 10 12 177 179 B-upper_bound
+years 13 18 180 185 I-upper_bound
+of 19 21 186 188 O
+age 22 25 189 192 B-age
+of 26 28 193 195 O
+more 29 33 196 200 O
+than 34 38 201 205 O
+80 39 41 206 208 B-lower_bound
+years 42 47 209 214 I-lower_bound
+of 48 50 215 217 O
+age 51 54 218 221 O
+

@@ -1,0 +1,10 @@
+Non 0 3 0 3 O
+- 3 4 3 4 O
+treatment 4 13 4 13 O
+compliant 14 23 14 23 O
+for 24 27 24 27 O
+diagnosed 28 37 28 37 O
+Obstructive 38 49 38 49 B-chronic_disease
+Sleep 50 55 50 55 I-chronic_disease
+Apnea 56 61 56 61 I-chronic_disease
+

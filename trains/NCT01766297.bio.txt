@@ -1,0 +1,290 @@
+> 0 1 0 1 O
+= 2 3 2 3 O
+50 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+of 13 15 13 15 O
+age 16 19 16 19 B-age
+
+Any 0 3 20 23 O
+previously 4 14 24 34 O
+treated 15 22 35 42 O
+breast 23 29 43 49 B-cancer
+carcinoma 30 39 50 59 I-cancer
+
+Breasts 0 7 60 67 O
+technically 8 19 68 79 O
+unsatisfactory 20 34 80 94 O
+for 35 38 95 98 O
+radiation 39 48 99 108 B-treatment
+treatment 49 58 109 118 I-treatment
+upon 59 63 119 123 O
+the 64 67 124 127 O
+discretion 68 78 128 138 O
+of 79 81 139 141 O
+the 82 85 142 145 O
+treating 86 94 146 154 O
+physician 95 104 155 164 O
+
+For 0 3 165 168 O
+tumors 4 10 169 175 B-cancer
+that 11 15 176 180 O
+are 16 19 181 184 O
+invasive 20 28 185 193 O
+, 28 29 193 194 O
+HER2 30 34 195 199 B-treatment
+must 35 39 200 204 O
+be 40 42 205 207 O
+performed 43 52 208 217 O
+( 53 54 218 219 O
+positive 54 62 219 227 O
+or 63 65 228 230 O
+negative 66 74 231 239 O
+is 75 77 240 242 O
+acceptable 78 88 243 253 O
+) 88 89 253 254 O
+
+Histologic 0 10 255 265 O
+examination 11 22 266 277 O
+showing 23 30 278 285 O
+invasive 31 39 286 294 B-cancer
+lobular 40 47 295 302 I-cancer
+histology 48 57 303 312 O
+
+Known 0 5 313 318 O
+BRCA 6 10 319 323 B-cancer
+1 11 12 324 325 I-cancer
+or 13 15 326 328 I-cancer
+BRCA 16 20 329 333 I-cancer
+2 21 22 334 335 I-cancer
+mutation 23 31 336 344 I-cancer
+
+Lymphovascular 0 14 345 359 B-cancer
+space 15 20 360 365 I-cancer
+invasion 21 29 366 374 I-cancer
+( 30 31 375 376 I-cancer
+LVSI 31 35 376 380 I-cancer
+) 35 36 380 381 I-cancer
+on 37 39 382 384 O
+pathology 40 49 385 394 O
+specimen 50 58 395 403 O
+
+Multicentric 0 12 404 416 B-chronic_disease
+or 13 15 417 419 O
+bilateral 16 25 420 429 B-chronic_disease
+disease 26 33 430 437 I-chronic_disease
+
+Must 0 4 438 442 O
+be 5 7 443 445 O
+able 8 12 446 450 O
+to 13 15 451 453 O
+start 16 21 454 459 O
+treatment 22 31 460 469 B-treatment
+within 32 38 470 476 O
+12 39 41 477 479 B-upper_bound
+weeks 42 47 480 485 I-upper_bound
+of 48 50 486 488 O
+surgery 51 58 489 496 B-treatment
+or 59 61 497 499 O
+8 62 63 500 501 B-lower_bound
+weeks 64 69 502 507 I-lower_bound
+of 70 72 508 510 O
+finalization 73 85 511 523 O
+of 86 88 524 526 O
+chemotherapy 89 101 527 539 B-treatment
+
+Must 0 4 540 544 O
+be 5 7 545 547 O
+female 8 14 548 554 B-gender
+
+Must 0 4 555 559 O
+have 5 9 560 564 O
+ER 10 12 565 567 B-chronic_disease
+positive 13 21 568 576 I-chronic_disease
+disease 22 29 577 584 I-chronic_disease
+with 30 34 585 589 O
+ER 35 37 590 592 O
+/ 37 38 592 593 O
+PR 38 40 593 595 O
+report 41 47 596 602 O
+available 48 57 603 612 O
+
+Must 0 4 613 617 O
+have 5 9 618 622 O
+a 10 11 623 624 O
+life 12 16 625 629 B-clinical_variable
+expectancy 17 27 630 640 I-clinical_variable
+of 28 30 641 643 O
+at 31 33 644 646 O
+least 34 39 647 652 O
+5 40 41 653 654 B-lower_bound
+years 42 47 655 660 I-lower_bound
+based 48 53 661 666 O
+on 54 56 667 669 O
+age 57 60 670 673 B-age
+and 61 64 674 677 O
+co 65 67 678 680 O
+- 67 68 680 681 O
+morbidities 68 79 681 692 O
+
+Must 0 4 693 697 O
+have 5 9 698 702 O
+a 10 11 703 704 O
+lumpectomy 12 22 705 715 B-treatment
+performed 23 32 716 725 O
+, 32 33 725 726 O
+with 34 38 727 731 O
+documented 39 49 732 742 O
+negative 50 58 743 751 O
+surgical 59 67 752 760 O
+margins 68 75 761 768 O
+by 76 78 769 771 O
+0.2 79 82 772 775 B-lower_bound
+cm 83 85 776 778 I-lower_bound
+or 86 88 779 781 O
+more 89 93 782 786 O
+
+Must 0 4 787 791 O
+have 5 9 792 796 O
+pathology 10 19 797 806 O
+proven 20 26 807 813 O
+invasive 27 35 814 822 B-cancer
+ductal 36 42 823 829 I-cancer
+carcinoma 43 52 830 839 I-cancer
+
+Non 0 3 840 843 B-cancer
+- 3 4 843 844 I-cancer
+epithelial 4 14 844 854 I-cancer
+malignancies 15 27 855 867 I-cancer
+such 28 32 868 872 O
+as 33 35 873 875 O
+sarcoma 36 43 876 883 B-cancer
+or 44 46 884 886 O
+lymphoma 47 55 887 895 B-cancer
+
+Paget 0 5 896 901 B-chronic_disease
+'s 5 7 901 903 I-chronic_disease
+disease 8 15 904 911 I-chronic_disease
+of 16 18 912 914 O
+the 19 22 915 918 O
+nipple 23 29 919 925 O
+
+Patient 0 7 926 933 O
+does 8 12 934 938 O
+not 13 16 939 942 O
+have 17 21 943 947 O
+microscopically 22 37 948 963 O
+multifocal 38 48 964 974 B-cancer
+tumor 49 54 975 980 I-cancer
+
+Pregnant 0 8 981 989 B-pregnancy
+
+Previous 0 8 990 998 O
+history 9 16 999 1006 O
+of 17 19 1007 1009 O
+ipsilateral 20 31 1010 1021 B-cancer
+invasive 32 40 1022 1030 I-cancer
+breast 41 47 1031 1037 I-cancer
+cancer 48 54 1038 1044 I-cancer
+or 55 57 1045 1047 O
+DCIS 58 62 1048 1052 B-cancer
+
+Prior 0 5 1053 1058 B-treatment
+radiation 6 15 1059 1068 I-treatment
+therapy 16 23 1069 1076 I-treatment
+to 24 26 1077 1079 O
+the 27 30 1080 1083 O
+ipsilateral 31 42 1084 1095 O
+breast 43 49 1096 1102 O
+or 50 52 1103 1105 O
+thorax 53 59 1106 1112 O
+
+Suspicious 0 10 1113 1123 O
+residual 11 19 1124 1132 O
+microcalcifications 20 39 1133 1152 B-cancer
+on 40 42 1153 1155 O
+mammography 43 54 1156 1167 B-treatment
+of 55 57 1168 1170 O
+either 58 64 1171 1177 O
+breast 65 71 1178 1184 O
+
+Tumors 0 6 1185 1191 B-cancer
+that 7 11 1192 1196 O
+are 12 15 1197 1200 O
+microscopically 16 31 1201 1216 O
+multifocal 32 42 1217 1227 O
+must 43 47 1228 1232 O
+be 48 50 1233 1235 O
+3.0 51 54 1236 1239 B-upper_bound
+cm 55 57 1240 1242 I-upper_bound
+or 58 60 1243 1245 O
+less 61 65 1246 1250 O
+in 66 68 1251 1253 O
+total 69 74 1254 1259 B-clinical_variable
+aggregate 75 84 1260 1269 I-clinical_variable
+size 85 89 1270 1274 I-clinical_variable
+and 90 93 1275 1278 O
+encompassed 94 105 1279 1290 O
+within 106 112 1291 1297 O
+a 113 114 1298 1299 O
+single 115 121 1300 1306 O
+scar 122 126 1307 1311 O
+
+biopsy 0 6 1312 1318 B-treatment
+proven 7 13 1319 1325 O
+benign 14 20 1326 1332 O
+
+ductal 0 6 1333 1339 B-cancer
+carcinoma 7 16 1340 1349 I-cancer
+in 17 19 1350 1352 I-cancer
+situ 20 24 1353 1357 I-cancer
+( 25 26 1358 1359 I-cancer
+DCIS 26 30 1359 1363 I-cancer
+) 30 31 1363 1364 I-cancer
+
+lobular 0 7 1365 1372 B-cancer
+
+negative 0 8 1373 1381 O
+for 9 12 1382 1385 O
+malignancy 13 23 1386 1396 B-cancer
+on 24 26 1397 1399 O
+pathology 27 36 1400 1409 O
+
+other 0 5 1410 1415 O
+co 6 8 1416 1418 O
+- 8 9 1418 1419 O
+existing 9 17 1419 1427 O
+medical 18 25 1428 1435 O
+condition 26 35 1436 1445 O
+that 36 40 1446 1450 O
+would 41 46 1451 1456 O
+preclude 47 55 1457 1465 O
+protocol 56 64 1466 1474 B-treatment
+therapy 65 72 1475 1482 I-treatment
+such 73 77 1483 1487 O
+as 78 80 1488 1490 O
+pregnancy 81 90 1491 1500 B-pregnancy
+, 90 91 1500 1501 O
+HIV 92 95 1502 1505 B-chronic_disease
+/ 95 96 1505 1506 O
+AIDS 96 100 1506 1510 B-chronic_disease
+or 101 103 1511 1513 O
+collagen 104 112 1514 1522 B-chronic_disease
+vascular 113 121 1523 1531 I-chronic_disease
+diseases 122 130 1532 1540 I-chronic_disease
+specifically 131 143 1541 1553 O
+systemic 144 152 1554 1562 B-chronic_disease
+lupus 153 158 1563 1568 I-chronic_disease
+erythematosus 159 172 1569 1582 I-chronic_disease
+, 172 173 1582 1583 O
+scleroderma 174 185 1584 1595 B-chronic_disease
+, 185 186 1595 1596 O
+or 187 189 1597 1599 O
+dermatomyositis 190 205 1600 1615 B-chronic_disease
+
+synchronous 0 11 1616 1627 B-cancer
+breast 12 18 1628 1634 I-cancer
+carcinoma 19 28 1635 1644 I-cancer
+in 29 31 1645 1647 O
+ipsilateral 32 43 1648 1659 B-cancer
+breast 44 50 1660 1666 I-cancer
+

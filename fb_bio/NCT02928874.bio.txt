@@ -1,0 +1,31 @@
+7 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+9 2 3 2 3 B-upper_bound
+years 4 9 4 9 I-upper_bound
+of 10 12 10 12 O
+age 13 16 13 16 B-age
+
+Have 0 4 17 21 O
+food 5 9 22 26 B-allergy_name
+allergies 10 19 27 36 O
+related 20 27 37 44 O
+to 28 30 45 47 O
+the 31 34 48 51 O
+foods 35 40 52 57 O
+served 41 47 58 64 O
+in 48 50 65 67 O
+the 51 54 68 71 O
+study 55 60 72 77 O
+or 61 63 78 80 O
+are 64 67 81 84 O
+lactose 68 75 85 92 B-chronic_disease
+intolerant 76 86 93 103 I-chronic_disease
+
+psychiatric 0 11 104 115 B-chronic_disease
+conditions 12 22 116 126 I-chronic_disease
+that 23 27 127 131 O
+might 28 33 132 137 O
+impact 34 40 138 144 O
+study 41 46 145 150 O
+compliance 47 57 151 161 O
+

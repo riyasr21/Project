@@ -1,0 +1,105 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+40 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+- 14 15 14 15 O
+old 15 18 15 18 O
+
+Alternative 0 11 19 30 O
+diagnosis 12 21 31 40 O
+for 22 25 41 44 O
+cause 26 31 45 50 O
+of 32 34 51 53 O
+dyspnea 35 42 54 61 B-chronic_disease
+, 42 43 61 62 O
+increased 44 53 63 72 B-chronic_disease
+sputum 54 60 73 79 I-chronic_disease
+or 61 63 80 82 O
+cough 64 69 83 88 B-chronic_disease
+
+Patients 0 8 89 97 O
+who 9 12 98 101 O
+are 13 16 102 105 O
+pregnant 17 25 106 114 B-pregnancy
+
+Patients 0 8 115 123 O
+who 9 12 124 127 O
+requires 13 21 128 136 O
+intubation 22 32 137 147 B-treatment
+at 33 35 148 150 O
+time 36 40 151 155 O
+of 41 43 156 158 O
+recruitment 44 55 159 170 O
+
+Patients 0 8 171 179 O
+with 9 13 180 184 O
+a 14 15 185 186 O
+diagnosis 16 25 187 196 O
+of 26 28 197 199 O
+COPD 29 33 200 204 B-chronic_disease
+, 33 34 204 205 O
+emphysema 35 44 206 215 B-chronic_disease
+, 44 45 215 216 O
+or 46 48 217 219 O
+chronic 49 56 220 227 B-chronic_disease
+bronchitis 57 67 228 238 I-chronic_disease
+
+Smoking 0 7 239 246 B-clinical_variable
+history 8 15 247 254 I-clinical_variable
+≥ 16 17 255 256 O
+10 18 20 257 259 B-lower_bound
+pack 21 25 260 264 I-lower_bound
+- 25 26 264 265 I-lower_bound
+years 26 31 265 270 I-lower_bound
+
+Women 0 5 271 276 B-gender
+of 6 8 277 279 O
+child 9 14 280 285 O
+- 14 15 285 286 O
+bearing 15 22 286 293 O
+age 23 26 294 297 B-age
+who 27 30 298 301 O
+can 31 34 302 305 B-contraception_consent
+not 34 37 305 308 I-contraception_consent
+use 38 41 309 312 I-contraception_consent
+methods 42 49 313 320 I-contraception_consent
+of 50 52 321 323 I-contraception_consent
+contraception 53 66 324 337 I-contraception_consent
+as 67 69 338 340 O
+described 70 79 341 350 O
+in 80 82 351 353 O
+the 83 86 354 357 O
+consent 87 94 358 365 O
+, 94 95 365 366 O
+including 96 105 367 376 O
+condoms 106 113 377 384 B-contraception_consent
+, 113 114 384 385 O
+female 115 121 386 392 B-contraception_consent
+condoms 122 129 393 400 I-contraception_consent
+, 129 130 400 401 O
+cervical 131 139 402 410 B-contraception_consent
+caps 140 144 411 415 I-contraception_consent
+, 144 145 415 416 O
+diaphragms 146 156 417 427 B-contraception_consent
+, 156 157 427 428 O
+and 158 161 429 432 O
+intra 162 167 433 438 B-contraception_consent
+uterine 168 175 439 446 I-contraception_consent
+devices 176 183 447 454 I-contraception_consent
+
+could 0 5 455 460 O
+be 6 8 461 463 O
+pregnant 9 17 464 472 B-pregnancy
+
+re 0 2 473 475 O
+- 2 3 475 476 O
+admitted 3 11 476 484 O
+to 12 14 485 487 O
+the 15 18 488 491 O
+hospital 19 27 492 500 O
+with 28 32 501 505 O
+a 33 34 506 507 O
+new 35 38 508 511 O
+COPD 39 43 512 516 B-chronic_disease
+exacerbation 44 56 517 529 I-chronic_disease
+

@@ -1,0 +1,39 @@
+Current 0 7 0 7 O
+psychotic 8 17 8 17 B-chronic_disease
+disorder 18 26 18 26 I-chronic_disease
+
+Diagnosis 0 9 27 36 O
+of 10 12 37 39 O
+borderline 13 23 40 50 B-chronic_disease
+personality 24 35 51 62 I-chronic_disease
+disorder 36 44 63 71 I-chronic_disease
+
+Moderate 0 8 72 80 O
+or 9 11 81 83 O
+high 12 16 84 88 O
+risk 17 21 89 93 O
+of 22 24 94 96 O
+suicide 25 32 97 104 B-chronic_disease
+as 33 35 105 107 O
+assessed 36 44 108 116 O
+with 45 49 117 121 O
+MINI 50 54 122 126 O
+
+Prior 0 5 127 132 O
+participation 6 19 133 146 O
+in 20 22 147 149 O
+MBSR 23 27 150 154 B-chronic_disease
+or 28 30 155 157 O
+CDSMP 31 36 158 163 B-chronic_disease
+( 37 38 164 165 O
+attended 38 46 165 173 O
+at 47 49 174 176 O
+least 50 55 177 182 O
+one 56 59 183 186 O
+session 60 67 187 194 O
+) 67 68 194 195 O
+
+antisocial 0 10 196 206 B-chronic_disease
+personality 11 22 207 218 I-chronic_disease
+disorder 23 31 219 227 I-chronic_disease
+

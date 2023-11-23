@@ -1,0 +1,62 @@
+Age 0 3 0 3 B-age
+4 4 5 4 5 B-lower_bound
+or 6 8 6 8 O
+5 9 10 9 10 B-upper_bound
+years 11 16 11 16 I-upper_bound
+
+Born 0 4 17 21 B-chronic_disease
+prematurely 5 16 22 33 I-chronic_disease
+at 17 19 34 36 O
+<33 20 23 37 40 O
+weeks 24 29 41 46 I-upper_bound
+gestation 30 39 47 56 I-upper_bound
+
+EF 0 2 57 59 O
+impairment 3 13 60 70 O
+on 14 16 71 73 O
+standardized 17 29 74 86 O
+questionnaire 30 43 87 100 O
+( 44 45 101 102 O
+t 45 46 102 103 B-clinical_variable
+- 46 47 103 104 I-clinical_variable
+score 47 52 104 109 I-clinical_variable
+of 53 55 110 112 O
+60 56 58 113 115 B-lower_bound
+or 59 61 116 118 O
+greater 62 69 119 126 O
+) 69 70 126 127 O
+or 71 73 128 130 O
+EF 74 76 131 133 O
+battery 77 84 134 141 O
+( 85 86 142 143 O
+lower 86 91 143 148 O
+quartile 92 100 149 157 O
+) 100 101 157 158 O
+
+Genetic 0 7 159 166 B-chronic_disease
+syndrome 8 16 167 175 I-chronic_disease
+
+Major 0 5 176 181 B-chronic_disease
+neurosensory 6 18 182 194 I-chronic_disease
+impairment 19 29 195 205 I-chronic_disease
+( 30 31 206 207 O
+i.e. 31 35 207 211 O
+, 35 36 211 212 O
+blind 37 42 213 218 O
+, 42 43 218 219 O
+deaf 44 48 220 224 O
+) 48 49 224 225 O
+or 50 52 226 228 O
+technology 53 63 229 239 O
+dependence 64 74 240 250 O
+( 75 76 251 252 O
+i.e. 76 80 252 256 O
+, 80 81 256 257 O
+ventilator 82 92 258 268 O
+dependent 93 102 269 278 O
+) 102 103 278 279 O
+that 104 108 280 284 O
+interferes 109 119 285 295 O
+with 120 124 296 300 O
+testing 125 132 301 308 O
+

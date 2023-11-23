@@ -1,0 +1,53 @@
+Evidence 0 8 0 8 O
+of 9 11 9 11 O
+an 12 14 12 14 O
+acute 15 20 15 20 B-chronic_disease
+myocardial 21 31 21 31 I-chronic_disease
+infarction 32 42 32 42 I-chronic_disease
+≤ 43 44 43 44 O
+1 45 46 45 46 B-upper_bound
+month 47 52 47 52 I-upper_bound
+( 53 54 53 54 O
+30 54 56 54 56 O
+days 57 61 57 61 O
+) 61 62 61 62 O
+before 63 69 63 69 O
+randomization 70 83 70 83 O
+
+Heart 0 5 84 89 O
+team 6 10 90 94 O
+agrees 11 17 95 101 O
+the 18 21 102 105 O
+patient 22 29 106 113 O
+has 30 33 114 117 O
+a 34 35 118 119 O
+risk 36 40 120 124 O
+of 41 43 125 127 O
+operative 44 53 128 137 O
+mortality 54 63 138 147 O
+and 64 67 148 151 O
+has 68 71 152 155 O
+an 72 74 156 158 O
+STS 75 78 159 162 B-clinical_variable
+< 79 80 163 164 O
+4 80 81 164 165 B-upper_bound
+
+No 0 2 166 168 O
+age 3 6 169 172 B-age
+restriction 7 18 173 184 O
+
+Severe 0 6 185 191 O
+aortic 7 13 192 198 B-chronic_disease
+regurgitation 14 27 199 212 I-chronic_disease
+( 28 29 213 214 O
+> 29 30 214 215 O
+3 30 31 215 216 B-lower_bound
++ 31 32 216 217 O
+) 32 33 217 218 O
+
+Severe 0 6 219 225 O
+, 6 7 225 226 O
+calcific 8 16 227 235 B-chronic_disease
+aortic 17 23 236 242 I-chronic_disease
+stenosis 24 32 243 251 I-chronic_disease
+

@@ -1,0 +1,13 @@
+aged 0 4 0 4 B-age
+3 5 6 5 6 B-lower_bound
+- 6 7 6 7 O
+5 7 8 7 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+old 15 18 15 18 O
+in 19 21 19 21 O
+our 22 25 22 25 O
+partnering 26 36 26 36 O
+Head 37 41 37 41 O
+Start 42 47 42 47 O
+agency 48 54 48 54 O
+

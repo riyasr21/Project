@@ -1,0 +1,41 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+or 13 15 13 15 O
+older 16 21 16 21 O
+
+Known 0 5 22 27 O
+allergy 6 13 28 35 O
+to 14 16 36 38 O
+iodinated 17 26 39 48 B-allergy_name
+contrast 27 35 49 57 I-allergy_name
+agents 36 42 58 64 I-allergy_name
+
+Presence 0 8 65 73 O
+of 9 11 74 76 O
+transcatheter 12 25 77 90 B-treatment
+or 26 28 91 93 I-treatment
+surgical 29 37 94 102 I-treatment
+bioprosthetic 38 51 103 116 I-treatment
+aortic 52 58 117 123 I-treatment
+valve 59 64 124 129 I-treatment
+implanted 65 74 130 139 O
+at 75 77 140 142 O
+least 78 83 143 148 O
+48 84 86 149 151 B-lower_bound
+hours 87 92 152 157 I-lower_bound
+prior 93 98 158 163 I-lower_bound
+to 99 101 164 166 O
+enrollment 102 112 167 177 O
+
+Renal 0 5 178 183 B-chronic_disease
+insufficiency 6 19 184 197 I-chronic_disease
+( 20 21 198 199 O
+creatinine 21 31 199 209 B-clinical_variable
+> 32 33 210 211 O
+1.5 34 37 212 215 B-lower_bound
+mg 38 40 216 218 I-lower_bound
+/ 40 41 218 219 I-lower_bound
+dL 41 43 219 221 I-lower_bound
+) 43 44 221 222 O
+

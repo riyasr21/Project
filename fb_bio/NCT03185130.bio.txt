@@ -1,0 +1,53 @@
+Age 0 3 0 3 B-age
+10 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+65 10 12 10 12 B-upper_bound
+years 13 18 13 18 I-upper_bound
+
+Head 0 4 19 23 B-chronic_disease
+trauma 5 11 24 30 I-chronic_disease
+within 12 18 31 37 O
+the 19 22 38 41 O
+previous 23 31 42 50 B-upper_bound
+two 32 35 51 54 I-upper_bound
+weeks 36 41 55 60 I-upper_bound
+
+History 0 7 61 68 O
+of 8 10 69 71 O
+intracranial 11 23 72 84 B-chronic_disease
+hypertension 24 36 85 97 I-chronic_disease
+
+Lumbar 0 6 98 104 B-treatment
+puncture 7 15 105 113 I-treatment
+within 16 22 114 120 O
+the 23 26 121 124 O
+previous 27 35 125 133 B-upper_bound
+two 36 39 134 137 I-upper_bound
+weeks 40 45 138 143 I-upper_bound
+
+Meningeal 0 9 144 153 B-chronic_disease
+signs 10 15 154 159 O
+are 16 19 160 163 O
+present 20 27 164 171 O
+
+Non 0 3 172 175 B-language_fluency
+- 3 4 175 176 I-language_fluency
+English 4 11 176 183 I-language_fluency
+speaking 12 20 184 192 I-language_fluency
+patient 21 28 193 200 I-language_fluency
+or 29 31 201 203 I-language_fluency
+parent 32 38 204 210 I-language_fluency
+/ 38 39 210 211 I-language_fluency
+guardian 39 47 211 219 I-language_fluency
+for 48 51 220 223 O
+pediatric 52 61 224 233 O
+patients 62 70 234 242 O
+
+Pregnant 0 8 243 251 B-pregnancy
+
+Temperature 0 11 252 263 B-clinical_variable
+less 12 16 264 268 O
+than 17 21 269 273 O
+100.4 22 27 274 279 B-upper_bound
+F 28 29 280 281 I-upper_bound
+

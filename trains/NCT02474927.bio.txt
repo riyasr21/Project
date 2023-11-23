@@ -1,0 +1,139 @@
+Active 0 6 0 6 O
+cytomegalovirus 7 22 7 22 B-chronic_disease
+disease 23 30 23 30 I-chronic_disease
+
+Active 0 6 31 37 B-chronic_disease
+varicella 7 16 38 47 I-chronic_disease
+zoster 17 23 48 54 I-chronic_disease
+infection 24 33 55 64 I-chronic_disease
+
+Adult 0 5 65 70 O
+lung 6 10 71 75 B-treatment
+transplant 11 21 76 86 I-treatment
+recipients 22 32 87 97 O
+≥ 33 34 98 99 O
+18 35 37 100 102 B-lower_bound
+years 38 43 103 108 I-lower_bound
+of 44 46 109 111 O
+age 47 50 112 115 B-age
+who 51 54 116 119 O
+meet 55 59 120 124 O
+the 60 63 125 128 O
+diagnostic 64 74 129 139 O
+criteria 75 83 140 148 O
+for 84 87 149 152 O
+AMR 88 91 153 156 O
+and 92 95 157 160 O
+who 96 99 161 164 O
+have 100 104 165 169 O
+underwent 105 114 170 179 O
+PFT 115 118 180 183 O
+testing 119 126 184 191 O
+unless 127 133 192 198 O
+intubated 134 143 199 208 O
+and 144 147 209 212 O
+transbronchial 148 162 213 227 B-treatment
+biopsy 163 169 228 234 I-treatment
+prior 170 175 235 240 O
+to 176 178 241 243 O
+enrollment 179 189 244 254 O
+
+Breastfeeding 0 13 255 268 O
+women 14 19 269 274 B-gender
+
+Concurrent 0 10 275 285 O
+use 11 14 286 289 O
+of 15 17 290 292 O
+another 18 25 293 300 O
+proteasome 26 36 301 311 B-treatment
+inhibitor 37 46 312 321 I-treatment
+( 47 48 322 323 O
+e.g. 48 52 323 327 O
+, 52 53 327 328 O
+bortezomib 54 64 329 339 B-treatment
+) 64 65 339 340 O
+
+Direct 0 6 341 347 O
+contraindications 7 24 348 365 O
+or 25 27 366 368 O
+previous 28 36 369 377 O
+intolerances 37 49 378 390 O
+to 50 52 391 393 O
+any 53 56 394 397 O
+component 57 66 398 407 O
+of 67 69 408 410 O
+the 70 73 411 414 O
+standard 74 82 415 423 O
+of 83 85 424 426 O
+care 86 90 427 431 O
+regimen 91 98 432 439 O
+including 99 108 440 449 O
+PLEX 109 113 450 454 B-clinical_variable
+, 113 114 454 455 O
+5 115 116 456 457 B-upper_bound
+% 116 117 457 458 I-upper_bound
+human 118 123 459 464 B-clinical_variable
+albumin 124 131 465 472 I-clinical_variable
+, 131 132 472 473 O
+5 133 134 474 475 O
+% 134 135 475 476 O
+gammagard 136 145 477 486 B-clinical_variable
+S 146 147 487 488 I-clinical_variable
+/ 147 148 488 489 I-clinical_variable
+D 148 149 489 490 I-clinical_variable
+or 150 152 491 493 O
+10 153 155 494 496 B-upper_bound
+% 155 156 496 497 I-upper_bound
+gammagard 157 166 498 507 B-clinical_variable
+liquid 167 173 508 514 I-clinical_variable
+
+Known 0 5 515 520 O
+Child 6 11 521 526 O
+- 11 12 526 527 O
+Pugh 12 16 527 531 O
+B 17 18 532 533 O
+/ 18 19 533 534 O
+C 19 20 534 535 O
+cirrhosis 21 30 536 545 B-chronic_disease
+
+Known 0 5 546 551 O
+pulmonary 6 15 552 561 B-chronic_disease
+hypertension 16 28 562 574 I-chronic_disease
+
+Known 0 5 575 580 O
+systolic 6 14 581 589 B-chronic_disease
+heart 15 20 590 595 I-chronic_disease
+failure 21 28 596 603 I-chronic_disease
+with 29 33 604 608 O
+LVEF 34 38 609 613 B-clinical_variable
+< 39 40 614 615 O
+40 41 43 616 618 B-upper_bound
+% 43 44 618 619 I-upper_bound
+
+Leukopenia 0 10 620 630 B-chronic_disease
+
+Neutropenia 0 11 631 642 B-chronic_disease
+
+Ongoing 0 7 643 650 O
+bacterial 8 17 651 660 B-chronic_disease
+or 18 20 661 663 O
+fungal 21 27 664 670 B-chronic_disease
+or 28 30 671 673 O
+viral 31 36 674 679 B-chronic_disease
+infection 37 46 680 689 I-chronic_disease
+that 47 51 690 694 O
+is 52 54 695 697 O
+life 55 59 698 702 O
+- 59 60 702 703 O
+threatening 60 71 703 714 O
+
+Pregnant 0 8 715 723 B-pregnancy
+women 9 14 724 729 B-gender
+
+Previous 0 8 730 738 O
+intolerance 9 20 739 750 O
+to 21 23 751 753 O
+carfilzomib 24 35 754 765 B-treatment
+
+Thrombocytopenia 0 16 766 782 B-chronic_disease
+

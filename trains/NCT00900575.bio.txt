@@ -1,0 +1,31 @@
+LEEP 0 4 0 4 B-treatment
+for 5 8 5 8 O
+the 9 12 9 12 O
+treatment 13 22 13 22 O
+of 23 25 23 25 O
+cervical 26 34 26 34 B-cancer
+cancer 35 41 35 41 I-cancer
+in 42 44 42 44 O
+early 45 50 45 50 O
+stages 51 57 51 57 O
+
+Women 0 5 58 63 B-gender
+
+under 0 5 64 69 O
+the 6 9 70 73 O
+age 10 13 74 77 B-age
+of 14 16 78 80 O
+18 17 19 81 83 B-upper_bound
+( 20 21 84 85 O
+minors 21 27 85 91 O
+) 27 28 91 92 O
+
+undergoing 0 10 93 103 O
+colposcopy 11 21 104 114 B-treatment
+for 22 25 115 118 O
+the 26 29 119 122 O
+diagnosis 30 39 123 132 O
+of 40 42 133 135 O
+cervical 43 51 136 144 B-cancer
+cancer 52 58 145 151 I-cancer
+

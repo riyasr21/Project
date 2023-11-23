@@ -1,0 +1,102 @@
+> 0 1 0 1 O
+96 1 3 1 3 B-lower_bound
+continuous 4 14 4 14 I-lower_bound
+hours 15 20 15 20 I-lower_bound
+of 21 23 21 23 O
+mechanical 24 34 24 34 B-treatment
+ventilation 35 46 35 46 I-treatment
+before 47 53 47 53 O
+enrollment 54 64 54 64 O
+
+Metabolic 0 9 65 74 B-chronic_disease
+disorders 10 19 75 84 I-chronic_disease
+involving 20 29 85 94 O
+impaired 30 38 95 103 O
+nitrogen 39 47 104 112 O
+utilization 48 59 113 124 O
+
+Neuromuscular 0 13 125 138 B-treatment
+blocker 14 21 139 146 I-treatment
+infusion 22 30 147 155 I-treatment
+( 31 32 156 157 O
+eligible 32 40 157 165 O
+once 41 45 166 170 O
+infusion 46 54 171 179 O
+discontinued 55 67 180 192 O
+if 68 70 193 195 O
+other 71 76 196 201 O
+inclusion 77 86 202 211 O
+criteria 87 95 212 220 O
+met 96 99 221 224 O
+) 99 100 224 225 O
+
+No 0 2 226 228 O
+expectation 3 14 229 240 O
+for 15 18 241 244 O
+any 19 22 245 248 O
+nutritional 23 34 249 260 O
+intake 35 41 261 267 O
+within 42 48 268 274 O
+the 49 52 275 278 O
+subsequent 53 63 279 289 O
+72 64 66 290 292 B-upper_bound
+hours 67 72 293 298 I-upper_bound
+
+Pre 0 3 299 302 B-chronic_disease
+- 3 4 302 303 I-chronic_disease
+existing 4 12 303 311 I-chronic_disease
+cognitive 13 22 312 321 I-chronic_disease
+impairment 23 33 322 332 I-chronic_disease
+or 34 36 333 335 I-chronic_disease
+language 37 45 336 344 I-chronic_disease
+barrier 46 53 345 352 I-chronic_disease
+that 54 58 353 357 O
+prohibits 59 68 358 367 O
+outcomes 69 77 368 376 O
+assessment 78 88 377 387 O
+
+Pre 0 3 388 391 O
+- 3 4 391 392 O
+existing 4 12 392 400 O
+primary 13 20 401 408 B-chronic_disease
+systemic 21 29 409 417 I-chronic_disease
+neuromuscular 30 43 418 431 I-chronic_disease
+disease 44 51 432 439 I-chronic_disease
+( 52 53 440 441 O
+e.g. 53 57 441 445 O
+Guillain 58 66 446 454 B-chronic_disease
+Barre 67 72 455 460 I-chronic_disease
+) 72 73 460 461 O
+
+Pregnant 0 8 462 470 B-pregnancy
+
+Requiring 0 9 471 480 O
+mechanical 10 20 481 491 B-treatment
+ventilation 21 32 492 503 I-treatment
+with 33 37 504 508 O
+actual 38 44 509 515 B-clinical_variable
+or 45 47 516 518 I-clinical_variable
+expected 48 56 519 527 I-clinical_variable
+total 57 62 528 533 I-clinical_variable
+duration 63 71 534 542 I-clinical_variable
+of 72 74 543 545 I-clinical_variable
+mechanical 75 85 546 556 I-clinical_variable
+ventilation 86 97 557 568 I-clinical_variable
+≥ 98 99 569 570 O
+48 100 102 571 573 B-lower_bound
+hours 103 108 574 579 I-lower_bound
+
+Severe 0 6 580 586 O
+chronic 7 14 587 594 B-chronic_disease
+liver 15 20 595 600 I-chronic_disease
+disease 21 28 601 608 I-chronic_disease
+( 29 30 609 610 O
+MELD 30 34 610 614 B-clinical_variable
+score 35 40 615 620 I-clinical_variable
+≥20 41 44 621 624 O
+) 44 45 624 625 O
+or 46 48 626 628 O
+acute 49 54 629 634 B-chronic_disease
+fulminant 55 64 635 644 I-chronic_disease
+hepatitis 65 74 645 654 I-chronic_disease
+

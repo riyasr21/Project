@@ -1,0 +1,41 @@
+Chronic 0 7 0 7 B-clinical_variable
+Kidney 8 14 8 14 I-clinical_variable
+Disease 15 22 15 22 I-clinical_variable
+Epidemiology 23 35 23 35 I-clinical_variable
+Collaboration 36 49 36 49 I-clinical_variable
+for 50 53 50 53 I-clinical_variable
+estimation 54 64 54 64 I-clinical_variable
+of 65 67 65 67 I-clinical_variable
+GFR 68 71 68 71 I-clinical_variable
+< 72 73 72 73 O
+30 74 76 74 76 B-upper_bound
+ml 77 79 77 79 I-upper_bound
+/ 79 80 79 80 I-upper_bound
+min/1.73m2 80 90 80 90 I-upper_bound
+
+English 0 7 91 98 B-language_fluency
+- 7 8 98 99 I-language_fluency
+speaking 8 16 99 107 I-language_fluency
+during 17 23 108 114 O
+clinical 24 32 115 123 O
+encounters 33 43 124 134 O
+
+Known 0 5 135 140 O
+history 6 13 141 148 O
+of 14 16 149 151 O
+dementia 17 25 152 160 B-chronic_disease
+
+Legally 0 7 161 168 O
+blind 8 13 169 174 B-chronic_disease
+
+Listed 0 6 175 181 O
+for 7 10 182 185 O
+kidney 11 17 186 192 B-treatment
+transplant 18 28 193 203 I-treatment
+
+Stage 0 5 204 209 B-chronic_disease
+4 6 7 210 211 I-chronic_disease
+or 8 10 212 214 I-chronic_disease
+5 11 12 215 216 I-chronic_disease
+CKD 13 16 217 220 I-chronic_disease
+

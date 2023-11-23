@@ -1,0 +1,172 @@
+Active 0 6 0 6 O
+Psychosis 7 16 7 16 B-chronic_disease
+
+Active 0 6 17 23 O
+Substance 7 16 24 33 O
+Abuse 17 22 34 39 O
+within 23 29 40 46 O
+6 30 31 47 48 B-upper_bound
+months 32 38 49 55 I-upper_bound
+
+Active 0 6 56 62 O
+Suicidality 7 18 63 74 B-chronic_disease
+
+History 0 7 75 82 O
+of 8 10 83 85 O
+major 11 16 86 91 B-chronic_disease
+head 17 21 92 96 I-chronic_disease
+trauma 22 28 97 103 I-chronic_disease
+or 29 31 104 106 O
+psychosurgery 32 45 107 120 B-treatment
+
+Pervasive 0 9 121 130 B-chronic_disease
+Developmental 10 23 131 144 I-chronic_disease
+Disorder 24 32 145 153 I-chronic_disease
+
+Pregnancy 0 9 154 163 B-pregnancy
+
+Primary 0 7 164 171 O
+Diagnosis 8 17 172 181 O
+of 18 20 182 184 O
+Current 21 28 185 192 O
+OCD 29 32 193 196 B-chronic_disease
+, 32 33 196 197 O
+based 34 39 198 203 O
+on 40 42 204 206 O
+Diagnostic 43 53 207 217 O
+and 54 57 218 221 O
+Statistical 58 69 222 233 O
+Manual 70 76 234 240 O
+( 77 78 241 242 O
+DSM 78 81 242 245 O
+- 81 82 245 246 O
+IV 82 84 246 248 O
+) 84 85 248 249 O
+criteria 86 94 250 258 O
+, 94 95 258 259 O
+a 96 97 260 261 O
+Y 98 99 262 263 B-clinical_variable
+- 99 100 263 264 I-clinical_variable
+BOCS 100 104 264 268 I-clinical_variable
+( 105 106 269 270 I-clinical_variable
+Yale 106 110 270 274 I-clinical_variable
+- 110 111 274 275 I-clinical_variable
+Brown 111 116 275 280 I-clinical_variable
+Obsessive 117 126 281 290 I-clinical_variable
+- 126 127 290 291 I-clinical_variable
+Compulsive 127 137 291 301 I-clinical_variable
+Scale 138 143 302 307 I-clinical_variable
+) 143 144 307 308 I-clinical_variable
+score 145 150 309 314 I-clinical_variable
+> 151 152 315 316 O
+= 152 153 316 317 O
+16 153 155 317 319 B-lower_bound
+
+Principle 0 9 320 329 O
+OCD 10 13 330 333 B-chronic_disease
+symptoms- 14 23 334 343 O
+Primary 24 31 344 351 O
+symptoms 32 40 352 360 O
+must 41 45 361 365 O
+be 46 48 366 368 O
+either 49 55 369 375 O
+Cleaning 56 64 376 384 O
+/ 64 65 384 385 O
+Contamination 65 78 385 398 O
+or 79 81 399 401 O
+Checking 82 90 402 410 O
+; 90 91 410 411 O
+other 92 97 412 417 O
+symptoms 98 106 418 426 O
+okay 107 111 427 431 O
+
+Seizure 0 7 432 439 B-chronic_disease
+disorder 8 16 440 448 I-chronic_disease
+or 17 19 449 451 O
+other 20 25 452 457 O
+significant 26 37 458 469 O
+neurological 38 50 470 482 B-chronic_disease
+disorder 51 59 483 491 I-chronic_disease
+
+active 0 6 492 498 B-treatment
+cognitive 7 16 499 508 I-treatment
+/ 16 17 508 509 I-treatment
+behavioral 17 27 509 519 I-treatment
+therapy 28 35 520 527 I-treatment
+initiated 36 45 528 537 O
+within 46 52 538 544 O
+the 53 56 545 548 O
+last 57 61 549 553 B-upper_bound
+3 62 63 554 555 I-upper_bound
+months 64 70 556 562 I-upper_bound
+( 71 72 563 564 O
+continuation 72 84 564 576 O
+of 85 87 577 579 O
+established 88 99 580 591 O
+maintenance 100 111 592 603 B-treatment
+therapy 112 119 604 611 I-treatment
+that 120 124 612 616 O
+has 125 128 617 620 O
+been 129 133 621 625 O
+going 134 139 626 631 O
+on 140 142 632 634 O
+for 143 146 635 638 O
+longer 147 153 639 645 O
+than 154 158 646 650 O
+3 159 160 651 652 O
+months 161 167 653 659 O
+will 168 172 660 664 O
+not 173 176 665 668 O
+be 177 179 669 671 O
+grounds 180 187 672 679 O
+for 188 191 680 683 O
+exclusion 192 201 684 693 O
+) 201 202 693 694 O
+
+anafranil 0 9 695 704 B-treatment
+
+any 0 3 705 708 O
+psychotropic 4 16 709 721 B-treatment
+medication 17 27 722 732 I-treatment
+other 28 33 733 738 O
+than 34 38 739 743 O
+a 39 40 744 745 O
+selective 41 50 746 755 B-treatment
+serotonin 51 60 756 765 I-treatment
+reuptake 61 69 766 774 I-treatment
+inhibitor 70 79 775 784 I-treatment
+( 80 81 785 786 I-treatment
+SSRI 81 85 786 790 I-treatment
+) 85 86 790 791 I-treatment
+antidepressant 87 101 792 806 I-treatment
+
+epilepsy 0 8 807 815 B-chronic_disease
+or 9 11 816 818 O
+other 12 17 819 824 O
+major 18 23 825 830 B-chronic_disease
+neurological 24 36 831 843 I-chronic_disease
+disorder 37 45 844 852 I-chronic_disease
+
+low 0 3 853 856 O
+- 3 4 856 857 O
+dose 4 8 857 861 O
+hypnotic 9 17 862 870 B-treatment
+or 18 20 871 873 O
+anxiolytic 21 31 874 884 B-treatment
+taken 32 37 885 890 O
+on 38 40 891 893 O
+an 41 43 894 896 O
+as 44 46 897 899 O
+- 46 47 899 900 O
+needed 47 53 900 906 O
+basis 54 59 907 912 O
+
+medications 0 11 913 924 O
+stable 12 18 925 931 O
+for 19 22 932 935 O
+8 23 24 936 937 B-upper_bound
+weeks 25 30 938 943 I-upper_bound
+
+severe 0 6 944 950 B-chronic_disease
+claustrophobia 7 21 951 965 I-chronic_disease
+

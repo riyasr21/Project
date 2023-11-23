@@ -1,0 +1,108 @@
+Active 0 6 0 6 B-chronic_disease
+autoimmune 7 17 7 17 I-chronic_disease
+disease 18 25 18 25 I-chronic_disease
+
+At 0 2 26 28 O
+least 3 8 29 34 O
+4 9 10 35 36 B-lower_bound
+weeks 11 16 37 42 O
+since 17 22 43 48 O
+last 23 27 49 53 O
+dose 28 32 54 58 O
+of 33 35 59 61 O
+chemotherapy 36 48 62 74 B-treatment
+, 48 49 74 75 O
+radiotherapy 50 62 76 88 B-treatment
+, 62 63 88 89 O
+immunotherapy 64 77 90 103 B-treatment
+, 77 78 103 104 O
+systemic 79 87 105 113 O
+glucocorticoid 88 102 114 128 B-treatment
+therapy 103 110 129 136 I-treatment
+or 111 113 137 139 O
+operation 114 123 140 149 O
+in 124 126 150 152 O
+order 127 132 153 158 O
+to 133 135 159 161 O
+receive 136 143 162 169 O
+vaccine 144 151 170 177 O
+
+Fully 0 5 178 183 O
+recovered 6 15 184 193 O
+from 16 20 194 198 O
+hepatic 21 28 199 206 B-treatment
+resection 29 38 207 216 I-treatment
+
+Greater 0 7 217 224 O
+than 8 12 225 229 O
+1 13 14 230 231 B-lower_bound
+month 15 20 232 237 I-lower_bound
+since 21 26 238 243 O
+resection 27 36 244 253 O
+of 37 39 254 256 O
+liver 40 45 257 262 B-cancer
+metastasis 46 56 263 273 I-cancer
+for 57 60 274 277 O
+vaccine 61 68 278 285 O
+production 69 79 286 296 O
+
+Hepatic 0 7 297 304 B-cancer
+metastases 8 18 305 315 I-cancer
+involving 19 28 316 325 O
+both 29 33 326 330 O
+branches 34 42 331 339 O
+of 43 45 340 342 O
+the 46 49 343 346 O
+portal 50 56 347 353 O
+vein 57 61 354 358 O
+or 62 64 359 361 O
+all 65 68 362 365 O
+three 69 74 366 371 O
+hepatic 75 82 372 379 O
+veins 83 88 380 385 O
+
+Histologically 0 14 386 400 O
+documented 15 25 401 411 O
+hepatic 26 33 412 419 B-cancer
+colorectal 34 44 420 430 I-cancer
+cancer 45 51 431 437 I-cancer
+metastasis 52 62 438 448 I-cancer
+with 63 67 449 453 I-cancer
+resectable 68 78 454 464 I-cancer
+hepatic 79 86 465 472 I-cancer
+lesions 87 94 473 480 I-cancer
+
+Infection 0 9 481 490 O
+with 10 14 491 495 O
+HIV 15 18 496 499 B-chronic_disease
+, 18 19 499 500 O
+Hepatitis 20 29 501 510 B-chronic_disease
+B 30 31 511 512 I-chronic_disease
+or 32 34 513 515 I-chronic_disease
+C 35 36 516 517 I-chronic_disease
+
+Peritoneal 0 10 518 528 B-cancer
+metastases 11 21 529 539 I-cancer
+identified 22 32 540 550 O
+at 33 35 551 553 O
+the 36 39 554 557 O
+time 40 44 558 562 O
+of 45 47 563 565 O
+attempted 48 57 566 575 O
+resection 58 67 576 585 B-treatment
+
+Pregnant 0 8 586 594 B-pregnancy
+
+Uncontrolled 0 12 595 607 O
+active 13 19 608 614 B-chronic_disease
+infection 20 29 615 624 I-chronic_disease
+
+situ 0 4 625 629 B-cancer
+cancer 5 11 630 636 I-cancer
+or 12 14 637 639 O
+basal 15 20 640 645 B-cancer
+/ 20 21 645 646 I-cancer
+squamous 21 29 646 654 I-cancer
+cell 30 34 655 659 I-cancer
+carcinoma 35 44 660 669 I-cancer
+

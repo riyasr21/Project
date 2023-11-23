@@ -1,0 +1,102 @@
+40 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+old 9 12 9 12 O
+or 13 15 13 15 O
+older 16 21 16 21 O
+
+History 0 7 22 29 O
+of 8 10 30 32 O
+serious 11 18 33 40 O
+neurologic 19 29 41 51 B-chronic_disease
+disease 30 37 52 59 I-chronic_disease
+
+Hypersensitivity 0 16 60 76 O
+to 17 19 77 79 O
+atomoxetine 20 31 80 91 B-allergy_name
+
+Impaired 0 8 92 100 B-chronic_disease
+renal 9 14 101 106 I-chronic_disease
+function 15 23 107 115 I-chronic_disease
+( 24 25 116 117 O
+serum 25 30 117 122 B-clinical_variable
+creatinine 31 41 123 133 I-clinical_variable
+equal 42 47 134 139 O
+or 48 50 140 142 O
+more 51 55 143 147 O
+than 56 60 148 152 O
+1.6 61 64 153 156 B-lower_bound
+mg 65 67 157 159 I-lower_bound
+/ 67 68 159 160 I-lower_bound
+dl 68 70 160 162 I-lower_bound
+) 70 71 162 163 O
+
+Myocardial 0 10 164 174 B-chronic_disease
+infarction 11 21 175 185 I-chronic_disease
+within 22 28 186 192 O
+6 29 30 193 194 B-upper_bound
+months 31 37 195 201 I-upper_bound
+prior 38 43 202 207 I-upper_bound
+to 44 46 208 210 O
+enrollment 47 57 211 221 O
+
+Narrow 0 6 222 228 B-chronic_disease
+- 6 7 228 229 I-chronic_disease
+angle 7 12 229 234 I-chronic_disease
+glaucoma 13 21 235 243 I-chronic_disease
+
+Previous 0 8 244 252 O
+history 9 16 253 260 O
+( 17 18 261 262 O
+within 18 24 262 268 O
+14 25 27 269 271 B-upper_bound
+days 28 32 272 276 I-upper_bound
+prior 33 38 277 282 I-upper_bound
+to 39 41 283 285 O
+enrollment 42 52 286 296 O
+) 52 53 296 297 O
+
+Use 0 3 298 301 O
+of 4 6 302 304 O
+other 7 12 305 310 O
+norepinephrine 13 27 311 325 O
+transporter 28 39 326 337 O
+inhibitors 40 50 338 348 O
+such 51 55 349 353 O
+as 56 58 354 356 O
+Wellbutrin 59 69 357 367 B-treatment
+( 70 71 368 369 I-treatment
+Bupropion 71 80 369 378 I-treatment
+) 80 81 378 379 I-treatment
+, 81 82 379 380 O
+Cymbalta 83 91 381 389 B-treatment
+( 92 93 390 391 I-treatment
+Duloxetine 93 103 391 401 I-treatment
+) 103 104 401 402 I-treatment
+, 104 105 402 403 O
+Effexor 106 113 404 411 B-treatment
+( 114 115 412 413 I-treatment
+venlafaxine 115 126 413 424 I-treatment
+) 126 127 424 425 I-treatment
+, 127 128 425 426 O
+Pristiq 129 136 427 434 B-treatment
+( 137 138 435 436 I-treatment
+desvenlafaxine 138 152 436 450 I-treatment
+) 152 153 450 451 I-treatment
+, 153 154 451 452 O
+Savella 155 162 453 460 B-treatment
+( 163 164 461 462 I-treatment
+milnacipran 164 175 462 473 I-treatment
+) 175 176 473 474 I-treatment
+
+cerebral 0 8 475 483 B-chronic_disease
+hemorrhage 9 19 484 494 I-chronic_disease
+
+current 0 7 495 502 O
+use 8 11 503 506 O
+of 12 14 507 509 O
+monoamine 15 24 510 519 B-treatment
+oxidase 25 32 520 527 I-treatment
+inhibitors 33 43 528 538 I-treatment
+
+urticaria 0 9 539 548 B-chronic_disease
+

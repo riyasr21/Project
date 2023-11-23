@@ -1,0 +1,165 @@
+BMI 0 3 0 3 B-bmi
+> 4 5 4 5 O
+35 6 8 6 8 B-lower_bound
+due 9 12 9 12 O
+to 13 15 13 15 O
+the 16 19 16 19 O
+effects 20 27 20 27 O
+of 28 30 28 30 O
+obesity 31 38 31 38 B-chronic_disease
+on 39 41 39 41 O
+cytokine 42 50 42 50 O
+activity 51 59 51 59 O
+and 60 63 60 63 O
+risk 64 68 64 68 O
+for 69 72 69 72 O
+sleep 73 78 73 78 O
+disordered 79 89 79 89 O
+breathing 90 99 90 99 O
+
+a 0 1 100 101 O
+positive 2 10 102 110 O
+screen 11 17 111 117 O
+for 18 21 118 121 O
+sleep 22 27 122 127 B-chronic_disease
+apnea 28 33 128 133 I-chronic_disease
+using 34 39 134 139 O
+the 40 43 140 143 O
+Berlin 44 50 144 150 O
+Sleep 51 56 151 156 O
+Apnea 57 62 157 162 O
+Questionnaire 63 76 163 176 O
+
+current 0 7 177 184 O
+depressive 8 18 185 195 O
+symptoms 19 27 196 204 O
+assessed 28 36 205 213 O
+by 37 39 214 216 O
+the 40 43 217 220 O
+Patient 44 51 221 228 B-clinical_variable
+Health 52 58 229 235 I-clinical_variable
+Questionnaire 59 72 236 249 I-clinical_variable
+( 73 74 250 251 I-clinical_variable
+PHQ-9 74 79 251 256 I-clinical_variable
+) 79 80 256 257 I-clinical_variable
+( 81 82 258 259 O
+≥ 82 83 259 260 O
+5 84 85 261 262 B-lower_bound
+) 85 86 262 263 O
+
+current 0 7 264 271 O
+sleep 8 13 272 277 B-chronic_disease
+disorders 14 23 278 287 I-chronic_disease
+such 24 28 288 292 O
+as 29 31 293 295 O
+insomnia 32 40 296 304 B-chronic_disease
+or 41 43 305 307 O
+sleep 44 49 308 313 B-chronic_disease
+apnea 50 55 314 319 I-chronic_disease
+
+current 0 7 320 327 O
+use 8 11 328 331 O
+of 12 14 332 334 O
+prescription 15 27 335 347 O
+medications 28 39 348 359 O
+such 40 44 360 364 O
+as 45 47 365 367 O
+steroids 48 56 368 376 B-treatment
+
+excessive 0 9 377 386 B-clinical_variable
+caffeine 10 18 387 395 I-clinical_variable
+use 19 22 396 399 I-clinical_variable
+( 23 24 400 401 O
+> 24 25 401 402 O
+600 25 28 402 405 B-lower_bound
+mg 29 31 406 408 I-lower_bound
+/ 31 32 408 409 I-lower_bound
+day 32 35 409 412 I-lower_bound
+) 35 36 412 413 O
+
+non 0 3 414 417 B-treatment
+- 3 4 417 418 I-treatment
+steroid 4 11 418 425 I-treatment
+anti 12 16 426 430 I-treatment
+- 16 17 430 431 I-treatment
+inflammatory 17 29 431 443 I-treatment
+drugs 30 35 444 449 I-treatment
+
+opioid 0 6 450 456 B-treatment
+analgesics 7 17 457 467 I-treatment
+
+other 0 5 468 473 O
+chronic 6 13 474 481 B-chronic_disease
+diseases 14 22 482 490 I-chronic_disease
+
+presence 0 8 491 499 O
+of 9 11 500 502 O
+chronic 12 19 503 510 B-chronic_disease
+mental 20 26 511 517 I-chronic_disease
+or 27 29 518 520 O
+physical 30 38 521 529 B-chronic_disease
+illnesses 39 48 530 539 I-chronic_disease
+
+prior 0 5 540 545 O
+or 6 8 546 548 O
+current 9 16 549 556 O
+suicidal 17 25 557 565 B-chronic_disease
+ideation 26 34 566 574 I-chronic_disease
+assessed 35 43 575 583 O
+by 44 46 584 586 O
+the 47 50 587 590 O
+Columbia 51 59 591 599 O
+Suicide 60 67 600 607 O
+Severity 68 76 608 616 O
+Rating 77 83 617 623 O
+Scale 84 89 624 629 O
+( 90 91 630 631 O
+C 91 92 631 632 O
+- 92 93 632 633 O
+SSRS 93 97 633 637 O
+) 97 98 637 638 O
+
+sleep 0 5 639 644 B-chronic_disease
+disorders 6 15 645 654 I-chronic_disease
+identified 16 26 655 665 O
+by 27 29 666 668 O
+the 30 33 669 672 O
+SCID 34 38 673 677 B-treatment
+and 39 42 678 681 O
+the 43 46 682 685 O
+Duke 47 51 686 690 B-treatment
+Structured 52 62 691 701 I-treatment
+Interview 63 72 702 711 I-treatment
+for 73 76 712 715 I-treatment
+Sleep 77 82 716 721 I-treatment
+Disorders 83 92 722 731 I-treatment
+( 93 94 732 733 I-treatment
+DSISD 94 99 733 738 I-treatment
+) 99 100 738 739 I-treatment
+
+time 0 4 740 744 B-clinical_variable
+zone 5 9 745 749 I-clinical_variable
+shifts 10 16 750 756 I-clinical_variable
+( 17 18 757 758 O
+> 18 19 758 759 O
+3 20 21 760 761 B-lower_bound
+hours 22 27 762 767 I-lower_bound
+) 27 28 767 768 O
+within 29 35 769 775 O
+the 36 39 776 779 O
+previous 40 48 780 788 B-upper_bound
+6 49 50 789 790 I-upper_bound
+weeks 51 56 791 796 I-upper_bound
+
+to 0 2 797 799 O
+be 3 5 800 802 O
+aged 6 10 803 807 B-age
+60 11 13 808 810 B-lower_bound
+to 14 16 811 813 O
+80 17 19 814 816 B-upper_bound
+years 20 25 817 822 I-upper_bound
+
+to 0 2 823 825 O
+be 3 5 826 828 O
+female 6 12 829 835 B-gender
+

@@ -1,0 +1,84 @@
+Patients 0 8 0 8 O
+have 9 13 9 13 O
+an 14 16 14 16 O
+ICD 17 20 17 20 B-treatment
+implanted 21 30 21 30 O
+for 31 34 31 34 O
+secondary 35 44 35 44 O
+prevention 45 55 45 55 O
+
+Patients 0 8 56 64 O
+taking 9 15 65 71 O
+immunosuppressive 16 33 72 89 B-treatment
+medications 34 45 90 101 I-treatment
+
+Patients 0 8 102 110 O
+with 9 13 111 115 O
+any 14 17 116 119 O
+illness 18 25 120 127 O
+expected 26 34 128 136 O
+to 35 37 137 139 O
+result 38 44 140 146 O
+in 45 47 147 149 O
+death 48 53 150 155 O
+within 54 60 156 162 O
+18 61 63 163 165 B-upper_bound
+months 64 70 166 172 I-upper_bound
+of 71 73 173 175 O
+enrollment 74 84 176 186 O
+
+Patients 0 8 187 195 O
+with 9 13 196 200 O
+end 14 17 201 204 B-chronic_disease
+- 17 18 204 205 I-chronic_disease
+stage 18 23 205 210 I-chronic_disease
+renal 24 29 211 216 I-chronic_disease
+disease 30 37 217 224 I-chronic_disease
+( 38 39 225 226 I-chronic_disease
+ESRD 39 43 226 230 I-chronic_disease
+) 43 44 230 231 I-chronic_disease
+on 45 47 232 234 O
+hemodialysis 48 60 235 247 B-treatment
+or 61 63 248 250 O
+peritoneal 64 74 251 261 B-treatment
+dialysis 75 83 262 270 I-treatment
+
+greater 0 7 271 278 O
+than 8 12 279 283 O
+18 13 15 284 286 B-lower_bound
+years 16 21 287 292 I-lower_bound
+of 22 24 293 295 O
+age 25 28 296 299 B-age
+
+have 0 4 300 304 O
+an 5 7 305 307 O
+acute 8 13 308 313 B-chronic_disease
+or 14 16 314 316 I-chronic_disease
+chronic 17 24 317 324 I-chronic_disease
+inflammatory 25 37 325 337 I-chronic_disease
+illness 38 45 338 345 I-chronic_disease
+that 46 50 346 350 O
+might 51 56 351 356 O
+alter 57 62 357 362 O
+white 63 68 363 368 O
+cell 69 73 369 373 O
+mRNA 74 78 374 378 O
+expression 79 89 379 389 O
+
+less 0 4 390 394 O
+than 5 9 395 399 O
+18 10 12 400 402 B-upper_bound
+years 13 18 403 408 I-upper_bound
+of 19 21 409 411 O
+age 22 25 412 415 B-age
+
+receive 0 7 416 423 O
+an 8 10 424 426 O
+ICD 11 14 427 430 B-treatment
+within 15 21 431 437 O
+10 22 24 438 440 B-upper_bound
+days 25 29 441 445 I-upper_bound
+for 30 33 446 449 O
+primary 34 41 450 457 O
+prevention 42 52 458 468 O
+

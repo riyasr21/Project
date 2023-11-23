@@ -1,0 +1,88 @@
+Age 0 3 0 3 B-age
+: 3 4 3 4 O
+7 5 6 5 6 B-lower_bound
+- 7 8 7 8 O
+21 9 11 9 11 B-upper_bound
+years 12 17 12 17 I-upper_bound
+old 18 21 18 21 O
+
+History 0 7 22 29 O
+of 8 10 30 32 O
+cystic 11 17 33 39 B-chronic_disease
+fibrosis 18 26 40 48 I-chronic_disease
+
+History 0 7 49 56 O
+of 8 10 57 59 O
+immunodeficiency 11 27 60 76 B-chronic_disease
+
+History 0 7 77 84 O
+of 8 10 85 87 O
+tuberculosis 11 23 88 100 B-chronic_disease
+
+Informed 0 8 101 109 O
+consent 9 16 110 117 O
+for 17 20 118 121 O
+children 21 29 122 130 O
+ages 30 34 131 135 B-age
+18 35 37 136 138 B-lower_bound
+- 37 38 138 139 O
+21 38 40 139 141 B-upper_bound
+, 40 41 141 142 O
+as 42 44 143 145 O
+evidence 45 53 146 154 O
+by 54 56 155 157 O
+signing 57 64 158 165 O
+a 65 66 166 167 O
+copy 67 71 168 172 O
+of 72 74 173 175 O
+the 75 78 176 179 O
+consent 79 86 180 187 O
+form 87 91 188 192 O
+approved 92 100 193 201 O
+by 101 103 202 204 O
+the 104 107 205 208 O
+Institutional 108 121 209 222 O
+Review 122 128 223 229 O
+Board 129 134 230 235 O
+of 135 137 236 238 O
+the 138 141 239 242 O
+subject 142 149 243 250 O
+'s 149 151 250 252 O
+respective 152 162 253 263 O
+study 163 168 264 269 O
+institution 169 180 270 281 O
+
+One 0 3 282 285 O
+of 4 6 286 288 O
+previous 7 15 289 297 O
+3 16 17 298 299 O
+tracheostomy 18 30 300 312 O
+tube 31 35 313 317 O
+aspirate 36 44 318 326 O
+cultures 45 53 327 335 O
+positive 54 62 336 344 O
+for 63 66 345 348 O
+Pseudomonas 67 78 349 360 B-chronic_disease
+aeruginosa 79 89 361 371 I-chronic_disease
+
+Use 0 3 372 375 O
+of 4 6 376 378 O
+inhaled 7 14 379 386 B-treatment
+antibiotics 15 26 387 398 I-treatment
+in 27 29 399 401 O
+the 30 33 402 405 O
+last 34 38 406 410 B-upper_bound
+6 39 40 411 412 I-upper_bound
+months 41 47 413 419 I-upper_bound
+
+Written 0 7 420 427 O
+assent 8 14 428 434 O
+for 15 18 435 438 O
+children 19 27 439 447 O
+7 28 29 448 449 B-lower_bound
+- 29 30 449 450 O
+17 30 32 450 452 B-upper_bound
+years 33 38 453 458 I-upper_bound
+of 39 41 459 461 O
+age 42 45 462 465 B-age
+

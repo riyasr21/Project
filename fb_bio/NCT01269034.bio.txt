@@ -1,0 +1,97 @@
+ALT 0 3 0 3 B-clinical_variable
+
+Abnormal 0 8 4 12 O
+AST 9 12 13 16 B-clinical_variable
+
+Age 0 3 17 20 B-age
+between 4 11 21 28 O
+12 12 14 29 31 B-lower_bound
+- 14 15 31 32 O
+18 15 17 32 34 B-upper_bound
+years 18 23 35 40 I-upper_bound
+
+Any 0 3 41 44 O
+chronic 4 11 45 52 B-chronic_disease
+disease 12 19 53 60 I-chronic_disease
+
+Diagnosed 0 9 61 70 O
+with 10 14 71 75 O
+antibody 15 23 76 84 B-chronic_disease
+positive 24 32 85 93 I-chronic_disease
+T1DM 33 37 94 98 I-chronic_disease
+in 38 40 99 101 O
+the 41 44 102 105 O
+past 45 49 106 110 B-upper_bound
+3 50 51 111 112 I-upper_bound
+months 52 58 113 119 I-upper_bound
+
+Females 0 7 120 127 B-gender
+must 8 12 128 132 O
+have 13 17 133 137 O
+a 18 19 138 139 O
+negative 20 28 140 148 B-pregnancy
+pregnancy 29 38 149 158 I-pregnancy
+test 39 43 159 163 I-pregnancy
+
+Hemoglobin 0 10 164 174 B-clinical_variable
+equal 11 16 175 180 O
+to 17 19 181 183 O
+or 20 22 184 186 O
+greater 23 30 187 194 O
+than 31 35 195 199 O
+12 36 38 200 202 B-lower_bound
+g 39 40 203 204 I-lower_bound
+/ 40 41 204 205 I-lower_bound
+dl 41 43 205 207 I-lower_bound
+before 44 50 208 214 O
+each 51 55 215 219 O
+study 56 61 220 225 O
+
+Positive 0 8 226 234 O
+pregnancy 9 18 235 244 B-pregnancy
+test 19 23 245 249 O
+in 24 26 250 252 O
+females 27 34 253 260 B-gender
+
+Weight 0 6 261 267 B-clinical_variable
+greater 7 14 268 275 O
+than 15 19 276 280 O
+44 20 22 281 283 B-lower_bound
+kg 23 25 284 286 I-lower_bound
+
+creatinine 0 10 287 297 B-clinical_variable
+( 11 12 298 299 O
+more 12 16 299 303 O
+than 17 21 304 308 O
+3 22 23 309 310 B-lower_bound
+times 24 29 311 316 I-lower_bound
+normal 30 36 317 323 I-lower_bound
+values 37 43 324 330 I-lower_bound
+) 43 44 330 331 O
+
+cystic 0 6 332 338 B-chronic_disease
+fibrosis 7 15 339 347 I-chronic_disease
+
+diabetes 0 8 348 356 B-chronic_disease
+
+healthy 0 7 357 364 O
+except 8 14 365 371 O
+for 15 18 372 375 O
+their 19 24 376 381 O
+TIDM 25 29 382 386 B-chronic_disease
+and 30 33 387 390 O
+treated 34 41 391 398 O
+hypothyroidism 42 56 399 413 B-chronic_disease
+
+hypothyroidism 0 14 414 428 B-chronic_disease
+
+inflammatory 0 12 429 441 B-chronic_disease
+bowel 13 18 442 447 I-chronic_disease
+disease 19 26 448 455 I-chronic_disease
+
+juvenile 0 8 456 464 B-chronic_disease
+rheumatoid 9 19 465 475 I-chronic_disease
+arthritis 20 29 476 485 I-chronic_disease
+
+leukemia 0 8 486 494 B-cancer
+

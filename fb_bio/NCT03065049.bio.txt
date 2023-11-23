@@ -1,0 +1,50 @@
+a 0 1 0 1 O
+history 2 9 2 9 O
+of 10 12 10 12 O
+psychotic 13 22 13 22 B-chronic_disease
+disorder 23 31 23 31 I-chronic_disease
+or 32 34 32 34 O
+current 35 42 35 42 O
+psychotic 43 52 43 52 B-chronic_disease
+symptoms 53 61 53 61 I-chronic_disease
+
+current 0 7 62 69 B-pregnancy
+pregnancy 8 17 70 79 I-pregnancy
+
+current 0 7 80 87 O
+suicidality 8 19 88 99 B-chronic_disease
+or 20 22 100 102 O
+homicidality 23 35 103 115 B-chronic_disease
+
+has 0 3 116 119 O
+access 4 10 120 126 B-technology_access
+to 11 13 127 129 I-technology_access
+a 14 15 130 131 I-technology_access
+computer 16 24 132 140 I-technology_access
+connected 25 34 141 150 I-technology_access
+to 35 37 151 153 I-technology_access
+the 38 41 154 157 I-technology_access
+internet 42 50 158 166 I-technology_access
+or 51 53 167 169 I-technology_access
+a 54 55 170 171 I-technology_access
+smartphone 56 66 172 182 I-technology_access
+compatible 67 77 183 193 I-technology_access
+with 78 82 194 198 I-technology_access
+the 83 86 199 202 I-technology_access
+Fitbit 87 93 203 209 I-technology_access
+application 94 105 210 221 I-technology_access
+
+less 0 4 222 226 O
+than 5 9 227 231 O
+90 10 12 232 234 B-upper_bound
+minutes 13 20 235 242 I-upper_bound
+of 21 23 243 245 O
+MIPA 24 28 246 250 B-clinical_variable
+per 29 32 251 254 O
+week 33 37 255 259 O
+for 38 41 260 263 O
+the 42 45 264 267 O
+past 46 50 268 272 B-upper_bound
+6 51 52 273 274 I-upper_bound
+months 53 59 275 281 I-upper_bound
+

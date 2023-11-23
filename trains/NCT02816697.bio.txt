@@ -1,0 +1,44 @@
+Able 0 4 0 4 B-language_fluency
+to 5 7 5 7 I-language_fluency
+read 8 12 8 12 I-language_fluency
+and 13 16 13 16 I-language_fluency
+write 17 22 17 22 I-language_fluency
+in 23 25 23 25 I-language_fluency
+English 26 33 26 33 I-language_fluency
+
+Acute 0 5 34 39 B-chronic_disease
+respiratory 6 17 40 51 I-chronic_disease
+distress 18 26 52 60 I-chronic_disease
+
+Current 0 7 61 68 O
+or 8 10 69 71 O
+recent 11 17 72 78 O
+former 18 24 79 85 O
+smoker 25 31 86 92 O
+( 32 33 93 94 O
+defined 33 40 94 101 O
+as 41 43 102 104 O
+having 44 50 105 111 O
+smoked 51 57 112 118 O
+within 58 64 119 125 O
+past 65 69 126 130 B-upper_bound
+6 70 71 131 132 I-upper_bound
+months 72 78 133 139 I-upper_bound
+) 78 79 139 140 O
+
+Former 0 6 141 147 O
+smoker 7 13 148 154 O
+greater 14 21 155 162 O
+than 22 26 163 167 O
+6 27 28 168 169 B-lower_bound
+months 29 35 170 176 I-lower_bound
+
+Hypotension 0 11 177 188 B-chronic_disease
+
+Must 0 4 189 193 B-technology_access
+have 5 9 194 198 I-technology_access
+an 10 12 199 201 I-technology_access
+active 13 19 202 208 I-technology_access
+telephone 20 29 209 218 I-technology_access
+number 30 36 219 225 I-technology_access
+

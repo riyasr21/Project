@@ -1,0 +1,74 @@
+Areas 0 5 0 5 O
+that 6 10 6 10 O
+have 11 15 11 15 O
+previously 16 26 16 26 O
+been 27 31 27 31 O
+treated 32 39 32 39 O
+with 40 44 40 44 O
+root 45 49 45 49 B-treatment
+coverage 50 58 50 58 I-treatment
+surgeries 59 68 59 68 I-treatment
+
+Healthy 0 7 69 76 O
+subjects 8 16 77 85 O
+with 17 21 86 90 O
+no 22 24 91 93 O
+contraindications 25 42 94 111 O
+to 43 45 112 114 O
+root 46 50 115 119 B-treatment
+coverage 51 59 120 128 I-treatment
+surgery 60 67 129 136 I-treatment
+
+Subjects 0 8 137 145 O
+that 9 13 146 150 O
+are 14 17 151 154 B-pregnancy
+pregnant 18 26 155 163 I-pregnancy
+
+Subjects 0 8 164 172 O
+with 9 13 173 177 O
+a 14 15 178 179 O
+condition 16 25 180 189 O
+causing 26 33 190 197 O
+immunosuppression 34 51 198 215 B-treatment
+
+Subjects 0 8 216 224 O
+with 9 13 225 229 O
+a 14 15 230 231 O
+known 16 21 232 237 O
+hypersensitivity 22 38 238 254 O
+to 39 41 255 257 O
+polysorbate 42 53 258 269 B-allergy_name
+20 54 56 270 272 I-allergy_name
+( 57 58 273 274 O
+contraindicated 58 73 274 289 O
+with 74 78 290 294 O
+the 79 82 295 298 O
+use 83 86 299 302 O
+of 87 89 303 305 O
+Alloderm 90 98 306 314 B-allergy_name
+® 98 99 314 315 I-allergy_name
+) 99 100 315 316 O
+
+Subjects 0 8 317 325 O
+with 9 13 326 330 O
+two 14 17 331 334 O
+Miller 18 24 335 341 O
+class 25 30 342 347 O
+I 31 32 348 349 O
+or 33 35 350 352 O
+class 36 41 353 358 O
+II 42 44 359 361 O
+adjacent 45 53 362 370 O
+recessions 54 64 371 381 O
+with 65 69 382 386 O
+a 70 71 387 388 O
+recession 72 81 389 398 B-clinical_variable
+height 82 88 399 405 I-clinical_variable
+≥ 89 90 406 407 O
+2 91 92 408 409 B-lower_bound
+mm 93 95 410 412 I-lower_bound
+and 96 99 413 416 O
+< 100 101 417 418 O
+4 102 103 419 420 B-upper_bound
+mm 104 106 421 423 I-upper_bound
+

@@ -1,0 +1,56 @@
+Abnormal 0 8 0 8 O
+male 9 13 9 13 B-gender
+partner 14 21 14 21 O
+semen 22 27 22 27 O
+analysis 28 36 28 36 O
+or 37 39 37 39 O
+use 40 43 40 43 O
+of 44 46 44 46 O
+donor 47 52 47 52 O
+sperm 53 58 53 58 O
+
+Allergy 0 7 59 66 O
+to 8 10 67 69 O
+plastics 11 19 70 78 B-allergy_name
+or 20 22 79 81 O
+inability 23 32 82 91 B-contraception_consent
+to 33 35 92 94 I-contraception_consent
+use 36 39 95 98 I-contraception_consent
+diaphragm 40 49 99 108 I-contraception_consent
+retention 50 59 109 118 I-contraception_consent
+device 60 66 119 125 I-contraception_consent
+
+Normal 0 6 126 132 O
+male 7 11 133 137 B-gender
+partner 12 19 138 145 O
+semen 20 25 146 151 O
+analysis 26 34 152 160 O
+
+Uncontrolled 0 12 161 173 B-chronic_disease
+chronic 13 20 174 181 I-chronic_disease
+disease 21 28 182 189 I-chronic_disease
+( 29 30 190 191 O
+such 30 34 191 195 O
+as 35 37 196 198 O
+uncontrolled 38 50 199 211 O
+diabetes 51 59 212 220 B-chronic_disease
+or 60 62 221 223 O
+hypertension 63 75 224 236 B-chronic_disease
+) 75 76 236 237 O
+
+Untreated 0 9 238 247 O
+hydrosalpinx 10 22 248 260 B-chronic_disease
+
+Vaginal 0 7 261 268 B-chronic_disease
+inflammation 8 20 269 281 I-chronic_disease
+or 21 23 282 284 I-chronic_disease
+genital 24 31 285 292 I-chronic_disease
+( 32 33 293 294 I-chronic_disease
+vaginal 33 40 294 301 I-chronic_disease
+, 40 41 301 302 I-chronic_disease
+uterine 42 49 303 310 I-chronic_disease
+, 49 50 310 311 I-chronic_disease
+tubal 51 56 312 317 I-chronic_disease
+) 56 57 317 318 I-chronic_disease
+infection 58 67 319 328 I-chronic_disease
+

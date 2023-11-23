@@ -1,0 +1,43 @@
+30 0 2 0 2 B-lower_bound
+min 3 6 3 6 I-lower_bound
+or 7 9 7 9 O
+more 10 14 10 14 O
+of 15 17 15 17 O
+moderate 18 26 18 26 O
+to 27 29 27 29 O
+vigorous 30 38 30 38 O
+activity 39 47 39 47 O
+more 48 52 48 52 O
+than 53 57 53 57 O
+3 58 59 58 59 B-lower_bound
+times 60 65 60 65 I-lower_bound
+per 66 69 66 69 I-lower_bound
+week 70 74 70 74 I-lower_bound
+
+BMI 0 3 75 78 B-bmi
+30 4 6 79 81 B-lower_bound
+- 6 7 81 82 O
+42 7 9 82 84 B-upper_bound
+
+English 0 7 85 92 B-language_fluency
+or 8 10 93 95 I-language_fluency
+Spanish 11 18 96 103 I-language_fluency
+literate 19 27 104 112 I-language_fluency
+
+Female 0 6 113 119 B-gender
+
+Mexican 0 7 120 127 B-ethnicity
+- 7 8 127 128 I-ethnicity
+american 8 16 128 136 I-ethnicity
+
+cardiovascular 0 14 137 151 B-chronic_disease
+disease 15 22 152 159 I-chronic_disease
+
+diabetic 0 8 160 168 B-chronic_disease
+
+pre 0 3 169 172 O
+- 3 4 172 173 O
+diabetic 4 12 173 181 B-chronic_disease
+
+pregnant 0 8 182 190 B-gender
+

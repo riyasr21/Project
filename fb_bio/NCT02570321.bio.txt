@@ -1,0 +1,102 @@
+Age 0 3 0 3 B-age
+over 4 8 4 8 O
+18 9 11 9 11 B-lower_bound
+years 12 17 12 17 I-lower_bound
+
+Corneal 0 7 18 25 B-chronic_disease
+ulcer 8 13 26 31 I-chronic_disease
+that 14 18 32 36 O
+is 19 21 37 39 O
+smear 22 27 40 45 O
+positive 28 36 46 54 O
+for 37 40 55 58 O
+either 41 47 59 65 O
+bacteria 48 56 66 74 O
+or 57 59 75 77 O
+filamentous 60 71 78 89 O
+fungus 72 78 90 96 O
+
+Evidence 0 8 97 105 O
+of 9 11 106 108 O
+concomitant 12 23 109 120 O
+infection 24 33 121 130 O
+on 34 36 131 133 O
+exam 37 41 134 138 O
+or 42 44 139 141 O
+gram 45 49 142 146 B-treatment
+stain 50 55 147 152 I-treatment
+( 56 57 153 154 O
+i.e. 57 61 154 158 O
+herpes 62 68 159 165 B-chronic_disease
+, 68 69 165 166 O
+both 70 74 167 171 O
+bacteria 75 83 172 180 O
+and 84 87 181 184 O
+acanthamoeba 88 100 185 197 O
+on 101 103 198 200 O
+gram 104 108 201 205 O
+stain 109 114 206 211 O
+) 114 115 211 212 O
+
+History 0 7 213 220 O
+of 8 10 221 223 O
+corneal 11 18 224 231 B-treatment
+transplantation 19 34 232 247 I-treatment
+or 35 37 248 250 O
+recent 38 44 251 257 B-treatment
+intraocular 45 56 258 269 I-treatment
+surgery 57 64 270 277 I-treatment
+
+Impending 0 9 278 287 O
+or 10 12 288 290 O
+frank 13 18 291 296 B-chronic_disease
+perforation 19 30 297 308 I-chronic_disease
+at 31 33 309 311 O
+recruitment 34 45 312 323 O
+
+Non 0 3 324 327 B-chronic_disease
+- 3 4 327 328 I-chronic_disease
+infectious 4 14 328 338 I-chronic_disease
+or 15 17 339 341 I-chronic_disease
+autoimmune 18 28 342 352 I-chronic_disease
+keratitis 29 38 353 362 I-chronic_disease
+
+Not 0 3 363 366 O
+treated 4 11 367 374 O
+already 12 19 375 382 O
+with 20 24 383 387 O
+antimicrobial 25 38 388 401 B-treatment
+medications 39 50 402 413 I-treatment
+at 51 53 414 416 O
+presentation 54 66 417 429 O
+
+Participants 0 12 430 442 O
+who 13 16 443 446 O
+are 17 20 447 450 O
+decisionally 21 33 451 463 O
+and/or 34 40 464 470 O
+cognitively 41 52 471 482 B-chronic_disease
+impaired 53 61 483 491 I-chronic_disease
+
+Pinhole 0 7 492 499 B-clinical_variable
+visual 8 14 500 506 I-clinical_variable
+acuity 15 21 507 513 I-clinical_variable
+worse 22 27 514 519 O
+than 28 32 520 524 O
+20/200 33 39 525 531 B-lower_bound
+in 40 42 532 534 O
+the 43 46 535 538 O
+unaffected 47 57 539 549 O
+eye 58 61 550 553 O
+
+Pinhole 0 7 554 561 B-clinical_variable
+visual 8 14 562 568 I-clinical_variable
+acuity 15 21 569 575 I-clinical_variable
+worse 22 27 576 581 O
+than 28 32 582 586 O
+20/70 33 38 587 592 B-lower_bound
+in 39 41 593 595 O
+the 42 45 596 599 O
+affected 46 54 600 608 O
+eye 55 58 609 612 O
+

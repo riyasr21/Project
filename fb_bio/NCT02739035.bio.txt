@@ -1,0 +1,35 @@
+Age 0 3 0 3 B-age
+< 4 5 4 5 O
+18 6 8 6 8 B-upper_bound
+or 9 11 9 11 O
+> 12 13 12 13 O
+90 14 16 14 16 B-lower_bound
+years 17 22 17 22 I-lower_bound
+
+Intolerance 0 11 23 34 O
+to 12 14 35 37 O
+NSAIDs 15 21 38 44 B-allergy_name
+
+Primary 0 7 45 52 O
+diagnosis 8 17 53 62 O
+of 18 20 63 65 O
+rheumatoid 21 31 66 76 B-chronic_disease
+arthritis 32 41 77 86 I-chronic_disease
+
+Renal 0 5 87 92 B-chronic_disease
+dysfunction 6 17 93 104 I-chronic_disease
+
+Subjects 0 8 105 113 O
+who 9 12 114 117 O
+have 13 17 118 122 O
+received 18 26 123 131 O
+a 27 28 132 133 O
+primary 29 36 134 141 B-treatment
+unilateral 37 47 142 152 I-treatment
+TKA 48 51 153 156 I-treatment
+for 52 55 157 160 O
+a 56 57 161 162 O
+diagnosis 58 67 163 172 O
+of 68 70 173 175 O
+osteoarthritis 71 85 176 190 B-chronic_disease
+

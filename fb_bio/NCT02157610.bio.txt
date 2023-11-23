@@ -1,0 +1,46 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+
+Contraindication 0 16 25 41 O
+for 17 20 42 45 O
+nicotine 21 29 46 54 B-treatment
+patch 30 35 55 60 I-treatment
+use 36 39 61 64 O
+
+Current 0 7 65 72 O
+use 8 11 73 76 O
+of 12 14 77 79 O
+tobacco 15 22 80 87 B-treatment
+cessation 23 32 88 97 I-treatment
+medications 33 44 98 109 I-treatment
+
+History 0 7 110 117 O
+of 8 10 118 120 O
+cervical 11 19 121 129 B-cancer
+cancer 20 26 130 136 I-cancer
+or 27 29 137 139 O
+high 30 34 140 144 O
+- 34 35 144 145 O
+grade 35 40 145 150 O
+cervical 41 49 151 159 B-chronic_disease
+dysplasia 50 59 160 169 I-chronic_disease
+
+Self 0 4 170 174 O
+- 4 5 174 175 O
+report 5 11 175 181 O
+of 12 14 182 184 O
+being 15 20 185 190 O
+pregnant 21 29 191 199 B-pregnancy
+
+Speaks 0 6 200 206 B-language_fluency
+English 7 14 207 214 I-language_fluency
+, 14 15 214 215 I-language_fluency
+Spanish 16 23 216 223 I-language_fluency
+or 24 26 224 226 I-language_fluency
+both 27 31 227 231 I-language_fluency
+languages 32 41 232 241 I-language_fluency
+

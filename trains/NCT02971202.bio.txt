@@ -1,0 +1,124 @@
+> 0 1 0 1 O
+= 1 2 1 2 O
+1 3 4 3 4 B-lower_bound
+episode 5 12 5 12 O
+in 13 15 13 15 O
+the 16 19 16 19 O
+past 20 24 20 24 B-upper_bound
+3 25 26 25 26 I-upper_bound
+months 27 33 27 33 I-upper_bound
+or 34 36 34 36 O
+diagnosis 37 46 37 46 O
+of 47 49 47 49 O
+hypoglycemia 50 62 50 62 B-chronic_disease
+unawareness 63 74 63 74 I-chronic_disease
+
+> 0 1 75 76 O
+= 1 2 76 77 O
+1 3 4 78 79 B-lower_bound
+trip 5 9 80 84 O
+to 10 12 85 87 O
+emergency 13 22 88 97 O
+department 23 33 98 108 O
+for 34 37 109 112 O
+poor 38 42 113 117 O
+glucose 43 50 118 125 O
+control 51 58 126 133 O
+in 59 61 134 136 O
+the 62 65 137 140 O
+past 66 70 141 145 O
+6 71 72 146 147 B-upper_bound
+months 73 79 148 154 I-upper_bound
+
+Tanner 0 6 155 161 B-clinical_variable
+stage 7 12 162 167 I-clinical_variable
+< 13 14 168 169 O
+5 15 16 170 171 B-upper_bound
+
+age 0 3 172 175 B-age
+13 4 6 176 178 B-lower_bound
+- 6 7 178 179 O
+51 7 9 179 181 B-upper_bound
+
+age 0 3 182 185 B-age
+18 4 6 186 188 B-lower_bound
+- 6 7 188 189 O
+5.1 7 10 189 192 O
+
+any 0 3 193 196 O
+anti 4 8 197 201 B-treatment
+- 8 9 201 202 I-treatment
+hypertensive 9 21 202 214 I-treatment
+
+any 0 3 215 218 O
+diabetes 4 12 219 227 B-treatment
+medication 13 23 228 238 I-treatment
+except 24 30 239 245 O
+insulin 31 38 246 253 B-treatment
+
+any 0 3 254 257 O
+immunosuppressant 4 21 258 275 B-treatment
+
+diabetes 0 8 276 284 B-chronic_disease
+comorbidities 9 22 285 298 I-chronic_disease
+
+fasting 0 7 299 306 B-clinical_variable
+c 8 9 307 308 I-clinical_variable
+- 9 10 308 309 I-clinical_variable
+peptide 10 17 309 316 I-clinical_variable
+> 18 19 317 318 O
+0.7 20 23 319 322 B-lower_bound
+ng 24 26 323 325 I-lower_bound
+/ 26 27 325 326 I-lower_bound
+mL 27 29 326 328 I-lower_bound
+
+fasting 0 7 329 336 B-clinical_variable
+triglycerides 8 21 337 350 I-clinical_variable
+> 22 23 351 352 O
+400 24 27 353 356 B-lower_bound
+mg 28 30 357 359 I-lower_bound
+/ 30 31 359 360 I-lower_bound
+dL 31 33 360 362 I-lower_bound
+
+liver 0 5 363 368 B-clinical_variable
+transaminases 6 19 369 382 I-clinical_variable
+> 20 21 383 384 O
+2 22 23 385 386 B-lower_bound
+times 24 29 387 392 I-lower_bound
+the 30 33 393 396 I-lower_bound
+upper 34 39 397 402 I-lower_bound
+limit 40 45 403 408 I-lower_bound
+of 46 48 409 411 I-lower_bound
+normal 49 55 412 418 I-lower_bound
+
+metoprolol 0 10 419 429 B-treatment
+
+pregnancy 0 9 430 439 B-pregnancy
+
+renal 0 5 440 445 B-treatment
+transplantation 6 21 446 461 I-treatment
+or 22 24 462 464 O
+serum 25 30 465 470 B-clinical_variable
+creatinine 31 41 471 481 I-clinical_variable
+> 42 43 482 483 O
+1.5 44 47 484 487 B-lower_bound
+mg 48 50 488 490 I-lower_bound
+/ 50 51 490 491 I-lower_bound
+dL 51 53 491 493 I-lower_bound
+
+severe 0 6 494 500 B-chronic_disease
+hypoglycemia 7 19 501 513 I-chronic_disease
+
+systolic 0 8 514 522 B-clinical_variable
+blood 9 14 523 528 I-clinical_variable
+pressure 15 23 529 537 I-clinical_variable
+> 24 25 538 539 O
+140 26 29 540 543 B-lower_bound
+and 30 33 544 547 O
+diastolic 34 43 548 557 B-clinical_variable
+blood 44 49 558 563 I-clinical_variable
+pressure 50 58 564 572 I-clinical_variable
+> 59 60 573 574 O
+100 61 64 575 578 B-lower_bound
+mmHg 65 69 579 583 I-lower_bound
+

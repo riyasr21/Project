@@ -1,0 +1,94 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+or 9 11 9 11 O
+older 12 17 12 17 O
+
+Active 0 6 18 24 B-chronic_disease
+infection 7 16 25 34 I-chronic_disease
+
+Allergy 0 7 35 42 O
+to 8 10 43 45 O
+dialyzer 11 19 46 54 B-allergy_name
+membrane 20 28 55 63 I-allergy_name
+materials 29 38 64 73 I-allergy_name
+e.g. 39 43 74 78 O
+polysulfone 44 55 79 90 B-allergy_name
+
+ESRD 0 4 91 95 B-chronic_disease
+patients 5 13 96 104 O
+
+Female 0 6 105 111 B-gender
+who 7 10 112 115 O
+are 11 14 116 119 O
+pregnant 15 23 120 128 B-pregnancy
+
+Medical 0 7 129 136 B-chronic_disease
+conditions 8 18 137 147 I-chronic_disease
+which 19 24 148 153 O
+may 25 28 154 157 O
+interfere 29 38 158 167 O
+with 39 43 168 172 O
+the 44 47 173 176 O
+study 48 53 177 182 O
+( 54 55 183 184 O
+cardiac 55 62 184 191 B-chronic_disease
+, 62 63 191 192 O
+liver 64 69 193 198 B-chronic_disease
+disease 70 77 199 206 I-chronic_disease
+, 77 78 206 207 O
+Hepatitis 79 88 208 217 B-chronic_disease
+) 88 89 217 218 O
+
+Patients 0 8 219 227 O
+which 9 14 228 233 O
+can 15 18 234 237 O
+not 18 21 237 240 O
+tolerate 22 30 241 249 O
+Heparin 31 38 250 257 B-treatment
+
+Problem 0 7 258 265 O
+with 8 12 266 270 O
+or 13 15 271 273 O
+allergy 16 23 274 281 O
+to 24 26 282 284 O
+anticoagulation 27 42 285 300 B-allergy_name
+
+Stable 0 6 301 307 O
+anticoagulation 7 22 308 323 B-treatment
+and 23 26 324 327 O
+ESA 27 30 328 331 B-treatment
+regimen 31 38 332 339 O
+
+Stable 0 6 340 346 O
+arteriovenous 7 20 347 360 B-chronic_disease
+( 21 22 361 362 I-chronic_disease
+AV 22 24 362 364 I-chronic_disease
+) 24 25 364 365 I-chronic_disease
+fistula 26 33 366 373 I-chronic_disease
+vascular 34 42 374 382 O
+access 43 49 383 389 O
+
+Stable 0 6 390 396 O
+hemoglobin 7 17 397 407 B-clinical_variable
+between 18 25 408 415 O
+11 26 28 416 418 B-lower_bound
+- 28 29 418 419 O
+12 29 31 419 421 B-upper_bound
+g 32 33 422 423 I-upper_bound
+/ 33 34 423 424 I-upper_bound
+dl 34 36 424 426 I-upper_bound
+
+Stable 0 6 427 433 O
+on 7 9 434 436 O
+hemodialysis 10 22 437 449 B-treatment
+for 23 26 450 453 O
+more 27 31 454 458 O
+than 32 36 459 463 O
+3 37 38 464 465 B-lower_bound
+months 39 45 466 472 I-lower_bound
+
+planning 0 8 473 481 B-pregnancy
+to 9 11 482 484 I-pregnancy
+be 12 14 485 487 I-pregnancy
+pregnant 15 23 488 496 I-pregnancy
+

@@ -1,0 +1,60 @@
+Able 0 4 0 4 O
+to 5 7 5 7 O
+use 8 11 8 11 O
+Opti 12 16 12 16 B-treatment
+- 16 17 16 17 I-treatment
+Free 17 21 17 21 I-treatment
+PureMoist 22 31 22 31 I-treatment
+contact 32 39 32 39 I-treatment
+lens 40 44 40 44 I-treatment
+solution 45 53 45 53 I-treatment
+
+Active 0 6 54 60 O
+ocular 7 13 61 67 B-chronic_disease
+infection 14 23 68 77 I-chronic_disease
+
+Active 0 6 78 84 O
+ocular 7 13 85 91 B-chronic_disease
+inflammation 14 26 92 104 I-chronic_disease
+
+Has 0 3 105 108 O
+had 4 7 109 112 O
+a 8 9 113 114 O
+completed 10 19 115 124 O
+comprehensive 20 33 125 138 O
+eye 34 37 139 142 O
+exam 38 42 143 147 O
+within 43 49 148 154 O
+the 50 53 155 158 O
+past 54 58 159 163 B-upper_bound
+6 59 60 164 165 I-upper_bound
+months 61 67 166 172 I-upper_bound
+
+History 0 7 173 180 O
+of 8 10 181 183 O
+severe 11 17 184 190 O
+ocular 18 24 191 197 B-chronic_disease
+trauma 25 31 198 204 I-chronic_disease
+
+Known 0 5 205 210 O
+hypersensitivity 6 22 211 227 O
+to 23 25 228 230 O
+diagnostic 26 36 231 241 B-allergy_name
+eye 37 40 242 245 I-allergy_name
+drops 41 46 246 251 I-allergy_name
+
+Pregnant 0 8 252 260 B-pregnancy
+
+Topical 0 7 261 268 B-treatment
+eye 8 11 269 272 I-treatment
+drops 12 17 273 278 I-treatment
+within 18 24 279 285 O
+the 25 28 286 289 O
+last 29 33 290 294 B-upper_bound
+two 34 37 295 298 I-upper_bound
+hours 38 43 299 304 I-upper_bound
+of 44 46 305 307 O
+the 47 50 308 311 O
+study 51 56 312 317 O
+visit 57 62 318 323 O
+

@@ -1,0 +1,167 @@
+Be 0 2 0 2 O
+currently 3 12 3 12 O
+lactating 13 22 13 22 O
+or 23 25 23 25 O
+lactated 26 34 26 34 O
+within 35 41 35 41 O
+the 42 45 42 45 O
+last 46 50 46 50 B-upper_bound
+12 51 53 51 53 I-upper_bound
+months 54 60 54 60 I-upper_bound
+
+Be 0 2 61 63 O
+currently 3 12 64 73 B-pregnancy
+pregnant 13 21 74 82 I-pregnancy
+or 22 24 83 85 O
+pregnant 25 33 86 94 O
+within 34 40 95 101 O
+the 41 44 102 105 O
+last 45 49 106 110 B-upper_bound
+12 50 52 111 113 I-upper_bound
+months 53 59 114 120 I-upper_bound
+
+Be 0 2 121 123 O
+female 3 9 124 130 B-gender
+
+Be 0 2 131 133 O
+over 3 7 134 138 O
+18 8 10 139 141 B-lower_bound
+years 11 16 142 147 I-lower_bound
+of 17 19 148 150 O
+age 20 23 151 154 B-age
+
+Been 0 4 155 159 O
+diagnosed 5 14 160 169 O
+with 15 19 170 174 O
+single 20 26 175 181 B-cancer
+papilloma 27 36 182 191 I-cancer
+
+Have 0 4 192 196 O
+BRCA 5 9 197 201 B-cancer
+1 10 11 202 203 I-cancer
+or 12 14 204 206 I-cancer
+2 15 16 207 208 I-cancer
+mutation 17 25 209 217 I-cancer
+
+Have 0 4 218 222 O
+Gail 5 9 223 227 B-clinical_variable
+Score 10 15 228 233 I-clinical_variable
+> 16 17 234 235 O
+1.67 17 21 235 239 B-lower_bound
+
+Have 0 4 240 244 O
+a 5 6 245 246 O
+known 7 12 247 252 O
+allergy 13 20 253 260 O
+to 21 23 261 263 O
+lidocaine 24 33 264 273 B-allergy_name
+
+Have 0 4 274 278 O
+abnormal 5 13 279 287 B-chronic_disease
+liver 14 19 288 293 I-chronic_disease
+function 20 28 294 302 I-chronic_disease
+test 29 33 303 307 O
+
+Have 0 4 308 312 O
+active 5 11 313 319 B-chronic_disease
+infections 12 22 320 330 I-chronic_disease
+or 23 25 331 333 O
+inﬂammation 26 37 334 345 B-chronic_disease
+in 38 40 346 348 I-chronic_disease
+a 41 42 349 350 I-chronic_disease
+breast 43 49 351 357 I-chronic_disease
+to 50 52 358 360 O
+be 53 55 361 363 O
+studied 56 63 364 371 O
+
+Have 0 4 372 376 O
+bilateral 5 14 377 386 B-chronic_disease
+nipple 15 21 387 393 I-chronic_disease
+discharge 22 31 394 403 I-chronic_disease
+
+Have 0 4 404 408 O
+diagnosed 5 14 409 418 O
+with 15 19 419 423 O
+multiple 20 28 424 432 B-cancer
+or 29 31 433 435 I-cancer
+sessile 32 39 436 443 I-cancer
+papilloma 40 49 444 453 I-cancer
+by 50 52 454 456 O
+ultrasound 53 63 457 467 B-treatment
+, 63 64 467 468 O
+mammography 65 76 469 480 B-treatment
+and/or 77 83 481 487 O
+ductoscopy 84 94 488 498 B-treatment
+
+Have 0 4 499 503 O
+had 5 8 504 507 O
+a 9 10 508 509 O
+Breast 11 17 510 516 B-clinical_variable
+Imaging 18 25 517 524 I-clinical_variable
+- 25 26 524 525 I-clinical_variable
+Reporting 26 35 525 534 I-clinical_variable
+and 36 39 535 538 I-clinical_variable
+Data 40 44 539 543 I-clinical_variable
+System 45 51 544 550 I-clinical_variable
+( 52 53 551 552 I-clinical_variable
+BIRADS 53 59 552 558 I-clinical_variable
+) 59 60 558 559 I-clinical_variable
+3 61 62 560 561 B-lower_bound
+, 62 63 561 562 O
+4 64 65 563 564 O
+, 65 66 564 565 O
+5 67 68 566 567 O
+or 69 71 568 570 O
+6 72 73 571 572 B-upper_bound
+mammograms 74 84 573 583 I-upper_bound
+within 85 91 584 590 O
+the 92 95 591 594 O
+last 96 100 595 599 O
+year 101 105 600 604 O
+
+Have 0 4 605 609 O
+had 5 8 610 613 O
+any 9 12 614 617 O
+subareolar 13 23 618 628 B-chronic_disease
+or 24 26 629 631 O
+other 27 32 632 637 O
+surgery 33 40 638 645 B-treatment
+
+Have 0 4 646 650 O
+received 5 13 651 659 O
+chemotherapy 14 26 660 672 B-treatment
+in 27 29 673 675 O
+the 30 33 676 679 O
+last 34 38 680 684 B-upper_bound
+12 39 41 685 687 I-upper_bound
+months 42 48 688 694 I-upper_bound
+
+Have 0 4 695 699 O
+suspicious 5 15 700 710 O
+of 16 18 711 713 O
+malignancy 19 29 714 724 B-cancer
+in 30 32 725 727 O
+ultrasound 33 43 728 738 O
+
+Personal 0 8 739 747 O
+history 9 16 748 755 O
+of 17 19 756 758 O
+breast 20 26 759 765 B-cancer
+cancer 27 33 766 772 I-cancer
+, 33 34 772 773 O
+ductal 35 41 774 780 B-cancer
+carcinoma 42 51 781 790 I-cancer
+in 52 54 791 793 I-cancer
+situ 55 59 794 798 I-cancer
+( 60 61 799 800 I-cancer
+DCIS 61 65 800 804 I-cancer
+) 65 66 804 805 I-cancer
+or 67 69 806 808 O
+lobular 70 77 809 816 B-cancer
+carcinoma 78 87 817 826 I-cancer
+in 88 90 827 829 I-cancer
+situ 91 95 830 834 I-cancer
+( 96 97 835 836 I-cancer
+LCIS 97 101 836 840 I-cancer
+) 101 102 840 841 I-cancer
+

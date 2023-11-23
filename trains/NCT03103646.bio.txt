@@ -1,0 +1,29 @@
+Known 0 5 0 5 O
+CYP2D6 6 12 6 12 B-clinical_variable
+and 13 16 13 16 O
+CYP2C19 17 24 17 24 B-clinical_variable
+genotype 25 33 25 33 I-clinical_variable
+
+Men 0 3 34 37 B-gender
+
+Subject 0 7 38 45 O
+has 8 11 46 49 O
+previously 12 22 50 60 O
+been 23 27 61 65 O
+dosed 28 33 66 71 O
+with 34 38 72 76 O
+Lu 39 41 77 79 B-treatment
+AF35700 42 49 80 87 I-treatment
+
+aged 0 4 88 92 B-age
+≥18 5 8 93 96 O
+and 9 12 97 100 O
+≤45 13 16 101 104 O
+years 17 22 105 110 I-upper_bound
+
+aged 0 4 111 115 B-age
+≥18 5 8 116 119 O
+and 9 12 120 123 O
+≤55 13 16 124 127 O
+years 17 22 128 133 I-upper_bound
+

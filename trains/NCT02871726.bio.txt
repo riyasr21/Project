@@ -1,0 +1,44 @@
+Anal 0 4 0 4 B-chronic_disease
+stenosis 5 13 5 13 I-chronic_disease
+that 14 18 14 18 O
+prevents 19 27 19 27 O
+TRUS 28 32 28 32 O
+probe 33 38 33 38 O
+insertion 39 48 39 48 O
+
+Clinical 0 8 49 57 O
+diagnosis 9 18 58 67 O
+of 19 21 68 70 O
+prostate 22 30 71 79 B-cancer
+cancer 31 37 80 86 I-cancer
+
+Elevated 0 8 87 95 O
+serum 9 14 96 101 O
+PSA 15 18 102 105 B-clinical_variable
+( 19 20 106 107 O
+prostate 20 28 107 115 B-clinical_variable
+specific 29 37 116 124 I-clinical_variable
+antigen 38 45 125 132 I-clinical_variable
+> 45 46 132 133 O
+4 47 48 134 135 B-lower_bound
+ng 49 51 136 138 I-lower_bound
+/ 51 52 138 139 I-lower_bound
+ml 52 54 139 141 I-lower_bound
+) 54 55 141 142 O
+and/or 56 62 143 149 O
+abnormal 63 71 150 158 O
+digital 72 79 159 166 O
+rectal 80 86 167 173 O
+exam 87 91 174 178 O
+
+Prior 0 5 179 184 B-treatment
+prostate 6 14 185 193 I-treatment
+biopsy 15 21 194 200 I-treatment
+
+Scheduled 0 9 201 210 O
+for 10 13 211 214 O
+an 14 16 215 217 O
+initial 17 24 218 225 O
+diagnostic 25 35 226 236 B-treatment
+biopsy 36 42 237 243 I-treatment
+

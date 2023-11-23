@@ -1,0 +1,39 @@
+Any 0 3 0 3 O
+active 4 10 4 10 O
+malignancy 11 21 11 21 B-cancer
+or 22 24 22 24 O
+any 25 28 25 28 O
+history 29 36 29 36 O
+of 37 39 37 39 O
+a 40 41 40 41 O
+malignancy 42 52 42 52 O
+or 53 55 53 55 O
+lymphoma 56 64 56 64 B-cancer
+
+Inability 0 9 65 74 O
+or 10 12 75 77 O
+unwillingness 13 26 78 91 O
+to 27 29 92 94 O
+comply 30 36 95 101 O
+with 37 41 102 106 O
+protocol 42 50 107 115 O
+monitoring 51 61 116 126 O
+and 62 65 127 130 O
+therapy 66 73 131 138 O
+and 74 77 139 142 O
+immunodeficiency 78 94 143 159 B-chronic_disease
+syndrome(s 95 105 160 170 I-chronic_disease
+) 105 106 170 171 I-chronic_disease
+
+Patients 0 8 172 180 O
+from 9 13 181 185 O
+18 14 16 186 188 B-lower_bound
+- 16 17 188 189 O
+65 17 19 189 191 B-upper_bound
+years 20 25 192 197 I-upper_bound
+old 26 29 198 201 O
+with 30 34 202 206 O
+loss 35 39 207 211 O
+of 40 42 212 214 O
+limb 43 47 215 219 O
+

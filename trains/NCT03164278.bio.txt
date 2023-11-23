@@ -1,0 +1,8 @@
+Speak 0 5 0 5 B-language_fluency
+English 6 13 6 13 I-language_fluency
+as 14 16 14 16 O
+a 17 18 17 18 O
+primary 19 26 19 26 O
+a 27 28 27 28 O
+language 29 37 29 37 O
+

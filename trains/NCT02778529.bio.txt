@@ -1,0 +1,15 @@
+Cerebral 0 8 0 8 B-chronic_disease
+palsy 9 14 9 14 I-chronic_disease
+participants 15 27 15 27 O
+
+Cervical 0 8 28 36 B-chronic_disease
+SCI 9 12 37 40 I-chronic_disease
+( 13 14 41 42 I-chronic_disease
+C-5 14 17 42 45 I-chronic_disease
+to 18 20 46 48 I-chronic_disease
+C-7 21 24 49 52 I-chronic_disease
+) 24 25 52 53 I-chronic_disease
+
+Severe 0 6 54 60 O
+spasticity 7 17 61 71 B-chronic_disease
+

@@ -1,0 +1,184 @@
+Ability 0 7 0 7 O
+to 8 10 8 10 O
+reach 11 16 11 16 O
+and 17 20 17 20 O
+grasp 21 26 21 26 O
+a 27 28 27 28 O
+small 29 34 29 34 O
+object 35 41 35 41 O
+located 42 49 42 49 O
+at 50 52 50 52 O
+least 53 58 53 58 O
+8 59 60 59 60 B-lower_bound
+cm 61 63 61 63 I-lower_bound
+forward 64 71 64 71 O
+, 71 72 71 72 O
+above 73 78 73 78 O
+, 78 79 78 79 O
+and 80 83 80 83 O
+laterally 84 93 84 93 O
+without 94 101 94 101 O
+leaning 102 109 102 109 O
+forward 110 117 110 117 O
+with 118 122 118 122 O
+the 123 126 123 126 O
+trunk 127 132 127 132 O
+
+Any 0 3 133 136 O
+debilitating 4 16 137 149 O
+disease 17 24 150 157 O
+prior 25 30 158 163 O
+to 31 33 164 166 O
+the 34 37 167 170 O
+SCI 38 41 171 174 B-chronic_disease
+that 42 46 175 179 O
+caused 47 53 180 186 O
+exercise 54 62 187 195 O
+intolerance 63 74 196 207 O
+
+Cervical 0 8 208 216 B-chronic_disease
+injury 9 15 217 223 I-chronic_disease
+at 16 18 224 226 O
+C8 19 21 227 229 B-lower_bound
+or 22 24 230 232 O
+above 25 30 233 238 O
+
+Chronic 0 7 239 246 B-clinical_variable
+SCI 8 11 247 250 I-clinical_variable
+( 12 13 251 252 O
+≥ 13 14 252 253 O
+6 15 16 254 255 B-lower_bound
+months 17 23 256 262 I-lower_bound
+post 24 28 263 267 O
+injury 29 35 268 274 O
+) 35 36 274 275 O
+
+History 0 7 276 283 O
+of 8 10 284 286 O
+brain 11 16 287 292 B-cancer
+tumor 17 22 293 298 I-cancer
+
+History 0 7 299 306 O
+of 8 10 307 309 O
+head 11 15 310 314 O
+injury 16 22 315 321 O
+or 23 25 322 324 O
+stroke 26 32 325 331 B-chronic_disease
+
+History 0 7 332 339 O
+of 8 10 340 342 O
+seizures 11 19 343 351 B-chronic_disease
+
+Intact 0 6 352 358 O
+or 7 9 359 361 O
+impaired 10 18 362 370 O
+but 19 22 371 374 O
+not 23 26 375 378 O
+absent 27 33 379 385 O
+innervations 34 46 386 398 O
+in 47 49 399 401 O
+dermatomes 50 60 402 412 O
+C6 61 63 413 415 O
+, 63 64 415 416 O
+C7 65 67 417 419 O
+, 67 68 419 420 O
+and 69 72 421 424 O
+C8 73 75 425 427 O
+using 76 81 428 433 O
+the 82 85 434 437 O
+American 86 94 438 446 B-clinical_variable
+Spinal 95 101 447 453 I-clinical_variable
+Injury 102 108 454 460 I-clinical_variable
+Association 109 120 461 472 I-clinical_variable
+sensory 121 128 473 480 I-clinical_variable
+scores 129 135 481 487 I-clinical_variable
+
+Male 0 4 488 492 B-gender
+
+Ongoing 0 7 493 500 O
+cord 8 12 501 505 B-chronic_disease
+compression 13 24 506 517 I-chronic_disease
+or 25 27 518 520 O
+a 28 29 521 522 O
+syrinx 30 36 523 529 B-chronic_disease
+in 37 39 530 532 I-chronic_disease
+the 40 43 533 536 I-chronic_disease
+spinal 44 50 537 543 I-chronic_disease
+cord 51 55 544 548 I-chronic_disease
+or 56 58 549 551 O
+who 59 62 552 555 O
+suffer 63 69 556 562 O
+from 70 74 563 567 O
+a 75 76 568 569 O
+spinal 77 83 570 576 B-chronic_disease
+cord 84 88 577 581 I-chronic_disease
+disease 89 96 582 589 I-chronic_disease
+such 97 101 590 594 O
+as 102 104 595 597 O
+spinal 105 111 598 604 B-chronic_disease
+stenosis 112 120 605 613 I-chronic_disease
+, 120 121 613 614 O
+spina 122 127 615 620 B-chronic_disease
+bifida 128 134 621 627 I-chronic_disease
+or 135 137 628 630 O
+herniated 138 147 631 640 B-chronic_disease
+cervical 148 156 641 649 I-chronic_disease
+disk 157 161 650 654 I-chronic_disease
+
+Pregnant 0 8 655 663 B-pregnancy
+females 9 16 664 671 B-gender
+
+Receiving 0 9 672 681 O
+drugs 10 15 682 687 O
+acting 16 22 688 694 O
+primarily 23 32 695 704 O
+on 33 35 705 707 O
+the 36 39 708 711 O
+central 40 47 712 719 O
+nervous 48 55 720 727 O
+system 56 62 728 734 O
+, 62 63 734 735 O
+which 64 69 736 741 O
+lower 70 75 742 747 O
+the 76 79 748 751 O
+seizure 80 87 752 759 O
+threshold 88 97 760 769 O
+such 98 102 770 774 O
+as 103 105 775 777 O
+antipsychotic 106 119 778 791 B-treatment
+drugs 120 125 792 797 I-treatment
+( 126 127 798 799 O
+chlorpromazine 127 141 799 813 B-treatment
+, 141 142 813 814 O
+clozapine 143 152 815 824 B-treatment
+) 152 153 824 825 O
+or 154 156 826 828 O
+tricyclic 157 166 829 838 B-treatment
+antidepressants 167 182 839 854 I-treatment
+
+Uncontrolled 0 12 855 867 O
+medical 13 20 868 875 O
+problems 21 29 876 884 O
+including 30 39 885 894 O
+pulmonary 40 49 895 904 B-chronic_disease
+, 49 50 904 905 O
+cardiovascular 51 65 906 920 B-chronic_disease
+or 66 68 921 923 O
+orthopedic 69 79 924 934 B-chronic_disease
+disease 80 87 935 942 I-chronic_disease
+
+altered 0 7 943 950 O
+cognitive 8 17 951 960 B-chronic_disease
+status 18 24 961 967 I-chronic_disease
+
+brain 0 5 968 973 B-chronic_disease
+infection 6 15 974 983 I-chronic_disease
+
+females 0 7 984 991 B-gender
+
+ongoing 0 7 992 999 O
+major 8 13 1000 1005 B-chronic_disease
+depression 14 24 1006 1016 I-chronic_disease
+or 25 27 1017 1019 O
+psychosis 28 37 1020 1029 B-chronic_disease
+

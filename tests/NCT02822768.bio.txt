@@ -1,0 +1,40 @@
+English 0 7 0 7 B-language_fluency
+- 7 8 7 8 I-language_fluency
+speaking 8 16 8 16 I-language_fluency
+subjects 17 25 17 25 O
+only 26 30 26 30 O
+
+Non 0 3 31 34 B-language_fluency
+- 3 4 34 35 I-language_fluency
+English 4 11 35 42 I-language_fluency
+speaking 12 20 43 51 I-language_fluency
+subjects 21 29 52 60 O
+
+Patients 0 8 61 69 O
+being 9 14 70 75 O
+admitted 15 23 76 84 O
+to 24 26 85 87 O
+the 27 30 88 91 O
+hospital 31 39 92 100 O
+or 40 42 101 103 O
+going 43 48 104 109 O
+to 49 51 110 112 O
+the 52 55 113 116 O
+operating 56 65 117 126 O
+room 66 70 127 131 O
+for 71 74 132 135 O
+incision 75 83 136 144 B-treatment
+and 84 87 145 148 I-treatment
+drainage 88 96 149 157 I-treatment
+
+Patients 0 8 158 166 O
+less 9 13 167 171 O
+than 14 18 172 176 O
+18 19 21 177 179 B-upper_bound
+years 22 27 180 185 I-upper_bound
+of 28 30 186 188 O
+age 31 34 189 192 B-age
+
+Pregnant 0 8 193 201 B-pregnancy
+patients 9 17 202 210 O
+

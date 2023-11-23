@@ -1,0 +1,23 @@
+Age≥60 0 6 0 6 B-age
+years 7 12 7 12 I-lower_bound
+
+Emergency 0 9 13 22 B-clinical_variable
+Severity 10 18 23 31 I-clinical_variable
+Index 19 24 32 37 I-clinical_variable
+1 25 26 38 39 O
+patients 27 35 40 48 O
+( 36 37 49 50 O
+highest 37 44 50 57 O
+acuity 45 51 58 64 O
+, 51 52 64 65 O
+as 53 55 66 68 O
+assigned 56 64 69 77 O
+by 65 67 78 80 O
+ED 68 70 81 83 O
+triage 71 77 84 90 O
+staff 78 83 91 96 O
+) 83 84 96 97 O
+
+English 0 7 98 105 B-language_fluency
+speaking 8 16 106 114 I-language_fluency
+

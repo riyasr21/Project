@@ -1,0 +1,69 @@
+18 0 2 0 2 O
+years 3 8 3 8 O
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+
+Exhibit 0 7 16 23 O
+changes 8 15 24 31 O
+in 16 18 32 34 O
+memory 19 25 35 41 O
+as 26 28 42 44 O
+specified 29 38 45 54 O
+on 39 41 55 57 O
+the 42 45 58 61 O
+AD8 46 49 62 65 B-chronic_disease
+dementia 50 58 66 74 I-chronic_disease
+screening 59 68 75 84 O
+tool 69 73 85 89 O
+
+Have 0 4 90 94 O
+a 5 6 95 96 O
+CP 7 9 97 99 B-chronic_disease
+who 10 13 100 103 O
+is 14 16 104 106 O
+defined 17 24 107 114 O
+by 25 27 115 117 O
+the 28 31 118 121 O
+EP 32 34 122 124 O
+as 35 37 125 127 O
+being 38 43 128 133 O
+the 44 47 134 137 O
+unpaid 48 54 138 144 O
+family 55 61 145 151 O
+member 62 68 152 158 O
+who 69 72 159 162 O
+has 73 76 163 166 O
+or 77 79 167 169 O
+will 80 84 170 174 O
+have 85 89 175 179 O
+primary 90 97 180 187 O
+responsibility 98 112 188 202 O
+for 113 116 203 206 O
+providing 117 126 207 216 O
+assistance 127 137 217 227 O
+to 138 140 228 230 O
+the 141 144 231 234 O
+EP 145 147 235 237 O
+
+developmental 0 13 238 251 O
+disability 14 24 252 262 O
+before 25 31 263 269 O
+the 32 35 270 273 O
+age 36 39 274 277 B-age
+of 40 42 278 280 O
+45 43 45 281 283 B-upper_bound
+
+severe 0 6 284 290 O
+mental 7 13 291 297 B-chronic_disease
+illness 14 21 298 305 I-chronic_disease
+
+speak 0 5 306 311 B-language_fluency
+, 5 6 311 312 I-language_fluency
+read 7 11 313 317 I-language_fluency
+, 11 12 317 318 I-language_fluency
+and 13 16 319 322 I-language_fluency
+write 17 22 323 328 I-language_fluency
+English 23 30 329 336 I-language_fluency
+or 31 33 337 339 I-language_fluency
+Spanish 34 41 340 347 I-language_fluency
+

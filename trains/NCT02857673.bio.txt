@@ -1,0 +1,25 @@
+Fluent 0 6 0 6 B-language_fluency
+in 7 9 7 9 I-language_fluency
+English 10 17 10 17 I-language_fluency
+or 18 20 18 20 I-language_fluency
+Spanish 21 28 21 28 I-language_fluency
+
+Primary 0 7 29 36 O
+caregiver 8 17 37 46 O
+of 18 20 47 49 O
+a 21 22 50 51 O
+child 23 28 52 57 O
+under 29 34 58 63 O
+age 35 38 64 67 B-age
+7 39 40 68 69 B-upper_bound
+with 41 45 70 74 O
+a 46 47 75 76 O
+physical 48 56 77 85 B-chronic_disease
+, 56 57 85 86 O
+emotional 58 67 87 96 B-chronic_disease
+, 67 68 96 97 O
+or 69 71 98 100 O
+behavioral 72 82 101 111 B-chronic_disease
+health 83 89 112 118 I-chronic_disease
+condition 90 99 119 128 I-chronic_disease
+

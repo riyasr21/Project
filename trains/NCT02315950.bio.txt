@@ -1,0 +1,16 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+or 13 15 13 15 O
+older 16 21 16 21 O
+
+Age 0 3 22 25 B-age
+less 4 8 26 30 O
+than 9 13 31 35 O
+21 14 16 36 38 B-upper_bound
+years 17 22 39 44 I-upper_bound
+
+Claustrophobic 0 14 45 59 B-chronic_disease
+
+Female 0 6 60 66 B-gender
+

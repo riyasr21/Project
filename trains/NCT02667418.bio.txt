@@ -1,0 +1,181 @@
+Acute 0 5 0 5 B-chronic_disease
+or 6 8 6 8 I-chronic_disease
+chronic 9 16 9 16 I-chronic_disease
+diarrhea 17 25 17 25 I-chronic_disease
+due 26 29 26 29 O
+to 30 32 30 32 O
+inflammatory 33 45 33 45 B-chronic_disease
+bowel 46 51 46 51 I-chronic_disease
+disease 52 59 52 59 I-chronic_disease
+or 60 62 60 62 O
+other 63 68 63 68 O
+cause 69 74 69 74 O
+( 75 76 75 76 O
+e.g. 76 80 76 80 O
+, 80 81 80 81 O
+presence 82 90 82 90 O
+of 91 93 91 93 O
+an 94 96 94 96 O
+ileostomy 97 106 97 106 B-treatment
+or 107 109 107 109 O
+colostomy 110 119 110 119 B-treatment
+) 119 120 119 120 O
+that 121 125 121 125 O
+would 126 131 126 131 O
+confound 132 140 132 140 O
+evaluation 141 151 141 151 O
+of 152 154 152 154 O
+response 155 163 155 163 O
+to 164 166 164 166 O
+CDI 167 170 167 170 B-treatment
+treatment 171 180 171 180 I-treatment
+
+Age 0 3 181 184 B-age
+> 4 5 185 186 O
+18 6 8 187 189 B-lower_bound
+
+Anticipation 0 12 190 202 O
+of 13 15 203 205 O
+need 16 20 206 210 O
+for 21 24 211 214 O
+long 25 29 215 219 O
+term 30 34 220 224 O
+systemic 35 43 225 233 B-treatment
+antibiotic 44 54 234 244 I-treatment
+treatment 55 64 245 254 I-treatment
+( 65 66 255 256 O
+beyond 66 72 256 262 O
+7 73 74 263 264 B-upper_bound
+days 75 79 265 269 I-upper_bound
+) 79 80 269 270 O
+
+At 0 2 271 273 O
+least 3 8 274 279 O
+one 9 12 280 283 B-lower_bound
+of 13 15 284 286 O
+the 16 19 287 290 O
+previous 20 28 291 299 O
+CDI 29 32 300 303 B-chronic_disease
+episodes 33 41 304 312 O
+must 42 46 313 317 O
+have 47 51 318 322 O
+been 52 56 323 327 O
+confirmed 57 66 328 337 O
+by 67 69 338 340 O
+a 70 71 341 342 O
+stool 72 77 343 348 O
+assay 78 83 349 354 O
+for 84 87 355 358 O
+C. 88 90 359 361 B-chronic_disease
+difficile 91 100 362 371 I-chronic_disease
+
+Current 0 7 372 379 O
+episode 8 15 380 387 O
+represents 16 26 388 398 O
+the 27 30 399 402 O
+first 31 36 403 408 O
+recurrent 37 46 409 418 O
+episode 47 54 419 426 O
+of 55 57 427 429 O
+CDI 58 61 430 433 O
+within 62 68 434 440 O
+3 69 70 441 442 B-upper_bound
+months 71 77 443 449 I-upper_bound
+of 78 80 450 452 O
+the 81 84 453 456 O
+primary 85 92 457 464 B-chronic_disease
+CDI 93 96 465 468 I-chronic_disease
+episode 97 104 469 476 O
+in 105 107 477 479 O
+a 108 109 480 481 O
+patient 110 117 482 489 O
+who 118 121 490 493 O
+has 122 125 494 497 O
+not 126 129 498 501 O
+had 130 133 502 505 O
+CDI 134 137 506 509 O
+in 138 140 510 512 O
+the 141 144 513 516 O
+3 145 146 517 518 B-upper_bound
+months 147 153 519 525 I-upper_bound
+prior 154 159 526 531 I-upper_bound
+to 160 162 532 534 O
+the 163 166 535 538 O
+primary 167 174 539 546 O
+episode 175 182 547 554 O
+
+GI 0 2 555 557 B-chronic_disease
+obstruction 3 14 558 569 I-chronic_disease
+
+Known 0 5 570 575 O
+allergy 6 13 576 583 O
+to 14 16 584 586 O
+vancomycin 17 27 587 597 B-allergy_name
+or 28 30 598 600 O
+fidaxomicin 31 42 601 612 B-allergy_name
+
+Negative 0 8 613 621 B-pregnancy
+pregnancy 9 18 622 631 I-pregnancy
+test 19 23 632 636 O
+required 24 32 637 645 O
+for 33 36 646 649 O
+females 37 44 650 657 B-gender
+< 45 46 658 659 O
+61 46 48 659 661 B-upper_bound
+years 49 54 662 667 I-upper_bound
+of 55 57 668 670 O
+age 58 61 671 674 B-age
+or 62 64 675 677 O
+without 65 72 678 685 O
+prior 73 78 686 691 B-treatment
+hysterectomy 79 91 692 704 I-treatment
+
+Nucleic 0 7 705 712 B-clinical_variable
+Acid 8 12 713 717 I-clinical_variable
+Amplification 13 26 718 731 I-clinical_variable
+Test 27 31 732 736 I-clinical_variable
+( 32 33 737 738 O
+NAAT 33 37 738 742 B-clinical_variable
+, 37 38 742 743 O
+PCR 39 42 744 747 B-clinical_variable
+or 43 45 748 750 O
+LAMP 46 50 751 755 B-clinical_variable
+) 50 51 755 756 O
+based 52 57 757 762 O
+detection 58 67 763 772 O
+of 68 70 773 775 O
+toxigenic 71 80 776 785 B-clinical_variable
+C. 81 83 786 788 I-clinical_variable
+difficile 84 93 789 798 O
+
+hypotension 0 11 799 810 B-chronic_disease
+
+incipient 0 9 811 820 O
+toxic 10 15 821 826 B-chronic_disease
+megacolon 16 25 827 836 I-chronic_disease
+
+metronidazole 0 13 837 850 B-treatment
+
+nitazoxanide 0 12 851 863 B-treatment
+
+rifaximin 0 9 864 873 B-treatment
+
+second 0 6 874 880 O
+recurrent 7 16 881 890 O
+CDI 17 20 891 894 B-chronic_disease
+episode 21 28 895 902 O
+occurring 29 38 903 912 O
+within 39 45 913 919 O
+3 46 47 920 921 B-upper_bound
+months 48 54 922 928 I-upper_bound
+of 55 57 929 931 O
+the 58 61 932 935 O
+first 62 67 936 941 O
+recurrent 68 77 942 951 O
+episode 78 85 952 959 O
+
+severe 0 6 960 966 O
+ileus 7 12 967 972 B-chronic_disease
+
+vancomycin 0 10 973 983 B-treatment
+

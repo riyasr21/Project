@@ -1,0 +1,70 @@
+Age 0 3 0 3 B-age
+45 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+75 10 12 10 12 B-upper_bound
+
+Hamilton 0 8 13 21 B-clinical_variable
+Depression 9 19 22 32 I-clinical_variable
+Rating 20 26 33 39 I-clinical_variable
+Scale 27 32 40 45 I-clinical_variable
+> 33 34 46 47 O
+20 35 37 48 50 B-lower_bound
+
+ability 0 7 51 58 O
+to 8 10 59 61 O
+participate 11 22 62 73 O
+in 23 25 74 76 O
+MRI 26 29 77 80 B-treatment
+
+dementia 0 8 81 89 B-chronic_disease
+or 9 11 90 92 O
+MCI 12 15 93 96 B-chronic_disease
+
+history 0 7 97 104 O
+or 8 10 105 107 O
+presence 11 19 108 116 O
+of 20 22 117 119 O
+psychiatric 23 34 120 131 O
+diagnoses 35 44 132 141 O
+other 45 50 142 147 O
+than 51 55 148 152 O
+unipolar 56 64 153 161 O
+, 64 65 161 162 O
+non 66 69 163 166 B-chronic_disease
+- 69 70 166 167 I-chronic_disease
+psychotic 70 79 167 176 I-chronic_disease
+major 80 85 177 182 I-chronic_disease
+depression 86 96 183 193 I-chronic_disease
+or 97 99 194 196 O
+generalized 100 111 197 208 O
+anxiety 112 119 209 216 B-chronic_disease
+disorder 120 128 217 225 O
+
+unipolar 0 8 226 234 B-chronic_disease
+, 8 9 234 235 O
+nonpsychotic 10 22 236 248 B-chronic_disease
+major 23 28 249 254 I-chronic_disease
+depression 29 39 255 265 I-chronic_disease
+( 40 41 266 267 O
+by 41 43 267 269 O
+SCID 44 48 270 274 O
+, 48 49 274 275 O
+DSM 50 53 276 279 O
+- 53 54 279 280 O
+V 54 55 280 281 O
+) 55 56 281 282 O
+
+use 0 3 283 286 O
+of 4 6 287 289 O
+psychotropic 7 19 290 302 B-treatment
+drugs 20 25 303 308 I-treatment
+or 26 28 309 311 O
+cholinesterase 29 43 312 326 B-treatment
+inhibitors 44 54 327 337 I-treatment
+other 55 60 338 343 O
+than 61 65 344 348 O
+mild 66 70 349 353 O
+doses 71 76 354 359 O
+of 77 79 360 362 O
+benzodiazepines 80 95 363 378 B-treatment
+

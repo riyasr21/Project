@@ -1,0 +1,31 @@
+Age 0 3 0 3 B-age
+21 4 6 4 6 B-lower_bound
+to 7 9 7 9 O
+44 10 12 10 12 B-upper_bound
+
+history 0 7 13 20 O
+of 8 10 21 23 O
+seizures 11 19 24 32 B-chronic_disease
+
+in 0 2 33 35 O
+good 3 7 36 40 O
+physical 8 16 41 49 O
+health 17 23 50 56 O
+and 24 27 57 60 O
+weighing 28 36 61 69 O
+< 37 38 70 71 O
+250 39 42 72 75 B-upper_bound
+lbs 43 46 76 79 I-upper_bound
+
+positive 0 8 80 88 B-pregnancy
+pregnancy 9 18 89 98 I-pregnancy
+test 19 23 99 103 O
+
+smoking 0 7 104 111 O
+> 8 9 112 113 O
+20 9 11 113 115 B-lower_bound
+tobacco 12 19 116 123 O
+cigarettes 20 30 124 134 O
+per 31 34 135 138 O
+day 35 38 139 142 O
+

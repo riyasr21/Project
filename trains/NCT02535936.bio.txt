@@ -1,0 +1,18 @@
+Children 0 8 0 8 O
+diagnosis 9 18 9 18 O
+with 19 23 19 23 O
+Spastic 24 31 24 31 B-chronic_disease
+Diplegia 32 40 32 40 I-chronic_disease
+and 41 44 41 44 O
+having 45 51 45 51 O
+Selective 52 61 52 61 B-treatment
+Dorsal 62 68 62 68 I-treatment
+Rhizotomy 69 78 69 78 I-treatment
+surgery 79 86 79 86 I-treatment
+
+No 0 2 87 89 O
+Selective 3 12 90 99 B-treatment
+Dorsal 13 19 100 106 I-treatment
+Rhizotomy 20 29 107 116 I-treatment
+surgery 30 37 117 124 I-treatment
+

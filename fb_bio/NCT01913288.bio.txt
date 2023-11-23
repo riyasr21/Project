@@ -1,0 +1,25 @@
+Born 0 4 0 4 O
+between 5 12 5 12 O
+24 13 15 13 15 B-lower_bound
+- 15 16 15 16 O
+36 16 18 16 18 B-upper_bound
+weeks 19 24 19 24 I-upper_bound
+GA 25 27 25 27 B-clinical_variable
+
+Chromosomal 0 11 28 39 B-chronic_disease
+or 12 14 40 42 I-chronic_disease
+congenital 15 25 43 53 I-chronic_disease
+anomalies 26 35 54 63 I-chronic_disease
+; 35 36 63 64 O
+congenital 37 47 65 75 B-chronic_disease
+infections 48 58 76 86 I-chronic_disease
+; 58 59 86 87 O
+> 60 61 88 89 O
+grade 62 67 90 95 O
+II 68 70 96 98 O
+IVH 71 74 99 102 O
+
+malnutrition 0 12 103 115 O
+during 13 19 116 122 O
+pregnancy 20 29 123 132 B-pregnancy
+

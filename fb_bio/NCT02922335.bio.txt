@@ -1,0 +1,32 @@
+Pervasive 0 9 0 9 B-chronic_disease
+Developmental 10 23 10 23 I-chronic_disease
+Disorders 24 33 24 33 I-chronic_disease
+( 34 35 34 35 I-chronic_disease
+PDD 35 38 35 38 I-chronic_disease
+) 38 39 38 39 I-chronic_disease
+or 40 42 40 42 O
+mental 43 49 43 49 B-chronic_disease
+retardation 50 61 50 61 I-chronic_disease
+
+age 0 3 62 65 B-age
+17 4 6 66 68 B-lower_bound
+- 6 7 68 69 O
+21 7 9 69 71 B-upper_bound
+
+recent 0 6 72 78 O
+arrest 7 13 79 85 O
+or 14 16 86 88 O
+release 17 24 89 96 O
+from 25 29 97 101 O
+jail 30 34 102 106 O
+/ 34 35 106 107 O
+prison 35 41 107 113 O
+/ 41 42 113 114 O
+detention 42 51 114 123 O
+( 52 53 124 125 O
+within 53 59 125 131 O
+the 60 63 132 135 O
+past 64 68 136 140 B-upper_bound
+18 69 71 141 143 I-upper_bound
+months 72 78 144 150 I-upper_bound
+

@@ -1,0 +1,151 @@
+BMI 0 3 0 3 B-bmi
+between 4 11 4 11 O
+25 12 14 12 14 B-lower_bound
+and 15 18 15 18 O
+42 19 21 19 21 B-upper_bound
+kg 22 24 22 24 I-upper_bound
+/ 24 25 24 25 I-upper_bound
+m2 25 27 25 27 I-upper_bound
+
+Cardiovascular 0 14 28 42 B-chronic_disease
+disease 15 22 43 50 I-chronic_disease
+
+Fasting 0 7 51 58 B-clinical_variable
+Blood 8 13 59 64 I-clinical_variable
+Glucose 14 21 65 72 I-clinical_variable
+< 22 23 73 74 O
+150 24 27 75 78 B-upper_bound
+mg 28 30 79 81 I-upper_bound
+/ 30 31 81 82 I-upper_bound
+dl 31 33 82 84 I-upper_bound
+
+Fasting 0 7 85 92 B-clinical_variable
+plasma 8 14 93 99 I-clinical_variable
+triglycerides 15 28 100 113 I-clinical_variable
+> 29 30 114 115 O
+400 31 34 116 119 B-lower_bound
+mg 35 37 120 122 I-lower_bound
+/ 37 38 122 123 I-lower_bound
+dl 38 40 123 125 I-lower_bound
+
+Gallstones 0 10 126 136 B-chronic_disease
+
+HbA1C 0 5 137 142 B-clinical_variable
+between 6 13 143 150 O
+6.0 14 17 151 154 B-lower_bound
+- 18 19 155 156 O
+7.9 20 23 157 160 B-upper_bound
+( 24 25 161 162 O
+those 25 30 162 167 O
+on 31 33 168 170 O
+Metformin 34 43 171 180 O
+must 44 48 181 185 O
+have 49 53 186 190 O
+a 54 55 191 192 O
+HbA1c 56 61 193 198 B-clinical_variable
+level 62 67 199 204 I-clinical_variable
+below 68 73 205 210 O
+7.5 74 77 211 214 B-upper_bound
+prior 78 83 215 220 O
+to 84 86 221 223 O
+wash 87 91 224 228 O
+- 91 92 228 229 O
+out 92 95 229 232 O
+period 96 102 233 239 O
+) 102 103 239 240 O
+
+MEN2 0 4 241 245 B-cancer
+Syndrome 5 13 246 254 I-cancer
+
+Major 0 5 255 260 B-chronic_disease
+organ 6 11 261 266 I-chronic_disease
+disease 12 19 267 274 I-chronic_disease
+
+NSAIDs 0 6 275 281 B-treatment
+( 7 8 282 283 O
+must 8 12 283 287 O
+cease 13 18 288 293 O
+use 19 22 294 297 O
+4 23 24 298 299 B-upper_bound
+weeks 25 30 300 305 I-upper_bound
+prior 31 36 306 311 I-upper_bound
+to 37 39 312 314 O
+study 40 45 315 320 O
+enrollment 46 56 321 331 O
+) 56 57 331 332 O
+
+Pancreatitis 0 12 333 345 B-chronic_disease
+( 13 14 346 347 I-chronic_disease
+acute 14 19 347 352 I-chronic_disease
+or 20 22 353 355 I-chronic_disease
+chronic 23 30 356 363 I-chronic_disease
+) 30 31 363 364 I-chronic_disease
+
+Personal 0 8 365 373 O
+or 9 11 374 376 O
+family 12 18 377 383 O
+history 19 26 384 391 O
+of 27 29 392 394 O
+medullary 30 39 395 404 B-cancer
+thyroid 40 47 405 412 I-cancer
+cancer 48 54 413 419 I-cancer
+
+Prior 0 5 420 425 O
+Bariatric 6 15 426 435 B-treatment
+surgery 16 23 436 443 I-treatment
+
+Unstable 0 8 444 452 B-chronic_disease
+hypertension 9 21 453 465 I-chronic_disease
+( 22 23 466 467 O
+BP 23 25 467 469 B-clinical_variable
+> 26 27 470 471 O
+160/100 27 34 471 478 B-lower_bound
+mm 35 37 479 481 I-lower_bound
+Hg 38 40 482 484 I-lower_bound
+) 40 41 484 485 O
+
+Women 0 5 486 491 B-gender
+must 6 10 492 496 O
+be 11 13 497 499 O
+post 14 18 500 504 O
+- 18 19 504 505 O
+menopausal 19 29 505 515 O
+or 30 32 516 518 O
+surgically 33 43 519 529 O
+sterile 44 51 530 537 O
+within 52 58 538 544 O
+age 59 62 545 548 B-age
+range 63 68 549 554 O
+
+diabetics 0 9 555 564 B-chronic_disease
+on 10 12 565 567 O
+Metformin 13 22 568 577 B-treatment
+that 23 27 578 582 O
+have 28 32 583 587 O
+permission 33 43 588 598 O
+from 44 48 599 603 O
+Primacy 49 56 604 611 O
+Care 57 61 612 616 O
+Physician 62 71 617 626 O
+to 72 74 627 629 O
+wash 75 79 630 634 O
+- 79 80 634 635 O
+out 80 83 635 638 O
+of 84 86 639 641 O
+the 87 90 642 645 O
+drug 91 95 646 650 O
+for 96 99 651 654 O
+6 100 101 655 656 B-upper_bound
+weeks 102 107 657 662 I-upper_bound
+prior 108 113 663 668 I-upper_bound
+to 114 116 669 671 O
+the 117 120 672 675 O
+study 121 126 676 681 O
+and 127 130 682 685 O
+for 131 134 686 689 O
+the 135 138 690 693 O
+duration 139 147 694 702 O
+of 148 150 703 705 O
+the 151 154 706 709 O
+study 155 160 710 715 O
+

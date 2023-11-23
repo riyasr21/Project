@@ -1,0 +1,94 @@
+> 0 1 0 1 O
+20 2 4 2 4 B-lower_bound
+rib 5 8 5 8 B-chronic_disease
+fractures 9 18 9 18 I-chronic_disease
+
+Anticipated 0 11 19 30 O
+length 12 18 31 37 O
+of 19 21 38 40 O
+stay 22 26 41 45 O
+of 27 29 46 48 O
+at 30 32 49 51 O
+least 33 38 52 57 O
+72 39 41 58 60 B-lower_bound
+hours 42 47 61 66 I-lower_bound
+
+Demonstrated 0 12 67 79 O
+ability 13 20 80 87 O
+to 21 23 88 90 O
+achieve 24 31 91 98 O
+> 32 33 99 100 O
+50 34 36 101 103 B-lower_bound
+% 36 37 103 104 I-lower_bound
+predicted 38 47 105 114 O
+inspiratory 48 59 115 126 O
+capacity 60 68 127 135 O
+based 69 74 136 141 O
+on 75 77 142 144 O
+ideal 78 83 145 150 O
+body 84 88 151 155 O
+weight 89 95 156 162 O
+using 96 101 163 168 O
+IS 102 104 169 171 O
+within 105 111 172 178 O
+the 112 115 179 182 O
+first 116 121 183 188 O
+24 122 124 189 191 B-upper_bound
+hours 125 130 192 197 I-upper_bound
+of 131 133 198 200 O
+admission 134 143 201 210 O
+
+Hemodynamic 0 11 211 222 B-chronic_disease
+instability 12 23 223 234 I-chronic_disease
+( 24 25 235 236 O
+defined 25 32 236 243 O
+as 33 35 244 246 O
+new 36 39 247 250 O
+intravenous 40 51 251 262 B-clinical_variable
+vasopressor 52 63 263 274 I-clinical_variable
+or 64 66 275 277 O
+inotrope 67 75 278 286 B-clinical_variable
+requirement 76 87 287 298 I-clinical_variable
+or 88 90 299 301 O
+mean 91 95 302 306 B-clinical_variable
+arterial 96 104 307 315 I-clinical_variable
+pressure 105 113 316 324 I-clinical_variable
+< 114 115 325 326 O
+55 116 118 327 329 B-upper_bound
+mmHg 119 123 330 334 I-upper_bound
+) 123 124 334 335 O
+
+Pregnancy 0 9 336 345 B-pregnancy
+
+Respiratory 0 11 346 357 B-chronic_disease
+failure 12 19 358 365 I-chronic_disease
+requiring 20 29 366 375 O
+intubation 30 40 376 386 B-treatment
+within 41 47 387 393 O
+24 48 50 394 396 B-upper_bound
+hours 51 56 397 402 I-upper_bound
+prior 57 62 403 408 I-upper_bound
+to 63 65 409 411 O
+enrollment 66 76 412 422 O
+
+Signs 0 5 423 428 O
+of 6 8 429 431 O
+active 9 15 432 438 O
+myocardial 16 26 439 449 B-chronic_disease
+ischemia 27 35 450 458 I-chronic_disease
+or 36 38 459 461 O
+non 39 42 462 465 B-chronic_disease
+- 42 43 465 466 I-chronic_disease
+ST 43 45 466 468 I-chronic_disease
+elevation 46 55 469 478 I-chronic_disease
+MI 56 58 479 481 I-chronic_disease
+
+Weight 0 6 482 488 B-clinical_variable
+< 7 8 489 490 O
+50 9 11 491 493 B-upper_bound
+kg 12 14 494 496 I-upper_bound
+or 15 17 497 499 O
+> 18 19 500 501 O
+150 20 23 502 505 B-lower_bound
+kg 24 26 506 508 I-lower_bound
+

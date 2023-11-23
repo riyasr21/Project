@@ -1,0 +1,102 @@
+18 0 2 0 2 B-lower_bound
+- 3 4 3 4 O
+90 5 7 5 7 B-upper_bound
+years 8 13 8 13 I-upper_bound
+of 14 16 14 16 O
+age 17 20 17 20 B-age
+
+Active 0 6 21 27 O
+malignancy 7 17 28 38 B-cancer
+
+Allergy 0 7 39 46 O
+to 8 10 47 49 O
+active 11 17 50 56 B-allergy_name
+ingredient 18 28 57 67 I-allergy_name
+of 29 31 68 70 I-allergy_name
+CocoaVia 32 40 71 79 I-allergy_name
+® 40 41 79 80 I-allergy_name
+, 41 42 80 81 O
+the 43 46 82 85 O
+study 47 52 86 91 O
+intervention 53 65 92 104 O
+
+Chronic 0 7 105 112 O
+medication 8 18 113 123 O
+with 19 23 124 128 O
+potential 24 33 129 138 O
+immune 34 40 139 145 O
+- 40 41 145 146 O
+modulatory 41 51 146 156 O
+effects 52 59 157 164 O
+( 60 61 165 166 O
+e.g. 61 65 166 170 O
+, 65 66 170 171 O
+daily 67 72 172 177 B-clinical_variable
+oral 73 77 178 182 I-clinical_variable
+morphine 78 86 183 191 I-clinical_variable
+- 86 87 191 192 I-clinical_variable
+equivalent 87 97 192 202 I-clinical_variable
+intake 98 104 203 209 I-clinical_variable
+> 105 106 210 211 O
+30 107 109 212 214 B-lower_bound
+mg 110 112 215 217 I-lower_bound
+) 112 113 217 218 O
+
+Immune 0 6 219 225 B-treatment
+- 6 7 225 226 I-treatment
+suppressant 7 18 226 237 I-treatment
+therapy 19 26 238 245 I-treatment
+within 27 33 246 252 O
+the 34 37 253 256 O
+last 38 42 257 261 O
+2 43 44 262 263 B-upper_bound
+months 45 51 264 270 I-upper_bound
+( 52 53 271 272 O
+e.g. 53 57 272 276 O
+, 57 58 276 277 O
+azathioprine 59 71 278 290 B-treatment
+or 72 74 291 293 O
+cyclosporine 75 87 294 306 B-treatment
+) 87 88 306 307 O
+
+Infectious 0 10 308 318 B-chronic_disease
+disease 11 18 319 326 I-chronic_disease
+within 19 25 327 333 O
+the 26 29 334 337 O
+last 30 34 338 342 O
+month 35 40 343 348 O
+
+Male 0 4 349 353 B-gender
+
+Planning 0 8 354 362 O
+to 9 11 363 365 O
+undergo 12 19 366 373 O
+total 20 25 374 379 B-treatment
+hip 26 29 380 383 I-treatment
+or 30 32 384 386 I-treatment
+knee 33 37 387 391 I-treatment
+arthroplasty 38 50 392 404 I-treatment
+, 50 51 404 405 O
+either 52 58 406 412 O
+primary 59 66 413 420 O
+or 67 69 421 423 O
+revision 70 78 424 432 O
+
+Renal 0 5 433 438 B-chronic_disease
+, 5 6 438 439 O
+hepatic 7 14 440 447 B-chronic_disease
+, 14 15 447 448 O
+cardiovascular 16 30 449 463 B-chronic_disease
+, 30 31 463 464 O
+or 32 34 465 467 O
+respiratory 35 46 468 479 B-chronic_disease
+diseases 47 55 480 488 I-chronic_disease
+resulting 56 65 489 498 O
+in 66 68 499 501 O
+clinically 69 79 502 512 O
+relevant 80 88 513 521 O
+impaired 89 97 522 530 O
+function 98 106 531 539 O
+
+female 0 6 540 546 B-gender
+

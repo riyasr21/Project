@@ -1,0 +1,90 @@
+Age 0 3 0 3 B-age
+18 4 6 4 6 B-lower_bound
+or 7 9 7 9 O
+older 10 15 10 15 O
+
+Diagnosis 0 9 16 25 O
+of 10 12 26 28 O
+focal 13 18 29 34 B-chronic_disease
+epilepsy 19 27 35 43 I-chronic_disease
+by 28 30 44 46 O
+the 31 34 47 50 O
+study 35 40 51 56 O
+neurologist 41 52 57 68 O
+( 53 54 69 70 O
+KB 54 56 70 72 O
+) 56 57 72 73 O
+
+History 0 7 74 81 O
+of 8 10 82 84 O
+other 11 16 85 90 O
+major 17 22 91 96 O
+psychiatric 23 34 97 108 B-chronic_disease
+disorders 35 44 109 118 I-chronic_disease
+
+History 0 7 119 126 O
+of 8 10 127 129 O
+stroke 11 17 130 136 B-chronic_disease
+
+Not 0 3 137 140 B-pregnancy
+pregnant 4 12 141 149 I-pregnancy
+
+Patients 0 8 150 158 O
+on 9 11 159 161 O
+stable 12 18 162 168 O
+doses 19 24 169 174 O
+of 25 27 175 177 O
+current 28 35 178 185 O
+antiepileptic 36 49 186 199 B-treatment
+and 50 53 200 203 O
+antidepressant 54 68 204 218 B-treatment
+medications 69 80 219 230 I-treatment
+for 81 84 231 234 O
+1 85 86 235 236 B-upper_bound
+month 87 92 237 242 I-upper_bound
+
+QIDS 0 4 243 247 B-clinical_variable
+item 5 9 248 252 I-clinical_variable
+12 10 12 253 255 I-clinical_variable
+score 13 18 256 261 I-clinical_variable
+> 19 20 262 263 O
+2 21 22 264 265 O
+or 23 25 266 268 O
+Mini 26 30 269 273 B-clinical_variable
+- 30 31 273 274 I-clinical_variable
+International 31 44 274 287 I-clinical_variable
+Neuropsychiatric 45 61 288 304 I-clinical_variable
+Interview 62 71 305 314 I-clinical_variable
+( 72 73 315 316 I-clinical_variable
+MINI 73 77 316 320 I-clinical_variable
+) 77 78 320 321 I-clinical_variable
+Suicidality 79 90 322 333 I-clinical_variable
+module 91 97 334 340 I-clinical_variable
+score 98 103 341 346 I-clinical_variable
+> 104 105 347 348 O
+6 106 107 349 350 B-lower_bound
+
+Significant 0 11 351 362 O
+cognitive 12 21 363 372 B-chronic_disease
+impairment 22 32 373 383 I-chronic_disease
+measured 33 41 384 392 O
+by 42 44 393 395 O
+the 45 48 396 399 O
+Montreal 49 57 400 408 B-clinical_variable
+Cognitive 58 67 409 418 I-clinical_variable
+Assessment 68 78 419 429 I-clinical_variable
+( 79 80 430 431 I-clinical_variable
+MOCA 80 84 431 435 I-clinical_variable
+) 84 85 435 436 I-clinical_variable
+< 86 87 437 438 O
+23 87 89 438 440 B-upper_bound
+
+caffeine 0 8 441 449 B-treatment
+
+other 0 5 450 455 O
+major 6 11 456 461 B-chronic_disease
+neurological 12 24 462 474 I-chronic_disease
+disorder 25 33 475 483 I-chronic_disease
+
+schizophrenia 0 13 484 497 B-chronic_disease
+

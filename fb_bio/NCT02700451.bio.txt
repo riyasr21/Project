@@ -1,0 +1,91 @@
+Acetaminophen 0 13 0 13 B-treatment
+
+Age 0 3 14 17 B-age
+18 4 6 18 20 B-lower_bound
+- 6 7 20 21 O
+75 7 9 21 23 B-upper_bound
+
+Chronic 0 7 24 31 B-chronic_disease
+liver 8 13 32 37 I-chronic_disease
+disease 14 21 38 45 I-chronic_disease
+
+Congestive 0 10 46 56 B-chronic_disease
+heart 11 16 57 62 I-chronic_disease
+failure 17 24 63 70 I-chronic_disease
+
+Documented 0 10 71 81 O
+allergy 11 18 82 89 O
+to 19 21 90 92 O
+NSAIDs 22 28 93 99 B-allergy_name
+
+Elevated 0 8 100 108 B-clinical_variable
+alanine 9 16 109 116 I-clinical_variable
+aminotransferase 17 33 117 133 I-clinical_variable
+( 34 35 134 135 I-clinical_variable
+ALT 35 38 135 138 I-clinical_variable
+) 38 39 138 139 I-clinical_variable
+
+Glucocorticoid 0 14 140 154 B-treatment
+use 15 18 155 158 O
+within 19 25 159 165 O
+1 26 27 166 167 B-upper_bound
+month 28 33 168 173 I-upper_bound
+of 34 36 174 176 O
+surgery 37 44 177 184 B-treatment
+
+Peptic 0 6 185 191 B-chronic_disease
+Ulcer 7 12 192 197 I-chronic_disease
+Disease 13 20 198 205 I-chronic_disease
+
+Renal 0 5 206 211 B-chronic_disease
+dysfunction 6 17 212 223 I-chronic_disease
+
+Require 0 7 224 231 O
+1 8 9 232 233 B-lower_bound
+or 10 12 234 236 O
+2 13 14 237 238 B-upper_bound
+level 15 20 239 244 I-upper_bound
+lumbar 21 27 245 251 B-treatment
+spinal 28 34 252 258 I-treatment
+fusion 35 41 259 265 I-treatment
+through 42 49 266 273 O
+posterior 50 59 274 283 O
+or 60 62 284 286 O
+lateral 63 70 287 294 O
+approach 71 79 295 303 O
+
+Revision 0 8 304 312 B-treatment
+for 9 12 313 316 O
+pseudarthrosis 13 27 317 331 B-chronic_disease
+
+aspartate 0 9 332 341 B-clinical_variable
+aminotransferase 10 26 342 358 I-clinical_variable
+( 27 28 359 360 I-clinical_variable
+AST 28 31 360 363 I-clinical_variable
+) 31 32 363 364 I-clinical_variable
+greater 33 40 365 372 O
+than 41 45 373 377 O
+1.5 46 49 378 381 B-lower_bound
+times 50 55 382 387 I-lower_bound
+control 56 63 388 395 I-lower_bound
+
+daily 0 5 396 401 O
+or 6 8 402 404 O
+almost 9 15 405 411 O
+daily 16 21 412 417 O
+opioid 22 28 418 424 B-treatment
+use 29 32 425 428 O
+> 33 34 429 430 O
+2 35 36 431 432 B-lower_bound
+weeks 37 42 433 438 I-lower_bound
+
+not 0 3 439 442 O
+on 4 6 443 445 O
+opiates 7 14 446 453 B-treatment
+at 15 17 454 456 O
+time 18 22 457 461 O
+of 23 25 462 464 O
+presentation 26 38 465 477 O
+to 39 41 478 480 O
+clinic 42 48 481 487 O
+

@@ -1,0 +1,64 @@
+Age 0 3 0 3 B-age
+of 4 6 4 6 O
+18 7 9 7 9 B-lower_bound
+and 10 13 10 13 O
+65 14 16 14 16 B-upper_bound
+
+Clinically 0 10 17 27 O
+unstable 11 19 28 36 O
+due 20 23 37 40 O
+to 24 26 41 43 O
+a 27 28 44 45 O
+hospitalization 29 44 46 61 O
+or 45 47 62 64 O
+medication 48 58 65 75 O
+change 59 65 76 82 O
+in 66 68 83 85 O
+the 69 72 86 89 O
+previous 73 81 90 98 B-upper_bound
+4 82 83 99 100 I-upper_bound
+weeks 84 89 101 106 I-upper_bound
+
+Moderate 0 8 107 115 O
+to 9 11 116 118 O
+Severe 12 18 119 125 O
+substance 19 28 126 135 O
+use 29 32 136 139 O
+disorder 33 41 140 148 O
+in 42 44 149 151 O
+the 45 48 152 155 O
+last 49 53 156 160 B-upper_bound
+six 54 57 161 164 I-upper_bound
+months 58 64 165 171 I-upper_bound
+
+Not 0 3 172 175 B-language_fluency
+fluent 4 10 176 182 I-language_fluency
+enough 11 17 183 189 I-language_fluency
+in 18 20 190 192 I-language_fluency
+English 21 28 193 200 I-language_fluency
+to 29 31 201 203 O
+understand 32 42 204 214 O
+testing 43 50 215 222 O
+procedures 51 61 223 233 O
+
+Premorbid 0 9 234 243 B-clinical_variable
+intellectual 10 22 244 256 I-clinical_variable
+ability 23 30 257 264 I-clinical_variable
+( 31 32 265 266 I-clinical_variable
+IQ 32 34 266 268 I-clinical_variable
+) 34 35 268 269 I-clinical_variable
+below 36 41 270 275 O
+70 42 44 276 278 B-upper_bound
+
+Sustained 0 9 279 288 O
+a 10 11 289 290 O
+mild 12 16 291 295 B-chronic_disease
+traumatic 17 26 296 305 I-chronic_disease
+brain 27 32 306 311 I-chronic_disease
+injury 33 39 312 318 I-chronic_disease
+more 40 44 319 323 O
+than 45 49 324 328 O
+1 50 51 329 330 B-lower_bound
+year 52 56 331 335 I-lower_bound
+ago 57 60 336 339 O
+

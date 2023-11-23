@@ -1,0 +1,10 @@
+Individuals 0 11 0 11 O
+who 12 15 12 15 O
+do 16 18 16 18 O
+not 19 22 19 22 B-language_fluency
+read 23 27 23 27 I-language_fluency
+or 28 30 28 30 I-language_fluency
+speak 31 36 31 36 I-language_fluency
+proficient 37 47 37 47 I-language_fluency
+English 48 55 48 55 I-language_fluency
+

@@ -1,0 +1,58 @@
+Age 0 3 0 3 B-age
+20 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+50 7 9 7 9 B-upper_bound
+
+ISI 0 3 10 13 B-clinical_variable
+cutoff 4 10 14 20 I-clinical_variable
+score 11 16 21 26 I-clinical_variable
+of 17 19 27 29 O
+10 20 22 30 32 B-lower_bound
+or 23 25 33 35 O
+higher 26 32 36 42 O
+
+Major 0 5 43 48 B-chronic_disease
+psychiatric 6 17 49 60 I-chronic_disease
+diagnosis 18 27 61 70 I-chronic_disease
+with 28 32 71 75 O
+comorbid 33 41 76 84 O
+sleep 42 47 85 90 B-chronic_disease
+problems 48 56 91 99 I-chronic_disease
+
+Meet 0 4 100 104 O
+diagnostic 5 15 105 115 O
+criteria 16 24 116 124 O
+for 25 28 125 128 O
+IBS 29 32 129 132 B-chronic_disease
+
+Pregnancy 0 9 133 142 B-pregnancy
+( 10 11 143 144 O
+self 11 15 144 148 O
+- 15 16 148 149 O
+reported 16 24 149 157 O
+) 24 25 157 158 O
+
+Stable 0 6 159 165 O
+medication 7 17 166 176 O
+for 18 21 177 180 O
+IBS 22 25 181 184 B-chronic_disease
+for 26 29 185 188 O
+at 30 32 189 191 O
+least 33 38 192 197 O
+1 39 40 198 199 B-lower_bound
+month 41 46 200 205 I-lower_bound
+
+Stable 0 6 206 212 O
+medication 7 17 213 223 O
+for 18 21 224 227 O
+sleep 22 27 228 233 O
+for 28 31 234 237 O
+at 32 34 238 240 O
+least 35 40 241 246 O
+1 41 42 247 248 B-lower_bound
+month 43 48 249 254 I-lower_bound
+
+other 0 5 255 260 O
+neurological 6 18 261 273 B-chronic_disease
+disorder 19 27 274 282 I-chronic_disease
+

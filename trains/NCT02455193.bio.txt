@@ -1,0 +1,81 @@
+Between 0 7 0 7 O
+21 8 10 8 10 B-lower_bound
+and 11 14 11 14 O
+70 15 17 15 17 B-upper_bound
+years 18 23 18 23 I-upper_bound
+of 24 26 24 26 O
+age 27 30 27 30 B-age
+
+Currently 0 9 31 40 O
+prescribed 10 20 41 51 O
+either 21 27 52 58 O
+olanzapine 28 38 59 69 B-treatment
+, 38 39 69 70 O
+risperidone 40 51 71 82 B-treatment
+, 51 52 82 83 O
+clozapine 53 62 84 93 B-treatment
+, 62 63 93 94 O
+or 64 66 95 97 O
+haloperidol 67 78 98 109 B-treatment
+, 78 79 109 110 O
+OR 80 82 111 113 O
+not 83 86 114 117 O
+currently 87 96 118 127 O
+being 97 102 128 133 O
+treated 103 110 134 141 O
+with 111 115 142 146 O
+any 116 119 147 150 O
+neuroleptic 120 131 151 162 B-treatment
+medications 132 143 163 174 I-treatment
+
+Diagnosis 0 9 175 184 O
+of 10 12 185 187 O
+schizophrenia 13 26 188 201 B-chronic_disease
+or 27 29 202 204 O
+schizoaffective 30 45 205 220 B-chronic_disease
+disorder 46 54 221 229 I-chronic_disease
+
+MRI 0 3 230 233 O
+- 3 4 233 234 O
+specific 4 12 234 242 O
+exclusion 13 22 243 252 O
+criteria 23 31 253 261 O
+( 32 33 262 263 O
+e.g. 33 37 263 267 O
+, 37 38 267 268 O
+claustrophobia 39 53 269 283 B-chronic_disease
+, 53 54 283 284 O
+metal 55 60 285 290 O
+in 61 63 291 293 O
+the 64 67 294 297 O
+body 68 72 298 302 O
+) 72 73 302 303 O
+
+Pregnancy 0 9 304 313 B-pregnancy
+
+Significant 0 11 314 325 O
+endocrine 12 21 326 335 B-chronic_disease
+/ 21 22 335 336 I-chronic_disease
+metabolic 22 31 336 345 I-chronic_disease
+disease 32 39 346 353 I-chronic_disease
+( 40 41 354 355 O
+e.g. 41 45 355 359 O
+, 45 46 359 360 O
+uncontrolled 47 59 361 373 B-chronic_disease
+hypertension 60 72 374 386 I-chronic_disease
+, 72 73 386 387 O
+severe 74 80 388 394 O
+hypertriglyceridemia 81 101 395 415 B-chronic_disease
+) 101 102 415 416 O
+
+Weight 0 6 417 423 B-clinical_variable
+stable 7 13 424 430 O
+within 14 20 431 437 O
+5 21 22 438 439 B-upper_bound
+percent 23 30 440 447 I-upper_bound
+for 31 34 448 451 O
+the 35 38 452 455 O
+last 39 43 456 460 B-upper_bound
+6 44 45 461 462 I-upper_bound
+months 46 52 463 469 I-upper_bound
+

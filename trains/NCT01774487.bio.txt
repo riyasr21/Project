@@ -1,0 +1,44 @@
+0 0 1 0 1 B-lower_bound
+- 1 2 1 2 O
+180 2 5 2 5 B-upper_bound
+days 6 10 6 10 I-upper_bound
+old 11 14 11 14 O
+
+Diagnosed 0 9 15 24 O
+with 10 14 25 29 O
+biliary 15 22 30 37 B-chronic_disease
+atresia 23 30 38 45 I-chronic_disease
+through 31 38 46 53 O
+liver 39 44 54 59 B-treatment
+biopsy 45 51 60 66 I-treatment
+and/or 52 58 67 73 O
+intra 59 64 74 79 B-treatment
+- 64 65 79 80 I-treatment
+operative 65 74 80 89 I-treatment
+cholangiogram 75 88 90 103 I-treatment
+
+Infants 0 7 104 111 O
+greater 8 15 112 119 O
+than 16 20 120 124 O
+180 21 24 125 128 B-lower_bound
+days 25 29 129 133 I-lower_bound
+old 30 33 134 137 O
+
+Infants 0 7 138 145 O
+receiving 8 17 146 155 O
+a 18 19 156 157 O
+Kasai 20 25 158 163 B-treatment
+portoenterostomy 26 42 164 180 I-treatment
+at 43 45 181 183 O
+another 46 53 184 191 O
+institution 54 65 192 203 O
+
+No 0 2 204 206 O
+previous 3 11 207 215 O
+Kasai 12 17 216 221 B-treatment
+portoenterostomy 18 34 222 238 I-treatment
+performed 35 44 239 248 O
+at 45 47 249 251 O
+another 48 55 252 259 O
+institution 56 67 260 271 O
+

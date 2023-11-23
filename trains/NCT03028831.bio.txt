@@ -1,0 +1,115 @@
+BMI 0 3 0 3 B-bmi
+between 4 11 4 11 O
+18 12 14 12 14 B-lower_bound
+- 14 15 14 15 O
+35 15 17 15 17 B-upper_bound
+Kg 18 20 18 20 I-upper_bound
+/ 20 21 20 21 I-upper_bound
+m2 21 23 21 23 I-upper_bound
+
+Participants 0 12 24 36 O
+will 13 17 37 41 O
+be 18 20 42 44 O
+ineligible 21 31 45 55 O
+if 32 34 56 58 O
+they 35 39 59 63 O
+have 40 44 64 68 O
+a 45 46 69 70 O
+history 47 54 71 78 O
+of 55 57 79 81 O
+familial 58 66 82 90 B-cancer
+adenomatous 67 78 91 102 I-cancer
+polyposis 79 88 103 112 I-cancer
+or 89 91 113 115 O
+hereditary 92 102 116 126 B-cancer
+non 103 106 127 130 I-cancer
+- 106 107 130 131 I-cancer
+polyposis 107 116 131 140 I-cancer
+colorectal 117 127 141 151 I-cancer
+cancer 128 134 152 158 I-cancer
+
+any 0 3 159 162 O
+form 4 8 163 167 O
+of 9 11 168 170 O
+chronic 12 19 171 178 O
+GI 20 22 179 181 B-chronic_disease
+disease 23 30 182 189 I-chronic_disease
+resulting 31 40 190 199 O
+in 41 43 200 202 O
+disturbed 44 53 203 212 O
+gut 54 57 213 216 O
+function 58 66 217 225 O
+
+between 0 7 226 233 O
+40 8 10 234 236 B-lower_bound
+- 10 11 236 237 O
+65 11 13 237 239 B-upper_bound
+years 14 19 240 245 I-upper_bound
+( 20 21 246 247 O
+age 21 24 247 250 B-age
+at 25 27 251 253 O
+which 28 33 254 259 O
+colon 34 39 260 265 B-cancer
+cancer 40 46 266 272 I-cancer
+screening 47 56 273 282 O
+colonoscopy 57 68 283 294 B-treatment
+is 69 71 295 297 O
+recommended 72 83 298 309 O
+in 84 86 310 312 O
+this 87 91 313 317 O
+population 92 102 318 328 O
+) 102 103 328 329 O
+
+bleeding 0 8 330 338 B-chronic_disease
+disorders 9 18 339 348 I-chronic_disease
+
+current 0 7 349 356 O
+steroids 8 16 357 365 B-treatment
+use 17 20 366 369 O
+
+have 0 4 370 374 O
+had 5 8 375 378 O
+noncancerous 9 21 379 391 O
+polyps 22 28 392 398 B-chronic_disease
+removed 29 36 399 406 O
+previously 37 47 407 417 O
+by 48 50 418 420 O
+colonoscopy 51 62 421 432 B-treatment
+will 63 67 433 437 O
+be 68 70 438 440 O
+eligible 71 79 441 449 O
+
+have 0 4 450 454 O
+previous 5 13 455 463 O
+colonoscopic 14 26 464 476 O
+evidence 27 35 477 485 O
+of 36 38 486 488 O
+inflammatory 39 51 489 501 B-chronic_disease
+bowel 52 57 502 507 I-chronic_disease
+disease 58 65 508 515 I-chronic_disease
+or 66 68 516 518 O
+colon 69 74 519 524 B-cancer
+cancer 75 81 525 531 I-cancer
+
+hepatic 0 7 532 539 B-chronic_disease
+
+malabsorption 0 13 540 553 B-chronic_disease
+
+previous 0 8 554 562 B-treatment
+GI 9 11 563 565 I-treatment
+surgery 12 19 566 573 I-treatment
+resulting 20 29 574 583 O
+in 30 32 584 586 O
+disturbed 33 42 587 596 O
+gut 43 46 597 600 O
+function 47 55 601 609 O
+due 56 59 610 613 O
+to 60 62 614 616 O
+of 63 65 617 619 O
+loss 66 70 620 624 O
+of 71 73 625 627 O
+bowel 74 79 628 633 O
+or 80 82 634 636 O
+altered 83 90 637 644 O
+anatomy 91 98 645 652 O
+

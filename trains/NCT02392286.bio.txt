@@ -1,0 +1,155 @@
+AIDS 0 4 0 4 B-chronic_disease
+or 5 7 5 7 O
+AIDS 8 12 8 12 O
+- 12 13 12 13 O
+defining 13 21 13 21 O
+illness 22 29 22 29 O
+
+Abscess 0 7 30 37 B-chronic_disease
+
+Age 0 3 38 41 B-age
+≥ 4 5 42 43 O
+18 6 8 44 46 B-lower_bound
+
+Decision 0 8 47 55 O
+by 9 11 56 58 O
+treating 12 20 59 67 O
+gastroenterologist 21 39 68 86 O
+to 40 42 87 89 O
+start 43 48 90 95 O
+corticosteroid 49 63 96 110 B-treatment
+therapy 64 71 111 118 I-treatment
+
+Diagnosis 0 9 119 128 O
+of 10 12 129 131 O
+Crohn 13 18 132 137 B-chronic_disease
+'s 18 20 137 139 I-chronic_disease
+flare 21 26 140 145 O
+
+Established 0 11 146 157 O
+diagnosis 12 21 158 167 O
+of 22 24 168 170 O
+Crohn 25 30 171 176 B-chronic_disease
+'s 30 32 176 178 I-chronic_disease
+disease 33 40 179 186 I-chronic_disease
+
+Fulminant 0 9 187 196 O
+Crohn 10 15 197 202 B-chronic_disease
+'s 15 17 202 204 I-chronic_disease
+disease 18 25 205 212 I-chronic_disease
+
+Infectious 0 10 213 223 B-chronic_disease
+colitis 11 18 224 231 I-chronic_disease
+( 19 20 232 233 O
+e.g. 20 24 233 237 O
+, 24 25 237 238 O
+C. 26 28 239 241 B-chronic_disease
+difficile 29 38 242 251 I-chronic_disease
+, 38 39 251 252 O
+CMV 40 43 253 256 B-chronic_disease
+, 43 44 256 257 O
+HSV 45 48 258 261 B-chronic_disease
+) 48 49 261 262 O
+
+NYHA 0 4 263 267 O
+Class 5 10 268 273 B-chronic_disease
+4 11 12 274 275 I-chronic_disease
+heart 13 18 276 281 I-chronic_disease
+failure 19 26 282 289 I-chronic_disease
+
+Patients 0 8 290 298 O
+in 9 11 299 301 O
+whom 12 16 302 306 O
+corticosteroid 17 31 307 321 B-treatment
+therapy 32 39 322 329 I-treatment
+is 40 42 330 332 O
+contraindicated 43 58 333 348 O
+
+Patients 0 8 349 357 O
+not 9 12 358 361 O
+on 13 15 362 364 O
+stable 16 22 365 371 O
+doses 23 28 372 377 O
+of 29 31 378 380 O
+immunomodulators 32 48 381 397 B-treatment
+or 49 51 398 400 O
+biologics 52 61 401 410 B-treatment
+for 62 65 411 414 O
+at 66 68 415 417 O
+least 69 74 418 423 O
+8 75 76 424 425 B-lower_bound
+weeks 77 82 426 431 I-lower_bound
+
+Patients 0 8 432 440 O
+on 9 11 441 443 O
+systemic 12 20 444 452 B-treatment
+corticosteroid 21 35 453 467 I-treatment
+therapy 36 43 468 475 I-treatment
+currently 44 53 476 485 O
+or 54 56 486 488 O
+within 57 63 489 495 O
+the 64 67 496 499 O
+past 68 72 500 504 B-upper_bound
+8 73 74 505 506 I-upper_bound
+weeks 75 80 507 512 I-upper_bound
+
+Patients 0 8 513 521 O
+who 9 12 522 525 O
+require 13 20 526 533 O
+imminent 21 29 534 542 O
+surgery 30 37 543 550 B-treatment
+
+Pregnancy 0 9 551 560 B-pregnancy
+
+Systemic 0 8 561 569 B-chronic_disease
+infections 9 19 570 580 I-chronic_disease
+( 20 21 581 582 O
+bacteremia 21 31 582 592 B-chronic_disease
+, 31 32 592 593 O
+fungal 33 39 594 600 B-chronic_disease
+infections 40 50 601 611 I-chronic_disease
+) 50 51 611 612 O
+
+Weight 0 6 613 619 B-clinical_variable
+< 7 8 620 621 O
+35 8 10 621 623 B-upper_bound
+kg 11 13 624 626 I-upper_bound
+
+end 0 3 627 630 B-chronic_disease
+- 3 4 630 631 I-chronic_disease
+stage 4 9 631 636 I-chronic_disease
+renal 10 15 637 642 I-chronic_disease
+disease 16 23 643 650 I-chronic_disease
+on 24 26 651 653 O
+dialysis 27 35 654 662 B-treatment
+
+immunocompromised 0 17 663 680 B-chronic_disease
+( 18 19 681 682 O
+active 19 25 682 688 O
+cancer 26 32 689 695 B-cancer
+on 33 35 696 698 O
+chemotherapy 36 48 699 711 B-treatment
+or 49 51 712 714 O
+radiation 52 61 715 724 B-treatment
+treatment 62 71 725 734 I-treatment
+) 71 72 734 735 O
+
+myocardial 0 10 736 746 B-chronic_disease
+infarction 11 21 747 757 I-chronic_disease
+within 22 28 758 764 O
+the 29 32 765 768 O
+past 33 37 769 773 O
+year 38 42 774 778 O
+
+severe 0 6 779 785 O
+liver 7 12 786 791 B-chronic_disease
+disease 13 20 792 799 I-chronic_disease
+( 21 22 800 801 O
+decompensated 22 35 801 814 O
+cirrhosis 36 45 815 824 B-chronic_disease
+, 45 46 824 825 O
+active 47 53 826 832 O
+alcoholic 54 63 833 842 B-chronic_disease
+hepatitis 64 73 843 852 I-chronic_disease
+) 73 74 852 853 O
+

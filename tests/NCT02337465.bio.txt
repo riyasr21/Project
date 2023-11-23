@@ -1,0 +1,72 @@
+Karnofsky 0 9 0 9 B-clinical_variable
+performance 10 21 10 21 I-clinical_variable
+status 22 28 22 28 I-clinical_variable
+( 29 30 29 30 I-clinical_variable
+PS 30 32 30 32 I-clinical_variable
+) 32 33 32 33 I-clinical_variable
+≥ 34 35 34 35 O
+70 36 38 36 38 B-lower_bound
+
+Patients 0 8 39 47 O
+with 9 13 48 52 O
+prostatectomy 14 27 53 66 B-treatment
+receiving 28 37 67 76 O
+post 38 42 77 81 B-treatment
+- 42 43 81 82 I-treatment
+operative 43 52 82 91 I-treatment
+radiotherapy 53 65 92 104 I-treatment
+
+Patients 0 8 105 113 O
+with 9 13 114 118 O
+uncontrolled 14 26 119 131 B-chronic_disease
+inter 27 32 132 137 I-chronic_disease
+- 32 33 137 138 I-chronic_disease
+current 33 40 138 145 I-chronic_disease
+illness 41 48 146 153 I-chronic_disease
+
+cancer 0 6 154 160 B-cancer
+involving 7 16 161 170 O
+the 17 20 171 174 O
+liver 21 26 175 180 O
+by 27 29 181 183 O
+biopsy 30 36 184 190 B-treatment
+or 37 39 191 193 O
+radiographic 40 52 194 206 B-treatment
+criteria 53 61 207 215 O
+
+prostate 0 8 216 224 B-cancer
+cancer 9 15 225 231 I-cancer
+by 16 18 232 234 O
+biopsy 19 25 235 241 B-treatment
+, 25 26 241 242 O
+with 27 31 243 247 O
+the 32 35 248 251 O
+intent 36 42 252 258 O
+of 43 45 259 261 O
+undergoing 46 56 262 272 O
+definitive 57 67 273 283 O
+dose 68 72 284 288 O
+radiation 73 82 289 298 B-treatment
+therapy 83 90 299 306 I-treatment
+to 91 93 307 309 O
+targets 94 101 310 317 O
+within 102 108 318 324 O
+the 109 112 325 328 O
+liver 113 118 329 334 O
+, 118 119 334 335 O
+or 120 122 336 338 O
+prostate 123 131 339 347 O
+
+psychiatric 0 11 348 359 B-chronic_disease
+illness 12 19 360 367 I-chronic_disease
+/ 19 20 367 368 I-chronic_disease
+social 20 26 368 374 I-chronic_disease
+situations 27 37 375 385 I-chronic_disease
+that 38 42 386 390 O
+would 43 48 391 396 O
+limit 49 54 397 402 O
+compliance 55 65 403 413 O
+with 66 70 414 418 O
+study 71 76 419 424 O
+requirements 77 89 425 437 O
+

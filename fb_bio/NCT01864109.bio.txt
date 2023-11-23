@@ -1,0 +1,197 @@
+ALT 0 3 0 3 B-clinical_variable
+≤ 4 5 4 5 O
+2.5 6 9 6 9 B-upper_bound
+x 10 11 10 11 I-upper_bound
+the 12 15 12 15 I-upper_bound
+ULN 16 19 16 19 I-upper_bound
+
+AST 0 3 20 23 B-clinical_variable
+≤ 4 5 24 25 O
+2.5 6 9 26 29 B-upper_bound
+x 10 11 30 31 I-upper_bound
+the 12 15 32 35 I-upper_bound
+ULN 16 19 36 39 I-upper_bound
+
+Absolute 0 8 40 48 B-clinical_variable
+neutrophil 9 19 49 59 I-clinical_variable
+count 20 25 60 65 I-clinical_variable
+≥ 26 27 66 67 O
+1,000 28 33 68 73 B-lower_bound
+/ 33 34 73 74 I-lower_bound
+K 34 35 74 75 I-lower_bound
+/ 35 36 75 76 I-lower_bound
+mcl 36 39 76 79 I-lower_bound
+
+Age 0 3 80 83 B-age
+greater 4 11 84 91 O
+than 12 16 92 96 O
+or 17 19 97 99 O
+equal 20 25 100 105 O
+to 26 28 106 108 O
+one 29 32 109 112 B-lower_bound
+year 33 37 113 117 I-lower_bound
+and 38 41 118 121 O
+less 42 46 122 126 O
+than 47 51 127 131 O
+or 52 54 132 134 O
+equal 55 60 135 140 O
+to 61 63 141 143 O
+40 64 66 144 146 B-upper_bound
+years 67 72 147 152 I-upper_bound
+at 73 75 153 155 O
+the 76 79 156 159 O
+time 80 84 160 164 O
+of 85 87 165 167 O
+diagnosis 88 97 168 177 O
+
+Age(Years 0 9 178 187 B-age
+) 9 10 187 188 O
+Maximum 11 18 189 196 O
+Serum 19 24 197 202 B-clinical_variable
+Creatinine 25 35 203 213 I-clinical_variable
+( 36 37 214 215 O
+mg 37 39 215 217 O
+/ 39 40 217 218 O
+dL 40 42 218 220 O
+) 42 43 220 221 O
+≤ 44 45 222 223 O
+5 46 47 224 225 B-upper_bound
+0.8 48 51 226 229 I-upper_bound
+6 52 53 230 231 I-upper_bound
+to 54 56 232 234 O
+≤ 57 58 235 236 O
+10 59 61 237 239 B-upper_bound
+1 62 63 240 241 I-upper_bound
+11 64 66 242 244 I-upper_bound
+to 67 69 245 247 O
+≤ 70 71 248 249 O
+15 72 74 250 252 B-upper_bound
+1.2 75 78 253 256 I-upper_bound
+≥ 79 80 257 258 O
+16 81 83 259 261 B-lower_bound
+1.5 84 87 262 265 I-lower_bound
+
+Creatinine 0 10 266 276 B-clinical_variable
+clearance 11 20 277 286 I-clinical_variable
+or 21 23 287 289 I-clinical_variable
+radioisotope 24 36 290 302 I-clinical_variable
+GFR 37 40 303 306 I-clinical_variable
+≥ 41 42 307 308 O
+70ml 43 47 309 313 B-lower_bound
+/ 47 48 313 314 I-lower_bound
+min/1.73 48 56 314 322 I-lower_bound
+m2 57 59 323 325 I-lower_bound
+
+Left 0 4 326 330 B-clinical_variable
+ventricular 5 16 331 342 I-clinical_variable
+ejection 17 25 343 351 I-clinical_variable
+fraction 26 34 352 360 I-clinical_variable
+( 35 36 361 362 I-clinical_variable
+LVEF 36 40 362 366 I-clinical_variable
+) 40 41 366 367 I-clinical_variable
+≥ 42 43 368 369 O
+50 44 46 370 372 B-lower_bound
+% 46 47 372 373 I-lower_bound
+on 48 50 374 376 O
+technetium- 51 62 377 388 B-treatment
+99 63 65 389 391 I-treatment
+m 65 66 391 392 I-treatment
+pertechnetate 67 80 393 406 I-treatment
+radionuclide 81 93 407 419 I-treatment
+cineangiography 94 109 420 435 I-treatment
+( 110 111 436 437 I-treatment
+MUGA 111 115 437 441 I-treatment
+) 115 116 441 442 I-treatment
+or 117 119 443 445 O
+echocardiogram 120 134 446 460 B-treatment
+
+Normal 0 6 461 467 O
+creatinine 7 17 468 478 O
+for 18 21 479 482 O
+age 22 25 483 486 B-age
+
+Platelet 0 8 487 495 B-clinical_variable
+count 9 14 496 501 I-clinical_variable
+≥ 15 16 502 503 O
+100,000 17 24 504 511 B-lower_bound
+/ 24 25 511 512 I-lower_bound
+Kmcl 25 29 512 516 I-lower_bound
+
+Pregnant 0 8 517 525 B-pregnancy
+
+Prior 0 5 526 531 O
+chemotherapy 6 18 532 544 B-treatment
+or 19 21 545 547 O
+radiotherapy 22 34 548 560 B-treatment
+
+Sexually 0 8 561 569 O
+active 9 15 570 576 O
+patients 16 24 577 585 O
+of 25 27 586 588 O
+reproductive 28 40 589 601 O
+potential 41 50 602 611 O
+must 51 55 612 616 O
+be 56 58 617 619 O
+willing 59 66 620 627 B-contraception_consent
+to 67 69 628 630 I-contraception_consent
+use 70 73 631 634 I-contraception_consent
+an 74 76 635 637 I-contraception_consent
+effective 77 86 638 647 I-contraception_consent
+method 87 93 648 654 I-contraception_consent
+of 94 96 655 657 I-contraception_consent
+contraception 97 110 658 671 I-contraception_consent
+
+Shortening 0 10 672 682 B-clinical_variable
+fraction 11 19 683 691 I-clinical_variable
+≥ 20 21 692 693 O
+28 22 24 694 696 B-lower_bound
+% 24 25 696 697 I-lower_bound
+by 26 28 698 700 O
+echocardiogram 29 43 701 715 O
+OR 44 46 716 718 O
+
+Total 0 5 719 724 B-clinical_variable
+bilirubin 6 15 725 734 I-clinical_variable
+≤ 16 17 735 736 O
+1.5 18 21 737 740 B-upper_bound
+x 22 23 741 742 I-upper_bound
+the 24 27 743 746 I-upper_bound
+ULN 28 31 747 750 I-upper_bound
+
+breastfeeding 0 13 751 764 O
+females 14 21 765 772 B-gender
+
+emergent 0 8 773 781 O
+radiotherapy 9 21 782 794 B-treatment
+for 22 25 795 798 O
+treatment 26 35 799 808 B-treatment
+of 36 38 809 811 O
+eg 39 41 812 814 O
+. 41 42 814 815 O
+spinal 43 49 816 822 B-chronic_disease
+cord 50 54 823 827 I-chronic_disease
+compromise 55 65 828 838 I-chronic_disease
+or 66 68 839 841 O
+threatened 69 79 842 852 B-chronic_disease
+airway 80 86 853 859 I-chronic_disease
+
+in 0 2 860 862 O
+the 3 6 863 866 O
+absence 7 14 867 874 O
+of 15 17 875 877 O
+hepatic 18 25 878 885 B-chronic_disease
+involvement 26 37 886 897 I-chronic_disease
+of 38 40 898 900 I-chronic_disease
+tumor 41 46 901 906 I-chronic_disease
+
+previously 0 10 907 917 O
+untreated 11 20 918 927 O
+patients 21 29 928 936 O
+with 30 34 937 941 O
+histologically 35 49 942 956 O
+or 50 52 957 959 O
+molecularly 53 64 960 971 O
+confirmed 65 74 972 981 O
+Ewing 75 80 982 987 B-cancer
+sarcoma 81 88 988 995 I-cancer
+

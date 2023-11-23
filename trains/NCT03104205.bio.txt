@@ -1,0 +1,53 @@
+Age 0 3 0 3 B-age
+≥65 4 7 4 7 O
+years 8 13 8 13 I-lower_bound
+
+Body 0 4 14 18 B-bmi
+Mass 5 9 19 23 I-bmi
+Index 10 15 24 29 I-bmi
+( 16 17 30 31 I-bmi
+BMI 17 20 31 34 I-bmi
+) 20 21 34 35 I-bmi
+≥ 22 23 36 37 O
+30kg 24 28 38 42 B-lower_bound
+/ 28 29 42 43 I-lower_bound
+m^2 29 32 43 46 I-lower_bound
+
+Dementia 0 8 47 55 B-chronic_disease
+
+Have 0 4 56 60 O
+Wi 5 7 61 63 B-technology_access
+- 7 8 63 64 I-technology_access
+Fi 8 10 64 66 I-technology_access
+high 11 15 67 71 I-technology_access
+speed 16 21 72 77 I-technology_access
+internet 22 30 78 86 I-technology_access
+
+History 0 7 87 94 O
+of 8 10 95 97 O
+bariatric 11 20 98 107 B-treatment
+surgery 21 28 108 115 I-treatment
+
+Severe 0 6 116 122 B-chronic_disease
+mental 7 13 123 129 I-chronic_disease
+or 14 16 130 132 O
+life 17 21 133 137 B-chronic_disease
+- 21 22 137 138 I-chronic_disease
+threatening 22 33 138 149 I-chronic_disease
+illness 34 41 150 157 I-chronic_disease
+
+Suicidal 0 8 158 166 B-chronic_disease
+ideation 9 17 167 175 I-chronic_disease
+
+Waist 0 5 176 181 B-clinical_variable
+circumference 6 19 182 195 I-clinical_variable
+≥88 20 23 196 199 O
+cm 23 25 199 201 I-lower_bound
+in 26 28 202 204 O
+females 29 36 205 212 B-gender
+or 37 39 213 215 O
+≥102 40 44 216 220 O
+cm 44 46 220 222 I-lower_bound
+in 47 49 223 225 O
+males 50 55 226 231 O
+

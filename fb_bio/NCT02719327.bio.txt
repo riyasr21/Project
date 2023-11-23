@@ -1,0 +1,112 @@
+Age 0 3 0 3 B-age
+50 4 6 4 6 B-lower_bound
+- 6 7 6 7 O
+75 7 9 7 9 B-upper_bound
+years 10 15 10 15 I-upper_bound
+
+Claustrophobia 0 14 16 30 B-chronic_disease
+requiring 15 24 31 40 O
+sedation 25 33 41 49 O
+for 34 37 50 53 O
+MRI 38 41 54 57 B-clinical_variable
+
+Consumption 0 11 58 69 O
+of 12 14 70 72 O
+> 15 16 73 74 O
+200 16 19 74 77 B-lower_bound
+mg 20 22 78 80 I-lower_bound
+per 23 26 81 84 O
+day 27 30 85 88 O
+omega-3 31 38 89 96 O
+fatty 39 44 97 102 O
+acids 45 50 103 108 O
+in 51 53 109 111 O
+diet 54 58 112 116 O
+
+Creatinine 0 10 117 127 B-clinical_variable
+> 11 12 128 129 O
+1.8 12 15 129 132 B-lower_bound
+mg 16 18 133 135 I-lower_bound
+/ 18 19 135 136 I-lower_bound
+dL 19 21 136 138 I-lower_bound
+
+Current 0 7 139 146 O
+use 8 11 147 150 O
+of 12 14 151 153 O
+anticoagulants 15 29 154 168 B-treatment
+
+Current 0 7 169 176 O
+use 8 11 177 180 O
+of 12 14 181 183 O
+fish 15 19 184 188 B-treatment
+oil 20 23 189 192 I-treatment
+supplements 24 35 193 204 I-treatment
+( 36 37 205 206 O
+requires 37 45 206 214 O
+3 46 47 215 216 O
+month 48 53 217 222 O
+wash 54 58 223 227 O
+- 58 59 227 228 O
+out 59 62 228 231 O
+period 63 69 232 238 O
+) 69 70 238 239 O
+
+Current 0 7 240 247 O
+use 8 11 248 251 O
+of 12 14 252 254 O
+other 15 20 255 260 O
+investigational 21 36 261 276 B-treatment
+drug 37 41 277 281 I-treatment
+
+Dementia 0 8 282 290 B-chronic_disease
+
+History 0 7 291 298 O
+of 8 10 299 301 O
+significant 11 22 302 313 O
+atherosclerotic 23 38 314 329 B-chronic_disease
+cardiovascular 39 53 330 344 I-chronic_disease
+disease 54 61 345 352 I-chronic_disease
+
+Known 0 5 353 358 O
+hypersensitivity 6 22 359 375 O
+to 23 25 376 378 O
+fish 26 30 379 383 B-allergy_name
+
+Pregnant 0 8 384 392 B-pregnancy
+
+Triglycerides 0 13 393 406 B-clinical_variable
+> 14 15 407 408 O
+or 16 18 409 411 O
+= 19 20 412 413 O
+500 21 24 414 417 B-lower_bound
+mg 25 27 418 420 I-lower_bound
+/ 27 28 420 421 I-lower_bound
+dL 28 30 421 423 I-lower_bound
+
+Use 0 3 424 427 O
+of 4 6 428 430 O
+medications 7 18 431 442 O
+that 19 23 443 447 O
+interact 24 32 448 456 O
+with 33 37 457 461 O
+icosapent 38 47 462 471 B-treatment
+ethyl 48 53 472 477 I-treatment
+
+diabetes 0 8 478 486 B-chronic_disease
+mellitus 9 17 487 495 I-chronic_disease
+
+mild 0 4 496 500 O
+cognitive 5 14 501 510 B-chronic_disease
+impairment 15 25 511 521 I-chronic_disease
+on 26 28 522 524 O
+screening 29 38 525 534 O
+evaluation 39 49 535 545 O
+
+other 0 5 546 551 O
+contraindication 6 22 552 568 O
+for 23 26 569 572 O
+MRI 27 30 573 576 B-allergy_name
+
+pregnancy 0 9 577 586 B-pregnancy
+planned 10 17 587 594 O
+

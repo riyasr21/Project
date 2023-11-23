@@ -1,0 +1,68 @@
+AUA 0 3 0 3 B-clinical_variable
+SI 4 6 4 6 I-clinical_variable
+greater 7 14 7 14 O
+than 15 19 15 19 O
+or 20 22 20 22 O
+equal 23 28 23 28 O
+to 29 31 29 31 O
+score 32 37 32 37 O
+of 38 40 38 40 O
+15 41 43 41 43 B-lower_bound
+
+History 0 7 44 51 O
+of 8 10 52 54 O
+surgical 11 19 55 63 B-treatment
+procedures 20 30 64 74 I-treatment
+for 31 34 75 78 O
+BPH 35 38 79 82 B-chronic_disease
+or 39 41 83 85 O
+documented 42 52 86 96 O
+prostate 53 61 97 105 B-cancer
+cancer 62 68 106 112 I-cancer
+
+PSA 0 3 113 116 B-clinical_variable
+> 4 5 117 118 O
+10 6 8 119 121 B-lower_bound
+ng 9 11 122 124 I-lower_bound
+/ 11 12 124 125 I-lower_bound
+mL 12 14 125 127 I-lower_bound
+
+Post 0 4 128 132 B-clinical_variable
+- 4 5 132 133 I-clinical_variable
+void 5 9 133 137 I-clinical_variable
+residual 10 18 138 146 I-clinical_variable
+urine 19 24 147 152 I-clinical_variable
+volumes 25 32 153 160 I-clinical_variable
+of 33 35 161 163 O
+> 36 37 164 165 O
+350 38 41 166 169 B-lower_bound
+cc 42 44 170 172 I-lower_bound
+
+Prostate 0 8 173 181 B-clinical_variable
+Specific 9 17 182 190 I-clinical_variable
+Antigen 18 25 191 198 I-clinical_variable
+( 26 27 199 200 I-clinical_variable
+PSA 27 30 200 203 I-clinical_variable
+) 30 31 203 204 I-clinical_variable
+> 32 33 205 206 O
+4 34 35 207 208 B-lower_bound
+ng 36 38 209 211 I-lower_bound
+/ 38 39 211 212 I-lower_bound
+mL 39 41 212 214 I-lower_bound
+with 42 46 215 219 O
+documentation 47 60 220 233 O
+of 61 63 234 236 O
+non 64 67 237 240 O
+- 67 68 240 241 O
+malignancy 68 78 241 251 B-cancer
+
+Qmax 0 4 252 256 B-clinical_variable
+< 5 6 257 258 O
+15 7 9 259 261 B-upper_bound
+ml 10 12 262 264 I-upper_bound
+/ 12 13 264 265 I-upper_bound
+sec 13 16 265 268 I-upper_bound
+
+Severe 0 6 269 275 B-chronic_disease
+nocturia 7 15 276 284 I-chronic_disease
+

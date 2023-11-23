@@ -1,0 +1,21 @@
+age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+
+can 0 3 15 18 O
+provide 4 11 19 26 B-language_fluency
+consent 12 19 27 34 I-language_fluency
+in 20 22 35 37 I-language_fluency
+English 23 30 38 45 I-language_fluency
+
+pregnant 0 8 46 54 B-pregnancy
+
+smoked 0 6 55 61 O
+tobacco 7 14 62 69 O
+during 15 21 70 76 O
+the 22 25 77 80 O
+prior 26 31 81 86 B-upper_bound
+30 32 34 87 89 I-upper_bound
+days 35 39 90 94 I-upper_bound
+

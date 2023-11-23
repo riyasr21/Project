@@ -1,0 +1,7 @@
+Adult 0 5 0 5 O
+'s 5 7 5 7 O
+≥ 8 9 8 9 O
+18 10 12 10 12 B-lower_bound
+years 13 18 13 18 I-lower_bound
+old 19 22 19 22 O
+

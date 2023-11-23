@@ -1,0 +1,30 @@
+Illicit 0 7 0 7 O
+drug 8 12 8 12 O
+use 13 16 13 16 O
+during 17 23 17 23 O
+pregnancy 24 33 24 33 B-pregnancy
+
+Infant 0 6 34 40 B-clinical_variable
+birth 7 12 41 46 I-clinical_variable
+weight 13 19 47 53 I-clinical_variable
+less 20 24 54 58 O
+than 25 29 59 63 O
+1500 30 34 64 68 B-upper_bound
+grams 35 40 69 74 I-upper_bound
+
+Maternal 0 8 75 83 O
+educational 9 20 84 95 O
+attainment 21 31 96 106 O
+less 32 36 107 111 O
+than 37 41 112 116 O
+/ 41 42 116 117 O
+equal 42 47 117 122 O
+to 48 50 123 125 O
+12 51 53 126 128 B-upper_bound
+years 54 59 129 134 I-upper_bound
+
+Non 0 3 135 138 B-language_fluency
+- 3 4 138 139 I-language_fluency
+English 4 11 139 146 I-language_fluency
+speaking 12 20 147 155 I-language_fluency
+

@@ -1,0 +1,79 @@
+Chromosomal 0 11 0 11 B-chronic_disease
+anomaly 12 19 12 19 I-chronic_disease
+
+Intraventricular 0 16 20 36 B-clinical_variable
+hemorrhage 17 27 37 47 I-clinical_variable
+( 28 29 48 49 I-clinical_variable
+IVH 29 32 49 52 I-clinical_variable
+) 32 33 52 53 I-clinical_variable
+≥ 34 35 54 55 O
+grade 36 41 56 61 B-lower_bound
+3 42 43 62 63 I-lower_bound
+
+Neonates 0 8 64 72 O
+on 9 11 73 75 O
+medications 12 23 76 87 B-treatment
+such 24 28 88 92 O
+as 29 31 93 95 O
+morphine 32 40 96 104 B-treatment
+, 40 41 104 105 O
+fentanyl 42 50 106 114 B-treatment
+, 50 51 114 115 O
+versed 52 58 116 122 B-treatment
+, 58 59 122 123 O
+muscle 60 66 124 130 B-treatment
+relaxants 67 76 131 140 I-treatment
+, 76 77 140 141 O
+phenobarbital 78 91 142 155 B-treatment
+, 91 92 155 156 O
+or 93 95 157 159 O
+dilantin 96 104 160 168 B-treatment
+
+Renal 0 5 169 174 B-chronic_disease
+injury 6 12 175 181 I-chronic_disease
+( 13 14 182 183 O
+plasma 14 20 183 189 B-clinical_variable
+creatinine 21 31 190 200 I-clinical_variable
+> 32 33 201 202 O
+1 34 35 203 204 B-lower_bound
+mg 36 38 205 207 I-lower_bound
+/ 38 39 207 208 I-lower_bound
+dl 39 41 208 210 I-lower_bound
+) 41 42 210 211 O
+
+Requirement 0 11 212 223 O
+for 12 15 224 227 O
+surgery 16 23 228 235 B-treatment
+
+Severe 0 6 236 242 O
+cyanotic 7 15 243 251 B-chronic_disease
+heart 16 21 252 257 I-chronic_disease
+disease 22 29 258 265 I-chronic_disease
+or 30 32 266 268 O
+severe 33 39 269 275 O
+respiratory 40 51 276 287 B-chronic_disease
+distress 52 60 288 296 I-chronic_disease
+
+between 0 7 297 304 O
+28 8 10 305 307 B-lower_bound
+- 10 11 307 308 O
+36 11 13 308 310 B-upper_bound
+weeks 14 19 311 316 I-upper_bound
+gestation 20 29 317 326 B-clinical_variable
+
+have 0 4 327 331 O
+an 5 7 332 334 O
+arterial 8 16 335 343 B-treatment
+or 17 19 344 346 O
+central 20 27 347 354 B-treatment
+catheter 28 36 355 363 I-treatment
+in 37 39 364 366 O
+place 40 45 367 372 O
+and 46 49 373 376 O
+have 50 54 377 381 O
+a 55 56 382 383 O
+clinically 57 67 384 394 O
+required 68 76 395 403 O
+heel 77 81 404 408 O
+lance 82 87 409 414 O
+

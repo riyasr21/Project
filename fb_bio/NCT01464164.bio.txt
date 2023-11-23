@@ -1,0 +1,173 @@
+> 0 1 0 1 O
+/= 1 3 1 3 O
+18 4 6 4 6 B-lower_bound
+years 7 12 7 12 I-lower_bound
+of 13 15 13 15 O
+age 16 19 16 19 B-age
+
+Cancer 0 6 20 26 B-cancer
+
+Creatinine 0 10 27 37 B-clinical_variable
+clearance 11 20 38 47 I-clinical_variable
+< 21 22 48 49 O
+30 23 25 50 52 B-upper_bound
+ml 26 28 53 55 I-upper_bound
+/ 28 29 55 56 I-upper_bound
+min 29 32 56 59 I-upper_bound
+
+DBA 0 3 60 63 B-chronic_disease
+diagnosed 4 13 64 73 O
+
+Females 0 7 74 81 B-gender
+of 8 10 82 84 O
+childbearing 11 23 85 97 O
+potential 24 33 98 107 O
+are 34 37 108 111 O
+to 38 40 112 114 O
+use 41 44 115 118 O
+birth 45 50 119 124 O
+control 51 58 125 132 O
+during 59 65 133 139 O
+study 66 71 140 145 O
+participation 72 85 146 159 O
+and 86 89 160 163 O
+for 90 93 164 167 O
+112 94 97 168 171 B-upper_bound
+days 98 102 172 176 I-upper_bound
+following 103 112 177 186 O
+the 113 116 187 190 O
+last 117 121 191 195 O
+dose 122 126 196 200 O
+of 127 129 201 203 O
+sotatercept 130 141 204 215 O
+
+Heart 0 5 216 221 B-chronic_disease
+disease 6 13 222 229 I-chronic_disease
+( 14 15 230 231 O
+NY 15 17 231 233 B-clinical_variable
+Heart 18 23 234 239 I-clinical_variable
+Association 24 35 240 251 I-clinical_variable
+classification 36 50 252 266 I-clinical_variable
+of 51 53 267 269 O
+> 54 55 270 271 O
+/= 55 57 271 273 O
+3 58 59 274 275 B-lower_bound
+
+History 0 7 276 283 O
+of 8 10 284 286 O
+hypertension 11 23 287 299 B-chronic_disease
+
+Karnofsky 0 9 300 309 B-clinical_variable
+performance 10 21 310 321 I-clinical_variable
+scale 22 27 322 327 I-clinical_variable
+> 28 29 328 329 O
+/= 29 31 329 331 O
+70 32 34 332 334 B-lower_bound
+
+Males 0 5 335 340 B-gender
+must 6 10 341 345 O
+agree 11 16 346 351 B-contraception_consent
+to 17 19 352 354 I-contraception_consent
+use 20 23 355 358 I-contraception_consent
+a 24 25 359 360 I-contraception_consent
+latex 26 31 361 366 I-contraception_consent
+condom 32 38 367 373 I-contraception_consent
+during 39 45 374 380 I-contraception_consent
+any 46 49 381 384 I-contraception_consent
+sexual 50 56 385 391 I-contraception_consent
+contact 57 64 392 399 I-contraception_consent
+with 65 69 400 404 O
+females 70 77 405 412 B-gender
+of 78 80 413 415 O
+childbearing 81 93 416 428 O
+potential 94 103 429 438 O
+while 104 109 439 444 O
+participating 110 123 445 458 O
+in 124 126 459 461 O
+the 127 130 462 465 O
+study 131 136 466 471 O
+and 137 140 472 475 O
+for 141 144 476 479 O
+112 145 148 480 483 B-upper_bound
+days 149 153 484 488 I-upper_bound
+following 154 163 489 498 O
+the 164 167 499 502 O
+last 168 172 503 507 O
+dose 173 177 508 512 O
+of 178 180 513 515 O
+sotatercept 181 192 516 527 B-treatment
+
+Pregnant 0 8 528 536 B-pregnancy
+
+RBC 0 3 537 540 B-clinical_variable
+transfusion- 4 16 541 553 I-treatment
+dependence 17 27 554 564 O
+( 28 29 565 566 O
+defined 29 36 566 573 O
+as 37 39 574 576 O
+> 40 41 577 578 O
+/= 41 43 578 580 O
+10 44 46 581 583 B-lower_bound
+cc 47 49 584 586 I-lower_bound
+/ 49 50 586 587 I-lower_bound
+kg 50 52 587 589 I-lower_bound
+of 53 55 590 592 O
+RBC 56 59 593 596 O
+per 60 63 597 600 O
+28 64 66 601 603 B-upper_bound
+days 67 71 604 608 I-upper_bound
+average 72 79 609 616 O
+) 79 80 616 617 O
+
+SGOT 0 4 618 622 B-clinical_variable
+> 5 6 623 624 O
+3x 7 9 625 627 B-lower_bound
+upper 10 15 628 633 I-lower_bound
+limit 16 21 634 639 I-lower_bound
+of 22 24 640 642 I-lower_bound
+normal 25 31 643 649 I-lower_bound
+
+SGPT 0 4 650 654 B-clinical_variable
+> 5 6 655 656 O
+3x 7 9 657 659 B-lower_bound
+upper 10 15 660 665 I-lower_bound
+limit 16 21 666 671 I-lower_bound
+normal 22 28 672 678 I-lower_bound
+
+Subjects 0 8 679 687 O
+currently 9 18 688 697 O
+responsive 19 29 698 708 O
+to 30 32 709 711 O
+corticosteroids 33 48 712 727 B-treatment
+for 49 52 728 731 O
+treatment 53 62 732 741 O
+of 63 65 742 744 O
+Diamond 66 73 745 752 B-chronic_disease
+Blackfan 74 82 753 761 I-chronic_disease
+anemia 83 89 762 768 I-chronic_disease
+
+Treatment 0 9 769 778 O
+with 10 14 779 783 O
+another 15 22 784 791 O
+investigational 23 38 792 807 B-treatment
+drug 39 43 808 812 I-treatment
+or 44 46 813 815 I-treatment
+device 47 53 816 822 I-treatment
+< 54 55 823 824 O
+56 55 57 824 826 B-upper_bound
+days 58 62 827 831 I-upper_bound
+pre 63 66 832 835 O
+- 66 67 835 836 O
+study 67 72 836 841 O
+entry 73 78 842 847 O
+
+bilirubin 0 9 848 857 B-clinical_variable
+> 10 11 858 859 O
+3x 11 13 859 861 B-lower_bound
+upper 14 19 862 867 I-lower_bound
+limit 20 25 868 873 I-lower_bound
+normal 26 32 874 880 I-lower_bound
+
+lactating 0 9 881 890 O
+females 10 17 891 898 B-gender
+

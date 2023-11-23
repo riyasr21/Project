@@ -1,0 +1,60 @@
+A 0 1 0 1 O
+contraindication 2 18 2 18 O
+to 19 21 19 21 O
+progesterone 22 34 22 34 B-allergy_name
+treatment 35 44 35 44 I-allergy_name
+
+Estimated 0 9 45 54 O
+gestational 10 21 55 66 B-clinical_variable
+age 22 25 67 70 I-clinical_variable
+less 26 30 71 75 O
+than 31 35 76 80 O
+24 36 38 81 83 B-upper_bound
+0/7 39 42 84 87 I-upper_bound
+weeks 43 48 88 93 I-upper_bound
+
+Major 0 5 94 99 O
+fetal 6 11 100 105 B-chronic_disease
+anomaly 12 19 106 113 I-chronic_disease
+diagnosed 20 29 114 123 O
+on 30 32 124 126 O
+ultrasound 33 43 127 137 B-treatment
+or 44 46 138 140 O
+known 47 52 141 146 O
+chromosomal 53 64 147 158 B-chronic_disease
+disorder 65 73 159 167 I-chronic_disease
+
+Placenta 0 8 168 176 B-chronic_disease
+previa 9 15 177 183 I-chronic_disease
+
+Prior 0 5 184 189 O
+spontaneous 6 17 190 201 O
+preterm 18 25 202 209 O
+birth 26 31 210 215 O
+of 32 34 216 218 O
+a 35 36 219 220 O
+singleton 37 46 221 230 O
+pregnancy 47 56 231 240 B-pregnancy
+between 57 64 241 248 O
+16 65 67 249 251 B-lower_bound
+0/7 68 71 252 255 I-lower_bound
+- 71 72 255 256 O
+36 72 74 256 258 B-upper_bound
+6/7 75 78 259 262 I-upper_bound
+weeks 79 84 263 268 I-upper_bound
+
+accreta 0 7 269 276 B-chronic_disease
+
+clinical 0 8 277 285 O
+chorioamnionitis 9 25 286 302 B-chronic_disease
+, 25 26 302 303 O
+at 27 29 304 306 O
+the 30 33 307 310 O
+time 34 38 311 315 O
+of 39 41 316 318 O
+enrollment 42 52 319 329 O
+
+≥18 0 3 330 333 O
+years 4 9 334 339 I-lower_bound
+old 10 13 340 343 O
+

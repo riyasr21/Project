@@ -1,0 +1,182 @@
+Abnormal 0 8 0 8 O
+intracranial 9 21 9 21 B-treatment
+ultrasound 22 32 22 32 I-treatment
+findings 33 41 33 41 O
+of 42 44 42 44 O
+either 45 51 45 51 O
+fetus 52 57 52 57 O
+to 58 60 58 60 O
+include 61 68 61 68 O
+
+Chorioamnionitis 0 16 69 85 B-chronic_disease
+
+Confirmed 0 9 86 95 O
+TTTS 10 14 96 100 B-chronic_disease
+patients 15 23 101 109 O
+
+Dandy 0 5 110 115 B-chronic_disease
+- 5 6 115 116 I-chronic_disease
+Walker 6 12 116 122 I-chronic_disease
+syndrome 13 21 123 131 I-chronic_disease
+
+Gestational 0 11 132 143 B-age
+age 12 15 144 147 I-age
+: 15 16 147 148 O
+16 17 19 149 151 O
+weeks 20 25 152 157 O
+, 25 26 157 158 O
+0 27 28 159 160 B-lower_bound
+days 29 33 161 165 I-lower_bound
+to 34 36 166 168 O
+26 37 39 169 171 B-upper_bound
+weeks 40 45 172 177 I-upper_bound
+, 45 46 177 178 O
+0 47 48 179 180 O
+days 49 53 181 185 O
+
+Isolated 0 8 186 194 O
+ventriculomegaly 9 25 195 211 B-chronic_disease
+( 26 27 212 213 O
+atrium 27 33 213 219 B-clinical_variable
+10 34 36 220 222 B-lower_bound
+- 36 37 222 223 O
+19 37 39 223 225 B-upper_bound
+mm 40 42 226 228 I-upper_bound
+) 42 43 228 229 O
+may 44 47 230 233 O
+or 48 50 234 236 O
+may 51 54 237 240 O
+not 55 58 241 244 O
+be 59 61 245 247 O
+used 62 66 248 252 O
+
+Oligohydramnios 0 15 253 268 B-chronic_disease
+: 15 16 268 269 O
+maximum 17 24 270 277 B-clinical_variable
+vertical 25 33 278 286 I-clinical_variable
+pocket 34 40 287 293 I-clinical_variable
+≤ 41 42 294 295 O
+2 43 44 296 297 B-upper_bound
+cm 45 47 298 300 I-upper_bound
+in 48 50 301 303 O
+the 51 54 304 307 O
+donor 55 60 308 313 O
+twin 61 65 314 318 O
+, 65 66 318 319 O
+prior 67 72 320 325 O
+to 73 75 326 328 O
+amniodrainage 76 89 329 342 B-treatment
+
+Patients 0 8 343 351 O
+choosing 9 17 352 360 O
+laser 18 23 361 366 B-treatment
+therapy 24 31 367 374 I-treatment
+that 32 36 375 379 O
+have 37 41 380 384 O
+undergone 42 51 385 394 O
+prior 52 57 395 400 B-treatment
+therapeutic 58 69 401 412 I-treatment
+amniocentesis 70 83 413 426 I-treatment
+may 84 87 427 430 O
+be 88 90 431 433 O
+included 91 99 434 442 O
+
+Placental 0 9 443 452 B-chronic_disease
+abruption 10 19 453 462 I-chronic_disease
+
+Polyhydramnios 0 14 463 477 B-chronic_disease
+: 14 15 477 478 O
+maximum 16 23 479 486 B-clinical_variable
+vertical 24 32 487 495 I-clinical_variable
+pocket 33 39 496 502 I-clinical_variable
+≥ 40 41 503 504 O
+8 42 43 505 506 B-lower_bound
+cm 44 46 507 509 I-lower_bound
+in 47 49 510 512 O
+the 50 53 513 516 O
+recipient 54 63 517 526 O
+twin 64 68 527 531 O
+, 68 69 531 532 O
+prior 70 75 533 538 O
+to 76 78 539 541 O
+amniodrainage 79 92 542 555 B-treatment
+
+Presence 0 8 556 564 O
+of 9 11 565 567 O
+major 12 17 568 573 O
+congenital 18 28 574 584 B-chronic_disease
+anomalies 29 38 585 594 I-chronic_disease
+that 39 43 595 599 O
+may 44 47 600 603 O
+not 48 51 604 607 O
+warrant 52 59 608 615 B-treatment
+surgery 60 67 616 623 I-treatment
+
+Prior 0 5 624 629 B-treatment
+intentional 6 17 630 641 I-treatment
+septostomy 18 28 642 652 I-treatment
+( 29 30 653 654 O
+purposely 30 39 654 663 O
+making 40 46 664 670 O
+a 47 48 671 672 O
+hole 49 53 673 677 O
+in 54 56 678 680 O
+the 57 60 681 684 O
+dividing 61 69 685 693 O
+membrane 70 78 694 702 O
+) 78 79 702 703 O
+
+Quintero 0 8 704 712 B-clinical_variable
+Stages 9 15 713 719 I-clinical_variable
+1 16 17 720 721 B-lower_bound
+- 17 18 721 722 O
+4 18 19 722 723 B-upper_bound
+
+Recipient 0 9 724 733 O
+twin 10 14 734 738 O
+with 15 19 739 743 O
+a 20 21 744 745 O
+middle 22 28 746 752 B-clinical_variable
+cerebral 29 37 753 761 I-clinical_variable
+artery 38 44 762 768 I-clinical_variable
+peak 45 49 769 773 I-clinical_variable
+systolic 50 58 774 782 I-clinical_variable
+velocity 59 67 783 791 I-clinical_variable
+> 68 69 792 793 O
+1.5 70 73 794 797 B-lower_bound
+multiples 74 83 798 807 I-lower_bound
+of 84 86 808 810 I-lower_bound
+the 87 90 811 814 I-lower_bound
+median 91 97 815 821 I-lower_bound
+( 98 99 822 823 O
+indicative 99 109 823 833 O
+of 110 112 834 836 O
+fetal 113 118 837 842 B-chronic_disease
+anemia 119 125 843 849 I-chronic_disease
+) 125 126 849 850 O
+
+Triplet 0 7 851 858 O
+gestations 8 18 859 869 O
+with 19 23 870 874 O
+two 24 27 875 878 B-lower_bound
+or 28 30 879 881 O
+three 31 36 882 887 B-upper_bound
+fetuses 37 44 888 895 O
+sharing 45 52 896 903 O
+the 53 56 904 907 O
+same 57 61 908 912 O
+placenta 62 70 913 921 O
+may 71 74 922 925 O
+be 75 77 926 928 O
+included 78 86 929 937 O
+
+holoprosencephaly 0 17 938 955 B-chronic_disease
+
+hydrocephalus 0 13 956 969 B-chronic_disease
+
+intraventricular 0 16 970 986 B-chronic_disease
+hemorrhage 17 27 987 997 I-chronic_disease
+
+porencephalic 0 13 998 1011 B-chronic_disease
+cysts 14 19 1012 1017 I-chronic_disease
+

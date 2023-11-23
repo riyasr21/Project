@@ -1,0 +1,54 @@
+History 0 7 0 7 O
+of 8 10 8 10 O
+priapism 11 19 11 19 B-chronic_disease
+
+IIEF 0 4 20 24 B-clinical_variable
+score 5 10 25 30 I-clinical_variable
+less 11 15 31 35 O
+than 16 20 36 40 O
+13 21 23 41 43 B-upper_bound
+
+Men 0 3 44 47 B-gender
+with 4 8 48 52 O
+neurological 9 21 53 65 B-chronic_disease
+disease 22 29 66 73 I-chronic_disease
+
+Pelvic 0 6 74 80 B-chronic_disease
+neuropathy 7 17 81 91 I-chronic_disease
+
+Penile 0 6 92 98 O
+skin 7 11 99 103 O
+lesions 12 19 104 111 O
+or 20 22 112 114 O
+ulcers 23 29 115 121 B-chronic_disease
+
+Post 0 4 122 126 O
+- 4 5 126 127 O
+prostatectomy 5 18 127 140 B-treatment
+
+Spinal 0 6 141 147 B-chronic_disease
+cord 7 11 148 152 I-chronic_disease
+injury 12 18 153 159 I-chronic_disease
+
+mild 0 4 160 164 O
+- 4 5 164 165 O
+moderate 5 13 165 173 O
+erectile 14 22 174 182 B-chronic_disease
+dysfunction 23 34 183 194 I-chronic_disease
+based 35 40 195 200 O
+on 41 43 201 203 O
+International 44 57 204 217 B-clinical_variable
+Index 58 63 218 223 I-clinical_variable
+of 64 66 224 226 I-clinical_variable
+Erectile 67 75 227 235 I-clinical_variable
+Function 76 84 236 244 I-clinical_variable
+( 85 86 245 246 I-clinical_variable
+IIEF 86 90 246 250 I-clinical_variable
+) 90 91 250 251 I-clinical_variable
+erectile 92 100 252 260 I-clinical_variable
+function 101 109 261 269 I-clinical_variable
+score 110 115 270 275 I-clinical_variable
+13 116 118 276 278 B-lower_bound
+- 118 119 278 279 O
+25 119 121 279 281 B-upper_bound
+

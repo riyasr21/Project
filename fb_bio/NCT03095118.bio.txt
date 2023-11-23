@@ -1,0 +1,119 @@
+Age 0 3 0 3 B-age
+≥ 4 5 4 5 O
+18 6 8 6 8 B-lower_bound
+years 9 14 9 14 I-lower_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Anemia 0 6 22 28 B-chronic_disease
+with 7 11 29 33 O
+Hgb 12 15 34 37 B-clinical_variable
+< 16 17 38 39 O
+8.5 18 21 40 43 B-upper_bound
+g 22 23 44 45 I-upper_bound
+/ 23 24 45 46 I-upper_bound
+dL 24 26 46 48 I-upper_bound
+
+Hepatitis 0 9 49 58 B-chronic_disease
+B 10 11 59 60 I-chronic_disease
+or 12 14 61 63 I-chronic_disease
+C 15 16 64 65 I-chronic_disease
+, 16 17 65 66 O
+HIV 18 21 67 70 B-chronic_disease
+
+Leukopenia 0 10 71 81 B-chronic_disease
+with 11 15 82 86 O
+WBC 16 19 87 90 B-clinical_variable
+< 20 21 91 92 O
+3.5 22 25 93 96 B-upper_bound
+
+Multiple 0 8 97 105 B-cancer
+myeloma 9 16 106 113 I-cancer
+
+Patients 0 8 114 122 O
+receiving 9 18 123 132 O
+therapy 19 26 133 140 O
+with 27 31 141 145 O
+oral 32 36 146 150 B-treatment
+prednisone 37 47 151 161 I-treatment
+or 48 50 162 164 O
+glucocorticoid 51 65 165 179 B-treatment
+equivalent 66 76 180 190 O
+in 77 79 191 193 O
+the 80 83 194 197 O
+last 84 88 198 202 B-upper_bound
+6 89 90 203 204 I-upper_bound
+weeks 91 96 205 210 I-upper_bound
+
+Patients 0 8 211 219 O
+who 9 12 220 223 O
+had 13 16 224 227 O
+received 17 25 228 236 O
+immunosuppressive 26 43 237 254 B-treatment
+therapy 44 51 255 262 I-treatment
+including 52 61 263 272 O
+cyclophosphamide 62 78 273 289 B-treatment
+, 78 79 289 290 O
+MMF 80 83 291 294 B-treatment
+, 83 84 294 295 O
+cyclosporine 85 97 296 308 B-treatment
+, 97 98 308 309 O
+tacrolimus 99 109 310 320 B-treatment
+or 110 112 321 323 O
+azathioprine 113 125 324 336 B-treatment
+in 126 128 337 339 O
+the 129 132 340 343 O
+last 133 137 344 348 B-upper_bound
+3 138 139 349 350 I-upper_bound
+months 140 146 351 357 I-upper_bound
+
+Patients 0 8 358 366 O
+who 9 12 367 370 O
+received 13 21 371 379 O
+rituximab 22 31 380 389 B-treatment
+previously 32 42 390 400 O
+with 43 47 401 405 O
+CD20 48 52 406 410 B-treatment
+count 53 58 411 416 O
+of 59 61 417 419 O
+zero 62 66 420 424 O
+at 67 69 425 427 O
+the 70 73 428 431 O
+time 74 78 432 436 O
+of 79 81 437 439 O
+enrollment 82 92 440 450 O
+
+Pregnancy 0 9 451 460 B-pregnancy
+
+Proteinuria 0 11 461 472 B-clinical_variable
+≥ 12 13 473 474 O
+1000 14 18 475 479 B-lower_bound
+mg 19 21 480 482 I-lower_bound
+over 22 26 483 487 O
+24 27 29 488 490 B-upper_bound
+hours 30 35 491 496 I-upper_bound
+
+Renal 0 5 497 502 B-treatment
+biopsy 6 12 503 509 I-treatment
+read 13 17 510 514 O
+at 18 20 515 517 O
+Mayo 21 25 518 522 O
+Clinic 26 32 523 529 O
+confirming 33 43 530 540 O
+the 44 47 541 544 O
+diagnosis 48 57 545 554 O
+of 58 60 555 557 O
+PGNMID 61 67 558 564 B-chronic_disease
+or 68 70 565 567 O
+C3 71 73 568 570 B-chronic_disease
+GN 74 76 571 573 I-chronic_disease
+
+eGFR 0 4 574 578 B-clinical_variable
+≥ 5 6 579 580 O
+20 7 9 581 583 B-lower_bound
+mL 10 12 584 586 I-lower_bound
+/ 12 13 586 587 I-lower_bound
+min 13 16 587 590 I-lower_bound
+/ 16 17 590 591 I-lower_bound
+SA 17 19 591 593 I-lower_bound
+

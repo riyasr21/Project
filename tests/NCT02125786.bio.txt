@@ -1,0 +1,95 @@
+Adequate 0 8 0 8 B-clinical_variable
+performance 9 20 9 20 I-clinical_variable
+status 21 27 21 27 I-clinical_variable
+( 28 29 28 29 O
+ECOG 29 33 29 33 B-clinical_variable
+< 34 35 34 35 O
+3 36 37 36 37 B-upper_bound
+) 37 38 37 38 O
+
+Any 0 3 39 42 O
+patient 4 11 43 50 O
+with 12 16 51 55 O
+both 17 21 56 60 O
+metastatic 22 32 61 71 B-cancer
+ependymoma 33 43 72 82 I-cancer
+and 44 47 83 86 O
+age 48 51 87 90 B-age
+< 52 53 91 92 O
+3 54 55 93 94 B-upper_bound
+years 56 61 95 100 I-upper_bound
+at 62 64 101 103 O
+the 65 68 104 107 O
+time 69 73 108 112 O
+of 74 76 113 115 O
+enrollment 77 87 116 126 O
+
+Interval 0 8 127 135 O
+from 9 13 136 140 O
+start 14 19 141 146 O
+of 20 22 147 149 O
+initial 23 30 150 157 O
+radiation 31 40 158 167 B-treatment
+therapy 41 48 168 175 I-treatment
+to 49 51 176 178 O
+enrollment 52 62 179 189 O
+> 63 64 190 191 O
+9 65 66 192 193 B-lower_bound
+months 67 73 194 200 I-lower_bound
+
+Patients 0 8 201 209 O
+aged 9 13 210 214 B-age
+1 14 15 215 216 B-lower_bound
+- 15 16 216 217 O
+21 16 18 217 219 B-upper_bound
+years 19 24 220 225 I-upper_bound
+at 25 27 226 228 O
+the 28 31 229 232 O
+time 32 36 233 237 O
+of 37 39 238 240 O
+enrollment 40 50 241 251 O
+
+Pregnant 0 8 252 260 B-pregnancy
+women 9 14 261 266 B-gender
+are 15 18 267 270 O
+excluded 19 27 271 279 O
+from 28 32 280 284 O
+enrollment 33 43 285 295 O
+on 44 46 296 298 O
+this 47 51 299 303 O
+study 52 57 304 309 O
+because 58 65 310 317 O
+radiation 66 75 318 327 B-treatment
+therapy 76 83 328 335 I-treatment
+is 84 86 336 338 O
+an 87 89 339 341 O
+agent 90 95 342 347 O
+with 96 100 348 352 O
+the 101 104 353 356 O
+potential 105 114 357 366 O
+for 115 118 367 370 O
+teratogenic 119 130 371 382 O
+or 131 133 383 385 O
+abortifacient 134 147 386 399 O
+effects 148 155 400 407 O
+
+Prior 0 5 408 413 B-treatment
+craniospinal 6 18 414 426 I-treatment
+irradiation 19 30 427 438 I-treatment
+
+Progressive 0 11 439 450 O
+intracranial 12 24 451 463 B-cancer
+ependymoma 25 35 464 474 I-cancer
+after 36 41 475 480 O
+prior 42 47 481 486 O
+focal 48 53 487 492 B-treatment
+irradiation 54 65 493 504 I-treatment
+
+research 0 8 505 513 O
+participant 9 20 514 525 O
+does 21 25 526 530 O
+not 26 29 531 534 O
+require 30 37 535 542 O
+mechanical 38 48 543 553 B-treatment
+ventilation 49 60 554 565 I-treatment
+

@@ -1,0 +1,47 @@
+English 0 7 0 7 B-language_fluency
+as 8 10 8 10 I-language_fluency
+a 11 12 11 12 I-language_fluency
+primary 13 20 13 20 I-language_fluency
+language 21 29 21 29 I-language_fluency
+
+a 0 1 30 31 O
+current 2 9 32 39 O
+diagnosis 10 19 40 49 O
+of 20 22 50 52 O
+Major 23 28 53 58 B-chronic_disease
+Depressive 29 39 59 69 I-chronic_disease
+Disorder 40 48 70 78 I-chronic_disease
+
+currently 0 9 79 88 O
+taking 10 16 89 95 O
+steroids 17 25 96 104 B-treatment
+or 26 28 105 107 O
+benzodiazepines 29 44 108 123 B-treatment
+
+diagnosis 0 9 124 133 O
+of 10 12 134 136 O
+Multiple 13 21 137 145 B-chronic_disease
+Sclerosis 22 31 146 155 I-chronic_disease
+
+history 0 7 156 163 O
+of 8 10 164 166 O
+significant 11 22 167 178 O
+psychiatric 23 34 179 190 B-chronic_disease
+illness 35 42 191 198 I-chronic_disease
+( 43 44 199 200 O
+bipolar 44 51 200 207 B-chronic_disease
+disorder 52 60 208 216 I-chronic_disease
+, 60 61 216 217 O
+schizophrenia 62 75 218 231 B-chronic_disease
+, 75 76 231 232 O
+or 77 79 233 235 O
+psychosis 80 89 236 245 B-chronic_disease
+) 89 90 245 246 O
+
+most 0 4 247 251 O
+recent 5 11 252 258 O
+exacerbation 12 24 259 271 O
+within 25 31 272 278 O
+one 32 35 279 282 B-upper_bound
+month 36 41 283 288 I-upper_bound
+

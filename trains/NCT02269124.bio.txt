@@ -1,0 +1,50 @@
+Contralateral 0 13 0 13 B-chronic_disease
+hearing 14 21 14 21 I-chronic_disease
+loss 22 26 22 26 I-chronic_disease
+
+Middle 0 6 27 33 B-chronic_disease
+ear 7 10 34 37 I-chronic_disease
+disease 11 18 38 45 I-chronic_disease
+that 19 23 46 50 O
+has 24 27 51 54 O
+not 28 31 55 58 O
+been 32 36 59 63 O
+addressed 37 46 64 73 O
+
+Significant 0 11 74 85 O
+cognitive 12 21 86 95 B-chronic_disease
+impairment 22 32 96 106 I-chronic_disease
+
+ages 0 4 107 111 B-age
+6 5 6 112 113 B-lower_bound
+- 6 7 113 114 O
+12 7 9 114 116 B-upper_bound
+years 10 15 117 122 I-upper_bound
+
+with 0 4 123 127 O
+mild 5 9 128 132 O
+to 10 12 133 135 O
+moderately 13 23 136 146 O
+severe 24 30 147 153 O
+unilateral 31 41 154 164 B-chronic_disease
+hearing 42 49 165 172 I-chronic_disease
+loss 50 54 173 177 I-chronic_disease
+
+with 0 4 178 182 O
+thresholds 5 15 183 193 O
+across 16 22 194 200 O
+4 23 24 201 202 O
+frequencies 25 36 203 214 B-clinical_variable
+≥ 37 38 215 216 O
+25 39 41 217 219 B-lower_bound
+dB 42 44 220 222 I-lower_bound
+but 45 48 223 226 O
+< 49 50 227 228 O
+70 51 53 229 231 B-upper_bound
+dB 54 56 232 234 I-upper_bound
+in 57 59 235 237 O
+the 60 63 238 241 O
+worse 64 69 242 247 O
+hearing 70 77 248 255 O
+ear 78 81 256 259 O
+

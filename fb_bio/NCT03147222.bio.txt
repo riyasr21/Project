@@ -1,0 +1,23 @@
+Age 0 3 0 3 B-age
+65 4 6 4 6 B-lower_bound
++ 6 7 6 7 O
+at 8 10 8 10 O
+time 11 15 11 15 O
+of 16 18 16 18 O
+fracture 19 27 19 27 O
+
+Living 0 6 28 34 O
+more 7 11 35 39 O
+than 12 16 40 44 O
+40 17 19 45 47 B-lower_bound
+miles 20 25 48 53 I-lower_bound
+from 26 30 54 58 O
+the 31 34 59 62 O
+hip 35 38 63 66 O
+fracture 39 47 67 75 O
+participant 48 59 76 87 O
+
+Not 0 3 88 91 B-language_fluency
+English 4 11 92 99 I-language_fluency
+speaking 12 20 100 108 I-language_fluency
+

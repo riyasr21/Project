@@ -1,0 +1,12 @@
+Men 0 3 0 3 B-gender
+
+women 0 5 4 9 B-gender
+from 6 10 10 14 O
+any 11 14 15 18 O
+country 15 22 19 26 O
+over 23 27 27 31 O
+the 28 31 32 35 O
+age 32 35 36 39 B-age
+of 36 38 40 42 O
+18 39 41 43 45 B-lower_bound
+

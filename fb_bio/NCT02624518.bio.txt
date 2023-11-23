@@ -1,0 +1,44 @@
+Any 0 3 0 3 O
+additional 4 14 4 14 O
+medical 15 22 15 22 O
+condition 23 32 23 32 O
+, 32 33 32 33 O
+serious 34 41 34 41 B-chronic_disease
+intercurrent 42 54 42 54 I-chronic_disease
+illness 55 62 55 62 I-chronic_disease
+, 62 63 62 63 O
+or 64 66 64 66 O
+other 67 72 67 72 O
+extenuating 73 84 73 84 O
+circumstance 85 97 85 97 O
+
+Nadir 0 5 98 103 B-clinical_variable
+plus 6 10 104 108 I-clinical_variable
+( 11 12 109 110 I-clinical_variable
++ 12 13 110 111 I-clinical_variable
+) 13 14 111 112 I-clinical_variable
+greater 15 22 113 120 O
+than 23 27 121 125 O
+or 28 30 126 128 O
+equal 31 36 129 134 O
+to 37 39 135 137 O
+2 40 41 138 139 B-lower_bound
+ng 42 44 140 142 I-lower_bound
+/ 44 45 142 143 I-lower_bound
+mL 45 47 143 145 I-lower_bound
+rise 48 52 146 150 O
+in 53 55 151 153 O
+PSA 56 59 154 157 B-treatment
+
+Post 0 4 158 162 B-treatment
+radical 5 12 163 170 I-treatment
+prostatectomy 13 26 171 184 I-treatment
+( 27 28 185 186 I-treatment
+RP 28 30 186 188 I-treatment
+) 30 31 188 189 I-treatment
+
+Post 0 4 190 194 B-treatment
+- 4 5 194 195 I-treatment
+radiation 5 14 195 204 I-treatment
+therapy 15 22 205 212 I-treatment
+

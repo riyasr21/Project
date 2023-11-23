@@ -1,0 +1,110 @@
+alcohol 0 7 0 7 O
+or 8 10 8 10 O
+substance 11 20 11 20 O
+abuse/ 21 27 21 27 O
+dependence 28 38 28 38 O
+within 39 45 39 45 O
+the 46 49 46 49 O
+last 50 54 50 54 B-upper_bound
+6 55 56 55 56 I-upper_bound
+months 57 63 57 63 I-upper_bound
+( 64 65 64 65 O
+DSM-4 65 70 65 70 B-clinical_variable
+TR 71 73 71 73 I-clinical_variable
+) 73 74 73 74 O
+
+approximately 0 13 75 88 O
+9 14 15 89 90 B-upper_bound
+years 16 21 91 96 I-upper_bound
+of 22 24 97 99 O
+education 25 34 100 109 O
+
+approximately 0 13 110 123 O
+> 14 15 124 125 O
+2x 15 17 125 127 B-lower_bound
+/ 17 18 127 128 I-lower_bound
+week 18 22 128 132 I-lower_bound
+of 23 25 133 135 O
+moderate 26 34 136 144 O
+( 35 36 145 146 O
+or 36 38 146 148 O
+greater 39 46 149 156 O
+) 46 47 156 157 O
+exercise 48 56 158 166 O
+
+behavioral 0 10 167 177 B-chronic_disease
+disorders 11 20 178 187 I-chronic_disease
+that 21 25 188 192 O
+would 26 31 193 198 O
+prevent 32 39 199 206 O
+ability 40 47 207 214 O
+to 48 50 215 217 O
+follow 51 57 218 224 O
+the 58 61 225 228 O
+protocol 62 70 229 237 O
+
+contraindications 0 17 238 255 O
+to 18 20 256 258 O
+MRI 21 24 259 262 B-allergy_name
+scanning 25 33 263 271 I-allergy_name
+( 34 35 272 273 O
+e.g. 35 39 273 277 O
+claustrophobia 40 54 278 292 B-chronic_disease
+, 54 55 292 293 O
+pacemaker 56 65 294 303 O
+) 65 66 303 304 O
+
+documented 0 10 305 315 O
+history 11 18 316 323 O
+of 19 21 324 326 O
+HIV 22 25 327 330 B-chronic_disease
+infection 26 35 331 340 I-chronic_disease
+
+not 0 3 341 344 O
+engaged 4 11 345 352 O
+in 12 14 353 355 O
+regularly 15 24 356 365 O
+exercise 25 33 366 374 O
+for 34 37 375 378 O
+approximately 38 51 379 392 O
+3 52 53 393 394 B-upper_bound
+months 54 60 395 401 I-upper_bound
+prior 61 66 402 407 I-upper_bound
+to 67 69 408 410 O
+enrollment 70 80 411 421 O
+
+presence 0 8 422 430 O
+of 9 11 431 433 O
+dementia 12 20 434 442 B-chronic_disease
+
+pulmonary 0 9 443 452 B-chronic_disease
+disease 10 17 453 460 I-chronic_disease
+that 18 22 461 465 O
+precludes 23 32 466 475 O
+ability 33 40 476 483 O
+to 41 43 484 486 O
+safely 44 50 487 493 O
+exercise 51 59 494 502 O
+
+significant 0 11 503 514 O
+neurological 12 24 515 527 O
+disorders 25 34 528 537 O
+( 35 36 538 539 O
+e.g. 36 40 539 543 O
+stroke 41 47 544 550 B-chronic_disease
+, 47 48 550 551 O
+head 49 53 552 556 B-chronic_disease
+injury 54 60 557 563 I-chronic_disease
+with 61 65 564 568 O
+loss 66 70 569 573 O
+of 71 73 574 576 O
+consciousness 74 87 577 590 O
+for 88 91 591 594 O
+> 92 93 595 596 O
+30 93 95 596 598 B-lower_bound
+minutes 96 103 599 606 I-lower_bound
+, 103 104 606 607 O
+developmental 105 118 608 621 O
+learning 119 127 622 630 O
+disability 128 138 631 641 O
+

@@ -1,0 +1,123 @@
+Any 0 3 0 3 O
+reversible 4 14 4 14 O
+cause 15 20 15 20 O
+of 21 23 21 23 O
+AF 24 26 24 26 B-chronic_disease
+( 27 28 27 28 O
+post 28 32 28 32 B-treatment
+- 32 33 32 33 I-treatment
+operative 33 42 33 42 I-treatment
+, 42 43 42 43 O
+thyroid 44 51 44 51 B-chronic_disease
+disorder 52 60 52 60 I-chronic_disease
+, 60 61 60 61 O
+etc 62 65 62 65 O
+) 65 66 65 66 O
+
+Congestive 0 10 67 77 B-chronic_disease
+heart 11 16 78 83 I-chronic_disease
+failure 17 24 84 91 I-chronic_disease
+
+Males 0 5 92 97 B-gender
+
+Mental 0 6 98 104 B-chronic_disease
+impairment 7 17 105 115 I-chronic_disease
+precluding 18 28 116 126 O
+the 29 32 127 130 O
+patient 33 40 131 138 O
+from 41 45 139 143 O
+providing 46 55 144 153 O
+informed 56 64 154 162 O
+consent 65 72 163 170 O
+or 73 75 171 173 O
+completing 76 86 174 184 O
+appropriate 87 98 185 196 O
+follow 99 105 197 203 O
+- 105 106 203 204 O
+up 106 108 204 206 O
+
+Patients 0 8 207 215 O
+whose 9 14 216 221 O
+life 15 19 222 226 B-clinical_variable
+expectancy 20 30 227 237 I-clinical_variable
+is 31 33 238 240 O
+< 34 35 241 242 O
+1 35 36 242 243 B-upper_bound
+year 37 41 244 248 I-upper_bound
+
+Patients 0 8 249 257 O
+with 9 13 258 262 O
+a 14 15 263 264 O
+history 16 23 265 272 O
+of 24 26 273 275 O
+hypertrophic 27 39 276 288 B-chronic_disease
+cardiomyopathy 40 54 289 303 I-chronic_disease
+
+Patients 0 8 304 312 O
+with 9 13 313 317 O
+any 14 17 318 321 O
+corrected 18 27 322 331 O
+or 28 30 332 334 O
+uncorrected 31 42 335 346 O
+congenital 43 53 347 357 B-chronic_disease
+heart 54 59 358 363 I-chronic_disease
+disease 60 67 364 371 I-chronic_disease
+
+Women 0 5 372 377 B-gender
+who 6 9 378 381 O
+are 10 13 382 385 O
+known 14 19 386 391 O
+to 20 22 392 394 O
+be 23 25 395 397 O
+pregnant 26 34 398 406 B-pregnancy
+
+age 0 3 407 410 B-age
+> 4 5 411 412 O
+18 5 7 412 414 B-lower_bound
+years 8 13 415 420 I-lower_bound
+
+females 0 7 421 428 B-gender
+
+have 0 4 429 433 O
+had 5 8 434 437 O
+a 9 10 438 439 O
+positive 11 19 440 448 O
+β 20 21 449 450 B-treatment
+- 21 22 450 451 I-treatment
+HCG 22 25 451 454 I-treatment
+test 26 30 455 459 O
+7 31 32 460 461 B-upper_bound
+days 33 37 462 466 I-upper_bound
+prior 38 43 467 472 I-upper_bound
+to 44 46 473 475 O
+procedure 47 56 476 485 O
+
+prior 0 5 486 491 B-treatment
+ablation 6 14 492 500 I-treatment
+of 15 17 501 503 O
+a 18 19 504 505 O
+right 20 25 506 511 B-chronic_disease
+atrial 26 32 512 518 I-chronic_disease
+cardiac 33 40 519 526 I-chronic_disease
+arrhythmia 41 51 527 537 I-chronic_disease
+( 52 53 538 539 O
+i.e. 53 57 539 543 O
+, 57 58 543 544 O
+typical 59 66 545 552 O
+right 67 72 553 558 O
+atrial 73 79 559 565 O
+flutter 80 87 566 573 O
+) 87 88 573 574 O
+is 89 91 575 577 O
+permitted 92 101 578 587 O
+
+undergoing 0 10 588 598 O
+a 11 12 599 600 O
+first 13 18 601 606 O
+- 18 19 606 607 O
+time 19 23 607 611 O
+catheter 24 32 612 620 B-treatment
+ablation 33 41 621 629 I-treatment
+of 42 44 630 632 O
+AF 45 47 633 635 B-chronic_disease
+

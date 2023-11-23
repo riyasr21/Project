@@ -1,0 +1,175 @@
+Allergy 0 7 0 7 O
+to 8 10 8 10 O
+Premarin 11 19 11 19 B-allergy_name
+or 20 22 20 22 O
+its 23 26 23 26 O
+constituents 27 39 27 39 O
+
+Any 0 3 40 43 O
+oral 4 8 44 48 B-treatment
+or 9 11 49 51 O
+transdermal 12 23 52 63 B-treatment
+estrogen 24 32 64 72 I-treatment
+, 32 33 72 73 O
+SERM 34 38 74 78 B-treatment
+, 38 39 78 79 O
+or 40 42 80 82 O
+other 43 48 83 88 O
+medication 49 59 89 99 B-treatment
+impacting 60 69 100 109 O
+vaginal 70 77 110 117 O
+milieu 78 84 118 124 O
+
+Available 0 9 125 134 O
+for 10 13 135 138 O
+clinic 14 20 139 145 O
+follow 21 27 146 152 O
+- 27 28 152 153 O
+up 28 30 153 155 O
+for 31 34 156 159 O
+minimum 35 42 160 167 O
+1yr 43 46 168 171 B-upper_bound
+
+BMI 0 3 172 175 B-bmi
+> 4 5 176 177 O
+35 5 7 177 179 B-lower_bound
+kg 8 10 180 182 I-lower_bound
+/ 10 11 182 183 I-lower_bound
+m2 11 13 183 185 I-lower_bound
+
+Concurrent 0 10 186 196 O
+use 11 14 197 200 O
+of 15 17 201 203 O
+steroid 18 25 204 211 B-treatment
+creams 26 32 212 218 I-treatment
+for 33 36 219 222 O
+other 37 42 223 228 O
+indications 43 54 229 240 O
+( 55 56 241 242 O
+e.g. 56 60 242 246 O
+lichen 61 67 247 253 B-chronic_disease
+sclerosis 68 77 254 263 I-chronic_disease
+) 77 78 263 264 O
+
+Contraindications 0 17 265 282 O
+to 18 20 283 285 O
+estrogen 21 29 286 294 B-treatment
+therapy 30 37 295 302 I-treatment
+( 38 39 303 304 O
+e.g. 39 43 304 308 O
+spontaneous 44 55 309 320 O
+DVT 56 59 321 324 B-chronic_disease
+, 59 60 324 325 O
+stroke 61 67 326 332 B-chronic_disease
+, 67 68 332 333 O
+breast 69 75 334 340 B-cancer
+or 76 78 341 343 O
+endometrial/ 79 91 344 356 B-cancer
+hormone 92 99 357 364 B-cancer
+- 99 100 364 365 I-cancer
+responsive 100 110 365 375 I-cancer
+cancer 111 117 376 382 I-cancer
+, 117 118 382 383 O
+genital 119 126 384 391 O
+bleeding 127 135 392 400 O
+of 136 138 401 403 O
+unknown 139 146 404 411 O
+cause 147 152 412 417 O
+) 152 153 417 418 O
+
+History 0 7 419 426 O
+of 8 10 427 429 O
+connective 11 21 430 440 B-chronic_disease
+tissue 22 28 441 447 I-chronic_disease
+disease 29 36 448 455 I-chronic_disease
+
+History 0 7 456 463 O
+of 8 10 464 466 O
+vaginal 11 18 467 474 B-treatment
+irradiation 19 30 475 486 I-treatment
+
+Medically 0 9 487 496 O
+fit 10 13 497 500 O
+for 14 17 501 504 O
+elective 18 26 505 513 B-treatment
+surgery 27 34 514 521 I-treatment
+
+Minimum 0 7 522 529 O
+age 8 11 530 533 B-age
+: 11 12 533 534 O
+48 13 15 535 537 B-upper_bound
+years 16 21 538 543 I-upper_bound
+
+No 0 2 544 546 O
+estrogen 3 11 547 555 B-treatment
+replacement 12 23 556 567 I-treatment
+within 24 30 568 574 O
+the 31 34 575 578 O
+last 35 39 579 583 O
+month 40 45 584 589 O
+( 46 47 590 591 O
+may 47 50 591 594 O
+come 51 55 595 599 O
+off 56 59 600 603 O
+current 60 67 604 611 O
+treatment 68 77 612 621 B-treatment
+, 77 78 621 622 O
+i.e. 79 83 623 627 O
+wash 84 88 628 632 O
+out 89 92 633 636 O
+, 92 93 636 637 O
+to 94 96 638 640 O
+join 97 101 641 645 O
+the 102 105 646 649 O
+study 106 111 650 655 O
+) 111 112 655 656 O
+
+Physically 0 10 657 667 O
+able 11 15 668 672 O
+to 16 18 673 675 O
+apply 19 24 676 681 O
+/ 24 25 681 682 O
+insert 25 31 682 688 O
+the 32 35 689 692 O
+study 36 41 693 698 B-treatment
+drug 42 46 699 703 I-treatment
+
+Prior 0 5 704 709 B-treatment
+apical 6 12 710 716 I-treatment
+repair 13 19 717 723 I-treatment
+or 20 22 724 726 O
+use 23 26 727 730 O
+of 27 29 731 733 O
+mesh 30 34 734 738 B-chronic_disease
+for 35 38 739 742 I-chronic_disease
+prolapse 39 47 743 751 I-chronic_disease
+repair 48 54 752 758 I-chronic_disease
+
+Recent 0 6 759 765 O
+history 7 14 766 773 O
+( 15 16 774 775 O
+within 16 22 775 781 O
+last 23 27 782 786 O
+month 28 33 787 792 O
+) 33 34 792 793 O
+of 35 37 794 796 O
+vaginal 38 45 797 804 B-chronic_disease
+infection 46 55 805 814 I-chronic_disease
+or 56 58 815 817 O
+vaginitis 59 68 818 827 B-chronic_disease
+
+Symptomatic 0 11 828 839 B-chronic_disease
+apical 12 18 840 846 I-chronic_disease
+and/or 19 25 847 853 O
+anterior 26 34 854 862 B-chronic_disease
+vaginal 35 42 863 870 I-chronic_disease
+wall 43 47 871 875 I-chronic_disease
+prolapse 48 56 876 884 I-chronic_disease
+
+no 0 2 885 887 O
+menses 3 9 888 894 O
+for 10 13 895 898 O
+> 14 15 899 900 O
+1 15 16 900 901 B-lower_bound
+year 17 21 902 906 I-lower_bound
+

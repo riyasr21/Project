@@ -1,0 +1,158 @@
+Child 0 5 0 5 O
+is 6 8 6 8 O
+greater 9 16 9 16 O
+than 17 21 17 21 O
+or 22 24 22 24 O
+equal 25 30 25 30 O
+to 31 33 31 33 O
+one 34 37 34 37 B-lower_bound
+year 38 42 38 42 I-lower_bound
+of 43 45 43 45 O
+age 46 49 46 49 B-age
+
+Children 0 8 50 58 O
+who 9 12 59 62 O
+have 13 17 63 67 O
+a 18 19 68 69 O
+family 20 26 70 76 O
+history 27 34 77 84 O
+of 35 37 85 87 O
+primary 38 45 88 95 B-chronic_disease
+immunodeficiency 46 62 96 112 I-chronic_disease
+
+Current 0 7 113 120 O
+use 8 11 121 124 O
+of 12 14 125 127 O
+antibiotics 15 26 128 139 B-treatment
+or 27 29 140 142 O
+antivirals 30 40 143 153 B-treatment
+
+Evidence 0 8 154 162 O
+of 9 11 163 165 O
+developmental 12 25 166 179 O
+delay 26 31 180 185 O
+or 32 34 186 188 O
+evolving 35 43 189 197 O
+neurological 44 56 198 210 B-chronic_disease
+disorders 57 66 211 220 I-chronic_disease
+
+Has 0 3 221 224 O
+not 4 7 225 228 O
+or 8 10 229 231 O
+will 11 15 232 236 O
+not 16 19 237 240 O
+receive 20 27 241 248 O
+other 28 33 249 254 O
+vaccinations 34 46 255 267 B-treatment
+within 47 53 268 274 O
+30 54 56 275 277 B-upper_bound
+days 57 61 278 282 I-upper_bound
+of 62 64 283 285 O
+receiving 65 74 286 295 O
+study 75 80 296 301 O
+vaccine 81 88 302 309 O
+
+Height 0 6 310 316 B-clinical_variable
+or 7 9 317 319 O
+weight 10 16 320 326 B-clinical_variable
+less 17 21 327 331 O
+than 22 26 332 336 O
+5th 27 30 337 340 B-upper_bound
+percentile 31 41 341 351 I-upper_bound
+
+History 0 7 352 359 O
+of 8 10 360 362 O
+allergy 11 18 363 370 O
+to 19 21 371 373 O
+eggs 22 26 374 378 B-allergy_name
+or 27 29 379 381 O
+gentamicin 30 40 382 392 B-allergy_name
+
+History 0 7 393 400 O
+of 8 10 401 403 O
+lung 11 15 404 408 B-chronic_disease
+disease 16 23 409 416 I-chronic_disease
+, 23 24 416 417 O
+asthma 25 31 418 424 B-chronic_disease
+, 31 32 424 425 O
+and 33 36 426 429 O
+hospitalization 37 52 430 445 O
+for 53 56 446 449 O
+respiratory 57 68 450 461 B-chronic_disease
+illness 69 76 462 469 I-chronic_disease
+, 76 77 469 470 O
+immunodeficiency 78 94 471 487 B-chronic_disease
+, 94 95 487 488 O
+sickle 96 102 489 495 B-chronic_disease
+cell 103 107 496 500 I-chronic_disease
+disease 108 115 501 508 I-chronic_disease
+, 115 116 508 509 O
+or 117 119 510 512 O
+any 120 123 513 516 O
+other 124 129 517 522 O
+serious 130 137 523 530 O
+underlying 138 148 531 541 O
+condition 149 158 542 551 O
+
+Immunodeficient 0 15 552 567 B-cancer
+household 16 25 568 577 O
+members 26 33 578 585 O
+
+Upper 0 5 586 591 B-clinical_variable
+respiratory 6 17 592 603 I-clinical_variable
+tract 18 23 604 609 I-clinical_variable
+infection 24 33 610 619 I-clinical_variable
+( 34 35 620 621 I-clinical_variable
+URI 35 38 621 624 I-clinical_variable
+) 38 39 624 625 I-clinical_variable
+
+household 0 9 626 635 O
+member 10 16 636 642 O
+with 17 21 643 647 O
+URI 22 25 648 651 B-chronic_disease
+
+immunosuppressive 0 17 652 669 B-treatment
+drugs 18 23 670 675 I-treatment
+( 24 25 676 677 O
+e.g. 25 29 677 681 O
+, 29 30 681 682 O
+steroids 31 39 683 691 B-treatment
+) 39 40 691 692 O
+
+less 0 4 693 697 O
+than 5 9 698 702 O
+24 10 12 703 705 B-upper_bound
+months 13 19 706 712 I-upper_bound
+of 20 22 713 715 O
+age 23 26 716 719 B-age
+if 27 29 720 722 O
+same 30 34 723 727 O
+room 35 39 728 732 O
+contact 40 47 733 740 O
+is 48 50 741 743 O
+expected 51 59 744 752 O
+within 60 66 753 759 O
+14 67 69 760 762 B-upper_bound
+days 70 74 763 767 I-upper_bound
+of 75 77 768 770 O
+vaccination 78 89 771 782 B-treatment
+or 90 92 783 785 O
+7 93 94 786 787 O
+days 95 99 788 792 O
+after 100 105 793 798 O
+booster 106 113 799 806 O
+
+less 0 4 807 811 O
+than 5 9 812 816 O
+six 10 13 817 820 B-upper_bound
+years 14 19 821 826 I-upper_bound
+of 20 22 827 829 O
+age 23 26 830 833 B-age
+
+prior 0 5 834 839 O
+to 6 8 840 842 O
+evidence 9 17 843 851 O
+of 18 20 852 854 O
+vaccine 21 28 855 862 B-treatment
+clearance 29 38 863 872 O
+

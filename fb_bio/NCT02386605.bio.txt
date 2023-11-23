@@ -1,0 +1,60 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+schizophrenia 13 26 13 26 B-chronic_disease
+or 27 29 27 29 O
+schizoaffective 30 45 30 45 B-chronic_disease
+disorder 46 54 46 54 I-chronic_disease
+
+Neurological 0 12 55 67 B-chronic_disease
+disorder 13 21 68 76 I-chronic_disease
+
+No 0 2 77 79 O
+changes 3 10 80 87 O
+in 11 13 88 90 O
+housing 14 21 91 98 O
+in 22 24 99 101 O
+the 25 28 102 105 O
+past 29 33 106 110 B-upper_bound
+two 34 37 111 114 I-upper_bound
+months 38 44 115 121 I-upper_bound
+
+No 0 2 122 124 O
+medication 3 13 125 135 O
+changes 14 21 136 143 O
+in 22 24 144 146 O
+the 25 28 147 150 O
+past 29 33 151 155 B-lower_bound
+six 34 37 156 159 I-lower_bound
+weeks 38 43 160 165 I-lower_bound
+
+No 0 2 166 168 O
+psychiatric 3 14 169 180 O
+hospitalization 15 30 181 196 O
+in 31 33 197 199 O
+the 34 37 200 203 O
+past 38 42 204 208 B-upper_bound
+three 43 48 209 214 I-upper_bound
+months 49 55 215 221 I-upper_bound
+
+being 0 5 222 227 O
+insufficiently 6 20 228 242 O
+fluent 21 27 243 249 B-language_fluency
+in 28 30 250 252 I-language_fluency
+English 31 38 253 260 I-language_fluency
+
+seizures 0 8 261 269 B-chronic_disease
+
+substance 0 9 270 279 O
+dependence 10 20 280 290 O
+in 21 23 291 293 O
+the 24 27 294 297 O
+past 28 32 298 302 B-upper_bound
+6 33 34 303 304 I-upper_bound
+months 35 41 305 311 I-upper_bound
+or 42 44 312 314 O
+abuse 45 50 315 320 O
+in 51 53 321 323 O
+the 54 57 324 327 O
+past 58 62 328 332 O
+month 63 68 333 338 O
+

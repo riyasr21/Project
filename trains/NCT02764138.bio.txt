@@ -1,0 +1,25 @@
+Autism 0 6 0 6 B-chronic_disease
+diagnosis 7 16 7 16 O
+
+Child 0 5 17 22 O
+speaks 6 12 23 29 B-language_fluency
+English 13 20 30 37 I-language_fluency
+
+Family 0 6 38 44 B-clinical_variable
+income 7 13 45 51 I-clinical_variable
+at 14 16 52 54 O
+or 17 19 55 57 O
+below 20 25 58 63 O
+200 26 29 64 67 B-upper_bound
+% 29 30 67 68 I-upper_bound
+Federal 31 38 69 76 O
+Poverty 39 46 77 84 O
+Level 47 52 85 90 O
+
+age 0 3 91 94 B-age
+11 4 6 95 97 B-lower_bound
+or 7 9 98 100 O
+12 10 12 101 103 B-upper_bound
+at 13 15 104 106 O
+intake 16 22 107 113 O
+

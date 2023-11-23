@@ -1,0 +1,109 @@
+BMI 0 3 0 3 B-bmi
+< 4 5 4 5 O
+35 5 7 5 7 B-upper_bound
+and 8 11 8 11 O
+> 12 13 12 13 O
+60 14 16 14 16 B-lower_bound
+kg 17 19 17 19 I-lower_bound
+/ 19 20 19 20 I-lower_bound
+m2 20 22 20 22 I-lower_bound
+
+Cholecystectomy 0 15 23 38 B-chronic_disease
+
+History 0 7 39 46 O
+of 8 10 47 49 O
+hypersensitivity 11 27 50 66 O
+or 28 30 67 69 O
+adverse 31 38 70 77 O
+reaction 39 47 78 86 O
+to 48 50 87 89 O
+bupivacaine 51 62 90 101 B-allergy_name
+or 63 65 102 104 O
+narcotics 66 75 105 114 B-allergy_name
+
+Inability 0 9 115 124 B-language_fluency
+to 10 12 125 127 I-language_fluency
+speak 13 18 128 133 I-language_fluency
+English 19 26 134 141 I-language_fluency
+
+Planned 0 7 142 149 O
+operation 8 17 150 159 O
+of 18 20 160 162 O
+laparoscopic 21 33 163 175 B-treatment
+Roux 34 38 176 180 I-treatment
+- 38 39 180 181 I-treatment
+en 39 41 181 183 I-treatment
+Y 42 43 184 185 I-treatment
+gastric 44 51 186 193 I-treatment
+bypass 52 58 194 200 I-treatment
+( 59 60 201 202 I-treatment
+LRYGB 60 65 202 207 I-treatment
+) 65 66 207 208 I-treatment
+
+Preoperative 0 12 209 221 O
+chronic 13 20 222 229 B-chronic_disease
+opiate 21 27 230 236 I-chronic_disease
+use 28 31 237 240 O
+for 32 35 241 244 O
+chronic 36 43 245 252 B-chronic_disease
+pain 44 48 253 257 I-chronic_disease
+
+Previous 0 8 258 266 O
+major 9 14 267 272 B-treatment
+abdominal 15 24 273 282 I-treatment
+surgery 25 32 283 290 I-treatment
+( 33 34 291 292 O
+possible 34 42 292 300 O
+adhesions 43 52 301 310 O
+and 53 56 311 314 O
+longer 57 63 315 321 O
+operation 64 73 322 331 O
+) 73 74 331 332 O
+
+common 0 6 333 339 O
+OB 7 9 340 342 B-treatment
+/ 9 10 342 343 I-treatment
+GYN 10 13 343 346 I-treatment
+procedures 14 24 347 357 I-treatment
+in 25 27 358 360 I-treatment
+the 28 31 361 364 I-treatment
+pelvis 32 38 365 371 I-treatment
+
+hiatal 0 6 372 378 B-treatment
+hernia 7 13 379 385 I-treatment
+repair 14 20 386 392 I-treatment
+with 21 25 393 397 I-treatment
+posterior 26 35 398 407 I-treatment
+cruroplasty 36 47 408 419 I-treatment
+
+hysterectomy 0 12 420 432 B-treatment
+
+laparoscopic 0 12 433 445 B-treatment
+bowel 13 18 446 451 I-treatment
+
+laparoscopic 0 12 452 464 B-treatment
+cholecystectomy 13 28 465 480 I-treatment
+
+laparoscopic 0 12 481 493 B-treatment
+sleeve 13 19 494 500 I-treatment
+gastrectomy 20 31 501 512 I-treatment
+( 32 33 513 514 I-treatment
+LSG 33 36 514 517 I-treatment
+) 36 37 517 518 I-treatment
+as 38 40 519 521 O
+primary 41 48 522 529 O
+bariatric 49 58 530 539 O
+procedure 59 68 540 549 O
+
+oophorectomy 0 12 550 562 B-treatment
+
+solid 0 5 563 568 B-treatment
+organ 6 11 569 574 I-treatment
+resection 12 21 575 584 I-treatment
+
+ventral 0 7 585 592 B-treatment
+hernia 8 14 593 599 I-treatment
+repair 15 21 600 606 I-treatment
+with 22 26 607 611 O
+mesh 27 31 612 616 O
+

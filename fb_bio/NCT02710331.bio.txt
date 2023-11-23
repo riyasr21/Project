@@ -1,0 +1,18 @@
+21 0 2 0 2 B-lower_bound
+to 3 5 3 5 O
+55 6 8 6 8 B-upper_bound
+years 9 14 9 14 I-upper_bound
+of 15 17 15 17 O
+age 18 21 18 21 B-age
+
+Hearing 0 7 22 29 B-chronic_disease
+deficits 8 16 30 38 I-chronic_disease
+
+Males 0 5 39 44 B-gender
+
+Sesame 0 6 45 51 B-allergy_name
+oil 7 10 52 55 I-allergy_name
+allergy 11 18 56 63 O
+
+females 0 7 64 71 B-gender
+

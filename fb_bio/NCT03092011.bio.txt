@@ -1,0 +1,65 @@
+Babies 0 6 0 6 O
+being 7 12 7 12 O
+started 13 20 13 20 O
+on 21 23 21 23 O
+medication 24 34 24 34 O
+to 35 37 35 37 O
+control 38 45 38 45 O
+withdrawal 46 56 46 56 O
+symptoms 57 65 57 65 O
+of 66 68 66 68 O
+NAS 69 72 69 72 B-chronic_disease
+
+Greater 0 7 73 80 O
+than 8 12 81 85 O
+or 13 15 86 88 O
+equal 16 21 89 94 O
+to 22 24 95 97 O
+35 25 27 98 100 B-lower_bound
+weeks 28 33 101 106 I-lower_bound
+gestation 34 43 107 116 O
+age 44 47 117 120 O
+
+Infants 0 7 121 128 O
+with 8 12 129 133 O
+major 13 18 134 139 B-chronic_disease
+congenital 19 29 140 150 I-chronic_disease
+abnormalities 30 43 151 164 I-chronic_disease
+
+Mothers 0 7 165 172 O
+admitted 8 16 173 181 O
+to 17 19 182 184 O
+using 20 25 185 190 O
+illicit 26 33 191 198 O
+substances 34 44 199 209 O
+or 45 47 210 212 O
+prescription 48 60 213 225 O
+medications 61 72 226 237 O
+( 73 74 238 239 O
+which 74 79 239 244 O
+can 80 83 245 248 O
+result 84 90 249 255 O
+in 91 93 256 258 O
+withdrawal 94 104 259 269 O
+symptoms 105 113 270 278 O
+) 113 114 278 279 O
+while 115 120 280 285 O
+pregnant 121 129 286 294 B-pregnancy
+and/or 130 136 295 301 O
+had 137 140 302 305 O
+a 141 142 306 307 O
+positive 143 151 308 316 O
+urine 152 157 317 322 O
+drug 158 162 323 327 O
+screen 163 169 328 334 O
+during 170 176 335 341 O
+pregnancy 177 186 342 351 B-pregnancy
+
+Premature 0 9 352 361 O
+infants 10 17 362 369 O
+< 18 19 370 371 O
+35 19 21 371 373 B-upper_bound
+week 22 26 374 378 I-upper_bound
+gestational 27 38 379 390 B-clinical_variable
+age 39 42 391 394 I-clinical_variable
+

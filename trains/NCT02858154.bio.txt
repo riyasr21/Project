@@ -1,0 +1,12 @@
+Diagnosis 0 9 0 9 O
+of 10 12 10 12 O
+OSA 13 16 13 16 B-chronic_disease
+from 17 21 17 21 O
+previous 22 30 22 30 O
+PSG 31 34 31 34 B-treatment
+
+Infants 0 7 35 42 B-clinical_variable
+≤ 8 9 43 44 O
+12 10 12 45 47 B-upper_bound
+months 13 19 48 54 I-upper_bound
+

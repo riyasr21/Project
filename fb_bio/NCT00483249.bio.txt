@@ -1,0 +1,110 @@
+Anticipated 0 11 0 11 O
+mortality 12 21 12 21 O
+comparable 22 32 22 32 O
+to 33 35 33 35 O
+published 36 45 36 45 O
+rates 46 51 46 51 O
+with 52 56 52 56 O
+conventional 57 69 57 69 B-treatment
+surgical 70 78 70 78 I-treatment
+treatment 79 88 79 88 I-treatment
+
+Aortic 0 6 89 95 B-chronic_disease
+aneurysms 7 16 96 105 I-chronic_disease
+
+Free 0 4 106 110 O
+rupture 5 12 111 118 O
+of 13 15 119 121 O
+the 16 19 122 125 O
+aneurysm 20 28 126 134 B-chronic_disease
+
+Known 0 5 135 140 O
+allergy 6 13 141 148 O
+to 14 16 149 151 O
+Nitinol 17 24 152 159 B-allergy_name
+, 24 25 159 160 O
+stainless 26 35 161 170 B-allergy_name
+steel 36 41 171 176 I-allergy_name
+, 41 42 176 177 O
+or 43 45 178 180 O
+polyester 46 55 181 190 B-allergy_name
+
+Life 0 4 191 195 B-clinical_variable
+expectancy 5 15 196 206 I-clinical_variable
+more 16 20 207 211 O
+than 21 25 212 216 O
+2 26 27 217 218 B-lower_bound
+years 28 33 219 224 I-lower_bound
+
+Pregnancy 0 9 225 234 B-pregnancy
+
+Serious 0 7 235 242 B-chronic_disease
+systemic 8 16 243 251 I-chronic_disease
+or 17 19 252 254 I-chronic_disease
+groin 20 25 255 260 I-chronic_disease
+infection 26 35 261 270 I-chronic_disease
+
+Suitable 0 8 271 279 O
+arterial 9 17 280 288 O
+anatomy 18 25 289 296 O
+for 26 29 297 300 O
+endovascular 30 42 301 313 B-treatment
+repair 43 49 314 320 I-treatment
+
+Uncorrectable 0 13 321 334 O
+coagulopathy 14 26 335 347 B-chronic_disease
+
+and/or 0 6 348 354 O
+iliac 7 12 355 360 B-chronic_disease
+aneurysms 13 22 361 370 I-chronic_disease
+larger 23 29 371 377 O
+than 30 34 378 382 O
+4 35 36 383 384 B-lower_bound
+cm 37 39 385 387 I-lower_bound
+in 40 42 388 390 O
+diameter 43 51 391 399 O
+
+and/or 0 6 400 406 O
+larger 7 13 407 413 O
+than 14 18 414 418 O
+5 19 20 419 420 B-lower_bound
+cm 21 23 421 423 I-lower_bound
+in 24 26 424 426 I-lower_bound
+diameter 27 35 427 435 I-lower_bound
+and 36 39 436 439 O
+enlarging 40 49 440 449 O
+at 50 52 450 452 O
+a 53 54 453 454 O
+rate 55 59 455 459 O
+of 60 62 460 462 O
+more 63 67 463 467 O
+than 68 72 468 472 O
+5 73 74 473 474 B-lower_bound
+mm 75 77 475 477 I-lower_bound
+/ 77 78 477 478 I-lower_bound
+year 78 82 478 482 I-lower_bound
+
+greater 0 7 483 490 O
+than 8 12 491 495 O
+or 13 15 496 498 O
+equal 16 21 499 504 O
+to 22 24 505 507 O
+5.5 25 28 508 511 B-lower_bound
+cm 29 31 512 514 I-lower_bound
+in 32 34 515 517 O
+diameter 35 43 518 526 O
+in 44 46 527 529 O
+women 47 52 530 535 B-gender
+
+greater 0 7 536 543 O
+than 8 12 544 548 O
+or 13 15 549 551 O
+equal 16 21 552 557 O
+to 22 24 558 560 O
+6 25 26 561 562 B-upper_bound
+cm 27 29 563 565 I-upper_bound
+in 30 32 566 568 O
+diameter 33 41 569 577 O
+in 42 44 578 580 O
+men 45 48 581 584 B-gender
+

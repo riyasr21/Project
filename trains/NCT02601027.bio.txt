@@ -1,0 +1,77 @@
+Female 0 6 0 6 B-gender
+
+Greater 0 7 7 14 O
+than 8 12 15 19 O
+18 13 15 20 22 B-lower_bound
+years 16 21 23 28 I-lower_bound
+old 22 25 29 32 O
+
+History 0 7 33 40 O
+of 8 10 41 43 O
+addiction 11 20 44 53 O
+to 21 23 54 56 O
+narcotics 24 33 57 66 O
+within 34 40 67 73 O
+the 41 44 74 77 O
+last 45 49 78 82 B-upper_bound
+24 50 52 83 85 I-upper_bound
+months 53 59 86 92 I-upper_bound
+
+History 0 7 93 100 O
+of 8 10 101 103 O
+chronic 11 18 104 111 B-chronic_disease
+pain 19 23 112 116 I-chronic_disease
+on 24 26 117 119 O
+opioids 27 34 120 127 B-treatment
+within 35 41 128 134 O
+the 42 45 135 138 O
+last 46 50 139 143 B-upper_bound
+24 51 53 144 146 I-upper_bound
+months 54 60 147 153 I-upper_bound
+
+Patients 0 8 154 162 O
+who 9 12 163 166 O
+are 13 16 167 170 B-pregnancy
+pregnant 17 25 171 179 I-pregnancy
+
+Prior 0 5 180 185 O
+diagnosis 6 15 186 195 O
+or 16 18 196 198 O
+presumed 19 27 199 207 O
+diagnosis 28 37 208 217 O
+of 38 40 218 220 O
+breast 41 47 221 227 B-cancer
+cancer 48 54 228 234 I-cancer
+or 55 57 235 237 O
+undergoing 58 68 238 248 O
+prophylactic 69 81 249 261 B-treatment
+treatment 82 91 262 271 I-treatment
+
+Specific 0 8 272 280 O
+mental 9 15 281 287 B-chronic_disease
+health 16 22 288 294 I-chronic_disease
+issues 23 29 295 301 I-chronic_disease
+such 30 34 302 306 O
+as 35 37 307 309 O
+schizophrenia 38 51 310 323 B-chronic_disease
+or 52 54 324 326 O
+bipolar 55 62 327 334 B-chronic_disease
+disorder 63 71 335 343 I-chronic_disease
+
+True 0 4 344 348 O
+allergy 5 12 349 356 O
+to 13 15 357 359 O
+local 16 21 360 365 B-allergy_name
+anesthetics 22 33 366 377 I-allergy_name
+or 34 36 378 380 O
+opioids 37 44 381 388 B-allergy_name
+
+Undergoing 0 10 389 399 O
+microsurgical 11 24 400 413 B-treatment
+breast 25 31 414 420 I-treatment
+reconstruction 32 46 421 435 I-treatment
+with 47 51 436 440 I-treatment
+abdominal 52 61 441 450 I-treatment
+free 62 66 451 455 I-treatment
+flap 67 71 456 460 I-treatment
+

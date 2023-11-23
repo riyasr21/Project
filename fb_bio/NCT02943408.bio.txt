@@ -1,0 +1,104 @@
+Other 0 5 0 5 O
+Specified 6 15 6 15 O
+Trauma 16 22 16 22 B-chronic_disease
+and 23 26 23 26 I-chronic_disease
+Stressor 27 35 27 35 I-chronic_disease
+- 35 36 35 36 I-chronic_disease
+Related 36 43 36 43 I-chronic_disease
+Disorder 44 52 44 52 I-chronic_disease
+( 53 54 53 54 O
+309.89 54 60 54 60 O
+) 60 61 60 61 O
+
+Unspecified 0 11 62 73 O
+Trauma 12 18 74 80 B-chronic_disease
+and 19 22 81 84 O
+Stressor 23 31 85 93 B-chronic_disease
+- 31 32 93 94 I-chronic_disease
+Related 32 39 94 101 I-chronic_disease
+Disorder 40 48 102 110 I-chronic_disease
+( 49 50 111 112 O
+309.9 50 55 112 117 O
+) 55 56 117 118 O
+
+age 0 3 119 122 B-age
+between 4 11 123 130 O
+18 12 14 131 133 B-lower_bound
+and 15 18 134 137 O
+65 19 21 138 140 B-upper_bound
+
+generalized 0 11 141 152 O
+anxiety 12 19 153 160 B-chronic_disease
+disorder 20 28 161 169 I-chronic_disease
+( 29 30 170 171 O
+300.02 30 36 171 177 O
+) 36 37 177 178 O
+
+have 0 4 179 183 O
+a 5 6 184 185 O
+diagnosis 7 16 186 195 O
+of 17 19 196 198 O
+PTSD 20 24 199 203 B-chronic_disease
+( 25 26 204 205 I-chronic_disease
+309.81 26 32 205 211 I-chronic_disease
+) 32 33 211 212 I-chronic_disease
+
+major 0 5 213 218 B-chronic_disease
+depression 6 16 219 229 I-chronic_disease
+with 17 21 230 234 I-chronic_disease
+psychotic 22 31 235 244 I-chronic_disease
+features 32 40 245 253 I-chronic_disease
+( 41 42 254 255 O
+296.24 42 48 255 261 O
+, 48 49 261 262 O
+296.34 50 56 263 269 O
+) 56 57 269 270 O
+
+major 0 5 271 276 B-chronic_disease
+depressive 6 16 277 287 I-chronic_disease
+disorder 17 25 288 296 I-chronic_disease
+( 26 27 297 298 O
+296.20 27 33 298 304 O
+- 33 34 304 305 O
+296.23 34 40 305 311 O
+, 40 41 311 312 O
+296.30 42 48 313 319 O
+- 48 49 319 320 O
+296.33 49 55 320 326 O
+) 55 56 326 327 O
+
+other 0 5 328 333 O
+specified 6 15 334 343 O
+or 16 18 344 346 O
+unspecified 19 30 347 358 O
+anxiety 31 38 359 366 B-chronic_disease
+disorder 39 47 367 375 I-chronic_disease
+( 48 49 376 377 O
+300.09 49 55 377 383 O
+, 55 56 383 384 O
+300.00 57 63 385 391 O
+) 63 64 391 392 O
+
+other 0 5 393 398 O
+specified 6 15 399 408 B-chronic_disease
+or 16 18 409 411 I-chronic_disease
+unspecified 19 30 412 423 I-chronic_disease
+depressive 31 41 424 434 I-chronic_disease
+disorder 42 50 435 443 I-chronic_disease
+( 51 52 444 445 I-chronic_disease
+311 52 55 445 448 I-chronic_disease
+) 55 56 448 449 I-chronic_disease
+
+panic 0 5 450 455 B-chronic_disease
+disorder 6 14 456 464 I-chronic_disease
+( 15 16 465 466 O
+300.01 16 22 466 472 O
+) 22 23 472 473 O
+
+social 0 6 474 480 B-chronic_disease
+anxiety 7 14 481 488 I-chronic_disease
+disorder 15 23 489 497 I-chronic_disease
+( 24 25 498 499 I-chronic_disease
+300.23 25 31 499 505 I-chronic_disease
+) 31 32 505 506 I-chronic_disease
+

@@ -1,0 +1,87 @@
+Patients 0 8 0 8 O
+with 9 13 9 13 O
+collagen 14 22 14 22 B-chronic_disease
+vascular 23 31 23 31 I-chronic_disease
+, 31 32 31 32 O
+autoimmune 33 43 33 43 B-chronic_disease
+or 44 46 44 46 O
+immunodeficiency 47 63 47 63 B-chronic_disease
+disease 64 71 64 71 I-chronic_disease
+
+Pregnant 0 8 72 80 B-pregnancy
+
+Who 0 3 81 84 O
+are 4 7 85 88 O
+21 8 10 89 91 B-lower_bound
+years 11 16 92 97 I-lower_bound
+of 17 19 98 100 O
+age 20 23 101 104 B-age
+or 24 26 105 107 O
+older 27 32 108 113 O
+
+Who 0 3 114 117 O
+have 4 8 118 122 O
+a 9 10 123 124 O
+corneal 11 18 125 132 B-clinical_variable
+thickness 19 28 133 142 I-clinical_variable
+of 29 31 143 145 O
+450 32 35 146 149 B-lower_bound
+microns 36 43 150 157 O
+or 44 46 158 160 O
+greater 47 54 161 168 O
+at 55 57 169 171 O
+the 58 61 172 175 O
+proposed 62 70 176 184 O
+incision 71 79 185 193 O
+site 80 84 194 198 O
+
+Who 0 3 199 202 O
+have 4 8 203 207 O
+corneal 9 16 208 215 B-treatment
+transplantation 17 32 216 231 I-treatment
+as 33 35 232 234 O
+the 36 39 235 238 O
+only 40 44 239 243 O
+remaining 45 54 244 253 O
+option 55 61 254 260 O
+to 62 64 261 263 O
+improve 65 72 264 271 O
+their 73 78 272 277 O
+functional 79 89 278 288 O
+vision 90 96 289 295 O
+
+amiodarone 0 10 296 306 B-treatment
+HCL 11 14 307 310 I-treatment
+( 15 16 311 312 I-treatment
+Cordarone 16 25 312 321 I-treatment
+) 25 26 321 322 I-treatment
+
+corneal 0 7 323 330 B-chronic_disease
+dystrophy 8 17 331 340 I-chronic_disease
+
+isotretinoin 0 12 341 353 B-treatment
+( 13 14 354 355 I-treatment
+Accutane 14 22 355 363 I-treatment
+) 22 23 363 364 I-treatment
+
+recurrent 0 9 365 374 B-chronic_disease
+corneal 10 17 375 382 I-chronic_disease
+erosion 18 25 383 390 I-chronic_disease
+syndrome 26 34 391 399 I-chronic_disease
+
+who 0 3 400 403 O
+have 4 8 404 408 O
+a 9 10 409 410 O
+corneal 11 18 411 418 B-clinical_variable
+thickness 19 28 419 428 I-clinical_variable
+of 29 31 429 431 O
+449 32 35 432 435 B-upper_bound
+microns 36 43 436 443 I-upper_bound
+or 44 46 444 446 O
+less 47 51 447 451 O
+at 52 54 452 454 O
+the 55 58 455 458 O
+proposed 59 67 459 467 O
+incision 68 76 468 476 O
+site 77 81 477 481 O
+

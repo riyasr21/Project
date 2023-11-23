@@ -1,0 +1,55 @@
+18 0 2 0 2 B-lower_bound
+years 3 8 3 8 I-lower_bound
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+or 16 18 16 18 O
+older 19 24 19 24 O
+with 25 29 25 29 O
+resectable 30 40 30 40 B-cancer
+pancreatic 41 51 41 51 I-cancer
+adenocarcinoma 52 66 52 66 I-cancer
+for 67 70 67 70 O
+whom 71 75 71 75 O
+surgery 76 83 76 83 B-treatment
+is 84 86 84 86 O
+planned 87 94 87 94 O
+( 95 96 95 96 O
+includes 96 104 96 104 O
+borderline 105 115 105 115 O
+resectable 116 126 116 126 O
+if 127 129 127 129 O
+deemed 130 136 130 136 O
+appropriate 137 148 137 148 O
+by 149 151 149 151 O
+surgical 152 160 152 160 O
+investigators 161 174 161 174 O
+) 174 175 174 175 O
+or 176 178 176 178 O
+has 179 182 179 182 O
+occurred 183 191 183 191 O
+within 192 198 192 198 O
+the 199 202 199 202 O
+past 203 207 203 207 B-upper_bound
+3 208 209 208 209 I-upper_bound
+years 210 215 210 215 I-upper_bound
+
+English 0 7 216 223 B-language_fluency
+speaking 8 16 224 232 I-language_fluency
+
+not 0 3 233 236 O
+including 4 13 237 246 O
+skin 14 18 247 251 B-cancer
+or 19 21 252 254 I-cancer
+cervical 22 30 255 263 I-cancer
+cancer 31 37 264 270 I-cancer
+in 38 40 271 273 I-cancer
+situ 41 45 274 278 I-cancer
+
+pancreatic 0 10 279 289 B-cancer
+cancer 11 17 290 296 I-cancer
+recurrence 18 28 297 307 I-cancer
+
+severe 0 6 308 314 B-chronic_disease
+emotional 7 16 315 324 I-chronic_disease
+distress 17 25 325 333 I-chronic_disease
+

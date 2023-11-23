@@ -1,0 +1,42 @@
+Stable 0 6 0 6 O
+on 7 9 7 9 O
+psychotropic 10 22 10 22 B-treatment
+or 23 25 23 25 O
+other 26 31 26 31 O
+medication 32 42 32 42 B-treatment
+
+age 0 3 43 46 B-age
+18 4 6 47 49 B-lower_bound
+years 7 12 50 55 I-lower_bound
+old 13 16 56 59 O
+and 17 20 60 63 O
+older 21 26 64 69 O
+
+concurrent 0 10 70 80 O
+Cognitive 11 20 81 90 B-treatment
+- 20 21 90 91 I-treatment
+Behavioral 21 31 91 101 I-treatment
+therapy 32 39 102 109 I-treatment
+for 40 43 110 113 O
+OCD 44 47 114 117 B-chronic_disease
+
+primary 0 7 118 125 O
+diagnosis 8 17 126 135 O
+of 18 20 136 138 O
+OCD 21 24 139 142 B-chronic_disease
+
+psychiatric 0 11 143 154 B-chronic_disease
+or 12 14 155 157 I-chronic_disease
+medical 15 22 158 165 I-chronic_disease
+conditions 23 33 166 176 I-chronic_disease
+that 34 38 177 181 O
+make 39 43 182 186 O
+participation 44 57 187 200 O
+unsafe 58 64 201 207 O
+
+sufficient 0 10 208 218 O
+severity 11 19 219 227 O
+of 20 22 228 230 O
+OCD 23 26 231 234 B-chronic_disease
+symptoms 27 35 235 243 O
+

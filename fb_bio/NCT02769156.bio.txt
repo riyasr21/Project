@@ -1,0 +1,13 @@
+18 0 2 0 2 O
+years 3 8 3 8 O
+of 9 11 9 11 O
+age 12 15 12 15 B-age
+
+Patients 0 8 16 24 O
+with 9 13 25 29 O
+a 14 15 30 31 O
+known 16 21 32 37 O
+allergy 22 29 38 45 O
+to 30 32 46 48 O
+Benadryl 33 41 49 57 B-allergy_name
+
